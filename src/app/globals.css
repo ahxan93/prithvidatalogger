@@ -1,26 +1,295 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/* ---------------------------------------------------------------------------
+   Design tokens
+   brand-600 is the exact logo blue (#00259B). Other brand shades are derived in
+   OKLCH at the same hue (263.7°). All text pairs used in components meet WCAG AA.
+--------------------------------------------------------------------------- */
+@theme {
+  /* Brand (logo blue) */
+  --color-brand-50: #f1f5fe;
+  --color-brand-100: #dde8fe;
+  --color-brand-200: #bfd5ff;
+  --color-brand-300: #93b7fe;
+  --color-brand-400: #487ef7;
+  --color-brand-500: #194dd1;
+  --color-brand-600: #00259b;
+  --color-brand-700: #032177;
+  --color-brand-800: #02185a;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  /* Neutrals */
+  --color-navy-950: #0b1026; /* hero / footer */
+  --color-navy-900: #121a3a;
+  --color-surface: #f5f7fb;
+  --color-ink: #1e293b;
+  /* #64748B was 4.44:1 on surface (fails AA); #5F6F86 passes on white, surface and brand-50. */
+  --color-muted: #5f6f86;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  /* Accents */
+  --color-violet-500: #7c3aed; /* secondary accent, matches product photos */
+  --color-cyan-400: #22d3ee; /* live-data highlights on dark */
+  --color-live-green: #22c55e;
+  --color-whatsapp: #25d366; /* use dark text on it: white is only 1.98:1 */
+
+  /* Radius */
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 24px;
+
+  /* Shadows */
+  --shadow-soft: 0 1px 2px rgb(11 16 38 / 0.04), 0 8px 24px -6px rgb(11 16 38 / 0.1);
+  --shadow-soft-lg: 0 2px 4px rgb(11 16 38 / 0.04), 0 18px 40px -12px rgb(11 16 38 / 0.18);
+  /* Brand-blue glow for elements floating on dark sections. */
+  --shadow-glow: 0 40px 120px -24px rgb(0 37 155 / 0.65), 0 0 0 1px rgb(255 255 255 / 0.06);
+
+  /* Animation (always applied through motion-safe: variants) */
+  --animate-marquee: marquee var(--marquee-duration, 40s) linear infinite;
+  --animate-marquee-reverse: marquee var(--marquee-duration, 40s) linear infinite reverse;
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-signal: signal 3.6s ease-out infinite;
+  --animate-aurora: aurora 18s ease-in-out infinite alternate;
+  --animate-route: route-flow 2.4s linear infinite;
+  @keyframes route-flow {
+    to {
+      stroke-dashoffset: -24;
+    }
+  }
+  --animate-tick: tick 0.7s ease-out;
+  @keyframes tick {
+    from {
+      opacity: 0.35;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  @keyframes signal {
+    0% {
+      transform: scale(0.55);
+      opacity: 0.55;
+    }
+    100% {
+      transform: scale(1.35);
+      opacity: 0;
+    }
+  }
+  @keyframes aurora {
+    0% {
+      transform: translate3d(-4%, -2%, 0);
+    }
+    100% {
+      transform: translate3d(4%, 3%, 0);
+    }
+  }
+  --animate-soft-pulse: soft-pulse 2.4s ease-out infinite;
+  @keyframes soft-pulse {
+    0% {
+      transform: scale(1);
+      opacity: 0.5;
+    }
+    70%,
+    100% {
+      transform: scale(1.5);
+      opacity: 0;
+    }
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* The ₹ sign (U+20B9) is not in the preloaded Latin font files. Without this, one
+   rupee sign makes the browser download the whole Latin-Extended Inter file (84 KB).
+   This face maps only that character to a font already on the device; if none of
+   them exist, the browser falls through to Inter as before. */
+@font-face {
+  font-family: "Rupee Local";
+  src: local("Segoe UI"), local("Roboto"), local("Noto Sans"), local("Helvetica Neue"), local("Arial");
+  unicode-range: U+20B9;
+}
+
+/* Fonts come from next/font CSS variables set on <html> in layout.tsx. */
+@theme inline {
+  --font-sans: "Rupee Local", var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Rupee Local", var(--font-sora), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* ---------------------------------------------------------------------------
+   Utilities
+--------------------------------------------------------------------------- */
+
+/* Decorative fills (bars, icons, borders). Not for text backgrounds: white text
+   fails contrast on the cyan end. */
+@utility bg-brand-gradient {
+  background-image: linear-gradient(
+    135deg,
+    var(--color-brand-600) 0%,
+    var(--color-brand-500) 40%,
+    var(--color-cyan-400) 100%
+  );
+}
+
+/* Gradient headline text for dark sections (brand-400 → cyan-400, ≥4.8:1 on navy-950). */
+@utility text-brand-gradient {
+  background-image: linear-gradient(90deg, var(--color-brand-400), var(--color-cyan-400));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* Soft colour glows. Radial gradients, not blur(): a large CSS blur filter is slow
+   to paint (it held the homepage's first paint back by ~1 s on a cold load).
+   Control strength with opacity-* and size with size-*. */
+@utility glow-brand {
+  background-image: radial-gradient(closest-side, var(--color-brand-500), transparent);
+}
+@utility glow-cyan {
+  background-image: radial-gradient(closest-side, var(--color-cyan-400), transparent);
+}
+@utility glow-violet {
+  background-image: radial-gradient(closest-side, var(--color-violet-500), transparent);
+}
+@utility glow-soft {
+  background-image: radial-gradient(closest-side, var(--color-brand-200), transparent);
+}
+
+/* Below-the-fold sections: the browser skips their layout and paint until they
+   are near the viewport, which shortens the first render on long pages. Content
+   stays in the DOM (search engines, find-in-page and anchor links still work). */
+@utility cv-auto {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 720px;
+}
+
+/* Subtle dot grid for dark sections. */
+@utility bg-dot-grid {
+  background-image: radial-gradient(rgb(255 255 255 / 0.07) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+/* ---------------------------------------------------------------------------
+   Base
+--------------------------------------------------------------------------- */
+@layer base {
+  :root {
+    --header-h: 4.5rem;
+    color-scheme: light;
+  }
+  @media (min-width: 1024px) {
+    :root {
+      --header-h: 5rem;
+    }
+  }
+
+  /* Readability on phones: body copy set with text-sm (14px) renders at 16px below
+     640px. Small labels use text-xs and stay small. */
+  @media (max-width: 639.98px) {
+    :root {
+      --text-sm: 1rem;
+      --text-sm--line-height: 1.5;
+    }
+  }
+
+  html {
+    scroll-padding-top: calc(var(--header-h) + 1rem);
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-white font-sans text-ink antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-heading tracking-tight text-balance;
+  }
+
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-brand-500;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    ::before,
+    ::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   Product filter (/products)
+   CSS-only: the chips are radio inputs; a card stays visible only if its
+   data-filters list contains the checked value. "all" hides nothing.
+--------------------------------------------------------------------------- */
+@layer components {
+  .product-filter:has(input[value="temperature"]:checked) [data-filters]:not([data-filters~="temperature"]),
+  .product-filter:has(input[value="temp-rh"]:checked) [data-filters]:not([data-filters~="temp-rh"]),
+  .product-filter:has(input[value="multi-channel"]:checked) [data-filters]:not([data-filters~="multi-channel"]),
+  .product-filter:has(input[value="gsm"]:checked) [data-filters]:not([data-filters~="gsm"]) {
+    display: none;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   Site header states
+   The header is fixed. On pages whose first section has data-hero="dark" it is
+   transparent (white logo, white links) until scrolled; everywhere else it is
+   solid white. Pure CSS (:has) so the server-rendered HTML is already correct.
+--------------------------------------------------------------------------- */
+@layer components {
+  .site-main {
+    padding-top: var(--header-h);
+  }
+  body:has([data-hero="dark"]) .site-main {
+    padding-top: 0;
+  }
+
+  .site-header {
+    --nav-active: var(--color-brand-600);
+    --nav-hover-bg: var(--color-brand-50);
+    @apply border-b border-slate-200/80 bg-white/95 text-ink backdrop-blur transition-[background-color,box-shadow,border-color] duration-300;
+  }
+  .site-header[data-scrolled="true"] {
+    @apply border-transparent shadow-soft;
+  }
+  .site-header .logo-on-dark {
+    display: none;
+  }
+
+  body:has([data-hero="dark"]) .site-header[data-scrolled="false"] {
+    --nav-active: var(--color-cyan-400);
+    --nav-hover-bg: rgb(255 255 255 / 0.1);
+    @apply border-transparent bg-transparent text-white shadow-none backdrop-blur-none;
+  }
+  body:has([data-hero="dark"]) .site-header[data-scrolled="false"] .logo-on-dark {
+    display: block;
+  }
+  body:has([data-hero="dark"]) .site-header[data-scrolled="false"] .logo-on-light {
+    display: none;
+  }
 }

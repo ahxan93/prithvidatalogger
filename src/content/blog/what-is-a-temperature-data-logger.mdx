@@ -1,0 +1,73 @@
+export const meta = {
+  title: "What Is a Temperature Data Logger and How Does It Work?",
+  description:
+    "A plain-English guide to temperature data loggers: what they record, how they connect, and how to choose one for a fridge, room or warehouse.",
+  date: "2026-10-06",
+  author: "Ashwin Masurkar",
+  cover: "/images/blog/what-is-a-temperature-data-logger",
+  tags: ["Data Loggers", "Basics", "Monitoring"],
+  summary: [
+    "A data logger records temperature (and often humidity) automatically, at a set interval, instead of relying on someone writing down a reading.",
+    "Readings are stored on the device and synced over Wi-Fi, GSM or LoRa so they can be viewed, alerted on and reported from anywhere.",
+    "The right logger depends on how many points you need to watch and what range and probe type the space calls for.",
+  ],
+  draft: true,
+};
+
+A temperature data logger is a small electronic device that measures temperature — and, on many models, humidity — at regular intervals and keeps a record of every reading. Unlike a thermometer, which only shows the value at the moment you look at it, a data logger builds a continuous history, so nothing that happens between checks goes unnoticed.
+
+## What a Data Logger Actually Records
+
+Each reading a data logger takes is timestamped and stored, usually alongside the two measurements that matter most for a controlled environment: temperature and relative humidity (RH). Over a day, a week or a month, these readings build into a complete picture of how stable a space has been, not just a handful of snapshots.
+
+This matters anywhere a product, sample or process depends on staying within a range. A refrigerator that drifts above its set point for twenty minutes overnight will never show up on a once-a-day manual check, but it will show up clearly in a logger's record.
+
+## From Paper Charts to Connected Loggers
+
+Temperature recording has gone through a few distinct generations. Older facilities often relied on circular chart recorders — a pen tracing a line onto a slowly rotating paper disc — which gave a continuous record but one that had to be physically collected, read and filed by hand. Standalone digital loggers came next: small devices that recorded readings to internal memory, but still had to be plugged into a computer to retrieve the data, so problems were often discovered well after the fact.
+
+Connected data loggers are the current generation, and the difference is really about timing. Instead of a record that's only reviewed after the fact, a connected logger surfaces problems as they happen, through live alerts, while still keeping the complete historical record a chart recorder or standalone logger would have given you.
+
+## How a Data Logger Works
+
+### Sensor and Measurement
+
+Inside the device, a temperature sensor (and, on combined models, a humidity sensor) takes a reading. Depending on the model, the sensor sits inside the logger itself or at the end of an external probe on a cable, which lets the sensing point sit inside a freezer or chamber while the logger body stays outside, easier to read and service.
+
+### Logging Interval and Storage
+
+The logger saves each reading to its own memory at an interval you choose, typically anywhere from once a minute to once an hour. A shorter interval gives a more detailed record but fills memory faster; a longer interval stretches storage further. Our own [Setu](/products/setu), [Nakshatra](/products/nakshatra) and other series store up to 1,00,000 records, so even a busy logging schedule covers a long stretch before anything needs downloading.
+
+### Connectivity and Alerts
+
+This is where a modern data logger goes beyond an old-style recorder that had to be plugged into a computer to read. It syncs its readings — commonly over Wi-Fi, though GSM (SIM-based) and LoRa options exist for sites without Wi-Fi — to a monitoring dashboard, where readings, trends and reports can be viewed from any device. If a reading leaves the range you've set, an alert goes out by email, SMS or the mobile app, so someone can act before a small deviation becomes a bigger problem.
+
+### Battery and Charging
+
+Loggers run on a rechargeable Li-ion battery, charged through a universal USB Type-C port — the same connector most modern phones use, so there's nothing proprietary to keep track of. Battery life depends on how often the device logs and syncs, but as a general guide, our standard models run for about three months on a single charge at a 10-minute logging interval. Pro variants of our single-channel series carry a higher-capacity battery for longer runtime between charges, and a charging dock lets a spare, already-charged battery swap in immediately, so a device never has to sit idle while it charges.
+
+## Data Logger vs. Manual Temperature Checks
+
+A manual log sheet only ever shows the reading at the moment someone wrote it down. Between those entries — overnight, over a weekend, during a busy shift — the record is blank. A data logger removes that gap: it keeps measuring and recording whether or not anyone is in the room, and it raises an alert the moment something goes wrong rather than waiting for the next scheduled check.
+
+It also removes a layer of manual effort. Nobody has to walk the floor with a clipboard, and the resulting record is a timestamped digital file rather than a page that can be misplaced, illegible or filled in late.
+
+## Choosing the Right Logger for Your Space
+
+Two questions decide which logger fits:
+
+**How many points do you need to watch?** A single fridge or a small store needs one channel — [Setu](/products/setu) for temperature only, or [Nakshatra](/products/nakshatra) if humidity matters too. A warehouse or multi-room facility needs more channels from one device: our range runs from two channels ([Rajmudra](/products/rajmudra)) up to sixteen ([Virat](/products/virat)), so several points can be watched and reported from a single logger instead of running many separate units.
+
+**Does the sensor need to be inside something, and how cold does it get?** Where the logger itself can sit in the space being measured, an internal-sensor model is simplest. Where the sensing point has to go inside a sealed freezer, chamber or vehicle while the logger stays accessible outside, an external-probe ("X") model is the better fit — our X variants use a probe rated down to −100 °C.
+
+## What Happens to the Data
+
+Once a reading reaches the monitoring dashboard, it's available as more than a single number on a screen. Reports can be produced as a graph, a table, or both, and exported to PDF, Excel or CSV — useful whether you're reviewing a week of readings yourself or preparing a file for an audit. Access is role-based, so different people see only what their role needs to, and a complete audit trail records who did what and when. For pharmaceutical and healthcare environments specifically, this kind of role-based access and audit trail is what supports 21 CFR Part 11 compliance alongside GMP and GDP requirements — the logger and dashboard provide the infrastructure; your own quality system defines how it's applied.
+
+Alerts, meanwhile, don't just fire once and stop. If a reading leaves its set range and nobody acknowledges the alert, it escalates — typically moving from a first-level notification up to a second and third level — so a problem can't quietly go unnoticed simply because one person missed a message.
+
+## Where Data Loggers Are Used
+
+Anywhere a product or process depends on staying within range: pharmaceutical storage and stability areas, vaccine and cold chain logistics, hospital and laboratory refrigeration, food storage and processing, and warehousing. See our [pharmaceutical temperature monitoring](/industries/pharmaceutical) page for how this applies specifically to medicine storage and stability testing.
+
+A data logger is, at its core, a simple idea — measure, record, alert — built into a device small enough to sit on a shelf. The details that matter are how many points you need to cover, what range and probe type the job calls for, and how you want to see and act on the readings it collects.
