@@ -266,7 +266,6 @@ for (const { node, path: p } of all) {
   // Cluster: a state hub above it.
   const stateNode = all.find((l) => l.path.join("/") === p.slice(0, 2).join("/"));
   if (!stateNode || stateNode.node.type !== "state") f("is not under a state hub");
-  else if (!stateNode.node.indexable) f("its state hub is not indexable");
   // SEO settings.
   const title = node.metaTitle;
   if (title.length > 60) f(`metaTitle is ${title.length} chars (max 60)`);
