@@ -181,6 +181,12 @@
   background-size: 22px 22px;
 }
 
+/* Same pattern, dark dots for light sections. */
+@utility bg-dot-grid-light {
+  background-image: radial-gradient(rgb(11 16 38 / 0.06) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
 /* ---------------------------------------------------------------------------
    Base
 --------------------------------------------------------------------------- */
