@@ -32,7 +32,7 @@ export const industries: Industry[] = [
     recommended: ["nakshatra", "rajmudra-pro", "dhruva-pro"],
     whyItMatters:
       "Medicines can lose potency when storage drifts outside its labelled range, often without any visible sign. Continuous logging with alerts lets QA teams act as soon as an excursion happens, and the stored records give auditors a complete history instead of hand-written spot checks.",
-    image: "/images/industries/pharmaceutical.jpg",
+    image: "/images/industries/pharmaceutical.webp",
     seo: {
       primaryKeyword: "pharmaceutical temperature monitoring",
       supporting: ["GDP", "21 CFR Part 11 data logger"],
@@ -51,7 +51,7 @@ export const industries: Industry[] = [
     recommended: ["setu-x", "nakshatra", "vayu"],
     whyItMatters:
       "Vaccines stay effective only inside a narrow temperature band, and one unnoticed excursion can mean discarding a whole batch. Real-time alerts and in-transit monitoring show exactly where and when a problem started, from the cold room to the delivery point.",
-    image: "/images/industries/vaccine-cold-chain.jpg",
+    image: "/images/industries/vaccine-cold-chain.webp",
     seo: {
       primaryKeyword: "vaccine cold chain monitoring",
       supporting: ["vaccine refrigerator data logger"],
@@ -79,7 +79,7 @@ export const industries: Industry[] = [
     recommended: ["setu", "setu-x", "nakshatra"],
     whyItMatters:
       "Food safety depends on keeping chilled and frozen products at the right temperature from receipt to service. Continuous records replace manual log sheets, reduce spoilage and make food-safety checks quicker to prepare for.",
-    image: "/images/industries/food-beverage.jpg",
+    image: "/images/industries/food-beverage.webp",
   },
   {
     slug: "logistics-warehousing",
@@ -121,7 +121,7 @@ export const industries: Industry[] = [
     recommended: ["setu-x", "rajmudra"],
     whyItMatters:
       "Research results are only as reliable as the conditions the samples were kept in. A complete temperature history protects months of work and supports data integrity when results are reviewed.",
-    image: "/images/industries/laboratories.jpg",
+    image: "/images/industries/laboratories.webp",
   },
   {
     slug: "chemical",
@@ -135,7 +135,7 @@ export const industries: Industry[] = [
     recommended: ["dhruva", "veer"],
     whyItMatters:
       "Many chemicals degrade or become unstable outside their specified storage temperature. Multi-point monitoring across stores and process areas helps protect material quality and supports safe handling.",
-    image: "/images/industries/chemical.jpg",
+    image: "/images/industries/chemical.webp",
   },
   {
     slug: "electronics",
@@ -163,7 +163,7 @@ export const industries: Industry[] = [
     recommended: ["nakshatra", "veer-pro"],
     whyItMatters:
       "Yarn and fabric react to humidity, which affects strength, weight and how smoothly production runs. Monitoring humidity across storage and production areas helps keep quality consistent from batch to batch.",
-    image: "/images/industries/textile.jpg",
+    image: "/images/industries/textile.webp",
   },
 ];
 

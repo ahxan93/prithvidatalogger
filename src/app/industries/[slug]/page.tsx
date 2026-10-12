@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getIndustryBySlug, industries } from "@/data/industries";
@@ -81,6 +80,8 @@ export default async function IndustryPage({ params }: PageProps<"/industries/[s
         eyebrow="Industries"
         title={pageTitle(industry.name)}
         intro={industry.whyItMatters}
+        backgroundImage={hasPhoto ? industry.image : undefined}
+        backgroundImageAlt={`${industry.name} temperature monitoring`}
       >
         <div data-avoid-floating className="flex flex-col gap-3 sm:flex-row">
           <Button href={quoteHref} size="lg">
@@ -95,34 +96,19 @@ export default async function IndustryPage({ params }: PageProps<"/industries/[s
 
       {/* Challenges */}
       <Section aria-labelledby="challenges-title">
-        <div className={hasPhoto ? "grid items-center gap-12 lg:grid-cols-2" : undefined}>
-          <div>
-            <SectionHeading
-              id="challenges-title"
-              eyebrow="Challenges"
-              title={`${industry.name} Monitoring Challenges`}
-            />
-            <ul className={hasPhoto ? "mt-8 space-y-4" : "mt-10 grid gap-5 md:grid-cols-3"}>
-              {content.challenges.map((challenge) => (
-                <li key={challenge} className="flex gap-3 rounded-2xl border border-slate-200/80 bg-white p-6 shadow-soft">
-                  <AlertCircleIcon className="mt-0.5 size-5 shrink-0 text-violet-600" />
-                  <span className="leading-relaxed text-ink">{challenge}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-          {hasPhoto && (
-            <div className="relative aspect-[3/2] overflow-hidden rounded-2xl shadow-soft-lg">
-              <Image
-                src={industry.image}
-                alt={`${industry.name} temperature monitoring`}
-                fill
-                sizes="(min-width: 1024px) 560px, 100vw"
-                className="object-cover"
-              />
-            </div>
-          )}
-        </div>
+        <SectionHeading
+          id="challenges-title"
+          eyebrow="Challenges"
+          title={`${industry.name} Monitoring Challenges`}
+        />
+        <ul className="mt-10 grid gap-5 md:grid-cols-3">
+          {content.challenges.map((challenge) => (
+            <li key={challenge} className="flex gap-3 rounded-2xl border border-slate-200/80 bg-white p-6 shadow-soft">
+              <AlertCircleIcon className="mt-0.5 size-5 shrink-0 text-violet-600" />
+              <span className="leading-relaxed text-ink">{challenge}</span>
+            </li>
+          ))}
+        </ul>
       </Section>
 
       {/* How Prithvi helps */}

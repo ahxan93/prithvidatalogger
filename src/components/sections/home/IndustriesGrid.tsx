@@ -47,7 +47,12 @@ export default function IndustriesGrid() {
                   className="object-cover transition-transform duration-700 motion-safe:group-hover:scale-105"
                 />
               )}
-              <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-navy-950 via-navy-950/70 to-navy-950/10" />
+              {/* Strong at the bottom, fully transparent by the card's vertical middle, so the
+                  title/description stay readable over a photo without darkening the image itself. */}
+              <div
+                aria-hidden="true"
+                className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-navy-950 via-navy-950/60 to-transparent"
+              />
               <div className="relative p-3.5 sm:p-5">
                 <h3 className="flex items-end justify-between gap-2 font-heading text-base leading-snug font-semibold text-white sm:items-center sm:gap-3 sm:text-lg">
                   {industry.name}
