@@ -10,8 +10,8 @@ export const founder = {
   honorific: "Mr.",
   title: "Director (TM)",
   // Only the facts in the brief (owner decision): no career history, years or awards.
-  expertise: ["Temperature mapping & monitoring", "NABL calibration", "Validation"],
-  bio: "Temperature mapping and monitoring expert, working in NABL calibration and validation. He helps pharma QA and cold chain teams become audit-ready.",
+  expertise: ["Temperature mapping & monitoring", "Calibration", "Validation"],
+  bio: "Temperature mapping and monitoring expert, working in calibration and validation. He helps pharma QA and cold chain teams become audit-ready.",
   quote: "Measurements exist. Understanding does not.",
   /** Base path without extension; resolved with the image helper (any format). */
   photo: "/images/founder/founder",
@@ -21,7 +21,7 @@ export const founder = {
 export const brandStory: string[] = [
   "Every regulated industry depends on one invisible asset: its environment. Medicines, vaccines, lab results, food and manufacturing all rely on controlled conditions.",
   "Yet many monitoring systems are still disconnected, manual and delayed. Measurements exist. Understanding does not. Prithvi exists to bridge this gap.",
-  "Prithvi grew out of VEGA Calibrations' years of NABL-accredited calibration and temperature mapping work, which showed us the practical limits of conventional monitoring.",
+  "Prithvi grew out of VEGA Calibrations' years of calibration and temperature mapping work, which showed us the practical limits of conventional monitoring.",
 ];
 
 export const nameMeaning =
@@ -58,7 +58,7 @@ export const howWeWork: { title: string; description: string }[] = [
     description: "Clear, itemised quotes with no hidden charges.",
   },
   {
-    title: "NABL-traceable calibration",
+    title: "Traceable calibration",
     description: "Calibration from our parent lab, VEGA Calibrations, traceable to national standards.",
   },
   {

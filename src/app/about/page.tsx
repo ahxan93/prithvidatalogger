@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { certificatesValid, labPhrase } from "@/lib/accreditation";
 import LiveDeviceVisual from "@/components/sections/LiveDeviceVisual";
 import { getPageHeroDevices } from "@/data/page-heroes";
 import Link from "next/link";
@@ -80,7 +81,7 @@ export default async function AboutPage() {
               </p>
               <p className="mt-6 max-w-xl text-lg leading-relaxed text-slate-300 text-pretty">
                 {siteConfig.name} makes IoT temperature and humidity data loggers. We are a{" "}
-                {parent.name} company, built on the work of an {parent.accreditation}.
+                {parent.name} company, built on the work of {labPhrase}.
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
                 <Button href="#our-story" variant="outline" size="lg">
@@ -91,7 +92,7 @@ export default async function AboutPage() {
                 </Button>
               </div>
               <ul className="mt-10 flex flex-wrap gap-x-6 gap-y-3 text-sm text-slate-300">
-                {[`A ${parent.name} company`, "NABL · ISO/IEC 17025:2017", "India & GCC"].map((fact) => (
+                {[`A ${parent.name} company`, certificatesValid ? "NABL · ISO/IEC 17025:2017" : "Calibration by our parent lab", "India & GCC"].map((fact) => (
                   <li key={fact} className="flex items-center gap-2">
                     <CheckCircleIcon className="size-4 text-cyan-400" />
                     {fact}
@@ -117,9 +118,15 @@ export default async function AboutPage() {
                 <dd className="mt-1 text-sm text-muted">Established {established}</dd>
               </div>
               <div className="rounded-2xl border border-slate-200/80 bg-surface p-5">
-                <dt className="text-xs font-semibold uppercase tracking-wider text-brand-600">Accreditation</dt>
-                <dd className="mt-1.5 font-heading text-lg font-semibold text-ink">NABL · ISO/IEC 17025:2017</dd>
-                <dd className="mt-1 text-sm text-muted">{parent.certification}</dd>
+                <dt className="text-xs font-semibold uppercase tracking-wider text-brand-600">
+                  {certificatesValid ? "Accreditation" : "Calibration"}
+                </dt>
+                <dd className="mt-1.5 font-heading text-lg font-semibold text-ink">
+                  {certificatesValid ? "NABL · ISO/IEC 17025:2017" : "Delivered by VEGA Calibrations"}
+                </dd>
+                <dd className="mt-1 text-sm text-muted">
+                  {certificatesValid ? parent.certification : "Our parent calibration laboratory"}
+                </dd>
               </div>
             </dl>
           </div>
@@ -214,17 +221,19 @@ export default async function AboutPage() {
           subtitle="Seven stages that take an environment from connected to understood, and from understood to a confident decision."
           align="center"
         />
-        <ol className="relative mt-14 grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-4 lg:grid-cols-7">
+        <div className="relative mt-14">
           <span aria-hidden="true" className="bg-brand-gradient absolute top-7 right-[7%] left-[7%] hidden h-0.5 opacity-50 lg:block" />
+        <ol className="relative grid list-none grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-4 lg:grid-cols-7">
           {framework.map((stage, i) => (
             <li key={stage} className="relative flex flex-col items-center text-center max-sm:last:col-span-2">
-              <span className="bg-brand-gradient relative flex size-14 items-center justify-center rounded-2xl font-heading text-xl font-bold text-white shadow-soft">
+              <span aria-hidden="true" className="bg-brand-gradient relative flex size-14 items-center justify-center rounded-2xl font-heading text-xl font-bold text-white shadow-soft">
                 {i + 1}
               </span>
               <span className="mt-4 font-heading text-lg font-semibold text-ink">{stage}</span>
             </li>
           ))}
         </ol>
+        </div>
       </Section>
 
       {/* 7. How we work */}
@@ -250,7 +259,9 @@ export default async function AboutPage() {
         </div>
       </Section>
 
-      {/* 8. Certifications (of our parent company) */}
+      {/* 8. Certifications (of our parent company). Shown only once the owner
+          confirms the certificates are current (siteConfig.certificatesValid). */}
+      {certificatesValid && (
       <Section tone="surface" aria-labelledby="certifications-title">
         <SectionHeading
           id="certifications-title"
@@ -279,6 +290,7 @@ export default async function AboutPage() {
           .
         </p>
       </Section>
+      )}
 
       {/* 9. Countries we serve */}
       <Section aria-labelledby="countries-title">

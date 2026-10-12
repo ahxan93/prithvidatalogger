@@ -252,10 +252,7 @@ export default function EnquiryForm({
       {/* Honeypot – invisible to people and assistive tech, but not
           display:none, which bots specifically check for and skip. */}
       <div className="sr-only" aria-hidden="true">
-        <label>
-          Leave this empty
-          <input type="checkbox" name="botcheck" tabIndex={-1} autoComplete="off" />
-        </label>
+        <input type="checkbox" name="botcheck" tabIndex={-1} autoComplete="off" />
       </div>
       {city && <input type="hidden" name="city" value={city} />}
 

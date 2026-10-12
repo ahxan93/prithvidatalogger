@@ -9,6 +9,7 @@ export function absoluteUrl(path: string): string {
 }
 
 const ORGANIZATION_ID = `${siteConfig.url}/#organization`;
+const WEBSITE_ID = `${siteConfig.url}/#website`;
 const LOCAL_BUSINESS_ID = `${siteConfig.url}/#localbusiness`;
 
 function postalAddress() {
@@ -22,12 +23,14 @@ function postalAddress() {
   };
 }
 
+const areaServed = siteConfig.countriesServed.map((name) => ({ "@type": "Country", name }));
+
 /**
- * Site-wide Organization + LocalBusiness graph. Rendered once in the root layout.
- * No ratings/reviews by design (see CLAUDE.md).
+ * Site-wide Organization + WebSite graph, rendered once in the root layout.
+ * The LocalBusiness is NOT here: it is emitted only on the Mumbai page (see
+ * localBusinessSchema). No ratings/reviews by design (see CLAUDE.md).
  */
 export function siteSchema() {
-  const areaServed = siteConfig.countriesServed.map((name) => ({ "@type": "Country", name }));
 
   return {
     "@context": "https://schema.org",
@@ -57,18 +60,35 @@ export function siteSchema() {
         },
       },
       {
-        "@type": "LocalBusiness",
-        "@id": LOCAL_BUSINESS_ID,
-        name: siteConfig.name,
+        "@type": "WebSite",
+        "@id": WEBSITE_ID,
         url: siteConfig.url,
-        image: absoluteUrl(siteConfig.logo),
-        email: siteConfig.email,
-        telephone: siteConfig.phone.tel,
-        address: postalAddress(),
-        areaServed,
-        parentOrganization: { "@id": ORGANIZATION_ID },
+        name: siteConfig.name,
+        description: siteConfig.description,
+        inLanguage: "en-IN",
+        publisher: { "@id": ORGANIZATION_ID },
       },
     ],
+  };
+}
+
+/**
+ * LocalBusiness for the one real office (Mumbai). Only the Mumbai location
+ * page renders this; no other page and no other city gets one.
+ */
+export function localBusinessSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": LOCAL_BUSINESS_ID,
+    name: siteConfig.name,
+    url: siteConfig.url,
+    image: absoluteUrl(siteConfig.logo),
+    email: siteConfig.email,
+    telephone: siteConfig.phone.tel,
+    address: postalAddress(),
+    areaServed,
+    parentOrganization: { "@id": ORGANIZATION_ID },
   };
 }
 

@@ -31,7 +31,7 @@ export const services: Service[] = [
     shortName: "Calibration",
     href: "/services/calibration",
     summary:
-      "NABL-accredited (ISO/IEC 17025:2017) calibration for data loggers and a wide range of instruments.",
+      "Calibration for data loggers and a wide range of instruments, delivered by VEGA Calibrations.",
     scope: [
       "Temperature and humidity instruments and data loggers",
       "Thermometers",
@@ -49,8 +49,8 @@ export const services: Service[] = [
     enquiryOption: "Calibration / Temperature Mapping",
     deliveredBy: VEGA,
     seo: {
-      primaryKeyword: "NABL calibration services Mumbai",
-      supporting: ["data logger calibration", "ISO 17025"],
+      primaryKeyword: "calibration services Mumbai",
+      supporting: ["data logger calibration", "instrument calibration"],
     },
   },
   {

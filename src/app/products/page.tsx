@@ -243,7 +243,7 @@ export default function ProductsPage() {
         <ul className="mx-auto mt-10 grid max-w-4xl gap-4 sm:grid-cols-3">
           {[
             { href: "/industries", title: "Browse by industry", text: "See what pharma, cold chain, food and other sectors use." },
-            { href: "/services/calibration", title: "NABL calibration", text: "Calibration through our parent lab, VEGA Calibrations." },
+            { href: "/services/calibration", title: "Calibration", text: "Calibration through our parent lab, VEGA Calibrations." },
             { href: "/services/temperature-mapping", title: "Temperature mapping", text: "Find the right sensor positions before you install." },
           ].map((item) => (
             <li key={item.href} className="relative rounded-2xl border border-slate-200/80 bg-white p-6 shadow-soft transition hover:border-brand-200 hover:shadow-soft-lg">

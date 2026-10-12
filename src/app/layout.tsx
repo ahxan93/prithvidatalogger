@@ -33,6 +33,10 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
   applicationName: siteConfig.name,
+  // Explicit on the live domain. Any other host (vercel.app previews, before
+  // PRODUCTION_DOMAIN_LIVE is true) gets noindex from src/proxy.ts and
+  // HostNoindexMeta, which override this.
+  robots: { index: true, follow: true },
 };
 
 export const viewport: Viewport = {

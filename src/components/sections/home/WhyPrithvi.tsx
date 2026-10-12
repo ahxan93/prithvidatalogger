@@ -15,7 +15,7 @@ export default function WhyPrithvi() {
             id="why-title"
             eyebrow="Why Prithvi"
             title="Monitoring Backed by a Calibration Lab"
-            subtitle="Prithvi grew out of VEGA Calibrations' NABL-accredited calibration and temperature mapping work. You get loggers, calibration and validation from one group that understands audits."
+            subtitle="Prithvi grew out of VEGA Calibrations' calibration and temperature mapping work. You get loggers, calibration and validation from one group that understands audits."
           />
           <div className="mt-8 flex flex-wrap gap-3">
             <Button href={quoteHref}>

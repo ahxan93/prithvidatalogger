@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { labCredentialsClause } from "@/lib/accreditation";
 import LiveDeviceVisual from "@/components/sections/LiveDeviceVisual";
 import { getPageHeroDevices } from "@/data/page-heroes";
 import { siteConfig } from "@/config/site";
@@ -14,7 +15,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Calibration, Mapping & Validation Services",
   description:
-    "NABL calibration, temperature mapping and IQ/OQ/PQ validation services, delivered by our parent company VEGA Calibrations. Get a solution.",
+    "Calibration, temperature mapping and IQ/OQ/PQ validation services, delivered by our parent company VEGA Calibrations. Get a solution.",
   path: "/services",
 });
 
@@ -34,7 +35,7 @@ export default function ServicesPage() {
         crumbs={[{ name: "Services", href: "/services" }]}
         eyebrow="Services"
         title="Calibration, Mapping & Validation Services"
-        intro="Monitoring is only as good as the measurements behind it. Alongside our data loggers, we offer NABL calibration, temperature mapping and validation, all delivered by our parent company, VEGA Calibrations."
+        intro="Monitoring is only as good as the measurements behind it. Alongside our data loggers, we offer calibration, temperature mapping and validation, all delivered by our parent company, VEGA Calibrations."
       />
 
       <Section aria-labelledby="services-list-title">
@@ -84,7 +85,7 @@ export default function ServicesPage() {
             Delivered by {parent.name}
           </h2>
           <p className="mt-5 text-lg leading-relaxed text-slate-300 text-pretty">
-            Every service on this page is delivered by {parent.name}: an {parent.accreditation}, {parent.certification}.
+            Every service on this page is delivered by {parent.name}, our parent company{labCredentialsClause}.
             Calibration certificates are traceable to national standards.
           </p>
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">

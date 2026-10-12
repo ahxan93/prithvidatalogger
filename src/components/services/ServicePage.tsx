@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { labCredentialsClause } from "@/lib/accreditation";
 import { siteConfig } from "@/config/site";
 import { locationHref, locations } from "@/data/locations";
 import { getServiceBySlug, services, type ServiceSlug } from "@/data/services";
@@ -119,11 +120,12 @@ export default function ServicePage({ slug }: { slug: ServiceSlug }) {
       {/* Process */}
       <Section aria-labelledby="process-title">
         <SectionHeading id="process-title" eyebrow="Process" title="How It Works" align="center" />
-        <ol className="relative mt-14 grid gap-10 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
+        <div className="relative mt-14">
           <span aria-hidden="true" className="bg-brand-gradient absolute top-7 right-[12.5%] left-[12.5%] hidden h-0.5 opacity-40 lg:block" />
+        <ol className="relative grid list-none gap-10 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
           {content.process.map((step, i) => (
             <li key={step.title} className="relative flex flex-col items-center text-center">
-              <span className="relative flex size-14 items-center justify-center rounded-2xl bg-white font-heading text-xl font-bold text-brand-600 shadow-soft ring-1 ring-slate-200">
+              <span aria-hidden="true" className="relative flex size-14 items-center justify-center rounded-2xl bg-white font-heading text-xl font-bold text-brand-600 shadow-soft ring-1 ring-slate-200">
                 {i + 1}
               </span>
               <h3 className="mt-5 font-heading text-lg font-semibold text-ink">{step.title}</h3>
@@ -131,6 +133,7 @@ export default function ServicePage({ slug }: { slug: ServiceSlug }) {
             </li>
           ))}
         </ol>
+        </div>
       </Section>
 
       {/* Deliverables + Delivered by VEGA */}
@@ -167,8 +170,7 @@ export default function ServicePage({ slug }: { slug: ServiceSlug }) {
                 Delivered by {parent.name}
               </h2>
               <p className="mt-4 leading-relaxed text-slate-300">
-                This service is delivered by {parent.name}, our parent company: an {parent.accreditation},{" "}
-                {parent.certification}.
+                This service is delivered by {parent.name}, our parent company{labCredentialsClause}.
               </p>
               <div className="mt-6">
                 <Button href={parent.url} variant="outline">

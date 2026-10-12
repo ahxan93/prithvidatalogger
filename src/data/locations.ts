@@ -76,7 +76,7 @@ export const locations: LegacyLocationNode[] = [
     name: "India",
     type: "country",
     intro:
-      "Prithvi Data Loggers is based in Mumbai and supplies WiFi and GSM temperature and humidity data loggers to businesses across India. Our parent company, VEGA Calibrations, is an NABL-accredited calibration laboratory, so the team that supplies your loggers can also calibrate them and map your storage areas. Pharma plants, cold chain operators, hospitals, food businesses and warehouses use our loggers to replace manual readings with live, audit-ready records.",
+      "Prithvi Data Loggers is based in Mumbai and supplies WiFi and GSM temperature and humidity data loggers to businesses across India. Our parent company, VEGA Calibrations, is a calibration laboratory, so the team that supplies your loggers can also calibrate them and map your storage areas. Pharma plants, cold chain operators, hospitals, food businesses and warehouses use our loggers to replace manual readings with live, audit-ready records.",
     localIndustries: [
       "Pharmaceutical manufacturing and distribution",
       "Vaccine and cold chain logistics",
@@ -101,7 +101,7 @@ export const locations: LegacyLocationNode[] = [
       {
         question: "Can my loggers be calibrated in India?",
         answer:
-          "Yes. Calibration is carried out by our parent company, VEGA Calibrations, an NABL-accredited (ISO/IEC 17025:2017) laboratory. Certificates are traceable to national standards.",
+          "Yes. Calibration is carried out by our parent company, VEGA Calibrations. Certificates are traceable to national standards.",
       },
     ],
     indexable: true,
@@ -222,7 +222,7 @@ export const locations: LegacyLocationNode[] = [
               {
                 question: "Can loggers we already own be calibrated in Mumbai?",
                 answer:
-                  "Calibration of temperature and humidity instruments and data loggers is part of VEGA Calibrations' NABL-accredited scope. Share your instrument details and we will confirm how it can be arranged for your site.",
+                  "Calibration of temperature and humidity instruments and data loggers is part of VEGA Calibrations' calibration scope. Share your instrument details and we will confirm how it can be arranged for your site.",
               },
               {
                 question: "Can one dashboard monitor several sites in and around Mumbai?",
@@ -237,7 +237,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Mumbai | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers in Mumbai from our head office, with site visits and NABL calibration support. Get Solution for your site.",
+              "WiFi and GSM temperature data loggers in Mumbai from our head office, with site visits and calibration support. Get Solution for your site.",
             indexable: true,
           },
         ],

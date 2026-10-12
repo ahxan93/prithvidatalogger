@@ -9,7 +9,7 @@ import { telHref, whatsappHref } from "@/lib/contact";
 const points = [
   "Help choosing the right logger for each space",
   "Clear, itemised quotes with no hidden charges",
-  "Calibration and mapping from our NABL-accredited parent lab",
+  "Calibration and mapping from our parent lab, VEGA Calibrations",
 ];
 
 export default function FinalCta() {

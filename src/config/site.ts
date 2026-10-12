@@ -19,6 +19,14 @@ export const siteConfig = {
     country: "India",
     countryCode: "IN",
   },
+  /**
+   * VEGA Calibrations' NABL (ISO/IEC 17025:2017) accreditation and ISO 9001:2015
+   * certification. Keep false until the owner confirms the certificates are
+   * current and supplies them. While false, no page states an accreditation or
+   * certification as a current fact: calibration is simply attributed to our
+   * parent company, VEGA Calibrations (see src/lib/accreditation.ts).
+   */
+  certificatesValid: false,
   parentCompany: {
     name: "VEGA Calibrations",
     url: "https://www.vegacalibrations.com",

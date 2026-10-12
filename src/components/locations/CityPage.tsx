@@ -23,7 +23,7 @@ import {
 import LiveDeviceVisual from "@/components/sections/LiveDeviceVisual";
 import { getCityHeroDevices } from "@/data/page-heroes";
 import { telHref, whatsappCityHref } from "@/lib/contact";
-import { cityServiceSchema } from "@/lib/schema";
+import { cityServiceSchema, localBusinessSchema } from "@/lib/schema";
 
 // The city page template from docs/LOCATION-PAGES-PLAYBOOK.md section 3: exactly
 // twelve sections, in this order. Each carries data-city-section so
@@ -38,7 +38,7 @@ const HOW_WE_WORK = [
 ];
 
 const WHY_PRITHVI = [
-  "Calibration, mapping and validation from our NABL-accredited parent lab",
+  "Calibration, mapping and validation from our parent lab, VEGA Calibrations",
   "Live alerts by email, SMS, app and dashboard when a limit is crossed",
   "Audit-ready records and reports in PDF, Excel and CSV",
   "Remote setup support for Wi-Fi, alert rules and user access",
@@ -71,6 +71,7 @@ export default async function CityPage({ city }: { city: ResolvedCity }) {
 
   return (
     <>
+      {isMumbai && <JsonLd data={localBusinessSchema()} />}
       <JsonLd
         data={cityServiceSchema({
           name,
@@ -115,7 +116,7 @@ export default async function CityPage({ city }: { city: ResolvedCity }) {
             </Button>
           </div>
           <ul className="mt-8 flex flex-wrap gap-x-6 gap-y-3 text-sm text-slate-200">
-            {["NABL-accredited parent lab", `Site visits in ${name}`, "Supply across India & the GCC"].map((chip) => (
+            {["Calibration by parent lab VEGA", `Site visits in ${name}`, "Supply across India & the GCC"].map((chip) => (
               <li key={chip} className="flex items-center gap-2">
                 <CheckCircleIcon className="size-4 shrink-0 text-cyan-400" />
                 {chip}
@@ -226,7 +227,7 @@ export default async function CityPage({ city }: { city: ResolvedCity }) {
                 Calibration, Mapping &amp; Validation in {name}
               </h2>
               <p className="mt-3 text-lg leading-relaxed text-ink text-pretty">
-                These services are delivered by our parent lab, {siteConfig.parentCompany.name}, which is NABL-accredited.
+                These services are delivered by our parent lab, {siteConfig.parentCompany.name}.
                 Ask us to plan them for your {name} site alongside your loggers.
               </p>
               <ul className="mt-5 flex flex-wrap gap-3">
@@ -250,10 +251,10 @@ export default async function CityPage({ city }: { city: ResolvedCity }) {
       {/* 8. How we work */}
       <Section tone="surface" aria-labelledby="city-process-title" data-city-section="process">
         <SectionHeading id="city-process-title" eyebrow="Process" title={`How We Work in ${name}`} />
-        <ol className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <ol className="mt-10 grid list-none gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {HOW_WE_WORK.map((step, i) => (
             <li key={step.title} className="rounded-2xl border border-slate-200/80 bg-white p-6 shadow-soft">
-              <span className="flex size-9 items-center justify-center rounded-full bg-brand-600 font-heading text-sm font-bold text-white">
+              <span aria-hidden="true" className="flex size-9 items-center justify-center rounded-full bg-brand-600 font-heading text-sm font-bold text-white">
                 {i + 1}
               </span>
               <h3 className="mt-4 font-heading text-lg font-semibold text-ink">{step.title}</h3>

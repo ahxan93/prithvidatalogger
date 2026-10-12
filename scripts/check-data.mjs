@@ -566,6 +566,36 @@ if (!siteConfig.showPrices) {
   }
 }
 
+// ---------------------------------------------------------------- accreditation wording
+// VEGA Calibrations' NABL / ISO status is not stated as a current fact until the
+// owner confirms the certificates (siteConfig.certificatesValid). While it is
+// false, no rendered page outside the blog (an explainer on what NABL means)
+// may mention NABL, ISO 17025, ISO 9001 or "accredited".
+if (!siteConfig.certificatesValid) {
+  const APP = path.join(ROOT, ".next/server/app");
+  if (fs.existsSync(APP)) {
+    const claim = /\bNABL\b|ISO\/IEC 17025|ISO 17025|ISO 9001|accredit/i;
+    const visit = (dir) => {
+      for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+        const full = path.join(dir, entry.name);
+        if (entry.isDirectory()) {
+          if (path.relative(APP, full).split(path.sep)[0] === "blog") continue;
+          visit(full);
+        } else if (entry.name.endsWith(".html")) {
+          const html = fs.readFileSync(full, "utf8");
+          // Visible text and metadata only: skip scripts (RSC payload) and styles.
+          const text = html.replace(/<script[\s\S]*?<\/script>/g, " ").replace(/<style[\s\S]*?<\/style>/g, " ");
+          const m = text.match(claim);
+          if (m) fail(`accreditation: "${m[0]}" on ${path.relative(APP, full)} while certificatesValid is false`);
+        }
+      }
+    };
+    visit(APP);
+  } else {
+    notes.push("accreditation scan skipped (run npm run build first)");
+  }
+}
+
 // ---------------------------------------------------------------- internal links
 // A broken link, missing #anchor, redirecting link or non-live domain fails the
 // build. Needs a prior build (like the price scan); run `npm run check:links`

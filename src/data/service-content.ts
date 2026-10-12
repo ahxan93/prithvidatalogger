@@ -28,11 +28,11 @@ export type ServiceContent = {
 
 export const serviceContent: Record<ServiceSlug, ServiceContent> = {
   calibration: {
-    h1: "NABL Calibration Services in Mumbai & Across India",
+    h1: "Calibration Services in Mumbai & Across India",
     metaDescription:
-      "NABL accredited (ISO/IEC 17025:2017) calibration for data loggers, thermometers, gauges and more, delivered by VEGA Calibrations. Get a solution.",
+      "Calibration for data loggers, thermometers, gauges and more, delivered by VEGA Calibrations. Get a solution.",
     intro:
-      "NABL calibration services in Mumbai and across India for data loggers and measuring instruments, delivered by our parent company, VEGA Calibrations, an NABL accredited (ISO/IEC 17025:2017) calibration laboratory with its head office in Mumbai. Certificates are traceable to national standards.",
+      "Calibration services in Mumbai and across India for data loggers and measuring instruments, delivered by our parent company, VEGA Calibrations, with its head office in Mumbai. Certificates are traceable to national standards.",
     whatItIs:
       "Calibration compares an instrument's readings with a reference of known accuracy and records the difference. It tells you how far each measurement can be trusted.",
     whyItMatters: [
@@ -43,7 +43,7 @@ export const serviceContent: Record<ServiceSlug, ServiceContent> = {
     process: [
       { title: "Share your instrument list", text: "Tell us what needs calibrating and the ranges you use." },
       { title: "Scope and quote", text: "We confirm what is covered and send a clear quote." },
-      { title: "Calibration by VEGA", text: "VEGA Calibrations calibrates the instruments under its NABL accreditation." },
+      { title: "Calibration by VEGA", text: "VEGA Calibrations calibrates the instruments." },
       { title: "Certificates issued", text: "You receive a calibration certificate for each instrument." },
     ],
     deliverables: [
@@ -52,9 +52,9 @@ export const serviceContent: Record<ServiceSlug, ServiceContent> = {
     ],
     faqs: [
       {
-        question: "Is the calibration NABL accredited?",
+        question: "Who carries out the calibration?",
         answer:
-          "Yes. VEGA Calibrations is an NABL accredited calibration laboratory under ISO/IEC 17025:2017, and is ISO 9001:2015 certified.",
+          "Calibration is carried out by VEGA Calibrations, our parent company. Ask us for the scope and certificate details that apply to your instruments.",
       },
       {
         question: "Which instruments can be calibrated?",

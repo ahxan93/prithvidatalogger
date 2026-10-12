@@ -14,7 +14,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "WiFi Temperature & Humidity Data Loggers | Prithvi",
   description:
-    "Real-time WiFi & GSM temperature and humidity data loggers with instant alerts and audit-ready reports. NABL-backed. India & GCC. Get a solution today.",
+    "Real-time WiFi & GSM temperature and humidity data loggers with instant alerts and audit-ready reports. India & GCC. Get a solution today.",
   path: "/",
   absoluteTitle: true,
 });

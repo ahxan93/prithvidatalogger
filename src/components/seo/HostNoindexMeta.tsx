@@ -8,22 +8,44 @@ const PRODUCTION_HOST = new URL(siteConfig.url).hostname;
 /**
  * Belt-and-braces alongside proxy.ts's X-Robots-Tag header: while the site is
  * reachable on any host that isn't the production domain (chiefly the Vercel
- * preview URL before the custom domain is connected), add an actual
- * <meta name="robots" content="noindex"> tag too. Every page here is
- * statically prerendered, so this can't be done at render time without
- * forcing the whole site dynamic — the header already reliably covers
- * non-JS crawlers; this covers JS-executing ones that also read the DOM.
+ * preview URL before the custom domain is connected), make every robots meta
+ * tag say noindex. The live-domain metadata says index,follow, so this
+ * replaces that value instead of adding a second, conflicting tag. Every page
+ * is statically prerendered, so this can't be decided at render time without
+ * forcing the whole site dynamic; the header covers non-JS crawlers.
  * Renders nothing and is a no-op on the real production domain.
  */
 export default function HostNoindexMeta() {
   useEffect(() => {
     if (window.location.hostname === PRODUCTION_HOST) return;
-    const meta = document.createElement("meta");
-    meta.name = "robots";
-    meta.content = "noindex";
-    document.head.appendChild(meta);
+
+    const selector = 'meta[name="robots"], meta[name="googlebot"]';
+    let added: HTMLMetaElement | undefined;
+
+    const apply = () => {
+      const metas = Array.from(document.querySelectorAll<HTMLMetaElement>(selector)).filter((m) => m !== added);
+      metas.forEach((m) => {
+        if (m.content !== "noindex, nofollow") m.content = "noindex, nofollow";
+      });
+      if (metas.length > 0) {
+        // Next's own tag exists (React hoists it into <head>): drop ours.
+        added?.remove();
+        added = undefined;
+      } else if (!added) {
+        added = document.createElement("meta");
+        added.name = "robots";
+        added.content = "noindex, nofollow";
+        document.head.appendChild(added);
+      }
+    };
+
+    apply();
+    // Page metadata is hoisted into <head> and replaced on navigation.
+    const observer = new MutationObserver(apply);
+    observer.observe(document.head, { childList: true, subtree: true });
     return () => {
-      document.head.removeChild(meta);
+      observer.disconnect();
+      added?.remove();
     };
   }, []);
 

@@ -91,7 +91,10 @@ export default function PrivacyPolicyPage() {
                 Web3Forms
               </a>
               , a third-party form delivery service that forwards what you submit directly to our own email inbox (
-              {siteConfig.email}). We do not keep a separate marketing database of enquiries — submissions live as
+              <a href={`mailto:${siteConfig.email}`} className="font-medium text-brand-600 hover:underline">
+                {siteConfig.email}
+              </a>
+              ). We do not keep a separate marketing database of enquiries — submissions live as
               emails in our inbox, kept only for as long as we need them to respond to you and keep a record of the
               conversation.
             </p>

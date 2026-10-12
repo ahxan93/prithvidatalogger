@@ -200,7 +200,7 @@ export default async function ProductPage({ params }: PageProps<"/products/[slug
           <p className="mt-4 text-sm text-muted">
             Loggers can be calibrated by our parent lab through our{" "}
             <Link href="/services/calibration" className="font-semibold text-brand-600 underline underline-offset-4">
-              NABL calibration service
+              Calibration service
             </Link>
             .
           </p>

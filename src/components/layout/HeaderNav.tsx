@@ -462,7 +462,7 @@ export default function HeaderNav({ items, quoteHref, contact, logo, logoWhite }
             type="button"
             aria-label="Open menu"
             aria-expanded={mobileOpen}
-            aria-controls="mobile-menu"
+            aria-controls={mobileOpen ? "mobile-menu" : undefined}
             onClick={() => setMobileOpen(true)}
             className="-mr-2 rounded-lg p-2.5 hover:bg-(--nav-hover-bg) xl:hidden"
           >
@@ -474,15 +474,19 @@ export default function HeaderNav({ items, quoteHref, contact, logo, logoWhite }
 
     {/* Outside <header>: its backdrop-filter would make `fixed` children
         position relative to the header instead of the viewport. */}
-    <MobileMenu
-      items={items}
-      pathname={pathname}
-      open={mobileOpen}
-      onClose={closeMobile}
-      logoWhite={logoWhite}
-      quoteHref={quoteHref}
-      contact={contact}
-    />
+    {/* Rendered only while open, so the page has one header logo and one set of
+        nav links in the DOM instead of a hidden mobile copy. */}
+    {mobileOpen && (
+      <MobileMenu
+        items={items}
+        pathname={pathname}
+        open={mobileOpen}
+        onClose={closeMobile}
+        logoWhite={logoWhite}
+        quoteHref={quoteHref}
+        contact={contact}
+      />
+    )}
     </>
   );
 }

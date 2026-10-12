@@ -31,7 +31,9 @@ export function proxy(request: NextRequest) {
     url.protocol = "https:";
     url.host = PRODUCTION_HOST;
     url.port = "";
-    return NextResponse.redirect(url, 308);
+    const redirect = NextResponse.redirect(url, 308);
+    redirect.headers.set("X-Robots-Tag", "noindex, nofollow");
+    return redirect;
   }
 
   const response = NextResponse.next();
@@ -42,7 +44,7 @@ export function proxy(request: NextRequest) {
   // domain is connected — tell search engines to stay away. The production
   // host never gets this header, so it stays index,follow as normal.
   if (!isProductionHost) {
-    response.headers.set("X-Robots-Tag", "noindex");
+    response.headers.set("X-Robots-Tag", "noindex, nofollow");
   }
 
   return response;

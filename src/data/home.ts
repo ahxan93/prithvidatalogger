@@ -14,8 +14,8 @@ export type HomeCard = { icon: HomeIcon; title: string; description: string; hre
 export const hero = {
   h1Lead: "WiFi Temperature & Humidity Data Loggers",
   h1Accent: "for Real-Time Monitoring",
-  sub: "Protect medicines, vaccines, food and critical environments with live readings, instant alerts and audit-ready records, backed by an NABL-accredited calibration lab.",
-  trust: ["NABL / ISO 17025 parent lab", "Supports 21 CFR Part 11", "India & GCC"],
+  sub: "Protect medicines, vaccines, food and critical environments with live readings, instant alerts and audit-ready records, backed by our parent calibration lab, VEGA Calibrations.",
+  trust: ["Parent lab: VEGA Calibrations", "Supports 21 CFR Part 11", "India & GCC"],
   imageAlt:
     "Nakshatra WiFi temperature and humidity data logger showing a live reading on its display",
   chips: { alert: "Alert sent to QA team", door: "Door closed", sync: "Synced 1 min ago" },
@@ -31,8 +31,8 @@ export const whatWeDo: HomeCard[] = [
   },
   {
     icon: "badge-check",
-    title: "NABL Calibration",
-    description: "ISO/IEC 17025:2017 accredited calibration through our parent lab, VEGA Calibrations.",
+    title: "Calibration",
+    description: "Calibration through our parent lab, VEGA Calibrations.",
     href: "/services/calibration",
   },
   {
@@ -115,8 +115,8 @@ export const featuredIndustrySlugs = [
 export const whyPrithvi: HomeCard[] = [
   {
     icon: "badge-check",
-    title: "Parent NABL-accredited lab",
-    description: "Backed by VEGA Calibrations, accredited to ISO/IEC 17025:2017 and certified to ISO 9001:2015.",
+    title: "Parent calibration lab",
+    description: "Backed by VEGA Calibrations, the calibration laboratory our group grew out of.",
   },
   {
     icon: "flask-conical",
@@ -189,7 +189,7 @@ export const homeFaqs: { question: string; answer: string }[] = [
   {
     question: "Can you provide calibration certificates?",
     answer:
-      "Yes. Calibration is carried out by our parent company, VEGA Calibrations, an NABL-accredited (ISO/IEC 17025:2017) laboratory. Certificates are traceable to national standards.",
+      "Yes. Calibration is carried out by our parent company, VEGA Calibrations. Certificates are traceable to national standards.",
   },
   {
     question: "Do you supply data loggers to GCC countries?",

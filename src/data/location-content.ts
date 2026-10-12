@@ -20,7 +20,7 @@ export type LocationContent = {
 export const locationContent: Record<string, LocationContent> = {
   india: {
     metaDescription:
-      "Temperature data loggers in India: WiFi and GSM loggers supplied from Mumbai, with remote setup support and NABL calibration by VEGA. Get a solution.",
+      "Temperature data loggers in India: WiFi and GSM loggers supplied from Mumbai, with remote setup support and calibration by VEGA. Get a solution.",
     recommended: ["nakshatra", "veer", "vayu"],
   },
   "india/maharashtra": {

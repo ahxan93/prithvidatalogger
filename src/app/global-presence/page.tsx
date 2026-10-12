@@ -79,11 +79,12 @@ export default function GlobalPresencePage() {
           subtitle="The same four steps for every country outside India."
           align="center"
         />
-        <ol className="relative mt-14 grid gap-10 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
+        <div className="relative mt-14">
           <span aria-hidden="true" className="bg-brand-gradient absolute top-7 right-[12.5%] left-[12.5%] hidden h-0.5 opacity-40 lg:block" />
+        <ol className="relative grid list-none gap-10 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
           {supplySteps.map((step, i) => (
             <li key={step.title} className="relative flex flex-col items-center text-center">
-              <span className="relative flex size-14 items-center justify-center rounded-2xl bg-white font-heading text-xl font-bold text-brand-600 shadow-soft ring-1 ring-slate-200">
+              <span aria-hidden="true" className="relative flex size-14 items-center justify-center rounded-2xl bg-white font-heading text-xl font-bold text-brand-600 shadow-soft ring-1 ring-slate-200">
                 {i + 1}
               </span>
               <h3 className="mt-5 font-heading text-lg font-semibold text-ink">{step.title}</h3>
@@ -91,6 +92,7 @@ export default function GlobalPresencePage() {
             </li>
           ))}
         </ol>
+        </div>
         <p className="mx-auto mt-12 max-w-2xl rounded-xl border border-brand-100 bg-white px-5 py-4 text-center text-sm text-ink shadow-soft">
           {GSM_NETWORK_NOTE}
         </p>

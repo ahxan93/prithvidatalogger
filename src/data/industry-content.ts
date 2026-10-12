@@ -57,7 +57,7 @@ export const industryContent: Record<string, IndustryContent> = {
       {
         question: "Who calibrates the loggers?",
         answer:
-          "Our parent lab, VEGA Calibrations, which is NABL accredited to ISO/IEC 17025:2017.",
+          "Our parent lab, VEGA Calibrations.",
       },
     ],
   },
@@ -126,7 +126,7 @@ export const industryContent: Record<string, IndustryContent> = {
       },
     ],
     compliance:
-      "Complete digital records with an audit trail support accreditation and internal quality audits. We do not claim conformity with any specific hospital standard.",
+      "Complete digital records with an audit trail support internal quality audits. We do not claim conformity with any specific hospital standard.",
     faqs: [
       {
         question: "Which loggers suit blood bank refrigerators?",

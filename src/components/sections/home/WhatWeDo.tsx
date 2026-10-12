@@ -51,23 +51,23 @@ function FeaturedSparkline() {
   );
 }
 
-/** NABL Calibration: a seal graphic with a real HTML text label, not baked into the image. */
-function NablSeal() {
+/** Calibration: a seal graphic with a real HTML text label, not baked into the image. */
+function CalibrationSeal() {
   return (
     <div className="flex items-center gap-3">
       <svg viewBox="0 0 64 64" className="size-14 shrink-0" aria-hidden="true">
         <circle cx="32" cy="32" r="27" fill="none" stroke="var(--color-brand-200)" strokeWidth="2" strokeDasharray="3.5 3.5" />
-        <circle cx="32" cy="32" r="20" fill="url(#nabl-seal-fill)" />
+        <circle cx="32" cy="32" r="20" fill="url(#seal-fill)" />
         <path d="M22.5 32.5l6.5 6.5 12.5-14" fill="none" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
         <defs>
-          <linearGradient id="nabl-seal-fill" x1="0" y1="0" x2="1" y2="1">
+          <linearGradient id="seal-fill" x1="0" y1="0" x2="1" y2="1">
             <stop offset="0%" stopColor="var(--color-brand-600)" />
             <stop offset="100%" stopColor="var(--color-brand-400)" />
           </linearGradient>
         </defs>
       </svg>
       <span className="rounded-full bg-brand-50 px-2.5 py-1 text-[11px] font-semibold tracking-wide text-brand-700 ring-1 ring-inset ring-brand-100">
-        ISO/IEC 17025:2017
+        VEGA
       </span>
     </div>
   );
@@ -95,7 +95,7 @@ function ValidationSteps() {
           </span>
           {i < 2 && <ArrowRightIcon className="mx-1 size-3 text-slate-300" />}
         </span>
-      ))}
+      )).flatMap((chip, i) => (i < 2 ? [chip, " "] : [chip]))}
     </div>
   );
 }
@@ -119,7 +119,7 @@ function SupportTimeline() {
 }
 
 const visualByIcon: Partial<Record<string, ComponentType>> = {
-  "badge-check": NablSeal,
+  "badge-check": CalibrationSeal,
   map: MappingHeatmap,
   "shield-check": ValidationSteps,
   wrench: SupportTimeline,
@@ -143,7 +143,7 @@ export default async function WhatWeDo() {
           id="what-we-do-title"
           eyebrow="What we do"
           title="More Than a WiFi Temperature and Humidity Data Logger"
-          subtitle="Monitoring hardware, NABL calibration, temperature mapping, validation and support, from one team."
+          subtitle="Monitoring hardware, calibration, temperature mapping, validation and support, from one team."
           align="center"
         />
 
