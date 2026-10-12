@@ -19,13 +19,17 @@ function LogoItem({ client }: { client: Client }) {
     loading: "lazy",
   });
   return (
-    <li className="flex h-20 w-40 shrink-0 items-center justify-center rounded-xl border border-slate-200/80 bg-white px-3 sm:h-24 sm:w-48">
+    <li className="flex h-20 w-40 shrink-0 items-center justify-center rounded-xl border border-slate-200/80 bg-white px-3 transition duration-300 hover:-translate-y-0.5 hover:shadow-soft sm:h-24 sm:w-48">
+      {/* Capped by height (not "w-full") so every logo reads at the same visual
+          size regardless of its own aspect ratio — a near-square mark and a
+          wide wordmark both end up the same height instead of one towering
+          over the other. */}
       {/* eslint-disable-next-line @next/next/no-img-element -- props come from next/image's getImageProps */}
       <img
         {...props}
         alt={props.alt ?? ""}
         decoding="async"
-        className="h-auto w-full opacity-70 grayscale transition duration-300 hover:opacity-100 hover:grayscale-0"
+        className="h-auto max-h-10 w-auto max-w-full object-contain sm:max-h-12"
       />
     </li>
   );
