@@ -12,9 +12,14 @@ docs/MASTER-BRIEF.md is the source of truth for content and pages.
   (https://www.vegacalibrations.com). Refer to it as "A VEGA Calibrations company" (text link, no logo).
 
 ## Commerce
-- No online purchase, cart or "Buy now". The only CTAs are: **Get a Quote**, **Call**, **WhatsApp**,
-  **Enquiry form**.
-- Prices are shown only as "MRP ₹X + 18% GST". Never show vendor/dealer prices.
+- No online purchase, cart or "Buy now". The only CTAs are: **Get a Quote** / **Get Solution**, **Call**,
+  **WhatsApp**, **Enquiry form**.
+- Never show prices anywhere on the site (owner decision). `src/config/site.ts`'s `showPrices` flag is
+  `false`; MRP data stays in `src/data/products.ts` but is never rendered while it's false. Every spot
+  that would show a price instead shows a **Get Solution** button (`GetSolutionButton`) that opens the
+  enquiry form with the product preselected, plus WhatsApp where space allows. Tables drop the price
+  row/column entirely rather than hiding it. `npm run check:data` fails the build if `₹`, `MRP` or `GST`
+  appears anywhere in the built, rendered HTML while `showPrices` is false.
 - Never mention the cloud software/platform name or its pricing anywhere on the site.
 
 ## SEO

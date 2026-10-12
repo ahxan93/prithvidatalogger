@@ -252,7 +252,7 @@ export default async function IndustryPage({ params }: PageProps<"/industries/[s
       <CtaBand
         id="industry-cta"
         title={`Plan Your ${industry.name} Monitoring`}
-        text="Tell us what you store and where. We'll recommend the right loggers and send a quote showing the MRP plus 18% GST."
+        text="Tell us what you store and where. We'll recommend the right loggers and send you a clear, itemised quote."
       />
     </>
   );

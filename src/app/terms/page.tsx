@@ -65,9 +65,9 @@ export default function TermsPage() {
           <div>
             <h3 className="font-heading text-xl font-semibold text-ink">Pricing</h3>
             <p className="mt-3 text-lg leading-relaxed text-muted">
-              Where shown, prices on this site are listed as MRP plus 18% GST. Some products are marked Price on request and are quoted individually. We try to keep prices accurate and up to date, but they can
-              change — the price confirmed by our team at the time of your order is the one that applies, not
-              necessarily whatever was last shown on the page.
+              We do not list prices on this website. Share your requirement through the enquiry form, WhatsApp
+              or a call, and our team will send you a clear, itemised quote. Prices can change, and the price
+              confirmed by our team at the time of your order is the one that applies.
             </p>
           </div>
 

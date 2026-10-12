@@ -17,6 +17,7 @@ import {
 } from "@/data/products";
 import { productContent } from "@/data/product-content";
 import EnquiryForm from "@/components/forms/EnquiryForm";
+import GetSolutionButton from "@/components/products/GetSolutionButton";
 import ProductCard from "@/components/products/ProductCard";
 import SpecsTable, { variantSpecs } from "@/components/products/SpecsTable";
 import VariantExplorer, { type ExplorerVariant } from "@/components/products/VariantExplorer";
@@ -82,7 +83,6 @@ export default async function ProductPage({ params }: PageProps<"/products/[slug
     return {
       slug: variant.slug,
       name: variant.name,
-      priceText: formatMrp(variant.mrp),
       specs: variantSpecs(variant),
       description: variant.description,
       image:
@@ -194,7 +194,7 @@ export default async function ProductPage({ params }: PageProps<"/products/[slug
         </div>
         {isLogger && (
           <p className="mt-4 text-sm text-muted">
-            Prices are MRP and exclude 18% GST. Loggers can be calibrated by our parent lab through our{" "}
+            Loggers can be calibrated by our parent lab through our{" "}
             <Link href="/services/calibration" className="font-semibold text-brand-600 underline underline-offset-4">
               NABL calibration service
             </Link>
@@ -284,7 +284,11 @@ export default async function ProductPage({ params }: PageProps<"/products/[slug
                   </span>
                   <h3 className="mt-4 font-heading text-xl font-semibold text-ink">{accessory.name}</h3>
                   <p className="mt-2 text-sm leading-relaxed text-muted">{accessory.description}</p>
-                  <p className="mt-4 text-sm font-semibold text-brand-700">{formatMrp(accessory.mrp)}</p>
+                  {siteConfig.showPrices ? (
+                    <p className="mt-4 text-sm font-semibold text-brand-700">{formatMrp(accessory.mrp)}</p>
+                  ) : (
+                    <GetSolutionButton href="/products/accessories#enquiry" size="sm" className="mt-4" />
+                  )}
                 </li>
               ))}
             </ul>
@@ -350,7 +354,7 @@ export default async function ProductPage({ params }: PageProps<"/products/[slug
               id="enquiry-title"
               eyebrow="Get a quote"
               title={`Ask About ${product.name}`}
-              subtitle="Tell us where it will be used and how many you need. We'll confirm the right variant and send a quote showing the MRP plus 18% GST."
+              subtitle="Tell us where it will be used and how many you need. We'll confirm the right variant and send you a clear, itemised quote."
             />
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Button href={whatsappHref(enquiryName)} variant="whatsapp" size="lg">

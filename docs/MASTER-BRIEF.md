@@ -80,6 +80,19 @@
 3. The "Reviewed by" line only appears once published, and only when `reviewedBy` is a genuinely different person from `author`. Both `reviewedBy` and `reviewedDate` are optional and should be omitted entirely rather than defaulted to the author.
 4. Privacy Policy and Terms: no content change; legal review remains the owner's task before launch (see `docs/LAUNCH-CHECKLIST.md`).
 
+**Owner decisions (confirmed after Phase 7, pricing change):**
+1. Prices are no longer shown anywhere on the site. `showPrices: false` in `src/config/site.ts` controls
+   this; MRP data in `src/data/products.ts` is kept as-is but only rendered while that flag is true.
+2. Every price-display spot (homepage marquee, product/brand cards, comparison table, series page variant
+   tabs, accessories) instead shows a **Get Solution** button that opens the enquiry form with the product
+   preselected, plus WhatsApp where there's room. Comparison/spec tables drop the price row or column
+   entirely rather than hiding it with CSS.
+3. Product and ProductGroup JSON-LD no longer includes `offers`/price. Name, image, description, brand and
+   SKU/variant info are kept.
+4. Copy that referenced visible pricing was rewritten: "transparent MRP pricing" / "MRP shown openly" became
+   "Clear, itemised quotes with no hidden charges"; FAQ answers about pricing became "Share your requirement
+   and we will send a clear quote."
+
 ---
 
 ## 2. Product data (put all of this in `src/data/products.ts`)
@@ -233,7 +246,8 @@ Rules: keyword in title, H1, first 100 words, one H2 and the image alt (naturall
 - Allowed: "trusted by" (they are real clients), "NABL accredited parent lab", "supports 21 CFR Part 11 compliance".
 - Not allowed: "No.1", "best", "guaranteed compliance", invented numbers, fake testimonials, lorem ipsum in any committed page.
 - Each page needs unique copy. Never reuse paragraphs between pages (especially location pages).
-- Prices: "MRP ₹6,500 + 18% GST". Variants without a price: "Price on request".
+- Prices are never shown on the site (owner decision, confirmed after Phase 7). Every price-display
+  moment uses a **Get Solution** CTA that opens the enquiry form with the product preselected instead.
 
 ---
 
@@ -251,7 +265,7 @@ Sections in order:
    - Visual: the Nakshatra product image, with a live "screen" overlay. A reading ticks gently (e.g. 4.2 °C · 46.1 %RH, small random walk inside 2–8 °C) next to a green ONLINE dot. Floating glass chips: "Alert sent to QA team", "Door closed", "Synced 1 min ago". Static when prefers-reduced-motion.
    - Under the CTAs, a small trust row: NABL / ISO 17025 parent lab · Supports 21 CFR Part 11 · India & GCC.
 2. **What we do** (services strip, 5 cards, icon + 2-line explanation + link): Real-Time Monitoring Data Loggers · NABL Calibration · Temperature Mapping · Validation (IQ/OQ/PQ) · Installation & Support.
-3. **Product marquee:** H2 "Explore the Prithvi Range". Continuous horizontal marquee of all series images. Each card shows the name, a one-line description and "From MRP ₹X + GST" (or "Price on request"), and links to its series page. Pause on hover and focus. The duplicate track is aria-hidden. Reduced motion turns it into a static, scrollable row. "View all products" button.
+3. **Product marquee:** H2 "Explore the Prithvi Range". Continuous horizontal marquee of all series images. Each card shows the name, a one-line description and a "Get Solution" button (opens the enquiry form with the series preselected), and links to its series page. Pause on hover and focus. The duplicate track is aria-hidden. Reduced motion turns it into a static, scrollable row. "View all products" button.
 4. **Benefits of data loggers:** H2 "Why Real-Time Data Loggers Pay for Themselves". 8 benefit cards:
    - Instant excursion alerts
    - Less product loss
@@ -266,7 +280,7 @@ Sections in order:
 7. **Why Prithvi:** 4–6 points:
    - Parent NABL-accredited lab
    - In-house calibration & mapping
-   - Transparent MRP pricing with no hidden charges
+   - Clear, itemised quotes with no hidden charges
    - Fast, responsive support
    - India & GCC supply
    - Installation guidance
@@ -284,7 +298,7 @@ Sections in order:
 - H1 "Temperature & Humidity Data Loggers".
 - Intro paragraph.
 - Filter chips: All / Temperature / Temp + RH / Multi-channel / GSM.
-- Series cards: image, channels, key range, "From MRP ₹X + GST", View details.
+- Series cards: image, channels, key range, Get Solution button.
 - Comparison table of all series.
 - Connectivity explainer (Wi-Fi / GSM / LoRa).
 - Accessories.
@@ -303,7 +317,7 @@ Sections in order:
 10. Related series.
 11. EnquiryForm.
 
-JSON-LD: ProductGroup with a Product per variant. Each offer uses priceCurrency INR, the MRP as price and valueAddedTaxIncluded false. Omit offers for "Price on request". Use availability InStock.
+JSON-LD: ProductGroup with a Product per variant (name, SKU, description, brand, image). No offers/price (owner decision, confirmed after Phase 7).
 
 ### 7.4 Brands `/brands`
 - H1 "Prithvi Product Families".

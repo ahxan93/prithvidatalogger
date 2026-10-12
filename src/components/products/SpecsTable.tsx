@@ -1,3 +1,4 @@
+import { siteConfig } from "@/config/site";
 import { commonSpecs, formatMrp, type ProductSeries, type ProductVariant } from "@/data/products";
 
 type Row = { label: string; value: (variant: ProductVariant) => string | undefined };
@@ -31,7 +32,10 @@ export function variantSpecs(variant: ProductVariant): { label: string; value: s
 // loggers. Scrolls inside its own box on small screens.
 export default function SpecsTable({ series, labelledBy }: { series: ProductSeries; labelledBy: string }) {
   const isLogger = series.category === "series";
-  const rows = variantRows.filter((row) => series.variants.some((v) => row.value(v) && row.value(v) !== "—"));
+  const rows = variantRows
+    // No prices shown on the site (owner decision): the MRP row is dropped entirely, not just hidden.
+    .filter((row) => siteConfig.showPrices || row.label !== "MRP (excl. 18% GST)")
+    .filter((row) => series.variants.some((v) => row.value(v) && row.value(v) !== "—"));
   const columns = series.variants.length;
 
   return (

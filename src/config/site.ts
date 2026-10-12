@@ -32,6 +32,12 @@ export const siteConfig = {
    * the owner (brief §1). Keep false until real numbers are approved.
    */
   showStats: false,
+  /**
+   * No prices anywhere on the site (owner decision). Every price-display spot
+   * instead shows a "Get Solution" CTA. MRP data in src/data/products.ts is
+   * kept untouched and simply never rendered while this is false.
+   */
+  showPrices: false,
   countriesServed: [
     "India",
     "Saudi Arabia",

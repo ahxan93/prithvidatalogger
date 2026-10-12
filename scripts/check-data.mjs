@@ -334,6 +334,34 @@ for (const file of blogSlugs) {
 // ---------------------------------------------------------------- clients
 for (const c of clients) if (!fs.existsSync(path.join(PUBLIC, c.logo))) fail(`clients: logo missing ${c.logo}`);
 
+// ---------------------------------------------------------------- no prices in rendered output
+// Owner decision: no prices anywhere on the site while siteConfig.showPrices
+// is false. Scans the built output (if present) for a leaked price string in
+// any actually-rendered page — the static HTML, and the RSC/flight payloads
+// used for client navigation. Requires `npm run build` to have run first;
+// silently skipped otherwise so `check:data` still works pre-build.
+if (!siteConfig.showPrices) {
+  const BUILD_APP_DIR = path.join(ROOT, ".next/server/app");
+  if (fs.existsSync(BUILD_APP_DIR)) {
+    const PRICE_PATTERN = /₹|\bMRP\b|\bGST\b/;
+    const SCAN_EXTENSIONS = new Set([".html", ".rsc", ".body", ".meta"]);
+    const walk = (dir) => {
+      for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+        const full = path.join(dir, entry.name);
+        if (entry.isDirectory()) walk(full);
+        else if (SCAN_EXTENSIONS.has(path.extname(entry.name))) {
+          const text = fs.readFileSync(full, "utf8");
+          const match = text.match(PRICE_PATTERN);
+          if (match) fail(`prices: "${match[0]}" found in built output ${path.relative(ROOT, full)} (showPrices is false)`);
+        }
+      }
+    };
+    walk(BUILD_APP_DIR);
+  } else {
+    notes.push("price scan skipped (run npm run build first to check rendered output)");
+  }
+}
+
 // ---------------------------------------------------------------- report
 console.log(`products: ${products.length} series, ${variantSlugs.length} variants/accessories`);
 console.log(`industries: ${industries.length} | services: ${services.length} | clients: ${clients.length}`);

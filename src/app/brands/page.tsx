@@ -2,6 +2,7 @@ import Link from "next/link";
 import { siteConfig } from "@/config/site";
 import { formatFromPrice, getLoggerSeries, getProductBySlug, type ProductSeries } from "@/data/products";
 import { productContent } from "@/data/product-content";
+import GetSolutionButton from "@/components/products/GetSolutionButton";
 import CtaBand from "@/components/sections/CtaBand";
 import PageHero from "@/components/sections/PageHero";
 import Section from "@/components/ui/Section";
@@ -47,7 +48,7 @@ export default function BrandsPage() {
           id="families-title"
           eyebrow="Families & accessories"
           title="A Name with a Meaning, a Logger with a Purpose"
-          subtitle="Read the story behind each name, see what the series is best for, and open its page for variants and prices."
+          subtitle="Read the story behind each name, see what the series is best for, and open its page for variants and a solution."
         />
         <ul className="mt-12 grid gap-6 md:grid-cols-2">
           {families.map((series, i) => {
@@ -77,13 +78,17 @@ export default function BrandsPage() {
                     <dt className="font-semibold text-ink">Best for</dt>
                     <dd className="mt-1 leading-relaxed text-muted">{series.bestFor}</dd>
                   </dl>
-                  <p className="relative mt-6 flex items-center justify-between text-sm font-semibold text-brand-700">
-                    {formatFromPrice(series)}
-                    <span aria-hidden="true" className="inline-flex items-center gap-1.5 text-brand-600">
-                      Explore {series.name}
-                      <ArrowRightIcon className="size-4 transition-transform motion-safe:group-hover:translate-x-1" />
-                    </span>
-                  </p>
+                  {siteConfig.showPrices ? (
+                    <p className="relative mt-6 flex items-center justify-between text-sm font-semibold text-brand-700">
+                      {formatFromPrice(series)}
+                      <span aria-hidden="true" className="inline-flex items-center gap-1.5 text-brand-600">
+                        Explore {series.name}
+                        <ArrowRightIcon className="size-4 transition-transform motion-safe:group-hover:translate-x-1" />
+                      </span>
+                    </p>
+                  ) : (
+                    <GetSolutionButton href={`/products/${series.slug}#enquiry`} size="sm" className="mt-6" />
+                  )}
                 </article>
               </li>
             );

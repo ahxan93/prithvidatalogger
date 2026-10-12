@@ -1,7 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
+import { siteConfig } from "@/config/site";
 import { formatFromPrice, type ProductSeries } from "@/data/products";
 import { productContent } from "@/data/product-content";
+import GetSolutionButton from "@/components/products/GetSolutionButton";
 import ImageFallback from "@/components/ui/ImageFallback";
 import { ArrowRightIcon } from "@/components/ui/icons";
 import { getVariantImage, isPlaceholderImage } from "@/lib/images";
@@ -74,13 +76,17 @@ export default function ProductCard({ series, as: Heading = "h3", note, classNam
           <dt className="sr-only">Range</dt>
           <dd className="text-ink">{content.rangeSummary}</dd>
         </dl>
-        <p className="mt-4 flex items-center justify-between text-sm font-semibold text-brand-700">
-          {formatFromPrice(series)}
-          <span aria-hidden="true" className="inline-flex items-center gap-1.5 text-brand-600">
-            View details
-            <ArrowRightIcon className="size-4 transition-transform motion-safe:group-hover:translate-x-1" />
-          </span>
-        </p>
+        {siteConfig.showPrices ? (
+          <p className="mt-4 flex items-center justify-between text-sm font-semibold text-brand-700">
+            {formatFromPrice(series)}
+            <span aria-hidden="true" className="inline-flex items-center gap-1.5 text-brand-600">
+              View details
+              <ArrowRightIcon className="size-4 transition-transform motion-safe:group-hover:translate-x-1" />
+            </span>
+          </p>
+        ) : (
+          <GetSolutionButton href={`/products/${series.slug}#enquiry`} size="sm" className="mt-4" />
+        )}
       </div>
     </article>
   );

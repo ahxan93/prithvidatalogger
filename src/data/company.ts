@@ -55,7 +55,7 @@ export const howWeWork: { title: string; description: string }[] = [
   },
   {
     title: "No hidden charges",
-    description: "MRP is shown openly and GST is stated separately on every quote.",
+    description: "Clear, itemised quotes with no hidden charges.",
   },
   {
     title: "NABL-traceable calibration",

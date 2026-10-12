@@ -52,9 +52,9 @@ export const locations: LocationNode[] = [
           "Yes. We supply across India from Mumbai, and setup support is given remotely by phone, WhatsApp or video call.",
       },
       {
-        question: "How are prices shown?",
+        question: "How do we find out the price?",
         answer:
-          "Every price is the MRP plus 18% GST, stated separately, with no hidden charges. GSM and LoRa versions are priced on request.",
+          "Share your requirement and we will send a clear quote.",
       },
       {
         question: "Can my loggers be calibrated in India?",

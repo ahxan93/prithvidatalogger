@@ -273,7 +273,7 @@ export default async function LocationPage({ params }: PageProps<"/locations/[..
       <CtaBand
         id="location-cta"
         title={`Get a Quote in ${place}`}
-        text="Tell us your sites and what you need to monitor. We'll recommend the right loggers and send a quote showing the MRP plus 18% GST."
+        text="Tell us your sites and what you need to monitor. We'll recommend the right loggers and send you a clear, itemised quote."
       />
     </>
   );

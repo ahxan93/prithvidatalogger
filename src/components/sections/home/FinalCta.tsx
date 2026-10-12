@@ -8,7 +8,7 @@ import { telHref, whatsappHref } from "@/lib/contact";
 
 const points = [
   "Help choosing the right logger for each space",
-  "Clear quote: MRP plus 18% GST, no hidden charges",
+  "Clear, itemised quotes with no hidden charges",
   "Calibration and mapping from our NABL-accredited parent lab",
 ];
 

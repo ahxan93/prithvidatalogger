@@ -27,7 +27,7 @@ export const productContent: Record<SeriesSlug, ProductContent> = {
   setu: {
     metaTitle: "Setu – WiFi Temperature Data Logger",
     metaDescription:
-      "Setu WiFi temperature data logger: single channel, internal sensor or external probe (−100 to +200 °C), instant alerts. From MRP ₹5,500 + 18% GST.",
+      "Setu WiFi temperature data logger: single channel, internal sensor or external probe (−100 to +200 °C), instant alerts. Get a solution.",
     intro:
       "Setu is a single-channel WiFi temperature data logger for refrigerators, freezers, cold rooms and storage areas. It records temperature at the interval you set, syncs readings over Wi-Fi and alerts your team the moment a limit is crossed.",
     measures: "Temperature",
@@ -65,7 +65,7 @@ export const productContent: Record<SeriesSlug, ProductContent> = {
   nakshatra: {
     metaTitle: "Nakshatra – WiFi Temperature & Humidity Data Logger",
     metaDescription:
-      "Nakshatra WiFi temperature and humidity data logger: −30 to +70 °C, 0–100 %RH, instant alerts and audit-ready reports. From MRP ₹6,500 + 18% GST.",
+      "Nakshatra WiFi temperature and humidity data logger: −30 to +70 °C, 0–100 %RH, instant alerts and audit-ready reports. Get a solution.",
     intro:
       "Nakshatra is a WiFi temperature and humidity data logger for rooms, stores and warehouses where both conditions matter. It measures −30 to +70 °C and 0–100 %RH, syncs readings over Wi-Fi and sends an alert when temperature or humidity leaves its limits.",
     measures: "Temperature + humidity",
@@ -102,7 +102,7 @@ export const productContent: Record<SeriesSlug, ProductContent> = {
   rajmudra: {
     metaTitle: "Rajmudra – 2-Channel WiFi Temperature Data Logger",
     metaDescription:
-      "Rajmudra dual channel WiFi temperature data logger for validation and comparative studies. Two sensors, cables up to 50 m. From MRP ₹12,000 + 18% GST.",
+      "Rajmudra dual channel WiFi temperature data logger for validation and comparative studies. Two sensors, cables up to 50 m. Get a solution.",
     intro:
       "Rajmudra is a dual channel temperature data logger that records two points at once over Wi-Fi. Use it for qualification, validation and comparative studies, or wherever two locations need to be monitored from one device.",
     measures: "2 × temperature, or 2 × temperature + humidity (Pro)",
@@ -135,7 +135,7 @@ export const productContent: Record<SeriesSlug, ProductContent> = {
   dhruva: {
     metaTitle: "Dhruva – 4-Channel WiFi Temperature Data Logger",
     metaDescription:
-      "Dhruva 4 channel WiFi temperature data logger for multi-point monitoring. Temperature or temperature + RH sensors. From MRP ₹17,000 + 18% GST.",
+      "Dhruva 4 channel WiFi temperature data logger for multi-point monitoring. Temperature or temperature + RH sensors. Get a solution.",
     intro:
       "Dhruva is a 4 channel temperature data logger for multi-point monitoring. Four sensors connect to one Wi-Fi logger, so a room, chamber or storage area can be covered at several positions and seen on one screen.",
     measures: "4 × temperature, or 4 × temperature + humidity (Pro)",
@@ -167,7 +167,7 @@ export const productContent: Record<SeriesSlug, ProductContent> = {
   veer: {
     metaTitle: "Veer – 10-Channel WiFi Temperature Data Logger",
     metaDescription:
-      "Veer 10 channel WiFi temperature data logger for warehouses and multi-zone sites. Sensor cables extendable to 50 m. From MRP ₹25,000 + 18% GST.",
+      "Veer 10 channel WiFi temperature data logger for warehouses and multi-zone sites. Sensor cables extendable to 50 m. Get a solution.",
     intro:
       "Veer is a 10 channel temperature data logger built for warehouses and multi-zone facilities. Ten sensors run from a single Wi-Fi logger, giving one clear view of temperature across racks, zones and rooms.",
     measures: "10 × temperature, or 10 × temperature + humidity (Pro)",
@@ -198,7 +198,7 @@ export const productContent: Record<SeriesSlug, ProductContent> = {
   virat: {
     metaTitle: "Virat – 16-Channel WiFi Temperature Data Logger",
     metaDescription:
-      "Virat 16 channel WiFi temperature data logger for large facilities and cold stores. Temperature or temperature + RH. From MRP ₹45,000 + 18% GST.",
+      "Virat 16 channel WiFi temperature data logger for large facilities and cold stores. Temperature or temperature + RH. Get a solution.",
     intro:
       "Virat is a 16 channel temperature data logger for large facilities. Sixteen sensors connect to one Wi-Fi logger, so big warehouses and cold stores can be monitored point by point without a separate device at each position.",
     measures: "16 × temperature, or 16 × temperature + humidity (Pro)",
@@ -231,7 +231,7 @@ export const productContent: Record<SeriesSlug, ProductContent> = {
   vayu: {
     metaTitle: "Vayu – GSM Temperature & Humidity Data Logger",
     metaDescription:
-      "Vayu GSM temperature data logger with SIM connectivity for remote sites and reefer trucks. Temperature + humidity. Price on request. Get a quote.",
+      "Vayu GSM temperature data logger with SIM connectivity for remote sites and reefer trucks. Temperature + humidity. Get a solution.",
     intro:
       "Vayu is a GSM temperature data logger that uses a SIM card instead of Wi-Fi. It measures temperature and humidity and suits remote sites, reefer trucks and outdoor locations where Wi-Fi does not reach.",
     measures: "Temperature + humidity",
@@ -260,7 +260,7 @@ export const productContent: Record<SeriesSlug, ProductContent> = {
       },
       {
         question: "What does Vayu cost?",
-        answer: "Vayu is priced on request. Call, WhatsApp or send an enquiry and we will share a quote.",
+        answer: "Share your requirement and we will send a clear quote.",
       },
     ],
   },
@@ -294,7 +294,7 @@ export const productContent: Record<SeriesSlug, ProductContent> = {
       },
       {
         question: "What do the accessories cost?",
-        answer: "Accessories are priced on request. Contact us for a quote with your loggers.",
+        answer: "Share your requirement and we will send a clear quote.",
       },
     ],
   },

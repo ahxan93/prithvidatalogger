@@ -74,8 +74,8 @@ export function siteSchema() {
 
 /**
  * ProductGroup with one Product per variant (brief §7.3).
- * Offers only where an MRP is public: INR, VAT (GST) not included, in stock.
- * "Price on request" variants carry no offer. No ratings or reviews by design.
+ * No offers/price (owner decision: no prices shown anywhere on the site).
+ * No ratings or reviews by design either.
  */
 export function productSchema(product: ProductSeries, description: string) {
   const url = absoluteUrl(`/products/${product.slug}`);
@@ -101,22 +101,6 @@ export function productSchema(product: ProductSeries, description: string) {
         description: variant.description ?? `${variant.name}: ${variant.sensors}${variant.tempRange ? `, ${variant.tempRange}` : ""}.`,
         brand,
         ...(realImage && { image: absoluteUrl(realImage) }),
-        ...(variant.mrp !== null && {
-          offers: {
-            "@type": "Offer",
-            url,
-            price: variant.mrp,
-            priceCurrency: "INR",
-            availability: "https://schema.org/InStock",
-            priceSpecification: {
-              "@type": "UnitPriceSpecification",
-              price: variant.mrp,
-              priceCurrency: "INR",
-              valueAddedTaxIncluded: false,
-            },
-            seller: { "@type": "Organization", name: siteConfig.name, url: siteConfig.url },
-          },
-        }),
       };
     }),
   };

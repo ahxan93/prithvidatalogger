@@ -2,14 +2,13 @@
 
 import Image from "next/image";
 import { useId, useRef, useState, type KeyboardEvent, type ReactNode } from "react";
+import GetSolutionButton from "@/components/products/GetSolutionButton";
 import ImageFallback from "@/components/ui/ImageFallback";
 import { cn } from "@/lib/cn";
 
 export type ExplorerVariant = {
   slug: string;
   name: string;
-  /** "MRP ₹6,500 + 18% GST" or "Price on request". */
-  priceText: string;
   specs: { label: string; value: string }[];
   /** Accessories: what it does. */
   description?: string;
@@ -28,7 +27,7 @@ type VariantExplorerProps = {
 };
 
 // Series hero: gallery + variant tabs. Every panel is in the HTML (inactive
-// ones are `hidden`), so all prices and specs are crawlable without JavaScript.
+// ones are `hidden`), so all specs are crawlable without JavaScript.
 export default function VariantExplorer({ seriesName, channels, variants, children, actions }: VariantExplorerProps) {
   const [active, setActive] = useState(0);
   const baseId = useId();
@@ -155,7 +154,7 @@ export default function VariantExplorer({ seriesName, channels, variants, childr
             tabIndex={0}
             className="mt-6 rounded-2xl border border-white/10 bg-white/5 p-6 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cyan-400"
           >
-            <p className="font-heading text-2xl font-semibold text-white">{variant.priceText}</p>
+            <GetSolutionButton href="#enquiry" whatsappProduct={variant.name} size="lg" />
             {variant.description && (
               <p className="mt-3 leading-relaxed text-slate-300">{variant.description}</p>
             )}
@@ -171,7 +170,7 @@ export default function VariantExplorer({ seriesName, channels, variants, childr
         ))}
 
         <p className="sr-only" aria-live="polite">
-          {current.name}: {current.priceText}
+          Showing {current.name}
         </p>
 
         <div className="mt-7">{actions}</div>

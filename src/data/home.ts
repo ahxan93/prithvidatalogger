@@ -125,8 +125,8 @@ export const whyPrithvi: HomeCard[] = [
   },
   {
     icon: "indian-rupee",
-    title: "Transparent MRP pricing",
-    description: "MRP is shown openly with GST stated separately, and there are no hidden charges.",
+    title: "Clear, Itemised Quotes",
+    description: "Clear, itemised quotes with no hidden charges.",
   },
   {
     icon: "headset",
@@ -160,7 +160,7 @@ export const buyingSteps: HomeCard[] = [
   {
     icon: "handshake",
     title: "Expert consultation & quote",
-    description: "We confirm the right models and send a clear quote: MRP plus 18% GST.",
+    description: "We confirm the right models and send a clear, itemised quote.",
   },
   {
     icon: "truck",
@@ -199,6 +199,6 @@ export const homeFaqs: { question: string; answer: string }[] = [
   {
     question: "How do I order?",
     answer:
-      "Call, WhatsApp or send an enquiry. Our team discusses your requirements and sends a quote showing the MRP plus 18% GST. Purchase is completed offline; there is no online checkout.",
+      "Call, WhatsApp or send an enquiry. Share your requirement and we will send a clear quote. Purchase is completed offline; there is no online checkout.",
   },
 ];

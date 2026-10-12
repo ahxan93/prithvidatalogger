@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { siteConfig } from "@/config/site";
 import {
   connectivityOptions,
   formatFromPrice,
@@ -9,6 +10,7 @@ import {
 import { productContent } from "@/data/product-content";
 import { GSM_NETWORK_NOTE } from "@/data/locations";
 import { quoteHref } from "@/data/navigation";
+import GetSolutionButton from "@/components/products/GetSolutionButton";
 import ProductCard from "@/components/products/ProductCard";
 import CtaBand from "@/components/sections/CtaBand";
 import PageHero from "@/components/sections/PageHero";
@@ -21,7 +23,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Temperature & Humidity Data Loggers",
   description:
-    "Compare Prithvi temperature data loggers: WiFi and GSM, 1 to 16 channels, temperature and humidity, with MRP pricing. Find the right model and get a quote.",
+    "Compare Prithvi temperature data loggers: WiFi and GSM, 1 to 16 channels, temperature and humidity. Find the right model and get a solution.",
   path: "/products",
 });
 
@@ -45,7 +47,7 @@ export default function ProductsPage() {
         crumbs={[{ name: "Products", href: "/products" }]}
         eyebrow="Products"
         title="Temperature & Humidity Data Loggers"
-        intro="Prithvi temperature data loggers record continuously, sync over Wi-Fi or GSM and alert your team the moment a limit is crossed. Choose a single-point logger for one fridge or a multi-channel data logger for a whole warehouse. Every model shows its MRP openly."
+        intro="Prithvi temperature data loggers record continuously, sync over Wi-Fi or GSM and alert your team the moment a limit is crossed. Choose a single-point logger for one fridge or a multi-channel data logger for a whole warehouse. Share your requirement and we'll send a clear, itemised quote."
       >
         <div data-avoid-floating className="flex flex-col gap-3 sm:flex-row">
           <Button href={quoteHref} size="lg">
@@ -105,7 +107,7 @@ export default function ProductsPage() {
           id="compare-title"
           eyebrow="Compare"
           title="All Series at a Glance"
-          subtitle="Channels, what each series measures, range and starting MRP. Prices exclude 18% GST."
+          subtitle="Channels, what each series measures, range and connectivity."
         />
         {/* Scrolls inside its own box on small screens, so the page never scrolls sideways. */}
         <p className="mt-8 text-sm text-muted lg:hidden">Swipe sideways to see every column.</p>
@@ -118,7 +120,14 @@ export default function ProductsPage() {
           <table className="w-full min-w-[62rem] border-collapse text-left text-sm">
             <thead>
               <tr className="border-b border-slate-200 bg-brand-50 text-ink">
-                {["Series", "Channels", "Measures", "Range", "Connectivity", "Starting price"].map((h) => (
+                {[
+                  "Series",
+                  "Channels",
+                  "Measures",
+                  "Range",
+                  "Connectivity",
+                  ...(siteConfig.showPrices ? ["Starting price"] : []),
+                ].map((h) => (
                   <th key={h} scope="col" className="px-5 py-4 font-heading text-sm font-semibold">
                     {h}
                   </th>
@@ -139,7 +148,9 @@ export default function ProductsPage() {
                     <td className="px-5 py-4 text-muted">{content.measures}</td>
                     <td className="px-5 py-4 text-muted">{content.rangeSummary}</td>
                     <td className="px-5 py-4 text-muted">{series.connectivity.includes("gsm") ? "GSM (SIM)" : "Wi-Fi"}</td>
-                    <td className="px-5 py-4 font-semibold whitespace-nowrap text-ink">{formatFromPrice(series)}</td>
+                    {siteConfig.showPrices && (
+                      <td className="px-5 py-4 font-semibold whitespace-nowrap text-ink">{formatFromPrice(series)}</td>
+                    )}
                   </tr>
                 );
               })}
@@ -202,7 +213,11 @@ export default function ProductsPage() {
                 </span>
                 <h3 className="mt-4 font-heading text-xl font-semibold text-ink">{accessory.name}</h3>
                 <p className="mt-2 leading-relaxed text-muted">{accessory.description}</p>
-                <p className="mt-4 text-sm font-semibold text-brand-700">Price on request</p>
+                {siteConfig.showPrices ? (
+                  <p className="mt-4 text-sm font-semibold text-brand-700">Price on request</p>
+                ) : (
+                  <GetSolutionButton href="/products/accessories#enquiry" size="sm" className="mt-4" />
+                )}
               </li>
             ))}
           </ul>
@@ -237,7 +252,7 @@ export default function ProductsPage() {
 
       <CtaBand
         title="Tell Us What You Need to Monitor"
-        text="Share your rooms, freezers or vehicles and we'll recommend the right series and send a quote: MRP plus 18% GST."
+        text="Share your rooms, freezers or vehicles and we'll recommend the right series and send you a clear, itemised quote."
       />
     </>
   );
