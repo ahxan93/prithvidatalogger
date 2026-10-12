@@ -22,7 +22,7 @@ function LogoItem({ client, className }: { client: Client; className?: string })
   return (
     <li
       className={cn(
-        "flex h-20 w-40 shrink-0 items-center justify-center rounded-xl border border-slate-200/80 bg-white px-3 transition duration-300 hover:-translate-y-0.5 hover:shadow-soft sm:h-24 sm:w-48",
+        "flex h-24 w-48 shrink-0 items-center justify-center rounded-xl border border-slate-200/80 bg-white px-4 transition duration-300 hover:-translate-y-0.5 hover:shadow-soft",
         className,
       )}
     >
@@ -42,7 +42,7 @@ function LogoItem({ client, className }: { client: Client; className?: string })
 }
 
 const pause =
-  "group-hover/marquee:[animation-play-state:paused] group-focus-within/marquee:[animation-play-state:paused]";
+  "group-hover/marquee:[animation-play-state:paused] group-focus-within/marquee:[animation-play-state:paused] group-active/marquee:[animation-play-state:paused]";
 
 // Server-rendered/no-JS count: enough logos to read as a real, credible row
 // without shipping all 38 in the initial HTML. Expands to the full roster
@@ -60,14 +60,16 @@ function useHydrated() {
 
 export default function ClientsMarquee() {
   const half = Math.ceil(clients.length / 2);
-  const rows = [clients.slice(0, half), clients.slice(half)];
   const isDesktop = useMediaQuery("(min-width: 768px)");
   const reducedMotion = useMediaQuery("(prefers-reduced-motion: reduce)");
   // False on the server and on first paint everywhere, so the initial HTML
   // always ships one real copy of each of the 38 logos, never a duplicated
-  // marquee track. Only after hydration, on desktop with motion allowed,
-  // does the two-row animated version (with its looping duplicate) replace it.
-  const animated = isDesktop && !reducedMotion;
+  // marquee track. After hydration, anyone who hasn't asked for reduced motion
+  // gets the animated version (with its single looping duplicate): two rows
+  // moving in opposite directions from 768px up, one calm row below that.
+  const animated = !reducedMotion;
+  const rows = isDesktop ? [clients.slice(0, half), clients.slice(half)] : [clients];
+  const duration = isDesktop ? "70s" : "45s";
 
   const hydrated = useHydrated();
   const visibleClients = hydrated ? clients : clients.slice(0, INITIAL_COUNT);
@@ -85,11 +87,12 @@ export default function ClientsMarquee() {
       </div>
 
       {animated ? (
-        // Two rows moving in opposite directions, each with a JS-added,
-        // aria-hidden + inert duplicate so the loop reads as seamless.
+        // Each row has one JS-added, aria-hidden + inert duplicate so the loop
+        // reads as seamless. pb-2 matches the static row, so swapping between
+        // them causes no layout shift.
         <div
-          className="group/marquee relative mt-12 overflow-hidden"
-          style={{ "--marquee-duration": "70s" } as CSSProperties}
+          className="group/marquee relative mt-12 overflow-hidden pb-2"
+          style={{ "--marquee-duration": duration } as CSSProperties}
         >
           <div aria-hidden="true" className="pointer-events-none absolute inset-y-0 left-0 z-10 w-10 bg-gradient-to-r from-white to-transparent sm:w-24" />
           <div aria-hidden="true" className="pointer-events-none absolute inset-y-0 right-0 z-10 w-10 bg-gradient-to-l from-white to-transparent sm:w-24" />
@@ -98,7 +101,7 @@ export default function ClientsMarquee() {
               <div
                 key={i}
                 className={cn(
-                  "flex w-max",
+                  "flex w-max will-change-transform",
                   i === 0 ? "motion-safe:animate-marquee" : "motion-safe:animate-marquee-reverse",
                   pause,
                 )}
