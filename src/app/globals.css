@@ -262,40 +262,20 @@
 }
 
 /* ---------------------------------------------------------------------------
-   Site header states
-   The header is fixed. On pages whose first section has data-hero="dark" it is
-   transparent (white logo, white links) until scrolled; everywhere else it is
-   solid white. Pure CSS (:has) so the server-rendered HTML is already correct.
+   Site header
+   One fixed, solid-white style everywhere, on every page, at every scroll
+   position. No transparency, no colour switching, no logo swap in the main
+   header (the white logo variant is reserved for genuinely dark areas: the
+   mobile menu panel and the footer).
 --------------------------------------------------------------------------- */
 @layer components {
   .site-main {
     padding-top: var(--header-h);
   }
-  body:has([data-hero="dark"]) .site-main {
-    padding-top: 0;
-  }
 
   .site-header {
     --nav-active: var(--color-brand-600);
     --nav-hover-bg: var(--color-brand-50);
-    @apply border-b border-slate-200/80 bg-white/95 text-ink backdrop-blur transition-[background-color,box-shadow,border-color] duration-300;
-  }
-  .site-header[data-scrolled="true"] {
-    @apply border-transparent shadow-soft;
-  }
-  .site-header .logo-on-dark {
-    display: none;
-  }
-
-  body:has([data-hero="dark"]) .site-header[data-scrolled="false"] {
-    --nav-active: var(--color-cyan-400);
-    --nav-hover-bg: rgb(255 255 255 / 0.1);
-    @apply border-transparent bg-transparent text-white shadow-none backdrop-blur-none;
-  }
-  body:has([data-hero="dark"]) .site-header[data-scrolled="false"] .logo-on-dark {
-    display: block;
-  }
-  body:has([data-hero="dark"]) .site-header[data-scrolled="false"] .logo-on-light {
-    display: none;
+    @apply border-b border-slate-200/80 bg-white text-ink shadow-soft;
   }
 }

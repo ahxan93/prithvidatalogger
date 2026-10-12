@@ -25,7 +25,6 @@ export default async function Hero() {
 
   return (
     <section
-      data-hero="dark"
       data-tone="dark"
       aria-labelledby="hero-title"
       className="group/section relative isolate overflow-hidden bg-navy-950 text-white"
@@ -42,7 +41,9 @@ export default async function Hero() {
         <div className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-cyan-400/40 to-transparent" />
       </div>
 
-      <Container className="grid items-center gap-16 pt-[calc(var(--header-h)+2.5rem)] pb-36 sm:pb-24 sm:pt-[calc(var(--header-h)+3.5rem)] lg:grid-cols-[1.08fr_0.92fr] lg:gap-12 lg:pt-[calc(var(--header-h)+4.5rem)] lg:pb-32">
+      {/* .site-main already reserves header-height padding above this section;
+          this adds breathing room beyond that, under the fixed header. */}
+      <Container className="grid items-center gap-16 pt-10 pb-36 sm:pt-14 sm:pb-24 lg:grid-cols-[1.08fr_0.92fr] lg:gap-12 lg:pt-18 lg:pb-32">
         <div>
           <p className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3.5 py-1.5 text-xs font-semibold tracking-wide text-slate-200 sm:text-sm">
             <span className="relative flex size-2">

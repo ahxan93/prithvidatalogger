@@ -22,8 +22,7 @@ type PageHeroProps = {
   imageAlt?: string;
 };
 
-// Dark hero for inner pages: breadcrumbs, H1, intro. Sets data-hero="dark"
-// (via Section) so the header starts transparent with the white logo.
+// Dark hero for inner pages: breadcrumbs, H1, intro.
 export default function PageHero({ crumbs, title, eyebrow, intro, children, image, imageAlt }: PageHeroProps) {
   return (
     <Section tone="dark" hero className="overflow-hidden pb-14 sm:pb-16 lg:pb-20">

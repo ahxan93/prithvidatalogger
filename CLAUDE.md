@@ -50,8 +50,9 @@ docs/MASTER-BRIEF.md is the source of truth for content and pages.
   `live-green`, `whatsapp`) – no ad-hoc hex values in components.
 - Text must meet WCAG AA contrast. On WhatsApp green use dark text (`text-navy-950`), never white.
 - Animations must respect `prefers-reduced-motion` (use `motion-safe:` variants).
-- Pages with a dark hero put `data-hero="dark"` on the hero section; the header then renders
-  transparent with the white logo until the user scrolls.
+- The header is one fixed, solid-white style on every page at every scroll position — never
+  transparent, never a different height, always the normal (blue) logo. The white logo is
+  reserved for genuinely dark areas: the mobile menu panel and the footer.
 
 ## Checks before finishing
 - `npm run lint`, `npm run build`, `npm run check:images` must all pass.

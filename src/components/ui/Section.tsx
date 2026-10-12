@@ -14,8 +14,9 @@ type SectionProps = {
   /** Dot-grid texture (dark sections only). Default true for dark. */
   pattern?: boolean;
   /**
-   * First section of a page. Adds room for the fixed header; with tone="dark"
-   * it also sets data-hero="dark" so the header turns transparent (see globals.css).
+   * First section of a page. Not lazily deferred (it's above the fold) and
+   * gets extra top padding beyond .site-main's header-height offset, for
+   * breathing room under the fixed header.
    */
   hero?: boolean;
   /** Accessible name when the section has no visible heading. */
@@ -41,20 +42,19 @@ export default function Section({
   hero = false,
   ...aria
 }: SectionProps) {
-  const darkHero = hero && tone === "dark";
   return (
     <section
       id={id}
       data-tone={tone}
-      data-hero={darkHero ? "dark" : undefined}
       className={cn(
         "group/section relative py-16 sm:py-20 lg:py-24",
         // Light sections after the first defer their rendering until near the viewport.
         // Not on dark sections: accessibility checkers cannot see a deferred dark
         // background and report false contrast failures for the light text on it.
         !hero && tone !== "dark" && "cv-auto",
-        // Only a dark hero sits under the transparent header and needs the offset.
-        darkHero && "pt-[calc(var(--header-h)+3rem)] sm:pt-[calc(var(--header-h)+4rem)] lg:pt-[calc(var(--header-h)+5rem)]",
+        // .site-main already reserves header-height padding above every page's
+        // first section; this adds breathing room beyond that, under the header.
+        hero && "pt-12 sm:pt-16 lg:pt-20",
         toneClasses[tone],
         tone === "dark" && pattern && "bg-dot-grid",
         className,

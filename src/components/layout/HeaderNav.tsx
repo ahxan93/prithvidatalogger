@@ -8,7 +8,6 @@ import {
   useId,
   useRef,
   useState,
-  useSyncExternalStore,
   type KeyboardEvent,
   type ReactNode,
 } from "react";
@@ -28,20 +27,6 @@ type HeaderNavProps = {
 // ---------------------------------------------------------------------------
 // Helpers
 // ---------------------------------------------------------------------------
-
-function subscribeScroll(callback: () => void) {
-  window.addEventListener("scroll", callback, { passive: true });
-  return () => window.removeEventListener("scroll", callback);
-}
-
-/** True once the page is scrolled; false on the server so SSR markup is stable. */
-function useScrolled(threshold = 8) {
-  return useSyncExternalStore(
-    subscribeScroll,
-    () => window.scrollY > threshold,
-    () => false,
-  );
-}
 
 /** Exact match for leaf links; prefix match for section parents. Hash links never match. */
 function isActive(pathname: string, href: string, section = false) {
@@ -414,7 +399,6 @@ function MobileMenu({
 
 export default function HeaderNav({ items, quoteHref, contact, logo, logoWhite }: HeaderNavProps) {
   const pathname = usePathname();
-  const scrolled = useScrolled();
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const [mobileOpen, setMobileOpen] = useState(false);
   const menuButtonRef = useRef<HTMLButtonElement>(null);
@@ -426,7 +410,7 @@ export default function HeaderNav({ items, quoteHref, contact, logo, logoWhite }
 
   return (
     <>
-    <header className="site-header fixed inset-x-0 top-0 z-50" data-scrolled={scrolled}>
+    <header className="site-header fixed inset-x-0 top-0 z-50">
       <a
         href="#main"
         className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-3 focus:z-[70] focus:rounded-lg focus:bg-white focus:px-4 focus:py-2 focus:text-ink focus:shadow-soft"
@@ -435,8 +419,7 @@ export default function HeaderNav({ items, quoteHref, contact, logo, logoWhite }
       </a>
       <div className="mx-auto flex h-(--header-h) max-w-7xl items-center justify-between gap-4 px-4 sm:px-6 lg:px-8">
         <Link href="/" aria-label="Prithvi Data Loggers home" className="flex min-h-11 shrink-0 items-center">
-          <span className="logo-on-light">{logo}</span>
-          <span className="logo-on-dark">{logoWhite}</span>
+          {logo}
         </Link>
 
         <nav aria-label="Main" className="hidden xl:block">
