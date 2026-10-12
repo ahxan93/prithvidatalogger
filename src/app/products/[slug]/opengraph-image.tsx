@@ -1,8 +1,9 @@
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { ImageResponse } from "next/og";
+import sharp from "sharp";
 import { getProductBySlug, products } from "@/data/products";
-import { getSeriesImage } from "@/lib/images";
+import { getVariantImage } from "@/lib/images";
 import { siteConfig } from "@/config/site";
 
 export const alt = "Prithvi Data Loggers product";
@@ -21,24 +22,18 @@ const ACCENT_TO = "#22d3ee";
 const logoData = await readFile(join(process.cwd(), "public", siteConfig.logo));
 const logoSrc = `data:image/png;base64,${logoData.toString("base64")}`;
 
-const MIME_BY_EXT: Record<string, string> = {
-  png: "image/png",
-  jpg: "image/jpeg",
-  jpeg: "image/jpeg",
-  webp: "image/webp",
-};
-
 export default async function Image({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const product = getProductBySlug(slug);
 
   let photoSrc: string | undefined;
   if (product) {
-    const photoPath = await getSeriesImage(product);
+    // Series photo, or for accessories the first accessory's own photo.
+    const photoPath = (await getVariantImage(product, product.variants[0]))?.src;
     if (photoPath) {
-      const ext = photoPath.split(".").pop()?.toLowerCase() ?? "png";
-      const bytes = await readFile(join(process.cwd(), "public", photoPath));
-      photoSrc = `data:${MIME_BY_EXT[ext] ?? "image/png"};base64,${bytes.toString("base64")}`;
+      // The OG renderer can't decode WebP, so hand it a PNG.
+      const png = await sharp(join(process.cwd(), "public", photoPath)).png().toBuffer();
+      photoSrc = `data:image/png;base64,${png.toString("base64")}`;
     }
   }
 

@@ -16,7 +16,6 @@ import fs from "node:fs";
 import path from "node:path";
 import sharp from "sharp";
 import { industries } from "../src/data/industries.ts";
-import { products } from "../src/data/products.ts";
 
 const IMAGES_DIR = path.join(import.meta.dirname, "..", "public", "images");
 const IMAGE_EXTENSIONS = [".webp", ".avif", ".png", ".jpg", ".jpeg"];
@@ -44,18 +43,10 @@ const blogTargets = (fs.existsSync(BLOG_CONTENT_DIR) ? fs.readdirSync(BLOG_CONTE
     label: slug.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase()),
   }));
 
-// Product placeholders only for series with no real base image. Series that
-// have one (e.g. setu.png) are skipped entirely: their variants fall back to it.
-const productTargets = products
-  .filter((series) => manifestOnly || !hasImage("products", series.slug))
-  .flatMap((series) =>
-    series.variants.map((variant) => ({
-      file: `products/${variant.slug}.png`,
-      width: 1200,
-      height: 900,
-      label: variant.name,
-    })),
-  );
+// No product placeholders: every series and accessory has a real photo in
+// public/images/products (variants without their own fall back to the series
+// photo), so none are generated here and a deleted photo is never replaced by
+// a placeholder.
 
 const targets = [
   { file: "logo/prithvi-data-loggers-logo.png", width: 512, height: 128, label: "Prithvi Data Loggers", variant: "logo" },
@@ -72,7 +63,6 @@ const targets = [
     height: 800,
     label: industry.name,
   })),
-  ...productTargets,
   ...blogTargets,
 ];
 

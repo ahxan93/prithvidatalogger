@@ -151,7 +151,7 @@ function findActualCase(src: string): string | undefined {
 
 /**
  * Resolves an extension-less public path (e.g. "/images/products/setu") to the
- * first existing file in any supported format, e.g. "/images/products/setu.png".
+ * first existing file in any supported format, e.g. "/images/products/setu.webp".
  * Matches extension case-insensitively but returns the path using the exact
  * on-disk casing, so the URL Next.js serves always matches a real file.
  */
@@ -173,19 +173,9 @@ function findImage(slug: string, files: Set<string>): string | undefined {
   return ext ? `${PRODUCTS_URL}/${slug}${ext}` : undefined;
 }
 
-/** The series base image, e.g. /images/products/setu.png. */
-export async function getSeriesImage(series: ProductSeries): Promise<string | undefined> {
-  "use cache";
-  // Images under public/ only change between deployments, and the cache key
-  // already includes the build ID (so a new deploy always gets a fresh
-  // result) — safe to cache for as long as "max" allows.
-  cacheLife("max");
-  return findImage(series.slug, listProductImages());
-}
-
 /**
- * The variant's own image (e.g. setu-pro.png) if present, otherwise the series
- * base image (setu.png). Undefined when neither exists.
+ * The variant's own image (e.g. setu-pro.webp) if present, otherwise the series
+ * base image (setu.webp). Undefined when neither exists.
  */
 export async function getVariantImage(
   series: ProductSeries,
