@@ -5,6 +5,7 @@ import { siteConfig } from "@/config/site";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import FloatingContact from "@/components/layout/FloatingContact";
+import HostNoindexMeta from "@/components/seo/HostNoindexMeta";
 import JsonLd from "@/components/seo/JsonLd";
 import { LogoFilterDefs } from "@/components/ui/Logo";
 import { siteSchema } from "@/lib/schema";
@@ -41,6 +42,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className={`${sora.variable} ${inter.variable} h-full`}>
       <body className="flex min-h-full flex-col">
+        <HostNoindexMeta />
         <JsonLd data={siteSchema()} />
         <LogoFilterDefs />
         <Header />

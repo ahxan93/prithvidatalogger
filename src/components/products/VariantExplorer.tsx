@@ -154,7 +154,13 @@ export default function VariantExplorer({ seriesName, channels, variants, childr
             tabIndex={0}
             className="mt-6 rounded-2xl border border-white/10 bg-white/5 p-6 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cyan-400"
           >
-            <GetSolutionButton href="#enquiry" whatsappProduct={variant.name} size="lg" />
+            <GetSolutionButton
+              href="#enquiry"
+              productName={variant.name}
+              descriptive
+              whatsappProduct={variant.name}
+              size="lg"
+            />
             {variant.description && (
               <p className="mt-3 leading-relaxed text-slate-300">{variant.description}</p>
             )}

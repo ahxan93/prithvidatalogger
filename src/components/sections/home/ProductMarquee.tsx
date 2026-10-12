@@ -74,7 +74,13 @@ export default async function ProductMarquee() {
                       <ArrowRightIcon className="size-4 text-brand-600 transition-transform motion-safe:group-hover:translate-x-1" />
                     </p>
                   ) : (
-                    <GetSolutionButton href={`/products/${series.slug}#enquiry`} size="sm" block className="mt-4" />
+                    <GetSolutionButton
+                      href={`/products/${series.slug}#enquiry`}
+                      productName={series.name}
+                      size="sm"
+                      block
+                      className="mt-4"
+                    />
                   )}
                 </div>
               </div>

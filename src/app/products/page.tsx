@@ -216,7 +216,12 @@ export default function ProductsPage() {
                 {siteConfig.showPrices ? (
                   <p className="mt-4 text-sm font-semibold text-brand-700">Price on request</p>
                 ) : (
-                  <GetSolutionButton href="/products/accessories#enquiry" size="sm" className="mt-4" />
+                  <GetSolutionButton
+                    href="/products/accessories#enquiry"
+                    productName={accessory.name}
+                    size="sm"
+                    className="mt-4"
+                  />
                 )}
               </li>
             ))}

@@ -87,7 +87,12 @@ export default function BrandsPage() {
                       </span>
                     </p>
                   ) : (
-                    <GetSolutionButton href={`/products/${series.slug}#enquiry`} size="sm" className="mt-6" />
+                    <GetSolutionButton
+                      href={`/products/${series.slug}#enquiry`}
+                      productName={series.name}
+                      size="sm"
+                      className="mt-6"
+                    />
                   )}
                 </article>
               </li>

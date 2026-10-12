@@ -6,8 +6,13 @@ type BuildMetadataInput = {
   description: string;
   /** Path relative to the site root, e.g. "/products/setu". Used for the canonical URL. */
   path: string;
-  /** Absolute or root-relative OG image path. Defaults to the site OG image. */
-  image?: string;
+  /**
+   * Absolute or root-relative OG image path. Defaults to the site OG image.
+   * Pass `null` for a route that has its own `opengraph-image` file
+   * convention (e.g. `/products/[slug]`) — setting an explicit image here
+   * would make Next.js skip the generated file entirely.
+   */
+  image?: string | null;
   /** Skip the "| Prithvi Data Loggers" title suffix (used on the home page). */
   absoluteTitle?: boolean;
   noIndex?: boolean;
@@ -46,13 +51,13 @@ export function buildMetadata({
       url,
       title: fullTitle,
       description,
-      images: [{ url: image, width: 1200, height: 630, alt: fullTitle }],
+      ...(image !== null && { images: [{ url: image, width: 1200, height: 630, alt: fullTitle }] }),
     },
     twitter: {
       card: "summary_large_image",
       title: fullTitle,
       description,
-      images: [image],
+      ...(image !== null && { images: [image] }),
     },
     ...(noIndex && { robots: { index: false, follow: true } }),
   };

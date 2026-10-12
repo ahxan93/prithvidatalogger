@@ -49,7 +49,7 @@ export const siteConfig = {
     "Yemen",
   ],
   logo: "/images/logo/prithvi-data-loggers-logo.png",
-  ogImage: "/images/og/og-default.jpg",
+  ogImage: "/images/og/og-default.png",
   locale: "en_IN",
 } as const;
 

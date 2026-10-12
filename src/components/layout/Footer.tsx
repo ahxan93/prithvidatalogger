@@ -26,11 +26,8 @@ export default function Footer() {
     <footer
       data-tone="dark"
       className="group/section bg-dot-grid relative bg-navy-950 text-slate-300"
-      aria-labelledby="footer-heading"
+      aria-label="Footer"
     >
-      <h2 id="footer-heading" className="sr-only">
-        Footer
-      </h2>
       {/* Thin brand → cyan accent line */}
       <div aria-hidden="true" className="bg-brand-gradient h-1 w-full" />
 

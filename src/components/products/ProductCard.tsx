@@ -85,7 +85,12 @@ export default async function ProductCard({ series, as: Heading = "h3", note, cl
             </span>
           </p>
         ) : (
-          <GetSolutionButton href={`/products/${series.slug}#enquiry`} size="sm" className="mt-4" />
+          <GetSolutionButton
+            href={`/products/${series.slug}#enquiry`}
+            productName={series.name}
+            size="sm"
+            className="mt-4"
+          />
         )}
       </div>
     </article>

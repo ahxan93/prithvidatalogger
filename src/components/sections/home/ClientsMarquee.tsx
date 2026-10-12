@@ -1,15 +1,16 @@
-import type { CSSProperties } from "react";
+"use client";
+
+import { useSyncExternalStore, type CSSProperties } from "react";
 import { getImageProps } from "next/image";
 import { clientLogoAlt, clients, type Client } from "@/data/clients";
 import Section from "@/components/ui/Section";
 import SectionHeading from "@/components/ui/SectionHeading";
+import { useMediaQuery } from "@/lib/useMediaQuery";
 import { cn } from "@/lib/cn";
 
-// 38 logos × 2 marquee copies = 76 images. Rendering them with <Image> makes the
-// browser hydrate 76 client components on load. getImageProps (from next/image)
-// gives the same optimised, lazy-loaded markup as plain server-rendered <img>,
-// with no JavaScript per image.
-function LogoItem({ client }: { client: Client }) {
+// getImageProps (from next/image) gives the same optimised, lazy-loaded <img>
+// markup as <Image>, with no JavaScript per image.
+function LogoItem({ client, className }: { client: Client; className?: string }) {
   const { props } = getImageProps({
     src: client.logo,
     alt: clientLogoAlt(client),
@@ -19,7 +20,12 @@ function LogoItem({ client }: { client: Client }) {
     loading: "lazy",
   });
   return (
-    <li className="flex h-20 w-40 shrink-0 items-center justify-center rounded-xl border border-slate-200/80 bg-white px-3 transition duration-300 hover:-translate-y-0.5 hover:shadow-soft sm:h-24 sm:w-48">
+    <li
+      className={cn(
+        "flex h-20 w-40 shrink-0 items-center justify-center rounded-xl border border-slate-200/80 bg-white px-3 transition duration-300 hover:-translate-y-0.5 hover:shadow-soft sm:h-24 sm:w-48",
+        className,
+      )}
+    >
       {/* Capped by height (not "w-full") so every logo reads at the same visual
           size regardless of its own aspect ratio — a near-square mark and a
           wide wordmark both end up the same height instead of one towering
@@ -38,9 +44,33 @@ function LogoItem({ client }: { client: Client }) {
 const pause =
   "group-hover/marquee:[animation-play-state:paused] group-focus-within/marquee:[animation-play-state:paused]";
 
+// Server-rendered/no-JS count: enough logos to read as a real, credible row
+// without shipping all 38 in the initial HTML. Expands to the full roster
+// right after hydration, for every visitor (not just capable/desktop ones).
+const INITIAL_COUNT = 12;
+
+function subscribeNever() {
+  return () => {};
+}
+
+/** True once mounted on the client; false on the server and the first client render. */
+function useHydrated() {
+  return useSyncExternalStore(subscribeNever, () => true, () => false);
+}
+
 export default function ClientsMarquee() {
   const half = Math.ceil(clients.length / 2);
   const rows = [clients.slice(0, half), clients.slice(half)];
+  const isDesktop = useMediaQuery("(min-width: 768px)");
+  const reducedMotion = useMediaQuery("(prefers-reduced-motion: reduce)");
+  // False on the server and on first paint everywhere, so the initial HTML
+  // always ships one real copy of each of the 38 logos, never a duplicated
+  // marquee track. Only after hydration, on desktop with motion allowed,
+  // does the two-row animated version (with its looping duplicate) replace it.
+  const animated = isDesktop && !reducedMotion;
+
+  const hydrated = useHydrated();
+  const visibleClients = hydrated ? clients : clients.slice(0, INITIAL_COUNT);
 
   return (
     <Section contained={false} aria-labelledby="clients-title">
@@ -54,51 +84,52 @@ export default function ClientsMarquee() {
         />
       </div>
 
-      {/*
-        One set of logos, two layouts (no extra DOM):
-        - from 768px: two rows moving in opposite directions, each row its own track;
-        - below 768px: ONE row. The row wrappers become display:contents, so all four
-          lists sit in a single track, and order arranges them A B A2 B2 (two identical
-          halves), which is what makes the loop seamless.
-        Duplicates are aria-hidden + inert. Hover/focus pauses. Reduced motion: no
-        animation, duplicates hidden, the row scrolls.
-      */}
-      <div
-        className="group/marquee relative mt-12 overflow-hidden motion-reduce:overflow-x-auto"
-        style={{ "--marquee-duration": "70s" } as CSSProperties}
-      >
-        <div aria-hidden="true" className="pointer-events-none absolute inset-y-0 left-0 z-10 w-10 bg-gradient-to-r from-white to-transparent sm:w-24 motion-reduce:hidden" />
-        <div aria-hidden="true" className="pointer-events-none absolute inset-y-0 right-0 z-10 w-10 bg-gradient-to-l from-white to-transparent sm:w-24 motion-reduce:hidden" />
+      {animated ? (
+        // Two rows moving in opposite directions, each with a JS-added,
+        // aria-hidden + inert duplicate so the loop reads as seamless.
         <div
-          className={cn(
-            // The single mobile track is twice as long, so it gets twice the time.
-            "flex w-max py-2 max-md:[--marquee-duration:140s] max-md:motion-safe:animate-marquee md:block md:w-auto md:space-y-4",
-            pause,
-          )}
+          className="group/marquee relative mt-12 overflow-hidden"
+          style={{ "--marquee-duration": "70s" } as CSSProperties}
         >
-          {rows.map((row, i) => (
-            <div
-              key={i}
-              className={cn(
-                "contents md:flex md:w-max",
-                i === 0 ? "md:motion-safe:animate-marquee" : "md:motion-safe:animate-marquee-reverse",
-                pause,
-              )}
-            >
-              <ul aria-label={i === 0 ? "Client logos" : "More client logos"} className={cn("flex shrink-0 gap-4 pr-4", i === 0 ? "order-1" : "order-2")}>
-                {row.map((client) => (
-                  <LogoItem key={client.slug} client={client} />
-                ))}
-              </ul>
-              <ul aria-hidden="true" inert className={cn("flex shrink-0 gap-4 pr-4 motion-reduce:hidden", i === 0 ? "order-3" : "order-4")}>
-                {row.map((client) => (
-                  <LogoItem key={client.slug} client={client} />
-                ))}
-              </ul>
-            </div>
-          ))}
+          <div aria-hidden="true" className="pointer-events-none absolute inset-y-0 left-0 z-10 w-10 bg-gradient-to-r from-white to-transparent sm:w-24" />
+          <div aria-hidden="true" className="pointer-events-none absolute inset-y-0 right-0 z-10 w-10 bg-gradient-to-l from-white to-transparent sm:w-24" />
+          <div className="space-y-4">
+            {rows.map((row, i) => (
+              <div
+                key={i}
+                className={cn(
+                  "flex w-max",
+                  i === 0 ? "motion-safe:animate-marquee" : "motion-safe:animate-marquee-reverse",
+                  pause,
+                )}
+              >
+                <ul aria-label={i === 0 ? "Client logos" : "More client logos"} className="flex shrink-0 gap-4 pr-4">
+                  {row.map((client) => (
+                    <LogoItem key={client.slug} client={client} />
+                  ))}
+                </ul>
+                <ul aria-hidden="true" inert className="flex shrink-0 gap-4 pr-4">
+                  {row.map((client) => (
+                    <LogoItem key={client.slug} client={client} />
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
         </div>
-      </div>
+      ) : (
+        // Default: one static, swipeable row, no animation. Before hydration
+        // (and so in the server-rendered HTML) only INITIAL_COUNT logos ship;
+        // the rest appear the moment React mounts, for every visitor.
+        <ul
+          aria-label="Client logos"
+          className="mt-12 flex snap-x snap-mandatory gap-4 overflow-x-auto px-4 pb-2 sm:px-6 lg:px-8"
+        >
+          {visibleClients.map((client) => (
+            <LogoItem key={client.slug} client={client} className="snap-start" />
+          ))}
+        </ul>
+      )}
     </Section>
   );
 }

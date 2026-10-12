@@ -111,21 +111,30 @@ leave it as is.
    host doesn't terminate TLS for the www host.
 3. **TLS** — confirm HTTPS is issued and enforced for both the apex and www
    hostnames before pointing DNS live.
-4. **Build & deploy** — `npm run build` (static/PPR output confirmed working
+4. **Flip `PRODUCTION_DOMAIN_LIVE` to `true`** in the hosting platform's
+   environment variables once the custom domain (step 2) is connected and
+   verified. Until this is set, the site stays reachable but `noindex`ed on
+   the `*.vercel.app` preview URL and sends `X-Robots-Tag: noindex`; setting
+   it also turns on a 308 redirect from any `*.vercel.app` host to
+   `https://prithvidataloggers.com` (path preserved). See `src/proxy.ts`.
+   Redeploy after setting it.
+5. **Build & deploy** — `npm run build` (static/PPR output confirmed working
    in this audit); `npm run start` or the host's Next.js runtime serves it.
-5. **Google Search Console** — verify the domain, submit
+6. **Google Search Console** — verify the domain, submit
    `https://prithvidataloggers.com/sitemap.xml`.
-6. **Bing Webmaster Tools** — same, optional but low-effort.
-7. **Analytics** — none is installed (by design, per the Privacy Policy's
+7. **Bing Webmaster Tools** — same, optional but low-effort.
+8. **Analytics** — none is installed (by design, per the Privacy Policy's
    current wording). If one is added later (GA4, Plausible, etc.), update the
    Privacy Policy's "Cookies and analytics" section to match before deploying
    it — the current wording explicitly says none is used.
-8. **Smoke test on the live domain** after DNS cutover:
+9. **Smoke test on the live domain** after DNS cutover:
    - `/sitemap.xml` and `/robots.txt` resolve and reference the live domain.
    - `www.prithvidataloggers.com` redirects to the apex domain.
    - Enquiry form submits successfully end-to-end (needs step 1).
    - Google Maps embed loads on `/contact`.
-9. **Re-run Lighthouse on the live URL** once deployed — scores measured
+   - View source confirms no `X-Robots-Tag: noindex` header and no
+     `<meta name="robots" content="noindex">` tag on the production domain.
+10. **Re-run Lighthouse on the live URL** once deployed — scores measured
    against a local `next start` server (this audit) are a close proxy but can
    differ from the real host (CDN, compression, edge caching).
 

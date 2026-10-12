@@ -1,8 +1,11 @@
+"use client";
+
 import type { CSSProperties, ReactNode } from "react";
+import { useMediaQuery } from "@/lib/useMediaQuery";
 import { cn } from "@/lib/cn";
 
 type MarqueeProps = {
-  /** List items (<li>) – rendered twice for a seamless loop. */
+  /** List items (<li>) – the real copy; a second copy is added client-side for the loop. */
   children: ReactNode;
   /** Accessible name for the list. */
   label: string;
@@ -16,15 +19,17 @@ type MarqueeProps = {
   fade?: "white" | "surface";
   /**
    * Below 768px: "marquee" keeps the animation; "snap" turns the row into a
-   * swipeable scroll-snap row (no animation, duplicate hidden). Desktop is unchanged.
+   * swipeable scroll-snap row (no animation, no duplicate). Desktop is unchanged.
    */
   mobile?: "marquee" | "snap";
 };
 
-// CSS-only marquee. The second copy is aria-hidden + inert so screen readers and
-// keyboard users meet each item once. Hover or focus pauses it. With reduced
-// motion there is no animation: the duplicate is hidden and the row scrolls.
-// Items in a mobile="snap" row should carry the snap-start class.
+// CSS-only marquee, with the second (looping) copy added only after hydration
+// and only where it actually animates — so the server-rendered HTML (what a
+// crawler or Lighthouse sees) has one real copy of each item, not two. The
+// duplicate is aria-hidden + inert so screen readers and keyboard users meet
+// each item once. Hover or focus pauses it. With reduced motion there is no
+// animation and no duplicate: the row scrolls as a plain list.
 export default function Marquee({
   children,
   label,
@@ -36,6 +41,12 @@ export default function Marquee({
   mobile = "marquee",
 }: MarqueeProps) {
   const snap = mobile === "snap";
+  const isDesktop = useMediaQuery("(min-width: 768px)");
+  const reducedMotion = useMediaQuery("(prefers-reduced-motion: reduce)");
+  // "snap" mode only animates from 768px up, so only needs the loop copy there;
+  // "marquee" mode animates at every width, so needs it everywhere once motion is allowed.
+  const showDuplicate = !reducedMotion && (!snap || isDesktop);
+
   // Edge fades are plain gradient overlays: cheaper to paint than a CSS mask
   // over an animating row.
   const fadeFrom = fade === "surface" ? "from-surface" : "from-white";
@@ -69,9 +80,11 @@ export default function Marquee({
         <ul aria-label={label} className={cn("flex shrink-0", gapClass)}>
           {children}
         </ul>
-        <ul aria-hidden="true" inert className={cn("flex shrink-0 motion-reduce:hidden", snap && "max-md:hidden", gapClass)}>
-          {children}
-        </ul>
+        {showDuplicate && (
+          <ul aria-hidden="true" inert className={cn("flex shrink-0", gapClass)}>
+            {children}
+          </ul>
+        )}
       </div>
     </div>
   );
