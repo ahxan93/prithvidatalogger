@@ -50,7 +50,7 @@ export default function ServicePage({ slug }: { slug: ServiceSlug }) {
         title={content.h1}
         intro={content.intro}
       >
-        <div data-avoid-floating className="flex flex-col gap-3 sm:flex-row">
+        <div className="flex flex-col gap-3 sm:flex-row">
           <Button href="#enquiry" size="lg">
             Get a Quote
             <ArrowRightIcon className="size-5" />

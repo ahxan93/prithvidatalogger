@@ -26,7 +26,7 @@ export default function CtaBand({ title, text, product, quoteHref: href = quoteH
           {title}
         </h2>
         {text && <p className="mt-4 text-lg leading-relaxed text-slate-300 text-pretty">{text}</p>}
-        <div data-avoid-floating className="mt-9 flex flex-col justify-center gap-3 sm:flex-row">
+        <div className="mt-9 flex flex-col justify-center gap-3 sm:flex-row">
           <Button href={href} size="lg" className="shadow-glow">
             Get a Quote
             <ArrowRightIcon className="size-5" />

@@ -49,7 +49,7 @@ export default function ProductsPage() {
         title="Temperature & Humidity Data Loggers"
         intro="Prithvi temperature data loggers record continuously, sync over Wi-Fi or GSM and alert your team the moment a limit is crossed. Choose a single-point logger for one fridge or a multi-channel data logger for a whole warehouse. Share your requirement and we'll send a clear, itemised quote."
       >
-        <div data-avoid-floating className="flex flex-col gap-3 sm:flex-row">
+        <div className="flex flex-col gap-3 sm:flex-row">
           <Button href={quoteHref} size="lg">
             Get a Quote
             <ArrowRightIcon className="size-5" />

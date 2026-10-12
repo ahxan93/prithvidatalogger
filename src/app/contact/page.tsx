@@ -52,7 +52,7 @@ export default function ContactPage() {
         <div className="grid gap-10 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:gap-12">
           <div className="space-y-6">
             <h2 className="font-heading text-2xl font-bold text-ink">Reach us directly</h2>
-            <ul data-avoid-floating className="space-y-3">
+            <ul className="space-y-3">
               <ContactItem icon={<PhoneIcon />} label="Phone">
                 <a href={telHref} className="inline-flex min-h-11 items-center font-medium text-brand-600 hover:underline">
                   {siteConfig.phone.display}

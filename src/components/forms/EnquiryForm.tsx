@@ -229,14 +229,13 @@ export default function EnquiryForm({
       ref={formRef}
       noValidate
       onSubmit={onSubmit}
-      // Floating Call/WhatsApp buttons hide while the form is on screen, so they
-      // never cover its fields or submit button.
-      data-avoid-floating
       aria-labelledby={title ? `${id}-title` : undefined}
       aria-label={title ? undefined : "Enquiry form"}
       className={cn(
         "rounded-2xl border border-slate-200 bg-white text-ink shadow-soft",
-        compact ? "p-5" : "p-6 sm:p-8",
+        // Extra bottom clearance on mobile: the submit button is full-width
+        // there, so it can end up directly behind the fixed floating buttons.
+        compact ? "p-5 pb-24 sm:pb-5" : "p-6 pb-24 sm:p-8",
         className,
       )}
     >

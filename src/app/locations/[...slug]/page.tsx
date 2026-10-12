@@ -105,7 +105,7 @@ export default async function LocationPage({ params }: PageProps<"/locations/[..
         title={title}
         intro={node.intro}
       >
-        <div data-avoid-floating className="flex flex-col gap-3 sm:flex-row">
+        <div className="flex flex-col gap-3 sm:flex-row">
           <Button href={quoteHref} size="lg">
             Get a Quote
             <ArrowRightIcon className="size-5" />

@@ -83,7 +83,7 @@ export default async function IndustryPage({ params }: PageProps<"/industries/[s
         image={hasPhoto ? industry.image : undefined}
         imageAlt={`${industry.name} temperature monitoring`}
       >
-        <div data-avoid-floating className="flex flex-col gap-3 sm:flex-row">
+        <div className="flex flex-col gap-3 sm:flex-row">
           <Button href={quoteHref} size="lg">
             Get a Quote
             <ArrowRightIcon className="size-5" />

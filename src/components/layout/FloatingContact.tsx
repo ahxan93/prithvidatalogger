@@ -1,7 +1,6 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
 import { siteConfig } from "@/config/site";
 import { getProductBySlug } from "@/data/products";
 import { PhoneIcon, WhatsAppIcon } from "@/components/ui/icons";
@@ -13,9 +12,6 @@ type FloatingContactProps = {
   product?: string;
 };
 
-/** Elements that must never be covered (e.g. form submit buttons) carry this attribute. */
-const AVOID_SELECTOR = "[data-avoid-floating]";
-
 function productFromPath(pathname: string): string | undefined {
   const match = pathname.match(/^\/products\/([^/]+)/);
   const series = match ? getProductBySlug(match[1]) : undefined;
@@ -23,29 +19,15 @@ function productFromPath(pathname: string): string | undefined {
   return series.category === "accessories" ? undefined : `${series.name} series`;
 }
 
+// Always visible, every page, every section — never hides. z-40 sits above
+// ordinary page content but below the mobile menu (z-[60]) and the native
+// <dialog> lightbox (browser top layer, always above any z-index), so both
+// still correctly cover these buttons when open. Pages reserve real bottom
+// padding/margin near their own submit buttons and footers instead of
+// hiding these on approach (see EnquiryForm.tsx, Footer.tsx).
 export default function FloatingContact({ product }: FloatingContactProps) {
   const pathname = usePathname();
-  const [hidden, setHidden] = useState(false);
   const productName = product ?? productFromPath(pathname);
-
-  // Hide while any protected element is on screen, so the buttons never cover it.
-  useEffect(() => {
-    const targets = document.querySelectorAll(AVOID_SELECTOR);
-    if (targets.length === 0) return;
-    const visible = new Set<Element>();
-    const observer = new IntersectionObserver((entries) => {
-      for (const entry of entries) {
-        if (entry.isIntersecting) visible.add(entry.target);
-        else visible.delete(entry.target);
-      }
-      setHidden(visible.size > 0);
-    });
-    targets.forEach((el) => observer.observe(el));
-    return () => {
-      observer.disconnect();
-      setHidden(false);
-    };
-  }, [pathname]);
 
   const buttonBase =
     "group relative flex size-12 items-center justify-center rounded-full sm:size-14 shadow-soft-lg transition-transform duration-200 motion-safe:hover:scale-105 focus-visible:outline-2 focus-visible:outline-offset-2";
@@ -55,11 +37,11 @@ export default function FloatingContact({ product }: FloatingContactProps) {
   return (
     <div
       className={cn(
-        "fixed right-4 bottom-4 z-40 flex flex-col items-end gap-2.5 transition-[opacity,transform] sm:gap-3 duration-300 sm:right-6 sm:bottom-6",
-        hidden && "pointer-events-none translate-y-4 opacity-0",
+        "fixed right-4 z-40 flex flex-col items-end gap-2.5 sm:right-6 sm:gap-3",
+        // iOS safe-area inset stacked on top of the usual offset, so the
+        // buttons clear the home-indicator area on notched phones.
+        "bottom-[calc(1rem+env(safe-area-inset-bottom))] sm:bottom-[calc(1.5rem+env(safe-area-inset-bottom))]",
       )}
-      aria-hidden={hidden || undefined}
-      inert={hidden}
     >
       <a
         href={whatsappHref(productName)}

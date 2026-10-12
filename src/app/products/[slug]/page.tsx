@@ -115,7 +115,7 @@ export default async function ProductPage({ params }: PageProps<"/products/[slug
             channels={product.channels}
             variants={variants}
             actions={
-              <div data-avoid-floating className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+              <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
                 <Button href="#enquiry" size="lg" className="shadow-glow">
                   Get a Quote
                   <ArrowRightIcon className="size-5" />

@@ -67,8 +67,7 @@ export default async function Hero() {
 
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-slate-300 text-pretty sm:text-xl">{hero.sub}</p>
 
-          {/* Has its own WhatsApp/Call, so the floating buttons hide while it is visible. */}
-          <div data-avoid-floating className="mt-9 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+          <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <Button href={quoteHref} size="lg" className="shadow-glow">
               Get a Quote
               <ArrowRightIcon className="size-5" />

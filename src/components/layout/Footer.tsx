@@ -122,9 +122,10 @@ export default function Footer() {
         </div>
       </Container>
 
-      {/* Extra bottom padding on mobile keeps text clear of the floating buttons. */}
+      {/* Extra bottom padding on mobile keeps text clear of the floating buttons
+          (fixed at the viewport's bottom-right, plus a safe-area inset on notched phones). */}
       <div className="border-t border-white/10">
-        <Container className="flex flex-col gap-2 pt-4 pb-24 text-sm text-slate-400 sm:flex-row sm:items-center sm:justify-between sm:pb-6">
+        <Container className="flex flex-col gap-2 pt-4 pb-28 text-sm text-slate-400 sm:flex-row sm:items-center sm:justify-between sm:pb-6">
           <p>
             © <CurrentYear /> {siteConfig.name}. All rights reserved.
           </p>

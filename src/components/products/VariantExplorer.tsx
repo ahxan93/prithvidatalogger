@@ -54,7 +54,7 @@ export default function VariantExplorer({ seriesName, channels, variants, childr
   };
 
   return (
-    <div data-avoid-floating className="grid gap-x-12 gap-y-8 lg:grid-cols-2 lg:grid-rows-[auto_1fr] xl:gap-x-16">
+    <div className="grid gap-x-12 gap-y-8 lg:grid-cols-2 lg:grid-rows-[auto_1fr] xl:gap-x-16">
       <div className="lg:col-start-2 lg:row-start-1">{children}</div>
 
       {/* Gallery */}
