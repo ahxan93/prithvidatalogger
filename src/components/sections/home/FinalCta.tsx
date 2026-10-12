@@ -20,7 +20,7 @@ export default function FinalCta() {
         <div className="lg:pt-6">
           <SectionHeading
             id="cta-title"
-            eyebrow="Get a quote"
+            eyebrow="Get Solution"
             title={<>Tell Us What You Need to <span className="text-brand-gradient">Monitor</span></>}
             subtitle="Share your rooms, freezers, vehicles or sites. We'll recommend the right loggers and send you a quote."
           />
@@ -43,7 +43,7 @@ export default function FinalCta() {
             </Button>
           </div>
         </div>
-        <EnquiryForm variant="compact" title="Request a quote" className="shadow-glow" />
+        <EnquiryForm variant="compact" title="Get Your Solution" className="shadow-glow" />
       </div>
     </Section>
   );

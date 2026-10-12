@@ -10,13 +10,13 @@ type CtaBandProps = {
   text?: string;
   /** Named in the WhatsApp message, e.g. "Setu series". */
   product?: string;
-  /** Where "Get a Quote" goes. Defaults to the enquiry form on /contact. */
+  /** Where "Get Solution" goes. Defaults to the enquiry form on /contact. */
   quoteHref?: string;
   id?: string;
 };
 
 // Closing call-to-action band. The only CTAs allowed site-wide:
-// Get a Quote, WhatsApp, Call (see CLAUDE.md).
+// Get Solution, WhatsApp, Call (see CLAUDE.md).
 export default function CtaBand({ title, text, product, quoteHref: href = quoteHref, id = "cta" }: CtaBandProps) {
   return (
     <Section tone="dark" aria-labelledby={`${id}-title`} className="overflow-hidden">
@@ -28,7 +28,7 @@ export default function CtaBand({ title, text, product, quoteHref: href = quoteH
         {text && <p className="mt-4 text-lg leading-relaxed text-slate-300 text-pretty">{text}</p>}
         <div className="mt-9 flex flex-col justify-center gap-3 sm:flex-row">
           <Button href={href} size="lg" className="shadow-glow">
-            Get a Quote
+            Get Solution
             <ArrowRightIcon className="size-5" />
           </Button>
           <Button href={whatsappHref(product)} variant="whatsapp" size="lg">

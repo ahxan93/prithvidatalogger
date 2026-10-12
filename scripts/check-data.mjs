@@ -362,6 +362,31 @@ if (!siteConfig.showPrices) {
   }
 }
 
+// The CTA wording is "Get Solution" (CLAUDE.md). "Get a Quote" must not come
+// back in source, content, docs, or any rendered page.
+{
+  const CTA_BANNED = /get\s+a\s+quote/i;
+  const scanTree = (dir, exts) => {
+    if (!fs.existsSync(dir)) return;
+    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+      const full = path.join(dir, entry.name);
+      if (entry.isDirectory()) scanTree(full, exts);
+      else if (exts.has(path.extname(entry.name))) {
+        const match = fs.readFileSync(full, "utf8").match(CTA_BANNED);
+        if (match) fail(`cta: "${match[0]}" found in ${path.relative(ROOT, full)} (use "Get Solution")`);
+      }
+    }
+  };
+  const SOURCE_EXTENSIONS = new Set([".ts", ".tsx", ".js", ".mjs", ".json", ".md", ".mdx", ".css"]);
+  scanTree(path.join(ROOT, "src"), SOURCE_EXTENSIONS);
+  scanTree(path.join(ROOT, "docs"), SOURCE_EXTENSIONS);
+  const claudeMd = path.join(ROOT, "CLAUDE.md");
+  if (fs.existsSync(claudeMd) && CTA_BANNED.test(fs.readFileSync(claudeMd, "utf8"))) {
+    fail('cta: "Get a Quote" found in CLAUDE.md (use "Get Solution")');
+  }
+  scanTree(path.join(ROOT, ".next/server/app"), new Set([".html", ".rsc", ".body", ".meta"]));
+}
+
 // ---------------------------------------------------------------- report
 console.log(`products: ${products.length} series, ${variantSlugs.length} variants/accessories`);
 console.log(`industries: ${industries.length} | services: ${services.length} | clients: ${clients.length}`);

@@ -19,7 +19,7 @@ export default function WhyPrithvi() {
           />
           <div className="mt-8 flex flex-wrap gap-3">
             <Button href={quoteHref}>
-              Get a Quote
+              Get Solution
               <ArrowRightIcon className="size-4" />
             </Button>
             <Button href="/about" variant="ghost">

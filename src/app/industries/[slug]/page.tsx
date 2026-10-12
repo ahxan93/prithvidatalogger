@@ -85,7 +85,7 @@ export default async function IndustryPage({ params }: PageProps<"/industries/[s
       >
         <div className="flex flex-col gap-3 sm:flex-row">
           <Button href={quoteHref} size="lg">
-            Get a Quote
+            Get Solution
             <ArrowRightIcon className="size-5" />
           </Button>
           <Button href="#recommended" variant="outline" size="lg">

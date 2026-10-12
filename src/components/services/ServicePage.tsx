@@ -52,7 +52,7 @@ export default function ServicePage({ slug }: { slug: ServiceSlug }) {
       >
         <div className="flex flex-col gap-3 sm:flex-row">
           <Button href="#enquiry" size="lg">
-            Get a Quote
+            Get Solution
             <ArrowRightIcon className="size-5" />
           </Button>
           <Button href="#scope" variant="outline" size="lg">
@@ -218,7 +218,7 @@ export default function ServicePage({ slug }: { slug: ServiceSlug }) {
           <div className="lg:pt-6">
             <SectionHeading
               id="enquiry-title"
-              eyebrow="Get a quote"
+              eyebrow="Get Solution"
               title={`Request ${service.name}`}
               subtitle="Tell us what you need and where. Our team will confirm the scope with VEGA Calibrations and send a quote."
             />
@@ -235,7 +235,7 @@ export default function ServicePage({ slug }: { slug: ServiceSlug }) {
           </div>
           <EnquiryForm
             variant="compact"
-            title="Request a quote"
+            title="Get Your Solution"
             defaultProduct={service.enquiryOption}
             className="shadow-glow"
           />

@@ -153,7 +153,7 @@ export default function EnquiryForm({
         headers: { "Content-Type": "application/json", Accept: "application/json" },
         body: JSON.stringify({
           access_key: accessKey,
-          subject: `New enquiry – ${product} – ${SITE_HOST}`,
+          subject: `New solution enquiry – ${product} – ${SITE_HOST}`,
           from_name: "Prithvi Data Loggers website",
           page_url: window.location.href,
           name: values.name.trim(),

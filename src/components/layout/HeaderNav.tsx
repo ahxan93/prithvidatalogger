@@ -375,7 +375,7 @@ function MobileMenu({
 
         <div className="shrink-0 space-y-3 border-t border-white/10 p-4 sm:p-6">
           <Button href={quoteHref} onClick={onClose} block>
-            Get a Quote
+            Get Solution
           </Button>
           <div className="grid grid-cols-2 gap-3">
             <Button href={contact.telHref} variant="outline" aria-label={`Call ${contact.phoneDisplay}`}>
@@ -455,7 +455,7 @@ export default function HeaderNav({ items, quoteHref, contact, logo, logoWhite }
 
         <div className="flex items-center gap-2">
           <Button href={quoteHref} className="px-4">
-            Get a Quote
+            Get Solution
           </Button>
           <button
             ref={menuButtonRef}

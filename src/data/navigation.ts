@@ -57,5 +57,5 @@ export const footerCompanyNav: NavItem[] = [
   { label: "Terms & Conditions", href: "/terms" },
 ];
 
-/** Target for every "Get a Quote" CTA: the enquiry form on /contact. */
+/** Target for every "Get Solution" CTA: the enquiry form on /contact. */
 export const quoteHref = "/contact#enquiry";

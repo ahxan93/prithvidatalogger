@@ -18,7 +18,7 @@ export type LocationContent = {
 export const locationContent: Record<string, LocationContent> = {
   india: {
     metaDescription:
-      "Temperature data loggers in India: WiFi and GSM loggers supplied from Mumbai, with remote setup support and NABL calibration by VEGA. Get a quote.",
+      "Temperature data loggers in India: WiFi and GSM loggers supplied from Mumbai, with remote setup support and NABL calibration by VEGA. Get a solution.",
     recommended: ["nakshatra", "veer", "vayu"],
   },
   "india/maharashtra": {
@@ -33,7 +33,7 @@ export const locationContent: Record<string, LocationContent> = {
   },
   "saudi-arabia": {
     metaDescription:
-      "Temperature data logger supply to Saudi Arabia: WiFi loggers for warehouses, cold rooms and pharmacies in Riyadh, Jeddah and Dammam. Get a quote.",
+      "Temperature data logger supply to Saudi Arabia: WiFi loggers for warehouses, cold rooms and pharmacies in Riyadh, Jeddah and Dammam. Get a solution.",
     recommended: ["nakshatra", "veer", "virat"],
   },
   uae: {
@@ -54,7 +54,7 @@ export const locationContent: Record<string, LocationContent> = {
   },
   oman: {
     metaDescription:
-      "Temperature data loggers in Oman for seafood cold storage, food distribution and hospitals in Muscat, Sohar and Salalah. Get a quote.",
+      "Temperature data loggers in Oman for seafood cold storage, food distribution and hospitals in Muscat, Sohar and Salalah. Get a solution.",
     recommended: ["setu", "nakshatra", "veer"],
   },
   kuwait: {

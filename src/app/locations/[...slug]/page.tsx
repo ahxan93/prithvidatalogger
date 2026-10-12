@@ -107,7 +107,7 @@ export default async function LocationPage({ params }: PageProps<"/locations/[..
       >
         <div className="flex flex-col gap-3 sm:flex-row">
           <Button href={quoteHref} size="lg">
-            Get a Quote
+            Get Solution
             <ArrowRightIcon className="size-5" />
           </Button>
           <Button href="#recommended" variant="outline" size="lg">
@@ -272,7 +272,7 @@ export default async function LocationPage({ params }: PageProps<"/locations/[..
 
       <CtaBand
         id="location-cta"
-        title={`Get a Quote in ${place}`}
+        title={`Get Your Solution in ${place}`}
         text="Tell us your sites and what you need to monitor. We'll recommend the right loggers and send you a clear, itemised quote."
       />
     </>

@@ -255,13 +255,13 @@ Rules: keyword in title, H1, first 100 words, one H2 and the image alt (naturall
 
 ### 7.1 Homepage `/`
 - Title: "WiFi Temperature & Humidity Data Loggers | Prithvi"
-- Meta description: "Real-time WiFi & GSM temperature and humidity data loggers with instant alerts and audit-ready reports. NABL-backed. India & GCC. Get a quote today."
+- Meta description: "Real-time WiFi & GSM temperature and humidity data loggers with instant alerts and audit-ready reports. NABL-backed. India & GCC. Get a solution today."
 
 Sections in order:
 1. **Hero** (dark navy, dot-grid, soft brand→cyan glow)
    - H1: "WiFi Temperature & Humidity Data Loggers for Real-Time Monitoring"
    - Sub: "Protect medicines, vaccines, food and critical environments with live readings, instant alerts and audit-ready records, backed by an NABL-accredited calibration lab."
-   - CTAs: Get a Quote (primary), WhatsApp, Call.
+   - CTAs: Get Solution (primary), WhatsApp, Call.
    - Visual: the Nakshatra product image, with a live "screen" overlay. A reading ticks gently (e.g. 4.2 °C · 46.1 %RH, small random walk inside 2–8 °C) next to a green ONLINE dot. Floating glass chips: "Alert sent to QA team", "Door closed", "Synced 1 min ago". Static when prefers-reduced-motion.
    - Under the CTAs, a small trust row: NABL / ISO 17025 parent lab · Supports 21 CFR Part 11 · India & GCC.
 2. **What we do** (services strip, 5 cards, icon + 2-line explanation + link): Real-Time Monitoring Data Loggers · NABL Calibration · Temperature Mapping · Validation (IQ/OQ/PQ) · Installation & Support.
@@ -306,7 +306,7 @@ Sections in order:
 
 ### 7.3 Series page `/products/[slug]` (one template for all series)
 1. Breadcrumbs.
-2. Hero: gallery (variant images via the fallback helper), H1 "Nakshatra – WiFi Temperature & Humidity Data Logger", short intro, variant selector tabs (each shows its own price and key specs), CTAs (Get a Quote with the product preselected, WhatsApp with the product named, Call).
+2. Hero: gallery (variant images via the fallback helper), H1 "Nakshatra – WiFi Temperature & Humidity Data Logger", short intro, variant selector tabs (each shows its own price and key specs), CTAs (Get Solution with the product preselected, WhatsApp with the product named, Call).
 3. "The name": meaning story.
 4. Key features.
 5. Full specs table (variant columns).

@@ -12,7 +12,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Calibration, Mapping & Validation Services",
   description:
-    "NABL calibration, temperature mapping and IQ/OQ/PQ validation services, delivered by our parent company VEGA Calibrations. Get a quote.",
+    "NABL calibration, temperature mapping and IQ/OQ/PQ validation services, delivered by our parent company VEGA Calibrations. Get a solution.",
   path: "/services",
 });
 

@@ -63,7 +63,7 @@ export const industryContent: Record<string, IndustryContent> = {
   },
   "vaccine-cold-chain": {
     metaDescription:
-      "Vaccine cold chain monitoring for refrigerators, cold rooms and reefer vehicles, with instant alerts and journey reports. Get a quote from Prithvi.",
+      "Vaccine cold chain monitoring for refrigerators, cold rooms and reefer vehicles, with instant alerts and journey reports. Get a solution from Prithvi.",
     challenges: [
       "Vaccines must stay inside a narrow temperature band from the cold room to the point of use.",
       "A refrigerator can fail, or a door can be left open, when nobody is nearby.",
@@ -147,7 +147,7 @@ export const industryContent: Record<string, IndustryContent> = {
   },
   "food-beverage": {
     metaDescription:
-      "Temperature monitoring for food and beverage: cold storage, processing plants and kitchens, with automatic records and instant alerts. Get a quote.",
+      "Temperature monitoring for food and beverage: cold storage, processing plants and kitchens, with automatic records and instant alerts. Get a solution.",
     challenges: [
       "Chilled and frozen products must stay at the right temperature from receipt to service.",
       "Paper log sheets depend on someone remembering to check.",
@@ -356,7 +356,7 @@ export const industryContent: Record<string, IndustryContent> = {
   },
   electronics: {
     metaDescription:
-      "Electronics manufacturing temperature and humidity monitoring for component stores, clean rooms and semiconductor facilities. Get a quote.",
+      "Electronics manufacturing temperature and humidity monitoring for component stores, clean rooms and semiconductor facilities. Get a solution.",
     challenges: [
       "Components are sensitive to moisture and temperature in storage and assembly.",
       "Clean rooms and stores need humidity held within set limits.",

@@ -8,7 +8,7 @@ import { mailtoHref, mapsHref, telHref, whatsappHref } from "@/lib/contact";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "Contact & Get a Quote",
+  title: "Contact Us & Get Solution",
   description:
     "Contact Prithvi Data Loggers in Mumbai for temperature & humidity data loggers. Call, WhatsApp or send an enquiry and our team will get back to you.",
   path: "/contact",

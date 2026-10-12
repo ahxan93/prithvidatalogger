@@ -119,7 +119,7 @@ export default async function ProductPage({ params }: PageProps<"/products/[slug
             actions={
               <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
                 <Button href="#enquiry" size="lg" className="shadow-glow">
-                  Get a Quote
+                  Get Solution
                   <ArrowRightIcon className="size-5" />
                 </Button>
                 <Button href={whatsappHref(enquiryName)} variant="whatsapp" size="lg">
@@ -361,7 +361,7 @@ export default async function ProductPage({ params }: PageProps<"/products/[slug
           <div className="lg:pt-6">
             <SectionHeading
               id="enquiry-title"
-              eyebrow="Get a quote"
+              eyebrow="Get Solution"
               title={`Ask About ${product.name}`}
               subtitle="Tell us where it will be used and how many you need. We'll confirm the right variant and send you a clear, itemised quote."
             />
@@ -378,7 +378,7 @@ export default async function ProductPage({ params }: PageProps<"/products/[slug
           </div>
           <EnquiryForm
             variant="compact"
-            title={isLogger ? `Request a ${product.name} quote` : "Request an accessories quote"}
+            title={isLogger ? `Get Your ${product.name} Solution` : "Get Your Accessories Solution"}
             defaultProduct={enquiryName}
             className="shadow-glow"
           />

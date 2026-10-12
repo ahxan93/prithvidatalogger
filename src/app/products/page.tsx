@@ -51,7 +51,7 @@ export default function ProductsPage() {
       >
         <div className="flex flex-col gap-3 sm:flex-row">
           <Button href={quoteHref} size="lg">
-            Get a Quote
+            Get Solution
             <ArrowRightIcon className="size-5" />
           </Button>
           <Button href="#compare" variant="outline" size="lg">

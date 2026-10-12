@@ -30,7 +30,7 @@ export const serviceContent: Record<ServiceSlug, ServiceContent> = {
   calibration: {
     h1: "NABL Calibration Services in Mumbai & Across India",
     metaDescription:
-      "NABL accredited (ISO/IEC 17025:2017) calibration for data loggers, thermometers, gauges and more, delivered by VEGA Calibrations. Get a quote.",
+      "NABL accredited (ISO/IEC 17025:2017) calibration for data loggers, thermometers, gauges and more, delivered by VEGA Calibrations. Get a solution.",
     intro:
       "NABL calibration services in Mumbai and across India for data loggers and measuring instruments, delivered by our parent company, VEGA Calibrations, an NABL accredited (ISO/IEC 17025:2017) calibration laboratory with its head office in Mumbai. Certificates are traceable to national standards.",
     whatItIs:

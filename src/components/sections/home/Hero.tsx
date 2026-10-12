@@ -70,7 +70,7 @@ export default async function Hero() {
 
           <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <Button href={quoteHref} size="lg" className="shadow-glow">
-              Get a Quote
+              Get Solution
               <ArrowRightIcon className="size-5" />
             </Button>
             <Button href={whatsappHref()} variant="whatsapp" size="lg">

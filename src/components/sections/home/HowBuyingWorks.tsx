@@ -10,7 +10,7 @@ export default function HowBuyingWorks() {
         id="buying-title"
         eyebrow="How buying works"
         title="Simple, Personal and Offline"
-        subtitle="No cart and no checkout. Talk to our team, get a clear quote, and we help you all the way to installation."
+        subtitle="No cart and no checkout. Talk to our team, get the right solution with a clear quote, and we help you all the way to installation."
         align="center"
       />
       <ol className="relative mt-14 grid gap-10 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
