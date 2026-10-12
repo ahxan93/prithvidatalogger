@@ -859,15 +859,372 @@ export const areas: AreaDef[] = [
     },
   },
   // ------------------------------------------------------------------ Vasai-Palghar (data entries)
-  { slug: "vasai", name: "Vasai", citySlug: "vasai-palghar", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing", "food-beverage", "pharmaceutical"], confirmedService: true, hero: ["vayu", "hooter"] },
-  { slug: "tarapur", name: "Tarapur", citySlug: "vasai-palghar", areaType: "midc-estate", nearbyIndustries: ["chemical", "pharmaceutical", "textile"], confirmedService: true, hero: ["virat", "dock"] },
-  { slug: "boisar", name: "Boisar", citySlug: "vasai-palghar", areaType: "midc-estate", nearbyIndustries: ["chemical", "pharmaceutical", "logistics-warehousing"], confirmedService: true, hero: ["veer-pro", "vayu"] },
+  { slug: "vasai", name: "Vasai", citySlug: "vasai-palghar", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing", "food-beverage", "pharmaceutical"], confirmedService: true, hero: ["vayu", "hooter"], page: {
+      "metaTitle": "Data Loggers in Vasai, Palghar district | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Vasai's industrial estates, godowns and food traders north of Mumbai. Site visits arranged. Get Solution.",
+      "intro": "Vasai lies north of Mumbai across the creek, where the western railway line and the highway to Gujarat run close together. The town and its neighbour Virar have grown quickly, and the industrial estates on the eastern side, the godowns along the highway and the markets of the creek towns all keep stock that is sensitive to heat. Many firms here are small and family-run, and they sit between the city's big distributors and the shops of a dense residential belt.",
+      "places": [
+        {
+          "name": "Vasai East industrial estates",
+          "note": "Estates at places such as Sativli, Waliv and Gokhivare hold small manufacturers, packaging firms and workshops, many with a single store that matters for temperature."
+        },
+        {
+          "name": "Highway godowns",
+          "note": "Godowns along the highway and the link roads hold packaged food, consumer goods and pharmaceuticals for onward distribution to shops in the northern suburbs."
+        },
+        {
+          "name": "Market and creek-side trade",
+          "note": "Traders in fish, fruit and dairy supply the town's markets from cold rooms and ice-based storage near the creek."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Godown operators on the highway receive mixed loads and often hold them overnight, so a dated record of conditions answers a question that otherwise has no evidence."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Fish, dairy and fruit traders rely on cold rooms that work hard through the hot months, and an alert to the owner's phone catches a failure at night."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Pharmaceutical stockists serving the dense residential belt keep medicine stores that need a logged temperature, which a printed register rarely shows convincingly."
+        },
+        {
+          "slug": "hospitals-blood-banks",
+          "sentence": "Hospitals, nursing homes and diagnostic centres across the two towns keep vaccines and reagents in fridges that need a second person told when the first does not respond."
+        }
+      ],
+      "services": "For Vasai we supply compact WiFi loggers for single fridges and coolers, multi-channel units for godowns, and GSM versions where an estate shed has no network. VEGA Calibrations, our parent company, calibrates loggers and other instruments and can map a godown, so a small firm does not have to deal with several suppliers.",
+      "visits": "Vasai is reached along the western line and the highway north of Mumbai, and we often combine visits here with Boisar and Tarapur. Tell us the estate or road, what you keep and who can meet us through the enquiry form or WhatsApp, and we agree a day. For market-side cold rooms, mention the hours when traders are least busy.",
+      "approach": "Small Vasai firms usually start well with one logger on the cold room or medicine store that matters most, with alerts to the owner and one other person. A month of readings shows the pattern across a night and a holiday, and that evidence usually decides whether a second room, a door hooter or calibration is worth adding next.",
+      "nearby": [
+        "boisar",
+        "tarapur"
+      ],
+      "indexable": true
+    } },
+  { slug: "tarapur", name: "Tarapur", citySlug: "vasai-palghar", areaType: "midc-estate", nearbyIndustries: ["chemical", "pharmaceutical", "textile"], confirmedService: true, hero: ["virat", "dock"], page: {
+      "metaTitle": "Data Loggers in Tarapur, Palghar | Prithvi",
+      "metaDescription": "Temperature data loggers for Tarapur MIDC's chemical, pharma, engineering and textile units in Palghar district. Visits arranged. Get Solution.",
+      "intro": "Tarapur is a large industrial estate on the coast of Palghar district, planned around process industry. Chemical, pharmaceutical intermediate, engineering and textile units occupy plots of many sizes, with common services for the whole estate. The sea is close, so air is humid and salty for most of the year, which is hard on stores, electronics and packaging. Plants here handle materials whose labels give a storage range, and the record that the range was kept matters to their customers.",
+      "places": [
+        {
+          "name": "Tarapur MIDC chemical and pharma plots",
+          "note": "Process plants hold raw materials, solvents and intermediates in stores and tank areas where a printed range governs how long a batch can wait."
+        },
+        {
+          "name": "Engineering and textile units",
+          "note": "Fabrication shops and fabric processors sit among the process plants and need humidity as well as temperature records in storage and finishing rooms."
+        },
+        {
+          "name": "Estate warehouses and transport yards",
+          "note": "Warehouses and yards serving the estate hold drums, bags and finished products for the plants and for traders outside it."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "chemical",
+          "sentence": "Chemical plants record storage temperatures for drums and intermediates, and an automatic log makes a hot spell or a power cut visible the next morning."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Bulk-drug and intermediate makers keep controlled stores whose records feed customer audits, and loggers replace hand-written registers with a dated export."
+        },
+        {
+          "slug": "textile",
+          "sentence": "Textile processors watch humidity because moisture changes how fabric runs, finishes and keeps, particularly in sea air."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Warehouse operators serving the estate hold sealed drums and bags for many plants, and a bay-by-bay log protects them from disputes about storage."
+        }
+      ],
+      "services": "For Tarapur we supply WiFi loggers for stores with coverage and GSM versions for plots at the edge of the estate, with external probes for tank rooms and process areas. VEGA Calibrations, our parent company, offers calibration of loggers and other instruments, temperature mapping of large stores and validation support, so the plant's quality file is built with one group.",
+      "visits": "Visits to Tarapur are planned as a full day because of the distance, usually together with Boisar. Write to us through the enquiry form or WhatsApp with the plot, the stores and the person who will meet us, and we propose dates. Process plants often ask for a safety briefing or special footwear, and it helps to tell us in advance.",
+      "approach": "In a Tarapur plant we suggest starting with the store whose label carries the narrowest storage range, fitting one logger with an external probe, and setting an alert for both high and low readings. After a few weeks of data, the plant can see how sea air, afternoon sun and power cuts affect that room before deciding what else to monitor.",
+      "nearby": [
+        "boisar",
+        "vasai"
+      ],
+      "indexable": true
+    } },
+  { slug: "boisar", name: "Boisar", citySlug: "vasai-palghar", areaType: "midc-estate", nearbyIndustries: ["chemical", "pharmaceutical", "logistics-warehousing"], confirmedService: true, hero: ["veer-pro", "vayu"], page: {
+      "metaTitle": "Data Loggers in Boisar, Palghar | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Boisar's chemical, pharma and engineering units next to Tarapur. Site visits arranged. Get Solution.",
+      "intro": "Boisar is the town beside the Tarapur estate, and it works as its residential and supply base as well as an industrial centre in its own right. Pharmaceutical, chemical, engineering and packaging units operate in and around the town, and the railway station makes it the access point for many plants. Many staff live close by, which changes how monitoring works: there is often someone within reach, but nights and holidays still leave long hours when stores sit unwatched.",
+      "places": [
+        {
+          "name": "Boisar industrial belt",
+          "note": "Units in and around the town include pharmaceutical formulators, chemical blenders and engineering shops, usually on mid-sized plots with a few critical stores."
+        },
+        {
+          "name": "Estate approach roads",
+          "note": "The roads that lead to the neighbouring estate carry packaging suppliers, transport firms and traders who keep materials in small godowns."
+        },
+        {
+          "name": "Town markets and clinics",
+          "note": "The town centre has pharmacies, clinics, dairies and food traders that serve plant staff and local families from small cold rooms and fridges."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Formulators and packers around the town store ingredients and finished packs with set limits, and a log exported from the dashboard goes straight into the quality file."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Chemical blenders and traders keep drums in sheds that warm quickly in the afternoon, so a high-temperature alert protects stock that nobody is standing next to."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Dairies and food traders who supply plant canteens and town shops depend on cold rooms that must not drift while the owner is away."
+        },
+        {
+          "slug": "hospitals-blood-banks",
+          "sentence": "Clinics and a few hospitals keep vaccines and medicines in fridges that need an immediate message to a named person when a reading leaves its limits."
+        }
+      ],
+      "services": "For Boisar sites we supply compact WiFi loggers for individual rooms, multi-channel units for larger stores and GSM versions for outlying sheds. Calibration of loggers and other instruments, temperature mapping and validation support are delivered by VEGA Calibrations, our parent company, which suits plants that already keep formal quality records.",
+      "visits": "Boisar visits are usually paired with a Tarapur day, since the two sit next to each other. Tell us the unit, the stores and the contact through the enquiry form or WhatsApp, and we agree a date. A first visit covers the Wi-Fi or mobile signal at each store, the probe positions and the people who will receive alerts on nights and holidays.",
+      "approach": "For a Boisar unit with a small staff, the most useful first step is an alert chain that works at night: one logger on the critical store, with the first alert to the shift in-charge and an escalation to the owner. Once the chain has been tested on a real event, further rooms are easy to add.",
+      "nearby": [
+        "tarapur",
+        "vasai"
+      ],
+      "indexable": true
+    } },
   // ------------------------------------------------------------------ Pune (data entries)
-  { slug: "pimpri-chinchwad", name: "Pimpri-Chinchwad", citySlug: "pune", areaType: "industrial-estate", nearbyIndustries: ["electronics", "pharmaceutical", "logistics-warehousing"], confirmedService: true, hero: ["virat-pro", "dock"] },
-  { slug: "chakan", name: "Chakan", citySlug: "pune", areaType: "midc-estate", nearbyIndustries: ["electronics", "logistics-warehousing", "food-beverage"], confirmedService: true, hero: ["setu", "hooter"] },
-  { slug: "ranjangaon", name: "Ranjangaon", citySlug: "pune", areaType: "midc-estate", nearbyIndustries: ["electronics", "food-beverage", "pharmaceutical"], confirmedService: true, hero: ["veer-pro", "hooter"] },
-  { slug: "hinjewadi", name: "Hinjewadi", citySlug: "pune", areaType: "business-district", nearbyIndustries: ["data-centers", "electronics", "laboratories"], confirmedService: true, hero: ["vayu", "dock"] },
-  { slug: "talegaon", name: "Talegaon", citySlug: "pune", areaType: "midc-estate", nearbyIndustries: ["electronics", "food-beverage", "pharmaceutical"], confirmedService: true, hero: ["vayu-pro", "dock"] },
+  { slug: "pimpri-chinchwad", name: "Pimpri-Chinchwad", citySlug: "pune", areaType: "industrial-estate", nearbyIndustries: ["electronics", "pharmaceutical", "logistics-warehousing"], confirmedService: true, hero: ["virat-pro", "dock"], page: {
+      "metaTitle": "Data Loggers in Pimpri-Chinchwad, Pune | Prithvi",
+      "metaDescription": "Temperature and humidity data loggers for Pimpri-Chinchwad's Bhosari, Chikhli and Talawade units and warehouses. Site visits arranged. Get Solution.",
+      "intro": "Pimpri-Chinchwad is the industrial township on the north-western side of Pune, and it grew around engineering and automotive manufacturing. Parts makers, tool rooms, foundry-adjacent units and the warehouses that supply them sit in estates that are now surrounded by housing and traffic. Storage rooms here are rarely refrigerated cold rooms; they are paint stores, adhesive and lubricant rooms, electronics stores and finished-goods warehouses where heat and damp change what is on the shelf. A logger replaces the occasional thermometer glance with a continuous record.",
+      "places": [
+        {
+          "name": "Bhosari MIDC",
+          "note": "A large estate of engineering, fabrication and component units, where stores of paint, coatings and adhesives are the rooms most likely to carry a stated temperature range."
+        },
+        {
+          "name": "Chikhli and Moshi estates",
+          "note": "Newer estates on the township's northern edge, with wider plots, bigger warehouses and a mix of consumer-goods and manufacturing firms that run several shifts."
+        },
+        {
+          "name": "Talawade IT and software park",
+          "note": "Technology campuses and their server rooms sit at the north end of the township, within reach of the same suppliers that serve the factories."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "electronics",
+          "sentence": "Electronic and electrical firms in the township keep boards, sensors and finished units in stores where monsoon damp is the hazard, and a humidity record shows the weeks when that store slipped."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Warehouses that feed the assembly lines hold parts for several customers, and a logged reading per bay answers questions about storage conditions without a search through paperwork."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Paint, coating and adhesive suppliers store materials with printed storage limits, and an alert on a high reading in the afternoon prevents a spoiled batch that nobody noticed until it was used."
+        },
+        {
+          "slug": "data-centers",
+          "sentence": "Software and engineering offices at the township's technology park run server rooms inside ordinary floors, where a failed cooling unit is quickly an outage."
+        }
+      ],
+      "services": "For Pimpri-Chinchwad premises we supply WiFi loggers for rooms with a network and GSM versions for far sheds without one, with external probes for chambers and drying areas. Our parent company, VEGA Calibrations, calibrates the loggers and other instruments you already own, maps the temperature in a warehouse and supports validation, so the equipment and its paperwork are planned together.",
+      "visits": "A visit is arranged by phone, WhatsApp or the enquiry form with the estate, the buildings and the rooms you want looked at. We usually group township visits with other Pune trips so the travel from Mumbai is used well, and we confirm the day with your stores or quality contact before setting out. Plants with a gate pass or safety induction should mention it when they write.",
+      "approach": "In an engineering plant the first logger tends to go in the room with the most consequence per shelf, such as the paint and adhesive store, with the dashboard shown to the shift lead as well as the manager. After a few weeks the log shows how the room behaves through a hot afternoon and a damp night, and that decides whether other stores and the finished-goods warehouse need the same treatment.",
+      "nearby": [
+        "chakan",
+        "talegaon",
+        "hinjewadi"
+      ],
+      "indexable": true
+    } },
+  { slug: "chakan", name: "Chakan", citySlug: "pune", areaType: "midc-estate", nearbyIndustries: ["electronics", "logistics-warehousing", "food-beverage"], confirmedService: true, hero: ["setu", "hooter"], page: {
+      "metaTitle": "Data Loggers in Chakan, Pune | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Chakan's MIDC phases and logistics parks near Pune. Site visits arranged on request. Get Solution.",
+      "intro": "Chakan lies on the road to Nashik, a short way beyond Pune's northern edge, and it has become one of the region's main automotive and warehousing districts. The estate runs in several phases, with assembly plants and component makers on some plots and large logistics parks on others. Distances between buildings are long and the sheds are big, so the monitoring question is how to reach many far-apart rooms and several heights within a shed without laying cable across a site that is already busy.",
+      "places": [
+        {
+          "name": "Chakan MIDC phases",
+          "note": "Successive phases carry assembly plants, component manufacturers and engineering firms, with the larger plots laid out for long internal roads between buildings."
+        },
+        {
+          "name": "Logistics and warehouse parks",
+          "note": "Multi-tenant parks around the estate hold parts, consumer goods and packaged food for several customers, each under one roof but in separate bays."
+        },
+        {
+          "name": "Supplier clusters on the approach roads",
+          "note": "Smaller firms line the roads that run into the estate, supplying plastics, rubber, packaging and finishing services to the larger plants."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Third-party warehouse operators store goods for many customers in tall sheds, and probes at several heights show which racks run warm in the afternoon."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Packaged food and beverage distributors using the parks need a record of conditions in their ambient bay and in any chilled room that sits next to it."
+        },
+        {
+          "slug": "electronics",
+          "sentence": "Electronic and electrical suppliers keep assemblies in stores where damp air during the monsoon is the main concern, and a humidity log makes that concern visible."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Plastics, rubber and coatings suppliers store compounds and resins that have stated limits, and a high-temperature alert protects stock that heat would quietly spoil."
+        }
+      ],
+      "services": "In Chakan we supply multi-channel loggers such as Veer and Virat for big sheds, GSM versions for corners with no network, and hooters with door sensors for busy dock doors. Calibration of the loggers, temperature mapping of large warehouses and validation support are delivered by VEGA Calibrations, our parent company, so a park operator can plan mapping before deciding where loggers should go.",
+      "visits": "Chakan visits are planned as a full walk-through of the park or plant, since the distances make short stops impractical. Send the park, the bays or buildings and the person who controls access through the enquiry form or WhatsApp, and we agree a day. Operators of multi-tenant parks should tell us whether tenants arrange their own access.",
+      "approach": "At a Chakan warehouse we would place a logger at the dock door and another at the top of a rack in the farthest corner, then watch the difference for a few weeks. If the shed's temperature varies widely, a mapping study decides where permanent loggers belong, and the rest of the park follows the same pattern.",
+      "nearby": [
+        "pimpri-chinchwad",
+        "ranjangaon",
+        "talegaon"
+      ],
+      "indexable": true
+    } },
+  { slug: "ranjangaon", name: "Ranjangaon", citySlug: "pune", areaType: "midc-estate", nearbyIndustries: ["electronics", "food-beverage", "pharmaceutical"], confirmedService: true, hero: ["veer-pro", "hooter"], page: {
+      "metaTitle": "Data Loggers in Ranjangaon, Pune | Prithvi",
+      "metaDescription": "Temperature and humidity data loggers for Ranjangaon MIDC's consumer-goods, electronics, food and auto units near Pune. Get Solution.",
+      "intro": "Ranjangaon is a planned estate on the Ahmednagar road, well outside Pune, with wide roads, large plots and a population of plants that makes consumer goods, electronics, packaged food and automotive parts. Because it is a self-contained industrial district, many firms here run their own warehouses and quality rooms instead of relying on a neighbouring city. That suits a monitoring system that covers production, packaging and finished goods under one account and one set of alert rules.",
+      "places": [
+        {
+          "name": "Ranjangaon MIDC plots",
+          "note": "Large plots hold consumer-goods and electronics plants with their own stores, packing halls and finished-goods warehouses within a single boundary wall."
+        },
+        {
+          "name": "Food and packaging units",
+          "note": "Packaged food and packaging firms hold ingredients, film and cartons in rooms that range from chillers to dry stores, and each can report to the same account."
+        },
+        {
+          "name": "Warehouses along the highway",
+          "note": "Distribution sheds on the Ahmednagar road receive finished goods from the estate and dispatch them across western India."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "food-beverage",
+          "sentence": "Food processors in the estate keep ingredients in chillers and dry stores, and a record of the chiller's behaviour at night is what a buyer's auditor asks to see first."
+        },
+        {
+          "slug": "electronics",
+          "sentence": "Electronics plants store components in controlled rooms and finished sets in warehouses, and a logger in each shows if the monsoon changed the conditions overnight."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Highway warehouses hold finished goods briefly before dispatch, and a reading at the dock door shows how much of that wait was spent in the afternoon sun."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Pharmaceutical and nutrition units in the estate hold packed goods in warehouses that follow stated limits, which a continuous log demonstrates better than a register."
+        }
+      ],
+      "services": "For Ranjangaon plants we supply loggers for single rooms and multi-channel units for packing halls and warehouses, with GSM versions for outlying sheds. VEGA Calibrations, our parent company, calibrates instruments, carries out temperature mapping for large stores and supports validation work, which suits plants that already keep formal quality files.",
+      "visits": "Because Ranjangaon is a long drive from Mumbai, we plan the visit around one full day on the estate. Send the plant name, the rooms and the person responsible through the enquiry form or WhatsApp, and we propose dates that suit your quality team. We check the Wi-Fi in each room, mark probe positions and set the first alert recipients with you on the spot.",
+      "approach": "In a large plant we suggest starting with a pilot: one chiller, one component store and the finished-goods warehouse. A month of readings across production days and a weekend shows the plant's own pattern, and the same alert rules can then be copied to the other rooms with very little extra work.",
+      "nearby": [
+        "chakan",
+        "pimpri-chinchwad",
+        "talegaon"
+      ],
+      "indexable": true
+    } },
+  { slug: "hinjewadi", name: "Hinjewadi", citySlug: "pune", areaType: "business-district", nearbyIndustries: ["data-centers", "electronics", "laboratories"], confirmedService: true, hero: ["vayu", "dock"], page: {
+      "metaTitle": "Data Loggers in Hinjewadi, Pune | Prithvi",
+      "metaDescription": "Temperature and humidity data loggers for Hinjewadi's IT parks, server rooms, laboratories and hospitality sites in Pune. Get Solution.",
+      "intro": "Hinjewadi is Pune's technology district, built around a large planned information-technology park on the western side of the city. The buildings here are offices, campuses, hostels, hotels and a growing number of laboratories, and the rooms that need monitoring are different from those of a factory estate: server rooms and network closets, small research and testing laboratories, hotel kitchens and pharmacy cabinets. Each is small, each has a named owner, and each depends on someone being told quickly when a reading drifts.",
+      "places": [
+        {
+          "name": "Rajiv Gandhi Infotech Park phases",
+          "note": "The park's phases carry technology campuses and offices whose server rooms and UPS rooms are numerous, compact and rarely staffed at night."
+        },
+        {
+          "name": "Campus laboratories",
+          "note": "Testing and research laboratories inside the campuses keep reagents, samples and small instruments in fridges and freezers that each need their own alert limits."
+        },
+        {
+          "name": "Hotels and service apartments",
+          "note": "Hospitality sites around the park run kitchens, bars and housekeeping stores whose coolers are opened constantly through the evening."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "data-centers",
+          "sentence": "Technology firms run server rooms and network closets on ordinary office floors, and a reading at the rack inlet shows a cooling problem before equipment complains."
+        },
+        {
+          "slug": "laboratories",
+          "sentence": "Laboratories inside the campuses store samples and reagents in small units, and each unit can be given its own limits and its own person to alert."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Hotel and canteen kitchens serve large numbers of people daily, so a chiller that drifts overnight is a food-safety question that logs and alerts answer directly."
+        },
+        {
+          "slug": "hospitals-blood-banks",
+          "sentence": "Clinics and hospitals serving the district's residents keep vaccines and medicines in pharmacy fridges that need an immediate alert if the door was left open."
+        }
+      ],
+      "services": "In Hinjewadi we mostly supply single-point WiFi loggers such as Setu and Nakshatra for individual rooms, adding the Pro versions where humidity matters. VEGA Calibrations, our parent company, can calibrate loggers, carry out temperature mapping for a larger store and support validation, so a laboratory manager deals with one group for the equipment and its calibration.",
+      "visits": "Campuses usually need visitors registered in advance, so please send the building, the contact who will meet us and the rooms involved through the enquiry form or WhatsApp. We then confirm a day and follow the campus's own entry process. Where a tenant shares a floor, tell us who controls the plant room and the network.",
+      "approach": "On a technology campus we would begin with the server rooms and any laboratory freezer, because those are the rooms where a missed alert costs most. A single logger each, with escalation to a second person set up on the dashboard, gives immediate protection, and further rooms are added by the facilities team as they are comfortable.",
+      "nearby": [
+        "pimpri-chinchwad",
+        "talegaon",
+        "chakan"
+      ],
+      "indexable": true
+    } },
+  { slug: "talegaon", name: "Talegaon", citySlug: "pune", areaType: "midc-estate", nearbyIndustries: ["electronics", "food-beverage", "pharmaceutical"], confirmedService: true, hero: ["vayu-pro", "dock"], page: {
+      "metaTitle": "Data Loggers in Talegaon, Pune | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Talegaon MIDC's engineering, auto and food units on the Mumbai-Pune road. Get Solution.",
+      "intro": "Talegaon sits on the Mumbai–Pune road, on the Pune side of the ghat, and its estate has grown around automotive plants, engineering firms and food and consumer-goods units. The location gives it a particular rhythm: trucks arrive from Mumbai's ports and Pune's plants in both directions, and warehouses hold goods for a short time before they travel on. Monitoring here is mostly about the interval between arrival and onward movement, and about keeping the stores that feed production steady. Hospitals, clinics and food traders in the town make the mix less one-note than it first looks, so a few cold rooms sit among many dry stores, and each kind needs its own alert limits.",
+      "places": [
+        {
+          "name": "Talegaon MIDC phases",
+          "note": "Several phases carry automotive, engineering and light-manufacturing units, with component stores and finished-goods warehouses on the larger plots."
+        },
+        {
+          "name": "Talegaon Dabhade town",
+          "note": "The town centre brings hospitals, food traders and service businesses that depend on the same highway for their supplies."
+        },
+        {
+          "name": "Highway-side warehouses",
+          "note": "Sheds along the Mumbai–Pune road take loads in both directions and hold them briefly, which is where dock-door readings matter most."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Warehouse operators on the highway handle goods in transit, and a record at the dock door shows how long a load sat in the sun before it was put away."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Food and beverage units and traders keep chillers and dry stores that supply the town and the highway's long-distance trade."
+        },
+        {
+          "slug": "electronics",
+          "sentence": "Electrical and electronic component suppliers to the plants store assemblies in rooms that need dry air through the rainy weeks."
+        },
+        {
+          "slug": "hospitals-blood-banks",
+          "sentence": "Hospitals and clinics in the town store vaccines and blood components, and an alert chain with a second recipient covers nights and holidays."
+        }
+      ],
+      "services": "For Talegaon sites we supply WiFi loggers for stores with a network and GSM versions for dock yards and outlying sheds, with hooters for busy doors. VEGA Calibrations, our parent company, calibrates loggers and other instruments and maps large warehouses, so a plant can plan calibration alongside installation.",
+      "visits": "Talegaon is the nearest of the Pune estates to Mumbai, so it is often the first stop of a Pune trip. Send the plot or warehouse and what you keep through the enquiry form or WhatsApp, and we agree a day with your team. If your site is on the highway, tell us which gate trucks use so we know where to meet you.",
+      "approach": "For a Talegaon dock-side warehouse, a logger at the door and another deeper in the store tell the story of how goods are handled on a busy day. If the difference is large, a door sensor or a second probe at the loading bay follows, and the rest of the warehouse can be mapped afterwards if needed.",
+      "nearby": [
+        "pimpri-chinchwad",
+        "chakan",
+        "hinjewadi"
+      ],
+      "indexable": true
+    } },
   // ------------------------------------------------------------------ Ahmedabad (data entries)
   { slug: "naroda", name: "Naroda", citySlug: "ahmedabad", areaType: "industrial-estate", nearbyIndustries: ["pharmaceutical", "chemical", "food-beverage"], confirmedService: true, hero: ["nakshatra", "dhruva"] },
   { slug: "vatva", name: "Vatva", citySlug: "ahmedabad", areaType: "industrial-estate", nearbyIndustries: ["chemical", "pharmaceutical", "textile"], confirmedService: true, hero: ["veer-pro", "dock"] },

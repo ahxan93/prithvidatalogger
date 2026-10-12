@@ -257,7 +257,7 @@ for (const { node, path: p } of all) {
     if (r.reason.split(/\s+/).length < 10) f(`series "${r.slug}" reason is too short`);
   }
   if (node.faqs.length !== 4) f(`has ${node.faqs.length} FAQs (exactly 4)`);
-  if (node.nearby.length < 2 || node.nearby.length > 3) f(`has ${node.nearby.length} nearby cities (2–3)`);
+  if (node.nearby.length < 2 || node.nearby.length > 4) f(`has ${node.nearby.length} nearby cities (2–4)`);
   for (const n of node.nearby) {
     if (n.slug === node.slug) f("lists itself as nearby");
     if (!CITY_SLUG.test(n.slug) || !n.name) f(`nearby "${n.slug}" is malformed`);

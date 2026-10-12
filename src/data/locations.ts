@@ -234,6 +234,7 @@ export const locations: LegacyLocationNode[] = [
               { slug: "navi-mumbai", name: "Navi Mumbai" },
               { slug: "thane-bhiwandi", name: "Thane & Bhiwandi" },
               { slug: "panvel", name: "Panvel" },
+              { slug: "pune", name: "Pune" },
             ],
             metaTitle: "Temperature Data Loggers in Mumbai | Prithvi",
             metaDescription:
@@ -432,6 +433,7 @@ export const locations: LegacyLocationNode[] = [
               { slug: "mumbai", name: "Mumbai" },
               { slug: "navi-mumbai", name: "Navi Mumbai" },
               { slug: "panvel", name: "Panvel" },
+              { slug: "pune", name: "Pune" },
             ],
             metaTitle: "Temperature Data Loggers in Thane & Bhiwandi | Prithvi",
             metaDescription:
@@ -639,6 +641,33 @@ export const locations: LegacyLocationNode[] = [
             metaDescription:
               "WiFi and GSM temperature data loggers for Pune's Chakan, Ranjangaon, Pimpri-Chinchwad and Talegaon estates, with site visits. Get Solution.",
             indexable: true,
+          },
+          {
+            slug: "vasai-palghar",
+            name: "Vasai-Palghar",
+            type: "city",
+            intro:
+              "Vasai and the Palghar district run north of Mumbai along the western railway line and the highway to Gujarat, from the creek towns of Vasai and Virar to the coastal industrial estates of Tarapur and Boisar. This page is the parent for the area pages in that belt; the playbook has no city row for it, so it stays noindex until it is written in its own batch.",
+            localIndustries: [
+              "Chemical and pharmaceutical process industry",
+              "Godowns and highway warehousing",
+              "Food traders and cold rooms",
+            ],
+            citiesServed: ["Vasai", "Tarapur", "Boisar"],
+            supportNote:
+              "Supply, installation support and site visits across this belt are arranged from our Mumbai office. Write to us with the estate or town and what you store.",
+            faqs: [
+              {
+                question: "Which areas north of Mumbai do you serve under Vasai-Palghar?",
+                answer: "We serve Vasai, Tarapur and Boisar, and each has its own page under this city.",
+              },
+              {
+                question: "How is a visit arranged in the Palghar district?",
+                answer: "Send the estate or town and what you store through the enquiry form, WhatsApp or a call, and we agree a day with you.",
+              },
+            ],
+            // Noindex until its own prompt runs; it exists as the parent of its area pages.
+            indexable: false,
           },
         ],
       },

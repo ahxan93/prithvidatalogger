@@ -72,6 +72,9 @@ export default async function CityPage({ city }: { city: ResolvedCity }) {
     return areaLink ? [{ area, href: areaLink }] : [];
   });
 
+  // Cards link to an area page when one exists; others (e.g. an estate with no page yet) stay plain.
+  const areaLinkByName = new Map(areaPages.map(({ area, href: areaLink }) => [area.name, areaLink]));
+
   const industryCards = node.industries
     .map((item) => ({ ...item, industry: getIndustryBySlug(item.slug) }))
     .filter((item) => Boolean(item.industry));
@@ -164,7 +167,15 @@ export default async function CityPage({ city }: { city: ResolvedCity }) {
               <span className="flex size-10 items-center justify-center rounded-xl bg-brand-50 text-brand-600">
                 <MapPinIcon className="size-5" />
               </span>
-              <h3 className="mt-4 font-heading text-lg font-semibold text-ink">{area.name}</h3>
+              <h3 className="mt-4 font-heading text-lg font-semibold text-ink">
+                {areaLinkByName.get(area.name) ? (
+                  <Link href={areaLinkByName.get(area.name) as string} className="hover:text-brand-700 hover:underline">
+                    {area.name}
+                  </Link>
+                ) : (
+                  area.name
+                )}
+              </h3>
               <p className="mt-2 leading-relaxed text-muted">{area.note}</p>
             </li>
           ))}
