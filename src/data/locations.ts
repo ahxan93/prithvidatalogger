@@ -240,6 +240,59 @@ export const locations: LegacyLocationNode[] = [
               "WiFi and GSM temperature data loggers in Mumbai from our head office, with site visits and calibration support. Get Solution for your site.",
             indexable: true,
           },
+          {
+            slug: "navi-mumbai",
+            name: "Navi Mumbai",
+            type: "city",
+            intro:
+              "Navi Mumbai's industrial life runs along the Thane–Belapur belt, from Turbhe through Rabale and Mahape to the estates beyond Kharghar. This page is the parent for our Navi Mumbai area pages and will be written in full in a later batch.",
+            localIndustries: [
+              "Manufacturing and process units",
+              "Cold storage and market-side warehouses",
+              "Data-centre and IT campuses",
+            ],
+            citiesServed: ["Turbhe", "Rabale", "Mahape", "Taloja"],
+            supportNote:
+              "Supply, installation support and site visits for these estates are arranged from our Mumbai office. Write to us with the estate and what you store.",
+            faqs: [
+              {
+                question: "Which Navi Mumbai estates do you serve?",
+                answer: "We serve Turbhe, Rabale, Mahape and Taloja, and each has its own page under this city.",
+              },
+              {
+                question: "How is a visit arranged in Navi Mumbai?",
+                answer: "Send the estate and what you store through the enquiry form, WhatsApp or a call, and we agree a day with you.",
+              },
+            ],
+            // A parent for its area pages only until its own playbook prompt runs.
+            indexable: false,
+          },
+          {
+            slug: "thane-bhiwandi",
+            name: "Thane & Bhiwandi",
+            type: "city",
+            intro:
+              "Thane and Bhiwandi cover the industrial and warehousing districts to the north-east of Mumbai, from the older estates of Thane to the large warehouse parks of Bhiwandi. This page is the parent for the area pages in that belt and will be written in full in a later batch.",
+            localIndustries: [
+              "Pharmaceutical and engineering units",
+              "Chemical and process industry",
+              "Warehousing and logistics parks",
+            ],
+            citiesServed: ["Wagle Estate", "Dombivli MIDC", "Bhiwandi"],
+            supportNote:
+              "Supply, installation support and site visits across this belt are arranged from our Mumbai office. Write to us with the estate or park and what you store.",
+            faqs: [
+              {
+                question: "Which areas around Thane do you serve?",
+                answer: "We serve Wagle Estate, Dombivli MIDC and Bhiwandi, and each has its own page under this city.",
+              },
+              {
+                question: "Can you help with a large shared warehouse?",
+                answer: "Yes. Multi-channel loggers and a temperature mapping study through our parent company suit large sheds shared by several tenants.",
+              },
+            ],
+            indexable: false,
+          },
         ],
       },
     ],

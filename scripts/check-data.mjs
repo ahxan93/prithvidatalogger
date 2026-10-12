@@ -21,6 +21,7 @@ import { serviceContent } from "../src/data/service-content.ts";
 import { locationContent, countryMarkers } from "../src/data/location-content.ts";
 import { clients } from "../src/data/clients.ts";
 import { blogCoverKey, cityHeroAssignments, deviceCatalogue, getBlogCoverDevice, pageHeroes } from "../src/data/page-heroes.ts";
+import { areaCities, areaIssues, areas, areaTexts, countWords as areaWordCount } from "../src/data/areas.ts";
 import { siteConfig } from "../src/config/site.ts";
 
 const ROOT = path.join(import.meta.dirname, "..");
@@ -531,6 +532,80 @@ if (!siteConfig.showPrices) {
     fail('cta: "Get a Quote" found in CLAUDE.md (use "Get Solution")');
   }
   scanTree(path.join(ROOT, ".next/server/app"), new Set([".html", ".rsc", ".body", ".meta"]));
+}
+
+// ---------------------------------------------------------------- area pages (src/data/areas.ts)
+// Country > State > City > Area. A page that claims to be indexable must pass
+// every check; the build also gates this at render time, so a failing page is
+// noindex and out of the sitemap, but it must not silently claim otherwise.
+{
+  const otherTexts = all.flatMap((l) => uniqueTexts(l.node));
+  const pairOf = (keys) => [...keys].sort().join("+");
+  const reservedPairs = new Map(Object.entries(pageHeroes).filter(([, k]) => k.length === 2).map(([id, k]) => [pairOf(k), id]));
+  const heroOwner = new Map();
+  const slugsSeen = new Set();
+  for (const a of areas) {
+    const where = `${a.citySlug}/${a.slug}`;
+    const f = (msg) => fail(`area: ${where} ${msg}`);
+    if (slugsSeen.has(where)) f("is a duplicate");
+    slugsSeen.add(where);
+    if (a.confirmedService !== true) f("has no confirmed service");
+    if (!areaCities[a.citySlug]) f(`has unknown city "${a.citySlug}"`);
+    for (const i of a.nearbyIndustries) if (!industries.some((x) => x.slug === i)) f(`lists unknown industry "${i}"`);
+    if (a.hero.length !== 2 || a.hero[0] === a.hero[1] || a.hero.some((k) => !deviceCatalogue[k])) f("needs a pair of two different known logger photos");
+    const key = pairOf(a.hero);
+    if (heroOwner.has(key)) f(`shares its hero pair with ${heroOwner.get(key)}`);
+    heroOwner.set(key, where);
+    if (reservedPairs.has(key)) f(`repeats the hero of page "${reservedPairs.get(key)}"`);
+    if (!a.page) continue;
+    const city = all.find((l) => l.node.type === "city" && l.node.slug === a.citySlug);
+    if (!city) f(`has a page but its city "${a.citySlug}" is not in the location tree`);
+    for (const n of a.page.nearby) if (!areas.some((x) => x.slug === n && x.page)) f(`links to "${n}", which has no page`);
+    const issues = areaIssues(a, otherTexts, areas);
+    notes.push(`area ${where}: ${areaWordCount(areaTexts(a.page))} unique words${a.page.indexable ? "" : " (noindex)"}`);
+    if (a.page.indexable && issues.length) for (const i of issues) f(`is marked indexable but ${i}`);
+  }
+}
+
+// Rendered check for area pages (needs a prior build).
+{
+  const SECTIONS = ["hero", "breadcrumbs", "overview", "places", "industries", "services", "visits", "nearby", "enquiry"];
+  const APP_DIR = path.join(ROOT, ".next/server/app");
+  const otherTexts = all.flatMap((l) => uniqueTexts(l.node));
+  for (const a of areas) {
+    if (!a.page) continue;
+    const city = all.find((l) => l.node.type === "city" && l.node.slug === a.citySlug);
+    if (!city) continue;
+    const where = [...city.path, a.slug].join("/");
+    const file = path.join(APP_DIR, "locations", ...where.split("/")) + ".html";
+    if (!fs.existsSync(file)) { notes.push(`area ${where}: rendered checks skipped (run npm run build first)`); continue; }
+    const html = fs.readFileSync(file, "utf8");
+    const f = (msg) => fail(`area-render: ${where} ${msg}`);
+    const passes = a.page.indexable && areaIssues(a, otherTexts, areas).length === 0;
+    const robots = (html.match(/<meta name="robots" content="([^"]*)"/) ?? [])[1] ?? "";
+    if (passes && /noindex/.test(robots)) f("passes every check but renders noindex");
+    if (!passes && !/noindex/.test(robots)) f("fails a check but is not noindex");
+    const h1s = (html.match(/<h1[\s>]/g) ?? []).length;
+    if (h1s !== 1) f(`has ${h1s} <h1> elements (exactly 1)`);
+    const found = [...html.matchAll(/data-area-section="([a-z]+)"/g)].map((m) => m[1]);
+    if (found.join() !== SECTIONS.join()) f(`sections are ${found.join(" > ")} (expected ${SECTIONS.join(" > ")})`);
+    const ld = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map((m) => {
+      try { return JSON.parse(m[1].replace(/\\u003c/g, "<")); } catch { f("has invalid JSON-LD"); return {}; }
+    });
+    const types = ld.flatMap((d) => (d["@graph"] ?? [d]).map((x) => x["@type"]));
+    for (const t of ["BreadcrumbList", "Service"]) if (!types.includes(t)) f(`JSON-LD lacks ${t}`);
+    if (types.includes("LocalBusiness")) f("has a LocalBusiness (only the Mumbai city page may)");
+    const svc = ld.find((d) => d["@type"] === "Service");
+    if (svc && !(svc.areaServed ?? []).some((x) => (x.name ?? "").startsWith(a.name))) f("Service areaServed must name the area");
+    const main = (html.match(/<main[\s\S]*<\/main>/) ?? [html])[0];
+    const hrefs = [...main.matchAll(/href="([^"#?]+)/g)].map((m) => m[1]);
+    const cityHref = "/locations/" + city.path.join("/");
+    if (!hrefs.includes(cityHref)) f(`does not link to its parent city ${cityHref}`);
+    const nearbyLinked = a.page.nearby.filter((n) => hrefs.some((h) => h.endsWith("/" + n)));
+    if (a.page.nearby.length && !nearbyLinked.length) f("links to none of its nearby areas");
+    for (const svcPage of services) if (!hrefs.includes(svcPage.href)) f(`does not link to ${svcPage.href}`);
+    if (!/<input[^>]*type="hidden"[^>]*name="city"/.test(html)) f("has no hidden city field in the enquiry form");
+  }
 }
 
 // ---------------------------------------------------------------- hero visuals (src/data/page-heroes.ts)

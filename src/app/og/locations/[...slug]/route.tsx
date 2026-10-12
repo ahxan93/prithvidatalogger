@@ -3,13 +3,17 @@ import { join } from "node:path";
 import { ImageResponse } from "next/og";
 import { siteConfig } from "@/config/site";
 import { findLocation, getAllLocations } from "@/data/locations";
+import { findAreaByPath, writtenAreas } from "@/lib/areas";
 
 // OG image for a location page (1200x630). A route handler rather than the
 // opengraph-image file convention, which cannot sit under a catch-all segment.
 const size = { width: 1200, height: 630 };
 
 export function generateStaticParams() {
-  return getAllLocations().map((location) => ({ slug: location.path }));
+  return [
+    ...getAllLocations().map((location) => ({ slug: location.path })),
+    ...writtenAreas().map(({ path }) => ({ slug: path })),
+  ];
 }
 
 const NAVY = "#0b1026";
@@ -23,8 +27,14 @@ const logoSrc = `data:image/png;base64,${logoData.toString("base64")}`;
 export async function GET(_request: Request, { params }: { params: Promise<{ slug: string[] }> }) {
   const { slug } = await params;
   const location = findLocation(slug);
-  const place = location?.node.name ?? "India & the GCC";
-  const region = location ? location.trail.slice(0, -1).map((n) => n.name).reverse().join(", ") : "";
+  const found = location ? undefined : findAreaByPath(slug);
+  const cityTrail = found ? findLocation(found.cityPath)?.trail : undefined;
+  const place = found?.area.name ?? location?.node.name ?? "India & the GCC";
+  const region = found
+    ? (cityTrail ?? []).map((n) => n.name).reverse().join(", ")
+    : location
+      ? location.trail.slice(0, -1).map((n) => n.name).reverse().join(", ")
+      : "";
 
   return new ImageResponse(
     (

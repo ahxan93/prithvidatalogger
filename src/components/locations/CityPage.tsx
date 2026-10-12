@@ -22,6 +22,8 @@ import {
 } from "@/components/ui/icons";
 import LiveDeviceVisual from "@/components/sections/LiveDeviceVisual";
 import { getCityHeroDevices } from "@/data/page-heroes";
+import { getWrittenAreasForCity } from "@/data/areas";
+import { areaHref } from "@/lib/areas";
 import { telHref, whatsappCityHref } from "@/lib/contact";
 import { cityServiceSchema, localBusinessSchema } from "@/lib/schema";
 
@@ -64,6 +66,11 @@ export default async function CityPage({ city }: { city: ResolvedCity }) {
   const recommended = node.recommendedSeries
     .map((item) => ({ ...item, series: getProductBySlug(item.slug) }))
     .filter((item): item is typeof item & { series: ProductSeries } => Boolean(item.series));
+
+  const areaPages = getWrittenAreasForCity(node.slug).flatMap((area) => {
+    const areaLink = areaHref(area);
+    return areaLink ? [{ area, href: areaLink }] : [];
+  });
 
   const industryCards = node.industries
     .map((item) => ({ ...item, industry: getIndustryBySlug(item.slug) }))
@@ -162,6 +169,24 @@ export default async function CityPage({ city }: { city: ResolvedCity }) {
             </li>
           ))}
         </ul>
+        {areaPages.length > 0 && (
+          <div className="mt-8">
+            <h3 className="font-heading text-lg font-semibold text-ink">Area pages in {name}</h3>
+            <ul className="mt-3 flex flex-wrap gap-3">
+              {areaPages.map(({ area, href: areaLink }) => (
+                <li key={area.slug}>
+                  <Link
+                    href={areaLink}
+                    className="inline-flex items-center gap-1.5 rounded-full bg-white px-4 py-2 text-sm font-semibold text-brand-700 ring-1 ring-inset ring-brand-200 transition hover:bg-brand-600 hover:text-white"
+                  >
+                    Data loggers in {area.name}
+                    <ArrowRightIcon className="size-4" />
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </Section>
 
       {/* 5. Industries */}

@@ -113,12 +113,17 @@ async function main() {
   const { products } = await import("../src/data/products.ts");
   const { industries } = await import("../src/data/industries.ts");
   const { services } = await import("../src/data/services.ts");
+  const { areas: areaData } = await import("../src/data/areas.ts");
   const blogDir = path.join(ROOT, "src", "content", "blog");
   const dataSeeds = [
     ...getAllLocations().map((l) => locationHref(l.path)),
     ...products.map((x) => `/products/${x.slug}`),
     ...industries.map((x) => `/industries/${x.slug}`),
     ...services.map((x) => x.href),
+    ...areaData.flatMap((a) => {
+      const city = getAllLocations().find((l) => l.node.type === "city" && l.node.slug === a.citySlug);
+      return a.page && city ? [locationHref([...city.path, a.slug])] : [];
+    }),
     ...(fs.existsSync(blogDir) ? fs.readdirSync(blogDir).filter((f) => f.endsWith(".mdx")).map((f) => `/blog/${f.replace(/.mdx$/, "")}`) : []),
   ];
   const queue = ["/", ...seeds, ...dataSeeds, ...extra];

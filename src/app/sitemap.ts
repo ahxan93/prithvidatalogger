@@ -5,6 +5,7 @@ import { industries } from "@/data/industries";
 import { services } from "@/data/services";
 import { getAllLocations, locationHref } from "@/data/locations";
 import { getPublishedPosts } from "@/lib/blog";
+import { isAreaIndexable, writtenAreas } from "@/lib/areas";
 
 const staticPaths = [
   "/",
@@ -34,6 +35,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...getAllLocations()
       .filter((location) => location.node.indexable)
       .map((location) => locationHref(location.path)),
+    // Area pages are in the sitemap only if they pass every check.
+    ...writtenAreas()
+      .filter(({ area }) => isAreaIndexable(area))
+      .map(({ path }) => locationHref(path)),
     ...publishedPosts.map((post) => `/blog/${post.slug}`),
   ];
 

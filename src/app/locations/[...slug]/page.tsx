@@ -14,9 +14,11 @@ import {
 import { locationContent } from "@/data/location-content";
 import { quoteHref } from "@/data/navigation";
 import { getProductBySlug, type ProductSeries } from "@/data/products";
+import AreaPage from "@/components/locations/AreaPage";
 import CityPage from "@/components/locations/CityPage";
 import LiveDeviceVisual from "@/components/sections/LiveDeviceVisual";
 import { getCityHeroDevices } from "@/data/page-heroes";
+import { findAreaByPath, isAreaIndexable, writtenAreas } from "@/lib/areas";
 import ProductCard from "@/components/products/ProductCard";
 import CtaBand from "@/components/sections/CtaBand";
 import PageHero from "@/components/sections/PageHero";
@@ -36,7 +38,10 @@ import { buildMetadata } from "@/lib/seo";
 export const instant = false;
 
 export function generateStaticParams() {
-  return getAllLocations().map((location) => ({ slug: location.path }));
+  return [
+    ...getAllLocations().map((location) => ({ slug: location.path })),
+    ...writtenAreas().map(({ path }) => ({ slug: path })),
+  ];
 }
 
 /** Page copy that is derived from the node: H1 pattern from brief §7.9. */
@@ -52,7 +57,20 @@ export async function generateMetadata({
 }: PageProps<"/locations/[...slug]">): Promise<Metadata> {
   const { slug } = await params;
   const location = findLocation(slug);
-  if (!location) return {};
+  if (!location) {
+    // Area pages (Country > State > City > Area) carry their own title and description.
+    const found = findAreaByPath(slug);
+    if (!found?.area.page) return {};
+    return buildMetadata({
+      title: found.area.page.metaTitle,
+      description: found.area.page.metaDescription,
+      path: locationHref(slug),
+      absoluteTitle: true,
+      image: `/og/locations/${slug.join("/")}`,
+      // Indexable only if the author said so AND every area check passes.
+      noIndex: !isAreaIndexable(found.area),
+    });
+  }
   const { node } = location;
 
   // City pages built to the playbook template carry their own title and
@@ -98,7 +116,11 @@ function industryLink(label: string): string | undefined {
 export default async function LocationPage({ params }: PageProps<"/locations/[...slug]">) {
   const { slug } = await params;
   const location = findLocation(slug);
-  if (!location) notFound();
+  if (!location) {
+    const found = findAreaByPath(slug);
+    if (found) return <AreaPage area={found.area} cityPath={found.cityPath} />;
+    notFound();
+  }
 
   const { node, trail, path } = location;
   if (isCityPage(node)) return <CityPage city={{ ...location, node }} />;
@@ -184,11 +206,28 @@ export default async function LocationPage({ params }: PageProps<"/locations/[..
               {node.type === "city" ? "Areas we supply" : "Cities we supply"}
             </h2>
             <ul className="mt-4 flex flex-wrap gap-2">
-              {node.citiesServed.map((city) => (
-                <li key={city} className="rounded-full bg-white px-3.5 py-1.5 text-sm font-medium text-ink ring-1 ring-inset ring-slate-200">
-                  {city}
-                </li>
-              ))}
+              {node.citiesServed.map((place) => {
+                // A city's areas link to their own pages once those are written.
+                const areaLink = writtenAreas().find(
+                  (w) => w.area.citySlug === node.slug && w.area.name === place,
+                );
+                return (
+                  <li key={place}>
+                    {areaLink ? (
+                      <Link
+                        href={locationHref(areaLink.path)}
+                        className="inline-flex rounded-full bg-white px-3.5 py-1.5 text-sm font-semibold text-brand-700 ring-1 ring-inset ring-brand-200 hover:bg-brand-600 hover:text-white"
+                      >
+                        {place}
+                      </Link>
+                    ) : (
+                      <span className="inline-flex rounded-full bg-white px-3.5 py-1.5 text-sm font-medium text-ink ring-1 ring-inset ring-slate-200">
+                        {place}
+                      </span>
+                    )}
+                  </li>
+                );
+              })}
             </ul>
           </div>
         </div>

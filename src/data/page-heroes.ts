@@ -205,6 +205,7 @@ const CITY_REGISTRY: { slug: string; region: Region }[] = [
   ...["riyadh", "jeddah", "dammam", "dubai"].map((slug) => ({ slug, region: "gcc" as const })),
   ...[
     "vadodara", "gurugram", "thane", "vapi", "ankleshwar", "nashik", "nagpur", "visakhapatnam", "haridwar", "surat",
+    "thane-bhiwandi",
   ].map((slug) => ({ slug, region: "india" as const })),
 ];
 
@@ -305,4 +306,9 @@ export function getBlogCoverDevice(slug: string): HeroDevice {
 
 export function blogCoverKey(slug: string): DeviceKey | undefined {
   return blogCovers[slug];
+}
+
+/** Devices for an explicit list of keys (used by area pages, which carry their own pair). */
+export function devicesForKeys(keys: DeviceKey[]): HeroDevice[] {
+  return keys.map((key) => deviceCatalogue[key] as HeroDevice);
 }

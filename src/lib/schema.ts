@@ -269,3 +269,30 @@ export function cityServiceSchema(city: {
     ],
   };
 }
+
+/**
+ * Service JSON-LD for an area page (a locality under a city): the supplier is
+ * the Organization, and areaServed names the area, its city, state and country.
+ * No LocalBusiness: the only office is Mumbai's, on the Mumbai city page.
+ */
+export function areaServiceSchema(area: {
+  area: string;
+  city: string;
+  state: string;
+  country: string;
+  path: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    serviceType: "Temperature & humidity data logger supply, installation and calibration support",
+    url: absoluteUrl(area.path),
+    provider: { "@type": "Organization", "@id": ORGANIZATION_ID, name: siteConfig.name, url: siteConfig.url },
+    areaServed: [
+      { "@type": "Place", name: `${area.area}, ${area.city}` },
+      { "@type": "City", name: area.city },
+      { "@type": "State", name: area.state },
+      { "@type": "Country", name: area.country },
+    ],
+  };
+}

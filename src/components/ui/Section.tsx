@@ -24,6 +24,8 @@ type SectionProps = {
   "aria-labelledby"?: string;
   /** Marks a numbered section of a playbook location page (read by check:data). */
   "data-city-section"?: string;
+  /** Marks a section of an area page (read by check:data). */
+  "data-area-section"?: string;
 };
 
 const toneClasses: Record<SectionTone, string> = {
