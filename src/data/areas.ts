@@ -63,7 +63,9 @@ export const areaCities: Record<string, { name: string; stateSlug: string; state
   "vasai-palghar": { name: "Vasai-Palghar", stateSlug: "maharashtra", stateName: "Maharashtra" },
   pune: { name: "Pune", stateSlug: "maharashtra", stateName: "Maharashtra" },
   ahmedabad: { name: "Ahmedabad", stateSlug: "gujarat", stateName: "Gujarat" },
-  "south-gujarat": { name: "South Gujarat", stateSlug: "gujarat", stateName: "Gujarat" },
+  vapi: { name: "Vapi", stateSlug: "gujarat", stateName: "Gujarat" },
+  ankleshwar: { name: "Ankleshwar", stateSlug: "gujarat", stateName: "Gujarat" },
+  surat: { name: "Surat", stateSlug: "gujarat", stateName: "Gujarat" },
   "delhi-ncr": { name: "Delhi NCR", stateSlug: "delhi", stateName: "Delhi" },
   hyderabad: { name: "Hyderabad", stateSlug: "telangana", stateName: "Telangana" },
   bengaluru: { name: "Bengaluru", stateSlug: "karnataka", stateName: "Karnataka" },
@@ -1226,15 +1228,375 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   // ------------------------------------------------------------------ Ahmedabad (data entries)
-  { slug: "naroda", name: "Naroda", citySlug: "ahmedabad", areaType: "industrial-estate", nearbyIndustries: ["pharmaceutical", "chemical", "food-beverage"], confirmedService: true, hero: ["nakshatra", "dhruva"] },
-  { slug: "vatva", name: "Vatva", citySlug: "ahmedabad", areaType: "industrial-estate", nearbyIndustries: ["chemical", "pharmaceutical", "textile"], confirmedService: true, hero: ["veer-pro", "dock"] },
-  { slug: "changodar", name: "Changodar", citySlug: "ahmedabad", areaType: "industrial-estate", nearbyIndustries: ["pharmaceutical", "chemical", "logistics-warehousing"], confirmedService: true, hero: ["virat-pro", "hooter"] },
-  { slug: "sanand", name: "Sanand", citySlug: "ahmedabad", areaType: "industrial-estate", nearbyIndustries: ["electronics", "pharmaceutical", "food-beverage"], confirmedService: true, hero: ["dhruva", "hooter"] },
+  { slug: "naroda", name: "Naroda", citySlug: "ahmedabad", areaType: "industrial-estate", nearbyIndustries: ["pharmaceutical", "chemical", "food-beverage"], confirmedService: true, hero: ["nakshatra", "dhruva"], page: {
+      "metaTitle": "Data Loggers in Naroda, Ahmedabad | Prithvi",
+      "metaDescription": "Temperature and humidity data loggers for Naroda GIDC's engineering, chemical and plastics units and market-side stores. Get Solution.",
+      "intro": "Naroda is the older industrial district on the north-eastern side of Ahmedabad, and the city has grown around it until the estate now sits among neighbourhoods and arterial roads. The units are mixed: engineering shops, plastics and packaging firms, chemical blenders and traders, with a large fruit and vegetable market close by. Plots are compact and buildings are often several storeys, so monitoring has to fit inside what is already built, in rooms that may have no network and whose owners cannot easily rewire.",
+      "places": [
+        {
+          "name": "Naroda GIDC",
+          "note": "The estate's streets of compact plots hold engineering, plastics and chemical units whose stores are usually a room or two on a ground floor beside the production hall."
+        },
+        {
+          "name": "Fruit and vegetable market surroundings",
+          "note": "Traders and ripening-room operators around the wholesale market run cold rooms and chambers that are opened all day and loaded again before dawn."
+        },
+        {
+          "name": "Packaging and plastics sheds",
+          "note": "Converters and moulders keep resin, film and finished cartons in sheds on the estate's edge, where roof heat builds quickly in summer."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "food-beverage",
+          "sentence": "Fruit traders and ripening-room operators depend on chambers with narrow temperature windows, and a reading every few minutes shows how a chamber behaved between the evening loading and the morning dispatch."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Chemical blenders and traders keep drums and containers in sheds on compact plots, where an alert on a rising reading gives time to move stock or open a door."
+        },
+        {
+          "slug": "electronics",
+          "sentence": "Electrical and engineering firms store controllers, cables and instruments in rooms that suffer when monsoon air lingers, and a humidity record shows how long the damp lasted."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Godowns serving the market and the estate receive goods around the clock, so a record that survives a shift change is worth more than a note on a whiteboard."
+        }
+      ],
+      "services": "For Naroda units we supply single-point WiFi loggers for individual rooms and multi-channel units for larger stores, with GSM versions where a back shed has no network. VEGA Calibrations, our parent company, calibrates loggers and other instruments, maps larger rooms and supports validation, which suits firms that want one group for both the equipment and its paperwork.",
+      "visits": "Visits to Naroda are arranged through the enquiry form, WhatsApp or a call: give us the street or plot, the rooms in question and the person who will meet us. We group visits with other Ahmedabad stops and confirm a day with you before we travel. Market-side operators should tell us the hours when the cold rooms are least busy.",
+      "approach": "In a compact Naroda unit the first logger tends to go in the room whose contents would be hardest to replace, such as the chamber that holds a perishable load or the store of a customer's specified material. A few weeks of readings show how the room responds to the afternoon, and that decides what else is worth adding.",
+      "nearby": [
+        "vatva",
+        "changodar",
+        "sanand"
+      ],
+      "indexable": true
+    } },
+  { slug: "vatva", name: "Vatva", citySlug: "ahmedabad", areaType: "industrial-estate", nearbyIndustries: ["chemical", "pharmaceutical", "textile"], confirmedService: true, hero: ["veer-pro", "dock"], page: {
+      "metaTitle": "Data Loggers in Vatva, Ahmedabad | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Vatva GIDC's chemical, dye and pharma intermediate units in Ahmedabad. Visits arranged. Get Solution.",
+      "intro": "Vatva lies on the south-eastern edge of Ahmedabad and is known mainly for chemical manufacture: dyes and pigments, intermediates, specialty chemicals and the smaller formulation units that sit beside them. The estate is crowded, with plots divided and subdivided over the years, and buildings that were not planned for modern monitoring. Materials here often carry a stated storage range on the label, and customers increasingly ask for evidence that the range was kept.",
+      "places": [
+        {
+          "name": "Vatva GIDC phases",
+          "note": "A grid of plots in several phases, with dye, pigment and chemical units that range from large plants to a single reactor and a godown."
+        },
+        {
+          "name": "Pharmaceutical intermediate units",
+          "note": "Makers of intermediates and speciality compounds hold finished product in small controlled rooms with a quality register beside the door."
+        },
+        {
+          "name": "Common services and storage yards",
+          "note": "Shared services and storage yards on the estate serve many small plants, and each depends on its neighbours' stores being managed."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "chemical",
+          "sentence": "Dye and pigment makers store powders and pastes that clump or degrade with heat and damp, and a dated humidity record shows when a store left the comfortable range."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Makers of pharmaceutical intermediates need records that a purchasing company's auditor can follow, which an exported dashboard report supplies without retyping a register."
+        },
+        {
+          "slug": "textile",
+          "sentence": "Textile processors in and around the estate use dyes and auxiliaries with stated limits, and a logged store gives them a defence if a batch is questioned."
+        },
+        {
+          "slug": "laboratories",
+          "sentence": "In-house laboratories at the plants keep standards and retained samples in fridges and cabinets that each need their own limits and their own contact."
+        }
+      ],
+      "services": "In Vatva we supply WiFi loggers for stores with a network and GSM versions for back sheds, with external probes for reactors' neighbouring rooms and chambers. VEGA Calibrations, our parent company, offers calibration of loggers and other instruments, temperature mapping of large stores and validation support, so a quality head can plan equipment and certificates together.",
+      "visits": "Because most Vatva plants have entry rules, we ask for the plot, the rooms and the contact when you write through the enquiry form or WhatsApp, and we confirm a day with that person. Safety briefings and footwear requirements are common, and it saves a trip if you tell us about them first. We group the visit with other eastern-side stops.",
+      "approach": "In a Vatva plant we suggest starting with the store that holds the product with the narrowest labelled limit and putting an external probe inside it with the logger on the cooler outside. After a few weeks, the log shows the afternoon peak and whether a power cut changed it, which decides how many more points to add.",
+      "nearby": [
+        "naroda",
+        "changodar",
+        "sanand"
+      ],
+      "indexable": true
+    } },
+  { slug: "changodar", name: "Changodar", citySlug: "ahmedabad", areaType: "industrial-estate", nearbyIndustries: ["pharmaceutical", "chemical", "logistics-warehousing"], confirmedService: true, hero: ["virat-pro", "hooter"], page: {
+      "metaTitle": "Data Loggers in Changodar, Ahmedabad | Prithvi",
+      "metaDescription": "Temperature data loggers for Changodar's pharma manufacturers and logistics yards on the western highway near Ahmedabad. Get Solution.",
+      "intro": "Changodar is a western-side estate on the highway out of Ahmedabad, and it is known mainly for pharmaceutical manufacturing with a cluster of logistics yards and warehouses beside it. The estate has wider plots than the older eastern districts and sits close to the neighbouring estates of the same road, so a company may have a plant in one and a warehouse in another. For those firms, the question is how to watch several sites that are a short drive apart as one operation.",
+      "places": [
+        {
+          "name": "Changodar GIDC",
+          "note": "Pharmaceutical manufacturers and their ancillary units occupy the estate's plots, with warehouses for ingredients and finished packs inside each boundary."
+        },
+        {
+          "name": "Moraiya and neighbouring estates",
+          "note": "Smaller estates along the same highway carry additional pharmaceutical, packaging and engineering units that supply or buy from Changodar's plants."
+        },
+        {
+          "name": "Highway logistics yards",
+          "note": "Yards and warehouses along the highway hold goods between plant and road, including packed medicines that wait for a vehicle to Mumbai or Delhi."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Pharmaceutical manufacturers hold ingredients and finished packs in warehouses that follow stated limits, and a continuous log is as much part of the batch file as the label."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Logistics yards hold packed medicines between a plant and a truck, and a reading at the dock door shows how long the wait in the sun really was."
+        },
+        {
+          "slug": "laboratories",
+          "sentence": "Quality control laboratories in the plants run stability chambers and fridges that need alert limits of their own and a record that survives an audit."
+        },
+        {
+          "slug": "vaccine-cold-chain",
+          "sentence": "Firms that handle cold-chain goods run walk-in cold rooms and freezers where a door left open at night is the single most common cause of loss."
+        }
+      ],
+      "services": "For Changodar we supply WiFi loggers for rooms with a network, multi-channel units for warehouses and cold rooms, and GSM versions for yard-side stores. Calibration, temperature mapping and validation support are delivered by VEGA Calibrations, our parent company, which suits pharmaceutical customers that already keep formal qualification files.",
+      "visits": "Changodar visits are arranged after you send the plot, the warehouse and the contact through the enquiry form or WhatsApp. We then agree a day and, where you run plants in neighbouring estates, plan them in one round so the drive is used well. Pharmaceutical plants often need visitors registered in advance, and it helps if you tell us.",
+      "approach": "For a pharmaceutical warehouse we would begin with a mapping view of the largest room, which shows where the warm corners are, and then place permanent loggers at those positions instead of in convenient places. Cold rooms follow, each with an alert chain that includes a second person for the hours when nobody is on site.",
+      "nearby": [
+        "sanand",
+        "naroda",
+        "vatva"
+      ],
+      "indexable": true
+    } },
+  { slug: "sanand", name: "Sanand", citySlug: "ahmedabad", areaType: "industrial-estate", nearbyIndustries: ["electronics", "pharmaceutical", "food-beverage"], confirmedService: true, hero: ["dhruva", "hooter"], page: {
+      "metaTitle": "Data Loggers in Sanand, Ahmedabad | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Sanand GIDC's automotive, electronics, food and pharma plants near Ahmedabad. Get Solution.",
+      "intro": "Sanand is the newer face of Ahmedabad's industry, a set of estates beyond the western ring road with wide roads, large plots and plants built in the last two decades. Automotive assembly and its suppliers, electronics, food and consumer goods and pharmaceutical firms all sit here on a scale the older eastern estates could not offer. Distances between buildings are long and many sites have their own power and utilities, so monitoring has to span a campus and give plant engineers one picture.",
+      "places": [
+        {
+          "name": "Sanand GIDC phases",
+          "note": "Successive phases carry assembly plants, supplier parks and large warehouses, laid out with long internal roads and generous space between buildings."
+        },
+        {
+          "name": "Supplier parks",
+          "note": "Parks that cluster component makers around an assembly plant hold paint, adhesive and electronic stores that follow the plant's own quality requirements."
+        },
+        {
+          "name": "Food and consumer-goods plants",
+          "note": "Packaged food, beverage and household-goods makers run chillers, dry stores and finished-goods warehouses within a single large boundary."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "electronics",
+          "sentence": "Electronics and electrical plants hold boards and finished sets in controlled stores, and a humidity record shows whether a dry room stayed dry through the rains."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Food and beverage makers run large chillers and finished-goods warehouses where a hot corner can sit unnoticed behind pallets until a probe is placed there."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Pharmaceutical makers on the estates hold ingredients and packed goods in rooms that are inspected, so the monitoring record is part of what they present."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Large distribution warehouses serving the plants hold goods for dispatch across western India, and probes at several heights show how racking affects the temperature."
+        }
+      ],
+      "services": "In Sanand we supply multi-channel loggers such as Veer and Virat for big halls, WiFi loggers for single rooms and GSM versions for far corners of a campus. Our parent company, VEGA Calibrations, offers calibration, temperature mapping of large warehouses and validation support, so plants that run formal quality systems can plan the work with one group.",
+      "visits": "Sanand plants usually require visitors to be registered in advance, so please send the plant, the buildings and the person who will meet us through the enquiry form or WhatsApp. We then agree a day and follow your site's entry process. Because campuses are large, a first visit is a full walk-through, and it helps if stores and quality can both join it.",
+      "approach": "On a large Sanand campus we would begin with a pilot in two or three buildings that represent different risks, such as a chiller, a component store and a distribution warehouse. The data from a month of production and a weekend shows what the plant's own pattern looks like, and the same alert rules are then applied across the rest.",
+      "nearby": [
+        "changodar",
+        "naroda",
+        "vatva"
+      ],
+      "indexable": true
+    } },
   // ------------------------------------------------------------------ South Gujarat (data entries)
-  { slug: "vapi", name: "Vapi", citySlug: "south-gujarat", areaType: "industrial-estate", nearbyIndustries: ["chemical", "pharmaceutical", "textile"], confirmedService: true, hero: ["hooter", "dock"] },
-  { slug: "ankleshwar", name: "Ankleshwar", citySlug: "south-gujarat", areaType: "industrial-estate", nearbyIndustries: ["chemical", "pharmaceutical", "laboratories"], confirmedService: true, hero: ["dhruva", "vayu-pro"] },
-  { slug: "dahej", name: "Dahej", citySlug: "south-gujarat", areaType: "industrial-estate", nearbyIndustries: ["chemical", "pharmaceutical", "logistics-warehousing"], confirmedService: true, hero: ["setu", "virat"] },
-  { slug: "sachin-surat", name: "Sachin, Surat", citySlug: "south-gujarat", areaType: "industrial-estate", nearbyIndustries: ["textile", "chemical", "pharmaceutical"], confirmedService: true, hero: ["rajmudra", "virat-pro"] },
+  { slug: "vapi-gidc", name: "Vapi GIDC", citySlug: "vapi", areaType: "industrial-estate", nearbyIndustries: ["chemical", "pharmaceutical", "textile"], confirmedService: true, hero: ["hooter", "dock"], page: {
+      "metaTitle": "Data Loggers in Vapi GIDC | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Vapi GIDC's chemical, dye, pharma and paper units, with site visits arranged. Get Solution.",
+      "intro": "Vapi GIDC is the estate itself, laid out in numbered phases and carrying chemical, dye, pharmaceutical intermediate, paper and plastics units on streets of narrow plots. It is a busy, built-up estate, and most firms here have a production hall, a store or two and a small quality room in a footprint that leaves little space between buildings. Heat and fumes from one unit reach the next, so a store's temperature is often a property of the neighbourhood as much as of the room.",
+      "places": [
+        {
+          "name": "Phases of the estate",
+          "note": "The estate's phases are laid out as grids of plots, each with its own services, and a firm may have buildings in more than one phase."
+        },
+        {
+          "name": "Paper mills and converters",
+          "note": "Mills and converters hold reels and boards in large halls where changing moisture alters how the material feeds through machines."
+        },
+        {
+          "name": "Common effluent and utility corridors",
+          "note": "Shared utilities and treatment services run through the estate, and units close to them often warm up faster in summer."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "chemical",
+          "sentence": "Dye and chemical units keep powders, pastes and solvents in stores beside process halls, so a probe in the room and a logger outside it avoid measuring the logger's own heat."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Pharmaceutical intermediate makers keep finished compounds in rooms whose records are pulled when a buyer sends an auditor."
+        },
+        {
+          "slug": "textile",
+          "sentence": "Processors that serve the textile trade hold dyes and auxiliaries that must not warm or damp up, and humidity shows how a store fared in the rains."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Transport and godown operators at the edge of the estate receive drums and bags from many units and keep logs by bay to settle questions about storage."
+        }
+      ],
+      "services": "For Vapi GIDC we supply WiFi loggers for rooms with a network, GSM versions for back sheds, and external probes for stores beside hot halls. Our parent company, VEGA Calibrations, calibrates loggers and other instruments, maps larger stores and supports validation, so a plant can put the equipment and its certificates in one plan.",
+      "visits": "A visit to the estate is arranged once you send the phase, the plot and the person who controls entry through the enquiry form or WhatsApp. Plants here often need a safety briefing and the right footwear, and it saves time if you tell us at the start. We usually plan the visit alongside other Vapi stops.",
+      "approach": "For a Vapi GIDC unit the first step is to find the room with the strictest label and fit one logger there with the probe inside and the device in the cooler corridor. A month of readings shows the afternoon peak, the effect of the rains and what a power cut does, and that decides which other rooms follow.",
+      "nearby": [
+        "ankleshwar-gidc",
+        "sachin",
+        "dahej"
+      ],
+      "indexable": true
+    } },
+  { slug: "ankleshwar-gidc", name: "Ankleshwar GIDC", citySlug: "ankleshwar", areaType: "industrial-estate", nearbyIndustries: ["chemical", "pharmaceutical", "laboratories"], confirmedService: true, hero: ["dhruva", "vayu-pro"], page: {
+      "metaTitle": "Data Loggers in Ankleshwar GIDC | Prithvi",
+      "metaDescription": "Temperature data loggers for Ankleshwar GIDC's chemical and pharma plants and laboratories, with site visits arranged. Get Solution.",
+      "intro": "Ankleshwar GIDC is the heart of the district's chemical industry: a large estate on the Narmada plain with plants that make bulk chemicals, intermediates, pigments and pharmaceutical ingredients. Many plots are big enough to hold several buildings, tank farms and a laboratory, and plants frequently run in continuous shifts. A plant's stores are therefore numerous and spread out, and the people responsible for them are often on a different part of the plot from the storage they answer for.",
+      "places": [
+        {
+          "name": "Main estate plots",
+          "note": "Plots of many sizes carry chemical, pharmaceutical and dye plants, each with raw-material stores, finished-goods warehouses and quality rooms, and sometimes a separate room for samples that must be kept cool until they are tested."
+        },
+        {
+          "name": "Plant laboratories",
+          "note": "On-site laboratories test incoming and outgoing material and keep retained samples that need fridges and cabinets with watched limits."
+        },
+        {
+          "name": "Estate warehouses and drum stores",
+          "note": "Warehouses and drum yards hold sealed containers for plants and for traders, with bays assigned to different owners."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "chemical",
+          "sentence": "Plants that make or trade chemicals hold material under printed limits, and a record that is made automatically is stronger evidence than one made by a person on a round."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Bulk-drug and intermediate producers keep controlled warehouses whose logs are checked at customer visits, and an export replaces a hand copy."
+        },
+        {
+          "slug": "laboratories",
+          "sentence": "A plant laboratory's incubators, fridges and sample cabinets each have a limit, and each can be monitored one by one on a single dashboard."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Drum yards and shared warehouses assign bays to different owners, and a log per bay shows which part of a yard ran warm in the afternoon."
+        }
+      ],
+      "services": "In Ankleshwar GIDC we supply multi-channel loggers such as Dhruva and Virat for large stores, WiFi loggers for single rooms and GSM versions for the far edges of a big plot. VEGA Calibrations, our parent company, supports calibration, temperature mapping and validation, so the plant's equipment and its records can be planned together.",
+      "visits": "To arrange a visit, send the plant, the stores and the contact through the enquiry form or WhatsApp, and we agree a day that suits your shift pattern. Large plots mean a first visit is a long walk-through, and many plants require a gate pass and safety briefing, so please say so when you write.",
+      "approach": "We would start in the plant with the most fragile stock by label, such as a store of an intermediate with a narrow range, then add the laboratory fridges. Alerts go first to the shift in-charge, escalating to the quality head, and the first month of data usually shows which stores need a second probe or a door sensor.",
+      "nearby": [
+        "dahej",
+        "vapi-gidc",
+        "sachin"
+      ],
+      "indexable": true
+    } },
+  { slug: "dahej", name: "Dahej", citySlug: "ankleshwar", areaType: "industrial-estate", nearbyIndustries: ["chemical", "pharmaceutical", "logistics-warehousing"], confirmedService: true, hero: ["setu", "virat"], page: {
+      "metaTitle": "Data Loggers in Dahej, Bharuch | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Dahej's chemical region, port-side warehouses and process plants. Site visits arranged. Get Solution.",
+      "intro": "Dahej is the coastal industrial region on the Bharuch district's western edge, planned around a port and large chemical and petrochemical-linked investment. Plants here are on a bigger scale than most Indian estates: wide plots, long internal roads and stores that sit far from one another. The sea is close, so air is salty and humid, and cargo comes and goes by ship. Monitoring has to work across large distances and with equipment that survives a salt-laden environment.",
+      "places": [
+        {
+          "name": "Chemical and petrochemical-linked plants",
+          "note": "Large plants occupy wide plots with raw-material tanks, drum stores and packing halls spread across a campus that may take minutes to cross."
+        },
+        {
+          "name": "Port-side warehouses",
+          "note": "Warehouses near the terminals hold goods awaiting a ship or just landed, so the time spent waiting is the most important thing to record."
+        },
+        {
+          "name": "Special economic zone units",
+          "note": "Units inside the zone work to export schedules, and their stores are reviewed by overseas buyers as well as Indian customers."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "chemical",
+          "sentence": "Large chemical plants hold material for export under stated limits, and a log that continues through a heatwave shows that the limit held without anyone standing at the door."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Port-side warehouses hold cargo that waits on a vessel's schedule, and a record for each bay shows exactly how long each lot sat before it was loaded."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Pharmaceutical and fine-chemical units in the region store ingredients and packed goods in controlled rooms that overseas buyers audit."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Edible-oil and food-ingredient traders using the port hold bulk goods in tanks and sheds where heat and humidity from the coast change how long the goods keep."
+        }
+      ],
+      "services": "For Dahej we supply GSM versions with external probes for far plots and yards, WiFi loggers for buildings with a network, and multi-channel units for large warehouses. VEGA Calibrations, our parent company, carries out calibration, temperature mapping and validation support, which suits plants that work to the formal files that exporters keep.",
+      "visits": "Because Dahej is a long drive from other Gujarat stops, we plan visits as a day on the region and group several plants together. Send the plants, the stores and the contact through the enquiry form or WhatsApp, and we agree the sequence. Plants inside the zone need entry permissions arranged ahead, and it helps if you start that early.",
+      "approach": "In Dahej we would begin with the far store, the one where a drift is least likely to be seen, using a GSM logger with an external probe and an alert chain that reaches the control room. After the first month, the same pattern can be repeated on the other stores, with Wi-Fi loggers where a building has coverage.",
+      "nearby": [
+        "ankleshwar-gidc",
+        "vapi-gidc",
+        "sachin"
+      ],
+      "indexable": true
+    } },
+  { slug: "sachin", name: "Sachin", citySlug: "surat", areaType: "industrial-estate", nearbyIndustries: ["textile", "chemical", "pharmaceutical"], confirmedService: true, hero: ["rajmudra", "virat-pro"], page: {
+      "metaTitle": "Data Loggers in Sachin, Surat | Prithvi",
+      "metaDescription": "Temperature and humidity data loggers for Sachin GIDC's textile, chemical and engineering units in Surat. Site visits arranged. Get Solution.",
+      "intro": "Sachin is an industrial estate on the southern side of Surat, set between the railway, the highway and the creeks that run toward the sea. Textile processing and dyeing units sit alongside chemical and engineering firms, with warehouses and transport yards on the roads that link them to the city and to the ports. The surrounding air is humid for most of the year and the monsoon is heavy, so storage rooms for yarn, fabric and chemicals face damp as much as heat.",
+      "places": [
+        {
+          "name": "Sachin GIDC",
+          "note": "The estate's plots carry textile processing houses, dyeing units and chemical makers, with stores for dyes and auxiliaries beside the processing halls."
+        },
+        {
+          "name": "Engineering and fabrication units",
+          "note": "Workshops and fabricators hold steel, consumables and finished assemblies in sheds where condensation forms after cool, wet nights."
+        },
+        {
+          "name": "Warehouses and transport yards",
+          "note": "Yards on the roads that run out of the estate hold bales, drums and cartons waiting for onward transport to markets and ports."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "textile",
+          "sentence": "Processing houses store grey cloth, finished fabric and yarn that take up moisture in damp air, and a humidity log shows the weeks when a store ran wet."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Dye and chemical stores on the estate carry labelled limits, and a high-temperature alert in the pre-monsoon heat prevents a quiet loss."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Transport yards and godowns take bales and drums in and out, and a record at the yard door shows how long cartons stood in humid air before a truck arrived."
+        },
+        {
+          "slug": "electronics",
+          "sentence": "Electrical and control-panel firms on the estate keep components in stores that need dry air through the rains, and humidity records show when a dehumidifier failed."
+        }
+      ],
+      "services": "For Sachin units we supply WiFi loggers that read humidity as well as temperature, multi-channel units for large stores and GSM versions for yards. VEGA Calibrations, our parent company, offers calibration of loggers and other instruments, mapping of larger rooms and validation support, so the processing house can plan equipment and paperwork together.",
+      "visits": "Sachin visits are arranged after you send the plot, the stores and the contact through the enquiry form or WhatsApp. We group them with other Surat stops, usually the southern estates together, and confirm a day with you. Processing houses often have wet floors and strict entry rules for visitors, and it helps us prepare if you mention them.",
+      "approach": "At a processing house we would start with the dye store and the finished-fabric bay, fitting a humidity-reading logger in each, and watch them through a damp week. The comparison between the two shows where the problem is worst, and the same logger can then be added to the grey store and the yard.",
+      "nearby": [
+        "vapi-gidc",
+        "ankleshwar-gidc",
+        "dahej"
+      ],
+      "indexable": true
+    } },
   // ------------------------------------------------------------------ Delhi NCR (data entries)
   { slug: "okhla", name: "Okhla", citySlug: "delhi-ncr", areaType: "industrial-estate", nearbyIndustries: ["pharmaceutical", "food-beverage", "laboratories"], confirmedService: true, hero: ["virat-pro", "vayu-pro"] },
   { slug: "bawana", name: "Bawana", citySlug: "delhi-ncr", areaType: "industrial-estate", nearbyIndustries: ["food-beverage", "logistics-warehousing", "chemical"], confirmedService: true, hero: ["setu", "rajmudra"] },
