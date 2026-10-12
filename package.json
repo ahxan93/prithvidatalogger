@@ -9,6 +9,7 @@
     "lint": "eslint",
     "placeholders": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/generate-placeholders.mjs",
     "check:images": "node scripts/check-images.mjs",
+    "check:links": "node scripts/check-links.mjs",
     "check:data": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/check-data.mjs"
   },
   "dependencies": {

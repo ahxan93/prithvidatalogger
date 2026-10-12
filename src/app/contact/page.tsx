@@ -106,7 +106,7 @@ export default function ContactPage() {
             </div>
           </div>
 
-          <div id="enquiry" className="scroll-mt-[calc(var(--header-h)+1rem)]">
+          <div id="enquiry">
             <EnquiryForm title="Send us an enquiry" />
           </div>
         </div>

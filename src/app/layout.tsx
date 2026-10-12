@@ -5,6 +5,7 @@ import { siteConfig } from "@/config/site";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import FloatingContact from "@/components/layout/FloatingContact";
+import AnchorScroll from "@/components/layout/AnchorScroll";
 import HostNoindexMeta from "@/components/seo/HostNoindexMeta";
 import JsonLd from "@/components/seo/JsonLd";
 import { LogoFilterDefs } from "@/components/ui/Logo";
@@ -40,9 +41,16 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className={`${sora.variable} ${inter.variable} h-full`}>
+    // suppressHydrationWarning: the head script below adds "has-hash" to <html> before React runs.
+    <html lang="en" className={`${sora.variable} ${inter.variable} h-full`} suppressHydrationWarning>
+      <head>
+        {/* A #hash in the URL switches off section deferral before first layout,
+            so the browser's jump lands on the right place (see AnchorScroll). */}
+        <script dangerouslySetInnerHTML={{ __html: "if(location.hash)document.documentElement.classList.add('has-hash')" }} />
+      </head>
       <body className="flex min-h-full flex-col">
         <HostNoindexMeta />
+        <AnchorScroll />
         <JsonLd data={siteSchema()} />
         <LogoFilterDefs />
         <Header />

@@ -247,7 +247,7 @@ export default function ServicePage({ slug }: { slug: ServiceSlug }) {
         id="enquiry"
         data-tone="dark"
         aria-labelledby="enquiry-title"
-        className="group/section bg-dot-grid relative scroll-mt-[var(--header-h)] overflow-hidden bg-navy-950 py-16 text-white sm:py-20 lg:py-24"
+        className="group/section bg-dot-grid relative overflow-hidden bg-navy-950 py-16 text-white sm:py-20 lg:py-24"
       >
         <div aria-hidden="true" className="glow-brand pointer-events-none absolute -top-64 -right-64 size-[52rem] opacity-45" />
         <Container className="relative grid items-start gap-12 lg:grid-cols-2 lg:gap-16">

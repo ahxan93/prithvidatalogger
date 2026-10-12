@@ -5,6 +5,7 @@
 // Imports the TypeScript data files directly (Node type stripping); the data
 // files therefore must not use "@/..." imports.
 
+import { spawnSync } from "node:child_process";
 import fs from "node:fs";
 import path from "node:path";
 import { products, commonSpecs, monitoringFeatures, formatMrp, formatFromPrice } from "../src/data/products.ts";
@@ -563,6 +564,26 @@ if (!siteConfig.showPrices) {
     if (covers.has(device.src)) fail(`heroes: blog posts "${covers.get(device.src)}" and "${slug}" share a cover`);
     covers.set(device.src, slug);
   }
+}
+
+// ---------------------------------------------------------------- internal links
+// A broken link, missing #anchor, redirecting link or non-live domain fails the
+// build. Needs a prior build (like the price scan); run `npm run check:links`
+// on its own for the full report.
+if (fs.existsSync(path.join(ROOT, ".next", "BUILD_ID"))) {
+  const links = spawnSync(
+    process.execPath,
+    ["--disable-warning=MODULE_TYPELESS_PACKAGE_JSON", path.join(ROOT, "scripts", "check-links.mjs"), "--no-build"],
+    { cwd: ROOT, encoding: "utf8" },
+  );
+  if (links.status !== 0) {
+    const detail = `${links.stdout ?? ""}${links.stderr ?? ""}`.trim().split("\n").slice(-25).join("\n");
+    fail(`links: internal link check failed\n${detail}`);
+  } else {
+    notes.push((links.stdout ?? "").split("\n").find((l) => l.includes("crawled")) ?? "internal links OK");
+  }
+} else {
+  notes.push("link check skipped (run npm run build first)");
 }
 
 // ---------------------------------------------------------------- report

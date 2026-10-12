@@ -211,8 +211,20 @@
   }
 
   html {
-    scroll-padding-top: calc(var(--header-h) + 1rem);
     -webkit-text-size-adjust: 100%;
+  }
+
+  /* Anything a link can jump to (#enquiry, #founder, #main …) lands below the
+     fixed header, with a little air. One rule for every id, so a new anchor can
+     never be hidden behind the header. */
+  [id] {
+    scroll-margin-top: calc(var(--header-h) + 1rem);
+  }
+
+  /* While the URL has a #hash, render every section (see AnchorScroll) so
+     heights are final and the jump lands where the link points. */
+  html.has-hash .cv-auto {
+    content-visibility: visible;
   }
 
   body {

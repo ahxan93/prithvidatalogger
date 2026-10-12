@@ -106,7 +106,7 @@ export default async function AboutPage() {
       </Section>
 
       {/* 2. Our story */}
-      <Section id="our-story" aria-labelledby="story-title" className="scroll-mt-[var(--header-h)]">
+      <Section id="our-story" aria-labelledby="story-title">
         <div className="grid gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:gap-16">
           <div>
             <SectionHeading id="story-title" eyebrow="Our story" title="Bridging the Gap Between Measuring and Understanding" />
@@ -134,7 +134,7 @@ export default async function AboutPage() {
       </Section>
 
       {/* 3. Founder */}
-      <Section tone="surface" id="founder" aria-labelledby="founder-title" className="scroll-mt-[var(--header-h)] overflow-hidden">
+      <Section tone="surface" id="founder" aria-labelledby="founder-title" className="overflow-hidden">
         <div className="grid items-center gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:gap-16">
           <div className="relative mx-auto w-full max-w-sm">
             <div aria-hidden="true" className="glow-brand pointer-events-none absolute -inset-16 opacity-30" />
