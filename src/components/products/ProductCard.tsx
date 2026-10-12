@@ -20,10 +20,10 @@ type ProductCardProps = {
 
 // Series card: image, channels, what it measures, key range, price, link.
 // Server component: the image (or its placeholder fallback) is resolved at build time.
-export default function ProductCard({ series, as: Heading = "h3", note, className }: ProductCardProps) {
+export default async function ProductCard({ series, as: Heading = "h3", note, className }: ProductCardProps) {
   const content = productContent[series.slug];
-  const image = getVariantImage(series, series.variants[0]);
-  const showImage = image && !isPlaceholderImage(image.src);
+  const image = await getVariantImage(series, series.variants[0]);
+  const showImage = image && !(await isPlaceholderImage(image.src));
 
   return (
     <article

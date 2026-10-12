@@ -78,23 +78,25 @@ export default async function ProductPage({ params }: PageProps<"/products/[slug
   const related = getRelatedSeries(product);
   const accessories = getAccessories();
 
-  const variants: ExplorerVariant[] = product.variants.map((variant) => {
-    const image = getVariantImage(product, variant);
-    return {
-      slug: variant.slug,
-      name: variant.name,
-      specs: variantSpecs(variant),
-      description: variant.description,
-      image:
-        image && !isPlaceholderImage(image.src)
-          ? { src: image.src, alt: keyword ? `${variant.name} ${keyword}` : variant.name, ...getImageSize(image.src) }
+  const variants: ExplorerVariant[] = await Promise.all(
+    product.variants.map(async (variant) => {
+      const image = await getVariantImage(product, variant);
+      const showImage = image && !(await isPlaceholderImage(image.src));
+      return {
+        slug: variant.slug,
+        name: variant.name,
+        specs: variantSpecs(variant),
+        description: variant.description,
+        image: showImage
+          ? { src: image.src, alt: keyword ? `${variant.name} ${keyword}` : variant.name, ...(await getImageSize(image.src)) }
           : undefined,
-    };
-  });
+      };
+    }),
+  );
 
   return (
     <>
-      <JsonLd data={productSchema(product, content.intro)} />
+      <JsonLd data={await productSchema(product, content.intro)} />
 
       {/* 1–2. Breadcrumbs + hero: gallery, H1, intro, variant tabs, CTAs */}
       <Section tone="dark" hero className="overflow-hidden pb-16 lg:pb-24">

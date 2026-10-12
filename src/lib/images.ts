@@ -1,11 +1,17 @@
 import crypto from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
+import { cacheLife } from "next/cache";
 import type { ProductSeries, ProductVariant } from "@/data/products";
 import placeholderManifest from "@/data/placeholder-images.json";
 
-// Server-only: reads public/ with node:fs. Sync reads complete during prerender,
-// so the result is baked into the static HTML at build time.
+// Server-only: reads public/ with node:fs. Every exported function below is
+// `"use cache"` (Cache Components requires async for that), because a raw
+// synchronous fs read during prerendering is flagged as unstable/non-deterministic
+// IO — see https://nextjs.org/docs/messages/blocking-prerender-current-time.
+// Trade-off: replacing a file under public/ while `next dev` is running may need
+// a dev-server restart to show up (HMR invalidates this cache on a code edit,
+// not on a bare asset swap); a fresh `next build` always reflects the real files.
 
 const PRODUCTS_DIR = path.join(process.cwd(), "public", "images", "products");
 const PRODUCTS_URL = "/images/products";
@@ -18,8 +24,6 @@ export type ProductImage = {
   isFallback: boolean;
 };
 
-// Read on every call (not cached at module scope) so that images added while
-// `next dev` is running show up on the next refresh.
 function listProductImages(): Set<string> {
   try {
     return new Set(fs.readdirSync(PRODUCTS_DIR));
@@ -33,7 +37,12 @@ function listProductImages(): Set<string> {
  * src/data/placeholder-images.json). Replacing the file with a real image changes
  * the hash, so the real image is used without any code change.
  */
-export function isPlaceholderImage(src: string): boolean {
+export async function isPlaceholderImage(src: string): Promise<boolean> {
+  "use cache";
+  // Images under public/ only change between deployments, and the cache key
+  // already includes the build ID (so a new deploy always gets a fresh
+  // result) — safe to cache for as long as "max" allows.
+  cacheLife("max");
   const expected = (placeholderManifest as Record<string, string>)[src];
   if (!expected) return false;
   try {
@@ -76,7 +85,12 @@ function webpSize(bytes: Buffer): { width: number; height: number } | undefined 
  * at build time. Undefined for other formats (e.g. AVIF, not used on this
  * site today) or unreadable files.
  */
-export function getImageSize(src: string): { width: number; height: number } | undefined {
+export async function getImageSize(src: string): Promise<{ width: number; height: number } | undefined> {
+  "use cache";
+  // Images under public/ only change between deployments, and the cache key
+  // already includes the build ID (so a new deploy always gets a fresh
+  // result) — safe to cache for as long as "max" allows.
+  cacheLife("max");
   try {
     const bytes = fs.readFileSync(path.join(process.cwd(), "public", src));
     // PNG: IHDR width/height at fixed offsets.
@@ -113,7 +127,12 @@ export function getImageSize(src: string): { width: number; height: number } | u
  * directory and compares names case-insensitively instead, so a mismatch
  * behaves identically (and is caught) on every platform.
  */
-export function publicImageExists(src: string): boolean {
+export async function publicImageExists(src: string): Promise<boolean> {
+  "use cache";
+  // Images under public/ only change between deployments, and the cache key
+  // already includes the build ID (so a new deploy always gets a fresh
+  // result) — safe to cache for as long as "max" allows.
+  cacheLife("max");
   return findActualCase(src) !== undefined;
 }
 
@@ -136,7 +155,12 @@ function findActualCase(src: string): string | undefined {
  * Matches extension case-insensitively but returns the path using the exact
  * on-disk casing, so the URL Next.js serves always matches a real file.
  */
-export function resolvePublicImage(basePath: string): string | undefined {
+export async function resolvePublicImage(basePath: string): Promise<string | undefined> {
+  "use cache";
+  // Images under public/ only change between deployments, and the cache key
+  // already includes the build ID (so a new deploy always gets a fresh
+  // result) — safe to cache for as long as "max" allows.
+  cacheLife("max");
   for (const ext of EXTENSIONS) {
     const actual = findActualCase(`${basePath}${ext}`);
     if (actual) return `${path.dirname(basePath)}/${actual}`.replace(/\\/g, "/");
@@ -150,7 +174,12 @@ function findImage(slug: string, files: Set<string>): string | undefined {
 }
 
 /** The series base image, e.g. /images/products/setu.png. */
-export function getSeriesImage(series: ProductSeries): string | undefined {
+export async function getSeriesImage(series: ProductSeries): Promise<string | undefined> {
+  "use cache";
+  // Images under public/ only change between deployments, and the cache key
+  // already includes the build ID (so a new deploy always gets a fresh
+  // result) — safe to cache for as long as "max" allows.
+  cacheLife("max");
   return findImage(series.slug, listProductImages());
 }
 
@@ -158,10 +187,15 @@ export function getSeriesImage(series: ProductSeries): string | undefined {
  * The variant's own image (e.g. setu-pro.png) if present, otherwise the series
  * base image (setu.png). Undefined when neither exists.
  */
-export function getVariantImage(
+export async function getVariantImage(
   series: ProductSeries,
   variant: ProductVariant,
-): ProductImage | undefined {
+): Promise<ProductImage | undefined> {
+  "use cache";
+  // Images under public/ only change between deployments, and the cache key
+  // already includes the build ID (so a new deploy always gets a fresh
+  // result) — safe to cache for as long as "max" allows.
+  cacheLife("max");
   const files = listProductImages();
   const own = findImage(variant.slug, files);
   if (own) return { src: own, isFallback: false };

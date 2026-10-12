@@ -35,10 +35,10 @@ export const metadata = buildMetadata({
 });
 
 /** A real (non-placeholder) image with its pixel size, or undefined. */
-function realImage(basePath: string) {
-  const src = resolvePublicImage(basePath);
-  if (!src || isPlaceholderImage(src)) return undefined;
-  const size = getImageSize(src);
+async function realImage(basePath: string) {
+  const src = await resolvePublicImage(basePath);
+  if (!src || (await isPlaceholderImage(src))) return undefined;
+  const size = await getImageSize(src);
   return size ? { src, ...size } : undefined;
 }
 
@@ -52,8 +52,9 @@ const principles = [
   { label: "Core purpose", text: corePurpose },
 ];
 
-export default function AboutPage() {
-  const founderPhoto = realImage(founder.photo);
+export default async function AboutPage() {
+  const founderPhoto = await realImage(founder.photo);
+  const certificationImages = await Promise.all(certifications.map((c) => realImage(c.image)));
   const parent = siteConfig.parentCompany;
 
   return (
@@ -256,13 +257,13 @@ export default function AboutPage() {
           align="center"
         />
         <ul className="mx-auto mt-12 grid max-w-4xl gap-6 md:grid-cols-2">
-          {certifications.map((certificate) => (
+          {certifications.map((certificate, i) => (
             <li key={certificate.title}>
               <CertificateCard
                 title={certificate.title}
                 standard={certificate.standard}
                 description={certificate.description}
-                image={realImage(certificate.image)}
+                image={certificationImages[i]}
               />
             </li>
           ))}

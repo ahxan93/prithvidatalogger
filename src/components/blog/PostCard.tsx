@@ -22,9 +22,9 @@ type PostCardProps = {
 
 // Article card for /blog and the related-posts grid. Server component: the
 // cover image (or its placeholder fallback) is resolved at build time.
-export default function PostCard({ post, as: Heading = "h3" }: PostCardProps) {
-  const cover = resolvePublicImage(post.cover);
-  const showCover = cover && !isPlaceholderImage(cover);
+export default async function PostCard({ post, as: Heading = "h3" }: PostCardProps) {
+  const cover = await resolvePublicImage(post.cover);
+  const showCover = cover && !(await isPlaceholderImage(cover));
 
   return (
     <article className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200/80 bg-white shadow-soft transition duration-300 hover:border-brand-200 hover:shadow-soft-lg focus-within:border-brand-300">

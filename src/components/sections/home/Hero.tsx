@@ -18,9 +18,9 @@ import { telHref, whatsappHref } from "@/lib/contact";
 
 const trustIcons = [ShieldCheckIcon, FileCheckIcon, GlobeIcon];
 
-export default function Hero() {
+export default async function Hero() {
   const nakshatra = getProductBySlug("nakshatra");
-  const image = nakshatra ? getVariantImage(nakshatra, nakshatra.variants[0]) : undefined;
+  const image = nakshatra ? await getVariantImage(nakshatra, nakshatra.variants[0]) : undefined;
   const [accentBefore, accentAfter] = hero.h1Accent.split("Real-Time");
 
   return (

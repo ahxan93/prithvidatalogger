@@ -18,7 +18,11 @@ export const metadata = buildMetadata({
   path: "/industries",
 });
 
-export default function IndustriesPage() {
+export default async function IndustriesPage() {
+  const cards = await Promise.all(
+    industries.map(async (industry) => ({ industry, isPlaceholder: await isPlaceholderImage(industry.image) })),
+  );
+
   return (
     <>
       <PageHero
@@ -35,11 +39,12 @@ export default function IndustriesPage() {
           subtitle="Choose your industry for typical applications, recommended loggers and related services."
         />
         <ul className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {industries.map((industry, i) => (
+          {cards.map(({ industry, isPlaceholder }, i) => (
             <li key={industry.slug}>
               <article className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200/80 bg-white shadow-soft transition duration-300 hover:border-brand-200 hover:shadow-soft-lg focus-within:border-brand-300">
-                <div className={isPlaceholderImage(industry.image) ? "relative aspect-[5/2] overflow-hidden sm:aspect-[16/9]" : "relative aspect-[16/9] overflow-hidden"}>
-                  {isPlaceholderImage(industry.image) ? (
+                {/* 3:2 matches the source photos exactly, so nothing is cropped. */}
+                <div className="relative aspect-[3/2] overflow-hidden">
+                  {isPlaceholder ? (
                     <ImageFallback seed={i} />
                   ) : (
                     <Image

@@ -77,9 +77,25 @@ export function siteSchema() {
  * No offers/price (owner decision: no prices shown anywhere on the site).
  * No ratings or reviews by design either.
  */
-export function productSchema(product: ProductSeries, description: string) {
+export async function productSchema(product: ProductSeries, description: string) {
   const url = absoluteUrl(`/products/${product.slug}`);
   const brand = { "@type": "Brand", name: siteConfig.name };
+
+  const hasVariant = await Promise.all(
+    product.variants.map(async (variant) => {
+      const image = await getVariantImage(product, variant);
+      // Placeholder artwork is never advertised to search engines.
+      const realImage = image && !(await isPlaceholderImage(image.src)) ? image.src : undefined;
+      return {
+        "@type": "Product",
+        name: variant.name,
+        sku: variant.slug,
+        description: variant.description ?? `${variant.name}: ${variant.sensors}${variant.tempRange ? `, ${variant.tempRange}` : ""}.`,
+        brand,
+        ...(realImage && { image: absoluteUrl(realImage) }),
+      };
+    }),
+  );
 
   return {
     "@context": "https://schema.org",
@@ -90,19 +106,7 @@ export function productSchema(product: ProductSeries, description: string) {
     url,
     brand,
     productGroupID: product.slug,
-    hasVariant: product.variants.map((variant) => {
-      const image = getVariantImage(product, variant);
-      // Placeholder artwork is never advertised to search engines.
-      const realImage = image && !isPlaceholderImage(image.src) ? image.src : undefined;
-      return {
-        "@type": "Product",
-        name: variant.name,
-        sku: variant.slug,
-        description: variant.description ?? `${variant.name}: ${variant.sensors}${variant.tempRange ? `, ${variant.tempRange}` : ""}.`,
-        brand,
-        ...(realImage && { image: absoluteUrl(realImage) }),
-      };
-    }),
+    hasVariant,
   };
 }
 

@@ -11,7 +11,15 @@ import { ArrowRightIcon } from "@/components/ui/icons";
 import ImageFallback from "@/components/ui/ImageFallback";
 import { getVariantImage, isPlaceholderImage } from "@/lib/images";
 
-export default function ProductMarquee() {
+export default async function ProductMarquee() {
+  const cards = await Promise.all(
+    products.map(async (series) => {
+      const image = await getVariantImage(series, series.variants[0]);
+      const realImage = image && !(await isPlaceholderImage(image.src)) ? image : undefined;
+      return { series, realImage };
+    }),
+  );
+
   return (
     <Section tone="surface" contained={false} aria-labelledby="range-title">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -26,20 +34,19 @@ export default function ProductMarquee() {
 
       {/* Below 768px this is a swipeable scroll-snap row; from 768px up, a marquee. */}
       <Marquee label="Prithvi product series" duration={55} fade="surface" mobile="snap" className="mt-12">
-        {products.map((series) => {
-          const image = getVariantImage(series, series.variants[0]);
+        {cards.map(({ series, realImage }) => {
           return (
             <li key={series.slug} className="w-72 shrink-0 snap-start sm:w-80">
               <div className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200/80 bg-white shadow-soft transition duration-300 hover:border-brand-200 hover:shadow-soft-lg">
                 <div className="relative aspect-[4/3] overflow-hidden bg-slate-100">
-                  {!image || isPlaceholderImage(image.src) ? (
+                  {!realImage ? (
                     <ImageFallback tone="light" label={series.name} channels={series.channels} />
                   ) : (
                     // Server-rendered <img> from getImageProps (next/image): same optimised,
                     // lazy-loaded markup, but nothing to hydrate (the row is rendered twice).
                     // eslint-disable-next-line @next/next/no-img-element
                     <img
-                      {...getImageProps({ src: image.src, alt: series.headline, fill: true, sizes: "320px", loading: "lazy" }).props}
+                      {...getImageProps({ src: realImage.src, alt: series.headline, fill: true, sizes: "320px", loading: "lazy" }).props}
                       alt={series.headline}
                       decoding="async"
                       className="object-cover transition-transform duration-500 motion-safe:group-hover:scale-105"

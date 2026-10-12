@@ -48,8 +48,8 @@ export async function generateMetadata({
   // Covers the __placeholder__ slug too: never indexable (it is also not in sitemap.xml).
   if (!post) return { robots: { index: false, follow: false } };
 
-  const cover = resolvePublicImage(post.cover);
-  const realCover = cover && !isPlaceholderImage(cover) ? cover : undefined;
+  const cover = await resolvePublicImage(post.cover);
+  const realCover = cover && !(await isPlaceholderImage(cover)) ? cover : undefined;
 
   return buildMetadata({
     // seoTitle is only set when the full title (used for the H1) would run
@@ -71,8 +71,8 @@ export default async function BlogPostPage({ params }: PageProps<"/blog/[slug]">
   const mod = (await import(`@/content/blog/${slug}.mdx`)) as { default: ComponentType };
   const Content = mod.default;
   const related = await getRelatedPosts(post);
-  const cover = resolvePublicImage(post.cover);
-  const showCover = cover && !isPlaceholderImage(cover);
+  const cover = await resolvePublicImage(post.cover);
+  const showCover = cover && !(await isPlaceholderImage(cover));
 
   return (
     <>

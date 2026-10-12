@@ -68,7 +68,7 @@ export default async function IndustryPage({ params }: PageProps<"/industries/[s
   if (!industry || !content) notFound();
 
   const recommended = resolveRecommended(industry.recommended);
-  const hasPhoto = !isPlaceholderImage(industry.image);
+  const hasPhoto = !(await isPlaceholderImage(industry.image));
 
   return (
     <>
@@ -80,8 +80,8 @@ export default async function IndustryPage({ params }: PageProps<"/industries/[s
         eyebrow="Industries"
         title={pageTitle(industry.name)}
         intro={industry.whyItMatters}
-        backgroundImage={hasPhoto ? industry.image : undefined}
-        backgroundImageAlt={`${industry.name} temperature monitoring`}
+        image={hasPhoto ? industry.image : undefined}
+        imageAlt={`${industry.name} temperature monitoring`}
       >
         <div data-avoid-floating className="flex flex-col gap-3 sm:flex-row">
           <Button href={quoteHref} size="lg">

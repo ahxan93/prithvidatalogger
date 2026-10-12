@@ -43,12 +43,12 @@ type LogoProps = {
   preload?: boolean;
 };
 
-export default function Logo({
+export default async function Logo({
   variant = "default",
   className = "h-10 w-auto",
   preload = false,
 }: LogoProps) {
-  const useWhiteFile = variant === "white" && publicImageExists(WHITE_LOGO);
+  const useWhiteFile = variant === "white" && (await publicImageExists(WHITE_LOGO));
   const fallback = variant === "white" && !useWhiteFile;
 
   return (
