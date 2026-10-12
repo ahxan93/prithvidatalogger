@@ -232,7 +232,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             nearby: [
               { slug: "navi-mumbai", name: "Navi Mumbai" },
-              { slug: "bhiwandi", name: "Bhiwandi" },
+              { slug: "thane-bhiwandi", name: "Thane & Bhiwandi" },
               { slug: "panvel", name: "Panvel" },
             ],
             metaTitle: "Temperature Data Loggers in Mumbai | Prithvi",
@@ -245,53 +245,198 @@ export const locations: LegacyLocationNode[] = [
             name: "Navi Mumbai",
             type: "city",
             intro:
-              "Navi Mumbai's industrial life runs along the Thane–Belapur belt, from Turbhe through Rabale and Mahape to the estates beyond Kharghar. This page is the parent for our Navi Mumbai area pages and will be written in full in a later batch.",
-            localIndustries: [
-              "Manufacturing and process units",
-              "Cold storage and market-side warehouses",
-              "Data-centre and IT campuses",
+              "Navi Mumbai was laid out as a planned city across the creek from Mumbai, and its industrial identity follows the Thane–Belapur belt, from Turbhe through Rabale and Mahape to the plots further south. A temperature data logger here covers a very different mix from the island city: factory units and chemical sheds, cold stores that serve the wholesale markets, warehouse yards near the port roads and server halls in the business parks. The sea keeps the air humid for much of the year and the monsoon makes storage rooms damp. Goods move in and out constantly, so a drift is easy to miss between rounds. Loggers that send alerts to a phone and keep a dated record turn those rounds into evidence, whichever estate the room happens to stand in.",
+            climateAngle:
+              "The air is humid and salty along the creek for most months, and the monsoon pushes dampness into stores and plant rooms, so humidity records matter next to temperature for packaging, electronics and food.",
+            areas: [
+              {
+                name: "Turbhe",
+                note: "The western end of the industrial belt, where manufacturing sheds sit close to the wholesale produce markets and the cold stores that supply traders.",
+              },
+              {
+                name: "Rabale",
+                note: "A belt of compact plots between the railway and the hills, where many independent firms each keep one or two rooms that need watching.",
+              },
+              {
+                name: "Mahape",
+                note: "Factory units share the district with business parks and data-centre buildings, so heavy-duty stores and climate-controlled halls sit within sight of each other.",
+              },
+              {
+                name: "Taloja",
+                note: "A large estate toward Panvel with wide plots and long distances between buildings, where wireless loggers reach rooms that cabling would struggle to serve.",
+              },
+              {
+                name: "Vashi",
+                note: "The commercial centre of the city and home to the wholesale market complex, with hospitals, hotels and offices alongside food trading and storage.",
+              },
+              {
+                name: "Pawane",
+                note: "An industrial estate on the belt where chemical and pharmaceutical units keep raw materials and finished goods in rooms with stated limits.",
+              },
             ],
-            citiesServed: ["Turbhe", "Rabale", "Mahape", "Taloja"],
-            supportNote:
-              "Supply, installation support and site visits for these estates are arranged from our Mumbai office. Write to us with the estate and what you store.",
+            industries: [
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmaceutical and chemical units along the belt keep active ingredients and packed goods in rooms that are reviewed at every audit, so the monitoring record is part of the product file.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Cold storage linked to the wholesale markets holds fruit, dairy and frozen stock for traders, and a warm afternoon in a holding room can undo a day of handling.",
+              },
+              {
+                slug: "data-centers",
+                sentence:
+                  "Data-centre and IT campuses on the belt run cold aisles and plant rooms where a drift of a few degrees is something an engineer wants to hear about immediately.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Warehouse yards near the port-linked roads receive mixed cargo, and a log at the dock door shows how long a chilled load actually waited before it was stored.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity as well as temperature, which matters through the damp monsoon months that Navi Mumbai's stores and server rooms face.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels watch the corners, the middle and the door of a large market-side cold room or a multi-bay warehouse from one device.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger with an external probe suits yards and transit bays between plots, where no Wi-Fi reaches and a vehicle or container needs watching.",
+              },
+            ],
             faqs: [
               {
-                question: "Which Navi Mumbai estates do you serve?",
-                answer: "We serve Turbhe, Rabale, Mahape and Taloja, and each has its own page under this city.",
+                question: "How do you arrange a site visit in Navi Mumbai?",
+                answer:
+                  "Send the estate or plot, the rooms involved and what you store through the enquiry form, WhatsApp or a call, and we agree a day with your stores or quality team. Visits to our own Mumbai office are by appointment, so please phone before coming.",
               },
               {
-                question: "How is a visit arranged in Navi Mumbai?",
-                answer: "Send the estate and what you store through the enquiry form, WhatsApp or a call, and we agree a day with you.",
+                question: "Which logger suits a humid, salt-air site near the creek?",
+                answer:
+                  "A model that reads relative humidity as well as temperature, such as Nakshatra or the Pro versions of the multi-channel loggers, gives the fuller picture. Mounting the probe away from door seals and wet walls keeps readings honest.",
+              },
+              {
+                question: "Can the loggers we already own be calibrated for a Navi Mumbai plant?",
+                answer:
+                  "Calibration of temperature and humidity instruments is carried out by VEGA Calibrations, our parent company. Send us the instrument list and the ranges you use, and we confirm how the work is arranged for your plant.",
+              },
+              {
+                question: "Can one account cover units in Turbhe, Mahape and Taloja?",
+                answer:
+                  "Yes. Rooms from different estates sit on a single dashboard grouped by site, with separate user access, so a head of quality can compare units while each plant manager sees only their own.",
               },
             ],
-            // A parent for its area pages only until its own playbook prompt runs.
-            indexable: false,
+            nearby: [
+              { slug: "mumbai", name: "Mumbai" },
+              { slug: "thane-bhiwandi", name: "Thane & Bhiwandi" },
+              { slug: "panvel", name: "Panvel" },
+            ],
+            metaTitle: "Temperature Data Loggers in Navi Mumbai | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Navi Mumbai's Turbhe, Rabale, Mahape and Taloja estates, with site visits arranged. Get Solution.",
+            indexable: true,
           },
           {
             slug: "thane-bhiwandi",
             name: "Thane & Bhiwandi",
             type: "city",
             intro:
-              "Thane and Bhiwandi cover the industrial and warehousing districts to the north-east of Mumbai, from the older estates of Thane to the large warehouse parks of Bhiwandi. This page is the parent for the area pages in that belt and will be written in full in a later batch.",
-            localIndustries: [
-              "Pharmaceutical and engineering units",
-              "Chemical and process industry",
-              "Warehousing and logistics parks",
+              "Thane and Bhiwandi sit to the north-east of Mumbai, and together they hold some of the busiest storage in the region. Thane brings established industrial estates and multi-storey factory buildings; Dombivli adds process industry on the Kalyan side; Bhiwandi is a warehouse town whose sheds feed shops and homes across the metropolitan area. A temperature data logger in this belt has to cope with tall sheds, long loading bays and buildings where signals do not travel easily from floor to floor. The pre-monsoon weeks are hot and the monsoon is humid. Alerts that reach a phone, and a record that can be exported for a customer, replace the clipboard and the walk-round. For a firm with a unit in Thane and a bay in a Bhiwandi park, one account can show both, so a quality head is not reading two sets of paper.",
+            climateAngle:
+              "Large sheds heat up in the weeks before the monsoon and turn humid once it arrives, and upper racks run warmer than the floor, so readings from several heights tell more than a single probe.",
+            areas: [
+              {
+                name: "Wagle Estate",
+                note: "Established estate on the western side of Thane, with pharmaceutical, electronics and engineering units stacked in multi-storey buildings where each floor may hold a store, a quality room and a packing area of its own.",
+              },
+              {
+                name: "Dombivli MIDC",
+                note: "Two phases of process industry on the Kalyan side, with chemical, pharmaceutical intermediate and food units close to dense housing, which makes an automatic record of storage conditions worth more than a register filled by hand.",
+              },
+              {
+                name: "Bhiwandi",
+                note: "A town of warehouse parks and powerloom units along the Nashik highway, where third-party operators share sheds between many customers and tall racking makes the top shelves run warmer than the floor.",
+              },
             ],
-            citiesServed: ["Wagle Estate", "Dombivli MIDC", "Bhiwandi"],
-            supportNote:
-              "Supply, installation support and site visits across this belt are arranged from our Mumbai office. Write to us with the estate or park and what you store.",
+            industries: [
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Third-party warehouse operators serve many customers from one shed, and a separate record for each customer's bay settles most questions about how goods were kept.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Formulation units in Thane and distribution bays in Bhiwandi both need dated storage records that a customer or an inspector can read without help.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Process units on the Dombivli estates store intermediates and solvents with printed limits, and an automatic log shows whether those limits held through a hot afternoon.",
+              },
+              {
+                slug: "textile",
+                sentence:
+                  "Powerloom and processing units in Bhiwandi work with yarn and cloth that behave differently in damp and dry air, so humidity is monitored alongside temperature.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels spread probes across the height and length of a large Bhiwandi shed from a single logger.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels suit a multi-floor Thane building where each floor's store needs its own reading on one account.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an optional external probe covers the individual fridge or small store of a stockist or a unit's quality room.",
+              },
+            ],
             faqs: [
               {
-                question: "Which areas around Thane do you serve?",
-                answer: "We serve Wagle Estate, Dombivli MIDC and Bhiwandi, and each has its own page under this city.",
+                question: "Do you visit warehouse parks in Bhiwandi?",
+                answer:
+                  "Yes. Tell us the park, the size of the shed and whether you run it or rent bays in it, and we arrange the day with whoever manages access. Shared parks usually need the park manager to agree the walk-through, and it helps to say which bay or customer area you want looked at first.",
               },
               {
-                question: "Can you help with a large shared warehouse?",
-                answer: "Yes. Multi-channel loggers and a temperature mapping study through our parent company suit large sheds shared by several tenants.",
+                question: "What helps when Wi-Fi does not reach inside a tall multi-storey unit?",
+                answer:
+                  "GSM versions work without a local network, and wireless loggers can be placed to follow the building's layout. We usually start with one floor, see how it reports, then extend to the others, adding a repeater or a GSM unit only where a stairwell or lift shaft really blocks the signal.",
+              },
+              {
+                question: "Can a mapping study be arranged for a large Thane or Bhiwandi shed?",
+                answer:
+                  "Temperature mapping is carried out by VEGA Calibrations, our parent company. A study shows the warm and cool zones of a shed so loggers go where they are most informative.",
+              },
+              {
+                question: "How do we give each customer in a shared warehouse its own record?",
+                answer:
+                  "Assign each customer's bay to its own room and logger on the dashboard, and export that room's report when the customer asks. Access can be limited so tenants see only their bay, while the operator keeps the view of the whole shed.",
               },
             ],
-            indexable: false,
+            nearby: [
+              { slug: "mumbai", name: "Mumbai" },
+              { slug: "navi-mumbai", name: "Navi Mumbai" },
+              { slug: "panvel", name: "Panvel" },
+            ],
+            metaTitle: "Temperature Data Loggers in Thane & Bhiwandi | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers in Thane & Bhiwandi: Wagle Estate, Dombivli MIDC and warehouse parks, with site visits. Get Solution.",
+            indexable: true,
           },
         ],
       },
