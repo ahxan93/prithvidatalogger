@@ -19,6 +19,7 @@ import { industryContent } from "../src/data/industry-content.ts";
 import { serviceContent } from "../src/data/service-content.ts";
 import { locationContent, countryMarkers } from "../src/data/location-content.ts";
 import { clients } from "../src/data/clients.ts";
+import { blogCoverKey, cityHeroAssignments, deviceCatalogue, getBlogCoverDevice, pageHeroes } from "../src/data/page-heroes.ts";
 import { siteConfig } from "../src/config/site.ts";
 
 const ROOT = path.join(import.meta.dirname, "..");
@@ -529,6 +530,39 @@ if (!siteConfig.showPrices) {
     fail('cta: "Get a Quote" found in CLAUDE.md (use "Get Solution")');
   }
   scanTree(path.join(ROOT, ".next/server/app"), new Set([".html", ".rsc", ".body", ".meta"]));
+}
+
+// ---------------------------------------------------------------- hero visuals (src/data/page-heroes.ts)
+{
+  const pair = (keys) => [...keys].sort().join("+");
+  for (const [id, keys] of Object.entries(pageHeroes))
+    for (const k of keys) {
+      const d = deviceCatalogue[k];
+      if (!d) fail(`heroes: page "${id}" uses unknown device "${k}"`);
+      else if (!fs.existsSync(path.join(PUBLIC, d.src))) fail(`heroes: page "${id}" photo missing (${d.src})`);
+    }
+  const pagePairs = new Map(Object.entries(pageHeroes).filter(([, k]) => k.length === 2).map(([id, k]) => [pair(k), id]));
+  const seen = new Map();
+  for (const c of cityHeroAssignments()) {
+    if (c.keys.length !== 2 || c.keys[0] === c.keys[1]) fail(`heroes: city "${c.slug}" needs two different photos`);
+    const key = pair(c.keys);
+    if (seen.has(key)) fail(`heroes: cities "${seen.get(key)}" and "${c.slug}" share the same hero combination`);
+    seen.set(key, c.slug);
+    if (pagePairs.has(key)) fail(`heroes: city "${c.slug}" repeats the hero of page "${pagePairs.get(key)}"`);
+    // GSM models are never shown on GCC pages (network compatibility is not confirmed).
+    if (c.region === "gcc" && c.keys.some((k) => k.startsWith("vayu"))) fail(`heroes: GCC city "${c.slug}" shows a Vayu photo`);
+    for (const k of c.keys) if (!deviceCatalogue[k]) fail(`heroes: city "${c.slug}" uses unknown device "${k}"`);
+  }
+  // Every blog post has a cover photo of its own.
+  const covers = new Map();
+  for (const file of blogSlugs) {
+    const slug = file.replace(/.mdx$/, "");
+    const device = getBlogCoverDevice(slug);
+    if (!device || !fs.existsSync(path.join(PUBLIC, device.src))) fail(`heroes: blog post "${slug}" has no cover photo`);
+    if (!blogCoverKey(slug)) fail(`heroes: blog post "${slug}" has no entry in blogCovers (pick the most relevant photo)`);
+    if (covers.has(device.src)) fail(`heroes: blog posts "${covers.get(device.src)}" and "${slug}" share a cover`);
+    covers.set(device.src, slug);
+  }
 }
 
 // ---------------------------------------------------------------- report

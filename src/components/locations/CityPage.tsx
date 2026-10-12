@@ -20,6 +20,8 @@ import {
   PhoneIcon,
   WhatsAppIcon,
 } from "@/components/ui/icons";
+import LiveDeviceVisual from "@/components/sections/LiveDeviceVisual";
+import { getCityHeroDevices } from "@/data/page-heroes";
 import { telHref, whatsappCityHref } from "@/lib/contact";
 import { cityServiceSchema } from "@/lib/schema";
 
@@ -87,6 +89,8 @@ export default async function CityPage({ city }: { city: ResolvedCity }) {
           <div data-city-section="breadcrumbs">
             <Breadcrumbs items={crumbs} className="mb-5" />
           </div>
+          <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
+          <div>
           <p className="mb-3 text-xs font-semibold uppercase tracking-[0.14em] text-cyan-400 sm:text-sm">
             {state.name}, {country.name}
           </p>
@@ -118,6 +122,14 @@ export default async function CityPage({ city }: { city: ResolvedCity }) {
               </li>
             ))}
           </ul>
+          </div>
+          {/* A distinct pair of logger photos per city (see page-heroes.ts), with an illustrative reading. */}
+          <LiveDeviceVisual
+            devices={getCityHeroDevices(node.slug, path[0] === "india" ? "india" : "gcc")}
+            badge={`${name} · ${state.name}`}
+            altPrefix={`${name} monitoring`}
+          />
+          </div>
         </div>
       </Section>
 

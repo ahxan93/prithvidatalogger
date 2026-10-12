@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { ComponentType } from "react";
@@ -8,13 +7,13 @@ import { getAllPosts, getPostBySlug, getRelatedPosts } from "@/lib/blog";
 import PostCard from "@/components/blog/PostCard";
 import SummaryBox from "@/components/blog/SummaryBox";
 import CtaBand from "@/components/sections/CtaBand";
+import LiveDeviceVisual from "@/components/sections/LiveDeviceVisual";
 import PageHero from "@/components/sections/PageHero";
+import { getBlogCoverDevice } from "@/data/page-heroes";
 import JsonLd from "@/components/seo/JsonLd";
-import ImageFallback from "@/components/ui/ImageFallback";
 import Section from "@/components/ui/Section";
 import SectionHeading from "@/components/ui/SectionHeading";
 import { ArrowLeftIcon, CalendarIcon, ClockIcon, UserIcon } from "@/components/ui/icons";
-import { isPlaceholderImage, resolvePublicImage } from "@/lib/images";
 import { articleSchema, breadcrumbSchema } from "@/lib/schema";
 import { buildMetadata } from "@/lib/seo";
 
@@ -48,16 +47,14 @@ export async function generateMetadata({
   // Covers the __placeholder__ slug too: never indexable (it is also not in sitemap.xml).
   if (!post) return { robots: { index: false, follow: false } };
 
-  const cover = await resolvePublicImage(post.cover);
-  const realCover = cover && !(await isPlaceholderImage(cover)) ? cover : undefined;
-
   return buildMetadata({
     // seoTitle is only set when the full title (used for the H1) would run
     // over 60 characters even without the usual " | Prithvi Data Loggers" suffix.
     title: post.seoTitle ?? post.title,
     description: post.description,
     path: `/blog/${post.slug}`,
-    image: realCover,
+    // The cover photo (see getBlogCoverDevice) rendered with the title.
+    image: `/og/blog/${post.slug}`,
     // Drafts stay reachable by direct link for review, but never indexed.
     noIndex: post.draft,
   });
@@ -71,8 +68,6 @@ export default async function BlogPostPage({ params }: PageProps<"/blog/[slug]">
   const mod = (await import(`@/content/blog/${slug}.mdx`)) as { default: ComponentType };
   const Content = mod.default;
   const related = await getRelatedPosts(post);
-  const cover = await resolvePublicImage(post.cover);
-  const showCover = cover && !(await isPlaceholderImage(cover));
 
   return (
     <>
@@ -85,7 +80,7 @@ export default async function BlogPostPage({ params }: PageProps<"/blog/[slug]">
             datePublished: post.date,
             dateModified: post.reviewedDate ?? post.date,
             author: post.author,
-            image: showCover ? cover : undefined,
+            image: `/og/blog/${post.slug}`,
           }),
           breadcrumbSchema([
             { name: "Blog", path: "/blog" },
@@ -102,6 +97,9 @@ export default async function BlogPostPage({ params }: PageProps<"/blog/[slug]">
         eyebrow="Blog"
         title={post.title}
         intro={post.description}
+        visual={
+          <LiveDeviceVisual devices={[getBlogCoverDevice(post.slug)]} altPrefix={`Cover image for ${post.title}`} />
+        }
       >
         <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-slate-300">
           <span className="flex items-center gap-2">
@@ -128,14 +126,6 @@ export default async function BlogPostPage({ params }: PageProps<"/blog/[slug]">
             <ArrowLeftIcon className="size-4" />
             All articles
           </Link>
-
-          <div className="relative mt-6 aspect-video overflow-hidden rounded-2xl shadow-soft-lg">
-            {showCover ? (
-              <Image src={cover} alt="" fill priority sizes="(min-width: 768px) 48rem, 100vw" className="object-cover" />
-            ) : (
-              <ImageFallback tone="light" label={post.tags[0]} />
-            )}
-          </div>
 
           <div className="mt-8">
             <SummaryBox points={post.summary} />

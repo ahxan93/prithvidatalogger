@@ -184,3 +184,125 @@ export const pageHeroes: Record<PageHeroId, DeviceKey[]> = {
 export function getPageHeroDevices(id: PageHeroId): HeroDevice[] {
   return pageHeroes[id].map((key) => deviceCatalogue[key] as HeroDevice);
 }
+
+// ---------------------------------------------------------------------------
+// City pages
+// ---------------------------------------------------------------------------
+
+type Region = "india" | "gcc";
+
+/**
+ * Every city in docs/LOCATION-PAGES-PLAYBOOK.md section 4, plus the planned
+ * ones, in a fixed order. New cities are appended so earlier assignments never
+ * move. Each gets a distinct pair of logger photos.
+ */
+const CITY_REGISTRY: { slug: string; region: Region }[] = [
+  ...[
+    "mumbai", "navi-mumbai", "panvel", "bhiwandi", "pune", "ahmedabad", "delhi", "noida", "lucknow", "manesar",
+    "chandigarh", "baddi", "jaipur", "indore", "hyderabad", "bengaluru", "chennai", "coimbatore", "kochi", "goa",
+    "kolkata",
+  ].map((slug) => ({ slug, region: "india" as const })),
+  ...["riyadh", "jeddah", "dammam", "dubai"].map((slug) => ({ slug, region: "gcc" as const })),
+  ...[
+    "vadodara", "gurugram", "thane", "vapi", "ankleshwar", "nashik", "nagpur", "visakhapatnam", "haridwar", "surat",
+  ].map((slug) => ({ slug, region: "india" as const })),
+];
+
+const LOGGER_KEYS: DeviceKey[] = [
+  "setu", "nakshatra", "rajmudra", "dhruva", "veer", "veer-pro", "virat", "virat-pro", "vayu", "vayu-pro",
+];
+/** GSM models are never shown on GCC pages (network compatibility is not confirmed there). */
+const GSM_KEYS = new Set<DeviceKey>(["vayu", "vayu-pro"]);
+
+const pairKey = (a: DeviceKey, b: DeviceKey) => [a, b].sort().join("+");
+
+/** Combinations already used by the non-city pages above, so no hero is shared. */
+const RESERVED_PAIRS = new Set(
+  Object.values(pageHeroes)
+    .filter((keys) => keys.length === 2)
+    .map(([a, b]) => pairKey(a, b)),
+);
+
+function fnv1a(text: string): number {
+  let h = 0x811c9dc5;
+  for (let i = 0; i < text.length; i++) {
+    h ^= text.charCodeAt(i);
+    h = Math.imul(h, 0x01000193) >>> 0;
+  }
+  return h;
+}
+
+function pairsFor(region: Region): [DeviceKey, DeviceKey][] {
+  const pool = region === "gcc" ? LOGGER_KEYS.filter((k) => !GSM_KEYS.has(k)) : LOGGER_KEYS;
+  const pairs: [DeviceKey, DeviceKey][] = [];
+  for (let i = 0; i < pool.length; i++) {
+    for (let j = i + 1; j < pool.length; j++) {
+      if (!RESERVED_PAIRS.has(pairKey(pool[i], pool[j]))) pairs.push([pool[i], pool[j]]);
+    }
+  }
+  return pairs;
+}
+
+const cityAssignments = new Map<string, [DeviceKey, DeviceKey]>();
+const usedPairs = new Set<string>();
+
+function assignCity(slug: string, region: Region): [DeviceKey, DeviceKey] {
+  const existing = cityAssignments.get(slug);
+  if (existing) return existing;
+  const pairs = pairsFor(region);
+  // Start from a slug-derived position, then probe to the next unused pair.
+  const start = fnv1a(slug) % pairs.length;
+  let chosen = pairs[start];
+  for (let step = 0; step < pairs.length; step++) {
+    const candidate = pairs[(start + step) % pairs.length];
+    if (!usedPairs.has(pairKey(...candidate))) {
+      chosen = candidate;
+      break;
+    }
+  }
+  usedPairs.add(pairKey(...chosen));
+  cityAssignments.set(slug, chosen);
+  return chosen;
+}
+
+// Registry cities are assigned in order at load, so the result never depends
+// on which page happens to be rendered first.
+for (const city of CITY_REGISTRY) assignCity(city.slug, city.region);
+
+/** The two logger photos for a city page: deterministic and distinct per city. */
+export function getCityHeroDevices(slug: string, region: Region): HeroDevice[] {
+  return assignCity(slug, region).map((key) => deviceCatalogue[key] as HeroDevice);
+}
+
+/** For check:data: every registry city with its assigned combination. */
+export function cityHeroAssignments(): { slug: string; region: Region; keys: DeviceKey[] }[] {
+  return CITY_REGISTRY.map((c) => ({ slug: c.slug, region: c.region, keys: assignCity(c.slug, c.region) }));
+}
+
+// ---------------------------------------------------------------------------
+// Blog covers
+// ---------------------------------------------------------------------------
+
+/**
+ * Cover photo for each post, chosen for its topic. New posts without an entry
+ * get a deterministic pick from the loggers, so every post always has a cover.
+ */
+const blogCovers: Record<string, DeviceKey> = {
+  // The simplest, most typical single-point logger: the "what is a data logger" picture.
+  "what-is-a-temperature-data-logger": "setu",
+  // Many probes laid out across a space: what temperature mapping measures.
+  "temperature-mapping-vs-monitoring": "virat",
+  // The GSM logger: the model that most clearly differs from WiFi.
+  "wifi-vs-gsm-vs-lora-data-loggers": "vayu",
+  // An external probe on a storeroom shelf: the instrument a calibration certificate covers.
+  "why-nabl-calibration-matters": "vayu-pro",
+};
+
+export function getBlogCoverDevice(slug: string): HeroDevice {
+  const key = blogCovers[slug] ?? LOGGER_KEYS[fnv1a(slug) % LOGGER_KEYS.length];
+  return deviceCatalogue[key] as HeroDevice;
+}
+
+export function blogCoverKey(slug: string): DeviceKey | undefined {
+  return blogCovers[slug];
+}

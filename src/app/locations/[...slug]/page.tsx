@@ -15,6 +15,8 @@ import { locationContent } from "@/data/location-content";
 import { quoteHref } from "@/data/navigation";
 import { getProductBySlug, type ProductSeries } from "@/data/products";
 import CityPage from "@/components/locations/CityPage";
+import LiveDeviceVisual from "@/components/sections/LiveDeviceVisual";
+import { getCityHeroDevices } from "@/data/page-heroes";
 import ProductCard from "@/components/products/ProductCard";
 import CtaBand from "@/components/sections/CtaBand";
 import PageHero from "@/components/sections/PageHero";
@@ -123,6 +125,15 @@ export default async function LocationPage({ params }: PageProps<"/locations/[..
         eyebrow={node.type === "country" ? "Country" : node.type === "state" ? "State" : "City"}
         title={title}
         intro={node.intro}
+        visual={
+          node.type === "city" ? (
+            <LiveDeviceVisual
+              devices={getCityHeroDevices(node.slug, path[0] === "india" ? "india" : "gcc")}
+              badge={`${node.name} · ${trail[trail.length - 2]?.name ?? ""}`}
+              altPrefix={`${node.name} monitoring`}
+            />
+          ) : undefined
+        }
       >
         <div className="flex flex-col gap-3 sm:flex-row">
           <Button href={quoteHref} size="lg">

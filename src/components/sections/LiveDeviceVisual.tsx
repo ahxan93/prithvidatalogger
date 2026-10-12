@@ -177,10 +177,14 @@ export function DeviceImage({ device, offset = 0, frameRatio, sizes, alt, eager,
 type LiveDeviceVisualProps = {
   devices: HeroDevice[];
   className?: string;
+  /** Short place chip over the frame, e.g. "Mumbai · Maharashtra". */
+  badge?: string;
+  /** Put before each photo's description so alt text is specific to the page. */
+  altPrefix?: string;
 };
 
 // A lineup of 1-4 loggers in a glass frame. One image per page is eager.
-export default function LiveDeviceVisual({ devices, className }: LiveDeviceVisualProps) {
+export default function LiveDeviceVisual({ devices, className, badge, altPrefix }: LiveDeviceVisualProps) {
   const count = devices.length;
   const cols = count === 1 ? 1 : 2;
 
@@ -188,7 +192,12 @@ export default function LiveDeviceVisual({ devices, className }: LiveDeviceVisua
     <figure className={cn("relative mx-auto w-full max-w-xl lg:max-w-none", className)}>
       <LiveReadingTicker />
       <div aria-hidden="true" className="glow-brand pointer-events-none absolute -inset-10 -z-10 opacity-30" />
-      <div className="rounded-[2rem] bg-white/5 p-2 shadow-glow ring-1 ring-white/15">
+      <div className="relative rounded-[2rem] bg-white/5 p-2 shadow-glow ring-1 ring-white/15">
+        {badge && (
+          <p className="absolute top-5 left-5 z-10 rounded-full bg-navy-950/85 px-3 py-1 text-xs font-semibold text-white shadow-soft sm:top-6 sm:left-6 sm:text-sm">
+            {badge}
+          </p>
+        )}
         <div className="grid gap-2" style={{ gridTemplateColumns: `repeat(${cols}, minmax(0, 1fr))` }}>
           {devices.map((device, i) => {
             const wide = count === 3 && i === 2;
@@ -205,6 +214,7 @@ export default function LiveDeviceVisual({ devices, className }: LiveDeviceVisua
                 <DeviceImage
                   device={device}
                   offset={i * 7}
+                  alt={altPrefix ? `${altPrefix}: ${device.alt}` : undefined}
                   frameRatio={frameRatio}
                   sizes={count === 1 ? "(min-width: 1024px) 560px, 100vw" : "(min-width: 1024px) 280px, 50vw"}
                   eager={i === 0}

@@ -1,9 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { BlogPost } from "@/lib/blog";
-import ImageFallback from "@/components/ui/ImageFallback";
 import { CalendarIcon, ClockIcon } from "@/components/ui/icons";
-import { isPlaceholderImage, resolvePublicImage } from "@/lib/images";
+import { getBlogCoverDevice } from "@/data/page-heroes";
 
 function formatDate(iso: string) {
   return new Date(`${iso}T00:00:00Z`).toLocaleDateString("en-GB", {
@@ -23,23 +22,21 @@ type PostCardProps = {
 // Article card for /blog and the related-posts grid. Server component: the
 // cover image (or its placeholder fallback) is resolved at build time.
 export default async function PostCard({ post, as: Heading = "h3" }: PostCardProps) {
-  const cover = await resolvePublicImage(post.cover);
-  const showCover = cover && !(await isPlaceholderImage(cover));
+  const device = getBlogCoverDevice(post.slug);
 
   return (
     <article className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200/80 bg-white shadow-soft transition duration-300 hover:border-brand-200 hover:shadow-soft-lg focus-within:border-brand-300">
-      <div className="relative aspect-[16/9] overflow-hidden bg-slate-100">
-        {showCover ? (
+      {/* The post's cover photo, never cropped: object-contain with padding on a soft background. */}
+      <div className="relative aspect-[16/9] overflow-hidden bg-gradient-to-b from-surface to-white">
+        <div className="absolute inset-3 sm:inset-4">
           <Image
-            src={cover}
-            alt=""
+            src={device.src}
+            alt={`Cover image: ${device.alt}`}
             fill
             sizes="(min-width: 1024px) 380px, (min-width: 640px) 50vw, 100vw"
-            className="object-cover transition-transform duration-500 motion-safe:group-hover:scale-105"
+            className="object-contain transition-transform duration-500 motion-safe:group-hover:scale-105"
           />
-        ) : (
-          <ImageFallback tone="light" label={post.tags[0]} />
-        )}
+        </div>
       </div>
 
       <div className="flex flex-1 flex-col p-6">
