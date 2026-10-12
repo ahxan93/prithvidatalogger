@@ -1,4 +1,6 @@
 import type { ReactNode } from "react";
+import LiveDeviceVisual from "@/components/sections/LiveDeviceVisual";
+import { getPageHeroDevices } from "@/data/page-heroes";
 import { siteConfig } from "@/config/site";
 import EnquiryForm from "@/components/forms/EnquiryForm";
 import PageHero from "@/components/sections/PageHero";
@@ -42,6 +44,7 @@ export default function ContactPage() {
   return (
     <>
       <PageHero
+        visual={<LiveDeviceVisual devices={getPageHeroDevices("contact")} />}
         crumbs={[{ name: "Contact", href: "/contact" }]}
         eyebrow="Contact · Mumbai, India"
         title="Contact Prithvi Data Loggers"

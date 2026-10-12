@@ -4,7 +4,9 @@ import { locationHref, locations } from "@/data/locations";
 import { getServiceBySlug, services, type ServiceSlug } from "@/data/services";
 import { serviceContent } from "@/data/service-content";
 import EnquiryForm from "@/components/forms/EnquiryForm";
+import LiveDeviceVisual from "@/components/sections/LiveDeviceVisual";
 import PageHero from "@/components/sections/PageHero";
+import { getPageHeroDevices } from "@/data/page-heroes";
 import Button from "@/components/ui/Button";
 import Container from "@/components/ui/Container";
 import Faq from "@/components/ui/Faq";
@@ -43,6 +45,7 @@ export default function ServicePage({ slug }: { slug: ServiceSlug }) {
   return (
     <>
       <PageHero
+        visual={<LiveDeviceVisual devices={getPageHeroDevices(slug)} />}
         crumbs={[
           { name: "Services", href: "/services" },
           { name: service.shortName, href: service.href },

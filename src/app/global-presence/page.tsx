@@ -1,4 +1,6 @@
 import Link from "next/link";
+import LiveDeviceVisual from "@/components/sections/LiveDeviceVisual";
+import { getPageHeroDevices } from "@/data/page-heroes";
 import { supplySteps } from "@/data/company";
 import { GSM_NETWORK_NOTE, locations } from "@/data/locations";
 import CtaBand from "@/components/sections/CtaBand";
@@ -20,6 +22,7 @@ export default function GlobalPresencePage() {
   return (
     <>
       <PageHero
+        visual={<LiveDeviceVisual devices={getPageHeroDevices("global-presence")} />}
         crumbs={[{ name: "Global Presence", href: "/global-presence" }]}
         eyebrow="Global presence"
         title="Supplying Data Loggers Across India & the GCC"

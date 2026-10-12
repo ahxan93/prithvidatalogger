@@ -1,4 +1,6 @@
 import Link from "next/link";
+import LiveDeviceVisual from "@/components/sections/LiveDeviceVisual";
+import { getPageHeroDevices } from "@/data/page-heroes";
 import { siteConfig } from "@/config/site";
 import { formatFromPrice, getLoggerSeries, getProductBySlug, type ProductSeries } from "@/data/products";
 import { productContent } from "@/data/product-content";
@@ -37,6 +39,7 @@ export default function BrandsPage() {
   return (
     <>
       <PageHero
+        visual={<LiveDeviceVisual devices={getPageHeroDevices("brands")} />}
         crumbs={[{ name: "Brands", href: "/brands" }]}
         eyebrow="Our brands"
         title="Prithvi Product Families"

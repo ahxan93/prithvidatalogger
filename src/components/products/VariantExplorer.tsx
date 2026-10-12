@@ -3,7 +3,10 @@
 import Image from "next/image";
 import { useId, useRef, useState, type KeyboardEvent, type ReactNode } from "react";
 import GetSolutionButton from "@/components/products/GetSolutionButton";
+import { DeviceImage } from "@/components/sections/LiveDeviceVisual";
+import LiveReadingTicker from "@/components/sections/LiveReadingTicker";
 import ImageFallback from "@/components/ui/ImageFallback";
+import { deviceBySrc } from "@/data/page-heroes";
 import { cn } from "@/lib/cn";
 
 export type ExplorerVariant = {
@@ -65,25 +68,49 @@ export default function VariantExplorer({ seriesName, channels, variants, childr
           style={{ maxWidth: ratio < 1 ? "26rem" : undefined }}
         >
           <div className="relative mx-auto overflow-hidden rounded-[1.4rem] bg-gradient-to-b from-surface to-white" style={{ aspectRatio: ratio }}>
+            <LiveReadingTicker />
             {variants.map((variant, i) =>
               variant.image ? (
-                <Image
-                  key={variant.slug}
-                  src={variant.image.src}
-                  alt={variant.image.alt}
-                  fill
-                  sizes="(min-width: 1024px) 560px, 100vw"
-                  // Only the first variant's image is needed for the initial view.
-                  loading={i === 0 ? "eager" : "lazy"}
-                  fetchPriority={i === 0 ? "high" : "auto"}
-                  className={cn("object-contain", i !== active && "hidden")}
-                />
+                (() => {
+                  const device = deviceBySrc(variant.image.src);
+                  // Known logger photo: fitted without cropping, with its illustrative reading.
+                  return device ? (
+                    <DeviceImage
+                      key={variant.slug}
+                      device={device}
+                      frameRatio={ratio}
+                      alt={variant.image.alt}
+                      sizes="(min-width: 1024px) 560px, 100vw"
+                      // Only the first variant's image is needed for the initial view.
+                      eager={i === 0}
+                      hidden={i !== active}
+                    />
+                  ) : (
+                    <Image
+                      key={variant.slug}
+                      src={variant.image.src}
+                      alt={variant.image.alt}
+                      fill
+                      sizes="(min-width: 1024px) 560px, 100vw"
+                      loading={i === 0 ? "eager" : "lazy"}
+                      fetchPriority={i === 0 ? "high" : "auto"}
+                      className={cn("object-contain", i !== active && "hidden")}
+                    />
+                  );
+                })()
               ) : (
                 i === active && <ImageFallback key={variant.slug} tone="light" label={variant.name} channels={channels} />
               ),
             )}
           </div>
         </div>
+
+        {current.image && deviceBySrc(current.image.src)?.reading && (
+          <p aria-hidden="true" className="mt-3 flex items-center justify-center gap-2 text-xs text-slate-300">
+            <span className="size-1.5 rounded-full bg-live-green" />
+            Illustrative live reading
+          </p>
+        )}
 
         {distinctImages > 1 && (
           <ul className="mt-4 flex gap-3" aria-label={`${seriesName} images`}>

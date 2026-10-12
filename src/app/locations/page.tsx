@@ -1,4 +1,6 @@
 import Link from "next/link";
+import LiveDeviceVisual from "@/components/sections/LiveDeviceVisual";
+import { getPageHeroDevices } from "@/data/page-heroes";
 import { getAllLocations, locationHref, locations } from "@/data/locations";
 import CtaBand from "@/components/sections/CtaBand";
 import PageHero from "@/components/sections/PageHero";
@@ -26,6 +28,7 @@ export default function LocationsPage() {
   return (
     <>
       <PageHero
+        visual={<LiveDeviceVisual devices={getPageHeroDevices("locations")} />}
         crumbs={[{ name: "Locations", href: "/locations" }]}
         eyebrow="Locations"
         title="Temperature Data Loggers Where You Are"

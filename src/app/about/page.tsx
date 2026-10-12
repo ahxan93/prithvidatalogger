@@ -1,4 +1,6 @@
 import Image from "next/image";
+import LiveDeviceVisual from "@/components/sections/LiveDeviceVisual";
+import { getPageHeroDevices } from "@/data/page-heroes";
 import Link from "next/link";
 import { siteConfig } from "@/config/site";
 import {
@@ -96,6 +98,7 @@ export default async function AboutPage() {
                   </li>
                 ))}
               </ul>
+              <LiveDeviceVisual className="mt-10 max-w-md" devices={getPageHeroDevices("about")} />
             </div>
             <EnquiryForm variant="compact" title="Talk to our team" className="shadow-glow" />
           </div>

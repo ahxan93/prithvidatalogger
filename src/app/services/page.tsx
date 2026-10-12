@@ -1,4 +1,6 @@
 import Link from "next/link";
+import LiveDeviceVisual from "@/components/sections/LiveDeviceVisual";
+import { getPageHeroDevices } from "@/data/page-heroes";
 import { siteConfig } from "@/config/site";
 import { services } from "@/data/services";
 import CtaBand from "@/components/sections/CtaBand";
@@ -28,6 +30,7 @@ export default function ServicesPage() {
   return (
     <>
       <PageHero
+        visual={<LiveDeviceVisual devices={getPageHeroDevices("services")} />}
         crumbs={[{ name: "Services", href: "/services" }]}
         eyebrow="Services"
         title="Calibration, Mapping & Validation Services"

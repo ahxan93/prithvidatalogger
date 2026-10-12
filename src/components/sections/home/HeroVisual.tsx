@@ -168,6 +168,10 @@ export default function HeroVisual({ imageSrc, imageAlt, chips }: HeroVisualProp
 
       {/* Floating glass chips */}
       <div aria-hidden="true">
+        <p className="absolute -top-8 right-0 flex items-center gap-2 text-[11px] text-slate-300 sm:text-xs">
+          <span className="size-1.5 rounded-full bg-live-green" />
+          Illustrative live reading
+        </p>
         <div className={cn(chipBase, "-left-3 top-[9%] sm:-left-12 motion-safe:animate-float")}>
           <span className="flex size-7 items-center justify-center rounded-lg bg-violet-500/25 text-violet-200">
             <BellRingIcon className="size-4" />

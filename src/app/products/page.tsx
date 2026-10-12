@@ -1,4 +1,6 @@
 import Link from "next/link";
+import LiveDeviceVisual from "@/components/sections/LiveDeviceVisual";
+import { getPageHeroDevices } from "@/data/page-heroes";
 import { siteConfig } from "@/config/site";
 import {
   connectivityOptions,
@@ -44,6 +46,7 @@ export default function ProductsPage() {
   return (
     <>
       <PageHero
+        visual={<LiveDeviceVisual devices={getPageHeroDevices("products")} />}
         crumbs={[{ name: "Products", href: "/products" }]}
         eyebrow="Products"
         title="Temperature & Humidity Data Loggers"

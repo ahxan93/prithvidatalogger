@@ -1,4 +1,6 @@
 import Image from "next/image";
+import LiveDeviceVisual from "@/components/sections/LiveDeviceVisual";
+import { getPageHeroDevices } from "@/data/page-heroes";
 import Link from "next/link";
 import { industries } from "@/data/industries";
 import { services } from "@/data/services";
@@ -26,6 +28,7 @@ export default async function IndustriesPage() {
   return (
     <>
       <PageHero
+        visual={<LiveDeviceVisual devices={getPageHeroDevices("industries")} />}
         crumbs={[{ name: "Industries", href: "/industries" }]}
         eyebrow="Industries"
         title="Temperature Monitoring for the Industries We Serve"

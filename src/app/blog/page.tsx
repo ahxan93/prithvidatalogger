@@ -1,4 +1,6 @@
 import { getPublishedPosts } from "@/lib/blog";
+import LiveDeviceVisual from "@/components/sections/LiveDeviceVisual";
+import { getPageHeroDevices } from "@/data/page-heroes";
 import PostCard from "@/components/blog/PostCard";
 import CtaBand from "@/components/sections/CtaBand";
 import PageHero from "@/components/sections/PageHero";
@@ -19,6 +21,7 @@ export default async function BlogPage() {
   return (
     <>
       <PageHero
+        visual={<LiveDeviceVisual devices={getPageHeroDevices("blog")} />}
         crumbs={[{ name: "Blog", href: "/blog" }]}
         eyebrow="Blog"
         title="Guides on Data Loggers & Cold Chain Monitoring"

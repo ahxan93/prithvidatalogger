@@ -20,15 +20,20 @@ type PageHeroProps = {
    */
   image?: string;
   imageAlt?: string;
+  /**
+   * A device visual (see LiveDeviceVisual) shown beside the text. Placed below
+   * the text on phones so the H1 stays first.
+   */
+  visual?: ReactNode;
 };
 
 // Dark hero for inner pages: breadcrumbs, H1, intro.
-export default function PageHero({ crumbs, title, eyebrow, intro, children, image, imageAlt }: PageHeroProps) {
+export default function PageHero({ crumbs, title, eyebrow, intro, children, image, imageAlt, visual }: PageHeroProps) {
   return (
     <Section tone="dark" hero className="overflow-hidden pb-14 sm:pb-16 lg:pb-20">
       <div aria-hidden="true" className="glow-brand pointer-events-none absolute -top-72 -right-56 size-[52rem] opacity-45" />
       <div aria-hidden="true" className="glow-violet pointer-events-none absolute -bottom-80 -left-64 size-[40rem] opacity-20" />
-      <div className={cn("relative", image && "grid items-center gap-10 lg:grid-cols-2 lg:gap-14")}>
+      <div className={cn("relative", Boolean(image || visual) && "grid items-center gap-10 lg:grid-cols-2 lg:gap-14")}>
         <div>
           <Breadcrumbs items={crumbs} className="mb-5" />
           {eyebrow && (
@@ -42,6 +47,7 @@ export default function PageHero({ crumbs, title, eyebrow, intro, children, imag
           )}
           {children && <div className="mt-8">{children}</div>}
         </div>
+        {visual && <div>{visual}</div>}
         {image && (
           <div className="relative order-first aspect-[3/2] overflow-hidden rounded-2xl shadow-soft-lg lg:order-none">
             <Image src={image} alt={imageAlt ?? ""} fill priority sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover" />
