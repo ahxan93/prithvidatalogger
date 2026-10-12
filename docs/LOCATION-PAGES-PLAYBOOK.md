@@ -97,6 +97,9 @@
 | Bhiwandi (`bhiwandi`) | Maharashtra | Major warehousing and 3PL clusters | 3PL warehousing, FMCG, pharma distribution | Large sheds with hot pre-monsoon months and humid monsoon | Mumbai, Navi Mumbai, Panvel |
 | Pune (`pune`) | Maharashtra | Chakan, Ranjangaon, Pimpri-Chinchwad, Talegaon, Kurkumbh | Pharma, electronics & auto, food processing, data centres | Hot summers, monsoon humidity | Mumbai, Panvel, Goa |
 | Ahmedabad (`ahmedabad`) | Gujarat | Changodar, Sanand, Naroda, Vatva, Bavla | Pharma manufacturing, food & dairy, chemicals | Very hot, dry summers | Mumbai, Indore, Jaipur |
+| Vapi (`vapi`) | Gujarat | Vapi GIDC and its highway godown belt | Chemical, dye and pharmaceutical intermediates, paper and plastics | South Gujarat's heavy monsoon and humid coastal air | Vasai-Palghar, Surat, Ankleshwar |
+| Ankleshwar (`ankleshwar`) | Gujarat | Ankleshwar GIDC, Panoli, Jhagadia, Dahej | Chemical and bulk-drug plants, laboratories, port-linked warehousing | Hot, humid summers and a heavy monsoon on the Narmada plain | Surat, Vapi, Ahmedabad |
+| Surat (`surat`) | Gujarat | Pandesara, Sachin, Hazira, the textile markets | Textile weaving and processing, dyeing chemicals, godowns, pharma stockists | Long heavy monsoon and damp river-city air | Vapi, Ankleshwar, Mumbai |
 | Delhi (`delhi`) | Delhi | Okhla, Naraina, Bawana, Narela | Hospitals, pharma distribution, food & cold storage, labs | Extreme summer heat, cold winters | Noida, Manesar, Chandigarh |
 | Noida (`noida`) | Uttar Pradesh | Noida Phase I–II, Greater Noida | Electronics manufacturing, data centres, warehousing | Extreme summer heat, cold winters | Delhi, Manesar, Lucknow |
 | Lucknow (`lucknow`) | Uttar Pradesh | Chinhat, Amausi, Nadarganj | Hospitals, pharma distribution, food & cold storage | Hot summers, humid monsoon | Noida, Delhi, Kolkata |
@@ -119,7 +122,7 @@
 
 **GCC notes:** supply is from India. Don't name local estates beyond those listed. Never recommend Vayu. Keep the existing GSM compatibility note. Bahrain stays as a country page (no city page).
 
-**Planned, awaiting owner confirmation (do NOT build yet):** Vadodara, Gurugram, Thane, Vapi, Ankleshwar, Nashik, Nagpur, Visakhapatnam, Haridwar, Surat.
+**Planned, awaiting owner confirmation (do NOT build yet):** Vadodara, Gurugram, Thane, Nashik, Nagpur, Visakhapatnam, Haridwar. (Vapi, Ankleshwar and Surat were confirmed by the owner and moved into the table above.)
 
 ---
 

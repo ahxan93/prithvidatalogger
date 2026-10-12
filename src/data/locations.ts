@@ -751,13 +751,13 @@ export const locations: LegacyLocationNode[] = [
           "Chemical and dye industry",
           "Food processing and dairy",
         ],
-        citiesServed: ["Ahmedabad"],
+        citiesServed: ["Ahmedabad", "Vapi", "Ankleshwar", "Surat"],
         supportNote:
           "Supply, installation support and site visits for Gujarat estates are arranged from our Mumbai office. Write to us with the estate and what you store.",
         faqs: [
           {
             question: "Which Gujarat city do you cover first?",
-            answer: "Ahmedabad and its surrounding estates have their own city page under this state.",
+            answer: "Ahmedabad, Vapi, Ankleshwar and Surat each have their own city page under this state.",
           },
           {
             question: "How is a visit arranged for a Gujarat plant?",
@@ -866,6 +866,297 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Ahmedabad | Prithvi",
             metaDescription:
               "WiFi and GSM temperature data loggers for Ahmedabad's Naroda, Vatva, Changodar and Sanand estates, with site visits arranged. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "vapi",
+            name: "Vapi",
+            type: "city",
+            intro:
+              "Vapi is the first large industrial town on the Gujarat side of the Maharashtra border, set between the railway, the national highway and the coast. Its estate is dense and old by industrial standards, with chemical, dye, pharmaceutical, paper and plastics units packed onto narrow plots that run street after street. A temperature data logger here serves stores that are small, crowded and close to process areas that run hot. Heat from reactors and boilers leaks into the stores beside them, and the sea air and heavy rains of South Gujarat add damp on top. A reading that is only checked when someone walks past misses the hours that matter, so alerts to a phone and a continuous record become the practical way to watch a room that nobody can stand next to.",
+            climateAngle:
+              "South Gujarat gets a heavier monsoon than the north of the state, and the coast keeps the air humid for most months, so damp packaging and sweating containers are as common a problem here as heat.",
+            areas: [
+              {
+                name: "Vapi GIDC",
+                note: "The main estate, laid out in numbered phases with chemical, dye and pharmaceutical intermediate units sharing narrow streets and common services.",
+              },
+              {
+                name: "Paper and packaging units",
+                note: "Mills and converters on the estate keep reels, boards and finished packs in large stores where humidity changes how the material behaves.",
+              },
+              {
+                name: "Plastics and polymer processors",
+                note: "Processors hold resins and compounds in sheds that warm up quickly, and many keep a separate small room for additives with their own limits.",
+              },
+              {
+                name: "Transport and godown belt on the highway",
+                note: "Godowns and transport firms along the highway take drums and bags in and out through the day for the units behind them.",
+              },
+            ],
+            industries: [
+              {
+                slug: "chemical",
+                sentence:
+                  "Chemical and dye units store intermediates and finished product in rooms that sit beside process areas, so a logger placed away from the heat shows what the store itself is doing.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmaceutical intermediate makers keep controlled stores whose records are reviewed by the customers who buy from them, and an exported log answers that review quickly.",
+              },
+              {
+                slug: "textile",
+                sentence:
+                  "Fabric processors and dyers in the wider belt work with materials that gain and lose moisture, so humidity is watched next to temperature in the grey and finished stores.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Highway godowns hold drums and bags for several plants, and a dated reading for each bay settles most arguments about how a lot was kept.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity as well as temperature, which suits packaging, paper and intermediate stores that face salty, damp air for most of the year.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels cover a long, crowded store from end to end and the door from one device, which saves running a logger per aisle.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an optional external probe fits the small additive room or the quality-control fridge that every unit has.",
+              },
+            ],
+            faqs: [
+              {
+                question: "What should we expect when visiting a unit on the Vapi estate?",
+                answer:
+                  "Process plants usually ask for a safety briefing and the right footwear, and some need a permit for the gate. Tell us the unit, the store and the person who controls entry when you write, and we plan the day around those rules.",
+              },
+              {
+                question: "How do you place a logger in a store next to a hot process area?",
+                answer:
+                  "We keep the logger on the cooler side of the wall and run an external probe into the store, so the device is not sitting in the heat it is trying to measure. Probe length is agreed during the visit.",
+              },
+              {
+                question: "Can several plants on the estate be watched from one view?",
+                answer:
+                  "Yes. Each plant is a site on the dashboard and each shift lead gets alerts for their own rooms, while a group quality head can see every site and compare their records side by side.",
+              },
+              {
+                question: "Who handles calibration of the loggers in a Vapi plant?",
+                answer:
+                  "VEGA Calibrations, our parent company, calibrates instruments and loggers and can also map a large store before probes are placed. Send the instrument list and ranges and we confirm how it is arranged.",
+              },
+            ],
+            nearby: [
+              { slug: "vasai-palghar", name: "Vasai-Palghar" },
+              { slug: "surat", name: "Surat" },
+              { slug: "ankleshwar", name: "Ankleshwar" },
+            ],
+            metaTitle: "Temperature Data Loggers in Vapi | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Vapi's GIDC chemical, pharma and paper units and highway godowns, with site visits. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "ankleshwar",
+            name: "Ankleshwar",
+            type: "city",
+            intro:
+              "Ankleshwar sits on the Narmada plain near Bharuch, and around it the map fills with industrial estates built for chemicals: its own large estate, the neighbouring Panoli and Jhagadia estates and the coastal belt toward Dahej. A temperature data logger in this district watches rooms that are bigger and more varied than in most towns: solvent and intermediate stores, bulk-drug warehouses, packing halls and tank rooms spread across wide plots with long walks between buildings. Many plants run through the night and a reading that drifts at three in the morning is only noticed if something tells someone. Alerts, an escalation chain and a dated log of every acknowledgement turn that overnight gap into a record that a customer's auditor can follow.",
+            climateAngle:
+              "Hot, humid summers followed by a heavy monsoon load the stores with both heat and damp, and the Narmada plain is flat and open, so afternoon sun on metal roofs raises shed temperatures sharply.",
+            areas: [
+              {
+                name: "Ankleshwar GIDC",
+                note: "The town's own estate, with chemical, pharmaceutical intermediate and dye plants on a grid of plots that has grown outward over many years.",
+              },
+              {
+                name: "Panoli",
+                note: "A neighbouring estate with chemical and pharmaceutical manufacturers on larger plots, reached by a short drive along the highway, where each plant usually runs its own quality laboratory and its own set of controlled stores.",
+              },
+              {
+                name: "Jhagadia",
+                note: "An estate further inland where newer chemical and specialty plants have more room, and distances between buildings are correspondingly long, which suits wireless loggers that need no cable between a store and the control room.",
+              },
+              {
+                name: "Dahej",
+                note: "The coastal industrial region beside the port, with large chemical and petrochemical-linked plants and warehouses that serve the sea-borne trade.",
+              },
+            ],
+            industries: [
+              {
+                slug: "chemical",
+                sentence:
+                  "Bulk chemical and specialty plants keep raw materials, intermediates and finished product in stores with stated limits, where a continuous log is the proof that the limit held overnight.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Bulk-drug and formulation units hold ingredients and packed goods in controlled rooms that are reviewed during customer and regulatory audits.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "Quality control and research laboratories in the plants keep retained samples and reference standards in fridges and incubators that each report on their own.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Port-linked warehouses at Dahej and on the highway hold cargo bound for sea shipment, and a record of each bay answers questions raised after the goods leave.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels watch a solvent or intermediate store from floor to rack and door, with one probe reserved for the hottest corner under the roof.",
+              },
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels cover a long bulk warehouse on a wide plot, so one device reports on bays that are a long walk apart.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger with an external probe goes with loads and open yards at the far end of a large estate where no Wi-Fi reaches.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Do you visit plants across Ankleshwar, Panoli and Dahej in one trip?",
+                answer:
+                  "We plan them as a sequence, since the estates lie along the same highway. Send the plants, the stores and the contact at each, and we propose an order that suits their entry rules and shift timings.",
+              },
+              {
+                question: "How does a logger report from the far end of a large plot?",
+                answer:
+                  "A GSM version reports over the mobile network and needs no local Wi-Fi, while a Wi-Fi version can use an access point placed in the building. We decide which fits when we see the layout.",
+              },
+              {
+                question: "Can records be handed to a customer who audits the plant?",
+                answer:
+                  "Reports can be exported as PDF, Excel or CSV for any room and any period, and calibration records can be stored against each device on the dashboard, ready to share.",
+              },
+              {
+                question: "Can mapping and calibration be arranged for a chemical store?",
+                answer:
+                  "Temperature mapping, calibration and validation support come from VEGA Calibrations, our parent company, and can be planned alongside the loggers so one visit sorts out placement and certificates together.",
+              },
+            ],
+            nearby: [
+              { slug: "surat", name: "Surat" },
+              { slug: "vapi", name: "Vapi" },
+              { slug: "ahmedabad", name: "Ahmedabad" },
+            ],
+            metaTitle: "Temperature Data Loggers in Ankleshwar | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Ankleshwar, Panoli, Jhagadia and Dahej chemical and pharma plants, with site visits. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "surat",
+            name: "Surat",
+            type: "city",
+            intro:
+              "Surat is a city of fabric and stone: powerloom and processing units, embroidery and trading houses on one side, diamond cutting and polishing workshops on the other, with a heavy-industry belt along the coast at Hazira. A temperature data logger in Surat serves a city whose storage is mostly of the dry kind, such as yarn, grey cloth, finished garments and chemicals for dyeing, where humidity, not cold, is the usual threat. The monsoon is long, the Tapi runs through the middle of the city and the air stays damp for months. Heavy rain also brings power cuts, so records that continue on battery, and alerts that reach a phone when a store changes, matter as much here as in a cold chain.",
+            climateAngle:
+              "A long, heavy monsoon and a river city's damp air keep humidity high for months, which is hard on yarn, fabric and cartons, and power cuts in bad weather make battery-backed logging more than a convenience.",
+            areas: [
+              {
+                name: "Pandesara",
+                note: "A processing estate for dyeing and finishing, where fabric arrives grey and leaves coloured and each stage has its own store of chemicals and cloth.",
+              },
+              {
+                name: "Sachin",
+                note: "An estate to the south of the city with textile, chemical and engineering units on larger plots, linked to the highway and the railway.",
+              },
+              {
+                name: "Hazira",
+                note: "A coastal heavy-industry belt with steel, energy and gas-linked plants and the port-side warehouses that serve them.",
+              },
+              {
+                name: "Textile markets and trading houses",
+                note: "Dense market complexes in the old city hold fabric and garments in godowns above shops, many of them in buildings never designed for storage.",
+              },
+            ],
+            industries: [
+              {
+                slug: "textile",
+                sentence:
+                  "Weaving, processing and trading units store yarn, grey cloth and finished goods that gain moisture in damp air, and a humidity record shows which weeks a store was out of its comfortable range.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Dyeing and finishing houses keep dyes, auxiliaries and process chemicals in stores that carry printed limits, and a high-temperature alert protects stock in the pre-monsoon heat.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Transport and godown operators serving the markets handle bales and cartons that wait in sheds for a truck, and a reading at the shed door shows how damp the air was while they waited.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmaceutical stockists and hospitals in the city keep medicine stores and vaccine fridges that need a logged temperature and a person told when the power fails.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity along with temperature, which is the more important number for a fabric, yarn or carton store during the monsoon.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels cover the stages of a processing house, such as the dye store, the grey store and the finished goods bay, from one device.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels spread through a market-side godown or a port-side warehouse so damp corners and hot top shelves both show up.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How are visits arranged across Pandesara, Sachin and Hazira?",
+                answer:
+                  "Send the estates, the buildings and the rooms through the enquiry form, WhatsApp or a call, and we group the visits by direction. Market-side godowns are easiest to look at when the shops are quiet, and we plan around that with you.",
+              },
+              {
+                question: "Which logger copes with a damp textile store?",
+                answer:
+                  "A model that reads relative humidity, such as Nakshatra or the Pro versions of the multi-channel loggers, shows the dampness that a temperature-only logger would miss. Keep probes off outside walls where condensation forms.",
+              },
+              {
+                question: "Will the logger keep recording when the power goes during a storm?",
+                answer:
+                  "Loggers run on a rechargeable battery and keep storing readings during a cut, and GSM versions can still report when a building's Wi-Fi is down. Charging docks keep spare batteries ready.",
+              },
+              {
+                question: "Can a trading house with godowns in several buildings use one account?",
+                answer:
+                  "Yes. Each godown becomes a room under one site or several, with its own alert recipient, so the owner can see every building while each manager sees only theirs.",
+              },
+            ],
+            nearby: [
+              { slug: "vapi", name: "Vapi" },
+              { slug: "ankleshwar", name: "Ankleshwar" },
+              { slug: "mumbai", name: "Mumbai" },
+            ],
+            metaTitle: "Temperature Data Loggers in Surat | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Surat's textile, dyeing and Hazira units, with site visits arranged. Get Solution.",
             indexable: true,
           },
         ],
