@@ -38,19 +38,22 @@ export default async function ProductMarquee() {
           return (
             <li key={series.slug} className="w-72 shrink-0 snap-start sm:w-80">
               <div className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200/80 bg-white shadow-soft transition duration-300 hover:border-brand-200 hover:shadow-soft-lg">
-                <div className="relative aspect-[4/3] overflow-hidden bg-slate-100">
+                <div className="relative aspect-[4/3] overflow-hidden bg-gradient-to-b from-surface to-white">
                   {!realImage ? (
                     <ImageFallback tone="light" label={series.name} channels={series.channels} />
                   ) : (
                     // Server-rendered <img> from getImageProps (next/image): same optimised,
                     // lazy-loaded markup, but nothing to hydrate (the row is rendered twice).
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img
-                      {...getImageProps({ src: realImage.src, alt: series.headline, fill: true, sizes: "320px", loading: "lazy" }).props}
-                      alt={series.headline}
-                      decoding="async"
-                      className="object-cover transition-transform duration-500 motion-safe:group-hover:scale-105"
-                    />
+                    // object-contain inside a padded box: the whole device is always visible.
+                    <div className="absolute inset-3 sm:inset-4">
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        {...getImageProps({ src: realImage.src, alt: series.headline, fill: true, sizes: "320px", loading: "lazy" }).props}
+                        alt={series.headline}
+                        decoding="async"
+                        className="object-contain transition-transform duration-500 motion-safe:group-hover:scale-105"
+                      />
+                    </div>
                   )}
                   {series.channels && series.channels > 1 && (
                     <span className="absolute top-3 left-3 rounded-full bg-navy-950/85 px-2.5 py-1 text-xs font-semibold text-white">

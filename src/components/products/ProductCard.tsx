@@ -32,15 +32,19 @@ export default async function ProductCard({ series, as: Heading = "h3", note, cl
         className,
       )}
     >
-      <div className="relative aspect-[4/3] overflow-hidden bg-slate-100">
+      {/* Same frame for every card; object-contain keeps the whole device visible
+          whatever its aspect ratio (portrait Nakshatra to landscape Rajmudra). */}
+      <div className="relative aspect-[4/3] overflow-hidden bg-gradient-to-b from-surface to-white">
         {showImage ? (
-          <Image
-            src={image.src}
-            alt={series.headline}
-            fill
-            sizes="(min-width: 1024px) 380px, (min-width: 640px) 50vw, 100vw"
-            className="object-cover transition-transform duration-500 motion-safe:group-hover:scale-105"
-          />
+          <div className="absolute inset-3 sm:inset-4">
+            <Image
+              src={image.src}
+              alt={series.headline}
+              fill
+              sizes="(min-width: 1024px) 380px, (min-width: 640px) 50vw, 100vw"
+              className="object-contain transition-transform duration-500 motion-safe:group-hover:scale-105"
+            />
+          </div>
         ) : (
           <ImageFallback tone="light" label={series.name} channels={series.channels} />
         )}

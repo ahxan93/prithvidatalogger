@@ -64,7 +64,7 @@ export default function VariantExplorer({ seriesName, channels, variants, childr
           // Portrait photos get a narrower frame so the hero doesn't grow too tall.
           style={{ maxWidth: ratio < 1 ? "26rem" : undefined }}
         >
-          <div className="relative mx-auto overflow-hidden rounded-[1.4rem] bg-slate-100" style={{ aspectRatio: ratio }}>
+          <div className="relative mx-auto overflow-hidden rounded-[1.4rem] bg-gradient-to-b from-surface to-white" style={{ aspectRatio: ratio }}>
             {variants.map((variant, i) =>
               variant.image ? (
                 <Image
@@ -76,7 +76,7 @@ export default function VariantExplorer({ seriesName, channels, variants, childr
                   // Only the first variant's image is needed for the initial view.
                   loading={i === 0 ? "eager" : "lazy"}
                   fetchPriority={i === 0 ? "high" : "auto"}
-                  className={cn("object-cover", i !== active && "hidden")}
+                  className={cn("object-contain", i !== active && "hidden")}
                 />
               ) : (
                 i === active && <ImageFallback key={variant.slug} tone="light" label={variant.name} channels={channels} />
@@ -100,7 +100,7 @@ export default function VariantExplorer({ seriesName, channels, variants, childr
                   )}
                 >
                   {variant.image ? (
-                    <Image src={variant.image.src} alt="" fill sizes="80px" className="object-cover" />
+                    <Image src={variant.image.src} alt="" fill sizes="80px" className="object-contain p-1" />
                   ) : (
                     <ImageFallback tone="light" />
                   )}
