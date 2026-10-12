@@ -28,11 +28,6 @@ export const locationContent: Record<string, LocationContent> = {
       "Temperature data loggers in Maharashtra, supplied from our Mumbai office to Pune, Thane, Nashik, Nagpur and beyond. Calibration by VEGA Calibrations.",
     recommended: ["nakshatra", "dhruva", "virat"],
   },
-  "india/maharashtra/vasai-palghar": {
-    metaDescription:
-      "Temperature data loggers for Vasai, Tarapur and Boisar north of Mumbai, supplied from Mumbai with site visits arranged. Get Solution.",
-    recommended: ["setu", "nakshatra", "veer"],
-  },
   "saudi-arabia": {
     metaDescription:
       "Temperature data logger supply to Saudi Arabia: WiFi loggers for warehouses, cold rooms and pharmacies in Riyadh, Jeddah and Dammam. Get a solution.",
