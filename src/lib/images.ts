@@ -44,9 +44,37 @@ export function isPlaceholderImage(src: string): boolean {
   }
 }
 
+/** VP8/VP8L/VP8X sub-formats inside a RIFF/WEBP container (no AVIF support — not used on this site today). */
+function webpSize(bytes: Buffer): { width: number; height: number } | undefined {
+  const fourCc = bytes.toString("ascii", 12, 16);
+  if (fourCc === "VP8X") {
+    // 1 byte flags + 3 reserved, then 24-bit (width-1) and 24-bit (height-1), both little-endian.
+    const width = (bytes[24] | (bytes[25] << 8) | (bytes[26] << 16)) + 1;
+    const height = (bytes[27] | (bytes[28] << 8) | (bytes[29] << 16)) + 1;
+    return { width, height };
+  }
+  if (fourCc === "VP8 ") {
+    // Lossy: 3-byte frame tag, then a 3-byte sync code (0x9d 0x01 0x2a), then
+    // 14-bit width/height (lower 14 bits of each little-endian uint16).
+    const width = bytes.readUInt16LE(26) & 0x3fff;
+    const height = bytes.readUInt16LE(28) & 0x3fff;
+    return { width, height };
+  }
+  if (fourCc === "VP8L") {
+    // Lossless: signature byte 0x2f, then a packed 32-bit little-endian value:
+    // 14 bits (width-1), 14 bits (height-1).
+    const bits = bytes.readUInt32LE(21);
+    const width = (bits & 0x3fff) + 1;
+    const height = ((bits >> 14) & 0x3fff) + 1;
+    return { width, height };
+  }
+  return undefined;
+}
+
 /**
- * Pixel size of a PNG or JPEG under public/, read from the file header at build
- * time. Undefined for other formats or unreadable files.
+ * Pixel size of a PNG, JPEG or WebP under public/, read from the file header
+ * at build time. Undefined for other formats (e.g. AVIF, not used on this
+ * site today) or unreadable files.
  */
 export function getImageSize(src: string): { width: number; height: number } | undefined {
   try {
@@ -67,24 +95,53 @@ export function getImageSize(src: string): { width: number; height: number } | u
         offset += 2 + length;
       }
     }
+    // WebP: "RIFF" .... "WEBP".
+    if (bytes.toString("ascii", 0, 4) === "RIFF" && bytes.toString("ascii", 8, 12) === "WEBP") {
+      return webpSize(bytes);
+    }
   } catch {
     // fall through
   }
   return undefined;
 }
 
-/** Whether a root-relative path under public/ (e.g. siteConfig.logo) exists. */
+/**
+ * Case-safe existence check for a root-relative path under public/. Windows'
+ * filesystem is case-insensitive, so `fs.existsSync` alone would happily find
+ * "founder.PNG" when the code asks for "founder.png" — then 404 for real once
+ * deployed to Linux (Vercel), which is case-sensitive. This lists the actual
+ * directory and compares names case-insensitively instead, so a mismatch
+ * behaves identically (and is caught) on every platform.
+ */
 export function publicImageExists(src: string): boolean {
-  return fs.existsSync(path.join(process.cwd(), "public", src));
+  return findActualCase(src) !== undefined;
+}
+
+function findActualCase(src: string): string | undefined {
+  const abs = path.join(process.cwd(), "public", src);
+  const dir = path.dirname(abs);
+  const base = path.basename(abs);
+  let entries: string[];
+  try {
+    entries = fs.readdirSync(dir);
+  } catch {
+    return undefined;
+  }
+  return entries.find((e) => e.toLowerCase() === base.toLowerCase());
 }
 
 /**
- * Resolves an extension-less public path (e.g. "/images/founder/founder") to the
- * first existing file in any supported format, e.g. "/images/founder/founder.png".
+ * Resolves an extension-less public path (e.g. "/images/products/setu") to the
+ * first existing file in any supported format, e.g. "/images/products/setu.png".
+ * Matches extension case-insensitively but returns the path using the exact
+ * on-disk casing, so the URL Next.js serves always matches a real file.
  */
 export function resolvePublicImage(basePath: string): string | undefined {
-  const ext = EXTENSIONS.find((e) => publicImageExists(`${basePath}${e}`));
-  return ext ? `${basePath}${ext}` : undefined;
+  for (const ext of EXTENSIONS) {
+    const actual = findActualCase(`${basePath}${ext}`);
+    if (actual) return `${path.dirname(basePath)}/${actual}`.replace(/\\/g, "/");
+  }
+  return undefined;
 }
 
 function findImage(slug: string, files: Set<string>): string | undefined {

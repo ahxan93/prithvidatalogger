@@ -1,0 +1,18 @@
+# Images and other binary assets must never go through CRLF normalization,
+# regardless of a contributor's core.autocrlf setting. Without this, a binary
+# file can be silently corrupted on checkout depending on git's line-ending
+# heuristics (this repo runs with core.autocrlf=true locally).
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.avif binary
+*.ico binary
+*.gif binary
+*.svg binary
+*.pdf binary
+*.woff binary
+*.woff2 binary
+
+# Source and config files stay LF regardless of checkout platform.
+* text=auto eol=lf
