@@ -211,3 +211,41 @@ export function locationServiceSchema(location: {
     areaServed: { "@type": AREA_TYPE[location.type], name: location.name },
   };
 }
+
+/**
+ * Service JSON-LD for a playbook city page: what we supply, who provides it and
+ * the city (plus its state and country) as areaServed. The provider is the
+ * LocalBusiness only for Mumbai, where the one real office is; every other city
+ * names the Organization. No ratings, reviews or per-city addresses.
+ */
+export function cityServiceSchema(city: {
+  name: string;
+  path: string;
+  state: string;
+  country: string;
+  hasOffice: boolean;
+}) {
+  const provider = city.hasOffice
+    ? {
+        "@type": "LocalBusiness",
+        "@id": LOCAL_BUSINESS_ID,
+        name: siteConfig.name,
+        url: siteConfig.url,
+        telephone: siteConfig.phone.tel,
+        address: postalAddress(),
+      }
+    : { "@type": "Organization", "@id": ORGANIZATION_ID, name: siteConfig.name, url: siteConfig.url };
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    serviceType: "Temperature & humidity data logger supply, installation and calibration support",
+    url: absoluteUrl(city.path),
+    provider,
+    areaServed: [
+      { "@type": "City", name: city.name },
+      { "@type": "State", name: city.state },
+      { "@type": "Country", name: city.country },
+    ],
+  };
+}

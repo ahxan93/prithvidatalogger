@@ -8,10 +8,22 @@ export type LocationType = "country" | "state" | "city";
 
 export type LocationFaq = { question: string; answer: string };
 
-export type LocationNode = {
+/** Fields every node shares. */
+type NodeBase = {
   slug: string;
   name: string;
   type: LocationType;
+  /** Only true once the node passes every rule in docs/LOCATION-PAGES-PLAYBOOK.md. */
+  indexable: boolean;
+  /** Brief §5 keyword map; undefined where the brief sets none. */
+  seo?: { primaryKeyword: string; supporting: string[] };
+};
+
+/**
+ * Country and state hubs, plus any city not yet upgraded to the playbook
+ * template (those are indexable: false until their own prompt runs).
+ */
+export type LegacyLocationNode = NodeBase & {
   /** Unique intro paragraph. */
   intro: string;
   /** Industries we serve there. */
@@ -21,14 +33,44 @@ export type LocationNode = {
   /** How supply and support work for this place. */
   supportNote: string;
   faqs: LocationFaq[];
-  /** Only true once the node has genuinely unique content. */
-  indexable: boolean;
-  /** Brief §5 keyword map; undefined where the brief sets none. */
-  seo?: { primaryKeyword: string; supporting: string[] };
   children?: LocationNode[];
 };
 
-export const locations: LocationNode[] = [
+/**
+ * A city page built to docs/LOCATION-PAGES-PLAYBOOK.md section 3 (12 sections).
+ * Every field is unique to the city; nothing here may be copied to another city.
+ */
+export type CityLocationNode = NodeBase & {
+  type: "city";
+  /** 120-180 words: the city's industrial character and why monitoring matters there. */
+  intro: string;
+  /** One or two sentences on the local climate and what it means for monitoring. */
+  climateAngle: string;
+  /** Industrial areas we serve, each with an area-specific one-line note. */
+  areas: { name: string; note: string }[];
+  /** 3-5 industries: slug of an industry page plus a city-specific sentence. */
+  industries: { slug: string; sentence: string }[];
+  /** Exactly 3 series (never Vayu outside India) with a reason tied to the city. */
+  recommendedSeries: { slug: string; reason: string }[];
+  /** 4 city-specific questions, shown on the page and in FAQPage JSON-LD. */
+  faqs: LocationFaq[];
+  /** 2-3 nearby cities; linked once their own page exists. */
+  nearby: { slug: string; name: string }[];
+  /** At most 60 characters, includes the brand suffix. */
+  metaTitle: string;
+  /** At most 155 characters, unique. */
+  metaDescription: string;
+  children?: undefined;
+};
+
+export type LocationNode = LegacyLocationNode | CityLocationNode;
+
+/** True for nodes built to the playbook's city template. */
+export function isCityPage(node: LocationNode): node is CityLocationNode {
+  return "climateAngle" in node;
+}
+
+export const locations: LegacyLocationNode[] = [
   {
     slug: "india",
     name: "India",
@@ -107,29 +149,95 @@ export const locations: LocationNode[] = [
             name: "Mumbai",
             type: "city",
             intro:
-              "Mumbai is where our head office is, and where many of the pharma distributors, hospitals, cold stores and logistics firms we work with are based. Customers in the city can speak to our team directly, plan calibration or temperature mapping with VEGA Calibrations, our parent laboratory, and get help setting up live monitoring across one site or several.",
-            localIndustries: [
-              "Pharma distributors and stockists",
-              "Hospitals, blood banks and diagnostic labs",
-              "Cold storage and food businesses",
-              "Restaurants and cloud kitchens",
-              "Port-linked logistics and warehousing",
+              "Mumbai is where Prithvi Data Loggers is based, and it is a city of dense, mixed-use storage: pharma head offices and distributors, hospitals and blood banks, cold stores and food businesses, and the server rooms that keep them running. A temperature data logger in Mumbai has to cope with weather as much as with equipment. The coast keeps humidity high for much of the year and the monsoon pushes it higher still, which strains refrigeration, air conditioning and sealed storage rooms. Manual checks with a clipboard miss what happens between rounds, and a drift found the next morning can already mean spoiled stock or a gap in the record that an auditor will question. Continuous WiFi or GSM monitoring with alerts to phones and email closes that gap. Because our head office is in Mumbai, our team can plan site visits and installation with you directly, with calibration delivered by our parent lab, VEGA Calibrations.",
+            climateAngle:
+              "The city is coastal, humid for most of the year and hit by a heavy monsoon. Relative humidity matters as much as temperature here, so we lean towards loggers that read both, and we place probes away from door seals and damp walls where readings can mislead.",
+            areas: [
+              {
+                name: "Andheri MIDC",
+                note: "An industrial estate in the western suburbs. Where a factory floor, a stores room and a small cold room share one site, a few single-point loggers or one multi-channel unit can cover all of them.",
+              },
+              {
+                name: "Marol",
+                note: "A compact industrial and commercial pocket next to Andheri East. Where stores, labs and cold rooms sit close together, loggers on one Wi-Fi network and one dashboard keep them all in view.",
+              },
+              {
+                name: "Thane",
+                note: "Mumbai's neighbour to the north-east, with an industrial belt of its own. Larger sheds and stores here often call for temperature mapping, which VEGA Calibrations can carry out.",
+              },
+              {
+                name: "Lower Parel commercial hubs",
+                note: "A central business district of offices, corporate floors and hospitality. Server rooms and temperature-sensitive storage inside tall buildings can be watched from one remote dashboard.",
+              },
             ],
-            citiesServed: ["South Mumbai", "Western suburbs", "Central suburbs", "Navi Mumbai", "Thane"],
-            supportNote:
-              "Because our team is based in Mumbai, it is straightforward to coordinate installation guidance, calibration and mapping work in the city. Call or WhatsApp us to discuss your site.",
+            industries: [
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Mumbai is home to pharma head offices and distributors, where stockists hold medicines in rooms that need steady temperature and humidity records ready for audits.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals, blood banks and diagnostic centres across the city rely on fridges and freezers that cannot be left unwatched overnight, so an alert has to reach the right person at once.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Cold stores, food importers and restaurant kitchens deal with humid air and frequent door openings, and continuous logs show when a store drifts and for how long.",
+              },
+              {
+                slug: "data-centers",
+                sentence:
+                  "Server rooms in office towers and dedicated data centres need steady temperature and humidity, and one dashboard can watch several rooms across different buildings.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity as well as temperature, which matters most in Mumbai's humid, monsoon-heavy months.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels from one device suit a distributor's cold room or a clinic's storage area where several points need watching.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels cover a larger multi-zone store or warehouse in and around the city from a single logger.",
+              },
+            ],
             faqs: [
               {
                 question: "Can I visit your Mumbai office?",
-                answer:
-                  "Visits are by appointment only. Please call ahead to book a visit.",
+                answer: "Visits are by appointment only. Please call ahead to book a visit.",
               },
               {
-                question: "Can VEGA calibrate data loggers we already own?",
+                question: "Which logger suits Mumbai's humid monsoon months?",
                 answer:
-                  "Calibration of temperature and humidity instruments and data loggers is part of VEGA Calibrations' NABL-accredited scope. Share your instrument details and we will confirm.",
+                  "Choose a model that measures relative humidity as well as temperature, such as the Nakshatra series for single points or the Pro versions of the multi-channel loggers. A humidity reading shows when a storage room is drawing in damp air even while the temperature still looks fine.",
+              },
+              {
+                question: "Can loggers we already own be calibrated in Mumbai?",
+                answer:
+                  "Calibration of temperature and humidity instruments and data loggers is part of VEGA Calibrations' NABL-accredited scope. Share your instrument details and we will confirm how it can be arranged for your site.",
+              },
+              {
+                question: "Can one dashboard monitor several sites in and around Mumbai?",
+                answer:
+                  "Yes. Devices are organised by organisation, site, room and device, so a distributor with a warehouse in Bhiwandi, a store in Andheri and an office in Lower Parel sees them together, with role-based access for each team.",
               },
             ],
+            nearby: [
+              { slug: "navi-mumbai", name: "Navi Mumbai" },
+              { slug: "bhiwandi", name: "Bhiwandi" },
+              { slug: "panvel", name: "Panvel" },
+            ],
+            metaTitle: "Temperature Data Loggers in Mumbai | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers in Mumbai from our head office, with site visits and NABL calibration support. Get Solution for your site.",
             indexable: true,
           },
         ],
@@ -232,7 +340,8 @@ export const locations: LocationNode[] = [
               "Setu or Nakshatra loggers suit individual fridges and freezers. The external hooter adds an audible alarm in the kitchen when a temperature goes out of range or a door is left open.",
           },
         ],
-        indexable: true,
+        // Awaiting its own playbook prompt; noindex and out of the sitemap until then.
+        indexable: false,
       },
     ],
   },
@@ -437,4 +546,58 @@ export function findLocation(path: string[]): ResolvedLocation | undefined {
 
 export function locationHref(path: string[]): string {
   return `/locations/${path.join("/")}`;
+}
+
+export type ResolvedCity = ResolvedLocation & { node: CityLocationNode };
+
+/** Every city built to the playbook template, in tree order. */
+export function getCityPages(): ResolvedCity[] {
+  return getAllLocations().filter((l): l is ResolvedCity => isCityPage(l.node));
+}
+
+/** The indexable, playbook-built city with this slug, if its page exists yet. */
+export function findCityBySlug(slug: string): ResolvedCity | undefined {
+  return getCityPages().find((c) => c.node.slug === slug && c.node.indexable);
+}
+
+/** Playbook section 4, biggest cities first; drives the footer and industry blocks. */
+const CITY_PRIORITY = [
+  "mumbai",
+  "delhi",
+  "bengaluru",
+  "hyderabad",
+  "chennai",
+  "pune",
+  "ahmedabad",
+  "kolkata",
+  "navi-mumbai",
+  "noida",
+];
+
+function cityRank(slug: string): number {
+  const i = CITY_PRIORITY.indexOf(slug);
+  return i === -1 ? CITY_PRIORITY.length : i;
+}
+
+/** Indexable city pages that support an industry, most relevant (biggest) first. */
+export function citiesForIndustry(industrySlug: string, limit = 8): ResolvedCity[] {
+  return getCityPages()
+    .filter((c) => c.node.indexable && c.node.industries.some((i) => i.slug === industrySlug))
+    .sort((a, b) => cityRank(a.node.slug) - cityRank(b.node.slug))
+    .slice(0, limit);
+}
+
+/**
+ * Footer "Top locations": the biggest cities that have a live page, topped up
+ * with indexable country hubs so the list is never a single link.
+ */
+export function topLocations(limit = 10): { name: string; href: string }[] {
+  const cities = getCityPages()
+    .filter((c) => c.node.indexable)
+    .sort((a, b) => cityRank(a.node.slug) - cityRank(b.node.slug))
+    .map((c) => ({ name: c.node.name, href: locationHref(c.path) }));
+  const countries = locations
+    .filter((c) => c.indexable)
+    .map((c) => ({ name: c.name, href: locationHref([c.slug]) }));
+  return [...cities, ...countries].slice(0, limit);
 }

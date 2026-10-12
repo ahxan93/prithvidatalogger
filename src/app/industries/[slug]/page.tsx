@@ -14,6 +14,7 @@ import Faq from "@/components/ui/Faq";
 import Section from "@/components/ui/Section";
 import SectionHeading from "@/components/ui/SectionHeading";
 import { AlertCircleIcon, ArrowRightIcon, CheckCircleIcon, ShieldCheckIcon } from "@/components/ui/icons";
+import WhereWeServe from "@/components/locations/WhereWeServe";
 import { isPlaceholderImage } from "@/lib/images";
 import { buildMetadata } from "@/lib/seo";
 
@@ -234,6 +235,8 @@ export default async function IndustryPage({ params }: PageProps<"/industries/[s
           <Faq items={content.faqs} />
         </div>
       </Section>
+
+      <WhereWeServe industry={industry} />
 
       <CtaBand
         id="industry-cta"

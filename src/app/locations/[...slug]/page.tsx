@@ -6,6 +6,7 @@ import {
   findLocation,
   getAllLocations,
   GSM_NETWORK_NOTE,
+  isCityPage,
   locationHref,
   needsGsmNetworkNote,
   type ResolvedLocation,
@@ -13,6 +14,7 @@ import {
 import { locationContent } from "@/data/location-content";
 import { quoteHref } from "@/data/navigation";
 import { getProductBySlug, type ProductSeries } from "@/data/products";
+import CityPage from "@/components/locations/CityPage";
 import ProductCard from "@/components/products/ProductCard";
 import CtaBand from "@/components/sections/CtaBand";
 import PageHero from "@/components/sections/PageHero";
@@ -49,14 +51,29 @@ export async function generateMetadata({
   const { slug } = await params;
   const location = findLocation(slug);
   if (!location) return {};
+  const { node } = location;
+
+  // City pages built to the playbook template carry their own title and
+  // description, and get a generated OG image (src/app/og/locations).
+  if (isCityPage(node)) {
+    return buildMetadata({
+      title: node.metaTitle,
+      description: node.metaDescription,
+      path: locationHref(location.path),
+      absoluteTitle: true,
+      image: `/og/locations/${location.path.join("/")}`,
+      noIndex: !node.indexable,
+    });
+  }
+
   const { content, title } = describe(location);
 
   return buildMetadata({
     title,
-    description: content?.metaDescription ?? location.node.intro.slice(0, 150),
+    description: content?.metaDescription ?? node.intro.slice(0, 150),
     path: locationHref(location.path),
     // Thin or unreviewed nodes stay out of the index (and the sitemap).
-    noIndex: !location.node.indexable,
+    noIndex: !node.indexable,
   });
 }
 
@@ -82,6 +99,8 @@ export default async function LocationPage({ params }: PageProps<"/locations/[..
   if (!location) notFound();
 
   const { node, trail, path } = location;
+  if (isCityPage(node)) return <CityPage city={{ ...location, node }} />;
+
   const { content, place, title } = describe(location);
   const href = locationHref(path);
   const isMumbai = path.join("/") === "india/maharashtra/mumbai";

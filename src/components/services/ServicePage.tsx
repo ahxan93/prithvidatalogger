@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { siteConfig } from "@/config/site";
+import { locationHref, locations } from "@/data/locations";
 import { getServiceBySlug, services, type ServiceSlug } from "@/data/services";
 import { serviceContent } from "@/data/service-content";
 import EnquiryForm from "@/components/forms/EnquiryForm";
@@ -204,6 +205,38 @@ export default function ServicePage({ slug }: { slug: ServiceSlug }) {
           </div>
           <Faq items={content.faqs} />
         </div>
+      </Section>
+
+      {/* Country hubs: where Prithvi supplies and supports */}
+      <Section aria-labelledby="service-countries-title">
+        <SectionHeading
+          id="service-countries-title"
+          eyebrow="Locations"
+          title={`Where ${service.name} Is Arranged`}
+          subtitle="Prithvi loggers and the services around them are arranged for sites across India and the GCC. Choose a country to see how supply and support work there."
+        />
+        <ul className="mt-8 flex flex-wrap gap-3">
+          {locations
+            .filter((country) => country.indexable)
+            .map((country) => (
+              <li key={country.slug}>
+                <Link
+                  href={locationHref([country.slug])}
+                  className="inline-flex items-center gap-1.5 rounded-full bg-white px-4 py-2 text-sm font-semibold text-brand-700 ring-1 ring-inset ring-brand-200 transition hover:bg-brand-600 hover:text-white"
+                >
+                  Data loggers in {country.name}
+                </Link>
+              </li>
+            ))}
+          <li>
+            <Link
+              href="/locations"
+              className="inline-flex items-center gap-1.5 rounded-full bg-white px-4 py-2 text-sm font-semibold text-brand-700 ring-1 ring-inset ring-brand-200 transition hover:bg-brand-600 hover:text-white"
+            >
+              All locations
+            </Link>
+          </li>
+        </ul>
       </Section>
 
       {/* Enquiry form with the service preselected */}

@@ -71,6 +71,8 @@ type EnquiryFormProps = {
   defaultProduct?: string;
   /** Single column without the optional Company and Quantity fields. */
   variant?: "default" | "compact";
+  /** City page the visitor is on; sent as a hidden field and named in the email subject. */
+  city?: string;
   title?: string;
   className?: string;
 };
@@ -78,6 +80,7 @@ type EnquiryFormProps = {
 export default function EnquiryForm({
   defaultProduct = "",
   variant = "default",
+  city,
   title,
   className,
 }: EnquiryFormProps) {
@@ -153,7 +156,7 @@ export default function EnquiryForm({
         headers: { "Content-Type": "application/json", Accept: "application/json" },
         body: JSON.stringify({
           access_key: accessKey,
-          subject: `New solution enquiry – ${product} – ${SITE_HOST}`,
+          subject: `New solution enquiry – ${city ?? product} – ${SITE_HOST}`,
           from_name: "Prithvi Data Loggers website",
           page_url: window.location.href,
           name: values.name.trim(),
@@ -162,6 +165,7 @@ export default function EnquiryForm({
           email: values.email.trim(),
           replyto: values.email.trim(),
           city_country: values.location.trim(),
+          city: city || undefined,
           product,
           quantity: values.quantity.trim() || undefined,
           message: values.message.trim() || undefined,
@@ -253,6 +257,7 @@ export default function EnquiryForm({
           <input type="checkbox" name="botcheck" tabIndex={-1} autoComplete="off" />
         </label>
       </div>
+      {city && <input type="hidden" name="city" value={city} />}
 
       <div className={cn("grid gap-5", !compact && "sm:grid-cols-2")}>
         <div>

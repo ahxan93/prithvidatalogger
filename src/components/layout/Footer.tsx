@@ -2,6 +2,7 @@ import Link from "next/link";
 import { cacheLife } from "next/cache";
 import { siteConfig } from "@/config/site";
 import { footerCompanyNav } from "@/data/navigation";
+import { topLocations } from "@/data/locations";
 import { products } from "@/data/products";
 import Container from "@/components/ui/Container";
 import Logo from "@/components/ui/Logo";
@@ -116,6 +117,26 @@ export default function Footer() {
               </li>
             ))}
           </ul>
+
+          <nav aria-labelledby="footer-locations" className="mt-8">
+            <h3 id="footer-locations" className={headingClass}>
+              Top locations
+            </h3>
+            <ul className="mt-4 flex flex-wrap gap-x-5 gap-y-1 text-sm">
+              {topLocations(10).map((place) => (
+                <li key={place.href}>
+                  <Link href={place.href} className={`${linkClass} inline-flex min-h-11 items-center lg:min-h-0`}>
+                    {place.name}
+                  </Link>
+                </li>
+              ))}
+              <li>
+                <Link href="/locations" className={`${linkClass} inline-flex min-h-11 items-center font-semibold lg:min-h-0`}>
+                  All locations
+                </Link>
+              </li>
+            </ul>
+          </nav>
         </div>
       </Container>
 

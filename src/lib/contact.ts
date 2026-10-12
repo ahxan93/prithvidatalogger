@@ -16,5 +16,11 @@ export function whatsappHref(product?: string): string {
   return `${siteConfig.whatsapp}?text=${encodeURIComponent(message)}`;
 }
 
+/** wa.me link whose pre-filled message names the city the visitor is browsing. */
+export function whatsappCityHref(city: string): string {
+  const message = `Hi Prithvi team, I am looking for temperature data loggers in ${city}. Please share details.`;
+  return `${siteConfig.whatsapp}?text=${encodeURIComponent(message)}`;
+}
+
 /** Google Maps search URL for the office address. */
 export const mapsHref = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(siteConfig.address.full)}`;

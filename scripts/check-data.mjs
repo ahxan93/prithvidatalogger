@@ -10,7 +10,7 @@ import path from "node:path";
 import { products, commonSpecs, monitoringFeatures, formatMrp, formatFromPrice } from "../src/data/products.ts";
 import { industries } from "../src/data/industries.ts";
 import { services } from "../src/data/services.ts";
-import { locations, getAllLocations, needsGsmNetworkNote, GSM_NETWORK_NOTE } from "../src/data/locations.ts";
+import { locations, getAllLocations, needsGsmNetworkNote, GSM_NETWORK_NOTE, isCityPage } from "../src/data/locations.ts";
 import { buildEnquiryOptions, CALIBRATION_MAPPING_OPTION, VALIDATION_OPTION } from "../src/data/enquiry.ts";
 import * as company from "../src/data/company.ts";
 import * as home from "../src/data/home.ts";
@@ -147,6 +147,7 @@ const all = getAllLocations();
 // Location page data (brief §7.9): every node has a unique description and valid recommendations.
 for (const { node, path: p } of all) {
   const key = p.join("/");
+  if (isCityPage(node)) continue; // validated by the city-page rules below
   const c = locationContent[key];
   if (!c) { fail(`location-content: no entry for ${key}`); continue; }
   uniqueDesc(`location-content: ${key}`, c.metaDescription);
@@ -162,7 +163,7 @@ for (const { node, path: p } of all) {
 }
 for (const slug of Object.keys(countryMarkers)) if (!locations.some((l) => l.slug === slug)) fail(`location-content: map marker for unknown country "${slug}"`);
 for (const l of locations) if (!countryMarkers[l.slug]) fail(`location-content: no map marker for ${l.slug}`);
-const mustBeIndexable = ["india", "uae", "saudi-arabia", "qatar", "oman", "kuwait", "bahrain", "yemen", "maharashtra", "mumbai", "dubai"];
+const mustBeIndexable = ["india", "uae", "saudi-arabia", "qatar", "oman", "kuwait", "bahrain", "yemen", "maharashtra", "mumbai"];
 for (const slug of mustBeIndexable) {
   const loc = all.find((l) => l.node.slug === slug);
   if (!loc) fail(`locations: "${slug}" missing`);
@@ -171,24 +172,166 @@ for (const slug of mustBeIndexable) {
 const countryNames = locations.map((l) => l.name);
 for (const c of siteConfig.countriesServed) if (!countryNames.includes(c)) fail(`locations: country "${c}" from site.ts missing`);
 
+/** Every piece of copy that is unique to a node (shared template blocks excluded). */
+const uniqueTexts = (node) =>
+  isCityPage(node)
+    ? [
+        node.intro,
+        node.climateAngle,
+        ...node.areas.map((a) => a.note),
+        ...node.industries.map((i) => i.sentence),
+        ...node.recommendedSeries.map((r) => r.reason),
+        ...node.faqs.flatMap((f) => [f.question, f.answer]),
+      ]
+    : [node.intro, node.supportNote, ...node.faqs.flatMap((f) => [f.question, f.answer])];
+const wordCount = (texts) => texts.join(" ").split(/\s+/).filter(Boolean).length;
+
 const sentenceOwner = new Map();
 for (const { node, path: p } of all) {
   const where = p.join("/");
   for (const d of dupes((node.children ?? []).map((c) => c.slug))) fail(`locations: duplicate child "${d}" under ${where}`);
+  // A city not built to the playbook template cannot be indexable (playbook section 3).
+  if (node.type === "city" && !isCityPage(node) && node.indexable)
+    fail(`locations: ${where} is a city not built to the playbook template, so it must be indexable: false`);
   if (!node.indexable) continue;
-  const words = node.intro.split(/\s+/).length;
-  if (words < 40) fail(`locations: ${where} intro only ${words} words`);
-  if (node.localIndustries.length < 3) fail(`locations: ${where} needs ≥3 local industries`);
-  if (!node.citiesServed.length) fail(`locations: ${where} has no cities/areas`);
-  if (node.faqs.length < 2) fail(`locations: ${where} needs ≥2 FAQs`);
+  if (!isCityPage(node)) {
+    const words = node.intro.split(/\s+/).length;
+    if (words < 40) fail(`locations: ${where} intro only ${words} words`);
+    if (node.localIndustries.length < 3) fail(`locations: ${where} needs ≥3 local industries`);
+    if (!node.citiesServed.length) fail(`locations: ${where} has no cities/areas`);
+    if (node.faqs.length < 2) fail(`locations: ${where} needs ≥2 FAQs`);
+  }
   // No sentence may appear on two location pages (near-duplicate content).
-  const texts = [node.intro, node.supportNote, ...node.faqs.flatMap((f) => [f.question, f.answer])];
+  const texts = uniqueTexts(node);
   for (const sentence of texts.flatMap((t) => t.split(/(?<=[.?!])\s+/))) {
     const key = sentence.trim().toLowerCase();
     if (key.length < 25) continue;
     const owner = sentenceOwner.get(key);
     if (owner && owner !== where) fail(`locations: sentence shared by ${owner} and ${where}: "${sentence.trim()}"`);
     sentenceOwner.set(key, where);
+  }
+}
+
+// ---------------------------------------------------------------- city pages (playbook section 3)
+// Every rule in docs/LOCATION-PAGES-PLAYBOOK.md "Quality checks", applied to each
+// indexable city built to the template. (Sentence reuse is checked above.)
+const cityDescSeen = new Set();
+const CITY_SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
+const cityBanned = [
+  [/\bno\.?\s?1\b/i, '"No.1"'],
+  [/\bbest\b(?!\s+for\b)/i, '"best"'],
+  [/guarantee/i, '"guaranteed"'],
+  [/within\s+(\d+|a few|\w+)\s+(hours?|days?|minutes?|weeks?)/i, '"within X hours/days"'],
+  [/\b\d[\d,]*\+?\s+(customers|clients|companies|businesses)\b/i, "customer counts"],
+  [/get a quote/i, '"Get a Quote"'],
+  [/₹|\bMRP\b|\bGST\b|\bprice[sd]?\b/i, "a price"],
+];
+const cityResults = [];
+for (const { node, path: p } of all) {
+  if (!isCityPage(node)) continue;
+  const where = p.join("/");
+  const isIndia = p[0] === "india";
+  const f = (msg) => fail(`city: ${where} ${msg}`);
+
+  if (!node.indexable) { notes.push(`city ${where} is noindex (not published)`); continue; }
+  if (!CITY_SLUG.test(node.slug)) f(`slug "${node.slug}" must be lowercase-hyphen`);
+  const introWords = node.intro.split(/\s+/).length;
+  if (introWords < 120 || introWords > 180) f(`intro is ${introWords} words (120–180)`);
+  if (!/temperature data logger/i.test(node.intro.split(/\s+/).slice(0, 100).join(" ")))
+    f("primary keyword 'temperature data logger' missing from the first 100 words of the intro");
+  if (!node.climateAngle || node.climateAngle.split(/\s+/).length < 15) f("climateAngle missing or too short");
+  if (node.areas.length < 3 || node.areas.some((a) => !a.name || a.note.split(/\s+/).length < 12)) f("needs ≥3 areas, each with a name and a one-line note");
+  if (node.industries.length < 3 || node.industries.length > 5) f(`has ${node.industries.length} industries (3–5)`);
+  for (const i of node.industries) {
+    if (!industries.some((x) => x.slug === i.slug)) f(`industry "${i.slug}" has no industry page`);
+    if (i.sentence.split(/\s+/).length < 12) f(`industry "${i.slug}" sentence is too short`);
+  }
+  if (node.recommendedSeries.length !== 3) f(`recommends ${node.recommendedSeries.length} series (exactly 3)`);
+  for (const r of node.recommendedSeries) {
+    const series = products.find((x) => x.slug === r.slug);
+    if (!series) { f(`recommends unknown series "${r.slug}"`); continue; }
+    if (!isIndia && (series.connectivity.includes("gsm") || /\bvayu\b/i.test(r.reason))) f(`recommends Vayu/GSM series "${r.slug}" outside India`);
+    if (r.reason.split(/\s+/).length < 10) f(`series "${r.slug}" reason is too short`);
+  }
+  if (node.faqs.length !== 4) f(`has ${node.faqs.length} FAQs (exactly 4)`);
+  if (node.nearby.length < 2 || node.nearby.length > 3) f(`has ${node.nearby.length} nearby cities (2–3)`);
+  for (const n of node.nearby) {
+    if (n.slug === node.slug) f("lists itself as nearby");
+    if (!CITY_SLUG.test(n.slug) || !n.name) f(`nearby "${n.slug}" is malformed`);
+    if (!all.some((l) => l.node.slug === n.slug)) notes.push(`city ${where}: nearby "${n.name}" has no page yet (shown unlinked)`);
+  }
+  // Cluster: a state hub above it.
+  const stateNode = all.find((l) => l.path.join("/") === p.slice(0, 2).join("/"));
+  if (!stateNode || stateNode.node.type !== "state") f("is not under a state hub");
+  else if (!stateNode.node.indexable) f("its state hub is not indexable");
+  // SEO settings.
+  const title = node.metaTitle;
+  if (title.length > 60) f(`metaTitle is ${title.length} chars (max 60)`);
+  if (!title.includes(node.name) || !/Data Loggers in /.test(title)) f('metaTitle must read "[Temperature] Data Loggers in {City} | Prithvi"');
+  if (node.metaDescription.length > 155) f(`metaDescription is ${node.metaDescription.length} chars (max 155)`);
+  if (!node.metaDescription.includes(node.name) || !/Get Solution/.test(node.metaDescription)) f('metaDescription must name the city and say "Get Solution"');
+  if (cityDescSeen.has(node.metaDescription)) f("metaDescription is not unique");
+  cityDescSeen.add(node.metaDescription);
+  // Unique body words (shared template blocks are not in the data, so not counted).
+  const uniqueWords = wordCount(uniqueTexts(node));
+  if (uniqueWords < 600) f(`unique body is ${uniqueWords} words (min 600)`);
+  if (uniqueWords > 1100) f(`unique body is ${uniqueWords} words (max 1,100)`);
+  cityResults.push({ where, uniqueWords });
+  // Banned wording in the city's own copy.
+  const copy = [...uniqueTexts(node), node.metaTitle, node.metaDescription].join(" ");
+  for (const [re, label] of cityBanned) if (re.test(copy)) f(`uses banned wording ${label}`);
+  if (node.slug !== "mumbai" && new RegExp(`\\bour\\s+${node.name}\\s+office\\b`, "i").test(copy)) f('claims a local office ("our ' + node.name + ' office")');
+}
+for (const r of cityResults) notes.push(`city ${r.where}: ${r.uniqueWords} unique words`);
+
+// Rendered check (needs a prior build, like the price scan): each indexable city
+// page must have all 12 template sections, one H1, JSON-LD and the cluster links.
+{
+  // Breadcrumbs sit inside the hero, so "hero" precedes "breadcrumbs" in the HTML.
+  const SECTIONS = ["hero", "breadcrumbs", "intro", "areas", "industries", "products", "services", "process", "why", "faqs", "nearby", "enquiry"];
+  const APP_DIR = path.join(ROOT, ".next/server/app");
+  for (const { node, path: p } of all) {
+    if (!isCityPage(node) || !node.indexable) continue;
+    const where = p.join("/");
+    const file = path.join(APP_DIR, "locations", ...p) + ".html";
+    if (!fs.existsSync(file)) { notes.push(`city ${where}: rendered checks skipped (run npm run build first)`); continue; }
+    const html = fs.readFileSync(file, "utf8");
+    const f = (msg) => fail(`city-render: ${where} ${msg}`);
+    const h1s = (html.match(/<h1[\s>]/g) ?? []).length;
+    if (h1s !== 1) f(`has ${h1s} <h1> elements (exactly 1)`);
+    const found = [...html.matchAll(/data-city-section="([a-z]+)"/g)].map((m) => m[1]);
+    const missing = SECTIONS.filter((x) => !found.includes(x));
+    if (missing.length) f(`is missing template sections: ${missing.join(", ")}`);
+    if (found.length !== new Set(found).size) f("repeats a template section");
+    if (found.join() !== SECTIONS.join()) f(`sections are out of order (${found.join(" > ")})`);
+    if (!/<input[^>]*type="hidden"[^>]*name="city"[^>]*value="/.test(html) && !new RegExp(`name="city"[^>]*value="${node.name}"`).test(html)) f("has no hidden city field in the enquiry form");
+    const ld = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map((m) => {
+      try { return JSON.parse(m[1].replace(/\\u003c/g, "<")); } catch { f("has invalid JSON-LD"); return {}; }
+    });
+    const types = ld.flatMap((d) => (d["@graph"] ?? [d]).map((x) => x["@type"]));
+    for (const t of ["BreadcrumbList", "Service", "FAQPage"]) if (!types.includes(t)) f(`JSON-LD lacks ${t}`);
+    const service = ld.find((d) => d["@type"] === "Service");
+    if (service) {
+      const expected = p.join("/") === "india/maharashtra/mumbai" ? "LocalBusiness" : "Organization";
+      if (service.provider?.["@type"] !== expected) f(`Service provider must be ${expected} (LocalBusiness only for Mumbai)`);
+      if (!Array.isArray(service.areaServed) || !service.areaServed.some((a) => a.name === node.name)) f("Service areaServed must name the city");
+    }
+    // Cluster links.
+    const main = (html.match(/<main[\s\S]*<\/main>/) ?? [html])[0];
+    const hrefs = [...main.matchAll(/href="([^"#?]+)/g)].map((m) => m[1]);
+    const stateHref = "/locations/" + p.slice(0, 2).join("/");
+    if (!hrefs.includes(stateHref)) f(`does not link to its state hub ${stateHref}`);
+    if (new Set(hrefs.filter((h) => h.startsWith("/industries/") && h !== "/industries/")).size < 3) f("links to fewer than 3 industry pages");
+    if (new Set(hrefs.filter((h) => /^\/products\/[a-z-]+$/.test(h))).size < 3) f("links to fewer than 3 product pages");
+    for (const svc of services) if (!hrefs.includes(svc.href)) f(`does not link to ${svc.href}`);
+    // Sibling links: every nearby city that has a live page must be linked.
+    for (const n of node.nearby) {
+      const sib = all.find((l) => l.node.slug === n.slug && l.node.indexable);
+      if (sib && !hrefs.includes("/locations/" + sib.path.join("/"))) f(`does not link to nearby city ${n.slug}`);
+    }
+    // Banned wording in what visitors actually see.
+    const visible = main.replace(/<script[\s\S]*?<\/script>/g, " ").replace(/<style[\s\S]*?<\/style>/g, " ").replace(/<[^>]+>/g, " ");
+    for (const [re, label] of cityBanned) if (re.test(visible)) f(`rendered page uses banned wording ${label}`);
   }
 }
 
@@ -224,7 +367,7 @@ if (siteConfig.showStats !== false) fail("site: showStats must stay false until 
 // GSM network compatibility outside India is not confirmed: no coverage claims there.
 for (const { node, path: p } of all) {
   if (!needsGsmNetworkNote(p)) continue;
-  const text = [node.intro, node.supportNote, ...node.faqs.flatMap((f) => [f.question, f.answer])].join(" ");
+  const text = uniqueTexts(node).join(" ");
   if (/mobile (coverage|network)|works wherever|reports wherever/i.test(text))
     fail(`decisions: ${p.join("/")} claims GSM works on local networks (not confirmed)`);
 }
@@ -371,7 +514,8 @@ if (!siteConfig.showPrices) {
     for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
       const full = path.join(dir, entry.name);
       if (entry.isDirectory()) scanTree(full, exts);
-      else if (exts.has(path.extname(entry.name))) {
+      else if (exts.has(path.extname(entry.name)) && entry.name !== "LOCATION-PAGES-PLAYBOOK.md") {
+        // (the playbook itself names the banned phrase in its own banned-wording list)
         const match = fs.readFileSync(full, "utf8").match(CTA_BANNED);
         if (match) fail(`cta: "${match[0]}" found in ${path.relative(ROOT, full)} (use "Get Solution")`);
       }

@@ -1,6 +1,8 @@
 // Extra page data for /locations/[...slug] (brief §7.9), keyed by the node's
-// slug path ("india/maharashtra/mumbai"). The unique copy (intro, industries,
-// cities, support note, FAQs) lives on the node itself in locations.ts.
+// slug path ("india/maharashtra"). The unique copy (intro, industries,
+// cities, support note, FAQs) lives on the node itself in locations.ts. Cities
+// built to the playbook template carry their own meta title, description and
+// recommended series on the node, so they have no entry here.
 //
 // Rules: no country-specific regulations, delivery times or statistics. GSM
 // models are never recommended outside India (network compatibility is not
@@ -25,11 +27,6 @@ export const locationContent: Record<string, LocationContent> = {
     metaDescription:
       "Temperature data loggers in Maharashtra, supplied from our Mumbai office to Pune, Thane, Nashik, Nagpur and beyond. Calibration by VEGA Calibrations.",
     recommended: ["nakshatra", "dhruva", "virat"],
-  },
-  "india/maharashtra/mumbai": {
-    metaDescription:
-      "Temperature data loggers in Mumbai from Prithvi's head office: WiFi loggers, NABL calibration and temperature mapping by VEGA Calibrations.",
-    recommended: ["setu", "nakshatra", "rajmudra"],
   },
   "saudi-arabia": {
     metaDescription:

@@ -5,6 +5,8 @@
 These rules are permanent. Follow them in every change.
 
 docs/MASTER-BRIEF.md is the source of truth for content and pages.
+docs/LOCATION-PAGES-PLAYBOOK.md is the source of truth for all location pages (template, cluster
+linking, SEO settings, city data and quality checks).
 
 ## Brand
 - Brand: **Prithvi Data Loggers** – IoT temperature & humidity data loggers (WiFi / GSM / LoRa).

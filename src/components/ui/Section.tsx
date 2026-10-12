@@ -22,6 +22,8 @@ type SectionProps = {
   /** Accessible name when the section has no visible heading. */
   "aria-label"?: string;
   "aria-labelledby"?: string;
+  /** Marks a numbered section of a playbook location page (read by check:data). */
+  "data-city-section"?: string;
 };
 
 const toneClasses: Record<SectionTone, string> = {
