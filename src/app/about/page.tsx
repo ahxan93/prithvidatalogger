@@ -15,7 +15,7 @@ import {
   nameMeaning,
   vision,
 } from "@/data/company";
-import { locations } from "@/data/locations";
+import { locationHref, locations } from "@/data/locations";
 import CertificateCard from "@/components/about/CertificateCard";
 import EnquiryForm from "@/components/forms/EnquiryForm";
 import CtaBand from "@/components/sections/CtaBand";
@@ -310,7 +310,7 @@ export default async function AboutPage() {
           {locations.map((country) => (
             <li key={country.slug}>
               <Link
-                href={`/locations/${country.slug}`}
+                href={locationHref([country.slug])}
                 className="group flex h-full items-center justify-between gap-3 rounded-2xl border border-slate-200/80 bg-white px-5 py-4 font-heading font-semibold text-ink shadow-soft transition hover:border-brand-200 hover:text-brand-700 hover:shadow-soft-lg"
               >
                 {country.name}

@@ -26,18 +26,38 @@
 ## 2. Cluster architecture (hub and spoke)
 
 ```
-/locations                          ← Global hub (India + GCC)
- ├─ /locations/india                ← Country hub (states grouped, map/list)
- │   ├─ /locations/india/maharashtra          ← State hub
- │   │   ├─ /locations/india/maharashtra/mumbai        ← City spoke
- │   │   ├─ /locations/india/maharashtra/navi-mumbai
- │   │   └─ ...
- │   └─ ...
- ├─ /locations/saudi-arabia         ← Country hub
- │   ├─ /locations/saudi-arabia/riyadh
- │   └─ ...
- └─ /locations/uae/dubai ...
+/locations                          <- the single hub that lists everything (India + GCC)
+/data-logger-india                  <- country hub
+/data-logger-maharashtra            <- state hub
+/data-logger-mumbai                 <- city spoke
+/data-logger-navi-mumbai            <- city spoke
+/data-logger-andheri                <- area page
+/data-logger-saudi-arabia           <- country hub
+/data-logger-dubai                  <- city under a country with no state level
 ```
+
+**URL rules (permanent; every future city and area prompt uses them):**
+- Every location page is **one flat segment**: `/data-logger-{slug}` where `{slug}` is the node's own
+  slug (country, state, city or area). No nested `/locations/...` URLs are ever linked.
+- The data tree (country, state, city, area in `src/data/locations.ts` and `src/data/areas.ts`) stays
+  hierarchical: parents, nearby links, breadcrumbs and hero badges all read the tree.
+- Build every URL with `locationHref(path)` (`src/data/locations.ts`); never hand-write a location URL.
+- **Collisions:** if a city/state/country and an area share a slug (for example Noida, Navi Mumbai,
+  Vasai), the node keeps the plain slug and the area automatically becomes
+  `/data-logger-{area}-industrial-area`. `npm run check:data` fails on any duplicate flat slug.
+  Slugs are reserved for every `AreaDef` even before its page is written, so adding a city later only
+  ever renames the area's URL, never another city's.
+- **Redirects:** `next.config.ts` 301-redirects every old nested `/locations/...` path (and the old
+  `/og/locations/...` image path) to its flat URL, built from the same data. `npm run check:data` fails
+  if one is missing, and `npm run check:links` fails if any page links to an old nested URL.
+- **Breadcrumbs:** the visible row is short: Home > City (> Area) for cities and areas, and
+  Home > Locations > State (or Country) for hubs. The BreadcrumbList JSON-LD lists the full hierarchy
+  (Home > Locations > Country > State > City > Area) with the flat URLs. Use `locationCrumbs()`
+  (`src/lib/location-crumbs.ts`).
+- **OG image:** `/og/locations/{slug}` (flat slug).
+- **Implementation:** Next cannot match a partial dynamic segment, so `src/app/data-logger/[slug]` is
+  the route and `next.config.ts` rewrites `/data-logger-:slug` to it.
+
 
 **Internal linking rules (this is what makes it a cluster):**
 1. **City → parents:** breadcrumbs (Home › Locations › India › State › City) and an in-content link to the state hub.
@@ -70,7 +90,7 @@
 **SEO settings per city page:**
 - **Title (≤60):** `Temperature Data Loggers in {City} | Prithvi`. If too long, drop "Temperature".
 - **Meta description (≤155):** names the city, WiFi/GSM loggers, site visits, and "Get Solution". Unique per city.
-- **URL:** lowercase-hyphen slug, e.g. `/locations/india/maharashtra/navi-mumbai`.
+- **URL:** flat `/data-logger-{slug}`, e.g. `/data-logger-navi-mumbai` (see the URL rules in section 2).
 - **Canonical:** self-referencing on the production domain.
 - **OG image:** auto-generated per city (navy background, Prithvi logo, "Temperature Data Loggers in {City}").
 - **JSON-LD:** BreadcrumbList + Service (`serviceType`: "Temperature & humidity data logger supply, installation and calibration support"; `provider`: Organization; `areaServed`: City, plus State/Country) + FAQPage. **LocalBusiness only on Mumbai.**
@@ -129,7 +149,7 @@
 ## 5. MASTER PROMPT (run once, first)
 
 ```text
-Read docs/LOCATION-PAGES-PLAYBOOK.md fully and follow it as the source of truth for all location pages (add a line to CLAUDE.md saying so). Do the following and nothing else: (1) Upgrade the /locations/[...slug] city template to exactly the 12 sections in section 3, with the SEO settings, JSON-LD (BreadcrumbList + Service with areaServed + FAQPage; LocalBusiness only for Mumbai), per-city auto OG image, hidden city field in the enquiry form and city-named WhatsApp message. (2) Move location data to a typed structure with fields for intro, climateAngle, areas (name + note), industries (slug + city sentence), recommendedSeries (slug + reason), faqs, nearby, metaTitle, metaDescription and indexable. (3) Build the cluster linking from section 2: breadcrumbs, state-hub link, nearby block, links to industry/product/service pages, a "Where We Serve" block on every industry page linking its most relevant cities, country-hub links on service pages, and a compact "Top locations" list in the footer. (4) Extend npm run check:data with every rule in section 3 "Quality checks". (5) Build or upgrade ONLY Mumbai as the pilot city page using its row in section 4, with fully unique, accurate copy and no invented facts. (6) Don't create other new city pages yet. Keep existing ones working; any page that doesn't pass the new checks yet is marked indexable: false (noindex, out of the sitemap) until its own prompt upgrades it. Then run lint, build, check:data and check:images, verify /locations/india/maharashtra/mumbai at 375px and 1440px, validate its JSON-LD, commit, and report the list of location pages currently indexable vs noindex.
+Read docs/LOCATION-PAGES-PLAYBOOK.md fully and follow it as the source of truth for all location pages (add a line to CLAUDE.md saying so). Do the following and nothing else: (1) Upgrade the city template (served at /data-logger-{slug}) to exactly the 12 sections in section 3, with the SEO settings, JSON-LD (BreadcrumbList + Service with areaServed + FAQPage; LocalBusiness only for Mumbai), per-city auto OG image, hidden city field in the enquiry form and city-named WhatsApp message. (2) Move location data to a typed structure with fields for intro, climateAngle, areas (name + note), industries (slug + city sentence), recommendedSeries (slug + reason), faqs, nearby, metaTitle, metaDescription and indexable. (3) Build the cluster linking from section 2: breadcrumbs, state-hub link, nearby block, links to industry/product/service pages, a "Where We Serve" block on every industry page linking its most relevant cities, country-hub links on service pages, and a compact "Top locations" list in the footer. (4) Extend npm run check:data with every rule in section 3 "Quality checks". (5) Build or upgrade ONLY Mumbai as the pilot city page using its row in section 4, with fully unique, accurate copy and no invented facts. (6) Don't create other new city pages yet. Keep existing ones working; any page that doesn't pass the new checks yet is marked indexable: false (noindex, out of the sitemap) until its own prompt upgrades it. Then run lint, build, check:data and check:images, verify /data-logger-mumbai at 375px and 1440px, validate its JSON-LD, commit, and report the list of location pages currently indexable vs noindex.
 ```
 
 ---
@@ -265,13 +285,13 @@ Read docs/LOCATION-PAGES-PLAYBOOK.md and upgrade the existing city page for Duba
 ## 7. State & Country hub prompt (run last)
 
 ```text
-Read docs/LOCATION-PAGES-PLAYBOOK.md and upgrade all hub pages. Global /locations: H1 "Where Prithvi Data Loggers Supply & Support", with India and GCC sections. Country hubs (/locations/india, /locations/saudi-arabia, /locations/uae, /locations/qatar, /locations/oman, /locations/kuwait, /locations/bahrain, /locations/yemen): H1 "Temperature Data Loggers in {Country}", a unique intro, cities grouped by state (India) or listed (GCC) with one-line notes, top industries, 3 FAQs with FAQPage schema, and a CTA. State hubs (Maharashtra, Gujarat, Delhi, Uttar Pradesh, Haryana, Chandigarh, Himachal Pradesh, Rajasthan, Madhya Pradesh, Telangana, Karnataka, Tamil Nadu, Kerala, Goa, West Bengal): H1 "Temperature Data Loggers in {State}", a unique 100–150 word intro about the state's industrial profile, city cards linking every city in that state, key industries with links, 2–3 FAQs, and a CTA. All hubs get breadcrumbs, a unique meta title and description, and BreadcrumbList + Service (areaServed) JSON-LD, and pass every check:data rule (no reused sentences). A state hub with only one city must still be genuinely useful; if it can't be, mark it noindex and link the city from the country hub instead. Then run lint, build and check:data, verify /locations, /locations/india and /locations/india/maharashtra at 375px and 1440px, commit, and report the final count of indexable location pages.
+Read docs/LOCATION-PAGES-PLAYBOOK.md and upgrade all hub pages. Global /locations: H1 "Where Prithvi Data Loggers Supply & Support", with India and GCC sections. Country hubs (/data-logger-india, /data-logger-saudi-arabia, /data-logger-uae, /data-logger-qatar, /data-logger-oman, /data-logger-kuwait, /data-logger-bahrain, /data-logger-yemen): H1 "Temperature Data Loggers in {Country}", a unique intro, cities grouped by state (India) or listed (GCC) with one-line notes, top industries, 3 FAQs with FAQPage schema, and a CTA. State hubs (Maharashtra, Gujarat, Delhi, Uttar Pradesh, Haryana, Chandigarh, Himachal Pradesh, Rajasthan, Madhya Pradesh, Telangana, Karnataka, Tamil Nadu, Kerala, Goa, West Bengal): H1 "Temperature Data Loggers in {State}", a unique 100–150 word intro about the state's industrial profile, city cards linking every city in that state, key industries with links, 2–3 FAQs, and a CTA. All hubs get breadcrumbs, a unique meta title and description, and BreadcrumbList + Service (areaServed) JSON-LD, and pass every check:data rule (no reused sentences). A state hub with only one city must still be genuinely useful; if it can't be, mark it noindex and link the city from the country hub instead. Then run lint, build and check:data, verify /locations, /locations/india and /locations/india/maharashtra at 375px and 1440px, commit, and report the final count of indexable location pages.
 ```
 
 ---
 
 ## 8. After the pages go live
-1. In Google Search Console, submit `sitemap.xml` again and request indexing for /locations/india and the top 5 cities.
+1. In Google Search Console, submit `sitemap.xml` again and request indexing for /data-logger-india and the top 5 cities.
 2. After 4–6 weeks, check **Performance → Pages** to see which city pages get impressions. Strengthen those with a real photo, or a short real project note (with customer permission).
 3. Create a **Google Business Profile** for the Mumbai office only. Never create profiles for cities without a real office.
 4. When the owner confirms more cities, add their rows to section 4 and use the same city prompt.

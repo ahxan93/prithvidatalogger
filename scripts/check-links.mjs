@@ -12,6 +12,7 @@
 //   - #hash links whose id does not exist on the target page
 //   - links to localhost or a non-live domain (vercel.app, www.)
 //   - trailing-slash and upper-case mismatches
+//   - links to the retired nested /locations/... URLs (location pages are /data-logger-{slug})
 // Exits 1 if anything is reported, so a broken link fails the build.
 
 import { spawn, spawnSync } from "node:child_process";
@@ -168,6 +169,8 @@ async function main() {
       }
 
       const target = url.pathname;
+      // Location pages live at /data-logger-{slug}; the nested /locations/... URLs only redirect.
+      if (/^\/locations\/./.test(target)) report("legacy-location-url", href, pathname, "link to the flat /data-logger-… URL");
       const hash = decodeURIComponent(url.hash.slice(1));
 
       // Hash-only hrefs ("#main") resolve against the current page; only real paths are checked.

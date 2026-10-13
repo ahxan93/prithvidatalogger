@@ -1,4 +1,4 @@
-// Extra page data for /locations/[...slug] (brief §7.9), keyed by the node's
+// Extra page data for the location pages (/data-logger-{slug}) (brief §7.9), keyed by the node's
 // slug path ("india/maharashtra"). The unique copy (intro, industries,
 // cities, support note, FAQs) lives on the node itself in locations.ts. Cities
 // built to the playbook template carry their own meta title, description and

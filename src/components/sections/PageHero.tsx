@@ -7,6 +7,8 @@ import { cn } from "@/lib/cn";
 type PageHeroProps = {
   /** Breadcrumb trail after "Home"; the last item is this page. */
   crumbs: Crumb[];
+  /** Full hierarchy for the BreadcrumbList JSON-LD when the visible row is shortened. */
+  schemaCrumbs?: Crumb[];
   /** The page's single H1. */
   title: ReactNode;
   eyebrow?: string;
@@ -28,14 +30,14 @@ type PageHeroProps = {
 };
 
 // Dark hero for inner pages: breadcrumbs, H1, intro.
-export default function PageHero({ crumbs, title, eyebrow, intro, children, image, imageAlt, visual }: PageHeroProps) {
+export default function PageHero({ crumbs, schemaCrumbs, title, eyebrow, intro, children, image, imageAlt, visual }: PageHeroProps) {
   return (
     <Section tone="dark" hero className="overflow-hidden pb-14 sm:pb-16 lg:pb-20">
       <div aria-hidden="true" className="glow-brand pointer-events-none absolute -top-72 -right-56 size-[52rem] opacity-45" />
       <div aria-hidden="true" className="glow-violet pointer-events-none absolute -bottom-80 -left-64 size-[40rem] opacity-20" />
       <div className={cn("relative", Boolean(image || visual) && "grid items-center gap-10 lg:grid-cols-2 lg:gap-14")}>
         <div>
-          <Breadcrumbs items={crumbs} className="mb-5" />
+          <Breadcrumbs items={crumbs} schemaItems={schemaCrumbs} className="mb-5" />
           {eyebrow && (
             <p className="mb-3 text-xs font-semibold uppercase tracking-[0.14em] sm:text-sm text-cyan-400">{eyebrow}</p>
           )}

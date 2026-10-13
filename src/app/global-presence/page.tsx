@@ -2,7 +2,7 @@ import Link from "next/link";
 import LiveDeviceVisual from "@/components/sections/LiveDeviceVisual";
 import { getPageHeroDevices } from "@/data/page-heroes";
 import { supplySteps } from "@/data/company";
-import { GSM_NETWORK_NOTE, locations } from "@/data/locations";
+import { GSM_NETWORK_NOTE, locationHref, locations } from "@/data/locations";
 import CtaBand from "@/components/sections/CtaBand";
 import PageHero from "@/components/sections/PageHero";
 import PresenceMap from "@/components/sections/PresenceMap";
@@ -51,7 +51,7 @@ export default function GlobalPresencePage() {
               <article className="group relative flex h-full flex-col rounded-2xl border border-slate-200/80 bg-white p-6 shadow-soft transition duration-300 hover:border-brand-200 hover:shadow-soft-lg focus-within:border-brand-300">
                 <h3 className="font-heading text-xl font-semibold text-ink">
                   <Link
-                    href={`/locations/${country.slug}`}
+                    href={locationHref([country.slug])}
                     className="after:absolute after:inset-0 after:rounded-2xl focus-visible:outline-none"
                   >
                     {country.name}

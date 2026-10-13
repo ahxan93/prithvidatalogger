@@ -11,7 +11,10 @@ import path from "node:path";
 import { products, commonSpecs, monitoringFeatures, formatMrp, formatFromPrice } from "../src/data/products.ts";
 import { industries } from "../src/data/industries.ts";
 import { services } from "../src/data/services.ts";
-import { locations, getAllLocations, needsGsmNetworkNote, GSM_NETWORK_NOTE, isCityPage } from "../src/data/locations.ts";
+import {
+  locations, getAllLocations, needsGsmNetworkNote, GSM_NETWORK_NOTE, isCityPage,
+  locationHref, locationFlatSlug, locationUrlProblems, allFlatSlugs, legacyLocationHref, LOCATION_URL_PREFIX,
+} from "../src/data/locations.ts";
 import { buildEnquiryOptions, CALIBRATION_MAPPING_OPTION, VALIDATION_OPTION } from "../src/data/enquiry.ts";
 import * as company from "../src/data/company.ts";
 import * as home from "../src/data/home.ts";
@@ -175,6 +178,32 @@ for (const slug of mustBeIndexable) {
 const countryNames = locations.map((l) => l.name);
 for (const c of siteConfig.countriesServed) if (!countryNames.includes(c)) fail(`locations: country "${c}" from site.ts missing`);
 
+// ---------------------------------------------------------------- location URLs
+// Every location page lives at one flat URL, /data-logger-{slug}. The data tree
+// stays hierarchical. A city and an area that share a slug are told apart by
+// the -industrial-area suffix on the area; any slug still duplicated fails.
+{
+  for (const problem of locationUrlProblems()) fail(`location-urls: ${problem}`);
+  for (const slug of allFlatSlugs()) {
+    if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(slug)) fail(`location-urls: "${slug}" is not a lowercase-hyphen slug`);
+  }
+  const hrefs = new Map();
+  for (const { path: p } of all) {
+    const href = locationHref(p);
+    if (hrefs.has(href)) fail(`location-urls: ${p.join("/")} and ${hrefs.get(href)} share ${href}`);
+    hrefs.set(href, p.join("/"));
+  }
+  for (const a of areas) {
+    const city = all.find((l) => l.node.type === "city" && l.node.slug === a.citySlug);
+    if (!city) continue;
+    const p = [...city.path, a.slug];
+    const href = locationHref(p);
+    if (hrefs.has(href)) fail(`location-urls: area ${p.join("/")} and ${hrefs.get(href)} share ${href}`);
+    hrefs.set(href, p.join("/"));
+  }
+  notes.push(`location-urls: ${hrefs.size} flat URLs, no duplicate slugs`);
+}
+
 /** Every piece of copy that is unique to a node (shared template blocks excluded). */
 const uniqueTexts = (node) =>
   isCityPage(node)
@@ -295,7 +324,7 @@ for (const r of cityResults) notes.push(`city ${r.where}: ${r.uniqueWords} uniqu
   for (const { node, path: p } of all) {
     if (!isCityPage(node) || !node.indexable) continue;
     const where = p.join("/");
-    const file = path.join(APP_DIR, "locations", ...p) + ".html";
+    const file = path.join(APP_DIR, "data-logger", locationFlatSlug(p)) + ".html";
     if (!fs.existsSync(file)) { notes.push(`city ${where}: rendered checks skipped (run npm run build first)`); continue; }
     const html = fs.readFileSync(file, "utf8");
     const f = (msg) => fail(`city-render: ${where} ${msg}`);
@@ -321,7 +350,7 @@ for (const r of cityResults) notes.push(`city ${r.where}: ${r.uniqueWords} uniqu
     // Cluster links.
     const main = (html.match(/<main[\s\S]*<\/main>/) ?? [html])[0];
     const hrefs = [...main.matchAll(/href="([^"#?]+)/g)].map((m) => m[1]);
-    const stateHref = "/locations/" + p.slice(0, 2).join("/");
+    const stateHref = locationHref(p.slice(0, 2));
     if (!hrefs.includes(stateHref)) f(`does not link to its state hub ${stateHref}`);
     if (new Set(hrefs.filter((h) => h.startsWith("/industries/") && h !== "/industries/")).size < 3) f("links to fewer than 3 industry pages");
     if (new Set(hrefs.filter((h) => /^\/products\/[a-z-]+$/.test(h))).size < 3) f("links to fewer than 3 product pages");
@@ -329,7 +358,7 @@ for (const r of cityResults) notes.push(`city ${r.where}: ${r.uniqueWords} uniqu
     // Sibling links: every nearby city that has a live page must be linked.
     for (const n of node.nearby) {
       const sib = all.find((l) => l.node.slug === n.slug && l.node.indexable);
-      if (sib && !hrefs.includes("/locations/" + sib.path.join("/"))) f(`does not link to nearby city ${n.slug}`);
+      if (sib && !hrefs.includes(locationHref(sib.path))) f(`does not link to nearby city ${n.slug}`);
     }
     // Banned wording in what visitors actually see.
     const visible = main.replace(/<script[\s\S]*?<\/script>/g, " ").replace(/<style[\s\S]*?<\/style>/g, " ").replace(/<[^>]+>/g, " ");
@@ -576,7 +605,7 @@ if (!siteConfig.showPrices) {
     const city = all.find((l) => l.node.type === "city" && l.node.slug === a.citySlug);
     if (!city) continue;
     const where = [...city.path, a.slug].join("/");
-    const file = path.join(APP_DIR, "locations", ...where.split("/")) + ".html";
+    const file = path.join(APP_DIR, "data-logger", locationFlatSlug(where.split("/"))) + ".html";
     if (!fs.existsSync(file)) { notes.push(`area ${where}: rendered checks skipped (run npm run build first)`); continue; }
     const html = fs.readFileSync(file, "utf8");
     const f = (msg) => fail(`area-render: ${where} ${msg}`);
@@ -598,12 +627,59 @@ if (!siteConfig.showPrices) {
     if (svc && !(svc.areaServed ?? []).some((x) => (x.name ?? "").startsWith(a.name))) f("Service areaServed must name the area");
     const main = (html.match(/<main[\s\S]*<\/main>/) ?? [html])[0];
     const hrefs = [...main.matchAll(/href="([^"#?]+)/g)].map((m) => m[1]);
-    const cityHref = "/locations/" + city.path.join("/");
+    const cityHref = locationHref(city.path);
     if (!hrefs.includes(cityHref)) f(`does not link to its parent city ${cityHref}`);
-    const nearbyLinked = a.page.nearby.filter((n) => hrefs.some((h) => h.endsWith("/" + n)));
+    const nearbyLinked = a.page.nearby.filter((n) => hrefs.includes(locationHref([...city.path, n])));
     if (a.page.nearby.length && !nearbyLinked.length) f("links to none of its nearby areas");
     for (const svcPage of services) if (!hrefs.includes(svcPage.href)) f(`does not link to ${svcPage.href}`);
     if (!/<input[^>]*type="hidden"[^>]*name="city"/.test(html)) f("has no hidden city field in the enquiry form");
+  }
+}
+
+// Rendered/config check for the flat location URLs (needs a prior build).
+{
+  const APP_DIR = path.join(ROOT, ".next/server/app");
+  const manifestFile = path.join(ROOT, ".next/routes-manifest.json");
+  if (!fs.existsSync(APP_DIR) || !fs.existsSync(manifestFile)) {
+    notes.push("location-urls: redirect and link checks skipped (run npm run build first)");
+  } else {
+    const manifest = JSON.parse(fs.readFileSync(manifestFile, "utf8"));
+    const redirects = new Map((manifest.redirects ?? []).map((r) => [r.source, r]));
+    const known = [
+      ...all.map((l) => l.path),
+      ...areas.flatMap((a) => {
+        const city = all.find((l) => l.node.type === "city" && l.node.slug === a.citySlug);
+        return a.page && city ? [[...city.path, a.slug]] : [];
+      }),
+    ];
+    for (const p of known) {
+      const r = redirects.get(legacyLocationHref(p));
+      if (!r) fail(`location-urls: no redirect from ${legacyLocationHref(p)}`);
+      else if (r.statusCode !== 301 || r.destination !== locationHref(p)) {
+        fail(`location-urls: ${legacyLocationHref(p)} must 301 to ${locationHref(p)} (found ${r.statusCode} to ${r.destination})`);
+      }
+    }
+    // No rendered page may link to, or declare, an old nested location URL.
+    const legacy = /(?:^|[^a-z0-9-])\/locations\/[a-z0-9]+[^<]{0,80}/;
+    const visit = (dir) => {
+      for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+        const full = path.join(dir, entry.name);
+        if (entry.isDirectory()) visit(full);
+        else if (entry.name.endsWith(".html")) {
+          const m = fs.readFileSync(full, "utf8").match(legacy);
+          if (m) fail(`location-urls: old nested URL in ${path.relative(APP_DIR, full)}: ${m[0].slice(0, 120)}`);
+        }
+      }
+    };
+    visit(APP_DIR);
+    // Canonical of every location page is its flat URL.
+    for (const slug of allFlatSlugs()) {
+      const file = path.join(APP_DIR, "data-logger", slug + ".html");
+      if (!fs.existsSync(file)) continue;
+      const canonical = (fs.readFileSync(file, "utf8").match(/<link rel="canonical" href="([^"]+)"/) ?? [])[1];
+      const expected = new URL(`/${LOCATION_URL_PREFIX}${slug}`, siteConfig.url).toString();
+      if (canonical !== expected) fail(`location-urls: ${slug} canonical is ${canonical}, expected ${expected}`);
+    }
   }
 }
 

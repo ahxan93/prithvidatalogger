@@ -42,6 +42,17 @@ linking, SEO settings, city data and quality checks).
 - Contact details (phone, WhatsApp, email, address) come only from `src/config/site.ts`.
   Never hard-code them in components or content.
 
+## Location URLs
+- Every location page (country, state, city, area) is one flat URL: `/data-logger-{slug}`. Never write or
+  link a nested `/locations/...` URL; build links with `locationHref(path)` from `src/data/locations.ts`.
+  `/locations` stays as the single hub listing everything.
+- The data tree (country > state > city > area) stays hierarchical in `src/data/locations.ts` and
+  `src/data/areas.ts`. If an area slug collides with a city, state or country slug, the area becomes
+  `{slug}-industrial-area` automatically; `npm run check:data` fails on any duplicate slug.
+- Old nested paths 301-redirect from `next.config.ts`. Visible breadcrumbs are short (Home > City > Area,
+  or Home > Locations > State for hubs); BreadcrumbList JSON-LD keeps the full hierarchy
+  (`locationCrumbs()` in `src/lib/location-crumbs.ts`).
+
 ## Placeholder pages
 - Placeholder/dummy pages (e.g. `/blog/__placeholder__`) must be `noindex` and excluded from
   `sitemap.xml`.

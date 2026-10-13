@@ -4,6 +4,8 @@
 // details only from src/config/site.ts. Nodes with `indexable: false` are
 // rendered noindex and left out of sitemap.xml.
 
+import { areas } from "./areas.ts";
+
 export type LocationType = "country" | "state" | "city";
 
 export type LocationFaq = { question: string; answer: string };
@@ -1463,7 +1465,92 @@ export function findLocation(path: string[]): ResolvedLocation | undefined {
   return node ? { node, path, trail } : undefined;
 }
 
+// ---------------------------------------------------------------------------
+// URLs. The data tree stays hierarchical (country > state > city > area), but
+// every public URL is a single flat segment: /data-logger-{slug}. When a city
+// and an area share a slug the area takes the AREA_SUFFIX; any slug still
+// duplicated after that is reported by locationUrlProblems() and fails
+// `npm run check:data`.
+// ---------------------------------------------------------------------------
+
+export const LOCATION_URL_PREFIX = "data-logger-";
+export const AREA_SLUG_SUFFIX = "-industrial-area";
+
+type FlatEntry = { key: string; base: string; kind: LocationType | "area" };
+
+type FlatIndex = {
+  /** tree path ("india/maharashtra/mumbai") -> flat slug ("mumbai") */
+  byPath: Map<string, string>;
+  /** flat slug -> tree path */
+  bySlug: Map<string, string[]>;
+  problems: string[];
+};
+
+let flatIndex: FlatIndex | undefined;
+
+function buildFlatIndex(): FlatIndex {
+  const all = getAllLocations();
+  const entries: FlatEntry[] = all.map((l) => ({ key: l.path.join("/"), base: l.node.slug, kind: l.node.type }));
+  for (const area of areas) {
+    const city = all.find((l) => l.node.type === "city" && l.node.slug === area.citySlug);
+    // An area whose city has no page yet still reserves its slug (so it never
+    // takes another page's URL later) but has no path of its own.
+    const key = city ? [...city.path, area.slug].join("/") : `unplaced/${area.citySlug}/${area.slug}`;
+    entries.push({ key, base: area.slug, kind: "area" });
+  }
+
+  const byPath = new Map<string, string>();
+  const bySlug = new Map<string, string[]>();
+  const problems: string[] = [];
+  const claim = (entry: FlatEntry, slug: string) => {
+    const owner = bySlug.get(slug);
+    if (owner) {
+      problems.push(`duplicate location slug "${slug}": ${owner.join("/")} and ${entry.key}`);
+      return;
+    }
+    byPath.set(entry.key, slug);
+    bySlug.set(slug, entry.key.split("/"));
+  };
+
+  // Countries, states and cities keep their own slug; areas yield on a clash.
+  for (const entry of entries.filter((e) => e.kind !== "area")) claim(entry, entry.base);
+  for (const entry of entries.filter((e) => e.kind === "area")) {
+    claim(entry, bySlug.has(entry.base) ? `${entry.base}${AREA_SLUG_SUFFIX}` : entry.base);
+  }
+  return { byPath, bySlug, problems };
+}
+
+function getFlatIndex(): FlatIndex {
+  return (flatIndex ??= buildFlatIndex());
+}
+
+/** The flat slug of a node or area given its tree path (without the data-logger- prefix). */
+export function locationFlatSlug(path: string[]): string {
+  return getFlatIndex().byPath.get(path.join("/")) ?? path[path.length - 1];
+}
+
+/** Public URL of a location node or area page, e.g. /data-logger-mumbai. */
 export function locationHref(path: string[]): string {
+  return `/${LOCATION_URL_PREFIX}${locationFlatSlug(path)}`;
+}
+
+/** Tree path for a flat slug (the part after data-logger-), or undefined. */
+export function pathForFlatSlug(flat: string): string[] | undefined {
+  return getFlatIndex().bySlug.get(flat);
+}
+
+/** Every flat slug in use, for static params, sitemap checks and redirects. */
+export function allFlatSlugs(): string[] {
+  return [...getFlatIndex().bySlug.keys()];
+}
+
+/** Duplicate flat slugs; must stay empty. */
+export function locationUrlProblems(): string[] {
+  return getFlatIndex().problems;
+}
+
+/** The retired nested URL of a tree path; only used to build 301 redirects and to detect stray links. */
+export function legacyLocationHref(path: string[]): string {
   return `/locations/${path.join("/")}`;
 }
 

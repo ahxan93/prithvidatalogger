@@ -3,12 +3,13 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { industries } from "@/data/industries";
 import {
+  allFlatSlugs,
   findLocation,
-  getAllLocations,
   GSM_NETWORK_NOTE,
   isCityPage,
   locationHref,
   needsGsmNetworkNote,
+  pathForFlatSlug,
   type ResolvedLocation,
 } from "@/data/locations";
 import { locationContent } from "@/data/location-content";
@@ -19,6 +20,7 @@ import CityPage from "@/components/locations/CityPage";
 import LiveDeviceVisual from "@/components/sections/LiveDeviceVisual";
 import { getCityHeroDevices } from "@/data/page-heroes";
 import { findAreaByPath, isAreaIndexable, writtenAreas } from "@/lib/areas";
+import { locationCrumbs } from "@/lib/location-crumbs";
 import ProductCard from "@/components/products/ProductCard";
 import CtaBand from "@/components/sections/CtaBand";
 import PageHero from "@/components/sections/PageHero";
@@ -31,17 +33,22 @@ import { ArrowRightIcon, CheckCircleIcon, HeadsetIcon, MapPinIcon } from "@/comp
 import { locationServiceSchema } from "@/lib/schema";
 import { buildMetadata } from "@/lib/seo";
 
-// One static page per node in the location tree (country, state and city).
-// Unknown paths fall through to notFound() and render the 404 page.
+// One static page per node in the location tree (country, state and city) and
+// per written area, served at the flat URL /data-logger-{slug}. next.config.ts
+// rewrites /data-logger-:slug to this route, so the dynamic segment here is the
+// bare slug. Unknown slugs fall through to notFound() and render the 404 page.
 // Every valid path is prerendered at build time, so navigations may wait for the
 // (static) page instead of showing a loading shell.
 export const instant = false;
 
 export function generateStaticParams() {
-  return [
-    ...getAllLocations().map((location) => ({ slug: location.path })),
-    ...writtenAreas().map(({ path }) => ({ slug: path })),
-  ];
+  // Areas without a written page get no route (their path is not in the tree walk below).
+  return allFlatSlugs()
+    .filter((slug) => {
+      const path = pathForFlatSlug(slug);
+      return path && (findLocation(path) || findAreaByPath(path));
+    })
+    .map((slug) => ({ slug }));
 }
 
 /** Page copy that is derived from the node: H1 pattern from brief §7.9. */
@@ -54,8 +61,9 @@ function describe(location: ResolvedLocation) {
 
 export async function generateMetadata({
   params,
-}: PageProps<"/locations/[...slug]">): Promise<Metadata> {
-  const { slug } = await params;
+}: PageProps<"/data-logger/[slug]">): Promise<Metadata> {
+  const { slug: flat } = await params;
+  const slug = pathForFlatSlug(flat) ?? [];
   const location = findLocation(slug);
   if (!location) {
     // Area pages (Country > State > City > Area) carry their own title and description.
@@ -66,7 +74,7 @@ export async function generateMetadata({
       description: found.area.page.metaDescription,
       path: locationHref(slug),
       absoluteTitle: true,
-      image: `/og/locations/${slug.join("/")}`,
+      image: `/og/locations/${flat}`,
       // Indexable only if the author said so AND every area check passes.
       noIndex: !isAreaIndexable(found.area),
     });
@@ -81,7 +89,7 @@ export async function generateMetadata({
       description: node.metaDescription,
       path: locationHref(location.path),
       absoluteTitle: true,
-      image: `/og/locations/${location.path.join("/")}`,
+      image: `/og/locations/${flat}`,
       noIndex: !node.indexable,
     });
   }
@@ -113,8 +121,9 @@ function industryLink(label: string): string | undefined {
   return slug && industries.some((industry) => industry.slug === slug) ? `/industries/${slug}` : undefined;
 }
 
-export default async function LocationPage({ params }: PageProps<"/locations/[...slug]">) {
-  const { slug } = await params;
+export default async function LocationPage({ params }: PageProps<"/data-logger/[slug]">) {
+  const { slug: flat } = await params;
+  const slug = pathForFlatSlug(flat) ?? [];
   const location = findLocation(slug);
   if (!location) {
     const found = findAreaByPath(slug);
@@ -127,6 +136,7 @@ export default async function LocationPage({ params }: PageProps<"/locations/[..
 
   const { content, place, title } = describe(location);
   const href = locationHref(path);
+  const crumbs = locationCrumbs(path, trail.map((n) => n.name), node.type);
   const isMumbai = path.join("/") === "india/maharashtra/mumbai";
   const outsideIndia = needsGsmNetworkNote(path);
   const recommended = (content?.recommended ?? [])
@@ -140,10 +150,8 @@ export default async function LocationPage({ params }: PageProps<"/locations/[..
       <JsonLd data={locationServiceSchema({ name: node.name, type: node.type, path: href, hasOffice: isMumbai })} />
 
       <PageHero
-        crumbs={[
-          { name: "Locations", href: "/locations" },
-          ...trail.map((item, i) => ({ name: item.name, href: locationHref(path.slice(0, i + 1)) })),
-        ]}
+        crumbs={crumbs.items}
+        schemaCrumbs={crumbs.schemaItems}
         eyebrow={node.type === "country" ? "Country" : node.type === "state" ? "State" : "City"}
         title={title}
         intro={node.intro}

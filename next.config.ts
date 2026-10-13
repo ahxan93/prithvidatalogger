@@ -1,5 +1,35 @@
 import type { NextConfig } from "next";
 import createMDX from "@next/mdx";
+import { areas } from "./src/data/areas.ts";
+import {
+  getAllLocations,
+  legacyLocationHref,
+  locationFlatSlug,
+  locationHref,
+  LOCATION_URL_PREFIX,
+} from "./src/data/locations.ts";
+
+// Every location page (tree nodes and written areas) used to live at a nested
+// /locations/... path. Each old path gets a permanent redirect to its flat URL,
+// and so does the old Open Graph image route.
+function legacyLocationRedirects() {
+  const all = getAllLocations();
+  const paths = [
+    ...all.map((l) => l.path),
+    ...areas.flatMap((area) => {
+      const city = all.find((l) => l.node.type === "city" && l.node.slug === area.citySlug);
+      return area.page && city ? [[...city.path, area.slug]] : [];
+    }),
+  ];
+  return paths.flatMap((path) => [
+    { source: legacyLocationHref(path), destination: locationHref(path), statusCode: 301 as const },
+    {
+      source: `/og/locations/${path.join("/")}`,
+      destination: `/og/locations/${locationFlatSlug(path)}`,
+      statusCode: 301 as const,
+    },
+  ]);
+}
 
 const nextConfig: NextConfig = {
   /* config options here */
@@ -17,6 +47,13 @@ const nextConfig: NextConfig = {
   // Canonical host is the apex domain (no www).
   async redirects() {
     return [
+      ...legacyLocationRedirects(),
+      // The internal route behind the rewrite below is never a public URL.
+      {
+        source: "/data-logger/:slug",
+        destination: `/${LOCATION_URL_PREFIX}:slug`,
+        statusCode: 301 as const,
+      },
       {
         source: "/:path*",
         has: [{ type: "host", value: "www.prithvidataloggers.com" }],
@@ -24,6 +61,18 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
     ];
+  },
+
+  // /data-logger-{slug} is served by src/app/data-logger/[slug] (Next cannot
+  // match a partial dynamic segment in the file system).
+  async rewrites() {
+    return {
+      beforeFiles: [
+        { source: `/${LOCATION_URL_PREFIX}:slug`, destination: "/data-logger/:slug" },
+      ],
+      afterFiles: [],
+      fallback: [],
+    };
   },
 
   // Baseline security headers. No CSP: the site embeds Google Maps (iframe)

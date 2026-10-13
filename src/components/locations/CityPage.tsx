@@ -24,6 +24,7 @@ import LiveDeviceVisual from "@/components/sections/LiveDeviceVisual";
 import { getCityHeroDevices } from "@/data/page-heroes";
 import { getWrittenAreasForCity } from "@/data/areas";
 import { areaHref } from "@/lib/areas";
+import { locationCrumbs } from "@/lib/location-crumbs";
 import { telHref, whatsappCityHref } from "@/lib/contact";
 import { cityServiceSchema, localBusinessSchema } from "@/lib/schema";
 
@@ -58,10 +59,7 @@ export default async function CityPage({ city }: { city: ResolvedCity }) {
   const stateHref = locationHref(path.slice(0, 2));
   const isMumbai = path.join("/") === "india/maharashtra/mumbai";
 
-  const crumbs = [
-    { name: "Locations", href: "/locations" },
-    ...trail.map((item, i) => ({ name: item.name, href: locationHref(path.slice(0, i + 1)) })),
-  ];
+  const crumbs = locationCrumbs(path, trail.map((item) => item.name), "city");
 
   const recommended = node.recommendedSeries
     .map((item) => ({ ...item, series: getProductBySlug(item.slug) }))
@@ -98,7 +96,7 @@ export default async function CityPage({ city }: { city: ResolvedCity }) {
         <div aria-hidden="true" className="glow-violet pointer-events-none absolute -bottom-80 -left-64 size-[40rem] opacity-20" />
         <div className="relative">
           <div data-city-section="breadcrumbs">
-            <Breadcrumbs items={crumbs} className="mb-5" />
+            <Breadcrumbs items={crumbs.items} schemaItems={crumbs.schemaItems} className="mb-5" />
           </div>
           <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
           <div>

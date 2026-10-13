@@ -2,18 +2,20 @@ import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { ImageResponse } from "next/og";
 import { siteConfig } from "@/config/site";
-import { findLocation, getAllLocations } from "@/data/locations";
-import { findAreaByPath, writtenAreas } from "@/lib/areas";
+import { allFlatSlugs, findLocation, pathForFlatSlug } from "@/data/locations";
+import { findAreaByPath } from "@/lib/areas";
 
 // OG image for a location page (1200x630). A route handler rather than the
 // opengraph-image file convention, which cannot sit under a catch-all segment.
 const size = { width: 1200, height: 630 };
 
 export function generateStaticParams() {
-  return [
-    ...getAllLocations().map((location) => ({ slug: location.path })),
-    ...writtenAreas().map(({ path }) => ({ slug: path })),
-  ];
+  return allFlatSlugs()
+    .filter((slug) => {
+      const path = pathForFlatSlug(slug);
+      return path && (findLocation(path) || findAreaByPath(path));
+    })
+    .map((slug) => ({ slug }));
 }
 
 const NAVY = "#0b1026";
@@ -24,8 +26,9 @@ const ACCENT_TO = "#22d3ee";
 const logoData = await readFile(join(process.cwd(), "public", siteConfig.logo));
 const logoSrc = `data:image/png;base64,${logoData.toString("base64")}`;
 
-export async function GET(_request: Request, { params }: { params: Promise<{ slug: string[] }> }) {
-  const { slug } = await params;
+export async function GET(_request: Request, { params }: { params: Promise<{ slug: string }> }) {
+  const { slug: flat } = await params;
+  const slug = pathForFlatSlug(flat) ?? [];
   const location = findLocation(slug);
   const found = location ? undefined : findAreaByPath(slug);
   const cityTrail = found ? findLocation(found.cityPath)?.trail : undefined;

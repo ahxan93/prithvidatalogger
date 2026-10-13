@@ -15,6 +15,7 @@ import SectionHeading from "@/components/ui/SectionHeading";
 import { ArrowRightIcon, MapPinIcon, PhoneIcon, WhatsAppIcon } from "@/components/ui/icons";
 import { areaCityMeta, writtenAreas } from "@/lib/areas";
 import { telHref, whatsappCityHref } from "@/lib/contact";
+import { locationCrumbs } from "@/lib/location-crumbs";
 import { areaServiceSchema } from "@/lib/schema";
 
 // Area page: Country > State > City > Area (src/data/areas.ts). Sections carry
@@ -36,11 +37,7 @@ export default function AreaPage({ area, cityPath }: { area: AreaDef; cityPath: 
   const href = locationHref(path);
   const trail = city?.trail ?? [];
 
-  const crumbs = [
-    { name: "Locations", href: "/locations" },
-    ...trail.map((item, i) => ({ name: item.name, href: locationHref(cityPath.slice(0, i + 1)) })),
-    { name: area.name, href },
-  ];
+  const crumbs = locationCrumbs(path, [...trail.map((item) => item.name), area.name], "area");
 
   const nearby = page.nearby
     .map((slug) => writtenAreas().find((w) => w.area.slug === slug))
@@ -66,7 +63,7 @@ export default function AreaPage({ area, cityPath }: { area: AreaDef; cityPath: 
         <div aria-hidden="true" className="glow-violet pointer-events-none absolute -bottom-80 -left-64 size-[40rem] opacity-20" />
         <div className="relative">
           <div data-area-section="breadcrumbs">
-            <Breadcrumbs items={crumbs} className="mb-5" />
+            <Breadcrumbs items={crumbs.items} schemaItems={crumbs.schemaItems} className="mb-5" />
           </div>
           <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
             <div>

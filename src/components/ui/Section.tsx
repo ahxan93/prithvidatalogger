@@ -58,7 +58,7 @@ export default function Section({
         !hero && tone !== "dark" && "cv-auto",
         // .site-main already reserves header-height padding above every page's
         // first section; this adds breathing room beyond that, under the header.
-        hero && "pt-12 sm:pt-16 lg:pt-20",
+        hero && "pt-6 sm:pt-8 lg:pt-10",
         toneClasses[tone],
         tone === "dark" && pattern && "bg-dot-grid",
         className,

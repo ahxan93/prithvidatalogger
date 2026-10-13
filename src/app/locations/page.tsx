@@ -8,6 +8,7 @@ import Button from "@/components/ui/Button";
 import Section from "@/components/ui/Section";
 import SectionHeading from "@/components/ui/SectionHeading";
 import { ArrowRightIcon, MapPinIcon } from "@/components/ui/icons";
+import { isAreaIndexable, writtenAreas } from "@/lib/areas";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
@@ -24,6 +25,17 @@ export default function LocationsPage() {
       .filter((location) => location.node.indexable)
       .map((location) => locationHref(location.path)),
   );
+
+  // Every indexable area page, grouped under its city (the hub lists everything).
+  const areaGroups = getAllLocations()
+    .filter((location) => location.node.type === "city" && location.node.indexable)
+    .map((city) => ({
+      city,
+      areas: writtenAreas().filter(
+        ({ area, path }) => area.citySlug === city.node.slug && isAreaIndexable(area) && path.length > 0,
+      ),
+    }))
+    .filter((group) => group.areas.length > 0);
 
   return (
     <>
@@ -94,6 +106,39 @@ export default function LocationsPage() {
             })}
         </ul>
       </Section>
+
+      {areaGroups.length > 0 && (
+        <Section tone="surface" aria-labelledby="locations-areas-title">
+          <SectionHeading
+            id="locations-areas-title"
+            title="Cities and Industrial Areas"
+            subtitle="Every city and area page, grouped by city."
+          />
+          <ul className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {areaGroups.map(({ city, areas: cityAreas }) => (
+              <li key={city.path.join("/")} className="rounded-2xl border border-slate-200/80 bg-white p-6 shadow-soft">
+                <h3 className="font-heading text-lg font-semibold text-ink">
+                  <Link href={locationHref(city.path)} className="hover:text-brand-600">
+                    {city.node.name}
+                  </Link>
+                </h3>
+                <ul className="mt-4 flex flex-wrap gap-2">
+                  {cityAreas.map(({ area, path }) => (
+                    <li key={area.slug}>
+                      <Link
+                        href={locationHref(path)}
+                        className="inline-flex min-h-11 items-center rounded-full bg-surface px-3.5 text-sm font-medium text-ink ring-1 ring-inset ring-slate-200 transition-colors hover:bg-brand-50 hover:text-brand-700"
+                      >
+                        {area.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </li>
+            ))}
+          </ul>
+        </Section>
+      )}
 
       <CtaBand
         id="locations-cta"
