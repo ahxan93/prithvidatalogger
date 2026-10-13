@@ -45,6 +45,8 @@
 - **Collisions:** if a city/state/country and an area share a slug (for example Noida, Navi Mumbai,
   Vasai), the node keeps the plain slug and the area automatically becomes
   `/data-logger-{area}-industrial-area`. `npm run check:data` fails on any duplicate flat slug.
+  A state that shares a city's slug (Delhi the state and Delhi the city) is the exception: the city keeps
+  `/data-logger-delhi` and the state hub becomes `/data-logger-delhi-state`.
   Slugs are reserved for every `AreaDef` even before its page is written, so adding a city later only
   ever renames the area's URL, never another city's.
 - **Redirects:** `next.config.ts` 301-redirects every old nested `/locations/...` path (and the old

@@ -1163,6 +1163,371 @@ export const locations: LegacyLocationNode[] = [
           },
         ],
       },
+      {
+        slug: "delhi",
+        name: "Delhi",
+        type: "state",
+        intro:
+          "Delhi is a city-state with its own cluster of industrial areas at Okhla, Naraina, Bawana and Narela, around a very large base of hospitals, medicine distributors and food businesses. This state page is the parent of our Delhi city page; it will be written in full when the hub pages are built.",
+        localIndustries: [
+          "Hospitals and diagnostic laboratories",
+          "Pharmaceutical distribution",
+          "Food and cold storage",
+        ],
+        citiesServed: ["Delhi"],
+        supportNote:
+          "Supply, installation support and site visits for Delhi are arranged from our Mumbai office. Write to us with the area and what you store.",
+        faqs: [
+          {
+            question: "Which Delhi page covers the industrial areas?",
+            answer: "The Delhi city page describes Okhla, Naraina, Bawana and Narela and links to the loggers we suggest for each kind of room.",
+          },
+          {
+            question: "How do we arrange a visit in Delhi?",
+            answer: "Send the area, the rooms and a contact through the enquiry form, WhatsApp or a call, and we agree a day with your team.",
+          },
+        ],
+        // Noindex until its hub prompt runs; it exists as the parent of its city page.
+        indexable: false,
+        children: [
+          {
+            slug: "delhi",
+            name: "Delhi",
+            type: "city",
+            intro:
+              "Delhi is a city of records: hospitals and nursing homes, wholesale medicine markets, cold stores that feed the capital's kitchens and a dense spread of laboratories, all in a city that never quite switches off. A temperature data logger in Delhi has to cover rooms of very different kinds, from a hospital blood bank to a godown in an industrial area on the northern edge. The estates at Okhla, Naraina, Bawana and Narela each have their own character, and many of the buildings are older, multi-storey and cramped, so running cable is rarely an option. Wireless loggers with alerts to phones and email let one person watch rooms in several parts of the city, and a dated log gives hospitals, distributors and food businesses something firm to show when an inspector or a customer asks how a room was kept.",
+            climateAngle:
+              "Summers are extreme and dry, with afternoon heat that overwhelms ageing cooling in godowns and upper-floor stores, while cold winter nights can chill rooms that were only ever designed to stay warm.",
+            areas: [
+              {
+                name: "Okhla",
+                note: "A long-established industrial area in the south of the city where pharmaceutical, packaging, garment and electrical units share tight plots and storage is a room or a floor beside production.",
+              },
+              {
+                name: "Naraina",
+                note: "A compact industrial area in the west with small manufacturers, printers and workshops, where goods are kept on upper floors that hold the day's heat long after sunset.",
+              },
+              {
+                name: "Bawana",
+                note: "A large estate on the north-western edge, laid out later than the older areas, with food-processing, plastics and warehousing units on bigger plots and long distances between buildings.",
+              },
+              {
+                name: "Narela",
+                note: "A northern industrial and warehousing belt where distribution firms and food businesses keep stock in large sheds, often far from the person responsible for it.",
+              },
+            ],
+            industries: [
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals and nursing homes in the city keep blood bank fridges, medicine rooms and vaccine stores that must stay in range through a power cut, and an alert to the duty staff matters most at night.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine wholesalers and distributors hold stock in shop-floor stores and small warehouses where the compressor of one air conditioner decides the temperature of everything on the shelves.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Cold stores, dairy depots and kitchens that supply hotels and caterers have chambers opened many times a day, so a reading every few minutes shows the pattern of each door opening.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "Diagnostic and testing laboratories keep reagents, samples and reference materials in fridges and freezers that are checked by hand at most twice a day.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels cover a hospital pharmacy or distributor's store from floor to top shelf and door with one device, which keeps a crowded small room tidy.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an external probe sits inside a laboratory freezer or a ward fridge without needing a cable through the door seal.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger keeps reporting from a godown or a delivery vehicle where the building has no usable Wi-Fi, which is common in older industrial lanes.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Do you arrange site visits across Okhla, Naraina, Bawana and Narela?",
+                answer:
+                  "Yes. We plan visits by direction so one day covers neighbouring areas. Send the area, the rooms and a contact through the enquiry form, WhatsApp or a call, and we confirm a day with you.",
+              },
+              {
+                question: "How do cold winter nights affect the alerts?",
+                answer:
+                  "A low limit can be set alongside the high one, so a store that gets too cold on a winter night raises an alert just as a hot afternoon would. Limits are set room by room, so a medicine fridge and a dry store each get their own.",
+              },
+              {
+                question: "Can a hospital group watch several buildings from one login?",
+                answer:
+                  "Yes. Each building is a site with its rooms beneath it, alerts go to the person responsible for each room, and a head of quality sees every site in one view and can export a report for any period.",
+              },
+              {
+                question: "What do you do in old multi-storey buildings where cabling is hard?",
+                answer:
+                  "Loggers run on rechargeable batteries and connect over Wi-Fi, and GSM versions use the mobile network, so nothing has to be chased through a wall. We check the signal in each room during the visit before fixing positions.",
+              },
+            ],
+            nearby: [
+              { slug: "noida", name: "Noida" },
+              { slug: "manesar", name: "Manesar" },
+              { slug: "chandigarh", name: "Chandigarh" },
+            ],
+            metaTitle: "Temperature Data Loggers in Delhi | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Delhi's hospitals, medicine distributors and cold stores in Okhla, Bawana and Narela. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "uttar-pradesh",
+        name: "Uttar Pradesh",
+        type: "state",
+        intro:
+          "Uttar Pradesh's industry that we serve first sits on the eastern edge of the capital region, in the planned townships of Noida and Greater Noida. This state page is the parent of our Uttar Pradesh city pages; it will be written in full when the hub pages are built.",
+        localIndustries: [
+          "Electronics manufacturing",
+          "Data centres and server rooms",
+          "Warehousing and distribution",
+        ],
+        citiesServed: ["Noida"],
+        supportNote:
+          "Supply, installation support and site visits for Uttar Pradesh sites are arranged from our Mumbai office. Write to us with the sector and what you store.",
+        faqs: [
+          {
+            question: "Which Uttar Pradesh city page is available?",
+            answer: "The Noida page covers Noida and Greater Noida, and more cities of the state will follow with their own pages.",
+          },
+          {
+            question: "How do we start an enquiry from Uttar Pradesh?",
+            answer: "Send the location and what you need to monitor through the enquiry form, WhatsApp or a call, and our team replies to discuss it.",
+          },
+        ],
+        // Noindex until its hub prompt runs; it exists as the parent of its city pages.
+        indexable: false,
+        children: [
+          {
+            slug: "noida",
+            name: "Noida",
+            type: "city",
+            intro:
+              "Noida is a planned township on the eastern bank of the Yamuna, built in numbered sectors with industrial blocks, office parks and warehouses kept apart from the residential grid. Electronics assemblers and component makers, data centre operators and the warehouses that move their goods all share the same wide roads. A temperature data logger in Noida usually watches rooms that are larger and newer than those of the old city, such as a clean assembly area, a server hall or a long distribution shed, and those rooms often belong to firms with a head office elsewhere that wants one view of many sites. Greater Noida repeats the pattern further south-east, with bigger plots and longer distances between buildings. Wireless loggers with alerts and exportable reports let a regional manager keep watch without driving from one site to the next.",
+            climateAngle:
+              "Hot, dry summers put strong sun on large metal roofs and cold, foggy winters follow, so a big shed swings between extremes within a year, and the damp spell of the monsoon matters for boards and packaging.",
+            areas: [
+              {
+                name: "Noida Phase I–II",
+                note: "The older industrial blocks of the township, laid out in sectors, where electronics, garment and engineering units sit on mid-sized plots beside offices and service lanes.",
+              },
+              {
+                name: "Greater Noida",
+                note: "A newer township to the south-east with large plots, logistics parks and wide spacing between buildings, which suits wireless loggers that need no cable run between a store and a control room.",
+              },
+              {
+                name: "Data centre and warehouse parks",
+                note: "Purpose-built blocks of server halls and distribution sheds, where cooling is engineered but a single failed unit can still warm a room quickly.",
+              },
+            ],
+            industries: [
+              {
+                slug: "electronics",
+                sentence:
+                  "Assembly and component firms hold boards, displays and finished sets in stores that must stay dry, and a humidity log shows whether the dehumidifier held through a damp week.",
+              },
+              {
+                slug: "data-centers",
+                sentence:
+                  "Data centre and server room operators watch inlet temperature and humidity at rack height, so that a failing cooling unit shows up as a trend before equipment raises its own alarm.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Distribution warehouses hold goods for several customers under one roof, and a reading for each bay shows which customer's stock stood in the warmest corner. Several of these sheds sit on plots large enough that a dock at one end and a store at the other behave like separate buildings, so each end is worth its own probe.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels cover a long distribution shed across several bays and heights, so one device reports on spots that are a long walk apart.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads relative humidity as well as temperature, which is the number that matters most in a store of boards and components.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four probes cover the inlet, the hot aisle, the cooling plant door and the UPS room of a small server hall, from a single logger.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can one manager watch plants in Noida, Greater Noida and Manesar together?",
+                answer:
+                  "Yes. Each plant is its own site on the dashboard, shift leads receive alerts for their own rooms and a regional manager can open every site in one list and compare records side by side.",
+              },
+              {
+                question: "How do you position probes in a server hall?",
+                answer:
+                  "We place probes at rack inlet height along the cold aisle, one at the top of a row where hot air collects and one near the cooling plant, and add humidity where the room has an open window or door to a corridor.",
+              },
+              {
+                question: "What happens to the readings if a shed loses power?",
+                answer:
+                  "The logger keeps storing readings on its battery through a cut and sends them when the network returns, and GSM versions can still report while the building's Wi-Fi is down.",
+              },
+              {
+                question: "Is calibration available for loggers used on an electronics line?",
+                answer:
+                  "Calibration of loggers and probes, and temperature mapping of larger rooms, are delivered by VEGA Calibrations, which can plan certificates around your production calendar. Tell us the ranges and the probe positions you use, and we confirm how the work is arranged and which certificates come with it.",
+              },
+            ],
+            nearby: [
+              { slug: "delhi", name: "Delhi" },
+              { slug: "manesar", name: "Manesar" },
+              { slug: "lucknow", name: "Lucknow" },
+            ],
+            metaTitle: "Temperature Data Loggers in Noida | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Noida and Greater Noida's electronics plants, data centres and warehouses. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "haryana",
+        name: "Haryana",
+        type: "state",
+        intro:
+          "Haryana's industry that we serve first lies on the highway south of Gurugram, in the large estates and warehouse parks around Manesar. This state page is the parent of our Haryana city pages; it will be written in full when the hub pages are built.",
+        localIndustries: [
+          "Automotive and electronics",
+          "Warehousing and distribution",
+          "Pharmaceutical manufacturing",
+        ],
+        citiesServed: ["Manesar"],
+        supportNote:
+          "Supply, installation support and site visits for Haryana plants are arranged from our Mumbai office. Write to us with the estate and what you store.",
+        faqs: [
+          {
+            question: "Which Haryana city page is available?",
+            answer: "The Manesar page covers IMT Manesar and the warehouse parks near it, and more Haryana cities will follow with their own pages.",
+          },
+          {
+            question: "How do we arrange a plant visit in Haryana?",
+            answer: "Send the estate, the buildings and a contact through the enquiry form, WhatsApp or a call, and we agree a day with your team.",
+          },
+        ],
+        // Noindex until its hub prompt runs; it exists as the parent of its city pages.
+        indexable: false,
+        children: [
+          {
+            slug: "manesar",
+            name: "Manesar",
+            type: "city",
+            intro:
+              "Manesar lies along the Delhi–Jaipur highway south of Gurugram, and most of its industry sits inside IMT Manesar, the Industrial Model Township, and the warehouse parks that have grown up beside it. Automotive and electronics plants and their component suppliers fill the estate, with pharmaceutical units and large distribution sheds for goods moving across north India. A temperature data logger in Manesar mostly watches big, relatively new buildings: a paint and adhesive store at an assembly plant, a component room beside an electronics line, a long warehouse bay with several customers' pallets. Distances inside a single plant are long and the people responsible for a store may be a few buildings away, so alerts that follow a person to their phone and a log that survives a shift change are what make the monitoring useful.",
+            climateAngle:
+              "Summers are hot and dry with dust blowing across the plains, and winters are cold enough to chill unheated stores, so the same shed has to be watched against both a high and a low limit.",
+            areas: [
+              {
+                name: "IMT Manesar",
+                note: "The planned township's industrial sectors, where assembly plants, component suppliers and electronics units stand on large plots with their own stores, utilities and quality rooms.",
+              },
+              {
+                name: "Warehouse parks along the highway",
+                note: "Distribution sheds built for national logistics firms stand beside the highway and hold goods for several customers, each in a bay with its own storage conditions.",
+              },
+              {
+                name: "Supplier units around the plants",
+                note: "Smaller firms that make parts, coatings and packaging for the assembly plants keep materials in rooms that must meet the buyer's written storage limits.",
+              },
+            ],
+            industries: [
+              {
+                slug: "electronics",
+                sentence:
+                  "Electronics lines keep components and finished units in stores that need steady, dry air, and a logged humidity trend shows the buyer how a lot was held before it was fitted.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Warehouse operators on the highway hold pallets for several customers in the same building, and a reading for each bay settles disputes about whose stock stood where.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmaceutical units and the stores that serve them hold ingredients and packed goods in controlled rooms that are reviewed during customer visits.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Paint, adhesive and coating stores at assembly plants carry printed storage limits, and an alert on a rising reading gives time to act before a batch is wasted.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels spread through a long warehouse bay at different heights, so hot top shelves and cold floor-level pallets both show up in the same report.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels sit at the top and bottom of a curing or storage room, which gives a supplier a paired record for a buyer's qualification file.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger keeps reporting from a yard or a loaded vehicle where no building Wi-Fi reaches, which suits goods waiting between the plant and the road.",
+              },
+            ],
+            faqs: [
+              {
+                question: "What do you need to know before a visit to an IMT Manesar plant?",
+                answer:
+                  "Send the plant, the stores to look at and the person who controls the gate. Most plants need visitors registered in advance, and we plan the day around that and your safety rules. If a plant has several buildings, tell us which stores matter most and we start there, so a first visit ends with a clear list of positions instead of a half-finished walk-through.",
+              },
+              {
+                question: "Can the same setup watch a supplier's stores and our own?",
+                answer:
+                  "Each firm can have its own site and alert recipients, and a buyer can be given access to the reports it needs without seeing the rest of the supplier's account.",
+              },
+              {
+                question: "How are long distances between buildings handled?",
+                answer:
+                  "Loggers are battery powered and report over the plant's Wi-Fi or the mobile network, so no cable is needed between a store and the control room, and we choose which fits after seeing the layout.",
+              },
+              {
+                question: "Can mapping be arranged for a large warehouse bay?",
+                answer:
+                  "Temperature mapping is delivered by VEGA Calibrations, our parent company, and it shows where the warm and cold spots sit before permanent loggers are placed at those positions.",
+              },
+            ],
+            nearby: [
+              { slug: "delhi", name: "Delhi" },
+              { slug: "noida", name: "Noida" },
+              { slug: "jaipur", name: "Jaipur" },
+            ],
+            metaTitle: "Temperature Data Loggers in Manesar | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for IMT Manesar's automotive, electronics and pharma plants and highway warehouses. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
     ],
   },
   {
@@ -1468,13 +1833,15 @@ export function findLocation(path: string[]): ResolvedLocation | undefined {
 // ---------------------------------------------------------------------------
 // URLs. The data tree stays hierarchical (country > state > city > area), but
 // every public URL is a single flat segment: /data-logger-{slug}. When a city
-// and an area share a slug the area takes the AREA_SUFFIX; any slug still
+// and an area share a slug the area takes the AREA_SLUG_SUFFIX (and a state
+// that shares a city's slug, like Delhi, takes STATE_SLUG_SUFFIX); any slug still
 // duplicated after that is reported by locationUrlProblems() and fails
 // `npm run check:data`.
 // ---------------------------------------------------------------------------
 
 export const LOCATION_URL_PREFIX = "data-logger-";
 export const AREA_SLUG_SUFFIX = "-industrial-area";
+export const STATE_SLUG_SUFFIX = "-state";
 
 type FlatEntry = { key: string; base: string; kind: LocationType | "area" };
 
@@ -1512,8 +1879,13 @@ function buildFlatIndex(): FlatIndex {
     bySlug.set(slug, entry.key.split("/"));
   };
 
-  // Countries, states and cities keep their own slug; areas yield on a clash.
-  for (const entry of entries.filter((e) => e.kind !== "area")) claim(entry, entry.base);
+  // Countries and cities keep their own slug. A state yields to a city or country
+  // of the same name (Delhi the state vs Delhi the city), and an area yields to
+  // any node.
+  for (const entry of entries.filter((e) => e.kind === "country" || e.kind === "city")) claim(entry, entry.base);
+  for (const entry of entries.filter((e) => e.kind === "state")) {
+    claim(entry, bySlug.has(entry.base) ? `${entry.base}${STATE_SLUG_SUFFIX}` : entry.base);
+  }
   for (const entry of entries.filter((e) => e.kind === "area")) {
     claim(entry, bySlug.has(entry.base) ? `${entry.base}${AREA_SLUG_SUFFIX}` : entry.base);
   }

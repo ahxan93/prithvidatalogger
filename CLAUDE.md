@@ -48,7 +48,8 @@ linking, SEO settings, city data and quality checks).
   `/locations` stays as the single hub listing everything.
 - The data tree (country > state > city > area) stays hierarchical in `src/data/locations.ts` and
   `src/data/areas.ts`. If an area slug collides with a city, state or country slug, the area becomes
-  `{slug}-industrial-area` automatically; `npm run check:data` fails on any duplicate slug.
+  `{slug}-industrial-area` automatically (a state sharing a city's slug, e.g. Delhi, becomes
+  `{slug}-state`); `npm run check:data` fails on any duplicate slug.
 - Old nested paths 301-redirect from `next.config.ts`. Visible breadcrumbs are short (Home > City > Area,
   or Home > Locations > State for hubs); BreadcrumbList JSON-LD keeps the full hierarchy
   (`locationCrumbs()` in `src/lib/location-crumbs.ts`).
