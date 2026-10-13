@@ -1949,9 +1949,137 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   // ------------------------------------------------------------------ Bengaluru (data entries)
-  { slug: "peenya", name: "Peenya", citySlug: "bengaluru", areaType: "industrial-estate", nearbyIndustries: ["electronics", "pharmaceutical", "logistics-warehousing"], confirmedService: true, hero: ["dhruva", "veer-pro"] },
-  { slug: "electronic-city", name: "Electronic City", citySlug: "bengaluru", areaType: "business-district", nearbyIndustries: ["electronics", "data-centers", "laboratories"], confirmedService: true, hero: ["setu", "vayu"] },
-  { slug: "whitefield", name: "Whitefield", citySlug: "bengaluru", areaType: "business-district", nearbyIndustries: ["data-centers", "laboratories", "hospitals-blood-banks"], confirmedService: true, hero: ["setu", "veer"] },
+  { slug: "peenya", name: "Peenya", citySlug: "bengaluru", areaType: "industrial-estate", nearbyIndustries: ["electronics", "pharmaceutical", "logistics-warehousing"], confirmedService: true, hero: ["dhruva", "veer-pro"], page: {
+      "metaTitle": "Data Loggers in Peenya, Bengaluru | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Peenya's engineering, electronics and packaging units in Bengaluru. Visits arranged. Get Solution.",
+      "intro": "Peenya is the north-western engineering belt of Bengaluru, one of the older and larger industrial estates in the city, with machine shops, tool rooms, component makers, small electronics firms and packaging units on compact plots. The estate has grown by addition, with extra floors and sheds built wherever space allowed, and a firm's store is often a corner of the production floor or a room above it. Much of the stock is metal and electrical, which fears damp more than heat, so humidity matters beside temperature, and the monitoring has to fit inside a workshop that was never planned around it.",
+      "places": [
+        {
+          "name": "Estate plots and stages",
+          "note": "Rows of compact plots arranged in stages, where production halls, stores and small offices share buildings extended many times over the years."
+        },
+        {
+          "name": "Machine shops and tool rooms",
+          "note": "Workshops keep finished parts, gauges and consumables in cabinets and rooms where oil mist and damp air move through the same space."
+        },
+        {
+          "name": "Electronics and packaging units",
+          "note": "Small assemblers and carton makers hold boards, cables and printed packs in stores beside the line, with limits set by the customer who buys them."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "electronics",
+          "sentence": "Small assemblers keep boards and harnesses in stores that must stay dry, and a humidity trend shows whether a monsoon week pushed a cupboard out of range."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Packaging and contract units that serve medicine makers hold printed cartons and foils in rooms with stated limits, and an exported log satisfies a buyer's quality visit."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Godowns holding parts and finished goods for several workshops take loads at every hour, and a reading by bay shows which corner suffers most from afternoon roof heat."
+        },
+        {
+          "slug": "laboratories",
+          "sentence": "Calibration rooms and inspection laboratories inside the workshops need steady conditions for gauges and instruments, and a logged room confirms that a measurement was taken in range."
+        }
+      ],
+      "services": "For Peenya we supply compact WiFi loggers that read humidity as well as temperature, multi-channel units where one floor holds several stores and GSM versions for back sheds without a network. VEGA Calibrations, our parent company, calibrates loggers and other instruments and can map larger rooms, so the monitoring and its paperwork can be planned together.",
+      "visits": "Send the stage or street, the plot and the person who will meet us through the enquiry form, WhatsApp or a call, and we agree a day with you. Roads in the estate are busy, so we fix an arrival time around your shift and group Peenya with other north-western stops. Please mention narrow stairs or a lift, since loggers and probes are carried in by hand.",
+      "approach": "In a Peenya workshop we would start with the inspection room or the store that holds finished parts for a demanding buyer, placing a humidity-reading logger away from the window and the compressor. A few weeks, including a wet spell, show how much the room moves and whether other cupboards need a device of their own.",
+      "nearby": [
+        "electronic-city",
+        "whitefield"
+      ],
+      "indexable": true
+    } },
+  { slug: "electronic-city", name: "Electronic City", citySlug: "bengaluru", areaType: "business-district", nearbyIndustries: ["electronics", "data-centers", "laboratories"], confirmedService: true, hero: ["setu", "vayu"], page: {
+      "metaTitle": "Data Loggers in Electronic City, Bengaluru | Prithvi",
+      "metaDescription": "Temperature and humidity data loggers for Electronic City's technology campuses, labs and server rooms in Bengaluru. Get Solution.",
+      "intro": "Electronic City is the technology and electronics township on the southern side of Bengaluru, built as a set of large campuses with research laboratories, hardware makers, software offices and the server rooms and network closets that serve them. Buildings here were designed around air conditioning, and the rooms that matter most are the ones that depend on it: a hall full of racks, a clean assembly bay, a laboratory with its own chillers. Because the climate outside is mild, a rising reading nearly always points to a fault inside, and the sooner a person knows, the smaller the loss.",
+      "places": [
+        {
+          "name": "Technology campuses",
+          "note": "Large fenced campuses hold office towers, laboratories and server halls spread across wide plots, each building with its own cooling plant and facilities team."
+        },
+        {
+          "name": "Hardware and electronics units",
+          "note": "Makers of boards, instruments and devices keep components and finished sets in stores and assembly bays with stated temperature and humidity limits."
+        },
+        {
+          "name": "Research and test laboratories",
+          "note": "Testing and development laboratories hold samples, reagents and prototypes in chambers and fridges that need records for every run."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "electronics",
+          "sentence": "Hardware makers hold sensitive components in dry rooms with humidity limits, and a log that continues through a long weekend shows the room stayed within them while nobody was on site."
+        },
+        {
+          "slug": "data-centers",
+          "sentence": "Campus server halls and network closets are watched at rack inlet height, and an alert on a cooling trend gives the facilities team time to start a standby unit."
+        },
+        {
+          "slug": "laboratories",
+          "sentence": "Test and development laboratories run climatic chambers and sample fridges, and a record kept outside the chamber's own controller gives an independent view of what the unit really did."
+        }
+      ],
+      "services": "In Electronic City we supply four-channel loggers for server halls, WiFi loggers with humidity sensing for dry rooms and single-point units for laboratory fridges. Our parent company, VEGA Calibrations, supports calibration, mapping of larger rooms and validation, so campuses that keep formal files can plan the loggers and their certificates together.",
+      "visits": "Campuses register visitors ahead of time, so please send the campus, the buildings and the contact who will receive us through the enquiry form or WhatsApp. Security and escort rules differ between campuses, and some server rooms allow entry only in set windows, so tell us the window. We plan the visit alongside other southern Bengaluru stops.",
+      "approach": "On a campus we would begin with the server hall and one laboratory, putting probes at rack inlet height and inside the chamber or fridge. A fortnight shows each room's normal swing, and alert limits are then set just outside it, so a real fault stands out and routine door openings do not raise false alarms.",
+      "nearby": [
+        "whitefield",
+        "peenya"
+      ],
+      "indexable": true
+    } },
+  { slug: "whitefield", name: "Whitefield", citySlug: "bengaluru", areaType: "business-district", nearbyIndustries: ["data-centers", "laboratories", "hospitals-blood-banks"], confirmedService: true, hero: ["setu", "veer"], page: {
+      "metaTitle": "Data Loggers in Whitefield, Bengaluru | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Whitefield's tech parks, hospitals and laboratories on Bengaluru's east side. Get Solution.",
+      "intro": "Whitefield is the eastern district of Bengaluru, where technology parks, research centres, hospitals and large residential communities sit side by side along a corridor that has grown quickly. Many buildings are recent and tall, with floors of server rooms, pharmacies and laboratories stacked above offices, and the people responsible for them are often in a different tower from the equipment. Because each campus holds several kinds of room under one management, the useful question is how to give one team a single view of rooms with very different limits, from a vaccine fridge to a rack aisle.",
+      "places": [
+        {
+          "name": "Technology parks",
+          "note": "Office parks with server rooms, network closets and shared cooling plants, where one cooling fault can affect rooms on several floors at once."
+        },
+        {
+          "name": "Hospitals and healthcare campuses",
+          "note": "Large hospitals and diagnostic centres keep pharmacies, blood storage and vaccine fridges that are watched in shifts around the clock."
+        },
+        {
+          "name": "Research and development centres",
+          "note": "Corporate research centres run laboratories with sample freezers, reagent stores and test chambers inside buildings that also house offices."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "data-centers",
+          "sentence": "Park operators and tenants run server rooms on shared cooling, so a logged trend per room shows whose equipment first felt a drop in cooling capacity."
+        },
+        {
+          "slug": "hospitals-blood-banks",
+          "sentence": "Hospital pharmacies and blood storage hold stock that cannot be replaced overnight, and an alert to the duty pharmacist covers the hours when the pharmacy is closed."
+        },
+        {
+          "slug": "laboratories",
+          "sentence": "Research centres keep samples in freezers and incubators on upper floors, and one dashboard lists every unit so that a quality head sees them without walking a tower."
+        },
+        {
+          "slug": "vaccine-cold-chain",
+          "sentence": "Clinics and vaccination centres in the district keep vaccine fridges that must hold a narrow range, with a door sensor to catch a fridge left ajar after a busy clinic."
+        }
+      ],
+      "services": "For Whitefield we supply WiFi loggers for single fridges and rooms, multi-channel units for server halls and pharmacy stores, and GSM versions where a basement room has no signal. VEGA Calibrations, our parent company, offers calibration and mapping, so a hospital or a research centre can plan equipment and certificates together.",
+      "visits": "Please send the park or hospital, the tower and floor, and the person who will meet us through the enquiry form, WhatsApp or a call. Hospitals often need visits timed around pharmacy hours, and parks need visitors registered at the gate. Traffic on the corridor is heavy, so we agree an arrival time with you and group Whitefield with other east-side stops.",
+      "approach": "At a hospital campus we would begin with the pharmacy store and the blood storage unit, adding the vaccine fridge next. In a technology park we would take the server room on the shared cooling first. In both cases a fortnight of readings sets the alert limits, and a named second contact covers nights.",
+      "nearby": [
+        "electronic-city",
+        "peenya"
+      ],
+      "indexable": true
+    } },
   // ------------------------------------------------------------------ Chennai (data entries)
   { slug: "ambattur", name: "Ambattur", citySlug: "chennai", areaType: "industrial-estate", nearbyIndustries: ["electronics", "pharmaceutical", "logistics-warehousing"], confirmedService: true, hero: ["dhruva", "virat-pro"] },
   { slug: "sriperumbudur", name: "Sriperumbudur", citySlug: "chennai", areaType: "industrial-estate", nearbyIndustries: ["electronics", "logistics-warehousing", "pharmaceutical"], confirmedService: true, hero: ["virat-pro", "vayu"] },

@@ -1654,6 +1654,136 @@ export const locations: LegacyLocationNode[] = [
           },
         ],
       },
+      {
+        slug: "karnataka",
+        name: "Karnataka",
+        type: "state",
+        intro:
+          "Karnataka's industry that we serve first is concentrated around its capital: engineering estates in the north-west, electronics and technology parks in the south and east, and a research and biotech base that runs across the city. This state page is the parent of our Karnataka city pages; it will be written in full when the hub pages are built.",
+        localIndustries: [
+          "Electronics and technology parks",
+          "Biotech and research laboratories",
+          "Data centres and server rooms",
+        ],
+        citiesServed: ["Bengaluru"],
+        supportNote:
+          "Supply, installation support and site visits for Karnataka sites are arranged from our Mumbai office. Write to us with the area and what you store.",
+        faqs: [
+          {
+            question: "Which Karnataka city page is available?",
+            answer: "The Bengaluru page covers Peenya, Electronic City, Whitefield, Bommasandra and Jigani, and more cities will follow with their own pages.",
+          },
+          {
+            question: "How do we start an enquiry from Karnataka?",
+            answer: "Send the location and what you need to monitor through the enquiry form, WhatsApp or a call, and our team replies to discuss it.",
+          },
+        ],
+        // Noindex until its hub prompt runs; it exists as the parent of its city page.
+        indexable: false,
+        children: [
+          {
+            slug: "bengaluru",
+            name: "Bengaluru",
+            type: "city",
+            intro:
+              "Bengaluru, still called Bangalore by many who live and work there, is a city of campuses more than of factories. Technology parks, research institutes, biotech firms, hospitals and electronics makers share the same ring roads with the older engineering estates of the north-west. A temperature data logger in Bengaluru therefore spends much of its time in rooms that exist to protect something delicate: a server hall, a laboratory freezer, a clean assembly area, an operating theatre store. The climate is mild, so the load comes from inside the building, from racks and compressors and people, and a cooling fault can raise a room's temperature faster than the weather ever would. Alerts to phones and email, with a dated record behind them, let a facilities or quality team look after several campuses without sitting beside the equipment.",
+            climateAngle:
+              "The weather is mild for most of the year, so heat in a room usually comes from its own equipment, and the afternoon showers of the monsoon months raise humidity in stores that are otherwise comfortably dry.",
+            areas: [
+              {
+                name: "Peenya",
+                note: "One of the older and larger engineering estates, in the north-west, where machine shops, component makers and small electronics firms hold material in sheds on compact plots.",
+              },
+              {
+                name: "Electronic City",
+                note: "A technology and electronics township in the south with large campuses, laboratories and server rooms in buildings that were designed around air conditioning.",
+              },
+              {
+                name: "Whitefield",
+                note: "A technology and healthcare district on the east side, where office parks, research centres and hospitals keep server halls, pharmacies and laboratories on one campus.",
+              },
+              {
+                name: "Bommasandra",
+                note: "An industrial area on the south-eastern edge with pharmaceutical, electronics and engineering units on larger plots, linked to the city by a busy highway.",
+              },
+              {
+                name: "Jigani",
+                note: "An estate further south where newer plants and warehouses have more space, and the distances between buildings favour wireless monitoring.",
+              },
+            ],
+            industries: [
+              {
+                slug: "laboratories",
+                sentence:
+                  "Research institutes and biotech firms keep reagents, cell material and samples in freezers and incubators, and a probe inside each unit gives a record that does not depend on the door display.",
+              },
+              {
+                slug: "data-centers",
+                sentence:
+                  "Server halls and network closets on the technology parks run on engineered cooling, and a logged trend at rack inlet height shows a failing unit long before equipment trips its own alarm.",
+              },
+              {
+                slug: "electronics",
+                sentence:
+                  "Electronics makers hold components and finished boards in stores that must stay dry, and a humidity record shows how a room behaved through the showers of the rainy months.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospital pharmacies, blood banks and vaccine fridges are watched around the clock, with alerts that reach the duty pharmacist when a door is left open or a unit loses power.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an optional external probe fits a laboratory fridge or a ward medicine cabinet without changing how the unit is used.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four probes cover the cold aisle, the hot aisle, the cooling unit door and the power room of a server hall from one logger.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity along with temperature, which is the number that decides whether a component store or a clean area is within its limits in the rainy months.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Do you cover Bangalore as well as Bengaluru?",
+                answer:
+                  "Yes, they are the same city. Whichever name you use, send the area and what you store through the enquiry form, WhatsApp or a call, and we arrange the visit.",
+              },
+              {
+                question: "How is a server room different from a store when placing probes?",
+                answer:
+                  "A server hall is watched at rack inlet height along the cold aisle and at the top of a row where heat collects, while a store is watched at the warmest shelf and near the door. We set limits for each room's purpose.",
+              },
+              {
+                question: "Can several campuses be watched by one facilities team?",
+                answer:
+                  "Yes. Each campus is a site on the dashboard, each building's alerts go to the person who looks after it and a head of facilities sees every site together, with reports that can be exported for any period.",
+              },
+              {
+                question: "Can we have the loggers calibrated before a laboratory audit?",
+                answer:
+                  "Calibration of loggers and probes is delivered by VEGA Calibrations, our parent company, and can be timed ahead of an audit date. Send the audit date and the ranges you use and we confirm how it is arranged.",
+              },
+            ],
+            nearby: [
+              { slug: "chennai", name: "Chennai" },
+              { slug: "hyderabad", name: "Hyderabad" },
+              { slug: "coimbatore", name: "Coimbatore" },
+            ],
+            metaTitle: "Temperature Data Loggers in Bengaluru | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers in Bengaluru (Bangalore) for labs, data centres, electronics plants and hospitals. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
     ],
   },
   {
