@@ -2924,31 +2924,88 @@ export const locations: LegacyLocationNode[] = [
         name: "Dubai",
         type: "city",
         intro:
-          "Dubai's hotels, cold stores, clinics, pharmacies and food distributors all have to keep stock at the right temperature while summer heat works against their refrigeration. Our loggers send live readings and instant alerts, so a cooling failure in a store in Al Quoz or a warehouse near Jebel Ali is noticed straight away rather than at the next manual check.",
-        localIndustries: [
-          "Hotels, restaurants and catering kitchens",
-          "Cold stores and food distributors",
-          "Clinics, pharmacies and medical stores",
-          "Logistics warehouses",
-          "Last-mile delivery fleets",
+          "Dubai is a trading city where goods arrive, wait and leave again: shipped into Jebel Ali, held in free-zone and bonded warehouses, repacked and sent on to markets across the region. A temperature data logger in Dubai therefore watches stock that is passing through as often as stock that stays, and the time a lot spends in a store matters to an owner who may be in another country. Food importers, medicine distributors, hotels with dozens of kitchens and re-export traders all work in a climate where summer heat and humidity press on every cooling plant. Prithvi supplies WiFi loggers from India, with alerts to phones and email and remote set-up with your team, so a trader, a chef or a quality manager can read a room's record from anywhere without a visit.",
+        climateAngle:
+          "Heat and humidity peak together through the long summer, and the cooling that carries a store through it runs close to its limit for months, so condenser coils work hard, doors fog when they open onto warm corridors and a store that is comfortable in winter can drift out of range by the afternoon.",
+        areas: [
+          {
+            name: "Jebel Ali",
+            note: "The port and free-zone district to the south-west, where containers are unloaded and goods wait in large bonded and free-zone warehouses before onward movement.",
+          },
+          {
+            name: "Al Quoz",
+            note: "An industrial and warehouse district inland, where traders, food suppliers and service firms keep stock in mid-sized units close to the city's shops and kitchens.",
+          },
+          {
+            name: "Hotel and restaurant kitchens",
+            note: "Hospitality businesses run walk-in fridges, freezers and bar coolers by the dozen, many of them opened constantly through service and several floors away from the engineer.",
+          },
         ],
-        citiesServed: ["Jebel Ali", "Al Quoz", "Dubai Investments Park", "Deira", "Dubai South"],
-        supportNote:
-          "Loggers for Dubai sites are shipped from India. Once they arrive, we walk your team through connecting them to Wi-Fi and setting alert limits, so monitoring starts without anyone needing to fly in.",
+        industries: [
+          {
+            slug: "logistics-warehousing",
+            sentence:
+              "Re-export and freight warehouses hold goods for owners overseas, and a reading for each bay shows exactly how long a lot stood in the warm air before it was released.",
+          },
+          {
+            slug: "food-beverage",
+            sentence:
+              "Importers, caterers and hotel kitchens keep chillers and freezers that are opened all day, so one dashboard with an alert to the duty engineer replaces a round of manual checks, and the chef or store manager can open the same view from a phone during service.",
+          },
+          {
+            slug: "pharmaceutical",
+            sentence:
+              "Medicine distributors and pharmacies hold stock in rooms with stated ranges, and an exported log lets a distributor answer a customer's query without searching through paper records.",
+          },
+        ],
+        recommendedSeries: [
+          {
+            slug: "virat",
+            reason:
+              "Sixteen channels cover a large free-zone warehouse across racks, dock doors and floor positions, so one report shows how a whole bonded hall behaves.",
+          },
+          {
+            slug: "setu",
+            reason:
+              "A single-point logger with an external probe sits inside a kitchen walk-in or a bar cooler without altering how the unit is used or opened.",
+          },
+          {
+            slug: "nakshatra",
+            reason:
+              "Reads humidity along with temperature, which shows when warm, damp air from a corridor or a loading door is fogging a chilled room.",
+          },
+        ],
         faqs: [
           {
-            question: "Will WiFi loggers work in a large warehouse with tall racking?",
+            question: "How is monitoring started for a Dubai site when the loggers come from India?",
             answer:
-              "Multi-channel loggers place several probes from one device, which helps in large or obstructed spaces. LoRa versions with long-range radio are available on request.",
+              "Loggers are dispatched from India and registered to your dashboard. We then connect them to your Wi-Fi and set rooms, limits and alert contacts with your team over a call or video, so recording begins without a visit. After the first few weeks we review the limits with you, so routine door openings during service stop raising alarms and a real fault stands out.",
           },
           {
-            question: "What suits a hotel or restaurant kitchen?",
+            question: "Can one hotel group watch every property from a single login?",
             answer:
-              "Setu or Nakshatra loggers suit individual fridges and freezers. The external hooter adds an audible alarm in the kitchen when a temperature goes out of range or a door is left open.",
+              "Yes. Each property is a site on the dashboard, each kitchen's alerts go to its own engineer and a group manager sees every site together, with reports that can be exported for any period.",
+          },
+          {
+            question: "How does a re-export trader show an overseas owner how goods were held?",
+            answer:
+              "A report for the bay or room can be exported as PDF, Excel or CSV for the period the lot stayed, so the owner receives the same dated record the warehouse sees.",
+          },
+          {
+            question: "Can calibration be discussed for loggers used in Dubai?",
+            answer:
+              "VEGA Calibrations, our parent company, handles the calibration of loggers and probes. Tell us the model and the range you work to, and we explain how a hotel or a warehouse in Dubai can have it arranged.",
           },
         ],
-        // Awaiting its own playbook prompt; noindex and out of the sitemap until then.
-        indexable: false,
+        nearby: [
+          { slug: "riyadh", name: "Riyadh" },
+          { slug: "dammam", name: "Dammam" },
+          { slug: "bahrain", name: "Bahrain" },
+        ],
+        metaTitle: "Temperature Data Loggers in Dubai | Prithvi",
+        metaDescription:
+          "WiFi temperature and humidity data loggers for Dubai's re-export warehouses, food importers and hotel kitchens, set up remotely. Get Solution.",
+        indexable: true,
       },
     ],
   },

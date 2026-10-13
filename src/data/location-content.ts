@@ -94,11 +94,6 @@ export const locationContent: Record<string, LocationContent> = {
     recommended: ["setu", "nakshatra", "veer"],
     inName: "the UAE",
   },
-  "uae/dubai": {
-    metaDescription:
-      "Temperature data loggers in Dubai for hotels, cold stores, clinics and warehouses. Live readings and instant alerts, supplied from India.",
-    recommended: ["setu", "nakshatra", "dhruva"],
-  },
   qatar: {
     metaDescription:
       "Temperature data loggers in Qatar for hospitals, hotels, caterers and food distributors in Doha. Supplied from India with remote setup support.",
