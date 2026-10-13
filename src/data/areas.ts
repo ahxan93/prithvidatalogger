@@ -2081,9 +2081,133 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   // ------------------------------------------------------------------ Chennai (data entries)
-  { slug: "ambattur", name: "Ambattur", citySlug: "chennai", areaType: "industrial-estate", nearbyIndustries: ["electronics", "pharmaceutical", "logistics-warehousing"], confirmedService: true, hero: ["dhruva", "virat-pro"] },
-  { slug: "sriperumbudur", name: "Sriperumbudur", citySlug: "chennai", areaType: "industrial-estate", nearbyIndustries: ["electronics", "logistics-warehousing", "pharmaceutical"], confirmedService: true, hero: ["virat-pro", "vayu"] },
-  { slug: "oragadam", name: "Oragadam", citySlug: "chennai", areaType: "industrial-estate", nearbyIndustries: ["electronics", "logistics-warehousing", "food-beverage"], confirmedService: true, hero: ["nakshatra", "veer"] },
+  { slug: "ambattur", name: "Ambattur", citySlug: "chennai", areaType: "industrial-estate", nearbyIndustries: ["electronics", "pharmaceutical", "logistics-warehousing"], confirmedService: true, hero: ["dhruva", "virat-pro"], page: {
+      "metaTitle": "Data Loggers in Ambattur, Chennai | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Ambattur's engineering, electronics and pharma units in north-west Chennai. Visits arranged. Get Solution.",
+      "intro": "Ambattur is a large industrial estate on the north-western side of Chennai, with engineering shops, electronics assemblers, plastics and packaging firms and a long list of small suppliers that work for the bigger plants further out. Plots are compact and many buildings have been extended upward, so a store is usually a room on a floor above production or a corner of a shed. The humid coastal air reaches every room, and tools, cables and cartons all pick it up, which makes humidity as much a matter of record here as the temperature itself.",
+      "places": [
+        {
+          "name": "Estate blocks and streets",
+          "note": "Streets of compact plots with workshops, small assemblers and packaging firms, where each unit keeps its own store beside the shop floor."
+        },
+        {
+          "name": "Engineering and tool shops",
+          "note": "Machine shops hold finished parts, gauges and consumables in cabinets and rooms where humid air meets bare metal."
+        },
+        {
+          "name": "Electronics and packaging suppliers",
+          "note": "Small firms that make assemblies, cable harnesses and cartons for larger plants keep stock in rooms with limits set by their buyers."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "electronics",
+          "sentence": "Assemblers and harness makers keep components in cupboards and rooms where damp air from the coast settles, and a humidity trend shows which cupboard needs a dehumidifier."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Packaging suppliers to medicine makers hold printed cartons and labels in rooms with stated limits, and an exported log answers a buyer's quality visit."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Small godowns hold parts for several workshops and take loads through the day, and a dated reading by bay shows which shelf sat in the warmest air."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Small food packers and ingredient suppliers in the estate keep chilled and dry stock on one floor, so one view of both rooms helps a small team without a store keeper."
+        }
+      ],
+      "services": "For Ambattur we supply compact WiFi loggers with humidity sensing for small rooms, multi-channel units where one floor holds several stores and GSM versions for sheds with no network. VEGA Calibrations, our parent company, calibrates loggers and other instruments and can map larger rooms, so the equipment and its paperwork can be planned together.",
+      "visits": "Send the street or block, the unit and the person who will meet us through the enquiry form, WhatsApp or a call, and we agree a day with you. Lanes are busy at shift changes, so we fix an arrival time to suit your shift and group Ambattur with other north-western stops. Please mention stairs and any rules for visitors on the shop floor.",
+      "approach": "In an Ambattur unit we would start with the store that holds the most moisture-sensitive stock, placing a humidity-reading logger away from the door and the compressor. A few weeks that include a wet spell show how far the room moves, and that decides whether other cupboards need a device of their own.",
+      "nearby": [
+        "sriperumbudur",
+        "oragadam"
+      ],
+      "indexable": true
+    } },
+  { slug: "sriperumbudur", name: "Sriperumbudur", citySlug: "chennai", areaType: "industrial-estate", nearbyIndustries: ["electronics", "logistics-warehousing", "pharmaceutical"], confirmedService: true, hero: ["virat-pro", "vayu"], page: {
+      "metaTitle": "Data Loggers in Sriperumbudur, Chennai | Prithvi",
+      "metaDescription": "Temperature and humidity data loggers for Sriperumbudur's electronics and automotive plants near Chennai, with site visits. Get Solution.",
+      "intro": "Sriperumbudur lies to the south-west of Chennai and has become one of the region's major manufacturing hubs, with electronics and automotive plants and their suppliers standing on large plots inside planned industrial parks. The buildings are big and new, the roads inside the parks are wide and a single plant can hold several halls, a component warehouse and a utilities block on the same boundary. Because inbound parts arrive from many suppliers and finished goods leave toward the port, the conditions a lot met in the store matter to customers who may be on another continent. A plant that keeps its own record of every hall is better placed to answer such a customer than one that relies on memory and a handwritten round sheet.",
+      "places": [
+        {
+          "name": "Planned industrial parks",
+          "note": "Parks laid out with wide roads and large plots, where assembly halls, component stores and utility buildings are spaced well apart."
+        },
+        {
+          "name": "Component and parts warehouses",
+          "note": "Large stores hold boards, harnesses and sub-assemblies for the lines, with dock doors that bring in outside air at every delivery."
+        },
+        {
+          "name": "Supplier units serving the plants",
+          "note": "Suppliers of plastics, coatings and packaging work near the assembly plants and hold materials to the buyer's written storage limits."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "electronics",
+          "sentence": "Plants hold boards, modules and finished sets in dry stores, and a humidity record that runs through the north-east monsoon shows whether the room kept within a buyer's limits."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Parts warehouses keep goods from many suppliers under one roof, and a reading by bay shows which supplier's lot stood near the dock door on the hottest afternoons."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Pharmaceutical units and packaging suppliers in the parks hold materials in controlled rooms that are examined during customer visits."
+        }
+      ],
+      "services": "In Sriperumbudur we supply multi-channel loggers such as Veer and Virat for large stores, WiFi loggers for single rooms and GSM versions for far corners of a park. Our parent company, VEGA Calibrations, supports calibration, temperature mapping of large warehouses and validation, which suits plants that follow formal quality systems.",
+      "visits": "Plants inside the parks register visitors in advance, so please send the plant, the buildings and the contact through the enquiry form or WhatsApp. Distances are long, so a first visit is a full walk-through, and it helps if stores and quality can join it. We group Sriperumbudur with Oragadam so one day covers the corridor.",
+      "approach": "At a large plant we would begin with the component warehouse and one assembly store, placing probes near the dock doors, in the middle of the hall and at the highest rack. A month of readings, with a weekend in it, shows how the building behaves and which alert limits suit it before the rest of the site follows.",
+      "nearby": [
+        "oragadam",
+        "ambattur"
+      ],
+      "indexable": true
+    } },
+  { slug: "oragadam", name: "Oragadam", citySlug: "chennai", areaType: "industrial-estate", nearbyIndustries: ["electronics", "logistics-warehousing", "food-beverage"], confirmedService: true, hero: ["nakshatra", "veer"], page: {
+      "metaTitle": "Data Loggers in Oragadam, Chennai | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Oragadam's automotive, electronics and warehousing units near Chennai. Visits arranged. Get Solution.",
+      "intro": "Oragadam is an industrial park along the south-western corridor out of Chennai, where automotive and electronics plants, their component makers and a growing set of distribution warehouses share wide roads and large, mostly recent plots. Goods move in both directions: parts arrive from suppliers across the region, and finished products and food and consumer lines leave toward the port and the national highways. A warehouse here is as much a staging area as a store, so the question is how long goods stood at a dock and in what air before they were moved on. A reading at the dock door, kept beside the one in the racks, shows whether a delay at the gate or a slow loading bay was the real source of a warm spell.",
+      "places": [
+        {
+          "name": "Manufacturing plots",
+          "note": "Large plots with assembly halls and component stores in newer buildings, each with its own utilities and a quality room."
+        },
+        {
+          "name": "Distribution warehouses",
+          "note": "Racked warehouses hold goods for several customers and move them on within days, with dock doors open for much of the working day."
+        },
+        {
+          "name": "Food and consumer-goods units",
+          "note": "Packaged food and household-goods makers run chillers and dry stores inside the same park as the engineering plants."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Warehouse operators that stage goods for ports and highways use a reading at each dock to show how long a lot waited and in what air before it was loaded."
+        },
+        {
+          "slug": "electronics",
+          "sentence": "Electronics plants keep boards and finished sets in dry rooms, and a record that continues through storms shows that a dehumidifier or a cooling unit did its job."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Packaged food makers run chillers beside dry stores, and a door-opening pattern in the log shows which task during a shift warmed a room."
+        }
+      ],
+      "services": "For Oragadam we supply multi-channel loggers for racked warehouses, WiFi loggers for single rooms and GSM versions with external probes for yards and vehicles. VEGA Calibrations, our parent company, offers calibration and mapping, so a warehouse operator can plan the placement study and the instrument certificates as one job.",
+      "visits": "Please send the park, the plant or warehouse and the contact who will meet us through the enquiry form, WhatsApp or a call. Parks usually register visitors in advance and some food plants need hygiene clothing, so tell us what applies. We group Oragadam with Sriperumbudur when both are on your list and confirm a day with you.",
+      "approach": "At a distribution warehouse we would start by mapping the busiest bay to find where heat collects near the dock, then fix permanent loggers at those spots and at the highest rack. A GSM logger on the staging area or a vehicle load extends the record along the goods' path toward the road.",
+      "nearby": [
+        "sriperumbudur",
+        "ambattur"
+      ],
+      "indexable": true
+    } },
 ];
 
 // ---------------------------------------------------------------------------
