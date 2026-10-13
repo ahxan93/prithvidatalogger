@@ -241,7 +241,8 @@ export function locationServiceSchema(location: {
 export function cityServiceSchema(city: {
   name: string;
   path: string;
-  state: string;
+  /** Absent for cities that sit directly under their country (the GCC). */
+  state?: string;
   country: string;
   hasOffice: boolean;
 }) {
@@ -264,7 +265,7 @@ export function cityServiceSchema(city: {
     provider,
     areaServed: [
       { "@type": "City", name: city.name },
-      { "@type": "State", name: city.state },
+      ...(city.state ? [{ "@type": "State", name: city.state }] : []),
       { "@type": "Country", name: city.country },
     ],
   };

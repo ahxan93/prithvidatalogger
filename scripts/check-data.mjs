@@ -258,6 +258,9 @@ const cityBanned = [
   [/get a quote/i, '"Get a Quote"'],
   [/₹|\bMRP\b|\bGST\b|\bprice[sd]?\b/i, "a price"],
 ];
+/** Visible text of an HTML fragment (scripts, styles and tags removed). */
+const visibleText = (html) =>
+  html.replace(/<script[\s\S]*?<\/script>/g, " ").replace(/<style[\s\S]*?<\/style>/g, " ").replace(/<[^>]+>/g, " ").replace(/&amp;/g, "&").replace(/&#x27;|&#39;|&apos;/g, "'").replace(/\s+/g, " ");
 const cityResults = [];
 for (const { node, path: p } of all) {
   if (!isCityPage(node)) continue;
@@ -293,8 +296,10 @@ for (const { node, path: p } of all) {
     if (!all.some((l) => l.node.slug === n.slug)) notes.push(`city ${where}: nearby "${n.name}" has no page yet (shown unlinked)`);
   }
   // Cluster: a state hub above it.
-  const stateNode = all.find((l) => l.path.join("/") === p.slice(0, 2).join("/"));
-  if (!stateNode || stateNode.node.type !== "state") f("is not under a state hub");
+  // Indian cities sit under a state hub; GCC cities directly under their country hub.
+  const parentNode = all.find((l) => l.path.join("/") === p.slice(0, -1).join("/"));
+  const expectedParent = isIndia ? "state" : "country";
+  if (!parentNode || parentNode.node.type !== expectedParent) f(`is not under a ${expectedParent} hub`);
   // SEO settings.
   const title = node.metaTitle;
   if (title.length > 60) f(`metaTitle is ${title.length} chars (max 60)`);
@@ -350,8 +355,12 @@ for (const r of cityResults) notes.push(`city ${r.where}: ${r.uniqueWords} uniqu
     // Cluster links.
     const main = (html.match(/<main[\s\S]*<\/main>/) ?? [html])[0];
     const hrefs = [...main.matchAll(/href="([^"#?]+)/g)].map((m) => m[1]);
-    const stateHref = locationHref(p.slice(0, 2));
-    if (!hrefs.includes(stateHref)) f(`does not link to its state hub ${stateHref}`);
+    const stateHref = locationHref(p.slice(0, -1));
+    if (!hrefs.includes(stateHref)) f(`does not link to its parent hub ${stateHref}`);
+    // The GSM compatibility note is stored once (GSM_NETWORK_NOTE) and shown on every non-India page.
+    const noteCount = visibleText(main).split(GSM_NETWORK_NOTE).length - 1;
+    if (needsGsmNetworkNote(p) && noteCount !== 1) f(`must show the GSM compatibility note exactly once (found ${noteCount})`);
+    if (!needsGsmNetworkNote(p) && noteCount !== 0) f("shows the GSM compatibility note on an India page");
     if (new Set(hrefs.filter((h) => h.startsWith("/industries/") && h !== "/industries/")).size < 3) f("links to fewer than 3 industry pages");
     if (new Set(hrefs.filter((h) => /^\/products\/[a-z-]+$/.test(h))).size < 3) f("links to fewer than 3 product pages");
     for (const svc of services) if (!hrefs.includes(svc.href)) f(`does not link to ${svc.href}`);
@@ -361,7 +370,7 @@ for (const r of cityResults) notes.push(`city ${r.where}: ${r.uniqueWords} uniqu
       if (sib && !hrefs.includes(locationHref(sib.path))) f(`does not link to nearby city ${n.slug}`);
     }
     // Banned wording in what visitors actually see.
-    const visible = main.replace(/<script[\s\S]*?<\/script>/g, " ").replace(/<style[\s\S]*?<\/style>/g, " ").replace(/<[^>]+>/g, " ");
+    const visible = visibleText(main);
     for (const [re, label] of cityBanned) if (re.test(visible)) f(`rendered page uses banned wording ${label}`);
   }
 }

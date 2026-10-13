@@ -1,7 +1,14 @@
 import Link from "next/link";
 import { siteConfig } from "@/config/site";
 import { getIndustryBySlug } from "@/data/industries";
-import { findCityBySlug, locationHref, type ResolvedCity } from "@/data/locations";
+import {
+  findCityBySlug,
+  findLocation,
+  GSM_NETWORK_NOTE,
+  locationHref,
+  needsGsmNetworkNote,
+  type ResolvedCity,
+} from "@/data/locations";
 import { getProductBySlug, type ProductSeries } from "@/data/products";
 import { services } from "@/data/services";
 import EnquiryForm from "@/components/forms/EnquiryForm";
@@ -40,6 +47,14 @@ const HOW_WE_WORK = [
   { title: "Ongoing support", text: "We stay available for alert rules, user access and calibration planning as your sites change." },
 ];
 
+// Outside India supply is from India and set-up is remote, so the process says that.
+const HOW_WE_WORK_GCC = [
+  { title: "Share your requirement", text: "Tell us what you store, where, and how many points need watching." },
+  { title: "Recommendation", text: "We recommend the loggers and quantities for your sites by call, WhatsApp or video." },
+  { title: "Supply from India", text: "Loggers are dispatched from India to your site and registered to your dashboard." },
+  { title: "Remote set-up and support", text: "We set up alert rules and user access with your team remotely and stay available as sites change." },
+];
+
 const WHY_PRITHVI = [
   "Calibration, mapping and validation from our parent lab, VEGA Calibrations",
   "Live alerts by email, SMS, app and dashboard when a limit is crossed",
@@ -55,8 +70,11 @@ export default async function CityPage({ city }: { city: ResolvedCity }) {
   const name = node.name;
   const href = locationHref(path);
   const country = trail[0];
-  const state = trail[1];
-  const stateHref = locationHref(path.slice(0, 2));
+  // Cities in the GCC sit directly under their country; Indian cities under a state.
+  const state = trail.length >= 3 ? trail[1] : undefined;
+  const parent = trail[trail.length - 2];
+  const parentHref = locationHref(path.slice(0, -1));
+  const outsideIndia = needsGsmNetworkNote(path);
   const isMumbai = path.join("/") === "india/maharashtra/mumbai";
 
   const crumbs = locationCrumbs(path, trail.map((item) => item.name), "city");
@@ -84,7 +102,7 @@ export default async function CityPage({ city }: { city: ResolvedCity }) {
         data={cityServiceSchema({
           name,
           path: href,
-          state: state.name,
+          state: state?.name,
           country: country.name,
           hasOffice: isMumbai,
         })}
@@ -101,7 +119,7 @@ export default async function CityPage({ city }: { city: ResolvedCity }) {
           <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
           <div>
           <p className="mb-3 text-xs font-semibold uppercase tracking-[0.14em] text-cyan-400 sm:text-sm">
-            {state.name}, {country.name}
+            {state ? `${state.name}, ${country.name}` : country.name}
           </p>
           <h1 className="max-w-4xl font-heading text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-[3.4rem] lg:leading-[1.08]">
             Temperature Data Loggers in {name}
@@ -124,7 +142,10 @@ export default async function CityPage({ city }: { city: ResolvedCity }) {
             </Button>
           </div>
           <ul className="mt-8 flex flex-wrap gap-x-6 gap-y-3 text-sm text-slate-200">
-            {["Calibration by parent lab VEGA", `Site visits in ${name}`, "Supply across India & the GCC"].map((chip) => (
+            {(outsideIndia
+              ? ["Calibration by parent lab VEGA", `Supplied from India to ${name}`, "Remote set-up and support"]
+              : ["Calibration by parent lab VEGA", `Site visits in ${name}`, "Supply across India & the GCC"]
+            ).map((chip) => (
               <li key={chip} className="flex items-center gap-2">
                 <CheckCircleIcon className="size-4 shrink-0 text-cyan-400" />
                 {chip}
@@ -135,7 +156,7 @@ export default async function CityPage({ city }: { city: ResolvedCity }) {
           {/* A distinct pair of logger photos per city (see page-heroes.ts), with an illustrative reading. */}
           <LiveDeviceVisual
             devices={getCityHeroDevices(node.slug, path[0] === "india" ? "india" : "gcc")}
-            badge={`${name} · ${state.name}`}
+            badge={`${name} · ${parent.name}`}
             altPrefix={`${name} monitoring`}
           />
           </div>
@@ -158,7 +179,7 @@ export default async function CityPage({ city }: { city: ResolvedCity }) {
 
       {/* 4. Industrial areas */}
       <Section tone="surface" aria-labelledby="city-areas-title" data-city-section="areas">
-        <SectionHeading id="city-areas-title" eyebrow="Areas" title={`Industrial Areas We Serve in ${name}`} />
+        <SectionHeading id="city-areas-title" eyebrow="Areas" title={outsideIndia ? `Industrial Zones We Supply in ${name}` : `Industrial Areas We Serve in ${name}`} />
         <ul className="mt-10 grid gap-5 sm:grid-cols-2">
           {node.areas.map((area) => (
             <li key={area.name} className="rounded-2xl border border-slate-200/80 bg-white p-6 shadow-soft">
@@ -247,6 +268,7 @@ export default async function CityPage({ city }: { city: ResolvedCity }) {
             </li>
           ))}
         </ul>
+        {outsideIndia && <p className="mt-6 rounded-xl border border-brand-100 bg-white px-4 py-3 text-sm text-ink">{GSM_NETWORK_NOTE}</p>}
       </Section>
 
       {/* 7. Calibration, mapping and validation */}
@@ -262,7 +284,9 @@ export default async function CityPage({ city }: { city: ResolvedCity }) {
               </h2>
               <p className="mt-3 text-lg leading-relaxed text-ink text-pretty">
                 These services are delivered by our parent lab, {siteConfig.parentCompany.name}.
-                Ask us to plan them for your {name} site alongside your loggers.
+                {outsideIndia
+                  ? `Ask us how they can be arranged for the loggers you use in ${name}.`
+                  : `Ask us to plan them for your ${name} site alongside your loggers.`}
               </p>
               <ul className="mt-5 flex flex-wrap gap-3">
                 {services.map((service) => (
@@ -286,7 +310,7 @@ export default async function CityPage({ city }: { city: ResolvedCity }) {
       <Section tone="surface" aria-labelledby="city-process-title" data-city-section="process">
         <SectionHeading id="city-process-title" eyebrow="Process" title={`How We Work in ${name}`} />
         <ol className="mt-10 grid list-none gap-5 sm:grid-cols-2 lg:grid-cols-4">
-          {HOW_WE_WORK.map((step, i) => (
+          {(outsideIndia ? HOW_WE_WORK_GCC : HOW_WE_WORK).map((step, i) => (
             <li key={step.title} className="rounded-2xl border border-slate-200/80 bg-white p-6 shadow-soft">
               <span aria-hidden="true" className="flex size-9 items-center justify-center rounded-full bg-brand-600 font-heading text-sm font-bold text-white">
                 {i + 1}
@@ -324,7 +348,10 @@ export default async function CityPage({ city }: { city: ResolvedCity }) {
         <SectionHeading id="city-nearby-title" eyebrow="Locations" title="Nearby Locations We Serve" />
         <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {node.nearby.map((place) => {
-            const page = findCityBySlug(place.slug);
+            // A neighbouring city, or a country page such as Bahrain, when its page is live.
+            const city = findCityBySlug(place.slug);
+            const countryPage = city ? undefined : findLocation([place.slug]);
+            const page = city ?? (countryPage?.node.indexable ? countryPage : undefined);
             return (
               <li key={place.slug}>
                 {page ? (
@@ -341,8 +368,8 @@ export default async function CityPage({ city }: { city: ResolvedCity }) {
             );
           })}
           <li>
-            <Link href={stateHref} className={cardLink}>
-              All of {state.name}
+            <Link href={parentHref} className={cardLink}>
+              All of {parent.name}
               <ArrowRightIcon className="size-4 shrink-0 text-brand-600 transition-transform motion-safe:group-hover:translate-x-1" />
             </Link>
           </li>
