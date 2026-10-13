@@ -1888,13 +1888,13 @@ export const locations: LegacyLocationNode[] = [
           "Pharmaceutical manufacturing",
           "Port logistics and distribution",
         ],
-        citiesServed: ["Chennai"],
+        citiesServed: ["Chennai", "Coimbatore"],
         supportNote:
           "Supply, installation support and site visits for Tamil Nadu sites are arranged from our Mumbai office. Write to us with the estate and what you store.",
         faqs: [
           {
             question: "Which Tamil Nadu city page is available?",
-            answer: "The Chennai page covers Ambattur, Sriperumbudur and Oragadam, and more cities will follow with their own pages.",
+            answer: "The Chennai page covers Ambattur, Sriperumbudur and Oragadam and the Coimbatore page covers the western mills and estates, and more cities will follow with their own pages.",
           },
           {
             question: "How do we start an enquiry from Tamil Nadu?",
@@ -1995,6 +1995,99 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Chennai | Prithvi",
             metaDescription:
               "WiFi and GSM temperature and humidity data loggers for Chennai's pharma, electronics and port-linked warehouses, with site visits. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "coimbatore",
+            name: "Coimbatore",
+            type: "city",
+            intro:
+              "Coimbatore is an industrial city of mills and workshops: spinning and weaving units, pump, motor and machine-tool makers, foundries, control-panel assemblers and a large number of small suppliers, backed by a busy hospital sector and food businesses. A temperature data logger in Coimbatore often has humidity to think about before heat, because yarn and fabric take up and lose moisture with the air around them, and that changes how they run on a machine and how they weigh. The city's own climate is moderate, with the cooling influence of the western hills, but the air swings between dry spells and damp ones, so a store that behaved last month may not this month. Wireless loggers with alerts to phones and email, and a dated humidity record, give a mill or a workshop evidence of what its rooms actually did.",
+            climateAngle:
+              "Temperatures stay moderate through most of the year, but humidity swings between dry spells and the damp weeks of the two monsoons, and that swing is what yarn, fabric and electrical stores respond to.",
+            areas: [
+              {
+                name: "SIDCO industrial estates",
+                note: "Planned estates of small and medium units where engineering shops, foundries and component makers hold material in sheds on regular plots near the city.",
+              },
+              {
+                name: "Textile mills and spinning units",
+                note: "Mills keep cotton, yarn and finished fabric in large halls where moisture content decides how the material runs and how heavy a lot weighs.",
+              },
+              {
+                name: "Hospitals and diagnostic centres",
+                note: "A large healthcare sector draws patients from the region, with pharmacies, blood storage and laboratories packed on busy hospital campuses.",
+              },
+            ],
+            industries: [
+              {
+                slug: "textile",
+                sentence:
+                  "Spinning and weaving units store cotton, yarn and cloth whose moisture content shifts with the air, and a humidity trend by hall shows which room drifted before a lot ran differently on the machines.",
+              },
+              {
+                slug: "electronics",
+                sentence:
+                  "Pump, motor and control-panel makers keep windings, boards and instruments in stores that must not sweat, and a logged cupboard shows that a damp week did not reach the components.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospital pharmacies and blood banks hold stock for patients arriving from several districts, and an alert to the duty staff covers the hours between rounds.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Snack makers, sweet shops and food processors hold ingredients and finished goods in chambers and dry stores that must be shown to have stayed in range through a day of loading.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads relative humidity along with temperature, which is the number that decides how yarn, fabric and electrical windings behave in a store.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels spread through a long spinning hall or a mill godown show where the air is dampest and where the top stack runs warm, in one report.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an optional external probe fits a hospital pharmacy fridge or a laboratory freezer that needs one limit and one named contact.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Why does a textile store need humidity monitoring rather than temperature alone?",
+                answer:
+                  "Cotton and yarn gain and lose water with the surrounding air, and a store at a comfortable temperature can still be too damp or too dry. A humidity reading by hall shows when conditions moved.",
+              },
+              {
+                question: "How do you cover the SIDCO estates and the mills in one visit?",
+                answer:
+                  "Send the estate, the units and a contact at each through the enquiry form, WhatsApp or a call, and we group the stops by side of the city so one day covers neighbours.",
+              },
+              {
+                question: "Can one logger watch a long spinning hall?",
+                answer:
+                  "A multi-channel logger takes several probes on cables of different lengths, so one device can report from the near end, the middle and the far end of a hall and from the stacks at height.",
+              },
+              {
+                question: "Is calibration of humidity sensors available locally?",
+                answer:
+                  "VEGA Calibrations, our parent company, calibrates loggers and their probes, and we confirm the arrangement for humidity sensors when you send the model and the range you work to.",
+              },
+            ],
+            nearby: [
+              { slug: "kochi", name: "Kochi" },
+              { slug: "chennai", name: "Chennai" },
+              { slug: "bengaluru", name: "Bengaluru" },
+            ],
+            metaTitle: "Temperature Data Loggers in Coimbatore | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Coimbatore's mills, engineering estates, hospitals and food firms. Get Solution.",
             indexable: true,
           },
         ],
@@ -2238,6 +2331,250 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Baddi | Prithvi",
             metaDescription:
               "WiFi and GSM temperature data loggers for Baddi, Barotiwala and Nalagarh pharma plants and laboratories, with site visits. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "kerala",
+        name: "Kerala",
+        type: "state",
+        intro:
+          "Kerala's industry that we serve first lies around the port city of Kochi: seafood and spice exporters, port-side warehouses, a large hospital sector and the technology park at Kakkanad. This state page is the parent of our Kerala city pages; it will be written in full when the hub pages are built.",
+        localIndustries: [
+          "Seafood processing and export",
+          "Port logistics and warehousing",
+          "Hospitals and healthcare",
+        ],
+        citiesServed: ["Kochi"],
+        supportNote:
+          "Supply, installation support and site visits for Kerala sites are arranged from our Mumbai office. Write to us with the area and what you store.",
+        faqs: [
+          {
+            question: "Which Kerala city page is available?",
+            answer: "The Kochi page covers Kakkanad, Kalamassery and Edayar, and more of the state will follow with its own pages.",
+          },
+          {
+            question: "How do we start an enquiry from Kerala?",
+            answer: "Send the location and what you need to monitor through the enquiry form, WhatsApp or a call, and our team replies to discuss it.",
+          },
+        ],
+        // Noindex until its hub prompt runs; it exists as the parent of its city page.
+        indexable: false,
+        children: [
+          {
+            slug: "kochi",
+            name: "Kochi",
+            type: "city",
+            intro:
+              "Kochi is a port city built across islands and backwaters, and its industry is arranged around the water: seafood processors and exporters, spice traders, shipping agents and container yards, a large private hospital sector and the technology park at Kakkanad. A temperature data logger in Kochi spends its life in air that is warm and wet for most of the year, watching cold rooms that are opened many times a day, freezers that wait for a vessel and warehouses where cartons sweat. Many of the goods are exported, so the buyer abroad asks for a record of how a lot was held before it left. Wireless loggers with alerts to phones and email, and reports that can be exported by lot, give a processor and its forwarder the same dated account.",
+            climateAngle:
+              "The air stays warm and very humid for most months and the southwest monsoon is heavy and long, so condensation, corroded contacts and long power cuts in storms are as common a risk to a cold chain as ordinary heat.",
+            areas: [
+              {
+                name: "Kakkanad",
+                note: "A technology and commercial district to the east of the city, with the IT park and its server rooms, plus hospitals and laboratories in the surrounding blocks.",
+              },
+              {
+                name: "Kalamassery",
+                note: "An industrial area north of the city with engineering, processing and warehousing units, and the roads that carry goods toward the port.",
+              },
+              {
+                name: "Edayar",
+                note: "An industrial estate on the northern side with food, chemical and manufacturing units on the river bank, where goods leave by road for the harbour.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Seafood processors and spice exporters keep freezers, chill rooms and dry stores that must hold their ranges through a long storm, with an overnight record to show an overseas buyer.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Container yards, freight stations and shipping agents hold goods that wait on a vessel, and a reading for each bay shows how long a lot stood in the humid heat of the harbour.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Large private hospitals keep blood storage, vaccine fridges and pharmacies on campuses where a monsoon outage can last hours, so battery-backed logging carries on while the mains is down.",
+              },
+              {
+                slug: "data-centers",
+                sentence:
+                  "Server rooms in the technology park cool against humid air, and a logged trend at rack height shows a cooling unit losing capacity long before equipment raises its own alarm.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels watch a seafood chill room from the floor stack to the top rack and the door, so a cold spot and a warm door are both visible in one report.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger with an external probe rides in a reefer container or a truck on its way to the harbour, reporting where a yard has no building Wi-Fi.",
+              },
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels cover a long freezer warehouse or a port-side shed across racks and dock doors, so one device reports on a hall that would otherwise need many.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How is monitoring arranged for an export consignment of seafood?",
+                answer:
+                  "A logger on the cold room records the storage period and one in the container or truck records the journey, and a report for each lot can be exported as PDF, Excel or CSV for the buyer.",
+              },
+              {
+                question: "What happens to the record in a long monsoon power cut?",
+                answer:
+                  "Loggers keep storing readings on their batteries, send them when the network returns and GSM versions can still report while the building's Wi-Fi is down, with an alert for the lost mains supply.",
+              },
+              {
+                question: "Can you cover Kakkanad, Kalamassery and Edayar in one visit?",
+                answer:
+                  "Yes, we plan them as a short round since they lie within one corridor of the city. Send the sites, the rooms and a contact at each and we agree a sequence with you.",
+              },
+              {
+                question: "Who looks after calibration for an exporter's cold rooms?",
+                answer:
+                  "VEGA Calibrations, our parent company, calibrates loggers and probes and carries out temperature mapping, which can be planned ahead of an overseas buyer's inspection.",
+              },
+            ],
+            nearby: [
+              { slug: "coimbatore", name: "Coimbatore" },
+              { slug: "bengaluru", name: "Bengaluru" },
+              { slug: "goa", name: "Goa" },
+            ],
+            metaTitle: "Temperature Data Loggers in Kochi | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Kochi's seafood cold chain, port warehouses and hospitals, with site visits arranged. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "goa",
+        name: "Goa",
+        type: "state",
+        intro:
+          "Goa's industry that we serve first sits in the industrial estates of the interior, where pharmaceutical manufacturers work, and among the hotels and kitchens of the coast. This state page is the parent of our Goa city page; it will be written in full when the hub pages are built.",
+        localIndustries: [
+          "Pharmaceutical manufacturing",
+          "Hotels and restaurant kitchens",
+          "Food distribution",
+        ],
+        citiesServed: ["Goa"],
+        supportNote:
+          "Supply, installation support and site visits for Goa sites are arranged from our Mumbai office. Write to us with the area and what you store.",
+        faqs: [
+          {
+            question: "Which Goa page covers the industrial estates?",
+            answer: "The Goa city page describes Verna and Kundaim and the hotels and kitchens of the coast.",
+          },
+          {
+            question: "How do we start an enquiry from Goa?",
+            answer: "Send the location and what you need to monitor through the enquiry form, WhatsApp or a call, and our team replies to discuss it.",
+          },
+        ],
+        // Noindex until its hub prompt runs; it exists as the parent of its city page.
+        indexable: false,
+        children: [
+          {
+            slug: "goa",
+            name: "Goa",
+            type: "city",
+            intro:
+              "Goa is better known for beaches than for factories, but its inland estates hold a notable group of pharmaceutical manufacturers, and the coast is lined with hotels, resorts, restaurants and the food suppliers that keep them stocked. A temperature data logger in Goa therefore has two quite different jobs: watching raw-material and finished-goods stores in a manufacturing plant, and watching walk-in fridges, bar coolers and banquet kitchens that work hardest at the peak of the tourist season. Air on the coast is salty and humid for most of the year, the monsoon is heavy and rooms that empty out in the off-season can drift unseen. Alerts to a phone and a dated record let a plant head or a hotel engineer know which room needs attention first.",
+            climateAngle:
+              "Humid coastal air and a heavy monsoon keep damp in every store, and the hot weeks before the rains push walk-in fridges and shed roofs to their limits just as the busiest part of the season arrives.",
+            areas: [
+              {
+                name: "Verna",
+                note: "An industrial estate in the south with pharmaceutical and packaging plants, each with raw-material stores and finished-goods rooms behind secured gates.",
+              },
+              {
+                name: "Kundaim",
+                note: "An inland estate where manufacturers have more room and longer walks between buildings, which suits battery-powered wireless loggers.",
+              },
+              {
+                name: "Hotel and restaurant kitchens along the coast",
+                note: "Resorts and restaurants run walk-in fridges, bar coolers and banquet kitchens that are loaded hardest during the tourist season and sometimes closed in the off-season.",
+              },
+            ],
+            industries: [
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Formulation plants hold ingredients and finished packs in controlled rooms where the monsoon tests dehumidification, and a continuous record backs each batch file, so a quality head can answer a customer's audit from a dated report instead of a manual round sheet.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Hotels, caterers and food suppliers keep walk-in fridges and freezers that are opened constantly, so an alert to a named engineer matters most at the busiest hour of the evening.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Distributors that supply the coast hold chilled and dry stock in warehouses inland, and a reading for each bay shows what happened between the depot and the kitchen door.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "Plant laboratories and testing houses keep samples and standards in fridges and cabinets that each need their own limit, and an export of the log is ready for an inspection.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels record a stability room or a validation run at two points at once, giving a plant a paired record from a single device.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an external probe fits a kitchen walk-in or a bar cooler without altering the way the unit is used.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity as well as temperature, which tells a plant or a resort store when the monsoon has beaten its dehumidifier.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Do you cover hotels as well as manufacturing plants in Goa?",
+                answer:
+                  "Yes. A hotel's kitchens and cold rooms and a plant's warehouses each appear as rooms on the dashboard, with alerts that go to the engineer or the quality head who looks after them.",
+              },
+              {
+                question: "How are visits arranged around the tourist season?",
+                answer:
+                  "Tell us the busiest weeks and the quietest ones when you write through the enquiry form, WhatsApp or a call, and we propose a day when your kitchens and stores can spare time for us. A first visit is usually a short walk through the walk-ins, the dry store and the plant room, which is enough to list the positions and the people who should receive each alert.",
+              },
+              {
+                question: "What about rooms that stand empty in the off-season?",
+                answer:
+                  "A logger left in an empty room keeps recording, and an alert for a door opened or a temperature drifting tells the engineer that something has changed in a room nobody visits. When the season starts again, the log from the quiet months shows whether a unit held through the damp and is ready to be loaded.",
+              },
+              {
+                question: "Who handles calibration and mapping for a Goa plant?",
+                answer:
+                  "VEGA Calibrations, our parent company, carries out calibration and temperature mapping, and the work can be planned with the visit so placement and certificates are settled together.",
+              },
+            ],
+            nearby: [
+              { slug: "pune", name: "Pune" },
+              { slug: "mumbai", name: "Mumbai" },
+              { slug: "kochi", name: "Kochi" },
+            ],
+            metaTitle: "Temperature Data Loggers in Goa | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Goa's pharma plants in Verna and Kundaim and coastal hotel kitchens. Get Solution.",
             indexable: true,
           },
         ],
