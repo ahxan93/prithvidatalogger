@@ -1817,9 +1817,137 @@ export const areas: AreaDef[] = [
     } },
   { slug: "manesar", name: "Manesar", citySlug: "manesar", areaType: "industrial-estate", nearbyIndustries: ["electronics", "logistics-warehousing", "pharmaceutical"], confirmedService: true, hero: ["dhruva", "vayu"] },
   // ------------------------------------------------------------------ Hyderabad (data entries)
-  { slug: "jeedimetla", name: "Jeedimetla", citySlug: "hyderabad", areaType: "industrial-estate", nearbyIndustries: ["pharmaceutical", "chemical", "laboratories"], confirmedService: true, hero: ["veer", "vayu"] },
-  { slug: "patancheru", name: "Patancheru", citySlug: "hyderabad", areaType: "industrial-estate", nearbyIndustries: ["pharmaceutical", "chemical", "laboratories"], confirmedService: true, hero: ["rajmudra", "veer-pro"] },
-  { slug: "genome-valley", name: "Genome Valley", citySlug: "hyderabad", areaType: "business-district", nearbyIndustries: ["laboratories", "pharmaceutical", "vaccine-cold-chain"], confirmedService: true, hero: ["rajmudra", "vayu"] },
+  { slug: "jeedimetla", name: "Jeedimetla", citySlug: "hyderabad", areaType: "industrial-estate", nearbyIndustries: ["pharmaceutical", "chemical", "laboratories"], confirmedService: true, hero: ["veer", "vayu"], page: {
+      "metaTitle": "Data Loggers in Jeedimetla, Hyderabad | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Jeedimetla's bulk-drug, formulation and chemical units in Hyderabad. Visits arranged. Get Solution.",
+      "intro": "Jeedimetla is an older industrial estate on the north-western side of Hyderabad, set among residential neighbourhoods that have grown up around it. Bulk-drug makers, formulation units, chemical blenders and a long tail of small suppliers stand on compact plots, many of them extended upward and sideways over the years. Stores sit directly beside reactors and drying rooms, so a room's temperature depends on what happens next door as much as on the weather. Where plots are small, the question is how to monitor a store without finding room for a new panel or running cable through a wall that is already full.",
+      "places": [
+        {
+          "name": "Estate plots and lanes",
+          "note": "Compact plots along narrow internal roads, each holding a production hall, an ingredient store and a small quality room under one roof or in neighbouring sheds."
+        },
+        {
+          "name": "Bulk-drug and formulation units",
+          "note": "Makers of intermediates and finished doses keep ingredients and packed goods in rooms with stated limits that a customer's auditor can ask to see."
+        },
+        {
+          "name": "Solvent and chemical stores",
+          "note": "Blenders and traders hold drums and containers in sheds behind the production floor, where midday sun on the roof drives up the shelf temperature."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Formulation units hold excipients and packed cartons in controlled rooms, and an exported log answers a buyer's audit request in minutes instead of an afternoon of register searching."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Blenders and solvent traders store drums with printed temperature limits, and a rising reading raises an alert while the stock can still be moved or shaded."
+        },
+        {
+          "slug": "laboratories",
+          "sentence": "In-house quality laboratories keep standards and retained samples in fridges and cabinets, each reporting for itself so that a failure in one is not masked by the rest."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Small godowns serving the estate take goods from several makers, and a dated reading for each bay shows which shelf stood warmest on the hottest afternoon."
+        }
+      ],
+      "services": "For Jeedimetla we supply compact WiFi loggers for small rooms, multi-channel units where one building holds several stores and GSM versions with external probes for back sheds. VEGA Calibrations, our parent company, calibrates loggers and other instruments and maps larger rooms, so a plant can plan the loggers and their certificates as one job.",
+      "visits": "To arrange a visit in Jeedimetla, send the plot or lane, the stores in question and the person who controls the gate through the enquiry form, WhatsApp or a call. Process plants here often need a safety briefing and the right footwear, and it saves a trip if you tell us. We group Jeedimetla with other north-western stops and confirm the day with you.",
+      "approach": "In a Jeedimetla unit we would start with the store that holds the product with the tightest stated limit, putting the probe inside the room and the logger on the cooler side of the wall. A month of readings shows the afternoon peak, the effect of a power cut and whether a second store needs a device of its own.",
+      "nearby": [
+        "patancheru",
+        "genome-valley"
+      ],
+      "indexable": true
+    } },
+  { slug: "patancheru", name: "Patancheru", citySlug: "hyderabad", areaType: "industrial-estate", nearbyIndustries: ["pharmaceutical", "chemical", "laboratories"], confirmedService: true, hero: ["rajmudra", "veer-pro"], page: {
+      "metaTitle": "Data Loggers in Patancheru, Hyderabad | Prithvi",
+      "metaDescription": "Temperature data loggers for Patancheru's bulk-drug and chemical plants and Pashamylaram's warehouses near Hyderabad. Get Solution.",
+      "intro": "Patancheru lies on the western side of Hyderabad, and its industrial area is one of the larger ones around the city, with bulk-drug, chemical and allied plants standing on wide plots along internal roads. The neighbouring estate of Pashamylaram extends the same pattern, with more pharmaceutical and chemical manufacturers. Plants here are big enough that a store may be a few minutes' walk from the control room, and some have several warehouses on one boundary. A reading that has to be carried back by hand is a reading that arrives late, which is why wireless monitoring with alerts to a phone suits the layout.",
+      "places": [
+        {
+          "name": "Patancheru industrial area",
+          "note": "Wide plots on long internal roads hold bulk-drug and chemical plants, each with raw-material tanks, drum stores and finished-goods warehouses."
+        },
+        {
+          "name": "Pashamylaram and neighbouring estates",
+          "note": "A neighbouring estate with pharmaceutical and chemical manufacturers whose warehouses and laboratories repeat the pattern of larger plots and longer walks."
+        },
+        {
+          "name": "Bulk warehouses on the plant boundary",
+          "note": "Large sealed stores for packed drums and sacks sit near the gate, and their roofs and doors shape the temperature of the bays inside."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Bulk-drug makers hold active ingredients in warehouses that follow stated limits, and a continuous reading with a time for each excursion is stronger than a signed round sheet."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Chemical plants keep intermediates and finished product in stores and tank farms that sit far from the control room, so an alert that reaches the shift lead saves a long walk to find a fault."
+        },
+        {
+          "slug": "laboratories",
+          "sentence": "Plant laboratories test incoming and outgoing material and keep retained samples that need watched limits and a named person for each fridge."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Warehouse operators on the roads that run to the estate hold packed goods for several plants, and a record per bay settles questions about storage after a lot has left."
+        }
+      ],
+      "services": "In Patancheru we supply multi-channel loggers such as Veer and Virat for large stores, WiFi loggers for single rooms and GSM versions with external probes for the far end of a plot. Our parent company, VEGA Calibrations, supports calibration, temperature mapping and validation, so equipment and certificates can be planned together.",
+      "visits": "Please send the estate, the plant and the stores you want looked at, together with the person who will meet us, through the enquiry form or WhatsApp. Distances inside a plant are long, so a first visit is a full walk-through, and many plants need a gate pass arranged beforehand. We group Patancheru with Pashamylaram so one day covers both estates.",
+      "approach": "At a bulk-drug plant we would begin with the warehouse that holds the most sensitive ingredient and put loggers at the roof beam, the middle and the floor of its bays. The first month shows which part of the building is least stable, and alerts then go to the shift in-charge and a second person for the hours between shifts.",
+      "nearby": [
+        "jeedimetla",
+        "genome-valley"
+      ],
+      "indexable": true
+    } },
+  { slug: "genome-valley", name: "Genome Valley", citySlug: "hyderabad", areaType: "business-district", nearbyIndustries: ["laboratories", "pharmaceutical", "vaccine-cold-chain"], confirmedService: true, hero: ["rajmudra", "vayu"], page: {
+      "metaTitle": "Data Loggers in Genome Valley, Hyderabad | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Genome Valley's life-science labs, vaccine makers and research campuses near Hyderabad. Get Solution.",
+      "intro": "Genome Valley is the life-science cluster on the northern side of Hyderabad, a planned set of research campuses, biotech firms, vaccine and biologics makers and contract laboratories on large, open plots. It is newer than the older estates, with purpose-built cold rooms, freezer halls and clean areas, and the material kept there is often irreplaceable: cell lines, reference strains, vaccine lots and samples that took months to collect. The value of one failed freezer overnight is far larger than the room that holds it, so monitoring here is about proof that a limit held and about a person being reached the moment it did not.",
+      "places": [
+        {
+          "name": "Research and biotech campuses",
+          "note": "Planned campuses hold laboratories, cold rooms and freezer halls in buildings designed for controlled conditions, spaced across wide landscaped plots."
+        },
+        {
+          "name": "Vaccine and biologics manufacturing units",
+          "note": "Producers keep product, intermediates and retained samples in cold rooms and freezers with narrow ranges and records that are reviewed at every inspection."
+        },
+        {
+          "name": "Contract research and testing laboratories",
+          "note": "Service laboratories receive samples from many sponsors and hold them under each sponsor's stated storage condition until testing is complete."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "laboratories",
+          "sentence": "Research laboratories keep cell lines, reagents and reference materials in ultra-cold freezers and incubators, and a probe inside each unit gives a record that does not depend on the display on its door."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Developers and manufacturers hold clinical and commercial material under defined conditions, and an exported report per room answers a sponsor's or an inspector's request quickly."
+        },
+        {
+          "slug": "vaccine-cold-chain",
+          "sentence": "Vaccine and biologics producers watch cold rooms where a short excursion can mean a lot is put on hold, so an alert to two named people at any hour is part of the process."
+        }
+      ],
+      "services": "In Genome Valley we supply two-channel and four-channel loggers for chambers and freezers, WiFi loggers for single units and multi-channel versions for walk-in cold rooms. VEGA Calibrations, our parent company, offers calibration, temperature mapping and validation support, which suits campuses that already keep formal qualification files.",
+      "visits": "Campuses generally register visitors in advance, so please send the campus, the building and the person who will meet us through the enquiry form or WhatsApp. Clean areas and controlled rooms have their own entry rules, and we plan the visit around them and around any shutdown windows you give us. Genome Valley is a separate trip from the western estates.",
+      "approach": "On a campus we would begin with a pilot in one building that has the three kinds of room that matter, such as a walk-in cold room, an ultra-cold freezer hall and an incubator suite. A month of readings shows each room's normal pattern, and the same alert chain, with a named second contact, is then rolled out campus-wide.",
+      "nearby": [
+        "jeedimetla",
+        "patancheru"
+      ],
+      "indexable": true
+    } },
   // ------------------------------------------------------------------ Bengaluru (data entries)
   { slug: "peenya", name: "Peenya", citySlug: "bengaluru", areaType: "industrial-estate", nearbyIndustries: ["electronics", "pharmaceutical", "logistics-warehousing"], confirmedService: true, hero: ["dhruva", "veer-pro"] },
   { slug: "electronic-city", name: "Electronic City", citySlug: "bengaluru", areaType: "business-district", nearbyIndustries: ["electronics", "data-centers", "laboratories"], confirmedService: true, hero: ["setu", "vayu"] },
