@@ -1600,12 +1600,221 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   // ------------------------------------------------------------------ Delhi NCR (data entries)
-  { slug: "okhla", name: "Okhla", citySlug: "delhi", areaType: "industrial-estate", nearbyIndustries: ["pharmaceutical", "food-beverage", "laboratories"], confirmedService: true, hero: ["virat-pro", "vayu-pro"] },
-  { slug: "bawana", name: "Bawana", citySlug: "delhi", areaType: "industrial-estate", nearbyIndustries: ["food-beverage", "logistics-warehousing", "chemical"], confirmedService: true, hero: ["setu", "rajmudra"] },
-  { slug: "narela", name: "Narela", citySlug: "delhi", areaType: "industrial-estate", nearbyIndustries: ["food-beverage", "logistics-warehousing", "pharmaceutical"], confirmedService: true, hero: ["virat", "vayu"] },
+  { slug: "okhla", name: "Okhla", citySlug: "delhi", areaType: "industrial-estate", nearbyIndustries: ["pharmaceutical", "food-beverage", "laboratories"], confirmedService: true, hero: ["virat-pro", "vayu-pro"], page: {
+      "metaTitle": "Data Loggers in Okhla, Delhi | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Okhla's pharma, packaging, electrical and laboratory units in Delhi. Visits arranged. Get Solution.",
+      "intro": "Okhla is the south-eastern industrial district of Delhi, close to the Noida border and laid out in three phases. Pharmaceutical, packaging, garment, electrical and printing units sit on closely packed plots, with laboratories and testing houses scattered among them. Many buildings rise three or four floors, with production below and storage above, and the lanes between them are narrow enough that one delivery van blocks the street. A room in Okhla is usually someone's whole stock, so the question is rarely whether to watch it but how to do so in a workshop that has no spare space.",
+      "places": [
+        {
+          "name": "Industrial blocks across the three phases",
+          "note": "Rows of closely packed plots where each firm's production hall, store and small office share one building, often over several floors."
+        },
+        {
+          "name": "Laboratories and testing houses",
+          "note": "Small analytical and quality laboratories serve the estate's manufacturers and keep samples, standards and reagents in fridges and cabinets."
+        },
+        {
+          "name": "Upper-floor stores and godowns",
+          "note": "Goods are often held on floors above production, where heat rising through the building and a roof in direct sun make for the warmest rooms."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Formulation and packing units hold ingredients and finished cartons in small rooms beside production, and a logged reading for each room answers a purchaser's question without a search through paper registers."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Food packers and ingredient suppliers keep chilled and dry stock on the same floor, so one dashboard that shows both rooms helps a small team with no dedicated store keeper."
+        },
+        {
+          "slug": "laboratories",
+          "sentence": "Laboratories keep reference standards and retained samples under limits that are checked at each audit, and a fridge that reports for itself removes the daily walk with a clipboard."
+        },
+        {
+          "slug": "electronics",
+          "sentence": "Electrical and electronic firms hold coils, boards and enclosures in stores that gather damp in the monsoon, and humidity readings show when a cupboard needs a desiccant or a dehumidifier."
+        }
+      ],
+      "services": "For Okhla we supply compact WiFi loggers that suit small rooms, multi-channel units where one floor holds several stores, and GSM versions where a back room gets no signal. VEGA Calibrations, our parent company, calibrates loggers and other instruments and can map larger rooms, so equipment and certificates can be planned as one job.",
+      "visits": "To arrange a visit in Okhla, send the phase, the street or plot, the floors in question and the person who will meet us through the enquiry form, WhatsApp or a call. Lanes are narrow and parking is scarce, so we agree an arrival time with you and group the stop with other south Delhi visits. Please mention lifts, stairs and any rules about visiting hours.",
+      "approach": "In an Okhla unit we would begin with the upper-floor store, since it usually runs warmest, and place a logger away from the window and the compressor. A few weeks of readings show when the afternoon peak arrives and whether the night cools it, and that decides whether a second room needs its own device.",
+      "nearby": [
+        "greater-noida",
+        "sahibabad",
+        "bawana"
+      ],
+      "indexable": true
+    } },
+  { slug: "bawana", name: "Bawana", citySlug: "delhi", areaType: "industrial-estate", nearbyIndustries: ["food-beverage", "logistics-warehousing", "chemical"], confirmedService: true, hero: ["setu", "rajmudra"], page: {
+      "metaTitle": "Data Loggers in Bawana, Delhi | Prithvi",
+      "metaDescription": "Temperature data loggers for Bawana's food-processing, plastics and warehouse units on Delhi's north-western edge. Site visits arranged. Get Solution.",
+      "intro": "Bawana is a large industrial area on the north-western edge of Delhi, planned later and laid out more generously than the older districts, with wider roads, bigger plots and long stretches between buildings. Food processing, plastics, packaging and warehousing units make up much of it, and many firms run shifts through the night. Because a plant here may have separate buildings for raw material, production and dispatch, the person responsible for a store is rarely beside it, and the quiet hours between shifts are exactly when a failed compressor or an open door goes unseen.",
+      "places": [
+        {
+          "name": "Planned plots and sectors",
+          "note": "Large plots on a regular grid, with wide internal roads and generous space between sheds, which suits wireless loggers that need no cable between buildings."
+        },
+        {
+          "name": "Food-processing units",
+          "note": "Processors keep ingredients, work in progress and packed goods in chambers and dry stores that each have their own temperature need within a single plant."
+        },
+        {
+          "name": "Plastics and packaging sheds",
+          "note": "Moulders and converters hold granules, film and cartons in large sheds where a metal roof turns the summer sun into hours of radiant heat."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "food-beverage",
+          "sentence": "Processors and packers hold perishable inputs in chillers that are opened for every batch, and a log with a time for each door opening shows which task caused a warm spell."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Distribution sheds receive loads through the night, so a reading taken at the dock door tells a customer how long a load stood in the heat before it reached a chilled bay."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Makers of cleaning products, resins and adhesives store drums with printed limits, and an alert on a rising reading gives the night supervisor a chance to act while stock is still sound."
+        },
+        {
+          "slug": "laboratories",
+          "sentence": "Quality laboratories inside the plants keep retained samples and media in fridges and incubators, each watched individually so that one failure does not hide behind a shared alarm."
+        }
+      ],
+      "services": "At Bawana we supply WiFi loggers for sheds with a network, multi-channel units for long chillers and warehouse bays, and GSM versions with external probes for far corners and yards. Our parent company, VEGA Calibrations, handles calibration, temperature mapping of large rooms and validation support, which suits plants that keep their own quality files.",
+      "visits": "Send the plot or sector, the buildings in question and the contact through the enquiry form or WhatsApp, and we agree a day that fits your shifts. Because plots are large, a first visit is a long walk-through, and many food plants need hygiene clothing and a health declaration at the gate, so tell us what applies. We group Bawana with Narela when both are on your list.",
+      "approach": "At a food plant here we would start with the chiller that handles the most perishable input and the dispatch dock, then add the dry store. Alerts go first to the shift in-charge and then to a second person, so the hours between shifts are covered. The first month shows which rooms need a door sensor.",
+      "nearby": [
+        "narela",
+        "okhla"
+      ],
+      "indexable": true
+    } },
+  { slug: "narela", name: "Narela", citySlug: "delhi", areaType: "industrial-estate", nearbyIndustries: ["food-beverage", "logistics-warehousing", "pharmaceutical"], confirmedService: true, hero: ["virat", "vayu"], page: {
+      "metaTitle": "Data Loggers in Narela, Delhi | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Narela's food, packaging and warehouse sheds on Delhi's northern edge. Visits arranged. Get Solution.",
+      "intro": "Narela lies on Delhi's northern boundary, close to the Haryana border and the highways that carry goods north, and its industrial area has grown into a mix of food, packaging, engineering and warehousing units on plots of many sizes. The estate is more spread out than Okhla and less settled than the older districts, with open land still visible between clusters of sheds. Firms here depend on road transport, so goods spend time on docks and in vehicles as well as in stores, and the temperature record needs to follow the goods and not only the room.",
+      "places": [
+        {
+          "name": "Industrial sectors",
+          "note": "Blocks of plots allotted for manufacturing, with food, packaging and engineering firms in sheds that range from modest to very large."
+        },
+        {
+          "name": "Distribution and storage sheds",
+          "note": "Warehouse operators hold goods for traders and manufacturers in sheds near the highway, with bays that are let to different customers."
+        },
+        {
+          "name": "Transport yards",
+          "note": "Vehicles wait in yards beside the estate between loads, so goods can sit on a stationary truck in the sun for longer than anyone planned."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "food-beverage",
+          "sentence": "Food packers and traders hold dry goods and chilled stock in sheds on the northern edge of the city, where a summer afternoon on a sheet roof can make a dry store behave like an oven."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Shed operators who let bays to several customers use a reading for each bay to settle a dispute about whose goods suffered during an outage."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Medicine stockists and contract packers hold products with stated limits in small controlled rooms inside larger sheds, where the room is only as steady as the air conditioner serving it."
+        }
+      ],
+      "services": "For Narela we supply WiFi loggers for rooms with a network, multi-channel units for large shed bays and GSM loggers with external probes for vehicles and yards. VEGA Calibrations, our parent company, offers calibration and temperature mapping, so a shed operator can have both the placement study and the instrument certificates arranged together.",
+      "visits": "Narela is a long way from the south of the city, so we plan a visit as a day on the northern estates and group it with Bawana. Send the sector, the shed and the contact through the enquiry form or WhatsApp and we confirm a day with you. Tell us whether vehicles will be on site, because we like to look at a loaded truck as well as a room.",
+      "approach": "For a shed operator we would map the largest bay first to see where heat collects, then fix permanent loggers in those spots. A GSM logger with an external probe goes in the vehicle or on the yard load, so the record covers the whole path of a consignment from bay to truck.",
+      "nearby": [
+        "bawana",
+        "okhla"
+      ],
+      "indexable": true
+    } },
   { slug: "noida", name: "Noida", citySlug: "noida", areaType: "business-district", nearbyIndustries: ["electronics", "data-centers", "logistics-warehousing"], confirmedService: true, hero: ["virat", "vayu-pro"] },
-  { slug: "greater-noida", name: "Greater Noida", citySlug: "noida", areaType: "industrial-estate", nearbyIndustries: ["electronics", "logistics-warehousing", "pharmaceutical"], confirmedService: true, hero: ["rajmudra", "virat"] },
-  { slug: "sahibabad", name: "Sahibabad", citySlug: "noida", areaType: "industrial-estate", nearbyIndustries: ["food-beverage", "electronics", "logistics-warehousing"], confirmedService: true, hero: ["veer", "virat-pro"] },
+  { slug: "greater-noida", name: "Greater Noida", citySlug: "noida", areaType: "industrial-estate", nearbyIndustries: ["electronics", "logistics-warehousing", "pharmaceutical"], confirmedService: true, hero: ["rajmudra", "virat"], page: {
+      "metaTitle": "Data Loggers in Greater Noida | Prithvi",
+      "metaDescription": "Temperature data loggers for Greater Noida's electronics, pharma and logistics parks, with site visits arranged from Noida. Get Solution.",
+      "intro": "Greater Noida is the newer, larger township south-east of Noida, laid out with wide avenues, generous plots and planned industrial and logistics zones that leave long distances between one building and the next. Electronics assemblers, packaging firms, pharmaceutical units and large distribution warehouses fill the zones, alongside campuses and residential sectors. Because the buildings are new and big, the rooms to be watched tend to be large halls and long bays instead of closets, and the people responsible for them may sit in an office across the plot or in another city altogether.",
+      "places": [
+        {
+          "name": "Planned industrial zones",
+          "note": "Zones set aside for manufacturing, where large plots hold assembly halls, stores and utility buildings spaced far apart."
+        },
+        {
+          "name": "Logistics and warehousing parks",
+          "note": "Parks built for distribution hold racked stock for several customers in long bays whose roofs and loading doors shape the temperature at each end."
+        },
+        {
+          "name": "Pharmaceutical and packaging units",
+          "note": "Controlled stores for ingredients and finished packs sit inside larger buildings, with their own cooling and a register that someone must keep up to date."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "electronics",
+          "sentence": "Assembly lines hold boards, modules and finished sets in dry stores whose humidity must not drift during the monsoon, and one logged trend answers a buyer's query about how a lot was stored."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Racked warehouses lose track of conditions at the top of the stack, so probes at the lowest and highest shelves reveal the difference that a single reading at the door would hide."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Pharmaceutical stores keep a controlled room for ingredients and another for finished packs, and an alert chain with a named second person covers the nights and weekends."
+        }
+      ],
+      "services": "In Greater Noida we supply multi-channel loggers such as Veer and Virat for long bays, WiFi loggers for single rooms and GSM versions for far corners of a campus. Our parent company, VEGA Calibrations, supports calibration, mapping of large warehouses and validation, so a plant with a formal quality system can plan the whole job with one group.",
+      "visits": "Plants in the zones usually register visitors in advance, so please send the plant, the buildings and the person who will meet us through the enquiry form or WhatsApp. Distances are long, so a first visit is a full walk-through, and we like stores and quality to join it. We plan the stop with other Noida visits when they are on your list.",
+      "approach": "At a large plant we would start with one building of each kind: an assembly store, a controlled pharmaceutical room or a racked bay. A month of readings, including a weekend, shows each building's own pattern, and the alert rules that suit it are then copied across the rest of the campus.",
+      "nearby": [
+        "sahibabad",
+        "okhla"
+      ],
+      "indexable": true
+    } },
+  { slug: "sahibabad", name: "Sahibabad", citySlug: "noida", areaType: "industrial-estate", nearbyIndustries: ["food-beverage", "electronics", "logistics-warehousing"], confirmedService: true, hero: ["veer", "virat-pro"], page: {
+      "metaTitle": "Data Loggers in Sahibabad | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Sahibabad's engineering, food, electrical and transport units near Delhi. Visits arranged. Get Solution.",
+      "intro": "Sahibabad is an industrial area in Ghaziabad district, just across the eastern boundary of Delhi, and it is an older, busy estate where engineering, food, electrical and plastics units stand on small and medium plots. The roads are crowded with goods vehicles and the buildings are often used to the limit, with production on the ground floor and stock above or beside it. Firms here frequently supply customers in Delhi and Noida, so the storage that matters is the stock waiting for the next vehicle as much as the long-term store.",
+      "places": [
+        {
+          "name": "Sahibabad industrial area",
+          "note": "The estate's blocks of small and medium plots hold engineering, electrical, plastics and food units in buildings that have been extended many times."
+        },
+        {
+          "name": "Food and ingredient suppliers",
+          "note": "Suppliers of ingredients and packed foods keep chilled and dry stock for customers across the capital region, ready for loading each morning."
+        },
+        {
+          "name": "Goods vehicle depots",
+          "note": "Depots around the estate hold loaded and empty vehicles between runs, so goods can wait on a truck while paperwork or traffic delays the departure."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "food-beverage",
+          "sentence": "Suppliers that load before dawn for deliveries across the region need to know that a chiller held its range overnight, and a morning report shows it without opening the door."
+        },
+        {
+          "slug": "electronics",
+          "sentence": "Electrical firms store switchgear parts, cables and enclosures in rooms that grow damp in the rains, and a humidity record shows whether the rooms stayed within what the buyer expects."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Transport operators holding goods between a pickup and a delivery use a logger on the vehicle or at the depot door to show how long a consignment waited and in what conditions."
+        }
+      ],
+      "services": "In Sahibabad we supply compact WiFi loggers for single rooms, multi-channel units where one building holds several stores and GSM versions for vehicles and depots. VEGA Calibrations, our parent company, calibrates loggers and other instruments and can map larger stores, so the equipment and its certificates can be organised together.",
+      "visits": "Please send the block, the street and the person who will meet us through the enquiry form, WhatsApp or a call, and we agree a day with you. Traffic on the roads into the estate is heavy, so we fix an arrival time that suits your shift and group the visit with other eastern stops, such as Okhla or Noida. Say if stock must be moved for us to place a logger.",
+      "approach": "At a Sahibabad unit we would start with the chiller or store that is loaded first each morning, since its overnight record matters most, and place a second logger on the vehicle or at the dispatch door. Comparing the two shows how much of the journey's warmth comes from the road and how much from the store.",
+      "nearby": [
+        "okhla",
+        "greater-noida"
+      ],
+      "indexable": true
+    } },
   { slug: "manesar", name: "Manesar", citySlug: "manesar", areaType: "industrial-estate", nearbyIndustries: ["electronics", "logistics-warehousing", "pharmaceutical"], confirmedService: true, hero: ["dhruva", "vayu"] },
   // ------------------------------------------------------------------ Hyderabad (data entries)
   { slug: "jeedimetla", name: "Jeedimetla", citySlug: "hyderabad", areaType: "industrial-estate", nearbyIndustries: ["pharmaceutical", "chemical", "laboratories"], confirmedService: true, hero: ["veer", "vayu"] },
