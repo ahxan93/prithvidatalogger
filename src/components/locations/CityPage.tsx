@@ -7,6 +7,7 @@ import {
   GSM_NETWORK_NOTE,
   locationHref,
   needsGsmNetworkNote,
+  pathForFlatSlug,
   type ResolvedCity,
 } from "@/data/locations";
 import { getProductBySlug, type ProductSeries } from "@/data/products";
@@ -30,7 +31,7 @@ import {
 import LiveDeviceVisual from "@/components/sections/LiveDeviceVisual";
 import { getCityHeroDevices } from "@/data/page-heroes";
 import { getWrittenAreasForCity } from "@/data/areas";
-import { areaHref } from "@/lib/areas";
+import { areaHref, findAreaByPath, isAreaIndexable } from "@/lib/areas";
 import { locationCrumbs } from "@/lib/location-crumbs";
 import { telHref, whatsappCityHref } from "@/lib/contact";
 import { cityServiceSchema, localBusinessSchema } from "@/lib/schema";
@@ -61,6 +62,16 @@ const WHY_PRITHVI = [
   "Audit-ready records and reports in PDF, Excel and CSV",
   "Remote setup support for Wi-Fi, alert rules and user access",
 ];
+
+/** URL of the page a card points at (a city or an area), only if that page is live. */
+function cardTarget(flatSlug: string | undefined): string | undefined {
+  const target = flatSlug ? pathForFlatSlug(flatSlug) : undefined;
+  if (!target) return undefined;
+  const node = findLocation(target);
+  if (node) return node.node.indexable ? locationHref(target) : undefined;
+  const area = findAreaByPath(target);
+  return area && isAreaIndexable(area.area) ? locationHref(target) : undefined;
+}
 
 const cardLink =
   "group flex h-full items-center justify-between gap-3 rounded-2xl border border-slate-200/80 bg-white px-5 py-4 font-heading font-semibold text-ink shadow-soft transition hover:border-brand-200 hover:text-brand-700 hover:shadow-soft-lg";
@@ -187,8 +198,11 @@ export default async function CityPage({ city }: { city: ResolvedCity }) {
                 <MapPinIcon className="size-5" />
               </span>
               <h3 className="mt-4 font-heading text-lg font-semibold text-ink">
-                {areaLinkByName.get(area.name) ? (
-                  <Link href={areaLinkByName.get(area.name) as string} className="hover:text-brand-700 hover:underline">
+                {(areaLinkByName.get(area.name) ?? cardTarget(area.linkTo)) ? (
+                  <Link
+                    href={(areaLinkByName.get(area.name) ?? cardTarget(area.linkTo)) as string}
+                    className="hover:text-brand-700 hover:underline"
+                  >
                     {area.name}
                   </Link>
                 ) : (

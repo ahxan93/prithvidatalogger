@@ -49,7 +49,12 @@ export type CityLocationNode = NodeBase & {
   /** One or two sentences on the local climate and what it means for monitoring. */
   climateAngle: string;
   /** Industrial areas we serve, each with an area-specific one-line note. */
-  areas: { name: string; note: string }[];
+  areas: {
+    name: string;
+    note: string;
+    /** Flat slug of an existing page this card should link to when its own name has no page (e.g. "andheri"). */
+    linkTo?: string;
+  }[];
   /** 3-5 industries: slug of an industry page plus a city-specific sentence. */
   industries: { slug: string; sentence: string }[];
   /** Exactly 3 series (never Vayu outside India) with a reason tied to the city. */
@@ -157,6 +162,7 @@ export const locations: LegacyLocationNode[] = [
             areas: [
               {
                 name: "Andheri MIDC",
+                linkTo: "andheri",
                 note: "An industrial estate in the western suburbs. Where a factory floor, a stores room and a small cold room share one site, a few single-point loggers or one multi-channel unit can cover all of them.",
               },
               {
@@ -165,6 +171,7 @@ export const locations: LegacyLocationNode[] = [
               },
               {
                 name: "Thane",
+                linkTo: "thane-bhiwandi",
                 note: "Mumbai's neighbour to the north-east, with an industrial belt of its own. Larger sheds and stores here often call for temperature mapping, which VEGA Calibrations can carry out.",
               },
               {
@@ -453,6 +460,7 @@ export const locations: LegacyLocationNode[] = [
             areas: [
               {
                 name: "Taloja MIDC",
+                linkTo: "taloja",
                 note: "The estate on the Navi Mumbai side of the town, where chemical, engineering and plastics plants sit on wide plots and the nearby roads lead straight to the port belt.",
               },
               {
@@ -2575,6 +2583,380 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Goa | Prithvi",
             metaDescription:
               "WiFi and GSM temperature data loggers for Goa's pharma plants in Verna and Kundaim and coastal hotel kitchens. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "rajasthan",
+        name: "Rajasthan",
+        type: "state",
+        intro:
+          "Rajasthan's industry that we serve first centres on its capital, where industrial areas on the northern and southern sides sit beside crowded wholesale markets and a large hospitality trade. This state page is the parent of our Rajasthan city pages; it will be written in full when the hub pages are built.",
+        localIndustries: [
+          "Pharmaceutical distribution",
+          "Food and dairy processing",
+          "Hospitals and hospitality",
+        ],
+        citiesServed: ["Jaipur"],
+        supportNote:
+          "Supply, installation support and site visits for Rajasthan sites are arranged from our Mumbai office. Write to us with the area and what you store.",
+        faqs: [
+          {
+            question: "Which Rajasthan city page is available?",
+            answer: "The Jaipur page covers Sitapura, VKI and the city's dairy and medicine trades, and more cities will follow with their own pages.",
+          },
+          {
+            question: "How do we start an enquiry from Rajasthan?",
+            answer: "Send the location and what you need to monitor through the enquiry form, WhatsApp or a call, and our team replies to discuss it.",
+          },
+        ],
+        // Noindex until its hub prompt runs; it exists as the parent of its city page.
+        indexable: false,
+        children: [
+          {
+            slug: "jaipur",
+            name: "Jaipur",
+            type: "city",
+            intro:
+              "Jaipur is a tourism and trading city whose storage runs through two very different worlds: the old walled city with its crowded wholesale markets, and the industrial areas of Sitapura and VKI on its southern and northern sides. A temperature data logger in Jaipur may sit in a hotel kitchen in the morning and a medicine stockist's back room in the afternoon, or in a dairy chiller that serves both. The desert climate gives the city fierce summer afternoons and a sharp drop after dark, and rooms of stone or concrete hold the heat long after the sun has gone. Alerts to phones and email, and a record that continues through the night, show a stockist, a dairy or a hospital whether a room cooled as it should or kept its heat until morning, and who needs to be told.",
+            climateAngle:
+              "Summers are intense and dry and the swing between afternoon and the small hours is large, so a room can look fine at dawn and be out of range at four in the afternoon, and limits work better when they are set after a few weeks of watching that daily swing.",
+            areas: [
+              {
+                name: "Sitapura",
+                note: "An industrial area on the southern side near the airport, with gem, handicraft, engineering and processing units and the godowns that serve them, on plots of varied size.",
+              },
+              {
+                name: "VKI Area",
+                note: "A large industrial area on the northern side, with engineering, packaging and food units on regular plots, whose goods leave by road for markets across the region.",
+              },
+              {
+                name: "Dairy and food-processing units",
+                note: "Dairies, sweet makers and packaged-food firms on the city's edges keep chillers that supply shops and hotels across the city every morning.",
+              },
+              {
+                name: "Medicine wholesale markets",
+                note: "Stockists in the older commercial districts hold medicines in small back rooms behind busy shops, many cooled by a single air conditioner.",
+              },
+            ],
+            industries: [
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Stockists and distributors serving chemists across the region keep medicines in crowded rooms where the air conditioner is the only protection, so a reading every few minutes shows the afternoon strain on it.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Dairies, sweet makers and hotel kitchens hold chilled stock that is loaded before dawn, and an overnight record shows that a chamber held its range while the building stood empty.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals and nursing homes keep blood storage, vaccine fridges and pharmacies that must stay in range through a long power cut in the heat of summer.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Godown operators on the roads out of the city hold goods for traders and hotels, and a reading by bay shows which corner of a shed ran hottest before the evening cool.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels spread through a dairy cold store or a stockist's crowded medicine room, showing the warmest shelf, the door and the corners that a single probe would miss.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels sit at the top and bottom of a chiller or a ward fridge, giving a paired record of how far the room swings between its warmest and coolest points.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger with an external probe rides in a delivery van or sits in a godown without Wi-Fi, reporting on goods that leave the city through the day.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can you visit Sitapura and VKI in one trip?",
+                answer:
+                  "We plan them as separate stops on one day or on two, since they lie on opposite sides of the city. Send the sites, the rooms and a contact at each and we propose an order that suits their gates and shifts.",
+              },
+              {
+                question: "How should alert delays be set when the daily swing is large?",
+                answer:
+                  "A short delay on the high limit suits a store that can warm quickly in the afternoon, while a longer one avoids false alarms from a door left open for a delivery. We tune both after a few weeks of readings.",
+              },
+              {
+                question: "What happens to monitoring during a summer power cut?",
+                answer:
+                  "Loggers keep storing readings on their batteries and send them when the network returns, and an alert for a lost mains supply can go to the person who looks after the room.",
+              },
+              {
+                question: "Who handles calibration and mapping for a Jaipur dairy or hospital?",
+                answer:
+                  "VEGA Calibrations, our parent company, calibrates loggers and probes and carries out temperature mapping, and the work can be planned with the visit so placement and certificates are settled together.",
+              },
+            ],
+            nearby: [
+              { slug: "delhi", name: "Delhi" },
+              { slug: "manesar", name: "Manesar" },
+              { slug: "ahmedabad", name: "Ahmedabad" },
+            ],
+            metaTitle: "Temperature Data Loggers in Jaipur | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Jaipur's Sitapura and VKI units, dairies, medicine stockists and hospitals. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "madhya-pradesh",
+        name: "Madhya Pradesh",
+        type: "state",
+        intro:
+          "Madhya Pradesh's industry that we serve first lies around Indore, where food processors, pharmaceutical makers and engineering plants work on industrial belts to the south-west and north-west of the city. This state page is the parent of our Madhya Pradesh city pages; it will be written in full when the hub pages are built.",
+        localIndustries: [
+          "Food processing",
+          "Pharmaceutical manufacturing",
+          "Automotive and engineering",
+        ],
+        citiesServed: ["Indore"],
+        supportNote:
+          "Supply, installation support and site visits for Madhya Pradesh plants are arranged from our Mumbai office. Write to us with the estate and what you store.",
+        faqs: [
+          {
+            question: "Which Madhya Pradesh city page is available?",
+            answer: "The Indore page covers Pithampur, Sanwer Road and the city's food processors, and more cities will follow with their own pages.",
+          },
+          {
+            question: "How do we arrange a plant visit in Madhya Pradesh?",
+            answer: "Send the estate, the plant and a contact through the enquiry form, WhatsApp or a call, and we agree a day with your team.",
+          },
+        ],
+        // Noindex until its hub prompt runs; it exists as the parent of its city page.
+        indexable: false,
+        children: [
+          {
+            slug: "indore",
+            name: "Indore",
+            type: "city",
+            intro:
+              "Indore is the commercial capital of Madhya Pradesh and a city that feeds, treats and builds for its region: food processors known for packaged snacks and sweets, pharmaceutical manufacturers, automotive and engineering plants and a busy wholesale trade. A temperature data logger in Indore usually watches stores at the industrial estates of Pithampur and Sanwer Road, and the cold rooms and medicine godowns in the city that supply districts across the middle of the country. The climate is a plain, hot one, with summer heat that builds slowly and a monsoon that arrives with real weight, so a store that held its range in April can fail a buyer's inspection in June. Wireless loggers with alerts to phones and email let a quality head see every plant and godown in one list and keep the record a buyer asks for.",
+            climateAngle:
+              "Summer heat builds through April and May and the monsoon then brings damp air into stores that spent weeks dry, so the same room is tested at both ends of the season and should be watched through the changeover.",
+            areas: [
+              {
+                name: "Pithampur",
+                note: "A large industrial belt to the south-west with automotive, pharmaceutical and engineering plants on big plots, where stores and quality rooms are spread across wide campuses.",
+              },
+              {
+                name: "Sanwer Road",
+                note: "An industrial area on the road to the north-west with food, pharmaceutical and engineering units on mid-sized plots and godowns that serve the city's markets.",
+              },
+              {
+                name: "Food-processing and snack makers",
+                note: "Packaged snack, sweet and spice makers keep ingredients and finished goods in stores that must be shown to have stayed dry and cool through the season.",
+              },
+            ],
+            industries: [
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Formulation units hold ingredients and finished packs in controlled rooms that buyers inspect, and a continuous record stands beside the batch file as proof that the limit held.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Packaged-food makers keep dry stores and chillers for ingredients that spoil or clump when the air turns damp, and a humidity trend shows which store was affected first by the monsoon.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Distribution godowns on the highways around the city hold goods for several customers and need a reading by bay to settle questions about whose stock sat where.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "In-house quality laboratories at the plants keep samples and standards in fridges and cabinets that each have their own limit and a named person to receive the alert.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels cover a large finished-goods or ingredient warehouse at a Pithampur plant across racks, dock doors and floor, so one device reports on a whole hall.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels watch a food store or a controlled pharmaceutical room at several heights and at the door from a single logger.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One logger with an external probe goes inside a quality-control fridge or a sample cabinet at an Indore plant, where a single reading and a single alert contact are all that is needed.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can you visit Pithampur and Sanwer Road in one trip?",
+                answer:
+                  "We plan them as a sequence by direction, since they lie on different sides of the city. Send the plants, the stores and a contact at each and we propose an order that suits their gate rules.",
+              },
+              {
+                question: "How do you watch a store that goes damp when the monsoon arrives?",
+                answer:
+                  "A logger that reads humidity alongside temperature shows the day the store starts to take on damp air, so a dehumidifier or a door seal can be fixed before stock is affected.",
+              },
+              {
+                question: "Can one account cover plants in Pithampur and godowns in the city?",
+                answer:
+                  "Yes. Each plant and godown is a site with its own alert recipients, and a group quality head opens every site in one list and exports a report for any room and period.",
+              },
+              {
+                question: "Is mapping available for a large Indore warehouse?",
+                answer:
+                  "Temperature mapping is delivered by VEGA Calibrations, our parent company, and it shows where a warehouse is warmest and coolest before permanent loggers are placed in those positions.",
+              },
+            ],
+            nearby: [
+              { slug: "ahmedabad", name: "Ahmedabad" },
+              { slug: "pune", name: "Pune" },
+              { slug: "jaipur", name: "Jaipur" },
+            ],
+            metaTitle: "Temperature Data Loggers in Indore | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Indore's Pithampur and Sanwer Road plants, food processors and godowns. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "west-bengal",
+        name: "West Bengal",
+        type: "state",
+        intro:
+          "West Bengal's industry that we serve first lies around Kolkata: port-side warehouses, the industrial township at Kalyani, the logistics belt at Dankuni and the engineering works of Howrah. This state page is the parent of our West Bengal city pages; it will be written in full when the hub pages are built.",
+        localIndustries: [
+          "Pharmaceutical distribution",
+          "Food and cold storage",
+          "Port logistics",
+        ],
+        citiesServed: ["Kolkata"],
+        supportNote:
+          "Supply, installation support and site visits for West Bengal sites are arranged from our Mumbai office. Write to us with the area and what you store.",
+        faqs: [
+          {
+            question: "Which West Bengal city page is available?",
+            answer: "The Kolkata page covers Howrah, Kalyani, Dankuni and the port-side warehouses, and more cities will follow with their own pages.",
+          },
+          {
+            question: "How do we start an enquiry from West Bengal?",
+            answer: "Send the location and what you need to monitor through the enquiry form, WhatsApp or a call, and our team replies to discuss it.",
+          },
+        ],
+        // Noindex until its hub prompt runs; it exists as the parent of its city page.
+        indexable: false,
+        children: [
+          {
+            slug: "kolkata",
+            name: "Kolkata",
+            type: "city",
+            intro:
+              "Kolkata is an old port city on the Hooghly, and its storage follows the river and the railway: warehouses on the Howrah side, the industrial township at Kalyani to the north, the logistics belt around Dankuni and the port-side godowns that handle goods bound inland and overseas. A temperature data logger in Kolkata is as often watching a medicine distributor's back room or a cold store for fish, dairy and sweets as it is a plant floor. The air is hot and humid for most of the year and the monsoon is long, so cold rooms fight condensation and cartons absorb moisture in every godown. Wireless loggers with alerts to phones and email, and a record that continues through a cut, give distributors, hospitals and cold stores a dated account of how a room really behaved.",
+            climateAngle:
+              "Hot, humid air and a long monsoon keep condensation on cold-room doors and moisture in cartons for most months, and pre-monsoon storms are a frequent cause of sudden power cuts.",
+            areas: [
+              {
+                name: "Howrah",
+                note: "An older industrial and warehouse district across the river, with engineering works, godowns and wholesale trade packed along roads that feed the railway and the bridges.",
+              },
+              {
+                name: "Kalyani",
+                note: "A planned industrial township to the north with pharmaceutical, engineering and food plants on regular plots, more spread out than the older districts.",
+              },
+              {
+                name: "Dankuni",
+                note: "A logistics and manufacturing belt to the north-west beside the highway, with distribution warehouses and consumer-goods and food units on large plots.",
+              },
+              {
+                name: "Port-side warehouses",
+                note: "Godowns near the river port hold goods that wait for a vessel or a rake, with long dwell times in warm, damp air.",
+              },
+            ],
+            industries: [
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Distributors who supply chemists across eastern India hold medicines in crowded back rooms, and a log with a time for each excursion answers a buyer's query about a storage lapse.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Cold stores for fish, dairy and sweets run chambers that are opened through the day in humid air, so a reading every few minutes shows what each loading did to the room.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals and diagnostic centres keep blood storage and vaccine fridges that depend on a steady supply, and an alert to the duty staff covers the minutes when the mains and the generator are both out.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Port and rail-linked godowns hold goods for long periods before they move, and a record for each bay shows how a lot fared while it waited.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity along with temperature, which tells a godown or a chilled store when damp air has overcome its dehumidifier or a door seal.",
+              },
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels cover a long port-side shed or a Dankuni distribution hall across racks and dock doors, so one report shows the whole building.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger with an external probe rides in a van or a railway wagon, reporting from places a building's Wi-Fi never reaches.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can you cover Howrah, Kalyani and Dankuni in one trip?",
+                answer:
+                  "We plan them in a sequence that follows the roads, since the three lie in different directions from the city. Send the sites, the rooms and a contact at each and we propose an order.",
+              },
+              {
+                question: "How does a cold store cope with condensation on doors and probes?",
+                answer:
+                  "Probes sit away from the door seal and the evaporator, and an alert on a door left open catches the usual cause of icing and fog before it builds up on the shelves.",
+              },
+              {
+                question: "What happens to monitoring during a pre-monsoon storm outage?",
+                answer:
+                  "Loggers keep recording on their batteries through the cut and send stored readings when the network returns, and an alert for a lost mains supply goes to the named person.",
+              },
+              {
+                question: "Who handles calibration of loggers used in a Kolkata hospital or cold store?",
+                answer:
+                  "Loggers and probes used in a Kolkata hospital or cold store can be calibrated by VEGA Calibrations, our parent company, and we time the work so the certificates are current when an inspector is due.",
+              },
+            ],
+            nearby: [
+              { slug: "lucknow", name: "Lucknow" },
+              { slug: "hyderabad", name: "Hyderabad" },
+              { slug: "delhi", name: "Delhi" },
+            ],
+            metaTitle: "Temperature Data Loggers in Kolkata | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Kolkata's pharma distributors, cold stores and port warehouses, with site visits arranged. Get Solution.",
             indexable: true,
           },
         ],

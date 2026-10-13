@@ -276,6 +276,13 @@ for (const { node, path: p } of all) {
     f("primary keyword 'temperature data logger' missing from the first 100 words of the intro");
   if (!node.climateAngle || node.climateAngle.split(/\s+/).length < 15) f("climateAngle missing or too short");
   if (node.areas.length < 3 || node.areas.some((a) => !a.name || a.note.split(/\s+/).length < 12)) f("needs ≥3 areas, each with a name and a one-line note");
+  for (const a of node.areas) {
+    if (!a.linkTo) continue;
+    const target = allFlatSlugs().includes(a.linkTo) ? a.linkTo : undefined;
+    const targetNode = all.find((l) => locationFlatSlug(l.path) === a.linkTo);
+    const targetArea = areas.find((x) => x.slug === a.linkTo && x.page);
+    if (!target || (!targetNode && !targetArea)) f(`area card "${a.name}" links to "${a.linkTo}", which has no page`);
+  }
   if (node.industries.length < 3 || node.industries.length > 5) f(`has ${node.industries.length} industries (3–5)`);
   for (const i of node.industries) {
     if (!industries.some((x) => x.slug === i.slug)) f(`industry "${i.slug}" has no industry page`);
