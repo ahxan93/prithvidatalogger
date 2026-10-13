@@ -1300,13 +1300,13 @@ export const locations: LegacyLocationNode[] = [
           "Data centres and server rooms",
           "Warehousing and distribution",
         ],
-        citiesServed: ["Noida"],
+        citiesServed: ["Noida", "Lucknow"],
         supportNote:
           "Supply, installation support and site visits for Uttar Pradesh sites are arranged from our Mumbai office. Write to us with the sector and what you store.",
         faqs: [
           {
             question: "Which Uttar Pradesh city page is available?",
-            answer: "The Noida page covers Noida and Greater Noida, and more cities of the state will follow with their own pages.",
+            answer: "The Noida page covers Noida and Greater Noida and the Lucknow page covers the state capital, and more cities will follow with their own pages.",
           },
           {
             question: "How do we start an enquiry from Uttar Pradesh?",
@@ -1402,6 +1402,99 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Noida | Prithvi",
             metaDescription:
               "WiFi and GSM temperature data loggers for Noida and Greater Noida's electronics plants, data centres and warehouses. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "lucknow",
+            name: "Lucknow",
+            type: "city",
+            intro:
+              "Lucknow is the capital of Uttar Pradesh, and its storage needs follow from that: government and private hospitals, medicine wholesalers who supply towns across the state, food distributors and cold stores that serve a large population, and industrial areas on the city's edges. A temperature data logger in Lucknow most often watches a hospital pharmacy, a stockist's medicine room or a cold store whose contents are bound for districts a long drive away. Summers are fierce, the monsoon air is heavy with moisture and the power supply to older buildings is not always steady. Alerts that reach a phone, and a record that keeps going on battery through a cut, let a pharmacy head or a stockist hear about a problem while there is still time to move the stock, and leave a dated log to show when an inspection comes.",
+            climateAngle:
+              "Summer heat on the plains is intense and long, and the humid monsoon that follows puts damp air into stores and cartons, so rooms are tested by both extremes within a few months of each other.",
+            areas: [
+              {
+                name: "Chinhat",
+                note: "An industrial area on the eastern side of the city where manufacturers, packaging firms and warehouse operators hold goods on larger plots along the road out of town.",
+              },
+              {
+                name: "Amausi",
+                note: "An industrial area on the southern side near the airport, with food, engineering and distribution units whose goods leave by road and air.",
+              },
+              {
+                name: "Nadarganj",
+                note: "An older industrial area in the west, with small and medium units, workshops and godowns packed on narrow plots beside residential lanes.",
+              },
+            ],
+            industries: [
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Teaching hospitals and private clinics keep blood storage, medicine rooms and vaccine fridges that are watched through the night, and a missed power cut is the event the duty staff most need to hear about.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Stockists who supply chemists across the state hold medicines in rooms served by one or two air conditioners, so a rise in the reading is the first sign that one has tripped.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Dairy depots, sweet and bakery suppliers and food distributors keep chilled stock that moves out each morning, and an overnight record shows that a chamber held its range before the loading began.",
+              },
+              {
+                slug: "vaccine-cold-chain",
+                sentence:
+                  "District cold rooms and regional vaccine stores hold stock for centres far from the city, so a log that proves unbroken storage travels with each issue.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an external probe sits inside a ward fridge or a vaccine refrigerator, where one number and one alert contact are all that is needed.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels spread across a stockist's medicine room or a dairy cold store show the warmest shelf, the door and the corners that a single probe would miss.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger keeps reporting from a delivery van or a district store without Wi-Fi, which suits goods that leave the city for towns with patchy coverage.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How is a visit arranged for Chinhat, Amausi or Nadarganj?",
+                answer:
+                  "Send the area, the stores and a contact through the enquiry form, WhatsApp or a call, and we group visits by side of the city. A hospital is visited around pharmacy hours and an industrial unit around its shifts.",
+              },
+              {
+                question: "What happens to monitoring during frequent power cuts?",
+                answer:
+                  "Loggers run on rechargeable batteries and keep storing readings through a cut, and an alert for a lost mains supply can go to the person who looks after the room. GSM versions report even when a building's Wi-Fi is down.",
+              },
+              {
+                question: "Can a stockist show a record to a visiting drug inspector?",
+                answer:
+                  "Reports for any room and any period can be exported as PDF, Excel or CSV, so a stockist can hand over a dated log instead of searching through a register.",
+              },
+              {
+                question: "Who handles calibration of the loggers for a Lucknow hospital?",
+                answer:
+                  "VEGA Calibrations, our parent company, calibrates loggers and probes, and the schedule can be set so that certificates are current before an inspection date you give us.",
+              },
+            ],
+            nearby: [
+              { slug: "noida", name: "Noida" },
+              { slug: "delhi", name: "Delhi" },
+              { slug: "kolkata", name: "Kolkata" },
+            ],
+            metaTitle: "Temperature Data Loggers in Lucknow | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Lucknow's hospitals, medicine stockists and cold stores, with site visits arranged. Get Solution.",
             indexable: true,
           },
         ],
@@ -1902,6 +1995,249 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Chennai | Prithvi",
             metaDescription:
               "WiFi and GSM temperature and humidity data loggers for Chennai's pharma, electronics and port-linked warehouses, with site visits. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "chandigarh",
+        name: "Chandigarh",
+        type: "state",
+        intro:
+          "Chandigarh is a union territory that is the shared capital of Punjab and Haryana, with the industrial areas of Mohali and Panchkula running into its edges. This page is the parent of our Chandigarh city page; it will be written in full when the hub pages are built.",
+        localIndustries: [
+          "Hospitals and diagnostic laboratories",
+          "Pharmaceutical distribution",
+          "Food and dairy distribution",
+        ],
+        citiesServed: ["Chandigarh"],
+        supportNote:
+          "Supply, installation support and site visits for the Chandigarh region are arranged from our Mumbai office. Write to us with the area and what you store.",
+        faqs: [
+          {
+            question: "Which page covers Mohali and Panchkula?",
+            answer: "The Chandigarh city page describes the industrial area phases, Mohali and Panchkula together.",
+          },
+          {
+            question: "How do we start an enquiry from the Chandigarh region?",
+            answer: "Send the location and what you need to monitor through the enquiry form, WhatsApp or a call, and our team replies to discuss it.",
+          },
+        ],
+        // Noindex until its hub prompt runs; it exists as the parent of its city page.
+        indexable: false,
+        children: [
+          {
+            slug: "chandigarh",
+            name: "Chandigarh",
+            type: "city",
+            intro:
+              "Chandigarh is a planned city, laid out in numbered sectors with its industrial areas set apart, and it is the shared capital of two states whose neighbouring towns of Mohali and Panchkula have grown into the city's edges. A temperature data logger in Chandigarh mostly serves hospitals and research institutes, the medicine distributors who supply the surrounding districts, and the food and dairy firms that keep chilled stock for a prosperous region. Rooms are modern but busy: a pharmacy store that is opened a hundred times a day, a vaccine fridge in a clinic, a chiller in a distribution depot. Alerts to a phone and a dated record that can be exported on request give a duty pharmacist or a depot manager an early warning and an answer for an inspection. Because the sectors are close together, one team can look after sites on both sides of a sector road from a single dashboard.",
+            climateAngle:
+              "Summers are hot and dry, and winters are cold enough to chill stores that were only ever designed to keep heat out, so a low limit matters here alongside the high one.",
+            areas: [
+              {
+                name: "Industrial Area Phase I–II",
+                note: "The city's own planned industrial areas, where printing, engineering, food and pharmaceutical distribution firms stand on regular plots with stores beside the work floor.",
+              },
+              {
+                name: "Mohali",
+                note: "A neighbouring town to the south-west with technology parks, pharmaceutical units and warehouses on larger plots, and server rooms in the office blocks around them.",
+              },
+              {
+                name: "Panchkula",
+                note: "A town on the Haryana side to the east, where industrial plots, medicine stockists and healthcare facilities serve the northern districts.",
+              },
+            ],
+            industries: [
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Large hospitals and research institutes keep blood storage and medicine rooms under constant watch, and an alert that reaches a named duty person is part of every night procedure.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Distributors that supply chemists across the region keep medicines in rooms where doors open all day, so a reading every few minutes shows what a busy afternoon did to the shelf.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Dairy, bakery and packaged-food firms hold chilled stock in depots that dispatch before dawn, and a log kept overnight shows the chambers stayed in range through the cold hours.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "Diagnostic and research laboratories keep samples and reagents in fridges and freezers, each with its own limit, and one dashboard lists every unit by room.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity as well as temperature, which suits pharmacy stores that go from dry winter air to a damp monsoon within a few months.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels cover a distributor's medicine room at several shelf heights and at the door, which shows how a room really behaves between openings.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger with an external probe rides in a delivery vehicle or sits in a rural stockist's room, reporting where no Wi-Fi is available.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Do you cover Mohali and Panchkula as well as the city?",
+                answer:
+                  "Yes, they are served together with the city. Send the town, the stores and a contact through the enquiry form, WhatsApp or a call, and we plan the visits by town so one day covers neighbours. Hospitals are visited around pharmacy hours, and we agree who will let us into each room before we arrive.",
+              },
+              {
+                question: "Can a logger raise an alert when a store gets too cold?",
+                answer:
+                  "A low limit can be set next to the high one, so a store that drops below its range on a winter night raises an alert in the same way as a warm afternoon does.",
+              },
+              {
+                question: "How do clinics with several floors watch every fridge?",
+                answer:
+                  "Each fridge is a device in a room under the clinic's site, and alerts go to the person for that floor while a manager sees every floor in one list and can export a report for any period.",
+              },
+              {
+                question: "Is calibration available before a healthcare audit?",
+                answer:
+                  "VEGA Calibrations, our parent company, calibrates loggers and probes and can schedule the work ahead of an audit date, with certificates stored against each device on the dashboard.",
+              },
+            ],
+            nearby: [
+              { slug: "baddi", name: "Baddi" },
+              { slug: "delhi", name: "Delhi" },
+              { slug: "manesar", name: "Manesar" },
+            ],
+            metaTitle: "Temperature Data Loggers in Chandigarh | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Chandigarh, Mohali and Panchkula hospitals, pharma distributors and food depots. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "himachal-pradesh",
+        name: "Himachal Pradesh",
+        type: "state",
+        intro:
+          "Himachal Pradesh's industry that we serve first sits in the foothills near the plains, where pharmaceutical manufacturers have gathered around Baddi, Barotiwala and Nalagarh. This state page is the parent of our Himachal Pradesh city pages; it will be written in full when the hub pages are built.",
+        localIndustries: [
+          "Pharmaceutical manufacturing",
+          "Laboratories and quality control",
+          "Packaging and allied units",
+        ],
+        citiesServed: ["Baddi"],
+        supportNote:
+          "Supply, installation support and site visits for Himachal Pradesh plants are arranged from our Mumbai office. Write to us with the estate and what you store.",
+        faqs: [
+          {
+            question: "Which Himachal Pradesh page is available?",
+            answer: "The Baddi page covers Baddi, Barotiwala and Nalagarh, and more of the state will follow with its own pages.",
+          },
+          {
+            question: "How do we arrange a plant visit in the foothills?",
+            answer: "Send the estate, the plant and a contact through the enquiry form, WhatsApp or a call, and we agree a day with your team.",
+          },
+        ],
+        // Noindex until its hub prompt runs; it exists as the parent of its city page.
+        indexable: false,
+        children: [
+          {
+            slug: "baddi",
+            name: "Baddi",
+            type: "city",
+            intro:
+              "Baddi sits in the foothills of Himachal Pradesh in Solan district, and with Barotiwala and Nalagarh nearby it forms a cluster of pharmaceutical manufacturers set among hills and farmland close to the border with the plains. A temperature data logger in Baddi watches the stores of formulation plants: raw-material warehouses, packaging stores, finished-goods rooms and the quality laboratory, each with a stated range. Plants are large and built to work to written procedures, and those procedures call for a record that is continuous and traceable. The foothill climate swings through the year, so a store that is easy in March can strain in June, and one dashboard that shows every room at once helps a quality head see which part of a plant needs attention first. Where a company runs plants in more than one of the three estates, the same alert rules can be copied from one plant to the next so every site is judged on the same footing.",
+            climateAngle:
+              "Summers are hot, the monsoon in the hills is heavy and winter nights are cold, so a single warehouse sees a wide seasonal range that changes the load on cooling and dehumidification through the year.",
+            areas: [
+              {
+                name: "Baddi",
+                note: "The main industrial area, where formulation plants and their packaging suppliers stand on plots of many sizes, each with its own warehouses and quality laboratory.",
+              },
+              {
+                name: "Barotiwala",
+                note: "A neighbouring industrial area with pharmaceutical plants and allied units, reached by a short drive on the same road network.",
+              },
+              {
+                name: "Nalagarh",
+                note: "A further estate toward the plains, with pharmaceutical and packaging units whose distance from one another favours wireless loggers over cable.",
+              },
+            ],
+            industries: [
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Formulation plants hold raw materials, in-process goods and finished packs in warehouses that follow written storage limits, and a continuous log sits beside the batch record as evidence the limit held.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "Quality control laboratories keep retained samples, stability chambers and reference standards that each need their own watched limits and a named contact.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Warehouse operators in the cluster hold packaging and finished goods for several plants and need a record by bay to show whose stock stood where.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Suppliers of excipients, solvents and packaging chemicals store drums with printed limits, and a rise in the reading warns the store keeper before a lot is compromised.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels sit at the top and bottom of a stability chamber or a storage room, giving a paired record that a qualification report can use directly.",
+              },
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels cover a large raw-material or finished-goods warehouse from floor to roof beam, so one report shows where the building is least stable.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an external probe fits a laboratory fridge or a retention-sample cabinet without changing how the unit is used.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can you cover Baddi, Barotiwala and Nalagarh on one trip?",
+                answer:
+                  "We plan them as a sequence along the same roads. Send the plants, the stores and the contact at each, and we propose an order that suits their gate rules and shifts.",
+              },
+              {
+                question: "What do pharmaceutical plants usually need arranged before a visit?",
+                answer:
+                  "Most plants register visitors in advance and ask for gowning or footwear rules to be followed in production areas. Tell us what applies and we plan the walk-through around it. A first visit usually ends with a short list of rooms, probe positions and alert contacts that your quality head can approve before anything is fitted.",
+              },
+              {
+                question: "Can mapping be done before permanent loggers are fixed?",
+                answer:
+                  "Yes. VEGA Calibrations, our parent company, maps temperature in a warehouse or chamber, and the permanent loggers are then placed at the positions the study shows to be least stable.",
+              },
+              {
+                question: "Does one dashboard work for several plants of the same group?",
+                answer:
+                  "Each plant is its own site with its own alert recipients, and a group quality head can open every site in one list, compare records and export a report for any room and period.",
+              },
+            ],
+            nearby: [
+              { slug: "chandigarh", name: "Chandigarh" },
+              { slug: "delhi", name: "Delhi" },
+            ],
+            metaTitle: "Temperature Data Loggers in Baddi | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Baddi, Barotiwala and Nalagarh pharma plants and laboratories, with site visits. Get Solution.",
             indexable: true,
           },
         ],

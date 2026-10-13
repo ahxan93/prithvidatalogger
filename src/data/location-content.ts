@@ -63,6 +63,16 @@ export const locationContent: Record<string, LocationContent> = {
       "Temperature data loggers for Tamil Nadu's electronics, automotive and port-linked warehouses around Chennai, with site visits arranged. Get Solution.",
     recommended: ["nakshatra", "virat", "vayu"],
   },
+  "india/chandigarh": {
+    metaDescription:
+      "Temperature data loggers for Chandigarh, Mohali and Panchkula hospitals, medicine distributors and food depots, with site visits arranged. Get Solution.",
+    recommended: ["nakshatra", "dhruva", "vayu"],
+  },
+  "india/himachal-pradesh": {
+    metaDescription:
+      "Temperature data loggers for Himachal Pradesh's Baddi, Barotiwala and Nalagarh pharmaceutical plants, with site visits arranged. Get Solution.",
+    recommended: ["rajmudra", "virat", "setu"],
+  },
   "saudi-arabia": {
     metaDescription:
       "Temperature data logger supply to Saudi Arabia: WiFi loggers for warehouses, cold rooms and pharmacies in Riyadh, Jeddah and Dammam. Get a solution.",
