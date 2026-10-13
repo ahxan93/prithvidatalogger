@@ -110,6 +110,9 @@ function industryLink(label: string): string | undefined {
   const text = label.toLowerCase();
   const rules: [RegExp, string][] = [
     [/vaccine/, "vaccine-cold-chain"],
+    [/chemical|dye|solvent/, "chemical"],
+    [/electronic|automotive|engineering/, "electronics"],
+    [/textile|mill|garment/, "textile"],
     [/pharma|medicine|medical store|stockist/, "pharmaceutical"],
     [/hospital|clinic|blood|healthcare/, "hospitals-blood-banks"],
     [/food|restaurant|kitchen|hotel|catering|hospitality|seafood|fisher|dairy|co-operative/, "food-beverage"],
@@ -144,6 +147,30 @@ export default async function LocationPage({ params }: PageProps<"/data-logger/[
     .filter((series): series is ProductSeries => Boolean(series));
   const children = (node.children ?? []).filter((child) => child.indexable);
   const parent = trail.length > 1 ? trail[trail.length - 2] : undefined;
+
+  // Every built page this hub points at, with its short unique line: the states
+  // of a country, or the cities of a state / GCC country, and (state hubs) the
+  // area pages under each city. Only live pages are linked.
+  const hubEntries = (node.listing ?? []).flatMap((entry) => {
+    const target = pathForFlatSlug(entry.slug);
+    const found = target ? findLocation(target) : undefined;
+    if (!target || !found || !found.node.indexable) return [];
+    const cities =
+      found.node.type === "state"
+        ? (found.node.children ?? [])
+            .filter((c) => c.indexable)
+            .map((c) => ({ name: c.name, href: locationHref([...target, c.slug]) }))
+        : [];
+    const areaItems = (node.areaListing ?? []).flatMap((a) => {
+      const areaPath = pathForFlatSlug(a.slug);
+      if (!areaPath || areaPath.slice(0, -1).join("/") !== target.join("/")) return [];
+      const area = findAreaByPath(areaPath);
+      return area && isAreaIndexable(area.area)
+        ? [{ name: area.area.name, href: locationHref(areaPath), text: a.text }]
+        : [];
+    });
+    return [{ name: found.node.name, href: locationHref(target), text: entry.text, cities, areas: areaItems }];
+  });
 
   return (
     <>
@@ -219,11 +246,12 @@ export default async function LocationPage({ params }: PageProps<"/data-logger/[
                 const areaLink = writtenAreas().find(
                   (w) => w.area.citySlug === node.slug && w.area.name === place,
                 );
+                const childPage = (node.children ?? []).find((c) => c.indexable && c.name === place);
                 return (
                   <li key={place}>
-                    {areaLink ? (
+                    {areaLink || childPage ? (
                       <Link
-                        href={locationHref(areaLink.path)}
+                        href={areaLink ? locationHref(areaLink.path) : locationHref([...path, (childPage as { slug: string }).slug])}
                         className="inline-flex rounded-full bg-white px-3.5 py-1.5 text-sm font-semibold text-brand-700 ring-1 ring-inset ring-brand-200 hover:bg-brand-600 hover:text-white"
                       >
                         {place}
@@ -240,6 +268,56 @@ export default async function LocationPage({ params }: PageProps<"/data-logger/[
           </div>
         </div>
       </Section>
+
+      {/* Every built page under this hub, each with its own short description */}
+      {hubEntries.length > 0 && (
+        <Section tone="surface" aria-labelledby="hub-pages-title" data-hub-section="pages">
+          <SectionHeading
+            id="hub-pages-title"
+            eyebrow="Locations"
+            title={node.type === "country" && path.length === 1 && node.slug === "india" ? "States and Cities We Supply" : `Cities and Areas in ${place}`}
+          />
+          <ul className="mt-10 grid gap-5 md:grid-cols-2">
+            {hubEntries.map((entry) => (
+              <li key={entry.href} className="rounded-2xl border border-slate-200/80 bg-white p-6 shadow-soft">
+                <h3 className="font-heading text-xl font-semibold text-ink">
+                  <Link href={entry.href} className="hover:text-brand-700 hover:underline">
+                    {entry.name}
+                  </Link>
+                </h3>
+                <p className="mt-2 leading-relaxed text-muted">{entry.text}</p>
+                {entry.cities.length > 0 && (
+                  <ul className="mt-4 flex flex-wrap gap-2">
+                    {entry.cities.map((city) => (
+                      <li key={city.href}>
+                        <Link
+                          href={city.href}
+                          className="inline-flex rounded-full bg-surface px-3.5 py-1.5 text-sm font-semibold text-brand-700 ring-1 ring-inset ring-brand-200 hover:bg-brand-600 hover:text-white"
+                        >
+                          {city.name}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+                {entry.areas.length > 0 && (
+                  <ul className="mt-4 space-y-3 border-t border-slate-200/80 pt-4">
+                    {entry.areas.map((area) => (
+                      <li key={area.href} className="text-sm leading-relaxed text-muted">
+                        <Link href={area.href} className="font-semibold text-brand-700 hover:underline">
+                          {area.name}
+                        </Link>
+                        <span className="text-ink">: </span>
+                        {area.text}
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </li>
+            ))}
+          </ul>
+        </Section>
+      )}
 
       {/* Recommended products */}
       {recommended.length > 0 && (

@@ -35,8 +35,18 @@ export type LegacyLocationNode = NodeBase & {
   /** How supply and support work for this place. */
   supportNote: string;
   faqs: LocationFaq[];
+  /**
+   * Hub pages: one short, unique line for every built child page (the states of
+   * a country, or the cities of a state or GCC country).
+   */
+  listing?: HubListing[];
+  /** State hubs: one short, unique line for every written area page under its cities. */
+  areaListing?: HubListing[];
   children?: LocationNode[];
 };
+
+/** A line about one page a hub links to; `slug` is that page's flat slug (without data-logger-). */
+export type HubListing = { slug: string; text: string };
 
 /**
  * A city page built to docs/LOCATION-PAGES-PLAYBOOK.md section 3 (12 sections).
@@ -83,7 +93,7 @@ export const locations: LegacyLocationNode[] = [
     name: "India",
     type: "country",
     intro:
-      "Prithvi Data Loggers is based in Mumbai and supplies WiFi and GSM temperature and humidity data loggers to businesses across India. Our parent company, VEGA Calibrations, is a calibration laboratory, so the team that supplies your loggers can also calibrate them and map your storage areas. Pharma plants, cold chain operators, hospitals, food businesses and warehouses use our loggers to replace manual readings with live, audit-ready records.",
+      "India is where Prithvi Data Loggers is based, and the country's storage map is as varied as its climate: pharmaceutical and chemical estates in Maharashtra and Gujarat, electronics and technology campuses in the south, food and cold-chain businesses in every state, and hospitals and medicine distributors everywhere. This page is the starting point for every Indian location we serve, grouped by state. Choose a state to see its cities and industrial areas, the industries we support there and the loggers we suggest, or go straight to a city. Whichever page you open, the same dashboard, alerts and calibration support are behind it, and our team in Mumbai arranges supply, set-up and site visits with you.",
     localIndustries: [
       "Pharmaceutical manufacturing and distribution",
       "Vaccine and cold chain logistics",
@@ -96,20 +106,37 @@ export const locations: LegacyLocationNode[] = [
       "Loggers are dispatched from our Mumbai office. Our team helps you with Wi-Fi setup, alert rules and dashboard access by phone, WhatsApp or video call. Calibration and temperature mapping are delivered by VEGA Calibrations; tell us your location and we will confirm what can be arranged.",
     faqs: [
       {
-        question: "Do you supply data loggers outside Maharashtra?",
+        question: "How do I find the page for my own city?",
         answer:
-          "Yes. We supply across India from Mumbai, and setup support is given remotely by phone, WhatsApp or video call.",
+          "Open the state that holds your city, where each city and industrial area has its own page, or use the list on the locations page. If your city is not listed, send the location through the enquiry form and we confirm what we can supply.",
       },
       {
-        question: "How do we find out the price?",
+        question: "Is the supply the same in every Indian state?",
         answer:
-          "Share your requirement and we will send a clear quote.",
+          "The loggers, the dashboard and the alert system are the same everywhere. What differs is the visit plan, which we arrange by region and group with other sites nearby so that one trip covers neighbouring places.",
       },
       {
-        question: "Can my loggers be calibrated in India?",
+        question: "Who calibrates the loggers used across India?",
         answer:
-          "Yes. Calibration is carried out by our parent company, VEGA Calibrations. Certificates are traceable to national standards.",
+          "Calibration, temperature mapping and validation support come from VEGA Calibrations, our parent company, and can be planned together with the supply so that placement and certificates are settled in one go.",
       },
+    ],
+    listing: [
+      { slug: "maharashtra", text: "Mumbai, Navi Mumbai, Thane and Bhiwandi, Panvel, Pune and Vasai-Palghar, where a humid coast and the MIDC estates are the main themes." },
+      { slug: "gujarat", text: "Ahmedabad's estates and the chemical belt of Vapi, Ankleshwar and Surat, where pharmaceutical, dye and textile stores meet a heavy southern monsoon." },
+      { slug: "delhi-state", text: "A dense capital in which hospitals, medicine distributors and food businesses share space with the Okhla, Bawana and Narela industrial areas." },
+      { slug: "uttar-pradesh", text: "Noida and Greater Noida's electronics and data centre campuses, and Lucknow's hospitals, medicine stockists and cold stores." },
+      { slug: "haryana", text: "The IMT Manesar plants and highway warehouses on the road south of Gurugram, built around automotive, electronics and distribution." },
+      { slug: "telangana", text: "Hyderabad's pharmaceutical estates, life-science campuses and server halls, from Jeedimetla and Patancheru to Genome Valley." },
+      { slug: "karnataka", text: "Bengaluru's laboratories, technology parks, electronics makers and hospitals, together with the engineering belt of Peenya." },
+      { slug: "tamil-nadu", text: "Chennai's port-linked estates and the mills and workshops of Coimbatore, where humidity decides how stock keeps." },
+      { slug: "chandigarh-state", text: "The planned city and union territory, with Mohali and Panchkula beside it, serving hospitals, medicine distributors and food depots." },
+      { slug: "himachal-pradesh", text: "The foothill pharmaceutical cluster around Baddi, Barotiwala and Nalagarh, where plants work to written storage procedures." },
+      { slug: "kerala", text: "Kochi's seafood export cold chain, port warehouses, spice trade and large hospitals, all in warm, wet air." },
+      { slug: "goa-state", text: "Pharmaceutical plants at Verna and Kundaim and the hotel kitchens of the coast, tested by salt air and the monsoon." },
+      { slug: "rajasthan", text: "Jaipur's dairies, medicine stockists and hospitals, with the Sitapura and VKI industrial areas in a dry desert climate." },
+      { slug: "madhya-pradesh", text: "Indore's food processors, pharmaceutical makers and the Pithampur and Sanwer Road estates, with a hot summer and a heavy monsoon." },
+      { slug: "west-bengal", text: "Kolkata's cold stores, pharmaceutical distributors, hospitals and port-side godowns, with Howrah, Kalyani and Dankuni around it." },
     ],
     indexable: true,
     children: [
@@ -118,7 +145,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Maharashtra",
         type: "state",
         intro:
-          "Maharashtra is our home state, with a busy mix of pharmaceutical units, logistics parks, food-processing plants and hospitals. From our Mumbai office we supply data loggers to sites across the state, from Thane and Navi Mumbai to Pune, Nashik and Nagpur, and help teams move from paper logs to live monitoring.",
+          "Maharashtra is the home state of Prithvi Data Loggers and the busiest region on this site: the pharmaceutical and chemical estates on the edges of Mumbai, the MIDC belts of Navi Mumbai, Thane and Bhiwandi, the port-linked logistics around Panvel, the engineering and automotive ring around Pune and the coastal estates of Vasai and Palghar. Rooms here range from hospital blood banks and vaccine fridges to large bonded warehouses and server halls. The coast keeps the air humid and the monsoon is heavy, while the interior swings hotter and drier. Below is every city and area page we have written for the state, each with a short note on what makes the place distinct.",
         localIndustries: [
           "Pharmaceutical and API units",
           "Warehousing and logistics parks",
@@ -139,15 +166,51 @@ export const locations: LegacyLocationNode[] = [
           "Working in the same state as our head office keeps coordination simple. Orders leave from Mumbai, and our team guides installation and alert setup with you. For calibration or temperature mapping at a site in Maharashtra, contact us to plan it with VEGA Calibrations.",
         faqs: [
           {
-            question: "Where is your office in Maharashtra?",
+            question: "Which Maharashtra locations have their own pages?",
             answer:
-              "Our head office is in Mumbai. The full address is on our contact page.",
+              "Six cities have full pages, and many of their industrial areas have pages of their own. Each is listed below with a note, so you can open the one nearest to your site.",
           },
           {
-            question: "Which logger suits a large warehouse near Mumbai or Pune?",
+            question: "Can one team watch sites in Mumbai, Pune and Thane together?",
             answer:
-              "For many monitoring points, a multi-channel logger such as Veer (10 channels) or Virat (16 channels) covers the space from one device. Where Wi-Fi does not reach, the GSM-based Vayu is an option.",
+              "Yes. Each site appears on one dashboard with its own alert recipients, and a head of quality can open every site in one list and export a report for any room.",
           },
+          {
+            question: "How are visits planned across the state?",
+            answer:
+              "We group visits by direction, so the coastal estates, the Thane belt and the Pune ring are each covered on a separate day, and we agree the day with a named person at each site.",
+          },
+        ],
+        listing: [
+          { slug: "mumbai", text: "The head-office city, with dense mixed storage in hospitals, pharma distribution, cold stores and server rooms across its suburbs." },
+          { slug: "navi-mumbai", text: "A planned city across the creek whose Thane–Belapur industrial belt runs from Turbhe through Rabale and Mahape to Taloja." },
+          { slug: "thane-bhiwandi", text: "North-east of Mumbai, where Thane's older estates and Bhiwandi's warehouse sheds hold some of the busiest storage in the region." },
+          { slug: "panvel", text: "The southern gateway of the Mumbai region, where harbour roads, the Pune expressway and the Goa highway all begin." },
+          { slug: "pune", text: "An inland city whose industry is spread in a ring, from automotive plants and electronics to pharma, food and IT parks." },
+          { slug: "vasai-palghar", text: "A coastal belt north of Mumbai in which creek towns, farmland and process industry sit within a short drive of each other." },
+        ],
+        areaListing: [
+          { slug: "andheri", text: "Mixed factory units, stockists' godowns, laboratories and airport-side hotels beside the hospitals of the western suburbs." },
+          { slug: "malad", text: "The suburb where Prithvi's head office sits, with distributors, godowns and data rooms close to the western railway." },
+          { slug: "goregaon", text: "A long suburb of business parks, food firms, hospitals and server rooms between the railway line and the highway." },
+          { slug: "vikhroli", text: "An older industrial district between the highway and the creek, with pharmaceutical, chemical and laboratory units on its estates." },
+          { slug: "mulund", text: "The northern edge of the eastern suburbs, where pharmaceutical firms, hospitals and electronics stores sit beside the Thane creek." },
+          { slug: "powai", text: "A lakeside district of research institutes, hospitals, laboratories and data rooms, better known for science than for heavy industry." },
+          { slug: "turbhe", text: "The western gateway of the Thane–Belapur belt, with factory units and chemical sheds beside the grain and produce markets." },
+          { slug: "rabale", text: "Many small and mid-sized plots in the middle of the belt, which puts electronics, pharmaceutical and chemical units next to each other." },
+          { slug: "mahape", text: "The point where the industrial estate meets the technology district, so data halls and laboratories stand beside electronics plants." },
+          { slug: "taloja", text: "A large estate beyond Kharghar with chemical and pharmaceutical plants and long distances between buildings." },
+          { slug: "wagle-estate", text: "One of Thane's long-established industrial districts, on the western side near the highway, with pharmaceutical and electronics units." },
+          { slug: "dombivli-midc", text: "A process-industry estate on the Kalyan side with chemical, pharmaceutical intermediate, engineering and food units." },
+          { slug: "bhiwandi", text: "The warehouse town of the Mumbai region, where logistics sheds hold textile, food and pharmaceutical goods for owners elsewhere." },
+          { slug: "vasai", text: "A creek town where the railway and the Gujarat highway run close, with godowns and food and pharmaceutical units." },
+          { slug: "tarapur", text: "A large coastal estate planned around process industry, with chemical, pharmaceutical and textile plants." },
+          { slug: "boisar", text: "The town beside Tarapur that serves as its supply base, with chemical, pharmaceutical and logistics firms." },
+          { slug: "pimpri-chinchwad", text: "An industrial township on the north-western side of Pune that grew around engineering and automotive manufacturing." },
+          { slug: "chakan", text: "A district on the Nashik road known for automotive plants, electronics and warehousing." },
+          { slug: "ranjangaon", text: "A planned estate on the Ahmednagar road with wide roads, large plots and plants making consumer goods, electronics and packaged food." },
+          { slug: "hinjewadi", text: "Pune's technology district around a large planned IT park, with server rooms, electronics and laboratories." },
+          { slug: "talegaon", text: "An estate on the Mumbai–Pune road with automotive, engineering, food and consumer-goods units." },
         ],
         indexable: true,
         children: [
@@ -755,7 +818,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Gujarat",
         type: "state",
         intro:
-          "Gujarat's industry is spread along the corridor between Ahmedabad and the coast, from the estates around the state's largest city to the chemical belt of the south. This state page is the parent of our Gujarat city pages; it will be written in full when the state hubs are built, and it stays noindex until then.",
+          "Gujarat's industry runs along the corridor between Ahmedabad and the coast, from the estates around the state's largest city to the chemical belt of the south. Ahmedabad's older eastern districts and newer western estates hold pharmaceutical, chemical and engineering units, while Vapi, Ankleshwar and Surat to the south concentrate dyes, intermediates, bulk drugs and textile processing. The north is hot and dry, the south receives a heavier monsoon and a humid coast, and plants on both ends keep stores that need an unbroken record. This page lists every Gujarat city and area page we have written, each with a short description, so a plant head or a quality manager can go straight to the place that matches their site.",
         localIndustries: [
           "Pharmaceutical manufacturing",
           "Chemical and dye industry",
@@ -766,16 +829,38 @@ export const locations: LegacyLocationNode[] = [
           "Supply, installation support and site visits for Gujarat estates are arranged from our Mumbai office. Write to us with the estate and what you store.",
         faqs: [
           {
-            question: "Which Gujarat city do you cover first?",
-            answer: "Ahmedabad, Vapi, Ankleshwar and Surat each have their own city page under this state.",
+            question: "Which Gujarat places have their own pages?",
+            answer:
+              "Four cities have full pages, with the industrial areas of each listed beneath it. Open the one nearest your plant, or send the estate through the enquiry form if yours is not listed.",
           },
           {
-            question: "How is a visit arranged for a Gujarat plant?",
-            answer: "Send the estate and what you store through the enquiry form, WhatsApp or a call, and we agree a day with your team.",
+            question: "Why does the south of the state need different advice from the north?",
+            answer:
+              "The south is wetter and more humid, so damp matters as much as heat in its stores, while the north is drier and swings between hot afternoons and cooler nights. Limits and probe positions follow that difference.",
+          },
+          {
+            question: "Can a group with plants in Ahmedabad and Vapi use one account?",
+            answer:
+              "Yes. Each plant is its own site with its own alert recipients, and a group quality head can open every site in one list and compare records side by side.",
           },
         ],
-        // Noindex until its hub prompt runs; it exists as the parent of its city pages.
-        indexable: false,
+        listing: [
+          { slug: "ahmedabad", text: "The state's largest city, with the older eastern estates of Naroda and Vatva and the newer western estates of Changodar and Sanand." },
+          { slug: "vapi", text: "The first large industrial town on the Gujarat side of the border, dense with chemical, dye, pharmaceutical and paper units." },
+          { slug: "ankleshwar", text: "A chemical district on the Narmada plain with its own large estate and the neighbouring estates of Panoli, Jhagadia and Dahej." },
+          { slug: "surat", text: "A city of fabric and processing houses, with the Pandesara and Sachin estates and the heavy-industry belt at Hazira." },
+        ],
+        areaListing: [
+          { slug: "naroda", text: "An older north-eastern estate where engineering, plastics and chemical units sit among neighbourhoods and a large produce market." },
+          { slug: "vatva", text: "A crowded south-eastern chemical estate of dye, pigment and intermediate makers on repeatedly divided plots." },
+          { slug: "changodar", text: "A western highway estate known mainly for pharmaceutical manufacturing, with logistics yards beside it." },
+          { slug: "sanand", text: "A newer set of estates with wide roads and large plots for automotive, electronics, food and pharmaceutical plants." },
+          { slug: "vapi-gidc", text: "The numbered phases of the Vapi estate, with chemical, dye, pharmaceutical intermediate, paper and plastics units on narrow plots." },
+          { slug: "ankleshwar-gidc", text: "A large chemical estate of big plots, tank farms and plant laboratories on the Narmada plain." },
+          { slug: "dahej", text: "A coastal industrial region around a port, with large chemical plants and port-side warehouses spread over long distances." },
+          { slug: "sachin", text: "A southern Surat estate where textile processing, chemical and engineering units work in humid, monsoon-heavy air." },
+        ],
+        indexable: true,
         children: [
           {
             slug: "ahmedabad",
@@ -1176,7 +1261,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Delhi",
         type: "state",
         intro:
-          "Delhi is a city-state with its own cluster of industrial areas at Okhla, Naraina, Bawana and Narela, around a very large base of hospitals, medicine distributors and food businesses. This state page is the parent of our Delhi city page; it will be written in full when the hub pages are built.",
+          "Delhi is a city and a state in one, and its storage is correspondingly concentrated: hospitals, nursing homes and diagnostic laboratories, wholesale medicine markets, food and cold stores that feed the capital, and a ring of industrial areas at Okhla, Naraina, Bawana and Narela. Buildings are often old, multi-storey and cramped, so wireless loggers are the practical choice, and the climate pushes both ways, with extreme summer heat and cold winter nights. This regional page sits above the Delhi city page and its area pages, and it is the place to start if you are not sure which part of the capital region applies to your site.",
         localIndustries: [
           "Hospitals and diagnostic laboratories",
           "Pharmaceutical distribution",
@@ -1184,19 +1269,33 @@ export const locations: LegacyLocationNode[] = [
         ],
         citiesServed: ["Delhi"],
         supportNote:
-          "Supply, installation support and site visits for Delhi are arranged from our Mumbai office. Write to us with the area and what you store.",
+          "Supply, installation support and site visits for Delhi are arranged from our Mumbai office. Tell us the area and which rooms need watching.",
         faqs: [
           {
-            question: "Which Delhi page covers the industrial areas?",
-            answer: "The Delhi city page describes Okhla, Naraina, Bawana and Narela and links to the loggers we suggest for each kind of room.",
+            question: "How is this page different from the Delhi city page?",
+            answer:
+              "The city page goes into the capital's rooms, climate and loggers in depth, while this page gives the regional picture and lists every Delhi area page we have written in one place.",
           },
           {
-            question: "How do we arrange a visit in Delhi?",
-            answer: "Send the area, the rooms and a contact through the enquiry form, WhatsApp or a call, and we agree a day with your team.",
+            question: "Which parts of the capital region are covered?",
+            answer:
+              "The industrial areas of Okhla, Bawana and Narela have their own pages, and nearby Noida and Manesar have city pages under their own states.",
+          },
+          {
+            question: "Can one hospital group watch several buildings in the capital?",
+            answer:
+              "Yes. Each building is a site on the dashboard with its own alert recipients, and the group's quality head sees every site together and can export a report for any period.",
           },
         ],
-        // Noindex until its hub prompt runs; it exists as the parent of its city page.
-        indexable: false,
+        listing: [
+          { slug: "delhi", text: "The capital's full city page, covering hospitals, medicine distributors, food stores and laboratories and the climate that tests them." },
+        ],
+        areaListing: [
+          { slug: "okhla", text: "A south-eastern district of pharmaceutical, packaging, garment and electrical units on closely packed plots over several floors." },
+          { slug: "bawana", text: "A large north-western estate of food processing, plastics and warehousing, with long distances between buildings." },
+          { slug: "narela", text: "A northern industrial and warehousing belt near the Haryana border, with distribution sheds and a dependence on road transport." },
+        ],
+        indexable: true,
         children: [
           {
             slug: "delhi",
@@ -1302,7 +1401,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Uttar Pradesh",
         type: "state",
         intro:
-          "Uttar Pradesh's industry that we serve first sits on the eastern edge of the capital region, in the planned townships of Noida and Greater Noida. This state page is the parent of our Uttar Pradesh city pages; it will be written in full when the hub pages are built.",
+          "Uttar Pradesh is a large state, and the part we serve first lies at either end of its range: the planned townships of Noida and Greater Noida on the eastern edge of the capital region, and the state capital, Lucknow, on the central plain. The first holds electronics assemblers, data centre operators and distribution warehouses in sector blocks; the second holds hospitals, medicine stockists and cold stores that supply districts a long drive away. Summers are fierce, the monsoon heavy and winter nights are cold enough to chill unheated stores. The pages listed below describe what that means for each place and for the industrial areas around it.",
         localIndustries: [
           "Electronics manufacturing",
           "Data centres and server rooms",
@@ -1313,16 +1412,30 @@ export const locations: LegacyLocationNode[] = [
           "Supply, installation support and site visits for Uttar Pradesh sites are arranged from our Mumbai office. Write to us with the sector and what you store.",
         faqs: [
           {
-            question: "Which Uttar Pradesh city page is available?",
-            answer: "The Noida page covers Noida and Greater Noida and the Lucknow page covers the state capital, and more cities will follow with their own pages.",
+            question: "Which Uttar Pradesh locations have their own pages?",
+            answer:
+              "Noida and Lucknow have city pages, and Greater Noida and Sahibabad have area pages under Noida. More of the state will follow with pages of its own.",
           },
           {
-            question: "How do we start an enquiry from Uttar Pradesh?",
-            answer: "Send the location and what you need to monitor through the enquiry form, WhatsApp or a call, and our team replies to discuss it.",
+            question: "Do you cover places in the state that are not listed?",
+            answer:
+              "Send the town, the stores and a contact through the enquiry form, WhatsApp or a call, and we confirm what we can supply and how a visit would be arranged.",
+          },
+          {
+            question: "Can monitoring cover both the Noida area and Lucknow from one login?",
+            answer:
+              "Yes. Each site appears on the dashboard with its own alert recipients, and a regional manager can open every site in a single list and export reports for any room.",
           },
         ],
-        // Noindex until its hub prompt runs; it exists as the parent of its city pages.
-        indexable: false,
+        listing: [
+          { slug: "noida", text: "A planned township of electronics makers, data centres and distribution warehouses laid out in numbered sectors." },
+          { slug: "lucknow", text: "The state capital, with hospitals, medicine stockists and cold stores that supply towns across a wide region." },
+        ],
+        areaListing: [
+          { slug: "greater-noida", text: "A newer township south-east of Noida with large plots and planned industrial and logistics zones spread far apart." },
+          { slug: "sahibabad", text: "An older estate across the eastern boundary of Delhi, where engineering, food, electrical and transport units use every plot to the limit." },
+        ],
+        indexable: true,
         children: [
           {
             slug: "noida",
@@ -1512,7 +1625,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Haryana",
         type: "state",
         intro:
-          "Haryana's industry that we serve first lies on the highway south of Gurugram, in the large estates and warehouse parks around Manesar. This state page is the parent of our Haryana city pages; it will be written in full when the hub pages are built.",
+          "Haryana surrounds the capital on three sides, and its industry that we serve first sits along the Delhi–Jaipur highway south of Gurugram, in the Industrial Model Township at Manesar and the warehouse parks beside it. These are large, relatively new buildings: automotive and electronics plants, their component suppliers, pharmaceutical units and distribution sheds. Distances inside a single plant are long, summers are hot and dry and winters are cold, and the buyers who inspect these stores want a record that is continuous. This regional page introduces the state's place in our map and links to the Manesar city page, which holds the detail for the estate and its neighbours.",
         localIndustries: [
           "Automotive and electronics",
           "Warehousing and distribution",
@@ -1520,19 +1633,28 @@ export const locations: LegacyLocationNode[] = [
         ],
         citiesServed: ["Manesar"],
         supportNote:
-          "Supply, installation support and site visits for Haryana plants are arranged from our Mumbai office. Write to us with the estate and what you store.",
+          "Supply, installation support and site visits for Haryana plants are arranged from our Mumbai office. Tell us the plant and the stores to look at.",
         faqs: [
           {
-            question: "Which Haryana city page is available?",
-            answer: "The Manesar page covers IMT Manesar and the warehouse parks near it, and more Haryana cities will follow with their own pages.",
+            question: "Which Haryana locations have a page?",
+            answer:
+              "Manesar has a city page covering IMT Manesar and the warehouse parks beside it. More of the state will follow, and the capital region pages cover places across the border.",
           },
           {
-            question: "How do we arrange a plant visit in Haryana?",
-            answer: "Send the estate, the buildings and a contact through the enquiry form, WhatsApp or a call, and we agree a day with your team.",
+            question: "Why is Manesar treated as a separate city page?",
+            answer:
+              "Its industry is large and new enough to have its own climate notes, rooms and loggers, and plants there often ask for records that follow a buyer's written limits.",
+          },
+          {
+            question: "Can a supplier and its buyer see the same record?",
+            answer:
+              "Each firm can have its own site, and a buyer can be given access to the reports it needs without seeing the rest of the supplier's account.",
           },
         ],
-        // Noindex until its hub prompt runs; it exists as the parent of its city pages.
-        indexable: false,
+        listing: [
+          { slug: "manesar", text: "IMT Manesar's automotive, electronics and pharmaceutical plants and the highway warehouse parks that move goods across north India." },
+        ],
+        indexable: true,
         children: [
           {
             slug: "manesar",
@@ -1634,7 +1756,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Telangana",
         type: "state",
         intro:
-          "Telangana's industry that we serve sits around its capital: pharmaceutical and chemical estates to the north-west and west, and a life-science research cluster to the north. This state page is the parent of our Telangana city pages; it will be written in full when the hub pages are built.",
+          "Telangana's industry that we serve first is arranged in rings around Hyderabad: pharmaceutical and chemical estates to the north-west and west, a life-science research cluster to the north and technology parks and server halls on the western side. The state's storage is therefore unusually delicate: bulk-drug warehouses, biologics cold rooms, research freezers and data centres, many of them examined by customers, regulators or research sponsors. Summers are hot and dry and the monsoon is short and sharp. The pages below describe the city, the three area pages written for it and the sort of rooms each one holds, together with the industries we support there and the loggers we suggest.",
         localIndustries: [
           "Pharmaceutical manufacturing",
           "Life-science research and laboratories",
@@ -1642,19 +1764,33 @@ export const locations: LegacyLocationNode[] = [
         ],
         citiesServed: ["Hyderabad"],
         supportNote:
-          "Supply, installation support and site visits for Telangana sites are arranged from our Mumbai office. Write to us with the estate and what you store.",
+          "Supply, installation support and site visits for Telangana sites are arranged from our Mumbai office. Send the estate and the rooms that matter most.",
         faqs: [
           {
-            question: "Which Telangana city page is available?",
-            answer: "The Hyderabad page covers Genome Valley, Jeedimetla, Pashamylaram and Patancheru, and more cities will follow with their own pages.",
+            question: "Which Telangana locations have their own pages?",
+            answer:
+              "Hyderabad has a city page, with Jeedimetla, Patancheru and Genome Valley as area pages beneath it. Other estates are mentioned on the city page and may follow.",
           },
           {
-            question: "How do we start an enquiry from Telangana?",
-            answer: "Send the location and what you need to monitor through the enquiry form, WhatsApp or a call, and our team replies to discuss it.",
+            question: "Why is Genome Valley a separate page from the older estates?",
+            answer:
+              "Its campuses are newer and built around controlled rooms and freezer halls for research and biologics, which raises different questions from a bulk-drug warehouse.",
+          },
+          {
+            question: "Can several estates be seen on one dashboard?",
+            answer:
+              "Yes. Each estate or campus is a site with its own alert contacts, and a quality head can open every site in a single list and export a record for an audit.",
           },
         ],
-        // Noindex until its hub prompt runs; it exists as the parent of its city page.
-        indexable: false,
+        listing: [
+          { slug: "hyderabad", text: "The state's capital, whose bulk-drug warehouses, biologics cold rooms, laboratories and server halls are spread over estates that lie far apart." },
+        ],
+        areaListing: [
+          { slug: "jeedimetla", text: "An older north-western estate of bulk-drug, formulation and chemical units whose solvent stores sit beside production." },
+          { slug: "patancheru", text: "A large western industrial area where bulk-drug and chemical plants stand across wide plots and long walks between stores." },
+          { slug: "genome-valley", text: "A planned life-science cluster of research campuses, vaccine and biologics makers and contract laboratories." },
+        ],
+        indexable: true,
         children: [
           {
             slug: "hyderabad",
@@ -1760,7 +1896,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Karnataka",
         type: "state",
         intro:
-          "Karnataka's industry that we serve first is concentrated around its capital: engineering estates in the north-west, electronics and technology parks in the south and east, and a research and biotech base that runs across the city. This state page is the parent of our Karnataka city pages; it will be written in full when the hub pages are built.",
+          "Karnataka's industry that we serve first is gathered around Bengaluru, a city of campuses more than of factories: technology parks, research institutes, biotech firms, hospitals and electronics makers, with an older engineering estate in the north-west. The climate is mild for most of the year, so the heat in a room usually comes from its own equipment, and a cooling fault matters more than the weather. The rooms that benefit most from monitoring are server halls, laboratory freezers, clean assembly bays and hospital pharmacies. The pages below describe the city and the three area pages we have written for it.",
         localIndustries: [
           "Electronics and technology parks",
           "Biotech and research laboratories",
@@ -1768,19 +1904,33 @@ export const locations: LegacyLocationNode[] = [
         ],
         citiesServed: ["Bengaluru"],
         supportNote:
-          "Supply, installation support and site visits for Karnataka sites are arranged from our Mumbai office. Write to us with the area and what you store.",
+          "Supply, installation support and site visits for Karnataka sites are arranged from our Mumbai office. Tell us the campus or estate and what the rooms hold.",
         faqs: [
           {
-            question: "Which Karnataka city page is available?",
-            answer: "The Bengaluru page covers Peenya, Electronic City, Whitefield, Bommasandra and Jigani, and more cities will follow with their own pages.",
+            question: "Which Karnataka locations have a page?",
+            answer:
+              "Bengaluru has a city page, with Peenya, Electronic City and Whitefield as area pages. Bommasandra and Jigani are mentioned on the city page and may follow.",
           },
           {
-            question: "How do we start an enquiry from Karnataka?",
-            answer: "Send the location and what you need to monitor through the enquiry form, WhatsApp or a call, and our team replies to discuss it.",
+            question: "Do you use the name Bangalore as well as Bengaluru?",
+            answer:
+              "They are one city, and the pages below cover it under either name, so an enquiry sent under Bangalore or Bengaluru reaches the same team.",
+          },
+          {
+            question: "Can one facilities team look after several campuses?",
+            answer:
+              "Each campus is a site on the dashboard, each building's alerts go to the person who looks after it and a head of facilities sees every site together.",
           },
         ],
-        // Noindex until its hub prompt runs; it exists as the parent of its city page.
-        indexable: false,
+        listing: [
+          { slug: "bengaluru", text: "Also called Bangalore, a city of technology parks, laboratories, hospitals and electronics makers where cooling faults, not weather, are the main risk." },
+        ],
+        areaListing: [
+          { slug: "peenya", text: "The north-western engineering belt of machine shops, tool rooms and small electronics firms whose stock fears damp more than heat." },
+          { slug: "electronic-city", text: "A southern technology township of large campuses, hardware makers, test laboratories and the server rooms that serve them." },
+          { slug: "whitefield", text: "An eastern district of technology parks, hospitals and research centres stacked in tall buildings under shared management." },
+        ],
+        indexable: true,
         children: [
           {
             slug: "bengaluru",
@@ -1890,7 +2040,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Tamil Nadu",
         type: "state",
         intro:
-          "Tamil Nadu's industry that we serve first sits around its capital and the coast: engineering and electronics estates in the north-west, and the manufacturing parks to the south-west that feed the ports. This state page is the parent of our Tamil Nadu city pages; it will be written in full when the hub pages are built.",
+          "Tamil Nadu's industry that we serve first lies in two different parts of the state: the coast around Chennai, where electronics, automotive and pharmaceutical plants and the warehouses that serve the ports share salty, humid air, and the western city of Coimbatore, where mills, pump and motor makers, foundries and hospitals work in a moderate climate with swings of humidity. The first needs records that follow goods to ships; the second needs humidity watched as closely as temperature. The pages below describe both cities and the three area pages written for Chennai, so you can go to the place that matches your site.",
         localIndustries: [
           "Electronics and automotive manufacturing",
           "Pharmaceutical manufacturing",
@@ -1898,19 +2048,34 @@ export const locations: LegacyLocationNode[] = [
         ],
         citiesServed: ["Chennai", "Coimbatore"],
         supportNote:
-          "Supply, installation support and site visits for Tamil Nadu sites are arranged from our Mumbai office. Write to us with the estate and what you store.",
+          "Supply, installation support and site visits for Tamil Nadu sites are arranged from our Mumbai office. Send us the estate and the stores that need watching.",
         faqs: [
           {
-            question: "Which Tamil Nadu city page is available?",
-            answer: "The Chennai page covers Ambattur, Sriperumbudur and Oragadam and the Coimbatore page covers the western mills and estates, and more cities will follow with their own pages.",
+            question: "Which Tamil Nadu locations have their own pages?",
+            answer:
+              "Chennai and Coimbatore have city pages, and Ambattur, Sriperumbudur and Oragadam have area pages under Chennai. More of the state may follow.",
           },
           {
-            question: "How do we start an enquiry from Tamil Nadu?",
-            answer: "Send the location and what you need to monitor through the enquiry form, WhatsApp or a call, and our team replies to discuss it.",
+            question: "Why does humidity matter more in the west than the coast?",
+            answer:
+              "On the coast heat and humidity are both high all year, so both are watched together. In Coimbatore temperatures stay moderate and moisture in yarn and fabric swings with the air, so humidity decides how stock behaves.",
+          },
+          {
+            question: "Can an exporter share a record with an overseas buyer?",
+            answer:
+              "Reports for a room or a lot can be exported as PDF, Excel or CSV for any period, so a buyer receives the same dated record the plant sees.",
           },
         ],
-        // Noindex until its hub prompt runs; it exists as the parent of its city page.
-        indexable: false,
+        listing: [
+          { slug: "chennai", text: "A port city whose estates fan inland, with electronics, automotive, pharmaceutical and food plants and warehouses that stage goods for the sea." },
+          { slug: "coimbatore", text: "A city of spinning mills, pump and motor makers, foundries and hospitals in which humidity swings matter as much as temperature." },
+        ],
+        areaListing: [
+          { slug: "ambattur", text: "A north-western estate of engineering shops, electronics assemblers and small suppliers on compact plots in humid coastal air." },
+          { slug: "sriperumbudur", text: "A south-western manufacturing hub of electronics and automotive plants on large plots inside planned industrial parks." },
+          { slug: "oragadam", text: "An industrial park on the south-western corridor with automotive, electronics and distribution units that move goods toward the ports." },
+        ],
+        indexable: true,
         children: [
           {
             slug: "chennai",
@@ -2105,7 +2270,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Chandigarh",
         type: "state",
         intro:
-          "Chandigarh is a union territory that is the shared capital of Punjab and Haryana, with the industrial areas of Mohali and Panchkula running into its edges. This page is the parent of our Chandigarh city page; it will be written in full when the hub pages are built.",
+          "Chandigarh is a planned city and a union territory, the shared capital of two states, and the towns of Mohali and Panchkula have grown into its edges. Its storage is shaped by a prosperous population and a regional role: hospitals and research institutes, medicine distributors who supply surrounding districts, and dairy, bakery and food firms with depots in the industrial area. Rooms are modern but busy, and the climate swings between hot, dry summers and cold winters, so a low limit matters alongside the high one. This regional page introduces the territory and points to the city page, which holds the detail for the sectors, the industrial area and the neighbouring towns.",
         localIndustries: [
           "Hospitals and diagnostic laboratories",
           "Pharmaceutical distribution",
@@ -2113,19 +2278,28 @@ export const locations: LegacyLocationNode[] = [
         ],
         citiesServed: ["Chandigarh"],
         supportNote:
-          "Supply, installation support and site visits for the Chandigarh region are arranged from our Mumbai office. Write to us with the area and what you store.",
+          "Supply, installation support and site visits for the Chandigarh region are arranged from our Mumbai office. Tell us the sector or town and what the rooms hold.",
         faqs: [
           {
-            question: "Which page covers Mohali and Panchkula?",
-            answer: "The Chandigarh city page describes the industrial area phases, Mohali and Panchkula together.",
+            question: "Why is there a separate page for the territory and for the city?",
+            answer:
+              "The territory page gives the regional picture and links the pages beneath it, while the city page goes into rooms, climate and loggers for Chandigarh, Mohali and Panchkula in depth.",
           },
           {
-            question: "How do we start an enquiry from the Chandigarh region?",
-            answer: "Send the location and what you need to monitor through the enquiry form, WhatsApp or a call, and our team replies to discuss it.",
+            question: "Which parts of the region are covered?",
+            answer:
+              "The city page covers the industrial area phases, Mohali and Panchkula together. Baddi's pharmaceutical cluster, a short drive away, has its own page under Himachal Pradesh.",
+          },
+          {
+            question: "Can a clinic with several floors watch every fridge?",
+            answer:
+              "Each fridge is a device in a room under the clinic's site, alerts go to the person for that floor and a manager sees every floor in one list.",
           },
         ],
-        // Noindex until its hub prompt runs; it exists as the parent of its city page.
-        indexable: false,
+        listing: [
+          { slug: "chandigarh", text: "The planned city with Mohali and Panchkula beside it, serving hospitals, medicine distributors, dairy and food depots through hot summers and cold winters." },
+        ],
+        indexable: true,
         children: [
           {
             slug: "chandigarh",
@@ -2227,7 +2401,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Himachal Pradesh",
         type: "state",
         intro:
-          "Himachal Pradesh's industry that we serve first sits in the foothills near the plains, where pharmaceutical manufacturers have gathered around Baddi, Barotiwala and Nalagarh. This state page is the parent of our Himachal Pradesh city pages; it will be written in full when the hub pages are built.",
+          "Himachal Pradesh is a hill state, but the part that matters to storage lies at its foot, where the plains begin: the pharmaceutical cluster around Baddi, Barotiwala and Nalagarh in Solan district. These are large formulation plants and their packaging suppliers, built to work to written procedures, with raw-material warehouses, finished-goods rooms and quality laboratories that each carry a stated range. The foothill climate swings through the year, from hot summers to a heavy monsoon and cold winter nights, so a store that is easy in one season strains in another. This regional page links to the Baddi city page, which holds the detail for the three estates.",
         localIndustries: [
           "Pharmaceutical manufacturing",
           "Laboratories and quality control",
@@ -2235,19 +2409,28 @@ export const locations: LegacyLocationNode[] = [
         ],
         citiesServed: ["Baddi"],
         supportNote:
-          "Supply, installation support and site visits for Himachal Pradesh plants are arranged from our Mumbai office. Write to us with the estate and what you store.",
+          "Supply, installation support and site visits for Himachal Pradesh plants are arranged from our Mumbai office. Tell us the estate and the plant's storage rooms.",
         faqs: [
           {
-            question: "Which Himachal Pradesh page is available?",
-            answer: "The Baddi page covers Baddi, Barotiwala and Nalagarh, and more of the state will follow with its own pages.",
+            question: "Which Himachal Pradesh locations have a page?",
+            answer:
+              "Baddi has a city page that also covers Barotiwala and Nalagarh. Other parts of the hill state are mostly outside the industrial storage we describe and have no page.",
           },
           {
-            question: "How do we arrange a plant visit in the foothills?",
-            answer: "Send the estate, the plant and a contact through the enquiry form, WhatsApp or a call, and we agree a day with your team.",
+            question: "Why are three estates covered on one page?",
+            answer:
+              "They lie close together on the same road network and share the same kinds of plant, so one page can describe their rooms, climate and visit planning without repeating itself.",
+          },
+          {
+            question: "Can several plants of one company share a dashboard?",
+            answer:
+              "Each plant is its own site with its own alert recipients, and a group quality head can open every site in one list, compare records and export a report for any room.",
           },
         ],
-        // Noindex until its hub prompt runs; it exists as the parent of its city page.
-        indexable: false,
+        listing: [
+          { slug: "baddi", text: "A foothill pharmaceutical cluster with Barotiwala and Nalagarh, where formulation plants keep warehouses and quality laboratories to written limits." },
+        ],
+        indexable: true,
         children: [
           {
             slug: "baddi",
@@ -2348,7 +2531,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Kerala",
         type: "state",
         intro:
-          "Kerala's industry that we serve first lies around the port city of Kochi: seafood and spice exporters, port-side warehouses, a large hospital sector and the technology park at Kakkanad. This state page is the parent of our Kerala city pages; it will be written in full when the hub pages are built.",
+          "Kerala's storage is arranged around water: backwaters, a long coast and the port at Kochi, where seafood is processed and exported, spices are traded and containers wait for vessels. A large private hospital sector and a technology park add pharmacies, blood storage and server rooms to the mix. The air is warm and very humid for most months and the southwest monsoon is long, so condensation, corroded contacts and storm power cuts matter as much as heat. This regional page introduces the state's place in our map and links to the Kochi city page, which holds the detail for Kakkanad, Kalamassery and Edayar.",
         localIndustries: [
           "Seafood processing and export",
           "Port logistics and warehousing",
@@ -2356,19 +2539,28 @@ export const locations: LegacyLocationNode[] = [
         ],
         citiesServed: ["Kochi"],
         supportNote:
-          "Supply, installation support and site visits for Kerala sites are arranged from our Mumbai office. Write to us with the area and what you store.",
+          "Supply, installation support and site visits for Kerala sites are arranged from our Mumbai office. Send the area and the cold rooms or stores in question.",
         faqs: [
           {
-            question: "Which Kerala city page is available?",
-            answer: "The Kochi page covers Kakkanad, Kalamassery and Edayar, and more of the state will follow with its own pages.",
+            question: "Which Kerala locations have a page?",
+            answer:
+              "Kochi has a city page covering Kakkanad, Kalamassery and Edayar. Other cities of the state are not yet written and are served on enquiry.",
           },
           {
-            question: "How do we start an enquiry from Kerala?",
-            answer: "Send the location and what you need to monitor through the enquiry form, WhatsApp or a call, and our team replies to discuss it.",
+            question: "What is special about monitoring a cold chain in this climate?",
+            answer:
+              "Warm, wet air condenses on cold-room doors and probes, so we place probes away from seals and coils and set alerts for a door left open, which is the usual cause of fog and ice.",
+          },
+          {
+            question: "Can a record travel with an export consignment?",
+            answer:
+              "Yes. A report for the cold room and for the container can be exported for each lot, so an overseas buyer sees the conditions from the store to the port.",
           },
         ],
-        // Noindex until its hub prompt runs; it exists as the parent of its city page.
-        indexable: false,
+        listing: [
+          { slug: "kochi", text: "A port city of seafood processors, spice exporters, container yards, large hospitals and a technology park, all in warm, humid air." },
+        ],
+        indexable: true,
         children: [
           {
             slug: "kochi",
@@ -2470,7 +2662,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Goa",
         type: "state",
         intro:
-          "Goa's industry that we serve first sits in the industrial estates of the interior, where pharmaceutical manufacturers work, and among the hotels and kitchens of the coast. This state page is the parent of our Goa city page; it will be written in full when the hub pages are built.",
+          "Goa is a small coastal state with two quite different storage worlds: a handful of inland industrial estates where pharmaceutical manufacturers work, and the long strip of coast where hotels, resorts, restaurants and the suppliers that stock them run walk-in fridges at their hardest in the tourist season. Salt air and humidity affect both, and the monsoon is heavy, while rooms that empty out in the off-season can drift unseen. This regional page introduces the state in our map and links to the Goa city page, which holds the detail for Verna, Kundaim and the coastal kitchens. The state is small, so a single page describes the plants and the kitchens side by side.",
         localIndustries: [
           "Pharmaceutical manufacturing",
           "Hotels and restaurant kitchens",
@@ -2478,19 +2670,28 @@ export const locations: LegacyLocationNode[] = [
         ],
         citiesServed: ["Goa"],
         supportNote:
-          "Supply, installation support and site visits for Goa sites are arranged from our Mumbai office. Write to us with the area and what you store.",
+          "Supply, installation support and site visits for Goa sites are arranged from our Mumbai office. Tell us the area and whether it is a plant or a kitchen.",
         faqs: [
           {
-            question: "Which Goa page covers the industrial estates?",
-            answer: "The Goa city page describes Verna and Kundaim and the hotels and kitchens of the coast.",
+            question: "Which Goa locations have a page?",
+            answer:
+              "The Goa city page covers Verna and Kundaim and the hotel kitchens along the coast. The state is small enough that one page serves its industry well.",
           },
           {
-            question: "How do we start an enquiry from Goa?",
-            answer: "Send the location and what you need to monitor through the enquiry form, WhatsApp or a call, and our team replies to discuss it.",
+            question: "Do you serve hotels as well as plants?",
+            answer:
+              "Yes. A hotel's kitchens and cold rooms and a plant's warehouses are both rooms on the dashboard, with alerts that go to the engineer or the quality head responsible.",
+          },
+          {
+            question: "How should visits be planned around the season?",
+            answer:
+              "Tell us the busiest and quietest weeks when you write, and we propose a day when kitchens and stores can spare the time.",
           },
         ],
-        // Noindex until its hub prompt runs; it exists as the parent of its city page.
-        indexable: false,
+        listing: [
+          { slug: "goa", text: "A coastal state's pharmaceutical plants at Verna and Kundaim and its hotel and restaurant kitchens, exposed to salt air and a heavy monsoon." },
+        ],
+        indexable: true,
         children: [
           {
             slug: "goa",
@@ -2592,7 +2793,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Rajasthan",
         type: "state",
         intro:
-          "Rajasthan's industry that we serve first centres on its capital, where industrial areas on the northern and southern sides sit beside crowded wholesale markets and a large hospitality trade. This state page is the parent of our Rajasthan city pages; it will be written in full when the hub pages are built.",
+          "Rajasthan is a desert state, and its storage is shaped by dry heat and a large daily swing: afternoons that overwhelm ageing cooling and nights that cool the same rooms quickly. The part we serve first is the capital, Jaipur, where industrial areas on the northern and southern sides sit beside crowded wholesale markets, dairies, hospitals and a large hospitality trade. Rooms of stone and concrete hold the day's heat long after dark. This regional page introduces the state in our map and links to the Jaipur city page, which holds the detail for Sitapura, VKI and the city's dairy and medicine trades.",
         localIndustries: [
           "Pharmaceutical distribution",
           "Food and dairy processing",
@@ -2600,19 +2801,28 @@ export const locations: LegacyLocationNode[] = [
         ],
         citiesServed: ["Jaipur"],
         supportNote:
-          "Supply, installation support and site visits for Rajasthan sites are arranged from our Mumbai office. Write to us with the area and what you store.",
+          "Supply, installation support and site visits for Rajasthan sites are arranged from our Mumbai office. Write to us with the district and the rooms to watch.",
         faqs: [
           {
-            question: "Which Rajasthan city page is available?",
-            answer: "The Jaipur page covers Sitapura, VKI and the city's dairy and medicine trades, and more cities will follow with their own pages.",
+            question: "Which Rajasthan locations have a page?",
+            answer:
+              "Jaipur has a city page covering Sitapura, VKI and the dairies and medicine markets. Other cities of the state are served on enquiry and may follow with their own pages.",
           },
           {
-            question: "How do we start an enquiry from Rajasthan?",
-            answer: "Send the location and what you need to monitor through the enquiry form, WhatsApp or a call, and our team replies to discuss it.",
+            question: "Why does the daily swing matter for alerts?",
+            answer:
+              "A room can be in range at dawn and out of it by mid-afternoon, so a short delay on the high limit catches a warming store, while longer delays avoid false alarms from doors left open.",
+          },
+          {
+            question: "Can a hotel group watch every kitchen from one login?",
+            answer:
+              "Each hotel is a site on the dashboard, each kitchen's alerts go to its own engineer and a group manager sees every site together.",
           },
         ],
-        // Noindex until its hub prompt runs; it exists as the parent of its city page.
-        indexable: false,
+        listing: [
+          { slug: "jaipur", text: "A tourism and trading city of dairies, medicine stockists, hotels and hospitals, with Sitapura and VKI as its industrial areas in desert heat." },
+        ],
+        indexable: true,
         children: [
           {
             slug: "jaipur",
@@ -2718,7 +2928,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Madhya Pradesh",
         type: "state",
         intro:
-          "Madhya Pradesh's industry that we serve first lies around Indore, where food processors, pharmaceutical makers and engineering plants work on industrial belts to the south-west and north-west of the city. This state page is the parent of our Madhya Pradesh city pages; it will be written in full when the hub pages are built.",
+          "Madhya Pradesh sits at the middle of the country, and the part of its industry that we serve first gathers around Indore, its commercial capital: food processors known for packaged snacks and sweets, pharmaceutical manufacturers, automotive and engineering plants on the belts at Pithampur and Sanwer Road, and a wholesale trade that supplies districts around. Summer heat builds slowly and the monsoon arrives with real weight, so a store that held its range in April can fail an inspection in June. This regional page introduces the state in our map and links to the Indore city page, which holds the detail for its estates and godowns.",
         localIndustries: [
           "Food processing",
           "Pharmaceutical manufacturing",
@@ -2726,19 +2936,28 @@ export const locations: LegacyLocationNode[] = [
         ],
         citiesServed: ["Indore"],
         supportNote:
-          "Supply, installation support and site visits for Madhya Pradesh plants are arranged from our Mumbai office. Write to us with the estate and what you store.",
+          "Supply, installation support and site visits for Madhya Pradesh plants are arranged from our Mumbai office. Send the estate and the stores in question.",
         faqs: [
           {
-            question: "Which Madhya Pradesh city page is available?",
-            answer: "The Indore page covers Pithampur, Sanwer Road and the city's food processors, and more cities will follow with their own pages.",
+            question: "Which Madhya Pradesh locations have a page?",
+            answer:
+              "Indore has a city page covering Pithampur, Sanwer Road and the food processors. Other cities of the state are served on enquiry and may follow.",
           },
           {
-            question: "How do we arrange a plant visit in Madhya Pradesh?",
-            answer: "Send the estate, the plant and a contact through the enquiry form, WhatsApp or a call, and we agree a day with your team.",
+            question: "Why watch humidity in a food store?",
+            answer:
+              "Ingredients clump or spoil when the air turns damp, and a humidity trend shows the day a store starts to take on moisture, so a seal or a dehumidifier can be fixed first.",
+          },
+          {
+            question: "Can plants and godowns in different towns share one account?",
+            answer:
+              "Yes. Each plant and godown is a site with its own alert recipients, and a group quality head opens every site in a single list.",
           },
         ],
-        // Noindex until its hub prompt runs; it exists as the parent of its city page.
-        indexable: false,
+        listing: [
+          { slug: "indore", text: "The commercial capital, with snack and sweet makers, pharmaceutical plants, the Pithampur and Sanwer Road estates and busy wholesale godowns." },
+        ],
+        indexable: true,
         children: [
           {
             slug: "indore",
@@ -2840,7 +3059,7 @@ export const locations: LegacyLocationNode[] = [
         name: "West Bengal",
         type: "state",
         intro:
-          "West Bengal's industry that we serve first lies around Kolkata: port-side warehouses, the industrial township at Kalyani, the logistics belt at Dankuni and the engineering works of Howrah. This state page is the parent of our West Bengal city pages; it will be written in full when the hub pages are built.",
+          "West Bengal's storage follows the river and the railway into Kolkata: godowns on the Howrah side, an industrial township at Kalyani, the logistics belt around Dankuni and port-side warehouses that handle goods bound inland and overseas. Cold stores for fish, dairy and sweets, medicine distributors and a large hospital sector complete the picture. The air is hot and humid for most of the year, the monsoon is long and pre-monsoon storms cut the power, so condensation and outages are as common a risk as heat. This regional page introduces the state in our map and links to the Kolkata city page, which holds the detail for the three industrial areas.",
         localIndustries: [
           "Pharmaceutical distribution",
           "Food and cold storage",
@@ -2848,19 +3067,28 @@ export const locations: LegacyLocationNode[] = [
         ],
         citiesServed: ["Kolkata"],
         supportNote:
-          "Supply, installation support and site visits for West Bengal sites are arranged from our Mumbai office. Write to us with the area and what you store.",
+          "Supply, installation support and site visits for West Bengal sites are arranged from our Mumbai office. Tell us the district and what the rooms hold.",
         faqs: [
           {
-            question: "Which West Bengal city page is available?",
-            answer: "The Kolkata page covers Howrah, Kalyani, Dankuni and the port-side warehouses, and more cities will follow with their own pages.",
+            question: "Which West Bengal locations have a page?",
+            answer:
+              "Kolkata has a city page covering Howrah, Kalyani, Dankuni and the port-side warehouses. Further West Bengal cities are served on enquiry and may be written later.",
           },
           {
-            question: "How do we start an enquiry from West Bengal?",
-            answer: "Send the location and what you need to monitor through the enquiry form, WhatsApp or a call, and our team replies to discuss it.",
+            question: "How are loggers protected through a storm outage?",
+            answer:
+              "They record on their batteries through the cut and send the stored readings when the network returns, and an alert for a lost mains supply reaches the person responsible.",
+          },
+          {
+            question: "Can a distributor show a buyer a dated record?",
+            answer:
+              "Reports for any room and any period can be exported as PDF, Excel or CSV, so a distributor hands over a log instead of searching a register.",
           },
         ],
-        // Noindex until its hub prompt runs; it exists as the parent of its city page.
-        indexable: false,
+        listing: [
+          { slug: "kolkata", text: "An old port city of cold stores, medicine distributors, hospitals and godowns, with Howrah, Kalyani and Dankuni around it." },
+        ],
+        indexable: true,
         children: [
           {
             slug: "kolkata",
@@ -2968,7 +3196,7 @@ export const locations: LegacyLocationNode[] = [
     name: "Saudi Arabia",
     type: "country",
     intro:
-      "Saudi Arabia's pharmaceutical, food and healthcare supply chains stretch across long distances between ports, cities and regional warehouses. Prithvi Data Loggers supplies WiFi loggers for warehouses, cold rooms and pharmacies, so temperature records stay complete from a distribution centre in Riyadh to a pharmacy in Jeddah.",
+      "Saudi Arabia's storage chain stretches across long distances: medicines and food arrive by sea at Jeddah and Dammam, travel inland by road to Riyadh and beyond, and wait in warehouses where desert heat works against every cooling plant. Prithvi supplies WiFi temperature and humidity loggers from India to pharmacies, hospitals, food importers and logistics yards across the kingdom, with alerts to phones and email and set-up carried out remotely with your team. The pages below describe the three cities we have written for, each with the industries and climate that make it distinct, so you can open the one closest to your site.",
     localIndustries: [
       "Pharmaceutical warehousing and distribution",
       "Hospitals and medical supply",
@@ -2981,15 +3209,25 @@ export const locations: LegacyLocationNode[] = [
       "Share your sites and requirements by WhatsApp or the enquiry form. We recommend models, send a quote, dispatch from India and then set up the loggers, alerts and user access with your team over a video call.",
     faqs: [
       {
-        question: "Can we keep records for consignments travelling between Saudi cities?",
+        question: "Can warehouses in Riyadh, Jeddah and Dammam appear on one screen?",
         answer:
-          "Consignment monitoring produces a journey report for each trip. For vehicles, ask about our GSM versions and we will check network compatibility in Saudi Arabia before you order.",
+          "Yes. Each warehouse is a site on the dashboard, with alerts going to the person responsible there, and a head of operations can open every site in a single list.",
       },
       {
-        question: "Can we see warehouses in Riyadh and Jeddah on one screen?",
+        question: "How is a Saudi site set up when the loggers come from India?",
         answer:
-          "Yes. The monitoring dashboard groups devices by organisation, site, room and device, so every location appears in one place.",
+          "Loggers are sent from India and registered to your dashboard, and you agree rooms, limits and alert contacts with us on a call or a video session.",
       },
+      {
+        question: "How do we confirm GSM options for vehicles?",
+        answer:
+          "GSM versions exist, but compatibility differs by country, so we confirm what suits your vehicles and carriers before any order is placed.",
+      },
+    ],
+    listing: [
+      { slug: "riyadh", text: "The inland capital, where long road journeys end in pharmaceutical, hospital and food warehouses under extreme dry heat." },
+      { slug: "jeddah", text: "The Red Sea gateway, with port warehouses, imported-food cold rooms and hospitals in hot, humid coastal air." },
+      { slug: "dammam", text: "The Gulf-coast city of the Eastern Province, with chemical plants, port yards and food depots under metal-roof heat." },
     ],
     indexable: true,
     seo: {
@@ -3272,7 +3510,7 @@ export const locations: LegacyLocationNode[] = [
     name: "United Arab Emirates",
     type: "country",
     intro:
-      "The UAE is a trading and re-export hub for the Gulf, with food, medicines and healthcare products moving through its ports, free zones and warehouses every day. We supply WiFi temperature and humidity data loggers to UAE businesses from India, with live alerts that help teams in Dubai, Abu Dhabi and Sharjah protect stock in a hot climate.",
+      "The United Arab Emirates runs on trade: containers arrive at its ports and free zones, wait in bonded and chilled warehouses and leave again for markets across the region, while hotels, hospitals and food importers keep cold rooms under heavy summer load. Prithvi supplies WiFi temperature and humidity loggers from India to these businesses, with alerts to phones and email and set-up done remotely with your team, so an owner, a chef or a quality manager can read a room's record from anywhere. The page below describes the Dubai city page we have written, and other emirates are served on enquiry.",
     localIndustries: [
       "Free-zone and port warehousing",
       "Food import and distribution",
@@ -3285,15 +3523,23 @@ export const locations: LegacyLocationNode[] = [
       "International orders follow a simple path: enquiry, quote, dispatch from India and remote setup support. Our team configures Wi-Fi, alert recipients and escalation levels with you once the loggers arrive.",
     faqs: [
       {
-        question: "Do you supply data loggers to the UAE?",
+        question: "Do you cover emirates other than Dubai?",
         answer:
-          "Yes. We supply from India and support installation remotely by phone, WhatsApp or video call.",
+          "Dubai has its own page. For other emirates, send the site and what you store through the enquiry form or WhatsApp, and we confirm what we can supply and how set-up would run.",
       },
       {
-        question: "Can we monitor stores in different emirates from one dashboard?",
+        question: "Can a hotel group see every property on one dashboard?",
         answer:
-          "Yes. Multi-site monitoring lets you view every store, room and device together, with alerts sent to the right people at each site.",
+          "Each property is a site, each kitchen's alerts go to its own engineer and a group manager sees every site together, with reports that can be exported for any period.",
       },
+      {
+        question: "How do GSM options work for delivery vehicles?",
+        answer:
+          "GSM versions are available, but network compatibility must be confirmed for your carriers and vehicles before an order, and we do that during the enquiry.",
+      },
+    ],
+    listing: [
+      { slug: "dubai", text: "A trading city of re-export warehouses at Jebel Ali, food importers, medicine distributors and hotel kitchens in extreme heat and humidity." },
     ],
     indexable: true,
     seo: {
@@ -3396,7 +3642,7 @@ export const locations: LegacyLocationNode[] = [
     name: "Qatar",
     type: "country",
     intro:
-      "Much of the food and many of the medicines used in Qatar are imported, and they must stay within range from the port all the way to the shelf. Prithvi loggers give hospitals, hotels, caterers and distributors in Doha a continuous temperature record and an alert the moment a fridge, freezer or cold room drifts.",
+      "Qatar relies on imports for much of its food and medicine, and everything that arrives by port or air has to stay in range until it reaches a shelf, a pharmacy or a hospital ward. Warehouses, cold stores, hotel kitchens and clinics around Doha and its neighbouring towns run cooling plant against a hot, humid summer. Prithvi supplies WiFi temperature and humidity loggers from India for these rooms, with alerts to phones and email and remote set-up with your team. No city pages are written for Qatar yet, so this page is the place to start, and the enquiry form is the quickest way to describe your site.",
     localIndustries: [
       "Food import and cold storage",
       "Hospitals and clinics",
@@ -3408,14 +3654,19 @@ export const locations: LegacyLocationNode[] = [
       "Send us your requirements and we will recommend the right mix of loggers and accessories. After dispatch from India, our team supports setup over WhatsApp or a video call.",
     faqs: [
       {
-        question: "We have many fridges across one hotel. How is that managed?",
+        question: "Do you have a Doha page?",
         answer:
-          "Each fridge gets its own logger, and all of them appear on one dashboard with alerts sent to the kitchen and engineering teams.",
+          "Not yet. This country page covers Doha, Al Rayyan, Al Wakrah and Lusail together until city pages are written, and the enquiry form reaches the same team. Tell us the town and the rooms involved, and we plan the set-up around the sites you name.",
       },
       {
-        question: "How do we order from Qatar?",
+        question: "How is monitoring set up for a Qatar site?",
         answer:
-          "Call, WhatsApp or use the enquiry form. We discuss your needs, send a quote and arrange dispatch from India.",
+          "Loggers are dispatched from India and registered to your dashboard, and we set up alert rules and user access with your team by phone, WhatsApp or a video call.",
+      },
+      {
+        question: "Can a hotel or hospital group watch several sites together?",
+        answer:
+          "Each site appears on the dashboard with its own alert recipients, and a group manager can open every site in one list and compare rooms side by side.",
       },
     ],
     indexable: true,
@@ -3425,7 +3676,7 @@ export const locations: LegacyLocationNode[] = [
     name: "Oman",
     type: "country",
     intro:
-      "Oman's fisheries, food distributors and hospitals depend on dependable cold storage, from seafood freezers on the coast to medicine stores in Muscat. Prithvi supplies loggers that record temperature continuously and raise an alert as soon as a freezer or cold room starts to drift.",
+      "Oman's storage is spread between a long coastline and a large interior: ports on the Gulf of Oman and the Arabian Sea, the capital region around Muscat, and towns joined by long roads where goods spend hours in vehicles. Pharmacies, hospitals, food importers and distributors keep rooms that must hold their range through a hot, humid coast and a dry, hotter interior. Prithvi supplies WiFi temperature and humidity loggers from India, with alerts to phones and email and remote set-up with your team. No city pages are written for Oman yet, so this page covers the country, and the enquiry form is the way to describe your site.",
     localIndustries: [
       "Fisheries and seafood cold storage",
       "Food distribution",
@@ -3437,14 +3688,19 @@ export const locations: LegacyLocationNode[] = [
       "We quote from India, dispatch the loggers and then help your staff connect and configure them remotely. If a site has no Wi-Fi, ask us about GSM versions and we will check network compatibility in Oman first.",
     faqs: [
       {
-        question: "Which logger can monitor a deep freezer for seafood?",
+        question: "Which Omani cities do you supply?",
         answer:
-          "Setu X uses an external probe rated from −100 to +200 °C, so the probe can sit inside the freezer while the logger stays outside.",
+          "Muscat, Sohar, Salalah and Nizwa are the places listed for Oman, and this page covers them together until city pages are written.",
       },
       {
-        question: "Our site is inland with weak Wi-Fi. What can we use?",
+        question: "How are loggers set up for a site far from a main city?",
         answer:
-          "GSM versions are available for sites without Wi-Fi. Network compatibility in Oman must be confirmed with us before ordering.",
+          "They are dispatched from India and registered to your dashboard, and we set up the rooms and limits with your team remotely, so no one needs to travel to start recording.",
+      },
+      {
+        question: "Can a vehicle be monitored on a long road trip?",
+        answer:
+          "A logger in the load records the whole journey and can be exported by trip. GSM versions can report along the way, subject to network compatibility that we confirm first.",
       },
     ],
     indexable: true,
@@ -3454,7 +3710,7 @@ export const locations: LegacyLocationNode[] = [
     name: "Kuwait",
     type: "country",
     intro:
-      "In Kuwait, long and very hot summers put constant pressure on refrigeration in warehouses, pharmacies, co-operative stores and food outlets. Prithvi data loggers watch those fridges and cold rooms around the clock and alert your team when temperature or humidity moves outside the limits you set.",
+      "Kuwait is compact and dense: a single urban area around Kuwait City, a port, and industrial and logistics zones that serve the whole country. Food and medicine arrive from abroad, wait in warehouses and cold stores and move on to hospitals, pharmacies, supermarkets and kitchens, all through long, hot summers. Prithvi supplies WiFi temperature and humidity loggers from India for these rooms, with alerts to phones and email and set-up carried out remotely with your team. No city pages are written for Kuwait yet, so this page covers the country as a whole, and the enquiry form is the quickest way to describe your site and get a reply from the team.",
     localIndustries: [
       "Food retail and co-operative stores",
       "Pharmacies and medical stores",
@@ -3466,14 +3722,19 @@ export const locations: LegacyLocationNode[] = [
       "Tell us how many rooms and units you need to cover. We prepare a quote, ship from India and help you set up alerts and user access over a call.",
     faqs: [
       {
-        question: "What happens if the internet goes down?",
+        question: "Do you cover places outside Kuwait City?",
         answer:
-          "The logger keeps recording to its internal memory (up to 1,00,000 records) on battery power, and data can also be downloaded offline through the PC software.",
+          "Yes. Kuwait City, Hawalli, Farwaniya, Ahmadi and Jahra are covered together on this page until separate pages exist.",
       },
       {
-        question: "Which logger is right for a pharmacy?",
+        question: "What alert limits suit a store in extreme summer heat?",
         answer:
-          "Nakshatra records both temperature and humidity, which suits medicine shelves and storerooms.",
+          "A high limit with a short delay warns early when a cooling unit is struggling, and a low limit protects stock that could chill when a unit overshoots. We tune both with your team after a few weeks of readings.",
+      },
+      {
+        question: "Can records be shared with a customer or inspector?",
+        answer:
+          "Reports for any room and any period can be exported as PDF, Excel or CSV, so a quality manager can hand over a dated log without retyping.",
       },
     ],
     indexable: true,
@@ -3483,7 +3744,7 @@ export const locations: LegacyLocationNode[] = [
     name: "Bahrain",
     type: "country",
     intro:
-      "Bahrain's food distributors, hospitals, pharmacies and logistics firms work in a compact market with close road links to Saudi Arabia. With multi-site monitoring, a team in Manama can watch stores in Bahrain and across the causeway from one dashboard, with every reading and alert kept on record.",
+      "Bahrain is an island kingdom joined to Saudi Arabia by a causeway, and its warehouses, cold stores, hospitals and hotels sit within a short drive of each other and of a busy port. Goods cross both the sea and the causeway, so a lot may spend time on a dock and in a lorry before it reaches its room. The climate is hot and humid for much of the year. Prithvi supplies WiFi temperature and humidity loggers from India, with alerts to phones and email and set-up carried out remotely with your team. No city pages are written for Bahrain yet, and the country page covers the whole island.",
     localIndustries: [
       "Food distribution",
       "Hospitals and pharmacies",
@@ -3495,14 +3756,19 @@ export const locations: LegacyLocationNode[] = [
       "Our team handles Bahrain enquiries directly from India: we confirm the right models, quote, dispatch and then guide your staff through setup remotely.",
     faqs: [
       {
-        question: "Can we track temperature on trucks crossing into Saudi Arabia?",
+        question: "Is Bahrain served separately from Saudi Arabia?",
         answer:
-          "Consignment monitoring creates a journey report for each trip. For trucks, ask about GSM versions and we will confirm network compatibility along your route first.",
+          "Yes. Supply and set-up are arranged for Bahrain on its own, although the two countries share long road journeys, and the Saudi city pages describe the rooms across the causeway.",
       },
       {
-        question: "Do we need separate accounts for each site?",
+        question: "How do we start monitoring a Bahrain site?",
         answer:
-          "No. Sites, rooms and devices are organised in one hierarchy, with role-based access for each user.",
+          "Send the site, the rooms and what you store through the enquiry form or WhatsApp, and we recommend loggers, dispatch them from India and set them up with your team remotely. If the site has several buildings, tell us which rooms matter most and we start there.",
+      },
+      {
+        question: "Can goods that cross the causeway be tracked?",
+        answer:
+          "A logger placed in the load records the whole journey, and a trip report can be exported for the consignee. GSM options depend on carrier compatibility that we confirm first.",
       },
     ],
     indexable: true,
@@ -3512,7 +3778,7 @@ export const locations: LegacyLocationNode[] = [
     name: "Yemen",
     type: "country",
     intro:
-      "Healthcare providers and distributors in Yemen store medicines, vaccines and food in conditions where power and connectivity are not always reliable. Prithvi loggers keep recording on battery to internal memory, which helps keep temperature records complete when power or Wi-Fi is interrupted.",
+      "Yemen is served case by case. Healthcare providers and distributors there store medicines, vaccines and food in conditions where power and connectivity are not always dependable, so the first question is always what is practical for a particular site rather than what a catalogue offers. Prithvi loggers record on their batteries through outages and keep storing readings when a network is absent, which is why they can suit such sites. Every enquiry is reviewed individually: we ask about the location, the rooms and the route for dispatch, and we confirm what is possible before anything is recommended. No city pages are written for Yemen, and this page covers the country as a whole.",
     localIndustries: [
       "Healthcare and medical stores",
       "Vaccine and medicine storage",
@@ -3523,14 +3789,19 @@ export const locations: LegacyLocationNode[] = [
       "Supply to Yemen is arranged case by case. Contact us with your location and requirements, and we will confirm what is possible before quoting.",
     faqs: [
       {
-        question: "How long does the battery last if power is cut?",
+        question: "Can you supply to Yemen?",
         answer:
-          "Battery life is about 3 months at a 10-minute logging interval, and the logger keeps recording during power cuts.",
+          "Supply to Yemen is arranged case by case. Send the location, what you store and how it would reach you, and we confirm what is possible before we recommend anything.",
       },
       {
-        question: "How do we start an enquiry from Yemen?",
+        question: "What happens to the record when the power or network is down?",
         answer:
-          "Send your requirements by WhatsApp or the enquiry form and our team will reply to discuss supply.",
+          "The logger keeps recording on its battery and stores the readings, so a record exists even if no alert could be sent at the time, and it is available when the site is next connected.",
+      },
+      {
+        question: "How should we start an enquiry?",
+        answer:
+          "Use WhatsApp or the enquiry form, describe the rooms and the situation on site and mention any constraints on delivery. Our team replies to discuss what is practical.",
       },
     ],
     indexable: true,
@@ -3725,17 +3996,22 @@ export function citiesForIndustry(industrySlug: string, limit = 8): ResolvedCity
     .slice(0, limit);
 }
 
+/** Hubs pinned at the top of the footer list, in this order (when indexable). */
+const FOOTER_HUBS = ["india", "maharashtra", "saudi-arabia", "uae"];
+
 /**
- * Footer "Top locations": the biggest cities that have a live page, topped up
- * with indexable country hubs so the list is never a single link.
+ * Footer "Top locations": a few indexable hubs first, then the biggest cities
+ * that have a live page, so the list stays compact (the footer links to
+ * /locations for the rest).
  */
 export function topLocations(limit = 10): { name: string; href: string }[] {
+  const hubs = FOOTER_HUBS.flatMap((slug) => {
+    const hub = getAllLocations().find((l) => l.node.slug === slug && l.node.indexable && !isCityPage(l.node));
+    return hub ? [{ name: hub.node.name, href: locationHref(hub.path) }] : [];
+  });
   const cities = getCityPages()
     .filter((c) => c.node.indexable)
     .sort((a, b) => cityRank(a.node.slug) - cityRank(b.node.slug))
     .map((c) => ({ name: c.node.name, href: locationHref(c.path) }));
-  const countries = locations
-    .filter((c) => c.indexable)
-    .map((c) => ({ name: c.name, href: locationHref([c.slug]) }));
-  return [...cities, ...countries].slice(0, limit);
+  return [...hubs, ...cities].slice(0, limit);
 }

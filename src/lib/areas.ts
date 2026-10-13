@@ -16,7 +16,13 @@ function nodeTexts(node: LocationNode): string[] {
       ...node.faqs.flatMap((f) => [f.question, f.answer]),
     ];
   }
-  return [node.intro, node.supportNote, ...node.faqs.flatMap((f) => [f.question, f.answer])];
+  return [
+    node.intro,
+    node.supportNote,
+    ...node.faqs.flatMap((f) => [f.question, f.answer]),
+    ...(node.listing ?? []).map((l) => l.text),
+    ...(node.areaListing ?? []).map((l) => l.text),
+  ];
 }
 
 export function otherLocationTexts(): string[] {

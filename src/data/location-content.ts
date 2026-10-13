@@ -20,118 +20,121 @@ export type LocationContent = {
 export const locationContent: Record<string, LocationContent> = {
   india: {
     metaDescription:
-      "Temperature data loggers in India: WiFi and GSM loggers supplied from Mumbai, with remote setup support and calibration by VEGA. Get a solution.",
+      "Temperature data loggers across India: WiFi and GSM loggers by state, city and industrial area, with set-up support and calibration. Get Solution.",
     recommended: ["nakshatra", "veer", "vayu"],
   },
   "india/maharashtra": {
     metaDescription:
-      "Temperature data loggers in Maharashtra, supplied from our Mumbai office to Pune, Thane, Nashik, Nagpur and beyond. Calibration by VEGA Calibrations.",
+      "Temperature data loggers in Maharashtra: Mumbai, Navi Mumbai, Thane, Panvel, Pune and Vasai-Palghar cities and industrial areas. Get Solution.",
     recommended: ["nakshatra", "dhruva", "virat"],
   },
   "india/gujarat": {
     metaDescription:
-      "Temperature data loggers for Gujarat's pharmaceutical, chemical and food estates, supplied from Mumbai with site visits arranged. Get Solution.",
+      "Temperature data loggers for Gujarat's Ahmedabad, Vapi, Ankleshwar and Surat estates, with every city and area page listed. Get Solution.",
     recommended: ["nakshatra", "dhruva", "veer"],
   },
   "india/delhi": {
     metaDescription:
-      "Temperature data loggers for Delhi's hospitals, medicine distributors and food stores, supplied from Mumbai with site visits arranged. Get Solution.",
+      "Temperature data loggers across the Delhi region: hospitals, medicine distributors, food stores and the Okhla, Bawana and Narela estates. Get Solution.",
     recommended: ["dhruva", "setu", "vayu"],
+    inName: "the Delhi Region",
   },
   "india/uttar-pradesh": {
     metaDescription:
-      "Temperature data loggers for Uttar Pradesh's Noida and Greater Noida electronics plants and warehouses, with site visits arranged. Get Solution.",
+      "Temperature data loggers in Uttar Pradesh: Noida and Greater Noida electronics and data centres, and Lucknow hospitals and cold stores. Get Solution.",
     recommended: ["virat", "nakshatra", "dhruva"],
   },
   "india/haryana": {
     metaDescription:
-      "Temperature data loggers for Haryana's Manesar automotive, electronics and warehousing plants, with site visits arranged. Get Solution.",
+      "Temperature data loggers in Haryana: IMT Manesar's automotive, electronics and pharma plants and highway warehouses. Get Solution.",
     recommended: ["veer", "rajmudra", "vayu"],
   },
   "india/telangana": {
     metaDescription:
-      "Temperature data loggers for Telangana's pharma estates and life-science labs around Hyderabad, with site visits arranged. Get Solution.",
+      "Temperature data loggers in Telangana: Hyderabad's pharma estates, Genome Valley life-science labs and data centres. Get Solution.",
     recommended: ["rajmudra", "veer", "nakshatra"],
   },
   "india/karnataka": {
     metaDescription:
-      "Temperature data loggers for Karnataka's electronics parks, laboratories and data centres around Bengaluru, with site visits arranged. Get Solution.",
+      "Temperature data loggers in Karnataka: Bengaluru (Bangalore) laboratories, technology parks, electronics makers and hospitals. Get Solution.",
     recommended: ["setu", "dhruva", "nakshatra"],
   },
   "india/tamil-nadu": {
     metaDescription:
-      "Temperature data loggers for Tamil Nadu's electronics, automotive and port-linked warehouses around Chennai, with site visits arranged. Get Solution.",
+      "Temperature data loggers in Tamil Nadu: Chennai's port-linked estates and Coimbatore's mills, workshops and hospitals. Get Solution.",
     recommended: ["nakshatra", "virat", "vayu"],
   },
   "india/chandigarh": {
     metaDescription:
-      "Temperature data loggers for Chandigarh, Mohali and Panchkula hospitals, medicine distributors and food depots, with site visits arranged. Get Solution.",
+      "Temperature data loggers in the Chandigarh region: hospitals, medicine distributors and food depots across Mohali and Panchkula. Get Solution.",
     recommended: ["nakshatra", "dhruva", "vayu"],
+    inName: "the Chandigarh Region",
   },
   "india/himachal-pradesh": {
     metaDescription:
-      "Temperature data loggers for Himachal Pradesh's Baddi, Barotiwala and Nalagarh pharmaceutical plants, with site visits arranged. Get Solution.",
+      "Temperature data loggers in Himachal Pradesh: pharmaceutical plants at Baddi, Barotiwala and Nalagarh in the foothills. Get Solution.",
     recommended: ["rajmudra", "virat", "setu"],
   },
   "india/kerala": {
     metaDescription:
-      "Temperature data loggers for Kerala's seafood cold chain, port warehouses and hospitals around Kochi, with site visits arranged. Get Solution.",
+      "Temperature data loggers in Kerala: Kochi's seafood cold chain, port warehouses, spice trade and hospitals. Get Solution.",
     recommended: ["dhruva", "vayu", "virat"],
   },
   "india/goa": {
     metaDescription:
-      "Temperature data loggers for Goa's pharmaceutical plants and coastal hotel kitchens, supplied from Mumbai with site visits arranged. Get Solution.",
+      "Temperature data loggers in the State of Goa: pharmaceutical plants at Verna and Kundaim and coastal hotel kitchens. Get Solution.",
     recommended: ["rajmudra", "setu", "nakshatra"],
+    inName: "the State of Goa",
   },
   "india/rajasthan": {
     metaDescription:
-      "Temperature data loggers for Rajasthan's Jaipur dairies, medicine stockists and hospitals, with site visits arranged. Get Solution.",
+      "Temperature data loggers in Rajasthan: Jaipur dairies, medicine stockists, hospitals and the Sitapura and VKI estates. Get Solution.",
     recommended: ["veer", "rajmudra", "vayu"],
   },
   "india/madhya-pradesh": {
     metaDescription:
-      "Temperature data loggers for Madhya Pradesh's Indore food processors and Pithampur plants, with site visits arranged. Get Solution.",
+      "Temperature data loggers in Madhya Pradesh: Indore food processors, pharma makers and the Pithampur and Sanwer Road estates. Get Solution.",
     recommended: ["virat", "dhruva", "setu"],
   },
   "india/west-bengal": {
     metaDescription:
-      "Temperature data loggers for West Bengal's Kolkata cold stores, pharma distributors and port warehouses, with site visits arranged. Get Solution.",
+      "Temperature data loggers in West Bengal: Kolkata cold stores, pharma distributors, hospitals and port warehouses. Get Solution.",
     recommended: ["nakshatra", "virat", "vayu"],
   },
   "saudi-arabia": {
     metaDescription:
-      "Temperature data logger supply to Saudi Arabia: WiFi loggers for warehouses, cold rooms and pharmacies in Riyadh, Jeddah and Dammam. Get a solution.",
+      "Temperature data loggers in Saudi Arabia: WiFi loggers for Riyadh, Jeddah and Dammam warehouses, supplied from India and set up remotely. Get Solution.",
     recommended: ["nakshatra", "veer", "virat"],
   },
   uae: {
     metaDescription:
-      "Temperature data logger supply to the UAE: WiFi temperature and humidity loggers for Dubai, Abu Dhabi and Sharjah, with remote setup support.",
+      "Temperature data loggers in the UAE: WiFi loggers for Dubai warehouses, food importers and hotel kitchens, set up remotely. Get Solution.",
     recommended: ["setu", "nakshatra", "veer"],
     inName: "the UAE",
   },
   qatar: {
     metaDescription:
-      "Temperature data loggers in Qatar for hospitals, hotels, caterers and food distributors in Doha. Supplied from India with remote setup support.",
+      "Temperature data loggers in Qatar: WiFi loggers for Doha warehouses, cold stores, hotels and clinics, supplied from India. Get Solution.",
     recommended: ["setu", "nakshatra", "dhruva"],
   },
   oman: {
     metaDescription:
-      "Temperature data loggers in Oman for seafood cold storage, food distribution and hospitals in Muscat, Sohar and Salalah. Get a solution.",
+      "Temperature data loggers in Oman: WiFi loggers for Muscat, Sohar and Salalah pharmacies, hospitals and food distributors. Get Solution.",
     recommended: ["setu", "nakshatra", "veer"],
   },
   kuwait: {
     metaDescription:
-      "Temperature data loggers in Kuwait for warehouses, pharmacies, co-operative stores and food outlets, with alerts when limits are crossed.",
+      "Temperature data loggers in Kuwait: WiFi loggers for warehouses, cold stores, hospitals and kitchens, supplied from India. Get Solution.",
     recommended: ["setu", "nakshatra", "dhruva"],
   },
   bahrain: {
     metaDescription:
-      "Temperature data loggers in Bahrain for food distributors, hospitals, pharmacies and logistics firms, with multi-site monitoring on one dashboard.",
+      "Temperature data loggers in Bahrain: WiFi loggers for warehouses, cold stores, hospitals and hotels, supplied from India. Get Solution.",
     recommended: ["setu", "nakshatra", "veer"],
   },
   yemen: {
     metaDescription:
-      "Temperature data loggers for healthcare providers and distributors in Yemen. Supply is arranged case by case. Contact us with your requirements.",
+      "Temperature data loggers for Yemen, arranged case by case: loggers that keep recording through power and network outages. Get Solution.",
     recommended: ["setu", "nakshatra", "dhruva"],
   },
 };

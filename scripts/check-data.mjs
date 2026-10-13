@@ -215,7 +215,13 @@ const uniqueTexts = (node) =>
         ...node.recommendedSeries.map((r) => r.reason),
         ...node.faqs.flatMap((f) => [f.question, f.answer]),
       ]
-    : [node.intro, node.supportNote, ...node.faqs.flatMap((f) => [f.question, f.answer])];
+    : [
+        node.intro,
+        node.supportNote,
+        ...node.faqs.flatMap((f) => [f.question, f.answer]),
+        ...(node.listing ?? []).map((l) => l.text),
+        ...(node.areaListing ?? []).map((l) => l.text),
+      ];
 const wordCount = (texts) => texts.join(" ").split(/\s+/).filter(Boolean).length;
 
 const sentenceOwner = new Map();
@@ -241,6 +247,82 @@ for (const { node, path: p } of all) {
     const owner = sentenceOwner.get(key);
     if (owner && owner !== where) fail(`locations: sentence shared by ${owner} and ${where}: "${sentence.trim()}"`);
     sentenceOwner.set(key, where);
+  }
+}
+
+// ---------------------------------------------------------------- hub pages (playbook section 7)
+// Country and state hubs: an original regional intro, a short unique line for
+// every built child page (and, on state hubs, every written area page), their
+// own FAQs and enough unique copy. A hub may be indexable only if it passes.
+{
+  const hubBanned = [
+    [/no\.?\s?1/i, '"No.1"'],
+    [/best(?!\s+for)/i, '"best"'],
+    [/leading/i, '"leading"'],
+    [/guarantee/i, '"guaranteed"'],
+    [/within\s+(\d+|a few|\w+)\s+(hours?|days?|minutes?|weeks?)/i, '"within X hours/days"'],
+    [/\d[\d,]*\+?\s+(customers|clients|companies|businesses)/i, "customer counts"],
+    [/get\s+a\s+quote/i, '"Get a Quote"'],
+    [/₹|MRP|GST|price[sd]?/i, "a price"],
+    [/trinetra/i, "Trinetra"],
+  ];
+  const hubIssues = (loc) => {
+    const { node, path: p } = loc;
+    const out = [];
+    const introWords = node.intro.split(/\s+/).length;
+    if (introWords < 100 || introWords > 150) out.push(`intro is ${introWords} words (100–150)`);
+    const maxFaqs = 3;
+    if (node.faqs.length < 2 || node.faqs.length > maxFaqs) out.push(`has ${node.faqs.length} FAQs (2–3)`);
+    if (node.type === "country" && node.faqs.length !== 3) out.push("a country hub needs exactly 3 FAQs");
+    const unique = wordCount(uniqueTexts(node));
+    if (unique < 250) out.push(`unique body is ${unique} words (min 250)`);
+    const listing = node.listing ?? [];
+    const liveChildren = (node.children ?? []).filter((c) => c.indexable);
+    const listed = new Set(listing.map((l) => l.slug));
+    for (const c of liveChildren) {
+      const flat = locationFlatSlug([...p, c.slug]);
+      if (!listed.has(flat)) out.push(`does not describe its built page "${flat}"`);
+    }
+    for (const l of listing) {
+      const child = liveChildren.find((c) => locationFlatSlug([...p, c.slug]) === l.slug);
+      if (!child) out.push(`describes "${l.slug}", which is not a built child page`);
+      if (l.text.split(/\s+/).length < 10) out.push(`description of "${l.slug}" is too short`);
+    }
+    // Written, indexable areas under this hub's cities.
+    const under = [];
+    if (node.type === "state") {
+      for (const a of areas) {
+        if (!a.page) continue;
+        const city = all.find((x) => x.node.type === "city" && x.node.slug === a.citySlug);
+        if (!city || city.path.slice(0, p.length).join("/") !== p.join("/")) continue;
+        if (areaIssues(a, [], areas).length === 0 && a.page.indexable) under.push(locationFlatSlug([...city.path, a.slug]));
+      }
+    }
+    const areaListed = new Set((node.areaListing ?? []).map((l) => l.slug));
+    for (const slug of under) if (!areaListed.has(slug)) out.push(`does not describe its area page "${slug}"`);
+    for (const l of node.areaListing ?? []) {
+      if (!under.includes(l.slug)) out.push(`describes "${l.slug}", which is not a built area page under it`);
+      if (l.text.split(/\s+/).length < 8) out.push(`description of area "${l.slug}" is too short`);
+    }
+    const c = locationContent[p.join("/")];
+    if (!c || !/Get Solution/.test(c.metaDescription)) out.push('meta description must say "Get Solution"');
+    const copy = [...uniqueTexts(node), c?.metaDescription ?? ""].join(" ");
+    for (const [re, label] of hubBanned) if (re.test(copy)) out.push(`uses banned wording ${label}`);
+    if (/vayu/i.test(copy) && p[0] !== "india") out.push("mentions Vayu outside India");
+    if (/NABL|accredit|ISO\s?\/?(IEC )?\d{4,5}/i.test(copy)) out.push("makes an accreditation claim");
+    if (new RegExp("\bour\s+" + node.name + "\s+office\b", "i").test(copy)) out.push("claims a local office");
+    return { out, unique };
+  };
+  for (const loc of all) {
+    if (isCityPage(loc.node)) continue;
+    const { out, unique } = hubIssues(loc);
+    const where = loc.path.join("/");
+    if (loc.node.indexable) {
+      for (const issue of out) fail(`hub: ${where} is indexable but ${issue}`);
+      notes.push(`hub ${where}: ${unique} unique words`);
+    } else if (out.length === 0) {
+      notes.push(`hub ${where} passes every hub check but is noindex`);
+    }
   }
 }
 
@@ -373,7 +455,11 @@ for (const r of cityResults) notes.push(`city ${r.where}: ${r.uniqueWords} uniqu
     for (const svc of services) if (!hrefs.includes(svc.href)) f(`does not link to ${svc.href}`);
     // Sibling links: every nearby city that has a live page must be linked.
     for (const n of node.nearby) {
-      const sib = all.find((l) => l.node.slug === n.slug && l.node.indexable);
+      // A nearby entry is a live city page, or failing that a live country page (Bahrain);
+      // a state hub that shares the city's slug (Delhi, Goa) does not count.
+      const sib =
+        all.find((l) => isCityPage(l.node) && l.node.slug === n.slug && l.node.indexable) ??
+        all.find((l) => l.path.length === 1 && l.node.slug === n.slug && l.node.indexable);
       if (sib && !hrefs.includes(locationHref(sib.path))) f(`does not link to nearby city ${n.slug}`);
     }
     // Banned wording in what visitors actually see.
