@@ -211,6 +211,28 @@ export function articleSchema(post: {
 const AREA_TYPE = { country: "Country", state: "State", city: "City" } as const;
 
 /**
+ * Service JSON-LD for a service page (calibration, mapping, validation). The
+ * work is delivered by the parent calibration lab, which is the provider.
+ */
+export function serviceSchema(service: {
+  name: string;
+  description: string;
+  path: string;
+  deliveredBy: { name: string; url: string };
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: service.name,
+    serviceType: service.name,
+    description: service.description,
+    url: absoluteUrl(service.path),
+    provider: { "@type": "Organization", name: service.deliveredBy.name, url: service.deliveredBy.url },
+    areaServed: { "@type": "Country", name: "India" },
+  };
+}
+
+/**
  * Service JSON-LD for a location page (brief §7.9): what we supply and where.
  * The provider is the site-wide Organization everywhere except Mumbai, where it
  * is the LocalBusiness (the one real office). No LocalBusiness is created for

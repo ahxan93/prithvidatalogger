@@ -14,7 +14,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Locations We Serve",
   description:
-    "Where Prithvi supplies temperature data loggers: India's states, cities and industrial areas, and Saudi Arabia, the UAE, Qatar, Oman, Kuwait, Bahrain and Yemen.",
+    "Where Prithvi supplies temperature data loggers: Indian states, cities and industrial areas, plus Saudi Arabia, UAE, Qatar, Oman, Kuwait, Bahrain, Yemen.",
   path: "/locations",
 });
 

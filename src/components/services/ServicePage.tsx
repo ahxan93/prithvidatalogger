@@ -10,6 +10,7 @@ import PageHero from "@/components/sections/PageHero";
 import { getPageHeroDevices } from "@/data/page-heroes";
 import Button from "@/components/ui/Button";
 import Container from "@/components/ui/Container";
+import JsonLd from "@/components/seo/JsonLd";
 import Faq from "@/components/ui/Faq";
 import Section from "@/components/ui/Section";
 import SectionHeading from "@/components/ui/SectionHeading";
@@ -22,6 +23,7 @@ import {
   WhatsAppIcon,
 } from "@/components/ui/icons";
 import { telHref, whatsappHref } from "@/lib/contact";
+import { serviceSchema } from "@/lib/schema";
 import { buildMetadata } from "@/lib/seo";
 
 /** Metadata for a service page (title = the page's H1). */
@@ -45,6 +47,14 @@ export default function ServicePage({ slug }: { slug: ServiceSlug }) {
 
   return (
     <>
+      <JsonLd
+        data={serviceSchema({
+          name: service.name,
+          description: content.metaDescription,
+          path: service.href,
+          deliveredBy: service.deliveredBy,
+        })}
+      />
       <PageHero
         visual={<LiveDeviceVisual devices={getPageHeroDevices(slug)} />}
         crumbs={[
