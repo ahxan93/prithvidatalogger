@@ -25,7 +25,14 @@ export default function LocationsPage() {
   const all = getAllLocations();
   const live = all.filter((l) => l.node.indexable);
   const india = live.find((l) => l.path.join("/") === "india");
-  const states = live.filter((l) => l.path.length === 2 && l.path[0] === "india" && l.node.type === "state");
+  // A state hub with too few built pages is noindex, so it is not linked itself, but its cities still are.
+  const states = all.filter(
+    (l) =>
+      l.path.length === 2 &&
+      l.path[0] === "india" &&
+      l.node.type === "state" &&
+      (l.node.children ?? []).some((c) => c.indexable),
+  );
   const gcc = live.filter((l) => l.path.length === 1 && l.path[0] !== "india");
 
   /** Indexable areas under a city, with their URLs. */
@@ -68,9 +75,13 @@ export default function LocationsPage() {
                 <li key={state.path.join("/")}>
                   <article className="flex h-full flex-col rounded-2xl border border-slate-200/80 bg-white p-6 shadow-soft transition duration-300 hover:border-brand-200 hover:shadow-soft-lg">
                     <h3 className="font-heading text-xl font-semibold text-ink">
-                      <Link href={locationHref(state.path)} className="hover:text-brand-600">
-                        {state.node.name}
-                      </Link>
+                      {state.node.indexable ? (
+                        <Link href={locationHref(state.path)} className="hover:text-brand-600">
+                          {state.node.name}
+                        </Link>
+                      ) : (
+                        state.node.name
+                      )}
                     </h3>
                     <ul className="mt-4 space-y-4">
                       {cities.map((city) => {

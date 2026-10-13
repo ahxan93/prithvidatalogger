@@ -14,6 +14,7 @@ import { services } from "../src/data/services.ts";
 import {
   locations, getAllLocations, needsGsmNetworkNote, GSM_NETWORK_NOTE, isCityPage,
   locationHref, locationFlatSlug, locationUrlProblems, allFlatSlugs, legacyLocationHref, LOCATION_URL_PREFIX,
+  builtPagesUnder, MIN_STATE_HUB_PAGES,
 } from "../src/data/locations.ts";
 import { buildEnquiryOptions, CALIBRATION_MAPPING_OPTION, VALIDATION_OPTION } from "../src/data/enquiry.ts";
 import * as company from "../src/data/company.ts";
@@ -277,7 +278,8 @@ for (const { node, path: p } of all) {
     const unique = wordCount(uniqueTexts(node));
     if (unique < 250) out.push(`unique body is ${unique} words (min 250)`);
     const listing = node.listing ?? [];
-    const liveChildren = (node.children ?? []).filter((c) => c.indexable);
+    // A child counts as built when it is indexable, or (a noindex state under India) has live cities.
+    const liveChildren = (node.children ?? []).filter((c) => c.indexable || (c.children ?? []).some((g) => g.indexable));
     const listed = new Set(listing.map((l) => l.slug));
     for (const c of liveChildren) {
       const flat = locationFlatSlug([...p, c.slug]);
@@ -323,6 +325,20 @@ for (const { node, path: p } of all) {
     } else if (out.length === 0) {
       notes.push(`hub ${where} passes every hub check but is noindex`);
     }
+  }
+}
+
+// A state hub with fewer than two built child pages (indexable cities plus written
+// area pages) must be noindex, and it is indexable again by itself once it has two
+// or more. `indexable` on a state is derived in src/data/locations.ts; this checks it.
+{
+  for (const loc of all) {
+    if (loc.node.type !== "state") continue;
+    const built = builtPagesUnder(loc.node);
+    const where = loc.path.join("/");
+    if (built < MIN_STATE_HUB_PAGES && loc.node.indexable) fail(`hub: ${where} has ${built} built page(s) (min ${MIN_STATE_HUB_PAGES}) so it must be noindex`);
+    if (built >= MIN_STATE_HUB_PAGES && !loc.node.indexable) fail(`hub: ${where} has ${built} built pages so it must be indexable again`);
+    if (built < MIN_STATE_HUB_PAGES) notes.push(`hub ${where}: noindex until it has ${MIN_STATE_HUB_PAGES} built pages (has ${built})`);
   }
 }
 
@@ -735,6 +751,32 @@ if (!siteConfig.showPrices) {
     if (a.page.nearby.length && !nearbyLinked.length) f("links to none of its nearby areas");
     for (const svcPage of services) if (!hrefs.includes(svcPage.href)) f(`does not link to ${svcPage.href}`);
     if (!/<input[^>]*type="hidden"[^>]*name="city"/.test(html)) f("has no hidden city field in the enquiry form");
+  }
+}
+
+// Rendered check: a state hub below the two-page minimum is "noindex, follow" and
+// out of the sitemap; one at or above it is indexable and in the sitemap.
+{
+  const APP_DIR = path.join(ROOT, ".next/server/app");
+  const sitemapFile = path.join(APP_DIR, "sitemap.xml.body");
+  if (fs.existsSync(APP_DIR) && fs.existsSync(sitemapFile)) {
+    const sitemap = fs.readFileSync(sitemapFile, "utf8");
+    for (const loc of all) {
+      if (loc.node.type !== "state") continue;
+      const flat = locationFlatSlug(loc.path);
+      const file = path.join(APP_DIR, "data-logger", flat + ".html");
+      if (!fs.existsSync(file)) continue;
+      const robots = (fs.readFileSync(file, "utf8").match(/<meta name="robots" content="([^"]*)"/) ?? [])[1] ?? "";
+      const inSitemap = sitemap.includes(`/${LOCATION_URL_PREFIX}${flat}<`);
+      const where = loc.path.join("/");
+      if (!loc.node.indexable) {
+        if (!/noindex/.test(robots) || !/follow/.test(robots) || /nofollow/.test(robots)) fail(`hub-render: ${where} must render "noindex, follow" (found "${robots}")`);
+        if (inSitemap) fail(`hub-render: ${where} is noindex but is in the sitemap`);
+      } else {
+        if (/noindex/.test(robots)) fail(`hub-render: ${where} is indexable but renders noindex`);
+        if (!inSitemap) fail(`hub-render: ${where} is indexable but missing from the sitemap`);
+      }
+    }
   }
 }
 

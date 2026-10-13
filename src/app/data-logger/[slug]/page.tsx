@@ -154,7 +154,10 @@ export default async function LocationPage({ params }: PageProps<"/data-logger/[
   const hubEntries = (node.listing ?? []).flatMap((entry) => {
     const target = pathForFlatSlug(entry.slug);
     const found = target ? findLocation(target) : undefined;
-    if (!target || !found || !found.node.indexable) return [];
+    if (!target || !found) return [];
+    // A noindex state hub (too few built pages) is still described, but only its cities are linked.
+    const hasLiveCity = (found.node.children ?? []).some((c) => c.indexable);
+    if (!found.node.indexable && !hasLiveCity) return [];
     const cities =
       found.node.type === "state"
         ? (found.node.children ?? [])
@@ -169,7 +172,16 @@ export default async function LocationPage({ params }: PageProps<"/data-logger/[
         ? [{ name: area.area.name, href: locationHref(areaPath), text: a.text }]
         : [];
     });
-    return [{ name: found.node.name, href: locationHref(target), text: entry.text, cities, areas: areaItems }];
+    return [
+      {
+        name: found.node.name,
+        href: found.node.indexable ? locationHref(target) : undefined,
+        key: locationHref(target),
+        text: entry.text,
+        cities,
+        areas: areaItems,
+      },
+    ];
   });
 
   return (
@@ -279,11 +291,15 @@ export default async function LocationPage({ params }: PageProps<"/data-logger/[
           />
           <ul className="mt-10 grid gap-5 md:grid-cols-2">
             {hubEntries.map((entry) => (
-              <li key={entry.href} className="rounded-2xl border border-slate-200/80 bg-white p-6 shadow-soft">
+              <li key={entry.key} className="rounded-2xl border border-slate-200/80 bg-white p-6 shadow-soft">
                 <h3 className="font-heading text-xl font-semibold text-ink">
-                  <Link href={entry.href} className="hover:text-brand-700 hover:underline">
-                    {entry.name}
-                  </Link>
+                  {entry.href ? (
+                    <Link href={entry.href} className="hover:text-brand-700 hover:underline">
+                      {entry.name}
+                    </Link>
+                  ) : (
+                    entry.name
+                  )}
                 </h3>
                 <p className="mt-2 leading-relaxed text-muted">{entry.text}</p>
                 {entry.cities.length > 0 && (

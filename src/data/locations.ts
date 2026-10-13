@@ -1654,7 +1654,8 @@ export const locations: LegacyLocationNode[] = [
         listing: [
           { slug: "manesar", text: "IMT Manesar's automotive, electronics and pharmaceutical plants and the highway warehouse parks that move goods across north India." },
         ],
-        indexable: true,
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
         children: [
           {
             slug: "manesar",
@@ -2299,7 +2300,8 @@ export const locations: LegacyLocationNode[] = [
         listing: [
           { slug: "chandigarh", text: "The planned city with Mohali and Panchkula beside it, serving hospitals, medicine distributors, dairy and food depots through hot summers and cold winters." },
         ],
-        indexable: true,
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
         children: [
           {
             slug: "chandigarh",
@@ -2430,7 +2432,8 @@ export const locations: LegacyLocationNode[] = [
         listing: [
           { slug: "baddi", text: "A foothill pharmaceutical cluster with Barotiwala and Nalagarh, where formulation plants keep warehouses and quality laboratories to written limits." },
         ],
-        indexable: true,
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
         children: [
           {
             slug: "baddi",
@@ -2560,7 +2563,8 @@ export const locations: LegacyLocationNode[] = [
         listing: [
           { slug: "kochi", text: "A port city of seafood processors, spice exporters, container yards, large hospitals and a technology park, all in warm, humid air." },
         ],
-        indexable: true,
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
         children: [
           {
             slug: "kochi",
@@ -2691,7 +2695,8 @@ export const locations: LegacyLocationNode[] = [
         listing: [
           { slug: "goa", text: "A coastal state's pharmaceutical plants at Verna and Kundaim and its hotel and restaurant kitchens, exposed to salt air and a heavy monsoon." },
         ],
-        indexable: true,
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
         children: [
           {
             slug: "goa",
@@ -2822,7 +2827,8 @@ export const locations: LegacyLocationNode[] = [
         listing: [
           { slug: "jaipur", text: "A tourism and trading city of dairies, medicine stockists, hotels and hospitals, with Sitapura and VKI as its industrial areas in desert heat." },
         ],
-        indexable: true,
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
         children: [
           {
             slug: "jaipur",
@@ -2957,7 +2963,8 @@ export const locations: LegacyLocationNode[] = [
         listing: [
           { slug: "indore", text: "The commercial capital, with snack and sweet makers, pharmaceutical plants, the Pithampur and Sanwer Road estates and busy wholesale godowns." },
         ],
-        indexable: true,
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
         children: [
           {
             slug: "indore",
@@ -3088,7 +3095,8 @@ export const locations: LegacyLocationNode[] = [
         listing: [
           { slug: "kolkata", text: "An old port city of cold stores, medicine distributors, hospitals and godowns, with Howrah, Kalyani and Dankuni around it." },
         ],
-        indexable: true,
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
         children: [
           {
             slug: "kolkata",
@@ -3819,6 +3827,31 @@ export const GSM_NETWORK_NOTE =
 /** True for every location outside India (where the GSM note must be shown). */
 export function needsGsmNetworkNote(path: string[]): boolean {
   return path[0] !== "india";
+}
+
+// ---------------------------------------------------------------------------
+// State hub indexability. A state hub is indexable only while it has two or
+// more built child pages (its indexable cities plus its written area pages);
+// below that it renders noindex, follow and stays out of the sitemap, and it
+// becomes indexable again by itself as soon as a second page is built. The
+// `indexable` literal in the data is therefore only the starting point.
+// ---------------------------------------------------------------------------
+
+/** Built pages under a state hub: its indexable cities plus their written area pages. */
+export function builtPagesUnder(state: LocationNode): number {
+  const cities = (state.children ?? []).filter((c) => c.indexable);
+  const cityAreas = areas.filter(
+    (a) => a.page?.indexable && cities.some((c) => c.slug === a.citySlug),
+  ).length;
+  return cities.length + cityAreas;
+}
+
+export const MIN_STATE_HUB_PAGES = 2;
+
+for (const country of locations) {
+  for (const child of country.children ?? []) {
+    if (child.type === "state") child.indexable = builtPagesUnder(child) >= MIN_STATE_HUB_PAGES;
+  }
 }
 
 export type ResolvedLocation = {
