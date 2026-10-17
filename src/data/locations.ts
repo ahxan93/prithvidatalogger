@@ -125,7 +125,7 @@ export const locations: LegacyLocationNode[] = [
       { slug: "maharashtra", text: "Mumbai, Navi Mumbai, Thane and Bhiwandi, Panvel, Pune, Vasai-Palghar, Nashik, Chhatrapati Sambhajinagar, Nagpur, Kolhapur, Satara, Solapur and Ratnagiri-Lote, from a humid coast to hot inland plateaus." },
       { slug: "gujarat", text: "Ahmedabad, Vadodara, Rajkot, Gandhinagar, the Morbi ceramic cluster, the Kutch ports and the chemical belt from Vapi to Bharuch, where pharmaceutical, dye and engineering stores meet dry heat and a heavy southern monsoon." },
       { slug: "delhi-state", text: "A dense capital in which hospitals, medicine distributors and food businesses share space with the Okhla, Bawana and Narela industrial areas." },
-      { slug: "uttar-pradesh", text: "Noida and Greater Noida's electronics and data centre campuses, and Lucknow's hospitals, medicine stockists and cold stores." },
+      { slug: "uttar-pradesh", text: "Noida and Greater Noida's electronics and data campuses, Lucknow's hospitals and cold stores, and the Ghaziabad, Kanpur, Agra and Varanasi trades." },
       { slug: "haryana", text: "The IMT Manesar plants and highway warehouses on the road south of Gurugram, built around automotive, electronics and distribution." },
       { slug: "telangana", text: "Hyderabad's pharmaceutical estates, life-science campuses and server halls, from Jeedimetla and Patancheru to Genome Valley." },
       { slug: "karnataka", text: "Bengaluru's laboratories, technology parks, electronics makers and hospitals, together with the engineering belt of Peenya." },
@@ -3094,7 +3094,7 @@ export const locations: LegacyLocationNode[] = [
           {
             question: "Which Uttar Pradesh locations have their own pages?",
             answer:
-              "Noida and Lucknow have city pages, and Greater Noida and Sahibabad have area pages under Noida. More of the state will follow with pages of its own.",
+              "Noida, Lucknow, Ghaziabad, Kanpur, Agra and Varanasi have city pages, and Greater Noida and Sahibabad have area pages under Noida. More of the state will follow with pages of its own.",
           },
           {
             question: "Do you cover places in the state that are not listed?",
@@ -3110,6 +3110,10 @@ export const locations: LegacyLocationNode[] = [
         listing: [
           { slug: "noida", text: "A planned township of electronics makers, data centres and distribution warehouses laid out in numbered sectors." },
           { slug: "lucknow", text: "The state capital, with hospitals, medicine stockists and cold stores that supply towns across a wide region." },
+          { slug: "ghaziabad", text: "The eastern gateway to Delhi, with Loni, Meerut Road and Kavi Nagar units, highway warehouses and hospitals on the Delhi side." },
+          { slug: "kanpur", text: "An old Ganga industrial city of Jajmau tanneries, Panki chemical and engineering estates and wholesale markets on the Delhi–Kolkata line." },
+          { slug: "agra", text: "A Taj Mahal tourist city with hotel kitchens, potato cold stores, a footwear trade and the foundry and Sikandra estates." },
+          { slug: "varanasi", text: "A river pilgrimage city of silk weavers, a teaching hospital and the Ramnagar and Chandpur estates, in damp, flood-prone air." },
         ],
         areaListing: [
           { slug: "greater-noida", text: "A newer township south-east of Noida with large plots and planned industrial and logistics zones spread far apart." },
@@ -3296,6 +3300,416 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Lucknow | Prithvi",
             metaDescription:
               "WiFi and GSM temperature data loggers for Lucknow's hospitals, medicine stockists and cold stores, with site visits arranged. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "ghaziabad",
+            name: "Ghaziabad",
+            type: "city",
+            intro:
+              "Ghaziabad is the industrial and residential city on the eastern side of Delhi, beside the Hindon river, and one of the busiest gateways into the capital region. Its factories sit in several belts: Loni to the north, the Meerut Road and Kavi Nagar industrial areas along and near the road to Meerut, and Sahibabad towards the Delhi border. Engineering, electrical, steel and food units share them, and warehouses line the roads that bring goods in from the state and carry them on to Delhi. A temperature data logger in Ghaziabad serves a factory stockroom as readily as a hospital in Indirapuram or a distributor's godown. Summers are very hot, winters are cold and foggy, and dust settles on everything, so loggers need a sheltered spot and alerts that reach a phone when a shed is empty.",
+            climateAngle:
+              "Summers are very hot and dry, winter mornings are cold and foggy, the monsoon is humid and dust hangs in the air for much of the year, so stores swing between extremes and equipment needs a clean, sheltered position.",
+            areas: [
+              {
+                name: "Loni",
+                note: "A dense industrial town on the northern side towards the Delhi border, with small factories, plastics, food and packing units on crowded lanes where stock is kept beside production.",
+              },
+              {
+                name: "Meerut Road Industrial Area",
+                note: "An estate along the road to Meerut with engineering, electrical and steel units on mid-sized plots, and warehouses serving factories further up the highway.",
+              },
+              {
+                name: "Kavi Nagar",
+                note: "An older industrial area near the centre of the city, where component workshops and small factories share narrow roads with housing and busy markets.",
+              },
+              {
+                name: "Indirapuram and Vaishali",
+                note: "Residential and commercial districts on the Delhi side, with large private hospitals, clinics, pharmacies and diagnostic laboratories packed among tall housing blocks.",
+              },
+              {
+                name: "Sahibabad",
+                note: "The older estate on the Delhi border, which has its own page and is described there in full, since many Ghaziabad firms trade with its units.",
+                linkTo: "sahibabad",
+              },
+              {
+                name: "Greater Noida",
+                note: "The planned township to the south-east, covered on its own page, where large plots hold the factories and logistics parks that Ghaziabad suppliers also serve.",
+                linkTo: "greater-noida",
+              },
+            ],
+            industries: [
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Warehouses on the roads in from the state hold goods bound for Delhi, and a reading at each dock shows how long a lot stood in hot, dusty air before it moved on.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine distributors and hospital pharmacies keep stock in rooms with stated limits through a very hot summer, and a dated record answers a customer or an inspector.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Food packers, sweet makers and dairies supply the capital's shops and kitchens, and a probe in each chiller shows when a compressor begins to struggle in the afternoon.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals in the Delhi-side districts run blood banks and vaccine fridges that must stay in range through power cuts, with alarms for the duty staff.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four probes cover the receiving bay, the main store, the chiller and the dispatch door of a distributor's depot from one logger.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity along with temperature, which shows when the monsoon begins to affect cartons, boards and packaging in a closed shed.",
+              },
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels map a large warehouse along the highway across racks and heights, so one report shows where afternoon heat builds up.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Do you visit Loni and the Meerut Road estate as well as Kavi Nagar?",
+                answer:
+                  "Yes. The three lie in different directions from the centre, so we group visits by direction. Send the area, the type of room and a contact, and we propose a day with your team.",
+              },
+              {
+                question: "How does this page differ from your Sahibabad and Greater Noida pages?",
+                answer:
+                  "Those pages describe their own estates in detail. This one covers the city of Ghaziabad and its other belts, and links to them for the neighbouring estates.",
+              },
+              {
+                question: "What helps loggers survive dust and fog?",
+                answer:
+                  "Keep a logger inside, away from open doors and sweeping, and use an external probe on a cable for the exposed point. We advise on positions once we know the room.",
+              },
+              {
+                question: "Can loggers for a Ghaziabad hospital or depot be calibrated?",
+                answer:
+                  "Calibration of loggers and probes is handled by VEGA Calibrations, our parent company, and can be timed before an audit. Send the model and range, and we explain the arrangement.",
+              },
+            ],
+            nearby: [
+              { slug: "noida", name: "Noida" },
+              { slug: "delhi", name: "Delhi" },
+              { slug: "meerut", name: "Meerut" },
+            ],
+            metaTitle: "Temperature Data Loggers in Ghaziabad | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Ghaziabad's Loni, Meerut Road and Kavi Nagar units, warehouses, depots and hospitals. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "kanpur",
+            name: "Kanpur",
+            type: "city",
+            intro:
+              "Kanpur is the old industrial city on the Ganga, long known for leather and textiles, and it is still the largest commercial centre of central Uttar Pradesh. Tanneries and leather works cluster at Jajmau on the river bank, chemical and engineering units fill the Panki and Dada Nagar estates, and the wholesale markets at Naya Ganj and Collectorganj move grain, cloth and general goods across the region. A temperature data logger in Kanpur might sit in a tannery chemical store, a medicine wholesaler's room or a hospital fridge. The city is on the main railway and highway between Delhi and Kolkata, so goods pass through it all year. Summers are fierce, winter fog is thick and the monsoon is damp, and old buildings hold heat well after dark.",
+            climateAngle:
+              "Summers are fierce and dry, winters bring thick fog and cold nights, and the monsoon fills old buildings with damp, so a store can run hot in May and clammy in August without anyone noticing between rounds.",
+            areas: [
+              {
+                name: "Jajmau",
+                note: "The leather district on the Ganga bank, where tanneries and finishing units keep hides, chemicals and finished leather in sheds that smell of process and run hot and humid.",
+              },
+              {
+                name: "Panki",
+                note: "A large industrial area on the western side with chemical, engineering and power-related units, spread over wide roads where stores stand far from the control room.",
+              },
+              {
+                name: "Dada Nagar",
+                note: "An older industrial area with engineering, small manufacturing and workshop units on compact plots, with stock stored on upper floors in summer heat.",
+              },
+              {
+                name: "Naya Ganj and Collectorganj",
+                note: "The old wholesale markets near the centre, where grain, cloth, spices and general goods are held in godowns and shops in crowded lanes.",
+              },
+              {
+                name: "Medical colleges and hospital district",
+                note: "The older hospitals and a government medical college serve patients from several districts, with blood banks, pharmacies and vaccine rooms in large buildings.",
+              },
+            ],
+            industries: [
+              {
+                slug: "chemical",
+                sentence:
+                  "Tanning and finishing use many chemicals, and stores with stated limits benefit from a record that shows how a room behaved on the hottest afternoon of the year.",
+              },
+              {
+                slug: "textile",
+                sentence:
+                  "Cloth and garment godowns hold fabric that takes up damp in the monsoon, and a humidity reading shows when stock should be moved or a dehumidifier run.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine wholesalers supply hospitals and chemists across a wide region from shop-floor stores, where a failed air conditioner can spoil a shelf of stock overnight.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Large hospitals serve patients from many districts and keep blood banks and vaccine stores whose alarms must reach duty staff through frequent power cuts.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity as well as temperature, the pair that matters for leather, cloth and paper stock in the damp weeks of the monsoon.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two external probes show the warm and cool ends of a long godown, so a wholesaler can see where stock sits in the worst heat.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger fits a pharmacy fridge or a vaccine cabinet and is simple for ward staff to read and to move.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a tannery chemical store be monitored safely?",
+                answer:
+                  "Yes, with the logger fixed outside the splash and fume zone and an external probe on a cable inside the room. Tell us what is stored and how the room is ventilated, and we suggest positions.",
+              },
+              {
+                question: "Do you visit Jajmau, Panki and Dada Nagar?",
+                answer:
+                  "We plan visits by direction from the centre, so nearby estates are covered on the same day. Share the estate, the room type and a contact, and we agree a date.",
+              },
+              {
+                question: "How do wholesale godowns in the old markets use a logger?",
+                answer:
+                  "A logger on a high shelf and one near the floor show how heat and damp differ in a stacked room, and alerts reach the owner's phone when the shop is closed.",
+              },
+              {
+                question: "Is calibration available for Kanpur plants and hospitals?",
+                answer:
+                  "VEGA Calibrations, our parent company, delivers calibration of loggers and probes and supports temperature mapping and validation. Send the model and range, and we explain how it is arranged.",
+              },
+            ],
+            nearby: [
+              { slug: "lucknow", name: "Lucknow" },
+              { slug: "prayagraj", name: "Prayagraj" },
+              { slug: "agra", name: "Agra" },
+            ],
+            metaTitle: "Temperature Data Loggers in Kanpur | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Kanpur's Jajmau tanneries, Panki and Dada Nagar units, wholesale godowns and hospitals. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "agra",
+            name: "Agra",
+            type: "city",
+            intro:
+              "Agra is a city of two economies. Millions of visitors come for the Taj Mahal and the fort, which keeps hotels on Fatehabad Road and kitchens across the city busy, while the older trades of footwear, leather and metal casting fill the estates at Foundry Nagar and Sikandra. The surrounding country grows potatoes, and many cold stores stand on the roads out of town. A temperature data logger in Agra might therefore sit in a hotel walk-in fridge, a potato cold store, a shoe factory's glue and chemical room or a sweet maker's kitchen, famous for petha. The city lies on the Yamuna and on the Delhi–Gwalior highway, and an expressway now links it to Lucknow. Summers are scorching, winters foggy and the monsoon humid.",
+            climateAngle:
+              "Summers are scorching and dry, winter mornings are cold and foggy, and the humid monsoon follows, so cold stores work hard for most of the year and hotel kitchens meet heat inside as well as out.",
+            areas: [
+              {
+                name: "Foundry Nagar",
+                note: "The foundry and metal-casting estate, with furnaces, pattern shops and casting stores, where heat from the process adds to the summer sun in sheds and stockrooms.",
+              },
+              {
+                name: "Sikandra",
+                note: "An industrial belt on the Mathura side of the city with footwear, leather and engineering units, whose adhesive and chemical stores need steady storage.",
+              },
+              {
+                name: "Fatehabad Road",
+                note: "The hotel strip near the Taj Mahal, with restaurants and kitchens running walk-in fridges, freezers and cold rooms for visitors through the tourist season.",
+              },
+              {
+                name: "Kinari Bazaar and the sweet makers",
+                note: "Old market lanes where petha, sweets and namkeen are made and sold, in kitchens and shops that handle milk, sugar and fried goods in hot, tight rooms.",
+              },
+              {
+                name: "Potato cold stores",
+                note: "Large cold stores on the roads out of town that hold the potato harvest for months, where stable temperature and humidity decide how stock keeps.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Cold stores, sweet makers and hotel kitchens depend on chambers that cannot drift, and a record of every reading shows when a compressor began to struggle in the afternoon.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Footwear makers hold adhesives and solvents with storage limits, and an alert on heat gives the stores person a chance to act before drums are affected.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Warehouses on the highways hold leather goods, shoes and handicrafts for buyers elsewhere, and a reading at floor and roof level shows how damp or heat collects in cartons.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals serve residents and visitors alike and keep vaccine fridges and blood banks that need alarms to reach duty staff through summer power cuts.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four probes cover chambers of a potato cold store from one logger, showing the warm corner as well as the average.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an optional external probe suits a hotel walk-in or a sweet maker's fridge without changing how it is used.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity with temperature, which matters in a leather or shoe store and in a cold store where stock sweats.",
+              },
+            ],
+            faqs: [
+              {
+                question: "What suits a potato cold store?",
+                answer:
+                  "Several probes at different heights and chambers, with a humidity reading, show how evenly the store holds its range. Tell us the chamber layout and we suggest the points.",
+              },
+              {
+                question: "Can a hotel group watch every kitchen from one login?",
+                answer:
+                  "Yes. Each kitchen is a point on the dashboard, alerts go to the engineer who looks after it, and a manager can see all of them together and export a report for any period.",
+              },
+              {
+                question: "Do you visit Foundry Nagar and Sikandra?",
+                answer:
+                  "Yes. We plan visits by direction from the city, so Sikandra and Foundry Nagar can be covered on the same day. Send the room, the contact and the working hours.",
+              },
+              {
+                question: "Can loggers used in Agra be calibrated?",
+                answer:
+                  "Calibration comes from our parent company, VEGA Calibrations, which also supports mapping of larger stores. Share the model and range, and we confirm how it is arranged.",
+              },
+            ],
+            nearby: [
+              { slug: "noida", name: "Noida" },
+              { slug: "lucknow", name: "Lucknow" },
+              { slug: "kanpur", name: "Kanpur" },
+            ],
+            metaTitle: "Temperature Data Loggers in Agra | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Agra's potato cold stores, Foundry Nagar and Sikandra units, hotels and sweet makers. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "varanasi",
+            name: "Varanasi",
+            type: "city",
+            intro:
+              "Varanasi is one of the oldest living cities, spread along the Ganga, and its economy mixes pilgrimage, craft and a locomotive works. Pilgrims fill the lanes beside the ghats, hotels and kitchens feed them, and weavers in Madanpura and Lallapura produce Banarasi silk saris on looms in small rooms. The university campus runs a large hospital, the Ramnagar and Chandpur estates hold engineering and food units, and the Langra mango grows in the region. A temperature data logger in Varanasi might sit in a silk store, a hospital pharmacy or a guest-house kitchen. The air is hot and humid, the Ganga floods low land in the monsoon and winter fog is thick, so damp is as constant a threat as heat.",
+            climateAngle:
+              "Summers are hot, the monsoon is humid and the Ganga rises over its lower banks, while winter brings thick fog, so silk, paper and food stock face damp for a large part of the year.",
+            areas: [
+              {
+                name: "Ramnagar",
+                note: "An industrial area across the river from the old city, with engineering, small manufacturing and food units on mid-sized plots and godowns near the bridge.",
+              },
+              {
+                name: "Chandpur",
+                note: "An industrial area on the western side with a mix of food, engineering and packaging units, where sheds are modest and storage is shared with production.",
+              },
+              {
+                name: "Madanpura and Lallapura",
+                note: "Weaving neighbourhoods near the old city, where silk yarn, brocade and finished saris are stored in small rooms that hold heat and damp in turn.",
+              },
+              {
+                name: "University and hospital belt",
+                note: "A large university campus and its teaching hospital serve patients from eastern Uttar Pradesh and beyond, with blood banks, pharmacies and laboratories.",
+              },
+              {
+                name: "Ghat-side lanes",
+                note: "The narrow lanes beside the river with guest houses, shops and kitchens, where fridges and storerooms sit in old buildings close to the water.",
+              },
+            ],
+            industries: [
+              {
+                slug: "textile",
+                sentence:
+                  "Silk and brocade are sensitive to damp, and weavers and traders keep yarn and finished saris in rooms where a humidity record shows when a cupboard needs drying.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A large teaching hospital and many private clinics run blood banks, vaccine fridges and pharmacies, with alarms for the duty staff through summer power cuts.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Guest houses, sweet makers and mango traders keep fridges and cool rooms through a humid season, and a probe in each gives the owner a record without a night-time visit.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Godowns beside the highways and the rail yards hold goods in transit between the plains and the east, and a reading at each bay shows how long a lot stood in damp heat.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity as well as temperature, the pair that decides how silk, brocade and paper keep through the wet months.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A simple single-point logger fits a guest-house fridge or a ward medicine cabinet and is easy for staff to read.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger with an external probe keeps reporting from a godown or a mango store where WiFi is weak, and sends alerts over the mobile network.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a silk trader in a narrow lane use a logger?",
+                answer:
+                  "Yes. A small WiFi logger on a shelf, with alerts to the trader's phone, shows when a room turns damp, and a second can be added for another cupboard later.",
+              },
+              {
+                question: "How is flood risk handled near the ghats?",
+                answer:
+                  "Fix loggers well above the likely water level and keep probe cables out of drains. A GSM model keeps reporting if WiFi fails, so an alert still reaches a phone.",
+              },
+              {
+                question: "Do you cover Ramnagar and Chandpur?",
+                answer:
+                  "Yes. Send the estate, the type of room and a contact, and we plan visits by direction so that nearby sites are covered on the same day.",
+              },
+              {
+                question: "Can a Varanasi hospital have its loggers calibrated?",
+                answer:
+                  "VEGA Calibrations, our parent company, calibrates loggers and probes and supports validation. Share the model and range, and we explain how it is arranged for the hospital.",
+              },
+            ],
+            nearby: [
+              { slug: "prayagraj", name: "Prayagraj" },
+              { slug: "lucknow", name: "Lucknow" },
+              { slug: "kanpur", name: "Kanpur" },
+            ],
+            metaTitle: "Temperature Data Loggers in Varanasi | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Varanasi's silk stores, Ramnagar and Chandpur units, hospitals, guest houses and godowns. Get Solution.",
             indexable: true,
           },
         ],
