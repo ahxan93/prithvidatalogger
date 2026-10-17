@@ -1854,6 +1854,231 @@ export const areas: AreaDef[] = [
       ],
       "indexable": true
     } },
+  // ------------------------------------------------------------------ Thane and Bhiwandi (batch F: Ulhasnagar, Ambernath, Badlapur, Anjurphata-Purna)
+  { slug: "ulhasnagar", name: "Ulhasnagar", citySlug: "thane-bhiwandi", areaType: "mixed-use", nearbyIndustries: ["textile", "electronics", "pharmaceutical", "food-beverage"], confirmedService: true, hero: ["nakshatra", "dock"], page: {
+      "metaTitle": "Data Loggers in Ulhasnagar, Thane | Prithvi",
+      "metaDescription": "WiFi and GSM temperature and humidity data loggers for Ulhasnagar's garment makers, electrical traders, stockists and bakers. Get Solution.",
+      "intro": "Ulhasnagar is a dense city on the Central line between Kalyan and Ambernath, built after Partition as a settlement of numbered camps and now a busy small-trade centre of the Mumbai region. It is known for readymade garments and denim, furniture, and a large market in electrical and electronic goods, with workshops, godowns and shops packed into narrow lanes. Most premises are small, buildings are tall and close together, and many traders keep stock in rooms above or behind the shop. Humidity, heat and shared power matter more here than large-scale refrigeration.",
+      "places": [
+        {
+          "name": "Garment and furniture workshops",
+          "note": "Small workshops cut, stitch and finish garments and make furniture in lanes where fabric, trims and finished stock are held in rooms with little ventilation."
+        },
+        {
+          "name": "Electrical and electronics market",
+          "note": "Traders in electrical goods, appliances and electronic parts keep stock in godowns above and behind shops, where monsoon air settles on every shelf."
+        },
+        {
+          "name": "Camps and residential lanes",
+          "note": "Dense residential camps support clinics, pharmacies, bakers and grocers working from compact premises, with shared power and tall buildings that trap heat."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "textile",
+          "sentence": "Garment makers and fabric traders hold cloth, trims and finished goods that take up moisture in damp air, and a humidity log shows which weeks a room stayed wet during the rains."
+        },
+        {
+          "slug": "electronics",
+          "sentence": "Dealers in electrical and electronic goods hold boards, cables and appliances in godowns where damp is the main enemy, and a logged humidity trend shows when a room needs a dehumidifier."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Chemists and stockists hold medicines in rooms in tall buildings that keep the day's heat, and a reading every few minutes shows how long the shelf stayed warm after sunset."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Bakers, sweet makers and grocers in the camps keep chillers and dry stores that are opened constantly, and a lost mains supply is as important to hear about as a high temperature."
+        }
+      ],
+      "services": "For Ulhasnagar we supply WiFi loggers with humidity sensing for damp godowns, compact units for single rooms and GSM versions for back rooms with weak signal. VEGA Calibrations, our parent company, calibrates loggers and other instruments, so a trader can plan the devices and certificates as one job.",
+      "visits": "Please send the camp or lane, the building and the person who will meet us through the enquiry form, WhatsApp or a call. Lanes are narrow and shops close at set hours, so we agree a time with you and tell you in advance. We group Ulhasnagar with Kalyan and Ambernath visits along the Central line.",
+      "approach": "In an Ulhasnagar godown we would start with the room whose stock is most easily spoiled by damp, fitting a humidity-reading logger away from the door. A few weeks that include a wet spell show how far the room moves, and the result tells you whether a dehumidifier, a better seal or a second device is the right next step.",
+      "faqs": [
+        {
+          "question": "Why log humidity as well as temperature in a garment or electronics godown?",
+          "answer": "Cloth and electronic parts are damaged by moisture long before heat becomes a problem, so a logger that reads humidity shows the days a room was too damp."
+        },
+        {
+          "question": "Can a small trader with two godowns see both on a phone?",
+          "answer": "Yes. Each godown is a room under the trader's site, alerts go to the phone numbers given and the owner can open both records from the dashboard."
+        }
+      ],
+      "nearby": [
+        "kalyan",
+        "dombivli-midc",
+        "ambernath"
+      ],
+      "indexable": true
+    } },
+  { slug: "ambernath", name: "Ambernath", citySlug: "thane-bhiwandi", areaType: "midc-estate", nearbyIndustries: ["chemical", "pharmaceutical", "laboratories", "logistics-warehousing"], confirmedService: true, hero: ["virat-pro", "dock"], page: {
+      "metaTitle": "Data Loggers in Ambernath, Thane | Prithvi",
+      "metaDescription": "Temperature data loggers for Ambernath and Anand Nagar MIDC chemical and pharma plants, laboratories and warehouses. Visits arranged. Get Solution.",
+      "intro": "Ambernath lies towards the eastern end of the Thane district's industrial belt, on the Central line beyond Ulhasnagar, and it is known for its old Shiva temple and for two industrial estates: the Ambernath MIDC and the adjoining Anand Nagar MIDC, where chemical, pharmaceutical, engineering and allied units stand beside the railway. An ordnance factory also operates in the town. The plants range from small units to large works, many with tank farms and drum stores, and the surrounding housing towns supply their workforce. Storage here is process-linked and often outdoors or in sheds, so heat, damp and rain all matter.",
+      "places": [
+        {
+          "name": "Ambernath MIDC",
+          "note": "A long-established industrial area where chemical, pharmaceutical and engineering plants hold raw materials and finished goods in stores, tank farms and warehouses beside the railway."
+        },
+        {
+          "name": "Anand Nagar MIDC",
+          "note": "A neighbouring industrial area with process and chemical units on plots of many sizes, each with laboratories, drum stores and loading bays."
+        },
+        {
+          "name": "Ambernath town and the station area",
+          "note": "The market lanes and residential districts around the station support pharmacies, clinics, bakers and grocers who hold stock in compact rooms."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "chemical",
+          "sentence": "Process and chemical units keep intermediates and finished goods in tank farms and drum stores with printed limits, and a dated log shows the quality team what each store did through the hottest weeks."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Pharmaceutical makers hold ingredients and packed goods in controlled rooms that buyers inspect, and a continuous record backs each batch file as proof that the limit held."
+        },
+        {
+          "slug": "laboratories",
+          "sentence": "Plant laboratories keep retained samples and reference standards in fridges and cabinets with limits of their own, and a log per unit tells the quality head which cabinet began to warm."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Transporters and warehouse operators serving the estates keep a record per bay, so a customer asking about a lot's storage can be answered from the log of the shed it waited in."
+        }
+      ],
+      "services": "In Ambernath we supply multi-channel loggers for large stores, WiFi loggers for single rooms and GSM versions with external probes for tank farms and yards. Calibration of the loggers and probes, temperature mapping of larger stores and validation support come from VEGA Calibrations, our parent company, and can be scheduled with the supply.",
+      "visits": "Send the plant, the stores and the contact through the enquiry form or WhatsApp. Plants in the estates usually need a gate pass and a safety briefing, so tell us what applies and we agree a day. We group Ambernath with Badlapur and Ulhasnagar visits along the Central line.",
+      "approach": "At a plant we would begin with the store that holds the material with the tightest stated limit, with the probe inside and the logger outside. Alerts go to the shift in-charge and a second person, and after a month of readings we review which stores need more probes.",
+      "faqs": [
+        {
+          "question": "Can a tank farm or yard be watched without cabling?",
+          "answer": "Yes. GSM loggers with external probes report over the mobile network and run on batteries, so a yard far from the control room can be watched without cable."
+        },
+        {
+          "question": "How do customers use the records from a plant's stores?",
+          "answer": "A report for any store and period can be exported as PDF, Excel or CSV and handed to a customer's auditor, so the evidence is a dated log."
+        }
+      ],
+      "nearby": [
+        "badlapur",
+        "ulhasnagar",
+        "dombivli-midc"
+      ],
+      "indexable": true
+    } },
+  { slug: "badlapur", name: "Badlapur", citySlug: "thane-bhiwandi", areaType: "midc-estate", nearbyIndustries: ["chemical", "pharmaceutical", "food-beverage", "hospitals-blood-banks"], confirmedService: true, hero: ["dhruva", "vayu"], page: {
+      "metaTitle": "Data Loggers in Badlapur, Thane | Prithvi",
+      "metaDescription": "WiFi and GSM temperature and humidity data loggers for Badlapur MIDC plants, township clinics and food suppliers near Kulgaon. Get Solution.",
+      "intro": "Badlapur lies on the Central line beyond Ambernath, on the banks of the Ulhas river, with the Sahyadri foothills close to the town. Its station, Kulgaon-Badlapur, serves two sides of the town, and its MIDC industrial area holds chemical, pharmaceutical, engineering and plastics units on plots set a little back from the railway. Housing townships have spread across the plain around, bringing clinics, pharmacies, schools and food suppliers. The climate is wetter than on the coast and the monsoon is heavy, so damp is a constant for stores and sheds.",
+      "places": [
+        {
+          "name": "Badlapur MIDC",
+          "note": "Chemical, pharmaceutical, engineering and plastics units stand on plots of many sizes, with raw-material stores, drum yards and quality rooms in each plant."
+        },
+        {
+          "name": "Kulgaon and the station area",
+          "note": "The older part of the town around the station has markets, clinics, pharmacies and small distributors working from compact premises."
+        },
+        {
+          "name": "Housing townships around the town",
+          "note": "New townships spreading across the plain bring supermarkets, bakers, cloud kitchens and clinics whose fridges are often new and managed by people who live elsewhere."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "chemical",
+          "sentence": "Plants in the MIDC store raw materials and finished goods in sheds that take on damp through the long monsoon, and a humidity log shows the weeks when a shed was outside its range."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Pharmaceutical and allied units keep controlled rooms inspected by customers, and an exported report lets a quality head answer an audit without copying a register by hand."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Supermarkets, bakers and caterers serving the townships run chillers and freezers that are loaded early each day, and a battery-backed log shows what a unit did during a monsoon power cut."
+        },
+        {
+          "slug": "hospitals-blood-banks",
+          "sentence": "Clinics and hospitals in the growing townships keep vaccine fridges and pharmacies with named duty contacts, so a fridge that warms overnight is reported to someone who can act."
+        }
+      ],
+      "services": "In Badlapur we supply WiFi loggers with humidity sensing for damp sheds, multi-channel units for plant warehouses and GSM versions for yards and rooms with weak signal. Our parent company, VEGA Calibrations, calibrates loggers and probes and can map larger stores, so the study and the certificates arrive together.",
+      "visits": "Please send the plant or township, the building and the person who will meet us through the enquiry form or WhatsApp, and we agree a day with you. Rain can slow the roads, so we fix a time with some margin. We group Badlapur with Ambernath visits on the same railway line.",
+      "approach": "At a plant we would begin with a humidity-reading logger in the store holding the most sensitive material and another in a shed that faces the weather, since the pair shows what the monsoon does. A few weeks of heavy rain give a clear answer about which sheds need a dehumidifier or a better seal.",
+      "faqs": [
+        {
+          "question": "Why does a plant near the foothills need humidity monitoring?",
+          "answer": "The monsoon here is heavy and long, and damp air gets into sheds while the temperature looks normal. A humidity logger shows how many days each shed stayed wet."
+        },
+        {
+          "question": "Can a township clinic watch its fridge from home?",
+          "answer": "Yes. The logger sends alerts by phone and email, and the dashboard shows the fridge's record from any phone, so a doctor can check overnight."
+        }
+      ],
+      "nearby": [
+        "ambernath",
+        "ulhasnagar",
+        "dombivli-midc"
+      ],
+      "indexable": true
+    } },
+  { slug: "anjurphata-purna", name: "Anjurphata-Purna", citySlug: "thane-bhiwandi", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing", "pharmaceutical", "food-beverage", "electronics"], confirmedService: true, hero: ["virat-pro", "hooter"], page: {
+      "metaTitle": "Data Loggers in Anjurphata-Purna, Bhiwandi | Prithvi",
+      "metaDescription": "Temperature data loggers for warehouse parks at Anjurphata, Purna, Kharbao, Vadape and Padgha around Bhiwandi. Visits arranged. Get Solution.",
+      "intro": "Beyond Bhiwandi town, the warehouse belt that serves Mumbai stretches along the Mumbai–Nashik highway and the roads towards Padgha, Wada and Kalyan, and its main clusters are Anjurphata, Purna, Kharbao, Vadape and Padgha. Large modern warehouse parks and older godown compounds stand beside agricultural land and small villages, and goods of many kinds pass through them: consumer products, textiles, electronics, food and pharmaceutical consignments. Many parks are run by logistics firms who let space by the bay, so several customers share one roof. Heat under metal roofs, dust and monsoon damp are the common conditions.",
+      "places": [
+        {
+          "name": "Anjurphata and Purna",
+          "note": "Warehouse parks and godown compounds beside the roads out of Bhiwandi hold consumer goods, textiles and packaged products for traders and logistics firms."
+        },
+        {
+          "name": "Kharbao and Vadape",
+          "note": "Clusters of large godowns near the highway junctions receive trucks from across the country and release goods to the city and beyond."
+        },
+        {
+          "name": "Padgha",
+          "note": "Warehouse parks along the road to Wada hold stock for several customers per building, with loading docks open for much of the day."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Warehouse parks that charge by the bay can show each customer a separate record, which turns an argument about how goods were kept into a look at the right log."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Consignments of medicines and healthcare products held in the parks need to stay within stated limits between arrival and dispatch, and a dated log shows that they did."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Packaged food and beverages stored under metal roofs warm quickly in the afternoon, so a logger at roof height and one at pallet height show how big the difference is."
+        },
+        {
+          "slug": "electronics",
+          "sentence": "Appliances, cables and electronic goods stored in the parks are exposed to heat and monsoon damp, and humidity logs show when a bay needed a dehumidifier or a better seal."
+        }
+      ],
+      "services": "For Anjurphata, Purna, Kharbao, Vadape and Padgha we supply multi-channel loggers for large warehouse bays, WiFi loggers for single rooms and GSM versions with external probes for vehicles and open yards. VEGA Calibrations, our parent company, offers calibration and temperature mapping, so a park operator can plan placement and certificates together.",
+      "visits": "Send the park, the bay or building and the person who will meet us through the enquiry form or WhatsApp. Parks usually register visitors at the gate, and distances between clusters are long, so we plan a full day and group them by road. We combine the belt with visits to Bhiwandi town.",
+      "approach": "In a warehouse park we would map the busiest bay first to see where heat collects under the roof, then fix permanent loggers at those spots and at pallet height. A GSM logger in a vehicle or a staged load extends the record from the dock to the road.",
+      "faqs": [
+        {
+          "question": "Can one operator show several customers separate records?",
+          "answer": "Yes. Each bay can be a device or a room with its own report, which can be exported for any period and shared with the customer who rents that bay."
+        },
+        {
+          "question": "How are large bays with tall racking monitored?",
+          "answer": "A multi-channel logger takes several probes on cables of different lengths, so one device can report from pallet height, mid-rack and under the roof of the same bay."
+        }
+      ],
+      "nearby": [
+        "bhiwandi",
+        "kalyan",
+        "thane-west"
+      ],
+      "indexable": true
+    } },
   // ------------------------------------------------------------------ Navi Mumbai (batch 1)
   {
     slug: "turbhe",

@@ -236,6 +236,10 @@ export const locations: LegacyLocationNode[] = [
         { slug: "thane-west", text: "The old heart of Thane city by the creek, with markets around the station, clinics at Naupada and Panchpakhadi and hospitals at Majiwada." },
         { slug: "ghodbunder-road", text: "The long arterial road from Majiwada to the Gujarat highway, lined with townships, hospitals and shopping centres, and godowns near its junctions." },
         { slug: "kalyan", text: "A rail and road junction town on the Ulhas creek, with an agricultural market, wholesale lanes, godowns and neighbourhoods at Mohone and Shahad." },
+        { slug: "ulhasnagar", text: "A dense city of numbered camps on the Central line, known for garments and denim, furniture and a large electrical and electronics market." },
+        { slug: "ambernath", text: "An industrial town with the Ambernath and Anand Nagar MIDC estates of chemical and pharmaceutical plants beside the railway." },
+        { slug: "badlapur", text: "A Central line town on the Ulhas river with a MIDC estate and fast-growing townships, under a heavy monsoon." },
+        { slug: "anjurphata-purna", text: "The warehouse belt beyond Bhiwandi town, with parks at Anjurphata, Purna, Kharbao, Vadape and Padgha." },
         ],
         indexable: true,
         children: [
