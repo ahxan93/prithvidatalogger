@@ -240,6 +240,7 @@ export const locations: LegacyLocationNode[] = [
         { slug: "ambernath", text: "An industrial town with the Ambernath and Anand Nagar MIDC estates of chemical and pharmaceutical plants beside the railway." },
         { slug: "badlapur", text: "A Central line town on the Ulhas river with a MIDC estate and fast-growing townships, under a heavy monsoon." },
         { slug: "anjurphata-purna", text: "The warehouse belt beyond Bhiwandi town, with parks at Anjurphata, Purna, Kharbao, Vadape and Padgha." },
+        { slug: "mumbra-diva", text: "Two creek-side Central line towns, with dense markets at Mumbra, a junction at Diva and godowns and truck terminals at Shil Phata." },
         ],
         indexable: true,
         children: [
