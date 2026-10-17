@@ -59,6 +59,7 @@ export type AreaDef = {
 
 /** Cities that have areas, with the state each sits in (state slug as in the location tree). */
 export const areaCities: Record<string, { name: string; stateSlug: string; stateName: string }> = {
+  panvel: { name: "Panvel", stateSlug: "maharashtra", stateName: "Maharashtra" },
   mumbai: { name: "Mumbai", stateSlug: "maharashtra", stateName: "Maharashtra" },
   "navi-mumbai": { name: "Navi Mumbai", stateSlug: "maharashtra", stateName: "Maharashtra" },
   "thane-bhiwandi": { name: "Thane & Bhiwandi", stateSlug: "maharashtra", stateName: "Maharashtra" },
@@ -890,6 +891,231 @@ export const areas: AreaDef[] = [
         "bandra-kurla",
         "kurla",
         "andheri"
+      ],
+      "indexable": true
+    } },
+  // ------------------------------------------------------------------ Panvel region (batch A: Kalamboli, Kharghar, Rasayani-Patalganga, Khopoli)
+  { slug: "kalamboli", name: "Kalamboli", citySlug: "panvel", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing", "food-beverage", "pharmaceutical", "chemical"], confirmedService: true, hero: ["setu", "rajmudra"], page: {
+      "metaTitle": "Data Loggers in Kalamboli, Panvel | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Kalamboli's steel market, highway godowns and logistics yards near Panvel. Get Solution.",
+      "intro": "Kalamboli sits at a junction where the Sion–Panvel road, the old Mumbai–Pune highway and the start of the Mumbai–Pune Expressway all meet, close to Panvel, and that position has made it one of the region's main trucking and trading points. Its well-known institution is the steel and iron market, where wholesalers, stockists and transporters handle metal in bulk, and around it stand truck terminals, warehouses, repair yards and small industrial units. The planned township of Kalamboli, laid out by CIDCO, houses many of the people who work there. Storage here is mostly in open yards, sheds and godowns, so heat, damp and rain matter more than refrigeration.",
+      "places": [
+        {
+          "name": "The steel and iron market",
+          "note": "Wholesalers and stockists trade steel and iron in bulk from yards and sheds, and the metal sits in the open or under roofs where monsoon damp reaches it."
+        },
+        {
+          "name": "Truck terminals and transport yards",
+          "note": "Transporters park and load vehicles around the junction at all hours, so goods bound for Pune, Goa, Gujarat and Mumbai wait on docks and in vehicles between legs."
+        },
+        {
+          "name": "Warehouses and light industry",
+          "note": "Warehouses, godowns and small industrial units around the junction hold packaged goods, building materials and machinery parts for distributors across the Mumbai region."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Operators of godowns and truck terminals hold goods between one leg and the next, and a logger in the load or at the dock shows how long a consignment stood in the sun and the damp at the junction."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Distributors who store packaged food and beverages in warehouses near the expressway need dry, cool rooms, and a reading by bay shows which part of a shed warms first when the roof catches the afternoon sun."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Warehouses that receive medicines for onward distribution hold them to stated limits, and a dated log shows that a consignment stayed in range while it waited between the road and the next truck."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Stockists of paints, adhesives and other chemicals in the yards and godowns keep drums and cans under printed limits, and an alert on a rising reading gives time to shade or move stock."
+        }
+      ],
+      "services": "In Kalamboli we supply GSM loggers with external probes for vehicles and open sheds, WiFi loggers for rooms with a network and multi-channel units for larger godowns. Our parent company, VEGA Calibrations, offers calibration and temperature mapping, so a warehouse operator can have the placement study and the certificates arranged together.",
+      "visits": "Send the yard or godown, the road and the person who will meet us through the enquiry form or WhatsApp, and we agree a day with you. Traffic at the junction is heavy, so we fix an arrival time to suit your shift and tell you in advance. We group Kalamboli with Kharghar and Taloja, which lie close by, so one trip covers the Panvel side.",
+      "approach": "At a Kalamboli godown we would map the busiest bay first to see where heat collects under the roof, then fix permanent loggers at those spots. A GSM logger with an external probe goes into a vehicle or a staged load, so the record covers the stretch from the dock to the highway.",
+      "faqs": [
+        {
+          "question": "How do you watch goods that spend a night in a yard at the junction?",
+          "answer": "A logger is placed in the load or under the roof of the shed where it waits, and it keeps recording through the night. The log shows how hot the yard became and for how long."
+        },
+        {
+          "question": "Is humidity worth logging for goods stored in open yards?",
+          "answer": "Yes, for anything that rusts, swells or takes up moisture. A logger that reads humidity as well as temperature shows how many days a shed stayed damp during the monsoon."
+        }
+      ],
+      "nearby": [
+        "kharghar",
+        "taloja",
+        "rasayani-patalganga"
+      ],
+      "indexable": true
+    } },
+  { slug: "kharghar", name: "Kharghar", citySlug: "panvel", areaType: "mixed-use", nearbyIndustries: ["hospitals-blood-banks", "laboratories", "pharmaceutical", "food-beverage"], confirmedService: true, hero: ["rajmudra", "veer-pro"], page: {
+      "metaTitle": "Data Loggers in Kharghar, Panvel | Prithvi",
+      "metaDescription": "Temperature data loggers for Kharghar, Kamothe and Khanda Colony hospitals, laboratories, pharmacies and food suppliers near Panvel. Get Solution.",
+      "intro": "Kharghar is a planned CIDCO township on the hills and flats between Belapur and Panvel, with wide roads, large housing complexes, a cancer research and treatment centre and several other hospitals. Kamothe, across the highway, is a dense residential node with a large medical college and hospital, and Khanda Colony in New Panvel is a mixed residential and commercial area on the way to Panvel. The Taloja industrial estate lies further on. Storage here is mostly clinical and commercial: pharmacies, blood banks, laboratories, kitchens and the stockists who supply a growing population.",
+      "places": [
+        {
+          "name": "Kharghar sectors",
+          "note": "Housing sectors, commercial plazas and the large hospital and research campus are spread across wide planned roads, so the people who look after a room are often some way from it."
+        },
+        {
+          "name": "Kamothe",
+          "note": "A large residential node on the Sion–Panvel road with a medical college hospital, clinics, pharmacies and a busy market, where many small premises keep medicines and food in compact rooms."
+        },
+        {
+          "name": "Khanda Colony and New Panvel",
+          "note": "A residential and commercial area near New Panvel station, with shops, stockists and clinics serving the growing townships along the harbour line."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "hospitals-blood-banks",
+          "sentence": "Hospitals and medical college campuses run blood banks, operating-theatre stores and pharmacies where an unnoticed fridge failure can mean lost stock, so alerts go to the duty pharmacist and a second contact."
+        },
+        {
+          "slug": "laboratories",
+          "sentence": "Research and diagnostic laboratories keep samples, reagents and cell material in freezers and incubators that each need their own limit, and one list of every unit shows which is drifting first."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Pharmacies and stockists in the sectors hold medicines in rooms cooled by one or two air conditioners, and a dated log answers a buyer's or inspector's question about how a delivery was stored."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Bakeries, caterers and supermarkets serving the housing complexes keep chillers and freezers that are opened constantly, and a reading every few minutes shows what a busy morning did to a unit."
+        }
+      ],
+      "services": "For Kharghar we supply single-point loggers with external probes for hospital and laboratory fridges, four-channel units for pharmacy stores and WiFi loggers for single rooms. VEGA Calibrations, our parent company, offers calibration, temperature mapping and validation support, which suits campuses that keep formal files.",
+      "visits": "Please send the sector or building, the department and the person who will meet us through the enquiry form or WhatsApp. Hospitals and campuses register visitors, and visits are timed around pharmacy and laboratory hours. We group Kharghar, Kamothe and Khanda Colony in one trip along the harbour line and the Sion–Panvel road.",
+      "approach": "In a hospital we would begin with the blood storage unit and the main pharmacy store, then add laboratory fridges. In a retail pharmacy we would start with the room that holds the cold-chain stock. After a few weeks of readings the normal swing of each room is clear and alert limits are set a little outside it.",
+      "faqs": [
+        {
+          "question": "Can a campus with several buildings see every fridge in one place?",
+          "answer": "Yes. The campus is one site with a room for each department, every fridge reports on its own, and the alert for each goes to the person who looks after it."
+        },
+        {
+          "question": "Do loggers work in a basement pharmacy with weak mobile signal?",
+          "answer": "A WiFi logger needs only the building's router, and a GSM version can be used where the signal outside is good enough. We test the signal in the room before fixing a position."
+        }
+      ],
+      "nearby": [
+        "kalamboli",
+        "taloja",
+        "mahape"
+      ],
+      "indexable": true
+    } },
+  { slug: "rasayani-patalganga", name: "Rasayani-Patalganga", citySlug: "panvel", areaType: "midc-estate", nearbyIndustries: ["chemical", "pharmaceutical", "laboratories", "logistics-warehousing"], confirmedService: true, hero: ["dhruva", "veer"], page: {
+      "metaTitle": "Data Loggers in Rasayani-Patalganga, Raigad | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Rasayani and Patalganga MIDC chemical and pharma plants in Raigad. Site visits arranged. Get Solution.",
+      "intro": "Rasayani and Patalganga are two neighbouring MIDC industrial areas in Raigad district, on the old Mumbai–Pune highway between Panvel and Khopoli, and together they form one of the region's chemical and process-industry belts. Patalganga takes its name from the river that runs beside it. The plants here make chemicals, polymers, pharmaceutical ingredients and allied products, and each stands on a large plot with raw-material tanks, drum stores, laboratories and finished-goods warehouses. Distances between buildings are long and many plants run through the night, so the person responsible for a store is rarely beside it.",
+      "places": [
+        {
+          "name": "Patalganga MIDC",
+          "note": "A large chemical and process-industry area where plants hold bulk intermediates, polymers and finished chemicals in tank farms, drum stores and warehouses spaced far apart."
+        },
+        {
+          "name": "Rasayani MIDC",
+          "note": "A neighbouring industrial area on the highway side with chemical and engineering units, plant laboratories and supplier warehouses that serve them."
+        },
+        {
+          "name": "Suppliers and warehouses on the highway",
+          "note": "Transporters and storekeepers along the old Mumbai–Pune road hold drums, packaging and spares for the plants, often in sheds with metal roofs."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "chemical",
+          "sentence": "Plants that make chemicals and polymers keep intermediates and finished product under printed limits, and a continuous log is stronger evidence that the limit held overnight than a reading noted on a round."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Makers of pharmaceutical ingredients and intermediates hold controlled stores that customers inspect, and an exported report answers an audit request without searching through registers."
+        },
+        {
+          "slug": "laboratories",
+          "sentence": "Plant laboratories test incoming and outgoing material and keep retained samples in fridges and cabinets that each need a limit and a named contact."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Warehouses and drum yards on the highway hold packed goods for several plants, and a reading by bay shows which part of a shed ran hottest in the afternoon sun."
+        }
+      ],
+      "services": "In Rasayani and Patalganga we supply multi-channel loggers for large stores, WiFi loggers for single rooms and GSM versions with external probes for the far end of a big plot. VEGA Calibrations, our parent company, supports calibration, temperature mapping and validation, so equipment and certificates can be planned together.",
+      "visits": "To arrange a visit, send the plant, the stores and the contact through the enquiry form or WhatsApp. Process plants usually need a gate pass and a safety briefing, so tell us what applies. We group Rasayani and Patalganga in one trip and plan it alongside Khopoli, since the three lie on the same highway.",
+      "approach": "At a plant we would begin with the store that holds the material with the tightest stated limit, putting the probe inside and the logger on the cooler side of the wall. Alerts go first to the shift in-charge and then to a second person, so the hours between shifts are covered, and the first month shows which stores need a second probe.",
+      "faqs": [
+        {
+          "question": "How does a logger report from a store far from the control room?",
+          "answer": "A GSM version reports over the mobile network, while a WiFi version can use an access point placed in the building. We decide which fits when we see the layout of the plot."
+        },
+        {
+          "question": "Can calibration and mapping be arranged for a chemical store?",
+          "answer": "Yes. Our parent company, VEGA Calibrations, maps a large store before loggers are fixed and calibrates the loggers and probes afterwards, and we plan both around your shutdown dates."
+        }
+      ],
+      "nearby": [
+        "khopoli",
+        "taloja",
+        "kalamboli"
+      ],
+      "indexable": true
+    } },
+  { slug: "khopoli", name: "Khopoli", citySlug: "panvel", areaType: "mixed-use", nearbyIndustries: ["chemical", "logistics-warehousing", "food-beverage", "laboratories"], confirmedService: true, hero: ["virat-pro", "dock"], page: {
+      "metaTitle": "Data Loggers in Khopoli, Raigad | Prithvi",
+      "metaDescription": "Temperature and humidity data loggers for Khopoli and Khalapur's industrial units, highway warehouses and hotel kitchens. Get Solution.",
+      "intro": "Khopoli lies at the foot of the Bor Ghat on the old Mumbai–Pune highway, where the road begins its climb to the Sahyadri plateau, and it has been an industrial town for a long time: steel and metal works, chemical units, a hydroelectric power station and the warehouses and workshops that serve them. The Mumbai–Pune Expressway passes close by, and Khalapur, the neighbouring taluka, adds more industrial estates and a large theme park that brings hotels, restaurants and food suppliers. The climate is wetter than in Mumbai, with a heavy monsoon on the ghat, so stores and sheds face dampness through much of the year.",
+      "places": [
+        {
+          "name": "Khopoli MIDC and industrial belt",
+          "note": "Steel, metal-working and chemical units stand on plots of many sizes beside the old highway, each with raw-material stores, sheds and a small laboratory."
+        },
+        {
+          "name": "Khalapur estates",
+          "note": "The neighbouring taluka has further industrial estates and warehouses along the highway and expressway, serving plants and distributors in the Raigad hills."
+        },
+        {
+          "name": "Hotels and food suppliers",
+          "note": "A large theme park and highway hotels bring restaurants, kitchens and suppliers whose walk-in fridges work hardest at weekends and holidays."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "chemical",
+          "sentence": "Chemical units hold raw materials and finished goods in stores that must be shown to have stayed within printed limits through a damp monsoon, and a humidity log shows when a shed took on moisture."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Warehouses along the highway and expressway receive goods from the ghat road at all hours, and a reading by bay settles disputes about whose stock stood where and for how long."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Hotels, restaurants and caterers around the theme park keep walk-in fridges and freezers that are loaded hard before busy weekends, and an alert to the duty engineer matters most at the peak hour."
+        },
+        {
+          "slug": "laboratories",
+          "sentence": "Plant laboratories keep samples and standards in fridges and cabinets, each with its own limit, and an independent probe log fills the gaps between the rounds a technician makes."
+        }
+      ],
+      "services": "For Khopoli we supply WiFi loggers with humidity sensing for damp stores, multi-channel units for larger sheds and GSM versions for yards and vehicles. VEGA Calibrations, our parent company, calibrates loggers and probes and can map a large store, so devices and certificates are planned together.",
+      "visits": "Send the plant or hotel, the road and the person who will meet us through the enquiry form or WhatsApp, and we agree a day with you. Rain on the ghat can slow the road, so we fix an arrival time with some margin and group Khopoli with Rasayani-Patalganga on the same highway.",
+      "approach": "At a damp store we would begin with a humidity-reading logger in the room that holds the most sensitive material and a second one in the shed that shares its wall with the outside. A few weeks that include heavy rain show how much moisture the store takes on and which seal or door needs attention.",
+      "faqs": [
+        {
+          "question": "Why does a ghat-side store need humidity monitoring?",
+          "answer": "Heavy monsoon rain keeps the air damp for weeks, and stock can take on moisture while the temperature looks normal. A logger that reads humidity shows the days a store stayed outside its range."
+        },
+        {
+          "question": "Can a hotel near the theme park watch every fridge from one phone?",
+          "answer": "Yes. Each fridge or freezer is a device on the hotel's site, alerts go to the duty engineer and a manager sees every unit in a single list, including on a quiet weekday."
+        }
+      ],
+      "nearby": [
+        "rasayani-patalganga",
+        "kalamboli",
+        "taloja"
       ],
       "indexable": true
     } },

@@ -687,7 +687,6 @@ if (!siteConfig.showPrices) {
 {
   const otherTexts = all.flatMap((l) => uniqueTexts(l.node));
   const pairOf = (keys) => [...keys].sort().join("+");
-  const reservedPairs = new Map(Object.entries(pageHeroes).filter(([, k]) => k.length === 2).map(([id, k]) => [pairOf(k), id]));
   const heroOwner = new Map();
   const slugsSeen = new Set();
   for (const a of areas) {

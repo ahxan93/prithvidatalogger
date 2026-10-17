@@ -219,6 +219,10 @@ export const locations: LegacyLocationNode[] = [
           { slug: "ranjangaon", text: "A planned estate on the Ahmednagar road with wide roads, large plots and plants making consumer goods, electronics and packaged food." },
           { slug: "hinjewadi", text: "Pune's technology district around a large planned IT park, with server rooms, electronics and laboratories." },
           { slug: "talegaon", text: "An estate on the Mumbai–Pune road with automotive, engineering, food and consumer-goods units." },
+        { slug: "kalamboli", text: "A trucking junction near Panvel where the Sion road, the old Pune highway and the expressway meet, with a steel market and many godowns." },
+        { slug: "kharghar", text: "A planned township between Belapur and Panvel with a cancer research centre, hospitals and large housing complexes, plus Kamothe and Khanda Colony." },
+        { slug: "rasayani-patalganga", text: "Two neighbouring MIDC areas in Raigad on the old Pune highway, forming a chemical and process-industry belt." },
+        { slug: "khopoli", text: "An industrial town at the foot of the Bor Ghat, with metal and chemical works, highway warehouses and hotels near Khalapur." },
         ],
         indexable: true,
         children: [
@@ -540,6 +544,7 @@ export const locations: LegacyLocationNode[] = [
               },
               {
                 name: "Kalamboli and the highway junction",
+                linkTo: "kalamboli",
                 note: "A transport and trading node where the expressway and the highways meet, with truck terminals, steel traders and godowns that handle goods in transit.",
               },
               {
