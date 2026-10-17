@@ -223,6 +223,9 @@ export const locations: LegacyLocationNode[] = [
         { slug: "kharghar", text: "A planned township between Belapur and Panvel with a cancer research centre, hospitals and large housing complexes, plus Kamothe and Khanda Colony." },
         { slug: "rasayani-patalganga", text: "Two neighbouring MIDC areas in Raigad on the old Pune highway, forming a chemical and process-industry belt." },
         { slug: "khopoli", text: "An industrial town at the foot of the Bor Ghat, with metal and chemical works, highway warehouses and hotels near Khalapur." },
+        { slug: "uran-jnpt", text: "A coastal peninsula across the harbour where the container port, freight stations and logistics nodes at Dronagiri and Jasai handle goods for a vessel or a truck." },
+        { slug: "ulwe", text: "A newer CIDCO node on the harbour side, with housing, clinics and growing commercial premises, plus the nearby settlements of Kon and Karanjade." },
+        { slug: "roha-pen", text: "Two Konkan towns in Raigad, with the chemical MIDC at Roha, Pen's idol workshops and godowns, and a heavy monsoon on both." },
         ],
         indexable: true,
         children: [

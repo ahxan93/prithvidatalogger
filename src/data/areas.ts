@@ -1119,6 +1119,175 @@ export const areas: AreaDef[] = [
       ],
       "indexable": true
     } },
+  // ------------------------------------------------------------------ Panvel region (batch B: Uran-JNPT, Ulwe, Roha-Pen)
+  { slug: "uran-jnpt", name: "Uran-JNPT", citySlug: "panvel", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing", "food-beverage", "pharmaceutical", "chemical"], confirmedService: true, hero: ["veer", "vayu-pro"], page: {
+      "metaTitle": "Data Loggers in Uran-JNPT, Raigad | Prithvi",
+      "metaDescription": "Temperature data loggers for Uran, JNPT, Jasai and Dronagiri's container freight stations, port warehouses and reefer cold chain. Get Solution.",
+      "intro": "Uran is a peninsula on the Raigad coast across Thane creek and the harbour from Mumbai, and it is where Jawaharlal Nehru Port at Nhava Sheva handles containers for much of western India. Around the port, the planned nodes of Dronagiri and Jasai hold container freight stations, warehouses and logistics yards, and the Uran area also has a gas processing plant. Roads link the port to the Mumbai–Pune Expressway, the Panvel side and Navi Mumbai, and a suburban railway line now reaches the peninsula. Storage here is port-linked: containers, reefer units and warehouses where goods wait for a vessel or a truck.",
+      "places": [
+        {
+          "name": "JNPT and Nhava Sheva",
+          "note": "The container port and the roads and rail yards around it receive and release containers by the hour, and refrigerated containers are plugged in and checked while they wait."
+        },
+        {
+          "name": "Dronagiri and Jasai",
+          "note": "Planned logistics nodes near the port hold container freight stations, bonded warehouses and parking yards for trailers waiting to enter or leave."
+        },
+        {
+          "name": "Uran town and nearby villages",
+          "note": "The town and the villages along the coast roads host fishing and small trades, together with the sheds and godowns that serve the port's neighbours."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Container freight stations and trailer yards hold boxes for days between a ship and a truck, and a logger placed in a refrigerated or sensitive load records the whole wait at the port."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Importers and exporters of fruit, seafood and packaged food move reefer containers through the port, and a log shows whether the cold chain held while the box waited at the terminal."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Export and import consignments of medicines and active ingredients pass through the port's warehouses, where a dated record helps show a buyer or a receiver that the goods stayed in range."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Drums and tank containers of chemicals wait in yards under the sun, and a high-temperature alert gives the yard supervisor time to shade or move them before a limit is passed."
+        }
+      ],
+      "services": "For Uran and JNPT we supply GSM loggers with external probes for containers, trailers and open yards, WiFi loggers for warehouses with a network and multi-channel units for larger sheds. VEGA Calibrations, our parent company, offers calibration and temperature mapping, so a freight station can plan the placement study and the certificates together.",
+      "visits": "Please send the freight station or warehouse, the node and the person who will meet us through the enquiry form or WhatsApp. Entry to port-linked yards needs passes arranged in advance, so tell us early what is required. We group Uran with Ulwe and Kharghar so that one trip covers the Navi Mumbai side of the harbour.",
+      "approach": "At a freight station we would begin with a logger in a refrigerated or heat-sensitive container and another in the warehouse bay where such goods are held. The two records together show how much of a consignment's warmth came from the yard and how much from the box, and they can be exported by consignment.",
+      "faqs": [
+        {
+          "question": "Can a logger travel inside a container from the port to a warehouse?",
+          "answer": "Yes. A GSM logger with an external probe records the whole journey and the wait at the terminal, and the report can be exported by consignment for the shipper and the receiver."
+        },
+        {
+          "question": "How do you cover a large yard where Wi-Fi does not reach?",
+          "answer": "GSM loggers report over the mobile network and need no local Wi-Fi, so a trailer yard or an open stack can be watched without running a network across the plot."
+        }
+      ],
+      "nearby": [
+        "ulwe",
+        "kharghar",
+        "kalamboli"
+      ],
+      "indexable": true
+    } },
+  { slug: "ulwe", name: "Ulwe", citySlug: "panvel", areaType: "mixed-use", nearbyIndustries: ["pharmaceutical", "hospitals-blood-banks", "food-beverage", "logistics-warehousing"], confirmedService: true, hero: ["dhruva", "hooter"], page: {
+      "metaTitle": "Data Loggers in Ulwe, Panvel | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Ulwe, Kon and Karanjade's clinics, pharmacies, food suppliers and small warehouses. Get Solution.",
+      "intro": "Ulwe is one of the newer nodes of Navi Mumbai, laid out by CIDCO on the harbour side, with housing complexes, schools and clinics rising along planned roads. Its railway station on the Nerul–Uran line and the trans-harbour sea link that reaches the coast close to it tie it to Mumbai and to the port, and new commercial buildings and warehouses are following the housing. Kon and Karanjade, in the Panvel area nearby, are villages and growing settlements on the roads towards Panvel and the old Pune highway. Much of the storage here belongs to businesses serving new households: pharmacies, clinics, grocers, caterers and the distributors who supply them.",
+      "places": [
+        {
+          "name": "Ulwe nodes and sectors",
+          "note": "Housing sectors, shopping streets and clinics lie along planned roads, many of them new, so rooms and fridges are often recently installed and managed by people who live elsewhere."
+        },
+        {
+          "name": "Kon",
+          "note": "A settlement near the roads towards Panvel, where housing and small commercial premises are growing around older village lanes."
+        },
+        {
+          "name": "Karanjade",
+          "note": "A growing node near the old Mumbai–Pune highway with housing, shops and small commercial units that serve the surrounding settlements."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Pharmacies and the distributors who supply them hold medicines in new premises whose air conditioning is still being tested by the first hot seasons, and a dated log shows how a room behaved."
+        },
+        {
+          "slug": "hospitals-blood-banks",
+          "sentence": "Clinics, maternity homes and diagnostic centres in the new sectors keep vaccine fridges that are used by many hands, and an alert to a named person covers the hours when the clinic is shut."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Grocers, bakers and caterers serving the new housing keep chillers and freezers that are opened all day, so a reading every few minutes shows how each unit coped with a busy morning."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Small warehouses and delivery depots appearing near the roads hold goods for households and shops, and a reading by shelf shows which corner warms first under a new roof."
+        }
+      ],
+      "services": "For Ulwe we supply single-point loggers with external probes for clinic fridges, WiFi loggers for pharmacy and grocery stores and GSM versions for rooms with weak signal. Our parent company, VEGA Calibrations, calibrates loggers and other instruments, so devices and certificates can be planned together.",
+      "visits": "Send the sector or village, the premises and the person who will meet us through the enquiry form, WhatsApp or a call, and we agree a day with you. Building sites and new roads can make access slower, so tell us the landmark and the floor. We group Ulwe with Uran and Kharghar so one trip covers the harbour side of Panvel.",
+      "approach": "In a new pharmacy or clinic we would begin with the fridge that holds the vaccines or the most valuable stock, fitting a logger with an external probe inside. A few weeks of readings, including a hot spell, show how the room copes and whether the next unit needs a device of its own.",
+      "faqs": [
+        {
+          "question": "Is it worth fitting loggers in premises that have only just opened?",
+          "answer": "Yes. A new room's cooling has not yet been tested through a full season, and a logged record from the first weeks shows early whether it keeps up, while changes are still easy to make."
+        },
+        {
+          "question": "Can a small shop get alerts on a phone?",
+          "answer": "Yes. Each logger sends alerts by phone and email to the people you name, and a shop owner can see the fridge's record from the dashboard without being in the shop."
+        }
+      ],
+      "nearby": [
+        "uran-jnpt",
+        "kharghar",
+        "kalamboli"
+      ],
+      "indexable": true
+    } },
+  { slug: "roha-pen", name: "Roha-Pen", citySlug: "panvel", areaType: "mixed-use", nearbyIndustries: ["chemical", "logistics-warehousing", "laboratories", "food-beverage"], confirmedService: true, hero: ["veer-pro", "hooter"], page: {
+      "metaTitle": "Data Loggers in Roha-Pen, Raigad | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Roha's MIDC chemical plants and Pen's godowns and workshops in Raigad's Konkan belt. Get Solution.",
+      "intro": "Roha and Pen are two Konkan towns in Raigad district, south of Panvel in the belt through which the Mumbai–Goa road and railway run, and they bring a different character to the region. Roha has an MIDC industrial area at Dhatav that is home to chemical and allied plants, and a station on the Konkan railway line. Pen is known across the state for its craft of making Ganesh idols, and it also has small industries, godowns and a busy market serving the villages around. Both towns lie in country with a heavy monsoon and humid air, and goods reach them by long road and rail journeys, so what matters is damp, heat and the wait between loads.",
+      "places": [
+        {
+          "name": "Roha MIDC at Dhatav",
+          "note": "A chemical and process-industry area with plants, tanks, drum stores and laboratories on large plots, where heavy monsoon damp reaches every shed."
+        },
+        {
+          "name": "Pen town and its workshops",
+          "note": "Pen's idol workshops, small factories and godowns serve festival demand and the surrounding villages, and many store plaster, paint and finished goods in damp sheds."
+        },
+        {
+          "name": "Highway and rail-side godowns",
+          "note": "Godowns and transport firms along the main road and near the stations hold goods that arrive by truck and wagon for the Konkan towns."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "chemical",
+          "sentence": "Plants in the MIDC keep intermediates and finished chemicals in stores under printed limits, and a humidity and temperature log shows how each store coped through the long monsoon."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Godowns and transporters hold goods that arrive from Panvel and Mumbai by road and rail, and a reading by shelf shows how long a lot stood in damp air before delivery."
+        },
+        {
+          "slug": "laboratories",
+          "sentence": "Plant laboratories keep retained samples and standards in fridges and cabinets that each need a named person to receive an alert, including on festival and holiday days."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Fish, dairy and grocery suppliers serving the Konkan towns keep chillers that must hold through long power cuts in the monsoon, and a battery-backed log shows what happened during the outage."
+        }
+      ],
+      "services": "In Roha and Pen we supply WiFi loggers with humidity sensing for damp stores, multi-channel units for plant warehouses and GSM versions with external probes for yards and vehicles. VEGA Calibrations, our parent company, can calibrate the loggers and probes and map a large store beforehand, so the placement study and the certificates arrive together.",
+      "visits": "Send the plant or godown, the town and the person who will meet us through the enquiry form or WhatsApp, and we agree a day with you. These towns are a longer drive from the Navi Mumbai side and the road can be slow in the monsoon, so we plan a full day and fix times in advance. We group Roha and Pen in one trip, with Rasayani-Patalganga on the way.",
+      "approach": "At a plant in the MIDC we would begin with the store that holds the material with the tightest limit and a humidity-reading logger in the shed that faces the weather. A few weeks that include heavy rain show how the stores behave, and alerts go to the shift in-charge and a second person for nights and holidays.",
+      "faqs": [
+        {
+          "question": "What happens to a logger when power fails during a monsoon storm?",
+          "answer": "It keeps recording on its battery and stores the readings, and sends them when the network returns. An alert for the lost mains supply can go to the person responsible for the room."
+        },
+        {
+          "question": "Can one account cover a plant in Roha and a godown in Pen?",
+          "answer": "Yes. Each location is a site on the dashboard with its own alert recipients, and an owner opens both in one list and exports a report for any room and period."
+        }
+      ],
+      "nearby": [
+        "rasayani-patalganga",
+        "khopoli",
+        "kalamboli"
+      ],
+      "indexable": true
+    } },
   // ------------------------------------------------------------------ Navi Mumbai (batch 1)
   {
     slug: "turbhe",
