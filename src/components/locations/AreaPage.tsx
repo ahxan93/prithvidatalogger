@@ -6,6 +6,7 @@ import { findLocation, locationHref } from "@/data/locations";
 import { devicesForKeys } from "@/data/page-heroes";
 import { services } from "@/data/services";
 import EnquiryForm from "@/components/forms/EnquiryForm";
+import Faq from "@/components/ui/Faq";
 import LiveDeviceVisual from "@/components/sections/LiveDeviceVisual";
 import JsonLd from "@/components/seo/JsonLd";
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
@@ -176,6 +177,15 @@ export default function AreaPage({ area, cityPath }: { area: AreaDef; cityPath: 
           </div>
         </div>
       </Section>
+
+      {page.faqs && page.faqs.length > 0 && (
+        <Section tone="surface" aria-labelledby="area-faq-title" data-area-section="faqs">
+          <div className="grid gap-10 lg:grid-cols-[0.8fr_1.2fr] lg:gap-16">
+            <SectionHeading id="area-faq-title" eyebrow="FAQ" title={`${area.name} FAQs`} />
+            <Faq items={page.faqs} />
+          </div>
+        </Section>
+      )}
 
       <Section tone="surface" aria-labelledby="area-nearby-title" data-area-section="nearby">
         <SectionHeading id="area-nearby-title" eyebrow="Nearby" title={`Around ${area.name}`} />

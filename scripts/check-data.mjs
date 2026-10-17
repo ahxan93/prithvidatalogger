@@ -734,7 +734,9 @@ if (!siteConfig.showPrices) {
     const h1s = (html.match(/<h1[\s>]/g) ?? []).length;
     if (h1s !== 1) f(`has ${h1s} <h1> elements (exactly 1)`);
     const found = [...html.matchAll(/data-area-section="([a-z]+)"/g)].map((m) => m[1]);
-    if (found.join() !== SECTIONS.join()) f(`sections are ${found.join(" > ")} (expected ${SECTIONS.join(" > ")})`);
+    // An area page may carry an FAQ section (between "visits" and "nearby"); it is optional.
+    const expectedSections = a.page.faqs?.length ? [...SECTIONS.slice(0, 7), "faqs", ...SECTIONS.slice(7)] : SECTIONS;
+    if (found.join() !== expectedSections.join()) f(`sections are ${found.join(" > ")} (expected ${expectedSections.join(" > ")})`);
     const ld = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map((m) => {
       try { return JSON.parse(m[1].replace(/\\u003c/g, "<")); } catch { f("has invalid JSON-LD"); return {}; }
     });

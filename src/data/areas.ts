@@ -33,6 +33,8 @@ export type AreaPageContent = {
   visits: string;
   /** How we would start monitoring here, in this area's own words. */
   approach: string;
+  /** Optional questions for this area; shown as an FAQ section with FAQPage JSON-LD. */
+  faqs?: { question: string; answer: string }[];
   /** Slugs of other areas worth linking (only areas with pages are shown). */
   nearby: string[];
   /** Author's intent; the page is only indexable if it also passes areaIssues(). */
@@ -440,6 +442,232 @@ export const areas: AreaDef[] = [
       indexable: true,
     },
   },
+  // ------------------------------------------------------------------ Mumbai (batch 2: eastern and harbour suburbs)
+  { slug: "ghatkopar", name: "Ghatkopar", citySlug: "mumbai", areaType: "mixed-use", nearbyIndustries: ["pharmaceutical", "hospitals-blood-banks", "food-beverage", "electronics"], confirmedService: true, hero: ["nakshatra", "virat-pro"], page: {
+      "metaTitle": "Data Loggers in Ghatkopar, Mumbai | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Ghatkopar's stockists, hospitals, food suppliers and small factories in Mumbai. Get Solution.",
+      "intro": "Ghatkopar sits on the eastern side of Mumbai where the Central Railway line, the Eastern Express Highway and Lal Bahadur Shastri Marg all pass close together, and the Metro line from Andheri ends here. West of the railway the streets are dense with shops, small workshops and stockists; east of it, towards the highway, lie larger hospitals, schools and housing societies. Industrial units are mixed in among the residential blocks, most of them small, and a great deal of Ghatkopar's storage is kept in ground-floor godowns and upper-floor rooms beside the work area, not in purpose-built warehouses.",
+      "places": [
+        {
+          "name": "LBS Marg industrial pockets",
+          "note": "Small factories and workshops stand along Lal Bahadur Shastri Marg and the lanes off it, many of them making or packing goods for pharmacies, kitchens and electrical shops, with a store in the same building."
+        },
+        {
+          "name": "Ghatkopar West markets",
+          "note": "The commercial streets around the station are lined with wholesalers and stockists who keep stock in godowns above and behind the shops, often in rooms with one air conditioner and little ventilation."
+        },
+        {
+          "name": "Hospitals and clinics on the east side",
+          "note": "Large hospitals, nursing homes and diagnostic centres on the eastern side of the railway run pharmacies, blood storage and laboratory fridges that are watched around the clock."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Stockists and small formulation units keep medicines in back rooms and godowns where a single air conditioner decides the temperature of the shelf, so a reading every few minutes shows when it struggles."
+        },
+        {
+          "slug": "hospitals-blood-banks",
+          "sentence": "Hospital pharmacies and diagnostic laboratories keep vaccine fridges and reagent cabinets that need a named person alerted at any hour, including the quiet hours after the pharmacy counter closes."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Farsan, sweet and snack makers and the suppliers who stock them hold ingredients and finished goods that must stay dry through the monsoon, and a humidity trend shows when a store began to take on damp."
+        },
+        {
+          "slug": "electronics",
+          "sentence": "Electrical and electronics traders hold boards, cables and instruments in godowns where monsoon air settles, and a logged humidity reading shows how long a cupboard stayed outside its range."
+        }
+      ],
+      "services": "For Ghatkopar we supply compact WiFi loggers for single rooms, multi-channel units where one godown holds several stores, and GSM versions for rooms with weak signal. VEGA Calibrations, our parent company, calibrates loggers and other instruments and can map larger rooms, so the equipment and its paperwork are planned together.",
+      "visits": "To arrange a visit in Ghatkopar, send the street or building, the floor and the person who will meet us through the enquiry form, WhatsApp or a call. Lanes are narrow and traffic around the station is heavy, so we agree an arrival time with you and group the stop with other eastern suburb visits. Mention lifts and stairs, as loggers are carried in by hand.",
+      "approach": "In a Ghatkopar unit we would start with the room that holds the most valuable or sensitive stock, usually the upper-floor store, placing a logger away from the window and the air conditioner outlet. A few weeks of readings, including a wet spell, show how much the room moves and whether the next room needs its own device.",
+      "faqs": [
+        {
+          "question": "Can loggers be fitted in a first-floor godown with no network?",
+          "answer": "Yes. A GSM version reports over the mobile network, and a WiFi version needs only a signal from the building's router. We check the signal in the room before fixing a position, so a quiet back room does not become a blind spot."
+        },
+        {
+          "question": "How do you watch a store that is used by several tenants?",
+          "answer": "Each tenant's room can be its own device with its own alert contact, while the building owner sees every room in one list. That way a warm room is reported to the person who keeps stock in it."
+        }
+      ],
+      "nearby": [
+        "vikhroli",
+        "kurla",
+        "chembur"
+      ],
+      "indexable": true
+    } },
+  { slug: "chembur", name: "Chembur", citySlug: "mumbai", areaType: "mixed-use", nearbyIndustries: ["chemical", "pharmaceutical", "laboratories", "logistics-warehousing"], confirmedService: true, hero: ["rajmudra", "veer"], page: {
+      "metaTitle": "Data Loggers in Chembur, Mumbai | Prithvi",
+      "metaDescription": "Temperature data loggers for Chembur's process-industry stores, stockists, laboratories and hospitals on Mumbai's eastern shore. Get Solution.",
+      "intro": "Chembur lies on the eastern shore of Mumbai island between Kurla and the Trombay peninsula, and it has an industrial identity that older suburbs lack. On the Trombay side, towards the harbour and the creek, stand refineries, a fertiliser plant and chemical works, with a research campus just beyond. Closer to the railway, Chembur is a busy residential and commercial suburb with hospitals, laboratories, schools and food businesses, joined to Kurla and Bandra by the Santacruz–Chembur Link Road and to Navi Mumbai by the harbour line and the roads that begin here. Storage ranges from process-plant stores to ordinary medicine rooms.",
+      "places": [
+        {
+          "name": "Trombay and Mahul side",
+          "note": "Heavy process industry, refineries and chemical works stand on the harbour side of Chembur, and the contractors, suppliers and warehouses that serve them hold drums, containers and instruments in sheds exposed to salt air."
+        },
+        {
+          "name": "Chembur's commercial streets",
+          "note": "Around the station and the main roads, wholesalers, stockists and food businesses keep stock in godowns behind shops and in basements, where ventilation is limited and power is shared between tenants."
+        },
+        {
+          "name": "Hospitals and laboratories",
+          "note": "Hospitals, nursing homes and diagnostic laboratories hold blood storage, vaccines and reagents in rooms that are checked by hand at set rounds and unwatched in between."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "chemical",
+          "sentence": "Chemical works and the traders around them keep drums and containers under printed temperature limits, and an alert on a rising reading gives the shift supervisor time to move or shade stock before it is spoiled."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Medicine distributors and small formulation units hold stock in rooms served by one or two air conditioners, and a dated log answers a purchaser's question about how a lot was kept."
+        },
+        {
+          "slug": "laboratories",
+          "sentence": "Analytical and quality laboratories serving industry and hospitals keep standards, samples and reagents in fridges and cabinets that each need their own limit and a named contact."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Godown and transport operators on the harbour side receive and release goods at all hours, and a reading by bay shows which corner of a shed stood in the sun while a vehicle waited."
+        }
+      ],
+      "services": "For Chembur we supply WiFi loggers for single rooms, multi-channel units for larger stores and GSM versions with external probes for yards and sheds without a network. Our parent company, VEGA Calibrations, handles calibration of loggers and probes and can map a large store before devices are fixed, so the study and the certificates arrive together.",
+      "visits": "Please send the street, the building or the plant, and the person who controls the gate through the enquiry form or WhatsApp, and we agree a day with you. Sites on the Trombay side often need a gate pass and a safety briefing, so tell us early. We group Chembur with Ghatkopar and Kurla so that one trip covers the eastern suburbs.",
+      "approach": "At a process-side store we would begin with the room holding the product with the tightest stated limit, putting the probe inside and the logger on the cooler side of the wall. For a hospital we would begin with the vaccine fridge and the blood storage unit. A fortnight of readings then sets alert limits just outside each room's normal swing.",
+      "faqs": [
+        {
+          "question": "How are loggers kept useful in a salty, humid harbour-side shed?",
+          "answer": "We use humidity-reading loggers and keep the device out of direct spray and sun, with the probe on a cable into the room. A regular look at the dashboard shows early if a sensor or a seal needs attention."
+        },
+        {
+          "question": "Can a laboratory with many fridges see them all at once?",
+          "answer": "Yes. Each fridge or freezer is a device in a room under the laboratory's site, alerts go to the person who looks after it, and a quality head sees every unit in one list and can export a report for any period."
+        }
+      ],
+      "nearby": [
+        "kurla",
+        "ghatkopar",
+        "bandra-kurla"
+      ],
+      "indexable": true
+    } },
+  { slug: "kurla", name: "Kurla", citySlug: "mumbai", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing", "food-beverage", "pharmaceutical", "electronics"], confirmedService: true, hero: ["veer", "virat"], page: {
+      "metaTitle": "Data Loggers in Kurla, Mumbai | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Kurla's godowns, stockists, food suppliers and depots near the terminus in Mumbai. Get Solution.",
+      "intro": "Kurla is one of Mumbai's busiest crossroads: the Central and Harbour railway lines meet at its station, Lokmanya Tilak Terminus handles long-distance trains on the east side, Lal Bahadur Shastri Marg runs through the middle and the Kurla–Andheri Road heads west towards the airport and the Mithi river. Dense markets, workshops, small factories, godowns and transport depots fill the streets on both sides of the railway, with Bandra-Kurla Complex rising to the west. A great deal of Kurla's storage belongs to firms that supply other parts of the city, working from compact premises on busy roads.",
+      "places": [
+        {
+          "name": "Kurla West and LBS Marg",
+          "note": "Wholesale markets, workshops and small factories line Lal Bahadur Shastri Marg and the lanes off it, with stock kept in godowns above shops and in rooms behind work areas."
+        },
+        {
+          "name": "Kurla East and the terminus side",
+          "note": "The streets beside the long-distance terminus hold transport depots, parcel and cargo handlers and food suppliers whose goods wait for a train or a vehicle."
+        },
+        {
+          "name": "Kurla–Andheri Road belt",
+          "note": "Along the road towards Andheri, small industrial units, packaging firms and godowns serve the city's pharmacies, kitchens and electrical shops from compact premises."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Parcel handlers and transport depots near the terminus hold goods between a train and a vehicle, and a logger in the load shows how long a consignment waited and in what conditions."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Food suppliers and caterers that dispatch early each morning keep chillers and dry stores that must be shown to have held through the night, which a dated report confirms without anyone opening the door."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Pharmaceutical stockists and packers on the crowded roads keep medicines in small rooms with shared power, so an alert for a lost mains supply matters as much as a high reading."
+        },
+        {
+          "slug": "electronics",
+          "sentence": "Traders in electrical and electronic goods keep stock in godowns where monsoon air settles on every shelf, and a logged reading shows how many days a cupboard sat outside its safe range."
+        }
+      ],
+      "services": "In Kurla we supply compact WiFi loggers for small rooms, multi-channel units where a building holds several godowns and GSM versions for vehicles and depots with no network. VEGA Calibrations, our parent company, calibrates loggers and other instruments, so a stockist can plan the devices and their certificates as one job.",
+      "visits": "Send the road, the building and the person who will meet us through the enquiry form, WhatsApp or a call, and we agree a day with you. Traffic around the station and on the Kurla–Andheri Road is heavy, so we fix an arrival time that suits your shift and group Kurla with Ghatkopar and Chembur. Tell us about stairs, as many godowns have no lift.",
+      "approach": "In a Kurla godown we would start with the room whose loss would hurt most, often the chiller or the medicine room, and fit a logger with a probe at shelf height away from the door. A second device on the vehicle or at the dispatch door then shows how much of a consignment's warmth comes from the road and how much from the store.",
+      "faqs": [
+        {
+          "question": "How do you monitor goods that pass through Kurla on a train or a truck?",
+          "answer": "A logger placed in the consignment records the whole stay and can be exported by lot, so the sender and the receiver compare the same record if a question is raised."
+        },
+        {
+          "question": "Can one stockist with godowns on both sides of the railway use a single account?",
+          "answer": "Yes. Each godown is a room under one site, each room's alerts go to the person responsible and the owner sees every godown in one list."
+        }
+      ],
+      "nearby": [
+        "bandra-kurla",
+        "ghatkopar",
+        "chembur",
+        "andheri"
+      ],
+      "indexable": true
+    } },
+  { slug: "bandra-kurla", name: "Bandra-Kurla", citySlug: "mumbai", areaType: "business-district", nearbyIndustries: ["data-centers", "laboratories", "hospitals-blood-banks", "food-beverage"], confirmedService: true, hero: ["setu", "dhruva"], page: {
+      "metaTitle": "Data Loggers in Bandra-Kurla, Mumbai | Prithvi",
+      "metaDescription": "Temperature data loggers for Bandra-Kurla Complex's server rooms, laboratories, hospitals and hotel kitchens in Mumbai. Get Solution.",
+      "intro": "Bandra-Kurla Complex is a planned business district between Bandra and Kurla, beside the Mithi river, and it feels nothing like the older suburbs around it: wide roads, glass towers, banks and financial institutions, consulates, a diamond trading bourse, large hospitals and diagnostic laboratories, hotels and the server rooms that keep them running. Little here is manufacturing; the storage that matters sits inside controlled rooms such as pharmacies, blood banks, laboratory freezers, kitchens and data rooms. Cooling is engineered but demanding, and the people responsible for a room are often in a different tower.",
+      "places": [
+        {
+          "name": "Office towers and server rooms",
+          "note": "Banks, financial firms and technology tenants run server rooms and network closets in towers with shared cooling plants, where one fault can reach rooms on several floors."
+        },
+        {
+          "name": "Hospitals and diagnostic laboratories",
+          "note": "Large hospitals and diagnostic laboratories keep blood storage, vaccine fridges, reagent cabinets and sample freezers that are watched in shifts."
+        },
+        {
+          "name": "Hotels and kitchens",
+          "note": "Hotels and restaurants in the complex run walk-in fridges, freezers and banquet kitchens that are loaded hardest at event times and managed by engineers elsewhere in the building."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "data-centers",
+          "sentence": "A rack-height reading in each server room, kept beside the chilled-water return, shows whether a warm spell came from a failed cooling unit or from a change in the equipment load."
+        },
+        {
+          "slug": "laboratories",
+          "sentence": "Diagnostic laboratories keep reagents and patient samples in fridges and freezers that are rarely opened at night, and an alert to the on-call technician covers the hours when the department is closed."
+        },
+        {
+          "slug": "hospitals-blood-banks",
+          "sentence": "Pharmacies and blood banks inside the larger hospitals hold stock that cannot be replaced at short notice, so each unit reports to a named duty pharmacist and to a second contact."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Banquet and restaurant kitchens keep a row of fridges and freezers that are opened constantly, and a single list on a phone lets the duty engineer see which unit is warming."
+        }
+      ],
+      "services": "At Bandra-Kurla we supply four-channel loggers for server rooms, single-point loggers with external probes for laboratory fridges and WiFi loggers for pharmacy stores. Our parent company, VEGA Calibrations, offers calibration, temperature mapping and validation support, which suits tenants that already keep formal qualification files.",
+      "visits": "Towers and hospitals in the complex register visitors in advance, so please send the building, the floor and the person who will meet us through the enquiry form or WhatsApp. Security and escort rules differ between towers, and server rooms often allow entry only in set windows. We agree the day with you and group the stop with Kurla and Andheri visits.",
+      "approach": "In a tower we would begin with the server room and one laboratory or pharmacy store, putting probes at rack inlet height and inside each fridge. After a few weeks the readings show how far each room normally moves, and limits set just beyond that range let a genuine fault stand out from ordinary door openings.",
+      "faqs": [
+        {
+          "question": "Can a hospital or laboratory in the complex see all its fridges from one screen?",
+          "answer": "Yes. Each unit is a device under the site, alerts go to the person responsible for that department, and a head of quality opens every unit in a single list and exports a report for any period."
+        },
+        {
+          "question": "Which loggers suit a server room in a tower?",
+          "answer": "A four-channel logger covers the cold aisle, the top of a rack row and the cooling unit door from one device, and humidity can be added where a room opens onto a corridor."
+        }
+      ],
+      "nearby": [
+        "kurla",
+        "andheri",
+        "chembur"
+      ],
+      "indexable": true
+    } },
   // ------------------------------------------------------------------ Navi Mumbai (batch 1)
   {
     slug: "turbhe",
@@ -2239,6 +2467,7 @@ export function areaTexts(page: AreaPageContent): string[] {
     page.services,
     page.visits,
     page.approach,
+    ...(page.faqs ?? []).flatMap((f) => [f.question, f.answer]),
   ];
 }
 
