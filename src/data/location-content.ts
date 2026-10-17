@@ -46,7 +46,7 @@ export const locationContent: Record<string, LocationContent> = {
   },
   "india/haryana": {
     metaDescription:
-      "Temperature data loggers in Haryana: Gurugram, Faridabad, Manesar, Panipat, Karnal, Hisar and more cities and industrial areas. Get Solution.",
+      "Temperature data loggers in Haryana: Gurugram, Faridabad, Manesar, Panchkula, Karnal, Hisar and more cities and industrial areas. Get Solution.",
     recommended: ["veer", "rajmudra", "vayu"],
   },
   "india/telangana": {
@@ -63,6 +63,11 @@ export const locationContent: Record<string, LocationContent> = {
     metaDescription:
       "Temperature data loggers in Tamil Nadu: Chennai, Coimbatore, Madurai, Tiruchirappalli, Salem, Tiruppur, Hosur and more cities. Get Solution.",
     recommended: ["nakshatra", "virat", "vayu"],
+  },
+  "india/punjab": {
+    metaDescription:
+      "Temperature data loggers in Punjab: Mohali's pharma units, technology parks, research institutes and hospitals beside Chandigarh. Get Solution.",
+    recommended: ["dhruva", "nakshatra", "vayu"],
   },
   "india/chandigarh": {
     metaDescription:

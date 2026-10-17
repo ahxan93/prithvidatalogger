@@ -131,6 +131,7 @@ export const locations: LegacyLocationNode[] = [
       { slug: "karnataka", text: "Bengaluru's laboratories, technology parks, electronics makers and hospitals, together with the engineering belt of Peenya and the cities of Mysuru, Mangaluru, Belagavi, Hubballi-Dharwad and Tumakuru." },
       { slug: "tamil-nadu", text: "Chennai's port-linked estates and the mills and workshops of Coimbatore, Hosur's vehicle and electronics cluster, and the cities of Madurai, Tiruchirappalli, Salem, Tiruppur, Erode, Vellore and Tuticorin." },
       { slug: "chandigarh-state", text: "The planned city and union territory, with Mohali and Panchkula beside it, serving hospitals, medicine distributors and food depots." },
+      { slug: "punjab", text: "Mohali's industrial phases, technology parks, pharmaceutical units, research institutes and hospitals beside Chandigarh, where storage is held to written limits." },
       { slug: "himachal-pradesh", text: "The foothill pharmaceutical cluster around Baddi, Barotiwala and Nalagarh, where plants work to written storage procedures." },
       { slug: "kerala", text: "Kochi's seafood export cold chain, port warehouses, spice trade and large hospitals, all in warm, wet air." },
       { slug: "goa-state", text: "Pharmaceutical plants at Verna and Kundaim and the hotel kitchens of the coast, tested by salt air and the monsoon." },
@@ -4140,14 +4141,14 @@ export const locations: LegacyLocationNode[] = [
           "Rice, grain and dairy processing",
           "Research laboratories and hospitals",
         ],
-        citiesServed: ["Manesar", "Gurugram", "Faridabad", "Panipat", "Sonipat", "Rohtak", "Hisar", "Ambala", "Karnal"],
+        citiesServed: ["Manesar", "Gurugram", "Faridabad", "Panipat", "Sonipat", "Rohtak", "Hisar", "Ambala", "Karnal", "Panchkula"],
         supportNote:
           "Supply, installation support and site visits for Haryana plants are arranged from our Mumbai office. Tell us the plant and the stores to look at.",
         faqs: [
           {
             question: "Which Haryana locations have a page?",
             answer:
-              "Manesar, Gurugram, Faridabad, Panipat, Sonipat, Rohtak, Hisar, Ambala and Karnal have city pages. More of the state will follow, and the capital region pages cover places across the border.",
+              "Manesar, Gurugram, Faridabad, Panipat, Sonipat, Rohtak, Hisar, Ambala, Karnal and Panchkula have city pages. More of the state will follow, and the capital region pages cover places across the border.",
           },
           {
             question: "Why is Manesar treated as a separate city page from Gurugram?",
@@ -4170,6 +4171,7 @@ export const locations: LegacyLocationNode[] = [
           { slug: "hisar", text: "Steel and galvanised-iron works, an agricultural university with research stations, and oilseed and cotton godowns in the dry west." },
           { slug: "ambala", text: "The cantonment and the old city on the Grand Trunk Road, with laboratory-instrument workshops, hospitals and a busy railway junction." },
           { slug: "karnal", text: "Basmati rice mills at Taraori, grain godowns and national research institutes for dairy, wheat and soil on the highway." },
+          { slug: "panchkula", text: "A planned town beside Chandigarh with industrial phases, Raipur Rani and Barwala estates, hospitals and the Pinjore and Kalka hill road." },
         ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,
@@ -5040,6 +5042,104 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Karnal | Prithvi",
             metaDescription:
               "WiFi and GSM temperature and humidity data loggers for Karnal's rice mills, grain godowns, research institutes and hospitals. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "panchkula",
+            name: "Panchkula",
+            type: "city",
+            intro:
+              "Panchkula is the planned town on the Haryana side of Chandigarh, laid out in numbered sectors beside the Ghaggar and below the Shivalik hills, and it reaches up the road to Pinjore and Kalka at the foot of the hill route to Himachal Pradesh. Its industrial area phases hold pharmaceutical, engineering and packaging units, Raipur Rani and Barwala add larger estates, and the civil hospital and many private clinics serve the northern districts of the state. A temperature data logger in Panchkula therefore watches medicine stockists' rooms, hospital refrigerators, drug and packaging stores and dairy depots, in buildings that are mostly modern but busy. Staff often live in Chandigarh and cross the boundary daily, so Prithvi supplies WiFi loggers for rooms and GSM loggers for vehicles, with alerts that follow a person to their phone.",
+            climateAngle:
+              "The foothills bring a heavy, damp monsoon, summers are hot and dry and winter nights are cold with fog, so stores face a damp spell between two temperature limits.",
+            areas: [
+              {
+                name: "Industrial Area Phase I and II",
+                note: "Planned industrial plots on the town's edge hold pharmaceutical, packaging, engineering and food units, with stores and dispatch bays on the same grid as small offices.",
+              },
+              {
+                name: "Raipur Rani and Barwala",
+                note: "Larger industrial estates in the district, towards the hills, with plants on roomier plots, where one site may run several stores a walk apart.",
+              },
+              {
+                name: "Pinjore and Kalka",
+                note: "Towns at the foot of the hill road hold engineering units, warehouses and transport yards, and goods stop there on the way to and from Himachal Pradesh.",
+              },
+              {
+                name: "Sector hospitals and clinics",
+                note: "The civil hospital in Sector 6 and the private hospitals, clinics and pharmacies in the sectors keep vaccines, blood components and medicines in many refrigerators.",
+              },
+            ],
+            industries: [
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine stockists and the smaller drug and packaging units in the industrial phases hold stock in rooms that customers review, and a record from each room answers the reviewer's questions.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The civil hospital and the private hospitals keep vaccines and blood components in refrigerators across wards, and alerts on a phone mean a unit that fails overnight is not found at the morning round.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Dairy, bakery and packed-food depots dispatch before dawn, and a log kept through the night shows that the chambers held their range through the cold hours.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Warehouses and transport yards along the hill road hold goods moving between the plains and the hill state, and a logger in a consignment records how long it stood in a vehicle.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels placed high and low in a stockist's room show whether the warmest air gathers under the ceiling while the bottom shelves stay cool.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a packaging store or a pharmacy room, where the damp foothill monsoon is the risk to catch.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a van on the hill road or reports from an estate store with no Wi-Fi, which suits goods moving to Himachal Pradesh.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Do you cover Raipur Rani, Barwala and Pinjore as well as the sectors?",
+                answer:
+                  "Yes. Send the estate or the town, the unit and a contact through the enquiry form, WhatsApp or a call, and we confirm how a visit would be arranged for each pocket of the district.",
+              },
+              {
+                question: "Can a firm with a store in Panchkula and one in Chandigarh watch both?",
+                answer:
+                  "Each store becomes a site with its own alert contacts, whichever side of the boundary it stands on, so an owner can open both on one dashboard and export a report for any room.",
+              },
+              {
+                question: "How does the foothill monsoon change where loggers are placed?",
+                answer:
+                  "We use humidity-reading loggers in stores that take in damp air, keep them away from outer walls and doors where condensation forms, and add a second probe at the far end of the room to show how far the damp reaches.",
+              },
+              {
+                question: "Which logger suits a vehicle on the hill road?",
+                answer:
+                  "A SIM-based Vayu logger packed into the load records on its battery and sends readings over the mobile network where there is signal, storing them where there is none, and the report can be exported when the van arrives.",
+              },
+            ],
+            nearby: [
+              { slug: "chandigarh", name: "Chandigarh" },
+              { slug: "mohali", name: "Mohali" },
+              { slug: "baddi", name: "Baddi" },
+              { slug: "ambala", name: "Ambala" },
+            ],
+            metaTitle: "Temperature Data Loggers in Panchkula | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Panchkula's industrial phases, hospitals, medicine stockists and Pinjore warehouses. Get Solution.",
             indexable: true,
           },
         ],
@@ -7244,6 +7344,147 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Chandigarh | Prithvi",
             metaDescription:
               "WiFi and GSM temperature data loggers for Chandigarh, Mohali and Panchkula hospitals, pharma distributors and food depots. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "punjab",
+        name: "Punjab",
+        type: "state",
+        intro:
+          "Punjab is known for its fields, and the grain, dairy and food firms that handle the harvest have storage of their own, but the part of the state we have written about first sits at its north-eastern corner, in Mohali, the planned town that adjoins Chandigarh. Pharmaceutical units, electronics makers, technology parks, research institutes and large hospitals stand there on regular plots, and the town has its own airport and a quick road to the capital of two states. Summers are hot and dry, winter nights are cold and foggy, and the monsoon rains arrive heavily at the foothills. This regional page places Punjab on our map and links to the Mohali city page, which holds the detail for its industrial areas, rooms and loggers.",
+        localIndustries: [
+          "Pharmaceutical manufacturing",
+          "Electronics and technology parks",
+          "Hospitals and research institutes",
+        ],
+        citiesServed: ["Mohali"],
+        supportNote:
+          "Supply, installation support and site visits for Punjab sites are arranged from our Mumbai office. Tell us the town, the unit and what the rooms hold.",
+        faqs: [
+          {
+            question: "Which Punjab locations have a page?",
+            answer:
+              "Mohali has a city page. Other towns of the state are not yet written up, though enquiries from them are welcome, and the neighbouring Chandigarh and Panchkula pages cover the rest of the tricity.",
+          },
+          {
+            question: "Why does Punjab start with Mohali?",
+            answer:
+              "Its industrial phases, research institutes and hospitals concentrate the kinds of storage that benefit most from continuous records, and they lie in one compact town that is easy to describe in depth.",
+          },
+          {
+            question: "Can a firm with units in Mohali and across the border in Chandigarh use one dashboard?",
+            answer:
+              "Each unit is a site with its own alert contacts, whichever state it stands in, and a quality head can open every site in one list and export a report for any room.",
+          },
+        ],
+        listing: [
+          { slug: "mohali", text: "A planned town beside Chandigarh whose industrial phases, technology parks, pharmaceutical units, institutes and hospitals keep rooms to written limits." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "mohali",
+            name: "Mohali",
+            type: "city",
+            intro:
+              "Mohali, officially Sahibzada Ajit Singh Nagar, is the planned town on the Punjab side of Chandigarh, and over a few decades it has turned from a quiet neighbour into a centre of pharmaceutical units, electronics makers, technology parks and research. A temperature data logger in Mohali mostly watches rooms that were built recently and are held to written standards: stability chambers and quality laboratories in drug plants, component stores in electronics firms, server rooms in office parks and the refrigerators of large private hospitals. The industrial area phases and the Focal Point sit within sight of housing blocks, the airport serves the whole tricity, and many firms keep staff on rotating shifts, so alerts that reach a named person matter more than a clipboard. Prithvi supplies WiFi loggers for rooms and GSM loggers for vehicles and sites without a network.",
+            climateAngle:
+              "Summers are hot and dry, the monsoon rains arrive heavily at the Shivalik foothills and winter nights are cold with dense fog, so stores face a high limit, a damp spell and a low limit within the same year.",
+            areas: [
+              {
+                name: "Industrial Area phases and the Focal Point",
+                note: "Numbered phases of planned plots hold pharmaceutical, electronics, food and engineering units, with warehouses and stores beside the production floors and a Focal Point that runs on the same grid.",
+              },
+              {
+                name: "IT City and the technology parks",
+                note: "Newer office parks and a planned technology area carry server rooms, laboratories and storage for hardware, in tall buildings where cooling is shared and managed by facilities teams.",
+              },
+              {
+                name: "Research institutes and teaching campuses",
+                note: "A national pharmaceutical education institute and a science education and research institute hold samples, reagents and cultures in freezers and cold rooms for projects that run for years.",
+              },
+              {
+                name: "Hospital cluster and medicine stores",
+                note: "Large private hospitals and the pharmacies and diagnostic laboratories around them keep vaccines, blood components and medicines in refrigerators on every floor.",
+              },
+            ],
+            industries: [
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Drug makers in the industrial phases keep warehouses, stability chambers and quality rooms to written limits, and a continuous record answers a customer's reviewer without a search through paper logs.",
+              },
+              {
+                slug: "electronics",
+                sentence:
+                  "Electronics and hardware firms hold boards, sensors and finished units in dry rooms, and a humidity trend shows a buyer how the stock sat through the rains before it was shipped.",
+              },
+              {
+                slug: "data-centers",
+                sentence:
+                  "Server rooms in the technology parks run to narrow temperature bands, and an alert on a failing cooling unit reaches the engineer on call before the equipment is at risk.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals in the town serve patients from several states, and a phone alert from a failing vaccine refrigerator reaches the duty technician through the night.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "Institute laboratories keep reagents and samples in many freezers, each with its own limit, and one dashboard lists every unit by room for the person who looks after the building.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels let one logger cover a warehouse aisle at several heights, or several freezers in a laboratory corridor, and report each point on its own line.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit an electronics store or a pharmacy room, where a damp monsoon spell is the risk worth catching.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a distribution vehicle or reports from a site with no Wi-Fi, which suits stock moving between the town and the districts around it.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Do you cover Mohali's Focal Point as well as the industrial phases?",
+                answer:
+                  "Yes. Send the phase or the Focal Point, the unit and the person who controls the gate through the enquiry form, WhatsApp or a call, and we confirm how a visit would be arranged around your shifts and safety rules.",
+              },
+              {
+                question: "Can a firm with a plant in Mohali and a depot in Chandigarh use one login?",
+                answer:
+                  "Each place is its own site with its own alert recipients, so a quality head can open the plant and the depot in one list and export a report for any room.",
+              },
+              {
+                question: "How is a drug plant's stability chamber monitored?",
+                answer:
+                  "A logger with an external probe sits in the chamber and reports on the plant's network, limits and alert contacts are set to the written protocol, and a report for any period can be exported for a reviewer.",
+              },
+              {
+                question: "Is calibration available before a customer audit?",
+                answer:
+                  "VEGA Calibrations, our parent company, calibrates loggers and probes and can schedule the work ahead of an audit date, with the certificate stored against each device on the dashboard.",
+              },
+            ],
+            nearby: [
+              { slug: "chandigarh", name: "Chandigarh" },
+              { slug: "panchkula", name: "Panchkula" },
+              { slug: "baddi", name: "Baddi" },
+            ],
+            metaTitle: "Temperature Data Loggers in Mohali | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Mohali's pharma units, technology parks, institutes and hospitals, with site visits. Get Solution.",
             indexable: true,
           },
         ],

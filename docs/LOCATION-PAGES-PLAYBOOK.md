@@ -64,9 +64,9 @@
 - **City hero pairs:** each city page's pair (`getCityHeroDevices()` in `src/data/page-heroes.ts`) is fixed by the
   registry order, never at render time, and is unique site-wide. The 10 logger photos give only 45 pairs (41 once the
   pairs held by other pages are removed), and the 41st city exhausted them. **Relaxed rule (Maharashtra hub, added with
-  the Satara, Solapur and Ratnagiri-Lote pages; Gujarat hub added with the Rajkot to Kandla pages; Uttar Pradesh hub added with the Ghaziabad to Moradabad pages; Haryana hub added with the Gurugram to Karnal pages; Telangana hub added with the Warangal to Nizamabad pages; Karnataka hub added with the Mysuru to Tumakuru pages; Tamil Nadu hub added with the Hosur to Tuticorin pages):** once every pair is taken, a city that belongs to a state hub
+  the Satara, Solapur and Ratnagiri-Lote pages; Gujarat hub added with the Rajkot to Kandla pages; Uttar Pradesh hub added with the Ghaziabad to Moradabad pages; Haryana hub added with the Gurugram to Karnal pages; Telangana hub added with the Warangal to Nizamabad pages; Karnataka hub added with the Mysuru to Tumakuru pages; Tamil Nadu hub added with the Hosur to Tuticorin pages; Punjab hub added with the Mohali page, and Panchkula joins the Haryana hub):** once every pair is taken, a city that belongs to a state hub
   (`HUB_OF` in `page-heroes.ts`) may reuse a pair that no other city in the SAME hub shows. A city outside a hub
-  never shares a pair, and `npm run check:data` fails on any pair shared inside one hub. Maharashtra, Gujarat, Uttar Pradesh, Haryana, Telangana, Karnataka and Tamil Nadu are in
+  never shares a pair, and `npm run check:data` fails on any pair shared inside one hub. Maharashtra, Gujarat, Uttar Pradesh, Haryana, Telangana, Karnataka, Tamil Nadu and Punjab are in
   `HUB_OF` so far; a future hub needs its cities added there.
 - **Implementation:** Next cannot match a partial dynamic segment, so `src/app/data-logger/[slug]` is
   the route and `next.config.ts` rewrites `/data-logger-:slug` to it.
@@ -170,6 +170,8 @@
 | Ambala (`ambala`) | Haryana | Ambala Cantonment, instrument workshops, city godowns, Mullana medical belt | Hospitals, laboratories, logistics, medicine wholesale | Heavier monsoon near the foothills, dense winter fog | Chandigarh, Karnal |
 | Karnal (`karnal`) | Haryana | Taraori rice mills, research institute campuses, grain market, highway estates | Rice and dairy, laboratories, warehousing, hospitals | Humid monsoon over paddy country, winter fog | Panipat, Ambala |
 | Chandigarh (`chandigarh`) | Chandigarh (UT) | Industrial Area Phase I–II, Mohali, Panchkula | Hospitals, pharma distribution, food | Hot summers, cold winters | Baddi, Delhi, Manesar |
+| Mohali (`mohali`, Sahibzada Ajit Singh Nagar, under Punjab; the Punjab hub stays noindex until it has 2 built pages) | Punjab | Industrial Area phases and Focal Point, IT City and technology parks, research institutes, hospital cluster | Pharma units, electronics, data rooms, hospitals, laboratories | Hot dry summer, heavy foothill monsoon, foggy winter | Chandigarh, Panchkula, Baddi |
+| Panchkula (`panchkula`, under Haryana) | Haryana | Industrial Area Phase I and II, Raipur Rani, Barwala, Pinjore and Kalka, sector hospitals | Medicine stockists, hospitals, dairy and food depots, logistics | Heavy foothill monsoon, hot dry summer, foggy winter | Chandigarh, Mohali, Baddi, Ambala |
 | Baddi (`baddi`) | Himachal Pradesh | Baddi, Barotiwala, Nalagarh | Pharma manufacturing hub | Foothill climate with seasonal temperature swings | Chandigarh, Delhi |
 | Jaipur (`jaipur`) | Rajasthan | Sitapura, VKI Area | Pharma distribution, food & dairy, hospitals | Desert heat, large day–night swings | Delhi, Manesar, Ahmedabad |
 | Indore (`indore`) | Madhya Pradesh | Pithampur, Sanwer Road | Pharma, food processing, auto | Hot summers | Ahmedabad, Pune, Jaipur |
