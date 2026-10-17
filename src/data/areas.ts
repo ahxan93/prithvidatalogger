@@ -784,7 +784,7 @@ export const areas: AreaDef[] = [
   { slug: "dahisar", name: "Dahisar", citySlug: "mumbai", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing", "food-beverage", "pharmaceutical", "hospitals-blood-banks"], confirmedService: true, hero: ["veer", "vayu-pro"], page: {
       "metaTitle": "Data Loggers in Dahisar, Mumbai | Prithvi",
       "metaDescription": "WiFi and GSM temperature data loggers for Dahisar's highway godowns, carriers, food suppliers and clinics at Mumbai's northern edge. Get Solution.",
-      "intro": "Dahisar is Mumbai's northern gateway on the western side, where the Western Express Highway crosses the city limit at the check naka and the Dahisar river runs between its eastern and western halves. Beyond the check naka the road leads towards Mira Road and Vasai, so Dahisar carries a great deal of goods traffic and has godowns, transport firms and small workshops beside the highway, mixed with housing societies on either side. The storage that matters here belongs to carriers, distributors and food suppliers whose goods spend time on a dock or in a vehicle, and to the clinics and pharmacies that serve the housing around them.",
+      "intro": "Dahisar is Mumbai's northern gateway on the western side, where the Western Express Highway crosses the city limit at the check naka, the Dahisar river flows through the suburb and the railway line divides its eastern half from its western half. Beyond the check naka the road leads towards Mira Road and Vasai, so Dahisar carries a great deal of goods traffic and has godowns, transport firms and small workshops beside the highway, mixed with housing societies on either side. The storage that matters here belongs to carriers, distributors and food suppliers whose goods spend time on a dock or in a vehicle, and to the clinics and pharmacies that serve the housing around them.",
       "places": [
         {
           "name": "Dahisar check naka and highway belt",
@@ -792,7 +792,7 @@ export const areas: AreaDef[] = [
         },
         {
           "name": "Dahisar East and West residential districts",
-          "note": "Housing societies on both sides of the river support pharmacies, clinics, bakeries and kitchens whose stock is held in small rooms inside the shops."
+          "note": "Housing societies on both sides of the railway support pharmacies, clinics, bakeries and kitchens whose stock is held in small rooms inside the shops."
         },
         {
           "name": "Suppliers to the Mira Road and Vasai side",

@@ -202,7 +202,7 @@ export const locations: LegacyLocationNode[] = [
         { slug: "bandra-kurla", text: "A planned business district of towers, hospitals, laboratories and server rooms between Bandra and Kurla, with little manufacturing." },
         { slug: "borivali", text: "The last large suburb on the western line, beside the national park, with markets, hospitals and godowns serving a large residential population." },
         { slug: "kandivali", text: "A suburb split by the railway into crowded western markets and an eastern side of highway units, townships and the Poisar river." },
-        { slug: "dahisar", text: "Mumbai's northern gateway on the Western Express Highway, with transport firms, godowns and housing districts either side of the Dahisar river." },
+        { slug: "dahisar", text: "Mumbai's northern gateway on the Western Express Highway, with transport firms, godowns and housing districts either side of the railway." },
         { slug: "dadar-parel", text: "The middle of the island city, with early-morning markets at Dadar and the hospital district and rebuilt mill lands of Parel." },
           { slug: "turbhe", text: "The western gateway of the Thane–Belapur belt, with factory units and chemical sheds beside the grain and produce markets." },
           { slug: "rabale", text: "Many small and mid-sized plots in the middle of the belt, which puts electronics, pharmaceutical and chemical units next to each other." },
