@@ -11,6 +11,16 @@ import { cn } from "@/lib/cn";
 
 const WEB3FORMS_ENDPOINT = "https://api.web3forms.com/submit";
 const SITE_HOST = "prithvidataloggers.com";
+const COMPANY_MAX_LENGTH = 120;
+
+/** Collapse whitespace, drop control characters and angle brackets, trim and cap the length. */
+function cleanText(value: string, max: number): string {
+  return value
+    .replace(/[\u0000-\u001f\u007f<>]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .slice(0, max);
+}
 
 /** Product dropdown: every series, each accessory, the service options, then "not sure". */
 const PRODUCT_OPTIONS = buildEnquiryOptions(products);
@@ -69,7 +79,7 @@ function validate(v: Values): Errors {
 type EnquiryFormProps = {
   /** Pre-selected product, e.g. "Setu series". Must match a dropdown value. */
   defaultProduct?: string;
-  /** Single column without the optional Company and Quantity fields. */
+  /** Single column without the optional Quantity field. */
   variant?: "default" | "compact";
   /** City page the visitor is on; sent as a hidden field and named in the email subject. */
   city?: string;
@@ -146,6 +156,10 @@ export default function EnquiryForm({
     }
 
     const product = values.product || "General";
+    const name = values.name.trim();
+    const company = cleanText(values.company, COMPANY_MAX_LENGTH);
+    // "Name (Company)" in the subject, falling back to the name alone when no company was given.
+    const sender = company ? `${name} (${company})` : name;
     const phone =
       values.countryCode === "other" ? values.phone.trim() : `${values.countryCode} ${values.phone.trim()}`;
 
@@ -156,11 +170,11 @@ export default function EnquiryForm({
         headers: { "Content-Type": "application/json", Accept: "application/json" },
         body: JSON.stringify({
           access_key: accessKey,
-          subject: `New solution enquiry – ${city ?? product} – ${SITE_HOST}`,
+          subject: `New enquiry from ${sender} – ${city ?? product} – ${SITE_HOST}`,
           from_name: "Prithvi Data Loggers website",
           page_url: window.location.href,
-          name: values.name.trim(),
-          company: values.company.trim() || undefined,
+          name,
+          company: company || undefined,
           phone,
           email: values.email.trim(),
           replyto: values.email.trim(),
@@ -274,19 +288,19 @@ export default function EnquiryForm({
           {fieldError("name")}
         </div>
 
-        {!compact && (
-          <div>
-            {fieldLabel("company", "Company")}
-            <input
-              id={fieldId("company")}
-              name="company"
-              autoComplete="organization"
-              value={values.company}
-              onChange={(e) => update("company", e.target.value)}
-              className={inputClass("company")}
-            />
-          </div>
-        )}
+        <div>
+          {fieldLabel("company", "Company name")}
+          <input
+            id={fieldId("company")}
+            name="company"
+            autoComplete="organization"
+            maxLength={COMPANY_MAX_LENGTH}
+            placeholder="e.g. ABC Pharma Pvt Ltd"
+            value={values.company}
+            onChange={(e) => update("company", e.target.value)}
+            className={inputClass("company")}
+          />
+        </div>
 
         <div>
           {fieldLabel("phone", "Phone with country code", true)}
