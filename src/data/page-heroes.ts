@@ -211,6 +211,7 @@ const CITY_REGISTRY: { slug: string; region: Region }[] = [
     "rajkot", "bharuch", "gandhinagar", "halol-panchmahal",
     "morbi", "jamnagar", "mundra", "kandla",
     "ghaziabad", "kanpur", "agra", "varanasi",
+    "meerut", "prayagraj", "bareilly", "moradabad",
   ].map((slug) => ({ slug, region: "india" as const })),
 ];
 

@@ -4094,7 +4094,7 @@ export const areas: AreaDef[] = [
           },
           {
             "question": "Can loggers be fixed near acids and polishing areas?",
-            "answer": "Loggers should sit away from fumes and splashes, so we advise a protected spot, with an external probe on a cable for the exposed point. Tell us about the room and we suggest positions."
+            "answer": "Loggers should sit away from fumes and splashes, so we advise a protected spot, with an external probe on a cable for the exposed point. Tell us about the room and we suggest positions for the loggers."
           }
         ],
         "nearby": [

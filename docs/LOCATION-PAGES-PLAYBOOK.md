@@ -64,9 +64,9 @@
 - **City hero pairs:** each city page's pair (`getCityHeroDevices()` in `src/data/page-heroes.ts`) is fixed by the
   registry order, never at render time, and is unique site-wide. The 10 logger photos give only 45 pairs (41 once the
   pairs held by other pages are removed), and the 41st city exhausted them. **Relaxed rule (Maharashtra hub, added with
-  the Satara, Solapur and Ratnagiri-Lote pages; Gujarat hub added with the Rajkot to Kandla pages):** once every pair is taken, a city that belongs to a state hub
+  the Satara, Solapur and Ratnagiri-Lote pages; Gujarat hub added with the Rajkot to Kandla pages; Uttar Pradesh hub added with the Ghaziabad to Moradabad pages):** once every pair is taken, a city that belongs to a state hub
   (`HUB_OF` in `page-heroes.ts`) may reuse a pair that no other city in the SAME hub shows. A city outside a hub
-  never shares a pair, and `npm run check:data` fails on any pair shared inside one hub. Maharashtra and Gujarat are in
+  never shares a pair, and `npm run check:data` fails on any pair shared inside one hub. Maharashtra, Gujarat and Uttar Pradesh are in
   `HUB_OF` so far; a future hub needs its cities added there.
 - **Implementation:** Next cannot match a partial dynamic segment, so `src/app/data-logger/[slug]` is
   the route and `next.config.ts` rewrites `/data-logger-:slug` to it.
@@ -151,6 +151,14 @@
 | Surat (`surat`) | Gujarat | Pandesara, Sachin, Hazira, the textile markets | Textile weaving and processing, dyeing chemicals, godowns, pharma stockists | Long heavy monsoon and damp river-city air | Vapi, Ankleshwar, Mumbai |
 | Delhi (`delhi`) | Delhi | Okhla, Naraina, Bawana, Narela | Hospitals, pharma distribution, food & cold storage, labs | Extreme summer heat, cold winters | Noida, Manesar, Chandigarh |
 | Noida (`noida`) | Uttar Pradesh | Noida Phase I–II, Greater Noida | Electronics manufacturing, data centres, warehousing | Extreme summer heat, cold winters | Delhi, Manesar, Lucknow |
+| Ghaziabad (`ghaziabad`) | Uttar Pradesh | Loni, Meerut Road, Kavi Nagar, Indirapuram and Vaishali (Sahibabad and Greater Noida link to their own pages) | Highway warehousing, pharma distribution, food, hospitals | Very hot summer, foggy winter, dust | Noida, Delhi, Meerut |
+| Kanpur (`kanpur`) | Uttar Pradesh | Jajmau, Panki, Dada Nagar, Naya Ganj and Collectorganj | Leather and tannery chemicals, textiles, medicine wholesale, hospitals | Fierce summer, foggy winter, damp monsoon | Lucknow, Prayagraj, Agra |
+| Agra (`agra`) | Uttar Pradesh | Foundry Nagar, Sikandra, Fatehabad Road, potato cold stores | Cold stores, footwear chemicals, hotel kitchens, sweet makers | Scorching summer, foggy winter | Noida, Lucknow, Kanpur |
+| Varanasi (`varanasi`) | Uttar Pradesh | Ramnagar, Chandpur, Madanpura and Lallapura, university hospital belt | Silk textiles, hospitals, guest-house kitchens, godowns | Humid, Ganga floods, thick winter fog | Prayagraj, Lucknow, Kanpur |
+| Meerut (`meerut`) | Uttar Pradesh | Partapur, Modipuram, sports-goods workshops, gur yards | Sports goods, jaggery and grain, pharma distribution, hospitals | Hot summer, foggy winter, humid monsoon | Ghaziabad, Noida, Delhi, Moradabad |
+| Prayagraj (`prayagraj`, also Allahabad) | Uttar Pradesh | Naini, Phulpur, Civil Lines, publishing lanes, Sangam fair grounds | Hospitals, medicine wholesale, fair-time camps, paper stores | Fierce heat, winter fog, river floods | Varanasi, Kanpur, Lucknow |
+| Bareilly (`bareilly`) | Uttar Pradesh | Bhojipura, Izatnagar, furniture and zari lanes | Furniture warehousing, research laboratories, pharma, hospitals | Hot summer, foggy winter, humid monsoon | Moradabad, Lucknow, Meerut |
+| Moradabad (`moradabad`) | Uttar Pradesh | Kanth Road, old city brass lanes, export packing, Ramganga bank | Brassware export packing, plating chemicals, hospitals | Very hot, foggy winter, humid monsoon | Meerut, Bareilly, Noida |
 | Lucknow (`lucknow`) | Uttar Pradesh | Chinhat, Amausi, Nadarganj | Hospitals, pharma distribution, food & cold storage | Hot summers, humid monsoon | Noida, Delhi, Kolkata |
 | Manesar (`manesar`) | Haryana | IMT Manesar | Auto & electronics, warehousing, pharma | Hot summers, cold winters | Delhi, Noida, Jaipur |
 | Chandigarh (`chandigarh`) | Chandigarh (UT) | Industrial Area Phase I–II, Mohali, Panchkula | Hospitals, pharma distribution, food | Hot summers, cold winters | Baddi, Delhi, Manesar |

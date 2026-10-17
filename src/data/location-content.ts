@@ -41,7 +41,7 @@ export const locationContent: Record<string, LocationContent> = {
   },
   "india/uttar-pradesh": {
     metaDescription:
-      "Temperature data loggers in Uttar Pradesh: Noida, Lucknow, Ghaziabad, Kanpur, Agra, Varanasi and more cities and areas. Get Solution.",
+      "Temperature data loggers in Uttar Pradesh: Noida, Lucknow, Kanpur, Agra, Varanasi, Meerut, Moradabad and more cities. Get Solution.",
     recommended: ["virat", "nakshatra", "dhruva"],
   },
   "india/haryana": {
