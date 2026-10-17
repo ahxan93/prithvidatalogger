@@ -77,7 +77,7 @@ export const locationContent: Record<string, LocationContent> = {
   },
   "india/himachal-pradesh": {
     metaDescription:
-      "Temperature data loggers in Himachal Pradesh: pharmaceutical plants at Baddi, Barotiwala and Nalagarh in the foothills. Get Solution.",
+      "Temperature data loggers in Himachal Pradesh: Baddi, Solan, Parwanoo, Paonta Sahib, Una and Shimla plants, stores and hospitals. Get Solution.",
     recommended: ["rajmudra", "virat", "setu"],
   },
   "india/kerala": {

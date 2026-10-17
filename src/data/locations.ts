@@ -132,7 +132,7 @@ export const locations: LegacyLocationNode[] = [
       { slug: "tamil-nadu", text: "Chennai's port-linked estates and the mills and workshops of Coimbatore, Hosur's vehicle and electronics cluster, and the cities of Madurai, Tiruchirappalli, Salem, Tiruppur, Erode, Vellore and Tuticorin." },
       { slug: "chandigarh-state", text: "The planned city and union territory, with Mohali and Panchkula beside it, serving hospitals, medicine distributors and food depots." },
       { slug: "punjab", text: "Mohali's industrial phases, technology parks, pharmaceutical units, research institutes and hospitals beside Chandigarh, where storage is held to written limits." },
-      { slug: "himachal-pradesh", text: "The foothill pharmaceutical cluster around Baddi, Barotiwala and Nalagarh, where plants work to written storage procedures." },
+      { slug: "himachal-pradesh", text: "The foothill pharmaceutical cluster around Baddi, Barotiwala and Nalagarh, where plants work to written storage procedures, together with Solan, Parwanoo, Paonta Sahib, Una and Shimla." },
       { slug: "kerala", text: "Kochi's seafood export cold chain, port warehouses, spice trade and large hospitals, all in warm, wet air." },
       { slug: "goa-state", text: "Pharmaceutical plants at Verna and Kundaim and the hotel kitchens of the coast, tested by salt air and the monsoon." },
       { slug: "rajasthan", text: "Jaipur's dairies, medicine stockists and hospitals, with the Sitapura and VKI industrial areas in a dry desert climate." },
@@ -7494,20 +7494,21 @@ export const locations: LegacyLocationNode[] = [
         name: "Himachal Pradesh",
         type: "state",
         intro:
-          "Himachal Pradesh is a hill state, but the part that matters to storage lies at its foot, where the plains begin: the pharmaceutical cluster around Baddi, Barotiwala and Nalagarh in Solan district. These are large formulation plants and their packaging suppliers, built to work to written procedures, with raw-material warehouses, finished-goods rooms and quality laboratories that each carry a stated range. The foothill climate swings through the year, from hot summers to a heavy monsoon and cold winter nights, so a store that is easy in one season strains in another. This regional page links to the Baddi city page, which holds the detail for the three estates.",
+          "Himachal Pradesh is a hill state, and its storage follows the road up from the plains. At the foot, around Baddi, Barotiwala and Nalagarh in Solan district and again at Parwanoo, Paonta Sahib and Una, pharmaceutical, packaging, steel and food units work to written limits in warm, damp air. Higher up, the mushroom growers and university laboratories of Solan and the hospitals, hotels and apple stores of Shimla deal with cold as much as with heat. Hill roads and the narrow-gauge railway slow deliveries, and winter snow can cut both power and access, so records have to survive delays. Each page below describes one town, its rooms and the loggers that suit them.",
         localIndustries: [
           "Pharmaceutical manufacturing",
           "Laboratories and quality control",
           "Packaging and allied units",
+          "Horticulture, mushrooms and hill hospitality",
         ],
-        citiesServed: ["Baddi"],
+        citiesServed: ["Baddi", "Solan", "Parwanoo", "Paonta Sahib", "Una", "Shimla"],
         supportNote:
           "Supply, installation support and site visits for Himachal Pradesh plants are arranged from our Mumbai office. Tell us the estate and the plant's storage rooms.",
         faqs: [
           {
             question: "Which Himachal Pradesh locations have a page?",
             answer:
-              "Baddi has a city page that also covers Barotiwala and Nalagarh. Other parts of the hill state are mostly outside the industrial storage we describe and have no page.",
+              "Baddi, Solan, Parwanoo, Paonta Sahib, Una and Shimla have city pages, and the Baddi page also covers Barotiwala and Nalagarh. Other parts of the hill state have no page of their own yet.",
           },
           {
             question: "Why are three estates covered on one page?",
@@ -7522,6 +7523,11 @@ export const locations: LegacyLocationNode[] = [
         ],
         listing: [
           { slug: "baddi", text: "A foothill pharmaceutical cluster with Barotiwala and Nalagarh, where formulation plants keep warehouses and quality laboratories to written limits." },
+          { slug: "solan", text: "The district town on the road to Shimla, with a mushroom research centre, a horticulture university, vegetable growers and highway depots." },
+          { slug: "parwanoo", text: "The first town above the plains, with industrial units, overnight transport yards at the foot of the climb and roadside hotels." },
+          { slug: "paonta-sahib", text: "A Yamuna-bank town on the Uttarakhand border with pharmaceutical, paper and engineering units, pilgrim kitchens and border-road godowns." },
+          { slug: "una", text: "A warm foothill district beside Punjab with Gagret, Mehatpur, Bathri and Haroli estates of steel, food and packaging units." },
+          { slug: "shimla", text: "The hill capital of hospitals, hotels, apple cold stores and mountain-road deliveries, where freezing is as likely a danger as heat." },
         ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,
@@ -7616,6 +7622,491 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Baddi | Prithvi",
             metaDescription:
               "WiFi and GSM temperature data loggers for Baddi, Barotiwala and Nalagarh pharma plants and laboratories, with site visits. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "solan",
+            name: "Solan",
+            type: "city",
+            intro:
+              "Solan is the district town on the road up from Kalka to Shimla, set on the first ridges of the hills, and it is known for mushrooms, horticulture and a university campus as much as for factories. A national mushroom research centre sits at Chambaghat, a horticulture and forestry university stands at Nauni, and farmers in the surrounding hills grow tomatoes, capsicum and other off-season vegetables for the plains. An old brewery, small units at Kumarhatti and along the highway, and the hospitals and schools of a busy hill town complete the picture. A temperature data logger in Solan therefore protects cultures and spawn in research cold rooms, vegetables and mushrooms waiting for a truck, medicines in the town's pharmacies and goods held at roadside depots. Prithvi supplies WiFi loggers for rooms and GSM loggers for vehicles and sheds beyond a router.",
+            climateAngle:
+              "The air is temperate and damp for much of the year, the monsoon is heavy on the ridges, and winter nights fall cold enough to freeze water in unheated sheds, so stores need a low limit as well as a high one.",
+            areas: [
+              {
+                name: "Chambaghat research and mushroom units",
+                note: "The national mushroom research centre and the growers and spawn makers around it keep cultures, spawn and fresh produce in cold rooms and incubators that must hold a narrow range.",
+              },
+              {
+                name: "Nauni university campus",
+                note: "The horticulture and forestry university runs laboratories, seed and sapling stores and fruit-handling rooms that hold samples and produce for long field trials.",
+              },
+              {
+                name: "Kumarhatti and the highway depots",
+                note: "Small industrial units, transport yards and godowns beside the national highway hold goods that change vehicles before the climb to Shimla or the descent to the plains.",
+              },
+              {
+                name: "Vegetable growers' collection points",
+                note: "Farmers bring tomatoes, capsicum and other vegetables from the surrounding hills to collection yards where crates wait for a truck bound for the plains.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Mushroom growers, vegetable traders and small food makers hold produce that spoils soon after a cooling failure, so a phone alert from a cold room matters most at night and in the picking season.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "Research laboratories hold cultures, spawn, seed and samples in cold rooms and incubators, and a logged record shows a supervisor or a funder that conditions held across holidays and field seasons.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The regional hospital and private clinics of a hill town keep vaccines and medicines in refrigerators that must also survive winter power cuts and slow roads for deliveries.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Depots along the highway hold goods between the plains and the hills, and a logger in a consignment records how long it stood in a vehicle in the sun or the cold.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels, one at each end of a mushroom cold room, show whether the whole room holds its range or only the part nearest the unit.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a culture room or a produce store, where moisture in the air matters as much as the thermometer.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a truck on the hill road or reports from a collection yard with no Wi-Fi, which suits produce travelling to the plains.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can loggers help a mushroom grower in Solan?",
+                answer:
+                  "A temperature and humidity record from the growing and cold rooms shows how a crop was held, and an alert on a drifting reading reaches the grower's phone while the crop can still be saved.",
+              },
+              {
+                question: "Does the cold of winter affect where a logger can be placed?",
+                answer:
+                  "Loggers are kept away from outer walls and doors where the night cold bites, and a low-limit alert is set next to the high one, so a shed that drops toward freezing is flagged as readily as a warm afternoon.",
+              },
+              {
+                question: "Do you visit Kumarhatti and the units along the highway?",
+                answer:
+                  "Send the place, the unit and a contact through the enquiry form, WhatsApp or a call, and we confirm how a visit would be arranged for the units along the national highway around Solan.",
+              },
+              {
+                question: "Can a hill depot with weak signal be watched?",
+                answer:
+                  "A logger stores readings on its battery when the signal drops and sends them when it returns, and a SIM-based Vayu logger can be chosen where the building has no Wi-Fi at all.",
+              },
+            ],
+            nearby: [
+              { slug: "parwanoo", name: "Parwanoo" },
+              { slug: "shimla", name: "Shimla" },
+              { slug: "baddi", name: "Baddi" },
+            ],
+            metaTitle: "Temperature Data Loggers in Solan | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Solan's mushroom cold rooms, university labs, vegetable depots and hill hospitals. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "parwanoo",
+            name: "Parwanoo",
+            type: "city",
+            intro:
+              "Parwanoo is the first town of Himachal Pradesh on the road from Chandigarh and Panchkula, standing at the foot of the climb to Solan and Shimla just beyond the Haryana border at Kalka. Its industrial area holds pharmaceutical, packaging, electronics and food-processing units, and its position makes it a staging point for trucks that will not climb the hills until morning. Hotels and resorts beside the highway cater to travellers heading uphill, and the town's clinics and shops serve the valley around. A temperature data logger in Parwanoo therefore watches factory stores and transport depots together: ingredient rooms in food and drug units, cartons and components in dry stores, and loads that wait in vehicles at the foot of the hills. Prithvi supplies WiFi and GSM loggers, with alerts to phones and email wherever the owner is.",
+            climateAngle:
+              "The valley floor is hot in summer and damp in the monsoon, while the hills above are cooler and often foggy, so a load can pass from one climate to another in a single morning's drive.",
+            areas: [
+              {
+                name: "Parwanoo industrial area",
+                note: "A planned industrial area of pharmaceutical, packaging, electronics and food units on plots of mixed size, each running its own raw-material stores and dispatch bays.",
+              },
+              {
+                name: "Highway transport yards at the foot of the climb",
+                note: "Trucks wait here overnight before the hill road, and goods change vehicles from plains carriers to those fitted for the climb, standing in yards in hot sun or damp air.",
+              },
+              {
+                name: "Resorts and roadside hotels",
+                note: "Hotels and restaurants serving travellers on the way to the hill stations keep walk-in coolers, freezers and bakery stores that work hardest in the tourist months.",
+              },
+              {
+                name: "Fruit and juice processing stores",
+                note: "Small processors handle fruit from the surrounding hills, holding pulp, juice and packed goods in rooms that must stay cool in the warm lower valley.",
+              },
+            ],
+            industries: [
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Small drug and packaging units hold ingredients and packs in rooms that customers review, and a continuous record sits beside the batch file as evidence the limit held.",
+              },
+              {
+                slug: "electronics",
+                sentence:
+                  "Electronics units keep components and finished goods in dry stores, and a humidity trend shows a buyer how the lot was held through the monsoon before dispatch.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Fruit processors, bakeries and hotel kitchens hold stock that suffers in warm air, and an alert on a warming cooler gives the cook or the manager time to move the food.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Transport firms and warehouse operators at the foot of the climb hold goods overnight, and a reading for each bay settles questions about where a pallet was stored.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels spread through a transit warehouse at racks and dock doors show which positions run warm while the loads wait for the climb.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a component store or a bakery, where damp air from the monsoon is the main danger to the stock.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a truck climbing to the hills or waiting in a yard without Wi-Fi, which suits loads moving between the plains and Shimla.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a logger ride with a load that climbs to the hills?",
+                answer:
+                  "A SIM-based Vayu logger packed into the load records on its battery and sends readings over the mobile network where there is signal, storing them where there is none, and the report can be exported when the truck arrives.",
+              },
+              {
+                question: "How would you plan a visit to a unit in the Parwanoo industrial area?",
+                answer:
+                  "Send the plot, the unit and the person who controls the gate. Most units register visitors in advance, so we plan the day around that and your safety rules, and we start with the stores your customers look at first.",
+              },
+              {
+                question: "Can one account cover a factory in Parwanoo and a depot in Panchkula?",
+                answer:
+                  "Each place is a site with its own alert recipients, whichever state it stands in, so an owner can open both in one list and export a report for any room.",
+              },
+              {
+                question: "Does the foothill damp change where probes are placed?",
+                answer:
+                  "We keep humidity-reading loggers away from outer walls and doors where condensation forms, and add a second probe at the far end of a room to show how far the damp reaches.",
+              },
+            ],
+            nearby: [
+              { slug: "solan", name: "Solan" },
+              { slug: "baddi", name: "Baddi" },
+              { slug: "panchkula", name: "Panchkula" },
+              { slug: "chandigarh", name: "Chandigarh" },
+            ],
+            metaTitle: "Temperature Data Loggers in Parwanoo | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Parwanoo's industrial units, transport yards, fruit processors and hotels. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "paonta-sahib",
+            name: "Paonta Sahib",
+            type: "city",
+            intro:
+              "Paonta Sahib stands on the bank of the Yamuna in Sirmaur district, where Himachal Pradesh meets Uttarakhand, and it is known for its great gurdwara as much as for the industrial area that has grown beside the river. Pharmaceutical units, paper and packaging makers and engineering workshops fill the estate, and the road links the town to Dehradun on one side and to the plains of Haryana on the other. Pilgrims and traders pass through in large numbers, so hotels, sweet shops and food stores keep stock under heavy demand. A temperature data logger in Paonta Sahib therefore protects ingredient and finished-goods rooms in drug plants, paper and board in damp sheds and the coolers of the hospitality trade. Prithvi supplies WiFi loggers for rooms with a network and GSM loggers for vehicles and sites without one.",
+            climateAngle:
+              "The Yamuna valley is warmer than the hills above it, with hot, humid summers, a heavy monsoon and mild winters, so damp and heat are the larger risks and the river air adds moisture to riverside stores.",
+            areas: [
+              {
+                name: "Paonta Sahib industrial area",
+                note: "A planned estate with pharmaceutical, paper, packaging and engineering units on plots of mixed size, where raw-material stores and dispatch bays stand beside the production floors.",
+              },
+              {
+                name: "Kala Amb and the neighbouring estate",
+                note: "A second industrial area a short drive away holds more factories and godowns on the same road system, which suits a shared visit plan and common alert rules.",
+              },
+              {
+                name: "Yamuna-side godowns and the border road",
+                note: "Warehouses and transport yards on the road toward Dehradun and Haryana hold goods crossing the state boundary, in air that carries moisture from the river.",
+              },
+              {
+                name: "Gurdwara town centre",
+                note: "Hotels, guest houses, sweet makers and langar kitchens serve crowds of pilgrims, with walk-in coolers and bulk stores that are busiest around festivals.",
+              },
+            ],
+            industries: [
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Drug units keep ingredient stores and finished-goods rooms to written limits, and a record that survives a shift change answers a customer's reviewer without a search through logbooks.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Paper and packaging makers hold coatings, adhesives and process chemicals with printed storage limits, and an alert from a warm shed lets the storekeeper move drums before a limit is crossed.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Sweet makers, hotels and community kitchens cook and store food for large gatherings, and a cooler left open overnight should raise an alarm before the food is lost.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Warehouses on the border road hold goods moving between Himachal Pradesh, Uttarakhand and Haryana, and a logger in the load records how long it stood in a yard.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels let one logger watch several rooms of a drug plant, such as a raw-material store, a packing hall and a quality cabinet, on a single line each.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a paper or board store beside the river, where damp air reaching the stock is the danger.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger travels with goods across the state border or reports from a yard without Wi-Fi, which suits loads leaving the estate.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Do you cover Kala Amb as well as Paonta Sahib?",
+                answer:
+                  "Yes. Send the estate, the unit and a contact through the enquiry form, WhatsApp or a call, and we propose an order for the plants along the same roads that suits their gate rules and shifts.",
+              },
+              {
+                question: "How does river air change where probes are placed?",
+                answer:
+                  "We keep humidity-reading loggers away from walls and doors that face the valley, where damp settles first, and add a second probe at the far end of the store to show how far the moisture reaches.",
+              },
+              {
+                question: "Can a plant keep a record for a customer's review?",
+                answer:
+                  "A report can be exported by room and date, limits and alert contacts are set room by room to follow the written storage rules, and VEGA Calibrations, our parent company, calibrates the loggers when a reviewer asks.",
+              },
+              {
+                question: "Can a community kitchen watch its coolers during a festival?",
+                answer:
+                  "Each cooler or freezer is a named point with its own alert contact, so a kitchen manager sees all of them on a phone, and a door left open in a crowded service is flagged while the food can still be saved.",
+              },
+            ],
+            nearby: [
+              { slug: "solan", name: "Solan" },
+              { slug: "baddi", name: "Baddi" },
+            ],
+            metaTitle: "Temperature Data Loggers in Paonta Sahib | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Paonta Sahib's pharma, paper and engineering units, border-road godowns and kitchens. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "una",
+            name: "Una",
+            type: "city",
+            intro:
+              "Una lies in the low hills and plain on the Punjab side of Himachal Pradesh, close to the border and to the roads and railway that run to Chandigarh and Delhi, and its industrial areas at Gagret, Mehatpur, Bathri and Haroli have drawn steel, food, packaging and engineering units over the years. Much of the town's trade looks across the boundary to Punjab, and goods move by road in both directions all day. A temperature data logger in Una therefore watches rolling-mill stores, ingredient rooms in food units, packaging stores, transport depots and the pharmacies of a district town. Heat is the main enemy: this is one of the warmest parts of the state, and a shed with a metal roof can become a danger to stock by May. Prithvi supplies WiFi and GSM loggers, with alerts that reach a phone or an inbox.",
+            climateAngle:
+              "The district is among the warmer parts of the state, with hot, dry summers, a heavy monsoon and cool winters, so roof heat in the months before the rains is the largest risk to stored goods.",
+            areas: [
+              {
+                name: "Gagret and Mehatpur industrial areas",
+                note: "Estates with steel, food and engineering units on plots of mixed size, where one owner may run a mill store, a packing room and a dispatch bay a short walk apart.",
+              },
+              {
+                name: "Bathri and Haroli estates",
+                note: "Further industrial areas with packaging, processing and manufacturing units, where factory sheds stand beside farmland and stores heat up under metal roofs.",
+              },
+              {
+                name: "Punjab border road depots",
+                note: "Transport yards and godowns along the roads toward Punjab hold goods that cross the state boundary and wait for loads to be matched to vehicles.",
+              },
+              {
+                name: "District hospital and pharmacy belt",
+                note: "The regional hospital and the pharmacies and clinics of the town keep vaccines and medicines in refrigerators that serve villages across a wide area.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Food and beverage units and bottling stores hold ingredients and finished stock that suffer in the dry heat, and a temperature record shows an owner when a lot began to warm.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Steel and packaging units hold coatings, lubricants and adhesives with printed storage limits, and an alert from a hot shed lets the storekeeper act before a batch is spoiled.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Godown operators on the border roads hold cartons and bags for traders in two states, and a reading for each bay shows where a consignment spent its time.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The regional hospital and private clinics keep vaccines and blood components in refrigerators that must survive summer power cuts, and a phone alert shows which unit is drifting.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels spread through a long mill or packing shed at different heights show how much hotter the roofline runs than the floor.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels at the top and bottom of a food store give a paired record that shows whether heat collects under the roof.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a lorry crossing the border or reports from a depot without Wi-Fi, which suits goods moving between Una and Punjab.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Do you visit Gagret, Mehatpur, Bathri and Haroli?",
+                answer:
+                  "Send the estate, the unit and the person who controls the gate through the enquiry form, WhatsApp or a call, and we confirm how a visit would be arranged for each of the industrial areas around Una.",
+              },
+              {
+                question: "How should a logger be placed in a shed with a metal roof?",
+                answer:
+                  "We keep loggers out of direct sun and away from hot roofs and walls, and add a second probe near the floor, so a report shows how much hotter the upper stock runs than the lower.",
+              },
+              {
+                question: "Can a firm with units in Una and in Punjab watch both?",
+                answer:
+                  "Each unit becomes a site with its own alert recipients, whichever state it stands in, so an owner can open both in one list and export a report for any room.",
+              },
+              {
+                question: "What happens to the record during a summer power cut?",
+                answer:
+                  "A logger carries on recording from its own battery, uploads the stored readings when the network is back, and can warn the person in charge that the supply has been lost.",
+              },
+            ],
+            nearby: [
+              { slug: "chandigarh", name: "Chandigarh" },
+              { slug: "mohali", name: "Mohali" },
+              { slug: "baddi", name: "Baddi" },
+            ],
+            metaTitle: "Temperature Data Loggers in Una | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Una's Gagret and Mehatpur units, steel and food stores, border depots and hospitals. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "shimla",
+            name: "Shimla",
+            type: "city",
+            intro:
+              "Shimla is the capital of Himachal Pradesh, built along a ridge at the end of the road and the narrow-gauge railway from Kalka, and its storage serves government offices, a large medical college and hospital, hotels that fill in summer and winter, and the apple and fruit growers of the surrounding hills. Neighbourhoods such as Sanjauli, Dhalli and Chhota Shimla hold markets, clinics and guest houses on steep slopes where deliveries arrive by narrow road. A temperature data logger in Shimla therefore watches different risks than most cities: freezing in winter stores and vehicles, heat only in the odd warm spell, apples and other fruit held in cold and controlled-atmosphere stores, vaccines in hospital refrigerators and kitchens in hotels. Prithvi supplies WiFi loggers for rooms and GSM loggers for vehicles on the mountain road.",
+            climateAngle:
+              "Summers are cool, the monsoon is heavy with landslides on the roads, and winters bring snow and temperatures that fall below freezing, so the danger to stored goods is as often cold as heat.",
+            areas: [
+              {
+                name: "Medical college and hospital area",
+                note: "The state's medical college and its hospital, with clinics and pharmacies around them on the ridge, keep vaccines, blood components and medicines in many refrigerators serving the whole state.",
+              },
+              {
+                name: "Sanjauli, Dhalli and Chhota Shimla",
+                note: "Residential and market districts on the slopes hold clinics, shops, guest houses and small stores, where stock arrives by narrow road and freezing nights can reach unheated rooms.",
+              },
+              {
+                name: "Fruit cold and controlled-atmosphere stores",
+                note: "Apple and other fruit from the surrounding hills are held in cold stores around the town before they go to the plains, and a warm spell shortens the keeping life of the whole lot.",
+              },
+              {
+                name: "Mall Road hotels and kitchens",
+                note: "Hotels, restaurants and bakeries serving visitors keep walk-in coolers and freezers that work hardest in the tourist seasons, in buildings with little space for equipment.",
+              },
+            ],
+            industries: [
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The medical college hospital and the clinics of the ridge keep vaccines and blood components in many refrigerators, and winter snow can cut both the power and the road for deliveries.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Fruit growers, hotel kitchens and bakeries hold stock that suffers from freezing as much as from warmth, and a record with both a high and a low limit shows when a store left its range.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine wholesalers supplying hill chemists hold stock in stores that can chill below their printed limits in winter, and a low-limit alert warns the owner before a lot freezes.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Carriers on the mountain road carry goods that spend hours in cold or sun between the plains and the capital, and a logger in the load records the whole climb.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an external probe fits a hospital refrigerator or a hotel cooler where little space is spare and a simple record is enough.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels at each end of a fruit cold store show whether the whole room holds its range or only the part nearest the unit.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a vehicle on the mountain road or reports from a hill store with no Wi-Fi, which suits goods climbing from the plains.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Do loggers cope with freezing temperatures in Shimla's winter?",
+                answer:
+                  "We choose loggers and probes rated for the range, keep them away from doors and outer walls where the night cold bites, and set a low-limit alert next to the high one so a store that drops toward freezing is flagged.",
+              },
+              {
+                question: "How would a visit to a ridge-side building be planned?",
+                answer:
+                  "Send the building, the neighbourhood and a contact. Narrow roads and one-way traffic can affect arrival times, so we agree a day and a meeting point with you in advance and keep the visit short.",
+              },
+              {
+                question: "Can a logger help an apple grower or cold-store owner?",
+                answer:
+                  "A temperature record from the cold room can be exported by lot and date, so an owner can show a buyer how the fruit was held, and an alert on a rising reading reaches a phone while the stock can still be moved.",
+              },
+              {
+                question: "What if the signal is weak in a hill building?",
+                answer:
+                  "A logger stores readings on its battery and sends them when the signal returns, and where a building has no Wi-Fi we can use a SIM-based Vayu logger on the mobile network.",
+              },
+            ],
+            nearby: [
+              { slug: "solan", name: "Solan" },
+              { slug: "parwanoo", name: "Parwanoo" },
+              { slug: "chandigarh", name: "Chandigarh" },
+            ],
+            metaTitle: "Temperature Data Loggers in Shimla | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Shimla's hospitals, apple cold stores, hotels and mountain-road deliveries. Get Solution.",
             indexable: true,
           },
         ],
