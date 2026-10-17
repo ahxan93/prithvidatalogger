@@ -46,7 +46,7 @@ export const locationContent: Record<string, LocationContent> = {
   },
   "india/haryana": {
     metaDescription:
-      "Temperature data loggers in Haryana: Gurugram, Faridabad, Manesar, Panipat, Sonipat and more cities and industrial areas. Get Solution.",
+      "Temperature data loggers in Haryana: Gurugram, Faridabad, Manesar, Panipat, Karnal, Hisar and more cities and industrial areas. Get Solution.",
     recommended: ["veer", "rajmudra", "vayu"],
   },
   "india/telangana": {

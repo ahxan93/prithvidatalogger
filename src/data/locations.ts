@@ -4132,21 +4132,22 @@ export const locations: LegacyLocationNode[] = [
         name: "Haryana",
         type: "state",
         intro:
-          "Haryana surrounds the capital on three sides, and its storage falls into two broad belts. Around the capital sit Gurugram and Faridabad, Manesar's large plants and highway warehouses, and Sonipat and Panipat along the Grand Trunk Road to the north, where towns make everything from auto parts and packed food to blankets and refined fuels. Further out, the grain and dairy towns of the plains and the steel and instrument towns of the north hold stocks that are checked by buyers and research bodies. Summers are hot and dry, the monsoon is humid and winter nights are cold and foggy. The pages below describe each place and the loggers we suggest for it.",
+          "Haryana surrounds the capital on three sides, and its storage falls into two broad belts. Around the capital sit Gurugram and Faridabad, Manesar's large plants and highway warehouses, and Sonipat and Panipat along the Grand Trunk Road to the north, where towns make everything from auto parts and packed food to blankets and refined fuels. Further out, Rohtak, Hisar, Karnal and Ambala hold hospitals, research campuses, rice and grain stores, steel works and instrument workshops that buyers and research sponsors inspect. Summers are hot and dry, the monsoon is humid and winter nights are cold and foggy. The pages below describe each place and the loggers we suggest for it.",
         localIndustries: [
           "Automotive and electronics",
           "Warehousing and distribution",
           "Textiles and home furnishing",
-          "Pharmaceutical manufacturing",
+          "Rice, grain and dairy processing",
+          "Research laboratories and hospitals",
         ],
-        citiesServed: ["Manesar", "Gurugram", "Faridabad", "Panipat", "Sonipat"],
+        citiesServed: ["Manesar", "Gurugram", "Faridabad", "Panipat", "Sonipat", "Rohtak", "Hisar", "Ambala", "Karnal"],
         supportNote:
           "Supply, installation support and site visits for Haryana plants are arranged from our Mumbai office. Tell us the plant and the stores to look at.",
         faqs: [
           {
             question: "Which Haryana locations have a page?",
             answer:
-              "Manesar, Gurugram, Faridabad, Panipat and Sonipat have city pages. More of the state will follow, and the capital region pages cover places across the border.",
+              "Manesar, Gurugram, Faridabad, Panipat, Sonipat, Rohtak, Hisar, Ambala and Karnal have city pages. More of the state will follow, and the capital region pages cover places across the border.",
           },
           {
             question: "Why is Manesar treated as a separate city page from Gurugram?",
@@ -4165,6 +4166,10 @@ export const locations: LegacyLocationNode[] = [
           { slug: "faridabad", text: "The NIT and Ballabgarh engineering, component and electrical-goods works, with coating stores and highway warehouses on the Mathura Road." },
           { slug: "panipat", text: "Blanket, rug and home-furnishing mills and export godowns, with chemical suppliers around the refinery and petrochemical complex." },
           { slug: "sonipat", text: "The Kundli, Rai and Barhi estates of food, packaging and engineering units and distribution warehouses beside the capital's northern border." },
+          { slug: "rohtak", text: "A medical institute, a university, medicine stockists, grain markets and small factories west of Delhi on the Hisar highway." },
+          { slug: "hisar", text: "Steel and galvanised-iron works, an agricultural university with research stations, and oilseed and cotton godowns in the dry west." },
+          { slug: "ambala", text: "The cantonment and the old city on the Grand Trunk Road, with laboratory-instrument workshops, hospitals and a busy railway junction." },
+          { slug: "karnal", text: "Basmati rice mills at Taraori, grain godowns and national research institutes for dairy, wheat and soil on the highway." },
         ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,
@@ -4547,6 +4552,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             nearby: [
               { slug: "sonipat", name: "Sonipat" },
+              { slug: "karnal", name: "Karnal" },
               { slug: "delhi", name: "Delhi" },
             ],
             metaTitle: "Temperature Data Loggers in Panipat | Prithvi",
@@ -4644,10 +4650,396 @@ export const locations: LegacyLocationNode[] = [
             nearby: [
               { slug: "delhi", name: "Delhi" },
               { slug: "panipat", name: "Panipat" },
+              { slug: "rohtak", name: "Rohtak" },
             ],
             metaTitle: "Temperature Data Loggers in Sonipat | Prithvi",
             metaDescription:
               "WiFi and GSM temperature data loggers for Sonipat's Kundli, Rai and Barhi units, food and packaging stores and warehouses. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "rohtak",
+            name: "Rohtak",
+            type: "city",
+            intro:
+              "Rohtak lies west of Delhi on the highway towards Hisar, and it works as the district town for a wide farming region while also holding a medical institute, a university and a ring of small factories. Its storage is a blend of the clinical and the commercial: wards, pharmacies and laboratories around the large government medical institute, medicine stockists who supply smaller towns, grain and vegetable markets, and workshops and engineering units in the industrial estates on the Delhi side. A temperature data logger in Rohtak therefore guards vaccines and reagents in one lane and sacks of produce or packed goods in the next. Many of these stores are staffed by a small team on fixed shifts, and a reading that arrives on a phone after hours is more useful than one found at the next morning's round. Prithvi supplies WiFi and GSM loggers for rooms and vehicles alike.",
+            climateAngle:
+              "The plains here are very hot and dry through the long summer, the monsoon turns the air humid for a spell, and winter nights are cold with fog that delays supply vans on the highway.",
+            areas: [
+              {
+                name: "PGIMS and the hospital belt",
+                note: "The large government medical institute and the hospitals, pharmacies and diagnostic laboratories around it keep vaccines, blood components and reagents in many refrigerators that must hold their limits through power cuts.",
+              },
+              {
+                name: "Maharshi Dayanand University campus",
+                note: "Teaching and research laboratories on the campus store samples, chemicals and cultures in freezers and cabinets, some of them in buildings that stand empty at night and on holidays.",
+              },
+              {
+                name: "IMT Rohtak and the industrial estates",
+                note: "Engineering workshops, component makers and packing units on the Delhi side of the city store paints, lubricants and packed goods in sheds of mixed age and size.",
+              },
+              {
+                name: "Grain and vegetable markets",
+                note: "Traders hold sacks of grain and baskets of produce in godowns and market yards, where damp air and midday sun decide how long the stock stays sound.",
+              },
+            ],
+            industries: [
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals around the medical institute rely on blood storage units and vaccine refrigerators on every floor, and a phone alert after a power cut lets the duty technician move stock to a cooler unit in time.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "University and diagnostic laboratories hold samples and reagents in freezers and incubators, and a logged record shows a research sponsor or an examiner that the conditions held through weekends and holidays.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine stockists in the city supply chemists across a wide rural area, and a record from each store shows that tablets and injectables stayed within the printed limits before they left on a van.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Packed-food makers and grain traders hold stock in warm sheds, and a humidity and temperature trend shows when a damp spell has begun to threaten sacks and cartons.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels let one logger watch a row of refrigerators in a hospital pharmacy or a laboratory corridor and report each unit separately.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels, one near the top and one near the bottom of a medicine store, show whether warm air collects above the lower shelves.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a supply van or reports from a village depot with no Wi-Fi, which suits medicines and vaccines going out into the district.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can several refrigerators in a Rohtak hospital be watched together?",
+                answer:
+                  "Each ward, pharmacy or laboratory can be set up as a named location with its own alert contacts, so the duty technician sees a drifting unit on the phone and the pharmacist sees the full list on a desktop.",
+              },
+              {
+                question: "What happens to the record when the power fails?",
+                answer:
+                  "Loggers keep recording on their batteries and send the stored readings when the network returns, and an alert for the lost mains supply can go to the person responsible for the room.",
+              },
+              {
+                question: "How do you plan a visit to a store in a market yard or an estate?",
+                answer:
+                  "Send the market, the lane or the plot, the rooms to look at and a person who will meet us. We agree the day around trading hours or shift times, and we choose positions for the loggers on site before any are fixed.",
+              },
+              {
+                question: "Can a logger be shared between a lab and its backup freezer?",
+                answer:
+                  "A multi-channel logger can watch a main freezer and its standby unit through two probes, and one report then shows whether both held their limits when the first one failed.",
+              },
+            ],
+            nearby: [
+              { slug: "sonipat", name: "Sonipat" },
+              { slug: "delhi", name: "Delhi" },
+              { slug: "hisar", name: "Hisar" },
+            ],
+            metaTitle: "Temperature Data Loggers in Rohtak | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Rohtak's hospitals, laboratories, medicine stockists, grain markets and industrial estates. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "hisar",
+            name: "Hisar",
+            type: "city",
+            intro:
+              "Hisar stands in the dry western part of Haryana and combines heavy metal industry with a large farm-science base. Steel and galvanised-iron works fill its industrial areas, while an agricultural university and national research centres for buffaloes and horses give the town laboratories, seed stores, animal-health stores and veterinary cold rooms that few cities of its size possess. Cotton, oilseed and grain from the surrounding farms pass through its markets and mills. A temperature data logger in Hisar is therefore as likely to guard a vaccine refrigerator in a research farm as the coolers of a food business or a chemical store at a steel unit. The summer here is fierce, and a store that is comfortable in March can be dangerous by May. Prithvi supplies WiFi loggers for rooms with a network and GSM loggers for farm stores and vehicles, with alerts to phones and email.",
+            climateAngle:
+              "Summers are fierce and dry with hot winds, the monsoon is short and winter brings cold nights and fog, so a shed or a room can pass from one extreme to the other within a single year.",
+            areas: [
+              {
+                name: "Steel and galvanised-iron works",
+                note: "Metal processing units in the industrial areas keep coatings, acids, lubricants and finished coils in sheds under tin roofs that radiate heat through the afternoon.",
+              },
+              {
+                name: "Agricultural university and research campuses",
+                note: "The farm university and the national research centres hold seed, serum, semen and vaccines in cold rooms and freezers that must keep to written protocols for years at a stretch.",
+              },
+              {
+                name: "Cotton, oilseed and grain markets",
+                note: "Mills and traders hold cotton bales, oil and sacked grain in godowns where heat and damp air can spoil stock between one sale and the next.",
+              },
+              {
+                name: "City hospitals and clinics",
+                note: "Hospitals, nursing homes and laboratories keep vaccines, blood components and medicines in refrigerators that serve patients from many surrounding districts.",
+              },
+            ],
+            industries: [
+              {
+                slug: "laboratories",
+                sentence:
+                  "Research stations and university laboratories keep seed, serum and biological samples in cold rooms and freezers, and a continuous log gives a sponsor the evidence that conditions held through the hottest months.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Steel and galvanising units hold acids, zinc and coatings with printed storage limits, and an alert on a heated store gives the supervisor time to move drums before the label is breached.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Oil mills, dairies and grain traders hold stock that suffers in heat and damp, and a record from each godown helps owners decide when to ventilate, move or sell.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals and blood storage units in the city serve a wide rural area, and alerts on a phone mean a failed refrigerator is noticed at night and not at the morning round.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels watch a research cold room at its top and bottom, giving a paired record for a sponsor who wants evidence from both positions.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels spread through a long oilseed or cotton godown at different heights show where the stock sits in the heat and where it stays cooler.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger reports from a farm store or a vehicle far from any building Wi-Fi, which suits vaccines and samples that travel out to the district.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can loggers cope with Hisar's summer heat?",
+                answer:
+                  "Loggers are rated for a wide range, and we place them out of direct sun and away from metal roofs and hot walls so that the reading reflects the stored goods and not the shed. We also suggest a high-temperature alert that fires early, while there is still time to act.",
+              },
+              {
+                question: "Can a research campus keep records that match its written protocols?",
+                answer:
+                  "Limits, alert contacts and report intervals are set room by room to follow the written protocol, and a report for any period can be exported for a supervisor or a sponsor.",
+              },
+              {
+                question: "How is a store on a farm or an outlying depot connected?",
+                answer:
+                  "Where a store has a router we use a WiFi logger, and where it has none a SIM-based Vayu logger reports over the mobile network, so a depot in an outlying village can sit on the same dashboard as a town laboratory.",
+              },
+              {
+                question: "Can mapping help in a large godown before loggers are fixed?",
+                answer:
+                  "VEGA Calibrations, our parent company, delivers temperature mapping, which shows the warm and cold positions in a large godown so that permanent loggers can be placed where they matter.",
+              },
+            ],
+            nearby: [
+              { slug: "rohtak", name: "Rohtak" },
+              { slug: "delhi", name: "Delhi" },
+            ],
+            metaTitle: "Temperature Data Loggers in Hisar | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Hisar's steel works, research campuses, oilseed godowns and hospitals, set up with site visits. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "ambala",
+            name: "Ambala",
+            type: "city",
+            intro:
+              "Ambala is a double town: Ambala City, an old trading centre, and Ambala Cantonment, the army and air force station with its railway junction, wide roads and barracks. It stands on the Grand Trunk Road where the routes to Delhi, Punjab and the hills divide, and it is widely associated with scientific instruments, with many small firms making laboratory and school equipment. A temperature data logger in Ambala therefore guards a mix of stores: a medical store or ration depot in the cantonment, an instrument workshop's finished stock, a trader's godown in the city and the refrigerators of hospitals that serve a wide hinterland. The highway and the junction bring goods in at all hours, and stock often waits in a vehicle or a siding. Prithvi supplies WiFi loggers for rooms and GSM loggers for goods in transit, and alerts reach a phone or an inbox.",
+            climateAngle:
+              "The town lies near the foothills, so the monsoon is heavier than on the drier plains further south, summers are hot and winter nights are cold with dense fog that stalls the highway and the railway.",
+            areas: [
+              {
+                name: "Ambala Cantonment",
+                note: "The station area has military and civil hospitals, supply depots and shops that serve a large resident population, and stores there often follow written procedures that need a continuous record.",
+              },
+              {
+                name: "Instrument and laboratory-equipment workshops",
+                note: "Small firms make scientific instruments and laboratory goods in workshops and stores around the city, and finished stock waits for dispatch in rooms that can turn damp in the monsoon.",
+              },
+              {
+                name: "Ambala City trading lanes and godowns",
+                note: "Wholesalers of grain, spices, medicines and general goods hold stock in crowded godowns in the older city, where airflow is poor and several traders may share one building.",
+              },
+              {
+                name: "Mullana medical college belt",
+                note: "A large medical college and teaching hospital east of the city hold vaccines, blood components and laboratory reagents in many units that serve patients from nearby districts.",
+              },
+            ],
+            industries: [
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Cantonment and civil hospitals and the teaching hospital near Mullana keep blood components and vaccines in many refrigerators, and an alert to a technician's phone matters most at night and during a power cut.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "Instrument makers and college laboratories hold reagents, calibration standards and sensitive devices in stores where humidity matters, and a logged trend shows a buyer how the goods were kept before dispatch.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "The junction and the highway make Ambala a transfer point where goods change vehicles and wagons, and a logger in the consignment records the time it spent waiting in the open.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine wholesalers in the city supply chemists across several districts, and a record from each store shows that stock was held within its printed limits before it left on a van.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at a single point suit an instrument store or a reagent cabinet, where damp air during the monsoon is the main risk.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels let one logger watch several refrigerators in a hospital pharmacy or a blood bank and report each unit on its own line.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger travels with a consignment or reports from a siding or depot without Wi-Fi, which suits goods waiting at the junction.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can loggers be installed in cantonment stores?",
+                answer:
+                  "Entry to the cantonment follows its own rules, so send the store, the unit or office that controls it and a person who will arrange our entry. We plan a visit around those arrangements and your safety rules, and we agree the positions on the day.",
+              },
+              {
+                question: "Which logger suits an instrument store with no air conditioning?",
+                answer:
+                  "A temperature and humidity logger such as Nakshatra shows when damp monsoon air has reached the shelves, and the trend tells the owner when to dry the room or move the stock higher.",
+              },
+              {
+                question: "Can one account cover Ambala City and the cantonment?",
+                answer:
+                  "Each store becomes a site with its own alert contacts, so an owner with a godown in the city and a depot in the cantonment can see both on a single dashboard.",
+              },
+              {
+                question: "How does a logger help with goods that change vehicles at the junction?",
+                answer:
+                  "A GSM logger placed in the load keeps recording on its battery through every transfer, and the report shows how long the goods stood in the open between one vehicle or wagon and the next.",
+              },
+            ],
+            nearby: [
+              { slug: "chandigarh", name: "Chandigarh" },
+              { slug: "karnal", name: "Karnal" },
+            ],
+            metaTitle: "Temperature Data Loggers in Ambala | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Ambala Cantonment stores, instrument workshops, hospitals and city godowns. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "karnal",
+            name: "Karnal",
+            type: "city",
+            intro:
+              "Karnal sits on the Grand Trunk Road in the middle of Haryana's rice and wheat country, and it is a hub for basmati milling, with mills and exporters in the city and at Taraori nearby. The town also hosts national institutes for dairy research, wheat and barley, soil salinity and animal genetics, so its stores include research freezers and milk laboratories alongside godowns full of rice and wheat. A temperature data logger in Karnal watches sacked grain and packed rice as often as it does milk samples and vaccines. Rice and wheat keep well only if damp air and heat are controlled, and exporters have to show buyers that the goods arrived dry and free of infestation. The mills, markets and laboratories are spread along the highway, and owners rarely sit beside the stock. Prithvi supplies WiFi loggers for mills and laboratories and GSM loggers for distant godowns, with alerts to phones and email.",
+            climateAngle:
+              "Summers are hot and the monsoon fills the paddy fields and hangs heavy in the air, which puts damp pressure on grain stores, while winter fog and cold nights hold up trucks on the highway.",
+            areas: [
+              {
+                name: "Taraori and the rice-mill belt",
+                note: "Basmati mills, driers and packing units hold paddy and milled rice in large sheds, and a rise in humidity in a store can invite mould and weevils before anyone has opened the door.",
+              },
+              {
+                name: "Research institute campuses",
+                note: "The dairy, wheat, soil and animal-genetics institutes keep milk samples, seed and biological material in freezers and cold rooms that must hold their limits for projects that run many years.",
+              },
+              {
+                name: "Grain market and city godowns",
+                note: "Commission agents and traders hold wheat and rice in the market yard and in godowns across the city, where several owners may share one building and one set of keys.",
+              },
+              {
+                name: "Industrial areas on the highway",
+                note: "Food, packaging and engineering units along the Grand Trunk Road store ingredients and finished cartons in sheds that load directly onto trucks bound for Delhi and Punjab.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Rice millers and dairy processors keep grain, milk products and packed goods that buyers inspect, and a record of humidity and temperature shows an exporter how a lot was held before shipment.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "Research institutes and testing laboratories hold samples, seed and cultures in freezers and incubators, and a continuous log gives a project head evidence that the conditions held across a long study.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Warehouse operators and transporters at the market and on the highway hold bags of grain and rice for traders in other states, and a reading for each bay shows which stack sat in the heat.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A government medical college and private hospitals in the city store vaccines and blood components in many refrigerators, and alerts to phones mean a failing unit is noticed at once.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a rice or flour store, where the risk is damp air reaching the bags long before the grain looks wrong.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels spread through a large grain godown at different heights and doors show which stacks sit warmest and where moisture collects.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels in a research cold room give a paired record from the top and bottom, which a project head can attach to the study file.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can loggers help prove that rice stayed dry before export?",
+                answer:
+                  "A humidity and temperature record from the store can be exported by lot and date, so an exporter can answer a buyer's question about how a consignment was held before it was packed.",
+              },
+              {
+                question: "Do you visit mills at Taraori as well as in Karnal city?",
+                answer:
+                  "Send the mill, the road and a contact through the enquiry form, WhatsApp or a call, and we confirm how a visit would be arranged for Taraori and the other mill towns around Karnal.",
+              },
+              {
+                question: "Can a research institute set limits to match its own protocols?",
+                answer:
+                  "Limits, alert contacts and report intervals are set room by room to follow the written protocol, and a report for any period can be exported for a supervisor or a funder.",
+              },
+              {
+                question: "Which logger suits a godown that has no Wi-Fi?",
+                answer:
+                  "A SIM-based Vayu logger reports over the mobile network, so a distant godown or a market-yard store can be watched without a router, and we confirm the choice after seeing the building.",
+              },
+            ],
+            nearby: [
+              { slug: "panipat", name: "Panipat" },
+              { slug: "ambala", name: "Ambala" },
+            ],
+            metaTitle: "Temperature Data Loggers in Karnal | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Karnal's rice mills, grain godowns, research institutes and hospitals. Get Solution.",
             indexable: true,
           },
         ],

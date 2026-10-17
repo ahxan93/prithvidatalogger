@@ -64,9 +64,9 @@
 - **City hero pairs:** each city page's pair (`getCityHeroDevices()` in `src/data/page-heroes.ts`) is fixed by the
   registry order, never at render time, and is unique site-wide. The 10 logger photos give only 45 pairs (41 once the
   pairs held by other pages are removed), and the 41st city exhausted them. **Relaxed rule (Maharashtra hub, added with
-  the Satara, Solapur and Ratnagiri-Lote pages; Gujarat hub added with the Rajkot to Kandla pages; Uttar Pradesh hub added with the Ghaziabad to Moradabad pages):** once every pair is taken, a city that belongs to a state hub
+  the Satara, Solapur and Ratnagiri-Lote pages; Gujarat hub added with the Rajkot to Kandla pages; Uttar Pradesh hub added with the Ghaziabad to Moradabad pages; Haryana hub added with the Gurugram to Karnal pages):** once every pair is taken, a city that belongs to a state hub
   (`HUB_OF` in `page-heroes.ts`) may reuse a pair that no other city in the SAME hub shows. A city outside a hub
-  never shares a pair, and `npm run check:data` fails on any pair shared inside one hub. Maharashtra, Gujarat and Uttar Pradesh are in
+  never shares a pair, and `npm run check:data` fails on any pair shared inside one hub. Maharashtra, Gujarat, Uttar Pradesh and Haryana are in
   `HUB_OF` so far; a future hub needs its cities added there.
 - **Implementation:** Next cannot match a partial dynamic segment, so `src/app/data-logger/[slug]` is
   the route and `next.config.ts` rewrites `/data-logger-:slug` to it.
@@ -161,6 +161,14 @@
 | Moradabad (`moradabad`) | Uttar Pradesh | Kanth Road, old city brass lanes, export packing, Ramganga bank | Brassware export packing, plating chemicals, hospitals | Very hot, foggy winter, humid monsoon | Meerut, Bareilly, Noida |
 | Lucknow (`lucknow`) | Uttar Pradesh | Chinhat, Amausi, Nadarganj | Hospitals, pharma distribution, food & cold storage | Hot summers, humid monsoon | Noida, Delhi, Kolkata |
 | Manesar (`manesar`) | Haryana | IMT Manesar | Auto & electronics, warehousing, pharma | Hot summers, cold winters | Delhi, Noida, Jaipur |
+| Gurugram (`gurugram`) | Haryana | Udyog Vihar, Sector 37, Cyber City and Golf Course Road offices (IMT Manesar links to its own page) | Data halls, hospitals, electronics, garment export stores, hotels | Dry heat, dust storms, foggy winter | Manesar, Delhi, Faridabad |
+| Faridabad (`faridabad`) | Haryana | NIT, Ballabgarh belt, Mathura Road corridor (Okhla links to its own page) | Coating and lubricant stores, hospitals, electrical goods, warehousing | Dusty heat, damp monsoon, winter fog | Delhi, Gurugram, Noida |
+| Panipat (`panipat`) | Haryana | Old-city weaving lanes, Samalkha, export godowns, refinery-linked supplier belt | Home textiles, chemical suppliers, warehousing | Hot and dusty, damp monsoon | Sonipat, Karnal, Delhi |
+| Sonipat (`sonipat`) | Haryana | Kundli, Rai, Barhi, Murthal highway food stops | Packed food and beverage, warehousing, packaging, pharma stockists | Hot and dusty, foggy winter | Delhi, Panipat, Rohtak |
+| Rohtak (`rohtak`) | Haryana | PGIMS hospital belt, university campus, IMT Rohtak and estates, grain markets | Hospitals, laboratories, medicine stockists, food | Very hot and dry, foggy winter | Sonipat, Delhi, Hisar |
+| Hisar (`hisar`) | Haryana | Steel and galvanised-iron works, farm-university campuses, cotton and oilseed markets | Research laboratories, chemical stores, food, hospitals | Fierce dry heat, cold foggy winter | Rohtak, Delhi |
+| Ambala (`ambala`) | Haryana | Ambala Cantonment, instrument workshops, city godowns, Mullana medical belt | Hospitals, laboratories, logistics, medicine wholesale | Heavier monsoon near the foothills, dense winter fog | Chandigarh, Karnal |
+| Karnal (`karnal`) | Haryana | Taraori rice mills, research institute campuses, grain market, highway estates | Rice and dairy, laboratories, warehousing, hospitals | Humid monsoon over paddy country, winter fog | Panipat, Ambala |
 | Chandigarh (`chandigarh`) | Chandigarh (UT) | Industrial Area Phase I–II, Mohali, Panchkula | Hospitals, pharma distribution, food | Hot summers, cold winters | Baddi, Delhi, Manesar |
 | Baddi (`baddi`) | Himachal Pradesh | Baddi, Barotiwala, Nalagarh | Pharma manufacturing hub | Foothill climate with seasonal temperature swings | Chandigarh, Delhi |
 | Jaipur (`jaipur`) | Rajasthan | Sitapura, VKI Area | Pharma distribution, food & dairy, hospitals | Desert heat, large day–night swings | Delhi, Manesar, Ahmedabad |
@@ -179,7 +187,7 @@
 
 **GCC notes:** supply is from India. Don't name local estates beyond those listed. Never recommend Vayu. Keep the existing GSM compatibility note. Bahrain stays as a country page (no city page).
 
-**Planned, awaiting owner confirmation (do NOT build yet):** Gurugram, Thane, Visakhapatnam, Haridwar. (Vapi, Ankleshwar and Surat were confirmed by the owner and moved into the table above.)
+**Planned, awaiting owner confirmation (do NOT build yet):** Thane, Visakhapatnam, Haridwar. (Vapi, Ankleshwar and Surat were confirmed by the owner and moved into the table above.)
 
 ---
 
