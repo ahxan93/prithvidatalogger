@@ -247,6 +247,10 @@ export const locations: LegacyLocationNode[] = [
         { slug: "sativali", text: "An industrial area among low hills on the eastern side of Vasai, with Naigaon East's small units and godowns across the railway." },
         { slug: "palghar", text: "The district headquarters on the Western line, with markets and hospitals for a rural district and the coastal villages of Mahim and Kelva." },
         { slug: "dahanu", text: "The northernmost coastal town of the district, with chikoo orchards, fishing, beaches and highway godowns under an environmental authority that restricts heavy industry." },
+        { slug: "worli", text: "A seafront suburb where the sea link begins, with sea-face towers, hospitals, hotels, a milk dairy and the old chawls and Koliwada behind." },
+        { slug: "wadala-sewri", text: "Mumbai's eastern harbour side, with Wadala's truck terminal, Sewri's dock-side yards and godowns and a large tuberculosis hospital." },
+        { slug: "byculla", text: "An old working district of central Mumbai with a large government hospital campus, medical college, wholesale markets and godowns near the docks." },
+        { slug: "santacruz-vile-parle", text: "Neighbouring western suburbs around the domestic airport and the Juhu aerodrome, with hotels, courier firms, hospitals and busy markets." },
         ],
         indexable: true,
         children: [
@@ -275,6 +279,7 @@ export const locations: LegacyLocationNode[] = [
               },
               {
                 name: "Lower Parel commercial hubs",
+                linkTo: "dadar-parel",
                 note: "A central business district of offices, corporate floors and hospitality. Server rooms and temperature-sensitive storage inside tall buildings can be watched from one remote dashboard.",
               },
             ],

@@ -2474,6 +2474,232 @@ export const areas: AreaDef[] = [
       ],
       "indexable": true
     } },
+  // ------------------------------------------------------------------ Mumbai (batch 4: Worli, Wadala-Sewri, Byculla, Santacruz-Vile Parle)
+  { slug: "worli", name: "Worli", citySlug: "mumbai", areaType: "mixed-use", nearbyIndustries: ["hospitals-blood-banks", "food-beverage", "data-centers", "pharmaceutical"], confirmedService: true, hero: ["rajmudra", "veer-pro"], page: {
+      "metaTitle": "Data Loggers in Worli, Mumbai | Prithvi",
+      "metaDescription": "Temperature data loggers for Worli's sea-face towers, hospitals, hotel kitchens, dairy cold stores and pharmacies in Mumbai. Get Solution.",
+      "intro": "Worli is a long seafront suburb in the middle of Mumbai's western shore, where the Bandra–Worli Sea Link begins and a promenade runs along the Worli Sea Face. Behind the sea face stand the old BDD chawls, the fishing settlement of Worli Koliwada and office towers, hotels and showrooms along Dr Annie Besant Road and the streets around Worli Naka. Hospitals, a science centre, a large indoor stadium and a milk dairy sit beside corporate offices. The air is salty, and the rooms that need watching are server and electrical rooms, hospital pharmacies and laboratories, restaurant kitchens and the dairy's cold stores.",
+      "places": [
+        {
+          "name": "Worli Sea Face and the sea link side",
+          "note": "Seafront towers, hotels and restaurants face the sea, with kitchens, server rooms and electrical plant rooms exposed to salt air."
+        },
+        {
+          "name": "Dr Annie Besant Road and Worli Naka",
+          "note": "Hospitals, offices, showrooms and a dairy line the main road, and stockists and pharmacies work from compact premises around the naka."
+        },
+        {
+          "name": "BDD chawls and Worli Koliwada",
+          "note": "Dense older housing and the fishing settlement hold small shops, bakeries, clinics and fish and ice stores working from compact, crowded buildings."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "hospitals-blood-banks",
+          "sentence": "Hospitals on the main road keep blood banks, theatre stores and pharmacies where an unnoticed fridge failure can mean lost stock, so each unit alerts the duty pharmacist and a second person."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "A milk dairy, restaurants and hotel kitchens hold milk, dairy and cooked food in chillers that run round the clock, and a reading taken at the door shows how long a loading left it open."
+        },
+        {
+          "slug": "data-centers",
+          "sentence": "Office towers along the sea face run server rooms and electrical rooms against salty, humid air, and a log kept outside each room's own controller gives an independent view of what really happened."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Chemists and distributors around Worli Naka keep stock in compact rooms with a single air conditioner, and a dated log shows how long a room stayed warm on a hot afternoon."
+        }
+      ],
+      "services": "In Worli we supply four-channel loggers for server and electrical rooms, single-point loggers with external probes for hospital and laboratory fridges and WiFi loggers for kitchens, cold rooms and pharmacy stores. VEGA Calibrations, our parent company, offers calibration, temperature mapping and validation support, so a hospital or a tenant can plan with one group.",
+      "visits": "Towers and hospitals register visitors in advance, so please send the building, the floor and the person who will meet us through the enquiry form or WhatsApp. Traffic along the sea face and Dr Annie Besant Road is heavy, so we agree an arrival time with you. We group Worli with Dadar-Parel and Bandra-Kurla visits.",
+      "approach": "In a hospital we would begin with the blood storage unit and the main pharmacy store, in a tower with the server room, and in a dairy with the cold room that is opened most often. After a few weeks the readings show each room's normal swing, and limits set just outside it separate a real fault from a routine door opening.",
+      "faqs": [
+        {
+          "question": "Does salt air affect loggers on the sea face?",
+          "answer": "The logger body stays inside the room, away from spray, and only the probe goes into the cold space. A glance at the dashboard shows early if a probe or a seal starts to drift."
+        },
+        {
+          "question": "Can a hotel kitchen with many fridges see all of them on one phone?",
+          "answer": "Yes. Each fridge or freezer is a device under the hotel's site, alerts go to the duty engineer and the chef, and one list shows which unit is warming."
+        }
+      ],
+      "nearby": [
+        "dadar-parel",
+        "bandra-kurla",
+        "wadala-sewri"
+      ],
+      "indexable": true
+    } },
+  { slug: "wadala-sewri", name: "Wadala-Sewri", citySlug: "mumbai", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing", "pharmaceutical", "hospitals-blood-banks", "food-beverage"], confirmedService: true, hero: ["virat", "vayu"], page: {
+      "metaTitle": "Data Loggers in Wadala-Sewri, Mumbai | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Wadala's truck terminal and Sewri's dock-side godowns, hospitals and stockists in Mumbai. Get Solution.",
+      "intro": "Wadala and Sewri sit on Mumbai's eastern harbour side, on the Harbour line, where the island city's old port lands meet its working neighbourhoods. Wadala has a large truck terminal, warehouses and the roads that carry traffic to the Eastern Freeway and the Sion–Panvel road, and Sewri has a fort, a stretch of mudflats visited by flamingos and a large tuberculosis hospital, with godowns and cargo yards along the dock side. Mixed in are chawls, small workshops and newer towers. Goods wait here for the next truck or ship, and hospitals and kitchens work around them.",
+      "places": [
+        {
+          "name": "Wadala truck terminal and warehouses",
+          "note": "Trucks load and unload round the clock around the terminal, with warehouses and godowns holding goods between one vehicle and the next."
+        },
+        {
+          "name": "Sewri dock side",
+          "note": "Old port lands hold cargo yards, godowns and storage tanks, with sheds and yards exposed to salt air and the afternoon sun."
+        },
+        {
+          "name": "Hospital and residential neighbourhoods",
+          "note": "A large tuberculosis hospital and other hospitals and clinics, together with chawls and newer towers, support pharmacies, bakers and food sellers working from compact premises."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Truck terminals and godowns hold goods between a lorry and a vehicle for the city, and a logger placed in the load shows how long a consignment waited in a hot yard."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Distributors and stockists receive medicines at all hours and hold them in rooms exposed to the dock side's heat, so a reading by shelf shows how a room behaved between delivery and sale."
+        },
+        {
+          "slug": "hospitals-blood-banks",
+          "sentence": "Hospitals with large pharmacies and laboratories keep fridges and cabinets with named duty contacts, so an alert for a warming unit reaches someone who can act during the night."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Food suppliers and caterers serving the dock workers and the neighbourhoods keep chillers and dry stores that fill early, and a morning report shows whether a unit held through the night."
+        }
+      ],
+      "services": "For Wadala and Sewri we supply GSM loggers with external probes for vehicles and open yards, WiFi loggers for rooms with a network and multi-channel units for larger godowns. VEGA Calibrations, our parent company, offers calibration and temperature mapping, so a terminal operator can plan the placement study and certificates together.",
+      "visits": "Please send the terminal or yard, the road and the person who will meet us through the enquiry form or WhatsApp, and we fix a day together. Port-side yards need passes arranged in advance, and trucks make the roads slow, so we fix an arrival time with margin. We group Wadala and Sewri with Kurla and Chembur visits.",
+      "approach": "At a terminal we would map the busiest bay first, then fix permanent loggers where heat collects under the roof, and place a GSM logger in a vehicle or staged load. At a hospital we would start with the main pharmacy store and the vaccine fridge.",
+      "faqs": [
+        {
+          "question": "Can goods that wait in an open yard be monitored?",
+          "answer": "Yes. A GSM logger with an external probe can sit in the load or under the shade of a shed and reports over the mobile network, so no cable or local network is needed."
+        },
+        {
+          "question": "Who sees the record when several firms share a terminal?",
+          "answer": "Each firm can have its own site on the dashboard, with alerts to its own people, so one operator's readings are not visible to another unless you choose to share a report."
+        }
+      ],
+      "nearby": [
+        "kurla",
+        "chembur",
+        "dadar-parel",
+        "worli"
+      ],
+      "indexable": true
+    } },
+  { slug: "byculla", name: "Byculla", citySlug: "mumbai", areaType: "mixed-use", nearbyIndustries: ["hospitals-blood-banks", "laboratories", "food-beverage", "pharmaceutical"], confirmedService: true, hero: ["virat-pro", "dock"], page: {
+      "metaTitle": "Data Loggers in Byculla, Mumbai | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Byculla's hospital campus, laboratories, market cold rooms and stockists in central Mumbai. Get Solution.",
+      "intro": "Byculla is an old working district of central Mumbai on the Central line, close to the docks of Mazagaon and the lanes of Nagpada and Agripada. Its major institutions are the Sir J.J. Group of Hospitals with the Grant Medical College, a large government hospital campus, and the zoo and gardens at Rani Baug. Around them stand old chawls, small workshops, wholesale markets and godowns, and the stockists and chemists who supply the hospitals. Storage here is a mix of hospital and laboratory stores, market stock and the working godowns of an old district built long before air conditioning.",
+      "places": [
+        {
+          "name": "Hospital campus and medical college",
+          "note": "A large government hospital group and medical college run blood banks, pharmacies, laboratories and research stores that operate at every hour."
+        },
+        {
+          "name": "Byculla markets and lanes",
+          "note": "Wholesale and retail markets around the station trade vegetables, fruit, groceries and household goods, with stock kept in godowns, basements and small cold rooms."
+        },
+        {
+          "name": "Workshops and godowns toward the docks",
+          "note": "Small workshops, godowns and stockists towards Mazagaon and Nagpada hold materials and goods in old buildings with limited ventilation."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "hospitals-blood-banks",
+          "sentence": "A large hospital campus keeps blood banks, operating-theatre stores and ward fridges across many buildings, and a single list of every unit shows the duty team which one is drifting."
+        },
+        {
+          "slug": "laboratories",
+          "sentence": "Medical college and diagnostic laboratories hold reagents, cultures and patient samples in freezers and incubators that need individual limits and named contacts for every shift."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Market traders and food suppliers keep produce and dairy in small cold rooms opened many times a day, and a reading by chamber shows which loading warmed a room."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Chemists and stockists who supply the hospitals hold medicines in godown rooms that keep the day's heat, and a dated log shows how long a room stayed outside its range."
+        }
+      ],
+      "services": "In Byculla we supply single-point loggers with external probes for hospital and laboratory fridges, four-channel units for pharmacy stores and WiFi loggers for market cold rooms and godown rooms. Our parent company, VEGA Calibrations, offers calibration, temperature mapping and validation support, so a hospital or a laboratory can plan everything with one group.",
+      "visits": "Hospitals register visitors in advance, so please send the building, the department and the person who will meet us through the enquiry form or WhatsApp, and we plan around pharmacy and laboratory hours. Market traders are easiest to visit once the morning trade has passed. We group Byculla with Dadar-Parel and Wadala-Sewri visits.",
+      "approach": "In a hospital we would begin with the blood storage unit, the main pharmacy store and one laboratory freezer, then extend to the wards. In a market cold room we would start with whichever chamber the traders open the most. A few weeks of readings set alert limits just outside each room's normal swing.",
+      "faqs": [
+        {
+          "question": "How can a hospital with many buildings see every fridge in one place?",
+          "answer": "Each building is a site or a room group on the dashboard, every fridge reports on its own, and alerts go to the person for that ward while a head of pharmacy sees every unit in one list."
+        },
+        {
+          "question": "How do old buildings with thick walls affect Wi-Fi loggers?",
+          "answer": "Thick walls can weaken the signal, so we test the signal in each room first and use a GSM version or a nearby access point where a room is a dead spot."
+        }
+      ],
+      "nearby": [
+        "dadar-parel",
+        "wadala-sewri",
+        "worli"
+      ],
+      "indexable": true
+    } },
+  { slug: "santacruz-vile-parle", name: "Santacruz-Vile Parle", citySlug: "mumbai", areaType: "mixed-use", nearbyIndustries: ["hospitals-blood-banks", "food-beverage", "logistics-warehousing", "pharmaceutical"], confirmedService: true, hero: ["veer-pro", "virat-pro"], page: {
+      "metaTitle": "Data Loggers in Santacruz-Vile Parle, Mumbai | Prithvi",
+      "metaDescription": "Temperature data loggers for Santacruz and Vile Parle's hospitals, hotels, courier hubs and pharmacies near the airport in Mumbai. Get Solution.",
+      "intro": "Santacruz and Vile Parle are neighbouring suburbs on Mumbai's Western line, and between them stand the domestic airport terminal, the Juhu aerodrome and the Mumbai University campus at Kalina, with the Western Express Highway and the Santacruz–Chembur Link Road close by. Both suburbs are dense, with shops, markets, hotels and apartment blocks, and with hospitals on the Juhu side including a municipal hospital and a large private one. Air travel brings hotels, airport-related catering and courier and freight firms, and the residential markets bring pharmacies, bakers and stockists. Storage here ranges from hotel kitchens to pharmacy fridges and courier rooms.",
+      "places": [
+        {
+          "name": "Airport side and hotels",
+          "note": "Hotels, courier firms and airport-related catering units cluster near the domestic terminal, running kitchens, cold rooms and freight rooms that work around flight times."
+        },
+        {
+          "name": "Vile Parle and Juhu hospitals",
+          "note": "A municipal hospital and a large private hospital on the Juhu side run blood storage, pharmacies and laboratories that work at every hour."
+        },
+        {
+          "name": "Santacruz and Vile Parle markets",
+          "note": "The market streets near the stations hold pharmacies, bakers, stockists and shops, with stock kept in small rooms behind and above the shops."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "hospitals-blood-banks",
+          "sentence": "Hospitals on the Juhu side keep blood banks, vaccine fridges and pharmacy stores with named duty contacts, so a warming unit is reported to someone who can act at any hour."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Hotels and airport-related caterers prepare food for flights and events on a tight schedule, and a log from each chiller shows whether it held its range from the evening prep to the morning dispatch."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Courier and freight firms near the airport hold parcels and sensitive consignments between a flight and a delivery van, and a logger in the parcel shows how long it waited and in what heat."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Chemists and wholesalers near the stations keep medicines in rooms that heat quickly after noon, and a reading every few minutes shows when the shelf drifted and for how long."
+        }
+      ],
+      "services": "For Santacruz and Vile Parle we supply single-point loggers with external probes for hospital fridges, WiFi loggers for pharmacy and kitchen stores and multi-channel units for larger cold rooms. VEGA Calibrations, our parent company, calibrates loggers and other instruments, so devices and certificates can be planned together.",
+      "visits": "Hospitals and hotels register visitors in advance, so please send the building, the department and the person who will meet us through the enquiry form or WhatsApp. Traffic near the airport and on the Western Express Highway is heavy, so we agree an arrival time with you. We group Santacruz and Vile Parle with Andheri and Bandra-Kurla visits.",
+      "approach": "In a hospital we would begin with the blood storage unit and the vaccine fridge, in a hotel with the main walk-in fridge and the pastry cold room, and in a courier hub with a logger in a parcel on the busiest route. A few weeks of readings show each room's normal swing.",
+      "faqs": [
+        {
+          "question": "Can a logger travel inside a parcel?",
+          "answer": "Yes. A logger can be placed in a consignment and record through the journey, and the report is exported for the sender and the receiver. For air carriage, check the carrier's own rules first."
+        },
+        {
+          "question": "How does a hotel with several kitchens watch every chiller?",
+          "answer": "Each chiller is a device under the hotel's site, alerts go to the engineer on duty and the chef, and a single list shows every unit, including those in basements."
+        }
+      ],
+      "nearby": [
+        "andheri",
+        "bandra-kurla",
+        "kurla"
+      ],
+      "indexable": true
+    } },
   // ------------------------------------------------------------------ Navi Mumbai (batch 1)
   {
     slug: "turbhe",
