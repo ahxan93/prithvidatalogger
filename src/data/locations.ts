@@ -241,6 +241,10 @@ export const locations: LegacyLocationNode[] = [
         { slug: "badlapur", text: "A Central line town on the Ulhas river with a MIDC estate and fast-growing townships, under a heavy monsoon." },
         { slug: "anjurphata-purna", text: "The warehouse belt beyond Bhiwandi town, with parks at Anjurphata, Purna, Kharbao, Vadape and Padgha." },
         { slug: "mumbra-diva", text: "Two creek-side Central line towns, with dense markets at Mumbra, a junction at Diva and godowns and truck terminals at Shil Phata." },
+        { slug: "waliv", text: "Industrial estates on the eastern side of Vasai, with small engineering, plastics, food and pharmaceutical units at Waliv and Gokhivare." },
+        { slug: "virar", text: "The long-standing terminus of the suburban Western line, with fish and produce markets, the fishing village of Arnala and godowns on the east side." },
+        { slug: "nalasopara", text: "A dormitory suburb split by the railway into a market side and an Achole Road side of small factories and godowns, beside the site of ancient Sopara." },
+        { slug: "sativali", text: "An industrial area among low hills on the eastern side of Vasai, with Naigaon East's small units and godowns across the railway." },
         ],
         indexable: true,
         children: [

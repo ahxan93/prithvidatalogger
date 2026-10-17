@@ -2136,6 +2136,231 @@ export const areas: AreaDef[] = [
       ],
       "indexable": true
     } },
+  // ------------------------------------------------------------------ Vasai-Palghar (batch H: Waliv, Virar, Nalasopara, Sativali)
+  { slug: "waliv", name: "Waliv", citySlug: "vasai-palghar", areaType: "industrial-estate", nearbyIndustries: ["pharmaceutical", "food-beverage", "logistics-warehousing", "electronics"], confirmedService: true, hero: ["nakshatra", "dock"], page: {
+      "metaTitle": "Data Loggers in Waliv, Vasai | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Waliv and Gokhivare's industrial estates, godowns, food and pharma units in Vasai East. Get Solution.",
+      "intro": "Waliv and Gokhivare lie on the eastern side of Vasai, across the railway from the old town, where land that was once mostly farmland has filled with industrial estates and godown compounds. The units are mostly small and mid-sized: engineering and plastics shops, packaging firms, food and pharmaceutical makers and the warehouses and transport firms that serve them, standing on plots reached by narrow roads. Many buildings have been extended upward, with production below and storage above or beside it. Humidity from the creek-side climate, heat under sheet roofs and shared power are the common conditions.",
+      "places": [
+        {
+          "name": "Waliv industrial estate",
+          "note": "Rows of small and mid-sized plots hold engineering, plastics, packaging and food units, each with a store beside the work area and a small office on the same plot."
+        },
+        {
+          "name": "Gokhivare",
+          "note": "A neighbouring industrial pocket with factories, godowns and transport firms on compact plots, where goods wait for vehicles heading to Mumbai and Gujarat."
+        },
+        {
+          "name": "Godowns on the Vasai East roads",
+          "note": "Warehouse operators hold consumer goods, building materials and food products for traders across the Vasai-Virar area."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Small pharmaceutical units and contract packers keep controlled rooms inspected by buyers, and an exported record answers an audit request without a search through paper registers."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Food and snack makers keep ingredients and finished goods in stores that must stay dry through the monsoon, and a humidity trend shows the first day a store took on damp."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Godown operators holding goods for several customers keep a log per bay, which settles questions about whose stock stood in the warm end of a shed."
+        },
+        {
+          "slug": "electronics",
+          "sentence": "Electrical and electronic units hold components in stores where creek-side damp gathers, and a humidity record shows how many days a room stayed outside its range."
+        }
+      ],
+      "services": "For Waliv and Gokhivare we supply compact WiFi loggers for small rooms, multi-channel units for larger stores and GSM versions for sheds with weak signal. VEGA Calibrations, our parent company, supports calibration and temperature mapping, so a plant can plan the placement study and its certificates together.",
+      "visits": "Send the estate, the plot and the person who will meet us through the enquiry form or WhatsApp, and we agree a day with you. Small plants often have no visitor desk, so a named contact and a phone number help us find the gate. We group Waliv with Sativali and Vasai visits.",
+      "approach": "In a Waliv plant we would begin with the store holding the product with the tightest limit, fitting a logger with a probe inside and the device outside the room. A few weeks of readings that include a wet spell show how far it moves and which other rooms need devices.",
+      "faqs": [
+        {
+          "question": "Our plant is small. Can one logger be enough to start?",
+          "answer": "Yes. Start with the one room that matters most, and add devices to the same account as the need becomes clear."
+        },
+        {
+          "question": "How is a shed with a sheet roof monitored in the afternoon heat?",
+          "answer": "A probe under the roof and another at pallet height show how far the heat reaches down the stack, and the log tells you at what hour the difference is greatest."
+        }
+      ],
+      "nearby": [
+        "vasai",
+        "sativali",
+        "nalasopara"
+      ],
+      "indexable": true
+    } },
+  { slug: "virar", name: "Virar", citySlug: "vasai-palghar", areaType: "mixed-use", nearbyIndustries: ["food-beverage", "pharmaceutical", "hospitals-blood-banks", "logistics-warehousing"], confirmedService: true, hero: ["virat-pro", "vayu"], page: {
+      "metaTitle": "Data Loggers in Virar, Palghar | Prithvi",
+      "metaDescription": "Temperature data loggers for Virar's market cold rooms, ice stores, pharmacies, hospitals and godowns, from Arnala to Virar East. Get Solution.",
+      "intro": "Virar is the long-standing terminus of Mumbai's suburban trains on the Western line, a large town on the coastal plain where housing, markets and small industries have spread inland from the station. To its west lies the coast road to Arnala, a fishing village with a fort and a landing point, and to its east the estates and godowns of Virar East. Fish, vegetables, dairy and groceries move through its markets every day, and the town's size has brought hospitals, diagnostic centres and a large number of pharmacies. Storage here is mostly small and urban: market cold rooms, fish and ice stores, pharmacy rooms and godowns, in a humid seaside climate.",
+      "places": [
+        {
+          "name": "Virar station and market area",
+          "note": "Wholesale and retail markets near the station trade fish, vegetables, dairy and groceries, with traders keeping stock in cold rooms, stalls and godowns behind the lanes."
+        },
+        {
+          "name": "Arnala and the fishing coast",
+          "note": "A fishing village with a fort and a landing point where boats bring in fish that is iced, sorted and sent to the markets of Vasai-Virar and Mumbai."
+        },
+        {
+          "name": "Virar East estates and godowns",
+          "note": "Small industrial units and godowns on the eastern side hold packaged food, building materials and consumer goods for traders across the area."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "food-beverage",
+          "sentence": "Fish merchants, dairies and vegetable traders keep ice stores and cold rooms in warm, salty air, and a reading every few minutes shows how long a room stood above its range after a loading."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Pharmacies and stockists in the town hold medicines in rooms with one air conditioner, and a dated log shows how the shelf behaved through a power cut."
+        },
+        {
+          "slug": "hospitals-blood-banks",
+          "sentence": "Hospitals and diagnostic centres serving the Vasai-Virar area keep vaccine fridges and blood storage with named duty contacts, so a failing unit is reported at any hour."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Godown operators on the east side hold goods between a lorry from the highway and a delivery van, and a logger in the load shows how long a consignment waited in the heat."
+        }
+      ],
+      "services": "In Virar we supply WiFi loggers for market cold rooms and pharmacy stores, GSM versions with external probes for ice stores, vehicles and sheds, and multi-channel units for godowns. VEGA Calibrations, our parent company, offers calibration and temperature mapping, so a trader can plan the devices and certificates together.",
+      "visits": "Please send the market, the coast road or the estate, the building and the person who will meet us through the enquiry form or WhatsApp. Fish and produce traders are easiest to visit after the early trade, and roads towards the coast can be slow in the rains, so we fix a time with some margin. We group Virar with Nalasopara and Vasai visits along the Western line.",
+      "approach": "In a market cold room or ice store we would begin with the chamber opened most often, fitting a logger with a probe at product height away from the door and the evaporator. For a pharmacy or clinic we would start with the fridge that holds the vaccines or the most valuable stock.",
+      "faqs": [
+        {
+          "question": "How is an ice store near the coast monitored in salty air?",
+          "answer": "The logger stays inside the building away from spray while only the probe goes into the cold space, and the log shows if a door seal or a compressor starts to lose ground."
+        },
+        {
+          "question": "Can a clinic with a single fridge get alerts on a phone?",
+          "answer": "Yes. The probe sits in the fridge, the logger outside, and alerts go by phone and email to the people named for that clinic."
+        }
+      ],
+      "nearby": [
+        "nalasopara",
+        "vasai",
+        "waliv"
+      ],
+      "indexable": true
+    } },
+  { slug: "nalasopara", name: "Nalasopara", citySlug: "vasai-palghar", areaType: "mixed-use", nearbyIndustries: ["pharmaceutical", "food-beverage", "logistics-warehousing", "hospitals-blood-banks"], confirmedService: true, hero: ["virat", "virat-pro"], page: {
+      "metaTitle": "Data Loggers in Nalasopara, Palghar | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Nalasopara's markets, Achole Road units, godowns, pharmacies and clinics. Visits arranged. Get Solution.",
+      "intro": "Nalasopara lies between Vasai Road and Virar on the Western line, and its character is split by the railway: Nalasopara West, closer to the old settlement, with crowded markets and housing towers, and Nalasopara East, where Achole and the roads off it hold industrial estates, godowns and workshops. The ancient port of Sopara, whose remains include a Buddhist stupa, once stood here; today the town is a large dormitory suburb for Mumbai with a busy small-industry belt on its east side. The industrial plots are small and packed, with production and storage in the same building, and the area's hospitals and pharmacies serve a large population.",
+      "places": [
+        {
+          "name": "Nalasopara West markets",
+          "note": "Crowded markets, pharmacies, bakers and clinics occupy the lanes near the station, with stock held in compact rooms behind and above the shops."
+        },
+        {
+          "name": "Achole and Nalasopara East estates",
+          "note": "Small factories, engineering and plastics shops and godowns stand on compact plots along Achole Road, with stores beside the work area."
+        },
+        {
+          "name": "Ancient Sopara and the housing belt",
+          "note": "Older settlements and new housing towers spread inland from the old port site, bringing clinics, grocers and food suppliers to a fast-growing population."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Chemists in the lanes and the distributors behind them keep medicines in rooms that heat up quickly after noon, and a dated log shows how long each room stayed outside its range."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Snack makers, bakers and grocers keep chillers and dry stores in compact premises, and a log shows how a unit coped with the evening rush and with a monsoon power cut."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Godowns on Achole Road hold goods for traders across the Vasai-Virar area, and a reading by bay settles questions about how long a lot stood in the warm end of a shed."
+        },
+        {
+          "slug": "hospitals-blood-banks",
+          "sentence": "Hospitals and clinics serving the dormitory suburb keep vaccine fridges and blood storage whose alerts go to a named person and a second contact at any hour."
+        }
+      ],
+      "services": "For Nalasopara we supply compact WiFi loggers for small rooms, multi-channel units for larger godowns and GSM versions for back rooms with weak signal. Our parent company, VEGA Calibrations, handles calibration of loggers and probes and can map a larger store, so devices and certificates can be arranged together.",
+      "visits": "Send the estate or the lane, the building and the person who will meet us through the enquiry form, WhatsApp or a call, and we agree a day with you. Achole Road is busy with trucks, so we fix an arrival time away from the peaks. We group Nalasopara with Virar and Waliv visits.",
+      "approach": "In a small plant we would begin with the store whose product has the narrowest limit, fitting a logger with a probe inside. In a pharmacy we would start with the vaccine or cold-chain fridge. Readings over a few weeks, including a damp spell, show how far each room moves.",
+      "faqs": [
+        {
+          "question": "Can one account cover a pharmacy in Nalasopara West and a godown in Nalasopara East?",
+          "answer": "Yes. Each premises is a site with its own alert recipients, and the owner sees both in one list and can export a report for any room and period."
+        },
+        {
+          "question": "What does a logger record during a monsoon power cut?",
+          "answer": "It keeps recording on its battery and sends the stored readings when the network returns, so the log has no gap and the alert for the lost supply has already gone to the named people."
+        }
+      ],
+      "nearby": [
+        "virar",
+        "vasai",
+        "waliv"
+      ],
+      "indexable": true
+    } },
+  { slug: "sativali", name: "Sativali", citySlug: "vasai-palghar", areaType: "industrial-estate", nearbyIndustries: ["food-beverage", "pharmaceutical", "logistics-warehousing", "chemical"], confirmedService: true, hero: ["setu", "nakshatra"], page: {
+      "metaTitle": "Data Loggers in Sativali, Vasai | Prithvi",
+      "metaDescription": "Temperature and humidity data loggers for Sativali and Naigaon East's industrial units, godowns, food and pharma firms in Vasai. Get Solution.",
+      "intro": "Sativali is an industrial area on the eastern side of Vasai, set among low hills and farmland, and Naigaon East, on the other side of the railway line, has a similar mixture of small industrial units, godowns and housing. Together they hold engineering shops, plastics and packaging units, food makers, small pharmaceutical firms and the warehouses and transport yards that serve them. The plots are small to mid-sized, access roads are narrow and the surroundings are greener and damper than in Mumbai's older industrial areas. Storage conditions follow the monsoon and the heat under sheet roofs.",
+      "places": [
+        {
+          "name": "Sativali industrial area",
+          "note": "Small and mid-sized factories stand on plots set among the hills, with engineering, plastics, packaging and food units keeping stores beside the production area."
+        },
+        {
+          "name": "Naigaon East",
+          "note": "A mixed district of small industrial units, godowns and housing on the east side of the railway, with workshops that serve builders and traders across the Vasai-Virar area."
+        },
+        {
+          "name": "Godowns and transport yards",
+          "note": "Transport firms and warehouse operators hold goods for plants and traders, with vehicles waiting in yards between runs."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "food-beverage",
+          "sentence": "Food and snack makers store ingredients and finished goods that spoil quickly in damp air, and a reading every few minutes shows the point at which a chiller or a dry store began to drift."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Small pharmaceutical firms and contract packers keep controlled rooms that buyers inspect, and a dated record lets a quality head show how a room behaved without searching through registers."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Warehouse and transport operators keep goods between one vehicle and the next, and a logger placed in the load shows how long a consignment waited in a yard under the sun."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Makers and stockists of paints, adhesives and plastics compounds keep drums and bags with stated storage limits, and a high-temperature alert gives time to shade or move them."
+        }
+      ],
+      "services": "In Sativali and Naigaon East we supply WiFi loggers for single rooms, multi-channel units for larger stores and GSM versions with external probes for sheds, yards and vehicles. VEGA Calibrations, our parent company, offers calibration and temperature mapping, so a plant can plan its devices and certificates together.",
+      "visits": "Please send the estate, the plot and the person who will meet us through the enquiry form or WhatsApp, and we agree a day with you. Lanes in the hills can be steep and narrow, so tell us the landmark and whether a car can reach the gate. We group Sativali with Waliv and Vasai visits.",
+      "approach": "At a plant we would begin with the store that holds the most sensitive product, placing a humidity-reading logger inside and another in the shed that faces the weather. A few weeks that include rain show how much damp each room takes on.",
+      "faqs": [
+        {
+          "question": "How is a plant in a damp, green setting monitored through the monsoon?",
+          "answer": "A logger that reads humidity as well as temperature records every hour of the rains, and the log shows which rooms took on damp and for how many days."
+        },
+        {
+          "question": "Can a small factory with two sheds use one login?",
+          "answer": "Yes. Each shed is a room under one site, alerts go to the numbers you give and the owner sees both sheds in a single list."
+        }
+      ],
+      "nearby": [
+        "waliv",
+        "vasai",
+        "nalasopara"
+      ],
+      "indexable": true
+    } },
   // ------------------------------------------------------------------ Navi Mumbai (batch 1)
   {
     slug: "turbhe",
