@@ -64,9 +64,9 @@
 - **City hero pairs:** each city page's pair (`getCityHeroDevices()` in `src/data/page-heroes.ts`) is fixed by the
   registry order, never at render time, and is unique site-wide. The 10 logger photos give only 45 pairs (41 once the
   pairs held by other pages are removed), and the 41st city exhausted them. **Relaxed rule (Maharashtra hub, added with
-  the Satara, Solapur and Ratnagiri-Lote pages; Gujarat hub added with the Rajkot to Kandla pages; Uttar Pradesh hub added with the Ghaziabad to Moradabad pages; Haryana hub added with the Gurugram to Karnal pages; Telangana hub added with the Warangal to Nizamabad pages; Karnataka hub added with the Mysuru to Tumakuru pages):** once every pair is taken, a city that belongs to a state hub
+  the Satara, Solapur and Ratnagiri-Lote pages; Gujarat hub added with the Rajkot to Kandla pages; Uttar Pradesh hub added with the Ghaziabad to Moradabad pages; Haryana hub added with the Gurugram to Karnal pages; Telangana hub added with the Warangal to Nizamabad pages; Karnataka hub added with the Mysuru to Tumakuru pages; Tamil Nadu hub added with the Hosur page):** once every pair is taken, a city that belongs to a state hub
   (`HUB_OF` in `page-heroes.ts`) may reuse a pair that no other city in the SAME hub shows. A city outside a hub
-  never shares a pair, and `npm run check:data` fails on any pair shared inside one hub. Maharashtra, Gujarat, Uttar Pradesh, Haryana, Telangana and Karnataka are in
+  never shares a pair, and `npm run check:data` fails on any pair shared inside one hub. Maharashtra, Gujarat, Uttar Pradesh, Haryana, Telangana, Karnataka and Tamil Nadu are in
   `HUB_OF` so far; a future hub needs its cities added there.
 - **Implementation:** Next cannot match a partial dynamic segment, so `src/app/data-logger/[slug]` is
   the route and `next.config.ts` rewrites `/data-logger-:slug` to it.
@@ -184,6 +184,7 @@
 | Belagavi (`belagavi`) | Karnataka | Udyambag, Macche, aerospace-components cluster, cantonment | Precision parts, foundry chemicals, hospitals, sugar and grain | Heavy long monsoon | Hubballi-Dharwad, Kolhapur, Goa |
 | Tumakuru (`tumakuru`) | Karnataka | Vasantha Narasapura, Antharasanahalli, copra and groundnut godowns, hospital belt | Food processing, highway warehousing, electronics, hospitals | Warm dry, damp monsoon | Bengaluru, Mysuru |
 | Chennai (`chennai`) | Tamil Nadu | Sriperumbudur, Oragadam, Ambattur | Pharma, electronics & auto, food, port logistics | Hot, humid, coastal | Bengaluru, Coimbatore, Hyderabad |
+| Hosur (`hosur`, Krishnagiri district, Tamil Nadu, beside the Bengaluru border) | Tamil Nadu | SIPCOT complexes, Mathigiri, cut-flower packing sheds (Electronic City links to its own page) | Vehicle and component plants, foundries, electronics, flower cold rooms | Cool dry air, hot pre-monsoon, damp rains | Bengaluru, Chennai |
 | Coimbatore (`coimbatore`) | Tamil Nadu | SIDCO industrial estates | Textile (humidity-critical), engineering, hospitals, food | Moderate, with humidity swings | Kochi, Chennai, Bengaluru |
 | Kochi (`kochi`) | Kerala | Kakkanad, Kalamassery, Edayar | Seafood processing & export cold chain, port logistics, spices, hospitals | High humidity, heavy monsoon | Coimbatore, Bengaluru, Goa |
 | Goa (`goa`) | Goa | Verna, Kundaim | Pharma manufacturing, hotels & food | Coastal humidity, heavy monsoon | Pune, Mumbai, Kochi |

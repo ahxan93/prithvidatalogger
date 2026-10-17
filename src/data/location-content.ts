@@ -61,7 +61,7 @@ export const locationContent: Record<string, LocationContent> = {
   },
   "india/tamil-nadu": {
     metaDescription:
-      "Temperature data loggers in Tamil Nadu: Chennai's port-linked estates and Coimbatore's mills, workshops and hospitals. Get Solution.",
+      "Temperature data loggers in Tamil Nadu: Chennai's port-linked estates, Coimbatore's mills and Hosur's vehicle and electronics cluster. Get Solution.",
     recommended: ["nakshatra", "virat", "vayu"],
   },
   "india/chandigarh": {
