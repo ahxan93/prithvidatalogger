@@ -226,6 +226,10 @@ export const locations: LegacyLocationNode[] = [
         { slug: "uran-jnpt", text: "A coastal peninsula across the harbour where the container port, freight stations and logistics nodes at Dronagiri and Jasai handle goods for a vessel or a truck." },
         { slug: "ulwe", text: "A newer CIDCO node on the harbour side, with housing, clinics and growing commercial premises, plus the nearby settlements of Kon and Karanjade." },
         { slug: "roha-pen", text: "Two Konkan towns in Raigad, with the chemical MIDC at Roha, Pen's idol workshops and godowns, and a heavy monsoon on both." },
+        { slug: "vashi", text: "The first node most people meet, with the APMC wholesale markets, the Sector 17 commercial streets and hospitals close to the harbour line." },
+        { slug: "airoli", text: "The northern end of Navi Mumbai beside the creek, with business parks, server rooms and the residential district of Digha." },
+        { slug: "koparkhairane", text: "A large node in the middle of the industrial belt, with a MIDC estate of chemical, pharmaceutical and electronics units beside planned sectors." },
+        { slug: "pawane", text: "A dense MIDC pocket of small pharmaceutical, chemical and engineering units, with Shirvane next door on the Nerul side." },
         ],
         indexable: true,
         children: [

@@ -1288,6 +1288,233 @@ export const areas: AreaDef[] = [
       ],
       "indexable": true
     } },
+  // ------------------------------------------------------------------ Navi Mumbai (batch C: Vashi, Airoli, Koparkhairane, Pawane)
+  { slug: "vashi", name: "Vashi", citySlug: "navi-mumbai", areaType: "mixed-use", nearbyIndustries: ["food-beverage", "hospitals-blood-banks", "pharmaceutical", "logistics-warehousing"], confirmedService: true, hero: ["nakshatra", "rajmudra"], page: {
+      "metaTitle": "Data Loggers in Vashi, Navi Mumbai | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Vashi's APMC markets, Sector 17 shops, hospitals and food suppliers in Navi Mumbai. Get Solution.",
+      "intro": "Vashi is the first node of Navi Mumbai that most people meet, entered by the Vashi bridge over Thane creek from Mumbai and served by a Harbour line station that gives it direct trains into the city. It combines a planned commercial and residential centre, with the shops and offices of Sector 17 and the neighbouring sectors, with the large wholesale markets of the Agricultural Produce Market Committee, where vegetables, fruit, onions and potatoes, grain and spices are traded in bulk. Hospitals, laboratories and food businesses cluster around both. Storage here ranges from market cold rooms and ripening chambers to pharmacy stores and restaurant kitchens.",
+      "places": [
+        {
+          "name": "APMC markets",
+          "note": "The wholesale markets for vegetables, fruit, onions and potatoes, grain and spices trade in bulk from early morning, and traders hold produce in sheds, cold rooms and ripening chambers beside the market yards."
+        },
+        {
+          "name": "Sector 17 and the commercial streets",
+          "note": "Shops, offices, restaurants and clinics line the planned streets of Sector 17 and the nearby sectors, with stockists and caterers keeping stock in small rooms behind the shop fronts."
+        },
+        {
+          "name": "Hospitals and laboratories",
+          "note": "Hospitals, nursing homes and diagnostic laboratories serve Navi Mumbai and the neighbouring towns, running pharmacies, blood storage and reagent fridges around the clock."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "food-beverage",
+          "sentence": "Traders who ripen and hold fruit work to a tight temperature range, and a logged record shows whether a chamber held it from the night's arrivals until the morning's sales."
+        },
+        {
+          "slug": "hospitals-blood-banks",
+          "sentence": "Hospitals and laboratories in the sectors keep blood storage, vaccine fridges and reagent cabinets that serve patients from Navi Mumbai and beyond, so an alert to the duty staff is part of every night routine."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Stockists and pharmacies around the markets and the sectors hold medicines in rooms with one air conditioner each, and a dated log shows how the shelf behaved on the hottest afternoons."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Transporters and agents around the market yards hold loads between a lorry and a stall, and a logger in the load shows how long a consignment of produce stood in the heat."
+        }
+      ],
+      "services": "In Vashi we supply WiFi loggers for market cold rooms and pharmacy stores, multi-channel units for larger chambers and single-point loggers with external probes for hospital and laboratory fridges. VEGA Calibrations, our parent company, offers calibration, temperature mapping and validation support, so devices and certificates can be planned together.",
+      "visits": "Please send the market block, the sector or the building and the person who will meet us through the enquiry form or WhatsApp. Market traders are easiest to visit once the morning auctions are over, and hospital visits are timed around pharmacy and laboratory hours. We group Vashi with Turbhe and Nerul visits, since they lie close together on the harbour line.",
+      "approach": "In a market cold room we would begin with the chamber that is opened most often, placing the logger at shelf height away from the door and the evaporator. For a hospital we would start with the blood storage unit and the main pharmacy fridge. A few weeks of readings then show each room's normal swing.",
+      "faqs": [
+        {
+          "question": "How is a ripening chamber that is opened at night monitored?",
+          "answer": "A WiFi logger with a probe at product height records every opening and every temperature swing, and an alert reaches the operator by phone, so a chamber that drifts overnight is noticed before the morning sales."
+        },
+        {
+          "question": "Can a trader with rooms in several market blocks use one account?",
+          "answer": "Yes. Each block is a room under the trader's site, alerts go to the person responsible and the owner sees every chamber in a single list and can export a report for any period."
+        }
+      ],
+      "nearby": [
+        "turbhe",
+        "rabale",
+        "mahape"
+      ],
+      "indexable": true
+    } },
+  { slug: "airoli", name: "Airoli", citySlug: "navi-mumbai", areaType: "business-district", nearbyIndustries: ["data-centers", "electronics", "laboratories", "pharmaceutical"], confirmedService: true, hero: ["nakshatra", "hooter"], page: {
+      "metaTitle": "Data Loggers in Airoli, Navi Mumbai | Prithvi",
+      "metaDescription": "Temperature data loggers for Airoli and Digha's business parks, server rooms, laboratories and pharmacies in Navi Mumbai. Get Solution.",
+      "intro": "Airoli lies at the northern end of Navi Mumbai where the Thane–Belapur Road meets the creek, joined to Mulund and Thane by the Airoli bridge. It combines a residential township with the Airoli Knowledge Park and other business parks that house technology companies, data and network facilities and corporate offices, and Digha, a short way inland, adds more housing and a station on the trans-harbour railway. Industrial units from the Thane–Belapur belt reach its southern edge. The rooms that matter most here are server halls and electrical rooms, laboratories and the pharmacies and kitchens that serve a large working population.",
+      "places": [
+        {
+          "name": "Airoli Knowledge Park and business parks",
+          "note": "Technology firms and corporate tenants run server rooms, network closets and laboratories in large business parks, each served by shared cooling plants and managed by facilities teams."
+        },
+        {
+          "name": "Digha",
+          "note": "A residential and mixed district with a railway station on the trans-harbour line, where clinics, pharmacies, shops and small businesses serve a large commuting population."
+        },
+        {
+          "name": "Airoli sectors",
+          "note": "Housing sectors, schools, hospitals and shopping streets are laid out on planned roads, with the usual pharmacies, bakers and caterers keeping stock in small rooms."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "data-centers",
+          "sentence": "Operators of data and network rooms in the parks watch inlet air at the front of the racks, and a trend that creeps upward through the afternoon points to a cooling problem long before a hard alarm."
+        },
+        {
+          "slug": "electronics",
+          "sentence": "Electronics and electrical firms in the parks and on the belt's edge keep boards, cables and instruments in stores that take on damp air in the monsoon, and a humidity trend shows how long a room stayed out of range."
+        },
+        {
+          "slug": "laboratories",
+          "sentence": "Laboratories in the parks and the hospitals keep samples, reagents and standards in fridges and freezers that need a named contact, and one list of every unit shows which is drifting first."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Pharmacies and stockists serving the sectors keep medicines in rooms with one air conditioner, and a logged reading shows how the shelf coped during a monsoon power cut."
+        }
+      ],
+      "services": "In Airoli we supply four-channel loggers for the racks of a server room, single-point loggers with probes for laboratory freezers and WiFi loggers for pharmacy and kitchen stores. Calibration, mapping and validation support come from VEGA Calibrations, our parent company, so a tenant with formal files can plan everything with one group.",
+      "visits": "Business parks register visitors in advance, so please send the park, the building, the floor and the person who will meet us through the enquiry form or WhatsApp. Server rooms often allow entry only in set windows, and we plan around them. We group Airoli with Mahape and Rabale visits along the Thane–Belapur Road.",
+      "approach": "In a park we would begin with the server room and one laboratory, placing probes at the front of the racks and inside each fridge. After a few weeks the readings show how far each room normally moves, and limits placed a little beyond that range separate a real fault from a routine door opening.",
+      "faqs": [
+        {
+          "question": "Which loggers suit a server room in a business park?",
+          "answer": "A four-channel logger can watch the front of a rack, the top of a row, the cooling unit's door and a corner of the room from one device; humidity is added where the room meets a corridor."
+        },
+        {
+          "question": "How do we watch a room after hours when the facilities team is off site?",
+          "answer": "Alerts go by phone and email to a named person and a second contact, so a rising reading at night reaches someone who can act, and the log shows later what happened and when."
+        }
+      ],
+      "nearby": [
+        "mulund",
+        "mahape",
+        "rabale"
+      ],
+      "indexable": true
+    } },
+  { slug: "koparkhairane", name: "Koparkhairane", citySlug: "navi-mumbai", areaType: "midc-estate", nearbyIndustries: ["chemical", "pharmaceutical", "electronics", "logistics-warehousing"], confirmedService: true, hero: ["rajmudra", "veer-pro"], page: {
+      "metaTitle": "Data Loggers in Koparkhairane, Navi Mumbai | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Koparkhairane MIDC's chemical, pharma, electronics units and godowns in Navi Mumbai. Get Solution.",
+      "intro": "Koparkhairane is a large node in the middle of the Thane–Belapur industrial belt, with a MIDC industrial area on one side of the railway and planned residential sectors, schools and markets on the other. The MIDC estate holds chemical, pharmaceutical, engineering, packaging and electronics units, together with godowns and transport firms, and the Palm Beach and Thane–Belapur roads keep goods moving toward Mumbai, Thane and the expressway. The belt's units are mostly mid-sized, and many have been running for decades in buildings that have been extended over time. Heat from process areas, a humid creek-side climate and shared utilities make storage conditions variable.",
+      "places": [
+        {
+          "name": "Koparkhairane MIDC",
+          "note": "Chemical, pharmaceutical, engineering and electronics units stand on plots of many sizes, each with a store beside the process area and a quality room in the same building."
+        },
+        {
+          "name": "Godowns and transport yards",
+          "note": "Warehouse operators and transporters near the estate hold drums, cartons and machinery for plants and distributors across the belt."
+        },
+        {
+          "name": "Residential sectors and markets",
+          "note": "Planned sectors with schools, clinics, pharmacies and markets house the people who work in the estate and the nearby business parks."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "chemical",
+          "sentence": "Makers and traders of chemicals store drums and containers whose labels state a storage range, and a dated log lets a quality manager show a customer that the range held during a hot week."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Small pharmaceutical units and their packaging suppliers keep controlled rooms inspected by customers, and an exported report replaces a hand copy of a register."
+        },
+        {
+          "slug": "electronics",
+          "sentence": "Electronics and electrical firms hold components in stores that need dry air through the monsoon, and humidity records show how long a room sat outside its range."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Godown operators who let space to several customers keep a reading per bay, so a question about one customer's goods can be answered from the log of the bay they stood in."
+        }
+      ],
+      "services": "For Koparkhairane we supply WiFi loggers for single rooms, multi-channel units for larger stores and GSM versions with external probes for yards and sheds. VEGA Calibrations, our parent company, supports calibration, mapping and validation, so equipment and certificates can be planned together.",
+      "visits": "To arrange a visit, send the plot or the road, the stores and the contact through the enquiry form or WhatsApp. Plants in the estate usually need a gate pass and may need a safety briefing, so tell us early. We group Koparkhairane with Mahape, Rabale and Airoli visits along the Thane–Belapur Road.",
+      "approach": "In a plant here we would begin with the store whose product has the narrowest limit, putting the probe inside the room and the logger on the cooler side of the wall. A few weeks of readings, including a hot spell, show how much the room moves and which other stores need devices.",
+      "faqs": [
+        {
+          "question": "Can several plants of one group on the belt share a dashboard?",
+          "answer": "Yes. Each plant is its own site with its own alert recipients, and a group quality head opens every site in one list, compares records and exports a report for any room."
+        },
+        {
+          "question": "How do you fit a logger in a store that shares a wall with a hot process area?",
+          "answer": "We fix the device outside the store, away from process heat, and bring an external probe in through the wall or door frame. Probe length is agreed at the visit, and a second probe can watch the warmest corner."
+        }
+      ],
+      "nearby": [
+        "mahape",
+        "rabale",
+        "airoli",
+        "turbhe"
+      ],
+      "indexable": true
+    } },
+  { slug: "pawane", name: "Pawane", citySlug: "navi-mumbai", areaType: "midc-estate", nearbyIndustries: ["pharmaceutical", "chemical", "laboratories", "logistics-warehousing"], confirmedService: true, hero: ["setu", "hooter"], page: {
+      "metaTitle": "Data Loggers in Pawane, Navi Mumbai | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Pawane and Shirvane MIDC pharma, chemical and engineering units in Navi Mumbai. Get Solution.",
+      "intro": "Pawane is part of the Thane–Belapur industrial belt, and its MIDC plots hold a dense mixture of pharmaceutical, chemical, engineering and packaging units, many of them small and mid-sized and working to the rhythm of larger customers nearby. Shirvane, close by on the Nerul side, adds more units and the offices and warehouses that serve them. The roads of the belt are busy with trucks and plants stand close together, so a store's conditions depend as much on the neighbouring building and the road as on the room itself. Records that follow the goods matter to buyers who inspect.",
+      "places": [
+        {
+          "name": "Pawane MIDC",
+          "note": "Dense rows of small and mid-sized plots hold pharmaceutical, chemical, engineering and packaging units with stores beside the work area."
+        },
+        {
+          "name": "Shirvane",
+          "note": "A neighbouring industrial pocket on the Nerul side with factories, warehouses and service firms on compact plots."
+        },
+        {
+          "name": "Warehouses and transport firms on the belt",
+          "note": "Operators on the Thane–Belapur Road hold materials and finished goods for the plants around, with vehicles waiting along the road."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Pharmaceutical units and contract packers hold ingredients and finished cartons in small controlled rooms, and a logged record is the answer when a customer's auditor asks how a room was kept."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Makers of chemicals and intermediates hold stock in stores sharing walls with process areas, and a reading on the cooler side of the wall shows what the store itself is doing."
+        },
+        {
+          "slug": "laboratories",
+          "sentence": "Quality laboratories in the plants keep standards and retained samples in fridges and cabinets, and independent probes in each unit fill the gaps between a technician's rounds."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Warehouse and transport firms along the belt hold goods for plants and distributors, and a logger in the load shows how long a consignment waited in the sun on the road."
+        }
+      ],
+      "services": "For Pawane we supply compact WiFi loggers for small rooms, multi-channel units where a plant has several stores and GSM versions with external probes for sheds and yards. Our parent company, VEGA Calibrations, handles calibration of loggers and probes and can map larger stores, so the study and the certificates arrive together.",
+      "visits": "Please send the plot, the shop floor entrance and the person who will meet us through the enquiry form or WhatsApp. Plants usually need a gate pass, and some need a safety briefing, so tell us early. We group Pawane with Turbhe, Mahape and Rabale so one trip covers the belt.",
+      "approach": "In a Pawane plant we would begin with the store whose product has the tightest stated limit, fitting a logger with a probe inside. A few weeks of readings, including a hot week, show how far it moves, and we then decide which stores deserve a device and which can share one.",
+      "faqs": [
+        {
+          "question": "Our unit is small. Is a logger still practical?",
+          "answer": "Yes. A single compact logger watches one room and sends alerts to your phone, and more can be added later without changing anything already fitted."
+        },
+        {
+          "question": "How do customers' auditors use the records?",
+          "answer": "Reports for any room and period can be exported as PDF, Excel or CSV and shown to an auditor, so the evidence is a dated log, not a hand-written register."
+        }
+      ],
+      "nearby": [
+        "turbhe",
+        "mahape",
+        "rabale",
+        "koparkhairane"
+      ],
+      "indexable": true
+    } },
   // ------------------------------------------------------------------ Navi Mumbai (batch 1)
   {
     slug: "turbhe",
