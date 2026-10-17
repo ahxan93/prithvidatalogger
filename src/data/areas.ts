@@ -3992,6 +3992,170 @@ export const areas: AreaDef[] = [
       ],
       "indexable": true
     } },
+  { slug: "mayapuri", name: "Mayapuri", citySlug: "delhi", areaType: "industrial-estate", nearbyIndustries: ["electronics","chemical","logistics-warehousing"], confirmedService: true, hero: ["rajmudra","virat-pro"], page: {
+        "metaTitle": "Data Loggers in Mayapuri, Delhi | Prithvi",
+        "metaDescription": "WiFi and GSM temperature and humidity data loggers for Mayapuri's engineering workshops, spares godowns and panel rooms in Delhi. Get Solution.",
+        "intro": "Mayapuri is an industrial area in west Delhi, laid out in two phases beside Naraina, Hari Nagar and Raja Garden, and known across the city for engineering workshops, machinery dealers, vehicle spares and metal trading. Much of the work is mechanical, with lathes, welding and fabrication, and a good part of the stock is steel, tools and parts that rust. Units are small, plots are shared and goods are kept in whatever space is nearest. Monitoring here is less about cold rooms than about heat, damp and the electrical rooms that keep the workshops running. A Mayapuri workshop rarely has a spare room or a stores clerk, so a small device is more practical than a large system.",
+        "places": [
+          {
+            "name": "Phase I and Phase II blocks",
+            "note": "Two phases of closely packed plots where workshops, fabrication shops and small factories sit side by side, each holding tools, parts and raw metal in a corner of the shop floor."
+          },
+          {
+            "name": "Machinery and spares dealers",
+            "note": "Dealers in machinery and vehicle spares keep parts in covered godowns and shop fronts, where steel surfaces collect moisture after a monsoon night."
+          },
+          {
+            "name": "Electrical and panel rooms",
+            "note": "Workshops with heavy motors and welding sets run panels and meters in small rooms that overheat in summer when ventilation is poor."
+          },
+          {
+            "name": "Lanes towards Hari Nagar and Raja Garden",
+            "note": "Commercial lanes beside the estate, where traders and small packers rent rooms in older buildings to hold stock before it is sent on."
+          }
+        ],
+        "industries": [
+          {
+            "slug": "electronics",
+            "sentence": "Electrical repair shops and panel builders hold relays, meters, boards and cable in cabinets that turn damp in the monsoon, and a humidity log shows when to dry a cupboard before parts corrode."
+          },
+          {
+            "slug": "chemical",
+            "sentence": "Paint, lubricant, coolant and solvent stores sit near welding and sparks, and a temperature record with an alert on heat gives the owner a warning before cans bulge or labels fail."
+          },
+          {
+            "slug": "logistics-warehousing",
+            "sentence": "Traders who send spares and tools to buyers elsewhere hold stock in godowns under sheet roofs, and a reading under the roof and at the floor shows where damp collects and where afternoon heat peaks."
+          }
+        ],
+        "services": "For Mayapuri we supply compact WiFi loggers for single rooms and workshops, multi-channel units where a godown has several heights to watch, and GSM loggers with external probes for a back room with no signal. Calibration of loggers is delivered by VEGA Calibrations, our parent company, so equipment and certificates can be planned together.",
+        "visits": "To arrange a visit to Mayapuri, send the phase, the lane or plot and the person who will meet us through the enquiry form, WhatsApp or a call. The lanes are busy with loaded vehicles through the day, so we agree an arrival time with you and group the stop with other west Delhi visits. Please tell us about stairs and working hours at the premises.",
+        "approach": "In a Mayapuri workshop we would begin with the room that holds the most valuable stock, usually the parts store or the electrical panel room, and fix a logger away from welding and the roof sheet. A few weeks of readings show when the afternoon peak arrives and whether damp builds up after a rainy night, and that tells you whether a second room needs its own device.",
+        "faqs": [
+          {
+            "question": "Does humidity matter in a workshop that works with metal?",
+            "answer": "Yes. Damp air makes steel tools, bearings and spares rust and makes panels and boards fail, so a logger that reads humidity as well as temperature shows when a cupboard or godown needs drying, and the log helps when a buyer questions the condition of stock."
+          },
+          {
+            "question": "Can we start with a single device in a small shop?",
+            "answer": "Yes. One WiFi logger in the most exposed room, with alerts to the owner's phone, is a sensible first step, and more points can be added as the business is ready."
+          }
+        ],
+        "nearby": [
+          "wazirpur",
+          "mundka",
+          "okhla"
+        ],
+        "indexable": true
+    } },
+  { slug: "wazirpur", name: "Wazirpur", citySlug: "delhi", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","electronics"], confirmedService: true, hero: ["veer-pro","virat"], page: {
+        "metaTitle": "Data Loggers in Wazirpur, Delhi | Prithvi",
+        "metaDescription": "Temperature and humidity data loggers for Wazirpur's steel and stainless steel godowns, finishing stores and panel rooms in Delhi. Get Solution.",
+        "intro": "Wazirpur is an industrial area in north-west Delhi, near Ashok Vihar and Shalimar Bagh, and it is mainly known for steel: the rolling and processing of steel and stainless steel sheet, pipes, utensils and hardware, with many small firms around the larger ones. Coils, sheets and finished goods are kept in godowns and open yards, and the work uses acids and polishing compounds. The area is crowded, trucks arrive through the day and buildings are often old. Steel rusts and stains where air is damp and storage is cramped, so monitoring in Wazirpur is as much about humidity and condensation in a godown as about heat in a polishing shop.",
+        "places": [
+          {
+            "name": "Steel processing units",
+            "note": "Rolling, cutting and polishing units hold coils, sheets and bars in godowns and yards, where a cold night followed by a warm morning leaves moisture on the surface."
+          },
+          {
+            "name": "Utensil and hardware makers",
+            "note": "Makers of utensils and fittings pack finished goods in cartons for dispatch, and cartons stored in damp rooms soften and stain the metal inside."
+          },
+          {
+            "name": "Pickling and polishing sections",
+            "note": "Sections that clean and finish metal with acids and compounds keep drums and carboys in small stores, where heat shortens the life of containers and labels."
+          },
+          {
+            "name": "Streets towards Ashok Vihar and Shalimar Bagh",
+            "note": "Commercial streets beside the estate, where traders, packers and transport firms rent shops and upper rooms to hold stock before it is loaded."
+          }
+        ],
+        "industries": [
+          {
+            "slug": "logistics-warehousing",
+            "sentence": "Godowns that hold coil and finished goods for dispatch have little ventilation, and a pair of readings at the floor and under the roof shows when condensation is likely before sheets are stained."
+          },
+          {
+            "slug": "chemical",
+            "sentence": "Acid and polishing compound stores keep drums with stated limits, and an alert on a rising reading gives the supervisor time to move containers or open a vent."
+          },
+          {
+            "slug": "electronics",
+            "sentence": "Rolling and polishing machines run on control panels and drives in small rooms, and a logger there shows when poor ventilation is pushing a panel toward a hot trip."
+          }
+        ],
+        "services": "At Wazirpur we supply WiFi loggers for rooms with a network, multi-channel units for long godowns where floor and roof differ, and GSM loggers with external probes for yards and rooms with poor signal. Our parent company, VEGA Calibrations, offers calibration of loggers and temperature mapping of larger stores, which can be planned alongside the supply.",
+        "visits": "Please send the block, the lane and the person who will meet us through the enquiry form, WhatsApp or a call, and we agree a time that suits your shifts. Trucks load and unload through the day and lanes are tight, so we plan arrival around quieter hours and group the stop with other north-west Delhi visits. Tell us about any safety rules, such as hard hats near the rolling lines.",
+        "approach": "In a steel godown we would start by placing one logger low near the stock and one near the roof, then compare the two over a few weeks, including a rainy spell. That shows whether the problem is heat, condensation or both, and decides whether a fan, a dehumidifier or a change in stacking is the better remedy.",
+        "faqs": [
+          {
+            "question": "Why would a steel business watch temperature and humidity?",
+            "answer": "Steel and stainless steel stain and rust when moisture settles on them, and moisture settles when a cold surface meets warm, damp air. A log of both shows when that is likely, so stock can be moved or ventilation improved first."
+          },
+          {
+            "question": "Can loggers be fixed near acids and polishing areas?",
+            "answer": "Loggers should sit away from fumes and splashes, so we advise a protected spot, with an external probe on a cable for the exposed point. Tell us about the room and we suggest positions."
+          }
+        ],
+        "nearby": [
+          "mayapuri",
+          "mundka",
+          "bawana"
+        ],
+        "indexable": true
+    } },
+  { slug: "mundka", name: "Mundka", citySlug: "delhi", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","food-beverage","electronics"], confirmedService: true, hero: ["dhruva","veer"], page: {
+        "metaTitle": "Data Loggers in Mundka, Delhi | Prithvi",
+        "metaDescription": "WiFi and GSM temperature and humidity data loggers for Mundka's factories, packing units and warehouse sheds on Delhi's western edge. Get Solution.",
+        "intro": "Mundka lies on the north-western edge of Delhi, beside the Rohtak road and close to Nangloi and the Haryana border, and its industrial area is a large mixed estate of small and mid-sized factories, packing units and warehouses. The Metro's Green Line now reaches Mundka and the industrial area, which helps staff, though goods still arrive by road. Many units are family-run, with production, store and office in one building and shifts that end late. A temperature and humidity record in Mundka mostly protects packaged goods, electrical items and food stock held in sheds that bake in summer, and it helps owners who live far from the premises.",
+        "places": [
+          {
+            "name": "Industrial area plots",
+            "note": "Rows of plots with factories and sheds of varied sizes, many with production below and stock above, under a roof that takes the full summer sun."
+          },
+          {
+            "name": "Warehouses along the Rohtak road",
+            "note": "Warehouse sheds beside the main road hold goods for traders and distributors, with bays that open to the road all day."
+          },
+          {
+            "name": "Nangloi and Ghevra side",
+            "note": "Neighbouring settlements and smaller industrial pockets, where packers and food units rent rooms in mixed buildings to hold their stock."
+          }
+        ],
+        "industries": [
+          {
+            "slug": "logistics-warehousing",
+            "sentence": "Distribution sheds along the main road receive and release loads through the day, and a reading at each bay shows how long goods waited in the sun with the doors open."
+          },
+          {
+            "slug": "food-beverage",
+            "sentence": "Packers of snacks, spices and dry food hold ingredients and finished cartons in sheds that run hot in summer and damp in the monsoon, so both temperature and humidity are worth recording."
+          },
+          {
+            "slug": "electronics",
+            "sentence": "Sellers and makers of electrical fittings, cables and appliances hold boards and finished items in stores where damp invites corrosion, and a humidity trend shows when a store needs drying."
+          }
+        ],
+        "services": "For Mundka we supply WiFi loggers for sheds with a network, multi-channel units for tall bays where floor and roof differ, and GSM loggers with external probes for rooms and yards without signal. Calibration of the loggers comes from VEGA Calibrations, our parent company, and can be arranged with the supply.",
+        "visits": "Send the plot or shed, the lane and the contact who will meet us through the enquiry form, WhatsApp or a call, and we agree a day that fits your shifts. The Rohtak road is busy with heavy vehicles, so we plan around traffic and group Mundka with other western Delhi stops. Please mention any gate rules or working-hour limits at the premises.",
+        "approach": "For a packing unit here we would start with the shed that holds the most sensitive stock and place one logger near the roof and one low near the goods. Alerts go first to the shift in-charge and then to the owner, so the hours after closing are covered, and the first weeks show which bays need their own point.",
+        "faqs": [
+          {
+            "question": "The owner lives far from the Mundka premises. Can alerts reach them?",
+            "answer": "Yes. Alerts go by phone and email to named people, and the owner can open the dashboard from anywhere to see every room, with a second person set to be called if the first does not respond."
+          },
+          {
+            "question": "Can one logger cover a whole shed?",
+            "answer": "A single logger shows the temperature where it hangs, not across a shed. A large shed may need several points at different heights, and a short walk-through of the building tells us how many."
+          }
+        ],
+        "nearby": [
+          "bawana",
+          "wazirpur",
+          "narela"
+        ],
+        "indexable": true
+    } },
   { slug: "noida", name: "Noida", citySlug: "noida", areaType: "business-district", nearbyIndustries: ["electronics", "data-centers", "logistics-warehousing"], confirmedService: true, hero: ["virat", "vayu-pro"] },
   { slug: "greater-noida", name: "Greater Noida", citySlug: "noida", areaType: "industrial-estate", nearbyIndustries: ["electronics", "logistics-warehousing", "pharmaceutical"], confirmedService: true, hero: ["rajmudra", "veer-pro"], page: {
       "metaTitle": "Data Loggers in Greater Noida | Prithvi",

@@ -2971,6 +2971,9 @@ export const locations: LegacyLocationNode[] = [
           { slug: "okhla", text: "A south-eastern district of pharmaceutical, packaging, garment and electrical units on closely packed plots over several floors." },
           { slug: "bawana", text: "A large north-western estate of food processing, plastics and warehousing, with long distances between buildings." },
           { slug: "narela", text: "A northern industrial and warehousing belt near the Haryana border, with distribution sheds and a dependence on road transport." },
+          { slug: "mayapuri", text: "A west Delhi estate of engineering workshops, machinery and spares dealers, where steel stock and panel rooms fear damp and heat." },
+          { slug: "wazirpur", text: "A north-west steel and stainless steel district of coil godowns, finishing stores and acid drums, where condensation stains metal." },
+          { slug: "mundka", text: "A western-edge mixed estate beside the Rohtak road, with packing units and warehouse sheds now served by the Green Line Metro." },
         ],
         indexable: true,
         children: [
