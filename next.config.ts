@@ -31,6 +31,12 @@ function legacyLocationRedirects() {
   ]);
 }
 
+// Alternative names that people search for. Each one is a permanent redirect to the page that
+// carries the current name (Aurangabad was renamed Chhatrapati Sambhajinagar).
+const ALIAS_REDIRECTS: { alias: string; path: string[] }[] = [
+  { alias: "aurangabad", path: ["india", "maharashtra", "chhatrapati-sambhajinagar"] },
+];
+
 const nextConfig: NextConfig = {
   /* config options here */
   cacheComponents: true,
@@ -48,6 +54,11 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       ...legacyLocationRedirects(),
+      ...ALIAS_REDIRECTS.map(({ alias, path }) => ({
+        source: `/${LOCATION_URL_PREFIX}${alias}`,
+        destination: locationHref(path),
+        statusCode: 301 as const,
+      })),
       // The internal route behind the rewrite below is never a public URL.
       {
         source: "/data-logger/:slug",

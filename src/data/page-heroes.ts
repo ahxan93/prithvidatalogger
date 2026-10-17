@@ -207,6 +207,7 @@ const CITY_REGISTRY: { slug: string; region: Region }[] = [
     "vadodara", "gurugram", "thane", "vapi", "ankleshwar", "nashik", "nagpur", "visakhapatnam", "haridwar", "surat",
     "thane-bhiwandi",
     "vasai-palghar",
+    "chhatrapati-sambhajinagar", "kolhapur",
   ].map((slug) => ({ slug, region: "india" as const })),
 ];
 

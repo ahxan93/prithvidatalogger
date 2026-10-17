@@ -122,7 +122,7 @@ export const locations: LegacyLocationNode[] = [
       },
     ],
     listing: [
-      { slug: "maharashtra", text: "Mumbai, Navi Mumbai, Thane and Bhiwandi, Panvel, Pune and Vasai-Palghar, where a humid coast and the MIDC estates are the main themes." },
+      { slug: "maharashtra", text: "Mumbai, Navi Mumbai, Thane and Bhiwandi, Panvel, Pune, Vasai-Palghar, Nashik, Chhatrapati Sambhajinagar, Nagpur and Kolhapur, from a humid coast to hot inland plateaus." },
       { slug: "gujarat", text: "Ahmedabad's estates and the chemical belt of Vapi, Ankleshwar and Surat, where pharmaceutical, dye and textile stores meet a heavy southern monsoon." },
       { slug: "delhi-state", text: "A dense capital in which hospitals, medicine distributors and food businesses share space with the Okhla, Bawana and Narela industrial areas." },
       { slug: "uttar-pradesh", text: "Noida and Greater Noida's electronics and data centre campuses, and Lucknow's hospitals, medicine stockists and cold stores." },
@@ -168,7 +168,7 @@ export const locations: LegacyLocationNode[] = [
           {
             question: "Which Maharashtra locations have their own pages?",
             answer:
-              "Six cities have full pages, and many of their industrial areas have pages of their own. Each is listed below with a note, so you can open the one nearest to your site.",
+              "Ten cities have full pages, and many of the Mumbai-region industrial areas have pages of their own. Each is listed below with a note, so you can open the one nearest to your site.",
           },
           {
             question: "Can one team watch sites in Mumbai, Pune and Thane together?",
@@ -188,6 +188,10 @@ export const locations: LegacyLocationNode[] = [
           { slug: "panvel", text: "The southern gateway of the Mumbai region, where harbour roads, the Pune expressway and the Goa highway all begin." },
           { slug: "pune", text: "An inland city whose industry is spread in a ring, from automotive plants and electronics to pharma, food and IT parks." },
           { slug: "vasai-palghar", text: "A coastal belt north of Mumbai in which creek towns, farmland and process industry sit within a short drive of each other." },
+          { slug: "nashik", text: "A Godavari plateau city of vineyards and onion markets, with engineering estates at Ambad and Satpur and newer plants at Sinnar." },
+          { slug: "chhatrapati-sambhajinagar", text: "Also known as Aurangabad, the Marathwada centre of Waluj, Chikalthana and Shendra, with automotive, drinks and pharmaceutical plants and tourist hotels." },
+          { slug: "nagpur", text: "A central crossroads city of orange trade, large hospitals and the Hingna, Butibori and MIHAN sites, under some of the hottest summers in India." },
+          { slug: "kolhapur", text: "A Panchganga valley city of foundries, a cooperative dairy, sugar and jaggery, with estates at Shiroli, Gokul Shirgaon and Kagal under a heavy monsoon." },
         ],
         areaListing: [
           { slug: "andheri", text: "Mixed factory units, stockists' godowns, laboratories and airport-side hotels beside the hospitals of the western suburbs." },
@@ -852,6 +856,411 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Vasai-Palghar | Prithvi",
             metaDescription:
               "WiFi and GSM temperature data loggers in Vasai-Palghar: Vasai, Tarapur and Boisar estates and godowns, with site visits. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "nashik",
+            name: "Nashik",
+            type: "city",
+            intro:
+              "Nashik sits on the upper Godavari, a plateau city with a long road and rail link to Mumbai and an economy very different from the coast. Engineering and electrical plants fill the estates at Ambad and Satpur, a defence aircraft works stands at Ozar, and the Sinnar estate to the south-east draws newer factories along the road to Pune. Around the city the district grows grapes and onions, and its vineyards have made it known for wine, so cold rooms, barrel halls and packing sheds count alongside machine shops. A temperature data logger in Nashik therefore has to serve a fermentation hall as readily as a pharmaceutical store or a fruit chamber. A record that continues overnight and through power cuts lets a small quality team trust rooms it cannot visit every hour.",
+            climateAngle:
+              "Summers are hot and dry on the plateau, the monsoon is moderate in the city and much heavier in the ghats towards Igatpuri, and winter nights are cool, so a store that sits comfortably for most of the year can swing quickly when the rains arrive.",
+            areas: [
+              {
+                name: "Ambad",
+                note: "A long-established MIDC estate on the western side of the city with engineering shops, forging and electrical units, on compact plots where stores sit close to the production floor.",
+              },
+              {
+                name: "Satpur",
+                note: "The other older estate, north-west of the centre, where component makers, electrical firms and food units hold material in sheds that share walls and loading roads.",
+              },
+              {
+                name: "Sinnar",
+                note: "A town and MIDC estate on the road to Pune, with larger plots for newer plants, so storage runs across wide yards and several buildings rather than one hall.",
+              },
+              {
+                name: "Nashik Road",
+                note: "The district around the main railway station on the east side, with wholesale lanes, hospitals and depots that receive goods from the Central line.",
+              },
+              {
+                name: "Lasalgaon and the Niphad belt",
+                note: "A drive to the north-east, where a major onion wholesale market runs and grapes and onions are graded, packed and held in sheds and chambers.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Wineries and grape packers hold fermenting wine, barrels and fresh fruit at set temperatures, and onion traders keep stores where one damp week can start rot, so a probe in each hall or chamber builds the record a buyer can see.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmaceutical makers and medicine stockists in the estates keep stores and sample rooms to written limits, and an alert to the stores head reaches a phone before a warm night spoils a lot.",
+              },
+              {
+                slug: "electronics",
+                sentence:
+                  "Electrical and electronics makers hold sensitive components and finished panels in stores that must stay dry, and a humidity trend shows how a room behaved when the first rains arrived.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Warehouses on the Mumbai and Pune roads receive produce, packed goods and parts, and a reading at each dock door shows how long a load waited in the sun before it was put away.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity along with temperature, which matters in a barrel hall, a grape chamber or a panel store when the monsoon turns the air damp.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two external probes, one near the floor and one at head height, show how a fruit chamber or a wine hall varies from top to bottom.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels watch a large store from dock to far wall, so one report shows how a shed on a wide plot at Sinnar behaves.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Do you visit Ambad, Satpur and Sinnar?",
+                answer:
+                  "Site visits are planned by the area where you work, and the three estates lie in different directions from the city, so we group requests by direction. Share the estate, the type of room and the number of points you want watched, and we propose a visit with your team.",
+              },
+              {
+                question: "Can a winery watch fermentation and barrel halls with one system?",
+                answer:
+                  "Yes. Each hall is a point on the dashboard with its own limits and alert contact, and a cellar manager can open the record of a tank or barrel room from a phone and export it as PDF, Excel or CSV for any period.",
+              },
+              {
+                question: "What suits a grape or onion store where the sheds are far apart?",
+                answer:
+                  "Wireless loggers need only WiFi at each shed, so no cable is run across yards, and external probes can be placed at the warm and cool ends of a chamber. We advise on probe positions once we know the layout.",
+              },
+              {
+                question: "Is calibration available for plants in Nashik?",
+                answer:
+                  "Calibration of loggers and probes is delivered by VEGA Calibrations, our parent company, and can be planned with the supply. Send the model and the range you work to, and we confirm how it is arranged for a Nashik site.",
+              },
+            ],
+            nearby: [
+              { slug: "thane-bhiwandi", name: "Thane & Bhiwandi" },
+              { slug: "mumbai", name: "Mumbai" },
+              { slug: "pune", name: "Pune" },
+              { slug: "chhatrapati-sambhajinagar", name: "Chhatrapati Sambhajinagar" },
+            ],
+            metaTitle: "Temperature Data Loggers in Nashik | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Nashik's wineries, Ambad and Satpur estates, Sinnar plants and onion and grape stores. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "chhatrapati-sambhajinagar",
+            name: "Chhatrapati Sambhajinagar",
+            type: "city",
+            intro:
+              "Chhatrapati Sambhajinagar, still called Aurangabad by many people in everyday speech, is the industrial centre of Marathwada. Its large estates lie around the old city: Waluj on the Pune road to the west, Chikalthana beside the airport, and Shendra, a planned industrial city on the Delhi–Mumbai corridor. Automotive and component makers, drinks plants, pharmaceutical firms and engineering shops share them, while visitors to the Ajanta and Ellora caves keep hotels and kitchens busy. A temperature data logger in Chhatrapati Sambhajinagar must therefore cover a bottling store, a medicine godown, a paint shop and a hotel walk-in fridge. Summers are fierce and dry, so closed sheds soak up heat all afternoon, and an alert that reaches a phone while the building is empty matters more than a morning round.",
+            climateAngle:
+              "Summers are very hot and dry, and a closed shed can hold the afternoon's heat well into the night, while the monsoon is modest and the winter cool, so the daily swing is wide and a continuous record shows what a room really did overnight.",
+            areas: [
+              {
+                name: "Waluj",
+                note: "A very large estate on the Pune road with automotive, component, engineering and drinks plants and the warehouses that serve them, spread along long internal roads.",
+              },
+              {
+                name: "Chikalthana",
+                note: "An older estate beside the airport, with engineering, pharmaceutical and food units whose stores sit among offices and busy main roads.",
+              },
+              {
+                name: "Shendra",
+                note: "A planned industrial city with wide roads and large plots, where newer plants and logistics space are laid out over long distances that favour wireless monitoring.",
+              },
+              {
+                name: "Paithan",
+                note: "A Godavari town known for its woven silk saris, with an industrial estate and the Jayakwadi dam upstream that waters farmland for food processors across the district.",
+              },
+              {
+                name: "Old city and Station Road hotels",
+                note: "Hotels, restaurants and kitchens around the fort, the tombs and the railway station feed visitors on their way to the caves and run walk-in fridges and freezers all day.",
+              },
+            ],
+            industries: [
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Component stores and distribution sheds at Waluj hold parts, packed drinks and consumer goods in tall buildings where the roof traps heat, and a reading at several heights shows how much hotter the top racks run.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmaceutical units and medicine stockists keep stores to stated limits through the long hot season, and a dated record for each room is what a quality head shows an inspector.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Breweries, bottlers and food processors keep ingredient stores and finished goods that change when heat builds up, and hotel kitchens near the tourist sites run fridges that are opened all day.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Large hospitals serving the Marathwada region keep blood banks, vaccine fridges and pharmacies that need an alarm reaching the on-duty staff when power fails in a hot spell.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels map a tall Waluj shed from floor to roof across several bays, so a single report shows where heat gathers under the metal.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger with an external probe keeps recording where WiFi does not reach, such as a vehicle yard or the far corner of a wide estate, and sends alerts by mobile network.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four probes cover the cold room, the packing area, the loading door and the compressor room of a medium-sized food or drinks unit from one logger.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Do you cover Aurangabad as well as Chhatrapati Sambhajinagar?",
+                answer:
+                  "Yes, they are one city under its older and newer name. Use whichever name you prefer, and tell us the estate and what you store when you send the enquiry.",
+              },
+              {
+                question: "Can sites at Waluj, Chikalthana and Shendra be watched together?",
+                answer:
+                  "Yes. Each site is a separate entry on the dashboard with alerts for its own people, and a plant head or group quality manager can see all three in one list and export reports for any period.",
+              },
+              {
+                question: "What helps in a shed that gets very hot in the afternoon?",
+                answer:
+                  "Placing probes at floor height and under the roof shows how much hotter the upper racks run, and alert limits can be set for each position. Tell us the shed height and what is stored, and we suggest the points.",
+              },
+              {
+                question: "Can calibration and mapping be arranged for a plant here?",
+                answer:
+                  "VEGA Calibrations, our parent company, handles calibration, temperature mapping and validation support, and the work can be planned together with the loggers. Send us what you need to cover and we explain how it can be arranged for your site.",
+              },
+            ],
+            nearby: [
+              { slug: "nashik", name: "Nashik" },
+              { slug: "pune", name: "Pune" },
+              { slug: "nagpur", name: "Nagpur" },
+            ],
+            metaTitle: "Data Loggers in Chhatrapati Sambhajinagar | Prithvi",
+            metaDescription:
+              "Temperature data loggers for Chhatrapati Sambhajinagar (Aurangabad): Waluj, Chikalthana and Shendra plants, hospitals and kitchens. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "nagpur",
+            name: "Nagpur",
+            type: "city",
+            intro:
+              "Nagpur lies almost in the middle of the country, where the main north–south and east–west routes cross, and that position shapes its storage. Goods bound for the east, south and north pass through its rail yards and warehouses, oranges from the Vidarbha orchards are graded and chilled here, and the city's hospitals draw patients from a wide region. Industry sits in estates on the edges: Hingna to the west, Butibori on the highway to the south, and the MIHAN project near the airport, which joins a cargo hub to a special economic zone. A temperature data logger in Nagpur has to cope with some of the hottest summers in India, when a closed shed or a parked van can be far hotter than the air outside. Alerts to a phone give a small team a way to watch many rooms.",
+            climateAngle:
+              "Summers are extremely hot and dry, with heat building from April to June, then a moderate monsoon raises humidity and the winter is mild and dry, so cooling plant works hardest exactly when the outside air is at its worst.",
+            areas: [
+              {
+                name: "Hingna",
+                note: "A MIDC estate on the western side and one of the city's biggest, with engineering, electronics, food and pharmaceutical units on plots of every size.",
+              },
+              {
+                name: "Butibori",
+                note: "A very large estate on the highway towards Hyderabad, with textile, chemical, engineering and warehousing plants on big plots that stand far apart.",
+              },
+              {
+                name: "MIHAN",
+                note: "The multi-modal cargo hub and airport project beside the airport, with a cargo terminal, a special economic zone and newer warehouses and technology units.",
+              },
+              {
+                name: "Kalmeshwar",
+                note: "An estate on the western highway in orange country, where food processors and engineering firms work close to the groves and the farms that supply them.",
+              },
+              {
+                name: "Itwari and Kalamna markets",
+                note: "The old city grain and vegetable market at Itwari and the larger produce market at Kalamna, where goods are traded in bulk before being sent on to towns across the region.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Orange traders, grain dealers and dairies chill and hold produce through the long summer, and a log for each chamber shows how many hours the temperature climbed whenever grid power dipped.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Large government and private hospitals draw patients from the surrounding states and run blood banks, vaccine fridges and pharmacies that must hold their range through every power cut.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Warehouses at MIHAN and along the national highways serve as a staging point for goods in every direction, so loads often wait here between long journeys in sun-heated sheds.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine distributors serve hospitals and chemists across the region from stores that must stay in range through the hottest weeks, and a dated log answers a buyer's questions.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger with an external probe keeps working where there is no WiFi, which suits a roadside orchard store or a vehicle on a long haul.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels cover a big MIHAN or Butibori warehouse from dock to far wall, so one report shows where the heat gathers during a long, dry summer.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger fits a hospital vaccine fridge or a distributor's cold cabinet and is simple for ward staff to read and to move.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How do the loggers cope with power cuts in the summer?",
+                answer:
+                  "The loggers in our range carry their own batteries and keep recording through a cut, so the log shows the whole period the power was off and how far the room warmed.",
+              },
+              {
+                question: "Can sites at Hingna, Butibori and MIHAN be watched from one login?",
+                answer:
+                  "Yes. Each site is its own entry on the dashboard with alerts for the people who run it, and a head of quality sees all of them in one list and can compare their records side by side.",
+              },
+              {
+                question: "Do orange traders need humidity as well as temperature?",
+                answer:
+                  "Fruit chambers and packing sheds are watched for humidity as well as temperature, since dry air shrinks fruit and damp air invites mould. A logger that reads both suits the job.",
+              },
+              {
+                question: "Can calibration be arranged for a Nagpur hospital or plant?",
+                answer:
+                  "Yes, through VEGA Calibrations, our parent company, which also carries out temperature mapping of larger stores. Tell us the model and the range and we explain how it is planned with a site visit.",
+              },
+            ],
+            nearby: [
+              { slug: "chhatrapati-sambhajinagar", name: "Chhatrapati Sambhajinagar" },
+              { slug: "nashik", name: "Nashik" },
+              { slug: "hyderabad", name: "Hyderabad" },
+            ],
+            metaTitle: "Temperature Data Loggers in Nagpur | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Nagpur's Hingna, Butibori and MIHAN sites, orange and grain stores and hospitals. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "kolhapur",
+            name: "Kolhapur",
+            type: "city",
+            intro:
+              "Kolhapur lies in the Panchganga valley in the south of western Maharashtra, close to the Karnataka border, and its manufacturing tradition is far larger than its size suggests. Foundries and engineering shops supply automotive and machinery makers, sugar mills and jaggery markets work through the cane season, and a cooperative dairy gathers milk from villages across the district. The estates at Shiroli and Gokul Shirgaon hold much of this, with the Kagal Five Star estate on the highway. A temperature data logger in Kolhapur may be watching a dairy cold store, a pharmaceutical godown or a textile warehouse, in air that is warm and very wet through the rains. Records that continue through floods and power cuts matter here, and alerts that reach a phone let one person look after rooms in several estates.",
+            climateAngle:
+              "The monsoon is heavy, the air stays warm and wet for months, and the Panchganga has flooded low-lying areas in recent years, so ground-level stores fight damp and need records that carry on through outages.",
+            areas: [
+              {
+                name: "Shiroli",
+                note: "A busy MIDC estate on the Pune highway side of the city, with foundries, engineering shops and chemical units whose stores share narrow lanes with heavy lorries.",
+              },
+              {
+                name: "Gokul Shirgaon",
+                note: "An estate close to the city where the cooperative dairy plant, engineering works and food units stand along the same roads.",
+              },
+              {
+                name: "Kagal Five Star estate",
+                note: "A larger estate on the national highway, with newer plants on bigger plots, so rooms sit farther apart than in the older estates.",
+              },
+              {
+                name: "Rajarampuri and Mahadwar Road",
+                note: "Dense commercial streets near the Mahalaxmi temple, with medicine shops, hospitals, hotels and traders' godowns packed into old buildings.",
+              },
+              {
+                name: "Ichalkaranji",
+                note: "A powerloom town to the east whose mills and cloth godowns hold yarn and fabric that take up moisture from the air.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "A cooperative dairy, milk chilling centres, jaggery and sugar processors and hotel kitchens depend on cold rooms and cool stores, and a continuous record shows how a chiller behaved when the grid dipped in the rains.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine distributors and pharmacies serve the district and the neighbouring Karnataka towns, and their stores need a dated log through the humid months.",
+              },
+              {
+                slug: "textile",
+                sentence:
+                  "Powerloom mills and the godowns around them hold yarn and cloth that take up moisture, so a humidity reading shows when stock should be moved or a dehumidifier switched on.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals in the city serve patients from several districts and keep blood banks and medicine stores whose alarms must reach the duty staff at night as readily as by day.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity along with temperature, which is the figure that matters for yarn, jaggery and packed goods through the wet months.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an optional external probe fits a milk chiller or a medicine fridge without changing how the unit is used.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four probes cover the intake, the chiller, the dispatch dock and the power room of a dairy or a food unit from one logger.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Do floods affect where the loggers should be placed?",
+                answer:
+                  "Yes. Mount loggers above ground level and away from doors that open to the yard, and run probes up to the shelf instead of leaving them on the floor, so a low-lying store keeps a working record when damp reaches the ground. We advise on positions once we know the layout.",
+              },
+              {
+                question: "Can plants at Shiroli, Gokul Shirgaon and Kagal be watched together?",
+                answer:
+                  "Yes. Every plant is its own entry on the dashboard, each shift lead receives the alerts for their rooms, and a manager responsible for several plants can view them in a single list.",
+              },
+              {
+                question: "What suits a jaggery or sugar store during the cane season?",
+                answer:
+                  "A logger that reads humidity along with temperature shows when a store starts to take on damp air, so a seal or a vent can be dealt with before blocks soften. Tell us the size of the store and we suggest where to place the probes.",
+              },
+              {
+                question: "Can loggers for a Kolhapur dairy or hospital be calibrated?",
+                answer:
+                  "VEGA Calibrations, our parent company, calibrates loggers and probes and supports temperature mapping and validation. Send the model and the range you work to, and we explain how it is arranged for your site.",
+              },
+            ],
+            nearby: [
+              { slug: "pune", name: "Pune" },
+              { slug: "satara", name: "Satara" },
+              { slug: "ratnagiri-lote", name: "Ratnagiri-Lote" },
+            ],
+            metaTitle: "Temperature Data Loggers in Kolhapur | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Kolhapur's dairies, foundries and mills at Shiroli, Gokul Shirgaon and Kagal, with site visits. Get Solution.",
             indexable: true,
           },
         ],
