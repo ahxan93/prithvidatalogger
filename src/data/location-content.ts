@@ -56,7 +56,7 @@ export const locationContent: Record<string, LocationContent> = {
   },
   "india/karnataka": {
     metaDescription:
-      "Temperature data loggers in Karnataka: Bengaluru (Bangalore) laboratories, technology parks, electronics makers and hospitals. Get Solution.",
+      "Temperature data loggers in Karnataka: Bengaluru (Bangalore), Mysuru, Mangaluru, Belagavi, Hubballi-Dharwad and Tumakuru. Get Solution.",
     recommended: ["setu", "dhruva", "nakshatra"],
   },
   "india/tamil-nadu": {

@@ -128,7 +128,7 @@ export const locations: LegacyLocationNode[] = [
       { slug: "uttar-pradesh", text: "Noida and Greater Noida's electronics and data campuses, Lucknow's hospitals and cold stores, and the trades of Ghaziabad, Kanpur, Agra, Varanasi, Meerut, Prayagraj, Bareilly and Moradabad." },
       { slug: "haryana", text: "Gurugram, Faridabad, the IMT Manesar plants and the Grand Trunk Road towns of Sonipat and Panipat, built around automotive, textiles, food and distribution." },
       { slug: "telangana", text: "Hyderabad's pharmaceutical estates, life-science campuses and server halls, with the market and mill towns of Warangal, Karimnagar and Nizamabad." },
-      { slug: "karnataka", text: "Bengaluru's laboratories, technology parks, electronics makers and hospitals, together with the engineering belt of Peenya." },
+      { slug: "karnataka", text: "Bengaluru's laboratories, technology parks, electronics makers and hospitals, together with the engineering belt of Peenya and the cities of Mysuru, Mangaluru, Belagavi, Hubballi-Dharwad and Tumakuru." },
       { slug: "tamil-nadu", text: "Chennai's port-linked estates and the mills and workshops of Coimbatore, where humidity decides how stock keeps." },
       { slug: "chandigarh-state", text: "The planned city and union territory, with Mohali and Panchkula beside it, serving hospitals, medicine distributors and food depots." },
       { slug: "himachal-pradesh", text: "The foothill pharmaceutical cluster around Baddi, Barotiwala and Nalagarh, where plants work to written storage procedures." },
@@ -5482,20 +5482,21 @@ export const locations: LegacyLocationNode[] = [
         name: "Karnataka",
         type: "state",
         intro:
-          "Karnataka's industry that we serve first is gathered around Bengaluru, a city of campuses more than of factories: technology parks, research institutes, biotech firms, hospitals and electronics makers, with an older engineering estate in the north-west. The climate is mild for most of the year, so the heat in a room usually comes from its own equipment, and a cooling fault matters more than the weather. The rooms that benefit most from monitoring are server halls, laboratory freezers, clean assembly bays and hospital pharmacies. The pages below describe the city and the three area pages we have written for it.",
+          "Karnataka's storage falls into several different groups. Bengaluru and its estates hold technology parks, laboratories and electronics makers where a cooling fault matters more than the weather, while Mysuru and Tumakuru add research cold rooms, food plants and highway warehouses on either side of the capital region. On the coast Mangaluru works around a port, cashew and seafood, and in the north-west Hubballi-Dharwad and Belagavi combine trade, universities, foundries and precision engineering. Climates run from a mild plateau to a wet coast, so humidity decides some of the choices. The pages below describe each city and the three area pages written for Bengaluru.",
         localIndustries: [
           "Electronics and technology parks",
           "Biotech and research laboratories",
           "Data centres and server rooms",
+          "Port cargo, food processing and precision engineering",
         ],
-        citiesServed: ["Bengaluru"],
+        citiesServed: ["Bengaluru", "Mysuru", "Hubballi-Dharwad", "Mangaluru", "Belagavi", "Tumakuru"],
         supportNote:
           "Supply, installation support and site visits for Karnataka sites are arranged from our Mumbai office. Tell us the campus or estate and what the rooms hold.",
         faqs: [
           {
             question: "Which Karnataka locations have a page?",
             answer:
-              "Bengaluru has a city page, with Peenya, Electronic City and Whitefield as area pages. Bommasandra and Jigani are mentioned on the city page and may follow.",
+              "Bengaluru has a city page, with Peenya, Electronic City and Whitefield as area pages, and Mysuru, Hubballi-Dharwad, Mangaluru, Belagavi and Tumakuru have city pages of their own. Bommasandra and Jigani are mentioned on the city page and may follow.",
           },
           {
             question: "Do you use the name Bangalore as well as Bengaluru?",
@@ -5510,6 +5511,11 @@ export const locations: LegacyLocationNode[] = [
         ],
         listing: [
           { slug: "bengaluru", text: "Also called Bangalore, a city of technology parks, laboratories, hospitals and electronics makers where cooling faults, not weather, are the main risk." },
+          { slug: "mysuru", text: "A palace and university city whose research cold rooms, hotel kitchens, teaching hospitals and Nanjangud estate sit along the Bengaluru expressway." },
+          { slug: "hubballi-dharwad", text: "Twin cities of trade, railways and universities in the north, with foundries and workshops at Gokul Road and Rayapur and a busy market yard." },
+          { slug: "mangaluru", text: "A port city on the coast with cashew factories, seafood cold stores, chemical and fertiliser stores and medical colleges in warm, salty air." },
+          { slug: "belagavi", text: "A north-western border city of foundries, an aerospace-components cluster, a cantonment and sugar-belt godowns beneath a heavy monsoon." },
+          { slug: "tumakuru", text: "A highway industrial belt north-west of the capital region, with large planned estates, copra and groundnut godowns and district hospitals." },
         ],
         areaListing: [
           { slug: "peenya", text: "The north-western engineering belt of machine shops, tool rooms and small electronics firms whose stock fears damp more than heat." },
@@ -5617,6 +5623,487 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Bengaluru | Prithvi",
             metaDescription:
               "WiFi and GSM temperature data loggers in Bengaluru (Bangalore) for labs, data centres, electronics plants and hospitals. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "mysuru",
+            name: "Mysuru",
+            type: "city",
+            intro:
+              "Mysuru is a heritage and education city in southern Karnataka, known for its palace and the Dasara festival, and it has quietly built a second life as a place of research, light manufacturing and services. Its industrial areas at Metagalli and Hootagalli and the larger estate at Nanjangud host engineering, food, beverage and electrical units, while a national food-technology research institute, teaching hospitals and a wide hospitality trade fill the older city. A temperature data logger in Mysuru therefore guards a mixture: research cold rooms, hotel kitchens and banquet stores, hospital refrigerators and packed goods in sheds on the estates. Many sites are modest in size and run by small teams, and the highway to Bengaluru, now an expressway, means stock often arrives and leaves at night. Prithvi supplies WiFi loggers for rooms with a network and GSM loggers for vans and outlying depots, with alerts to phones and email.",
+            climateAngle:
+              "The climate is mild for most of the year, with a warm spell before the rains and a cool, damp monsoon, so a failing cooler is more often the cause of a bad reading than the weather outside.",
+            areas: [
+              {
+                name: "Metagalli and Hootagalli",
+                note: "Industrial areas on the city's north-western side where engineering shops, packaging units and food makers sit close to housing, with stores of mixed age and size.",
+              },
+              {
+                name: "Nanjangud industrial area",
+                note: "A larger estate to the south of the city with food, beverage and process units on bigger plots, each running its own ingredient stores and dispatch bays.",
+              },
+              {
+                name: "Research and university campuses",
+                note: "The national food-technology institute and the university laboratories hold samples, cultures and reagents in freezers and cold rooms that must keep to written protocols for long studies.",
+              },
+              {
+                name: "Palace-side hotels and banquet kitchens",
+                note: "Hotels, restaurants and caterers serving the visitors who come for the palace and the festival rely on walk-in coolers and freezers that work hardest in the crowded weeks.",
+              },
+            ],
+            industries: [
+              {
+                slug: "laboratories",
+                sentence:
+                  "Research institutes and teaching laboratories keep cultures, samples and reagents in freezers and incubators, and a logged record shows a supervisor or a funder that conditions held across weekends and holidays.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Food and beverage units and hotel kitchens hold ingredients and cooked stock in coolers that face a crowd of visitors in festival weeks, and an alert on a warming unit gives the cook time to move the food.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Teaching hospitals draw patients from several districts and keep vaccines and blood components in many refrigerators, so a phone alert from a failing unit matters on the night shift.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods travel between Mysuru and Bengaluru on the expressway at all hours, and a logger placed in a consignment records how long it stood in a vehicle or a transfer shed.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a laboratory cabinet or a dry-goods store, where a damp week in the monsoon is the main risk.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels let one logger watch several coolers in a hotel kitchen or several refrigerators in a hospital ward on one screen.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger reports from a van on the expressway or an outlying depot without Wi-Fi, which suits food travelling to the city.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can you monitor hotel kitchens in the busy festival weeks?",
+                answer:
+                  "Yes. Each cooler or freezer is a named point with its own alert contact, and a kitchen manager can see all of them on a phone, so a door left open in a crowded service is flagged while the food is still safe to save.",
+              },
+              {
+                question: "Do you visit estates outside the city, such as Nanjangud?",
+                answer:
+                  "Send the estate, the unit and the person who will meet us through the enquiry form, WhatsApp or a call, and we confirm how a visit would be arranged for Nanjangud and the other pockets around the city.",
+              },
+              {
+                question: "Can a research lab set limits to match its protocol?",
+                answer:
+                  "We set the limits, alert contacts and report intervals room by room to match the lab's own written protocol, and any period's report can be exported for whoever reviews the study.",
+              },
+              {
+                question: "How are loggers placed in an old building with thick walls?",
+                answer:
+                  "Battery loggers hang from a shelf or stand on a rack, and thick walls only matter for the wireless signal, so we test the signal on a short visit and move a logger or add a GSM unit where it is weak.",
+              },
+            ],
+            nearby: [
+              { slug: "bengaluru", name: "Bengaluru" },
+              { slug: "coimbatore", name: "Coimbatore" },
+            ],
+            metaTitle: "Temperature Data Loggers in Mysuru | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Mysuru's research labs, hotels, hospitals and Nanjangud and Metagalli units. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "hubballi-dharwad",
+            name: "Hubballi-Dharwad",
+            type: "city",
+            intro:
+              "Hubballi and Dharwad are twin cities of north Karnataka that share one stretch of road and one economy: Hubballi is the commercial and railway centre, with the zonal headquarters of a railway and a large trade in cotton, grain and goods for the northern districts, while Dharwad is the older seat of two universities and many colleges. The industrial areas at Gokul Road and Tarihal in Hubballi and at Rayapur and Belur in Dharwad hold engineering workshops, foundries, food makers and packaging units. A temperature data logger in Hubballi-Dharwad guards medicines in the wholesale lanes, vaccines in a large government medical institute, seed and sample stores in the universities and sacked goods in the market yard. Prithvi supplies WiFi loggers for stores with a router and GSM loggers for godowns and vehicles without one, and alerts reach a phone or an inbox.",
+            climateAngle:
+              "The plateau is hot and dry in the months before the monsoon, the rains bring damp air into godowns that stay dry for most of the year, and winter nights are mild, so heat and moisture each have a season.",
+            areas: [
+              {
+                name: "Gokul Road and Tarihal, Hubballi",
+                note: "Industrial areas where engineering workshops, foundries and packaging units sit close to the city, with stores for castings, coatings and consumables on small and mid-sized plots.",
+              },
+              {
+                name: "Rayapur and Belur, Dharwad",
+                note: "Estates on the Dharwad side with food and manufacturing units on larger plots, where ingredient stores and dispatch bays stand some way from the offices.",
+              },
+              {
+                name: "Amargol market yard",
+                note: "Cotton, grain and other produce reach the market yard and its godowns from farms across the northern districts, and stock waits there through hot afternoons and damp spells.",
+              },
+              {
+                name: "Medical institute and university campuses",
+                note: "A large government medical institute in Hubballi and the agricultural and general universities in Dharwad keep vaccines, seed, samples and reagents in many cold rooms and freezers.",
+              },
+            ],
+            industries: [
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Wholesale medicine dealers in Hubballi supply chemists across a wide area of north Karnataka, and a record from each store shows that stock stayed within its printed limits before it left on a van.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The medical institute and private hospitals keep vaccines and blood components in refrigerators on many floors, and one screen across the wards helps a supervisor see which unit is drifting.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "University and seed laboratories hold samples, seed and reagents in cold rooms, and a continuous log gives a research supervisor the evidence that conditions held through a long project.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Sweet makers, grain traders and packed-food units hold stock that suffers in heat and damp, and a humidity and temperature record shows an owner when to ventilate or move the lot.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels, one at the top and one at the bottom of a medicine store, show whether warm air collects above the lower shelves.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels spread through a long market-yard godown at different heights and doors show which stacks sit in the afternoon heat.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a seed store or a laboratory cabinet, where moisture in the air matters as much as heat.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Do you cover both Hubballi and Dharwad?",
+                answer:
+                  "Yes. Send the town, the estate or the lane and a contact through the enquiry form, WhatsApp or a call, and we confirm how a visit would be arranged on either side of the road between them.",
+              },
+              {
+                question: "Can one account watch stores in both cities?",
+                answer:
+                  "Each store becomes a site with its own alert contacts, so an owner with a godown in Hubballi and a depot in Dharwad can see both on one dashboard and export a report for any room.",
+              },
+              {
+                question: "How would you plan a visit to a foundry or workshop?",
+                answer:
+                  "Send the estate, the unit and the person who will meet us, and tell us which stores matter most. We follow your safety rules, avoid furnace areas, and start with the rooms a buyer asks about first.",
+              },
+              {
+                question: "Which logger suits a godown with no Wi-Fi?",
+                answer:
+                  "A SIM-based Vayu logger reports over the mobile network, so a market-yard godown can be watched without a router, and we confirm the choice after seeing the building.",
+              },
+            ],
+            nearby: [
+              { slug: "belagavi", name: "Belagavi" },
+              { slug: "goa", name: "Goa" },
+            ],
+            metaTitle: "Temperature Data Loggers in Hubballi-Dharwad | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Hubballi-Dharwad's medicine stockists, hospitals, universities, market godowns and estates. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "mangaluru",
+            name: "Mangaluru",
+            type: "city",
+            intro:
+              "Mangaluru is the port city of coastal Karnataka, set between the Arabian Sea and the Western Ghats, and its economy runs through the New Mangalore Port. A refinery and petrochemical complex and a fertiliser plant stand in the north, cashew factories and seafood processors work in estates such as Baikampady, and a cluster of medical colleges and hospitals draws patients from several coastal districts. A temperature data logger in Mangaluru therefore watches cargo as often as rooms: chemical drums in port-side yards, cashew and packed food in humid sheds, fish in ice and cold stores near the harbour, and vaccines in hospital pharmacies. The air is warm and salty for most of the year, and stock that is fine inland can deteriorate here. Prithvi supplies WiFi loggers for sheds and cold rooms and GSM loggers for lorries and yards, so a reading follows the stock to a phone.",
+            climateAngle:
+              "The coast is warm and humid all year, the monsoon is long and extremely wet, and salt in the air attacks metal and packaging, so humidity and heat are watched together and probes are kept clear of damp walls.",
+            areas: [
+              {
+                name: "Baikampady and Yeyyadi industrial areas",
+                note: "Estates with food, chemical and engineering units, cashew factories and packing sheds on plots of mixed size, where damp air gets into stores through the long monsoon.",
+              },
+              {
+                name: "Port and Panambur",
+                note: "The port, its yards and the chemical and fertiliser stores near Panambur hold cargo that waits on a vessel or a lorry, in sun and salt wind.",
+              },
+              {
+                name: "Fishing harbour and Bunder",
+                note: "Boats land fish at the harbour and the old port area, and ice plants, cold stores and processors hold the catch before it is packed and sent inland or abroad.",
+              },
+              {
+                name: "Medical college and hospital belt",
+                note: "Several medical colleges and large hospitals in the city keep vaccines, blood components and medicines in many refrigerators serving the coastal districts.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Cashew processors and seafood handlers hold goods that spoil in warm, damp air, and a record from each cold store and shed shows a buyer how a lot was kept before shipment.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Chemical and fertiliser stores near the port carry limits printed on their labels, and an alert from a heated yard shed gives the supervisor time to act before the label is breached.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals and medical colleges keep vaccines and blood components in many refrigerators, and alerts on a phone mean a failing unit is noticed during the long monsoon nights.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Warehouses and container yards around the port hold goods bound for ships, and a logger in the consignment records how long it stood in the open between gate and vessel.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a cashew or packaging store, where damp coastal air reaching the stock is the main danger.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels in a fish cold room, one at each end, show whether the whole space is cooled or only the part nearest the unit.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger travels in a lorry or reports from a yard with no Wi-Fi, which suits goods moving between the port and the estates.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Where should probes sit in a cold store with salty, damp air?",
+                answer:
+                  "We place probes near doors and anterooms where damp air first meets a cold store, away from evaporator coils, and we use a second probe at the far end, so a report shows whether the whole room is cooled.",
+              },
+              {
+                question: "Can a logger ride with a consignment from the harbour?",
+                answer:
+                  "A SIM-based Vayu logger placed in the load keeps recording on its battery and sends readings over the mobile network, and the report can be exported by lot when the goods reach their destination.",
+              },
+              {
+                question: "Do you cover Panambur and the estates north of the city?",
+                answer:
+                  "Send the area, the unit and a contact through the enquiry form, WhatsApp or a call, and we confirm how a visit would be arranged for Panambur, Baikampady and other pockets around Mangaluru.",
+              },
+              {
+                question: "Can several seafood or cashew units be watched together?",
+                answer:
+                  "Each unit becomes a site with its own alert recipients, so an owner with several sheds can open all of them in one list and export a report for any room.",
+              },
+            ],
+            nearby: [
+              { slug: "goa", name: "Goa" },
+              { slug: "kochi", name: "Kochi" },
+            ],
+            metaTitle: "Temperature Data Loggers in Mangaluru | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Mangaluru's port yards, cashew and seafood units, chemical stores and hospitals. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "belagavi",
+            name: "Belagavi",
+            type: "city",
+            intro:
+              "Belagavi lies in the far north-west of Karnataka, close to the borders with Maharashtra and Goa, on the Pune–Bengaluru highway and rail line. Its industrial areas at Udyambag and Macche hold foundries, machine shops and auto-component makers, an aerospace-components cluster has grown up on the city's outskirts, and the surrounding countryside is sugarcane and farm country. The cantonment, a large private medical college and hospital, and a long-established trading community add other kinds of storage. A temperature data logger in Belagavi therefore protects very different things: paints and coatings at a component maker, controlled rooms in precision units, vaccines in hospitals and sugar, jaggery and grain in godowns after the rains. Prithvi supplies WiFi and GSM loggers with alerts to phones and email, for rooms and vehicles alike.",
+            climateAngle:
+              "The Western Ghats bring a heavy, long monsoon that fills the air with moisture, while the months before it are warm and dry and winter is pleasantly cool, so damp is the larger enemy of stored goods.",
+            areas: [
+              {
+                name: "Udyambag industrial estate",
+                note: "An older estate of foundries, machine shops and small engineering units that supply plants across the region, with stores for castings, coatings and consumables in crowded lanes.",
+              },
+              {
+                name: "Macche industrial area",
+                note: "A larger estate on the city's edge with component makers and processing units on roomier plots, where one site may run several stores a walk apart.",
+              },
+              {
+                name: "Aerospace-components cluster",
+                note: "Precision units on the outskirts make parts for aircraft makers, and their controlled rooms, finishing shops and material stores answer to buyers who ask for dated records.",
+              },
+              {
+                name: "Cantonment and hospital area",
+                note: "The cantonment's stores and the city's large teaching hospital keep medicines, vaccines and blood components in refrigerators that serve patients from several districts and from across the border.",
+              },
+            ],
+            industries: [
+              {
+                slug: "electronics",
+                sentence:
+                  "Precision and electronics-related units keep boards, sensors and finished parts in rooms where damp air from the monsoon harms stock, and a humidity trend shows a buyer how the lot was held.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Foundries and component makers hold paints, resins and coatings with printed storage limits, and an alert on a hot shed gives the storekeeper time to move drums before a batch is lost.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The teaching hospital and the cantonment's medical stores hold vaccines and blood components in many refrigerators, and a phone alert from a failing unit matters most on the night shift.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Sugar, jaggery and grain traders hold stock through the rains, and a humidity record from each godown shows when damp air has begun to threaten sacks and blocks.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a precision store or a sugar godown, where damp monsoon air reaching the stock is the risk.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels spread across a long foundry store or warehouse at different heights show which positions run warm and which stay damp.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels in a controlled room give a paired record from the top and bottom, which a buyer can attach to a qualification file.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can loggers be used in a foundry or machine shop?",
+                answer:
+                  "Loggers go in the stores and finishing rooms, not beside furnaces or presses, and we suggest positions away from heat sources and drafts so that the reading reflects the stored material.",
+              },
+              {
+                question: "Do you cover estates beyond Udyambag and Macche?",
+                answer:
+                  "Send the estate or town, the unit and a contact through the enquiry form, WhatsApp or a call, and we confirm how a visit would be arranged for other pockets around Belagavi.",
+              },
+              {
+                question: "Can a precision unit keep records that buyers can inspect?",
+                answer:
+                  "A report can be exported by room and date for the buyer's file, and limits and alert contacts are set room by room to follow the buyer's written storage rules.",
+              },
+              {
+                question: "How do you plan a visit to a store inside the cantonment?",
+                answer:
+                  "Entry follows the cantonment's own rules, so send the store, the unit that controls it and a person who will arrange our entry, and we plan the day around those arrangements.",
+              },
+            ],
+            nearby: [
+              { slug: "hubballi-dharwad", name: "Hubballi-Dharwad" },
+              { slug: "kolhapur", name: "Kolhapur" },
+              { slug: "goa", name: "Goa" },
+            ],
+            metaTitle: "Temperature Data Loggers in Belagavi | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Belagavi's Udyambag and Macche units, aerospace-parts makers, hospitals and godowns. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "tumakuru",
+            name: "Tumakuru",
+            type: "city",
+            intro:
+              "Tumakuru lies north-west of Bengaluru on the highway towards Pune, and it has become the capital region's overflow industrial belt as well as a district town in coconut and groundnut country. Large government-planned industrial areas at Vasantha Narasapura and Antharasanahalli hold manufacturing, engineering and food units, a helicopter factory stands at Gubbi in the district, and the copra trade of nearby Tiptur and the market yards bring dried coconut and groundnut through the city. A temperature data logger in Tumakuru therefore watches plants and godowns more than offices: packaging and ingredient stores in food units, component rooms in engineering plants, sacked coconut and groundnut through the monsoon and medicines in the district hospitals. Prithvi supplies WiFi loggers for plant stores and GSM loggers for lorries and depots, with alerts to phones and email wherever the owner is.",
+            climateAngle:
+              "The climate is warm and dry for much of the year with a spell of heat before the rains, and the monsoon brings damp air into godowns that were dry for months, so stores need a watch on heat first and moisture next.",
+            areas: [
+              {
+                name: "Vasantha Narasapura industrial area",
+                note: "A large planned industrial area south of the city with manufacturing, engineering and food units on big plots, where each plant runs its own stores and a long walk separates them.",
+              },
+              {
+                name: "Antharasanahalli industrial area",
+                note: "An older estate on the Bengaluru side with small and mid-sized factories, packaging units and stores that sit close together beside the highway.",
+              },
+              {
+                name: "Copra, groundnut and market-yard godowns",
+                note: "Dried coconut from Tiptur and groundnut from the district pass through the market yards and godowns, where heat and damp decide how long the stock keeps.",
+              },
+              {
+                name: "District hospital and medical college belt",
+                note: "The district hospital, a medical college and private hospitals keep vaccines, blood components and medicines in many refrigerators serving the surrounding taluks.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Food processors and copra and groundnut traders hold stock that spoils in heat and damp, and a temperature and humidity record shows an owner when a lot began to suffer.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Warehouses on the highway hold goods for plants and retailers in Bengaluru and beyond, and a reading for each bay settles questions about where a pallet was stored.",
+              },
+              {
+                slug: "electronics",
+                sentence:
+                  "Engineering and electronics units in the industrial areas keep components in dry rooms, and a humidity trend shows a buyer how the lot was held before it was fitted.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "District hospitals keep vaccines and blood components in refrigerators across wards, and alerts on a phone mean a unit that fails overnight is not found at the morning round.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels spread through a large plant warehouse at racks and dock doors give a quality head one report for the whole building.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a groundnut store or a component room, where damp air reaching the stock is the danger.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger reports from a lorry on the highway or a depot without Wi-Fi, which suits goods travelling between Tumakuru and Bengaluru.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Which industrial areas around Tumakuru do you visit?",
+                answer:
+                  "Send the estate, the unit and the person who controls the gate, and we confirm how a visit would be arranged. Plants usually register visitors in advance, so we plan the day around that and your safety rules.",
+              },
+              {
+                question: "Can a plant's stores be watched from Bengaluru?",
+                answer:
+                  "Yes. Loggers report over Wi-Fi or the mobile network, and an owner or quality head in Bengaluru sees the same dashboard and alerts as the shift in-charge, from a phone or a desktop.",
+              },
+              {
+                question: "How does a logger help a coconut or groundnut trader?",
+                answer:
+                  "A humidity and temperature record from the godown can be exported by lot and date, so a trader can answer a buyer's question about how the stock was kept before dispatch.",
+              },
+              {
+                question: "Can mapping help in a large plant warehouse?",
+                answer:
+                  "Temperature mapping is carried out by VEGA Calibrations, our parent company, and it shows which positions in a big warehouse run warm so that permanent loggers can be fixed there.",
+              },
+            ],
+            nearby: [
+              { slug: "bengaluru", name: "Bengaluru" },
+              { slug: "mysuru", name: "Mysuru" },
+            ],
+            metaTitle: "Temperature Data Loggers in Tumakuru | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Tumakuru's industrial areas, food units, copra godowns and hospitals, with site visits. Get Solution.",
             indexable: true,
           },
         ],
