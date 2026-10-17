@@ -129,7 +129,7 @@ export const locations: LegacyLocationNode[] = [
       { slug: "haryana", text: "Gurugram, Faridabad, the IMT Manesar plants and the Grand Trunk Road towns of Sonipat and Panipat, built around automotive, textiles, food and distribution." },
       { slug: "telangana", text: "Hyderabad's pharmaceutical estates, life-science campuses and server halls, with the market and mill towns of Warangal, Karimnagar and Nizamabad." },
       { slug: "karnataka", text: "Bengaluru's laboratories, technology parks, electronics makers and hospitals, together with the engineering belt of Peenya and the cities of Mysuru, Mangaluru, Belagavi, Hubballi-Dharwad and Tumakuru." },
-      { slug: "tamil-nadu", text: "Chennai's port-linked estates and the mills and workshops of Coimbatore, Hosur's vehicle and electronics cluster, and the cities of Madurai, Tiruchirappalli, Salem and Tiruppur." },
+      { slug: "tamil-nadu", text: "Chennai's port-linked estates and the mills and workshops of Coimbatore, Hosur's vehicle and electronics cluster, and the cities of Madurai, Tiruchirappalli, Salem, Tiruppur, Erode, Vellore and Tuticorin." },
       { slug: "chandigarh-state", text: "The planned city and union territory, with Mohali and Panchkula beside it, serving hospitals, medicine distributors and food depots." },
       { slug: "himachal-pradesh", text: "The foothill pharmaceutical cluster around Baddi, Barotiwala and Nalagarh, where plants work to written storage procedures." },
       { slug: "kerala", text: "Kochi's seafood export cold chain, port warehouses, spice trade and large hospitals, all in warm, wet air." },
@@ -6113,7 +6113,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Tamil Nadu",
         type: "state",
         intro:
-          "Tamil Nadu's storage lies in several different parts of the state. The coast around Chennai holds electronics, automotive and pharmaceutical plants and the warehouses that serve the ports, all in salty, humid air. Coimbatore, Tiruppur and Salem in the west hold mills, knitwear exporters, steel and starch works where humidity swings decide how stock behaves. Tiruchirappalli and Madurai in the centre and south combine heavy fabrication, hospitals and flower and vegetable markets under long, dry heat. In the north-west, Hosur is a vehicle, component and electronics cluster beside the Bengaluru border, with cut-flower growers who need cold rooms of their own. The pages below describe each city and the three area pages written for Chennai.",
+          "Tamil Nadu's storage lies in several different parts of the state. The coast around Chennai holds electronics, automotive and pharmaceutical plants and the warehouses that serve the ports, all in salty, humid air. Coimbatore, Tiruppur, Erode and Salem in the west hold mills, knitwear exporters, turmeric stores, steel and starch works where humidity swings decide how stock behaves. Vellore is a hospital and leather town in the north-east, and Tuticorin is a port with seafood, salt and chemicals. Tiruchirappalli and Madurai in the centre and south combine heavy fabrication, hospitals and flower and vegetable markets under long, dry heat. In the north-west, Hosur is a vehicle, component and electronics cluster beside the Bengaluru border, with cut-flower growers who need cold rooms of their own. The pages below describe each city and the three area pages written for Chennai.",
         localIndustries: [
           "Electronics and automotive manufacturing",
           "Pharmaceutical manufacturing",
@@ -6121,14 +6121,14 @@ export const locations: LegacyLocationNode[] = [
           "Vehicle components and cut-flower exports",
           "Knitwear, steel and starch works",
         ],
-        citiesServed: ["Chennai", "Coimbatore", "Hosur", "Madurai", "Tiruchirappalli", "Salem", "Tiruppur"],
+        citiesServed: ["Chennai", "Coimbatore", "Hosur", "Madurai", "Tiruchirappalli", "Salem", "Tiruppur", "Erode", "Vellore", "Tuticorin"],
         supportNote:
           "Supply, installation support and site visits for Tamil Nadu sites are arranged from our Mumbai office. Send us the estate and the stores that need watching.",
         faqs: [
           {
             question: "Which Tamil Nadu locations have their own pages?",
             answer:
-              "Chennai, Coimbatore, Hosur, Madurai, Tiruchirappalli, Salem and Tiruppur have city pages, and Ambattur, Sriperumbudur and Oragadam have area pages under Chennai. More of the state may follow.",
+              "Chennai, Coimbatore, Hosur, Madurai, Tiruchirappalli, Salem, Tiruppur, Erode, Vellore and Tuticorin have city pages, and Ambattur, Sriperumbudur and Oragadam have area pages under Chennai. More of the state may follow.",
           },
           {
             question: "Why does humidity matter more in the west than the coast?",
@@ -6149,6 +6149,9 @@ export const locations: LegacyLocationNode[] = [
           { slug: "tiruchirappalli", text: "A central crossroads of boiler and power-equipment plants, fabrication estates, railway workshops, wholesale markets and hospitals on the Cauvery." },
           { slug: "salem", text: "A hill-ringed city of stainless steel, sago and starch mills, handloom and power-loom cloth, mango trade and a large government hospital." },
           { slug: "tiruppur", text: "The knitwear cluster of western Tamil Nadu, with garment units along Avinashi Road, dyeing houses and export packing sheds." },
+          { slug: "erode", text: "A turmeric and cloth market on the Cauvery, with the Brough Road textile trade, the Perundurai estate and carpet weavers of Bhavani." },
+          { slug: "vellore", text: "A hospital town around a famous medical college and a large university, with the leather and footwear belt of Ranipet and Ambur close by." },
+          { slug: "tuticorin", text: "The south-east port city of containers, salt pans, seafood cold stores, chemical stores and a SIPCOT complex in hot, salty air." },
         ],
         areaListing: [
           { slug: "ambattur", text: "A north-western estate of engineering shops, electronics assemblers and small suppliers on compact plots in humid coastal air." },
@@ -6530,6 +6533,7 @@ export const locations: LegacyLocationNode[] = [
             nearby: [
               { slug: "tiruchirappalli", name: "Tiruchirappalli" },
               { slug: "coimbatore", name: "Coimbatore" },
+              { slug: "tuticorin", name: "Tuticorin" },
             ],
             metaTitle: "Temperature Data Loggers in Madurai | Prithvi",
             metaDescription:
@@ -6721,6 +6725,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             nearby: [
               { slug: "coimbatore", name: "Coimbatore" },
+              { slug: "erode", name: "Erode" },
               { slug: "tiruchirappalli", name: "Tiruchirappalli" },
             ],
             metaTitle: "Temperature Data Loggers in Salem | Prithvi",
@@ -6812,11 +6817,301 @@ export const locations: LegacyLocationNode[] = [
             ],
             nearby: [
               { slug: "coimbatore", name: "Coimbatore" },
+              { slug: "erode", name: "Erode" },
               { slug: "salem", name: "Salem" },
             ],
             metaTitle: "Temperature Data Loggers in Tiruppur | Prithvi",
             metaDescription:
               "WiFi and GSM temperature and humidity data loggers for Tiruppur's knitwear units, dyeing houses, export sheds and godowns. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "erode",
+            name: "Erode",
+            type: "city",
+            intro:
+              "Erode stands on the Cauvery in the west of Tamil Nadu and is known first for turmeric, whose regulated market handles the crop from a wide area, and second for cloth: handloom and power-loom towels, bedsheets, lungis and sarees are made and sold in the city's textile market on Brough Road and in the weaving towns around. Perundurai, a little way out, holds a planned industrial estate with textile, food and engineering units and a government medical college hospital, and the carpet weavers of nearby Bhavani add a craft trade. A temperature data logger in Erode mostly protects goods that spoil quietly: turmeric that must stay dry, bales of cloth through the damp weeks, and medicines in the hospitals. Prithvi supplies WiFi loggers for stores with a router and GSM loggers for lorries and distant sheds, with alerts that reach a phone.",
+            climateAngle:
+              "Summers are hot and dry, the monsoon arrives in short, heavy spells, and the cool nights of winter leave dew on metal roofs, so a store may swing from dry to damp within a single season.",
+            areas: [
+              {
+                name: "Turmeric market and godowns",
+                note: "Farmers and traders bring turmeric to the regulated market and the godowns around it, where bags stand in stacks and a damp spell can bring mould before a lot has been sold.",
+              },
+              {
+                name: "Brough Road textile market",
+                note: "Shops and godowns hold bales of towels, bedsheets and cloth for buyers from other states, often in buildings where several traders share one set of stores.",
+              },
+              {
+                name: "Perundurai industrial estate",
+                note: "A planned estate on the Salem road with textile, food and engineering units on large plots, where each plant runs its own stores and quality rooms.",
+              },
+              {
+                name: "Bhavani carpet weavers and Cauvery-side towns",
+                note: "Weavers in Bhavani and other towns on the river make carpets and cloth in small workshops and keep wool, cotton and finished pieces in stores that turn damp in the rains.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Turmeric traders and spice and food processors hold stock that spoils in heat and damp, and a humidity and temperature record shows an owner when to ventilate, move or sell a lot.",
+              },
+              {
+                slug: "textile",
+                sentence:
+                  "Cloth merchants and mills hold bales and yarn that mould in a damp spell, and a humidity record shows a buyer in another state how the goods were kept before they were loaded.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals in the city and at Perundurai keep vaccines and blood components in many refrigerators, and alerts to a phone mean a unit that fails overnight is not found at the morning round.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Transporters and godown operators move bags and bales out to many states, and a logger placed in a consignment records how long it stood in the open between one vehicle and the next.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a turmeric godown or a cloth store, where damp air reaching the stock is the danger worth catching.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels spread through a long market godown at different heights and doors show which stacks sit warmest and where moisture gathers.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a lorry carrying turmeric or cloth, or reports from a depot without Wi-Fi, which suits stock leaving for other states.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How can a logger help a turmeric trader in Erode?",
+                answer:
+                  "A record of temperature and humidity from the godown can be exported for each lot and date, which lets a trader show a buyer exactly how the turmeric was kept before it was sent.",
+              },
+              {
+                question: "Do you visit Perundurai and Bhavani as well as Erode?",
+                answer:
+                  "Send the town, the unit and a contact through the enquiry form, WhatsApp or a call, and we confirm how a visit would be arranged for Perundurai, Bhavani and the other towns around the city.",
+              },
+              {
+                question: "Can several traders in one market building share a setup?",
+                answer:
+                  "Each trader's store can be its own site with its own alert contacts, so neighbours in one building do not see each other's readings, while each owner sees their own on a phone.",
+              },
+              {
+                question: "How should loggers sit in a godown with a metal roof?",
+                answer:
+                  "We keep loggers out of direct sun and away from hot roofs and walls, and we place a second probe near the floor, so a report shows how much hotter the top of the stack runs than the bottom.",
+              },
+            ],
+            nearby: [
+              { slug: "salem", name: "Salem" },
+              { slug: "tiruppur", name: "Tiruppur" },
+              { slug: "coimbatore", name: "Coimbatore" },
+            ],
+            metaTitle: "Temperature Data Loggers in Erode | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Erode's turmeric godowns, textile market, Perundurai units and hospitals. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "vellore",
+            name: "Vellore",
+            type: "city",
+            intro:
+              "Vellore lies in north-eastern Tamil Nadu beside the Chennai–Bengaluru highway and is known around the world for its Christian medical college and hospital, which draws patients from across India and from abroad, and for a large private technical university on the Katpadi side. The rail junction at Katpadi links the city to Chennai and Bengaluru, and the leather and footwear belt of Ranipet, Ambur and Vaniyambadi lies close by. A temperature data logger in Vellore therefore spends much of its time in the rooms that serve a hospital town: pharmacies, blood banks, laboratories and the guest-house kitchens of visiting families, as well as tannery chemical stores and footwear packing rooms in the belt around. Prithvi supplies WiFi and GSM loggers, with alerts to a phone or an inbox.",
+            climateAngle:
+              "Summers are fierce and dry with hot winds, the north-east monsoon brings steady rain late in the year, and the dry heat means a store that was cool in the morning can be hot by afternoon.",
+            areas: [
+              {
+                name: "Medical college and hospital area",
+                note: "A very large teaching hospital and the pharmacies, laboratories and blood bank around it keep vaccines, blood components, reagents and medicines in refrigerators and freezers on every floor.",
+              },
+              {
+                name: "Katpadi junction and university campus",
+                note: "The rail junction brings goods and parcels in at all hours, and the large university campus beside it holds laboratories, canteens and stores in many buildings.",
+              },
+              {
+                name: "Ranipet and the tanning belt",
+                note: "Tanneries and chemical suppliers on the road to Ranipet keep dyes, tanning agents and finishing chemicals with printed storage limits in sheds that heat up in the dry months.",
+              },
+              {
+                name: "Ambur and Vaniyambadi footwear units",
+                note: "Footwear and leather-goods makers in these towns hold hides, finished goods and adhesives in packing rooms where damp air from the rains harms leather.",
+              },
+            ],
+            industries: [
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals and the blood bank in a town built around a medical college keep vaccines and blood components in many refrigerators, and a phone alert from a failing unit reaches the technician in the small hours.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "Hospital and university laboratories hold reagents, samples and cultures in freezers and incubators, and a logged record shows a supervisor or a funder that conditions held across weekends and holidays.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Tanneries and chemical suppliers in the belt keep tanning agents, dyes and finishing chemicals with printed limits, and an alert from a heated shed gives the storekeeper time to act before material is spoiled.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine wholesalers and pharmacies serving a hospital town supply chemists across the region, and a record from each store shows that tablets and injectables stayed within their limits before dispatch.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels let one logger follow a row of refrigerators in a hospital pharmacy or a laboratory corridor and report each unit separately.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels at different heights in a pharmacy store show whether warm air settles on the upper racks while the lower ones stay cool.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger travels with a consignment or reports from a tannery shed without Wi-Fi, which suits goods moving between the belt and the ports.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can the refrigerators of a large teaching hospital be watched together?",
+                answer:
+                  "Each ward, pharmacy or laboratory can be set up as a named location with its own alert contacts, so the duty technician sees a drifting unit on a phone and the pharmacy head sees the full list on a desktop.",
+              },
+              {
+                question: "Do you visit tanneries and footwear units outside the city?",
+                answer:
+                  "Send the town, the unit and the person who will meet us through the enquiry form, WhatsApp or a call, and we confirm how a visit would be arranged for Ranipet, Ambur, Vaniyambadi and other towns of the belt.",
+              },
+              {
+                question: "What does the logger do during a power cut?",
+                answer:
+                  "If the mains fails, a logger carries on recording from its own battery, uploads the stored readings once the network is back and can warn the person in charge that the supply has been lost.",
+              },
+              {
+                question: "Can a logger be shared between a main freezer and its standby?",
+                answer:
+                  "A multi-channel logger can watch both freezers through separate probes, and one report then shows whether the standby held its limits when the first one failed.",
+              },
+            ],
+            nearby: [
+              { slug: "chennai", name: "Chennai" },
+              { slug: "bengaluru", name: "Bengaluru" },
+            ],
+            metaTitle: "Temperature Data Loggers in Vellore | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Vellore's hospitals, laboratories, pharmacies and the Ranipet and Ambur leather belt. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "tuticorin",
+            name: "Tuticorin",
+            type: "city",
+            intro:
+              "Tuticorin, officially Thoothukudi, is the port city of the far south-east of Tamil Nadu, on the Gulf of Mannar, and the V.O. Chidambaranar Port handles containers and bulk cargo for a wide hinterland. Extensive salt pans stretch along the coast, thermal power stations and a SIPCOT industrial complex stand inland, and chemical, fertiliser and seafood-processing units work in the estates around. Fishing boats land their catch at the harbour, and shipping agents, clearing firms and warehouses fill the streets near the docks. A temperature data logger in Tuticorin therefore follows cargo as often as rooms: reefer containers and seafood in cold stores, chemical drums in yards under a hot sun, and medicines in hospital pharmacies. Prithvi supplies WiFi loggers for sheds and GSM loggers for vehicles, with alerts to phones and email.",
+            climateAngle:
+              "The coast is hot and humid for most of the year, a salty wind corrodes metal and packaging, the north-east monsoon brings heavy rain and the occasional cyclone, so heat, damp and salt all need watching.",
+            areas: [
+              {
+                name: "Port and harbour area",
+                note: "The port's yards, container freight stations and bonded sheds hold cargo that waits for a vessel in sun and salt wind, with long dwell times for some lots.",
+              },
+              {
+                name: "SIPCOT industrial complex",
+                note: "A planned complex of chemical, food and engineering units on large plots, with stores for drums, ingredients and finished goods spread across wide sites.",
+              },
+              {
+                name: "Fishing harbour and seafood processors",
+                note: "Boats land fish at the harbour, and ice plants, cold stores and processors hold the catch before it is packed and sent inland or abroad.",
+              },
+              {
+                name: "Salt pans and salt-works stores",
+                note: "Salt is raked, washed and stored in large heaps and sheds along the coast, and the iodised and packed stock is held in rooms where damp air spoils packaging.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Seafood processors and exporters hold goods that spoil in warm, damp air, and a record from each cold store and reefer shows a buyer how a lot was kept before shipment.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Chemical and fertiliser stores near the quay carry printed storage limits, and a high-temperature alert from a baking yard shed lets the supervisor move drums before the limit is crossed.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Container yards and freight stations around the port hold goods bound for ships, and a logger in the consignment records how long it stood in the open between gate and vessel.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals in the city and the port's own medical stores keep vaccines and blood components in many refrigerators, and phone alerts mean a failing unit is noticed during the monsoon nights.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels in a seafood cold room, one at each end, show whether the whole space is cooled or only the part nearest the unit.",
+              },
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels cover a long port-side shed across racks, doors and floor positions, so one report shows how the whole building behaves.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger travels in a reefer or a lorry, or reports from a yard with no Wi-Fi, which suits cargo moving between the plants and the quay.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a logger ride with a consignment from the harbour to the port?",
+                answer:
+                  "A SIM-based Vayu logger packed into the load records on its own battery and sends readings over the mobile network, and the report can be exported lot by lot once the cargo has arrived.",
+              },
+              {
+                question: "How does salt-laden air affect where a logger should be placed?",
+                answer:
+                  "We keep loggers away from open doors and seaward walls where salt spray settles, and we use a second probe at the far end of a room, so the record reflects the stored goods and not the corroding air by the door.",
+              },
+              {
+                question: "Do you cover the SIPCOT complex and the estates inland?",
+                answer:
+                  "Send the complex, the plant and the person who controls the gate through the enquiry form, WhatsApp or a call, and we confirm how a visit would be arranged, planned around your safety rules.",
+              },
+              {
+                question: "Can several seafood units be watched from one account?",
+                answer:
+                  "Each unit becomes a site with its own alert recipients, so an owner with several cold stores can open all of them in one list and export a report for any room.",
+              },
+            ],
+            nearby: [
+              { slug: "madurai", name: "Madurai" },
+              { slug: "kochi", name: "Kochi" },
+            ],
+            metaTitle: "Temperature Data Loggers in Tuticorin | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Tuticorin (Thoothukudi) port yards, seafood cold stores, chemical stores and hospitals. Get Solution.",
             indexable: true,
           },
         ],
