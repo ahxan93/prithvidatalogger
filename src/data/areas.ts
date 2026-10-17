@@ -668,6 +668,231 @@ export const areas: AreaDef[] = [
       ],
       "indexable": true
     } },
+  // ------------------------------------------------------------------ Mumbai (batch 3: western suburbs and central Mumbai)
+  { slug: "borivali", name: "Borivali", citySlug: "mumbai", areaType: "mixed-use", nearbyIndustries: ["hospitals-blood-banks", "pharmaceutical", "food-beverage", "logistics-warehousing"], confirmedService: true, hero: ["dhruva", "virat"], page: {
+      "metaTitle": "Data Loggers in Borivali, Mumbai | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Borivali's pharmacies, hospitals, food suppliers and highway godowns in Mumbai. Get Solution.",
+      "intro": "Borivali is the last big suburb on Mumbai's western side, where many of the Western Railway's fast trains end and the Western Express Highway and the Link Road carry traffic towards Dahisar and the city limit. On its eastern edge the forest of Sanjay Gandhi National Park comes right up to the housing, which keeps the air cleaner but also damp in the monsoon. Borivali is mostly a place where people live, shop and use hospitals, with small godowns, workshops and food businesses scattered through its markets and along the highways. Storage here is less about factories than about pharmacies, kitchens, small distributors and clinics that supply a large residential population.",
+      "places": [
+        {
+          "name": "Borivali West and the station markets",
+          "note": "The streets around the station are lined with wholesalers, pharmacies, sweet and snack shops and small godowns, where stock sits in ground-floor rooms with little ventilation."
+        },
+        {
+          "name": "Borivali East along the highway",
+          "note": "East of the railway, along the Western Express Highway, small workshops, packaging units and godowns sit between housing societies and the edge of the national park."
+        },
+        {
+          "name": "Hospitals and diagnostic centres",
+          "note": "A municipal hospital and many private hospitals, nursing homes and diagnostic laboratories serve the northern suburbs and run pharmacies, vaccine fridges and blood storage."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "hospitals-blood-banks",
+          "sentence": "Hospitals and clinics serving the northern suburbs keep vaccine fridges and blood storage that must stay in range through monsoon power cuts, so an alert to the duty pharmacist matters most when the mains fails."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Pharmacies and the stockists who supply them hold medicines in rooms cooled by a single air conditioner, and a logged reading shows how the shelf behaved on the hottest afternoons and during a power cut."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Sweet, snack and bakery makers and the food suppliers around the station keep ingredients and finished goods that spoil quickly in humid air, and a reading every few minutes shows when a chiller began to drift."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Godowns on the highways hold goods for shops and kitchens across the northern suburbs, and a reading by bay shows which corner of a shed warms first when the roof catches the afternoon sun."
+        }
+      ],
+      "services": "In Borivali we supply compact WiFi loggers for single rooms and fridges, multi-channel units where one godown holds several stores and GSM versions for rooms with weak signal. VEGA Calibrations, our parent company, calibrates loggers and other instruments, so a pharmacy or a distributor can plan the devices and their certificates together.",
+      "visits": "To arrange a visit in Borivali, send the building, the floor and the person who will meet us through the enquiry form, WhatsApp or a call. Malad, where our head office is, lies down the Western line, so visits to Borivali are easy to plan, and we group them with Kandivali and Dahisar. Please mention stairs and lifts, since loggers are carried in by hand.",
+      "approach": "In a Borivali pharmacy or godown we would start with the room that holds the most sensitive stock, fitting a logger with a probe at shelf height away from the door and the air conditioner outlet. A few weeks that include a wet spell show how far the room moves, and that decides which other rooms need a device of their own.",
+      "faqs": [
+        {
+          "question": "Can one logger watch a vaccine fridge in a clinic and send alerts after hours?",
+          "answer": "Yes. A single-point logger with an external probe sits inside the fridge, and alerts go by phone and email to the named people, so a warming fridge is reported at night as well as during clinic hours."
+        },
+        {
+          "question": "How is a godown near the highway handled when the roof gets hot?",
+          "answer": "We place one probe at shelf height and one under the roof, since the two can differ widely in the afternoon. The comparison shows whether stock on the top shelf needs shading, moving or a second cooler."
+        }
+      ],
+      "nearby": [
+        "kandivali",
+        "dahisar",
+        "vasai"
+      ],
+      "indexable": true
+    } },
+  { slug: "kandivali", name: "Kandivali", citySlug: "mumbai", areaType: "mixed-use", nearbyIndustries: ["pharmaceutical", "food-beverage", "electronics", "laboratories"], confirmedService: true, hero: ["nakshatra", "veer-pro"], page: {
+      "metaTitle": "Data Loggers in Kandivali, Mumbai | Prithvi",
+      "metaDescription": "Temperature data loggers for Kandivali's pharmacies, caterers, electrical traders and laboratories in Mumbai's western suburbs. Get Solution.",
+      "intro": "Kandivali is the suburb between Malad and Borivali, split by the railway into a western side of crowded markets, schools and housing towers and an eastern side where the Western Express Highway and the Link Road bring larger roads, townships and clusters of industrial and commercial units. The Poisar river runs through the eastern part. Much of its storage is the working stock of businesses that feed local needs: stockists and pharmacies, food and catering suppliers, electrical traders and packaging units, along with hospitals and diagnostic laboratories. Most premises are compact, and rooms are often shared between tenants, which makes simple wireless monitoring the practical option.",
+      "places": [
+        {
+          "name": "Kandivali West markets and lanes",
+          "note": "Around the station and Link Road, shops, stockists and small workshops keep stock in godowns above and behind the shops, in rooms with shared power and limited airflow."
+        },
+        {
+          "name": "Kandivali East commercial and industrial pockets",
+          "note": "On the east side near the Western Express Highway, compact industrial units, packaging firms and godowns serve the northern suburbs from buildings that were not designed for controlled storage."
+        },
+        {
+          "name": "Hospitals and diagnostic laboratories",
+          "note": "Hospitals, nursing homes and diagnostic laboratories on both sides of the railway run pharmacies and reagent fridges that depend on a steady supply."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Pharmacies and stockists keep medicines in compact rooms on shared circuits, and a dated log helps show that a delivery was stored in range from the hour it arrived."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Catering firms, bakeries and snack suppliers that serve offices and housing towers keep chillers and dry stores that fill early in the morning, so a reading taken before dawn shows whether a unit held through the night."
+        },
+        {
+          "slug": "electronics",
+          "sentence": "Small assemblers and traders in electrical goods keep components in stores that take on damp air during the rains, and a humidity record shows when a room has been outside its range for days instead of hours."
+        },
+        {
+          "slug": "laboratories",
+          "sentence": "Diagnostic laboratories keep reagents and samples in fridges and freezers that are checked by hand at set rounds, and an independent probe log fills the gap between one round and the next."
+        }
+      ],
+      "services": "For Kandivali we supply WiFi loggers for single fridges and rooms, multi-channel units for godowns with several stores and GSM versions for back rooms where the signal is poor. Our parent company, VEGA Calibrations, handles the calibration of loggers and probes and can map a larger room before devices are fixed.",
+      "visits": "Send the building, the floor and a contact through the enquiry form, WhatsApp or a call, and we agree a day with you. Because Kandivali lies between Malad, where our head office is, and Borivali, we group visits along the Western line and plan arrival times around traffic on the Link Road. Tell us if stock must be moved for a logger to be placed.",
+      "approach": "In a Kandivali premises we would begin with the pharmacy store or the chiller that is loaded first each morning, and add a second logger where the room holds the most valuable stock. A few weeks of readings show the daily pattern and the effect of a power cut, and alert limits are then set just outside the room's normal range.",
+      "faqs": [
+        {
+          "question": "What happens to the readings when a power cut hits a Kandivali premises?",
+          "answer": "The logger keeps recording on its battery and sends the stored readings when the network returns, and an alert for a lost mains supply can go to the person who looks after the room."
+        },
+        {
+          "question": "Can a pharmacy chain with shops in several suburbs watch them together?",
+          "answer": "Yes. Each shop is a site on the dashboard with its own alert recipients, and a head of operations opens every shop in a single list and exports a report for any period."
+        }
+      ],
+      "nearby": [
+        "malad",
+        "borivali",
+        "dahisar"
+      ],
+      "indexable": true
+    } },
+  { slug: "dahisar", name: "Dahisar", citySlug: "mumbai", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing", "food-beverage", "pharmaceutical", "hospitals-blood-banks"], confirmedService: true, hero: ["veer", "vayu-pro"], page: {
+      "metaTitle": "Data Loggers in Dahisar, Mumbai | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Dahisar's highway godowns, carriers, food suppliers and clinics at Mumbai's northern edge. Get Solution.",
+      "intro": "Dahisar is Mumbai's northern gateway on the western side, where the Western Express Highway crosses the city limit at the check naka and the Dahisar river runs between its eastern and western halves. Beyond the check naka the road leads towards Mira Road and Vasai, so Dahisar carries a great deal of goods traffic and has godowns, transport firms and small workshops beside the highway, mixed with housing societies on either side. The storage that matters here belongs to carriers, distributors and food suppliers whose goods spend time on a dock or in a vehicle, and to the clinics and pharmacies that serve the housing around them.",
+      "places": [
+        {
+          "name": "Dahisar check naka and highway belt",
+          "note": "Transport firms, godowns and small workshops stand along the Western Express Highway at the city limit, where trucks wait and loads change hands at all hours."
+        },
+        {
+          "name": "Dahisar East and West residential districts",
+          "note": "Housing societies on both sides of the river support pharmacies, clinics, bakeries and kitchens whose stock is held in small rooms inside the shops."
+        },
+        {
+          "name": "Suppliers to the Mira Road and Vasai side",
+          "note": "Distributors and food suppliers use Dahisar as a staging point for goods bound for the towns further north, holding them briefly in sheds before the next leg."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Carriers and godown operators at the city limit hold goods between one vehicle and the next, and a logger in the load shows how long a consignment stood in the sun at the check naka."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Dairy, bakery and packaged-food suppliers that serve the housing towers keep chillers that are opened for every delivery, and a log shows how a unit coped with a busy morning."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Distributors who supply chemists on the northern side of the city hold medicines in godowns with limited cooling, so a reading by shelf shows which corner is warmest through the afternoon."
+        },
+        {
+          "slug": "hospitals-blood-banks",
+          "sentence": "Clinics, nursing homes and vaccination points in the housing districts keep fridges used by many hands, and a door alert tells the clinic when a fridge has been left open at the end of the day."
+        }
+      ],
+      "services": "In Dahisar we supply GSM loggers with external probes for vehicles and open sheds, WiFi loggers for rooms with a network and multi-channel units for larger godowns. VEGA Calibrations, our parent company, offers calibration and temperature mapping, so a carrier can have the placement study and the instrument certificates arranged together.",
+      "visits": "Please send the road, the godown or clinic and the person who will meet us through the enquiry form or WhatsApp. Highway traffic at the check naka is heavy, so we fix an arrival time away from the busiest hours and tell you in advance. We group Dahisar with Borivali and Kandivali so one trip covers the northern suburbs.",
+      "approach": "For a carrier at the city limit we would map the busiest bay first to see where heat collects, then fix permanent loggers in those spots. A GSM logger with an external probe goes into the vehicle or the staged load, so the record covers the path from the dock to the next town.",
+      "faqs": [
+        {
+          "question": "Can a logger ride in a truck that waits at the city limit?",
+          "answer": "Yes. A GSM logger with an external probe records the load wherever it is and reports over the mobile network, and a trip report can be exported for the sender and the receiver."
+        },
+        {
+          "question": "How is a clinic or pharmacy in a housing society set up?",
+          "answer": "A single-point logger with an external probe sits inside each fridge, and alerts go to the clinic's named people by phone and email, so a fridge that warms overnight is reported before the next day's patients."
+        }
+      ],
+      "nearby": [
+        "borivali",
+        "kandivali",
+        "vasai"
+      ],
+      "indexable": true
+    } },
+  { slug: "dadar-parel", name: "Dadar-Parel", citySlug: "mumbai", areaType: "mixed-use", nearbyIndustries: ["hospitals-blood-banks", "laboratories", "vaccine-cold-chain", "food-beverage"], confirmedService: true, hero: ["setu", "nakshatra"], page: {
+      "metaTitle": "Data Loggers in Dadar-Parel, Mumbai | Prithvi",
+      "metaDescription": "Temperature data loggers for Dadar's markets and Parel's hospitals, laboratories and former mill-land offices in central Mumbai. Get Solution.",
+      "intro": "Dadar and Parel sit at the middle of the island city, where the Central and Western railway lines cross at Dadar and the old textile mill lands of Parel and Lower Parel have been rebuilt as offices, hotels and shopping centres. Dadar's flower, vegetable and grocery markets work before dawn, and Parel is the city's hospital district, home to several large municipal and charitable hospitals, a vaccine research institute and a cancer hospital. Some older industrial buildings, printing presses and small factories remain between the new towers. Storage here is unusually varied: hospital blood banks and laboratories, market cold rooms, hotel kitchens, office server rooms and old godowns.",
+      "places": [
+        {
+          "name": "Dadar markets",
+          "note": "The flower, vegetable and grocery markets around Dadar station trade from early in the morning, and the traders and wholesalers keep produce and groceries in stalls, basements and small cold rooms."
+        },
+        {
+          "name": "Parel's hospital district",
+          "note": "Several large hospitals and research institutions stand close together at Parel, with blood banks, pharmacies, vaccine stores and laboratories that are in use at every hour."
+        },
+        {
+          "name": "Lower Parel's former mill land",
+          "note": "Rebuilt mill compounds and towers hold offices, hotels, restaurants and server rooms, with older industrial and godown buildings still standing between them."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "hospitals-blood-banks",
+          "sentence": "Large hospitals keep blood banks, operating-theatre stores and pharmacies that cannot afford a gap in the record, and an alert chain to the duty pharmacist and an engineer covers every hour of the night."
+        },
+        {
+          "slug": "laboratories",
+          "sentence": "Research and diagnostic laboratories hold reagents, cultures and patient samples in freezers and incubators that each carry their own limit, and one list of all units lets a quality head see what is warming first."
+        },
+        {
+          "slug": "vaccine-cold-chain",
+          "sentence": "Vaccine stores hold stock in refrigerators with a narrow range, and a log that is independent of the fridge's own display shows whether a lot stayed within it from delivery to use."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Market traders, hotel kitchens and food suppliers keep produce, dairy and cooked food in cold rooms that work through the night, and a reading taken at the door shows how long a loading left it open."
+        }
+      ],
+      "services": "For Dadar and Parel we supply single-point loggers with external probes for hospital and laboratory fridges, four-channel units for pharmacy stores and server rooms and WiFi loggers for market cold rooms. VEGA Calibrations, our parent company, offers calibration, temperature mapping and validation support, which suits hospitals and laboratories that keep formal files.",
+      "visits": "Hospitals and towers register visitors in advance, so please send the building, the department and the person who will meet us through the enquiry form or WhatsApp. Market traders are easiest to visit once the morning rush has passed, and hospital visits are timed around pharmacy and laboratory hours. We group the stop with Kurla and Bandra-Kurla visits.",
+      "approach": "In a hospital we would begin with the blood storage unit and the main pharmacy store, then the vaccine fridge. In a market cold room we would start with the chamber that is opened most often. After a few weeks of readings each room's normal swing is clear, and alert limits are then set a little outside it, so only a real fault raises an alarm.",
+      "faqs": [
+        {
+          "question": "Can a hospital watch every fridge in several departments from one place?",
+          "answer": "Yes. Each fridge or freezer is a device under the hospital's site, alerts go to the person responsible for that department and a head of quality or engineering opens every unit in one list."
+        },
+        {
+          "question": "How is a market cold room that is opened all day monitored?",
+          "answer": "A WiFi logger with a probe at shelf height and a door alert records every opening, so the log shows which loading or which trader's visit warmed the room."
+        }
+      ],
+      "nearby": [
+        "bandra-kurla",
+        "kurla",
+        "andheri"
+      ],
+      "indexable": true
+    } },
   // ------------------------------------------------------------------ Navi Mumbai (batch 1)
   {
     slug: "turbhe",
