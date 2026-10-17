@@ -1142,7 +1142,7 @@ export const areas: AreaDef[] = [
     areaType: "industrial-estate",
     nearbyIndustries: ["pharmaceutical", "electronics", "laboratories", "logistics-warehousing"],
     confirmedService: true,
-    hero: ["veer-pro", "virat"],
+    hero: ["rajmudra", "vayu"],
     page: {
       metaTitle: "Data Loggers in Wagle Estate, Thane | Prithvi",
       metaDescription:
@@ -1406,7 +1406,7 @@ export const areas: AreaDef[] = [
       ],
       "indexable": true
     } },
-  { slug: "boisar", name: "Boisar", citySlug: "vasai-palghar", areaType: "midc-estate", nearbyIndustries: ["chemical", "pharmaceutical", "logistics-warehousing"], confirmedService: true, hero: ["veer-pro", "vayu"], page: {
+  { slug: "boisar", name: "Boisar", citySlug: "vasai-palghar", areaType: "midc-estate", nearbyIndustries: ["chemical", "pharmaceutical", "logistics-warehousing"], confirmedService: true, hero: ["rajmudra", "virat-pro"], page: {
       "metaTitle": "Data Loggers in Boisar, Palghar | Prithvi",
       "metaDescription": "WiFi and GSM temperature data loggers for Boisar's chemical, pharma and engineering units next to Tarapur. Site visits arranged. Get Solution.",
       "intro": "Boisar is the town beside the Tarapur estate, and it works as its residential and supply base as well as an industrial centre in its own right. Pharmaceutical, chemical, engineering and packaging units operate in and around the town, and the railway station makes it the access point for many plants. Many staff live close by, which changes how monitoring works: there is often someone within reach, but nights and holidays still leave long hours when stores sit unwatched.",
@@ -2186,7 +2186,7 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "noida", name: "Noida", citySlug: "noida", areaType: "business-district", nearbyIndustries: ["electronics", "data-centers", "logistics-warehousing"], confirmedService: true, hero: ["virat", "vayu-pro"] },
-  { slug: "greater-noida", name: "Greater Noida", citySlug: "noida", areaType: "industrial-estate", nearbyIndustries: ["electronics", "logistics-warehousing", "pharmaceutical"], confirmedService: true, hero: ["rajmudra", "virat"], page: {
+  { slug: "greater-noida", name: "Greater Noida", citySlug: "noida", areaType: "industrial-estate", nearbyIndustries: ["electronics", "logistics-warehousing", "pharmaceutical"], confirmedService: true, hero: ["rajmudra", "veer-pro"], page: {
       "metaTitle": "Data Loggers in Greater Noida | Prithvi",
       "metaDescription": "Temperature data loggers for Greater Noida's electronics, pharma and logistics parks, with site visits arranged from Noida. Get Solution.",
       "intro": "Greater Noida is the newer, larger township south-east of Noida, laid out with wide avenues, generous plots and planned industrial and logistics zones that leave long distances between one building and the next. Electronics assemblers, packaging firms, pharmaceutical units and large distribution warehouses fill the zones, alongside campuses and residential sectors. Because the buildings are new and big, the rooms to be watched tend to be large halls and long bays instead of closets, and the people responsible for them may sit in an office across the plot or in another city altogether.",
@@ -2488,7 +2488,7 @@ export const areas: AreaDef[] = [
       ],
       "indexable": true
     } },
-  { slug: "whitefield", name: "Whitefield", citySlug: "bengaluru", areaType: "business-district", nearbyIndustries: ["data-centers", "laboratories", "hospitals-blood-banks"], confirmedService: true, hero: ["setu", "veer"], page: {
+  { slug: "whitefield", name: "Whitefield", citySlug: "bengaluru", areaType: "business-district", nearbyIndustries: ["data-centers", "laboratories", "hospitals-blood-banks"], confirmedService: true, hero: ["dhruva", "veer"], page: {
       "metaTitle": "Data Loggers in Whitefield, Bengaluru | Prithvi",
       "metaDescription": "WiFi and GSM temperature data loggers for Whitefield's tech parks, hospitals and laboratories on Bengaluru's east side. Get Solution.",
       "intro": "Whitefield is the eastern district of Bengaluru, where technology parks, research centres, hospitals and large residential communities sit side by side along a corridor that has grown quickly. Many buildings are recent and tall, with floors of server rooms, pharmacies and laboratories stacked above offices, and the people responsible for them are often in a different tower from the equipment. Because each campus holds several kinds of room under one management, the useful question is how to give one team a single view of rooms with very different limits, from a vaccine fridge to a rack aisle.",

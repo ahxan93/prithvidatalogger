@@ -699,10 +699,15 @@ if (!siteConfig.showPrices) {
     if (!areaCities[a.citySlug]) f(`has unknown city "${a.citySlug}"`);
     for (const i of a.nearbyIndustries) if (!industries.some((x) => x.slug === i)) f(`lists unknown industry "${i}"`);
     if (a.hero.length !== 2 || a.hero[0] === a.hero[1] || a.hero.some((k) => !deviceCatalogue[k])) f("needs a pair of two different known logger photos");
+    // A logger pair only has to be unique within its own city: area pages of one city must
+    // differ from each other and from the city page's pair. (Every pair is already taken
+    // somewhere in the country, so a site-wide rule would cap the number of area pages.)
     const key = pairOf(a.hero);
-    if (heroOwner.has(key)) f(`shares its hero pair with ${heroOwner.get(key)}`);
-    heroOwner.set(key, where);
-    if (reservedPairs.has(key)) f(`repeats the hero of page "${reservedPairs.get(key)}"`);
+    const ownerKey = `${a.citySlug}|${key}`;
+    if (heroOwner.has(ownerKey)) f(`shares its hero pair with ${heroOwner.get(ownerKey)} in the same city`);
+    heroOwner.set(ownerKey, where);
+    const cityHero = cityHeroAssignments().find((c) => c.slug === a.citySlug);
+    if (cityHero && pairOf(cityHero.keys) === key) f(`repeats the hero pair of its city page "${a.citySlug}"`);
     if (!a.page) continue;
     const city = all.find((l) => l.node.type === "city" && l.node.slug === a.citySlug);
     if (!city) f(`has a page but its city "${a.citySlug}" is not in the location tree`);

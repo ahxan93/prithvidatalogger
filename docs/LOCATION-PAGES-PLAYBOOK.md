@@ -57,6 +57,10 @@
   (Home > Locations > Country > State > City > Area) with the flat URLs. Use `locationCrumbs()`
   (`src/lib/location-crumbs.ts`).
 - **OG image:** `/og/locations/{slug}` (flat slug).
+- **Hero logger pair:** each area page's two hero photos are fixed in its `AreaDef.hero` (so they never change
+  between builds). A pair only has to be unique within its own city: area pages of one city must differ from
+  each other and from that city page's pair. `src/data/page-heroes.ts` and `scripts/check-data.mjs` enforce it.
+  Pick a new page's pair by hashing its slug into the city's unused pairs (the 12 hero photos give 66 pairs).
 - **Implementation:** Next cannot match a partial dynamic segment, so `src/app/data-logger/[slug]` is
   the route and `next.config.ts` rewrites `/data-logger-:slug` to it.
 

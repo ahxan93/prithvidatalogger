@@ -54,6 +54,11 @@ linking, SEO settings, city data and quality checks).
   or Home > Locations > State for hubs); BreadcrumbList JSON-LD keeps the full hierarchy
   (`locationCrumbs()` in `src/lib/location-crumbs.ts`).
 
+## Hero logger pairs
+- An area page's hero pair is stored in `AreaDef.hero` (deterministic, never random). It only needs to be
+  unique within its own city: area pages of one city differ from each other and from the city page's pair.
+  `npm run check:data` enforces this; choose a new pair by hashing the slug into the city's unused pairs.
+
 ## Placeholder pages
 - Placeholder/dummy pages (e.g. `/blog/__placeholder__`) must be `noindex` and excluded from
   `sitemap.xml`.
