@@ -129,7 +129,7 @@ export const locations: LegacyLocationNode[] = [
       { slug: "haryana", text: "Gurugram, Faridabad, the IMT Manesar plants and the Grand Trunk Road towns of Sonipat and Panipat, built around automotive, textiles, food and distribution." },
       { slug: "telangana", text: "Hyderabad's pharmaceutical estates, life-science campuses and server halls, with the market and mill towns of Warangal, Karimnagar and Nizamabad." },
       { slug: "karnataka", text: "Bengaluru's laboratories, technology parks, electronics makers and hospitals, together with the engineering belt of Peenya and the cities of Mysuru, Mangaluru, Belagavi, Hubballi-Dharwad and Tumakuru." },
-      { slug: "tamil-nadu", text: "Chennai's port-linked estates and the mills and workshops of Coimbatore, and Hosur's vehicle and electronics cluster on the Bengaluru border." },
+      { slug: "tamil-nadu", text: "Chennai's port-linked estates and the mills and workshops of Coimbatore, Hosur's vehicle and electronics cluster, and the cities of Madurai, Tiruchirappalli, Salem and Tiruppur." },
       { slug: "chandigarh-state", text: "The planned city and union territory, with Mohali and Panchkula beside it, serving hospitals, medicine distributors and food depots." },
       { slug: "himachal-pradesh", text: "The foothill pharmaceutical cluster around Baddi, Barotiwala and Nalagarh, where plants work to written storage procedures." },
       { slug: "kerala", text: "Kochi's seafood export cold chain, port warehouses, spice trade and large hospitals, all in warm, wet air." },
@@ -6113,21 +6113,22 @@ export const locations: LegacyLocationNode[] = [
         name: "Tamil Nadu",
         type: "state",
         intro:
-          "Tamil Nadu's storage lies in three different parts of the state. The coast around Chennai holds electronics, automotive and pharmaceutical plants and the warehouses that serve the ports, all in salty, humid air. Coimbatore in the west is a city of mills, pump and motor makers, foundries and hospitals in a moderate climate where humidity swings decide how stock behaves. In the north-west, Hosur is a vehicle, component and electronics cluster beside the Bengaluru border, with cut-flower growers who need cold rooms of their own. The first needs records that follow goods to ships, the second watches humidity as closely as temperature, and the third connects two states. The pages below describe each city and the three area pages written for Chennai.",
+          "Tamil Nadu's storage lies in several different parts of the state. The coast around Chennai holds electronics, automotive and pharmaceutical plants and the warehouses that serve the ports, all in salty, humid air. Coimbatore, Tiruppur and Salem in the west hold mills, knitwear exporters, steel and starch works where humidity swings decide how stock behaves. Tiruchirappalli and Madurai in the centre and south combine heavy fabrication, hospitals and flower and vegetable markets under long, dry heat. In the north-west, Hosur is a vehicle, component and electronics cluster beside the Bengaluru border, with cut-flower growers who need cold rooms of their own. The pages below describe each city and the three area pages written for Chennai.",
         localIndustries: [
           "Electronics and automotive manufacturing",
           "Pharmaceutical manufacturing",
           "Port logistics and distribution",
           "Vehicle components and cut-flower exports",
+          "Knitwear, steel and starch works",
         ],
-        citiesServed: ["Chennai", "Coimbatore", "Hosur"],
+        citiesServed: ["Chennai", "Coimbatore", "Hosur", "Madurai", "Tiruchirappalli", "Salem", "Tiruppur"],
         supportNote:
           "Supply, installation support and site visits for Tamil Nadu sites are arranged from our Mumbai office. Send us the estate and the stores that need watching.",
         faqs: [
           {
             question: "Which Tamil Nadu locations have their own pages?",
             answer:
-              "Chennai, Coimbatore and Hosur have city pages, and Ambattur, Sriperumbudur and Oragadam have area pages under Chennai. More of the state may follow.",
+              "Chennai, Coimbatore, Hosur, Madurai, Tiruchirappalli, Salem and Tiruppur have city pages, and Ambattur, Sriperumbudur and Oragadam have area pages under Chennai. More of the state may follow.",
           },
           {
             question: "Why does humidity matter more in the west than the coast?",
@@ -6144,6 +6145,10 @@ export const locations: LegacyLocationNode[] = [
           { slug: "chennai", text: "A port city whose estates fan inland, with electronics, automotive, pharmaceutical and food plants and warehouses that stage goods for the sea." },
           { slug: "coimbatore", text: "A city of spinning mills, pump and motor makers, foundries and hospitals in which humidity swings matter as much as temperature." },
           { slug: "hosur", text: "A border town of vehicle plants, foundries, electronics units and flower cold rooms in the SIPCOT complexes, a short drive from Bengaluru." },
+          { slug: "madurai", text: "A temple and market city of flower and vegetable markets, Kappalur and Tirumangalam estates, garment workshops and large hospitals in the dry south." },
+          { slug: "tiruchirappalli", text: "A central crossroads of boiler and power-equipment plants, fabrication estates, railway workshops, wholesale markets and hospitals on the Cauvery." },
+          { slug: "salem", text: "A hill-ringed city of stainless steel, sago and starch mills, handloom and power-loom cloth, mango trade and a large government hospital." },
+          { slug: "tiruppur", text: "The knitwear cluster of western Tamil Nadu, with garment units along Avinashi Road, dyeing houses and export packing sheds." },
         ],
         areaListing: [
           { slug: "ambattur", text: "A north-western estate of engineering shops, electronics assemblers and small suppliers on compact plots in humid coastal air." },
@@ -6433,6 +6438,385 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Hosur | Prithvi",
             metaDescription:
               "WiFi and GSM temperature data loggers for Hosur's SIPCOT plants, foundries, electronics units and flower cold rooms, with site visits. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "madurai",
+            name: "Madurai",
+            type: "city",
+            intro:
+              "Madurai is the great temple city of southern Tamil Nadu, on the Vaigai river, and it is also the region's main trading and medical centre. Its markets at Mattuthavani move vegetables, fruit and flowers, including the jasmine the district is known for, while Sungudi sarees, readymade garments and food products come from small units across the city and the estates at Kappalur and Tirumangalam. Large government and private hospitals, among them a big eye hospital, draw patients from many southern districts. A temperature data logger in Madurai therefore protects stock that spoils quickly: flowers in cold rooms before dispatch, medicines and eye-care supplies in hospital stores, and packed food in sheds that bake in the long dry heat. Prithvi supplies WiFi loggers for rooms and GSM loggers for vehicles, with alerts to a phone or an inbox.",
+            climateAngle:
+              "Summers are long, hot and dry, the north-east monsoon brings heavy rain in the last months of the year, and the air between those seasons is dry, so heat is the main danger for most of the year and damp for a few weeks.",
+            areas: [
+              {
+                name: "Mattuthavani markets",
+                note: "The wholesale market for vegetables, fruit and flowers, with cold rooms and sheds around it, where jasmine and other cut flowers lose freshness fast in a warm spell.",
+              },
+              {
+                name: "Kappalur and Tirumangalam estates",
+                note: "Industrial estates south of the city with engineering, food, plastics and packaging units on plots of mixed size, where one owner may run several stores a walk apart.",
+              },
+              {
+                name: "Sungudi and garment workshops",
+                note: "Small units across the city dye, print and stitch cotton sarees and garments, and finished stock waits for dispatch in stores that turn humid in the rainy weeks.",
+              },
+              {
+                name: "Hospital and medical college belt",
+                note: "The government medical college hospital, a large eye hospital and many private hospitals keep vaccines, blood components, medicines and eye-bank supplies in refrigerators serving southern districts.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Flower exporters, vegetable traders and packed-food makers hold stock that suffers soon after a cooling failure, so a phone alert from a cold room matters most at night and on market holidays.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals in Madurai draw patients from many districts and keep vaccines, blood components and eye-care supplies in refrigerators on many floors, which are easier to supervise when every unit reports to one screen.",
+              },
+              {
+                slug: "textile",
+                sentence:
+                  "Saree makers and garment units keep cotton, dyes and finished stock in rooms that turn humid in the rains, and a humidity record shows a buyer how the goods were held before they were packed.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine wholesalers supply chemists across the south, and a record from each store shows that tablets and injectables stayed within their printed limits before they left on a van.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels, one at each end of a flower cold room, show whether the whole space is cooled or only the part nearest the unit.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels let a single logger follow the refrigerators of a hospital pharmacy or a blood bank, with a separate line on the report for each unit.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger travels with flowers or medicines in a van, or reports from a depot without Wi-Fi, which suits goods moving out to other districts.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can loggers help a jasmine or flower exporter in Madurai?",
+                answer:
+                  "A temperature record from the cold room and from the vehicle shows how long the flowers stood warm before they reached the buyer, and an alert on a rising reading reaches the packing manager while the stock can still be moved.",
+              },
+              {
+                question: "Do you visit Kappalur and Tirumangalam as well as the city?",
+                answer:
+                  "Send the estate, the unit and the person who will meet us through the enquiry form, WhatsApp or a call, and we confirm how a visit would be arranged for the estates around Madurai.",
+              },
+              {
+                question: "Can a hospital group watch refrigerators on several floors from one account?",
+                answer:
+                  "Each ward, pharmacy or eye-bank store can be a named location with its own alert contacts, and a pharmacy head can open all of them in one list and export a record for an inspection.",
+              },
+              {
+                question: "Which logger suits a garment store with no spare Wi-Fi?",
+                answer:
+                  "A SIM-based Vayu logger reports over the mobile network, so a store with no router can still be watched, and we confirm the choice after seeing the room.",
+              },
+            ],
+            nearby: [
+              { slug: "tiruchirappalli", name: "Tiruchirappalli" },
+              { slug: "coimbatore", name: "Coimbatore" },
+            ],
+            metaTitle: "Temperature Data Loggers in Madurai | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Madurai's flower cold rooms, hospitals, garment units and Kappalur estates. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "tiruchirappalli",
+            name: "Tiruchirappalli",
+            type: "city",
+            intro:
+              "Tiruchirappalli, often called Trichy, sits on the Cauvery in the middle of Tamil Nadu and works as the state's central crossroads, with a railway division headquarters at Golden Rock, an international airport and highways running to every corner. Its industry is heavy and technical: a large public-sector boiler and power-equipment plant, an ordnance factory, railway workshops and many fabrication shops in estates such as Thuvakudi and Ariyamangalam. Around them stand Gandhi Market's wholesale trade, the Srirangam flower market and hospitals that serve a wide hinterland. A temperature data logger in Tiruchirappalli therefore sits in paint and coating stores at fabricators, welding-consumable and instrument rooms, hospital pharmacies and flower stalls alike. Prithvi supplies WiFi and GSM loggers, with alerts that follow a person to their phone.",
+            climateAngle:
+              "The inland plain is very hot and dry for much of the year, the north-east monsoon brings heavy rain late in the year, and the dry heat means roofs radiate warmth into stores long after sunset.",
+            areas: [
+              {
+                name: "Thuvakudi and Ariyamangalam estates",
+                note: "Industrial estates with fabrication shops, machine shops and suppliers to the large engineering plants, where stores hold coatings, electrodes and consumables that carry printed limits.",
+              },
+              {
+                name: "Golden Rock railway area",
+                note: "The railway workshops and division offices keep spares, lubricants and electrical stores in large sheds, and the area's staff clinic and hospital hold vaccines and medicines.",
+              },
+              {
+                name: "Gandhi Market and Srirangam flower market",
+                note: "The wholesale market and the temple island's flower market move vegetables, fruit and garlands daily, with cold rooms and sheds where heat shortens the life of every lot.",
+              },
+              {
+                name: "Hospital and medical college belt",
+                note: "A government medical college hospital and many large private hospitals keep vaccines, blood components and medicines in refrigerators that serve patients from several central districts.",
+              },
+            ],
+            industries: [
+              {
+                slug: "chemical",
+                sentence:
+                  "Fabricators and heavy-engineering suppliers hold paints, coatings and welding consumables with printed storage limits, and an alert from a hot shed gives the storekeeper time to move drums before a batch is lost.",
+              },
+              {
+                slug: "electronics",
+                sentence:
+                  "Control-panel and instrument makers serving the power-equipment plants keep boards and finished units in dry rooms, and a humidity trend shows a buyer how the stock was held before it was fitted.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The large hospitals of the city draw patients from several central districts, and a phone alert from a failing vaccine refrigerator reaches the duty technician in the small hours.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods change vehicles and wagons in a city that lies on routes to every part of the state, and a logger in a consignment records how long it stood in the open between one leg and the next.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels spread through a long fabrication-shop store at racks and doors give a quality head one report for the whole building.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit an instrument room or a control-panel store, where damp air in the rains is the danger to the stock.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger reports from a truck or a yard without Wi-Fi, which suits goods moving out from the city on the highways.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Do you visit plants and workshops in Thuvakudi and Ariyamangalam?",
+                answer:
+                  "Send the estate, the unit and the person who controls the gate through the enquiry form, WhatsApp or a call. We follow your safety rules, avoid welding and furnace areas, and start with the stores a buyer asks about first.",
+              },
+              {
+                question: "Can a supplier's record be shown to the plant it supplies?",
+                answer:
+                  "A report can be exported by room and date, and a buyer can be given access to the reports it needs without seeing the rest of the supplier's account.",
+              },
+              {
+                question: "How do loggers cope with the heat of a metal-roofed shed?",
+                answer:
+                  "We keep loggers out of direct sun and away from hot walls and roofs, and we put a second probe near the floor, so a report shows how much hotter the upper stock runs than the lower.",
+              },
+              {
+                question: "Can stores across Tiruchirappalli and the towns around it be seen together?",
+                answer:
+                  "Each store becomes a site with its own alert contacts, so an owner with a shop in the city and a depot in a nearby town can open both on one dashboard.",
+              },
+            ],
+            nearby: [
+              { slug: "madurai", name: "Madurai" },
+              { slug: "salem", name: "Salem" },
+            ],
+            metaTitle: "Temperature Data Loggers in Tiruchirappalli | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Tiruchirappalli's engineering estates, railway stores, flower markets and hospitals. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "salem",
+            name: "Salem",
+            type: "city",
+            intro:
+              "Salem lies in a ring of hills in north-western Tamil Nadu and is known for stainless steel, sago and starch made from tapioca, and the mangoes of its orchards. A large steel plant stands on the edge of the city, magnesite and iron-ore workings lie in the hills, and the older trades are handloom and power-loom weaving, silk and the markets of Shevapet and Leigh Bazaar. Suramangalam and Ammapet hold small factories and textile units, while sago mills line the roads that lead to the farms. A temperature data logger in Salem therefore watches sacked starch in a damp monsoon, mangoes in ripening and cold rooms, textile stores and the vaccine refrigerators of a large government hospital. Prithvi supplies WiFi loggers for rooms and GSM loggers for vehicles, with alerts to phones and email.",
+            climateAngle:
+              "The city sits in a basin of hills that holds the heat, so summers are hot and still, the monsoon brings damp that settles into sacked starch and cloth, and the nights are cooler than the days.",
+            areas: [
+              {
+                name: "Sago and starch mills",
+                note: "Mills on the roads to the tapioca farms hold sacked starch and sago in large godowns, where damp air in the rains can cause lumps, mould and a smell that buyers reject.",
+              },
+              {
+                name: "Suramangalam and Ammapet units",
+                note: "Small factories, workshops and textile units in these areas keep stores of yarn, packing material and engineering consumables in buildings of mixed age and size.",
+              },
+              {
+                name: "Shevapet and Leigh Bazaar markets",
+                note: "Crowded trading lanes hold cloth, groceries, mangoes and medicines in godowns behind shops, where a single building may hold stock for several traders.",
+              },
+              {
+                name: "Government hospital and medical college belt",
+                note: "A large government hospital and a medical college, with private hospitals around them, keep vaccines, blood components and medicines in many refrigerators serving several districts.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Sago and starch mills and mango traders hold produce that suffers in heat and damp, and a humidity and temperature record shows an owner when to ventilate, move or sell a lot.",
+              },
+              {
+                slug: "textile",
+                sentence:
+                  "Weavers and cloth merchants keep yarn and finished rolls in rooms that turn damp in the rains, and a humidity record shows a buyer how the stock was held before it was packed.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Steel-related suppliers and engineering units hold coatings, acids and lubricants with printed storage limits, and an alert from a heated store lets the storekeeper act before material is spoiled.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The government hospital and private hospitals keep blood components and vaccines in many refrigerators, and alerts to a phone mean a unit that fails overnight is not found at the morning round.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at a single point suit a starch godown or a cloth store, where damp air reaching the stock is the main danger.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels spread through a long mill godown at different heights show which stacks sit warmest and where moisture collects.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a lorry carrying starch or mangoes, or reports from a depot without Wi-Fi, which suits stock leaving the district.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How can a logger help a sago or starch mill?",
+                answer:
+                  "A humidity record from the godown can be exported by lot and date, so a miller can answer a buyer's question about how the starch was kept through the rains before dispatch.",
+              },
+              {
+                question: "Do you cover Suramangalam, Ammapet and the mills outside the city?",
+                answer:
+                  "Send the area, the unit and a contact through the enquiry form, WhatsApp or a call, and we confirm how a visit would be arranged for the pockets around Salem.",
+              },
+              {
+                question: "Can loggers be used in crowded market godowns?",
+                answer:
+                  "Loggers are small and battery powered, so they hang from a shelf or stand on a rack without cabling, and we agree positions with the trader who holds the keys.",
+              },
+              {
+                question: "Can one login cover a mill and a shop in different parts of the city?",
+                answer:
+                  "Each place becomes a site with its own alert recipients, so an owner can open both on one dashboard and see which one needs a call to the manager.",
+              },
+            ],
+            nearby: [
+              { slug: "coimbatore", name: "Coimbatore" },
+              { slug: "tiruchirappalli", name: "Tiruchirappalli" },
+            ],
+            metaTitle: "Temperature Data Loggers in Salem | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Salem's sago mills, textile stores, mango trade and hospitals. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "tiruppur",
+            name: "Tiruppur",
+            type: "city",
+            intro:
+              "Tiruppur is the knitwear town of western Tamil Nadu, where a cluster of spinning, knitting, dyeing, printing and garment-making units export cotton hosiery and T-shirts to buyers abroad and sell vests and innerwear across India. Along Avinashi Road, Palladam Road, Kangeyam Road and in Anupparpalayam, a great many small and mid-sized units sit side by side, with processing houses and common treatment plants on the edge of the city. A temperature data logger in Tiruppur mostly protects cloth: yarn and fabric in stores through the damp weeks, finished cartons waiting for a container, and dye and chemical rooms whose labels carry limits. Buyers abroad ask for dated records, and owners often run several units. Prithvi supplies WiFi loggers for stores with a network and GSM loggers for vehicles and sites without one.",
+            climateAngle:
+              "The air is warm and fairly dry for most of the year, the monsoon rains arrive in two short spells and bring damp into fabric stores, and a hot afternoon makes the upper floors of garment buildings uncomfortable for people and unfriendly to stored stock, which is why a record from each floor is worth having.",
+            areas: [
+              {
+                name: "Avinashi Road and Palladam Road units",
+                note: "Knitting and garment-making units line these roads in buildings of several floors, with yarn, fabric and finished cartons stacked in stores that share walls with stitching floors.",
+              },
+              {
+                name: "Anupparpalayam and Kangeyam Road",
+                note: "Smaller units, printing shops and packing rooms cluster here, with stock moving between processors and stitchers by small trucks through the day.",
+              },
+              {
+                name: "Dyeing, bleaching and chemical stores",
+                note: "Processing houses keep dyes, auxiliaries and bleaching chemicals with printed storage limits in rooms that heat up beside boilers and drying machines.",
+              },
+              {
+                name: "Export packing and container sheds",
+                note: "Garment exporters pack finished goods for container trucks bound for the ports, and cartons wait in sheds whose humidity decides whether a shipment arrives free of mould.",
+              },
+            ],
+            industries: [
+              {
+                slug: "textile",
+                sentence:
+                  "Knitwear makers hold yarn, fabric and finished cartons for foreign buyers, and a humidity record shows an exporter that goods stayed dry between the stitching floor and the container.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Dyeing and bleaching houses keep dyes and auxiliary chemicals with limits printed on their labels, and an alert from a heated store gives the supervisor a chance to act before a batch is lost.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Garment cartons travel by truck to the ports and to distributors across India, and a logger in the consignment records how long it stood in a yard or a transfer shed.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a fabric store or a packing room, where the question is whether damp air reached the cartons.",
+              },
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels cover several floors of a garment building across stores, packing rooms and dispatch doors, with one report for the whole unit.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a container truck or reports from a distant processing site without Wi-Fi, which suits cartons headed for the port.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How does a logger help a garment exporter?",
+                answer:
+                  "A humidity and temperature record from the store and the container yard can be exported by lot and date, so an exporter can answer a buyer's question about mould or odour on arrival with the actual record.",
+              },
+              {
+                question: "Can one account watch units on Avinashi Road and Palladam Road together?",
+                answer:
+                  "Each unit becomes a site with its own alert recipients, and an owner who runs several can open all of them in one list and export a report for any room.",
+              },
+              {
+                question: "Which logger suits a multi-storey garment building?",
+                answer:
+                  "A multi-channel WiFi logger can watch stores on several floors through external probes, and we choose positions after seeing the layout so that signal reaches each floor.",
+              },
+              {
+                question: "Can loggers be placed near dyeing machines?",
+                answer:
+                  "We keep loggers away from boilers and drying machines so that the reading reflects the stored chemicals and fabric, and we choose a position on the day after seeing where the heat gathers.",
+              },
+            ],
+            nearby: [
+              { slug: "coimbatore", name: "Coimbatore" },
+              { slug: "salem", name: "Salem" },
+            ],
+            metaTitle: "Temperature Data Loggers in Tiruppur | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Tiruppur's knitwear units, dyeing houses, export sheds and godowns. Get Solution.",
             indexable: true,
           },
         ],
