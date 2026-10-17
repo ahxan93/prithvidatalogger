@@ -1801,7 +1801,7 @@ export const areas: AreaDef[] = [
   { slug: "kalyan", name: "Kalyan", citySlug: "thane-bhiwandi", areaType: "mixed-use", nearbyIndustries: ["food-beverage", "pharmaceutical", "logistics-warehousing", "hospitals-blood-banks"], confirmedService: true, hero: ["nakshatra", "hooter"], page: {
       "metaTitle": "Data Loggers in Kalyan, Thane | Prithvi",
       "metaDescription": "WiFi and GSM temperature data loggers for Kalyan's markets, godowns, pharmacies and hospitals, including Mohone and Shahad. Get Solution.",
-      "intro": "Kalyan is a rail and road junction town east of Thane, on the Ulhas creek, where the Central Railway's main line divides towards Kasara and towards Karjat and Pune. Around the junction it has an agricultural produce market, busy wholesale and retail markets, godowns along the roads to Bhiwandi and Shil, and a large residential population that reaches north to Shahad and Mohone. Goods reach Kalyan by rail and road for traders who supply the towns around, so a good deal of storage is working stock: produce and groceries in market cold rooms, medicines in stockists' godowns and the pharmacies and kitchens that serve the neighbourhoods.",
+      "intro": "Kalyan is a rail and road junction town east of Thane, on the Ulhas creek, where the Central Railway's main line divides towards Kasara and towards Karjat and Pune. Around the junction it has an agricultural produce market, busy wholesale and retail markets, godowns along the roads to Bhiwandi and Shil, and a large residential population; Mohone lies to the north of the junction and Shahad lies on the Ulhasnagar side of Kalyan. Goods reach Kalyan by rail and road for traders who supply the towns around, so a good deal of storage is working stock: produce and groceries in market cold rooms, medicines in stockists' godowns and the pharmacies and kitchens that serve the neighbourhoods.",
       "places": [
         {
           "name": "Kalyan station and market area",
@@ -1813,7 +1813,7 @@ export const areas: AreaDef[] = [
         },
         {
           "name": "Mohone and Shahad",
-          "note": "Residential and mixed neighbourhoods north of the junction, with clinics, pharmacies, bakers and small commercial premises serving growing townships."
+          "note": "Residential and mixed neighbourhoods, with Mohone to the north of the junction and Shahad on the Ulhasnagar side of Kalyan, where clinics, pharmacies, bakers and small commercial premises serve growing townships."
         }
       ],
       "industries": [
@@ -2421,7 +2421,7 @@ export const areas: AreaDef[] = [
   { slug: "dahanu", name: "Dahanu", citySlug: "vasai-palghar", areaType: "mixed-use", nearbyIndustries: ["food-beverage", "logistics-warehousing", "pharmaceutical", "hospitals-blood-banks"], confirmedService: true, hero: ["veer", "virat-pro"], page: {
       "metaTitle": "Data Loggers in Dahanu, Palghar | Prithvi",
       "metaDescription": "WiFi and GSM temperature data loggers for Dahanu's fruit packing sheds, ice and fish stores, highway godowns and clinics. Get Solution.",
-      "intro": "Dahanu is the northernmost coastal town of Maharashtra's Palghar district, known for its orchards of chikoo, its long beaches and its fishing, and covered by a taluka-wide environmental authority that restricts heavy industry. The Western line and the Mumbai–Ahmedabad highway run through the district, with Dahanu Road as a station on the line, and Manor, a highway town, and villages such as Vevoor are served from the same markets. Storage here is shaped by agriculture, fishing and tourism rather than factories: fruit packing and cold rooms, ice and fish stores, hotel and homestay kitchens, and the highway godowns serving the district. A thermal power station stands on the coast.",
+      "intro": "Dahanu is the northernmost coastal town of Maharashtra's Palghar district, known for its orchards of chikoo, its long beaches and its fishing, and covered by a taluka-wide environmental authority that restricts heavy industry. The Western line and the Mumbai–Ahmedabad highway run through the district, with Dahanu Road as a station on the line, and Manor and Vevoor are smaller towns near Dahanu. Storage here is shaped by agriculture, fishing and tourism rather than factories: fruit packing and cold rooms, ice and fish stores, hotel and homestay kitchens, and the highway godowns serving the district. A thermal power station stands on the coast.",
       "places": [
         {
           "name": "Dahanu town and the chikoo orchards",
