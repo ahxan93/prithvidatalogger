@@ -208,20 +208,25 @@ const CITY_REGISTRY: { slug: string; region: Region }[] = [
     "thane-bhiwandi",
     "vasai-palghar",
     "chhatrapati-sambhajinagar", "kolhapur", "satara", "solapur", "ratnagiri-lote",
+    "rajkot", "bharuch", "gandhinagar", "halol-panchmahal",
   ].map((slug) => ({ slug, region: "india" as const })),
 ];
 
 /**
  * Cities grouped by their state hub. The 10 loggers give only 45 pairs (41 after the pairs held by
  * other pages), so once every pair is taken a city in a hub may reuse a pair that no city in the
- * SAME hub shows. Only Maharashtra needs this so far; a city outside a hub never shares a pair.
+ * SAME hub shows. Maharashtra and Gujarat need this so far; a city outside a hub never shares a pair.
  */
-const HUB_OF: Record<string, string> = Object.fromEntries(
-  [
+const HUB_OF: Record<string, string> = Object.fromEntries([
+  ...[
     "mumbai", "navi-mumbai", "panvel", "bhiwandi", "pune", "thane", "nashik", "nagpur", "thane-bhiwandi",
     "vasai-palghar", "chhatrapati-sambhajinagar", "kolhapur", "satara", "solapur", "ratnagiri-lote",
   ].map((slug) => [slug, "maharashtra"]),
-);
+  ...[
+    "ahmedabad", "vapi", "ankleshwar", "surat", "vadodara", "rajkot", "bharuch", "gandhinagar", "halol-panchmahal",
+    "morbi", "jamnagar", "mundra", "kandla",
+  ].map((slug) => [slug, "gujarat"]),
+]);
 
 const LOGGER_KEYS: DeviceKey[] = [
   "setu", "nakshatra", "rajmudra", "dhruva", "veer", "veer-pro", "virat", "virat-pro", "vayu", "vayu-pro",

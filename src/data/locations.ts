@@ -123,7 +123,7 @@ export const locations: LegacyLocationNode[] = [
     ],
     listing: [
       { slug: "maharashtra", text: "Mumbai, Navi Mumbai, Thane and Bhiwandi, Panvel, Pune, Vasai-Palghar, Nashik, Chhatrapati Sambhajinagar, Nagpur, Kolhapur, Satara, Solapur and Ratnagiri-Lote, from a humid coast to hot inland plateaus." },
-      { slug: "gujarat", text: "Ahmedabad's estates and the chemical belt of Vapi, Ankleshwar and Surat, where pharmaceutical, dye and textile stores meet a heavy southern monsoon." },
+      { slug: "gujarat", text: "Ahmedabad, Vadodara, Rajkot, Gandhinagar and the chemical belt from Vapi to Bharuch, where pharmaceutical, dye and engineering stores meet dry heat and a heavy southern monsoon." },
       { slug: "delhi-state", text: "A dense capital in which hospitals, medicine distributors and food businesses share space with the Okhla, Bawana and Narela industrial areas." },
       { slug: "uttar-pradesh", text: "Noida and Greater Noida's electronics and data centre campuses, and Lucknow's hospitals, medicine stockists and cold stores." },
       { slug: "haryana", text: "The IMT Manesar plants and highway warehouses on the road south of Gurugram, built around automotive, electronics and distribution." },
@@ -1589,7 +1589,7 @@ export const locations: LegacyLocationNode[] = [
           {
             question: "Which Gujarat places have their own pages?",
             answer:
-              "Four cities have full pages, with the industrial areas of each listed beneath it. Open the one nearest your plant, or send the estate through the enquiry form if yours is not listed.",
+              "Nine more cities have full pages beside the first four, with the industrial areas of each listed beneath it. Open the one nearest your plant, or send the estate through the enquiry form if yours is not listed.",
           },
           {
             question: "Why does the south of the state need different advice from the north?",
@@ -1607,6 +1607,11 @@ export const locations: LegacyLocationNode[] = [
           { slug: "vapi", text: "The first large industrial town on the Gujarat side of the border, dense with chemical, dye, pharmaceutical and paper units." },
           { slug: "ankleshwar", text: "A chemical district on the Narmada plain with its own large estate and the neighbouring estates of Panoli, Jhagadia and Dahej." },
           { slug: "surat", text: "A city of fabric and processing houses, with the Pandesara and Sachin estates and the heavy-industry belt at Hazira." },
+          { slug: "vadodara", text: "Also called Baroda, a river city of pharmaceutical, equipment and chemical estates at Makarpura, Waghodia, Savli and Nandesari, beside a refinery belt." },
+          { slug: "rajkot", text: "The machine-making heart of Saurashtra, with engine, pump and auto-parts estates at Aji and Metoda, oil mills and a jewellers' market." },
+          { slug: "bharuch", text: "An old Narmada river port town between the chemical estates, with its own small units, hospitals and cotton stores near a flood-prone bank." },
+          { slug: "gandhinagar", text: "The planned capital of numbered sectors, where GIFT City data halls, institute laboratories and government pharmacies outnumber factory stores." },
+          { slug: "halol-panchmahal", text: "An eastern district of vehicle component and pharmaceutical plants at Halol and Kalol, a cooperative dairy at Godhra and a heritage hill shrine." },
         ],
         areaListing: [
           { slug: "naroda", text: "An older north-eastern estate where engineering, plastics and chemical units sit among neighbourhoods and a large produce market." },
@@ -2010,6 +2015,514 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Surat | Prithvi",
             metaDescription:
               "WiFi and GSM temperature and humidity data loggers for Surat's textile, dyeing and Hazira units, with site visits arranged. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "vadodara",
+            name: "Vadodara",
+            type: "city",
+            intro:
+              "Vadodara, called Baroda by many and once the seat of the Gaekwad rulers, is an industrial city on the Vishwamitri river and on the main Mumbai–Ahmedabad railway and highway. Its estates ring the city: Makarpura on the southern side, Waghodia on the road towards Halol, Savli to the north-east, Nandesari beyond the city, and the refinery and fertiliser works near Koyali. Pharmaceutical makers, power and process equipment builders, chemical plants and dairies share them, while the university and its hospitals add laboratories and blood banks. A temperature data logger in Vadodara can therefore serve a bulk drug store, a switchgear warehouse and a hospital fridge in the same week. Summers are hot, the monsoon is heavy and the river has flooded the city, so a record that survives an outage matters.",
+            climateAngle:
+              "Summers are hot and dry, the monsoon is heavy, and the Vishwamitri has overflowed into low parts of the city in wet years, so ground-floor stores meet both damp and interrupted power in the same season.",
+            areas: [
+              {
+                name: "Makarpura",
+                note: "An older estate on the southern side of the city, with engineering, pharmaceutical and electrical units on compact plots among housing and busy roads.",
+              },
+              {
+                name: "Waghodia",
+                note: "An estate on the road towards Halol with engineering, chemical and plastics plants on larger plots, so stores often stand far from the control room.",
+              },
+              {
+                name: "Savli",
+                note: "A newer estate to the north-east where heavy engineering and equipment plants occupy wide plots, with long walks between the warehouse and the shop floor.",
+              },
+              {
+                name: "Nandesari",
+                note: "A chemical and intermediate estate outside the city, where solvents, reagents and finished products are held in stores that need stated limits.",
+              },
+              {
+                name: "Koyali",
+                note: "The refinery and fertiliser belt on the north-western side, with large tanks, laboratories and spare-parts stores serving continuous process plants.",
+              },
+            ],
+            industries: [
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Bulk drug and formulation units hold materials in stores with written limits through a hot summer, and an alert to the stores head matters most when a standby generator fails to start.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Chemical makers at Nandesari and Koyali store reagents and intermediates in rooms where a dated record shows how a store behaved on the hottest afternoon of the year.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A large government hospital, a medical college and many private hospitals keep blood banks and vaccine fridges, with alarms that must reach the duty staff in the small hours.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Dairies and food processors in the estates hold milk products and packed goods that spoil quickly if a chiller drifts, and a reading every few minutes shows when it began.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity along with temperature, which matters in an electrical equipment store or a pharmaceutical warehouse through the damp weeks of the monsoon.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels cover a long Savli or Waghodia warehouse from dock to far wall, so a single report shows where heat collects under the roof.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an optional external probe suits a hospital vaccine fridge or a laboratory cabinet and is simple for ward staff to read.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Do you cover Baroda as well as Vadodara?",
+                answer:
+                  "Yes. Baroda is the older name of Vadodara, and we supply both in the same way; just tell us the estate and what you store.",
+              },
+              {
+                question: "Can plants at Makarpura, Waghodia and Savli be watched together?",
+                answer:
+                  "Yes. Each plant is its own entry on the dashboard with alerts for the people who run it, and a head of quality can open every plant in one list and compare their records.",
+              },
+              {
+                question: "What should we do about stores that might flood?",
+                answer:
+                  "Mount loggers and their sockets above the likely water level and keep probe cables out of drains. A GSM model keeps reporting even if the WiFi is down, so an alert still reaches a phone.",
+              },
+              {
+                question: "Can calibration be arranged for loggers used in a Vadodara plant?",
+                answer:
+                  "VEGA Calibrations, our parent company, calibrates loggers and probes and can map larger stores. Send the model and the range you work to, and we explain how it is arranged for your estate.",
+              },
+            ],
+            nearby: [
+              { slug: "ahmedabad", name: "Ahmedabad" },
+              { slug: "bharuch", name: "Bharuch" },
+              { slug: "halol-panchmahal", name: "Halol-Panchmahal" },
+              { slug: "surat", name: "Surat" },
+            ],
+            metaTitle: "Temperature Data Loggers in Vadodara | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Vadodara (Baroda): Makarpura, Waghodia and Savli plants, hospitals and dairies. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "rajkot",
+            name: "Rajkot",
+            type: "city",
+            intro:
+              "Rajkot is the commercial heart of Saurashtra and a city that makes machines. The estates at Aji and Metoda and the Shapar-Veraval belt turn out diesel engines, pumps, bearings, castings and auto components, workshops in the older lanes supply them, and the city is known for gold and silver jewellery. Oil mills, groundnut traders and the produce yards of the peninsula, including the one at Gondal, tie it to the surrounding farms. A temperature data logger in Rajkot therefore watches rooms of unlike kinds: a paint store beside a casting shop, a medicine distributor's cold room, an edible oil store, a jeweller's strongroom. The climate is semi-arid, summers are fierce and the monsoon is erratic, so a shed that behaves well one year can swing sharply the next.",
+            climateAngle:
+              "Summers are fierce and dry, rain is erratic from year to year, and metal-roofed sheds on open plots heat quickly, so the swing between a cool morning and a scorching afternoon is the main thing a record has to capture.",
+            areas: [
+              {
+                name: "Aji",
+                note: "An established estate on the edge of the city where engineering, foundry and auto-parts makers keep raw material and finished parts in sheds along the main lanes.",
+              },
+              {
+                name: "Metoda",
+                note: "A large estate further out, with newer engineering, auto-parts and food plants on bigger plots, so rooms stand farther apart than in the older estates.",
+              },
+              {
+                name: "Shapar-Veraval",
+                note: "A belt of small workshops and mid-sized units on the highway side that make parts for the larger plants and hold stock in modest sheds.",
+              },
+              {
+                name: "Bedi market yard",
+                note: "The produce yard where groundnut, cotton and grain arrive by the lorry load from farms across the peninsula before they are graded and moved on.",
+              },
+              {
+                name: "Soni Bazaar",
+                note: "The old jewellers' market, where small shops, workshops and strongrooms hold precious metal and stones in narrow buildings that trap the afternoon heat.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Oil mills, groundnut processors and snack makers hold seed, oil and packed goods that go off in heat, and a log from each store shows how it behaved through a scorching spell.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Warehouses for engine parts, castings and coatings serve buyers across the country, and a reading at several heights shows how much hotter the top racks run than the floor.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Distributors supply chemists and clinics across Saurashtra from stores that must hold their range through the hottest weeks, and a dated record answers a customer's query.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals and clinics draw patients from a wide rural area and keep blood banks and vaccine fridges that need an alarm if power fails during a heatwave.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two external probes, one near the floor and one under the roof, show how a casting store or an oil store varies from bottom to top.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity along with temperature, which shows when the first showers of the season start to affect packed goods and paper stock.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels watch a large parts warehouse across bays and heights, so one report shows where afternoon heat gathers.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Do you visit Aji, Metoda and Shapar-Veraval?",
+                answer:
+                  "Yes. The three lie in different directions from the city, so we group visits by direction. Share the estate and the type of room, and we propose a day with your team.",
+              },
+              {
+                question: "Can a small workshop afford to watch a single store?",
+                answer:
+                  "A single WiFi logger on one store, with alerts to the owner's phone, is a sensible start, and more points can be added later as the workshop grows.",
+              },
+              {
+                question: "What helps in a metal shed that gets very hot?",
+                answer:
+                  "Probes at floor height and just below the roof show how far the heat climbs, and limits can be set for each position. Tell us the height of the shed and what it holds.",
+              },
+              {
+                question: "Is calibration available for a plant in Rajkot?",
+                answer:
+                  "Calibration of loggers and probes comes from VEGA Calibrations, our parent company, and can be planned with the supply. Send the model and your working range, and we explain the arrangement.",
+              },
+            ],
+            nearby: [
+              { slug: "morbi", name: "Morbi" },
+              { slug: "jamnagar", name: "Jamnagar" },
+              { slug: "ahmedabad", name: "Ahmedabad" },
+            ],
+            metaTitle: "Temperature Data Loggers in Rajkot | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Rajkot's engineering estates at Aji and Metoda, oil mills, distributors and hospitals. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "bharuch",
+            name: "Bharuch",
+            type: "city",
+            intro:
+              "Bharuch is an old river port on the Narmada, once known for cotton and today the seat of a district crowded with chemical plants. The town lies beside the Mumbai–Ahmedabad highway and railway and the long bridges over the river, and its own estates at Zadeshwar and Bholav serve mid-sized makers and the warehouses and offices that support them. The larger estates around Ankleshwar and Dahej have pages of their own, so this page is about the town, the river and the stores around it. A temperature data logger in Bharuch might sit in a pharmacy, a hospital blood bank, a chemical stockist's godown or a cotton store. The Narmada can rise fast when the dam upstream releases water, so records have to survive wet and disrupted days.",
+            climateAngle:
+              "The air is hot and humid for much of the year, the monsoon is heavy, and the river can rise quickly after releases upstream, so low-lying stores near the bank meet damp, flood risk and cut power in the same weeks.",
+            areas: [
+              {
+                name: "Zadeshwar",
+                note: "An industrial pocket on the town's edge, with mid-sized engineering and chemical-trading units and storage yards close to the highway.",
+              },
+              {
+                name: "Bholav",
+                note: "An estate on the town side of the river with small manufacturers and godowns that serve the larger plants in the district.",
+              },
+              {
+                name: "Old town and riverfront",
+                note: "The older lanes beside the Narmada, with hospitals, medicine shops, cotton and grain traders and godowns in buildings that hold damp near the water.",
+              },
+              {
+                name: "Panoli and Jhagadia",
+                note: "Two large chemical estates in the district, covered in detail on our Ankleshwar page, whose plants often keep stores and suppliers in Bharuch town too.",
+                linkTo: "ankleshwar",
+              },
+              {
+                name: "Dahej",
+                note: "The coastal port region on its own page, for which Bharuch is the nearest large town for hospitals, banks and suppliers.",
+                linkTo: "dahej",
+              },
+            ],
+            industries: [
+              {
+                slug: "chemical",
+                sentence:
+                  "Chemical traders and small makers in town hold drums and containers in godowns, and a reading in each room shows how a store behaved when the afternoon sun and humid air arrived together.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals in the town serve a district with many plants and keep blood banks, vaccine fridges and emergency stores whose alarms must reach staff when the river floods the roads.",
+              },
+              {
+                slug: "textile",
+                sentence:
+                  "Cotton traders and ginning units hold bales in godowns that take on damp near the river, and a humidity record shows when a store needs airing before stock is affected.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Warehouses beside the highway and the railway receive loads bound for the ports and the plants, and a log at the dock door shows how long each lot stood in the heat.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity as well as temperature, the pair that matters for cotton, paper and packaging stored near a river in the wet months.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger keeps reporting over the mobile network when WiFi and power fail together in a flood, so the alert still reaches a phone.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four probes cover the dock, the main store, the office safe-room and the power room of a trading or processing site from one logger.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How does this page differ from your Ankleshwar and Dahej pages?",
+                answer:
+                  "Those pages describe the large chemical estates and the port region in detail. This one covers the town of Bharuch, its river and its own stores, and links to the others for the estates.",
+              },
+              {
+                question: "Can a plant at Panoli and a shop in Bharuch town share one dashboard?",
+                answer:
+                  "Yes. Each location is a site with its own alert contacts, and the owner sees both in one list, with reports that can be exported for any period.",
+              },
+              {
+                question: "What should be done for stores near the river?",
+                answer:
+                  "Fix loggers above the likely flood level, keep probe cables out of drains and consider a GSM model that continues to report if WiFi drops. We advise on positions once we know the building.",
+              },
+              {
+                question: "Can mapping and calibration be arranged for a store in Bharuch?",
+                answer:
+                  "For a Bharuch store, VEGA Calibrations, our parent company, can calibrate the loggers and map the room before probes are fixed. Send the store size and limits, and we confirm how it is arranged.",
+              },
+            ],
+            nearby: [
+              { slug: "ankleshwar", name: "Ankleshwar" },
+              { slug: "vadodara", name: "Vadodara" },
+              { slug: "surat", name: "Surat" },
+            ],
+            metaTitle: "Temperature Data Loggers in Bharuch | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Bharuch town on the Narmada: Zadeshwar and Bholav units, hospitals, cotton and chemical stores. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "gandhinagar",
+            name: "Gandhinagar",
+            type: "city",
+            intro:
+              "Gandhinagar is a planned capital laid out in numbered sectors beside the Sabarmati, with the state secretariat and assembly at its centre, wide green avenues and Ahmedabad a short run down the highway. Industry here is lighter than in the neighbouring city. The Sector 25 estate holds small and mid-sized units, Kalol and Chhatral lie in the same district, and GIFT City, the financial and technology district on the river, runs data halls and offices with a district cooling system. Research institutes and hospitals add laboratories and pharmacies. A temperature data logger in Gandhinagar is more often watching a server room, a laboratory fridge or a government pharmacy than a factory store. Summers are hot and dry, and a cooling fault over a weekend can pass unnoticed in an empty office.",
+            climateAngle:
+              "Summers are hot and dry with long weeks of intense sun, the monsoon is moderate and the winter nights are cool, so air-conditioned rooms work hardest in the months when an unnoticed fault does the most harm.",
+            areas: [
+              {
+                name: "Sector 25",
+                note: "The planned industrial estate on the city's edge, with small and mid-sized units making parts, packaging and food and holding stock in sheds laid out on a grid.",
+              },
+              {
+                name: "GIFT City",
+                note: "A financial and technology district on the river with towers, data halls and a shared cooling system, where server and network rooms are the main stores.",
+              },
+              {
+                name: "Kalol and Chhatral",
+                note: "Industrial towns in the same district known for engineering, automotive and pharmaceutical plants on larger plots along the highway towards Mehsana.",
+              },
+              {
+                name: "Palaj institutes",
+                note: "A cluster of institutes including a technical institute and a pharmaceutical research institute, with laboratories, cold rooms and freezers in teaching buildings.",
+              },
+              {
+                name: "Government sectors",
+                note: "The administrative core of numbered sectors with offices, a civil hospital and clinics, where pharmacies and vaccine stores serve a large public workforce.",
+              },
+            ],
+            industries: [
+              {
+                slug: "data-centers",
+                sentence:
+                  "Server halls and network rooms at GIFT City and in government buildings run on engineered cooling, and a trend at rack inlet height shows a failing unit before equipment trips.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "Institutes and testing laboratories keep samples and reagents in freezers and incubators, and a probe inside each unit gives a record that does not rely on the door display.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The civil hospital, private clinics and government pharmacies keep vaccine fridges that need an alarm reaching staff when a quiet weekend hides a fault.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmaceutical units at Kalol and distributors serving the capital hold stock in rooms with written limits, and a dated log supports a quality review.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four probes cover the supply side, the return side, the door of a cooling unit and the power room of a data hall from one logger.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger fits a laboratory freezer or a ward medicine cabinet and keeps a record that survives a door left ajar.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity along with temperature, useful in a clean laboratory or a record store where dry air and sudden damp both cause trouble.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Do you cover GIFT City as well as the Sector 25 estate?",
+                answer:
+                  "Yes. Tell us whether the room is a data hall, a laboratory or a store, and we suggest probe positions and limits for that kind of room.",
+              },
+              {
+                question: "How does an empty office get watched over a long weekend?",
+                answer:
+                  "Alerts go to named people by phone and email, with an escalation to a second person if the first does not respond, so a cooling fault is dealt with before Monday.",
+              },
+              {
+                question: "Can a team watch rooms in Gandhinagar and Ahmedabad together?",
+                answer:
+                  "Yes. Every room is a point on one dashboard, and a facilities head can see both cities in a single list and export a report for any period.",
+              },
+              {
+                question: "Can laboratory loggers here be calibrated before an audit?",
+                answer:
+                  "VEGA Calibrations, our parent company, calibrates loggers and probes, and the work can be timed ahead of a review. Send the date and the ranges, and we explain the arrangement.",
+              },
+            ],
+            nearby: [
+              { slug: "ahmedabad", name: "Ahmedabad" },
+              { slug: "vadodara", name: "Vadodara" },
+              { slug: "rajkot", name: "Rajkot" },
+            ],
+            metaTitle: "Temperature Data Loggers in Gandhinagar | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Gandhinagar's GIFT City data halls, Sector 25 units, laboratories and hospitals. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "halol-panchmahal",
+            name: "Halol-Panchmahal",
+            type: "city",
+            intro:
+              "Halol and the wider Panchmahal district lie east of Vadodara, where the plains begin to rise towards the Pavagadh hill. The Halol GIDC and the neighbouring Kalol estate grew around vehicle assembly and component plants, and pharmaceutical formulation and engineering works stand beside them. Godhra, the district town, has a cooperative dairy and farm markets, and the Champaner–Pavagadh heritage site draws pilgrims and visitors to the hill. A temperature data logger in Halol-Panchmahal therefore serves a paint store on an assembly line, a pharmaceutical warehouse, a dairy chiller and the kitchens of a pilgrim town. Plants sit on large plots far from the town, so a failure at night is a long way from anyone who can fix it, and a phone alert is worth more than a morning round.",
+            climateAngle:
+              "Summers are hot with dry winds from the east, the monsoon is moderate and the hill country is cooler at night, so large sheds on open plots swing between a warm afternoon and a cooler dawn.",
+            areas: [
+              {
+                name: "Halol GIDC",
+                note: "A large estate with vehicle assembly, component, pharmaceutical and engineering plants on wide plots reached by long internal roads.",
+              },
+              {
+                name: "Kalol",
+                note: "A neighbouring industrial town and estate in the same district, where suppliers to the larger plants hold parts and packaging in mid-sized sheds.",
+              },
+              {
+                name: "Godhra",
+                note: "The district headquarters, with a cooperative dairy, farm markets, hospitals and godowns for the produce of a largely agricultural district.",
+              },
+              {
+                name: "Vadodara–Halol road",
+                note: "The road that links the estate with the city, lined with engineering shops, transport yards and godowns that receive parts and packing material for the plants beyond.",
+              },
+              {
+                name: "Pavagadh and Champaner",
+                note: "A hill shrine and a heritage site that receive many visitors, with lodges, kitchens and shops that run fridges and freezers on festival days.",
+              },
+            ],
+            industries: [
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Component and parts warehouses feed assembly lines on a fixed rhythm, and a reading at each bay shows how long a lot stood in a hot shed before it was drawn.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmaceutical units hold raw materials and finished stock in rooms with written limits, and a dated record backs a quality manager when an inspector asks how a store behaved.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "A cooperative dairy, milk chilling centres and food processors keep chillers that cannot drift, and an alert to the duty person catches a failing compressor early.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The district hospital at Godhra and clinics in the estate towns serve a spread-out population, so a blood bank or vaccine fridge needs an alarm that still reaches someone during a long power cut.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels map a big component warehouse from floor to roof across several bays, so one report shows where heat builds up.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger keeps reporting from a milk chilling centre or a village cold room outside WiFi range, and sends alerts over the mobile network.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A simple single-point logger with an optional external probe suits a clinic fridge or a small kitchen freezer on the pilgrim route.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Do you cover Halol and Kalol as well as Godhra?",
+                answer:
+                  "Yes. Tell us the town and what you store and we plan visits by direction, so that nearby plants are covered on the same day.",
+              },
+              {
+                question: "How are plants on large plots watched from one place?",
+                answer:
+                  "Wireless loggers need only WiFi in each building, so no cable is run between stores, and a quality head sees every room on one dashboard with alerts for the right shift.",
+              },
+              {
+                question: "What suits a village milk chilling centre?",
+                answer:
+                  "A GSM logger with an external probe in the tank reports over the mobile network, so the chilling centre is watched even where there is no WiFi.",
+              },
+              {
+                question: "Can loggers for a Halol plant be calibrated through you?",
+                answer:
+                  "Yes. Calibration of loggers and probes for a Halol plant is delivered by our parent company, VEGA Calibrations, and can be timed with an audit. Share the model and range, and we explain how it is arranged.",
+              },
+            ],
+            nearby: [
+              { slug: "vadodara", name: "Vadodara" },
+              { slug: "ahmedabad", name: "Ahmedabad" },
+              { slug: "bharuch", name: "Bharuch" },
+            ],
+            metaTitle: "Temperature Data Loggers in Halol-Panchmahal | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Halol-Panchmahal: Halol GIDC and Kalol component stores, pharma units and Godhra dairies. Get Solution.",
             indexable: true,
           },
         ],

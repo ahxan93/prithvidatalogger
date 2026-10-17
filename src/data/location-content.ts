@@ -30,7 +30,7 @@ export const locationContent: Record<string, LocationContent> = {
   },
   "india/gujarat": {
     metaDescription:
-      "Temperature data loggers for Gujarat's Ahmedabad, Vapi, Ankleshwar and Surat estates, with every city and area page listed. Get Solution.",
+      "Temperature data loggers across Gujarat: Ahmedabad, Vadodara, Rajkot, Gandhinagar, Surat and the Vapi to Bharuch chemical belt. Get Solution.",
     recommended: ["nakshatra", "dhruva", "veer"],
   },
   "india/delhi": {
