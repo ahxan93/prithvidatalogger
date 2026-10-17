@@ -843,12 +843,17 @@ if (!siteConfig.showPrices) {
       else if (!fs.existsSync(path.join(PUBLIC, d.src))) fail(`heroes: page "${id}" photo missing (${d.src})`);
     }
   const pagePairs = new Map(Object.entries(pageHeroes).filter(([, k]) => k.length === 2).map(([id, k]) => [pair(k), id]));
+  // A pair is unique site-wide. The one exception: once all pairs are taken, a city in a state hub
+  // (HUB_OF in page-heroes.ts) may reuse a pair as long as no other city in the SAME hub shows it.
   const seen = new Map();
   for (const c of cityHeroAssignments()) {
     if (c.keys.length !== 2 || c.keys[0] === c.keys[1]) fail(`heroes: city "${c.slug}" needs two different photos`);
     const key = pair(c.keys);
-    if (seen.has(key)) fail(`heroes: cities "${seen.get(key)}" and "${c.slug}" share the same hero combination`);
-    seen.set(key, c.slug);
+    for (const prev of seen.get(key) ?? []) {
+      if (!c.hub || prev.hub === c.hub) fail(`heroes: cities "${prev.slug}" and "${c.slug}" share the same hero combination`);
+      else notes.push(`heroes: "${c.slug}" (${c.hub}) reuses the pair of "${prev.slug}", which is outside that hub`);
+    }
+    seen.set(key, [...(seen.get(key) ?? []), { slug: c.slug, hub: c.hub }]);
     if (pagePairs.has(key)) fail(`heroes: city "${c.slug}" repeats the hero of page "${pagePairs.get(key)}"`);
     // GSM models are never shown on GCC pages (network compatibility is not confirmed).
     if (c.region === "gcc" && c.keys.some((k) => k.startsWith("vayu"))) fail(`heroes: GCC city "${c.slug}" shows a Vayu photo`);

@@ -207,9 +207,21 @@ const CITY_REGISTRY: { slug: string; region: Region }[] = [
     "vadodara", "gurugram", "thane", "vapi", "ankleshwar", "nashik", "nagpur", "visakhapatnam", "haridwar", "surat",
     "thane-bhiwandi",
     "vasai-palghar",
-    "chhatrapati-sambhajinagar", "kolhapur",
+    "chhatrapati-sambhajinagar", "kolhapur", "satara", "solapur", "ratnagiri-lote",
   ].map((slug) => ({ slug, region: "india" as const })),
 ];
+
+/**
+ * Cities grouped by their state hub. The 10 loggers give only 45 pairs (41 after the pairs held by
+ * other pages), so once every pair is taken a city in a hub may reuse a pair that no city in the
+ * SAME hub shows. Only Maharashtra needs this so far; a city outside a hub never shares a pair.
+ */
+const HUB_OF: Record<string, string> = Object.fromEntries(
+  [
+    "mumbai", "navi-mumbai", "panvel", "bhiwandi", "pune", "thane", "nashik", "nagpur", "thane-bhiwandi",
+    "vasai-palghar", "chhatrapati-sambhajinagar", "kolhapur", "satara", "solapur", "ratnagiri-lote",
+  ].map((slug) => [slug, "maharashtra"]),
+);
 
 const LOGGER_KEYS: DeviceKey[] = [
   "setu", "nakshatra", "rajmudra", "dhruva", "veer", "veer-pro", "virat", "virat-pro", "vayu", "vayu-pro",
@@ -248,6 +260,7 @@ function pairsFor(region: Region): [DeviceKey, DeviceKey][] {
 
 const cityAssignments = new Map<string, [DeviceKey, DeviceKey]>();
 const usedPairs = new Set<string>();
+const hubPairs = new Map<string, Set<string>>();
 
 function assignCity(slug: string, region: Region): [DeviceKey, DeviceKey] {
   const existing = cityAssignments.get(slug);
@@ -255,15 +268,23 @@ function assignCity(slug: string, region: Region): [DeviceKey, DeviceKey] {
   const pairs = pairsFor(region);
   // Start from a slug-derived position, then probe to the next unused pair.
   const start = fnv1a(slug) % pairs.length;
-  let chosen = pairs[start];
-  for (let step = 0; step < pairs.length; step++) {
+  let chosen: [DeviceKey, DeviceKey] | undefined;
+  for (let step = 0; step < pairs.length && !chosen; step++) {
     const candidate = pairs[(start + step) % pairs.length];
-    if (!usedPairs.has(pairKey(...candidate))) {
-      chosen = candidate;
-      break;
+    if (!usedPairs.has(pairKey(...candidate))) chosen = candidate;
+  }
+  // Every pair is taken site-wide: fall back to one no city in the same hub shows.
+  const hub = HUB_OF[slug];
+  if (!chosen && hub) {
+    const inHub = hubPairs.get(hub) ?? new Set<string>();
+    for (let step = 0; step < pairs.length && !chosen; step++) {
+      const candidate = pairs[(start + step) % pairs.length];
+      if (!inHub.has(pairKey(...candidate))) chosen = candidate;
     }
   }
+  chosen ??= pairs[start];
   usedPairs.add(pairKey(...chosen));
+  if (hub) hubPairs.set(hub, (hubPairs.get(hub) ?? new Set<string>()).add(pairKey(...chosen)));
   cityAssignments.set(slug, chosen);
   return chosen;
 }
@@ -278,8 +299,8 @@ export function getCityHeroDevices(slug: string, region: Region): HeroDevice[] {
 }
 
 /** For check:data: every registry city with its assigned combination. */
-export function cityHeroAssignments(): { slug: string; region: Region; keys: DeviceKey[] }[] {
-  return CITY_REGISTRY.map((c) => ({ slug: c.slug, region: c.region, keys: assignCity(c.slug, c.region) }));
+export function cityHeroAssignments(): { slug: string; region: Region; hub?: string; keys: DeviceKey[] }[] {
+  return CITY_REGISTRY.map((c) => ({ slug: c.slug, region: c.region, hub: HUB_OF[c.slug], keys: assignCity(c.slug, c.region) }));
 }
 
 // ---------------------------------------------------------------------------

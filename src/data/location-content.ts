@@ -25,7 +25,7 @@ export const locationContent: Record<string, LocationContent> = {
   },
   "india/maharashtra": {
     metaDescription:
-      "Temperature data loggers in Maharashtra: Mumbai, Pune, Nashik, Nagpur, Chhatrapati Sambhajinagar, Kolhapur and more cities and areas. Get Solution.",
+      "Temperature data loggers in Maharashtra: Mumbai, Pune, Nashik, Nagpur, Kolhapur, Solapur and more cities and areas. Get Solution.",
     recommended: ["nakshatra", "dhruva", "virat"],
   },
   "india/gujarat": {

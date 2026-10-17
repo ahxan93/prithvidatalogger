@@ -122,7 +122,7 @@ export const locations: LegacyLocationNode[] = [
       },
     ],
     listing: [
-      { slug: "maharashtra", text: "Mumbai, Navi Mumbai, Thane and Bhiwandi, Panvel, Pune, Vasai-Palghar, Nashik, Chhatrapati Sambhajinagar, Nagpur and Kolhapur, from a humid coast to hot inland plateaus." },
+      { slug: "maharashtra", text: "Mumbai, Navi Mumbai, Thane and Bhiwandi, Panvel, Pune, Vasai-Palghar, Nashik, Chhatrapati Sambhajinagar, Nagpur, Kolhapur, Satara, Solapur and Ratnagiri-Lote, from a humid coast to hot inland plateaus." },
       { slug: "gujarat", text: "Ahmedabad's estates and the chemical belt of Vapi, Ankleshwar and Surat, where pharmaceutical, dye and textile stores meet a heavy southern monsoon." },
       { slug: "delhi-state", text: "A dense capital in which hospitals, medicine distributors and food businesses share space with the Okhla, Bawana and Narela industrial areas." },
       { slug: "uttar-pradesh", text: "Noida and Greater Noida's electronics and data centre campuses, and Lucknow's hospitals, medicine stockists and cold stores." },
@@ -168,7 +168,7 @@ export const locations: LegacyLocationNode[] = [
           {
             question: "Which Maharashtra locations have their own pages?",
             answer:
-              "Ten cities have full pages, and many of the Mumbai-region industrial areas have pages of their own. Each is listed below with a note, so you can open the one nearest to your site.",
+              "Thirteen cities have full pages, and many of the Mumbai-region industrial areas have pages of their own. Each is listed below with a note, so you can open the one nearest to your site.",
           },
           {
             question: "Can one team watch sites in Mumbai, Pune and Thane together?",
@@ -192,6 +192,9 @@ export const locations: LegacyLocationNode[] = [
           { slug: "chhatrapati-sambhajinagar", text: "Also known as Aurangabad, the Marathwada centre of Waluj, Chikalthana and Shendra, with automotive, drinks and pharmaceutical plants and tourist hotels." },
           { slug: "nagpur", text: "A central crossroads city of orange trade, large hospitals and the Hingna, Butibori and MIHAN sites, under some of the hottest summers in India." },
           { slug: "kolhapur", text: "A Panchganga valley city of foundries, a cooperative dairy, sugar and jaggery, with estates at Shiroli, Gokul Shirgaon and Kagal under a heavy monsoon." },
+          { slug: "satara", text: "A Krishna river district town on the Pune highway, with strawberry and dairy cold rooms, the Shirwal estate and the sugar and hospital centre of Karad." },
+          { slug: "solapur", text: "A hot, dry textile city of chaddars and towels, with Akkalkot Road and Chincholi estates, pomegranate and onion trade and a very scanty monsoon." },
+          { slug: "ratnagiri-lote", text: "A Konkan pair of a mango and fishing port and the Lote Parshuram chemical estate, both in salty, very humid air and a heavy monsoon." },
         ],
         areaListing: [
           { slug: "andheri", text: "Mixed factory units, stockists' godowns, laboratories and airport-side hotels beside the hospitals of the western suburbs." },
@@ -1261,6 +1264,309 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Kolhapur | Prithvi",
             metaDescription:
               "WiFi and GSM temperature data loggers for Kolhapur's dairies, foundries and mills at Shiroli, Gokul Shirgaon and Kagal, with site visits. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "satara",
+            name: "Satara",
+            type: "city",
+            intro:
+              "Satara lies on the Krishna river at the foot of the Sahyadri, on the old highway between Pune and Kolhapur, and its storage reflects a district of farms, dams and small estates more than one of large factories. The MIDC estates at Satara and Additional Satara hold engineering, component and food units, Shirwal nearer Pune has a bigger estate, and Karad, with its sugar mills and teaching hospital, is the second centre of the district. Strawberries from Mahabaleshwar and Panchgani, milk and sugar all pass through its markets. A temperature data logger in Satara may therefore watch a fruit chamber, a dairy chiller, a hospital pharmacy or a spares store, in a district where rain ranges from extreme in the hills to modest on the plains. A phone alert is worth most in the small hours.",
+            climateAngle:
+              "The crest of the Sahyadri takes some of the heaviest rain in the state while the eastern plains of the district stay comparatively dry, so a cold room at Mahabaleshwar fights damp in a way a store at Phaltan never does.",
+            areas: [
+              {
+                name: "Satara and Additional Satara",
+                note: "Two estates close to the city on the highway, with engineering, component and food units on mixed plot sizes and warehouses along the service roads.",
+              },
+              {
+                name: "Shirwal",
+                note: "A larger estate on the Pune side of the Khambatki ghat, where plants of several kinds hold stock in bigger buildings that sit well apart.",
+              },
+              {
+                name: "Karad",
+                note: "The second city of the district, where the Krishna and Koyna rivers meet, with sugar mills, a medical college, hospitals and busy markets.",
+              },
+              {
+                name: "Mahabaleshwar and Panchgani",
+                note: "Hill stations where strawberries are grown and sold fresh, and where hotels and kitchens run cold rooms in a wet and cool climate.",
+              },
+              {
+                name: "Phaltan",
+                note: "A town on the drier eastern plains with sugar mills and farm produce, where summers are warmer and the rains lighter than in the hills.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Strawberry growers and packers, dairies and sugar processors hold produce for short windows, and a probe in each chamber shows whether fruit stayed at the right temperature between the hills and the road to Pune.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals at Karad and Satara serve a wide rural district, so their blood banks, vaccine fridges and pharmacies need alarms that reach staff when the power fails in a hill-country storm.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Warehouses along the highway take goods moving between Pune and Kolhapur, and a reading at the dock door shows how long a load stood in the sun before it was stored.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine distributors supply chemists and clinics in small towns spread across the district, from stores that need a record for days when nobody is at the shop.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an optional external probe is quick to fit in a clinic fridge or a village dairy chiller and simple to read.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity with temperature, which matters in hill-station cold rooms where wet air surrounds fruit and packaging for months.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger reports over the mobile network, so a cold room on a farm or in the hills can be watched without WiFi wherever there is a signal.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a site in the hills, where WiFi is weak, still be monitored?",
+                answer:
+                  "A GSM logger sends readings and alerts over the mobile network, so an outlying cold room can be watched without WiFi wherever there is a signal. For sites that do have WiFi we suggest the WiFi models.",
+              },
+              {
+                question: "Do you visit Shirwal and Karad as well as Satara?",
+                answer:
+                  "Yes. The three lie along the same highway, so we plan visits in one direction and group nearby sites. Tell us the town and what you store, and we propose a day with your team.",
+              },
+              {
+                question: "What suits a strawberry packing house?",
+                answer:
+                  "Probes at the warm and cool ends of the chamber, with a humidity reading, show how quickly fruit cools after picking and whether the room holds its range as vans come and go. Tell us the size of the room and we suggest the points.",
+              },
+              {
+                question: "Can loggers for a Satara hospital or plant be calibrated?",
+                answer:
+                  "VEGA Calibrations, our parent company, handles calibration of loggers and probes and supports mapping and validation. Send the model and the range you work to, and we explain how it is arranged.",
+              },
+            ],
+            nearby: [
+              { slug: "pune", name: "Pune" },
+              { slug: "kolhapur", name: "Kolhapur" },
+              { slug: "solapur", name: "Solapur" },
+            ],
+            metaTitle: "Temperature Data Loggers in Satara | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Satara, Shirwal and Karad: strawberry and dairy cold rooms, hospitals and small estates. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "solapur",
+            name: "Solapur",
+            type: "city",
+            intro:
+              "Solapur is a hot, dry city in the south-east of Maharashtra and an old centre of textiles. Its chaddars and terry towels carry its name, powerlooms and hosiery workshops fill the lanes, and the district grows pomegranates, grapes and sugarcane around the Bhima and the Ujani dam. The Akkalkot Road estate and the newer estate at Chincholi hold the main plants, and the city is a junction on the rail line from Mumbai to Chennai and on the highway between Pune and Hyderabad. A temperature data logger in Solapur serves a textile godown as often as a fruit cold room or a hospital pharmacy, in a place where summers are punishing and the monsoon is scanty. A record that continues through the longest hot weeks gives a quality team something firmer than a daily walk-round.",
+            climateAngle:
+              "Rain is scanty and summers are punishing, with long weeks above forty degrees, so sheds and parked vehicles reach very high temperatures and cooling plant runs flat out, while the few wet weeks bring humidity that textile stores feel quickly.",
+            areas: [
+              {
+                name: "Akkalkot Road",
+                note: "The main industrial belt on the south-eastern side, with textile, engineering, food and chemical units on large plots running out towards the border town of Akkalkot.",
+              },
+              {
+                name: "Chincholi",
+                note: "A newer estate on the road towards Mohol and Pune, with bigger plots, newer food and engineering plants and long distances between buildings.",
+              },
+              {
+                name: "Old city textile lanes",
+                note: "Powerloom workshops and godowns for chaddars and towels, where yarn, cloth and packed goods sit close to winding and dyeing units.",
+              },
+              {
+                name: "Market yard",
+                note: "The produce market yard, where onions, pomegranates and grain arrive by the lorry load from farms across the district.",
+              },
+              {
+                name: "Pandharpur",
+                note: "A temple town on the Bhima that receives very large pilgrim crowds, with hospitals, lodges and kitchens that must feed them.",
+              },
+            ],
+            industries: [
+              {
+                slug: "textile",
+                sentence:
+                  "Chaddar, towel and hosiery makers keep yarn, finished cloth and packed bales in godowns where dry heat gives way to a few damp weeks, and a humidity reading shows when stock begins to take on moisture.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Pomegranate and grape packers, onion traders and sugar processors hold produce that spoils quickly in heat, and a log from each cold room shows how fast a chamber recovered after a delivery.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Government and private hospitals serve a large rural area, and their blood banks and vaccine fridges must hold range through the longest dry heat of the year.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Godowns along the Pune–Hyderabad highway hold goods in transit, and a reading at each bay shows how long a load stood in the glare before it was put away.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity and temperature together tell a textile store when a short spell of damp weather starts to affect yarn and cloth.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two external probes in a pomegranate or grape chamber show its warm and cool ends and how quickly it recovers after a delivery.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels watch a large godown on Akkalkot Road across bays and heights, so one report shows where the afternoon heat collects.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How should loggers be placed through the hottest weeks of the year?",
+                answer:
+                  "Heat in a loading bay or beside a compressor can mislead a reading, so we advise on shaded positions for the logger and on separate limits for a bay and a chamber.",
+              },
+              {
+                question: "Can textile godowns on Akkalkot Road watch humidity as well?",
+                answer:
+                  "Yes. A logger that reads both temperature and humidity shows when a few damp weeks begin to affect yarn and cloth, and alert limits can be set for each store.",
+              },
+              {
+                question: "Do you cover Pandharpur and Akkalkot as well as Solapur?",
+                answer:
+                  "We supply and arrange visits across the district. Tell us the town and what you store, and we plan a visit that combines nearby sites so one trip covers more than one customer.",
+              },
+              {
+                question: "Can loggers and probes be calibrated for a Solapur plant?",
+                answer:
+                  "VEGA Calibrations, our parent company, calibrates loggers and probes and can plan temperature mapping of larger stores alongside the supply. Share the model and range, and we explain the arrangement.",
+              },
+            ],
+            nearby: [
+              { slug: "pune", name: "Pune" },
+              { slug: "satara", name: "Satara" },
+              { slug: "kolhapur", name: "Kolhapur" },
+            ],
+            metaTitle: "Temperature Data Loggers in Solapur | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Solapur's textile godowns, Akkalkot Road plants, fruit cold rooms and hospitals. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "ratnagiri-lote",
+            name: "Ratnagiri-Lote",
+            type: "city",
+            intro:
+              "Ratnagiri and Lote Parshuram are two Konkan centres in the same district, with very different storage. Ratnagiri is a coastal city and fishing port set among mango orchards, cashew processors and fish traders, with an MIDC estate at Mirjole. Lote Parshuram, in the Khed and Chiplun area, is a large chemical estate whose plants hold solvents and intermediates. The Konkan Railway and the Mumbai–Goa highway pass through the district and carry goods between the coast and the cities. A temperature data logger in Ratnagiri-Lote might sit in an ice plant on a jetty, a mango packing house in the season or a chemical store behind a tank farm. The air is salty and wet for much of the year, and distances between sites make alerts to a phone more useful than a visit to each room.",
+            climateAngle:
+              "The Konkan coast takes one of the heaviest monsoons in the country, and the air stays warm, salty and very humid for most of the year, so cold rooms sweat, labels peel and electronics need a dry, sheltered position.",
+            areas: [
+              {
+                name: "Mirkarwada and the harbour",
+                note: "The fish landing sheds, ice plants and fish merchants' cold rooms near the harbour, where catches are iced and sorted soon after landing.",
+              },
+              {
+                name: "Mirjole",
+                note: "An MIDC estate on the outskirts of Ratnagiri, with processing and small industrial units on plots that open to the road and the coastal air.",
+              },
+              {
+                name: "Lote Parshuram",
+                note: "A large chemical MIDC in the Khed and Chiplun area, with plants for solvents, intermediates and pharmaceutical chemicals, tanks and warehouses on big plots.",
+              },
+              {
+                name: "Chiplun",
+                note: "A river town on the Vashishti with markets, hospitals and godowns beside the highway and the railway, and a record of flooding in the heaviest rains.",
+              },
+              {
+                name: "Mango orchards and packing houses",
+                note: "Orchards and packing sheds along the coast, where Alphonso mangoes are graded, boxed and sent to the markets of Mumbai and beyond during the short season.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Mango packers, cashew processors and fish traders hold produce that spoils quickly in warm, wet air, and a probe in each chamber shows how fast a room cooled after loading during the short season.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Solvents, intermediates and pharmaceutical chemicals are held in stores with stated limits, and an alert reaches the stores manager when a hot, humid afternoon pushes a room towards its upper limit.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Godowns on the Mumbai–Goa highway and beside the Konkan Railway hold chilled and ambient loads between the coast and the Deccan, and a reading at the bay shows how long a load stood in the wet air.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals and clinics at Ratnagiri and Chiplun serve a long, thinly populated coast, so a blood bank or vaccine fridge needs an alert that reaches staff when floods or storms cut the power.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity with temperature, the key figure on a coast where wet air surrounds every cold room for months.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four probes cover the receiving bay, the chill room, the loading door and the generator room of a processing or chemical unit from one logger.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger keeps reporting from a jetty shed or an outlying orchard where WiFi is weak, with alerts that travel over the mobile network.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Do you cover Lote Parshuram as well as Ratnagiri?",
+                answer:
+                  "Yes. They lie in different parts of the district, so we plan the visit to each separately and group sites that are close together. Tell us the estate and what you store.",
+              },
+              {
+                question: "How is salt air handled?",
+                answer:
+                  "A logger belongs indoors in a sheltered spot, out of spray and away from open doors, with a probe cable run to the chamber. Ask us about cable length for your jetty or shed.",
+              },
+              {
+                question: "What suits a mango packing house during the season?",
+                answer:
+                  "Probes at several heights show how quickly boxed fruit cools after packing and whether the room holds its range as trucks load. Alerts to a phone help when the building is shut for the night.",
+              },
+              {
+                question: "Can a chemical plant here have loggers calibrated and stores mapped?",
+                answer:
+                  "VEGA Calibrations, our parent company, carries out calibration, temperature mapping and validation support, and the work can be planned together with the loggers. Share the store size and the limits, and we explain how it is arranged.",
+              },
+            ],
+            nearby: [
+              { slug: "kolhapur", name: "Kolhapur" },
+              { slug: "panvel", name: "Panvel" },
+              { slug: "goa", name: "Goa" },
+            ],
+            metaTitle: "Temperature Data Loggers in Ratnagiri-Lote | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Ratnagiri-Lote: Lote Parshuram chemical plants, mango and fish cold rooms and Konkan godowns. Get Solution.",
             indexable: true,
           },
         ],
