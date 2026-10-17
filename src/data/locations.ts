@@ -123,7 +123,7 @@ export const locations: LegacyLocationNode[] = [
     ],
     listing: [
       { slug: "maharashtra", text: "Mumbai, Navi Mumbai, Thane and Bhiwandi, Panvel, Pune, Vasai-Palghar, Nashik, Chhatrapati Sambhajinagar, Nagpur, Kolhapur, Satara, Solapur and Ratnagiri-Lote, from a humid coast to hot inland plateaus." },
-      { slug: "gujarat", text: "Ahmedabad, Vadodara, Rajkot, Gandhinagar and the chemical belt from Vapi to Bharuch, where pharmaceutical, dye and engineering stores meet dry heat and a heavy southern monsoon." },
+      { slug: "gujarat", text: "Ahmedabad, Vadodara, Rajkot, Gandhinagar, the Morbi ceramic cluster, the Kutch ports and the chemical belt from Vapi to Bharuch, where pharmaceutical, dye and engineering stores meet dry heat and a heavy southern monsoon." },
       { slug: "delhi-state", text: "A dense capital in which hospitals, medicine distributors and food businesses share space with the Okhla, Bawana and Narela industrial areas." },
       { slug: "uttar-pradesh", text: "Noida and Greater Noida's electronics and data centre campuses, and Lucknow's hospitals, medicine stockists and cold stores." },
       { slug: "haryana", text: "The IMT Manesar plants and highway warehouses on the road south of Gurugram, built around automotive, electronics and distribution." },
@@ -1589,7 +1589,7 @@ export const locations: LegacyLocationNode[] = [
           {
             question: "Which Gujarat places have their own pages?",
             answer:
-              "Nine more cities have full pages beside the first four, with the industrial areas of each listed beneath it. Open the one nearest your plant, or send the estate through the enquiry form if yours is not listed.",
+              "Thirteen cities have full pages, and the estates of Ahmedabad, Vapi, Ankleshwar and Surat have area pages too. Open the one nearest your plant, or send the estate through the enquiry form if yours is not listed.",
           },
           {
             question: "Why does the south of the state need different advice from the north?",
@@ -1612,6 +1612,10 @@ export const locations: LegacyLocationNode[] = [
           { slug: "bharuch", text: "An old Narmada river port town between the chemical estates, with its own small units, hospitals and cotton stores near a flood-prone bank." },
           { slug: "gandhinagar", text: "The planned capital of numbered sectors, where GIFT City data halls, institute laboratories and government pharmacies outnumber factory stores." },
           { slug: "halol-panchmahal", text: "An eastern district of vehicle component and pharmaceutical plants at Halol and Kalol, a cooperative dairy at Godhra and a heritage hill shrine." },
+          { slug: "morbi", text: "The ceramic tile and sanitaryware capital on the Machchhu river, where kilns, glaze stores and tall export warehouses share a scorching climate." },
+          { slug: "jamnagar", text: "A gulf-coast city of brass-parts estates at Dared and a refinery belt, whose suppliers, port godowns and hospitals work in salty, dry heat." },
+          { slug: "mundra", text: "A Kutch container port with a special economic zone, freight stations and cold rooms, where goods in transit wait in arid heat and salt wind." },
+          { slug: "kandla", text: "Deendayal Port and its twin town of Gandhidham, with oil tank farms, bonded sheds, timber yards and the commercial markets of Kutch." },
         ],
         areaListing: [
           { slug: "naroda", text: "An older north-eastern estate where engineering, plastics and chemical units sit among neighbourhoods and a large produce market." },
@@ -2523,6 +2527,408 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Halol-Panchmahal | Prithvi",
             metaDescription:
               "WiFi and GSM temperature data loggers for Halol-Panchmahal: Halol GIDC and Kalol component stores, pharma units and Godhra dairies. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "morbi",
+            name: "Morbi",
+            type: "city",
+            intro:
+              "Morbi stands on the Machchhu river in Saurashtra and is the centre of India's ceramic industry. A very large number of units make wall tiles, floor tiles, vitrified tiles and sanitaryware in clusters along the roads to Rajkot and Wankaner, and the town also turns out clocks and packaging. Clay and minerals arrive by lorry, kilns run on gas, and finished tiles leave in boxes for the ports of Kutch. A temperature data logger in Morbi looks after the places around a kiln that need steady conditions: glaze and colour stores, adhesive and chemical godowns, electrical panel rooms, packing halls and the warehouses of exporters. Summers are fierce, dust is constant and the monsoon is thin, so the main enemy is heat trapped under metal roofs, and a record showing when a room crossed its limit is worth having.",
+            climateAngle:
+              "The climate is semi-arid with scorching summers and little rain, and kilns add their own heat to metal-roofed sheds, so stores close to the firing lines run much warmer than the outside air and swing sharply between shifts.",
+            areas: [
+              {
+                name: "Rajkot road ceramic cluster",
+                note: "A long string of tile and sanitaryware plants along the highway to Rajkot, each with its own clay yard, kilns, glaze store and packing hall.",
+              },
+              {
+                name: "Wankaner road cluster",
+                note: "Another belt of plants on the road to Wankaner, where newer units on larger plots hold finished tiles in tall warehouses ready for dispatch.",
+              },
+              {
+                name: "Old town and market",
+                note: "The older part of Morbi beside the river, with dense shops, clinics, a hospital and godowns for the traders who supply the factories.",
+              },
+              {
+                name: "Wankaner",
+                note: "A smaller town on the same corridor with its own ceramic units, where plant owners often keep spares, adhesives and packing material in mid-sized sheds.",
+              },
+              {
+                name: "Maliya Miyana",
+                note: "A salt-producing area in the district, with pans, crushing units and stores in a hot, salty and windy landscape.",
+              },
+            ],
+            industries: [
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Tile warehouses and export packing halls hold boxed goods in tall sheds, and a reading at floor and roof level shows how hot the upper racks run before a container is loaded.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Glaze, colour and adhesive godowns hold powders and liquids with storage limits, and a dated record shows how a room behaved during the hottest part of the day.",
+              },
+              {
+                slug: "electronics",
+                sentence:
+                  "Kiln control rooms and electrical panel rooms hold drives and instruments that fail when they overheat, and an alert reaches the maintenance lead before a panel trips.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals and clinics serve a large workforce and the nearby villages, and their vaccine fridges and medicine stores need alarms that reach staff through hot, dusty days and power cuts.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels watch a tall export warehouse across bays and heights, so one report shows where the roof traps the afternoon heat.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity as well as temperature, which tells a packaging store when the brief monsoon begins to soften cartons.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an external probe fits a panel room or a chemical cabinet without changing how the room is used.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Which part of a ceramic plant needs a logger?",
+                answer:
+                  "Most plants start with the glaze and colour store, the adhesive godown and the electrical panel room, since heat harms them, and then add the finished-tile warehouse. Tell us the layout and we suggest the order.",
+              },
+              {
+                question: "Can dust and heat near a kiln damage a logger?",
+                answer:
+                  "Yes, so we advise fixing loggers away from the firing lines and from open dust, and using an external probe on a cable for hotter spots. Ask us about probe length for your layout.",
+              },
+              {
+                question: "Can several plants along the Rajkot road be watched together?",
+                answer:
+                  "Yes. Every plant is its own site on the dashboard with alerts for its own people, and an owner of several units sees them together and exports a report for any period.",
+              },
+              {
+                question: "Is calibration available for loggers used in Morbi?",
+                answer:
+                  "Our parent company, VEGA Calibrations, handles calibration of loggers and probes and supports mapping of larger stores. Send the model and range and we explain how it is arranged for your plant.",
+              },
+            ],
+            nearby: [
+              { slug: "rajkot", name: "Rajkot" },
+              { slug: "kandla", name: "Kandla" },
+              { slug: "mundra", name: "Mundra" },
+              { slug: "jamnagar", name: "Jamnagar" },
+            ],
+            metaTitle: "Temperature Data Loggers in Morbi | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Morbi's ceramic cluster: glaze stores, panel rooms and tile warehouses, with site visits. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "jamnagar",
+            name: "Jamnagar",
+            type: "city",
+            intro:
+              "Jamnagar lies near the Gulf of Kutch on the Kathiawar peninsula, and two things shape its storage: a very large refinery belt on the coast west of the city, and a brass-parts industry that has filled the Dared estate and the older lanes for decades. The refineries draw a supply chain of engineering shops, contractors, caterers, transport firms and chemical suppliers into the city, while naval and air force stations and a medical college add stores of their own. Bandhani tie-dye cloth and groundnut trade give the older side of the city its character. A temperature data logger in Jamnagar might be watching a lubricant store, a brass-parts warehouse or a hospital pharmacy, in salty air and a hot, dry climate that gives little rain.",
+            climateAngle:
+              "The air is dry and hot for most of the year with a salty breeze off the gulf, rain is sparse and cyclones occasionally threaten the coast, so power cuts and corrosion are as real as heat.",
+            areas: [
+              {
+                name: "Dared",
+                note: "The estate that made Jamnagar's name for brass parts, with foundries, machining shops and warehouses that hold finished components for export orders.",
+              },
+              {
+                name: "Shankar Tekri",
+                note: "An older estate within reach of the city centre, where workshops, small engineering units and repair shops hold stock in cramped sheds.",
+              },
+              {
+                name: "Refinery belt at Motikhavdi",
+                note: "The coastal belt west of the city with the refineries, contractors' yards and spares stores that serve continuous process plants and need steady storage conditions.",
+              },
+              {
+                name: "Bedi port area",
+                note: "The small port on the gulf, with godowns for bulk cargo and general goods that wait for a vessel or a lorry in humid, salty air.",
+              },
+              {
+                name: "Old city lanes",
+                note: "Dense lanes of bandhani cloth shops, groundnut traders, clinics and hotels around the old lake and palace, in buildings that hold the day's heat.",
+              },
+            ],
+            industries: [
+              {
+                slug: "chemical",
+                sentence:
+                  "Suppliers to the refineries hold lubricants, additives and catalysts in stores with stated limits, and a reading in each room shows how it behaved on the hottest afternoon.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Brass-parts warehouses and port godowns hold goods for export orders, and a log at the dock door shows how long a lot stood in the salty heat before it was crated.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Groundnut and edible oil traders and hotel kitchens hold produce and oil that change when heat builds up, and a probe in each store gives a record a buyer can see.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A government hospital, a medical college and military and private hospitals keep blood banks and vaccine fridges that need alarms to reach staff when a storm interrupts the power.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four probes cover the receiving bay, the main store, the loading door and the power room of a supplier's depot from one logger.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity as well as temperature, the pair that matters when salty damp air reaches packaging and electrical stock.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger with an external probe keeps reporting over the mobile network from a port godown or a remote yard where WiFi is unavailable.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Do you supply contractors and vendors serving the refineries?",
+                answer:
+                  "We supply loggers to any business with stores to watch. Tell us what you hold, the limits you work to and where the store is, and we propose points and alert contacts.",
+              },
+              {
+                question: "How does the sea air affect loggers?",
+                answer:
+                  "Salt in the air is hard on electronics, so we advise placing a logger indoors away from open doors and using a probe cable to reach a damp or exposed spot.",
+              },
+              {
+                question: "Can estates at Dared and the coast be watched together?",
+                answer:
+                  "Yes. Each estate is its own site with alerts for its own team, and an owner with units in both sees them in one list, with reports that can be exported for any period.",
+              },
+              {
+                question: "Can loggers for a Jamnagar hospital or plant be calibrated?",
+                answer:
+                  "Calibration of loggers and probes is delivered by VEGA Calibrations, our parent company, and can be timed with an audit date. Share the model and range and we explain the arrangement.",
+              },
+            ],
+            nearby: [
+              { slug: "rajkot", name: "Rajkot" },
+              { slug: "morbi", name: "Morbi" },
+              { slug: "mundra", name: "Mundra" },
+            ],
+            metaTitle: "Temperature Data Loggers in Jamnagar | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Jamnagar's Dared brass estate, the refinery belt, port godowns and hospitals. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "mundra",
+            name: "Mundra",
+            type: "city",
+            intro:
+              "Mundra is a port town on the Gulf of Kutch, and its storage is shaped by the container terminals, a special economic zone and the warehouses that surround them. Ships load and unload containers, vehicles and bulk cargo; boxes move by road and rail towards the northern states; refrigerated containers wait on power points before sailing; and power plants and industrial units have grown on the coast around the port. A temperature data logger in Mundra often follows goods in transit, in a container yard, a cold store or a cross-dock warehouse, for owners who are not on site. The land is arid, the sun is fierce and the sea wind carries salt, so equipment and cargo both need steady attention, and a record that continues when the power flickers is valuable.",
+            climateAngle:
+              "The country is arid, summers are scorching, rain is rare and the sea wind carries salt, while cyclones from the Arabian Sea occasionally reach the Kutch coast, so power cuts and corrosion matter alongside heat.",
+            areas: [
+              {
+                name: "Port terminals",
+                note: "The container and cargo terminals on the gulf, where boxes, vehicles and refrigerated containers wait for a berth, a train or a lorry.",
+              },
+              {
+                name: "Special economic zone",
+                note: "A large export-oriented zone beside the port with factories, warehouses and cold rooms working to shipping schedules set by overseas buyers.",
+              },
+              {
+                name: "Container freight stations and logistics parks",
+                note: "Yards and sheds on the approach roads where boxes are stuffed, unstuffed, sorted and held while customs and carriers are arranged.",
+              },
+              {
+                name: "Mundra town",
+                note: "The older town inland from the harbour, with markets, clinics, a hospital, hotels and kitchens that serve a mixed workforce of port and factory staff.",
+              },
+            ],
+            industries: [
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Cross-dock sheds and container yards hold goods between a ship and a train, and a reading at every bay shows how long a consignment waited in heat that rises quickly on open ground.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Importers and exporters of food and edible oil use cold rooms and refrigerated containers, and a continuous log gives the owner abroad a record of how each lot was held.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicines and healthcare goods pass through for export and import, and a dated temperature record supports a shipper who must show a buyer how a pallet was kept.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Tank farms and drum stores hold chemical cargo in a hot, salty climate, and an alert reaches the supervisor when a store drifts toward a limit.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels map a large free-zone warehouse across racks, dock doors and floor positions, so one report shows how the whole hall behaved.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger with an external probe rides in a container or sits in a yard without WiFi, and sends alerts over the mobile network.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two external probes show the warm and cool ends of a cold room or the front and rear of a container load.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can an exporter in another city watch stock held in Mundra?",
+                answer:
+                  "Yes. The record is on the dashboard, so an owner in any city can read a room or a lot and receive the same alerts as the supervisor on site.",
+              },
+              {
+                question: "What suits a refrigerated container waiting in a yard?",
+                answer:
+                  "A GSM logger with an external probe inside the load reports over the mobile network and keeps its own record, so the owner has a log even if the yard has no WiFi.",
+              },
+              {
+                question: "How are loggers kept safe from salt and dust?",
+                answer:
+                  "A logger belongs inside, in a sheltered spot, with an external probe on a cable for the exposed point. We advise on cable length once we know the shed or yard.",
+              },
+              {
+                question: "Can mapping and calibration be arranged for a Mundra warehouse?",
+                answer:
+                  "VEGA Calibrations, our parent company, carries out temperature mapping, calibration and validation support, and the work can be planned with the supply. Send the warehouse size and limits and we explain how it is arranged.",
+              },
+            ],
+            nearby: [
+              { slug: "kandla", name: "Kandla" },
+              { slug: "morbi", name: "Morbi" },
+              { slug: "jamnagar", name: "Jamnagar" },
+            ],
+            metaTitle: "Temperature Data Loggers in Mundra | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Mundra's port terminals, SEZ warehouses, container yards and cold rooms. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "kandla",
+            name: "Kandla",
+            type: "city",
+            intro:
+              "Kandla is a port on the Gulf of Kutch, officially Deendayal Port, and it works as a twin with Gandhidham, the planned town laid out beside it after Partition. The port handles bulk cargo, liquid cargo and containers, with tank farms for edible oil and chemicals along the creek, while the Kandla special economic zone holds export units. Gandhidham, with its markets, hospitals and godowns, is the commercial town for the whole of Kutch. A temperature data logger in Kandla or Gandhidham might be watching an oil tank house, a timber and plywood yard, a chemical store or a hospital pharmacy. The coast is hot, dry and salty, the 1998 cyclone and the 2001 earthquake are not forgotten, and records that carry on through disruption count for more than usual.",
+            climateAngle:
+              "Summers are hot and dry with a salty wind from the creeks, rain is scanty, and storms from the Arabian Sea occasionally reach the coast, so corrosion and interrupted power sit beside heat as everyday risks.",
+            areas: [
+              {
+                name: "Deendayal Port",
+                note: "The port at Kandla with berths, tank farms and transit sheds, where bulk, liquid and container cargo wait for a vessel or a road haul in salty heat.",
+              },
+              {
+                name: "Kandla special economic zone",
+                note: "A long-established export zone beside the port with factories and warehouses whose stores follow the schedules of overseas buyers.",
+              },
+              {
+                name: "Gandhidham",
+                note: "The planned commercial town beside the port, with wide streets, wholesale markets, hospitals and godowns that supply the whole of Kutch.",
+              },
+              {
+                name: "Timber and plywood yards",
+                note: "Yards and processing units around Kandla and Gandhidham that hold imported timber and boards in open sheds, where damp and heat both change the wood.",
+              },
+              {
+                name: "Salt works along the creek",
+                note: "Pans and stores along the creek and the gulf, where salt is dried, heaped and loaded in a hot, windy and highly corrosive landscape.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Edible oil importers and food merchants hold oil in tanks and drums that change if left in heat, and a reading in each store shows how the temperature moved while a cargo waited.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Chemical cargo and drums wait in tank farms and godowns around the port, and an alert reaches the stores manager when a hot afternoon pushes a room toward its upper limit.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Transit sheds, bonded warehouses and container yards hold goods for owners elsewhere, and a log at each bay gives them the record of how long a lot waited in the sun.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals in Gandhidham serve the whole of Kutch, and their blood banks and vaccine fridges need alarms that still reach duty staff when a storm or a cut stops the power.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four probes cover an oil tank house, its pump room, its loading bay and its office safe from one logger.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger with an external probe keeps recording in a transit shed or a yard without WiFi and sends alerts over the mobile network.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity with temperature, which shows when damp sea air begins to affect boards, packaging and electrical stock.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Do you cover Gandhidham and Deendayal Port as well as Kandla?",
+                answer:
+                  "Yes. Kandla and Gandhidham are twin settlements and the port is officially Deendayal Port. Whichever name you use, tell us the site and what you store, and we plan the visit.",
+              },
+              {
+                question: "What suits stores that must keep working during a storm?",
+                answer:
+                  "A GSM logger with its own battery keeps recording and sends alerts over the mobile network if the WiFi or power goes, so the record has no gap.",
+              },
+              {
+                question: "Can an importer elsewhere see the record of a lot held in a bonded warehouse?",
+                answer:
+                  "Yes. The dashboard shows each room to anyone you invite, and a report for the period a lot stayed can be exported as PDF, Excel or CSV.",
+              },
+              {
+                question: "Is calibration available for plants at Kandla and Gandhidham?",
+                answer:
+                  "Calibration of loggers and probes comes from VEGA Calibrations, our parent company, and can be planned together with the supply. Send the model and range, and we confirm how it is arranged.",
+              },
+            ],
+            nearby: [
+              { slug: "mundra", name: "Mundra" },
+              { slug: "morbi", name: "Morbi" },
+              { slug: "jamnagar", name: "Jamnagar" },
+              { slug: "rajkot", name: "Rajkot" },
+            ],
+            metaTitle: "Temperature Data Loggers in Kandla | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Kandla (Deendayal Port) and Gandhidham: tank farms, bonded sheds, hospitals and godowns. Get Solution.",
             indexable: true,
           },
         ],

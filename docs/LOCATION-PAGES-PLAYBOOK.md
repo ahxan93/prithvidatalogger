@@ -64,9 +64,9 @@
 - **City hero pairs:** each city page's pair (`getCityHeroDevices()` in `src/data/page-heroes.ts`) is fixed by the
   registry order, never at render time, and is unique site-wide. The 10 logger photos give only 45 pairs (41 once the
   pairs held by other pages are removed), and the 41st city exhausted them. **Relaxed rule (Maharashtra hub, added with
-  the Satara, Solapur and Ratnagiri-Lote pages):** once every pair is taken, a city that belongs to a state hub
+  the Satara, Solapur and Ratnagiri-Lote pages; Gujarat hub added with the Rajkot to Kandla pages):** once every pair is taken, a city that belongs to a state hub
   (`HUB_OF` in `page-heroes.ts`) may reuse a pair that no other city in the SAME hub shows. A city outside a hub
-  never shares a pair, and `npm run check:data` fails on any pair shared inside one hub. Only Maharashtra is in
+  never shares a pair, and `npm run check:data` fails on any pair shared inside one hub. Maharashtra and Gujarat are in
   `HUB_OF` so far; a future hub needs its cities added there.
 - **Implementation:** Next cannot match a partial dynamic segment, so `src/app/data-logger/[slug]` is
   the route and `next.config.ts` rewrites `/data-logger-:slug` to it.
@@ -136,6 +136,15 @@
 | Satara (`satara`) | Maharashtra | Satara and Additional Satara MIDC, Shirwal, Karad, Mahabaleshwar | Strawberry and dairy cold rooms, hospitals, highway warehousing | Extreme hill rain, drier eastern plains | Pune, Kolhapur, Solapur |
 | Solapur (`solapur`) | Maharashtra | Akkalkot Road, Chincholi, old-city textile lanes, Pandharpur | Chaddar and towel textiles, pomegranate and onion trade, hospitals | Punishing dry heat, scanty monsoon | Pune, Satara, Kolhapur |
 | Ratnagiri-Lote (`ratnagiri-lote`) | Maharashtra | Mirkarwada harbour, Mirjole, Lote Parshuram, Chiplun | Mango, cashew and fish cold chain, chemical stores, Konkan godowns | Heavy monsoon, salty humid air | Kolhapur, Panvel, Goa |
+| Vadodara (`vadodara`, also called Baroda) | Gujarat | Makarpura, Waghodia, Savli, Nandesari, Koyali | Pharma, process equipment, chemicals, dairy, hospitals | Hot dry summer, heavy monsoon, river flooding | Ahmedabad, Bharuch, Halol-Panchmahal, Surat |
+| Rajkot (`rajkot`) | Gujarat | Aji, Metoda, Shapar-Veraval, Bedi yard | Engines and auto parts, oil mills, distributors | Fierce semi-arid heat, erratic rain | Morbi, Jamnagar, Ahmedabad |
+| Bharuch (`bharuch`) | Gujarat | Zadeshwar, Bholav (Panoli, Jhagadia and Dahej link to the Ankleshwar and Dahej pages) | Chemical trading, hospitals, cotton, highway warehousing | Humid, heavy monsoon, Narmada floods | Ankleshwar, Vadodara, Surat |
+| Gandhinagar (`gandhinagar`) | Gujarat | Sector 25, GIFT City, Kalol, Chhatral, Palaj institutes | Data halls, laboratories, hospitals, pharma | Hot dry summer | Ahmedabad, Vadodara, Rajkot |
+| Halol-Panchmahal (`halol-panchmahal`) | Gujarat | Halol GIDC, Kalol, Godhra, Pavagadh | Vehicle component stores, pharma, dairy | Hot summer, moderate monsoon | Vadodara, Ahmedabad, Bharuch |
+| Morbi (`morbi`) | Gujarat | Rajkot-road and Wankaner-road ceramic clusters, Maliya Miyana | Ceramic tile export warehousing, glaze and chemical stores, panel rooms | Scorching semi-arid | Rajkot, Kandla, Mundra, Jamnagar |
+| Jamnagar (`jamnagar`) | Gujarat | Dared, Shankar Tekri, Motikhavdi refinery belt, Bedi port | Refinery suppliers, brass-parts export, groundnut and oil, hospitals | Dry, salty, cyclone risk | Rajkot, Morbi, Mundra |
+| Mundra (`mundra`) | Gujarat | Port terminals, special economic zone, freight stations | Container logistics, reefer cargo, pharma and chemical transit | Arid, salt wind, cyclone risk | Kandla, Morbi, Jamnagar |
+| Kandla (`kandla`, Deendayal Port, with Gandhidham) | Gujarat | Port, Kandla SEZ, Gandhidham, timber yards, salt works | Edible oil and chemical tank farms, bonded sheds, hospitals | Hot, dry, salty; cyclone and quake history | Mundra, Morbi, Jamnagar, Rajkot |
 | Ahmedabad (`ahmedabad`) | Gujarat | Changodar, Sanand, Naroda, Vatva, Bavla | Pharma manufacturing, food & dairy, chemicals | Very hot, dry summers | Mumbai, Indore, Jaipur |
 | Vapi (`vapi`) | Gujarat | Vapi GIDC and its highway godown belt | Chemical, dye and pharmaceutical intermediates, paper and plastics | South Gujarat's heavy monsoon and humid coastal air | Vasai-Palghar, Surat, Ankleshwar |
 | Ankleshwar (`ankleshwar`) | Gujarat | Ankleshwar GIDC, Panoli, Jhagadia, Dahej | Chemical and bulk-drug plants, laboratories, port-linked warehousing | Hot, humid summers and a heavy monsoon on the Narmada plain | Surat, Vapi, Ahmedabad |
@@ -162,7 +171,7 @@
 
 **GCC notes:** supply is from India. Don't name local estates beyond those listed. Never recommend Vayu. Keep the existing GSM compatibility note. Bahrain stays as a country page (no city page).
 
-**Planned, awaiting owner confirmation (do NOT build yet):** Vadodara, Gurugram, Thane, Visakhapatnam, Haridwar. (Vapi, Ankleshwar and Surat were confirmed by the owner and moved into the table above.)
+**Planned, awaiting owner confirmation (do NOT build yet):** Gurugram, Thane, Visakhapatnam, Haridwar. (Vapi, Ankleshwar and Surat were confirmed by the owner and moved into the table above.)
 
 ---
 
