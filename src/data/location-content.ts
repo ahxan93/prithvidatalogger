@@ -51,7 +51,7 @@ export const locationContent: Record<string, LocationContent> = {
   },
   "india/telangana": {
     metaDescription:
-      "Temperature data loggers in Telangana: Hyderabad's pharma estates, Genome Valley life-science labs and data centres. Get Solution.",
+      "Temperature data loggers in Telangana: Hyderabad's pharma estates and labs, plus Warangal, Karimnagar and Nizamabad's mills and godowns. Get Solution.",
     recommended: ["rajmudra", "veer", "nakshatra"],
   },
   "india/karnataka": {

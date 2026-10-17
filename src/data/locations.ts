@@ -127,7 +127,7 @@ export const locations: LegacyLocationNode[] = [
       { slug: "delhi-state", text: "A dense capital in which hospitals, medicine distributors and food businesses share space with the Okhla, Bawana and Narela industrial areas." },
       { slug: "uttar-pradesh", text: "Noida and Greater Noida's electronics and data campuses, Lucknow's hospitals and cold stores, and the trades of Ghaziabad, Kanpur, Agra, Varanasi, Meerut, Prayagraj, Bareilly and Moradabad." },
       { slug: "haryana", text: "Gurugram, Faridabad, the IMT Manesar plants and the Grand Trunk Road towns of Sonipat and Panipat, built around automotive, textiles, food and distribution." },
-      { slug: "telangana", text: "Hyderabad's pharmaceutical estates, life-science campuses and server halls, from Jeedimetla and Patancheru to Genome Valley." },
+      { slug: "telangana", text: "Hyderabad's pharmaceutical estates, life-science campuses and server halls, with the market and mill towns of Warangal, Karimnagar and Nizamabad." },
       { slug: "karnataka", text: "Bengaluru's laboratories, technology parks, electronics makers and hospitals, together with the engineering belt of Peenya." },
       { slug: "tamil-nadu", text: "Chennai's port-linked estates and the mills and workshops of Coimbatore, where humidity decides how stock keeps." },
       { slug: "chandigarh-state", text: "The planned city and union territory, with Mohali and Panchkula beside it, serving hospitals, medicine distributors and food depots." },
@@ -5049,20 +5049,21 @@ export const locations: LegacyLocationNode[] = [
         name: "Telangana",
         type: "state",
         intro:
-          "Telangana's industry that we serve first is arranged in rings around Hyderabad: pharmaceutical and chemical estates to the north-west and west, a life-science research cluster to the north and technology parks and server halls on the western side. The state's storage is therefore unusually delicate: bulk-drug warehouses, biologics cold rooms, research freezers and data centres, many of them examined by customers, regulators or research sponsors. Summers are hot and dry and the monsoon is short and sharp. The pages below describe the city, the three area pages written for it and the sort of rooms each one holds, together with the industries we support there and the loggers we suggest.",
+          "Telangana's storage divides into two broad kinds. Around Hyderabad sit pharmaceutical and chemical estates to the north-west and west, a life-science research cluster to the north and technology parks and server halls on the western side, all of them delicate and often examined by customers, regulators or research sponsors. In the districts to the north and north-east, Warangal, Karimnagar and Nizamabad are market and mill towns where cotton, chilli, rice and turmeric are traded and stored, and where heat and damp threaten stock for months. Summers are hot and dry and the monsoon is short and sharp. The pages below describe each city, the three area pages written for Hyderabad and the loggers we suggest.",
         localIndustries: [
           "Pharmaceutical manufacturing",
           "Life-science research and laboratories",
           "Data centres and server rooms",
+          "Agro-processing, cotton and grain trade",
         ],
-        citiesServed: ["Hyderabad"],
+        citiesServed: ["Hyderabad", "Warangal", "Karimnagar", "Nizamabad"],
         supportNote:
           "Supply, installation support and site visits for Telangana sites are arranged from our Mumbai office. Send the estate and the rooms that matter most.",
         faqs: [
           {
             question: "Which Telangana locations have their own pages?",
             answer:
-              "Hyderabad has a city page, with Jeedimetla, Patancheru and Genome Valley as area pages beneath it. Other estates are mentioned on the city page and may follow.",
+              "Hyderabad has a city page, with Jeedimetla, Patancheru and Genome Valley as area pages beneath it, and Warangal, Karimnagar and Nizamabad have city pages of their own. Other estates are mentioned on the city page and may follow.",
           },
           {
             question: "Why is Genome Valley a separate page from the older estates?",
@@ -5077,6 +5078,9 @@ export const locations: LegacyLocationNode[] = [
         ],
         listing: [
           { slug: "hyderabad", text: "The state's capital, whose bulk-drug warehouses, biologics cold rooms, laboratories and server halls are spread over estates that lie far apart." },
+          { slug: "warangal", text: "A twin-town market centre with chilli cold stores, a large textile park, a medical college and a railway junction at Kazipet." },
+          { slug: "karimnagar", text: "Rice mills, black-granite cutting units, seed godowns and district hospitals on the Manair river in paddy and cotton country." },
+          { slug: "nizamabad", text: "A turmeric, maize and paddy market with rice mills, the Bodhan sugar factory and a railway junction in the hot north-west." },
         ],
         areaListing: [
           { slug: "jeedimetla", text: "An older north-western estate of bulk-drug, formulation and chemical units whose solvent stores sit beside production." },
@@ -5180,6 +5184,295 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Hyderabad | Prithvi",
             metaDescription:
               "WiFi and GSM temperature data loggers for Hyderabad's pharma estates, life-science labs and data centres, with site visits arranged. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "warangal",
+            name: "Warangal",
+            type: "city",
+            intro:
+              "Warangal is the main city of northern Telangana, and it is really a pair of towns, Warangal itself and Hanamkonda beside it, with Kazipet a little way out where the railway junction and its workshops sit. It is a market town first: cotton, chilli and maize from a wide farming hinterland pass through its market yards, and cold stores hold chilli between seasons. A large textile park for spinning, weaving and garment units has been developed on the edge of the district, and the city's durrie weaving and granite quarries add other trades. A temperature data logger in Warangal mostly protects stock that has to wait: sacks in godowns through a humid monsoon, chilli in cold stores, and medicines in hospitals that serve several districts. Owners are often away from their stores, so Prithvi supplies WiFi and GSM loggers with alerts to phones and email.",
+            climateAngle:
+              "Summers are very hot and dry, the monsoon brings damp air into godowns that stay dry for most of the year, and winter nights are mild, so the main risks are roof heat in the hot months and moisture after the rains.",
+            areas: [
+              {
+                name: "Hanamkonda and Kazipet",
+                note: "Hanamkonda is the older twin of the city, with hospitals, medicine shops and colleges, while Kazipet is a railway junction town where goods yards and rail workshops sit beside small industrial units.",
+              },
+              {
+                name: "Market yards and chilli cold stores",
+                note: "Cotton, chilli and maize trade through the market yards, and cold stores hold chilli through the off-season, where a warm spell can spoil a lot that cost a farmer a season's work.",
+              },
+              {
+                name: "Textile park at the district edge",
+                note: "The large textile park outside the city hosts spinning, weaving and garment units that hold cotton bales, yarn and finished cartons in big sheds whose humidity matters.",
+              },
+              {
+                name: "Medical college and hospital belt",
+                note: "The government medical college and its hospital, with private hospitals and pharmacies around them, keep vaccines, blood components and medicines in many refrigerators serving several districts.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Chilli cold stores, rice and maize traders and small food processors hold produce that spoils in heat and damp, and a temperature record from each store shows an owner when a lot began to warm.",
+              },
+              {
+                slug: "textile",
+                sentence:
+                  "Cotton spinners and garment makers in the textile park keep bales and yarn in large sheds, and a humidity trend shows when the monsoon air has begun to reach the stock.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals around the medical college serve patients from several districts, and a phone alert from a failing vaccine refrigerator reaches the duty technician at night as readily as in the day.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods move through Kazipet junction and on the highway to Hyderabad, and a logger placed in a consignment records how long it stood in the open between one vehicle or wagon and the next.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a cotton or yarn store, where damp air after the rains is the danger to the stock.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels spread through a large chilli cold store at different heights and doors show which positions warm first when the compressor struggles.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a truck or reports from a village depot with no Wi-Fi, which suits produce travelling to and from the market yards.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Do you cover Hanamkonda and Kazipet as well as Warangal?",
+                answer:
+                  "Yes. Send the town, the lane or the plot and a contact through the enquiry form, WhatsApp or a call, and we confirm how a visit would be arranged for Hanamkonda, Kazipet and the other pockets around the city.",
+              },
+              {
+                question: "How does a logger help a chilli cold store?",
+                answer:
+                  "A continuous record shows how the room held between loadings and whether a compressor fault went unnoticed overnight, and an alert reaches the manager's phone while there is still time to move the stock.",
+              },
+              {
+                question: "Which logger suits a godown with no mains Wi-Fi?",
+                answer:
+                  "A SIM-based Vayu logger reports over the mobile network, so a godown or a market-yard store can be watched without a router, and we confirm the choice after seeing the building.",
+              },
+              {
+                question: "Can several stores across the city be seen together?",
+                answer:
+                  "Each store becomes a site with its own alert contacts, so an owner with a cold store at one end of the city and a godown at the other can open both on one dashboard and export a report for any room.",
+              },
+            ],
+            nearby: [
+              { slug: "hyderabad", name: "Hyderabad" },
+              { slug: "karimnagar", name: "Karimnagar" },
+            ],
+            metaTitle: "Temperature Data Loggers in Warangal | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Warangal's chilli cold stores, textile park, hospitals and godowns, with site visits. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "karimnagar",
+            name: "Karimnagar",
+            type: "city",
+            intro:
+              "Karimnagar stands on the Manair river in north-central Telangana, a district town set in paddy and cotton country where rice mills, seed handlers and granite-cutting units are the main industries. Black granite quarried in the district is cut and polished in workshops around the town and sent far away, while the mills process rice from fields watered by the Godavari basin's irrigation, and the coal fields and power station of the Ramagundam region to the north shape the wider economy. A temperature data logger in Karimnagar protects stock in godowns and mills more than in cold rooms: paddy and milled rice through a humid monsoon, seed packets waiting for the sowing season, medicines in the district hospitals and the resins and chemicals used in polishing. Prithvi supplies WiFi loggers for mills with a network and GSM loggers for lorries and outlying depots, and alerts reach a phone or an inbox.",
+            climateAngle:
+              "Summers are fierce and dry, the monsoon fills the tanks and fields and leaves the air heavy for weeks, and winter nights are mild, so humidity control matters in the rains and heat control in the months before.",
+            areas: [
+              {
+                name: "Rice mills around the town",
+                note: "Mills and driers on the town's outskirts hold paddy and milled rice in large sheds, where a rise in humidity can invite mould and weevils before anyone has opened the door.",
+              },
+              {
+                name: "Granite cutting and polishing units",
+                note: "Workshops cut and polish the district's black granite for export, and their stores keep resins, abrasives and packing material that carry printed limits for heat and damp.",
+              },
+              {
+                name: "Market yard and seed godowns",
+                note: "The market yard and the godowns near it hold paddy, cotton and packed seed, where a hot afternoon or a damp week decides whether stock reaches the next sale in good order.",
+              },
+              {
+                name: "District hospital and pharmacy belt",
+                note: "The district hospital, private hospitals and wholesale pharmacies serve a wide farming area, and their refrigerators hold vaccines and medicines that must stay within printed limits.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Rice millers keep paddy and bagged rice that buyers inspect, and a humidity and temperature record shows how a lot was held before it was loaded onto a lorry.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Granite units and seed handlers keep resins, adhesives and treatment chemicals with printed storage limits, and an alert from a heated store gives the storekeeper time to move drums before the label is breached.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Wholesale pharmacies in the town supply chemists across the district, and a record from each store shows that tablets and injectables stayed within their limits before they left on a van.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The district hospital and private hospitals hold vaccines and blood components in many refrigerators, and phone alerts mean a drifting unit is noticed on the night shift.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at a single point suit a rice or seed store, where damp air reaching the bags is the risk to watch.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels, one near the roof and one near the floor of a mill godown, show how much hotter the top of the stack runs than the bottom.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger reports from a lorry or an outlying depot without Wi-Fi, which suits rice and seed moving out from the district.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can loggers be used in a rice mill with a lot of dust?",
+                answer:
+                  "Loggers are small and sealed enough for ordinary mill dust, and we suggest positions away from driers and conveyor drafts so that the reading reflects the stored rice and not the machinery.",
+              },
+              {
+                question: "How would you plan a visit to a granite or mill unit outside the town?",
+                answer:
+                  "Send the road, the unit and the person who will meet us, and tell us which stores matter most. We agree a day that fits the mill's shifts and start with the rooms a buyer asks about first.",
+              },
+              {
+                question: "Can an owner watch several mills from one phone?",
+                answer:
+                  "Each mill or godown is a named site with its own alert contacts, and an owner who travels can open all of them in one list and see which one needs a call to the manager.",
+              },
+              {
+                question: "Which logger suits a lorry carrying rice or medicines?",
+                answer:
+                  "A SIM-based Vayu logger placed in the load records on its battery and sends readings over the mobile network, and the report can be exported when the lorry reaches its destination.",
+              },
+            ],
+            nearby: [
+              { slug: "warangal", name: "Warangal" },
+              { slug: "nizamabad", name: "Nizamabad" },
+              { slug: "hyderabad", name: "Hyderabad" },
+            ],
+            metaTitle: "Temperature Data Loggers in Karimnagar | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Karimnagar's rice mills, granite units, seed godowns and hospitals. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "nizamabad",
+            name: "Nizamabad",
+            type: "city",
+            intro:
+              "Nizamabad lies in the north-west of Telangana near the Godavari and is known above all for turmeric: its market yard handles turmeric along with maize, paddy and soyabean grown in the surrounding districts. A sugar factory at Bodhan and rice mills in the towns around, such as Armoor, add processing, and the railway junction on the Secunderabad–Manmad line and the highway from Hyderabad towards Nagpur bring traders and trucks through the city. A temperature data logger in Nizamabad mostly watches dry goods that spoil quietly: turmeric that must be kept dry after boiling and polishing, maize and paddy through the monsoon, and medicines in hospitals that serve villages for a long distance. Summer heat here is intense, and a godown that holds well in winter can fail in May. Prithvi supplies WiFi loggers for stores with a router and GSM loggers for trucks and distant godowns, so a trader sees the reading wherever the stock is.",
+            climateAngle:
+              "Summers are intensely hot and dry with hot winds, the monsoon is humid and short, and winter is mild, so stores must be protected from roof heat first and from damp second.",
+            areas: [
+              {
+                name: "Turmeric market yard",
+                note: "Traders bring turmeric, maize and paddy to the market yard and its godowns, where bags stand in stacks and a damp spell can bring mould before a lot has been sold.",
+              },
+              {
+                name: "Rice mills at Armoor and the towns around",
+                note: "Mills in the towns around the city process paddy from irrigated farms, and their sheds hold bagged rice and bran through heat and humid weeks alike.",
+              },
+              {
+                name: "Bodhan sugar factory and its stores",
+                note: "The sugar factory at Bodhan and the stores around it hold sugar, molasses by-products and packing material in large sheds that bake in summer afternoons.",
+              },
+              {
+                name: "Government hospital and medical college belt",
+                note: "The government general hospital, the medical college and private hospitals with pharmacies keep vaccines, blood components and medicines in many refrigerators serving villages across the district.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Turmeric traders, rice millers and maize merchants hold stock that buyers inspect, and a record of heat and humidity from each godown shows how a lot was kept before it was shipped.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Warehouse operators and transporters at the junction and on the highway hold bags that cross several states, and a logger in the consignment shows how long it stood in the sun.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine wholesalers supply chemists across the district, and a continuous record from each store shows that the stock stayed within its printed limits before it left on a van.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The government hospital and private hospitals keep blood components and vaccines in many refrigerators, and alerts on a phone mean a unit that fails overnight is not found at the morning round.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a turmeric or maize godown, where damp air reaching the bags is the risk worth catching.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels spread through a long market-yard godown at different heights and doors show where the stacks sit in the heat.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger reports from a truck on the highway or a depot without Wi-Fi, which suits bags travelling out to other states.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How can a logger help a turmeric trader?",
+                answer:
+                  "A temperature and humidity record from the godown can be exported by lot and date, so a trader can answer a buyer's question about how the turmeric was kept before dispatch.",
+              },
+              {
+                question: "Do you visit mills and stores outside the city, such as Armoor and Bodhan?",
+                answer:
+                  "Send the town, the mill or the store and a contact through the enquiry form, WhatsApp or a call, and we confirm how a visit would be arranged for the towns around Nizamabad.",
+              },
+              {
+                question: "How should loggers be placed in a godown that bakes in summer?",
+                answer:
+                  "We keep loggers out of direct sun and away from hot walls and metal roofs, and we put a second probe near the floor, so a report shows how much hotter the top of the stack runs than the bottom.",
+              },
+              {
+                question: "Can mapping help in a large godown?",
+                answer:
+                  "Temperature mapping is carried out by VEGA Calibrations, our parent company, and it shows which corners of a big market-yard godown run warm before permanent loggers are fixed.",
+              },
+            ],
+            nearby: [
+              { slug: "karimnagar", name: "Karimnagar" },
+              { slug: "hyderabad", name: "Hyderabad" },
+            ],
+            metaTitle: "Temperature Data Loggers in Nizamabad | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Nizamabad's turmeric godowns, rice mills, sugar stores and hospitals. Get Solution.",
             indexable: true,
           },
         ],

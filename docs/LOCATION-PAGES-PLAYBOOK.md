@@ -64,9 +64,9 @@
 - **City hero pairs:** each city page's pair (`getCityHeroDevices()` in `src/data/page-heroes.ts`) is fixed by the
   registry order, never at render time, and is unique site-wide. The 10 logger photos give only 45 pairs (41 once the
   pairs held by other pages are removed), and the 41st city exhausted them. **Relaxed rule (Maharashtra hub, added with
-  the Satara, Solapur and Ratnagiri-Lote pages; Gujarat hub added with the Rajkot to Kandla pages; Uttar Pradesh hub added with the Ghaziabad to Moradabad pages; Haryana hub added with the Gurugram to Karnal pages):** once every pair is taken, a city that belongs to a state hub
+  the Satara, Solapur and Ratnagiri-Lote pages; Gujarat hub added with the Rajkot to Kandla pages; Uttar Pradesh hub added with the Ghaziabad to Moradabad pages; Haryana hub added with the Gurugram to Karnal pages; Telangana hub added with the Warangal to Nizamabad pages):** once every pair is taken, a city that belongs to a state hub
   (`HUB_OF` in `page-heroes.ts`) may reuse a pair that no other city in the SAME hub shows. A city outside a hub
-  never shares a pair, and `npm run check:data` fails on any pair shared inside one hub. Maharashtra, Gujarat, Uttar Pradesh and Haryana are in
+  never shares a pair, and `npm run check:data` fails on any pair shared inside one hub. Maharashtra, Gujarat, Uttar Pradesh, Haryana and Telangana are in
   `HUB_OF` so far; a future hub needs its cities added there.
 - **Implementation:** Next cannot match a partial dynamic segment, so `src/app/data-logger/[slug]` is
   the route and `next.config.ts` rewrites `/data-logger-:slug` to it.
@@ -174,6 +174,9 @@
 | Jaipur (`jaipur`) | Rajasthan | Sitapura, VKI Area | Pharma distribution, food & dairy, hospitals | Desert heat, large day–night swings | Delhi, Manesar, Ahmedabad |
 | Indore (`indore`) | Madhya Pradesh | Pithampur, Sanwer Road | Pharma, food processing, auto | Hot summers | Ahmedabad, Pune, Jaipur |
 | Hyderabad (`hyderabad`) | Telangana | Genome Valley, Jeedimetla, Pashamylaram, Patancheru | Pharma & vaccines, life-science labs, data centres | Hot, dry summers | Bengaluru, Chennai, Pune |
+| Warangal (`warangal`) | Telangana | Hanamkonda, Kazipet, market yards and chilli cold stores, textile park, medical college belt | Chilli and grain cold stores, textiles, hospitals, logistics | Very hot dry summer, damp monsoon | Hyderabad, Karimnagar |
+| Karimnagar (`karimnagar`) | Telangana | Rice mills, granite cutting units, market yard and seed godowns, hospital belt | Rice milling, granite chemicals, pharmacy wholesale, hospitals | Fierce dry summer, heavy monsoon air | Warangal, Nizamabad, Hyderabad |
+| Nizamabad (`nizamabad`) | Telangana | Turmeric market yard, Armoor rice mills, Bodhan sugar factory, hospital belt | Turmeric and grain trade, logistics, pharma wholesale, hospitals | Intense dry heat, short humid monsoon | Karimnagar, Hyderabad |
 | Bengaluru (`bengaluru`) | Karnataka | Peenya, Bommasandra, Jigani, Electronic City | Biotech & labs, data centres, electronics, hospitals | Mild climate, but server and lab loads need control | Chennai, Hyderabad, Coimbatore |
 | Chennai (`chennai`) | Tamil Nadu | Sriperumbudur, Oragadam, Ambattur | Pharma, electronics & auto, food, port logistics | Hot, humid, coastal | Bengaluru, Coimbatore, Hyderabad |
 | Coimbatore (`coimbatore`) | Tamil Nadu | SIDCO industrial estates | Textile (humidity-critical), engineering, hospitals, food | Moderate, with humidity swings | Kochi, Chennai, Bengaluru |
