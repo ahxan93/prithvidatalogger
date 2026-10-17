@@ -245,6 +245,8 @@ export const locations: LegacyLocationNode[] = [
         { slug: "virar", text: "The long-standing terminus of the suburban Western line, with fish and produce markets, the fishing village of Arnala and godowns on the east side." },
         { slug: "nalasopara", text: "A dormitory suburb split by the railway into a market side and an Achole Road side of small factories and godowns, beside the site of ancient Sopara." },
         { slug: "sativali", text: "An industrial area among low hills on the eastern side of Vasai, with Naigaon East's small units and godowns across the railway." },
+        { slug: "palghar", text: "The district headquarters on the Western line, with markets and hospitals for a rural district and the coastal villages of Mahim and Kelva." },
+        { slug: "dahanu", text: "The northernmost coastal town of the district, with chikoo orchards, fishing, beaches and highway godowns under an environmental authority that restricts heavy industry." },
         ],
         indexable: true,
         children: [
@@ -773,6 +775,7 @@ export const locations: LegacyLocationNode[] = [
               },
               {
                 name: "Palghar town and its estates",
+                linkTo: "palghar",
                 note: "The district's administrative town on the highway, with its own industrial estate and a mix of food, packaging and light engineering firms.",
               },
             ],

@@ -2361,6 +2361,119 @@ export const areas: AreaDef[] = [
       ],
       "indexable": true
     } },
+  // ------------------------------------------------------------------ Vasai-Palghar (batch I: Palghar, Dahanu)
+  { slug: "palghar", name: "Palghar", citySlug: "vasai-palghar", areaType: "mixed-use", nearbyIndustries: ["food-beverage", "pharmaceutical", "hospitals-blood-banks", "logistics-warehousing"], confirmedService: true, hero: ["nakshatra", "veer-pro"], page: {
+      "metaTitle": "Data Loggers in Palghar | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Palghar's markets, clinics, godowns and coastal kitchens at Mahim and Kelva. Visits arranged. Get Solution.",
+      "intro": "Palghar is the district headquarters town on the Western line north of Vasai, with the road to Boisar and Tarapur running west to the industrial estates and the coast beyond it holding the beach villages of Kelva and Mahim. The town itself is a market and administrative centre serving a large rural district: farm produce, dairy, fish, building materials and household goods pass through its markets, and its hospitals and pharmacies serve the villages around. The coast brings fishing, and gardens and orchards grow in the villages; the Tarapur atomic power station stands on the same coast further north.",
+      "places": [
+        {
+          "name": "Palghar town and its markets",
+          "note": "The district headquarters has wholesale and retail markets, hospitals, clinics and pharmacies, with stock held in small rooms and godowns behind the shops."
+        },
+        {
+          "name": "Mahim and Kelva",
+          "note": "Coastal villages with beaches, fishing, gardens and small guesthouses and restaurants whose kitchens and ice stores work hardest at weekends and holidays."
+        },
+        {
+          "name": "The Boisar road belt",
+          "note": "Small and mid-sized units and godowns along the road towards Boisar and Tarapur hold materials and finished goods for plants and traders in the district."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "food-beverage",
+          "sentence": "Dairies, restaurants and guesthouses serving the district and the coastal visitors run chillers and ice stores that are loaded hardest at weekends and holidays, and an alert to the owner covers the busiest days."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Chemists and stockists serving villages across the district hold medicines in rooms that rely on one air conditioner and an uncertain supply, and a battery-backed log shows what the shelf did during an outage."
+        },
+        {
+          "slug": "hospitals-blood-banks",
+          "sentence": "Hospitals and clinics in the district town keep vaccine fridges that serve outlying health centres, so a log that holds up through a power cut matters as much as the alert itself."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Godowns near the station and on the Boisar road hold goods for traders and plants across the district, and a reading by bay shows how long a consignment stood in damp heat before it was collected."
+        }
+      ],
+      "services": "In Palghar we supply WiFi loggers for pharmacy and clinic fridges, multi-channel units for godowns and GSM versions with external probes for rural rooms and vehicles. VEGA Calibrations, our parent company, offers calibration and temperature mapping, so devices and certificates can be planned in one visit.",
+      "visits": "Please send the town, the village or the road, the building and the person who will meet us through the enquiry form or WhatsApp, and we agree a day with you. Distances in the district are long and rural roads are slow in the rains, so we plan a full day and fix times in advance. We group Palghar with Boisar and Tarapur visits.",
+      "approach": "In a district pharmacy or clinic we would begin with the vaccine or cold-chain fridge, fitting a logger with an external probe inside and the device outside. For a godown we would map the busiest bay and fix loggers where heat collects. A few weeks of readings show how each room copes with the heat and with outages.",
+      "faqs": [
+        {
+          "question": "Can loggers work in a village clinic with weak mobile signal?",
+          "answer": "A WiFi logger needs only the clinic's router and a GSM version needs a usable mobile signal at the spot. We test the signal at the fridge before choosing, and readings are stored on the logger until a connection returns."
+        },
+        {
+          "question": "How does a guesthouse on the coast watch its fridges at weekends?",
+          "answer": "Each fridge or freezer reports on its own, alerts go to the owner and the cook by phone, and a single list on a phone shows which unit is warming during a busy service."
+        }
+      ],
+      "nearby": [
+        "boisar",
+        "tarapur",
+        "vasai"
+      ],
+      "indexable": true
+    } },
+  { slug: "dahanu", name: "Dahanu", citySlug: "vasai-palghar", areaType: "mixed-use", nearbyIndustries: ["food-beverage", "logistics-warehousing", "pharmaceutical", "hospitals-blood-banks"], confirmedService: true, hero: ["veer", "virat-pro"], page: {
+      "metaTitle": "Data Loggers in Dahanu, Palghar | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Dahanu's fruit packing sheds, ice and fish stores, highway godowns and clinics. Get Solution.",
+      "intro": "Dahanu is the northernmost coastal town of Maharashtra's Palghar district, known for its orchards of chikoo, its long beaches and its fishing, and covered by a taluka-wide environmental authority that restricts heavy industry. The Western line and the Mumbai–Ahmedabad highway run through the district, with Dahanu Road as a station on the line, and Manor, a highway town, and villages such as Vevoor are served from the same markets. Storage here is shaped by agriculture, fishing and tourism rather than factories: fruit packing and cold rooms, ice and fish stores, hotel and homestay kitchens, and the highway godowns serving the district. A thermal power station stands on the coast.",
+      "places": [
+        {
+          "name": "Dahanu town and the chikoo orchards",
+          "note": "Growers and traders in the orchard belt sort, pack and hold fruit for markets in Mumbai and beyond, with packing sheds and cold rooms that work hardest in the harvest season."
+        },
+        {
+          "name": "The coast and fishing",
+          "note": "Fishing villages along the beaches land fish that is iced, stored and sent inland, and small guesthouses and restaurants serve visitors at weekends and holidays."
+        },
+        {
+          "name": "Manor and the highway",
+          "note": "Towns and villages along the Mumbai–Ahmedabad highway have godowns, dairies, small workshops and transport firms serving the district's farms and markets."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "food-beverage",
+          "sentence": "Fruit packers and traders hold chikoo and other produce in packing sheds and cold rooms, and a record at fruit height shows whether a room stayed within the range the buyer in the city expects."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Highway godowns and transporters hold farm produce, dairy and packaged goods between the district and the city, and a logger in a load shows how long a consignment stood in the heat at a roadside stop."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Chemists and stockists serving villages across the taluka keep medicines in rooms with an uncertain power supply, and a log that records through an outage shows what the shelf did."
+        },
+        {
+          "slug": "hospitals-blood-banks",
+          "sentence": "Health centres and clinics in the taluka keep vaccine fridges for outlying villages, and a battery-backed log shows that a lot held its range from the day it arrived until the day it was used."
+        }
+      ],
+      "services": "For Dahanu we supply WiFi loggers for packing sheds and pharmacy fridges, GSM versions with external probes for ice stores, rural rooms and vehicles, and multi-channel units for larger cold rooms. VEGA Calibrations, our parent company, offers calibration and temperature mapping, so a grower or a godown can plan devices and certificates together.",
+      "visits": "Please send the town or village, the orchard or the building and the person who will meet us through the enquiry form or WhatsApp, and we agree a day with you. Dahanu is a long way up the coast, so we plan a full day, fix times in advance and, where possible, combine it with Palghar visits. Tell us the landmark, since rural gates are not always marked.",
+      "approach": "In a fruit packing shed or cold room we would begin with a logger at product height away from the door and a second near the roof, and watch them through a hot week in the season. For a clinic we would start with the vaccine fridge. The readings show how each room copes with heat and with outages.",
+      "faqs": [
+        {
+          "question": "Can a grower watch a fruit cold room from Mumbai?",
+          "answer": "Yes. A WiFi or GSM logger sends the readings to the dashboard and alerts to your phone, so the grower can check the room from anywhere and see what happened overnight."
+        },
+        {
+          "question": "Is it practical to fit loggers in a taluka with limited industrial services?",
+          "answer": "Yes. Loggers are battery powered and small, they need no cabling, and set-up is done with you by phone or video, so the remoteness of the site is not an obstacle."
+        }
+      ],
+      "nearby": [
+        "palghar",
+        "boisar",
+        "tarapur"
+      ],
+      "indexable": true
+    } },
   // ------------------------------------------------------------------ Navi Mumbai (batch 1)
   {
     slug: "turbhe",
@@ -2866,7 +2979,7 @@ export const areas: AreaDef[] = [
         }
       ],
       "services": "For Tarapur we supply WiFi loggers for stores with coverage and GSM versions for plots at the edge of the estate, with external probes for tank rooms and process areas. VEGA Calibrations, our parent company, offers calibration of loggers and other instruments, temperature mapping of large stores and validation support, so the plant's quality file is built with one group.",
-      "visits": "Visits to Tarapur are planned as a full day because of the distance, usually together with Boisar. Write to us through the enquiry form or WhatsApp with the plot, the stores and the person who will meet us, and we propose dates. Process plants often ask for a safety briefing or special footwear, and it helps to tell us in advance.",
+      "visits": "Visits to Tarapur are planned as a full day because of the distance, usually together with Boisar. Write to us through the enquiry form or WhatsApp with the plot, the stores and the person who will meet us, and we propose dates. Process plants often ask for a safety briefing or special footwear, and it helps to tell us in advance. Plants further north along the highway, towards the Gujarat border where the estates of Vapi begin, are planned as a separate day.",
       "approach": "In a Tarapur plant we suggest starting with the store whose label carries the narrowest storage range, fitting one logger with an external probe, and setting an alert for both high and low readings. After a few weeks of data, the plant can see how sea air, afternoon sun and power cuts affect that room before deciding what else to monitor.",
       "nearby": [
         "boisar",
