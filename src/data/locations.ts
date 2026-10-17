@@ -233,6 +233,9 @@ export const locations: LegacyLocationNode[] = [
         { slug: "ghansoli", text: "A mixed node on the Thane–Belapur Road with corporate campuses, MIDC plots and housing sectors between Airoli and Koparkhairane." },
         { slug: "nerul", text: "A planned node on the harbour line with a large hospital, markets and housing, plus the waterfront district of Seawoods and the neighbourhood of Juinagar." },
         { slug: "belapur", text: "The central business district of Navi Mumbai, with offices, banks, hotels, hospitals and the older village of Belapur on the creek." },
+        { slug: "thane-west", text: "The old heart of Thane city by the creek, with markets around the station, clinics at Naupada and Panchpakhadi and hospitals at Majiwada." },
+        { slug: "ghodbunder-road", text: "The long arterial road from Majiwada to the Gujarat highway, lined with townships, hospitals and shopping centres, and godowns near its junctions." },
+        { slug: "kalyan", text: "A rail and road junction town on the Ulhas creek, with an agricultural market, wholesale lanes, godowns and neighbourhoods at Mohone and Shahad." },
         ],
         indexable: true,
         children: [

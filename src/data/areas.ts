@@ -1685,6 +1685,175 @@ export const areas: AreaDef[] = [
       ],
       "indexable": true
     } },
+  // ------------------------------------------------------------------ Thane and Bhiwandi (batch E: Thane West, Ghodbunder Road, Kalyan)
+  { slug: "thane-west", name: "Thane West", citySlug: "thane-bhiwandi", areaType: "mixed-use", nearbyIndustries: ["pharmaceutical", "hospitals-blood-banks", "food-beverage", "laboratories"], confirmedService: true, hero: ["veer-pro", "virat-pro"], page: {
+      "metaTitle": "Data Loggers in Thane West | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Thane West's markets, clinics, hospitals and food suppliers, from Majiwada to Naupada. Get Solution.",
+      "intro": "Thane West is the old heart of Thane city, set between the creek and the Yeoor hills, with the main railway station on the Central line and the lake-dotted streets that earned Thane its name as the city of lakes. It is busy, dense and mostly commercial and residential: markets around the station, the neighbourhoods of Naupada and Panchpakhadi with their clinics and shops, and Majiwada, where the Eastern Express Highway meets Ghodbunder Road and large hospitals, shopping centres and offices stand. Wagle Estate and the older industrial pockets are covered on their own page, so most of the storage in Thane West is the working stock of clinics, pharmacies, kitchens and distributors.",
+      "places": [
+        {
+          "name": "Thane station and the old market area",
+          "note": "Wholesalers, stockists, sweet shops and restaurants crowd the lanes around the station, with stock kept in small rooms behind and above the shops."
+        },
+        {
+          "name": "Naupada and Panchpakhadi",
+          "note": "Residential and commercial neighbourhoods with clinics, pharmacies, bakeries and diagnostic centres, where small premises depend on one or two air conditioners."
+        },
+        {
+          "name": "Majiwada",
+          "note": "The junction of the Eastern Express Highway and Ghodbunder Road, with hospitals, shopping centres, offices and hotels whose kitchens and pharmacies run long hours."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Chemists and stockists in the market lanes hold medicines in rooms with limited ventilation, and a log taken every few minutes shows how the shelf behaved on the hottest afternoons."
+        },
+        {
+          "slug": "hospitals-blood-banks",
+          "sentence": "Large hospitals and nursing homes around Majiwada keep blood storage, vaccine fridges and pharmacies that need an alert to a named person at any hour of the night."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Sweet makers, bakers and restaurants in Thane West keep chillers and freezers that are opened constantly through the day, and one view of every unit shows which is warming first."
+        },
+        {
+          "slug": "laboratories",
+          "sentence": "Diagnostic laboratories keep reagents and samples in fridges checked by hand at set rounds, and a probe log fills the hours between them."
+        }
+      ],
+      "services": "In Thane West we supply compact WiFi loggers for small rooms and fridges, single-point loggers with external probes for clinic and laboratory units and multi-channel units where a building holds several stores. VEGA Calibrations, our parent company, calibrates loggers and other instruments, so devices and certificates are planned together.",
+      "visits": "Please send the lane or building, the floor and the person who will meet us through the enquiry form, WhatsApp or a call. Streets around the station are crowded, so we fix an arrival time to suit your shift and group Thane West with Wagle Estate and Ghodbunder Road visits. Tell us about lifts and stairs, since loggers are carried in by hand.",
+      "approach": "In a Thane West shop or clinic we would begin with the room that holds the most valuable or sensitive stock, placing a logger away from the door and the air conditioner outlet. A few weeks of readings show how far it moves, and we then add devices where another room behaves differently.",
+      "faqs": [
+        {
+          "question": "Can a clinic with one vaccine fridge get alerts after hours?",
+          "answer": "Yes. The probe sits inside the fridge, the logger sits outside it, and alerts go to the clinic's named people at any hour."
+        },
+        {
+          "question": "How do tenants sharing one building watch their own rooms?",
+          "answer": "Each shop or clinic in a building can have its own logger and its own alert contact, and the landlord, if they wish, sees all of them on one page."
+        }
+      ],
+      "nearby": [
+        "wagle-estate",
+        "ghodbunder-road",
+        "bhiwandi"
+      ],
+      "indexable": true
+    } },
+  { slug: "ghodbunder-road", name: "Ghodbunder Road", citySlug: "thane-bhiwandi", areaType: "mixed-use", nearbyIndustries: ["pharmaceutical", "food-beverage", "hospitals-blood-banks", "logistics-warehousing"], confirmedService: true, hero: ["veer", "virat-pro"], page: {
+      "metaTitle": "Data Loggers on Ghodbunder Road, Thane | Prithvi",
+      "metaDescription": "Temperature data loggers for Ghodbunder Road's townships, hospitals, supermarkets and highway godowns at Balkum, Owale and Kasarvadavli. Get Solution.",
+      "intro": "Ghodbunder Road is the long arterial road that leaves Thane at Majiwada and runs north-west to meet the Gujarat highway near Ghodbunder village, and along it a string of neighbourhoods, including Balkum, Owale and Kasarvadavli, has grown into one of Thane's main residential and commercial corridors. Large housing townships, schools, hospitals and shopping centres line the road, and godowns, small factories and transport firms sit along it, particularly near its Thane end and at the junctions with the highway. Storage here mixes the stock of pharmacies, supermarkets and kitchens serving the townships with the goods of firms using the road to reach the highway.",
+      "places": [
+        {
+          "name": "Balkum and the Thane end",
+          "note": "Neighbourhoods close to Thane city hold shops, clinics, godowns and small workshops, with stock kept in compact rooms beside the busy road."
+        },
+        {
+          "name": "Owale and the central stretch",
+          "note": "Housing townships, schools and shopping centres are strung along the road, with supermarkets, bakers and pharmacies serving the households around them."
+        },
+        {
+          "name": "Kasarvadavli and the highway junctions",
+          "note": "Business buildings, hotels and warehouses cluster towards the junctions with the highway, where goods and vehicles enter and leave the corridor."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Pharmacies and stockists serving the townships hold medicines in rooms cooled by one or two units, and a dated reading shows how the shelf coped through a monsoon power cut."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Supermarkets, bakeries and cloud kitchens serving the townships run chillers and freezers that fill early each day, and a morning report shows whether a unit held through the night."
+        },
+        {
+          "slug": "hospitals-blood-banks",
+          "sentence": "Hospitals and clinics along the road keep vaccine fridges and blood storage with named duty contacts, so a fridge that fails overnight is reported to someone who can act."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Godowns and transport firms near the highway junctions hold goods between one vehicle and the next, and a reading by bay shows which corner of a shed warms first under the afternoon sun."
+        }
+      ],
+      "services": "For Ghodbunder Road we supply WiFi loggers for single rooms, multi-channel units for godowns and larger stores and GSM versions with external probes for vehicles and sheds. VEGA Calibrations, our parent company, offers calibration and temperature mapping, so a warehouse can plan the placement study and certificates together.",
+      "visits": "Send the township or the building, the road and the person who will meet us through the enquiry form or WhatsApp, and we agree a day with you. Traffic on the road is heavy at the start and end of the working day, so we fix an arrival time away from the peaks. We group Ghodbunder Road with Thane West visits.",
+      "approach": "In a township shop or pharmacy we would begin with the room holding the most sensitive stock and fit a logger with a probe at shelf height. In a godown we would map the busiest bay first, then fix permanent loggers where heat collects. A few weeks of readings decide the alert limits.",
+      "faqs": [
+        {
+          "question": "Can a supermarket with several chillers watch them all from one screen?",
+          "answer": "Yes. Each chiller is a device under the store's site, alerts go to the manager on duty and the owner sees every unit in one list, with a report that can be exported for any period."
+        },
+        {
+          "question": "How is a godown at a highway junction monitored when trucks wait outside?",
+          "answer": "A fixed logger watches the bay and a GSM logger with an external probe can ride in the vehicle, so the record covers both the shed and the wait on the road."
+        }
+      ],
+      "nearby": [
+        "thane-west",
+        "wagle-estate",
+        "bhiwandi"
+      ],
+      "indexable": true
+    } },
+  { slug: "kalyan", name: "Kalyan", citySlug: "thane-bhiwandi", areaType: "mixed-use", nearbyIndustries: ["food-beverage", "pharmaceutical", "logistics-warehousing", "hospitals-blood-banks"], confirmedService: true, hero: ["nakshatra", "hooter"], page: {
+      "metaTitle": "Data Loggers in Kalyan, Thane | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Kalyan's markets, godowns, pharmacies and hospitals, including Mohone and Shahad. Get Solution.",
+      "intro": "Kalyan is a rail and road junction town east of Thane, on the Ulhas creek, where the Central Railway's main line divides towards Kasara and towards Karjat and Pune. Around the junction it has an agricultural produce market, busy wholesale and retail markets, godowns along the roads to Bhiwandi and Shil, and a large residential population that reaches north to Shahad and Mohone. Goods reach Kalyan by rail and road for traders who supply the towns around, so a good deal of storage is working stock: produce and groceries in market cold rooms, medicines in stockists' godowns and the pharmacies and kitchens that serve the neighbourhoods.",
+      "places": [
+        {
+          "name": "Kalyan station and market area",
+          "note": "Wholesale and retail markets around the junction hold grain, produce, groceries and household goods, with traders keeping stock in godowns above and behind shops."
+        },
+        {
+          "name": "Kalyan APMC and the Bhiwandi and Shil roads",
+          "note": "The agricultural produce market and the godowns along the roads to Bhiwandi and Shil receive and hold goods that reach Kalyan by road and rail."
+        },
+        {
+          "name": "Mohone and Shahad",
+          "note": "Residential and mixed neighbourhoods north of the junction, with clinics, pharmacies, bakers and small commercial premises serving growing townships."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "food-beverage",
+          "sentence": "Traders in the produce market and the food suppliers around it hold fruit, vegetables and perishables in cold rooms opened many times a day, and a reading by chamber shows which loading warmed a room."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Stockists serving chemists across the Kalyan area hold medicines in godown rooms with limited cooling, and a dated log shows how a lot was kept while it waited for the next vehicle."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Godown operators on the roads out of Kalyan hold goods that arrive by rail and road for traders and manufacturers, and a reading by bay settles questions about whose stock stood where."
+        },
+        {
+          "slug": "hospitals-blood-banks",
+          "sentence": "Hospitals and clinics serving the wider Kalyan area keep vaccine fridges and blood storage that depend on a steady supply, and battery-backed logging carries on through a power cut."
+        }
+      ],
+      "services": "For Kalyan we supply WiFi loggers for market cold rooms and pharmacy stores, multi-channel units for godowns with several rooms and GSM versions with external probes for vehicles and sheds. Our parent company, VEGA Calibrations, offers calibration and temperature mapping, so a stockist can plan devices and certificates together.",
+      "visits": "Please send the market block or the road, the building and the person who will meet us through the enquiry form or WhatsApp. Traffic around the junction is heavy, so we fix an arrival time to suit your shift, and market traders are easiest to visit once the morning trade has passed. We group Kalyan with Dombivli MIDC and Bhiwandi visits.",
+      "approach": "In a market cold room we would begin with the chamber that is opened most often, placing a logger with a probe at product height away from the door. In a stockist's godown we would start with the room holding medicines, then add devices where the next room behaves differently.",
+      "faqs": [
+        {
+          "question": "How is a produce cold room that is loaded at night monitored?",
+          "answer": "A WiFi logger records every opening and every swing, and an alert reaches the operator by phone, so a chamber that drifts overnight is noticed before the morning trade."
+        },
+        {
+          "question": "Can a stockist with godowns in Kalyan and Bhiwandi use one account?",
+          "answer": "Yes. Each godown is a site with its own alert recipients, and the owner sees both in a single list and can export a report for any room and period."
+        }
+      ],
+      "nearby": [
+        "dombivli-midc",
+        "bhiwandi",
+        "thane-west"
+      ],
+      "indexable": true
+    } },
   // ------------------------------------------------------------------ Navi Mumbai (batch 1)
   {
     slug: "turbhe",
