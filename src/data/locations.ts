@@ -126,7 +126,7 @@ export const locations: LegacyLocationNode[] = [
       { slug: "gujarat", text: "Ahmedabad, Vadodara, Rajkot, Gandhinagar, the Morbi ceramic cluster, the Kutch ports and the chemical belt from Vapi to Bharuch, where pharmaceutical, dye and engineering stores meet dry heat and a heavy southern monsoon." },
       { slug: "delhi-state", text: "A dense capital in which hospitals, medicine distributors and food businesses share space with the Okhla, Bawana and Narela industrial areas." },
       { slug: "uttar-pradesh", text: "Noida and Greater Noida's electronics and data campuses, Lucknow's hospitals and cold stores, and the trades of Ghaziabad, Kanpur, Agra, Varanasi, Meerut, Prayagraj, Bareilly and Moradabad." },
-      { slug: "haryana", text: "The IMT Manesar plants and highway warehouses on the road south of Gurugram, built around automotive, electronics and distribution." },
+      { slug: "haryana", text: "Gurugram, Faridabad, the IMT Manesar plants and the Grand Trunk Road towns of Sonipat and Panipat, built around automotive, textiles, food and distribution." },
       { slug: "telangana", text: "Hyderabad's pharmaceutical estates, life-science campuses and server halls, from Jeedimetla and Patancheru to Genome Valley." },
       { slug: "karnataka", text: "Bengaluru's laboratories, technology parks, electronics makers and hospitals, together with the engineering belt of Peenya." },
       { slug: "tamil-nadu", text: "Chennai's port-linked estates and the mills and workshops of Coimbatore, where humidity decides how stock keeps." },
@@ -4132,23 +4132,24 @@ export const locations: LegacyLocationNode[] = [
         name: "Haryana",
         type: "state",
         intro:
-          "Haryana surrounds the capital on three sides, and its industry that we serve first sits along the Delhi–Jaipur highway south of Gurugram, in the Industrial Model Township at Manesar and the warehouse parks beside it. These are large, relatively new buildings: automotive and electronics plants, their component suppliers, pharmaceutical units and distribution sheds. Distances inside a single plant are long, summers are hot and dry and winters are cold, and the buyers who inspect these stores want a record that is continuous. This regional page introduces the state's place in our map and links to the Manesar city page, which holds the detail for the estate and its neighbours.",
+          "Haryana surrounds the capital on three sides, and its storage falls into two broad belts. Around the capital sit Gurugram and Faridabad, Manesar's large plants and highway warehouses, and Sonipat and Panipat along the Grand Trunk Road to the north, where towns make everything from auto parts and packed food to blankets and refined fuels. Further out, the grain and dairy towns of the plains and the steel and instrument towns of the north hold stocks that are checked by buyers and research bodies. Summers are hot and dry, the monsoon is humid and winter nights are cold and foggy. The pages below describe each place and the loggers we suggest for it.",
         localIndustries: [
           "Automotive and electronics",
           "Warehousing and distribution",
+          "Textiles and home furnishing",
           "Pharmaceutical manufacturing",
         ],
-        citiesServed: ["Manesar"],
+        citiesServed: ["Manesar", "Gurugram", "Faridabad", "Panipat", "Sonipat"],
         supportNote:
           "Supply, installation support and site visits for Haryana plants are arranged from our Mumbai office. Tell us the plant and the stores to look at.",
         faqs: [
           {
             question: "Which Haryana locations have a page?",
             answer:
-              "Manesar has a city page covering IMT Manesar and the warehouse parks beside it. More of the state will follow, and the capital region pages cover places across the border.",
+              "Manesar, Gurugram, Faridabad, Panipat and Sonipat have city pages. More of the state will follow, and the capital region pages cover places across the border.",
           },
           {
-            question: "Why is Manesar treated as a separate city page?",
+            question: "Why is Manesar treated as a separate city page from Gurugram?",
             answer:
               "Its industry is large and new enough to have its own climate notes, rooms and loggers, and plants there often ask for records that follow a buyer's written limits.",
           },
@@ -4160,6 +4161,10 @@ export const locations: LegacyLocationNode[] = [
         ],
         listing: [
           { slug: "manesar", text: "IMT Manesar's automotive, electronics and pharmaceutical plants and the highway warehouse parks that move goods across north India." },
+          { slug: "gurugram", text: "Office towers with server rooms, Udyog Vihar and Sector 37 units, large hospitals and hotels on Delhi's south-western edge." },
+          { slug: "faridabad", text: "The NIT and Ballabgarh engineering, component and electrical-goods works, with coating stores and highway warehouses on the Mathura Road." },
+          { slug: "panipat", text: "Blanket, rug and home-furnishing mills and export godowns, with chemical suppliers around the refinery and petrochemical complex." },
+          { slug: "sonipat", text: "The Kundli, Rai and Barhi estates of food, packaging and engineering units and distribution warehouses beside the capital's northern border." },
         ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,
@@ -4255,6 +4260,394 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Manesar | Prithvi",
             metaDescription:
               "WiFi and GSM temperature data loggers for IMT Manesar's automotive, electronics and pharma plants and highway warehouses. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "gurugram",
+            name: "Gurugram",
+            type: "city",
+            intro:
+              "Gurugram is the part of Haryana that presses against Delhi's south-western edge, and its storage is a mixture few cities share: office towers with their own server rooms, factories and garment export units in older estates such as Udyog Vihar and Sector 37, large private hospitals, hotels and the stockists that feed all of them. A temperature data logger here protects very different things in neighbouring buildings, from reagents in a hospital laboratory to cartons of fabric in a hot export store and the cooling circuits of a data hall. Traffic on the Delhi–Jaipur highway and the newer expressways keeps goods moving in and out at all hours, so records matter in the vehicle and on the dock as much as in the room. Manesar, further down the highway, has its own page, and this one stays with the city itself. Prithvi supplies WiFi and GSM loggers with alerts that follow a person to their phone.",
+            climateAngle:
+              "Summers bring dry heat and dust storms before the monsoon, the rains make the air humid and flood low roads, and winter nights are cold with fog that slows trucks on the highway, so stores need alerts for both a high and a low limit.",
+            areas: [
+              {
+                name: "Udyog Vihar",
+                note: "One of the older planned estates, laid out in phases, where garment exporters, component makers and electronics assemblers work close to offices. Units are compact and often share a building with their store, so a few wireless loggers can cover a whole site without cabling.",
+              },
+              {
+                name: "Sector 37",
+                note: "A crowded belt of small factories, godowns and traders' stores near the highway, where goods sit in sheds that heat up through the afternoon and are opened by whoever arrives first in the morning.",
+              },
+              {
+                name: "Cyber City and Golf Course Road offices",
+                note: "Tall corporate buildings along these roads carry server rooms, pantries and medicine cabinets for staff clinics. Space is tight and landlords limit drilling, so small battery loggers that hang or stick in place suit these rooms.",
+              },
+              {
+                name: "IMT Manesar and the highway south",
+                linkTo: "manesar",
+                note: "The Industrial Model Township and its warehouse parks lie further down the highway and are described on their own page, which covers plant stores and warehouse bays so this page does not need to.",
+              },
+            ],
+            industries: [
+              {
+                slug: "data-centers",
+                sentence:
+                  "Server rooms and colocation halls in the business towers run to narrow temperature and humidity bands, and an alert on a failing cooling unit reaches the engineer before the equipment is at risk.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Large private hospitals hold vaccines, blood components and pharmacy stock in many refrigerators across wards and floors, which are easier to supervise when every unit reports to one screen.",
+              },
+              {
+                slug: "electronics",
+                sentence:
+                  "Electronics assemblers and service-centre stores keep boards and screens in dry rooms, and a humidity record shows a buyer how the stock was held before it was fitted.",
+              },
+              {
+                slug: "textile",
+                sentence:
+                  "Garment export stores hold fabric and finished cartons for foreign buyers, and a humidity record helps show that goods stayed dry in a hot city before they were packed.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Hotels, restaurant kitchens and catering depots rely on walk-in coolers and freezers, and a door left open overnight should raise an alarm before the food is lost.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a server room, a fabric store or a pharmacy refrigerator, where a hot or damp spell is the risk worth catching.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels let one logger watch several refrigerators or racks in a hospital pharmacy or a laboratory corridor and report them on one dashboard.",
+              },
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels cover a large export store or data hall across shelves, doors and floors, with a single report for the whole building.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Is the Gurugram page the same as the Manesar one?",
+                answer:
+                  "No. This page covers the city itself, with Udyog Vihar, Sector 37, hospitals and office towers, while IMT Manesar's plants and highway warehouses are described on the Manesar page, and the loggers we suggest differ because the rooms differ.",
+              },
+              {
+                question: "How do you place loggers in a corporate tower where drilling is not allowed?",
+                answer:
+                  "Battery loggers can hang from a shelf, stand on a rack or be fixed with adhesive mounts, and an external probe can run into a rack or a refrigerator. We agree the positions with the facilities team on a short visit, and nothing is wired into the building's own systems.",
+              },
+              {
+                question: "Can a hospital group monitor refrigerators on several floors from one account?",
+                answer:
+                  "Yes. Each ward, pharmacy or laboratory can be a named location with its own alert contacts, and a pharmacy head can open all of them in one list and export a record for an inspection.",
+              },
+              {
+                question: "Which logger suits a garment export store in Udyog Vihar?",
+                answer:
+                  "A WiFi logger needs only a wireless signal, so a store that already has Wi-Fi works well. Where it has none, a SIM-based Vayu logger reports over the mobile network instead, and we choose after seeing the store.",
+              },
+            ],
+            nearby: [
+              { slug: "manesar", name: "Manesar" },
+              { slug: "delhi", name: "Delhi" },
+              { slug: "faridabad", name: "Faridabad" },
+            ],
+            metaTitle: "Temperature Data Loggers in Gurugram | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Gurugram's Udyog Vihar units, hospitals, data halls and export stores, with site visits. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "faridabad",
+            name: "Faridabad",
+            type: "city",
+            intro:
+              "Faridabad lies on Delhi's south-eastern side along the Mathura Road, and it has long been one of Haryana's main manufacturing cities, with the New Industrial Town (NIT) and the Ballabgarh belt full of auto-component, engineering, tyre and electrical-goods units, many of them making parts for plants elsewhere in the capital region. A temperature data logger in Faridabad usually watches workshops and stores more than cold rooms: paints and chemicals for coating lines, rubber and plastic stock, finished electrical goods in cartons, and the medicines and food of a large city of residents. Many works are old, with stores added room by room, and owners often run several units in the city, so one dashboard that shows every store is more useful than a visit round each. Prithvi supplies WiFi and GSM loggers with alerts to phones and email.",
+            climateAngle:
+              "Heat is dry and dusty from April, the monsoon is damp and floods low roads and drains, and winter fog and cold meet early deliveries and unheated stores, so alerts for a low and a high reading both matter.",
+            areas: [
+              {
+                name: "NIT (New Industrial Town)",
+                note: "The older planned township of crowded factories, workshops and stores on small plots, where one owner may keep a press shop, a paint room and a dispatch bay in the same lane and wants a single view of all of them.",
+              },
+              {
+                name: "Ballabgarh industrial belt",
+                note: "South of the city, a larger industrial area of engineering and component plants with long sheds, stores for coatings and lubricants, and loading yards where goods wait in the sun.",
+              },
+              {
+                name: "Mathura Road corridor",
+                note: "The highway that links the city with Delhi carries warehouses, showrooms and service stores, and goods often stop in vehicles or sheds on the way into or out of the capital.",
+              },
+              {
+                name: "Okhla across the border",
+                linkTo: "okhla",
+                note: "Okhla's industrial estate lies just over the Delhi boundary and has its own page; many Faridabad firms trade with its stockists, laboratories and food units.",
+              },
+            ],
+            industries: [
+              {
+                slug: "chemical",
+                sentence:
+                  "Paint, coating and lubricant stores that support the engineering units carry storage limits on their labels, and an alert from a hot shed gives the storekeeper time to move drums before a batch is lost.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Large hospitals in the city keep vaccines, blood components and pharmacy stock in many refrigerators, and one screen across the wards helps the night supervisor see which unit is drifting.",
+              },
+              {
+                slug: "electronics",
+                sentence:
+                  "Makers of electrical goods and control panels hold boards and finished units in cartons that suffer in damp weather, and a humidity trend shows how the stock was kept through the monsoon.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Transporters and warehouse operators on the Mathura Road hold goods that cross the capital region, and a reading for each bay settles questions about where a pallet was stored.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels across a long Ballabgarh shed, at racks, floors and dock doors, give a quality head one report for the whole building.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at a single point suit a coating store or a control-panel room where damp air is the danger.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger keeps reporting from a vehicle or a yard shed without Wi-Fi, which suits goods on the road between Faridabad and the capital.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can one login watch several units across NIT and Ballabgarh?",
+                answer:
+                  "Yes. Each unit or store becomes a site with its own alert recipients, and an owner can open every site in one list and export a report for any room.",
+              },
+              {
+                question: "How do you plan a visit to an NIT workshop where space is tight?",
+                answer:
+                  "Send the lane or plot, the stores to look at and a contact who will meet us. Small works often have one cabinet, one cool room and a dispatch bay, so we agree the positions on site and keep the visit short. The loggers are small and battery powered, so no cable work is needed.",
+              },
+              {
+                question: "Which logger suits a shed with no Wi-Fi?",
+                answer:
+                  "A SIM-based Vayu logger reports over the mobile network, so a yard shed or a loaded vehicle can be watched without a router, and we confirm the choice after seeing where it will be placed.",
+              },
+              {
+                question: "Can the record help when a buyer audits a component supplier?",
+                answer:
+                  "A report can be exported by room and date for the buyer's file, and calibration of the loggers is delivered by VEGA Calibrations, our parent company, when the buyer asks for it.",
+              },
+            ],
+            nearby: [
+              { slug: "delhi", name: "Delhi" },
+              { slug: "gurugram", name: "Gurugram" },
+              { slug: "noida", name: "Noida" },
+            ],
+            metaTitle: "Temperature Data Loggers in Faridabad | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Faridabad's NIT and Ballabgarh units, coating stores, hospitals and warehouses. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "panipat",
+            name: "Panipat",
+            type: "city",
+            intro:
+              "Panipat sits on the Grand Trunk Road north of Delhi and is known above all for textiles: blankets, rugs, throws and other home furnishing, much of it woven from recycled yarn in small mills and workshops across the city and nearby villages. Alongside the weavers stand a refinery and petrochemical complex and a fertiliser plant, and a ring of suppliers, transporters and stockists has grown up around them. A temperature data logger in Panipat is as likely to watch a yarn store and an export godown through the monsoon as a drum shed in the sun. Damp, dust and heat harm fabric and packaging quietly, and a consignment bound abroad must arrive without mould or odour. Prithvi supplies WiFi and GSM loggers with alerts to phones and email, so a store that cannot be visited every day can still be watched.",
+            climateAngle:
+              "Summers are hot and dusty, the monsoon brings damp that settles into wool and cotton stocks, and winter fog and cold nights can chill unheated stores, so humidity matters here as much as temperature.",
+            areas: [
+              {
+                name: "Old-city weaving and blanket lanes",
+                note: "Narrow lanes of looms, dyeing rooms and stock rooms where wool, cotton and recycled yarn sit in stacks, and damp spreads quickly through crowded rooms with little ventilation.",
+              },
+              {
+                name: "Samalkha",
+                note: "A town on the Grand Trunk Road towards Sonipat with its own industrial area of engineering, auto-part and fabric units, whose stores often sit far from the offices that own them.",
+              },
+              {
+                name: "Export godowns and packing units",
+                note: "Home-furnishing exporters pack finished goods in godowns near the highway and the container routes, holding bales for buyers who expect them dry.",
+              },
+              {
+                name: "Refinery-linked supplier belt",
+                note: "Suppliers of chemicals, packaging and engineering services to the refinery and petrochemical complex keep drums and materials in yards where summer sun heats metal containers.",
+              },
+            ],
+            industries: [
+              {
+                slug: "textile",
+                sentence:
+                  "Blanket, rug and home-furnishing makers store yarn, rolls and finished bales in rooms where damp can cause mould, and a humidity record shows an exporter that the goods were kept dry between loom and container.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Chemical suppliers around the refinery complex hold drums and packed product with printed storage limits, and an alert on a heated yard shed gives the supervisor a chance to act before the label is breached.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Transporters and warehouse operators on the highway hold bales and cartons bound for ports and for buyers elsewhere in India, and a reading for each bay shows where a consignment spent its time.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a yarn store or an export godown, where the question is whether damp air reached the stock.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels spread through a long godown at different heights and doors show which corner is warmest and which is dampest.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger keeps reporting from a container yard or a truck without Wi-Fi, which suits bales waiting to leave the city.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Do you cover Samalkha as well as Panipat city?",
+                answer:
+                  "Yes. Send the town, the plot and a contact through the enquiry form, WhatsApp or a call, and we confirm how a visit would be arranged for Samalkha and the other industrial pockets of the district.",
+              },
+              {
+                question: "How does a logger help a home-textile exporter?",
+                answer:
+                  "A humidity record from the godown shows how stock was held before it was packed, and the report can be exported by date for a buyer who has raised a question about mould or odour on arrival.",
+              },
+              {
+                question: "Can loggers be used in dusty weaving rooms?",
+                answer:
+                  "Loggers are small and sealed enough for ordinary workshop dust, and we suggest positions away from loom drafts and dye vats so that the reading reflects the stock, not the machine.",
+              },
+              {
+                question: "Can several godowns across the city be seen on one dashboard?",
+                answer:
+                  "Yes. Each godown is a site with its own alert contacts, and an owner who travels to buyers can open all of them on a phone and see which one needs a call to the store manager.",
+              },
+            ],
+            nearby: [
+              { slug: "sonipat", name: "Sonipat" },
+              { slug: "delhi", name: "Delhi" },
+            ],
+            metaTitle: "Temperature Data Loggers in Panipat | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Panipat's textile godowns, Samalkha units and chemical stores. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "sonipat",
+            name: "Sonipat",
+            type: "city",
+            intro:
+              "Sonipat is the first big Haryana city north of Delhi on the Grand Trunk Road, and its industry is concentrated in estates close to the capital's border: Kundli on the Delhi side, Rai towards the city and Barhi beyond it. Food processing, packaging, beverages, steel and engineering units, distribution warehouses and logistics yards fill these estates, and many sell into the capital's markets by road. A temperature data logger in Sonipat mostly protects goods that wait: pallets of packed food in a Kundli warehouse, ingredient stores in a beverage unit and loaded trucks held on the highway near the capital's boundary. Summer heat, dust and winter fog all arrive here early, and the people who own the stock are often in Delhi, not on the estate. Prithvi supplies WiFi and GSM loggers with alerts to phones and email, so the owner and the shift in-charge see the same reading.",
+            climateAngle:
+              "Summers are hot and dusty, the monsoon is humid and winter brings cold nights and thick fog on the highway, which holds up deliveries and leaves loaded vehicles standing in the chill.",
+            areas: [
+              {
+                name: "Kundli",
+                note: "The industrial estate on the Delhi border beside the national highway, with food, packaging and engineering units and warehouses that serve the capital's markets.",
+              },
+              {
+                name: "Rai",
+                note: "An industrial area nearer the city with factories of mixed size, component stores and logistics yards, where one shift supervisor may look after several rooms.",
+              },
+              {
+                name: "Barhi",
+                note: "A newer industrial area further north, with larger plots, modern sheds and manufacturers who ask for continuous records for their buyers.",
+              },
+              {
+                name: "Murthal and the highway food stops",
+                note: "Roadside kitchens and dairies along the highway hold milk, curd and cooked stock in coolers that run hard through the long summer.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Packed-food and beverage units in the estates hold ingredients and finished pallets that are checked by buyers, and a record from each cold room shows how long a lot stood in the warm.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Warehouses at Kundli and on the highway hold goods for retailers across the capital region, and a reading for every bay settles disputes about whose stock was stored where.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Packaging, coating and adhesive stores in the engineering units carry limits printed on their labels, and an alert on a heated shed lets the storekeeper act before material is spoiled.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine stockists and the smaller pharmaceutical units in the estates hold packed goods in rooms that are reviewed during customer visits, and a continuous record answers the reviewer's questions.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels spread through a Kundli warehouse at racks and dock doors show how the building behaves during a hot afternoon.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels, one at the top and one at the bottom of a cold room, record how far a door opening disturbs the stored food.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger reports from a loaded truck waiting on the highway, where no building Wi-Fi reaches.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How would you plan a visit to a unit in Kundli, Rai or Barhi?",
+                answer:
+                  "Send the estate, the plot and the person who controls the gate. Most units need visitors registered in advance, so we plan the day around that and your safety rules, and we start with the stores your buyers look at first.",
+              },
+              {
+                question: "Can a Delhi-based owner watch a Sonipat warehouse remotely?",
+                answer:
+                  "Yes. Loggers report over Wi-Fi or the mobile network, and the owner can see the same dashboard and the same alerts as the shift in-charge, from a phone or a desktop.",
+              },
+              {
+                question: "Which logger suits a loaded truck waiting at the border?",
+                answer:
+                  "A SIM-based Vayu logger placed in the load keeps recording on its battery and sends readings over the mobile network, and the report can be exported when the vehicle reaches its destination.",
+              },
+              {
+                question: "Can mapping be done for a large warehouse before loggers are fixed?",
+                answer:
+                  "Temperature mapping is delivered by VEGA Calibrations, our parent company, and it shows where the warm and cold positions lie so that permanent loggers can be placed there.",
+              },
+            ],
+            nearby: [
+              { slug: "delhi", name: "Delhi" },
+              { slug: "panipat", name: "Panipat" },
+            ],
+            metaTitle: "Temperature Data Loggers in Sonipat | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Sonipat's Kundli, Rai and Barhi units, food and packaging stores and warehouses. Get Solution.",
             indexable: true,
           },
         ],
