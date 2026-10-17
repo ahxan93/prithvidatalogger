@@ -1515,6 +1515,176 @@ export const areas: AreaDef[] = [
       ],
       "indexable": true
     } },
+  // ------------------------------------------------------------------ Navi Mumbai (batch D: Ghansoli, Nerul, Belapur)
+  { slug: "ghansoli", name: "Ghansoli", citySlug: "navi-mumbai", areaType: "mixed-use", nearbyIndustries: ["data-centers", "pharmaceutical", "chemical", "food-beverage"], confirmedService: true, hero: ["veer-pro", "dock"], page: {
+      "metaTitle": "Data Loggers in Ghansoli, Navi Mumbai | Prithvi",
+      "metaDescription": "Temperature data loggers for Ghansoli's corporate campuses, MIDC plots, pharmacies and kitchens on the Thane–Belapur belt. Get Solution.",
+      "intro": "Ghansoli lies between Airoli and Koparkhairane on the Thane–Belapur Road, with a station on the trans-harbour railway. It is a mixed node: large corporate campuses and business buildings, MIDC factory plots and warehouses on one side, and planned housing sectors, schools and markets on the other, with older village settlements in between. Its rooms range from server and electrical rooms in office campuses to pharmaceutical and chemical stores in the MIDC and pharmacies and kitchens in the sectors, and the people who look after them are often in a different building from the room itself.",
+      "places": [
+        {
+          "name": "Corporate campuses and business buildings",
+          "note": "Large offices and technology tenants run server rooms, network closets and canteen kitchens, with cooling plants shared between floors."
+        },
+        {
+          "name": "Ghansoli MIDC plots",
+          "note": "Small and mid-sized factories and warehouses hold materials and finished goods in stores beside production, mixed with transport and service firms."
+        },
+        {
+          "name": "Sectors and village lanes",
+          "note": "Housing sectors and the older village lanes support pharmacies, clinics, bakers and grocers keeping stock in small rooms."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "data-centers",
+          "sentence": "Tenants who run their own server rooms inside the campuses watch air at the front of the racks, so a slow rise through an afternoon is seen as a trend and not as a sudden failure."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Small pharmaceutical units and packers on the MIDC plots hold ingredients and cartons in controlled rooms, and exported reports answer a customer's audit request without a search through paper."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Chemical and allied units store drums and containers with printed ranges beside process areas, and a humidity and temperature log shows how a store behaved through the damp months."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Canteen operators and caterers who feed the campuses keep walk-in fridges that are loaded hard before lunch, and an alert to the kitchen manager matters most in the hour before service."
+        }
+      ],
+      "services": "In Ghansoli we supply four-channel loggers for server rooms, WiFi loggers for single rooms and pharmacy or kitchen stores, and GSM versions with external probes for sheds and yards. Our parent company, VEGA Calibrations, offers calibration, temperature mapping and validation support, so a tenant or a plant can plan devices and certificates together.",
+      "visits": "Please send the campus or plot, the building and the person who will meet us through the enquiry form or WhatsApp. Campuses register visitors, and plants usually need a gate pass, so tell us what applies. We group Ghansoli with Airoli and Koparkhairane visits along the Thane–Belapur Road.",
+      "approach": "In a campus we would begin with the server room and the main kitchen, and in a plant with the store that has the narrowest limit. A few weeks of readings show each room's normal swing, and limits set just outside that swing keep routine door openings from raising false alarms.",
+      "faqs": [
+        {
+          "question": "Can one account cover a campus and a plant in Ghansoli?",
+          "answer": "Yes. The campus and the plant are separate sites on the dashboard, each with its own alert recipients, and a group head sees both in one list."
+        },
+        {
+          "question": "What happens if the campus network is down?",
+          "answer": "A WiFi logger keeps recording on its battery and sends its stored readings when the network returns, and a GSM version can report over the mobile network in the meantime."
+        }
+      ],
+      "nearby": [
+        "airoli",
+        "koparkhairane",
+        "rabale",
+        "mahape"
+      ],
+      "indexable": true
+    } },
+  { slug: "nerul", name: "Nerul", citySlug: "navi-mumbai", areaType: "mixed-use", nearbyIndustries: ["hospitals-blood-banks", "pharmaceutical", "food-beverage", "laboratories"], confirmedService: true, hero: ["nakshatra", "dhruva"], page: {
+      "metaTitle": "Data Loggers in Nerul, Navi Mumbai | Prithvi",
+      "metaDescription": "WiFi and GSM temperature data loggers for Nerul, Seawoods and Juinagar's hospitals, pharmacies, restaurants and laboratories. Get Solution.",
+      "intro": "Nerul sits in the middle of the Harbour line stretch through Navi Mumbai, a planned node of housing sectors, schools, markets and a large medical college hospital. Seawoods, on its waterfront side, has a station that serves both the Harbour line and the Nerul–Uran line, with a large commercial complex and housing along the creek shore, and Juinagar, on the Vashi side, is a busy residential and commercial neighbourhood by its own station. Palm Beach Road links the node to Vashi and Belapur. Storage here is the working stock of clinics, pharmacies, kitchens and the distributors who serve a large residential population.",
+      "places": [
+        {
+          "name": "Nerul sectors",
+          "note": "Planned housing sectors with schools, clinics, markets and a large medical college hospital whose pharmacy and laboratories run around the clock."
+        },
+        {
+          "name": "Seawoods",
+          "note": "A waterfront district with a busy station, a large commercial complex and housing towers, where restaurants and food stores keep many fridges in small back rooms."
+        },
+        {
+          "name": "Juinagar",
+          "note": "A dense residential and commercial neighbourhood by its station on the Vashi side, with pharmacies, bakeries and small distributors working from compact shops."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "hospitals-blood-banks",
+          "sentence": "The hospital campus and the clinics around it keep blood storage, vaccine fridges and theatre stores that need an alert to a named person at any hour, including during a monsoon power cut."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Pharmacies and stockists in Nerul and Juinagar hold medicines in rooms with one air conditioner, and a log taken every few minutes shows how the shelf coped during a hot spell."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Restaurants, bakeries and food stores around Seawoods keep rows of fridges and freezers that are opened constantly, and one list on a phone shows which unit is warming."
+        },
+        {
+          "slug": "laboratories",
+          "sentence": "Diagnostic laboratories serving the sectors keep reagents and samples in fridges and freezers that are checked by hand at set times, and a probe log covers the hours between."
+        }
+      ],
+      "services": "For Nerul we supply single-point loggers with external probes for hospital and laboratory fridges, WiFi loggers for pharmacy and shop stores and multi-channel units for larger kitchens or stores. VEGA Calibrations, our parent company, calibrates loggers and other instruments and can map larger rooms, so devices and certificates are planned together.",
+      "visits": "Send the sector, the building and the person who will meet us through the enquiry form, WhatsApp or a call, and we agree a day with you. Hospital visits are timed around pharmacy and laboratory hours, and shops are easiest to visit before the evening rush. We group Nerul with Vashi and Belapur visits along the harbour line.",
+      "approach": "In a pharmacy or clinic we would begin with the fridge that holds the vaccines or the most valuable stock, placing a logger with an external probe inside. In a restaurant we would start with the walk-in fridge. A few weeks of readings show how each unit behaves through a day of service.",
+      "faqs": [
+        {
+          "question": "Can a restaurant with many fridges see them all on one phone?",
+          "answer": "Yes. Each fridge or freezer is a device under the restaurant's site, alerts go to the duty manager and the owner sees every unit in one list."
+        },
+        {
+          "question": "How is a hospital pharmacy store monitored outside pharmacy hours?",
+          "answer": "A logger with a probe at shelf height records through the night and sends alerts to the duty pharmacist and a second contact, so a failing air conditioner is reported while the counter is shut."
+        }
+      ],
+      "nearby": [
+        "vashi",
+        "belapur",
+        "turbhe"
+      ],
+      "indexable": true
+    } },
+  { slug: "belapur", name: "Belapur", citySlug: "navi-mumbai", areaType: "business-district", nearbyIndustries: ["data-centers", "hospitals-blood-banks", "laboratories", "food-beverage"], confirmedService: true, hero: ["nakshatra", "veer"], page: {
+      "metaTitle": "Data Loggers in Belapur, Navi Mumbai | Prithvi",
+      "metaDescription": "Temperature data loggers for CBD Belapur's office towers, server rooms, hospitals, laboratories and hotel kitchens in Navi Mumbai. Get Solution.",
+      "intro": "CBD Belapur was planned by CIDCO as the central business district of Navi Mumbai, and it is where the city's civic offices, banks, institutions, hotels and large office buildings stand around a railway station on the Harbour line. Behind the offices lie the residential sectors and the older village of Belapur on the creek, and the Thane–Belapur industrial belt begins on the road to the north. The rooms that matter here are inside buildings: server and electrical rooms, hospital stores and laboratories, hotel and restaurant kitchens and pharmacies, all run by teams who may sit elsewhere in the building.",
+      "places": [
+        {
+          "name": "CBD Belapur office district",
+          "note": "Banks, government and corporate offices and hotels stand in wide planned blocks, with server rooms, electrical rooms and kitchens managed by building teams."
+        },
+        {
+          "name": "Hospitals and clinics",
+          "note": "Hospitals, nursing homes and diagnostic centres serve the central node and the neighbouring sectors, with pharmacies, blood storage and laboratory fridges in use at every hour."
+        },
+        {
+          "name": "Belapur village and nearby sectors",
+          "note": "The older village lanes and the housing sectors around them hold bakeries, grocers, stockists and small shops with stock kept in compact rooms."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "data-centers",
+          "sentence": "Facilities teams in the office blocks keep server and electrical rooms within a stated range, and a record kept outside the cooling unit's own controller gives an independent view of what the room really did."
+        },
+        {
+          "slug": "hospitals-blood-banks",
+          "sentence": "Hospitals in the node keep blood banks and pharmacies whose stock cannot be replaced quickly, so each unit reports to a duty pharmacist and a second person who can act on an overnight alert."
+        },
+        {
+          "slug": "laboratories",
+          "sentence": "Diagnostic and research laboratories keep reagents and samples in fridges and freezers with their own limits, and a log per unit lets a quality head see at a glance which one is drifting."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Hotel and restaurant kitchens around the district keep walk-in fridges and freezers loaded for events and lunch trade, and an alert to the duty engineer matters most when a banquet is being prepared."
+        }
+      ],
+      "services": "At Belapur we supply four-channel loggers for server and electrical rooms, single-point loggers with external probes for laboratory and hospital fridges and WiFi loggers for kitchens and stores. Our parent company, VEGA Calibrations, offers calibration, temperature mapping and validation support, so tenants and hospitals can plan with one group.",
+      "visits": "Office buildings and hospitals register visitors in advance, so please send the building, the floor and the person who will meet us through the enquiry form or WhatsApp. Server rooms often allow entry only in set windows. We group Belapur with Nerul and Kharghar visits along the harbour line.",
+      "approach": "In an office building we would begin with the server room and the main kitchen, and in a hospital with the blood storage unit and the pharmacy store. After a few weeks of readings each room's normal swing is clear, and limits placed just beyond it keep ordinary door openings from raising alarms.",
+      "faqs": [
+        {
+          "question": "Can a building manager see every plant room and kitchen in one list?",
+          "answer": "Yes. Each room is a device under the building's site, alerts go to the person responsible for it and the manager sees all of them together, with reports that can be exported for any period."
+        },
+        {
+          "question": "How is a hotel kitchen with many fridges set up?",
+          "answer": "A WiFi logger with an external probe goes into each fridge or freezer, alerts go to the duty engineer and the head chef, and the owner sees every unit on a single screen."
+        }
+      ],
+      "nearby": [
+        "nerul",
+        "kharghar",
+        "taloja"
+      ],
+      "indexable": true
+    } },
   // ------------------------------------------------------------------ Navi Mumbai (batch 1)
   {
     slug: "turbhe",

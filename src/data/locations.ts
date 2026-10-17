@@ -230,6 +230,9 @@ export const locations: LegacyLocationNode[] = [
         { slug: "airoli", text: "The northern end of Navi Mumbai beside the creek, with business parks, server rooms and the residential district of Digha." },
         { slug: "koparkhairane", text: "A large node in the middle of the industrial belt, with a MIDC estate of chemical, pharmaceutical and electronics units beside planned sectors." },
         { slug: "pawane", text: "A dense MIDC pocket of small pharmaceutical, chemical and engineering units, with Shirvane next door on the Nerul side." },
+        { slug: "ghansoli", text: "A mixed node on the Thane–Belapur Road with corporate campuses, MIDC plots and housing sectors between Airoli and Koparkhairane." },
+        { slug: "nerul", text: "A planned node on the harbour line with a large hospital, markets and housing, plus the waterfront district of Seawoods and the neighbourhood of Juinagar." },
+        { slug: "belapur", text: "The central business district of Navi Mumbai, with offices, banks, hotels, hospitals and the older village of Belapur on the creek." },
         ],
         indexable: true,
         children: [
