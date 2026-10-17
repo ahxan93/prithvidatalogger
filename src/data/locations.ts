@@ -133,7 +133,7 @@ export const locations: LegacyLocationNode[] = [
       { slug: "chandigarh-state", text: "The planned city and union territory, with Mohali and Panchkula beside it, serving hospitals, medicine distributors and food depots." },
       { slug: "punjab", text: "Mohali's industrial phases, technology parks, pharmaceutical units, research institutes and hospitals beside Chandigarh, where storage is held to written limits." },
       { slug: "himachal-pradesh", text: "The foothill pharmaceutical cluster around Baddi, Barotiwala and Nalagarh, where plants work to written storage procedures, together with Solan, Parwanoo, Paonta Sahib, Una and Shimla." },
-      { slug: "kerala", text: "Kochi's seafood export cold chain, port warehouses, spice trade and large hospitals, all in warm, wet air." },
+      { slug: "kerala", text: "Kochi's seafood export cold chain, port warehouses, spice trade and large hospitals, with Thiruvananthapuram, Kozhikode, Thrissur and Kollam, all in warm, wet air." },
       { slug: "goa-state", text: "Pharmaceutical plants at Verna and Kundaim and the hotel kitchens of the coast, tested by salt air and the monsoon." },
       { slug: "rajasthan", text: "Jaipur's dairies, medicine stockists and hospitals, with the Sitapura and VKI industrial areas in a dry desert climate." },
       { slug: "madhya-pradesh", text: "Indore's food processors, pharmaceutical makers and the Pithampur and Sanwer Road estates, with a hot summer and a heavy monsoon." },
@@ -8116,20 +8116,21 @@ export const locations: LegacyLocationNode[] = [
         name: "Kerala",
         type: "state",
         intro:
-          "Kerala's storage is arranged around water: backwaters, a long coast and the port at Kochi, where seafood is processed and exported, spices are traded and containers wait for vessels. A large private hospital sector and a technology park add pharmacies, blood storage and server rooms to the mix. The air is warm and very humid for most months and the southwest monsoon is long, so condensation, corroded contacts and storm power cuts matter as much as heat. This regional page introduces the state's place in our map and links to the Kochi city page, which holds the detail for Kakkanad, Kalamassery and Edayar.",
+          "Kerala is a long, narrow state between the sea and the hills, and its storage is arranged along the coast road and the railway. Kochi in the middle is the great port, Thiruvananthapuram in the south is the capital with its technology park, hospitals and research institutes, and Kollam holds cashew and fisheries. Thrissur trades in gold and herbal medicine, while Kozhikode in the north still moves spices, timber and oil. The air is warm and very humid for most months and the monsoon is heavy and long, so condensation, mould and storm power cuts matter as much as heat. Each page below describes one city, its rooms and the loggers that suit them.",
         localIndustries: [
           "Seafood processing and export",
           "Port logistics and warehousing",
           "Hospitals and healthcare",
+          "Cashew, spice and herbal-medicine trade",
         ],
-        citiesServed: ["Kochi"],
+        citiesServed: ["Kochi", "Thiruvananthapuram", "Kozhikode", "Thrissur", "Kollam"],
         supportNote:
           "Supply, installation support and site visits for Kerala sites are arranged from our Mumbai office. Send the area and the cold rooms or stores in question.",
         faqs: [
           {
             question: "Which Kerala locations have a page?",
             answer:
-              "Kochi has a city page covering Kakkanad, Kalamassery and Edayar. Other cities of the state are not yet written and are served on enquiry.",
+              "Kochi has a city page covering Kakkanad, Kalamassery and Edayar, and Thiruvananthapuram, Kozhikode, Thrissur and Kollam have city pages of their own. Other places in the state are served on enquiry.",
           },
           {
             question: "What is special about monitoring a cold chain in this climate?",
@@ -8144,6 +8145,10 @@ export const locations: LegacyLocationNode[] = [
         ],
         listing: [
           { slug: "kochi", text: "A port city of seafood processors, spice exporters, container yards, large hospitals and a technology park, all in warm, humid air." },
+          { slug: "thiruvananthapuram", text: "The capital's technology park, medical college, research institutes and new seaport at Vizhinjam in the warm south." },
+          { slug: "kozhikode", text: "The northern trading city of spice and oil godowns, the Kallai timber yards, wooden-boat harbours and large hospitals." },
+          { slug: "thrissur", text: "The central city of gold jewellers, ayurvedic makers, university laboratories and private hospitals between Kochi and Kozhikode." },
+          { slug: "kollam", text: "The cashew port on Ashtamudi Lake, with seafood harbours, coir workshops and ceramic and mineral works in damp, salty air." },
         ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,
@@ -8239,6 +8244,390 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Kochi | Prithvi",
             metaDescription:
               "WiFi and GSM temperature data loggers for Kochi's seafood cold chain, port warehouses and hospitals, with site visits arranged. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "thiruvananthapuram",
+            name: "Thiruvananthapuram",
+            type: "city",
+            intro:
+              "Thiruvananthapuram is Kerala's capital, spread over low hills at the southern end of the state, and its storage is shaped by government, science and health rather than by heavy industry. The technology park at Kazhakoottam holds server rooms and laboratories, a medical college hospital, a regional cancer centre and a medical-technology institute keep large blood banks and pharmacies, and a space research centre and a biotechnology centre work on the coast and in the north of the city. The international seaport at Vizhinjam adds a cargo side that is new to the district. A temperature data logger in Thiruvananthapuram therefore sits as often in a laboratory freezer or a hospital refrigerator as in a cold room for fish. Prithvi supplies WiFi loggers for indoor rooms and GSM loggers for vehicles and coastal stores, and alerts follow a person to a phone.",
+            climateAngle:
+              "The air stays warm and humid for most of the year, two monsoons bring long spells of rain and the sea breeze carries salt inland, so contacts corrode, condensation forms on cold surfaces and storms interrupt the power.",
+            areas: [
+              {
+                name: "Technopark at Kazhakoottam",
+                note: "The large technology park on the northern side holds server rooms, test laboratories and hardware stores in tall buildings, where cooling is shared and run by facilities teams.",
+              },
+              {
+                name: "Medical college and research institute belt",
+                note: "A government medical college hospital, a regional cancer centre and a medical-technology institute keep blood components, vaccines, reagents and radiopharmaceuticals in refrigerators and freezers on every floor.",
+              },
+              {
+                name: "Vizhinjam port and fish landing centres",
+                note: "The deep-water port and the landing centres along the southern coast handle cargo and fresh catch, with stores and ice rooms that stand in sun and salt air.",
+              },
+              {
+                name: "Pappanamcode and the city's industrial estates",
+                note: "Small industrial estates on the city's edge hold food, packaging, electrical and engineering units, with stores of mixed age and size beside the production areas.",
+              },
+            ],
+            industries: [
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Large government and private hospitals keep blood components, vaccines and pharmacy stock in refrigerators across many wards, and a phone alert from a failing unit reaches the duty technician through a stormy night.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "Research institutes and testing laboratories hold reagents, samples and cultures in freezers and incubators, and a logged record shows a supervisor or a funder that conditions held through monsoon power cuts.",
+              },
+              {
+                slug: "data-centers",
+                sentence:
+                  "Server rooms in the technology park run to narrow temperature and humidity bands, and an alert on a failing cooling unit reaches the engineer before the equipment is at risk.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Fish traders, hotel kitchens and food makers rely on ice rooms and walk-in coolers in warm air, and a door left open overnight should raise an alarm before the stock is lost.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels let one logger follow several refrigerators in a hospital pharmacy or a laboratory corridor and report each unit on its own line.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a server room or a reagent cabinet, where damp monsoon air is the risk worth catching.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger travels with fish or medicines in a vehicle, or reports from a landing centre without Wi-Fi, which suits goods moving along the coast.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a hospital group watch refrigerators in several buildings together?",
+                answer:
+                  "A hospital group can set up each ward, pharmacy or laboratory as its own named location with separate alert contacts, then view every building in a single list when an inspector asks for records.",
+              },
+              {
+                question: "What happens to the record during a monsoon power cut?",
+                answer:
+                  "A logger carries on recording from its own battery, uploads the stored readings once the network returns, and can warn the person in charge that the supply was lost.",
+              },
+              {
+                question: "How are loggers placed in a technology-park server room?",
+                answer:
+                  "We agree positions with the facilities team on a short visit, placing loggers at rack height near the cold-aisle intake and the hot-aisle return, and nothing is wired into the building's own systems.",
+              },
+              {
+                question: "Do you cover Vizhinjam and the fish landing centres?",
+                answer:
+                  "Send the place, the store and a contact through the enquiry form, WhatsApp or a call, and we confirm how a visit would be arranged for Vizhinjam and the coastal centres around the city.",
+              },
+            ],
+            nearby: [
+              { slug: "kollam", name: "Kollam" },
+              { slug: "kochi", name: "Kochi" },
+            ],
+            metaTitle: "Temperature Data Loggers in Thiruvananthapuram | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature data loggers for Thiruvananthapuram's hospitals, laboratories, Technopark server rooms and Vizhinjam port. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "kozhikode",
+            name: "Kozhikode",
+            type: "city",
+            intro:
+              "Kozhikode, long known to the world as Calicut, is the commercial heart of northern Kerala, and a temperature data logger here mostly guards trades that have run through the same lanes for centuries: pepper and other spices, timber at Kallai, coconut oil and the sweetmeat shops of Mittai Theruvu. The harbour at nearby Beypore still builds and repairs wooden vessels, the fishing harbour at Puthiyappa lands the daily catch, and the tile works of Feroke and a cyber park add other trades. Large hospitals and a government medical college draw patients from several districts, and the airport at Karipur and the main rail line link the city to the Gulf and the rest of India. The loggers therefore end up in spice godowns, oil stores, fish rooms and hospital refrigerators. Prithvi supplies WiFi loggers for rooms and GSM loggers for vehicles and stores beyond a router.",
+            climateAngle:
+              "The monsoon here is long and heavy, the air is humid in every month and the dry weeks are short, so damp is the steady enemy of spices, oil and packaging while heat becomes the problem only in the weeks before the rains.",
+            areas: [
+              {
+                name: "Spice and coconut-oil trading lanes",
+                note: "Traders in the old city hold pepper, dried spices, copra and coconut oil in godowns behind shops, in buildings where several merchants may share one set of stores.",
+              },
+              {
+                name: "Kallai timber area",
+                note: "The riverside timber trade holds seasoned wood and plywood in yards and sheds where damp air from the river and the monsoon can warp stock and invite mould.",
+              },
+              {
+                name: "Beypore and Puthiyappa harbours",
+                note: "Boats land fish at Puthiyappa and wooden vessels are built at Beypore, with ice plants, cold stores and marine-supply stores around the harbours in salt-laden air.",
+              },
+              {
+                name: "Hospital and medical college belt",
+                note: "A government medical college hospital and several large private hospitals keep vaccines, blood components and medicines in many refrigerators serving the district and its neighbours.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Spice dealers, coconut-oil mills and fish processors hold stock that spoils in damp or warm air, and a humidity and temperature record shows an owner when to ventilate, move or sell a lot.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Godown operators and transporters move spices, oil and timber out by road and rail, and a logger in a consignment records how long it stood in a vehicle or a siding in the rain.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals in the city treat patients from several districts and keep vaccines and blood components in refrigerators across many floors, so alerts to a phone matter on every night shift.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine wholesalers supply chemists across the Malabar districts, and a record from each store shows that tablets and injectables stayed within their printed limits before they left on a van.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a spice godown or an oil store, where damp air reaching the stock is the danger.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels, one near the roof and one near the floor of a fish cold store, show whether the whole room is cooled or only the part nearest the unit.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a lorry or reports from a harbour store with no Wi-Fi, which suits spices and fish moving out of the city.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How can a logger help a spice trader in Kozhikode?",
+                answer:
+                  "A humidity record from the godown can be exported by lot and date, so a trader can answer a buyer's question about how the spices were kept through the rains before dispatch.",
+              },
+              {
+                question: "Can loggers be used in crowded godowns behind shops?",
+                answer:
+                  "Loggers are small and battery powered, so they hang from a shelf or stand on a rack without cabling, and we agree positions with the trader who holds the keys so neighbours need not share readings.",
+              },
+              {
+                question: "Do you visit the harbours at Beypore and Puthiyappa?",
+                answer:
+                  "Send the place, the store and a contact through the enquiry form, WhatsApp or a call, and we confirm how a visit would be arranged around the tides and trading hours.",
+              },
+              {
+                question: "Which logger suits a store with no Wi-Fi?",
+                answer:
+                  "A SIM-based Vayu logger reports over the mobile network, so a harbour or yard store can be watched without a router, and we confirm the choice after seeing the building.",
+              },
+            ],
+            nearby: [
+              { slug: "thrissur", name: "Thrissur" },
+              { slug: "kochi", name: "Kochi" },
+            ],
+            metaTitle: "Temperature Data Loggers in Kozhikode | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Kozhikode's spice godowns, oil stores, harbours and hospitals. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "thrissur",
+            name: "Thrissur",
+            type: "city",
+            intro:
+              "Thrissur sits in the middle of Kerala between Kochi and Kozhikode, and a temperature data logger here serves a town built in rings around the Vadakkunnathan temple and its great round, known for gold and jewellery as much as for its annual temple festival. Jewellers' workshops and showrooms line the streets of the old town, small and medium units make ayurvedic medicines, food products and engineering goods around Ollur and elsewhere, and an agricultural university and a veterinary college at Mannuthy add laboratories and farm stores. Large private hospitals draw patients from several districts, and paddy from the wetlands moves through the mills. The loggers therefore protect herbal-medicine stores, laboratory and hospital refrigerators and food godowns, in air that is humid for most of the year. Prithvi supplies WiFi loggers for stores with a network and GSM loggers for vans and distant depots, with alerts to phones and email.",
+            climateAngle:
+              "The air is humid in every month, the monsoon is long and heavy, and the dry spell before the rains is brief but hot, so herbal stocks and packaging must be guarded against damp for most of the year.",
+            areas: [
+              {
+                name: "Old-town jewellery streets",
+                note: "Workshops and showrooms around the round hold stock rooms and strongrooms with electronic equipment, where a hot or damp spell can harm instruments and packaging.",
+              },
+              {
+                name: "Ollur and the small-industry belt",
+                note: "Small and medium units make ayurvedic preparations, food products and engineering goods, and keep herbs, oils and packed stock in stores that turn humid in the rains.",
+              },
+              {
+                name: "Mannuthy campuses",
+                note: "The agricultural university and the veterinary college hold laboratories, seed and sapling stores and vaccine and serum refrigerators for long research projects.",
+              },
+              {
+                name: "Hospital and pharmacy district",
+                note: "Several large private hospitals and the wholesale pharmacies around them keep vaccines, blood components and medicines in refrigerators serving many districts.",
+              },
+            ],
+            industries: [
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Ayurvedic and medicine makers hold herbs, oils and packed preparations that spoil in damp air, and a humidity record shows a customer how stock was held before it left the store.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "University and veterinary laboratories keep vaccines, sera and samples in refrigerators and freezers, and a continuous log gives a supervisor evidence that conditions held through the monsoon.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Private hospitals draw patients from many districts and keep blood components and vaccines in refrigerators across wards, and a phone alert shows which unit is drifting in the small hours.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Rice millers, bakeries and packed-food makers hold stock that suffers in humid weather, and a temperature and humidity trend shows an owner when to ventilate or move a lot.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at a single point suit a herbal store or a laboratory cabinet, where moisture in the air is the main danger to the stock.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels let one logger watch several refrigerators in a hospital or university laboratory and report each unit separately.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a delivery van or reports from a depot without Wi-Fi, which suits medicines and food moving out to the surrounding districts.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a logger help an ayurvedic manufacturer in Thrissur?",
+                answer:
+                  "A humidity record from the herb and finished-goods stores can be exported by date, so a manufacturer can show a customer or a reviewer how the stock was held through the rainy months.",
+              },
+              {
+                question: "Do you visit Ollur and the small units around the town?",
+                answer:
+                  "Send the area, the unit and a contact through the enquiry form, WhatsApp or a call, and we confirm how a visit would be arranged for the small-industry belt around Thrissur.",
+              },
+              {
+                question: "Can several hospital buildings be watched from one account?",
+                answer:
+                  "Wards, pharmacies and laboratories become separate named locations, each with its own alert contacts, while a head of department can see every building together on a desktop.",
+              },
+              {
+                question: "How do loggers behave in a strongroom or a closed store?",
+                answer:
+                  "Battery loggers need no cable and report over the building's Wi-Fi, and where a closed room blocks the signal we move a logger or use a SIM-based Vayu unit, choosing after a short test on the visit.",
+              },
+            ],
+            nearby: [
+              { slug: "kochi", name: "Kochi" },
+              { slug: "kozhikode", name: "Kozhikode" },
+            ],
+            metaTitle: "Temperature Data Loggers in Thrissur | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Thrissur's ayurveda makers, hospitals, university labs and food godowns. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "kollam",
+            name: "Kollam",
+            type: "city",
+            intro:
+              "Kollam is the old port city of southern Kerala on the shore of Ashtamudi Lake, and it is known above all for cashew: factories in and around the city shell, grade and pack the nuts that come in by sea and by road. Fishing boats land their catch at the Neendakara harbour, coir is spun and woven along the lake and canals, and clay and ceramic works at Kundara and the mineral-sand and titanium-pigment works at Chavara add heavier trades. The railway junction and the national highway link the city to Thiruvananthapuram and Kochi. A temperature data logger in Kollam therefore watches packed cashew in humid stores, seafood in ice rooms and cold stores, drums in the mineral works and medicines in hospital pharmacies. Prithvi supplies WiFi loggers for rooms and GSM loggers for vehicles and harbour stores.",
+            climateAngle:
+              "The coast is warm and humid in every month, the monsoon is long and heavy, and salt in the air attacks metal and packaging, so humidity decides how packed cashew keeps while heat threatens the fish.",
+            areas: [
+              {
+                name: "Cashew factories and packing sheds",
+                note: "Factories around the city shell, dry and grade the nuts, and packing sheds hold finished cartons for export in air so damp that a sealed pack can still carry moisture.",
+              },
+              {
+                name: "Neendakara and Sakthikulangara harbours",
+                note: "Boats land fish at the harbours, and ice plants, cold stores and processors hold the catch before it is packed and sent inland or abroad in warm, salty air.",
+              },
+              {
+                name: "Kundara and the Chavara mineral belt",
+                note: "Ceramic works at Kundara and mineral-sand and pigment works at Chavara keep chemicals, bags and finished product in sheds that bake in the weeks before the rains.",
+              },
+              {
+                name: "Coir and lake-side workshops",
+                note: "Coir is spun, dyed and baled in workshops along the lake and canals, and bales of fibre and mats wait in sheds where damp can bring mould.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Cashew processors and seafood exporters hold goods that spoil in warm, damp air, and a record from each store and cold room shows an overseas buyer how a lot was kept before shipment.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Ceramic, pigment and mineral works keep bagged and drummed material with printed storage limits, and an alert from a baking shed lets the storekeeper act before the limit is crossed.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Carriers and godown operators move cashew, fish and coir out by road and rail, and a logger in the consignment records how long it stood in a siding or a vehicle.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals and a medical college serve the city and the districts around it, and alerts on a phone mean a failing refrigerator is noticed in a stormy night and not at the morning round.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a cashew packing shed or a coir store, where damp air reaching the cartons is the danger.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels at opposite ends of a fish cold room reveal whether the cold reaches the far wall or stops near the compressor.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger travels in a lorry or reports from a harbour store without Wi-Fi, which suits cashew and fish moving to the ports.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How can a logger help a cashew exporter in Kollam?",
+                answer:
+                  "A humidity and temperature record from the packing shed can be exported by lot and date, so an exporter can answer a buyer's question about moisture or odour on arrival with the actual record.",
+              },
+              {
+                question: "Do you visit Neendakara, Kundara and Chavara as well as the city?",
+                answer:
+                  "Send the place, the unit and a contact through the enquiry form, WhatsApp or a call, and we confirm how a visit would be arranged for the harbours and the industrial areas around Kollam.",
+              },
+              {
+                question: "How does salty air affect where loggers are placed?",
+                answer:
+                  "We keep loggers away from open doors and seaward walls where salt spray settles, and add a second probe at the far end of the room, so the record reflects the stored goods and not the corroding air by the door.",
+              },
+              {
+                question: "Can several cashew units be watched from one account?",
+                answer:
+                  "Every shed can be registered as its own site with its own alert contacts, so an owner of several sheds sees them together and can export one room's report on request.",
+              },
+            ],
+            nearby: [
+              { slug: "thiruvananthapuram", name: "Thiruvananthapuram" },
+              { slug: "kochi", name: "Kochi" },
+            ],
+            metaTitle: "Temperature Data Loggers in Kollam | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Kollam's cashew sheds, seafood cold stores, mineral works and hospitals. Get Solution.",
             indexable: true,
           },
         ],

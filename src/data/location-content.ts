@@ -82,7 +82,7 @@ export const locationContent: Record<string, LocationContent> = {
   },
   "india/kerala": {
     metaDescription:
-      "Temperature data loggers in Kerala: Kochi's seafood cold chain, port warehouses, spice trade and hospitals. Get Solution.",
+      "Temperature data loggers in Kerala: Kochi, Thiruvananthapuram, Kozhikode, Thrissur and Kollam's cold chain, labs and hospitals. Get Solution.",
     recommended: ["dhruva", "vayu", "virat"],
   },
   "india/goa": {
