@@ -10315,20 +10315,20 @@ export const locations: LegacyLocationNode[] = [
         name: "West Bengal",
         type: "state",
         intro:
-          "West Bengal's storage follows the river and the railway into Kolkata: godowns on the Howrah side, an industrial township at Kalyani, the logistics belt around Dankuni and port-side warehouses that handle goods bound inland and overseas. Cold stores for fish, dairy and sweets, medicine distributors and a large hospital sector complete the picture. The air is hot and humid for most of the year, the monsoon is long and pre-monsoon storms cut the power, so condensation and outages are as common a risk as heat. This regional page introduces the state in our map and links to the Kolkata city page, which holds the detail for the three industrial areas.",
+          "West Bengal's storage follows the river and the railway: godowns around Kolkata, an industrial township at Kalyani, the logistics belt around Dankuni and port-side warehouses, with the foundries and goods yards of Howrah across the Hooghly, the steel and power city of Durgapur inland, and Siliguri far to the north, where tea, medicines and trucks head for the hills. Cold stores for fish, dairy and sweets, medicine distributors and a large hospital sector complete the picture. The air is hot and humid for most of the year, the monsoon is long and pre-monsoon storms cut the power, so condensation and outages are as common a risk as heat. Each city page below lists its main trades and the rooms we would watch first.",
         localIndustries: [
           "Pharmaceutical distribution",
           "Food and cold storage",
           "Port logistics",
         ],
-        citiesServed: ["Kolkata"],
+        citiesServed: ["Kolkata", "Howrah", "Siliguri", "Durgapur"],
         supportNote:
           "Supply, installation support and site visits for West Bengal sites are arranged from our Mumbai office. Tell us the district and what the rooms hold.",
         faqs: [
           {
             question: "Which West Bengal locations have a page?",
             answer:
-              "Kolkata has a city page covering Howrah, Kalyani, Dankuni and the port-side warehouses. Further West Bengal cities are served on enquiry and may be written later.",
+              "Kolkata has a city page covering Howrah, Kalyani, Dankuni and the port-side warehouses, and Howrah, Siliguri and Durgapur each have a city page of their own. A site elsewhere in Bengal can be raised with us through the enquiry form.",
           },
           {
             question: "How are loggers protected through a storm outage?",
@@ -10343,6 +10343,9 @@ export const locations: LegacyLocationNode[] = [
         ],
         listing: [
           { slug: "kolkata", text: "An old port city of cold stores, medicine distributors, hospitals and godowns, with Howrah, Kalyani and Dankuni around it." },
+          { slug: "howrah", text: "The railway and foundry city across the Hooghly, with Dasnagar and Bantra workshops, rail goods yards and crowded wholesale lanes in damp air." },
+          { slug: "siliguri", text: "The gateway to the hills and the north-east, with tea packers, medicine distributors, hospitals and trucks climbing to mountain towns." },
+          { slug: "durgapur", text: "A planned steel and power city on the Damodar, with Fuljhore and Bamunara estates, plant laboratories and township hospitals." },
         ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,
@@ -10442,6 +10445,295 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Kolkata | Prithvi",
             metaDescription:
               "WiFi and GSM temperature data loggers for Kolkata's pharma distributors, cold stores and port warehouses, with site visits arranged. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "howrah",
+            name: "Howrah",
+            type: "city",
+            intro:
+              "Howrah is the industrial and railway city on the western bank of the Hooghly, linked to Kolkata by its famous steel bridge, and a temperature data logger here protects goods in a district of foundries, workshops, godowns and wholesale lanes. Engineering and fabrication works, some of them generations old, stand beside jute and packaging firms, while the great junction station and its goods yards feed trains in every direction. Industrial pockets such as Dasnagar and Bantra hold small and mid-sized factories, and busy markets supply the neighbourhoods around. The ground is low and the air is damp for most of the year. Prithvi supplies WiFi loggers for rooms with a network and GSM loggers for lorries, rail wagons and yards beyond it.",
+            climateAngle:
+              "Heat and damp hang over the low riverside ground for most months, the monsoon is long and pre-monsoon storms cut the power, so cartons take on moisture and metal stock rusts in stores that never fully dry.",
+            areas: [
+              {
+                name: "Dasnagar",
+                note: "A crowded industrial district of engineering workshops, fabricators and metal-goods makers, where steel stock and finished parts sit in sheds that trap damp from the river air.",
+              },
+              {
+                name: "Bantra",
+                note: "An industrial pocket with factories and godowns that supply goods across the region, on narrow approach roads where lorries queue to load.",
+              },
+              {
+                name: "Liluah and the railway workshops",
+                note: "Rail workshops and stores around Liluah hold electrical items, spares and supplies, with long-lived stock that must be kept dry for years.",
+              },
+              {
+                name: "Howrah station goods yards and wholesale lanes",
+                note: "Parcels, food and medicine arrive and leave by rail and lorry around the junction, and wholesalers keep stock in back rooms along lanes packed with traffic.",
+              },
+            ],
+            industries: [
+              {
+                slug: "electronics",
+                sentence:
+                  "Makers of electrical and control equipment keep boards, cables and instruments in stores where river damp causes corrosion, and a humidity trend shows when a store needs drying.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Wholesalers of food, sweets and dairy keep cold rooms and chillers in crowded lanes, and a record from each unit shows when a failure began during a night of storm and power cut.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine distributors supply chemists across the state from back rooms along the railway, and a dated log answers a buyer's question about a storage lapse.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods wait in sheds, yards and wagons around the junction before they move on, and a logger placed in the consignment shows how long it stood in humid heat.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity along with temperature at one point, which tells a spares store or a cold room when river damp has overcome a dehumidifier or a door seal.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels let a distributor watch a medicine room at two points, one near the door and one at the back, from a single device.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a lorry or a rail wagon and reports from yards and sheds where Wi-Fi does not reach.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Does damp from the river affect the choice of logger in Howrah?",
+                answer:
+                  "Damp is hard on exposed contacts, so we place the logger body away from wet floors and open doors and run only the probe cable into the cold or damp space, which keeps the record steady.",
+              },
+              {
+                question: "Can you cover Dasnagar, Bantra and Liluah in one trip?",
+                answer:
+                  "Send the units, the lanes and a contact at each through the enquiry form, WhatsApp or a call. The three lie close to one another, and we propose a sequence that follows the roads.",
+              },
+              {
+                question: "What happens to monitoring in a pre-monsoon storm cut?",
+                answer:
+                  "Loggers keep recording on their batteries during the cut and send stored readings when the network returns, and an alert for a lost mains supply reaches the person you named.",
+              },
+              {
+                question: "Can a Howrah firm and a Kolkata firm share one account?",
+                answer:
+                  "Yes. Each site, whether on this bank or the other, is a point on the same dashboard with its own alert contacts, and a head of operations sees them in one list.",
+              },
+            ],
+            nearby: [
+              { slug: "kolkata", name: "Kolkata" },
+              { slug: "haldia", name: "Haldia" },
+              { slug: "kharagpur", name: "Kharagpur" },
+            ],
+            metaTitle: "Temperature Data Loggers in Howrah | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Howrah's engineering works, rail goods yards, wholesale lanes and godowns. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "siliguri",
+            name: "Siliguri",
+            type: "city",
+            intro:
+              "Siliguri sits at the foot of the Himalaya in the narrow neck of land that joins the rest of India to the north-east, and a temperature data logger here serves a city of transit, tea and trade. Roads climb from the town to Darjeeling and Sikkim, others run east into Assam and north toward Nepal and Bhutan, and a railway junction and an airport serve the region. Tea is brokered, blended and packed in the city, timber and building material are traded, and wholesalers stock food, medicines and consumer goods for the hills and the north-east. Large hospitals and a medical college draw patients from several states. Prithvi supplies WiFi loggers for rooms with a network and GSM loggers for trucks and mountain stores.",
+            climateAngle:
+              "The plains below the hills are warm and very wet in the monsoon, winters are cool and misty, and the road up to the hills climbs through sharp temperature changes, so stock can pass from hot, damp air to cold within a single journey.",
+            areas: [
+              {
+                name: "Sevoke Road and Hill Cart Road",
+                note: "Warehouses, packaging firms, medicine dealers and tea blenders line the roads toward the hills, with goods loaded at all hours for mountain towns.",
+              },
+              {
+                name: "Matigara",
+                note: "An expanding area to the west with warehouses, factories and food makers on large plots, where distances between buildings suit wireless and GSM loggers.",
+              },
+              {
+                name: "Pradhan Nagar and Bidhan Market",
+                note: "Dense trading streets where wholesalers and shops keep food, garments and medicines in back rooms and chillers packed into small buildings.",
+              },
+              {
+                name: "Tea blending and packing houses",
+                note: "Houses that grade, blend and pack tea keep chests and cartons in stores where damp air is the main danger to quality and aroma.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Tea packers and food wholesalers hold stock that loses aroma and flavour in damp air, and a record of humidity and temperature shows when a store needs attention before a lot is spoiled.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine distributors supply chemists across the hills and the north-east from the city, and a continuous record answers a buyer's question about how a consignment was held on the way.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals and a medical college serve patients from Sikkim, Bhutan, Nepal and several states, and an alert to the duty staff covers the hours when mains and generator both fail.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Trucks leave the city for mountain towns and for Assam, and a logger placed in a consignment records the heat of the plain and the chill of the climb.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity and temperature at one point suit a tea store or a medicine godown, where the heavy air of the rainy months is what harms the stock.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger travels in a truck up the hill road and reports from mountain stores that no Wi-Fi network reaches.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an external probe fits a clinic fridge or a wholesaler's chiller and keeps a quiet, continuous record.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a logger help a tea packer in Siliguri?",
+                answer:
+                  "Yes. Tea takes up moisture from damp air, so a record of humidity and temperature in the store and the packing room shows when conditions drifted and which lots were exposed.",
+              },
+              {
+                question: "Can a distributor show how a consignment fared on the road to the hills?",
+                answer:
+                  "A GSM logger placed with the goods records readings along the journey, and the owner can open the route record on a phone and export it for the buyer.",
+              },
+              {
+                question: "Do you visit Matigara and the hill-road warehouses?",
+                answer:
+                  "Send the area, the warehouse and a contact through the enquiry form, WhatsApp or a call, and we confirm how a visit would be arranged. Sites on different roads are planned in one sequence.",
+              },
+              {
+                question: "Who calibrates loggers used in a Siliguri hospital?",
+                answer:
+                  "VEGA Calibrations, our parent company, handles calibration of loggers and probes, and the work can be booked alongside the supply and the first visit.",
+              },
+            ],
+            nearby: [
+              { slug: "kolkata", name: "Kolkata" },
+              { slug: "durgapur", name: "Durgapur" },
+            ],
+            metaTitle: "Temperature Data Loggers in Siliguri | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Siliguri's tea houses, medicine distributors, hospitals and hill-road warehouses. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "durgapur",
+            name: "Durgapur",
+            type: "city",
+            intro:
+              "Durgapur is a planned industrial city on the Damodar river in the Paschim Bardhaman district, and a temperature data logger here works in a town built around steel, power and heavy engineering. A large steel plant, thermal power stations, alloy and engineering works and chemical firms stand along the expressway, while the township holds colleges, a technology institute, hospitals and a busy commercial centre at Benachity and City Centre. Estates such as Fuljhore and Bamunara hold factories and godowns, and the Durgapur Expressway joins the city to Kolkata and to the coalfields, so goods and staff travel its length daily. Because plants are large and spread out, instrument rooms, laboratories and stores may sit far from any office. Prithvi supplies WiFi loggers for rooms with a network and GSM loggers for vehicles, yards and remote stores.",
+            climateAngle:
+              "Summers are hot, the monsoon is humid and heavy and winters are mild, so electrical rooms and chemical stores face heat and damp in turn, and laboratories need steady air all year.",
+            areas: [
+              {
+                name: "Fuljhore industrial estate",
+                note: "An estate of engineering and fabrication works, food makers and godowns that supply the steel and power plants and the markets of the district.",
+              },
+              {
+                name: "Bamunara",
+                note: "An industrial area with factories and storage sheds beside the main roads, where road transport brings in raw material and takes finished goods out, and lorries wait at the gates for their loads through the hot afternoons.",
+              },
+              {
+                name: "Steel and power works along the expressway",
+                note: "Large plants keep stores of spares, instruments, laboratory reagents and electrical panels on wide campuses, with rooms that must stay dry through the monsoon.",
+              },
+              {
+                name: "Benachity and City Centre",
+                note: "Shops, clinics, hospitals and restaurants fill the commercial centre, with pharmacy fridges, kitchen coolers and server cupboards behind each frontage.",
+              },
+            ],
+            industries: [
+              {
+                slug: "chemical",
+                sentence:
+                  "Chemical and alloy works keep drums, bags and reagents with printed storage limits, and an alert from a hot store room lets the storekeeper act before material is spoiled.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "Plant, institute and hospital laboratories keep samples, standards and reagents in fridges and cabinets with their own limits, and an exported log is ready on the day an inspector calls.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Township hospitals and clinics serve a wide district, and an alert on a phone means a failing blood or vaccine refrigerator is noticed in the night and not at the morning round.",
+              },
+              {
+                slug: "electronics",
+                sentence:
+                  "Control rooms and electrical stores in the plants hold relays, boards and instruments that suffer in damp air, so a humidity trend shows when a room needs drying before relays and instruments are affected.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels watch a laboratory or a chemical store at two heights at once, which shows whether heat gathers near the roof of a stacked room.",
+              },
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels cover a wide plant warehouse or an instrument store across racks and bays, so one report shows the whole building.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger with an external probe reports from a vehicle or a yard store on a big campus where Wi-Fi does not reach.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How do loggers suit a big plant campus in Durgapur?",
+                answer:
+                  "Stores and laboratories can be far apart, so battery loggers with a network link need no cable run. Where signal is weak, a GSM logger reports over the mobile network, and every room appears on one dashboard.",
+              },
+              {
+                question: "Do you visit Fuljhore and Bamunara as well as the township?",
+                answer:
+                  "Send the estate, the unit and a contact who will meet us through the enquiry form, WhatsApp or a call, and we confirm how a visit would be arranged.",
+              },
+              {
+                question: "Do plant safety rules affect a visit?",
+                answer:
+                  "Yes, and we plan around them. Tell us about passes, briefings or protective equipment in advance and we keep the equipment list short.",
+              },
+              {
+                question: "Who handles calibration of loggers used in a plant laboratory?",
+                answer:
+                  "VEGA Calibrations, our parent company, can calibrate the loggers and carry out temperature mapping, and the work can be planned together with the visit.",
+              },
+            ],
+            nearby: [
+              { slug: "asansol", name: "Asansol" },
+              { slug: "kolkata", name: "Kolkata" },
+            ],
+            metaTitle: "Temperature Data Loggers in Durgapur | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Durgapur's steel and power plants, laboratories, hospitals and estates. Get Solution.",
             indexable: true,
           },
         ],
