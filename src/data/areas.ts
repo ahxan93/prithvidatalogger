@@ -7257,7 +7257,7 @@ export const areas: AreaDef[] = [
   { slug: "ajman-free-zone", name: "Ajman Free Zone", citySlug: "ajman", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","electronics","food-beverage"], confirmedService: true, hero: ["rajmudra","setu"], page: {
       "metaTitle": "Data Loggers in Ajman Free Zone | Prithvi",
       "metaDescription": "Data loggers for warehouse units, stock rooms and offices in the Ajman Free Zone near the port, in humid Gulf heat. Get Solution.",
-      "intro": "The Ajman Free Zone stands near the city's port, a compact set of offices, warehouse units and light-industrial plots very close to the sea. A temperature data logger in a coastal free zone watches the stock that small trading and making firms keep on hand: electronic parts, household goods, food and packaging, all held in stock rooms and light warehouses in air that is hot, humid and salty. The text below is limited to the stock and rooms that a logger user in the Ajman Free Zone could look after. Enquiries about the Ajman Free Zone are handled through the enquiry form, Call or WhatsApp.",
+      "intro": "The Ajman Free Zone stands near the city's port, a compact set of offices, warehouse units and light-industrial plots very close to the sea. A temperature data logger in a coastal free zone watches the stock that small trading and making firms keep on hand: electronic parts, household goods, food and packaging, all held in storerooms and light warehouses in air that is hot, humid and salty. The text below is limited to the stock and rooms that a logger user in the Ajman Free Zone could look after. Enquiries about the Ajman Free Zone are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
           "name": "Warehouse units near the port",
@@ -7371,7 +7371,7 @@ export const areas: AreaDef[] = [
         },
         {
           "name": "Ingredient and component stores",
-          "note": "Components, resins and additives sit between delivery and use, and a few carry limits that a coastal summer will break."
+          "note": "Components, resins and additives sit between arrival and use, and a few carry limits that a coastal summer will break."
         },
         {
           "name": "Outbound sheds and loading bays",
