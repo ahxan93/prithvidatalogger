@@ -7353,20 +7353,20 @@ export const locations: LegacyLocationNode[] = [
         name: "Punjab",
         type: "state",
         intro:
-          "Punjab is known for its fields, and the grain, dairy and food firms that handle the harvest have storage of their own, but the part of the state we have written about first sits at its north-eastern corner, in Mohali, the planned town that adjoins Chandigarh. Pharmaceutical units, electronics makers, technology parks, research institutes and large hospitals stand there on regular plots, and the town has its own airport and a quick road to the capital of two states. Summers are hot and dry, winter nights are cold and foggy, and the monsoon rains arrive heavily at the foothills. This regional page places Punjab on our map and links to the Mohali city page, which holds the detail for its industrial areas, rooms and loggers.",
+          "Punjab is known for its fields, and the grain, dairy and food firms that handle the harvest keep storage of their own, but its cities each add a different trade: Ludhiana's knitwear, hand tools and auto parts, Amritsar's hotels, kitchens and border road, Jalandhar's sports goods and leather, Patiala's hospitals, laboratories and rice mills, and Mohali beside Chandigarh, where pharmaceutical units, electronics makers and research institutes stand on regular plots. Summers are hot and dry, winter nights are cold and foggy, and the monsoon arrives heavily at the foothills. The pages below take each city in turn, with its estates, its rooms and the loggers that suit them.",
         localIndustries: [
           "Pharmaceutical manufacturing",
           "Electronics and technology parks",
           "Hospitals and research institutes",
         ],
-        citiesServed: ["Mohali"],
+        citiesServed: ["Mohali", "Ludhiana", "Amritsar", "Jalandhar", "Patiala"],
         supportNote:
           "Supply, installation support and site visits for Punjab sites are arranged from our Mumbai office. Tell us the town, the unit and what the rooms hold.",
         faqs: [
           {
             question: "Which Punjab locations have a page?",
             answer:
-              "Mohali has a city page. Other towns of the state are not yet written up, though enquiries from them are welcome, and the neighbouring Chandigarh and Panchkula pages cover the rest of the tricity.",
+              "Mohali, Ludhiana, Amritsar, Jalandhar and Patiala each have a city page, and the neighbouring Chandigarh and Panchkula pages cover the rest of the tricity. Enquiries from other Punjab towns are welcome.",
           },
           {
             question: "Why does Punjab start with Mohali?",
@@ -7381,6 +7381,10 @@ export const locations: LegacyLocationNode[] = [
         ],
         listing: [
           { slug: "mohali", text: "A planned town beside Chandigarh whose industrial phases, technology parks, pharmaceutical units, institutes and hospitals keep rooms to written limits." },
+          { slug: "ludhiana", text: "The hosiery, hand-tool and auto-part city, with Focal Point estates, dye works, cloth markets, dairies and hospitals in dry heat and winter fog." },
+          { slug: "amritsar", text: "The pilgrimage city with hotel and temple kitchens, sweet and dry-fruit trades, Attari road godowns, hospitals and woollen bazaars." },
+          { slug: "jalandhar", text: "The Doaba centre of sports goods, leather, hand tools and surgical instruments, with Focal Point units and a cantonment." },
+          { slug: "patiala", text: "The old royal city of a medical college, university laboratories, rice mills and bazaars, on the road to Chandigarh and Haryana." },
         ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,
@@ -7485,6 +7489,394 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Mohali | Prithvi",
             metaDescription:
               "WiFi and GSM temperature data loggers for Mohali's pharma units, technology parks, institutes and hospitals, with site visits. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "ludhiana",
+            name: "Ludhiana",
+            type: "city",
+            intro:
+              "Ludhiana is the great manufacturing city of the Punjab plains, and a temperature data logger here protects stock in a place where thousands of workshops and mills turn out knitwear, hosiery, hand tools, bicycle and auto parts, sewing machines and machine tools. Cloth is dyed and finished in processing houses, steel is re-rolled and forged, and the Focal Point estates, with their numbered phases, and the older industrial areas fill the city's edge, and trucks leave at all hours for ports and markets across the country. Wholesale cloth markets crowd the old town, while hospitals, an agricultural university and a food and dairy trade serve the farms around. Prithvi supplies WiFi loggers for mills and stores with a network and GSM loggers for vehicles, yards and distant sheds.",
+            climateAngle:
+              "Summers are hot and dry, the monsoon brings a few damp weeks and winter nights turn cold and foggy, so woollen stock, dye chemicals and cold rooms face dry heat, damp and low temperatures within one year.",
+            areas: [
+              {
+                name: "Focal Point phases",
+                note: "The planned estates hold hosiery, hand-tool, auto-part and engineering units on regular plots, with stores of yarn, steel and finished goods in sheds that heat under metal roofs.",
+              },
+              {
+                name: "Dhandari, Sherpur and Jamalpur",
+                note: "Industrial pockets on the edges of the city hold dyeing and processing houses, forges and foundries, with chemical stores and yarn godowns beside busy roads.",
+              },
+              {
+                name: "Old-town cloth markets",
+                note: "Wholesalers around Chaura Bazaar stock knitwear, shawls and fabric in crowded multi-storey buildings, where bales sit in upper rooms that are hot in summer and damp in the rains.",
+              },
+              {
+                name: "Dairy, food and hospital belt",
+                note: "Dairies, bakeries and sweet makers supply the city each morning, while two large private medical-college hospitals and other hospitals keep blood, vaccines and medicines.",
+              },
+            ],
+            industries: [
+              {
+                slug: "textile",
+                sentence:
+                  "Knitwear mills and yarn dealers store wool, cotton and finished garments that suffer in damp air and fade in heat, and a record of humidity and temperature shows when a store drifted before a season's stock was affected.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Dyeing, plating and processing works keep drums, bags and reagents with printed storage limits, and an alert from a hot store room lets the storekeeper act before material is spoiled.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Dairies, bakeries and sweet makers run chillers and cold rooms through long hot spells, and an alert on a phone reaches the owner when a unit warms during the night.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Large hospitals serve patients from many districts, and a dated record backs each shift handover for blood units, vaccines and medicines.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity along with temperature at one point, which is what a wool store or a garment godown needs in the weeks of monsoon damp.",
+              },
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels cover a large mill store or a multi-storey cloth warehouse at several heights, so one report shows hot upper rooms and damp lower ones.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a truck of garments or reports from a distant shed without Wi-Fi, and sends alerts to a phone.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a hosiery exporter show a buyer how a lot was stored?",
+                answer:
+                  "Yes. A record of temperature and humidity from the store, exported as PDF, Excel or CSV for the dates the lot stood there, answers a buyer's query about damp or heat without a search through paper.",
+              },
+              {
+                question: "Do you visit the Focal Point phases and the outer industrial pockets?",
+                answer:
+                  "Write to us with the estate, the unit and a name to ask for, by the enquiry form, WhatsApp or a call, and we fix a day. Units on opposite sides of the city are strung together on one trip so nobody is visited twice.",
+              },
+              {
+                question: "How are alerts set for a cold winter and a hot summer?",
+                answer:
+                  "A room can be too warm in June and too cold in January, so we suggest low and high limits, with a short delay on the high limit, which catches a warming room without sounding for every open door.",
+              },
+              {
+                question: "Who calibrates loggers used in a Ludhiana hospital or laboratory?",
+                answer:
+                  "Calibration for a Ludhiana hospital or laboratory comes from VEGA Calibrations, our parent company, and the date can be fixed with the supply order.",
+              },
+            ],
+            nearby: [
+              { slug: "jalandhar", name: "Jalandhar" },
+              { slug: "patiala", name: "Patiala" },
+              { slug: "mohali", name: "Mohali" },
+              { slug: "chandigarh", name: "Chandigarh" },
+            ],
+            metaTitle: "Temperature Data Loggers in Ludhiana | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Ludhiana's knitwear mills, dye works, dairies, cloth markets and hospitals. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "amritsar",
+            name: "Amritsar",
+            type: "city",
+            intro:
+              "Amritsar is the holy city of the Golden Temple, near the Wagah and Attari border, and a temperature data logger here serves a city of pilgrimage, hospitality, trade and food. Visitors arrive in great numbers throughout the year, so hotels, restaurants, sweet shops and the community kitchens that feed the faithful cook at great volume. Woollen shawls, carpets and textiles are traded in the old bazaars, and the Amritsari trade in papad, wadi, pickles and dry fruit sends goods across India. The Attari road carries trucks of fresh and dry goods toward the border, and hospitals and a medical college serve the districts around. Prithvi supplies WiFi loggers for kitchens and rooms with a network and GSM loggers for trucks and godowns.",
+            climateAngle:
+              "Summers are very hot, the monsoon turns the air heavy and winter mornings are cold and foggy, so kitchens and sweet makers fight heat for months while dry fruit and textile stores watch for damp.",
+            areas: [
+              {
+                name: "Walled city and temple lanes",
+                note: "Hotels, sweet shops, dhabas and guesthouses around the shrine work in narrow lanes, with coolers and stock rooms fitted into old buildings and opened all day.",
+              },
+              {
+                name: "Focal Point and Majitha Road",
+                note: "Industrial estates on the edge of the city hold food processors, textile and engineering works and godowns, with trucks loading at all hours.",
+              },
+              {
+                name: "Katra Jaimal Singh and Hall Bazaar",
+                note: "Wholesale lanes stock dry fruit, spices, textiles and garments in crowded multi-storey buildings, with upper rooms that bake in summer.",
+              },
+              {
+                name: "Attari road warehouses",
+                note: "Godowns and truck yards along the road toward the border hold fresh produce, dry fruit and packed goods that wait for loading and for clearance.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Hotels, sweet makers, papad and wadi producers and kitchens that cook for pilgrims run on coolers and cold rooms, and a record from each unit shows exactly when one failed during a festival rush.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A medical college and many private hospitals serve patients from Punjab and across the border region, and an alert to the duty staff covers the minutes between a mains failure and the generator.",
+              },
+              {
+                slug: "textile",
+                sentence:
+                  "Shawl, woollen and garment traders keep bales in upper rooms that are hot in summer and damp in the rains, and a humidity trend shows when stock needs moving or airing.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Trucks of fresh and dry goods move through Attari and the city yards, and a logger placed with a consignment records how long it stood in the sun before it crossed or moved on.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an external probe fits a sweet-shop chiller or a hotel walk-in without changing how the unit is used on a busy day.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a dry-fruit or textile store, where damp air in the rainy weeks is what harms the stock.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger travels in a truck on the Attari road and reports from yards that have no network of their own.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a sweet maker near the temple be alerted if a chiller fails at night?",
+                answer:
+                  "Yes. The named person is alerted by phone and email as soon as a chiller crosses its limit, and a second contact can take over if the first does not respond.",
+              },
+              {
+                question: "Can a trader show how dry fruit or produce was held before moving toward the border?",
+                answer:
+                  "A logger placed in the store or the consignment records temperature and humidity while the goods wait, and the report can be exported for the dates the lot stood there.",
+              },
+              {
+                question: "Do you visit the estates on the outskirts as well as the old city?",
+                answer:
+                  "Tell us the estate or lane, the unit and a person to meet, using the enquiry form, WhatsApp or a call, and we propose a date. Narrow lanes in the old city are worth mentioning when you write.",
+              },
+              {
+                question: "Can calibration for a hospital laboratory in Amritsar be arranged?",
+                answer:
+                  "VEGA Calibrations, our parent company, can calibrate loggers and probes, and the work can be planned with the supply and the first visit.",
+              },
+            ],
+            nearby: [
+              { slug: "jalandhar", name: "Jalandhar" },
+              { slug: "ludhiana", name: "Ludhiana" },
+            ],
+            metaTitle: "Temperature Data Loggers in Amritsar | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Amritsar's hotels, sweet makers, dry-fruit stores, hospitals and Attari road godowns. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "jalandhar",
+            name: "Jalandhar",
+            type: "city",
+            intro:
+              "Jalandhar is a city of the Doaba plains famous for sports goods, and a temperature data logger here serves a trading and manufacturing centre that exports far beyond Punjab. Cricket bats, hockey sticks, footballs and other sports equipment are made in the workshops of the Sports and Surgical Complex, leather goods are tanned and finished at the Leather Complex, and hand tools, surgical instruments, rubber goods and auto parts come from the Focal Point and the older industrial areas. Export orders leave in sealed containers for buyers abroad, so goods wait in sheds before loading. Wholesale markets, a cantonment, hospitals and a food and dairy trade complete the picture. Prithvi supplies WiFi loggers for rooms and stores with a network and GSM loggers for trucks, yards and outlying sheds.",
+            climateAngle:
+              "Summers are hot and dry, monsoon weeks bring damp that harms leather and wood, and winter mornings are cold and foggy, so stores of hides, bats and rubber goods meet dryness and damp in turn.",
+            areas: [
+              {
+                name: "Sports and Surgical Complex",
+                note: "Workshops here make bats, sticks, balls and surgical instruments, with seasoned wood, leather and packed export cartons stored in sheds that must not dry too fast or take damp.",
+              },
+              {
+                name: "Leather Complex",
+                note: "Tanneries and finishers keep hides, chemicals and finished goods in stores that need a watch on humidity, with export packing waiting for a container.",
+              },
+              {
+                name: "Focal Point and industrial areas",
+                note: "Hand-tool, rubber, auto-part and engineering units on regular plots hold steel, raw material and finished goods in sheds that heat in summer.",
+              },
+              {
+                name: "Cantonment, markets and hospitals",
+                note: "The cantonment, the city markets and several hospitals sit close together, with pharmacy fridges, kitchen coolers and blood storage behind each frontage.",
+              },
+            ],
+            industries: [
+              {
+                slug: "chemical",
+                sentence:
+                  "Tanning chemicals, adhesives and finishing materials are stored in drums and bags with printed limits, and an alert from a hot store lets the storekeeper act before material is wasted.",
+              },
+              {
+                slug: "textile",
+                sentence:
+                  "Leather, rubber and fabric goods suffer in damp and heat, and a record of humidity and temperature in the store shows when a lot was exposed before it was packed.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Dairies, bakeries and sweet makers supply the city and the Doaba villages, and a record from each chiller shows when a unit failed during a long hot spell.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals serve patients from the surrounding districts, and an alert on a phone means a failing vaccine or blood refrigerator is found in the night and not at the morning round.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity and temperature at one point suit a leather store or a sports-goods godown, where damp air is the main danger to the stock.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels give a hospital pharmacy or a dairy a paired record from one device, with one probe near the door and one at the back.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a container lorry and reports from sheds that have no network, with an alert to a phone when a reading drifts.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a sports-goods exporter record the humidity in which bats and balls were packed?",
+                answer:
+                  "Yes. A record from the seasoning shed, the packing hall and the container shows what the goods experienced, and it can be exported for the dates of a shipment.",
+              },
+              {
+                question: "How does a logger help a leather finisher?",
+                answer:
+                  "Hides and finished leather react to humidity, so a trend from the store shows when conditions drifted, and an alert prompts the staff to adjust ventilation or move stock.",
+              },
+              {
+                question: "Do you visit the two complexes and the Focal Point in one trip?",
+                answer:
+                  "Send the units and a contact at each through the enquiry form, WhatsApp or a call, and we propose an order that follows the roads.",
+              },
+              {
+                question: "Who calibrates loggers used by a Jalandhar surgical-goods maker or hospital?",
+                answer:
+                  "VEGA Calibrations, our parent company, can calibrate the loggers and probes, and the work can be planned together with the first visit.",
+              },
+            ],
+            nearby: [
+              { slug: "ludhiana", name: "Ludhiana" },
+              { slug: "amritsar", name: "Amritsar" },
+            ],
+            metaTitle: "Temperature Data Loggers in Jalandhar | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Jalandhar's sports-goods makers, leather works, Focal Point units and hospitals. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "patiala",
+            name: "Patiala",
+            type: "city",
+            intro:
+              "Patiala is the former princely capital of the Malwa plains, with its fort, markets and wide university campuses, and a temperature data logger here serves a city of trade, learning and agriculture. A state university, an engineering institute, a government medical college with its large hospital and many private clinics fill the town with laboratories and pharmacies, while the old bazaars supply the countryside. Rice mills, food processors and dairies handle the farm harvest, and a railway works and small industrial estates add engineering. Many students live in hostels and rented rooms, and their messes and canteens cook from walk-in coolers and dry stores. Roads link the city to Chandigarh, to Rajpura and toward Haryana and Delhi. Prithvi supplies WiFi loggers for labs and rooms with a network and GSM loggers for vehicles and distant godowns.",
+            climateAngle:
+              "Summers are very hot, the monsoon brings damp to mills and godowns and winter mornings are cold with dense fog, so grain stores, vaccine fridges and cold rooms meet heat, damp and cold in turn.",
+            areas: [
+              {
+                name: "Old city bazaars",
+                note: "Adalat Bazaar and the lanes around the fort hold wholesalers of cloth, utensils, food and medicines, in crowded buildings where stock rooms are hot and chillers run all day.",
+              },
+              {
+                name: "Medical college and hospital belt",
+                note: "The government medical college hospital and nearby private hospitals keep blood, vaccines and medicines in refrigerators that serve patients from several districts.",
+              },
+              {
+                name: "University and institute campuses",
+                note: "Laboratories on wide campuses hold samples, reagents and food in fridges and cabinets that need their own limits and are far from any office.",
+              },
+              {
+                name: "Rice mills and food processors",
+                note: "Mills and processors on the edges of the city hull, pack and store grain and food, in godowns where monsoon damp threatens sacks.",
+              },
+            ],
+            industries: [
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A large teaching hospital and private hospitals hold blood units and vaccines for a wide region, and an alert to the duty staff covers the minutes between a mains failure and the generator.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "University, institute and hospital laboratories keep samples and reagents with their own limits, and an exported log is ready for a research audit or an inspector.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Rice millers, dairies and food packers hold ingredients and cartons that spoil in damp heat, and an alert on a phone reaches the owner on a holiday.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Carriers and godown operators move grain and packed food toward Chandigarh and Delhi, and a logger in the consignment records how long it stood in a yard in the sun.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an external probe slots into a laboratory freezer or a clinic refrigerator, and its quiet record needs no attention between visits.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity along with temperature at one point tells a rice mill or a grain godown when the monsoon has beaten its ventilation.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels give a hospital store or a cold room a paired record from one device, such as one probe at the top and one at the bottom.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a university laboratory in Patiala export a log for a project review?",
+                answer:
+                  "Yes. A report for any freezer, fridge or room and any period can be exported as PDF, Excel or CSV, so a project coordinator can hand over a dated record on request.",
+              },
+              {
+                question: "How does a logger help a rice miller near Patiala?",
+                answer:
+                  "A record of humidity and temperature in the godown shows when damp began to reach the sacks, so staff can cover, dry or move stock before it is damaged.",
+              },
+              {
+                question: "Can Patiala and Mohali sites be watched together?",
+                answer:
+                  "Yes. Every unit is a site on one account with its own alert contacts, so a group quality head can see sites in both towns in a single list.",
+              },
+              {
+                question: "Who calibrates loggers used in a Patiala hospital?",
+                answer:
+                  "VEGA Calibrations, our parent company, handles calibration of loggers and probes, and the work can be arranged alongside the supply.",
+              },
+            ],
+            nearby: [
+              { slug: "rajpura", name: "Rajpura" },
+              { slug: "mohali", name: "Mohali" },
+              { slug: "ludhiana", name: "Ludhiana" },
+              { slug: "chandigarh", name: "Chandigarh" },
+            ],
+            metaTitle: "Temperature Data Loggers in Patiala | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Patiala's hospitals, university laboratories, rice mills and bazaars. Get Solution.",
             indexable: true,
           },
         ],
