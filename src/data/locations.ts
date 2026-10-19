@@ -20443,7 +20443,7 @@ export const locations: LegacyLocationNode[] = [
       {
         question: "Do you cover emirates other than Dubai?",
         answer:
-          "Abu Dhabi, Dubai, Sharjah, Ajman, Umm Al Quwain and Ras Al Khaimah each have their own emirate page with city and area pages beneath. For another emirate, send the site and what you store through the enquiry form, Call or WhatsApp, and we reply with what looks suitable.",
+          "Every emirate from Abu Dhabi to Fujairah has its own emirate page with city and area pages beneath. For another emirate, send the site and what you store through the enquiry form, Call or WhatsApp, and we reply with what looks suitable.",
       },
       {
         question: "Can a hotel group see every property on one dashboard?",
@@ -20462,6 +20462,7 @@ export const locations: LegacyLocationNode[] = [
       { slug: "ajman-emirate", text: "Ajman's creek city, the Al Jurf Industrial Area and the Ajman Free Zone, in hot, humid Gulf summers." },
       { slug: "umm-al-quwain-emirate", text: "Umm Al Quwain's mangrove-lagoon town and its free-trade zone beside the Gulf, in humid summer heat." },
       { slug: "ras-al-khaimah-emirate", text: "Ras Al Khaimah's creek city, RAKEZ, the Al Ghail Industrial Area and Al Jazirah Al Hamra, below the Hajar mountains." },
+      { slug: "fujairah-emirate", text: "Fujairah's Gulf of Oman city, Dibba Al Fujairah, the Fujairah Free Zone and the Port of Fujairah, below the Hajar mountains." },
       { slug: "abu-dhabi-emirate", text: "Abu Dhabi's island city, Mussafah, ICAD, KIZAD, Khalifa Port and Ghantoot, in very hot, humid Gulf heat." },
     ],
     indexable: true,
@@ -21176,7 +21177,7 @@ export const locations: LegacyLocationNode[] = [
           {
             question: "Which places in Sharjah Emirate have a page?",
             answer:
-              "Sharjah, Khor Fakkan and Kalba each have a city page, and Sajaa Industrial Area, SAIF Zone, Hamriyah Free Zone and Muwaileh have area pages under Sharjah. A place not listed here can be raised through the enquiry form.",
+              "Sharjah, Khor Fakkan and Kalba each have a city page, and Sajaa Industrial Area, SAIF Zone, Hamriyah Free Zone and Muwaileh have area pages under Sharjah. Another town on the east coast can be raised through the enquiry form.",
           },
           {
             question: "Does an east-coast site need a different set-up from the city?",
@@ -21605,7 +21606,7 @@ export const locations: LegacyLocationNode[] = [
               {
                 question: "Can an Ajman fish seller or supermarket use temperature loggers?",
                 answer:
-                  "A logger in each ice store, cooler and freezer records through the day and night, and a report for any period can be exported in PDF, Excel or CSV form for a buyer or an inspector.",
+                  "A logger in every ice store, cooler and freezer logs through day and night, and a report for any chosen period can be saved as a PDF, Excel or CSV file for a buyer or an inspector.",
               },
               {
                 question: "Why does a store near the creek need a humidity reading?",
@@ -21912,6 +21913,244 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Ras Al Khaimah | Prithvi",
             metaDescription:
               "Data loggers for Ras Al Khaimah's factories, warehouses, resort kitchens and clinics between the Gulf and the Hajar mountains. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "fujairah-emirate",
+        name: "Fujairah Emirate",
+        type: "state",
+        intro:
+          "Fujairah Emirate stretches along the Gulf of Oman side of the Emirates, a narrow green-and-grey strip where the Hajar mountains drop almost to the water. Fujairah city, its main town, lies on a flat shore of beaches, farms and a deep-water harbour, while Dibba Al Fujairah sits in a bay at the northern end of the coast, beneath steep peaks. Fishing boats, date and vegetable farms, dive centres, hotels and small workshops share the narrow plain. Summers are hot and very humid, winters mild, and sudden showers run off the mountains. Food, fish, medicines and port-side cargo all need steady storage. The pages below cover the two towns and two port-side districts.",
+        localIndustries: [
+          "Fish, farm produce and food stores",
+          "Port-side and free-zone warehousing",
+          "Hotels, dive centres and visitor kitchens",
+          "Clinics, hospitals and pharmacies",
+        ],
+        citiesServed: ["Fujairah","Dibba Al Fujairah"],
+        supportNote:
+          "Enquiries from Fujairah Emirate are handled through the enquiry form, Call or WhatsApp. Say which town, which rooms and how they are cooled, and we answer with what looks suitable for the site.",
+        faqs: [
+          {
+            question: "Which places in Fujairah Emirate have a page?",
+            answer:
+              "Fujairah and Dibba Al Fujairah each have a city page, and the Fujairah Free Zone and the Port of Fujairah have area pages under Fujairah. A place not listed here can be raised through the enquiry form.",
+          },
+          {
+            question: "How does mountain rain affect a store on the coastal strip?",
+            answer:
+              "Showers on the Hajar slopes run down to the narrow plain in minutes and can reach low rooms and cut the power, so a logger mounted above the likely water line with a battery inside keeps the record of what happened.",
+          },
+          {
+            question: "Is one dashboard enough for sites in both towns?",
+            answer:
+              "Yes. Each site is a separate point on one dashboard, alerts go to whoever is responsible for each room, and a manager can see both towns together in one exported report.",
+          },
+        ],
+        listing: [
+          { slug: "fujairah", text: "A Gulf of Oman coastal city of beaches, farms, a fort and a deep-water harbour, with fish markets, hotels and hot, humid summers." },
+          { slug: "dibba", text: "A bay town at the northern end of the emirate's coast beneath steep peaks, with fishing boats, dive centres, date farms and clinics." },
+        ],
+        areaListing: [
+          { slug: "fujairah-free-zone", text: "A free zone beside the city's harbour, with warehouse units and offices for trading and light-industrial firms." },
+          { slug: "port-of-fujairah", text: "The deep-water harbour of Fujairah, where cargo, food and supplies wait on quays and in sheds in warm, salty air." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "fujairah",
+            name: "Fujairah",
+            type: "city",
+            intro:
+              "Fujairah is the main city of the Emirates' Gulf of Oman coast, a flat shore of beaches, farms and an old fort with the Hajar mountains rising close behind, and a temperature data logger here serves a city of fish markets, hotels, hospitals and port-side warehouses in hot, humid air. Boats land fish on the beach each morning, farms on the plain grow vegetables and dates, and visitors come for the diving and the sea. A deep-water harbour and a free zone lie along the coast, with workshops and stores close by. Summer is hot and very damp, winters are mild, and showers run off the mountains in sudden bursts. Enquiries from Fujairah are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The east coast is hot and very humid for most of the year, the mountains stand close behind and bring sudden heavy showers, and the sea air carries salt onto every shed, so ice rooms, hotel kitchens and clinic refrigerators work through long warm spells. Water running off the slopes can reach low rooms, power cuts come with storms, and a cold store that fails in the afternoon can lose its contents before the evening shift arrives.",
+            areas: [
+              {
+                name: "The fish market and ice stores",
+                note: "Boats land the catch on the beach and at the market, where ice stores and cold rooms hold it through the hottest part of the day in damp, salty air.",
+              },
+              {
+                name: "Farms and produce sheds on the plain",
+                note: "Growers of vegetables, dates and fodder keep their harvest in sheds and small cool rooms, where heat after picking and flood damp both threaten quality.",
+              },
+              {
+                name: "Hotels, dive centres and visitor kitchens",
+                note: "Hotels and dive centres run walk-in coolers, freezers and dry stores for guests, and the cooling works hardest when the rooms are full.",
+              },
+              {
+                name: "Hospitals, clinics and pharmacies",
+                note: "A hospital, clinics and pharmacies keep vaccines, insulin and medicines in refrigerators that must hold a range through power interruptions.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Fujairah fish sellers, growers, hotel kitchens and grocers hold goods that spoil quickly in coastal heat, and a record from each ice store shows when a cold box began to warm.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The Fujairah hospital and clinics hold vaccines for the city and the mountain villages, and a phone alert reaches the right person if a refrigerator drifts overnight.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies and medicine distributors in Fujairah store stock to labelled ranges, and a dated log shows how a room behaved through the hottest weeks and any storm outage.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods held in warehouses near the harbour meet salty, humid air, and a logger placed among them records the heat and moisture each lot met.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels read a fish room at the door end and the far wall, showing whether the chill reaches the back boxes.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single probe on a short lead slips into a clinic or hotel refrigerator in Fujairah and leaves daily routines unchanged.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity shown beside temperature reveals when damp sea air has got into a dry store that looks fine on a thermometer.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Fujairah fish seller or hotel keep a temperature record?",
+                answer:
+                  "A logger in each ice store, cooler and freezer records through the day and night, and a report for any period can be exported in PDF, Excel or CSV form for a buyer or an inspector.",
+              },
+              {
+                question: "Why mount a logger above the likely water line on the east coast?",
+                answer:
+                  "Showers on the mountains can send water onto the plain and into low rooms, so a body fixed higher with a battery inside keeps a record of what the room went through.",
+              },
+              {
+                question: "How would an enquiry from Fujairah be handled?",
+                answer:
+                  "Give the place, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Fujairah.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Fujairah clinics?",
+                answer:
+                  "Calibration of loggers and probes for Fujairah clinics is looked after by VEGA Calibrations, our parent company; share the model and the range and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "dibba", name: "Dibba Al Fujairah" },
+              { slug: "khor-fakkan", name: "Khor Fakkan" },
+              { slug: "kalba", name: "Kalba" },
+            ],
+            metaTitle: "Temperature Data Loggers in Fujairah | Prithvi",
+            metaDescription:
+              "Data loggers for Fujairah's fish ice stores, hotel kitchens, farm produce sheds, clinics and harbour warehouses. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "dibba",
+            name: "Dibba Al Fujairah",
+            type: "city",
+            intro:
+              "Dibba Al Fujairah is a bay town at the northern end of Fujairah's Gulf of Oman coast, sheltered beneath steep mountain peaks, and a temperature data logger here serves a small place of fishing boats, dive centres, date farms and shops in warm, damp sea air. Boats set out from the beach and land their catch at a small harbour and fish market, farms and palm groves grow behind the shore, and visitors come for the diving, the beaches and the mountain roads. A clinic and pharmacies serve the town. Weekends fill the beach cafes in the cooler months, and dive boats leave early in the morning. Summers are hot and humid and winter days are mild. Enquiries from Dibba Al Fujairah are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The bay is hot and very humid for most of the year, the peaks rise sharply behind it and storms can send water down the wadis, and salt reaches every shed along the shore, so ice boxes, dive-centre kitchens and clinic refrigerators work through long warm spells. A small town far from the larger suppliers can wait hours for a repair, which is why a warning on a phone matters.",
+            areas: [
+              {
+                name: "Fishing boats, the harbour and the fish market",
+                note: "Boats land the catch at a small harbour, where ice boxes and cold rooms keep it for the market in warm, salty air.",
+              },
+              {
+                name: "Date farms and palm-grove stores",
+                note: "Farmers keep dates and vegetables in sheds among the palms, where heat after harvest and storm damp both threaten the crop.",
+              },
+              {
+                name: "Dive centres, guesthouses and cafes",
+                note: "Dive centres, guesthouses and cafes run fridges and freezers for visitors, and the cooling is tested hardest at weekends in the cooler months.",
+              },
+              {
+                name: "Clinic, pharmacies and village shops",
+                note: "A clinic, pharmacies and shops serve the town and its hill villages, keeping vaccines, medicines and drinks in refrigerators that must survive power cuts.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Dibba fish sellers, cafes and grocers hold goods that spoil fast in coastal heat, and a log from each ice box or cooler shows when it began to warm.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The Dibba clinic holds vaccines for the town and the hill villages, and a phone alert reaches the person on duty if a refrigerator warms.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Dibba keep stock in rooms with labelled ranges, and a dated record shows how a room behaved through the hottest weeks and any storm outage.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Supplies reach Dibba by road along the coast, and a logger placed in a load records how long it stood in a vehicle in the sun before reaching a small store.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a cafe pantry or a farm shed at several heights and by the door, showing which level warms first.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable fits a shop or clinic refrigerator in Dibba and leaves the way the unit is used unchanged.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a dry store beside the sea, where damp is the quiet danger.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can one logger watch a single refrigerator in a Dibba cafe?",
+                answer:
+                  "Yes. A single logger with an alert to a phone can watch one refrigerator as long as a router is within reach, and more points can be added to the same account later.",
+              },
+              {
+                question: "Why does a small coastal town want a phone alert?",
+                answer:
+                  "A repairer can be hours away, so a warning that a cooler is drifting lets staff move stock or open a door while it can still be saved, rather than discovering the loss in the morning.",
+              },
+              {
+                question: "How would an enquiry from Dibba Al Fujairah be handled?",
+                answer:
+                  "Give the place, what you store and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for the site.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Dibba clinics?",
+                answer:
+                  "Calibration of loggers and probes for Dibba clinics is looked after by VEGA Calibrations, our parent company; share the model and the range and we explain the choices.",
+              },
+            ],
+            nearby: [
+              { slug: "fujairah", name: "Fujairah" },
+              { slug: "khor-fakkan", name: "Khor Fakkan" },
+            ],
+            metaTitle: "Temperature Data Loggers in Dibba Al Fujairah | Prithvi",
+            metaDescription:
+              "Data loggers for Dibba Al Fujairah's fish ice boxes, dive-centre kitchens, date farms and clinics beneath the mountains. Get Solution.",
             indexable: true,
           },
         ],

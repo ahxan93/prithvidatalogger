@@ -385,6 +385,10 @@
 | RAKEZ (`rakez`, area of Ras Al Khaimah) | UAE | Plant halls, ingredient stores, outbound sheds, chilled halls (described generally, no operating status) | Logistics, chemicals, medicines | Hot summers | Al Ghail Industrial Area |
 | Al Ghail Industrial Area (`al-ghail-industrial-area`, area of Ras Al Khaimah) | UAE | Plant finished-goods rooms, sealant and building-product stores, food and packaging units, yards | Chemicals, logistics, food | Hot, with occasional wadi flooding | RAKEZ |
 | Al Jazirah Al Hamra (`al-jazirah-al-hamra`, area of Ras Al Khaimah) | UAE | Fishing beaches and ice stores, shops and cafes, heritage buildings, small yards | Food, logistics, clinics | Hot, humid, salty coast | RAKEZ |
+| Fujairah (`fujairah`, city, Fujairah Emirate) | UAE | Fish market and ice stores, farm produce sheds, hotel and dive-centre kitchens, hospital and pharmacies | Food, medicines, logistics | Hot, very humid Gulf of Oman coast; mountain showers | Dibba Al Fujairah, Khor Fakkan, Kalba |
+| Dibba Al Fujairah (`dibba`, city, Fujairah Emirate) | UAE | Fishing harbour and ice boxes, date farms, dive-centre kitchens, clinic and shops | Food, medicines, logistics | Hot, humid bay below steep peaks | Fujairah, Khor Fakkan |
+| Fujairah Free Zone (`fujairah-free-zone`, area of Fujairah) | UAE | Warehouse units, chemical and lubricant stores, food and drink stock rooms (described generally, no operating status) | Logistics, food, chemicals | Hot, damp, salty | Port of Fujairah |
+| Port of Fujairah (`port-of-fujairah`, area of Fujairah) | UAE | Quayside sheds, cold rooms and refrigerated boxes, warehouses, vehicles (described generally, no operating status) | Logistics, food, medicines | Hot, damp, salty | Fujairah Free Zone |
 | Jazan Economic City (`jazan-economic-city`, area of Jazan) | Saudi Arabia | Plant chemical and drum stores, spares warehouses and contractor yards, port yards, camp kitchens and clinics | Chemical stores, contract warehousing, camp catering | Extreme heat and humidity, salty air | none |
 | Jeddah (`jeddah`) | Saudi Arabia | Industrial and port logistics zones | Port logistics, food import cold chain, hospitals | Hot, humid coastal | Riyadh, Dammam |
 | Dammam (`dammam`) | Saudi Arabia | Industrial and port logistics zones | Industrial & chemical, port logistics, food | Hot, humid Gulf coast | Riyadh, Bahrain, Jeddah |
@@ -639,3 +643,7 @@ rather than writing a near-duplicate. No border or jurisdiction statement is mad
 UAE Batch 6 (Ajman, Umm Al Quwain, Ras Al Khaimah): three emirate hubs, cities Ajman, Umm Al Quwain and Ras Al Khaimah, and the areas Al Jurf
 Industrial Area, Ajman Free Zone, UAQ Free Trade Zone, RAKEZ, Al Ghail Industrial Area and Al Jazirah Al Hamra. Not built, for lack of confident,
 distinguishing local facts: Falaj Al Mualla.
+
+UAE Batch 7 (Fujairah Emirate): hub, Fujairah, Dibba Al Fujairah (named for the Fujairah side only; no border or jurisdiction statement is made), and the
+areas Fujairah Free Zone and Port of Fujairah. This completes the UAE build: Abu Dhabi, Dubai, Sharjah, Ajman, Umm Al Quwain, Ras Al Khaimah and
+Fujairah emirate hubs are all indexable.

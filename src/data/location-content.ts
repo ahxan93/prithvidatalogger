@@ -257,6 +257,11 @@ export const locationContent: Record<string, LocationContent> = {
       "Data loggers for Ras Al Khaimah Emirate: the city, RAKEZ, Al Ghail Industrial Area and Al Jazirah Al Hamra storage and cold rooms. Get Solution.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
+  "uae/fujairah-emirate": {
+    metaDescription:
+      "Data loggers for Fujairah Emirate: Fujairah, Dibba Al Fujairah, the Fujairah Free Zone and Port of Fujairah storage. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+  },
   "uae/abu-dhabi-emirate": {
     metaDescription:
       "Data loggers for Abu Dhabi Emirate: the city, Mussafah, ICAD, KIZAD, Khalifa Port and Ghantoot warehouse and cold-room storage. Get Solution.",
