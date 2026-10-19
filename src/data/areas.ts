@@ -6846,7 +6846,7 @@ export const areas: AreaDef[] = [
       "industries": [
         {
           "slug": "logistics-warehousing",
-          "sentence": "A logistics operator storing goods for several clients can give each client a temperature record of its own pallets, rather than a general statement about the hall."
+          "sentence": "A logistics firm storing goods for several clients can give each client a temperature record of its own pallets, rather than a general statement about the hall."
         },
         {
           "slug": "food-beverage",
@@ -7121,7 +7121,7 @@ export const areas: AreaDef[] = [
         },
         {
           "slug": "logistics-warehousing",
-          "sentence": "A warehouse holding materials for several tenants can give each tenant a record of its stock, rather than a general statement about the shed."
+          "sentence": "A warehouse holding materials for several firms can give each firm a record of its stock, rather than a general statement about the shed."
         },
         {
           "slug": "food-beverage",
@@ -7549,7 +7549,7 @@ export const areas: AreaDef[] = [
       "industries": [
         {
           "slug": "logistics-warehousing",
-          "sentence": "A unit storing goods for several tenants can hand each tenant a record of its own pallets rather than a general line about the building."
+          "sentence": "A unit storing goods for several firms can hand each firm a record of its own pallets rather than a general line about the building."
         },
         {
           "slug": "food-beverage",
