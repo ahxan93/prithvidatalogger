@@ -6657,7 +6657,7 @@ export const areas: AreaDef[] = [
   { slug: "dubai-silicon-oasis", name: "Dubai Silicon Oasis", citySlug: "dubai", areaType: "mixed-use", nearbyIndustries: ["electronics","data-centers","logistics-warehousing"], confirmedService: true, hero: ["setu","nakshatra"], page: {
       "metaTitle": "Data Loggers in Dubai Silicon Oasis | Prithvi",
       "metaDescription": "Data loggers for electronics stores, server rooms, labs and kitchens in Dubai Silicon Oasis, a technology community in Dubai. Get Solution.",
-      "intro": "Dubai Silicon Oasis is a technology-minded community in the east of the city, where offices, electronics and light-industry units, schools, clinics and homes share one planned grid. A temperature data logger in a community like this is concerned with equipment that dislikes heat and humidity: electronic components in stock rooms, server and network rooms, laboratories, and the kitchens and stores that serve a working population. This page is limited to the kinds of goods and rooms a logger user could look after in a technology and mixed-use community. Enquiries about Dubai Silicon Oasis are handled through the enquiry form, Call or WhatsApp.",
+      "intro": "Dubai Silicon Oasis is a technology-minded community in the east of the city, where offices, electronics and light-industry units, schools, clinics and homes share one planned grid. A temperature data logger in a community like this is concerned with equipment that dislikes heat and humidity: electronic components in storerooms, server and network rooms, laboratories, and the kitchens and stores that serve a working population. This page is limited to the kinds of goods and rooms a logger user could look after in a technology and mixed-use community. Enquiries about Dubai Silicon Oasis are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
           "name": "Electronics and component stock rooms",
@@ -6873,7 +6873,7 @@ export const areas: AreaDef[] = [
   { slug: "dubai-airport-freezone", name: "Dubai Airport Freezone", citySlug: "dubai", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","electronics","pharmaceutical"], confirmedService: true, hero: ["rajmudra","virat-pro"], page: {
       "metaTitle": "Data Loggers in Dubai Airport Freezone (DAFZA) | Prithvi",
       "metaDescription": "Data loggers for offices, stock rooms and warehouse units in Dubai Airport Freezone (DAFZA), beside Dubai's airport. Get Solution.",
-      "intro": "Dubai Airport Freezone, known as DAFZA, is a free zone beside the city's main airport, a compact district of office buildings and warehouse units for trades linked to air transport. A temperature data logger in a district like this is concerned with goods that are small, valuable and sensitive: electronic parts, healthcare products and consumer goods held in stock rooms and light warehouses. This page is limited to the kinds of goods and rooms a logger user could look after in a free-zone district of this sort. Enquiries about DAFZA are handled through the enquiry form, Call or WhatsApp.",
+      "intro": "Dubai Airport Freezone, known as DAFZA, is a free zone beside the city's main airport, a compact district of office buildings and warehouse units for trades linked to air transport. A temperature data logger in a district like this is concerned with goods that are small, valuable and sensitive: electronic parts, healthcare products and consumer goods held in storerooms and light warehouses. This page is limited to the kinds of goods and rooms a logger user could look after in a free-zone district of this sort. Enquiries about DAFZA are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
           "name": "Light warehouse units",
@@ -6939,7 +6939,7 @@ export const areas: AreaDef[] = [
         },
         {
           "name": "Pharmacies and medical supply stores",
-          "note": "Pharmacies and suppliers hold medicines and devices in stock rooms and cold cabinets, where the room temperature varies with the weather and the air-conditioning."
+          "note": "Pharmacies and suppliers hold medicines and devices in storerooms and cold cabinets, where the room temperature varies with the weather and the air-conditioning."
         },
         {
           "name": "Hospital pantries and kitchens",
