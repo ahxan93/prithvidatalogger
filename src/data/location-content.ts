@@ -103,7 +103,7 @@ export const locationContent: Record<string, LocationContent> = {
   },
   "india/uttarakhand": {
     metaDescription:
-      "Temperature data loggers in Uttarakhand: Haridwar, Dehradun and Roorkee's pharma, food and electrical plants, hospitals and hotels. Get Solution.",
+      "Temperature data loggers in Uttarakhand: Haridwar, Dehradun, Roorkee, Rudrapur-Pantnagar, Kashipur and Kotdwar. Get Solution.",
     recommended: ["virat", "rajmudra", "vayu"],
   },
   "india/andhra-pradesh": {

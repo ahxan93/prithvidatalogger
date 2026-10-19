@@ -12348,21 +12348,21 @@ export const locations: LegacyLocationNode[] = [
         name: "Uttarakhand",
         type: "state",
         intro:
-          "Uttarakhand is a state of two climates, the cool wet hills and the hot plains and foothills below them, and its storage sits mostly in the plains: the temple and factory city of Haridwar with its large industrial estate, the capital Dehradun in the Doon valley, and Roorkee between the Ganga and Yamuna canals. Pharmaceutical, food, electrical and automotive plants have grown on the estates, and hospitals, institutes and hotels add rooms that need steady air. Summers are hot, the monsoon is very heavy and winter nights are cold with fog, so a pharmaceutical store or a cold chain meets heat, damp and cold in a single year. The city pages that follow set out each estate, the stores worth watching first and the loggers that fit.",
+          "Uttarakhand is a state of two climates, the cool wet hills and the hot plains and foothills below them, and its storage sits mostly in the plains: the temple and factory city of Haridwar with its large industrial estate, the capital Dehradun in the Doon valley, Roorkee between the Ganga and Yamuna canals, the Terai factory belt of Rudrapur-Pantnagar and Kashipur, and the foothill gateway of Kotdwar. Pharmaceutical, food, electrical and automotive plants have grown on the estates, and hospitals, institutes and hotels add rooms that need steady air. Summers are hot, the monsoon is very heavy and winter nights are cold with fog, so a pharmaceutical store or a cold chain meets heat, damp and cold in a single year. The city pages that follow set out each estate, the stores worth watching first and the loggers that fit.",
         localIndustries: [
           "Pharmaceutical manufacturing",
           "Food and agro processing",
           "Electrical and automotive plants",
           "Hospitals and pilgrim hospitality",
         ],
-        citiesServed: ["Haridwar", "Dehradun", "Roorkee"],
+        citiesServed: ["Haridwar", "Dehradun", "Roorkee", "Rudrapur-Pantnagar", "Kashipur", "Kotdwar"],
         supportNote:
           "Supply, installation support and site visits for Uttarakhand sites are arranged from our Mumbai office. Tell us the town, the estate and what the rooms hold.",
         faqs: [
           {
             question: "Which Uttarakhand locations have a page?",
             answer:
-              "Haridwar, Dehradun and Roorkee each have a city page. A site in any other town of the state can be raised by writing to us through the enquiry form.",
+              "Haridwar, Dehradun, Roorkee, Rudrapur-Pantnagar, Kashipur and Kotdwar each have a city page. A site in any other town of the state can be raised by writing to us through the enquiry form.",
           },
           {
             question: "Can a logger work in a hill town with a weak signal?",
@@ -12379,6 +12379,9 @@ export const locations: LegacyLocationNode[] = [
           { slug: "haridwar", text: "The pilgrim city on the Ganga with a large factory estate of electrical, pharmaceutical and food plants and busy hotels." },
           { slug: "dehradun", text: "The capital of the Doon valley, with pharma and technology estates at Selaqui and Sahaspur, hospitals, institutes and hotels." },
           { slug: "roorkee", text: "An engineering and canal town between Haridwar and Saharanpur, with an engineering institute, a research institute and industrial areas." },
+          { slug: "rudrapur-pantnagar", text: "The Terai factory belt, with the Pantnagar SIDCUL estate, Rudrapur mills and dairies and an agricultural university." },
+          { slug: "kashipur", text: "A Terai town on the Moradabad road with SIDCUL and older estates, sugar and rice mills and a grain market." },
+          { slug: "kotdwar", text: "The foothill gateway to Garhwal, where goods from the plains wait at the railway terminus for hill-bound lorries." },
         ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,
@@ -12671,6 +12674,297 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Roorkee | Prithvi",
             metaDescription:
               "WiFi and GSM temperature and humidity data loggers for Roorkee's campus laboratories, Bhagwanpur works, highway godowns and hospitals. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "rudrapur-pantnagar",
+            name: "Rudrapur-Pantnagar",
+            type: "city",
+            intro:
+              "Rudrapur and Pantnagar form the industrial heart of the Terai plain in Udham Singh Nagar district, and a temperature data logger here serves a major factory belt of Uttarakhand's lowlands, set among fields. The SIDCUL integrated industrial estate at Pantnagar holds automotive, two-wheeler, commercial-vehicle, electrical and consumer-goods plants on large plots, while Rudrapur has older industrial areas, rice and flour mills, dairies and a large grain and vegetable market. An agricultural university with fields, laboratories and a seed industry stands at Pantnagar. The Terai grows paddy, wheat and sugarcane, so sugar mills and food processors keep stores close by. Prithvi supplies WiFi loggers for halls and rooms with a network and GSM loggers for lorries, farms and yards beyond a router.",
+            climateAngle:
+              "The plain is hot and humid in summer, the monsoon is heavy, and winter brings dense fog and cold mornings, so assembly stores, grain godowns and dairy chillers face heat, damp and chill in turn.",
+            areas: [
+              {
+                name: "SIDCUL Pantnagar estate",
+                note: "A planned estate with vehicle, component, electrical and consumer-goods plants on wide plots, whose halls and stores stand far apart and whose suppliers deliver on fixed schedules.",
+              },
+              {
+                name: "Rudrapur industrial areas",
+                note: "Older estates and the highway frontage hold engineering works, food and packaging firms and warehouses, with trucks loading at all hours.",
+              },
+              {
+                name: "Agricultural university and seed stores",
+                note: "Laboratories, seed stores and cold rooms on the university campus keep samples, seeds and reagents that need steady conditions through the humid months.",
+              },
+              {
+                name: "Grain market, rice mills and dairies",
+                note: "The market yard and the mills handle paddy, wheat and vegetables, and dairies chill milk each morning, in godowns where monsoon damp threatens stock.",
+              },
+            ],
+            industries: [
+              {
+                slug: "electronics",
+                sentence:
+                  "Electrical and component makers store boards, wiring and sealed assemblies where damp causes faults, and a humidity trend shows a quality team when a store drifted outside its limits.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Dairies, flour and rice millers and packaged-food firms hold stock that spoils in damp heat, and an alert on a phone reaches the owner when a chiller warms on a night shift.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "University and seed laboratories keep samples, cultures and reagents in freezers and fridges with their own limits, and an exported log supports a research file.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Contract warehouses hold parts for several plants in one shed, and a separate reading for each bay lets an operator export a report for the customer whose goods stood there.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels cover a tall warehouse or a long assembly hall across bays and heights, so one report shows where the afternoon heat collects.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity and temperature at one point suit a grain godown or a component store, where heavy air in the rainy weeks is what harms the stock.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a milk tanker or a parts lorry and reports from farms and yards without Wi-Fi, with alerts sent to a phone.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a dairy near Rudrapur track milk temperature from the farm to the plant?",
+                answer:
+                  "A GSM logger placed in the tanker or the chiller records readings through the collection round, and the plant manager can open the record on a phone and export it for the day.",
+              },
+              {
+                question: "How are visits planned for a plant in the Pantnagar estate?",
+                answer:
+                  "Tell us the plot, the plant and a person to meet through the enquiry form, WhatsApp or a call, and mention gate passes or briefings when you write. We then fix a day and route between stores.",
+              },
+              {
+                question: "Can plants at Pantnagar and Kashipur be watched on one dashboard?",
+                answer:
+                  "Yes. Each plant is a site with its own alert recipients, so a head of operations sees both estates in one list and can export a report for any period.",
+              },
+              {
+                question: "Who calibrates loggers used in a Pantnagar laboratory?",
+                answer:
+                  "VEGA Calibrations, our parent company, can calibrate loggers and probes, and the visit can be fixed together with the supply.",
+              },
+            ],
+            nearby: [
+              { slug: "kashipur", name: "Kashipur" },
+              { slug: "bareilly", name: "Bareilly" },
+              { slug: "moradabad", name: "Moradabad" },
+            ],
+            metaTitle: "Temperature Data Loggers in Rudrapur-Pantnagar | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Rudrapur-Pantnagar's SIDCUL plants, dairies, mills and university labs. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "kashipur",
+            name: "Kashipur",
+            type: "city",
+            intro:
+              "Kashipur is a Terai town of Udham Singh Nagar district on the road between Moradabad and the hills of Kumaon, and a temperature data logger here serves a plain that is both farmland and factory estate. A SIDCUL industrial area and an older industrial estate hold pharmaceutical, food, paper, packaging and engineering firms, and large sugar mills and rice mills process the crop of the surrounding fields. The town lies close to the Uttar Pradesh border, so lorries and staff cross it daily, and the road continues north to Ramnagar and Nainital. Hospitals, clinics and a busy grain market serve the villages around the town. Prithvi supplies WiFi loggers for rooms with a network and GSM loggers for lorries, mills and yards.",
+            climateAngle:
+              "The Terai is hot and humid in summer, the monsoon is heavy and the winter brings dense fog and cold mornings, so a drug store, a sugar godown and a dairy chiller each meet extremes in the same year.",
+            areas: [
+              {
+                name: "SIDCUL Kashipur",
+                note: "A planned industrial area with pharmaceutical, food and manufacturing plants on large plots, whose raw-material rooms and finished-goods stores need written records.",
+              },
+              {
+                name: "Kashipur industrial estate",
+                note: "An older estate near the town holds paper, packaging, engineering and food firms and godowns, with trucks loading along the approach roads.",
+              },
+              {
+                name: "Sugar and rice mills",
+                note: "Mills around the town crush cane and hull rice each season, with sacks, bags and sugar stored in godowns where damp in the rains threatens stock.",
+              },
+              {
+                name: "Grain market and town hospitals",
+                note: "The market yard, wholesalers and the hospitals sit close together, with chillers, medicine fridges and blood storage in small buildings.",
+              },
+            ],
+            industries: [
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Formulation plants in the estate hold ingredients and finished packs in controlled rooms, and a dated log answers a customer's audit without a hunt through paper.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Sugar and rice millers and packaged-food firms hold stock whose quality falls in damp heat, and a reading from each godown shows the day it began to take on moisture.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Paper and chemical works keep drums, bags and reagents with printed storage limits, and an alert from a hot shed lets the storekeeper act before material is wasted.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Carriers on the Moradabad to Nainital road load grain, sugar and packed goods, and a logger placed with a consignment records how long it stood in a yard in the sun.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels give a pharmaceutical store a paired record from one device, with one probe near the door and one deep inside the room.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a sugar or rice godown, where heavy air in the monsoon is the danger.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger rides in a lorry on the highway and reports from mill yards and distant sheds that have no router.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How does a logger help a sugar or rice miller near Kashipur?",
+                answer:
+                  "A humidity and temperature trend from the godown marks the day moisture started to enter the stock, giving the staff time to ventilate, cover or shift bags, and giving the owner a record to show an insurer or a buyer.",
+              },
+              {
+                question: "Can sites at Kashipur and Moradabad be watched together?",
+                answer:
+                  "Yes. Each plant or godown is a site on one account with its own alert contacts, and a manager sees both sides of the state line in one list.",
+              },
+              {
+                question: "Do you cover SIDCUL and the older estate in one visit?",
+                answer:
+                  "Write to us with the estate, the unit and a contact through the enquiry form, WhatsApp or a call, and we plan the two together. Plants that need visitor passes should say so when they write.",
+              },
+              {
+                question: "Can calibration be arranged for a Kashipur plant laboratory?",
+                answer:
+                  "Calibration of loggers and probes is carried out by VEGA Calibrations, our parent company, and the booking can be made with the supply.",
+              },
+            ],
+            nearby: [
+              { slug: "moradabad", name: "Moradabad" },
+              { slug: "rudrapur-pantnagar", name: "Rudrapur-Pantnagar" },
+              { slug: "bareilly", name: "Bareilly" },
+            ],
+            metaTitle: "Temperature Data Loggers in Kashipur | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Kashipur's SIDCUL plants, sugar and rice mills, godowns and hospitals. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "kotdwar",
+            name: "Kotdwar",
+            type: "city",
+            intro:
+              "Kotdwar is the foothill town on the Khoh river where the plain ends and the Garhwal hills begin, and a temperature data logger here serves a trading gateway rather than a factory city. The railway line from the plains ends here, and goods for the hill markets of Pauri Garhwal and the army station beyond are unloaded, stored and reloaded on mountain lorries. Wholesalers of food, medicines, hardware and general goods supply shops in the hills, and a small industrial estate holds light engineering and food units. Pilgrims visit the Siddhbali temple, and a hospital and clinics serve the town and the hill villages. Prithvi supplies WiFi loggers for shops and stores with a network and GSM loggers for hill-bound lorries and stores beyond a router.",
+            climateAngle:
+              "The foothills are hot and humid in summer, the monsoon is very heavy and can close hill roads, and winter nights are cold, so goods may wait for days in damp air and then climb into cold mountain weather.",
+            areas: [
+              {
+                name: "Wholesale bazaar and hill-bound godowns",
+                note: "Traders in the main bazaar stock food, medicines and general goods for shops in the hills, in godowns where stock waits for a lorry and damp collects in the rainy weeks.",
+              },
+              {
+                name: "Railway terminus and goods sheds",
+                note: "Wagons arrive from the plains and goods are transferred to road transport, with parcels and bulk cargo waiting on the platform and in sheds between modes.",
+              },
+              {
+                name: "Small industrial estate",
+                note: "Light engineering, food and packaging firms on a small estate keep stores of materials and finished goods in sheds that heat under metal roofs.",
+              },
+              {
+                name: "Temple road, clinics and the hospital",
+                note: "A hospital, clinics and pharmacies serve the town and the hill villages, with vaccine fridges and medicine stores that must survive power cuts in storms.",
+              },
+            ],
+            industries: [
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine wholesalers send consignments up winding roads to hill pharmacies, and a logger placed with the pack records the whole range of heat and cold it met on the journey.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Wholesalers of dairy, packed food and sweets supply hill shops that are hours away by road, and a reading from each chiller shows when a unit failed during a storm outage.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The hospital and clinics hold vaccines and medicines for patients who travel long distances, and an alert on a phone means a failing refrigerator is found in the night.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Carriers load at the terminus for hill towns, and landslides can hold a lorry for days, so a logger in the load records how long the goods waited and in what conditions.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a hill-bound lorry and keeps recording where the signal fades, then sends the readings once coverage returns.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an external probe fits a medicine fridge or a dairy chiller without changing how the unit is used.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity and temperature at one point suit a bazaar godown, where long monsoon damp is what harms stock waiting for transport.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a distributor prove how a consignment fared on the road to a hill town?",
+                answer:
+                  "Yes. A GSM logger placed with the goods records readings along the journey and through any halt, and the owner can export the record for the buyer.",
+              },
+              {
+                question: "What if the signal is lost on the mountain road?",
+                answer:
+                  "The logger keeps recording on its own memory and battery, and sends the stored readings when the signal returns, so the record has no gap.",
+              },
+              {
+                question: "Can a small shop or clinic have a single logger for one fridge?",
+                answer:
+                  "Yes. A single-point logger with an alert to a phone is enough for one medicine fridge or chiller, and further points can be added to the same account later.",
+              },
+              {
+                question: "Who calibrates loggers used in a Kotdwar clinic?",
+                answer:
+                  "VEGA Calibrations, our parent company, can calibrate loggers and probes, and the date can be fixed alongside the supply order.",
+              },
+            ],
+            nearby: [
+              { slug: "haridwar", name: "Haridwar" },
+              { slug: "dehradun", name: "Dehradun" },
+              { slug: "roorkee", name: "Roorkee" },
+            ],
+            metaTitle: "Temperature Data Loggers in Kotdwar | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Kotdwar's hill-bound godowns, medicine wholesalers, clinics and railway goods sheds. Get Solution.",
             indexable: true,
           },
         ],
