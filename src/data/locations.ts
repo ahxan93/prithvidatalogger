@@ -20443,7 +20443,7 @@ export const locations: LegacyLocationNode[] = [
       {
         question: "Do you cover emirates other than Dubai?",
         answer:
-          "Dubai Emirate and Abu Dhabi Emirate each have their own page with city and area pages beneath. For another emirate, send the site and what you store through the enquiry form, Call or WhatsApp, and we reply with what looks suitable.",
+          "Dubai Emirate, Abu Dhabi Emirate and Sharjah Emirate each have their own page with city and area pages beneath. For another emirate, send the site and what you store through the enquiry form, Call or WhatsApp, and we reply with what looks suitable.",
       },
       {
         question: "Can a hotel group see every property on one dashboard?",
@@ -20458,6 +20458,7 @@ export const locations: LegacyLocationNode[] = [
     ],
     listing: [
       { slug: "dubai-emirate", text: "Dubai's creek city and its Jebel Ali, Dubai Investments Park, Al Quoz, Ras Al Khor, Al Qusais and Al Aweer districts, in hot, humid Gulf summers." },
+      { slug: "sharjah-emirate", text: "Sharjah's creek city, Khor Fakkan and Kalba on the east coast, and the Sajaa, SAIF Zone, Hamriyah and Muwaileh districts, in hot, humid weather." },
       { slug: "abu-dhabi-emirate", text: "Abu Dhabi's island city, Mussafah, ICAD, KIZAD, Khalifa Port and Ghantoot, in very hot, humid Gulf heat." },
     ],
     indexable: true,
@@ -20570,7 +20571,7 @@ export const locations: LegacyLocationNode[] = [
               {
                 slug: "virat",
                 reason:
-                  "Sixteen channels cover a large warehouse across racks, dock doors and floor positions, so one report shows how a whole hall behaves.",
+                  "Sixteen channels follow a big Sharjah warehouse across racks, dock doors and floor positions, so a single report shows how the hall behaves.",
               },
               {
                 slug: "setu",
@@ -20844,7 +20845,7 @@ export const locations: LegacyLocationNode[] = [
               {
                 question: "How would an enquiry from Al Ain be handled?",
                 answer:
-                  "Send the place, the rooms and a contact through the enquiry form, Call or WhatsApp, and we reply with what looks suitable for the site.",
+                  "Give the shop, hotel or store, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Khor Fakkan.",
               },
               {
                 question: "Is calibration discussed for loggers used in Al Ain laboratories?",
@@ -21129,7 +21130,7 @@ export const locations: LegacyLocationNode[] = [
               {
                 question: "Can one logger watch a single refrigerator in a village shop?",
                 answer:
-                  "Yes. A single logger with an alert to a phone can watch one refrigerator if a router is within reach, and more points can be added to the same account later.",
+                  "Yes. One logger with a phone alert can watch a single shop refrigerator in Kalba as long as a router is nearby, and the same account can take more points later.",
               },
               {
                 question: "How would an enquiry from Liwa be handled?",
@@ -21149,6 +21150,343 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Liwa | Prithvi",
             metaDescription:
               "Data loggers for Liwa's date farms, desert resort kitchens, village shops and clinics beside the great sand dunes. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "sharjah-emirate",
+        name: "Sharjah Emirate",
+        type: "state",
+        intro:
+          "Sharjah Emirate lies between its two neighbours on the Arabian Gulf coast, with a compact city of creeks, souks, museums and universities beside the water, and industrial and free-zone districts spread inland and along the shore. A second, separate part of the emirate faces the Gulf of Oman on the east coast, where Khor Fakkan and Kalba look out from the foot of the mountains. Summers are long, very hot and humid on both coasts, winters are mild, and dust and sea fog come in some seasons. Food, medicines, chemicals and metals wait in warehouses and vehicles in such heat. The pages below cover the city, the east-coast towns and the districts where a temperature record would help.",
+        localIndustries: [
+          "Industrial and light-manufacturing storage",
+          "Free-zone and port-side warehousing",
+          "Food, fish and farm produce",
+          "Hospitals, clinics and pharmacies",
+        ],
+        citiesServed: ["Sharjah","Khor Fakkan","Kalba"],
+        supportNote:
+          "Enquiries from Sharjah Emirate are handled through the enquiry form, Call or WhatsApp. Tell us the town, the rooms to be watched and how they are cooled, and we reply with what looks suitable for the site.",
+        faqs: [
+          {
+            question: "Which places in Sharjah Emirate have a page?",
+            answer:
+              "Sharjah, Khor Fakkan and Kalba each have a city page, and Sajaa Industrial Area, SAIF Zone, Hamriyah Free Zone and Muwaileh have area pages under Sharjah. A place not listed here can be raised through the enquiry form.",
+          },
+          {
+            question: "Does an east-coast site need a different set-up from the city?",
+            answer:
+              "The east coast is hot and humid with mountains close behind, so damp and salt matter more there, while industrial yards near the city add dust and metal roofs that bake, so mounting position and enclosure differ.",
+          },
+          {
+            question: "Can one login watch sites in different towns?",
+            answer:
+              "Yes. Each site is a separate point on one dashboard, alerts go to the person responsible for each room, and a manager sees every site together with reports that can be exported.",
+          },
+        ],
+        listing: [
+          { slug: "sharjah", text: "A Gulf city of creeks, souks, museums and universities with industrial and free-zone districts around it, in hot, humid summers." },
+          { slug: "khor-fakkan", text: "A port town on the Gulf of Oman at the foot of the mountains, with fishing boats, shops, hotels and warm, damp sea air." },
+          { slug: "kalba", text: "A small east-coast town beside a mangrove inlet, with fishing, farms, shops, a hospital and hot, humid weather." },
+        ],
+        areaListing: [
+          { slug: "sajaa-industrial-area", text: "An inland industrial area east of the city, with factories, workshops, storage yards and warehouses on large plots." },
+          { slug: "saif-zone", text: "A free zone beside the city's airport, with warehouse units and offices for trading and light-industrial firms." },
+          { slug: "hamriyah-free-zone", text: "A coastal free zone north of the city, with plots for heavy and light industry and storage beside the shore." },
+          { slug: "muwaileh", text: "A mixed commercial and residential district in the east of the city, with shops, workshops, clinics and storerooms." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "sharjah",
+            name: "Sharjah",
+            type: "city",
+            intro:
+              "Sharjah is a Gulf coast city next to Dubai, with a waterfront, known for its creeks and lagoon, its souks and museums, and a cluster of universities, and a temperature data logger here serves a city of hospitals, food importers, light industry and warehouses in long, hot, humid summers. Old markets sell spices, dried fruit and household goods, new districts spread along the waterfront, and industrial and free-zone areas lie inland and along the shore. Fog, dust and sea air add to the strain on cooling, and winters are mild and pleasant. Hospitals, schools, hotels and large kitchens add to the list of rooms that need a steady record. Enquiries from Sharjah are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "Summer afternoons are far above comfortable and nights stay warm, humid sea air carries salt onto every shed, and winter mornings can bring fog, so stores face heat, damp and dust in turn. Trucks and metal-roofed sheds without cooling reach extreme temperatures, a cooling unit that loses power on an August afternoon warms fast, and condensation forms the moment a door opens to the outside air.",
+            areas: [
+              {
+                name: "Souks and food-trading markets",
+                note: "Traders in the old markets and the wholesale lanes keep spices, dried fruit, dates and packaged food in small stock rooms and back stores that were never designed for cooling.",
+              },
+              {
+                name: "Hospitals, clinics and universities",
+                note: "Hospitals, clinics and university laboratories keep vaccines, blood products, reagents and samples in refrigerators and freezers that must hold a range through any interruption of power.",
+              },
+              {
+                name: "Industrial and free-zone districts",
+                note: "Factories, workshops, warehouses and free-zone units spread inland and along the shore hold stock under metal roofs that heat up quickly in the summer sun.",
+              },
+              {
+                name: "Hotel, restaurant and catering stores",
+                note: "Hotels, restaurants and catering firms run walk-in coolers, freezers and dry stores, and the cooling works hardest when the rooms are fullest.",
+              },
+            ],
+            industries: [
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Sharjah hospitals and blood services hold vaccines and blood products to strict ranges, and a phone alert reaches the person on duty if a refrigerator drifts at night.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Food importers, caterers and market traders in Sharjah hold goods that spoil or soften in heat, and a record from each store shows a buyer how a lot was kept.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Warehouses and free-zone units in Sharjah hold goods for owners elsewhere, and a reading for each bay shows exactly how long a lot stood in warm air before it was released.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies and medicine distributors in Sharjah store stock to labelled ranges, and a dated log shows how a room behaved through the hottest weeks of summer.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a spice, dried-fruit or dry-goods store, where steady, cool and dry air protects the product through long storage.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable fits a ward or pharmacy refrigerator in Sharjah and leaves the way staff use the unit unchanged.",
+              },
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels cover a large warehouse across racks, dock doors and floor positions, so one report shows how a whole hall behaves.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Sharjah food trader or caterer use temperature loggers?",
+                answer:
+                  "A logger in each cooler, freezer and dry store records through the day and night, and a report for any period can be exported in PDF, Excel or CSV form for a buyer or an inspector.",
+              },
+              {
+                question: "Why do old market stores need a humidity reading as well as temperature?",
+                answer:
+                  "Humid sea air softens dried goods and spices, and condensation forms when a cool room is opened to warm air, so a humidity trend shows damp that a thermometer would miss.",
+              },
+              {
+                question: "What happens to the record if the power or the WiFi fails in Sharjah?",
+                answer:
+                  "The logger keeps recording from its own battery and stores the readings, so the hours of an outage are still on record once the site is connected again.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Sharjah laboratories?",
+                answer:
+                  "Calibration of loggers and probes for Sharjah laboratories is looked after by VEGA Calibrations, our parent company; share the model and the range you work to and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "dubai", name: "Dubai" },
+              { slug: "ajman", name: "Ajman" },
+              { slug: "umm-al-quwain", name: "Umm Al Quwain" },
+            ],
+            metaTitle: "Temperature Data Loggers in Sharjah | Prithvi",
+            metaDescription:
+              "Data loggers for Sharjah's hospitals, food importers, souk stores, free-zone warehouses and hotel kitchens in humid heat. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "khor-fakkan",
+            name: "Khor Fakkan",
+            type: "city",
+            intro:
+              "Khor Fakkan is a port town on the Gulf of Oman, on the east coast of the Emirates, with a sheltered bay below the Hajar mountains, and a temperature data logger here serves a small coastal place of fishing boats, shops, hotels and warehouses in warm, damp sea air. Fishermen land their catch along the shore, a container port and its yards stand beside the bay, and visitors come for the beaches and the green hills behind. A hospital, clinics and pharmacies serve the town. Summers are hot and very humid and winters mild, with sudden showers at times. Small boats go out from the beach each morning, and the town fills with visitors at weekends in the cooler months. Enquiries from Khor Fakkan are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The east coast is hot and very humid in summer, the mountains rise close behind and bring occasional heavy rain, and the sea air carries salt onto every shed, so ice rooms, shops and clinic refrigerators work through long warm spells. Water running off the hills can reach low rooms, and a power cut at the height of summer warms a cold room in a matter of hours.",
+            areas: [
+              {
+                name: "Fish landings and ice stores",
+                note: "Boats land fish along the shore, where ice stores and small cold rooms keep the catch for the market in warm, salty air.",
+              },
+              {
+                name: "Shops, supermarkets and hotel kitchens",
+                note: "Shops, supermarkets and hotels serve residents and visitors and run walk-in coolers, freezers and display cabinets that are opened constantly through the day.",
+              },
+              {
+                name: "Warehouses beside the bay",
+                note: "Warehouses and stores near the bay hold goods that arrive by road and sea, in sheds with metal roofs that heat up in the sun and doors that let in damp air.",
+              },
+              {
+                name: "Hospital, clinics and pharmacies",
+                note: "A hospital, clinics and pharmacies hold vaccines and medicines in refrigerators that must hold their range through hot afternoons and power interruptions.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Khor Fakkan fish sellers, supermarkets and hotel kitchens hold goods that spoil quickly in coastal heat, and a record from each ice store shows when a cold box began to warm.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The hospital and clinics of Khor Fakkan hold vaccines for the town and the hill villages behind it, and a phone alert reaches the right person if a refrigerator warms.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Khor Fakkan keep stock in rooms with labelled ranges, and a dated log shows how a room behaved through the hottest weeks and any outage.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods held in warehouses near the bay meet salty, humid air, and a logger placed among them records the heat and moisture each lot met.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels read an ice store at the door end and the far wall, showing whether the cold reaches the back boxes.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single probe on a short lead slips into a clinic or pharmacy refrigerator in Khor Fakkan and leaves daily routines unchanged.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity read beside temperature shows when salty sea damp has got into a dry-goods store on the Khor Fakkan shore.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a fish seller in Khor Fakkan keep a record of an ice store?",
+                answer:
+                  "Yes. A probe logger in the ice store records through the day and night, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for a buyer.",
+              },
+              {
+                question: "Why does a coastal store below mountains need humidity readings?",
+                answer:
+                  "Warm sea air and sudden hill showers bring damp into stores, and cold rooms form condensation each time a door opens, so a humidity trend shows moisture that temperature alone would miss.",
+              },
+              {
+                question: "How would an enquiry from Khor Fakkan be handled?",
+                answer:
+                  "Send the place, the rooms and a contact through the enquiry form, Call or WhatsApp, and we reply with what looks suitable for the site.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Khor Fakkan clinics?",
+                answer:
+                  "Calibration of loggers and probes for Khor Fakkan clinics is looked after by VEGA Calibrations, our parent company; share the model and range and we explain the options.",
+              },
+            ],
+            nearby: [
+              { slug: "kalba", name: "Kalba" },
+              { slug: "fujairah", name: "Fujairah" },
+            ],
+            metaTitle: "Temperature Data Loggers in Khor Fakkan | Prithvi",
+            metaDescription:
+              "Data loggers for Khor Fakkan's fish ice stores, supermarkets, hotel kitchens and clinics on the Gulf of Oman coast. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "kalba",
+            name: "Kalba",
+            type: "city",
+            intro:
+              "Kalba is a small town on the Gulf of Oman coast of the Emirates, beside a tidal inlet lined with mangroves, and a temperature data logger here serves a quiet coastal place where fishing, farming and small trade meet hot, humid air. Fishing boats land their catch on the shore, farms and nurseries grow vegetables and fodder inland, and shops sell food and household goods to the town and the villages around. A hospital, clinics and pharmacies serve the district, and visitors come to see the mangroves and the birdlife. Summers are long and humid. Many families in the town keep small gardens and stores, and the nearest large supplier is a drive away. Enquiries from Kalba are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The coast is hot and humid for most of the year, the mountains stand close behind and storms can bring heavy rain to the wadis, and the mangrove inlet adds still, damp air, so produce stores and clinic refrigerators work through long warm spells with interruptions of power. Shops opened constantly through the day lose cold air with every customer, farm sheds stand unshaded in the afternoon sun, and a small ice room can warm quickly in a cut.",
+            areas: [
+              {
+                name: "Fishing beaches and ice boxes",
+                note: "Boats land fish on the shore, where ice boxes and small cold rooms keep the catch for the local market in warm, salty air.",
+              },
+              {
+                name: "Farms and produce stores",
+                note: "Growers of vegetables and fodder keep produce in sheds and small cool rooms, where heat after picking is the main danger to quality.",
+              },
+              {
+                name: "Village shops and food stores",
+                note: "Shops in the town and nearby villages sell drinks, dairy products and packaged food from coolers that are opened all day.",
+              },
+              {
+                name: "Hospital, clinics and pharmacies",
+                note: "A hospital, clinics and pharmacies serve the district and hold vaccines and medicines in refrigerators that must survive power interruptions.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Kalba fish sellers, growers and grocers hold goods that spoil fast in coastal heat, and a log from each ice box or cold room shows when it began to warm.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The Kalba hospital and clinics hold vaccines for the town and the villages inland, and a phone alert reaches the person on duty if a refrigerator drifts.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Kalba keep stock to labelled ranges, and a dated record shows how a room behaved through the hottest weeks and any power cut.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods reaching Kalba by road stand in vehicles in the sun, and a logger placed in a load records how long it stayed warm before reaching a small store.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a produce shed or a pantry at several heights and by the door, showing which shelf warms first.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable fits a shop or clinic refrigerator in Kalba and leaves the way the unit is used unchanged.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a dry-goods or produce store beside a damp inlet.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can one logger watch a single refrigerator in a Kalba shop?",
+                answer:
+                  "Yes. A single logger with an alert to a phone can watch one refrigerator if a router is within reach, and more points can be added to the same account later.",
+              },
+              {
+                question: "Does standing water near a mangrove inlet affect where a logger is mounted?",
+                answer:
+                  "Flood water and damp can reach low rooms, so a logger is fixed above the likely water line with a battery inside to keep the record going through an outage.",
+              },
+              {
+                question: "How would an enquiry from Kalba be handled?",
+                answer:
+                  "Give the place, what you store and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Kalba.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Kalba?",
+                answer:
+                  "Calibration of loggers and probes for Kalba sites is looked after by VEGA Calibrations, our parent company; share the model and range and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "khor-fakkan", name: "Khor Fakkan" },
+              { slug: "fujairah", name: "Fujairah" },
+            ],
+            metaTitle: "Temperature Data Loggers in Kalba | Prithvi",
+            metaDescription:
+              "Data loggers for Kalba's fish ice boxes, farm produce stores, village shops and clinics beside the mangrove coast. Get Solution.",
             indexable: true,
           },
         ],

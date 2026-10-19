@@ -369,6 +369,13 @@
 | Dubai Logistics City (`dubai-logistics-city`, area of Dubai) | UAE | Racked warehouses, cold stores, cross-dock bays, trailer yards (described generally) | Logistics, food, medicines | Hot, dry with humid spells | Dubai South |
 | Dubai Airport Freezone (`dubai-airport-freezone`, area of Dubai) | UAE | Light warehouse units, electronics stock rooms, healthcare stores, office pantries (described generally, no operating status) | Electronics, medicines, logistics | Hot summers | Al Qusais Industrial Area |
 | Dubai Healthcare City (`dubai-healthcare-city`, area of Dubai) | UAE | Clinic vaccine refrigerators, laboratories, pharmacies and supply stores, hospital pantries | Hospitals, laboratories, medicines | Hot summers | Ras Al Khor Industrial Area |
+| Sharjah (`sharjah`, city, Sharjah Emirate) | UAE | Souks and food-trading markets, hospitals and universities, industrial and free-zone districts, hotel stores | Food, medicines, logistics | Long hot, humid summers; fog | Dubai, Ajman, Umm Al Quwain (not yet built) |
+| Khor Fakkan (`khor-fakkan`, city, Sharjah Emirate) | UAE | Fish ice stores, supermarkets and hotel kitchens, warehouses beside the bay, clinics | Food, medicines, logistics | Hot, very humid Gulf of Oman coast | Kalba, Fujairah (not yet built) |
+| Kalba (`kalba`, city, Sharjah Emirate) | UAE | Fish ice boxes, farm produce stores, village shops, clinics | Food, medicines, logistics | Hot, humid coast beside a mangrove inlet | Khor Fakkan, Fujairah (not yet built) |
+| Sajaa Industrial Area (`sajaa-industrial-area`, area of Sharjah) | UAE | Factory finished-goods stores, chemical and coatings stores, packaging units, open yards | Chemicals, logistics, food | Extreme summer heat | Muwaileh |
+| SAIF Zone (`saif-zone`, area of Sharjah) | UAE | Low warehouse units, parts and cosmetics stock rooms, medical product stores (described generally, no operating status) | Electronics, medicines, logistics | Hot summers | Muwaileh |
+| Hamriyah Free Zone (`hamriyah-free-zone`, area of Sharjah) | UAE | Chemical and coatings stores, metal yards, warehouses, canteens (described generally) | Chemicals, logistics, food | Hot, humid, salty coast | Sajaa Industrial Area |
+| Muwaileh (`muwaileh`, area of Sharjah) | UAE | Shops and supermarkets, restaurants, clinics and pharmacies, workshop storerooms | Food, medicines, logistics | Hot summers | Sajaa Industrial Area |
 | Jazan Economic City (`jazan-economic-city`, area of Jazan) | Saudi Arabia | Plant chemical and drum stores, spares warehouses and contractor yards, port yards, camp kitchens and clinics | Chemical stores, contract warehousing, camp catering | Extreme heat and humidity, salty air | none |
 | Jeddah (`jeddah`) | Saudi Arabia | Industrial and port logistics zones | Port logistics, food import cold chain, hospitals | Hot, humid coastal | Riyadh, Dammam |
 | Dammam (`dammam`) | Saudi Arabia | Industrial and port logistics zones | Industrial & chemical, port logistics, food | Hot, humid Gulf coast | Riyadh, Bahrain, Jeddah |
@@ -615,3 +622,7 @@ Industrial Area, Al Qusais Industrial Area and Al Aweer.
 
 UAE Batch 4 (Dubai areas): Dubai Silicon Oasis, Dubai Industrial City, Dubai South, Dubai Logistics City, Dubai Airport Freezone and Dubai Healthcare
 City, all areas of Dubai. Airport, free-zone and logistics pages say nothing about operating status, traffic, capacity, operator or eligibility.
+
+UAE Batch 5 (Sharjah Emirate): hub, Sharjah, Khor Fakkan, Kalba and the areas Sajaa Industrial Area, SAIF Zone, Hamriyah Free Zone and Muwaileh.
+SAIF Zone and the Sharjah Airport International Free Zone are the same free zone, so one page (SAIF Zone) was built and the second name skipped
+rather than writing a near-duplicate. No border or jurisdiction statement is made for the east-coast towns.

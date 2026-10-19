@@ -82,6 +82,7 @@ export const areaCities: Record<string, { name: string; stateSlug: string; state
   jubail: { name: "Jubail", stateSlug: "eastern-province", stateName: "Eastern Province" },
   yanbu: { name: "Yanbu", stateSlug: "madinah-region", stateName: "Madinah Region" },
   jazan: { name: "Jazan", stateSlug: "jazan-region", stateName: "Jazan Region" },
+  sharjah: { name: "Sharjah", stateSlug: "sharjah-emirate", stateName: "Sharjah Emirate" },
   dubai: { name: "Dubai", stateSlug: "dubai-emirate", stateName: "Dubai Emirate" },
   "abu-dhabi": { name: "Abu Dhabi", stateSlug: "abu-dhabi-emirate", stateName: "Abu Dhabi Emirate" },
   "al-ain": { name: "Al Ain", stateSlug: "abu-dhabi-emirate", stateName: "Abu Dhabi Emirate" },
@@ -6975,6 +6976,223 @@ export const areas: AreaDef[] = [
       ],
       "nearby": [
         "ras-al-khor-industrial-area"
+      ],
+      "indexable": true
+    } },
+  // ------------------------------------------------------------------ UAE (batch 5: Sharjah)
+  { slug: "sajaa-industrial-area", name: "Sajaa Industrial Area", citySlug: "sharjah", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["virat","setu"], page: {
+      "metaTitle": "Data Loggers in Sajaa Industrial Area, Sharjah | Prithvi",
+      "metaDescription": "Data loggers for factories, workshops, yards and warehouses in the Sajaa Industrial Area of Sharjah, in summer heat. Get Solution.",
+      "intro": "The Sajaa Industrial Area lies inland and to the east of Sharjah city, a wide grid of factories, workshops, storage yards and warehouses on large plots beside long straight roads. A temperature data logger in a district like this is concerned with the ordinary risks of making and storing goods in extreme summer heat: chemicals and coatings with labelled limits, food and packaging stock, and general goods waiting under metal roofs. This page is limited to the kinds of goods and rooms a logger user could look after in an industrial area of this sort. Enquiries about Sajaa are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Factory finished-goods stores",
+          "note": "Plants of many kinds keep finished stock in halls that must hold a range while loading doors open and close through the day."
+        },
+        {
+          "name": "Chemical and coatings stores",
+          "note": "Stores of coatings, solvents, adhesives and cleaning products carry labelled limits that a hot shed can quietly exceed."
+        },
+        {
+          "name": "Packaging and food-making units",
+          "note": "Units that pack or process food and consumer goods keep chilled rooms and dry stores that work hardest on summer afternoons."
+        },
+        {
+          "name": "Open storage yards and trailers",
+          "note": "Goods stand in open yards and in parked trailers, where cargo inside a covered trailer can run far hotter than the shaded air."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "chemical",
+          "sentence": "Makers and stockists of coatings, adhesives and cleaning products in Sajaa store materials with labelled ranges, and a dated record shows whether a pallet stood hot for too long."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A warehouse in Sajaa holding goods for several owners can give each owner a temperature record of its own stock, instead of a general remark about the hall."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "A food or packaging unit supplying shops and kitchens can show with a log that its chilled room and finished-goods store held their limits for every batch."
+        }
+      ],
+      "services": "For an inland industrial area we would look at multi-point units for long halls where one end is hotter than the other, WiFi loggers for rooms with a router, probe-type loggers for chilled rooms and freezers, and loggers that ride in a load. Calibration for Sajaa users is something VEGA Calibrations, our parent company, can discuss. A WiFi logger needs a router within range and mains power, and for an open yard we describe the other choices. Supply is left until a request for Sajaa has been reviewed.",
+      "visits": "Visits and installation in the Sajaa Industrial Area are not promised. Give us the business, the halls or rooms involved and a contact on the enquiry form, Call or WhatsApp, and we review the request and say what looks practical.",
+      "approach": "If a request went ahead, we would begin with the store holding the most heat-sensitive stock, placing loggers at floor level and under the roof and one at the door, then add humidity reading where a plant washes down floors. A few weeks of summer readings would show where the building runs hottest.",
+      "faqs": [
+        {
+          "question": "Can a Sajaa factory watch several halls from one login?",
+          "answer": "Yes. Each hall or room is a point on the same dashboard, alerts go to the person responsible for it, and a combined report for any period can be exported."
+        },
+        {
+          "question": "Why do large plots and metal roofs raise storage temperatures?",
+          "answer": "A metal roof absorbs the sun and radiates heat into the hall, so a logger in the stock, not on an office wall, records what the goods actually met."
+        }
+      ],
+      "nearby": [
+        "muwaileh"
+      ],
+      "indexable": true
+    } },
+  { slug: "saif-zone", name: "SAIF Zone", citySlug: "sharjah", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","electronics","pharmaceutical"], confirmedService: true, hero: ["rajmudra","dhruva"], page: {
+      "metaTitle": "Data Loggers in SAIF Zone, Sharjah | Prithvi",
+      "metaDescription": "Data loggers for warehouse units, stock rooms and offices in SAIF Zone, the Sharjah Airport International Free Zone. Get Solution.",
+      "intro": "SAIF Zone, short for the Sharjah Airport International Free Zone, sits beside the airport in the north-east of Sharjah city, a grid of low warehouse units and office blocks used by trading and light-industrial firms. For a temperature data logger the interest lies in the small, valuable and sensitive goods such units tend to hold: electronic parts, perfumes and cosmetics, healthcare products and consumer goods, kept in storerooms and light warehouses through long hot summers. The text here is confined to the stock and rooms that a logger user in SAIF Zone could look after. Enquiries about SAIF Zone are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Low warehouse units",
+          "note": "Units of several sizes hold stock for firms based in the offices next door, and their flat roofs soak up the sun long before the cooling catches up."
+        },
+        {
+          "name": "Parts and equipment stock rooms",
+          "note": "Components and equipment are kept in rooms where a hot afternoon followed by a damp night can leave moisture on cool surfaces."
+        },
+        {
+          "name": "Perfume, cosmetics and consumer-goods stores",
+          "note": "Products with a labelled storage range sit on shelves in storerooms that rise and fall with the weather outside."
+        },
+        {
+          "name": "Medical product stores",
+          "note": "Stores for medical devices and medicines keep stock in cooled rooms and refrigerators with stated limits."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "electronics",
+          "sentence": "A parts dealer in a SAIF Zone unit can show with a log that stock stayed in a stated range of heat and humidity until a customer collected it."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Firms keeping medical products in the zone need a dated record of temperature, which tells a distributor whether a carton stood too long in the heat."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A unit storing goods for several clients can give each client a record of its own pallets in place of a general remark about the building."
+        }
+      ],
+      "services": "In a free-zone district of this kind we would look at WiFi loggers for stock rooms near a router, probe units for refrigerators and freezers, humidity-reading models for electronics and cosmetics stores, and loggers that ride inside a consignment. Users in SAIF Zone can raise calibration with VEGA Calibrations, our parent company. WiFi models need a router in range and a power supply, and for a vehicle we describe other choices. Nothing is said about supply until a request for SAIF Zone has been read.",
+      "visits": "A visit or an installation in SAIF Zone is not promised. Give us the business, the rooms and a contact on the enquiry form, Call or WhatsApp, and we look over the request and reply with what seems workable.",
+      "approach": "If a request went ahead, we would start with the stock room whose contents are hardest to replace, placing one logger near the door and one at the back, and adding a humidity unit where parts are kept. The first weeks of readings would show whether afternoon heat or damp nights put more strain on the room.",
+      "faqs": [
+        {
+          "question": "Can a trader with one unit in a free zone start with a single logger?",
+          "answer": "Yes. One logger in one room is enough to begin, and extra points can join the same dashboard later as the stock grows."
+        },
+        {
+          "question": "Why does a hot day followed by a damp night matter for stored parts?",
+          "answer": "Moisture condenses on cool surfaces overnight, so a humidity trend beside the temperature shows exposure that a thermometer alone would miss."
+        }
+      ],
+      "nearby": [
+        "muwaileh"
+      ],
+      "indexable": true
+    } },
+  { slug: "hamriyah-free-zone", name: "Hamriyah Free Zone", citySlug: "sharjah", areaType: "industrial-estate", nearbyIndustries: ["chemical","logistics-warehousing","food-beverage"], confirmedService: true, hero: ["nakshatra","virat-pro"], page: {
+      "metaTitle": "Data Loggers in Hamriyah Free Zone, Sharjah | Prithvi",
+      "metaDescription": "Data loggers for industrial plots, stores and yards in the Hamriyah Free Zone on the Sharjah coast, in humid summer heat. Get Solution.",
+      "intro": "The Hamriyah Free Zone lies on the Gulf coast north of Sharjah city, a flat free-zone district of plots for heavy and light industry and storage beside the shore. A temperature data logger in a coastal industrial district is concerned with materials that are damaged by heat and salt damp: metals and coatings, chemicals, building products and food stock held in yards and sheds close to the sea. This page is limited to the kinds of goods and rooms a logger user could look after in a coastal free-zone district of this sort. Enquiries about Hamriyah are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Chemical and coatings stores",
+          "note": "Stores of coatings, solvents and treatment products near the shore face heat and salt damp, and labelled ranges can be broken in a hot shed without anyone noticing."
+        },
+        {
+          "name": "Metal and materials yards",
+          "note": "Metals, pipes and building materials stand in open yards, where salty air and condensation work on surfaces overnight."
+        },
+        {
+          "name": "Warehouses and storage sheds",
+          "note": "General warehouses hold stock for plants and traders, under metal roofs that heat up quickly in the sun."
+        },
+        {
+          "name": "Canteens and food stores",
+          "note": "Kitchens and canteens feeding staff on a coastal estate run coolers and freezers through the long summer, far from the city's shops."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "chemical",
+          "sentence": "Stores of coatings, solvents and treatment products at Hamriyah carry labelled ranges, and a dated record shows whether a hot, damp shed pushed a pallet outside them."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A warehouse holding materials for several tenants can give each tenant a record of its stock, rather than a general statement about the shed."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Canteens and food stores on a coastal estate hold chilled and frozen food, and a record from each cooler shows when a compressor began to struggle."
+        }
+      ],
+      "services": "For a coastal free-zone district we would consider WiFi loggers for stores with a router, probe-type loggers for freezers and refrigerators, multi-point units for long sheds, and loggers that ride in a load. VEGA Calibrations, our parent company, can talk through calibration for Hamriyah users. A WiFi logger needs a router in range and a power supply, and for an open yard we set out the alternatives. What can be supplied is decided only after a Hamriyah request has been reviewed.",
+      "visits": "Visits and installation at Hamriyah are not promised. Pass on the business, the stores and a contact using the enquiry form, Call or WhatsApp, and we look over the Hamriyah request and reply with what seems workable.",
+      "approach": "If a request went ahead, we would begin with the store holding the most sensitive materials, placing one logger by the door and one at the back, then add a humidity-reading unit where sea air enters. A few weeks of readings would show which hours push the shed outside its range.",
+      "faqs": [
+        {
+          "question": "Why does salty air matter for stored materials near the shore?",
+          "answer": "Salt-laden air attacks metal and softens cartons, and condensation forms on cool surfaces overnight, so a humidity log beside the temperature shows when stock took on moisture."
+        },
+        {
+          "question": "Can one report cover a long coastal storage shed?",
+          "answer": "Yes. A multi-channel logger reads several probes along the shed, so one report shows which stretch of the building runs warmest and at what time."
+        }
+      ],
+      "nearby": [
+        "sajaa-industrial-area"
+      ],
+      "indexable": true
+    } },
+  { slug: "muwaileh", name: "Muwaileh", citySlug: "sharjah", areaType: "mixed-use", nearbyIndustries: ["food-beverage","pharmaceutical","logistics-warehousing"], confirmedService: true, hero: ["veer","setu"], page: {
+      "metaTitle": "Data Loggers in Muwaileh, Sharjah | Prithvi",
+      "metaDescription": "Data loggers for shops, workshops, clinics and storerooms in Muwaileh, a mixed commercial district of Sharjah. Get Solution.",
+      "intro": "Muwaileh is a mixed commercial and residential district in the east of Sharjah city, where shops, workshops, clinics, restaurants and apartment blocks share the same streets. A temperature data logger in a district like this is concerned with many small rooms rather than a few large ones: shop refrigerators, restaurant coolers, clinic vaccine fridges and workshop storerooms, all of them cooled by equipment that works hard in long summers. This page is limited to the kinds of goods and rooms a logger user could look after in a mixed district of this sort. Enquiries about Muwaileh are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Shops and supermarkets",
+          "note": "Shops and small supermarkets sell dairy products, drinks and frozen food from display cabinets that are opened thousands of times a day."
+        },
+        {
+          "name": "Restaurants and cloud-kitchen units",
+          "note": "Restaurants and small kitchen units run walk-in coolers and freezers in back rooms that share heat with ovens and fryers."
+        },
+        {
+          "name": "Clinics and pharmacies",
+          "note": "Clinics and pharmacies serving the district hold vaccines and medicines in refrigerators that must hold their range through power interruptions."
+        },
+        {
+          "name": "Workshop storerooms",
+          "note": "Workshops and service units keep adhesives, lubricants and electronic parts in storerooms that follow the weather outside."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "food-beverage",
+          "sentence": "Shops and restaurants in Muwaileh hold chilled and frozen goods that spoil in heat, and a record from each cooler shows when a unit began to drift."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Pharmacies and clinics in the district store stock to labelled ranges, and a dated log shows how a room behaved through the hottest weeks and any outage."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Small stores holding goods for local shops can give each shop a record of its stock, instead of a general remark about the room."
+        }
+      ],
+      "services": "For a district of many small rooms we would look at single-point loggers with external probes for refrigerators and freezers, WiFi loggers for kitchens and stores near a router, and units that read humidity beside temperature for dry stores. Calibration for Muwaileh users is something VEGA Calibrations, our parent company, can discuss. A WiFi logger needs a router within range and mains power, and for a vehicle we describe the alternatives. Whether anything can be supplied waits on a request from Muwaileh being reviewed.",
+      "visits": "No visit or installation in Muwaileh is promised. Let us know the shop or clinic, the units involved and a contact via the enquiry form, Call or WhatsApp, and we read the Muwaileh request and reply with what seems workable.",
+      "approach": "If a request went ahead, we would begin with the refrigerator or cooler whose contents are hardest to replace, placing a probe in the middle of the unit rather than at the door, then add a second point in a dry store. The first weeks of data would show how often door openings and power cuts affect the range.",
+      "faqs": [
+        {
+          "question": "Can a small shop with a single refrigerator use one logger?",
+          "answer": "Yes. One probe logger with a phone alert can cover a single shop refrigerator, and the dated log can be shown to an inspector as proof of how the unit held its range."
+        },
+        {
+          "question": "Why should a probe sit inside a cooler rather than on its door?",
+          "answer": "Air near the door swings with every opening, so a probe among the contents records what the goods actually experienced."
+        }
+      ],
+      "nearby": [
+        "sajaa-industrial-area"
       ],
       "indexable": true
     } },
