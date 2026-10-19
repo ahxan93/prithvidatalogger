@@ -143,6 +143,7 @@ export const locations: LegacyLocationNode[] = [
       { slug: "dadra-and-nagar-haveli-and-daman-and-diu", text: "Silvassa's pharma, plastics and textile estates, Daman's packaging, bottling and harbour trades, and the island of Diu, in a humid coastal climate." },
       { slug: "odisha", text: "Bhubaneswar and Cuttack's hospitals, markets and estates, Rourkela's steel town and the Paradip port and Jharsuguda power country, in cyclone and monsoon weather." },
       { slug: "jharkhand", text: "Ranchi's engineering and hospitals, Jamshedpur's steel and vehicle belt, the Dhanbad coal field and Bokaro's steel township, in dusty heat and a heavy monsoon." },
+      { slug: "chhattisgarh", text: "Raipur's rice mills and steel estates, Bhilai's steel township, Bilaspur's railway and coalfield offices and Korba's coal and power belt, in dust and a heavy monsoon." },
     ],
     indexable: true,
     children: [
@@ -14253,6 +14254,433 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Bokaro | Prithvi",
             metaDescription:
               "WiFi and GSM temperature and humidity data loggers for Bokaro's steel-works stores, ancillary firms, hospitals and Chas markets. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "chhattisgarh",
+        name: "Chhattisgarh",
+        type: "state",
+        intro:
+          "Chhattisgarh sits in the middle of the country on a plain of rice fields ringed by coal, iron ore and forest, and its storage follows the railway and the mines. Raipur, the capital, holds rice mills, sponge-iron and steel works, hospitals and wholesale godowns; Bhilai is a steel township twinned with Durg; Bilaspur is the rail and coalfield administrative centre; and Korba is a city of coal mines, power stations and an aluminium smelter. Summers are very hot and dusty, the monsoon is heavy and winter nights are cool, so spares stores, grain godowns and hospital refrigerators meet dust, damp and chill in a single year. The page for each city names its estates and suggests matching loggers.",
+        localIndustries: [
+          "Steel and sponge iron",
+          "Coal, power and aluminium",
+          "Rice milling and agro processing",
+          "Hospitals and railway stores",
+        ],
+        citiesServed: ["Raipur", "Bhilai", "Bilaspur", "Korba"],
+        supportNote:
+          "Supply, installation support and site visits for Chhattisgarh sites are arranged from our Mumbai office. Send the city, the works or the mine-side shed and a note of what the rooms hold.",
+        faqs: [
+          {
+            question: "Which Chhattisgarh locations have a page?",
+            answer:
+              "Raipur, Bhilai, Bilaspur and Korba each have a city page. A town elsewhere in the state can be raised by writing to us through the enquiry form.",
+          },
+          {
+            question: "Why watch humidity in a rice or sponge-iron store?",
+            answer:
+              "Grain takes up moisture and spoils when the monsoon air turns heavy, and iron products and electrical spares rust in damp sheds, so a humidity trend shows the day a store starts to slip.",
+          },
+          {
+            question: "Can plants in Chhattisgarh and Odisha or Madhya Pradesh be watched together?",
+            answer:
+              "Yes. Each plant is a site with its own alert contacts, so a head of operations can see works in neighbouring states in one list and export a report for any room.",
+          },
+        ],
+        listing: [
+          { slug: "raipur", text: "The capital of rice mills, Siltara and Urla steel and sponge-iron estates, a medical institute and the new city of Naya Raipur." },
+          { slug: "bhilai", text: "A steel township and its twin Durg, with a large steel works, ancillary engineering estates and a big hospital." },
+          { slug: "bilaspur", text: "The rail, court and coalfield-office city, with the Sirgitti estate, a central university and a teaching hospital." },
+          { slug: "korba", text: "A city of coal mines, thermal power stations and an aluminium smelter on the Hasdeo, in heat and coal dust." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "raipur",
+            name: "Raipur",
+            type: "city",
+            intro:
+              "Raipur is the capital of Chhattisgarh, an old trading town on the central plain that is now spreading toward the planned new capital of Naya Raipur, and a temperature data logger here serves a major storage hub of the state. Rice mills, the pride of the rice-growing plain, stand in the estates alongside sponge-iron, steel and ferro-alloy works at Siltara, Urla and Bhanpuri, while wholesalers at Pandri supply the cloth, food and general goods trade. A medical institute and a large government hospital serve patients from the whole state. Trucks of rice, steel and sponge iron leave for ports and cities across the country every day. Prithvi supplies WiFi loggers for wards and rooms with a network and GSM loggers for lorries, yards and distant stores.",
+            climateAngle:
+              "Summers are very hot and dusty, the monsoon is heavy and winter nights are cool, so a grain godown that was parched in May can be damp in August and a hospital store faces chill, heat and outages in turn.",
+            areas: [
+              {
+                name: "Siltara industrial area",
+                note: "A large estate beyond the city with steel, sponge-iron and ferro-alloy works and the stores that supply them, where bagged material and spares stand in sheds exposed to dust and heat.",
+              },
+              {
+                name: "Urla and Bhanpuri industrial areas",
+                note: "Estates close to the city hold rice mills, food processors, engineering and packaging firms on plots of mixed size, with lorries queuing at the gates through the day.",
+              },
+              {
+                name: "Pandri and the wholesale markets",
+                note: "Wholesalers of cloth, grain, food and general goods work in crowded buildings in Pandri and the old markets, with godowns packed floor to roof.",
+              },
+              {
+                name: "Medical institute and hospital district",
+                note: "A national medical institute and a large government hospital, with private hospitals nearby, keep blood units, vaccines and medicines in refrigerators that serve patients from the whole state.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Rice millers, flour and oil processors and packaged-food firms store grain and cartons that spoil in damp heat, and a record from each godown shows the day moisture began to enter the stock.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Steel, sponge-iron and allied works keep drums, bags and reagents with printed storage limits, and an alert from a hot shed lets the storekeeper act before material is wasted.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A medical institute and large hospitals hold blood and vaccines for the whole state, and an alert on a phone means a failing refrigerator is found during the night.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Raipur is a junction for goods moving between the east and the west, and a logger placed in a consignment records how long it stood in a yard or a siding in the heat.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a rice godown or a spares store, where heavy monsoon air is what harms the stock.",
+              },
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels cover a long mill store or a tall warehouse at several heights and positions, so one report shows where heat and damp gather.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a lorry or reports from a yard store with no router, and sends an alert to a phone.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How can a logger help a rice miller around Raipur?",
+                answer:
+                  "A record of humidity and temperature in the godown marks the day moisture began to enter the sacks, so staff can ventilate, cover or move stock, and the owner has a record to show a buyer.",
+              },
+              {
+                question: "Do you visit Siltara, Urla and Bhanpuri in one trip?",
+                answer:
+                  "Send the estate, the plant and a person to meet through the enquiry form, WhatsApp or a call, and we propose a day. The estates lie in different directions from the city, so we take them in a sensible order.",
+              },
+              {
+                question: "Can Raipur and Bhilai sites be watched together?",
+                answer:
+                  "Yes. Each plant or godown is a site on one account with its own alert recipients, so a manager sees both cities in one list and exports a report for any period.",
+              },
+              {
+                question: "Who calibrates loggers used in a Raipur hospital or laboratory?",
+                answer:
+                  "For a Raipur hospital or laboratory, VEGA Calibrations, our parent company, calibrates the loggers and the visit can be set when you order.",
+              },
+            ],
+            nearby: [
+              { slug: "bhilai", name: "Bhilai" },
+              { slug: "bilaspur", name: "Bilaspur" },
+            ],
+            metaTitle: "Temperature Data Loggers in Raipur | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Raipur's rice mills, Siltara and Urla works, hospitals and Pandri godowns. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "bhilai",
+            name: "Bhilai",
+            type: "city",
+            intro:
+              "Bhilai is a steel township in the Durg district of Chhattisgarh, planned in numbered sectors around a large public-sector steel works, and a temperature data logger here serves a city built for heavy industry and twinned with Durg. Iron ore comes from the mines at Dalli-Rajhara, coal arrives by rail, and the works rolls rails and structural steel for the country. Ancillary firms in the Bhilai Industrial Estate and at Borai supply fabrication, packaging, food and repair, while a large hospital and many schools serve the township. Durg, the district town beside it, holds the wholesale trade and the district courts. Prithvi supplies WiFi loggers for plant stores, wards and offices with a network and GSM loggers for lorries, yards and distant sheds.",
+            climateAngle:
+              "Summers are very hot and the works adds its own heat and dust, the monsoon is heavy and winter nights are cool, so stores of spares, reagents and medicines meet heat, damp and chill within a year.",
+            areas: [
+              {
+                name: "Steel works and plant stores",
+                note: "Stores inside the works hold spares, instruments, electrical panels and laboratory reagents on a very wide campus, with rooms far from any office and strict gate rules.",
+              },
+              {
+                name: "Bhilai Industrial Estate",
+                note: "An estate of ancillary firms making fabricated parts, packaging and consumables for the works, with steel stock and finished goods in sheds that bake in summer.",
+              },
+              {
+                name: "Borai industrial area",
+                note: "An industrial growth centre on the road toward Raipur, with food, engineering and packaging firms on large plots and warehouses open to the sun.",
+              },
+              {
+                name: "Sector markets, Durg and the hospital",
+                note: "Markets in the planned sectors and in Durg stock food, medicines and general goods, while a large hospital holds blood and vaccines for the township and the district.",
+              },
+            ],
+            industries: [
+              {
+                slug: "chemical",
+                sentence:
+                  "Plant laboratories and chemical stores keep drums, bags and reagents with printed limits, and an alert from a hot store room lets the storekeeper act before the limit is passed.",
+              },
+              {
+                slug: "electronics",
+                sentence:
+                  "Stores of electrical and control gear keep relays, cables and meters that corrode in dust and damp air, and a humidity trend marks the day a store needs a dehumidifier.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A large hospital in the township and others in Durg hold blood and vaccines for a wide district, and an alert to the duty staff covers the minutes between mains and generator.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Dairies, wholesalers and caterers feed a large township from chillers and cold rooms, and the log of each unit shows when one stopped holding temperature in a storm.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels let a plant laboratory or a hospital pharmacy be watched at two points, which shows whether the cold reaches the back of the room.",
+              },
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels spread along a long spares hall or a stacked plant store give one report for every rack and bay.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger rides in a lorry or reports from a distant shed where Wi-Fi does not reach, and sends an alert to a phone.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can an ancillary firm in the industrial estate give the works a store record?",
+                answer:
+                  "Yes. A report for any room and period can be exported as PDF, Excel or CSV, and access can be limited so each party sees only its own rooms.",
+              },
+              {
+                question: "How do loggers suit a big works with long distances between stores?",
+                answer:
+                  "A battery logger needs no cable laid between buildings, and one with poor signal can report over the mobile network, so each store still shows up on the same dashboard.",
+              },
+              {
+                question: "Can a visit be arranged inside the works gates?",
+                answer:
+                  "Send us the gate rules and a name to ask for through the enquiry form, WhatsApp or a call, and mention any pass or safety briefing. We plan around it and carry a short kit.",
+              },
+              {
+                question: "Who calibrates loggers used in a Bhilai laboratory?",
+                answer:
+                  "VEGA Calibrations, our parent company, can calibrate loggers and carry out temperature mapping, and the work can be planned alongside the first visit.",
+              },
+            ],
+            nearby: [
+              { slug: "raipur", name: "Raipur" },
+              { slug: "bilaspur", name: "Bilaspur" },
+            ],
+            metaTitle: "Temperature Data Loggers in Bhilai | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Bhilai's steel-works stores, ancillary estates, Durg markets and hospitals. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "bilaspur",
+            name: "Bilaspur",
+            type: "city",
+            intro:
+              "Bilaspur is a major city of Chhattisgarh and its rail, court and coalfield centre, on the Arpa river, and a temperature data logger here serves a city of offices, schools and trade. The headquarters of a railway zone and of a coalfield company stand in the city, the state high court sits here, and a central university and a medical institute with its hospital draw students and patients from many districts. The Sirgitti industrial area holds rice mills, sponge-iron works, engineering and food firms, and the plain around is a rice-growing country. Goods and people pass through its busy junction at all hours. Prithvi supplies WiFi loggers for offices, wards and stores with a network and GSM loggers for lorries and sheds.",
+            climateAngle:
+              "Summers are fiercely hot, the monsoon is heavy and winters are cool, so a railway store that is dry in the spring can be damp in the rains, and a rice godown meets fierce heat and heavy air in one year.",
+            areas: [
+              {
+                name: "Railway zone offices, stores and the junction",
+                note: "Offices, stores of electrical items and spares, goods sheds and parcel offices around the junction hold supplies that move by rail, and parcels wait on platforms between trains.",
+              },
+              {
+                name: "Sirgitti industrial area",
+                note: "An estate on the edge of the city with rice mills, sponge-iron works, engineering and food firms, whose godowns open to the road and the sun.",
+              },
+              {
+                name: "Coalfield offices and the court area",
+                note: "Administrative offices, banks, lawyers' chambers and printing and record rooms fill the civil lines, with server cupboards and archives needing steady air.",
+              },
+              {
+                name: "Medical institute, university and markets",
+                note: "A teaching hospital, a central university and the busy markets in the old town hold samples, blood units, medicines and food in fridges and cold rooms.",
+              },
+            ],
+            industries: [
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A medical institute and its hospital serve patients from the northern districts, and a dated record backs each handover for blood units, vaccines and medicines.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Rice millers, bakeries and sweet makers store grain and cartons that spoil in damp heat, and an alert on a phone reaches the owner when a unit warms during the night.",
+              },
+              {
+                slug: "data-centers",
+                sentence:
+                  "Server rooms and record rooms in the railway and coalfield offices need steady cooling and low humidity, and a trend shows the day a cooling unit began to struggle.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "The junction and the highways make the city a transfer point for coal-belt supplies and farm produce, and a logger in a consignment records how long it stood in a wagon or a yard.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels let a hospital store or a server room be read at its door and at its far wall by a single wall-mounted device.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity and temperature at one point suit a rice godown or a railway stores room, where monsoon damp is the main threat.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Its built-in display shows a storekeeper the temperature during the round, and the dashboard keeps every reading for the quality head.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can an office with a records room use a logger for temperature and humidity?",
+                answer:
+                  "Yes. A logger in the archive or server room records both, and an alert reaches the facilities team when humidity rises or cooling falters, which protects paper and equipment.",
+              },
+              {
+                question: "Do you visit Sirgitti as well as the city?",
+                answer:
+                  "Tell us the estate, the unit and a person to meet using the enquiry form, WhatsApp or a call, and we propose a date. Sirgitti is often grouped with the city on one visit.",
+              },
+              {
+                question: "Can Bilaspur and Korba sites be watched on one dashboard?",
+                answer:
+                  "Each site is a point on the same account with its own alert contacts, and a manager sees both cities in a single list and exports a report for any period.",
+              },
+              {
+                question: "Can calibration be arranged for a Bilaspur hospital laboratory?",
+                answer:
+                  "Our parent company, VEGA Calibrations, calibrates loggers and probes, and a Bilaspur hospital laboratory can book the work with its order.",
+              },
+            ],
+            nearby: [
+              { slug: "korba", name: "Korba" },
+              { slug: "raipur", name: "Raipur" },
+            ],
+            metaTitle: "Temperature Data Loggers in Bilaspur | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Bilaspur's railway and coalfield offices, rice mills, hospital and Sirgitti estate. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "korba",
+            name: "Korba",
+            type: "city",
+            intro:
+              "Korba is the coal and power city of Chhattisgarh, on the Hasdeo river, and a temperature data logger here serves a district of open-cast mines, thermal stations and smelters. Large open-cast coal mines at Gevra, Dipka and Kusmunda feed the power stations, an aluminium smelter and its township stand at Balco Nagar, and a fertiliser, cement and engineering supply trade has grown around them. Dust from the mines coats every surface, coal trains leave the sidings day and night, and storage in the stores of the plants is on a large scale. The town of Korba and neighbouring Katghora hold the markets, hospitals and schools. Prithvi supplies WiFi loggers for plant stores and wards with a network and GSM loggers for lorries, mine-side sheds and yards.",
+            climateAngle:
+              "Summers are fierce and thick with coal dust, the monsoon is heavy and turns the dust to mud, and winter mornings are cool, so electrical stores, laboratories and pharmacy fridges meet heat, damp and grit in turn. Fine dust gets into every cabinet and vent, and long outages in a storm can leave a pharmacy fridge warming unnoticed overnight.",
+            areas: [
+              {
+                name: "Coal mines and mine-side stores",
+                note: "Stores near the open-cast mines hold spares, instruments, tyres and electrical gear in sheds coated in dust, with rooms far from any office.",
+              },
+              {
+                name: "Thermal power station stores",
+                note: "Power stations along the Hasdeo keep laboratory reagents, instrument spares and control equipment on wide campuses, under strict gate rules.",
+              },
+              {
+                name: "Balco Nagar and the smelter belt",
+                note: "An aluminium smelter and its township hold raw material stores, laboratories and clinics, with canteens and medicine fridges that serve a large workforce.",
+              },
+              {
+                name: "Korba and Katghora markets and hospitals",
+                note: "Wholesalers of food, medicines and hardware and the hospitals of the two towns hold stock in crowded rooms, with chillers and vaccine fridges running all day.",
+              },
+            ],
+            industries: [
+              {
+                slug: "electronics",
+                sentence:
+                  "Control rooms and electrical stores hold relays, boards and instruments that suffer in coal dust and damp, and a humidity trend shows when a store needs attention.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Smelting, power and allied works keep drums, bags and reagents with printed storage limits, and an alert from a hot shed lets the storekeeper act before the limit is crossed.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Plant hospitals and town hospitals hold blood, vaccines and medicines for the workforce and the villages, and an alert on a phone means a failing refrigerator is found in the night.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "Plant and coal-quality laboratories keep samples, standards and reagents in fridges and cabinets with their own limits, and an exported log is ready for an audit.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity and temperature at one point suit an electrical store or an instrument room, where coal dust and monsoon damp are what harm the stock.",
+              },
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels cover a long spares hall or a laboratory block across racks and rooms, so one report shows the whole building.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger with an external probe rides in a vehicle or reports from a mine-side shed where Wi-Fi does not reach.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How does coal dust change how a logger is fitted at Korba?",
+                answer:
+                  "Dust coats open sensors and vents, so we place the logger body in the cleanest air available, keep probes sealed and suggest a wipe at routine cleaning, which keeps the readings true.",
+              },
+              {
+                question: "Can a plant with strict entry rules be covered?",
+                answer:
+                  "Give us the gate rules and a name to ask for by the enquiry form, WhatsApp or a call. Tell us of any pass or safety induction, and the day is arranged around it.",
+              },
+              {
+                question: "Can stores at Korba and Bilaspur be watched together?",
+                answer:
+                  "Yes. Each site is a point on one account with its own alert contacts, and a manager sees the whole coal belt in a single list and exports a report for any period.",
+              },
+              {
+                question: "Who calibrates loggers used in a Korba laboratory or hospital?",
+                answer:
+                  "VEGA Calibrations, our parent company, calibrates loggers and probes for plant and hospital laboratories at Korba, and the date can be fixed with the order.",
+              },
+            ],
+            nearby: [
+              { slug: "bilaspur", name: "Bilaspur" },
+              { slug: "raipur", name: "Raipur" },
+            ],
+            metaTitle: "Temperature Data Loggers in Korba | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Korba's coal-mine stores, power-station laboratories, hospitals and markets. Get Solution.",
             indexable: true,
           },
         ],
