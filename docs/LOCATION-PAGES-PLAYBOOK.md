@@ -341,6 +341,9 @@
 | Port of Salif (`port-of-salif`, area of Hodeidah) | Yemen | Bagged bulk-goods sheds, small warehouses, food stores, vehicles (described generally, no operating status) | Logistics, chemicals, food | Hot, salty, exposed coast | Port of Hodeidah |
 | Ibb (`ibb`, city, Ibb Governorate) | Yemen | Terrace-farm produce stores, wholesale stores, hospitals and university, dairies | Food, medicines, laboratories | Cool, misty, wet highland | Taiz, Dhamar |
 | Dhamar (`dhamar`, city, Dhamar Governorate) | Yemen | Farm produce stores, markets, university laboratories, hospitals and pharmacies | Food, laboratories, medicines | High, dry plateau with cold nights | Sana'a, Ibb |
+| Marib (`marib`, city, Marib Governorate) | Yemen | Dam-fed farms and date stores, wholesale food stores, hospitals and clinics, equipment yards | Food, medicines, logistics | Very hot, dry desert edge; dust | Sana'a, Al Jawf (not yet built) |
+| Lahij (`lahij`, city, Lahij Governorate) | Yemen | Delta produce sheds, wholesale yards, dairy and food shops, clinics | Food, medicines, logistics | Hot delta plain, flood and dust | Aden, Zinjibar |
+| Sa'dah (`sadah`, city, Sa'dah Governorate) | Yemen | Walled-town market, terrace fruit and grain stores, hospitals, pharmacy wholesalers | Food, medicines, logistics | Cold, dry mountain climate | Amran (not yet built), Sana'a |
 | Jazan Economic City (`jazan-economic-city`, area of Jazan) | Saudi Arabia | Plant chemical and drum stores, spares warehouses and contractor yards, port yards, camp kitchens and clinics | Chemical stores, contract warehousing, camp catering | Extreme heat and humidity, salty air | none |
 | Jeddah (`jeddah`) | Saudi Arabia | Industrial and port logistics zones | Port logistics, food import cold chain, hospitals | Hot, humid coastal | Riyadh, Dammam |
 | Dammam (`dammam`) | Saudi Arabia | Industrial and port logistics zones | Industrial & chemical, port logistics, food | Hot, humid Gulf coast | Riyadh, Bahrain, Jeddah |
@@ -561,3 +564,6 @@ Yemen Batch 4 (Taiz, Al Hudaydah, Ibb, Dhamar): four governorate hubs created. T
 Governorate (Hodeidah, Zabid, Bajil, Port of Hodeidah, Port of Salif) are indexable; Ibb Governorate and Dhamar Governorate have one city each,
 so they stay noindex and out of the sitemap until a second page is built. Mocha is a city under Taiz Governorate and the Port of Mocha an area of
 Mocha. The Port of Salif is attached as an area of Hodeidah.
+
+Yemen Batch 5 (Marib, Lahij, Sa'dah): three governorate hubs created, each with one city, so all three stay noindex and out of the sitemap until a
+second page is built. Not built, for lack of confident, distinguishing local facts: Amran, Hajjah and Al Bayda.

@@ -217,6 +217,21 @@ export const locationContent: Record<string, LocationContent> = {
       "Temperature data loggers for Dhamar Governorate: Dhamar's farm produce, clinics and university labs on a cold plateau, case by case. Get Solution.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
+  "yemen/marib-governorate": {
+    metaDescription:
+      "Temperature data loggers for Marib Governorate: Marib's desert-edge food stores, clinics and farm produce, case by case. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+  },
+  "yemen/lahij-governorate": {
+    metaDescription:
+      "Temperature data loggers for Lahij Governorate: Lahij's delta produce stores, wholesale food rooms and clinics, case by case. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+  },
+  "yemen/sadah-governorate": {
+    metaDescription:
+      "Temperature data loggers for Sa'dah Governorate: Sa'dah's walled-town markets, fruit stores and clinics, case by case for Yemen. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+  },
   "yemen/aden-governorate": {
     metaDescription:
       "Temperature data loggers for Aden Governorate: the port city's clinics, food stores and harbour-area warehouses, reviewed case by case. Get Solution.",

@@ -20731,6 +20731,9 @@ export const locations: LegacyLocationNode[] = [
       { slug: "al-hudaydah-governorate", text: "Hodeidah's Red Sea port, Zabid's old town and Bajil's produce markets on the hot Tihama plain, reviewed case by case." },
       { slug: "ibb-governorate", text: "Ibb's terraced farms, markets and clinics in the wet, green southern highlands, reviewed case by case." },
       { slug: "dhamar-governorate", text: "Dhamar's university, farm markets and clinics on the cool central plateau, reviewed case by case." },
+      { slug: "marib-governorate", text: "Marib's dam-fed farms, markets and clinics at the edge of the eastern desert, reviewed case by case." },
+      { slug: "lahij-governorate", text: "Lahij's delta farms, produce markets and clinics north of Aden, reviewed case by case." },
+      { slug: "sadah-governorate", text: "Sa'dah's walled old town, terrace fruit farms and mountain markets, reviewed case by case." },
     ],
     indexable: true,
     children: [
@@ -22325,6 +22328,414 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Dhamar | Prithvi",
             metaDescription:
               "Data loggers for Dhamar's farm produce stores, university labs, hospitals and clinics on a cold plateau, case by case. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "marib-governorate",
+        name: "Marib Governorate",
+        type: "state",
+        intro:
+          "Marib Governorate lies in the east of Yemen where the mountains fall away into the edge of the great desert. Its old fame comes from the ancient dam of the Sabaean kingdom, whose ruins stand beside a modern dam that holds back seasonal floodwater and waters fields of dates, vegetables and grain below it. The city of Marib is the centre, a desert-edge town of markets, clinics, workshops and storage yards, with oil and gas fields known to lie in the surrounding country. Days are very hot and dry, nights can be cool, and dust is common. Medicines, food and equipment all need steady storage in such swings. The page below describes the city and the rooms where a temperature record would help.",
+        localIndustries: [
+          "Desert-edge farming and dates",
+          "Medicine and vaccine storage",
+          "Food trade and wholesale stores",
+          "Workshop and equipment yards",
+        ],
+        citiesServed: ["Marib"],
+        supportNote:
+          "Requests from Marib Governorate are weighed case by case. Name the town, the rooms you want to watch and how they are cooled today, and we reply with what looks workable for that site.",
+        faqs: [
+          {
+            question: "Which places in Marib Governorate have a page?",
+            answer:
+              "Marib has a city page. Another town in the governorate can be put to us through the enquiry form, and further pages follow only when they can be written from confident facts.",
+          },
+          {
+            question: "Why would a very dry desert-edge town need humidity records?",
+            answer:
+              "Air that is dry for most of the year can turn damp briefly after a storm or a flood, and dry goods, paper and some medicines react to the change, so a humidity log beside the temperature shows when it happened.",
+          },
+          {
+            question: "Does a logger keep recording through a dust storm or a power cut?",
+            answer:
+              "It carries on recording on its battery and keeps the readings in memory, so a gap in power or signal still leaves a full record to read when the site connects again.",
+          },
+        ],
+        listing: [
+          { slug: "marib", text: "A desert-edge city beside an ancient dam and its modern successor, with farms below, clinics, markets and very hot, dry weather." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "marib",
+            name: "Marib",
+            type: "city",
+            intro:
+              "Marib is a city at the eastern edge of the Yemeni mountains, where the land opens into the great desert, and a temperature data logger here serves a hot, dry town built around an ancient dam site. The ruins of the Sabaean dam and temples stand nearby, a modern dam holds back seasonal floodwater, and the irrigated land below grows dates, vegetables and grain. Markets sell food and household goods to the town and to settlements across the dry country, and clinics, hospitals and workshops serve a wide area. Oil and gas fields are known to lie in the region, which brings equipment yards and storage into the picture. Dust is frequent. The loggers hold readings in memory on battery power when a network is absent. We look at each Marib request case by case.",
+            climateAngle:
+              "Days are very hot and dry, nights can be cool, dust blows for much of the year and rain is rare but sudden, so stores swing between baking heat and brief damp while vehicles waiting in the sun get far hotter than the air. Long roads link the town to the highlands, so goods often spend many hours in a vehicle before arriving, and the hot desert wind dries out anything left uncovered. A refrigerator that fails on a summer afternoon can lose its contents before anyone notices.",
+            areas: [
+              {
+                name: "Dam-fed farms and date stores",
+                note: "Growers below the dam keep dates, vegetables and grain in sheds and cool rooms among the fields, where heat after harvest is the main danger to the crop.",
+              },
+              {
+                name: "The town market and wholesale food stores",
+                note: "Dealers and shopkeepers stack flour, oil, drinks and household goods in stock rooms with simple roofs that bake in the afternoon sun.",
+              },
+              {
+                name: "Hospitals and clinics",
+                note: "Hospitals and clinics serve the town and the desert settlements around it and keep vaccines, insulin and blood products in refrigerators that must hold their range through power interruptions.",
+              },
+              {
+                name: "Workshop and equipment yards",
+                note: "Yards and workshops hold spare parts, lubricants, adhesives and electronic equipment that suit a steady range better than a cold desert dawn followed by a baking noon.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Marib date growers, wholesalers and grocers hold goods that suffer in desert heat, and a record from each store shows a buyer how a lot was kept after harvest.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Marib hospitals and clinics hold vaccines and blood products for settlements spread across a wide dry region, and a phone alert reaches the person on duty if a refrigerator warms overnight.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine wholesalers and pharmacies in Marib store stock to labelled ranges, and a dated log of temperature shows how a room behaved through the hottest weeks and any outage.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods reach Marib over long desert and mountain roads, and a logger placed in a load records how long it stood in a vehicle in the sun before it reached a small store.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a date or dry-goods store, where steady, cool and dry air protects the product through long storage.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels let a pharmacy room be read at the door and the far wall, showing whether the air at the back matches the front.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels along a long equipment shed show which stretch of the roof keeps the stock warmest, in one report.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Marib date or food business use a temperature record?",
+                answer:
+                  "A logger in a Marib store logs temperature and humidity across the season, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for a buyer.",
+              },
+              {
+                question: "Why does dust matter for where a logger is mounted?",
+                answer:
+                  "Fine dust settles on anything left open, so a logger is mounted on a shaded inner wall and kept away from vents, and its battery keeps the record going if power fails.",
+              },
+              {
+                question: "How would a request from Marib be handled?",
+                answer:
+                  "Give the place, what is kept and a contact on the enquiry form or WhatsApp. Marib requests are examined case by case, and we reply with what looks practical.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Marib clinics and laboratories?",
+                answer:
+                  "For Marib sites, VEGA Calibrations, our parent company, handles calibration of loggers and probes; share the model and range and we outline the choices.",
+              },
+            ],
+            nearby: [
+              { slug: "sanaa", name: "Sana'a" },
+              { slug: "al-jawf", name: "Al Jawf" },
+            ],
+            metaTitle: "Temperature Data Loggers in Marib | Prithvi",
+            metaDescription:
+              "Data loggers for Marib's desert-edge date stores, clinics, wholesale food rooms and equipment yards, case by case for Yemen. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "lahij-governorate",
+        name: "Lahij Governorate",
+        type: "state",
+        intro:
+          "Lahij Governorate lies in the south of Yemen, north of Aden, where a broad and fertile delta plain meets the mountains behind it. Seasonal floodwater from the highlands has long watered fields of cotton, vegetables, fruit and fodder on this plain, and the town of Lahij, also called Al Hawta, is its market centre. The climate is hot with moderate to high humidity near the plain and cooler in the hills, rain is uneven, and dust blows in dry spells. Farm produce, medicines and food pass through small stores and clinics where cooling and power cannot always be relied on. The page below describes the town and the rooms where a record of temperature would help.",
+        localIndustries: [
+          "Delta farming and produce",
+          "Fodder and livestock trade",
+          "Medicine and vaccine storage",
+          "Food shops and wholesale stores",
+        ],
+        citiesServed: ["Lahij"],
+        supportNote:
+          "Requests from Lahij Governorate are weighed case by case. Tell us which town you mean, what is kept there and how the room is cooled, and we reply with what looks workable.",
+        faqs: [
+          {
+            question: "Which places in Lahij Governorate have a page?",
+            answer:
+              "Lahij has a city page. Another town in the governorate can be put to us through the enquiry form, and more pages are added only when they can be written from confident facts.",
+          },
+          {
+            question: "How does a flood affect a store on the delta?",
+            answer:
+              "Floodwater and silt can reach low rooms and cut the power, so mounting the logger body above the likely water line, with a battery inside, keeps the record of what happened.",
+          },
+          {
+            question: "Can a single logger serve a small clinic?",
+            answer:
+              "One logger with a phone alert can watch a vaccine refrigerator if a router is within reach, and more points can be added to the same account later.",
+          },
+        ],
+        listing: [
+          { slug: "lahij", text: "A delta market town north of Aden among fields of cotton, vegetables and fruit, with clinics and wholesale stores in hot air." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "lahij",
+            name: "Lahij",
+            type: "city",
+            intro:
+              "Lahij, also known as Al Hawta, is a market town on a fertile delta plain in the south of Yemen, a short way north of Aden, and a temperature data logger here serves a farming district where heat, flood and dust meet. Floodwater from the highlands has long watered fields of cotton, vegetables, fruit and fodder, growers bring their crops to the town markets, and traders carry goods on towards Aden and the mountains. Clinics, small hospitals and pharmacies serve the district, and shops sell food and household goods. The climate is hot, with humidity that rises towards the coast. The loggers hold their readings in memory on battery power whenever the network drops. We consider each request from Lahij case by case.",
+            climateAngle:
+              "The plain is hot for most of the year, humid in the weeks when the sea air reaches inland, and dusty in the dry months, while rain is uneven and sometimes arrives as flood, so produce stores and clinic refrigerators work through long hot spells and interrupted power. Wholesalers load in the cool early hours to avoid the midday sun, but a cargo packed at dawn can still sit in a hot vehicle for much of the day before it is unloaded.",
+            areas: [
+              {
+                name: "Delta farms and produce sheds",
+                note: "Growers of vegetables, fruit and fodder crops keep produce in sheds and small cool rooms, where heat after picking and flood damp both threaten quality.",
+              },
+              {
+                name: "The town market and wholesale yards",
+                note: "Dealers sort and load produce in open yards and sheds, and the hours of waiting before a lorry leaves decide how much of a crop spoils.",
+              },
+              {
+                name: "Food shops and dairy sellers",
+                note: "Shops sell milk, yoghurt, drinks and packaged food from small rooms with simple coolers, opened constantly through the day.",
+              },
+              {
+                name: "Clinics and pharmacies",
+                note: "Clinics and pharmacies hold vaccines and medicines in refrigerators that must hold a range through hot afternoons and power cuts.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Lahij produce dealers, dairy sellers and grocers hold goods that spoil quickly in heat, and a record from each cold room shows when a chiller or an ice box began to fail.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Lahij clinics and small hospitals hold vaccines and blood products for the district, and an alert on a phone reaches the right person if a refrigerator warms.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Lahij keep stock in rooms with stated ranges, and a dated log shows how a room behaved through the hottest weeks and any outage.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Produce loaded in Lahij for Aden and the mountains stands in vehicles in the sun, and a logger placed in a load records what the cargo met on the way.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a produce shed or a dairy room at several heights and by the door, showing which corner runs warmest during the day.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single probe on a short lead slips into a clinic or pharmacy refrigerator in Lahij and leaves daily routines unchanged.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "With humidity shown beside temperature, one unit shows when damp from a flood or from coastal air has entered a produce store.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Lahij clinic or shop use a single logger?",
+                answer:
+                  "Yes. One logger with an alert to a phone can watch a single refrigerator in a clinic or shop, provided a router is within reach, and further points can be added to the same account later.",
+              },
+              {
+                question: "How would a request from Lahij be handled?",
+                answer:
+                  "Tell us the place, what you store and a contact through the enquiry form or WhatsApp. Yemen requests are weighed case by case, and we reply with what seems workable.",
+              },
+              {
+                question: "Why mount a logger above the likely flood line?",
+                answer:
+                  "A flood can carry water and silt into low rooms and cut the supply, so a body fixed higher up and fitted with a battery keeps the record of what the room went through.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Lahij?",
+                answer:
+                  "VEGA Calibrations, our parent company, looks after calibration of loggers and probes for Lahij sites; share the model and the range and we explain the options.",
+              },
+            ],
+            nearby: [
+              { slug: "aden", name: "Aden" },
+              { slug: "zinjibar", name: "Zinjibar" },
+            ],
+            metaTitle: "Temperature Data Loggers in Lahij | Prithvi",
+            metaDescription:
+              "Data loggers for Lahij's delta produce sheds, dairy rooms, wholesale yards and clinics, reviewed case by case for Yemen. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "sadah-governorate",
+        name: "Sa'dah Governorate",
+        type: "state",
+        intro:
+          "Sa'dah Governorate occupies the high mountains of northern Yemen, a country of terraced slopes, stone villages and cold, dry winters. The city of Sa'dah is its centre, a walled town of mud-brick houses and old gates that has served as a market and gathering place for the surrounding valleys. Grapes, pomegranates, grain and other crops grow on the terraces, and the markets also sell leather goods, spices and household supplies. Winter nights are very cold, summer days are bright and warm, and rain falls mainly in a short summer season. Medicines, food and farm produce need steady storage in such swings. The page below describes the city and the rooms where a temperature record would help.",
+        localIndustries: [
+          "Terrace farming and fruit",
+          "Market trade and leather goods",
+          "Medicine and vaccine storage",
+          "Food and grain stores",
+        ],
+        citiesServed: ["Sa'dah"],
+        supportNote:
+          "Requests from Sa'dah Governorate are weighed case by case. Name the town, the rooms you want to watch and how they are cooled today, and we reply with what looks workable for that site.",
+        faqs: [
+          {
+            question: "Which places in Sa'dah Governorate have a page?",
+            answer:
+              "Sa'dah has a city page. Another town in the governorate can be put to us through the enquiry form, and further pages follow only when they can be written from confident facts.",
+          },
+          {
+            question: "Do cold winter nights matter for stored fruit?",
+            answer:
+              "Yes. Grapes and pomegranates can be damaged by frost as well as by warmth, so a continuous log shows the swings that a single reading would miss.",
+          },
+          {
+            question: "What happens to the record if the connection drops?",
+            answer:
+              "The logger holds its readings in memory on battery power, so the record for the hours without signal is still there when the site next connects.",
+          },
+        ],
+        listing: [
+          { slug: "sadah", text: "A walled mountain town of mud-brick houses and old gates, with terrace fruit farms, markets and very cold winter nights." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "sadah",
+            name: "Sa'dah",
+            type: "city",
+            intro:
+              "Sa'dah is a walled town in the high mountains of northern Yemen, set on a plain among terraced slopes, and a temperature data logger here serves a market town of old mud-brick houses in a cold, dry climate. The old city's walls and gates still frame the central market, where traders sell fruit, grain, spices, leather goods and household supplies to the valleys around. Growers on the terraces produce grapes, pomegranates and grain, and clinics and hospitals serve a wide mountain district. Winter nights are very cold, summer days are bright and warm, and rain falls mainly in a short season. The loggers hold readings in memory on battery power when no network is present. We review each request from Sa'dah case by case.",
+            climateAngle:
+              "The air is thin, dry and bright, winter nights fall well below freezing at times, and summer afternoons can be warm, so fruit stores and clinic refrigerators swing between frost and warmth. Thick mud-brick walls even out the day but are slow to warm after a cold night, and a store room may hold winter chill into the afternoon before the sun reaches it. Rains in summer bring brief damp into rooms that are otherwise very dry.",
+            areas: [
+              {
+                name: "The walled-town market",
+                note: "Traders in the old market sell fruit, grain, spices, leather goods and household supplies from small shops and back rooms in thick-walled buildings.",
+              },
+              {
+                name: "Terrace fruit and grain stores",
+                note: "Growers keep grapes, pomegranates and grain in sheds and cellars near the terraces, where frost and warmth both threaten the harvest.",
+              },
+              {
+                name: "Hospitals and clinics",
+                note: "Hospitals and clinics serve a wide mountain district and keep vaccines, insulin and samples in refrigerators that must hold their range through every interruption of power.",
+              },
+              {
+                name: "Pharmacies and food wholesalers",
+                note: "Wholesalers hold medicines and packaged food in rooms that chill on clear nights and warm in the afternoon sun.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Sa'dah fruit dealers, grain merchants and grocers hold goods that suffer from frost and from warmth, and a log from each store shows a buyer how a lot was kept after harvest.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Sa'dah hospitals and clinics hold vaccines and blood products for mountain villages, and a phone alert reaches the person on duty if a refrigerator drifts in the small hours.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine wholesalers and pharmacies in Sa'dah keep stock to labelled ranges, and a dated record shows how a room behaved from a frosty dawn to a warm afternoon.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods reach Sa'dah over mountain roads, and a logger placed in a load shows how long it stood in a cold or sunny vehicle before reaching a small store.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable fits a ward or pharmacy refrigerator in Sa'dah and leaves the way staff use the unit unchanged.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a fruit cellar at several heights and beside the door, showing which shelf is first to chill or warm.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels read a wholesale store at the door end and the far wall, showing whether frost or sunlight reaches the back.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Do very cold nights really matter for fruit stores in Sa'dah?",
+                answer:
+                  "Yes. Grapes and pomegranates can be damaged by frost as easily as by warmth, so a continuous log shows swings that a single spot reading would miss.",
+              },
+              {
+                question: "Can a small Sa'dah clinic use one logger?",
+                answer:
+                  "A single logger with a phone alert is enough for one vaccine refrigerator when a router is nearby, and the account can take further points later.",
+              },
+              {
+                question: "How would a request from Sa'dah be handled?",
+                answer:
+                  "Pass on the town, what you keep and a contact using the enquiry form or WhatsApp. Requests from Yemen are looked at case by case, and we reply with what seems practical.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Sa'dah laboratories?",
+                answer:
+                  "VEGA Calibrations, our parent company, handles calibration of loggers and probes for Sa'dah sites; tell us the model and range and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "amran", name: "Amran" },
+              { slug: "sanaa", name: "Sana'a" },
+            ],
+            metaTitle: "Temperature Data Loggers in Sa'dah | Prithvi",
+            metaDescription:
+              "Data loggers for Sa'dah's walled-town market stores, terrace fruit cellars, hospitals and pharmacies, case by case for Yemen. Get Solution.",
             indexable: true,
           },
         ],

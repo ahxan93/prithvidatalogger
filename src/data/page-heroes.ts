@@ -246,7 +246,7 @@ const CITY_REGISTRY: { slug: string; region: Region }[] = [
     "puducherry", "karaikal",
   ].map((slug) => ({ slug, region: "india" as const })),
   // Saudi Arabia (appended so earlier assignments never move).
-  ...["al-kharj", "diriyah", "al-majmaah", "makkah", "taif", "rabigh", "king-abdullah-economic-city", "al-khobar", "jubail", "al-ahsa", "dhahran", "qatif", "ras-al-khair", "madinah", "yanbu", "buraidah", "unaizah", "abha", "khamis-mushait", "bisha", "jazan", "najran", "al-baha", "tabuk", "hail", "sakaka", "arar", "aden", "mukalla", "seiyun", "shibam", "zinjibar", "sanaa", "taiz", "mocha", "hodeidah", "zabid", "bajil", "ibb", "dhamar"].map((slug) => ({ slug, region: "gcc" as const })),
+  ...["al-kharj", "diriyah", "al-majmaah", "makkah", "taif", "rabigh", "king-abdullah-economic-city", "al-khobar", "jubail", "al-ahsa", "dhahran", "qatif", "ras-al-khair", "madinah", "yanbu", "buraidah", "unaizah", "abha", "khamis-mushait", "bisha", "jazan", "najran", "al-baha", "tabuk", "hail", "sakaka", "arar", "aden", "mukalla", "seiyun", "shibam", "zinjibar", "sanaa", "taiz", "mocha", "hodeidah", "zabid", "bajil", "ibb", "dhamar", "marib", "lahij", "sadah"].map((slug) => ({ slug, region: "gcc" as const })),
 ];
 
 /**
@@ -387,6 +387,9 @@ const HUB_OF: Record<string, string> = Object.fromEntries([
   ...["hodeidah", "zabid", "bajil"].map((slug) => [slug, "al-hudaydah-governorate"]),
   ...["ibb"].map((slug) => [slug, "ibb-governorate"]),
   ...["dhamar"].map((slug) => [slug, "dhamar-governorate"]),
+  ...["marib"].map((slug) => [slug, "marib-governorate"]),
+  ...["lahij"].map((slug) => [slug, "lahij-governorate"]),
+  ...["sadah"].map((slug) => [slug, "sadah-governorate"]),
   ...[
     "baddi", "solan", "parwanoo", "paonta-sahib", "una", "shimla",
   ].map((slug) => [slug, "himachal-pradesh"]),
