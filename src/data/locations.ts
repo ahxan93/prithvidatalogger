@@ -16986,6 +16986,10 @@ export const locations: LegacyLocationNode[] = [
       { slug: "eastern-province", text: "The Gulf coast and the desert behind it, with ports, industrial cities, date oases, hospitals and food depots in heat and humidity." },
       { slug: "madinah-region", text: "The western plateau and its Red Sea port, with hotel, hospital and date-pack stores inland and refineries and fishing on the coast." },
       { slug: "qassim-region", text: "The central farming plain of date groves, wheat and camel markets, with packing houses, farm cold rooms and a university." },
+      { slug: "asir-region", text: "The south-western mountains, with cool misty highland cities, wholesale depots, hospitals and valley date farms." },
+      { slug: "jazan-region", text: "The hot, wet Red Sea plain of the far south-west, with fish and fruit cold chains, a port and a planned industrial city." },
+      { slug: "najran-region", text: "A fertile southern valley of date and fruit farms, markets, a university and hospitals." },
+      { slug: "al-baha-region", text: "A small highland region of terraced fruit and honey, hotels and clinics in cool, damp air." },
     ],
     indexable: true,
     seo: {
@@ -18899,21 +18903,21 @@ export const locations: LegacyLocationNode[] = [
         name: "Asir Region",
         type: "state",
         intro:
-          "The Asir Region occupies the mountains of the south-west, where the land rises steeply from the Red Sea plain to cool, green highlands. Abha, the regional capital, and Khamis Mushait, the larger trading town beside it, hold hospitals, markets, hotels and distribution depots, and farms on the terraces grow fruit and vegetables for the kingdom. Summers are mild in the highlands, the rainy season brings mist and cloud, and winter nights are cold, so the region has an unusual mix of cool storage and damp. Mountain roads lengthen every delivery of medicines and chilled food. The page for each place names the rooms we would watch first.",
+          "The Asir Region occupies the mountains of the south-west, where the land rises steeply from the Red Sea plain to cool, green highlands. Abha, the regional capital, and Khamis Mushait, the larger trading town beside it, hold hospitals, markets, hotels and distribution depots, and farms on the terraces grow fruit and vegetables for the kingdom. Summers are mild in the highlands, the rainy season brings mist and cloud, and winter nights are cold, so the region has an unusual mix of cool storage and damp. Mountain roads lengthen every delivery of medicines and chilled food. Open a town below to see its hotel, hospital and depot rooms and the loggers we would start with.",
         localIndustries: [
           "Hospitals and medicine distribution",
           "Fruit, vegetable and food depots",
           "Hospitality and tourism kitchens",
           "Retail distribution",
         ],
-        citiesServed: [],
+        citiesServed: ["Abha", "Khamis Mushait", "Bisha"],
         supportNote:
-          "Set-up, alert rules and user access for Asir Region sites are arranged remotely by call or video. Tell us the town and what the rooms hold.",
+          "Set-up, alert rules and user access for Asir Region sites are arranged remotely by call or video. Write to us with the town and a note of what the rooms hold.",
         faqs: [
           {
             question: "Which Asir Region places have a page?",
             answer:
-              "Pages are being added place by place, and this page lists each one as it goes live. For any other town in the highlands, send us a note through the enquiry form.",
+              "Abha, Khamis Mushait and Bisha each have a city page. Towns such as Sabya and the villages of the highlands can be raised through the enquiry form.",
           },
           {
             question: "Does a cool, misty climate mean a store does not need monitoring?",
@@ -18926,9 +18930,302 @@ export const locations: LegacyLocationNode[] = [
               "A logger placed in the load records the journey, and the report shows how long goods stood in a vehicle on the climb, which helps a supplier answer a buyer's questions.",
           },
         ],
+        listing: [
+          { slug: "abha", text: "The mountain capital of cool, misty air, with hotel kitchens, a central hospital, a university and terraced fruit gardens." },
+          { slug: "khamis-mushait", text: "The commercial hub of the south-west, with wholesale depots, poultry and dairy, hospitals, campuses and an industrial area." },
+          { slug: "bisha", text: "A valley town of date farms behind a large dam, with a university campus, clinics and a road junction." },
+        ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,
         children: [
+          {
+            slug: "abha",
+            name: "Abha",
+            type: "city",
+            intro:
+              "Abha is the capital of the Asir Region, a mountain city high in the Sarawat range in the south-west, and a temperature data logger here serves a place with mild summers and misty air. Terraced farms and fruit gardens climb the slopes, a lake behind a dam lies beside the city, and in summer visitors from the hot plains fill hotels, chalets and restaurants. A university, a large central hospital and many clinics add laboratories and wards, and markets stock food and household goods brought up steep roads from the coast and from Khamis Mushait. Because the air stays cool but damp, moisture is the main enemy of stores. Prithvi supplies WiFi loggers from India and sets alerts and user access up with your team by video.",
+            climateAngle:
+              "Summers are mild, cloud and mist settle on the slopes in the rainy season, and winter nights are cold, so cartons, linen and flour absorb moisture while a cooler can still fail unnoticed in a building where nobody feels the heat.",
+            areas: [
+              {
+                name: "Hotels, chalets and restaurants",
+                note: "Tourist accommodation and restaurants along the ridge run kitchens, walk-in coolers and bar fridges that are loaded hardest in the summer visiting season and sit quiet in the off-season.",
+              },
+              {
+                name: "Central hospital, clinics and pharmacies",
+                note: "A large central hospital, clinics and pharmacies hold vaccines, insulin and blood products in refrigerators that serve patients from all over the region.",
+              },
+              {
+                name: "University campus and laboratories",
+                note: "A university in the city keeps samples and reagents in laboratory fridges and freezers, with rooms that are damp in the rainy months.",
+              },
+              {
+                name: "Fruit gardens, honey and produce markets",
+                note: "Growers on the terraces sell fruit, vegetables and honey in markets and small stores, where mist and damp spoil produce that is not kept dry and cool.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Hotel kitchens, restaurants and produce dealers store goods that spoil in damp air, and an alert to the kitchen manager matters most on a crowded summer evening when a cooler is opened constantly.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The central hospital and clinics serve the whole region by mountain road, and a dated record backs each shift handover for vaccines and blood units kept in refrigerators.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "University and clinical laboratories hold samples and reagents with their own limits, and an exported log supports a review or an inspection.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods reach the city over steep roads from the coast and from the plains, and a logger placed in a load shows the range of temperature it met on the climb.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "With humidity read beside temperature, one unit shows when mist and damp have entered a store that always feels cool.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single probe on a short lead fits a hotel bar cooler or a pharmacy fridge and leaves the way staff use the unit unchanged.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a hotel stock room at several shelf levels and beside the door, showing how the room behaves through a busy weekend.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Why use a humidity logger in a cool mountain hotel?",
+                answer:
+                  "Mist and rain keep the air damp, so linen, flour and cartons take on moisture even when the room is cool, and a humidity trend shows the day a store needs drying or better ventilation.",
+              },
+              {
+                question: "How does an Abha hotel or clinic get started with loggers supplied from India?",
+                answer:
+                  "The loggers are registered to your dashboard on arrival, and a call or video session fixes the rooms, the limits and the staff who receive alerts, with each room within reach of a router.",
+              },
+              {
+                question: "What about hotels that close in the off-season?",
+                answer:
+                  "A logger in a closed kitchen keeps recording, so a lost mains supply or a rise in temperature is reported even when nobody is there, and the log from the quiet months shows whether the unit held.",
+              },
+              {
+                question: "Can calibration for an Abha hospital laboratory be discussed?",
+                answer:
+                  "VEGA Calibrations, our parent company, can calibrate loggers and probes; send the model and your working range and we explain how it could be arranged.",
+              },
+            ],
+            nearby: [
+              { slug: "khamis-mushait", name: "Khamis Mushait" },
+              { slug: "bisha", name: "Bisha" },
+            ],
+            metaTitle: "Temperature Data Loggers in Abha | Prithvi",
+            metaDescription:
+              "WiFi temperature and humidity data loggers for Abha's hotel kitchens, central hospital, university labs and produce markets, set up remotely. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "khamis-mushait",
+            name: "Khamis Mushait",
+            type: "city",
+            intro:
+              "Khamis Mushait grew from a weekly Thursday market, which gives it its name, into a major commercial centre of the south-west, and a temperature data logger here serves a trading city on the junction of the highland roads. Wholesalers stock food, medicines, building goods and household items for the whole Asir Region and the plains below, poultry and dairy farms supply the markets, and hospitals and university campuses add wards and laboratories. An industrial area on the outskirts holds food, packaging and building-materials plants. Summers are mild at altitude, winters are cool, and the rains bring mist and sudden storms. Loggers for Khamis Mushait are supplied from India and report to a dashboard that managers can open from a phone.",
+            climateAngle:
+              "The air is mild in summer, cold on winter nights and damp in the rainy months, so cold rooms work less hard than on the plains but moisture settles in dry stores, and storm power cuts are a bigger risk than heat.",
+            areas: [
+              {
+                name: "Wholesale markets and food depots",
+                note: "Wholesalers and depots receive fruit, vegetables, poultry and dairy and release them to shops and hotels across the region, with doors opening at every delivery.",
+              },
+              {
+                name: "Hospitals, clinics and pharmacy stores",
+                note: "Large government and private hospitals, clinics and pharmacies hold vaccines and medicines in refrigerators serving patients from the highlands and the plains.",
+              },
+              {
+                name: "University campuses and laboratories",
+                note: "University colleges in the city keep samples and reagents in laboratory fridges and freezers on campuses spread over a wide area.",
+              },
+              {
+                name: "Industrial area on the outskirts",
+                note: "Plants making food, packaging and building materials store raw material and finished goods in large halls, which are cool in winter and hot only for a short season.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Poultry, dairy and produce businesses chill product soon after collection, and a continuous record of each room shows a buyer that the chain held from the farm to the depot.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine wholesalers and pharmacies supply the highlands and the lowlands from cooled rooms, and a dated record shows how a room behaved through storm outages and mild summers alike.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals receive patients from across the south-west, and an alert on a phone reaches the right person at once if a vaccine or blood refrigerator warms.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Depots send goods on to the coast and the mountain towns, and a logger placed in a load records the range of temperature it met on the road.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels spread through a long depot or a wholesale cold store show which bays run warmest, in a single report.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels let a pharmacy store be read at the door and at the back wall by one device, showing whether the cold reaches the far shelves.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a dry store in a damp highland climate, where moisture is the real danger.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a wholesaler give a client a record for a consignment?",
+                answer:
+                  "Reports for any room and any dates can be exported in PDF, Excel or CSV form, so a wholesaler can hand a client a dated log in place of a handwritten sheet.",
+              },
+              {
+                question: "What protects a cold room when a storm cuts the power?",
+                answer:
+                  "Loggers keep recording on their batteries and send an alert for a lost mains supply, so the named person knows the room has lost its protection even when roads are closed.",
+              },
+              {
+                question: "How does a Khamis Mushait depot begin with loggers sent from India?",
+                answer:
+                  "Once the loggers arrive they are registered to your dashboard, and a short video session sets the rooms, limits and alert recipients, with a router within reach of each room.",
+              },
+              {
+                question: "Is calibration of loggers available in Khamis Mushait?",
+                answer:
+                  "VEGA Calibrations, our parent company, looks after calibration of loggers and probes for laboratories and depots; share the model and the range and we confirm the options.",
+              },
+            ],
+            nearby: [
+              { slug: "abha", name: "Abha" },
+              { slug: "bisha", name: "Bisha" },
+            ],
+            metaTitle: "Temperature Data Loggers in Khamis Mushait | Prithvi",
+            metaDescription:
+              "WiFi temperature data loggers for Khamis Mushait's wholesale depots, hospitals, university labs and food plants, set up remotely from India. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "bisha",
+            name: "Bisha",
+            type: "city",
+            intro:
+              "Bisha is a valley town in the north of the Asir Region, lower and hotter than the highlands around Abha, and a temperature data logger here serves a farming and crossroads town. A large dam on the Wadi Bisha waters date palms, wheat, fodder and vegetables on the valley floor, a university has a campus in the town, and hospitals and clinics serve villages across a wide area. Roads from the mountains, from Najran and from the Riyadh side meet here, so trucks stop and goods are stored and transferred. Summers are hot and dry, winters mild. Prithvi can supply WiFi loggers from India for a date store, a clinic or a depot, and our team gets alert rules and users working by phone or video.",
+            climateAngle:
+              "The valley floor is hot in summer, mild in winter and dusty in the dry months, so date stores and farm cold rooms work hard in the long summer while storms in the hills can send floods down the wadi. Trucks can wait at the junction when a mountain road is closed, so goods may stand longer than planned.",
+            areas: [
+              {
+                name: "Date farms and farm cold rooms",
+                note: "Growers in the valley pick, sort and store dates, vegetables and fodder in shaded sheds and cool rooms that must hold their range through the hottest months.",
+              },
+              {
+                name: "University campus and clinical laboratories",
+                note: "A university campus and hospital laboratories hold samples, cultures and reagents in fridges and freezers, with records that matter to reviewers.",
+              },
+              {
+                name: "Hospitals, clinics and pharmacies",
+                note: "Hospitals and clinics serve the valley and the villages in the hills, with vaccines and medicines in refrigerators that need a steady record.",
+              },
+              {
+                name: "Road depots and wholesale shops",
+                note: "Wholesale shops and truck depots at the road junction hold food and general goods that wait for onward transport, in warm, dusty air.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Date packers, vegetable growers and wholesalers hold goods that lose quality in warmth, and a record from each store shows a buyer how a lot was kept after harvest.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals serving a scattered population keep vaccines and blood products, and an alert to the duty staff reaches the right person at once if a refrigerator warms.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "University and clinical laboratories hold samples and reagents with their own limits, and an exported log supports a research file or an inspection.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Trucks stop at the junction between the mountains, the plateau and the south, and a logger placed in a load records how long goods stood in a vehicle in the afternoon heat.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels watch a date store at several heights and beside the door, showing how it behaves between loadings.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A one-probe logger fits a clinic or laboratory refrigerator without changing how the unit is used, with alerts to a phone.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels across a wholesale depot show which bays run warmest under the roof, in one report.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How does a date farm in Bisha use a temperature record?",
+                answer:
+                  "A logger in the packing store and the cold room records the season's temperature and humidity, and a report for the dates of a lot can be sent to the buyer.",
+              },
+              {
+                question: "Can a clinic far from a town centre use a single logger?",
+                answer:
+                  "Yes. One logger with an alert to a phone covers a single refrigerator, and the room needs a router within reach for the WiFi logger to report.",
+              },
+              {
+                question: "Do floods and storms affect a logger?",
+                answer:
+                  "Mounting the body above the likely water line and running only the probe lead into the cold space keeps the record safe, and a battery keeps it running through a power cut.",
+              },
+              {
+                question: "Can calibration for a Bisha laboratory be arranged?",
+                answer:
+                  "Calibration of loggers and probes is carried out by VEGA Calibrations, our parent company, and we explain what can be arranged once we know the model and the range.",
+              },
+            ],
+            nearby: [
+              { slug: "abha", name: "Abha" },
+              { slug: "khamis-mushait", name: "Khamis Mushait" },
+            ],
+            metaTitle: "Temperature Data Loggers in Bisha | Prithvi",
+            metaDescription:
+              "WiFi temperature data loggers for Bisha's date stores, farm cold rooms, university labs and clinics, set up remotely from India. Get Solution.",
+            indexable: true,
+          },
         ],
       },
       {
@@ -19170,21 +19467,21 @@ export const locations: LegacyLocationNode[] = [
         name: "Jazan Region",
         type: "state",
         intro:
-          "The Jazan Region occupies the south-western corner of the kingdom, a hot, humid Red Sea plain backed by green mountains. Jazan, the regional capital and port, Sabya and Abu Arish are the main towns, with farms that grow mangoes, bananas and other fruit on the plain and coffee on the mountain slopes, along with fishing, hospitals and markets. Summers are among the most humid in the kingdom, so cartons, produce and medicines take on moisture quickly, and a planned economic city on the coast is meant to add industry and port activity. The page for each place names the rooms we would watch first.",
+          "The Jazan Region occupies the south-western corner of the kingdom, a hot, humid Red Sea plain backed by green mountains. Jazan, the regional capital and port, Sabya and Abu Arish are the main towns, with farms that grow mangoes, bananas and other fruit on the plain and coffee on the mountain slopes, along with fishing, hospitals and markets. Summers are among the most humid in the kingdom, so cartons, produce and medicines take on moisture quickly, and a planned economic city on the coast is meant to add industry and port activity. Open the pages below for the port town and the planned coastal city, with the loggers we would suggest.",
         localIndustries: [
           "Fruit, coffee and farm produce",
           "Fishing and food depots",
           "Hospitals and medicine distribution",
           "Port and coastal industry",
         ],
-        citiesServed: [],
+        citiesServed: ["Jazan"],
         supportNote:
-          "Set-up, alert rules and user access for Jazan Region sites are arranged remotely by call or video. Tell us the town and what the rooms hold.",
+          "Set-up, alert rules and user access for Jazan Region sites are arranged remotely by call or video. Send the town and a short note on what the rooms hold.",
         faqs: [
           {
             question: "Which Jazan Region places have a page?",
             answer:
-              "Pages are being added place by place, and this page lists each one as it goes live. For any other town, send us a note through the enquiry form.",
+              "Jazan has a city page, and the planned Jazan Economic City has an area page. Sabya, Abu Arish and the region's other towns can be raised through the enquiry form.",
           },
           {
             question: "Why is humidity a bigger worry than heat in a Jazan store?",
@@ -19197,9 +19494,111 @@ export const locations: LegacyLocationNode[] = [
               "A logger in the cold room and the truck records the whole chain, and a report for the dates of one lot can be exported as PDF, Excel or CSV for the buyer.",
           },
         ],
+        listing: [
+          { slug: "jazan", text: "The Red Sea port and regional capital, with fish landings, mango and banana packing houses, port warehouses and a central hospital." },
+        ],
+        areaListing: [
+          { slug: "jazan-economic-city", text: "A planned industrial and port city north of Jazan, with a refinery and power complex, camps and stores in very hot, wet air." },
+        ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,
         children: [
+          {
+            slug: "jazan",
+            name: "Jazan",
+            type: "city",
+            intro:
+              "Jazan is the port and capital of the Jazan Region in the far south-west, on a low Red Sea plain backed by green mountains, and a temperature data logger here serves a very hot, humid place. Fishing boats land their catch at the harbour and set out for the Farasan Islands, a seaport receives imported goods, and farms on the plain grow mangoes, bananas and papayas while coffee is picked on the mountain slopes. A university, a central hospital and many clinics serve the region, and the planned Jazan Economic City lies north of the town. Loggers for Jazan come from India and are registered to a dashboard that clinic managers, fruit packers and port supervisors can open from a phone, with the first alert rules agreed on a call.",
+            climateAngle:
+              "Heat and humidity are both extreme for most of the year, so condensation forms on every cold surface, cartons sweat, and mould takes hold in stores where a dehumidifier stops for a few hours.",
+            areas: [
+              {
+                name: "Fish landings, ice rooms and cold stores",
+                note: "Boats land fish at the harbour, and ice plants and cold rooms hold the catch for markets and for export in air that is hot, wet and salty.",
+              },
+              {
+                name: "Fruit farms, packing houses and cold rooms",
+                note: "Mango, banana and papaya growers pack fruit in sheds and chill it in cold rooms before it travels by road, with ripening a few degrees of heat away.",
+              },
+              {
+                name: "Seaport warehouses",
+                note: "Warehouses near the port hold imported food, medicine and building goods between a vessel and a truck, in humid air that soaks cartons.",
+              },
+              {
+                name: "Hospitals, university and the town markets",
+                note: "A central hospital, clinics, a university and the markets of the old town hold medicines, samples and food in refrigerators that work through long hot spells.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Fish, mango and banana businesses chill product that spoils fast in tropical heat, and a record from each cold room shows a buyer how a lot was kept from the boat or the orchard.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Port warehouses and carriers hold imported cargo in damp heat, and a reading for each bay lets an operator show a client how its goods were held.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The central hospital and clinics hold vaccines and blood products for the region, and an alert on a phone reaches the duty staff if a refrigerator warms during a power cut.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies and medicine wholesalers hold stock in cooled rooms with stated ranges, and a dated record shows how a room behaved through the wettest, hottest weeks.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Showing humidity beside temperature, one unit reveals when a store is taking on moisture even while the cooling seems to cope.",
+              },
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels spread over a long port warehouse give one report for every bay and shelf level, showing which corner holds the heat and damp.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels read an ice room at the door end and the far wall, which shows whether the chill reaches the back shelves.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Why does humidity matter as much as heat in a Jazan store?",
+                answer:
+                  "Hot, wet air condenses on cold surfaces and soaks cartons, so a humidity reading beside the temperature shows the day a store began to take on moisture, even when the temperature looks acceptable.",
+              },
+              {
+                question: "Can a fruit exporter show a buyer how mangoes were held?",
+                answer:
+                  "A logger in the packing house, the cold room and the truck records the whole chain, and a report for the dates of a lot can be exported in PDF, Excel or CSV form.",
+              },
+              {
+                question: "How does a Jazan business start with loggers supplied from India?",
+                answer:
+                  "The loggers are registered to your dashboard on arrival, and a phone or video session sets the rooms, the limits and the alert contacts, with a router within reach of each room.",
+              },
+              {
+                question: "Is calibration available for Jazan laboratories and cold stores?",
+                answer:
+                  "VEGA Calibrations, our parent company, calibrates loggers and probes; send the model and the range you work to and we confirm the options.",
+              },
+            ],
+            nearby: [
+              { slug: "abha", name: "Abha" },
+              { slug: "najran", name: "Najran" },
+            ],
+            metaTitle: "Temperature Data Loggers in Jazan | Prithvi",
+            metaDescription:
+              "WiFi temperature data loggers for Jazan's fish ice rooms, fruit packing houses, port warehouses and hospitals, set up remotely from India. Get Solution.",
+            indexable: true,
+          },
         ],
       },
       {
@@ -19281,21 +19680,21 @@ export const locations: LegacyLocationNode[] = [
         name: "Najran Region",
         type: "state",
         intro:
-          "The Najran Region lies in the south of the kingdom, around a long fertile valley between the mountains and the desert, and its economy rests on farming, trade and services. Najran, the regional capital, has markets, hospitals, hotels and distribution depots, and the valley grows dates, grapes and other fruit and grain. Summers are hot and dry, winters are mild to cold, and rain is scarce but can arrive in heavy bursts. Date and fruit stores, farm cold rooms, hospital refrigerators and retail warehouses must hold their ranges through long hot spells, and goods reach the region over long roads. The page for each place names the rooms we would watch first.",
+          "The Najran Region lies in the south of the kingdom, around a long fertile valley between the mountains and the desert, and its economy rests on farming, trade and services. Najran, the regional capital, has markets, hospitals, hotels and distribution depots, and the valley grows dates, grapes and other fruit and grain. Summers are hot and dry, winters are mild to cold, and rain is scarce but can arrive in heavy bursts. Date and fruit stores, farm cold rooms, hospital refrigerators and retail warehouses must hold their ranges through long hot spells, and goods reach the region over long roads. The Najran page below covers the valley's date stores, markets and clinics.",
         localIndustries: [
           "Dates, fruit and grain",
           "Food depots and retail distribution",
           "Hospitals and medicine supply",
           "Hospitality kitchens",
         ],
-        citiesServed: [],
+        citiesServed: ["Najran"],
         supportNote:
-          "Set-up, alert rules and user access for Najran Region sites are arranged remotely by call or video. Tell us the town and what the rooms hold.",
+          "Set-up, alert rules and user access for Najran Region sites are arranged remotely by call or video. Share the town and a note on what the rooms hold.",
         faqs: [
           {
             question: "Which Najran Region places have a page?",
             answer:
-              "Pages are being added place by place, and this page lists each one as it goes live. For another town, send us a note through the enquiry form.",
+              "Najran has a city page. Other towns of the valley can be raised through the enquiry form, and further pages are added as they are written.",
           },
           {
             question: "How can a date or fruit store be kept within range through a hot spell?",
@@ -19308,9 +19707,108 @@ export const locations: LegacyLocationNode[] = [
               "A logger placed in the load records every hour of the journey, and the report shows how long goods stood in a vehicle in the heat before they reached the store.",
           },
         ],
+        listing: [
+          { slug: "najran", text: "A fertile-valley oasis city of date and fruit farms, wholesale markets, a university, hospitals and an industrial city." },
+        ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,
         children: [
+          {
+            slug: "najran",
+            name: "Najran",
+            type: "city",
+            intro:
+              "Najran lies in a broad fertile valley in the south of the kingdom, where mountains meet the desert, and a temperature data logger here serves an oasis city of farms, markets and a university. Date palms, pomegranates, grapes and other fruit and grain grow along the wadi, a dam holds back seasonal floods, and traders in the city markets stock food, household goods and building materials for the whole region. A university campus, hospitals and clinics bring laboratories and wards, and an industrial city on the edge of town adds plants and warehouses. Summers are hot and dry. Prithvi can supply WiFi loggers from India for a date store, a clinic or a depot, and our team gets alerts and users working by phone or video.",
+            climateAngle:
+              "Summers are hot and dry, winters are mild to cool and rain, when it comes, arrives in heavy bursts, so date and fruit stores must hold a steady range through the long hot months and survive a flash flood and the dust that follows it.",
+            areas: [
+              {
+                name: "Date, fruit and grain farms",
+                note: "Growers in the valley pick and store dates, pomegranates, grapes and grain in shaded sheds and cool rooms, where heat in the weeks after harvest is the main danger.",
+              },
+              {
+                name: "City markets and wholesale depots",
+                note: "Traders in the markets and depots stock food, household goods and medicines, in compact shops and warehouses that fill with hot air at every delivery.",
+              },
+              {
+                name: "University, hospitals and clinics",
+                note: "A university campus and the city's hospitals and clinics hold samples, vaccines and medicines in refrigerators and freezers that need a dated record.",
+              },
+              {
+                name: "Industrial city on the edge of town",
+                note: "Plants and warehouses in the industrial city store food, packaging and building materials in large halls that depend on cooling plants against the heat.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Date growers, fruit packers and food wholesalers hold goods that lose quality in warmth, and a record from each store shows a buyer how a lot was kept from harvest to sale.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals serve the valley and the villages in the hills, and an alert on a phone reaches the duty staff at once if a vaccine or blood refrigerator warms.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "University and clinical laboratories keep samples and reagents with their own limits, and an exported log is ready for a review.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Trucks bring goods across long roads to the valley, and a logger placed in a load records how long it stood in a vehicle in the afternoon sun.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a date or fruit cold room at several heights and at the door, showing how it behaves between loadings.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a dry store that must stay cool and dry through months of storage.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A one-probe logger slips into a clinic or laboratory refrigerator and leaves the way staff use the unit unchanged.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How can a Najran fruit packer use a temperature record?",
+                answer:
+                  "A logger in the packing shed and the cold room records temperature and humidity through the season, and a report for the dates of a lot can be sent to the buyer.",
+              },
+              {
+                question: "How is a small shop or clinic in Najran started with loggers from India?",
+                answer:
+                  "One logger is registered to your dashboard on arrival and a short call sets its limits and the phone numbers for alerts, with a router within reach of the room.",
+              },
+              {
+                question: "Why does a flash flood matter for a store?",
+                answer:
+                  "Water and silt can reach low stores and cut the power, so mounting the logger body above the likely water line and keeping a battery in it preserves the record of what happened.",
+              },
+              {
+                question: "Is calibration of loggers available for Najran laboratories?",
+                answer:
+                  "VEGA Calibrations, our parent company, handles calibration of loggers and probes; share the model and the range and we explain what can be arranged.",
+              },
+            ],
+            nearby: [
+              { slug: "bisha", name: "Bisha" },
+              { slug: "jazan", name: "Jazan" },
+            ],
+            metaTitle: "Temperature Data Loggers in Najran | Prithvi",
+            metaDescription:
+              "WiFi temperature data loggers for Najran's date and fruit stores, wholesale depots, university labs and hospitals, set up remotely. Get Solution.",
+            indexable: true,
+          },
         ],
       },
       {
@@ -19318,21 +19816,21 @@ export const locations: LegacyLocationNode[] = [
         name: "Al Baha Region",
         type: "state",
         intro:
-          "The Al Baha Region is a small mountainous strip in the south-west of the kingdom that drops from cool highlands to the Red Sea plain. Al Baha, the regional capital, has markets, hospitals, hotels and distribution depots, and the terraced farms of the highlands grow fruit, honey and other produce. Summers are mild in the mountains, mist and rain settle over the slopes in the wet season, and winter nights are cold, so storage rooms meet damp and cool air more than the extreme heat of the plains. Roads wind through steep terrain and lengthen every delivery of medicines and chilled food. The page for each place names the rooms we would watch first.",
+          "The Al Baha Region is a small mountainous strip in the south-west of the kingdom that drops from cool highlands to the Red Sea plain. Al Baha, the regional capital, has markets, hospitals, hotels and distribution depots, and the terraced farms of the highlands grow fruit, honey and other produce. Summers are mild in the mountains, mist and rain settle over the slopes in the wet season, and winter nights are cold, so storage rooms meet damp and cool air more than the extreme heat of the plains. Roads wind through steep terrain and lengthen every delivery of medicines and chilled food. The Al Baha page below covers the highland farms, hotels and clinics.",
         localIndustries: [
           "Honey, fruit and farm produce",
           "Food depots and retail distribution",
           "Hospitals and medicine supply",
           "Hospitality kitchens",
         ],
-        citiesServed: [],
+        citiesServed: ["Al Baha"],
         supportNote:
-          "Set-up, alert rules and user access for Al Baha Region sites are arranged remotely by call or video. Tell us the town and what the rooms hold.",
+          "Set-up, alert rules and user access for Al Baha Region sites are arranged remotely by call or video. Give us the town and a short note on what the rooms hold.",
         faqs: [
           {
             question: "Which Al Baha Region places have a page?",
             answer:
-              "Pages are being added place by place, and this page lists each one as it goes live. For any other town, write to us through the enquiry form.",
+              "Al Baha has a city page. A town in the region not yet written up can be raised through the enquiry form.",
           },
           {
             question: "Why is humidity useful in a cool highland store?",
@@ -19345,9 +19843,108 @@ export const locations: LegacyLocationNode[] = [
               "Yes. One logger with an alert to a phone is enough for a single medicine fridge or a chiller, and further points can be added to the same account later.",
           },
         ],
+        listing: [
+          { slug: "al-baha", text: "A cool, misty highland city of terraced fruit and sidr honey, resort kitchens, a university and a central hospital." },
+        ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,
         children: [
+          {
+            slug: "al-baha",
+            name: "Al Baha",
+            type: "city",
+            intro:
+              "Al Baha is a highland city in the south-west of the kingdom, on the crest of the Sarawat mountains, and a temperature data logger here serves a cool, misty town of farms, hotels and a university. Terraced fields climb the slopes and grow figs, prickly pears, grapes and other fruit, bees feed on the sidr trees to make honey that is sold across the Gulf, and forested parks and old stone villages draw summer visitors. A university, a central hospital and clinics serve the region, and wholesale shops bring food and household goods up winding roads from the coast. Mist, cloud and rain keep the air damp. Loggers for Al Baha are supplied from India, with alerts and users set up by our team over a video call.",
+            climateAngle:
+              "Summers are mild and misty, winters are cold, and clouds sit on the crest for long periods, so cool stores take on moisture and honey, fruit and flour need dry, steady air. Roads wind steeply down to the coast, so a delayed load can wait long hours in warmer air.",
+            areas: [
+              {
+                name: "Honey, fruit and terraced farms",
+                note: "Beekeepers and fruit growers store honey, figs, prickly pears and grapes in small stores and cool rooms, where damp and warmth after harvest spoil quality.",
+              },
+              {
+                name: "Hotels, chalets and restaurants",
+                note: "Tourist accommodation and restaurants run kitchens, coolers and dry stores that fill with guests in the summer season and sit quiet in winter.",
+              },
+              {
+                name: "Central hospital, clinics and pharmacies",
+                note: "The central hospital, clinics and pharmacies hold vaccines and medicines in refrigerators serving mountain villages reached by steep roads.",
+              },
+              {
+                name: "University campus and wholesale shops",
+                note: "A university campus keeps samples in laboratory fridges, and wholesale shops bring food and goods up from the coast and store them in cool, damp rooms.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Honey packers, fruit growers, hotel kitchens and food wholesalers hold goods that suffer in warmth or damp, and a record from each store shows a buyer how a lot was kept.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The central hospital and clinics hold vaccines and blood products for a scattered mountain population, and an alert to the duty staff reaches the right person at once.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "Campus and clinical laboratories hold samples and reagents to set limits, and an exported log is ready whenever a review calls for one.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods climb steep roads from the coast, and a logger placed in a load shows the temperature range it met between the plain and the crest.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "With humidity read beside temperature, one unit warns when mist and damp have entered a honey or flour store that feels cool.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single probe fits a pharmacy fridge or a hotel cooler and leaves the way staff use the unit unchanged.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels let a hospital store be read at the door and at the back wall by one device, showing whether the cold reaches the far shelves.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Why would a honey packer in Al Baha need a humidity record?",
+                answer:
+                  "Honey absorbs moisture from damp air and can ferment, so a log of temperature and humidity in the store shows the days the room was too damp and which lots were exposed.",
+              },
+              {
+                question: "How does a small clinic or hotel in Al Baha start with loggers from India?",
+                answer:
+                  "A logger is registered to your dashboard on arrival and a short video session sets the limits and the people who receive alerts, with a router within reach of the room.",
+              },
+              {
+                question: "Does a cool, misty climate remove the need for alerts?",
+                answer:
+                  "No. A refrigerator can fail on any day and mist soaks cartons all year, so both temperature and humidity alerts matter, and a lost-power alert warns the named person at once.",
+              },
+              {
+                question: "Is calibration of loggers available for Al Baha clinics and laboratories?",
+                answer:
+                  "VEGA Calibrations, our parent company, can calibrate loggers and probes; share the model and the range you work to and we confirm the options.",
+              },
+            ],
+            nearby: [
+              { slug: "abha", name: "Abha" },
+              { slug: "khamis-mushait", name: "Khamis Mushait" },
+            ],
+            metaTitle: "Temperature Data Loggers in Al Baha | Prithvi",
+            metaDescription:
+              "WiFi temperature data loggers for Al Baha's honey and fruit stores, hotel kitchens, hospital and university labs, set up remotely from India. Get Solution.",
+            indexable: true,
+          },
         ],
       },
       {
