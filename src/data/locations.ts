@@ -145,6 +145,7 @@ export const locations: LegacyLocationNode[] = [
       { slug: "jharkhand", text: "Ranchi's engineering and hospitals, Jamshedpur's steel and vehicle belt, the Dhanbad coal field and Bokaro's steel township, in dusty heat and a heavy monsoon." },
       { slug: "chhattisgarh", text: "Raipur's rice mills and steel estates, Bhilai's steel township, Bilaspur's railway and coalfield offices and Korba's coal and power belt, in dust and a heavy monsoon." },
       { slug: "bihar", text: "Patna's hospitals and distributors, Hajipur's railway and banana trade and Muzaffarpur's litchi and fruit markets, in heat, humidity and flood weather." },
+      { slug: "assam", text: "Guwahati's gateway trade and hospitals, Dibrugarh's tea and oil country, Silchar's Barak Valley trade and Tezpur's gardens, in very heavy rain and river floods." },
     ],
     indexable: true,
     children: [
@@ -15208,6 +15209,434 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Bhagalpur | Prithvi",
             metaDescription:
               "WiFi and GSM temperature and humidity data loggers for Bhagalpur's silk godowns, mango and rice markets, laboratories and hospitals. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "assam",
+        name: "Assam",
+        type: "state",
+        intro:
+          "Assam is the gateway to the North East, a long valley of tea gardens, oilfields and rivers carved by the Brahmaputra, and its storage follows the river, the railway and the hill roads. Guwahati is the commercial, medical and distribution centre for the whole region, Dibrugarh sits in the tea and oil country of the upper valley, Tezpur lies on the north bank among gardens and a university campus, and Silchar is the main city of the southern Barak Valley, the doorway to Manipur and Mizoram. Rain is very heavy, the air is humid for most of the year, and floods and landslides cut roads for days. Open any city below to see its estates, its stores and the loggers we would start with.",
+        localIndustries: [
+          "Tea packing and storage",
+          "Pharmaceutical and medical distribution",
+          "Oil, gas and engineering supply",
+          "Hospitals and university laboratories",
+        ],
+        citiesServed: ["Guwahati","Dibrugarh","Silchar","Tezpur"],
+        supportNote:
+          "Supply, installation support and site visits for Assam sites are arranged from our Mumbai office. Tell us the city, the garden or the estate and what the rooms hold.",
+        faqs: [
+          {
+            question: "Which Assam locations have a page?",
+            answer:
+              "Guwahati, Dibrugarh, Silchar and Tezpur each have a city page. For any other Assam town, send us a note through the enquiry form and we confirm what we can arrange.",
+          },
+          {
+            question: "Why does humidity matter so much in a tea store?",
+            answer:
+              "Made tea takes up moisture from heavy air and loses aroma, so a record of humidity and temperature in the store shows the day damp began to reach the chests and cartons.",
+          },
+          {
+            question: "What happens to monitoring when floods or landslides cut the road and the power?",
+            answer:
+              "A battery keeps each logger recording through a cut, the stored readings follow once the network is back, and a lost-mains alert warns the named person that a room has lost its protection.",
+          },
+        ],
+        listing: [
+          { slug: "guwahati", text: "The gateway city on the Brahmaputra, with Amingaon, Jalukbari and Changsari estates, a medical institute and the region's distribution trade." },
+          { slug: "dibrugarh", text: "The tea and oilfield city of upper Assam, with garden factories, a medical college, a university and a bridge across the river." },
+          { slug: "silchar", text: "The Barak Valley's trading city, with a medical college, a university and the road and rail routes toward Manipur and Mizoram." },
+          { slug: "tezpur", text: "A north-bank town of tea gardens, a university and a medical college, joined to the south bank by a long river bridge." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "guwahati",
+            name: "Guwahati",
+            type: "city",
+            intro:
+              "Guwahati is the gateway to the North East, a city of hills and the wide Brahmaputra that gathers goods, patients and travellers for seven states, and a temperature data logger here serves a distribution and healthcare hub. The Kamakhya temple draws pilgrims, a medical college, a national medical institute at Changsari and many private hospitals serve the whole region, and wholesalers at Fancy Bazar and Paltan Bazar send medicines, food and consumer goods up the hill roads. Industrial areas at Amingaon, Jalukbari, Noonmati and Changsari hold warehouses, a refinery, food and engineering firms. The headquarters of a railway zone and an international airport link the city to the rest of the country. Prithvi supplies WiFi loggers for wards and rooms with a network and GSM loggers for lorries and distant stores.",
+            climateAngle:
+              "Rain is very heavy for months, the air is humid in every season and low lanes flood, so medicines and cartons take on moisture while refrigerators work through frequent power cuts.",
+            areas: [
+              {
+                name: "Amingaon and Jalukbari",
+                note: "Freight yards, warehouses and distribution sheds on the north-western side receive goods by rail and road for the whole region, and stock waits in humid sheds before the long haul.",
+              },
+              {
+                name: "Noonmati and the refinery side",
+                note: "An industrial pocket around a refinery holds engineering, bottling and food firms and the godowns that serve them, in heavy air and frequent rain.",
+              },
+              {
+                name: "Changsari",
+                note: "A growing area to the west holds a national medical institute with its laboratories and wards, a dry port and warehouses beside the river road.",
+              },
+              {
+                name: "Fancy Bazar, Paltan Bazar and Pan Bazar",
+                note: "Wholesale lanes stock medicines, food and general goods for shops across the North East, in crowded buildings where back rooms are hot and damp.",
+              },
+            ],
+            industries: [
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Distributors supply chemists and hospitals across seven states from the city, and a dated log answers a buyer who asks how a pack was held during a monsoon journey.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A medical college, a national institute and private hospitals receive patients from across the region, and an alert to the duty staff covers the minutes between a mains failure and the generator.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Tea packers, dairies, bakeries and caterers store stock that suffers in heavy air, and a record from each room shows the day moisture began to enter the cartons.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Carriers move goods by rail, road and river to the hills and valleys beyond, and a logger in the consignment records the heat and damp it met on the way.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity along with temperature at one point, which is what a medicine godown or a tea store needs in air that is damp in every season.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels let a medicine godown be read near the door and near the back wall with one device on the wall, which shows whether the damp has reached the far shelves.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a lorry up the hill road and reports from stores where no Wi-Fi network exists.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Guwahati distributor show how medicines fared on the road to the hills?",
+                answer:
+                  "A GSM logger placed with the pack records readings along the road, and the owner can open the journey on a phone and export the record for the buyer.",
+              },
+              {
+                question: "How does heavy rain change where a logger is placed?",
+                answer:
+                  "Damp collects on walls and floors, so we hang the logger away from wet surfaces, mount it above a flood line where we can, and run only the probe cable into the cold space.",
+              },
+              {
+                question: "Do you cover Amingaon, Noonmati and Changsari as well as the city?",
+                answer:
+                  "Send the estate, the unit and a person to meet using the enquiry form, WhatsApp or a call, and we propose a date. The estates lie on different sides of the river and the city, so they are taken in order.",
+              },
+              {
+                question: "Who calibrates loggers used in a Guwahati hospital or laboratory?",
+                answer:
+                  "A Guwahati hospital or laboratory can have its loggers and probes calibrated by VEGA Calibrations, our parent company, with the date agreed at the time of the order.",
+              },
+            ],
+            nearby: [
+              { slug: "tezpur", name: "Tezpur" },
+              { slug: "shillong", name: "Shillong" },
+              { slug: "dibrugarh", name: "Dibrugarh" },
+            ],
+            metaTitle: "Temperature Data Loggers in Guwahati | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Guwahati's medicine distributors, hospitals, Amingaon yards and bazaars. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "dibrugarh",
+            name: "Dibrugarh",
+            type: "city",
+            intro:
+              "Dibrugarh is the tea city of upper Assam, on the south bank of the Brahmaputra, and a temperature data logger here serves a district of gardens, oilfields and a university town. Tea estates around the city pluck, wither, roll and dry leaf in factories, and chests and sacks of made tea wait in warehouses before they go to the auctions and the packers. Oil and gas fields lie in the districts to the east, so engineering suppliers and stores serve the industry. A medical college and hospital, a university and a rail-and-road bridge across the river make Dibrugarh the centre of the region. Prithvi supplies WiFi loggers for factories and wards with a network and GSM loggers for lorries and garden stores.",
+            climateAngle:
+              "Rain is very heavy for months, the air is humid in every season and the river floods the low ground, so made tea takes up moisture and metal rusts in stores that never fully dry.",
+            areas: [
+              {
+                name: "Tea estates and garden factories",
+                note: "Factories around the city process the green leaf and store made tea in chests and sacks, in damp air that robs the leaf of aroma if a store is not watched.",
+              },
+              {
+                name: "Warehouses near the river and the station",
+                note: "Godowns hold made tea, packed goods and supplies bound for the packers and for the hills, with rail and road links that carry stock to Guwahati and beyond.",
+              },
+              {
+                name: "Medical college and the university",
+                note: "A large teaching hospital and a university with laboratories hold blood units, vaccines and samples in refrigerators and freezers serving the upper valley.",
+              },
+              {
+                name: "Oil and gas supply stores",
+                note: "Engineering and equipment suppliers around the city hold spares, instruments and electrical gear that corrode in the humid air.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Tea factories, packers and brokers hold made tea that loses aroma in damp air, and a record of humidity and temperature in the store shows the day moisture began to reach the chests.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A teaching hospital and clinics serve patients from the whole upper valley, and an alert on a phone means a failing blood or vaccine refrigerator is found in the night.",
+              },
+              {
+                slug: "electronics",
+                sentence:
+                  "Suppliers of electrical and control gear for the oilfields store relays, cables and instruments that rust in damp air, and a humidity trend marks the day a store needs a dehumidifier.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Rail and road carry tea and supplies to and from the valley, and a logger in a consignment records how long it stood in a siding or on a flooded road.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity and temperature at one point suit a tea warehouse or an equipment store, where heavy air is the main danger to the stock.",
+              },
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels spread along a long tea warehouse give one report for every bay and stack, showing which corner holds the damp.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger rides in a lorry carrying tea and reports from garden stores that have no router.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How can a logger protect made tea in a Dibrugarh warehouse?",
+                answer:
+                  "It records humidity and temperature at several points, and an alert tells the store manager when the air has become heavy, so chests can be moved, aired or covered before the tea is affected.",
+              },
+              {
+                question: "Can a tea broker show a buyer how a lot was stored?",
+                answer:
+                  "A report for the dates a lot stood in the store can be exported as PDF, Excel or CSV and sent to the buyer or the auction house.",
+              },
+              {
+                question: "What if floods cut the road and the power to a garden?",
+                answer:
+                  "Loggers record on their batteries and send an alert for a lost supply, then pass on the stored readings once the network returns, so a flooded store leaves a clear trace.",
+              },
+              {
+                question: "Can calibration for a Dibrugarh laboratory be arranged?",
+                answer:
+                  "VEGA Calibrations, our parent company, handles calibration of loggers and probes, and the work can be booked with the supply.",
+              },
+            ],
+            nearby: [
+              { slug: "tezpur", name: "Tezpur" },
+              { slug: "guwahati", name: "Guwahati" },
+            ],
+            metaTitle: "Temperature Data Loggers in Dibrugarh | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Dibrugarh's tea factories and warehouses, oilfield suppliers and hospitals. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "silchar",
+            name: "Silchar",
+            type: "city",
+            intro:
+              "Silchar is the main city of the Barak Valley in southern Assam, on the Barak river, and a temperature data logger here serves a trading city that looks toward Manipur, Mizoram and Tripura as much as toward Guwahati. Trucks bring goods over the hill roads for the valley and carry them onward, a railway line and an airport at Kumbhirgram link the city, and wholesalers stock food, medicines and consumer goods for shops across the south. A central university and a medical college hospital serve students and patients, tea gardens stretch across the valley, and bamboo has long fed a paper industry. Prithvi supplies WiFi loggers for wards, shops and offices on a network and GSM loggers for trucks, hill-road yards and stores out of range.",
+            climateAngle:
+              "Rain is very heavy in the monsoon, the valley is humid year round and floods have repeatedly covered low streets, so refrigerators work through long outages and cartons take on damp in every godown. Landslides on the hill roads can hold a lorry for days.",
+            areas: [
+              {
+                name: "Trading lanes at Rangirkhari and Tarapur",
+                note: "Wholesalers stock food, medicines and general goods for the valley and the hill states, in crowded buildings where back rooms are hot and damp.",
+              },
+              {
+                name: "Transport yards and the hill-road terminals",
+                note: "Trucks load at yards on the road toward Manipur and Mizoram, and goods wait in vehicles and sheds between long, slow legs through the hills.",
+              },
+              {
+                name: "University and the medical college hospital",
+                note: "A central university with laboratories and a medical college hospital hold samples, blood units and vaccines in fridges and freezers.",
+              },
+              {
+                name: "Tea gardens and paper-industry stores",
+                note: "Gardens around the valley store made tea in humid factories, and paper and bamboo suppliers hold stock in sheds that take up damp air.",
+              },
+            ],
+            industries: [
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine distributors serve chemists in the valley and in the hill states beyond, and a logger placed with a pack records the whole range of conditions it met on the hill road.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The medical college hospital and clinics serve patients from three states, and an alert to the duty staff covers the minutes when mains and generator fail together.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Wholesalers of food, dairy and packed goods store stock that suffers in heavy air, and a reading from each chiller shows when a unit failed during a flood outage.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Carriers bridge the valley and the hill states by road, and landslides can hold a lorry for days, so a logger in the load records how long the goods waited and in what conditions.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a hill-bound lorry and keeps recording where signal fades, sending the readings once coverage returns.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity and temperature at one point suit a wholesale godown, where damp air in the rainy months is what harms stock waiting for transport.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A simple one-probe logger can sit in a pharmacy fridge or a dairy chiller in Silchar and does nothing to change how staff use the unit.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a distributor prove how a consignment fared on the road to Manipur or Mizoram?",
+                answer:
+                  "Yes. A GSM logger placed with the goods records readings along the journey and through any halt, and the owner can open the record on a phone and export it for the buyer.",
+              },
+              {
+                question: "What if the signal is lost on the hill road?",
+                answer:
+                  "The logger keeps recording on its own memory and battery and sends the stored readings when the signal returns, so the record has no gap.",
+              },
+              {
+                question: "How are floods handled in the choice of logger position?",
+                answer:
+                  "We mount the logger body above the likely water line and run only the probe cable to the cold space, and battery operation keeps the record going if the supply is cut.",
+              },
+              {
+                question: "Who calibrates loggers used in a Silchar hospital or laboratory?",
+                answer:
+                  "For a Silchar hospital or laboratory, our parent company VEGA Calibrations calibrates the loggers and probes, and the visit can be booked with the supply order.",
+              },
+            ],
+            nearby: [
+              { slug: "guwahati", name: "Guwahati" },
+              { slug: "imphal", name: "Imphal" },
+            ],
+            metaTitle: "Temperature Data Loggers in Silchar | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Silchar's wholesale lanes, hospital, hill-road yards and Barak Valley tea stores. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "tezpur",
+            name: "Tezpur",
+            type: "city",
+            intro:
+              "Tezpur is a town of the north bank of the Brahmaputra in Sonitpur district, among tea gardens and low hills, and a temperature data logger here serves a quieter city than Guwahati with its own gardens, campus and base. A central university stands on its campus at Napaam, a medical college and hospital serve the district, and tea estates around the town run factories through the plucking season. An air force station lies beside the airfield, and the Kolia Bhomora bridge joins the two banks of the river. Wholesale lanes supply the surrounding villages, and the river brings fish and farm produce. Prithvi supplies WiFi loggers for laboratories and rooms with a network and GSM loggers for lorries and garden stores.",
+            climateAngle:
+              "Rain is heavy for months, the air is humid in every season and the river floods the low ground, so tea, medicines and cartons take on moisture and power fails in storms. Gardens lie far from the town on poor roads, and a factory store can be reached only by a long, slow drive during the rains.",
+            areas: [
+              {
+                name: "Tea estates and garden factories",
+                note: "Estates around the town run factories that wither, roll and dry the leaf and store made tea in chests, in damp air that robs the leaf of aroma.",
+              },
+              {
+                name: "University campus and laboratories",
+                note: "Laboratories on the wide campus at Napaam hold samples, cultures and reagents in freezers and fridges that need their own limits.",
+              },
+              {
+                name: "Medical college hospital and clinics",
+                note: "A teaching hospital and clinics hold blood units, vaccines and medicines for the district, with refrigerators that depend on a power supply that storms interrupt.",
+              },
+              {
+                name: "Town market and river trade",
+                note: "Wholesalers of food, medicines and farm produce, and traders in fish and vegetables from the river, work in crowded lanes with chillers opened from early morning.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Tea factories, fish traders and sweet makers hold stock that spoils in heavy air or heat, and a record from each room shows the day a chiller or a store began to slip.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "University laboratories keep samples and reagents with their own limits, and an exported log supports a research file or an inspection.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A medical college hospital and clinics hold blood and vaccines for the district, and an alert on a phone means a failing refrigerator is found at night.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Trucks cross the bridge toward Guwahati and the hills, and a logger placed with a consignment records how long it stood at a halt in the heat and damp.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short lead is enough for a campus freezer or a clinic refrigerator in Tezpur, and the log builds up with nobody having to attend it.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity and temperature at one point suit a tea store or a godown, where heavy air is the main danger to stock.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger rides in a lorry or reports from a garden store with no router, and sends an alert to a phone.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a university laboratory in Tezpur export a log for a project review?",
+                answer:
+                  "Yes. A report on any freezer, fridge or room, for any dates, can be exported in PDF, Excel or CSV form and added to the project file of a research group.",
+              },
+              {
+                question: "Do you visit tea gardens outside the town?",
+                answer:
+                  "Give us the garden, the factory and a name to ask for by the enquiry form, WhatsApp or a call, and we propose a day. Gardens in the same direction are grouped on one trip.",
+              },
+              {
+                question: "Can Tezpur and Guwahati sites be watched on one dashboard?",
+                answer:
+                  "Both cities can sit on one account, each site with its own alert contacts, so a manager reads the two towns from a single list and pulls a report for whichever dates are needed.",
+              },
+              {
+                question: "Can calibration for a Tezpur hospital be arranged?",
+                answer:
+                  "VEGA Calibrations, our parent company, can calibrate loggers and probes, and the work can be booked with the supply.",
+              },
+            ],
+            nearby: [
+              { slug: "guwahati", name: "Guwahati" },
+              { slug: "dibrugarh", name: "Dibrugarh" },
+            ],
+            metaTitle: "Temperature Data Loggers in Tezpur | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Tezpur's tea factories, university laboratories, hospital and river-trade market. Get Solution.",
             indexable: true,
           },
         ],

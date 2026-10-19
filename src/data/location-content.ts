@@ -107,6 +107,11 @@ export const locationContent: Record<string, LocationContent> = {
     recommended: ["rajmudra", "nakshatra", "vayu"],
     inName: "Silvassa, Daman & Diu",
   },
+  "india/assam": {
+    metaDescription:
+      "Temperature data loggers in Assam: Guwahati, Dibrugarh, Silchar and Tezpur's tea stores, medicine distributors and hospitals. Get Solution.",
+    recommended: ["nakshatra","setu","vayu"],
+  },
   "india/bihar": {
     metaDescription:
       "Temperature data loggers in Bihar: Patna, Hajipur, Muzaffarpur, Gaya and Bhagalpur. Get Solution.",
