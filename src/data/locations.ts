@@ -16982,7 +16982,7 @@ export const locations: LegacyLocationNode[] = [
     ],
     listing: [
       { slug: "riyadh-region", text: "The central plateau around the capital, with pharmaceutical, hospital and food warehouses, farm oases and industrial cities under extreme dry heat." },
-      { slug: "jeddah", text: "The Red Sea gateway, with port warehouses, imported-food cold rooms and hospitals in hot, humid coastal air." },
+      { slug: "makkah-region", text: "The Red Sea coast and the mountains behind it, with port warehouses, hotel and hospital stores, fruit and industry in heat and humidity." },
       { slug: "dammam", text: "The Gulf-coast city of the Eastern Province, with chemical plants, port yards and food depots under metal-roof heat." },
     ],
     indexable: true,
@@ -17424,21 +17424,21 @@ export const locations: LegacyLocationNode[] = [
         name: "Makkah Region",
         type: "state",
         intro:
-          "The Makkah Region lies along the Red Sea coast in the west of the kingdom and climbs inland into the Sarawat mountains. Jeddah, the port and commercial centre, receives much of the kingdom's imported food, medicine and general cargo; Makkah and Taif sit inland, with hospitality, healthcare and retail trades; and Rabigh and King Abdullah Economic City stand on the coast to the north with industrial and port facilities. The coast is hot and humid, the mountains are cooler, and dust moves in from the desert. Warehouses, hotel kitchens, hospital stores and port yards hold stock that must stay in range. The page for each place names the rooms we would watch first.",
+          "The Makkah Region lies along the Red Sea coast in the west of the kingdom and climbs inland into the Sarawat mountains. Jeddah, the port and commercial centre, receives much of the kingdom's imported food, medicine and general cargo; Makkah and Taif sit inland, with hospitality, healthcare and retail trades; and Rabigh and King Abdullah Economic City stand on the coast to the north with industrial and port facilities. The coast is hot and humid, the mountains are cooler, and dust moves in from the desert. Warehouses, hotel kitchens, hospital stores and port yards hold stock that must stay in range. Open a place below to see its main rooms and the loggers we would suggest.",
         localIndustries: [
           "Port logistics and imported goods",
           "Hospitality and hotel kitchens",
           "Hospitals and medicine supply",
           "Coastal industry and retail distribution",
         ],
-        citiesServed: [],
+        citiesServed: ["Jeddah", "Makkah", "Taif", "Rabigh", "King Abdullah Economic City"],
         supportNote:
           "Set-up, alert rules and user access for Makkah Region sites are arranged remotely by call or video. Tell us the city and what the rooms hold.",
         faqs: [
           {
             question: "Which Makkah Region places have a page?",
             answer:
-              "Pages are being added place by place, and this page lists each one as it goes live. For any other town, write to us through the enquiry form and we confirm how remote set-up could work.",
+              "Jeddah, Makkah, Taif, Rabigh and King Abdullah Economic City each have a city page, and Jeddah also has pages for its Islamic Port and its 1st Industrial City. Other towns follow as their pages are written; meanwhile a site anywhere in the region can be raised through the enquiry form.",
           },
           {
             question: "How does coastal humidity change where a logger is placed?",
@@ -17451,9 +17451,491 @@ export const locations: LegacyLocationNode[] = [
               "Yes. Each site appears on the same dashboard with its own alert recipients, so a hotel or distribution group sees the coast and the mountains in a single list.",
           },
         ],
+        listing: [
+          { slug: "jeddah", text: "The Red Sea port city, with harbour warehouses, imported-food cold rooms and hospitals in hot, humid coastal air." },
+          { slug: "makkah", text: "A hot mountain-valley city of hotel and catering kitchens, hospital and pharmacy stores and food depots supplied by road from the coast." },
+          { slug: "taif", text: "A cooler escarpment city of rose distilleries, fruit packing houses, hotel kitchens and hospitals, linked to the coast by a mountain road." },
+          { slug: "rabigh", text: "A coastal town of refinery and petrochemical stores, camp canteens, clinics and port warehouses in salty, humid air." },
+          { slug: "king-abdullah-economic-city", text: "A planned Red Sea city with a port, an industrial zone, hotels and clinics, supplied by sea and by road from Jeddah." },
+        ],
+        areaListing: [
+          { slug: "jeddah-islamic-port", text: "The main Red Sea seaport, where containers, cold stores and transit sheds hand cargo from ship to truck in heat and salt." },
+          { slug: "jeddah-1st-industrial-city", text: "An early industrial estate of food, plastics, packaging and chemical plants and warehouses in humid heat under metal roofs." },
+        ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,
         children: [
+          {
+            slug: "jeddah",
+            name: "Jeddah",
+            type: "city",
+            intro:
+              "Jeddah is the Red Sea gateway of the kingdom, a port city where containers, food imports and medicines arrive by sea and are cleared, stored and sent inland. A temperature data logger in Jeddah mostly follows goods through that handover: cold rooms and freezers in the port-side warehouses, chilled stores in distribution depots and the hospital pharmacies that supply a large and varied population. The coastal air is hot and heavy with moisture for most of the year, so cartons sweat, condensation forms where cold rooms meet warm corridors and a door left open lets in damp as well as heat. Prithvi supplies WiFi loggers from India with alerts to phones and email and sets them up remotely, so an importer and its warehouse can share one record of how a lot was held.",
+            climateAngle:
+              "Heat combines with high humidity along the Red Sea coast, so a store that is cool at the thermostat can still sweat its cartons, and humidity needs a reading beside temperature in every chilled room that opens onto a warm yard.",
+            areas: [
+              {
+                name: "Port logistics zones",
+                note: "Warehouses and container yards near the harbour hold imported goods between a vessel's arrival and the lorry that takes them inland.",
+              },
+              {
+                name: "Industrial zones",
+                note: "Light manufacturing, packaging and food-processing units on the edges of the city hold ingredients and finished goods in cooled rooms.",
+              },
+              {
+                name: "Cold stores for imported food",
+                note: "Chill rooms and freezers that receive imported meat, dairy and produce, then release it to retailers and kitchens across the western region.",
+              },
+            ],
+            industries: [
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Port-side warehouses hold imported cargo between the quay and the road, and a record for each bay shows how long a lot waited in the coastal air.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Importers of meat, dairy and produce keep cold rooms that are opened for every delivery, so a reading every few minutes shows how long the door stood open and what it did to the chamber.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospital pharmacies and laboratories serve a large population in a humid climate, and an alert to the duty staff matters most when the air conditioning of a store room fails overnight.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads relative humidity along with temperature, which tells a warehouse when sea air and an open door have beaten the dehumidification in a chilled store.",
+              },
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels cover a long port-side shed across racks, dock doors and floor positions, so one report shows how the whole building behaves.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels record a cold room and its anteroom at once, which shows how much warm, damp air each delivery brings through the door.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a logger report on a shipment between the port and a Jeddah warehouse?",
+                answer:
+                  "A logger placed in the load records the whole stay, and its report can be exported by lot, so an importer and a warehouse can compare the same record when a question is raised.",
+              },
+              {
+                question: "How does coastal humidity change where probes are placed?",
+                answer:
+                  "We place humidity-reading loggers near doors and anterooms, where damp air first meets a cold room, and away from evaporators that would show the coil instead of the room. A second probe at the far end of the room tells the engineer whether the whole space is cooled or only the part nearest the unit.",
+              },
+              {
+                question: "How is a logger set up for a Jeddah warehouse?",
+                answer:
+                  "Loggers are dispatched from India and registered to your dashboard, and we set up rooms, limits and alert contacts with your team over a call or video. After the first fortnight of readings we review the limits with you, so routine door openings stop raising alarms and a real fault stands out.",
+              },
+              {
+                question: "What happens to the record if a warehouse loses power for a spell?",
+                answer:
+                  "Loggers keep storing readings on their batteries during a cut and send them when the network returns, and an alert for the lost mains supply can go to the person who looks after the room.",
+              },
+            ],
+            nearby: [
+              { slug: "riyadh", name: "Riyadh" },
+              { slug: "dammam", name: "Dammam" },
+            ],
+            metaTitle: "Temperature Data Loggers in Jeddah | Prithvi",
+            metaDescription:
+              "WiFi temperature and humidity data loggers for Jeddah's port warehouses, food import cold rooms and hospitals, set up remotely. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "makkah",
+            name: "Makkah",
+            type: "city",
+            intro:
+              "Makkah lies in a narrow valley of the Sarawat mountains inland from the Red Sea, and a temperature data logger here serves a city whose economy is built on hospitality, healthcare, retail and the supply chains that feed them. Very large numbers of visitors stay in its hotels and eat in its restaurants throughout the year, hospitals and clinics serve residents and guests, and wholesale markets stock food, medicines and general goods that arrive by road, mostly from warehouses on the coast. Rooms that must stay cold are therefore spread across kitchens, pharmacies, hotel stores and distribution depots. Summers are extremely hot. Prithvi supplies WiFi loggers from India, sets them up with your team by call or video, and sends alerts to phones and email when a limit is crossed.",
+            climateAngle:
+              "The valley holds heat through the summer, so cooling plants work close to their limits for months, and an occasional humid spell or sudden downpour adds condensation to rooms that are normally dry.",
+            areas: [
+              {
+                name: "Hotel and catering kitchens",
+                note: "Large hotels and catering kitchens run walk-in coolers, freezers and dry stores that are loaded and emptied around the clock, and a failed cooler can spoil a day's food in a few hours.",
+              },
+              {
+                name: "Hospital and pharmacy stores",
+                note: "Hospitals, clinics and pharmacies hold vaccines, insulin and other medicines in refrigerators that must hold their ranges through a hot summer and any power interruption.",
+              },
+              {
+                name: "Wholesale food and produce depots",
+                note: "Depots receive chilled and frozen food from the coast by road and release it to hotels and shops, with doors opening to hot air at every delivery.",
+              },
+              {
+                name: "Distribution yards on the approach roads",
+                note: "Trucks load and unload at yards on the roads into the valley, where goods stand in vehicles and open bays in strong sun before they reach a store.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Hotels, caterers and food depots serve a steady flow of guests and keep large chilled stores, and an alert to the kitchen manager matters most when a cooler is opened every few minutes at a busy hour.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals and clinics hold vaccines and blood products for residents and guests, and an alert to the duty staff reaches the right person at once if a refrigerator warms during a power interruption.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine wholesalers and pharmacies keep stock in cooled rooms with stated ranges, and a dated record shows how a room behaved on the hottest afternoons.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods reach the valley by road over long distances, and a logger placed in a load shows how long it stood in a vehicle in the sun before unloading.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an external probe fits a hotel walk-in or a pharmacy fridge without changing how the unit is used.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels watch a hotel store room at several shelf heights and beside the door, showing how a busy room really behaves between deliveries.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels spread through a long depot show which bays run warmest under a metal roof, in one report.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How does a Makkah hotel or catering kitchen get started with loggers supplied from India?",
+                answer:
+                  "The loggers come from India and are registered to your dashboard, and a call or video session then fixes the rooms, the limits and the people who receive alerts. A kitchen needs a router in range for a WiFi logger to report.",
+              },
+              {
+                question: "Why do high limits need a short delay in a hot kitchen?",
+                answer:
+                  "Doors are opened constantly, so a reading can spike for a minute, and a short delay on the high limit lets staff ignore a brief door-open rise while still being warned when a cooler is truly drifting.",
+              },
+              {
+                question: "Can records be shared with an auditor or a client?",
+                answer:
+                  "A report for any room and any dates can be exported in PDF, Excel or CSV form, giving an auditor or a client a dated log in place of a handwritten sheet.",
+              },
+              {
+                question: "Is calibration of loggers available for hospitals and kitchens in Makkah?",
+                answer:
+                  "Our parent company, VEGA Calibrations, handles calibration of loggers and probes. Tell us the model and your working range and we explain how it could be arranged.",
+              },
+            ],
+            nearby: [
+              { slug: "jeddah", name: "Jeddah" },
+              { slug: "taif", name: "Taif" },
+            ],
+            metaTitle: "Temperature Data Loggers in Makkah | Prithvi",
+            metaDescription:
+              "WiFi temperature data loggers for Makkah's hotel kitchens, hospital and pharmacy stores and food depots, set up remotely. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "taif",
+            name: "Taif",
+            type: "city",
+            intro:
+              "Taif is a mountain city on the escarpment east of Makkah, and a temperature data logger here serves a place that is cooler and greener than most of the kingdom. Its fields and terraces grow roses, pomegranates, grapes and figs, rose growers distil the petals into rose water and oil, and honey, fruit and vegetables are packed and sent down to the coast and across the Red Sea region. Summer visitors fill hotels and restaurants, hospitals serve the surrounding highlands, and an industrial area on the edge of the city adds plants and warehouses. Altitude softens the summer heat, but winter nights are cold. Loggers for Taif come from India and report to a dashboard that your managers can open from a phone, with set-up done by call or video.",
+            climateAngle:
+              "Summers are mild compared with the plains and brief thunderstorms bring damp, while winter nights are cold, so rooms meet both a low and a high end of the range and rose, fruit and honey stores need steady, cool air.",
+            areas: [
+              {
+                name: "Rose farms and distilleries",
+                note: "Petals are picked in a short season and distilled soon after, and rose oil and water are stored in cool, dark rooms where heat would dull the scent.",
+              },
+              {
+                name: "Fruit packing houses and cold rooms",
+                note: "Pomegranates, grapes and figs are sorted, packed and chilled before they leave for the coast, with cold rooms loaded hardest during the harvest.",
+              },
+              {
+                name: "Hotels, restaurants and summer resorts",
+                note: "Visitors fill hotels and restaurants through the summer, and kitchens run coolers and stores in buildings that range from modern towers to old mountain houses.",
+              },
+              {
+                name: "Hospitals, markets and the industrial area",
+                note: "Hospitals and pharmacies hold medicines in refrigerators, wholesale markets stock food and general goods, and plants on the edge of the city hold packaging and food in warehouses.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Fruit packers, honey dealers, rose-water producers and hotel kitchens hold goods that lose quality in warmth, and a record from each cold room shows a buyer how a lot was kept after harvest.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals serve the highlands and visitors from across the region, and an alert to the duty staff reaches the right person at once if a vaccine refrigerator warms in a power cut.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "Testing and research laboratories keep samples and reagents in fridges and cabinets with their own limits, and an exported log supports an inspection or a project file.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Trucks carry produce down the mountain road to Jeddah and Makkah, and a logger placed in a load shows how long fruit stood in a vehicle on the descent.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity and temperature at one point suit a fruit store or a rose-oil room, where steady, cool and slightly damp air protects the product.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels watch a packing-house cold room at the door and at the back wall, which shows whether the cold reaches the far shelves.",
+              },
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels spread across a large warehouse give one report for each bay and shelf level, showing which corner holds the heat.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How can a Taif fruit packer use a temperature record?",
+                answer:
+                  "A logger in the cold room and in the truck records the chill from packing to unloading, and a report for the dates of one lot can be exported for the buyer.",
+              },
+              {
+                question: "How are Taif sites registered when the loggers are supplied from India?",
+                answer:
+                  "After the loggers arrive from India they are registered to your dashboard, and a short call or video session sets the rooms, limits and alert contacts. Each room needs a router in range for a WiFi logger to report.",
+              },
+              {
+                question: "Why does a cool mountain city still need alerts?",
+                answer:
+                  "A cold room can fail on any day, and warm spells arrive in the harvest weeks, so a high limit protects fruit while a low limit protects produce that could chill too far on a winter night.",
+              },
+              {
+                question: "Can calibration be discussed for Taif laboratories and packing houses?",
+                answer:
+                  "Yes. VEGA Calibrations, our parent company, calibrates loggers and probes, and we explain the options once we know the model and the range you work to.",
+              },
+            ],
+            nearby: [
+              { slug: "makkah", name: "Makkah" },
+              { slug: "jeddah", name: "Jeddah" },
+            ],
+            metaTitle: "Temperature Data Loggers in Taif | Prithvi",
+            metaDescription:
+              "WiFi temperature data loggers for Taif's fruit packing houses, rose-water stores, hotel kitchens and hospitals, set up remotely from India. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "rabigh",
+            name: "Rabigh",
+            type: "city",
+            intro:
+              "Rabigh is a coastal town on the Red Sea north of Jeddah, and a temperature data logger here serves a district of heavy industry, power and farming. A large refinery and petrochemical complex stands on the shore, with a power and desalination plant nearby, and a port handles cargo for the industrial zone. Date palms and vegetable fields grow along the wadi inland, and fishing boats work the coast. The newer planned city of King Abdullah Economic City lies a short way to the north. Workers and contractors depend on canteens, clinics and warehouses, and goods come from Jeddah by road. Prithvi sends WiFi loggers from India, registers them to a dashboard you control and walks your team through alert rules over a call.",
+            climateAngle:
+              "The coast is hot and heavy with moisture for most of the year, salt in the air attacks metal and packaging, and dust blows in from the desert, so stores of spares, chemicals and food all work against the climate.",
+            areas: [
+              {
+                name: "Refinery and petrochemical complex stores",
+                note: "Plant stores hold spares, instruments, laboratory reagents and drummed material on wide campuses, with rooms far from any office and strict rules for access.",
+              },
+              {
+                name: "Contractor camps, canteens and clinics",
+                note: "Large workforces are fed from canteen kitchens with walk-in coolers and freezers, and clinics hold medicines and vaccines in refrigerators that cannot be allowed to warm.",
+              },
+              {
+                name: "Port and industrial-zone warehouses",
+                note: "Warehouses near the port hold packed goods and industrial supplies that wait for a vessel or a truck, in salty, humid air.",
+              },
+              {
+                name: "Date farms and fishing landings",
+                note: "Growers along the wadi store dates and vegetables in small cold rooms, and boats land fish for ice rooms and cold stores on the coast.",
+              },
+            ],
+            industries: [
+              {
+                slug: "chemical",
+                sentence:
+                  "Refinery and petrochemical stores keep drums, bags and reagents with printed storage limits, and an alert from a hot store room lets the storekeeper act before the limit is crossed.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Canteens, caterers and fish and date businesses hold stock that spoils in coastal heat, and a record from each room shows when one began to fail during a power interruption.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Clinics and hospitals serving the workforce and the town hold vaccines and medicines in refrigerators that need a steady record, and an alert on a phone reaches the right person.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods reach the coast by sea and by road from Jeddah, and a logger placed among them records the heat and salty damp they met in a yard or a vehicle.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity along with temperature at one point, which tells a plant store or a port shed when salty damp has overcome a dehumidifier or a door seal.",
+              },
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels cover a large warehouse or a plant store across bays and heights, so one report shows where heat and moisture gather.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels watch a canteen store or a clinic pharmacy at several heights and at the door, which shows how a busy room behaves between loadings.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How does salty air affect where a logger is fitted at Rabigh?",
+                answer:
+                  "We keep the logger body indoors, clear of spray and wet walls, let only the probe lead enter the cold room and recommend a wipe of the probe whenever the room is cleaned.",
+              },
+              {
+                question: "How does a Rabigh plant or camp get its loggers from India and go live?",
+                answer:
+                  "The loggers are sent from India and registered to your dashboard before set-up, and a call or video session settles the rooms, limits and alert recipients. A WiFi logger needs a router in range of its room.",
+              },
+              {
+                question: "Can plant stores with strict access rules be covered?",
+                answer:
+                  "Set-up is remote, so the loggers are fitted by your own staff following our guidance, and access to the dashboard can be limited so each user sees only the rooms they are responsible for.",
+              },
+              {
+                question: "Is calibration available for plant laboratories at Rabigh?",
+                answer:
+                  "VEGA Calibrations, our parent company, can calibrate loggers and probes for refinery and camp laboratories; share the model and the range and we confirm the options.",
+              },
+            ],
+            nearby: [
+              { slug: "king-abdullah-economic-city", name: "King Abdullah Economic City" },
+              { slug: "jeddah", name: "Jeddah" },
+            ],
+            metaTitle: "Temperature Data Loggers in Rabigh | Prithvi",
+            metaDescription:
+              "WiFi temperature data loggers for Rabigh's refinery stores, camp canteens, clinics and port warehouses, set up remotely. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "king-abdullah-economic-city",
+            name: "King Abdullah Economic City",
+            type: "city",
+            intro:
+              "King Abdullah Economic City is a planned city on the Red Sea coast north of Jeddah, set out with a port, an industrial zone, residential districts and leisure areas, and a temperature data logger here serves a new coastal site rather than an old town. Its stated purpose is to combine living, industry, logistics and tourism in one planned place. The King Abdullah Port handles containers and general cargo, the Industrial Valley provides plots for factories and warehouses, and hotels, schools, clinics and shops serve residents and visitors. Everything stored here arrives by sea or by road, much of it from Jeddah. Prithvi can supply WiFi loggers from India for a port yard, a plant or a clinic, and our team explains alerts and user access by video.",
+            climateAngle:
+              "The coast is hot and humid for most of the year, salt in the air attacks metal and packaging, and sea breezes bring damp into warehouses, so rooms near the shore need a humidity reading beside the temperature.",
+            areas: [
+              {
+                name: "King Abdullah Port and its yards",
+                note: "Container and general-cargo yards hold goods between a vessel and a truck, where cartons sit in strong sun and salty air before they move to a warehouse.",
+              },
+              {
+                name: "Industrial Valley plots and warehouses",
+                note: "Factories and warehouses on the planned industrial plots store raw material and finished goods in large halls that depend on cooling plants and ventilation.",
+              },
+              {
+                name: "Hotels, resort kitchens and residential districts",
+                note: "Hotels, restaurants, shops and clinics serve residents and visitors, with walk-in coolers, medicine fridges and kitchen stores in newly built premises.",
+              },
+              {
+                name: "Schools, clinics and community stores",
+                note: "Clinics hold vaccines and medicines in refrigerators, and schools and community facilities run canteens and cold rooms of their own.",
+              },
+            ],
+            industries: [
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Port yards and warehouses hold goods for several importers and exporters, and a separate reading for each bay lets an operator export a report for the customer whose goods stood there.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Importers, hotels and caterers hold chilled and frozen food in cold rooms that open onto warm yards, and a record from each room shows when one began to drift.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Clinics and medical centres hold vaccines and medicines in refrigerators that need a steady record, and an alert on a phone reaches the person on duty if a unit warms.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Plants in the industrial zone keep drums, packaging materials and consumables with storage limits, and an alert from a hot store room lets the storekeeper act in time.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a port shed or a warehouse near the shore, where salty damp air is what harms cartons and metal.",
+              },
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels cover a large warehouse or a factory hall at several heights and positions, so one report shows where heat and damp gather.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an external probe fits a clinic refrigerator or a hotel cooler without changing how the unit is used.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can an operator give each customer a report for its own bay at the port or in a warehouse?",
+                answer:
+                  "Each bay can be its own point on the dashboard with separate alert contacts, and a report for that bay and period can be exported when the customer asks.",
+              },
+              {
+                question: "How does a business at King Abdullah Economic City start when the loggers come from India?",
+                answer:
+                  "The loggers are registered to your dashboard on arrival, and a video or phone session sets the rooms, limits and alert contacts. A WiFi logger reports only where the room has a router in range.",
+              },
+              {
+                question: "Why does a new building still need a humidity reading?",
+                answer:
+                  "Newly built halls near the sea can carry damp from concrete and sea air, and a humidity trend shows whether a store is drying out or taking on moisture.",
+              },
+              {
+                question: "Can calibration be discussed for loggers used at the port or in the industrial zone?",
+                answer:
+                  "VEGA Calibrations, our parent company, calibrates loggers and probes, and we explain how the work could be arranged once we know the model and the range you use.",
+              },
+            ],
+            nearby: [
+              { slug: "rabigh", name: "Rabigh" },
+              { slug: "jeddah", name: "Jeddah" },
+            ],
+            metaTitle: "Data Loggers in King Abdullah Economic City | Prithvi",
+            metaDescription:
+              "WiFi temperature data loggers for King Abdullah Economic City's port yards, industrial plots, hotel kitchens and clinics, set up remotely. Get Solution.",
+            indexable: true,
+          },
         ],
       },
       {
@@ -17862,93 +18344,6 @@ export const locations: LegacyLocationNode[] = [
         indexable: false,
         children: [
         ],
-      },
-      {
-        slug: "jeddah",
-        name: "Jeddah",
-        type: "city",
-        intro:
-          "Jeddah is the Red Sea gateway of the kingdom, a port city where containers, food imports and medicines arrive by sea and are cleared, stored and sent inland. A temperature data logger in Jeddah mostly follows goods through that handover: cold rooms and freezers in the port-side warehouses, chilled stores in distribution depots and the hospital pharmacies that supply a large and varied population. The coastal air is hot and heavy with moisture for most of the year, so cartons sweat, condensation forms where cold rooms meet warm corridors and a door left open lets in damp as well as heat. Prithvi supplies WiFi loggers from India with alerts to phones and email and sets them up remotely, so an importer and its warehouse can share one record of how a lot was held.",
-        climateAngle:
-          "Heat combines with high humidity along the Red Sea coast, so a store that is cool at the thermostat can still sweat its cartons, and humidity needs a reading beside temperature in every chilled room that opens onto a warm yard.",
-        areas: [
-          {
-            name: "Port logistics zones",
-            note: "Warehouses and container yards near the harbour hold imported goods between a vessel's arrival and the lorry that takes them inland.",
-          },
-          {
-            name: "Industrial zones",
-            note: "Light manufacturing, packaging and food-processing units on the edges of the city hold ingredients and finished goods in cooled rooms.",
-          },
-          {
-            name: "Cold stores for imported food",
-            note: "Chill rooms and freezers that receive imported meat, dairy and produce, then release it to retailers and kitchens across the western region.",
-          },
-        ],
-        industries: [
-          {
-            slug: "logistics-warehousing",
-            sentence:
-              "Port-side warehouses hold imported cargo between the quay and the road, and a record for each bay shows how long a lot waited in the coastal air.",
-          },
-          {
-            slug: "food-beverage",
-            sentence:
-              "Importers of meat, dairy and produce keep cold rooms that are opened for every delivery, so a reading every few minutes shows how long the door stood open and what it did to the chamber.",
-          },
-          {
-            slug: "hospitals-blood-banks",
-            sentence:
-              "Hospital pharmacies and laboratories serve a large population in a humid climate, and an alert to the duty staff matters most when the air conditioning of a store room fails overnight.",
-          },
-        ],
-        recommendedSeries: [
-          {
-            slug: "nakshatra",
-            reason:
-              "Reads relative humidity along with temperature, which tells a warehouse when sea air and an open door have beaten the dehumidification in a chilled store.",
-          },
-          {
-            slug: "virat",
-            reason:
-              "Sixteen channels cover a long port-side shed across racks, dock doors and floor positions, so one report shows how the whole building behaves.",
-          },
-          {
-            slug: "rajmudra",
-            reason:
-              "Two channels record a cold room and its anteroom at once, which shows how much warm, damp air each delivery brings through the door.",
-          },
-        ],
-        faqs: [
-          {
-            question: "Can a logger report on a shipment between the port and a Jeddah warehouse?",
-            answer:
-              "A logger placed in the load records the whole stay, and its report can be exported by lot, so an importer and a warehouse can compare the same record when a question is raised.",
-          },
-          {
-            question: "How does coastal humidity change where probes are placed?",
-            answer:
-              "We place humidity-reading loggers near doors and anterooms, where damp air first meets a cold room, and away from evaporators that would show the coil instead of the room. A second probe at the far end of the room tells the engineer whether the whole space is cooled or only the part nearest the unit.",
-          },
-          {
-            question: "How is a logger set up for a Jeddah warehouse?",
-            answer:
-              "Loggers are dispatched from India and registered to your dashboard, and we set up rooms, limits and alert contacts with your team over a call or video. After the first fortnight of readings we review the limits with you, so routine door openings stop raising alarms and a real fault stands out.",
-          },
-          {
-            question: "What happens to the record if a warehouse loses power for a spell?",
-            answer:
-              "Loggers keep storing readings on their batteries during a cut and send them when the network returns, and an alert for the lost mains supply can go to the person who looks after the room.",
-          },
-        ],
-        nearby: [
-          { slug: "riyadh", name: "Riyadh" },
-          { slug: "dammam", name: "Dammam" },
-        ],
-        metaTitle: "Temperature Data Loggers in Jeddah | Prithvi",
-        metaDescription:
-          "WiFi temperature and humidity data loggers for Jeddah's port warehouses, food import cold rooms and hospitals, set up remotely. Get Solution.",
-        indexable: true,
       },
       {
         slug: "dammam",
