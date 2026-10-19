@@ -144,6 +144,7 @@ export const locations: LegacyLocationNode[] = [
       { slug: "odisha", text: "Bhubaneswar and Cuttack's hospitals, markets and estates, Rourkela's steel town and the Paradip port and Jharsuguda power country, in cyclone and monsoon weather." },
       { slug: "jharkhand", text: "Ranchi's engineering and hospitals, Jamshedpur's steel and vehicle belt, the Dhanbad coal field and Bokaro's steel township, in dusty heat and a heavy monsoon." },
       { slug: "chhattisgarh", text: "Raipur's rice mills and steel estates, Bhilai's steel township, Bilaspur's railway and coalfield offices and Korba's coal and power belt, in dust and a heavy monsoon." },
+      { slug: "bihar", text: "Patna's hospitals and distributors, Hajipur's railway and banana trade and Muzaffarpur's litchi and fruit markets, in heat, humidity and flood weather." },
     ],
     indexable: true,
     children: [
@@ -14681,6 +14682,337 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Korba | Prithvi",
             metaDescription:
               "WiFi and GSM temperature and humidity data loggers for Korba's coal-mine stores, power-station laboratories, hospitals and markets. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "bihar",
+        name: "Bihar",
+        type: "state",
+        intro:
+          "Bihar lies on the flat Gangetic plain, crossed by the Ganga and the rivers that rush down from Nepal, and its storage is shaped by heat, humidity and flood. Patna, the capital, is the state's main centre for hospitals, medicine distribution and wholesale trade; across the river Hajipur holds a railway zone, a pharmaceutical institute and banana yards; and Muzaffarpur is the litchi and fruit trading city of the north. Summers are hot and heavy with humidity, the monsoon brings floods that cut roads for days, and winter nights are cold with fog. Cold chains for fruit, vaccines and food therefore depend on records that survive outages. Each city page names its estates and the stores worth watching first.",
+        localIndustries: [
+          "Hospitals and medicine distribution",
+          "Fruit, grain and food processing",
+          "Railway and wholesale stores",
+          "Pilgrimage hospitality",
+        ],
+        citiesServed: ["Patna", "Hajipur", "Muzaffarpur"],
+        supportNote:
+          "Supply, installation support and site visits for Bihar sites are arranged from our Mumbai office. Tell us the city, the market or the estate and what the rooms hold.",
+        faqs: [
+          {
+            question: "Which Bihar locations have a page?",
+            answer:
+              "Patna, Hajipur and Muzaffarpur each have a city page. For any other Bihar town, send us a note through the enquiry form and we confirm what we can arrange.",
+          },
+          {
+            question: "How do loggers help a fruit trader during the litchi and mango seasons?",
+            answer:
+              "Fruit ripens fast in heat, so a logger in the cold room and the truck records how long a lot stayed within range, and an alert reaches the owner if a chamber warms during a power cut.",
+          },
+          {
+            question: "What happens to monitoring when floods cut the roads and the power?",
+            answer:
+              "Loggers keep recording on their batteries and send the stored readings when the network returns, and an alert for a lost mains supply tells the responsible person that a room is unprotected.",
+          },
+        ],
+        listing: [
+          { slug: "patna", text: "The Ganga-side capital of hospitals, medicine distributors, wholesale markets and estates at Bihta, Fatuha and Patliputra." },
+          { slug: "hajipur", text: "The north-bank railway-zone city linked by the Gandhi Setu, with a pharmaceutical institute, banana yards and an industrial area." },
+          { slug: "muzaffarpur", text: "The litchi and fruit city of north Bihar, with food processors, a teaching hospital and a trading belt in flood-prone country." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "patna",
+            name: "Patna",
+            type: "city",
+            intro:
+              "Patna is the capital of Bihar, a long city stretched along the south bank of the Ganga, and a temperature data logger here serves the state's main centre of hospitals, medicine distribution and wholesale trade. A national medical institute at Phulwari Sharif, a large government medical college hospital, a super-speciality institute and many private hospitals draw patients from every district, while distributors send medicines and food out along the roads and rail lines of the whole state. Industrial areas at Bihta, Fatuha and Patliputra hold food, packaging, engineering and warehouse firms. The Mithapur market and the lanes around Gandhi Maidan handle fruit, vegetables and general goods. Prithvi supplies WiFi loggers for wards, pharmacies and warehouses on a network and GSM loggers for vans, lorries and stores out of range.",
+            climateAngle:
+              "Summers are hot and heavy with humidity, the monsoon swells the Ganga and floods low lanes, and winter nights are cold with fog, so refrigerators and godowns meet fierce heat, damp and chill within one year.",
+            areas: [
+              {
+                name: "Bihta and Fatuha industrial areas",
+                note: "Estates on the western and eastern edges of the city hold food, packaging, engineering and warehouse firms on plots of varied size, with lorries loading at the gates through the day.",
+              },
+              {
+                name: "Patliputra industrial area",
+                note: "An estate within the city holds small factories, workshops and godowns, whose stores sit in crowded buildings with limited ventilation.",
+              },
+              {
+                name: "Hospital and medical-college belt",
+                note: "A national medical institute, a large teaching hospital, a super-speciality institute and private hospitals keep blood units, vaccines and medicines in refrigerators that serve the whole state.",
+              },
+              {
+                name: "Mithapur market and the wholesale lanes",
+                note: "Traders in fruit, vegetables, medicines and general goods work in crowded markets and back rooms, with cold rooms and chillers opened from the early hours.",
+              },
+            ],
+            industries: [
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Large hospitals receive patients from every district, and an alert to the duty staff covers the minutes when the mains fails and the generator has not yet started.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine distributors in Patna supply chemists and hospitals across the state, and a dated log answers a buyer who asks how a pack was held during the summer heat.",
+              },
+              {
+                slug: "vaccine-cold-chain",
+                sentence:
+                  "Vaccines and biological products move from state stores to district centres by road, and a logger in the carrier records the range of temperature the doses met on the way.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Fruit traders, dairies, bakeries and caterers run chillers and cold rooms through long hot spells, and a reading from each unit shows the night a compressor began to fail.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an external probe fits a clinic or pharmacy refrigerator and keeps a quiet, continuous record without changing how the unit is used.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels let a hospital store or a distributor's room be read at its door and at its far wall by a single wall-mounted device.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a vaccine carrier or a medicine lorry and reports from the road and from stores with no router.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Patna medicine distributor give a buyer a record for one consignment?",
+                answer:
+                  "Reports for any room and period can be exported as PDF, Excel or CSV, so a distributor hands over the dated log for the days a consignment stood in the store.",
+              },
+              {
+                question: "Can a hospital watch every refrigerator from one screen?",
+                answer:
+                  "Yes. Each refrigerator and store appears on one dashboard with its own limit and its own alert recipients, and the person in charge of a department can export a report for any unit over any period.",
+              },
+              {
+                question: "Do you cover Bihta, Fatuha and Patliputra as well as the city?",
+                answer:
+                  "Write with the estate, the unit and a contact by the enquiry form, WhatsApp or a call, and we fix a day. Bihta and Fatuha lie on opposite edges of the city, so they are taken in order.",
+              },
+              {
+                question: "Who calibrates loggers used in a Patna hospital or laboratory?",
+                answer:
+                  "VEGA Calibrations, our parent company, calibrates loggers and probes, and the date can be fixed when you place the order.",
+              },
+            ],
+            nearby: [
+              { slug: "hajipur", name: "Hajipur" },
+              { slug: "muzaffarpur", name: "Muzaffarpur" },
+              { slug: "gaya", name: "Gaya" },
+            ],
+            metaTitle: "Temperature Data Loggers in Patna | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Patna's hospitals, medicine distributors, Bihta and Fatuha estates and markets. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "hajipur",
+            name: "Hajipur",
+            type: "city",
+            intro:
+              "Hajipur stands on the north bank of the Ganga where the Gandhaki joins it, facing Patna across the river, and a temperature data logger here serves a railway-and-farm town with a different rhythm from the capital. The headquarters of a railway zone occupy the town, and a national institute of pharmaceutical education has its campus here. Banana groves cover the fields around, and traders ship the fruit to cities across the north. The Hajipur industrial area holds food, packaging and small engineering firms,, and the town is a transport node for the region. The Gandhi Setu carries road traffic over the Ganga to Patna. Prithvi supplies WiFi loggers for offices, labs and stores with a network and GSM loggers for lorries, yards and distant sheds.",
+            climateAngle:
+              "The river plain is hot and humid, the monsoon floods the fields and cuts roads, and winter fog slows trucks, so ripe fruit, vaccines and food wait in conditions that change faster than the transport.",
+            areas: [
+              {
+                name: "Banana yards and ripening rooms",
+                note: "Traders gather green bananas from the surrounding fields into yards and ripening rooms, where a few degrees of heat decide whether a load reaches the market firm or soft.",
+              },
+              {
+                name: "Hajipur industrial area",
+                note: "An estate on the edge of the town holds food, packaging and small engineering firms and godowns, with loading bays open to the sun.",
+              },
+              {
+                name: "Railway zone offices and goods sheds",
+                note: "Offices, stores of electrical items and spares and goods sheds around the junction hold supplies that move by rail, with parcels waiting on platforms between trains.",
+              },
+              {
+                name: "Pharmaceutical institute and the town markets",
+                note: "Laboratories on the institute campus keep samples and reagents in fridges and cabinets, while wholesalers in the town stock food and medicines in compact shops.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Banana ripeners, dairies and packaged-food firms hold produce that turns quickly in the heat, and a record from each room shows a trader what temperature the fruit sat in before it left the yard.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "The institute and local testing laboratories keep samples, cultures and reagents in freezers and fridges with their own limits, and an exported log supports a research file.",
+              },
+              {
+                slug: "electronics",
+                sentence:
+                  "Railway stores of electrical and signalling gear hold relays, cables and meters that corrode in damp air, and a humidity trend marks the day a store needs a dehumidifier.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Trucks cross the Ganga to the capital and run north into the farmland, and a logger placed with a load records how long it waited on the bridge approach in the afternoon sun.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity and temperature at one point suit a ripening room or a railway stores room, where heavy air in the rains is the danger.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an external probe fits a laboratory freezer or a dairy chiller and keeps a continuous record.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger rides in a fruit lorry or reports from a remote shed with no router, and sends an alert to a phone.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How does a logger help a banana trader in Hajipur?",
+                answer:
+                  "A reading every few minutes in the ripening room shows how the temperature moved, so a trader can adjust a chamber before a batch ripens too fast, and a record from the truck shows how it travelled.",
+              },
+              {
+                question: "Can a store on the Hajipur side and an office in Patna share one account?",
+                answer:
+                  "Yes. Each site is a point on the same dashboard with its own alert contacts, so a manager at the office sees stores on both banks in one list.",
+              },
+              {
+                question: "How are visits to the industrial area planned around the bridge traffic?",
+                answer:
+                  "Tell us the unit and a name to ask for by the enquiry form, WhatsApp or a call, and mention the hours that suit you. We plan the crossing outside the heaviest traffic.",
+              },
+              {
+                question: "Can calibration for an institute laboratory in Hajipur be arranged?",
+                answer:
+                  "The calibration of loggers and probes for an institute laboratory at Hajipur is done by VEGA Calibrations, our parent company, and can be booked with the order.",
+              },
+            ],
+            nearby: [
+              { slug: "patna", name: "Patna" },
+              { slug: "muzaffarpur", name: "Muzaffarpur" },
+            ],
+            metaTitle: "Temperature Data Loggers in Hajipur | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Hajipur's banana ripening rooms, railway stores, institute labs and industrial area. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "muzaffarpur",
+            name: "Muzaffarpur",
+            type: "city",
+            intro:
+              "Muzaffarpur is the litchi city of north Bihar, set on the Burhi Gandak river in a plain of orchards and flood-prone fields, and a temperature data logger here serves a trading centre for fruit, grain and food. Each May and June the famous litchi crop is picked, packed and sent by lorry and train to markets across India, and mangoes, bananas and vegetables follow through the year. The Bela industrial area holds food processors, bottlers and packaging firms, wholesalers fill the old lanes, and a large medical college hospital serves the districts of the north. The railway junction links the city to Patna, Delhi and the east. Prithvi supplies WiFi loggers for rooms with a network and GSM loggers for orchards, lorries and distant stores.",
+            climateAngle:
+              "Summers are hot and heavy with humidity, the monsoon swells the rivers and cuts roads, and winters bring cold mornings and fog, so fruit cold rooms must work hardest in the weeks when the roads are least reliable.",
+            areas: [
+              {
+                name: "Litchi orchards, packing sheds and cold rooms",
+                note: "Growers and traders pack the fruit in sheds and chill it in cold rooms for a few weeks each year, when a failed compressor can spoil a day's picking.",
+              },
+              {
+                name: "Bela industrial area",
+                note: "An estate on the edge of the city holds food processors, beverage bottlers, packaging firms and godowns, with lorries loading beside the gates at all hours.",
+              },
+              {
+                name: "Old city trading lanes",
+                note: "Wholesalers of grain, pulses, food and general goods work in crowded lanes around the old markets, with stock rooms packed to the roof in hot, humid buildings.",
+              },
+              {
+                name: "Medical college and the hospital district",
+                note: "A large teaching hospital and private clinics keep blood units, vaccines and medicines in refrigerators that serve patients from many districts.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Litchi and mango traders, pulp makers and bottlers hold fruit and drinks that spoil within days in the heat, and a record for each chamber and lorry shows how a lot was kept.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Reefer trucks and trains carry fruit to far cities, and a GSM logger placed in the load records every hour of the journey, so a delay on a flooded road leaves a clear trace.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A teaching hospital and clinics serve patients from the north, and an alert on a phone means a failing blood or vaccine refrigerator is found in the night.",
+              },
+              {
+                slug: "vaccine-cold-chain",
+                sentence:
+                  "Vaccines reach district centres across the north by road, and a logger in the carrier shows whether the doses stayed within range during a hot or flooded journey.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels watch a cold room at the door and at the back, which shows whether the cold reaches the far wall when the chamber is loaded with fruit.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an external probe fits a clinic refrigerator or a small fruit chamber without changing how the unit is used.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a fruit lorry and reports from orchard sheds that have no network, sending an alert to a phone.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a litchi exporter show a buyer how the fruit was held before dispatch?",
+                answer:
+                  "A logger in the packing shed, the cold room and the lorry records each stage, and a report for the dates of one lot can be exported for the buyer.",
+              },
+              {
+                question: "What if floods and power cuts hit during the fruit season?",
+                answer:
+                  "Loggers record on their batteries through a cut and send an alert for a lost supply, so the owner knows a chamber is no longer protected even when roads are cut.",
+              },
+              {
+                question: "Do you visit the Bela area and the orchards outside the city?",
+                answer:
+                  "Give us the place, the unit and a person to meet using the enquiry form, WhatsApp or a call, and we propose a day. Sites in different directions are planned in a sensible order.",
+              },
+              {
+                question: "Who calibrates loggers used in a Muzaffarpur hospital or plant?",
+                answer:
+                  "Calibration of loggers and probes comes from VEGA Calibrations, our parent company, and the visit can be set together with the supply.",
+              },
+            ],
+            nearby: [
+              { slug: "hajipur", name: "Hajipur" },
+              { slug: "patna", name: "Patna" },
+            ],
+            metaTitle: "Temperature Data Loggers in Muzaffarpur | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Muzaffarpur's litchi cold rooms, Bela food plants, hospitals and trading lanes. Get Solution.",
             indexable: true,
           },
         ],
