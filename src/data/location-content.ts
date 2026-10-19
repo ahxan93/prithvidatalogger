@@ -103,7 +103,7 @@ export const locationContent: Record<string, LocationContent> = {
   },
   "india/west-bengal": {
     metaDescription:
-      "Temperature data loggers in West Bengal: Kolkata, Howrah, Siliguri and Durgapur's cold stores, plants, hospitals and warehouses. Get Solution.",
+      "Temperature data loggers in West Bengal: Kolkata, Howrah, Siliguri, Durgapur, Asansol, Kharagpur and Haldia. Get Solution.",
     recommended: ["nakshatra", "virat", "vayu"],
   },
   "saudi-arabia": {

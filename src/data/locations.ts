@@ -10315,20 +10315,20 @@ export const locations: LegacyLocationNode[] = [
         name: "West Bengal",
         type: "state",
         intro:
-          "West Bengal's storage follows the river and the railway: godowns around Kolkata, an industrial township at Kalyani, the logistics belt around Dankuni and port-side warehouses, with the foundries and goods yards of Howrah across the Hooghly, the steel and power city of Durgapur inland, and Siliguri far to the north, where tea, medicines and trucks head for the hills. Cold stores for fish, dairy and sweets, medicine distributors and a large hospital sector complete the picture. The air is hot and humid for most of the year, the monsoon is long and pre-monsoon storms cut the power, so condensation and outages are as common a risk as heat. Each city page below lists its main trades and the rooms we would watch first.",
+          "West Bengal's storage follows the river and the railway: godowns around Kolkata, an industrial township at Kalyani, the logistics belt around Dankuni and port-side warehouses, with the foundries and goods yards of Howrah across the Hooghly, the steel and power city of Durgapur inland, Asansol and its coal and railway belt, the campus town of Kharagpur, the port town of Haldia, and Siliguri far to the north, where tea, medicines and trucks head for the hills. Cold stores for fish, dairy and sweets, medicine distributors and a large hospital sector complete the picture. The air is hot and humid for most of the year, the monsoon is long and pre-monsoon storms cut the power, so condensation and outages are as common a risk as heat. Each city page below lists its main trades and the rooms we would watch first.",
         localIndustries: [
           "Pharmaceutical distribution",
           "Food and cold storage",
           "Port logistics",
         ],
-        citiesServed: ["Kolkata", "Howrah", "Siliguri", "Durgapur"],
+        citiesServed: ["Kolkata", "Howrah", "Siliguri", "Durgapur", "Asansol", "Kharagpur", "Haldia"],
         supportNote:
           "Supply, installation support and site visits for West Bengal sites are arranged from our Mumbai office. Tell us the district and what the rooms hold.",
         faqs: [
           {
             question: "Which West Bengal locations have a page?",
             answer:
-              "Kolkata has a city page covering Howrah, Kalyani, Dankuni and the port-side warehouses, and Howrah, Siliguri and Durgapur each have a city page of their own. A site elsewhere in Bengal can be raised with us through the enquiry form.",
+              "Kolkata has a city page covering Howrah, Kalyani, Dankuni and the port-side warehouses, and Howrah, Siliguri, Durgapur, Asansol, Kharagpur and Haldia each have a city page of their own. A site elsewhere in Bengal can be raised with us through the enquiry form.",
           },
           {
             question: "How are loggers protected through a storm outage?",
@@ -10346,6 +10346,9 @@ export const locations: LegacyLocationNode[] = [
           { slug: "howrah", text: "The railway and foundry city across the Hooghly, with Dasnagar and Bantra workshops, rail goods yards and crowded wholesale lanes in damp air." },
           { slug: "siliguri", text: "The gateway to the hills and the north-east, with tea packers, medicine distributors, hospitals and trucks climbing to mountain towns." },
           { slug: "durgapur", text: "A planned steel and power city on the Damodar, with Fuljhore and Bamunara estates, plant laboratories and township hospitals." },
+          { slug: "asansol", text: "A coal, steel and railway city whose electrical and instrument stores meet coal dust, heat and monsoon damp." },
+          { slug: "kharagpur", text: "A railway and campus town with research laboratories, rail stores, rice and oilseed mills and district hospitals." },
+          { slug: "haldia", text: "A river-mouth port town of dock warehouses, refinery and chemical works, fertiliser and edible-oil firms in salty air." },
         ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,
@@ -10734,6 +10737,296 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Durgapur | Prithvi",
             metaDescription:
               "WiFi and GSM temperature and humidity data loggers for Durgapur's steel and power plants, laboratories, hospitals and estates. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "asansol",
+            name: "Asansol",
+            type: "city",
+            intro:
+              "Asansol is the second-largest city of West Bengal and the centre of its coal and railway belt in the Paschim Bardhaman district, and a temperature data logger here serves a region of mines, steel, locomotives and heavy trade. The Raniganj coalfield lies around the city, an old integrated steel works stands at Burnpur, foundries and engineering works cluster at Kulti, and the locomotive works at Chittaranjan lies a short way to the west. Asansol is also the headquarters of a railway division, so stores of electrical items, spares and supplies are held across the junction. Wholesale markets, hospitals and colleges serve the district. Prithvi supplies WiFi loggers for rooms with a network and GSM loggers for vehicles, depots and stores beyond a router.",
+            climateAngle:
+              "Summers are very hot and dusty, the monsoon is heavy and humid and winters are mild, so electrical and instrument stores meet heat, coal dust and damp in turn through the year.",
+            areas: [
+              {
+                name: "Burnpur and Kulti",
+                note: "Steel and foundry works stand here, with stores of spares, refractories, instruments and laboratory reagents on large campuses where rooms are far apart.",
+              },
+              {
+                name: "Raniganj coalfield side",
+                note: "Mining and allied firms, workshops and godowns around Raniganj hold explosives-free supplies, electrical items and tiles and ceramics in sheds covered in fine dust.",
+              },
+              {
+                name: "Railway junction and division offices",
+                note: "Goods sheds, parcel offices and stores around the junction hold supplies that move by rail, and parcels wait on platforms and in wagons between trains.",
+              },
+              {
+                name: "Asansol town markets",
+                note: "Wholesalers of food, medicines and consumer goods keep stock in crowded back rooms in the town centre, with chillers and fridges opened all day.",
+              },
+            ],
+            industries: [
+              {
+                slug: "electronics",
+                sentence:
+                  "Electrical and control stores for mines, works and the railway hold relays, cables and instruments that suffer in coal dust and monsoon damp, and a humidity trend shows when a store needs attention.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Steel, ceramic and allied works keep drums, bags and reagents with printed storage limits, and an alert from a hot store room lets the storekeeper act before the limit is passed.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals and clinics serve miners, railway families and villagers from a wide district, and an alert to the duty staff covers the minutes between a mains failure and the generator.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Food wholesalers, sweet makers and cold-room operators supply the town and the coalfield villages, and a record from each chiller shows when a unit failed during a night of power cuts.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity and temperature at one point suit an instrument store or an electrical spares room, where monsoon damp and dust are what harm the stock.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels watch a laboratory or a hospital pharmacy at two points at once, one near the door and one deep inside the room.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger with an external probe reports from a vehicle or a depot without Wi-Fi, and sends alerts to a phone when a reading drifts.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How does coal dust affect a logger in Asansol?",
+                answer:
+                  "Fine dust settles on exposed sensors, so we place the logger body out of the dustiest air, keep probes sealed, and suggest wiping them at routine cleaning, which keeps the record steady.",
+              },
+              {
+                question: "Can one account cover stores at Burnpur, Kulti and Raniganj?",
+                answer:
+                  "Yes. Each store and laboratory is a point on one dashboard with its own alert recipients, and a manager sees every site in a list and exports a report for any period.",
+              },
+              {
+                question: "Do you visit sites with strict entry rules?",
+                answer:
+                  "Tell us the rules and a contact through the enquiry form, WhatsApp or a call. Where passes or briefings are needed we plan the visit around them and keep the equipment list short.",
+              },
+              {
+                question: "Who calibrates loggers used in an Asansol laboratory?",
+                answer:
+                  "VEGA Calibrations, our parent company, handles calibration of loggers and probes, and the work can be booked alongside the supply.",
+              },
+            ],
+            nearby: [
+              { slug: "durgapur", name: "Durgapur" },
+              { slug: "kolkata", name: "Kolkata" },
+            ],
+            metaTitle: "Temperature Data Loggers in Asansol | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Asansol's steel, coal-belt and railway stores, hospitals and wholesale markets. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "kharagpur",
+            name: "Kharagpur",
+            type: "city",
+            intro:
+              "Kharagpur is a railway and university town in the Paschim Medinipur district of West Bengal, and a temperature data logger here serves laboratories, rail stores and the trade of a large farming district. The first Indian Institute of Technology stands on a wide campus on the edge of the town, with research laboratories, workshops and hostels, while the railway junction, workshops and a large colony form the other half of the town. An air force station lies not far away at Kalaikunda. Rice and oilseed mills, wholesalers and small food makers supply the villages around, and hospitals serve the district. Prithvi supplies WiFi loggers for laboratories and rooms with a network and GSM loggers for vehicles, mills and remote stores.",
+            climateAngle:
+              "The plains are hot and humid for most of the year, the monsoon is heavy and cyclone rains can arrive in the post-monsoon weeks, so stored rice and rolled stock take on damp and laboratory equipment needs steady air.",
+            areas: [
+              {
+                name: "Institute campus and laboratories",
+                note: "Research laboratories, workshops and hostel kitchens spread over a wide campus hold samples, reagents and food in fridges and stores that need their own limits, and hostel kitchens cook for large numbers of students every day from walk-in coolers and dry stores.",
+              },
+              {
+                name: "Railway workshops and the junction",
+                note: "Workshops, stores and goods sheds around the junction hold electrical items, spares and supplies, and parcels wait on platforms and in wagons between trains.",
+              },
+              {
+                name: "Rice and oilseed mills",
+                note: "Mills around the town hull rice and press oilseed, with sacks and tins held in godowns where monsoon damp threatens stored grain.",
+              },
+              {
+                name: "Town market and hospitals",
+                note: "Wholesalers, sweet makers and chemists in the town centre keep stock in small rooms and fridges, with hospitals nearby holding blood, vaccines and medicines.",
+              },
+            ],
+            industries: [
+              {
+                slug: "laboratories",
+                sentence:
+                  "Research and teaching laboratories keep samples, standards and reagents in freezers, fridges and cabinets with their own limits, and an exported log is ready for a project audit or an inspector.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Rice millers, sweet makers and grocery wholesalers hold stock that spoils in damp heat, and an alert on a phone reaches the owner on a holiday when a chiller fails.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals and clinics serve patients from the town and the district, and a dated record backs each shift handover for vaccines and blood units.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods sheds and carriers at the junction move grain, food and medicine by rail and road, and a logger placed in a consignment records how long it stood in a wagon or a yard.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an external probe fits a laboratory freezer or a clinic refrigerator and keeps a quiet, continuous record.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a rice godown or an instrument store, where damp air in the monsoon is the danger.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels give a laboratory a paired record from one device, such as the top and bottom of a large cold room.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a research laboratory export a log for a project audit?",
+                answer:
+                  "Yes. Reports for any freezer, fridge or room and any period can be exported as PDF, Excel or CSV, so a project coordinator can hand over a dated record on request.",
+              },
+              {
+                question: "How does a logger help a rice miller near Kharagpur?",
+                answer:
+                  "A record of humidity and temperature in the godown shows when damp began to reach the sacks, so the staff can cover, dry or move stock before it is damaged.",
+              },
+              {
+                question: "Can sites across a large campus be watched on one dashboard?",
+                answer:
+                  "Yes. Every laboratory and store is a point on one account, alerts go to the person responsible for each, and the head of a department sees all of them in a list.",
+              },
+              {
+                question: "Who calibrates loggers used in a Kharagpur laboratory?",
+                answer:
+                  "VEGA Calibrations, our parent company, can calibrate the loggers and probes, and the work can be planned together with the visit.",
+              },
+            ],
+            nearby: [
+              { slug: "howrah", name: "Howrah" },
+              { slug: "haldia", name: "Haldia" },
+              { slug: "kolkata", name: "Kolkata" },
+            ],
+            metaTitle: "Temperature Data Loggers in Kharagpur | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Kharagpur's campus laboratories, rail stores, rice mills and hospitals. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "haldia",
+            name: "Haldia",
+            type: "city",
+            intro:
+              "Haldia is a port and industrial town in the Purba Medinipur district, where the Haldi river meets the Hooghly, and a temperature data logger here serves a belt of docks, refineries and chemical works. A dock complex receives bulk cargo, an oil refinery and a petrochemical complex process crude and naphtha, fertiliser and edible-oil firms stand on the estates, and tanks and warehouses hold liquid and bagged cargo that waits for ships, barges and trucks. A planned township with hospitals and schools houses the workforce at Durgachak and the neighbourhoods around. Barges and ships move through the river channel, so cargo often changes hands between water and road. Prithvi supplies WiFi loggers for rooms with a network and GSM loggers for trucks, jetty stores and sheds beyond a router.",
+            climateAngle:
+              "The air is salty and humid for most of the year, the monsoon is heavy and cyclone season brings storms and power cuts, so metal rusts quickly and bagged cargo takes on damp while it waits for a vessel.",
+            areas: [
+              {
+                name: "Dock complex and jetties",
+                note: "Warehouses, sheds and tank farms near the berths hold bagged and packed cargo for days before a ship or a barge arrives, in salty air that attacks metal and packaging.",
+              },
+              {
+                name: "Refinery and petrochemical estate",
+                note: "Plants and their laboratories keep samples, reagents, spares and instruments in rooms on wide campuses, with stores that are far from any office.",
+              },
+              {
+                name: "Fertiliser and edible-oil firms",
+                note: "Firms on the estates store bagged fertiliser, oil in tins and drums, and packing material in sheds that heat under metal roofs and take damp in the rains.",
+              },
+              {
+                name: "Durgachak and the township",
+                note: "Hospitals, clinics, shops and canteens serve the workforce, with pharmacy fridges, kitchen coolers and server cupboards in small buildings.",
+              },
+            ],
+            industries: [
+              {
+                slug: "chemical",
+                sentence:
+                  "Chemical, petrochemical and fertiliser works hold drums, bags and reagents with printed storage limits, and an alert from a hot shed lets the storekeeper act before material is spoiled.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Edible-oil firms and food importers hold oils, packed goods and ingredients that suffer in salty heat, and a record of each store shows an overseas or local buyer how a lot was kept.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Port warehouses and carriers hold cargo while it waits for a vessel or a truck, and a logger placed among the cargo records the heat and damp it met on the dock.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "Plant and testing laboratories keep samples and reagents in fridges and cabinets that each need their own limits, and an exported log is ready for an audit.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a port godown or a packing store, where salty damp air is what harms bagged and packed cargo.",
+              },
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels cover a large dock warehouse or a plant store across bays and heights, so one report shows where heat and damp gather.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger rides in a truck or reports from a jetty store beyond any router, and sends an alert to a phone when a reading drifts.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How does salty air change where a logger is placed in Haldia?",
+                answer:
+                  "We keep the logger body indoors and away from open doors and seaward walls where salt settles, with only the probe cable entering the cold or damp space, and suggest wiping probes at routine cleaning.",
+              },
+              {
+                question: "Can a logger record the conditions of cargo waiting for a vessel?",
+                answer:
+                  "Yes. A logger placed among the cargo records temperature and humidity while it waits, and the report can be exported for the shipper or the buyer.",
+              },
+              {
+                question: "Do you visit plants with strict safety rules?",
+                answer:
+                  "Tell us the rules, passes and briefings in advance through the enquiry form, WhatsApp or a call, and we plan the visit around them and keep the equipment list short.",
+              },
+              {
+                question: "Who calibrates loggers used in a Haldia plant laboratory?",
+                answer:
+                  "VEGA Calibrations, our parent company, can calibrate the loggers and carry out temperature mapping, and the work can be planned together with the first visit.",
+              },
+            ],
+            nearby: [
+              { slug: "kharagpur", name: "Kharagpur" },
+              { slug: "howrah", name: "Howrah" },
+              { slug: "kolkata", name: "Kolkata" },
+            ],
+            metaTitle: "Temperature Data Loggers in Haldia | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Haldia's dock warehouses, chemical and fertiliser works and laboratories. Get Solution.",
             indexable: true,
           },
         ],
