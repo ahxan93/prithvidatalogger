@@ -331,6 +331,16 @@
 | Sana'a (`sanaa`, city, Amanat Al Asimah) | Yemen | Old City markets, hospitals and university, pharmacy wholesalers, bakeries and dairies | Medicines, food and coffee, laboratories | Mild, dry highland; cold nights, short summer rains | Amran, Dhamar (not yet built) |
 | Sana'a Industrial Area (`sanaa-industrial-area`, area of Sana'a) | Yemen | Food and dairy units, packaging and chemical stores, warehouses, workshops (described generally) | Food, logistics, chemicals | Highland swings between cold nights and sunny afternoons | Sana'a International Airport |
 | Sana'a International Airport (`sanaa-international-airport`, area of Sana'a) | Yemen | Cargo sheds, medicine cold rooms, catering stores, vehicles (described generally, no flight or cargo status) | Pharmaceutical cold chain, freight, food | Highland swings | Sana'a Industrial Area |
+| Taiz (`taiz`, city, Taiz Governorate) | Yemen | Hillside wholesale stores, hospitals and universities, food plants, pharmacies | Medicines, food, laboratories | Cool, misty highland with summer rain | Ibb, Mocha, Dhamar |
+| Mocha (`mocha`, city, Taiz Governorate) | Yemen | Fishing ice stores, shops, old coffee-trade buildings, clinic refrigerators | Fish and food, medicines, logistics | Hot, humid, salty Red Sea coast | Taiz, Hodeidah |
+| Port of Mocha (`port-of-mocha`, area of Mocha) | Yemen | Landing beaches and ice boxes, old waterside warehouses, sheds, vehicles (described generally, no operating status) | Fish, dry goods, medicines | Hot, damp, salty | none |
+| Hodeidah (`hodeidah`, city, Al Hudaydah Governorate) | Yemen | Fish market and ice stores, wholesale food sheds, hospitals and pharmacies, shops | Food, medicines, logistics | Very hot, humid Tihama coast | Zabid, Bajil, Mocha |
+| Zabid (`zabid`, city, Al Hudaydah Governorate) | Yemen | Old mosques and manuscript rooms, market stores, palm-plot sheds, clinic | Heritage and laboratories, food, medicines | Hot, moist Tihama plain | Hodeidah, Bajil |
+| Bajil (`bajil`, city, Al Hudaydah Governorate) | Yemen | Produce yards, cold boxes, roadside stores, clinic | Produce, logistics, medicines | Hot, moist lowland | Hodeidah, Zabid |
+| Port of Hodeidah (`port-of-hodeidah`, area of Hodeidah) | Yemen | Quayside sheds, cold rooms, warehouses, waiting lorries (described generally, no operating status) | Logistics, food, medicines | Hot, damp sea air | Port of Salif |
+| Port of Salif (`port-of-salif`, area of Hodeidah) | Yemen | Bagged bulk-goods sheds, small warehouses, food stores, vehicles (described generally, no operating status) | Logistics, chemicals, food | Hot, salty, exposed coast | Port of Hodeidah |
+| Ibb (`ibb`, city, Ibb Governorate) | Yemen | Terrace-farm produce stores, wholesale stores, hospitals and university, dairies | Food, medicines, laboratories | Cool, misty, wet highland | Taiz, Dhamar |
+| Dhamar (`dhamar`, city, Dhamar Governorate) | Yemen | Farm produce stores, markets, university laboratories, hospitals and pharmacies | Food, laboratories, medicines | High, dry plateau with cold nights | Sana'a, Ibb |
 | Jazan Economic City (`jazan-economic-city`, area of Jazan) | Saudi Arabia | Plant chemical and drum stores, spares warehouses and contractor yards, port yards, camp kitchens and clinics | Chemical stores, contract warehousing, camp catering | Extreme heat and humidity, salty air | none |
 | Jeddah (`jeddah`) | Saudi Arabia | Industrial and port logistics zones | Port logistics, food import cold chain, hospitals | Hot, humid coastal | Riyadh, Dammam |
 | Dammam (`dammam`) | Saudi Arabia | Industrial and port logistics zones | Industrial & chemical, port logistics, food | Hot, humid Gulf coast | Riyadh, Bahrain, Jeddah |
@@ -546,3 +556,8 @@ Not built in Yemen Batch 2 (Hadramaut, Al Mahrah, Abyan): Al Ghaydah, for lack o
 Yemen Batch 3 (Sana'a): the city sits under the Amanat Al Asimah hub (the administrative area that covers the city), which is indexable with
 one city and two area pages. The airport, which lies north of the city, is attached as an area of Sana'a without any statement about which
 administrative area it falls in. No Sana'a Governorate hub was created because no page is built under it.
+
+Yemen Batch 4 (Taiz, Al Hudaydah, Ibb, Dhamar): four governorate hubs created. Taiz Governorate (Taiz, Mocha, Port of Mocha) and Al Hudaydah
+Governorate (Hodeidah, Zabid, Bajil, Port of Hodeidah, Port of Salif) are indexable; Ibb Governorate and Dhamar Governorate have one city each,
+so they stay noindex and out of the sitemap until a second page is built. Mocha is a city under Taiz Governorate and the Port of Mocha an area of
+Mocha. The Port of Salif is attached as an area of Hodeidah.

@@ -85,6 +85,8 @@ export const areaCities: Record<string, { name: string; stateSlug: string; state
   aden: { name: "Aden", stateSlug: "aden-governorate", stateName: "Aden Governorate" },
   mukalla: { name: "Mukalla", stateSlug: "hadramaut-governorate", stateName: "Hadramaut Governorate" },
   sanaa: { name: "Sana'a", stateSlug: "amanat-al-asimah", stateName: "Amanat Al Asimah" },
+  hodeidah: { name: "Hodeidah", stateSlug: "al-hudaydah-governorate", stateName: "Al Hudaydah Governorate" },
+  mocha: { name: "Mocha", stateSlug: "taiz-governorate", stateName: "Taiz Governorate" },
 };
 
 export const areas: AreaDef[] = [
@@ -5783,6 +5785,167 @@ export const areas: AreaDef[] = [
       "nearby": [
         "sanaa-industrial-area"
       ],
+      "indexable": true
+    } },
+  // ------------------------------------------------------------------ Yemen (batch 4: Taiz, Hodeidah)
+  { slug: "port-of-hodeidah", name: "Port of Hodeidah", citySlug: "hodeidah", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["veer-pro","rajmudra"], page: {
+      "metaTitle": "Data Loggers at the Port of Hodeidah | Prithvi",
+      "metaDescription": "Data loggers for sheds, cold rooms and vehicles around the Port of Hodeidah on the Red Sea, reviewed case by case. Get Solution.",
+      "intro": "The Port of Hodeidah is the harbour of the Red Sea city of the same name, set on the flat Tihama coast where the air is hot and heavy with moisture, and the ground around a harbour like this is a place of waiting: food, medicines and general goods that leave a ship, stand on a quay or in a shed, and move on by lorry. A temperature data logger in that chain records what the goods met on the way. This page says nothing about the shipping or cargo handled at the port at any time, which changes. Whether a particular store or consignment could be supported is decided case by case after we hear from you.",
+      "places": [
+        {
+          "name": "Quayside sheds",
+          "note": "Goods stand in large sheds with wide doors that let hot, damp sea air into the room each time they open, and the metal roof sets the temperature inside."
+        },
+        {
+          "name": "Cold rooms and reefer holding areas",
+          "note": "Food and medicines that need cooling may wait in a cold room or a refrigerated container, and the hours between steps are the weak point in the chain."
+        },
+        {
+          "name": "Warehouses beyond the gate",
+          "note": "Importers and wholesalers keep rice, flour, oil and drinks in warehouses near the port, where heat builds beneath the roof through the afternoon."
+        },
+        {
+          "name": "Lorries waiting to load",
+          "note": "Vehicles queue to load and leave, and cargo inside a closed lorry can run far hotter than the air outside."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A handler storing goods for several importers can give each importer a record of how its stock was kept, instead of a general remark about the shed."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Importers of chilled and frozen food need to show how a consignment was held between ship and shop, and a small logger packed with the goods shows exactly that."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Medicines and healthcare supplies waiting at Hodeidah's harbour need a dated record of temperature, which shows a distributor whether a pack stood too long in the heat."
+        }
+      ],
+      "services": "For a harbour site we would look at WiFi loggers for sheds and cold rooms that have a router, single-point loggers with external probes for freezers and reefer rooms, and loggers that ride inside a consignment to record its journey. VEGA Calibrations, our parent company, can talk through calibration of the loggers used at Hodeidah. A WiFi logger needs a router in range and a power supply, and for a yard or a vehicle we explain the alternatives. Any statement about what can be supplied waits until a request has been reviewed.",
+      "visits": "No visit, shipment or installation at the Port of Hodeidah is promised. Send the business, the rooms or consignments to be watched and a contact through the enquiry form or WhatsApp, and we review the request, say what looks practical and discuss whether a video call could explain the set-up.",
+      "approach": "If a request went ahead, we would start with the consignment or cold room that is hardest to replace, placing one logger in the load or by the door and another at the far wall, then add a humidity-reading unit where cold goods meet warm, damp air. A few weeks of data would show how long goods really wait between steps.",
+      "faqs": [
+        {
+          "question": "Can a logger travel inside a food consignment through a Red Sea harbour?",
+          "answer": "Yes. A small logger packed with the goods records the whole journey, and the report can be exported in PDF, Excel or CSV form for the receiver."
+        },
+        {
+          "question": "Why do sheds beside a Tihama harbour need humidity records?",
+          "answer": "Hot, moist air condenses on cold surfaces and softens cartons, so a humidity log beside the temperature shows when stock took on damp and for how long."
+        }
+      ],
+      "nearby": [
+        "port-of-salif"
+      ],
+      "indexable": true
+    } },
+  { slug: "port-of-salif", name: "Port of Salif", citySlug: "hodeidah", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["dhruva","nakshatra"], page: {
+      "metaTitle": "Data Loggers at the Port of Salif, Yemen | Prithvi",
+      "metaDescription": "Data loggers for storage near the Port of Salif and its salt works on the Red Sea coast, reviewed case by case. Get Solution.",
+      "intro": "Salif lies on a low peninsula of the Red Sea coast north of Hodeidah, a place long associated with salt that is worked from the shore, and its port serves a flat, hot and exposed stretch of coast. A temperature data logger around a harbour like this is concerned with what waits there: bulk bags and sacks on a quay, general goods in a shed, and food or medicines stood in a vehicle before they move on, in air that is salty and very warm. This page says nothing about the work or traffic of the port at any time, which changes. Whether a store near Salif could be supported is decided case by case once we hear from you.",
+      "places": [
+        {
+          "name": "Bagged salt and bulk-goods sheds",
+          "note": "Salt and other bulk goods are held in bags and stacks under open sheds, where moist air and heat decide whether sacks stay dry or cake."
+        },
+        {
+          "name": "Small warehouses near the shore",
+          "note": "General goods that arrive by sea or by road stand in simple warehouses with metal roofs that heat fast in the sun."
+        },
+        {
+          "name": "Food and drink stores for local staff",
+          "note": "Small kitchens and shops that feed people working on this exposed coast run refrigerators and coolers through hot days and warm nights."
+        },
+        {
+          "name": "Vehicles waiting beside the quay",
+          "note": "Lorries wait to load or leave, and cargo inside a closed vehicle can be much hotter than the air outside."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A handler holding goods for several owners at Salif can offer each owner a record of how its stock was kept, rather than a general statement about the shed."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Salt, treated materials and other products held in bags absorb moisture from sea air, and a humidity log beside the temperature shows when a stack began to take on damp."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Food and drink brought to a remote shore wait in heat before use, and a small logger packed with the goods shows how long they stood warm."
+        }
+      ],
+      "services": "For a coastal site of this kind we would consider WiFi loggers for sheds and cold boxes with a router, single-point loggers with external probes for refrigerators, and loggers that ride inside a load. For Salif sites, calibration of the loggers is something VEGA Calibrations, our parent company, can discuss. A WiFi logger needs a router in range and a power supply, and where an exposed yard has neither we talk through the alternatives. We leave open what can be supplied until a request has been reviewed.",
+      "visits": "Nothing is promised about visits, shipments or installation near Salif. Tell us the business, the goods to be watched and a contact through the enquiry form or WhatsApp, and we review the request and say what looks practical before any further step.",
+      "approach": "If a request went ahead, we would begin with the store that holds the most moisture-sensitive goods, placing one logger beside the door and one at the back, and add a humidity-reading unit where bags touch the damp floor. The first weeks of data would show which days and hours push the shed outside its range.",
+      "faqs": [
+        {
+          "question": "Can bagged goods near the Red Sea shore be watched for damp?",
+          "answer": "Yes. A logger that reads humidity beside temperature records the moisture in the shed through the day and night, and the report can be exported in PDF, Excel or CSV form for the owner."
+        },
+        {
+          "question": "Is a logger usable where mains power is limited?",
+          "answer": "The loggers run on batteries and keep their readings in memory, so a store with unreliable power still has a record, though a WiFi unit needs a router with power."
+        }
+      ],
+      "nearby": [
+        "port-of-hodeidah"
+      ],
+      "indexable": true
+    } },
+  { slug: "port-of-mocha", name: "Port of Mocha", citySlug: "mocha", areaType: "warehousing-hub", nearbyIndustries: ["food-beverage","logistics-warehousing","pharmaceutical"], confirmedService: true, hero: ["setu","veer"], page: {
+      "metaTitle": "Data Loggers at the Port of Mocha, Yemen | Prithvi",
+      "metaDescription": "Data loggers for fish, coffee and goods stores around the Port of Mocha on the Red Sea, reviewed case by case. Get Solution.",
+      "intro": "The Port of Mocha is the small harbour of a Red Sea town whose name became a word for coffee, because the beans of the Yemeni mountains once left from this shore for markets across the world. A temperature data logger around a harbour like this is concerned with the waiting that follows a landing or a voyage: fish in ice, dry goods in a shed and food or medicines standing in a vehicle in air that is hot, damp and salty. The page makes no claim about what the harbour is doing today, since that changes. Whether a store at Mocha could be supported is decided case by case once we have your details.",
+      "places": [
+        {
+          "name": "Fish landing beaches and ice boxes",
+          "note": "Boats land the catch beside the harbour, where it is iced in boxes and small rooms that run warm by midday."
+        },
+        {
+          "name": "Old warehouses by the water",
+          "note": "Some of the older buildings near the harbour once held coffee for export, and any similar room used for storage today needs steady air to keep dry goods from softening."
+        },
+        {
+          "name": "Small sheds for food and household goods",
+          "note": "Goods that arrive by sea or by road stand in sheds with doors that open to hot, damp air."
+        },
+        {
+          "name": "Vehicles waiting at the shore",
+          "note": "Lorries and pickups wait to load or leave, and goods in a closed vehicle can run far hotter than the shaded air."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "food-beverage",
+          "sentence": "Fish sellers and food traders at Mocha hold goods that spoil quickly in coastal heat, and a record for each ice box shows a buyer how the catch was kept."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Dry goods in a shed by the sea need a steady room, and a logger placed among them records how much heat and moisture each lot met."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Medicines waiting at the harbour need a dated record of temperature, which shows a distributor whether a pack stood too long in the heat."
+        }
+      ],
+      "services": "For a harbour of this size we would look at single-point loggers with external probes for ice boxes and refrigerators, WiFi loggers where a shed has a router, and loggers that ride inside a load. At Mocha, VEGA Calibrations, our parent company, is the route for calibration of the loggers. A WiFi logger needs a router within range and a supply of power, and where those are missing we discuss the alternatives. What can be supplied is left open until a request has been reviewed.",
+      "visits": "Visits, shipments and installation at the Port of Mocha are not promised. Send the business, the rooms to be watched and a contact through the enquiry form or WhatsApp, and we review the request and say what looks practical.",
+      "approach": "If a request went ahead, we would start with the ice box or store holding the most perishable goods, placing one logger near the door and one at the back, then add a humidity-reading unit where salty damp collects. Early readings would show which hours of the day strain the room.",
+      "faqs": [
+        {
+          "question": "Can a fish seller at Mocha keep a record of an ice box?",
+          "answer": "Yes. A probe logger in the box records through the day and night, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for a buyer."
+        },
+        {
+          "question": "Why does salty damp matter for stored dry goods?",
+          "answer": "Salt-laden air softens cartons and spoils dry goods, so a humidity log beside the temperature shows when stock took on moisture."
+        }
+      ],
+      "nearby": [],
       "indexable": true
     } },
 ];

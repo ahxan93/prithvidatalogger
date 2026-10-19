@@ -20727,6 +20727,10 @@ export const locations: LegacyLocationNode[] = [
       { slug: "hadramaut-governorate", text: "Mukalla's harbour, Seiyun's palm groves and Shibam's mud-brick towers, in a hot coast and a dry, flood-prone valley, reviewed case by case." },
       { slug: "abyan-governorate", text: "Zinjibar's delta fields and fishing beaches on the Gulf of Aden coast, reviewed case by case." },
       { slug: "amanat-al-asimah", text: "Sana'a's highland plateau, Old City markets, industrial area and airport, in a mild, dry climate with cold nights, reviewed case by case." },
+      { slug: "taiz-governorate", text: "Taiz's hill-city markets and hospitals and Mocha's coffee port on the Red Sea, in a cool highland and a hot coast, reviewed case by case." },
+      { slug: "al-hudaydah-governorate", text: "Hodeidah's Red Sea port, Zabid's old town and Bajil's produce markets on the hot Tihama plain, reviewed case by case." },
+      { slug: "ibb-governorate", text: "Ibb's terraced farms, markets and clinics in the wet, green southern highlands, reviewed case by case." },
+      { slug: "dhamar-governorate", text: "Dhamar's university, farm markets and clinics on the cool central plateau, reviewed case by case." },
     ],
     indexable: true,
     children: [
@@ -21477,6 +21481,850 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Sana'a | Prithvi",
             metaDescription:
               "Data loggers for Sana'a's pharmacies, hospital refrigerators, markets and food stores in a mild highland climate, case by case. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "taiz-governorate",
+        name: "Taiz Governorate",
+        type: "state",
+        intro:
+          "Taiz Governorate lies in the south-west highlands of Yemen and runs down to a stretch of the Red Sea coast. Inland, the city of Taiz climbs the slopes of Mount Sabir with terraced hillsides, dense markets, schools, hospitals and a long record of trade and manufacture. Towards the sea the land drops into a hot coastal plain, where the small port town of Mocha, long linked with coffee, looks out over the water. Cool, damp hills and a hot, humid shore sit within one governorate, so stores face very different weather depending on altitude. Medicines, food, coffee and laboratory samples all need steady storage. The pages below describe the city, the coastal town and its harbour, and the rooms where a temperature record would help.",
+        localIndustries: [
+          "Medicine and vaccine storage",
+          "Food processing and wholesale trade",
+          "Coffee and farm produce",
+          "Harbour storage and fish",
+        ],
+        citiesServed: ["Taiz","Mocha"],
+        supportNote:
+          "Requests from Taiz Governorate are weighed case by case. Name the town, the rooms you want to watch and how they are cooled today, and we reply with what looks workable for that site.",
+        faqs: [
+          {
+            question: "Which places in Taiz Governorate have a page?",
+            answer:
+              "Taiz and Mocha each have a city page, and the Port of Mocha has an area page under Mocha. Another town in the governorate can be put to us through the enquiry form.",
+          },
+          {
+            question: "Why would highland hills and a hot coast need different logger set-ups?",
+            answer:
+              "The hills are cooler with damp mornings and the coast is hot and salty all year, so a store in Taiz may need to watch for cold and condensation while a shed at Mocha is watched for heat and humidity together.",
+          },
+          {
+            question: "Does a logger keep working through long power cuts?",
+            answer:
+              "It carries on recording on its own battery and stores the readings, so a gap in mains power still leaves a full record to read once the site is connected again.",
+          },
+        ],
+        listing: [
+          { slug: "taiz", text: "A hill city below Mount Sabir with dense markets, universities, hospitals and many small factories and stores." },
+          { slug: "mocha", text: "A small Red Sea port town with a long coffee history, fishing boats and storage in hot, humid, salty air." },
+        ],
+        areaListing: [
+          { slug: "port-of-mocha", text: "The harbour of Mocha, where fish, coffee and general goods wait beside the water in warm, damp air." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "taiz",
+            name: "Taiz",
+            type: "city",
+            intro:
+              "Taiz is a hill city in the south-west highlands of Yemen, built on the lower slopes of Mount Sabir and overlooking a fertile plain, and a temperature data logger here serves a busy commercial town of hospitals, universities and workshops in a mild, damp climate. Narrow streets climb the hillsides, an old citadel looks down from a rock above the centre, and large markets sell food, cloth and household goods to the whole governorate. Many small factories and trading houses work from compact premises, and clinics and hospitals draw patients from the villages around. Mornings are often misty, afternoons warm and the rainy season is wet. The loggers keep their readings in memory on battery power if a network drops. We look at every request from Taiz case by case.",
+            climateAngle:
+              "Altitude keeps the air cooler than on the coast, but mist, summer rain and steep hillsides bring damp into stores, so rooms swing between warm afternoons, cool nights and wet spells. Heavy traffic and steep lanes mean that deliveries reach shops late and unevenly, so goods may stand in a hot vehicle or a cold doorway longer than planned. Many buildings on the hillsides have grown by extension over decades, which gives uneven rooms where one wall faces the sun and another the rock.",
+            areas: [
+              {
+                name: "Hillside markets and wholesale stores",
+                note: "Wholesalers and shopkeepers stack food, oil, cloth and household goods in basements and back rooms cut into the slope, where damp rises from the rock.",
+              },
+              {
+                name: "Hospitals, clinics and the universities",
+                note: "Large hospitals, private clinics and university laboratories keep vaccines, blood products and samples in refrigerators that must ride through every interruption of power.",
+              },
+              {
+                name: "Factories and food plants",
+                note: "Small plants that bake, pack, bottle and process food run chilled rooms and finished-goods stores in compact buildings on the edges of town.",
+              },
+              {
+                name: "Pharmacies and medicine distributors",
+                note: "Distributors and pharmacies across the city hold stock in rooms that warm under flat roofs in the afternoon and chill on clear nights.",
+              },
+            ],
+            industries: [
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Taiz hospitals and blood services hold vaccines and blood products for a very large catchment, and a phone alert reaches the person on duty if a refrigerator drifts overnight.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine importers and pharmacies in Taiz store stock to labelled ranges, and a dated log of temperature and humidity shows how a room behaved through a wet week.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Bakers, dairies and packers around Taiz supply a crowded city, and a log from each cold room shows a retailer how a batch was kept before delivery.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "University and clinical laboratories in Taiz keep reagents and samples to set limits, and an exported report is ready when a review asks for one.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a basement wholesale store at floor, shelf and door height, showing which corner turns damp first.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single probe on a short lead slips into a ward or pharmacy refrigerator in Taiz without changing how staff use it.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reading humidity beside temperature, one unit shows when mist and rain have carried damp into a dry-goods room.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Taiz pharmacy or hospital use a temperature logger?",
+                answer:
+                  "A logger in the refrigerator records every hour and sends a phone alert if the range is crossed. Whether a given Taiz site can be supported is decided case by case, so send the details and we reply.",
+              },
+              {
+                question: "Why would a store on a hillside need a humidity reading?",
+                answer:
+                  "Rain runs down slopes and into lower rooms, and rock walls hold moisture, so a humidity trend shows damp that temperature alone would not reveal.",
+              },
+              {
+                question: "Does the record survive a long power cut in Taiz?",
+                answer:
+                  "The logger goes on recording from its battery and keeps the readings, so the hours without mains power are still logged and can be read when the site next connects.",
+              },
+              {
+                question: "Is calibration discussed for Taiz laboratory loggers?",
+                answer:
+                  "For laboratories in Taiz, calibration of loggers and probes is handled through VEGA Calibrations, our parent company. Tell us the model and the range you work to and we outline the choices.",
+              },
+            ],
+            nearby: [
+              { slug: "ibb", name: "Ibb" },
+              { slug: "mocha", name: "Mocha" },
+              { slug: "dhamar", name: "Dhamar" },
+            ],
+            metaTitle: "Temperature Data Loggers in Taiz | Prithvi",
+            metaDescription:
+              "Data loggers for Taiz's hospitals, pharmacies, hillside wholesale stores and food plants, reviewed case by case for Yemen. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "mocha",
+            name: "Mocha",
+            type: "city",
+            intro:
+              "Mocha is a small port town on the Red Sea coast of south-west Yemen, long known as the harbour from which coffee once travelled to the wider world, and a temperature data logger here serves a quiet coastal place where fishing, small trade and storage meet hot, humid, salty air. Boats land fish along the shore, shopkeepers sell food and household goods to the town and the villages behind it, and old coffee-trade buildings recall the harbour's past. A clinic and small shops serve the district. The plain behind the town is flat and warm, with little shade. The loggers hold their readings in memory on battery power when there is no network. Each request from Mocha is considered case by case before we suggest anything.",
+            climateAngle:
+              "The shore is hot and humid for most of the year, the plain behind it is flat and dusty, and the air is full of salt, so any store near the sea faces heat and damp together with little relief at night. Shade is scarce on the flat shore, and a sea breeze can change how a room feels in a few minutes without lowering its real temperature much. Rooms built to hold coffee long ago were never made for refrigeration, so cooling here is usually a modest box, a small room or a single appliance.",
+            areas: [
+              {
+                name: "Fishing boats and ice stores",
+                note: "Boats land their catch on the shore, where small ice stores and cold boxes keep it for the local market in the heat of the day.",
+              },
+              {
+                name: "Shops and food stores in the town",
+                note: "Shopkeepers hold flour, oil, drinks and household goods in small rooms with simple coolers, opened many times a day.",
+              },
+              {
+                name: "Old coffee-trade buildings",
+                note: "Some of the older buildings once held coffee for export, and any room of this kind that is used for storage today needs steady air to keep dry goods from softening.",
+              },
+              {
+                name: "Clinic and pharmacy refrigerators",
+                note: "The town clinic and its pharmacies hold vaccines and medicines in refrigerators that have to survive hot afternoons and gaps in power.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Mocha fish sellers and grocers hold goods that spoil fast in coastal heat, and a record from each ice store shows when a cold box began to warm.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The Mocha clinic holds vaccines for the surrounding villages, and a phone alert reaches the right person if the refrigerator warms.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Mocha keep stock in rooms with stated ranges, and a dated log shows how a room behaved through the hottest weeks and any outage.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods reach Mocha by sea and by road, and a logger placed inside a load records the heat and damp it met on the way.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels read an ice store at the door end and the back wall, showing whether the cold reaches the far boxes.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable fits a clinic or pharmacy refrigerator in Mocha and leaves daily routines untouched.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "With humidity shown beside temperature, one unit shows when salt-laden damp has entered a dry-goods store.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a small shop in Mocha use a single logger?",
+                answer:
+                  "Yes. A single logger with an alert to a phone can watch one refrigerator in a shop or clinic, provided a router is within reach, and more points can be added to the same account later.",
+              },
+              {
+                question: "How would a request from Mocha be handled?",
+                answer:
+                  "Send the place, the rooms and a contact through the enquiry form or WhatsApp. Requests from Yemen are examined case by case, and we reply with what looks practical.",
+              },
+              {
+                question: "Why does damp matter so much beside the sea?",
+                answer:
+                  "Salty, humid air softens cartons, spoils dry goods and forms condensation on anything cold, so a humidity log beside the temperature shows when stock took on moisture.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Mocha clinics?",
+                answer:
+                  "For Mocha clinics, VEGA Calibrations, our parent company, looks after calibration of loggers and probes; share the model and range and we explain the options.",
+              },
+            ],
+            nearby: [
+              { slug: "taiz", name: "Taiz" },
+              { slug: "hodeidah", name: "Hodeidah" },
+            ],
+            metaTitle: "Temperature Data Loggers in Mocha | Prithvi",
+            metaDescription:
+              "Data loggers for Mocha's fish ice stores, shops and clinic refrigerators on the Red Sea coast, reviewed case by case. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "al-hudaydah-governorate",
+        name: "Al Hudaydah Governorate",
+        type: "state",
+        intro:
+          "Al Hudaydah Governorate occupies the Tihama, the flat and very warm coastal plain of western Yemen beside the Red Sea. Wadis that run down from the mountains water fields of sorghum, fruit and vegetables, and fishing boats work the shore. The port city of Hodeidah is the main town, with Zabid, a historic town of old mosques and learning, and Bajil, a market town on the road inland. A salt-producing coast to the north is served by the port at Salif. Heat and humidity stay high through most of the year, with salt in the air and little cooling at night. Food, medicines and bulk goods need careful storage. The pages below describe these towns and ports and the rooms where a temperature record would help.",
+        localIndustries: [
+          "Fishing and ice stores",
+          "Tihama farm produce and markets",
+          "Port and bulk-goods storage",
+          "Medicine and vaccine storage",
+        ],
+        citiesServed: ["Hodeidah","Zabid","Bajil"],
+        supportNote:
+          "Requests from Al Hudaydah Governorate are weighed case by case. Tell us which town you mean, what is stored and how the room is cooled, and we answer with what looks workable on site.",
+        faqs: [
+          {
+            question: "Which places in Al Hudaydah Governorate have a page?",
+            answer:
+              "Hodeidah, Zabid and Bajil each have a city page, and the Port of Hodeidah and the Port of Salif have area pages under Hodeidah. Further places can be put to us through the enquiry form.",
+          },
+          {
+            question: "Why is humidity as much a worry as heat on the Tihama?",
+            answer:
+              "Sea air stays damp day and night, so cartons soften and condensation forms on anything cool, and a humidity log beside the temperature shows when a store has taken on moisture.",
+          },
+          {
+            question: "Can one logger watch more than one room?",
+            answer:
+              "A single logger watches a single point, but multi-channel units read several probes at once, so a cold room and its anteroom can share one report.",
+          },
+        ],
+        listing: [
+          { slug: "hodeidah", text: "A Red Sea port city on the Tihama plain with fish landings, markets and storage in very warm, humid air." },
+          { slug: "zabid", text: "A historic Tihama town of old mosques and learning, with date palms, markets and a World Heritage setting." },
+          { slug: "bajil", text: "A market town on the road between the coast and the mountains, trading farm produce in a hot lowland." },
+        ],
+        areaListing: [
+          { slug: "port-of-hodeidah", text: "The harbour of Hodeidah, where food, medicines and general cargo wait on the quay in hot, damp sea air." },
+          { slug: "port-of-salif", text: "The port at Salif on the Red Sea coast north of Hodeidah, set beside salt works on a hot, flat shore." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "hodeidah",
+            name: "Hodeidah",
+            type: "city",
+            intro:
+              "Hodeidah is a port city on the Red Sea coast of western Yemen, the main town of the Tihama plain, and a temperature data logger here serves a harbour town of fish, food and medicine stores in very hot, humid air. Fishing boats land their catch each day, markets and wholesalers sell food and household goods to a wide hinterland, and the harbour area is crowded with sheds, offices and small warehouses. Hospitals and clinics serve the city and the villages of the plain, and a seafront promenade follows the shore. Heat and moisture stay high all year, and nights offer little relief. The loggers store their readings on their own batteries when a network is absent. We take every Hodeidah request case by case.",
+            climateAngle:
+              "Temperatures stay high through the year, the air is full of moisture and salt, and the plain is flat, so stores and vehicles have almost no cool hours to recover and condensation is a daily event. Power cuts are common enough to plan for, and many businesses rely on generators or ice, which makes a record of when a room warmed especially valuable. Docks, markets and the seafront draw crowds all day, so doors open constantly and cold air escapes.",
+            areas: [
+              {
+                name: "Fish market and ice stores",
+                note: "Boats land fish at the shore each morning and ice plants and cold rooms keep it for the market in the hottest part of the day.",
+              },
+              {
+                name: "Wholesale food stores near the harbour",
+                note: "Importers and wholesalers keep rice, flour, oil and drinks in sheds and warehouses where the roof sets the room temperature.",
+              },
+              {
+                name: "Hospitals, clinics and pharmacies",
+                note: "Hospitals, clinics and pharmacies hold vaccines, insulin and medicines in refrigerators that work hard in the heat and must survive outages of power.",
+              },
+              {
+                name: "Markets and shops in the city",
+                note: "Shops sell dairy products, drinks, sweets and household goods from small rooms with simple coolers, opened constantly through the day.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Hodeidah fish traders, importers and grocers hold goods that spoil quickly in heat, and a record from each cold store shows when a chiller began to fail.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine distributors and pharmacies in Hodeidah keep stock to stated ranges, and a dated log shows how a room behaved through the hottest weeks and any power cut.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods that wait in sheds and vehicles near the harbour meet heat and salt, and a logger placed in a consignment records what each lot went through.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hodeidah hospitals hold vaccines and blood products for the plain, and a phone alert reaches the person on duty when a refrigerator warms in the night.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow an ice room or a wholesale store at several heights and beside the door, showing how it behaves between deliveries.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity read beside temperature shows when sea air has soaked a dry-goods store that looks fine on a thermometer.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable fits a pharmacy or ward refrigerator in Hodeidah and leaves staff routines unchanged.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Hodeidah food or fish business keep a temperature record?",
+                answer:
+                  "A logger in the ice room or cold store records through the day and night, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for a buyer.",
+              },
+              {
+                question: "Why does a store on a flat, hot coast need a humidity reading?",
+                answer:
+                  "Moist sea air condenses on cold surfaces and softens cartons, so a humidity trend beside the temperature shows how much damp each opening of a door brought in.",
+              },
+              {
+                question: "What if the power fails for a long time in Hodeidah?",
+                answer:
+                  "The logger keeps recording from its battery and stores the readings, so there is a record for the hours without power or signal, available once the site connects.",
+              },
+              {
+                question: "How would a request from Hodeidah be handled?",
+                answer:
+                  "Write with the town, the rooms to watch and a contact on the enquiry form or WhatsApp. Supply to Yemen is weighed case by case, and we reply with what is workable.",
+              },
+            ],
+            nearby: [
+              { slug: "zabid", name: "Zabid" },
+              { slug: "bajil", name: "Bajil" },
+              { slug: "mocha", name: "Mocha" },
+            ],
+            metaTitle: "Temperature Data Loggers in Hodeidah | Prithvi",
+            metaDescription:
+              "Data loggers for Hodeidah's fish ice stores, wholesale food sheds, hospitals and pharmacies on the Red Sea, case by case. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "zabid",
+            name: "Zabid",
+            type: "city",
+            intro:
+              "Zabid is a historic town on the Tihama plain of western Yemen, a World Heritage site known for its old mosques, its houses of brick and its long record as a centre of Islamic learning, and a temperature data logger here serves a small, hot, humid town where heritage, farming and trade overlap. Date palms and farm plots surround the old quarter, markets sell food and household goods to nearby villages, and clinics serve the district. Many buildings are old and thick-walled, and collections and libraries in them need steady air. Summers are very hot and the air is moist. The loggers keep readings in memory on battery power without a network. We consider each request from Zabid case by case.",
+            climateAngle:
+              "Heat and moisture are both high for most of the year, rain is seasonal and sometimes heavy, and old walls hold damp, so heritage rooms and food stores feel slow, sticky swings rather than sharp ones. Because the old town is compact and its lanes are narrow, vehicles rarely reach the door of a store, and goods are carried the last stretch by hand or cart in the sun. Visitors and scholars arrive in the cooler months, and guesthouse kitchens add to the list of small refrigerators worth watching.",
+            areas: [
+              {
+                name: "Old mosques, libraries and manuscript rooms",
+                note: "Historic buildings hold books and manuscripts in rooms of thick masonry, where steady humidity matters more than cold because paper and ink react to damp.",
+              },
+              {
+                name: "The town market and food stores",
+                note: "Shops and stalls sell grain, dates, oil and household goods from small rooms in old buildings that heat up in the afternoon.",
+              },
+              {
+                name: "Palm plots and produce sheds",
+                note: "Growers store dates and vegetables in sheds close to the palms, where heat after harvest is the main danger to the crop.",
+              },
+              {
+                name: "Clinic and pharmacy refrigerators",
+                note: "A clinic and pharmacies serve the town and its villages and keep vaccines and medicines in refrigerators that must hold their range in hot, moist weather.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Date growers, grain dealers and grocers in Zabid hold goods that suffer in heat and damp, and a log from each store shows a buyer how a lot was kept.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "Conservation and study rooms in Zabid keep manuscripts and materials to set limits of temperature and humidity, and an exported report supports a conservation plan.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The Zabid clinic holds vaccines for the town and its villages, and a phone alert reaches the right person if its refrigerator warms.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods reach Zabid over long, hot roads, and a logger placed in a load shows how long it stood in a vehicle before arriving at a small store.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a manuscript room or a date store where damp is the quiet danger.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single probe fits a clinic or shop refrigerator in Zabid and leaves the way the unit is used unchanged.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a produce shed at several heights and by the door, showing which shelf runs warmest during the day.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Why would a library or study room in Zabid need a humidity record?",
+                answer:
+                  "Paper, ink and bindings react to damp, so a log of temperature and humidity shows whether the air stayed steady and when it swung, which helps a conservation plan.",
+              },
+              {
+                question: "Can a small Zabid shop use a single logger?",
+                answer:
+                  "Yes. One logger with a phone alert covers a single refrigerator if a router is within reach, and further points can join the same account when needed.",
+              },
+              {
+                question: "How would a request from Zabid be handled?",
+                answer:
+                  "Tell us the place, what you keep and a contact through the enquiry form or WhatsApp. Yemen requests are judged case by case, and we reply with what seems practical.",
+              },
+              {
+                question: "Is calibration discussed for Zabid loggers?",
+                answer:
+                  "For Zabid sites, VEGA Calibrations, our parent company, handles calibration of loggers and probes; send the model and your working range and we explain what could be done.",
+              },
+            ],
+            nearby: [
+              { slug: "hodeidah", name: "Hodeidah" },
+              { slug: "bajil", name: "Bajil" },
+            ],
+            metaTitle: "Temperature Data Loggers in Zabid | Prithvi",
+            metaDescription:
+              "Data loggers for Zabid's heritage rooms, date stores, markets and clinic refrigerators on the Tihama plain, case by case. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "bajil",
+            name: "Bajil",
+            type: "city",
+            intro:
+              "Bajil is a market town on the Tihama plain of western Yemen, set on the road that links the coast with the mountains, and a temperature data logger here serves a trading place where farm produce, goods and travellers pass through a hot lowland. Growers from the surrounding plots bring fruit, vegetables and grain to its markets, wholesalers load vehicles for the coast and the highlands, and small workshops and stores line the main road. A clinic and pharmacies serve the town and the villages. Traders there work against the clock, because a lot left too long in the sun loses its value. Days are hot and humid and nights stay warm. The loggers store readings on their own batteries when no network is present. We review each request from Bajil case by case.",
+            climateAngle:
+              "The plain is flat, hot and moist for most of the year, with little relief at night and dusty winds in the dry season, so produce and parked vehicles heat quickly and stores seldom cool down. Trucks that load in the evening still carry the heat of the day in their bodies, and a cargo packed warm stays warm for the first part of its journey. Roadside cold boxes are opened for every customer, so the air inside them is exchanged many times an hour.",
+            areas: [
+              {
+                name: "Produce market and wholesale yards",
+                note: "Growers and dealers sort fruit and vegetables in open yards and sheds, where the waiting hours before loading decide how much of a crop spoils.",
+              },
+              {
+                name: "Cold boxes and ice stores",
+                note: "Traders keep ice and cold boxes for perishable lots, which warm fast when a door is opened often in hot air.",
+              },
+              {
+                name: "Roadside shops and food stores",
+                note: "Shops along the main road sell drinks, dairy products and packaged goods to travellers, from small rooms with simple coolers.",
+              },
+              {
+                name: "Clinic and pharmacy refrigerators",
+                note: "A clinic and pharmacies keep vaccines and medicines in refrigerators that must cope with hot afternoons and gaps in power.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Bajil produce dealers and grocers hold goods that lose quality fast in the heat, and a record from each cold box shows when it began to warm.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Vehicles that load in Bajil for the coast or the mountains stand in the sun, and a logger placed in a load shows how hot the cargo became while it waited.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The Bajil clinic holds vaccines for the town and surrounding villages, and a phone alert reaches the person on duty if a refrigerator drifts.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Bajil keep stock in rooms with stated ranges, and a dated log shows how a room behaved through the hottest weeks.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels read a cold box or store at the door end and the far wall, showing whether the cold reaches the back.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a produce shed at several heights and by the door, showing which corner runs hottest.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable slips into a clinic or pharmacy refrigerator in Bajil without changing daily routines.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Bajil produce trader keep a temperature record of a load?",
+                answer:
+                  "A small logger placed in the load records its journey and the waiting before it, and a report can be exported in PDF, Excel or CSV form for a buyer.",
+              },
+              {
+                question: "Do flat, hot plains need humidity as well as temperature?",
+                answer:
+                  "Yes. Moist air condenses on cold boxes and softens packaging, so a humidity reading beside the temperature shows when produce or cartons took on damp.",
+              },
+              {
+                question: "How would a request from Bajil be handled?",
+                answer:
+                  "Send the place, what you store and a contact through the enquiry form or WhatsApp. Requests from Yemen are weighed case by case, and we reply with what seems practical.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Bajil?",
+                answer:
+                  "Calibration of loggers and probes for Bajil sites is handled through VEGA Calibrations, our parent company; share the model and range and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "hodeidah", name: "Hodeidah" },
+              { slug: "zabid", name: "Zabid" },
+            ],
+            metaTitle: "Temperature Data Loggers in Bajil | Prithvi",
+            metaDescription:
+              "Data loggers for Bajil's produce markets, cold boxes, roadside stores and clinics on the Tihama plain, case by case. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "ibb-governorate",
+        name: "Ibb Governorate",
+        type: "state",
+        intro:
+          "Ibb Governorate sits in the green southern highlands of Yemen, where rain from the monsoon reaches the mountains for much of the year and terraced fields climb the hillsides. The city of Ibb stands on a hill above a fertile plain, and the historic hill town of Jibla, linked with Queen Arwa, lies close by. Grain, fruit, coffee and vegetables grow on the terraces and pass through town markets. Cool air, frequent mist and heavy rain mean that damp, not heat, is often the main worry in a store. Medicines, food and farm produce all need steady storage. The page below describes the city and the rooms where a record of temperature and humidity would help.",
+        localIndustries: [
+          "Terrace farming and produce",
+          "Food processing and trade",
+          "Medicine and vaccine storage",
+          "Small workshops and stores",
+        ],
+        citiesServed: ["Ibb"],
+        supportNote:
+          "Requests from Ibb Governorate are weighed case by case. Name the town, the stores you want to watch and how damp they get, and we reply with what looks workable for that place.",
+        faqs: [
+          {
+            question: "Which places in Ibb Governorate have a page?",
+            answer:
+              "Ibb has a city page. Other towns in the governorate can be put to us through the enquiry form, and more pages are added only when they can be written from confident facts.",
+          },
+          {
+            question: "Why does a wet highland call for humidity records?",
+            answer:
+              "Frequent rain and mist bring damp into stores, and grain, paper and cartons all react to it, so a humidity trend beside the temperature shows when a room has turned wet.",
+          },
+          {
+            question: "Is a single logger enough for a small clinic?",
+            answer:
+              "One logger with a phone alert can watch a vaccine refrigerator if a router is within reach, and further points can be added to the same account as the need grows.",
+          },
+        ],
+        listing: [
+          { slug: "ibb", text: "A hill city above a fertile plain in the green highlands, with terraced farms, markets, hospitals and damp, cool weather." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "ibb",
+            name: "Ibb",
+            type: "city",
+            intro:
+              "Ibb is a hill city in the green southern highlands of Yemen, built on a ridge above a fertile plain where rain reaches the mountains for much of the year, and a temperature data logger here serves a farming and market town in a cool, misty, damp setting. Terraced fields of grain, fruit, coffee and vegetables climb the slopes around it, the old town has narrow lanes of stone houses, and the historic hill town of Jibla lies nearby. Markets, workshops, a university and hospitals serve the governorate. Mist and heavy rain are common and nights are cool. The loggers hold their readings on their own batteries when no network is present. We consider each Ibb request case by case.",
+            climateAngle:
+              "Rain and mist come often, the hills stay cool and green, and the air is damp through much of the year, so stores worry about moisture and mould more than about heat. Stone buildings keep rooms cool but slow to dry, and a store that was dry in the dry season can turn mouldy after a few weeks of rain. Roads between the terraces become slippery in the wet months, so deliveries to farms and shops can be delayed, leaving goods in vehicles or on doorsteps in the damp.",
+            areas: [
+              {
+                name: "Terrace-farm produce stores",
+                note: "Growers keep grain, fruit and coffee in stone and block stores near the terraces, where damp from rain and mist is the main enemy of dry crops.",
+              },
+              {
+                name: "The city markets and wholesale stores",
+                note: "Wholesalers and shopkeepers stack food, spices and household goods in back rooms of old buildings that never fully dry in the wet months.",
+              },
+              {
+                name: "Hospitals, clinics and the university",
+                note: "Hospitals, clinics and a university with laboratories keep vaccines, insulin and samples in refrigerators that must hold a range through every interruption of power.",
+              },
+              {
+                name: "Dairy and food processors",
+                note: "Small dairies, bakeries and food plants run chilled rooms and finished-goods stores in cool but damp buildings.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Ibb coffee, grain and dairy dealers hold goods that mould or sour in damp air, and a log from each store shows a buyer how a lot was kept.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Ibb hospitals and clinics hold vaccines and blood products for the highlands, and a phone alert reaches the person on duty if a refrigerator warms in the night.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine wholesalers and pharmacies in Ibb keep stock to stated ranges, and a dated record of temperature and humidity shows how a room behaved through a long wet spell.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "University and clinical laboratories in Ibb keep reagents and samples to set limits, and an exported report is ready whenever a review asks for one.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a coffee or grain store, where steady, dry air protects the crop through the wet season.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single probe fits a ward or pharmacy refrigerator in Ibb and leaves the way staff use the unit unchanged.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a wholesale store at several heights and beside the door, showing which shelf turns damp first.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Why would a coffee or grain store in Ibb need a humidity record?",
+                answer:
+                  "Damp air lets mould grow and spoils dry crops, so a log of humidity beside the temperature shows when a store turned wet and for how long.",
+              },
+              {
+                question: "Can a small Ibb clinic use a single logger?",
+                answer:
+                  "One logger with a phone alert can watch a vaccine refrigerator if a router is within reach, and more points can be added to the same account as the need grows.",
+              },
+              {
+                question: "How would a request from Ibb be handled?",
+                answer:
+                  "Send the place, what you keep and a contact through the enquiry form or WhatsApp. Yemen requests are weighed case by case, and we reply with what looks practical.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Ibb laboratories?",
+                answer:
+                  "For Ibb laboratories, VEGA Calibrations, our parent company, handles calibration of loggers and probes; tell us the model and range and we explain the choices.",
+              },
+            ],
+            nearby: [
+              { slug: "taiz", name: "Taiz" },
+              { slug: "dhamar", name: "Dhamar" },
+            ],
+            metaTitle: "Temperature Data Loggers in Ibb | Prithvi",
+            metaDescription:
+              "Data loggers for Ibb's terrace-farm produce stores, markets, hospitals and clinics in a wet highland, reviewed case by case. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "dhamar-governorate",
+        name: "Dhamar Governorate",
+        type: "state",
+        intro:
+          "Dhamar Governorate stretches across the central highlands of Yemen south of Sana'a, on a high plateau of broad plains between rocky hills. The city of Dhamar is its centre, a university town with markets, workshops and hospitals set in farmland that grows grain, potatoes, grapes and other crops. The plateau is dry and cool for much of the year, with strong sun by day, cold nights in winter and a short rainy season. Farm produce, medicines and food need steady storage through the swings between a bright afternoon and a freezing dawn. The page below describes the city and the rooms where a record of temperature would help.",
+        localIndustries: [
+          "Plateau farming and produce",
+          "University and clinic laboratories",
+          "Food trade and storage",
+          "Medicine and vaccine storage",
+        ],
+        citiesServed: ["Dhamar"],
+        supportNote:
+          "Requests from Dhamar Governorate are weighed case by case. Name the town, the rooms to be watched and how they are cooled, and we reply with what seems workable for that site.",
+        faqs: [
+          {
+            question: "Which places in Dhamar Governorate have a page?",
+            answer:
+              "Dhamar has a city page. Another town in the governorate can be put to us through the enquiry form, and further pages follow only when they can be written from confident facts.",
+          },
+          {
+            question: "Do cold nights matter for stored farm produce?",
+            answer:
+              "Yes. Potatoes and fruit can suffer from a frosty night as well as from a hot afternoon, so a continuous log shows the swings that a single reading would miss.",
+          },
+          {
+            question: "What happens to the record if the connection drops?",
+            answer:
+              "The logger keeps its readings in memory on its battery, so the record for the hours without signal is still there when the site is next connected.",
+          },
+        ],
+        listing: [
+          { slug: "dhamar", text: "A university town on the central highland plateau, with farmland, markets, hospitals and cold nights." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "dhamar",
+            name: "Dhamar",
+            type: "city",
+            intro:
+              "Dhamar is a university town on the high central plateau of Yemen, south of Sana'a, and a temperature data logger here serves a farming and market city in a cool, dry climate with cold nights. Broad plains of grain, potatoes, grapes and other crops spread around it, markets sell produce and household goods to the surrounding villages, and a university, hospitals and clinics serve the governorate. Small workshops and food stores work from compact premises along the main roads. Days are bright and nights can fall close to freezing in winter, while rain comes in a short season. The loggers keep readings in memory on battery power if a network drops. We look at each request from Dhamar case by case.",
+            climateAngle:
+              "The plateau is high, bright and dry, with a wide gap between a warm afternoon and a frosty dawn and a short rainy season, so farm stores swing between cold and warmth without much humidity. Stores with metal roofs warm quickly on bright winter afternoons, and the same room can fall close to freezing before dawn. Farmers and traders often hold produce for days before selling, so the long middle part of its time in storage, not the journey, decides how much is lost.",
+            areas: [
+              {
+                name: "Farm produce stores",
+                note: "Growers keep potatoes, grapes and grain in sheds and cellars, where a frosty night and a bright afternoon both threaten the crop.",
+              },
+              {
+                name: "Markets and wholesale food stores",
+                note: "Dealers and shopkeepers sell produce, flour, oil and household goods from stock rooms in simple buildings that follow the weather outside.",
+              },
+              {
+                name: "The university and its laboratories",
+                note: "A university with teaching laboratories keeps reagents and samples in refrigerators and freezers that need a dated record through power interruptions.",
+              },
+              {
+                name: "Hospitals, clinics and pharmacies",
+                note: "Hospitals, clinics and pharmacies hold vaccines and medicines in refrigerators that must hold their range through cold nights and warm afternoons.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Dhamar produce dealers and grocers hold potatoes, grapes and packaged food that suffer from frost and from warmth, and a log shows a buyer how a lot was kept.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "University laboratories in Dhamar keep reagents and samples to set limits, and an exported report is ready whenever a review calls for one.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Dhamar hospitals and clinics hold vaccines and blood products for the plateau, and a phone alert reaches the person on duty if a refrigerator drifts overnight.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies and medicine wholesalers in Dhamar keep stock to labelled ranges, and a dated log shows how a room behaved from a frosty dawn to a warm noon.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels read a produce cellar at the door end and the far wall, showing whether frost or warmth reaches the back shelves.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable fits a clinic or pharmacy refrigerator in Dhamar and leaves daily routines untouched.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels along a long storage shed show which stretch of the building runs coldest or warmest, in one report.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Do cold nights really matter for farm produce in Dhamar?",
+                answer:
+                  "Yes. Potatoes and fruit can be damaged by frost as easily as by heat, so a continuous log shows swings that a single spot reading would miss.",
+              },
+              {
+                question: "Can a small clinic in Dhamar use one logger?",
+                answer:
+                  "One logger with a phone alert can watch a vaccine refrigerator if a router is within reach, and further points can be added to the same account later.",
+              },
+              {
+                question: "How would a request from Dhamar be handled?",
+                answer:
+                  "Use the enquiry form or WhatsApp to give the town, the stock and a contact. Every Yemen request is considered case by case, and we answer with what looks practical.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Dhamar laboratories?",
+                answer:
+                  "For Dhamar laboratories, VEGA Calibrations, our parent company, handles calibration of loggers and probes; share the model and the range and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "sanaa", name: "Sana'a" },
+              { slug: "ibb", name: "Ibb" },
+            ],
+            metaTitle: "Temperature Data Loggers in Dhamar | Prithvi",
+            metaDescription:
+              "Data loggers for Dhamar's farm produce stores, university labs, hospitals and clinics on a cold plateau, case by case. Get Solution.",
             indexable: true,
           },
         ],

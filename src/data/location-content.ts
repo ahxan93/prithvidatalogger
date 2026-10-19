@@ -197,6 +197,26 @@ export const locationContent: Record<string, LocationContent> = {
       "Data loggers for Amanat Al Asimah: Sana'a's pharmacies, food stores, industrial area and airport, reviewed case by case for Yemen. Get Solution.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
+  "yemen/taiz-governorate": {
+    metaDescription:
+      "Data loggers for Taiz Governorate: Taiz's hospitals and food stores and Mocha's coffee port storage, reviewed case by case. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+  },
+  "yemen/al-hudaydah-governorate": {
+    metaDescription:
+      "Data loggers for Al Hudaydah Governorate: Hodeidah's port stores, Zabid and Bajil markets on the Tihama, reviewed case by case. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+  },
+  "yemen/ibb-governorate": {
+    metaDescription:
+      "Temperature data loggers for Ibb Governorate: Ibb's terrace-farm produce, markets and clinics in a wet highland, case by case. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+  },
+  "yemen/dhamar-governorate": {
+    metaDescription:
+      "Temperature data loggers for Dhamar Governorate: Dhamar's farm produce, clinics and university labs on a cold plateau, case by case. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+  },
   "yemen/aden-governorate": {
     metaDescription:
       "Temperature data loggers for Aden Governorate: the port city's clinics, food stores and harbour-area warehouses, reviewed case by case. Get Solution.",
