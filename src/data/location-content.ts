@@ -242,6 +242,21 @@ export const locationContent: Record<string, LocationContent> = {
       "Data loggers for Sharjah Emirate: Sharjah, Khor Fakkan, Kalba, Sajaa, SAIF Zone, Hamriyah and Muwaileh storage. Get Solution.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
+  "uae/ajman-emirate": {
+    metaDescription:
+      "Data loggers for Ajman Emirate: Ajman city, the Al Jurf Industrial Area and the Ajman Free Zone warehouse and cold-room storage. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+  },
+  "uae/umm-al-quwain-emirate": {
+    metaDescription:
+      "Data loggers for Umm Al Quwain Emirate: the town's fish ice stores, shops, clinics and the UAQ Free Trade Zone storage. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+  },
+  "uae/ras-al-khaimah-emirate": {
+    metaDescription:
+      "Data loggers for Ras Al Khaimah Emirate: the city, RAKEZ, Al Ghail Industrial Area and Al Jazirah Al Hamra storage and cold rooms. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+  },
   "uae/abu-dhabi-emirate": {
     metaDescription:
       "Data loggers for Abu Dhabi Emirate: the city, Mussafah, ICAD, KIZAD, Khalifa Port and Ghantoot warehouse and cold-room storage. Get Solution.",

@@ -82,6 +82,9 @@ export const areaCities: Record<string, { name: string; stateSlug: string; state
   jubail: { name: "Jubail", stateSlug: "eastern-province", stateName: "Eastern Province" },
   yanbu: { name: "Yanbu", stateSlug: "madinah-region", stateName: "Madinah Region" },
   jazan: { name: "Jazan", stateSlug: "jazan-region", stateName: "Jazan Region" },
+  ajman: { name: "Ajman", stateSlug: "ajman-emirate", stateName: "Ajman Emirate" },
+  "umm-al-quwain": { name: "Umm Al Quwain", stateSlug: "umm-al-quwain-emirate", stateName: "Umm Al Quwain Emirate" },
+  "ras-al-khaimah": { name: "Ras Al Khaimah", stateSlug: "ras-al-khaimah-emirate", stateName: "Ras Al Khaimah Emirate" },
   sharjah: { name: "Sharjah", stateSlug: "sharjah-emirate", stateName: "Sharjah Emirate" },
   dubai: { name: "Dubai", stateSlug: "dubai-emirate", stateName: "Dubai Emirate" },
   "abu-dhabi": { name: "Abu Dhabi", stateSlug: "abu-dhabi-emirate", stateName: "Abu Dhabi Emirate" },
@@ -7193,6 +7196,329 @@ export const areas: AreaDef[] = [
       ],
       "nearby": [
         "sajaa-industrial-area"
+      ],
+      "indexable": true
+    } },
+  // ------------------------------------------------------------------ UAE (batch 6: Ajman, Umm Al Quwain, Ras Al Khaimah)
+  { slug: "al-jurf-industrial-area", name: "Al Jurf Industrial Area", citySlug: "ajman", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["virat","nakshatra"], page: {
+      "metaTitle": "Data Loggers in Al Jurf Industrial Area, Ajman | Prithvi",
+      "metaDescription": "Data loggers for workshops, light factories, stores and warehouses in the Al Jurf Industrial Area of Ajman. Get Solution.",
+      "intro": "The Al Jurf Industrial Area lies inland from Ajman's creek, a dense grid of workshops, light factories, stores and warehouses squeezed beside residential blocks. For a temperature data logger the interest lies in the everyday trouble of making and keeping goods through humid Gulf summers: sealants and paints that name a maximum temperature, food and packaging stock, and general cargo waiting under thin metal roofs. Nothing here goes beyond the stock and rooms that a logger user in Al Jurf could look after. Enquiries about Al Jurf are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Light factories and packing units",
+          "note": "Compact plants that cut, fill and seal consumer products hold finished cartons in rooms that struggle most during the late summer afternoon."
+        },
+        {
+          "name": "Paint, sealant and adhesive stores",
+          "note": "Shelves of paints, sealants and glues carry printed temperature limits, and a baking shed can break them without any visible sign."
+        },
+        {
+          "name": "Small food-distribution rooms",
+          "note": "Distributors who supply corner shops and kitchens keep chilled and dry stock in cooled rooms that load and unload from the early morning."
+        },
+        {
+          "name": "General warehouses and parts shops",
+          "note": "Warehouses and parts shops hold goods under roofs whose underside follows the sun long before the air-conditioning responds."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "chemical",
+          "sentence": "Sealant, paint and adhesive stockists around Al Jurf can use a dated record to show whether a hot afternoon carried a pallet beyond its printed limit."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A shared warehouse in Al Jurf can hand every owner a record of its own shelves instead of a general assurance about the whole unit."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "A small distributor serving kitchens from Al Jurf can show through a log that its chilled room stayed within range at every early loading."
+        }
+      ],
+      "services": "For a district of this type we would look at WiFi loggers for units and cooled rooms near a router, probe-type loggers for chilled rooms and freezers, multi-point units for long sheds, and loggers that travel inside a load. Calibration for Al Jurf users can be discussed with VEGA Calibrations, our parent company. A WiFi logger relies on a router in range and mains power, and for a yard we describe other routes. What may be supplied is settled only once an Al Jurf request has been read.",
+      "visits": "Visits and installation in Al Jurf are not promised. Pass on the business, the rooms and a contact via the enquiry form, Call or WhatsApp, and we look the request over and reply with what seems workable.",
+      "approach": "If a request went ahead, we would start with the chilled room or store holding the most delicate stock, putting one logger by the door and one at the back, and add a humidity unit where sea air enters. A few weeks of summer readings would show which hours of the day press hardest on the room.",
+      "faqs": [
+        {
+          "question": "Can a small Al Jurf workshop keep a temperature record of its store?",
+          "answer": "Yes. A logger left in the store keeps a day-and-night record, and a report for any dates can be saved as a PDF, Excel or CSV file."
+        },
+        {
+          "question": "Why track humidity as well as temperature so close to the coast?",
+          "answer": "Damp sea air condenses on cool surfaces and softens cartons, so a humidity trend alongside the temperature shows moisture that a thermometer alone would miss."
+        }
+      ],
+      "nearby": [
+        "ajman-free-zone"
+      ],
+      "indexable": true
+    } },
+  { slug: "ajman-free-zone", name: "Ajman Free Zone", citySlug: "ajman", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","electronics","food-beverage"], confirmedService: true, hero: ["rajmudra","setu"], page: {
+      "metaTitle": "Data Loggers in Ajman Free Zone | Prithvi",
+      "metaDescription": "Data loggers for warehouse units, stock rooms and offices in the Ajman Free Zone near the port, in humid Gulf heat. Get Solution.",
+      "intro": "The Ajman Free Zone stands near the city's port, a compact set of offices, warehouse units and light-industrial plots very close to the sea. A temperature data logger in a coastal free zone watches the stock that small trading and making firms keep on hand: electronic parts, household goods, food and packaging, all held in stock rooms and light warehouses in air that is hot, humid and salty. The text below is limited to the stock and rooms that a logger user in the Ajman Free Zone could look after. Enquiries about the Ajman Free Zone are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Warehouse units near the port",
+          "note": "Units of different sizes hold stock for firms that rent the offices beside them, and their roofs soak up the sun well before the cooling responds."
+        },
+        {
+          "name": "Electronics and household-goods rooms",
+          "note": "Rooms for parts and household goods suffer when a hot afternoon is followed by a damp night on the coast."
+        },
+        {
+          "name": "Food and packaging rooms",
+          "note": "Small food firms keep chilled and dry stock beside rolls of packaging, in rooms that rise and fall with the weather outside."
+        },
+        {
+          "name": "Office pantries and canteens",
+          "note": "Offices and canteens run fridges that serve whole floors of staff and are opened again and again through the day."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "electronics",
+          "sentence": "A parts trader renting a unit here can show through a log that stock stayed within a stated range of heat and humidity until its customer collected it."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Small food firms hold chilled stock that spoils in heat, and a record from each cooler shows the moment a unit began to slip."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A unit that stores goods for different clients can give every client a record of its own pallets in place of a blanket statement about the room."
+        }
+      ],
+      "services": "For a coastal free zone we would look at WiFi loggers for stock rooms near a router, probe loggers for fridges and freezers, humidity-reading models for electronics stores, and loggers that ride inside a consignment. Users in the Ajman Free Zone can go to VEGA Calibrations, our parent company, for calibration. WiFi models need a router within range and mains power, and for a vehicle we set out other options. Nothing is said about supply until a request for the Ajman Free Zone has been read.",
+      "visits": "A visit or an installation in the Ajman Free Zone is not promised. Give the business, the rooms and a contact on the enquiry form, Call or WhatsApp, and we look over the request and reply with what looks achievable.",
+      "approach": "If a request went ahead, we would begin with the stock room whose contents are hardest to replace, placing one logger near the door and one at the back, and adding a humidity unit where parts are kept. A short run of readings would show whether afternoon heat or damp nights strain the room more.",
+      "faqs": [
+        {
+          "question": "Can a trader with one unit in the zone start with a single logger?",
+          "answer": "Yes. A single logger in a single room is enough to start, and more points can be added to the same dashboard as the business grows."
+        },
+        {
+          "question": "Why does a coastal address matter for stored electronics?",
+          "answer": "Salt-laden damp air reaches parts that look sound on a shelf, so a humidity trend beside the temperature shows exposure that a thermometer alone would miss."
+        }
+      ],
+      "nearby": [
+        "al-jurf-industrial-area"
+      ],
+      "indexable": true
+    } },
+  { slug: "uaq-free-trade-zone", name: "UAQ Free Trade Zone", citySlug: "umm-al-quwain", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","food-beverage","chemical"], confirmedService: true, hero: ["veer","dhruva"], page: {
+      "metaTitle": "Data Loggers in UAQ Free Trade Zone | Prithvi",
+      "metaDescription": "Data loggers for warehouse units, stock rooms and light industry in the UAQ Free Trade Zone near the Gulf coast. Get Solution.",
+      "intro": "The UAQ Free Trade Zone is a trade and light-industry district near the port of Umm Al Quwain, a quiet stretch of warehouse units and offices beside the sea. For a temperature data logger the interest is in whatever its units happen to keep: food and packaging, materials with printed limits, and household goods, all held in air that is hot, humid and salty. The description sticks to the stock and rooms that a logger user in the UAQ Free Trade Zone could look after. Enquiries about the UAQ Free Trade Zone are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Warehouse units",
+          "note": "Units of several sizes hold stock for firms based beside them, under roofs that warm quickly in the summer sun."
+        },
+        {
+          "name": "Light-industry workshops",
+          "note": "Workshops that assemble, pack or mend things keep glues, oils and spare parts in sheds that follow the weather outside."
+        },
+        {
+          "name": "Food and packaging stores",
+          "note": "Small food firms and packers keep chilled and dry stock in rooms that work hardest on summer afternoons."
+        },
+        {
+          "name": "Loading areas for vans and lorries",
+          "note": "Vans and lorries load in open areas, and cargo inside a covered vehicle can run far hotter than the shaded air."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A unit that stores goods for several firms in the zone can give each firm a record of its own stock, not a remark about the whole building."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Food firms in the zone keep chilled and frozen stock that spoils in coastal heat, and a record from each cooler shows when a unit began to labour."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Shelves of glues, coatings and cleaners carry printed limits, and a dated record shows whether a hot and damp shed took a pallet beyond them."
+        }
+      ],
+      "services": "For a free-trade zone beside the sea we would consider WiFi loggers for units and cooled rooms near a router, probe loggers for fridges and freezers, multi-point units for long sheds, and loggers that ride in a load. Users in the zone can discuss calibration with VEGA Calibrations, our parent company. WiFi loggers need a router in range and a power supply, and for an open yard we describe other ways. Anything about supply waits until a request for the zone has been looked at.",
+      "visits": "A visit or an installation in the UAQ Free Trade Zone is not promised. Let us have the business, the rooms involved and a contact on the enquiry form, Call or WhatsApp, and we look over the request and say what appears practical.",
+      "approach": "If a request went ahead, we would start with the unit that holds the most heat- or damp-sensitive stock, placing one logger by the door and one at the back, then add a humidity unit where sea air gets in. A first run of readings would show the hours when the room is under most strain.",
+      "faqs": [
+        {
+          "question": "Can a small firm in the zone begin with a single logger?",
+          "answer": "Yes. A single logger in one room is enough to begin, and more points can be added to the same dashboard as the stock grows."
+        },
+        {
+          "question": "Why does sea air matter for goods held close to the shore?",
+          "answer": "Salt-laden air softens cartons and attacks metal, and condensation forms on cool surfaces overnight, so a humidity trend beside the temperature shows when stock took on moisture."
+        }
+      ],
+      "nearby": [],
+      "indexable": true
+    } },
+  { slug: "rakez", name: "RAKEZ", citySlug: "ras-al-khaimah", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","pharmaceutical"], confirmedService: true, hero: ["nakshatra","virat-pro"], page: {
+      "metaTitle": "Data Loggers in RAKEZ, Ras Al Khaimah | Prithvi",
+      "metaDescription": "Data loggers for factory halls, stores and warehouses in RAKEZ, the Ras Al Khaimah Economic Zone, in Gulf heat. Get Solution.",
+      "intro": "RAKEZ, the Ras Al Khaimah Economic Zone, spreads across the coastal plain of the emirate in a set of industrial plots, warehouses and offices laid out for making and trading. For a temperature data logger the interest lies in whatever its plots happen to hold: materials waiting for the line, finished goods waiting for a vehicle, and chilled stock on the move between plant and coast. The text keeps to the stock and rooms that a logger user in RAKEZ could look after. Enquiries about RAKEZ are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Plant halls and assembly floors",
+          "note": "Halls with long roofs shelter machinery and work in progress, and one end of a hall is often many degrees warmer than the other by mid-afternoon."
+        },
+        {
+          "name": "Ingredient and component stores",
+          "note": "Components, resins and additives sit between delivery and use, and a few carry limits that a coastal summer will break."
+        },
+        {
+          "name": "Outbound sheds and loading bays",
+          "note": "Finished goods wait for collection in sheds with wide doors, where cool inside air meets the heat of the apron whenever a vehicle backs up."
+        },
+        {
+          "name": "Chilled halls for food and healthcare stock",
+          "note": "Chilled halls hold food and healthcare products through months of strong sun, and every compressor in them is tested daily."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "An outbound shed serving several customers can hand each customer an account of how its stock was held, in place of a broad claim about the building."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Plants that blend and store coatings, resins and cleaners keep materials with printed limits, and a dated record shows whether a pallet in the zone sat hot for too long."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Makers and stockists of medicines and healthcare products need a dated trace of temperature, which shows a distributor whether a carton stood too long in the warmth."
+        }
+      ],
+      "services": "For a coastal economic zone we would look at multi-point units along long halls, WiFi loggers for rooms near a router, probe-type loggers for freezers and chilled halls, and loggers that ride in a load. Users in RAKEZ can talk through calibration with VEGA Calibrations, our parent company. A WiFi logger needs a router in range and mains power, and for a yard we describe other approaches. Whether anything can be supplied is left until a RAKEZ request has been read.",
+      "visits": "Visits and installation in RAKEZ are not promised. Tell us the business, the halls or rooms involved and a contact via the enquiry form, Call or WhatsApp, and we review the request and say what appears practical.",
+      "approach": "If a request went ahead, we would begin with the hall or store that holds the most heat-sensitive stock, running a multi-point unit along its length and a probe logger at the door, and add humidity reading where cold air meets the outside. A month of readings would show which end of each hall runs warmest.",
+      "faqs": [
+        {
+          "question": "Can a single report describe a long production hall?",
+          "answer": "Yes. A multi-channel logger reads probes spaced along the hall, so one report shows which stretch of the building runs warmest and when."
+        },
+        {
+          "question": "Is it worth tracking incoming materials as well as finished goods?",
+          "answer": "Some ingredients and resins carry temperature limits too, so a record at the intake store shows whether materials reached the line within their stated range."
+        }
+      ],
+      "nearby": [
+        "al-ghail-industrial-area"
+      ],
+      "indexable": true
+    } },
+  { slug: "al-ghail-industrial-area", name: "Al Ghail Industrial Area", citySlug: "ras-al-khaimah", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["veer-pro","rajmudra"], page: {
+      "metaTitle": "Data Loggers in Al Ghail Industrial Area, RAK | Prithvi",
+      "metaDescription": "Data loggers for factories, workshops, stores and warehouses in the Al Ghail Industrial Area of Ras Al Khaimah. Get Solution.",
+      "intro": "The Al Ghail Industrial Area lies in the hinterland of Ras Al Khaimah city, where factories, workshops, stores and warehouses sit on large plots with the mountains rising nearby. For a temperature data logger the interest lies in the ordinary risks of making and keeping goods through hot summers and the odd flooded winter: building products and chemicals with printed limits, food and packaging stock, and general cargo under metal roofs. The text is limited to the stock and rooms that a logger user in Al Ghail could look after. Enquiries about Al Ghail are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Plant finished-goods rooms",
+          "note": "Plants of several kinds hold finished stock in halls that have to stay within range while loading doors swing open and shut."
+        },
+        {
+          "name": "Sealant, coating and building-product stores",
+          "note": "Shelves of sealants, coatings and building products carry limits printed on the tin, and a hot shed can pass them quietly."
+        },
+        {
+          "name": "Food and packaging units",
+          "note": "Units that process or pack food keep chilled rooms and dry stores that are pushed hardest on summer afternoons."
+        },
+        {
+          "name": "Open yards and standing trailers",
+          "note": "Goods wait in yards and in parked trailers, where cargo inside a covered trailer can run far hotter than the shade."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "chemical",
+          "sentence": "Stores of sealants, coatings and cleaners in Al Ghail carry printed ranges, and a dated record shows whether a pallet sat hot for too long."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A warehouse in Al Ghail that holds goods for different owners can give each owner a trace of its own stock, not a general line about the hall."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "A food or packaging unit serving shops and kitchens can show through a log that its chilled room stayed in range for each batch."
+        }
+      ],
+      "services": "For an inland industrial area we would look at multi-point units for long halls where one end runs hotter than the other, WiFi loggers for rooms near a router, probe loggers for chilled rooms and freezers, and loggers that ride in a load. Users in Al Ghail can ask VEGA Calibrations, our parent company, about calibration. In Al Ghail a WiFi logger relies on a router in range and mains power, and for an uncovered yard we explain the other options. Supply is left until a request from Al Ghail has been reviewed.",
+      "visits": "Visits and installation in the Al Ghail Industrial Area are not promised. Hand us the business, the rooms involved and a contact via the enquiry form, Call or WhatsApp, and we review the request and tell you what appears practical.",
+      "approach": "If a request went ahead, we would start with the store that holds the most heat-sensitive stock, placing loggers at floor level and under the roof and one at the door, and fix each body above the likely flood line with its own battery. A few weeks of readings would show where the building runs hottest.",
+      "faqs": [
+        {
+          "question": "Why fix a logger above the flood line near the mountain wadis?",
+          "answer": "Heavy rain in the mountains can send water over the plain and into low rooms, so a body fixed higher with a battery inside keeps the record of what the room went through."
+        },
+        {
+          "question": "Why do big plots and metal roofs push storage temperatures up?",
+          "answer": "A metal roof soaks up the sun and radiates heat into the hall, so a logger among the stock, not on an office wall, records what the goods actually met."
+        }
+      ],
+      "nearby": [
+        "rakez"
+      ],
+      "indexable": true
+    } },
+  { slug: "al-jazirah-al-hamra", name: "Al Jazirah Al Hamra", citySlug: "ras-al-khaimah", areaType: "mixed-use", nearbyIndustries: ["food-beverage","logistics-warehousing","hospitals-blood-banks"], confirmedService: true, hero: ["setu","virat"], page: {
+      "metaTitle": "Data Loggers in Al Jazirah Al Hamra, RAK | Prithvi",
+      "metaDescription": "Data loggers for fish ice stores, shops, kitchens and storerooms in Al Jazirah Al Hamra, on the Ras Al Khaimah coast. Get Solution.",
+      "intro": "Al Jazirah Al Hamra is a coastal district south of Ras Al Khaimah city, known for an old village of coral-stone houses beside the sea, with newer homes, shops and small yards around it. For a temperature data logger the interest lies in whatever its small businesses keep cold or dry: fish landed on the beach, shop coolers, kitchen stores and storerooms, in air that is hot, humid and salty. The page stays with the stock and rooms that a logger user in Al Jazirah Al Hamra could look after. Enquiries about Al Jazirah Al Hamra are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Fishing beaches and ice stores",
+          "note": "Boats land the catch on the sand, where ice stores and cold boxes hold it for the market through the hottest part of the day."
+        },
+        {
+          "name": "Shops, cafes and small kitchens",
+          "note": "Shops, cafes and little restaurants run coolers and freezers that are opened constantly and share heat with the kitchen next door."
+        },
+        {
+          "name": "Heritage and visitor buildings",
+          "note": "Visitor facilities and heritage buildings near the old village keep small stores and fridges in thick-walled rooms."
+        },
+        {
+          "name": "Small yards and storerooms",
+          "note": "Light-industrial yards and storerooms hold goods and parts under roofs that follow the weather outside."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "food-beverage",
+          "sentence": "Fish sellers, cafes and shopkeepers keep goods that spoil quickly in coastal heat, and a record from each ice store or cooler shows when a unit began to warm."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Small storerooms and yards keep goods for local traders, and a logger set among them records the heat and moisture each lot met."
+        },
+        {
+          "slug": "hospitals-blood-banks",
+          "sentence": "A clinic serving the district keeps vaccines in a fridge that needs a steady record, with a phone alert to the person responsible."
+        }
+      ],
+      "services": "For a small coastal district we would look at probe loggers for ice stores, shop coolers and fridges, WiFi loggers for kitchens and storerooms near a router, and humidity-reading units for dry stores. Users here can raise calibration with VEGA Calibrations, our parent company. A WiFi logger needs a router in range and a power supply, and for a boat or a vehicle we describe other routes. Any statement on supply waits until a request has been read.",
+      "visits": "A visit or an installation in Al Jazirah Al Hamra is not promised. Let us know the business, the units to be watched and a contact on the enquiry form, Call or WhatsApp, and we look over the request and say what seems practical.",
+      "approach": "If a request went ahead, we would start with the ice store or cooler whose contents are hardest to replace, placing a probe in the middle of the unit rather than at its door, and add a second point in a dry store. The first weeks of data would show how door openings and power cuts affect the range.",
+      "faqs": [
+        {
+          "question": "Can a fish seller on this coast keep a record of an ice store?",
+          "answer": "Yes. A probe logger in the store records through day and night, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for a buyer."
+        },
+        {
+          "question": "Why should the probe sit among the contents instead of on the door?",
+          "answer": "Air by the door swings with every opening, so a probe among the stock records what the goods actually experienced."
+        }
+      ],
+      "nearby": [
+        "rakez"
       ],
       "indexable": true
     } },

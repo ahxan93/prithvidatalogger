@@ -20443,7 +20443,7 @@ export const locations: LegacyLocationNode[] = [
       {
         question: "Do you cover emirates other than Dubai?",
         answer:
-          "Dubai Emirate, Abu Dhabi Emirate and Sharjah Emirate each have their own page with city and area pages beneath. For another emirate, send the site and what you store through the enquiry form, Call or WhatsApp, and we reply with what looks suitable.",
+          "Abu Dhabi, Dubai, Sharjah, Ajman, Umm Al Quwain and Ras Al Khaimah each have their own emirate page with city and area pages beneath. For another emirate, send the site and what you store through the enquiry form, Call or WhatsApp, and we reply with what looks suitable.",
       },
       {
         question: "Can a hotel group see every property on one dashboard?",
@@ -20459,6 +20459,9 @@ export const locations: LegacyLocationNode[] = [
     listing: [
       { slug: "dubai-emirate", text: "Dubai's creek city and its Jebel Ali, Dubai Investments Park, Al Quoz, Ras Al Khor, Al Qusais and Al Aweer districts, in hot, humid Gulf summers." },
       { slug: "sharjah-emirate", text: "Sharjah's creek city, Khor Fakkan and Kalba on the east coast, and the Sajaa, SAIF Zone, Hamriyah and Muwaileh districts, in hot, humid weather." },
+      { slug: "ajman-emirate", text: "Ajman's creek city, the Al Jurf Industrial Area and the Ajman Free Zone, in hot, humid Gulf summers." },
+      { slug: "umm-al-quwain-emirate", text: "Umm Al Quwain's mangrove-lagoon town and its free-trade zone beside the Gulf, in humid summer heat." },
+      { slug: "ras-al-khaimah-emirate", text: "Ras Al Khaimah's creek city, RAKEZ, the Al Ghail Industrial Area and Al Jazirah Al Hamra, below the Hajar mountains." },
       { slug: "abu-dhabi-emirate", text: "Abu Dhabi's island city, Mussafah, ICAD, KIZAD, Khalifa Port and Ghantoot, in very hot, humid Gulf heat." },
     ],
     indexable: true,
@@ -21487,6 +21490,428 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Kalba | Prithvi",
             metaDescription:
               "Data loggers for Kalba's fish ice boxes, farm produce stores, village shops and clinics beside the mangrove coast. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "ajman-emirate",
+        name: "Ajman Emirate",
+        type: "state",
+        intro:
+          "Ajman Emirate is a small coastal emirate on the Arabian Gulf, tucked between its neighbours, where a compact city of creek, fishing harbour and dhow-building yards sits beside busy residential and commercial districts. Inland, industrial districts hold workshops, light factories and warehouses, and a free zone stands near the port. Fishing boats and traditional dhows are still part of daily life here. The coast is very hot and humid in summer, the inland districts hot and dusty, and winters are mild. Food, medicines, chemicals and building materials wait in stores and vehicles in such heat. The pages below cover the city and two districts where a temperature record would help.",
+        localIndustries: [
+          "Light industry and workshops",
+          "Food import, fish and market trade",
+          "Free-zone and port-side storage",
+          "Clinics, hospitals and pharmacies",
+        ],
+        citiesServed: ["Ajman"],
+        supportNote:
+          "Enquiries from Ajman Emirate are handled through the enquiry form, Call or WhatsApp. Say which district, which rooms and how they are cooled, and we answer with what looks suitable here.",
+        faqs: [
+          {
+            question: "Which places in Ajman Emirate have a page?",
+            answer:
+              "Ajman has a city page, and the Al Jurf Industrial Area and the Ajman Free Zone have area pages under it. Another district of Ajman can be raised through the enquiry form.",
+          },
+          {
+            question: "Why does a small emirate with short distances still need storage records?",
+            answer:
+              "Distances are short but the heat is not, and goods left in a parked vehicle or an unshaded yard between two points can warm sharply, so a continuous record shows where the warm spells occurred.",
+          },
+          {
+            question: "Does a logger keep recording through a cooling failure?",
+            answer:
+              "Yes. It keeps recording on its own battery and stores the readings, so the hours when cooling or power failed are still on record when the site is next connected.",
+          },
+        ],
+        listing: [
+          { slug: "ajman", text: "A small Gulf city of creek, fishing harbour and dhow yards beside Sharjah, with markets, clinics and workshops in hot, humid summers." },
+        ],
+        areaListing: [
+          { slug: "al-jurf-industrial-area", text: "An industrial district inland from the city, with workshops, light factories, stores and warehouses on a dense grid." },
+          { slug: "ajman-free-zone", text: "A free zone near the city's port, with offices, warehouse units and light industry close to the sea." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "ajman",
+            name: "Ajman",
+            type: "city",
+            intro:
+              "Ajman is a small Gulf coast city beside Sharjah, built around a creek and a fishing harbour, and a temperature data logger here serves a compact city of markets, clinics, universities and workshops in long, hot, humid summers. Traditional dhows are still built and repaired in the yards beside the water, fishing boats land their catch each morning, and the old fort and museum stand near the corniche. Inland, industrial districts hold workshops, light factories and warehouses, and a free zone sits close to the port. Evening crowds fill the corniche cafes in the cooler months. Hospitals, schools, hotels and restaurants add to the rooms that need a steady record. Enquiries from Ajman are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "Summer afternoons are very hot and the air is damp, nights stay warm, and sea air carries salt onto every shed, so ice rooms, shop coolers and clinic refrigerators work through months of strain. Dust and haze come in some seasons, and a cooling unit that loses power on an August afternoon warms fast while vehicles standing in the sun reach far higher temperatures than the shade.",
+            areas: [
+              {
+                name: "Fish landings, ice stores and the fish market",
+                note: "Boats land their catch at the harbour, where ice stores and cold rooms keep it for the market in warm, salty air.",
+              },
+              {
+                name: "Dhow yards and waterfront workshops",
+                note: "Yards and workshops beside the creek hold timber, paints, resins and tools, and materials with a labelled range suffer when summer heat is followed by a damp night.",
+              },
+              {
+                name: "Clinics, hospitals and universities",
+                note: "Hospitals, clinics and university laboratories keep vaccines, reagents and samples in refrigerators and freezers that must hold a range through power interruptions.",
+              },
+              {
+                name: "Markets, supermarkets and restaurant kitchens",
+                note: "Shops, supermarkets and restaurants run walk-in coolers, freezers and display cabinets that are opened constantly through the day.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Ajman fish sellers, supermarkets and restaurants hold goods that spoil quickly in coastal heat, and a record from each ice store shows when a cold box began to warm.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Ajman hospitals and clinics hold vaccines and blood products to strict ranges, and a phone alert reaches the person on duty if a refrigerator drifts at night.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies and medicine distributors in Ajman store stock to labelled ranges, and a dated log shows how a room behaved through the hottest weeks.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Warehouses and free-zone units in Ajman hold goods for owners elsewhere, and a reading for each bay shows how long a lot stood in warm air before it was released.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels read an ice store at the door end and the far wall, showing whether the chill reaches the back boxes.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable fits a ward or pharmacy refrigerator in Ajman and leaves the way staff use the unit unchanged.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "With humidity read beside temperature, one unit shows when salty damp has entered a dry store that looks fine on a thermometer.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can an Ajman fish seller or supermarket use temperature loggers?",
+                answer:
+                  "A logger in each ice store, cooler and freezer records through the day and night, and a report for any period can be exported in PDF, Excel or CSV form for a buyer or an inspector.",
+              },
+              {
+                question: "Why does a store near the creek need a humidity reading?",
+                answer:
+                  "Warm, damp air condenses on cool surfaces and softens cartons, so a humidity trend beside the temperature shows moisture that a thermometer alone would miss.",
+              },
+              {
+                question: "What happens to the record if the power fails in Ajman?",
+                answer:
+                  "Yes, the logger carries on from its battery and holds the readings, so an outage in Ajman leaves a complete record that can be read when the site is back online.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Ajman clinics?",
+                answer:
+                  "Calibration of loggers and probes for Ajman clinics is looked after by VEGA Calibrations, our parent company; share the model and the range and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "sharjah", name: "Sharjah" },
+              { slug: "dubai", name: "Dubai" },
+              { slug: "umm-al-quwain", name: "Umm Al Quwain" },
+            ],
+            metaTitle: "Temperature Data Loggers in Ajman | Prithvi",
+            metaDescription:
+              "Data loggers for Ajman's fish ice stores, supermarkets, clinics, workshops and free-zone warehouses in humid Gulf heat. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "umm-al-quwain-emirate",
+        name: "Umm Al Quwain Emirate",
+        type: "state",
+        intro:
+          "Umm Al Quwain Emirate holds a quiet stretch of the Arabian Gulf coast, with a town on a narrow spit of land, a sheltered lagoon lined with mangroves, fishing boats on the shore and farmland and desert behind. The coast is very hot and humid in summer, the inland strip hot and dry, and nights in winter are cool. Fishermen, small farms, shops and clinics all keep food and medicines that need steady storage, while a free-trade zone near the port holds warehouse units and light industry. The pages below describe the town and the zone, with the rooms where a temperature record would help.",
+        localIndustries: [
+          "Fishing and ice stores",
+          "Small farms and produce",
+          "Free-zone and light-industrial storage",
+          "Clinics and pharmacies",
+        ],
+        citiesServed: ["Umm Al Quwain"],
+        supportNote:
+          "Enquiries from Umm Al Quwain Emirate are handled through the enquiry form, Call or WhatsApp. Tell us the town, what you store and how it is cooled, and we reply with what looks suitable for the site.",
+        faqs: [
+          {
+            question: "Which places in Umm Al Quwain Emirate have a page?",
+            answer:
+              "Umm Al Quwain has a city page, and the UAQ Free Trade Zone has an area page under it. Another town in the emirate can be put to us through the enquiry form, and further pages follow only when they can be written from confident facts.",
+          },
+          {
+            question: "Why does a lagoon and mangrove coast matter for storage?",
+            answer:
+              "Still, damp air above the lagoon and salt on the breeze reach every shed and cold box, so a humidity record beside the temperature shows moisture that a thermometer alone would miss.",
+          },
+          {
+            question: "Can one logger serve a small clinic or shop?",
+            answer:
+              "One logger with a phone alert can watch a vaccine refrigerator or a shop cooler if a router is within reach, and more points can be added to the same account later.",
+          },
+        ],
+        listing: [
+          { slug: "umm-al-quwain", text: "A quiet Gulf coast town on a narrow spit beside a mangrove lagoon, with fishing, small farms, shops and clinics in humid heat." },
+        ],
+        areaListing: [
+          { slug: "uaq-free-trade-zone", text: "A free-trade zone near the town's port, with warehouse units, offices and light industry beside the sea." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "umm-al-quwain",
+            name: "Umm Al Quwain",
+            type: "city",
+            intro:
+              "Umm Al Quwain is a quiet town on a narrow spit of land on the Arabian Gulf coast, curled around a shallow lagoon lined with mangroves, and a temperature data logger here serves a small place of fishing boats, farms, shops and clinics in hot, humid air. Fishermen land their catch on the shore of the lagoon and the open sea, small farms grow vegetables and fodder inland, and a free-trade zone near the port holds warehouse units and light industry. A hospital and clinics serve the town and the villages around. Evenings are busy at the lagoon when the heat finally eases. Summers are long and damp. Enquiries from Umm Al Quwain are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The coast is very hot and humid in summer, the lagoon adds still, damp air, and salt reaches every shed, while rain is uneven and sometimes heavy, so ice rooms and clinic refrigerators work through long warm spells. Shops that open their coolers all day lose cold air with every customer, and the quiet roads mean a failed unit can go unnoticed overnight.",
+            areas: [
+              {
+                name: "Fishing boats and ice stores",
+                note: "Boats land fish on the lagoon shore and the open beach, where ice stores and cold boxes keep the catch for market in the heat of the day.",
+              },
+              {
+                name: "Small farms and produce sheds",
+                note: "Small farms keep vegetables and fodder in sheds and cool boxes beside the plots, where the hours after picking decide how much is lost.",
+              },
+              {
+                name: "Shops, supermarkets and food stores",
+                note: "Shops serve the town and surrounding villages with drinks, dairy products and packaged food from coolers opened constantly through the day.",
+              },
+              {
+                name: "Hospital, clinics and pharmacies",
+                note: "A hospital, clinics and pharmacies hold vaccines and medicines in refrigerators that must survive hot afternoons and power cuts.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Fish sellers, growers and shopkeepers in Umm Al Quwain hold goods that spoil fast in coastal heat, and a record from each cold box shows when it began to warm.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The Umm Al Quwain hospital and clinics hold vaccines for the town and its villages, and a phone alert reaches the person on duty if a refrigerator drifts.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Umm Al Quwain keep stock in rooms with labelled ranges, and a dated record shows how a room behaved through the hottest weeks and any outage.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods held in free-zone units near the port meet salty, humid air, and a logger placed among them records the heat and moisture each lot met.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a farm shed or a pantry at floor, shelf and door height, showing which level warms first.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short lead slips into a clinic or shop refrigerator in Umm Al Quwain and leaves daily routines unchanged.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "With humidity shown beside temperature, one unit shows when damp from the lagoon air has entered a dry-goods store.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a fish seller in Umm Al Quwain keep a record of an ice store?",
+                answer:
+                  "Yes. A probe in the store logs through day and night, and a report for the dates of one lot can be exported as PDF, Excel or CSV for a buyer.",
+              },
+              {
+                question: "Is one logger enough for a single refrigerator in a small shop?",
+                answer:
+                  "One logger with a phone alert is enough for a single refrigerator provided a router is nearby, and the account can take more points later.",
+              },
+              {
+                question: "How would an enquiry from Umm Al Quwain be handled?",
+                answer:
+                  "Give the place, what you store and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Umm Al Quwain.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Umm Al Quwain?",
+                answer:
+                  "Calibration of loggers and probes for Umm Al Quwain sites is looked after by VEGA Calibrations, our parent company; share the model and range and we explain the options.",
+              },
+            ],
+            nearby: [
+              { slug: "ajman", name: "Ajman" },
+              { slug: "ras-al-khaimah", name: "Ras Al Khaimah" },
+            ],
+            metaTitle: "Temperature Data Loggers in Umm Al Quwain | Prithvi",
+            metaDescription:
+              "Data loggers for Umm Al Quwain's fish ice stores, small-farm produce sheds, shops and clinics beside the mangrove lagoon. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "ras-al-khaimah-emirate",
+        name: "Ras Al Khaimah Emirate",
+        type: "state",
+        intro:
+          "Ras Al Khaimah Emirate is the northernmost of the emirates on the Arabian Gulf coast, a long coastal plain with a creek-split city, resort islands, quarries and factories, backed by the rugged Hajar mountains. The city has an old town and a newer commercial side, industrial zones hold ceramics, building materials, packaging and pharmaceutical plants, and fishing and heritage villages line the shore to the south. The coast is very hot and humid in summer, the mountains cooler, and winters are mild with occasional heavy rain. Food, medicines, chemicals and building products wait in stores and vehicles in such heat. The pages below cover the city and the districts where a temperature record would help.",
+        localIndustries: [
+          "Manufacturing and building materials",
+          "Pharmaceutical and food production",
+          "Resort and hotel kitchens",
+          "Warehousing and port-side storage",
+        ],
+        citiesServed: ["Ras Al Khaimah"],
+        supportNote:
+          "Enquiries from Ras Al Khaimah Emirate are handled through the enquiry form, Call or WhatsApp. Tell us which part of the emirate, which rooms and how they are cooled, and we answer with what looks suitable.",
+        faqs: [
+          {
+            question: "Which places in Ras Al Khaimah Emirate have a page?",
+            answer:
+              "Ras Al Khaimah has a city page, and RAKEZ, the Al Ghail Industrial Area and Al Jazirah Al Hamra have area pages under it. A town elsewhere in the emirate can be raised through the enquiry form.",
+          },
+          {
+            question: "Why would mountain rain matter for a coastal plain store?",
+            answer:
+              "Heavy rain in the mountains sends water down the wadis to the plain, and low rooms can flood and lose power, so a logger mounted above the likely water line with its own battery keeps the record of what happened.",
+          },
+          {
+            question: "Can a plant watch many rooms from one login?",
+            answer:
+              "Yes. Each room is a separate point on one dashboard, alerts go to the person responsible for it, and a manager sees every room together with reports that can be exported.",
+          },
+        ],
+        listing: [
+          { slug: "ras-al-khaimah", text: "A creek-split Gulf city below the Hajar mountains, with an old town, resorts, factories, quarries and warehouses in hot, humid summers." },
+        ],
+        areaListing: [
+          { slug: "rakez", text: "An economic zone of industrial plots, warehouses and offices on the coastal plain, set up for manufacturing and trade." },
+          { slug: "al-ghail-industrial-area", text: "An industrial area in the city's hinterland, with factories, workshops, stores and warehouses on large plots." },
+          { slug: "al-jazirah-al-hamra", text: "A coastal district south of the city with a heritage old town, fishing and a growing number of stores and light-industrial yards." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "ras-al-khaimah",
+            name: "Ras Al Khaimah",
+            type: "city",
+            intro:
+              "Ras Al Khaimah is the northernmost of the Emirates' Gulf coast cities, split by a tidal creek and backed by the rugged Hajar mountains, and a temperature data logger here serves a city of factories, resorts, hospitals and warehouses in hot, humid summers. The old town and its fort stand on one side of the creek and newer districts on the other, resort islands lie off the shore, and quarries and industrial zones in the plain behind make ceramics, building materials, packaging and medicines. Visitors come for the beaches, the mountain roads and the resorts, which adds to the kitchens. Mountain wadis bring heavy rain to the plain in some winters. Enquiries from Ras Al Khaimah are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "Summer heat and humidity peak together on the coast, the mountains behind are cooler, and winter rain in the wadis can reach low rooms across the plain, so stores face heat, damp and occasional flooding in turn. Quarry dust settles on equipment, metal-roofed sheds without cooling reach extreme temperatures, and a cooling unit that fails at the height of summer warms fast.",
+            areas: [
+              {
+                name: "Factories and finished-goods stores",
+                note: "Plants making ceramics, packaging, building products and medicines keep finished stock in halls that must hold a range while loading doors open and shut.",
+              },
+              {
+                name: "Warehouses and port-side stores",
+                note: "Warehouses on the plain and near the port hold materials and consumer goods under metal roofs that heat up quickly in the sun.",
+              },
+              {
+                name: "Resort and hotel kitchens",
+                note: "Resorts and hotels on the islands and the shore run walk-in coolers, freezers and dry stores that work hardest when the rooms are fullest.",
+              },
+              {
+                name: "Hospitals, clinics and pharmacies",
+                note: "Hospitals, clinics and pharmacies keep vaccines, insulin and medicines in refrigerators that must hold their range through power interruptions.",
+              },
+            ],
+            industries: [
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine makers and distributors in Ras Al Khaimah store materials and finished stock to labelled ranges, and a dated log shows how a room behaved through the hottest weeks.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Makers and stockists of coatings, adhesives and cleaning products in Ras Al Khaimah keep materials with labelled ranges, and a dated record shows whether a pallet stood hot for too long.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Resort kitchens, caterers and food suppliers in Ras Al Khaimah hold chilled and frozen stock, and a record from each cooler shows when a compressor began to struggle.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Warehouses in Ras Al Khaimah hold goods for owners elsewhere, and a reading for each bay shows exactly how long a lot stood in warm air before it was released.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels cover a large warehouse across racks, dock doors and floor positions, so one report shows how the whole hall behaves.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable fits a ward or pharmacy refrigerator in Ras Al Khaimah and leaves daily routines unchanged.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a hotel pantry or a chilled hall at several heights and by the door, showing which corner warms first.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Ras Al Khaimah factory watch several halls from one login?",
+                answer:
+                  "Yes. Every hall or room reports to one dashboard, each alert goes to whoever looks after that room, and one combined report for any chosen period can be exported.",
+              },
+              {
+                question: "Why mount a logger above the likely water line after mountain rain?",
+                answer:
+                  "Flood water from the wadis can reach low rooms and cut the supply, so a body mounted higher, with a battery inside, keeps the record of what the room went through.",
+              },
+              {
+                question: "How would an enquiry from Ras Al Khaimah be handled?",
+                answer:
+                  "Send the plant or store, the rooms and a contact through the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Ras Al Khaimah.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Ras Al Khaimah laboratories?",
+                answer:
+                  "Calibration of loggers and probes for Ras Al Khaimah laboratories is looked after by VEGA Calibrations, our parent company; share the model and range and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "umm-al-quwain", name: "Umm Al Quwain" },
+              { slug: "ajman", name: "Ajman" },
+              { slug: "fujairah", name: "Fujairah" },
+            ],
+            metaTitle: "Temperature Data Loggers in Ras Al Khaimah | Prithvi",
+            metaDescription:
+              "Data loggers for Ras Al Khaimah's factories, warehouses, resort kitchens and clinics between the Gulf and the Hajar mountains. Get Solution.",
             indexable: true,
           },
         ],

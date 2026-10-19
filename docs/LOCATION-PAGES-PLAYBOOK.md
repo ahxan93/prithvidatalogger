@@ -376,6 +376,15 @@
 | SAIF Zone (`saif-zone`, area of Sharjah) | UAE | Low warehouse units, parts and cosmetics stock rooms, medical product stores (described generally, no operating status) | Electronics, medicines, logistics | Hot summers | Muwaileh |
 | Hamriyah Free Zone (`hamriyah-free-zone`, area of Sharjah) | UAE | Chemical and coatings stores, metal yards, warehouses, canteens (described generally) | Chemicals, logistics, food | Hot, humid, salty coast | Sajaa Industrial Area |
 | Muwaileh (`muwaileh`, area of Sharjah) | UAE | Shops and supermarkets, restaurants, clinics and pharmacies, workshop storerooms | Food, medicines, logistics | Hot summers | Sajaa Industrial Area |
+| Ajman (`ajman`, city, Ajman Emirate) | UAE | Fish ice stores, dhow yards and waterfront workshops, clinics and universities, markets and kitchens | Food, medicines, logistics | Hot, humid creek coast | Sharjah, Dubai, Umm Al Quwain |
+| Al Jurf Industrial Area (`al-jurf-industrial-area`, area of Ajman) | UAE | Light factories, paint and sealant stores, food-distribution rooms, warehouses | Chemicals, logistics, food | Humid summers, metal roofs | Ajman Free Zone |
+| Ajman Free Zone (`ajman-free-zone`, area of Ajman) | UAE | Warehouse units, electronics and household-goods rooms, food and packaging rooms (described generally, no operating status) | Electronics, food, logistics | Hot, humid, salty | Al Jurf Industrial Area |
+| Umm Al Quwain (`umm-al-quwain`, city, Umm Al Quwain Emirate) | UAE | Fish ice stores, small-farm produce sheds, shops, clinics | Food, medicines, logistics | Hot, humid lagoon coast | Ajman, Ras Al Khaimah |
+| UAQ Free Trade Zone (`uaq-free-trade-zone`, area of Umm Al Quwain) | UAE | Warehouse units, workshops, food and packaging stores (described generally, no operating status) | Logistics, food, chemicals | Hot, humid, salty | none |
+| Ras Al Khaimah (`ras-al-khaimah`, city, Ras Al Khaimah Emirate) | UAE | Factories, port-side warehouses, resort kitchens, hospitals and pharmacies | Pharmaceuticals, chemicals, food | Hot, humid coast, mountain rain | Umm Al Quwain, Ajman, Fujairah (not yet built) |
+| RAKEZ (`rakez`, area of Ras Al Khaimah) | UAE | Plant halls, ingredient stores, outbound sheds, chilled halls (described generally, no operating status) | Logistics, chemicals, medicines | Hot summers | Al Ghail Industrial Area |
+| Al Ghail Industrial Area (`al-ghail-industrial-area`, area of Ras Al Khaimah) | UAE | Plant finished-goods rooms, sealant and building-product stores, food and packaging units, yards | Chemicals, logistics, food | Hot, with occasional wadi flooding | RAKEZ |
+| Al Jazirah Al Hamra (`al-jazirah-al-hamra`, area of Ras Al Khaimah) | UAE | Fishing beaches and ice stores, shops and cafes, heritage buildings, small yards | Food, logistics, clinics | Hot, humid, salty coast | RAKEZ |
 | Jazan Economic City (`jazan-economic-city`, area of Jazan) | Saudi Arabia | Plant chemical and drum stores, spares warehouses and contractor yards, port yards, camp kitchens and clinics | Chemical stores, contract warehousing, camp catering | Extreme heat and humidity, salty air | none |
 | Jeddah (`jeddah`) | Saudi Arabia | Industrial and port logistics zones | Port logistics, food import cold chain, hospitals | Hot, humid coastal | Riyadh, Dammam |
 | Dammam (`dammam`) | Saudi Arabia | Industrial and port logistics zones | Industrial & chemical, port logistics, food | Hot, humid Gulf coast | Riyadh, Bahrain, Jeddah |
@@ -626,3 +635,7 @@ City, all areas of Dubai. Airport, free-zone and logistics pages say nothing abo
 UAE Batch 5 (Sharjah Emirate): hub, Sharjah, Khor Fakkan, Kalba and the areas Sajaa Industrial Area, SAIF Zone, Hamriyah Free Zone and Muwaileh.
 SAIF Zone and the Sharjah Airport International Free Zone are the same free zone, so one page (SAIF Zone) was built and the second name skipped
 rather than writing a near-duplicate. No border or jurisdiction statement is made for the east-coast towns.
+
+UAE Batch 6 (Ajman, Umm Al Quwain, Ras Al Khaimah): three emirate hubs, cities Ajman, Umm Al Quwain and Ras Al Khaimah, and the areas Al Jurf
+Industrial Area, Ajman Free Zone, UAQ Free Trade Zone, RAKEZ, Al Ghail Industrial Area and Al Jazirah Al Hamra. Not built, for lack of confident,
+distinguishing local facts: Falaj Al Mualla.
