@@ -11625,21 +11625,21 @@ export const locations: LegacyLocationNode[] = [
         name: "Andhra Pradesh",
         type: "state",
         intro:
-          "Andhra Pradesh stretches along a long, hot and humid coast on the Bay of Bengal, and its storage follows the ports, the rivers and the railway between Chennai and Howrah. Visakhapatnam in the north-east holds a major port, a steel works, a shipyard, a refinery and pharmaceutical estates; Vijayawada on the Krishna is the trading and transport junction of the coastal belt; Guntur stores chilli, cotton and tobacco; and Tirupati combines pilgrimage, hospitality and electronics. The state is separate from Telangana, which has its own pages. Cyclones, a heavy monsoon and long hot spells mean that cold rooms, godowns and hospital refrigerators face storms and outages as well as simple heat. Open a city below for its estates, its stores and the loggers we suggest.",
+          "Andhra Pradesh stretches along a long, hot and humid coast on the Bay of Bengal, and its storage follows the ports, the rivers and the railway between Chennai and Howrah. Visakhapatnam in the north-east holds a major port, a steel works, a shipyard, a refinery and pharmaceutical estates; Vijayawada on the Krishna is the trading and transport junction of the coastal belt; Guntur stores chilli, cotton and tobacco; Tirupati combines pilgrimage, hospitality and electronics, and farther along the coast Nellore, Kakinada and the planned city of Sri City add fish farming, ports and factories. The state is separate from Telangana, which has its own pages. Cyclones, a heavy monsoon and long hot spells mean that cold rooms, godowns and hospital refrigerators face storms and outages as well as simple heat. Open a city below for its estates, its stores and the loggers we suggest.",
         localIndustries: [
           "Port logistics and seafood export",
           "Pharmaceutical manufacturing",
           "Spice, grain and cold storage",
           "Hospitals and pilgrim hospitality",
         ],
-        citiesServed: ["Visakhapatnam", "Vijayawada", "Guntur", "Tirupati"],
+        citiesServed: ["Visakhapatnam", "Vijayawada", "Guntur", "Tirupati", "Nellore", "Sri City", "Kakinada"],
         supportNote:
           "Supply, installation support and site visits for Andhra Pradesh sites are arranged from our Mumbai office. Tell us the port, the estate or the town and what the rooms hold.",
         faqs: [
           {
             question: "Which Andhra Pradesh locations have a page?",
             answer:
-              "Visakhapatnam, Vijayawada, Guntur and Tirupati each have a city page. Any other town in the state can be added by writing to us through the enquiry form.",
+              "Visakhapatnam, Vijayawada, Guntur, Tirupati, Nellore, Sri City and Kakinada each have a city page. Any other town in the state can be added by writing to us through the enquiry form.",
           },
           {
             question: "Why should a cold store plan for a cyclone season?",
@@ -11657,6 +11657,9 @@ export const locations: LegacyLocationNode[] = [
           { slug: "vijayawada", text: "The Krishna-side trading and rail junction, with Autonagar workshops, grain, spice and mango markets, cold stores and hospitals." },
           { slug: "guntur", text: "The chilli city of the delta, with cold stores, tobacco and cotton godowns, spinning and rice mills and a teaching hospital." },
           { slug: "tirupati", text: "The pilgrim city below the Tirumala hills, with hotel kitchens, a medical institute, laboratories and electronics estates near Renigunta." },
+          { slug: "nellore", text: "A Penna-side district of shrimp and fish farms, seafood plants, rice mills, granite works and the Krishnapatnam port." },
+          { slug: "sri-city", text: "A planned industrial city on the Tamil Nadu border, with electronics, auto-part, appliance and food plants and contract warehouses." },
+          { slug: "kakinada", text: "A Godavari-delta port of rice and fertiliser, gas-fed works, an economic zone and shrimp and fish processors." },
         ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,
@@ -12045,6 +12048,296 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Tirupati | Prithvi",
             metaDescription:
               "WiFi and GSM temperature and humidity data loggers for Tirupati's pilgrim kitchens, hospitals, laboratories and electronics estates. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "nellore",
+            name: "Nellore",
+            type: "city",
+            intro:
+              "Nellore lies on the Penna river on the southern coast of Andhra Pradesh, and a temperature data logger here serves a district known for fish and shrimp farming. Ponds along the coast and the creeks supply hatcheries, ice plants and seafood processors that freeze, pack and export the catch, while rice mills hull the paddy of the Penna delta and granite, mica and quartz are quarried and dressed in the district. Krishnapatnam port, on the coast to the north-east, handles coal and containers, and a power station stands near it. Lorries leave for ports and airports at all hours. Hospitals serve the town and the villages around. Prithvi supplies WiFi loggers for plant rooms with a network and GSM loggers for reefers, farms and distant sheds.",
+            climateAngle:
+              "The coast is hot and humid for most of the year, the north-east monsoon brings heavy rain and cyclone weather in the late months, and power cuts follow storms, so ice plants and cold rooms are tested exactly when roads are cut.",
+            areas: [
+              {
+                name: "Shrimp and fish processing plants",
+                note: "Processors clean, grade, freeze and pack the catch of the coastal ponds, with ice rooms, blast freezers and cold stores that must hold their limits through every shift.",
+              },
+              {
+                name: "Hatcheries and farm stores",
+                note: "Hatcheries and feed stores along the coast hold seed, feed and medicines that spoil in heat, in sheds far from towns and from any router.",
+              },
+              {
+                name: "Rice mills and granite works",
+                note: "Mills on the edge of the town hull and store rice in godowns that must stay dry, while stone works in the district keep chemicals and polishing materials in open sheds.",
+              },
+              {
+                name: "Krishnapatnam port side",
+                note: "Warehouses and yards near the port hold cargo that waits for a ship or a truck, in salty, humid air and sun.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Seafood processors and exporters hold frozen and chilled product that must stay within limits from the plant to the container, and a record for each lot answers an overseas buyer who asks how it was kept.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Reefer lorries carry the catch to ports and airports, and a GSM logger placed with the load records every hour of the journey, so a delayed vehicle leaves a clear trace.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Stone-dressing and processing works keep resins, abrasives and bagged material with printed storage limits, and an alert from a hot shed lets the storekeeper act in time.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals in the town and the district hold vaccines and blood units that must survive cyclone-season outages, and an alert on a phone reaches the duty staff at once.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels watch a freezer or a cold store at the door and at the back, which shows whether the cold reaches the far wall of a long chamber.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity and temperature at one point suit a rice godown or a feed store, where damp coastal air is what harms the stock.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a reefer lorry and reports from hatcheries and farm stores where no Wi-Fi network exists.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How can a logger help a shrimp exporter based in Nellore?",
+                answer:
+                  "Loggers in the ice room, freezer and cold store record the whole chain, and a report for the dates of one lot can be exported as PDF, Excel or CSV for the buyer abroad.",
+              },
+              {
+                question: "Can a freezer failure on a cyclone night be caught early?",
+                answer:
+                  "Loggers keep recording on their batteries and send an alert for a rising reading or a lost mains supply to the named person, so a failing compressor is found before a night's catch is lost.",
+              },
+              {
+                question: "Do you travel to farms and plants outside the town?",
+                answer:
+                  "Give us the place, the plant or farm and a person to meet through the enquiry form, WhatsApp or a call, and we plan a route that covers nearby sites on one trip.",
+              },
+              {
+                question: "Can calibration be arranged for a Nellore seafood plant?",
+                answer:
+                  "Calibration of loggers and probes, and temperature mapping of a cold store, come from VEGA Calibrations, our parent company, and can be booked with the supply.",
+              },
+            ],
+            nearby: [
+              { slug: "tirupati", name: "Tirupati" },
+              { slug: "sri-city", name: "Sri City" },
+              { slug: "guntur", name: "Guntur" },
+            ],
+            metaTitle: "Temperature Data Loggers in Nellore | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Nellore's seafood plants, hatcheries, rice mills and Krishnapatnam port stores. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "sri-city",
+            name: "Sri City",
+            type: "city",
+            intro:
+              "Sri City is a planned industrial city on the border between Andhra Pradesh and Tamil Nadu, laid out with wide roads, utilities and separate zones for factories, and a temperature data logger here serves a campus-style estate rather than an old town. Manufacturers of electronics, automotive parts, consumer goods, appliances, packaged food and healthcare products stand on large plots, some in a special economic zone and some outside it, with warehouses and logistics firms beside them. Chennai and its ports lie not far to the south, and Tirupati is the nearest large city. Many plants are owned by firms headquartered abroad, so customers expect records. Prithvi supplies WiFi loggers for halls with a network and GSM loggers for trucks, yards and stores.",
+            climateAngle:
+              "The plain is hot and humid with a strong sun for most of the year, the north-east monsoon brings heavy rain in the late months, and cyclone weather can cut power, so large halls swing between stifling heat and damp.",
+            areas: [
+              {
+                name: "Special economic zone plants",
+                note: "Factories in the bonded zone make electronics and consumer goods for export, with component stores, clean rooms and finished-goods halls held to written conditions.",
+              },
+              {
+                name: "Domestic tariff area plants",
+                note: "Plants outside the zone make automotive parts, appliances and packaged food, in tall halls and wide yards where roofs trap the afternoon heat.",
+              },
+              {
+                name: "Warehouses and logistics parks",
+                note: "Contract warehouses hold parts and goods for several customers in one shed, with separate bays that need their own records.",
+              },
+              {
+                name: "Utility, canteen and clinic buildings",
+                note: "Canteens, clinics and utility rooms across the campus keep cold rooms, medicine fridges and electrical panels that serve thousands of staff.",
+              },
+            ],
+            industries: [
+              {
+                slug: "electronics",
+                sentence:
+                  "Component and appliance makers keep boards, sensors and assemblies in dry, steady rooms, and a humidity trend lets a quality team show a customer that a store did not drift.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Makers of packaged food and beverages hold ingredients and cartons in warm halls, and canteen kitchens serve whole shifts from walk-in coolers that must not fail.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Healthcare and personal-care firms keep raw materials and finished packs in controlled rooms, and a dated log answers an audit by a customer abroad.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Contract operators hold goods for several customers at once, and a separate reading for each bay lets the operator export a report for the customer whose goods stood there.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels cover a tall warehouse or a production hall at several heights and positions, so one report shows where the heat gathers under the roof.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels give a quality team a paired record from one device, such as a probe at the door and one at the back of a component store.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity and temperature at one point suit an electronics store or a packaging hall, where damp air is the danger.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Sri City warehouse give each customer a report for its own bay?",
+                answer:
+                  "Yes. Each bay is its own point on the dashboard with separate alert contacts, and a report for that bay and period can be exported when the customer asks.",
+              },
+              {
+                question: "Can plants in Sri City and in Chennai be watched on one dashboard?",
+                answer:
+                  "Yes. Each plant is a site on one account with its own alert recipients, so a manager sees factories in both states in a single list and can export a report for any period.",
+              },
+              {
+                question: "How are visits arranged inside a planned campus with gate rules?",
+                answer:
+                  "Send the plant, the plot number and a person to meet through the enquiry form, WhatsApp or a call. Tell us about passes, safety briefings and protective gear, and we plan the visit around them.",
+              },
+              {
+                question: "Who calibrates the loggers used in a Sri City plant?",
+                answer:
+                  "VEGA Calibrations, our parent company, can calibrate the loggers and carry out temperature mapping of a store, and the work can be planned with the first visit.",
+              },
+            ],
+            nearby: [
+              { slug: "tirupati", name: "Tirupati" },
+              { slug: "nellore", name: "Nellore" },
+              { slug: "chennai", name: "Chennai" },
+            ],
+            metaTitle: "Temperature Data Loggers in Sri City | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Sri City's electronics, auto-part and food plants and contract warehouses. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "kakinada",
+            name: "Kakinada",
+            type: "city",
+            intro:
+              "Kakinada is a port city on the Godavari delta coast of Andhra Pradesh, and a temperature data logger here serves a mix of docks, fertiliser works, gas-fed industry and fish farming. A deepwater port ships rice and fertiliser, fertiliser plants and power stations draw on gas from the offshore Krishna and Godavari basin, and a special economic zone holds pharmaceutical and food firms. Shrimp and fish from the delta's ponds are cleaned, frozen and exported by processors along the coast, and coconut, rice and sugar flow through the markets. Boats and trawlers land their catch at the fishing jetties each morning. Engineering and medical colleges and hospitals serve the district. Prithvi supplies WiFi loggers for rooms with a network and GSM loggers for reefers, quays and farm stores.",
+            climateAngle:
+              "The delta coast is hot and humid for most of the year, the monsoon is heavy and cyclones strike in the post-monsoon weeks, so power cuts and flooded roads put cold rooms and godowns under strain.",
+            areas: [
+              {
+                name: "Port and rice godowns",
+                note: "Warehouses near the berths hold bagged rice and fertiliser for ships, and stock waits days in salty, humid air before loading.",
+              },
+              {
+                name: "Fertiliser and gas-based works",
+                note: "Plants along the coast keep stores of bagged product, spares, instruments and reagents on wide campuses, with rooms far from any office.",
+              },
+              {
+                name: "Seafood and aquaculture processors",
+                note: "Processors near the harbour and along the creeks clean, freeze and pack shrimp and fish, with ice rooms and cold stores that must hold their limits through every shift.",
+              },
+              {
+                name: "Special economic zone and the city markets",
+                note: "Pharmaceutical and food firms in the zone and wholesalers in the town keep raw materials, medicines and groceries in rooms and chillers opened all day.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Seafood processors, rice exporters and sweet and snack makers hold stock that spoils in damp heat, and a record for each lot answers a buyer who asks how it was kept.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Fertiliser and chemical works keep bags, drums and laboratory reagents with printed storage limits, and an alert from a hot shed lets the storekeeper act before material is wasted.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmaceutical firms in the economic zone hold ingredients and finished packs in controlled rooms, and a continuous log supports each batch file and any audit by a customer.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Port warehouses and reefer carriers hold cargo while it waits for a vessel, and a logger placed among the goods records the heat and damp it met on the quay.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity and temperature at one point suit a port godown or a fertiliser store, where salty damp air is what harms bagged cargo.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels watch a processing-plant freezer at the door and the back, which shows whether the cold reaches the far wall.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger rides in a reefer lorry and reports from farm stores and creek-side sheds that no Wi-Fi network reaches.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How does a logger help a Kakinada seafood exporter?",
+                answer:
+                  "Loggers in the ice room, the freezer and the container record the cold chain through the shift, and a report for one lot can be exported for the buyer, showing where and when the product was held.",
+              },
+              {
+                question: "Does the salty air near the port change how a logger is fitted?",
+                answer:
+                  "Yes. We keep the logger body indoors and away from seaward walls and open doors, with only the probe cable entering the cold space, and we suggest wiping probes during routine cleaning.",
+              },
+              {
+                question: "Can sites in Kakinada and Visakhapatnam be watched on one account?",
+                answer:
+                  "Yes. Each plant is a site with its own alert contacts, so a manager sees both ports in one list and exports a report for any period.",
+              },
+              {
+                question: "Who calibrates loggers used in a Kakinada plant laboratory?",
+                answer:
+                  "Loggers and probes used in a plant laboratory can be calibrated by VEGA Calibrations, our parent company, with the date fixed alongside the supply.",
+              },
+            ],
+            nearby: [
+              { slug: "visakhapatnam", name: "Visakhapatnam" },
+              { slug: "vijayawada", name: "Vijayawada" },
+            ],
+            metaTitle: "Temperature Data Loggers in Kakinada | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Kakinada's port godowns, fertiliser works, seafood plants and economic zone. Get Solution.",
             indexable: true,
           },
         ],

@@ -103,7 +103,7 @@ export const locationContent: Record<string, LocationContent> = {
   },
   "india/andhra-pradesh": {
     metaDescription:
-      "Temperature data loggers in Andhra Pradesh: Visakhapatnam, Vijayawada, Guntur and Tirupati's port stores, cold rooms, plants and hospitals. Get Solution.",
+      "Temperature data loggers in Andhra Pradesh: Visakhapatnam, Vijayawada, Guntur, Tirupati, Nellore, Sri City and Kakinada. Get Solution.",
     recommended: ["nakshatra", "virat", "vayu"],
   },
   "india/west-bengal": {
