@@ -16983,7 +16983,7 @@ export const locations: LegacyLocationNode[] = [
     listing: [
       { slug: "riyadh-region", text: "The central plateau around the capital, with pharmaceutical, hospital and food warehouses, farm oases and industrial cities under extreme dry heat." },
       { slug: "makkah-region", text: "The Red Sea coast and the mountains behind it, with port warehouses, hotel and hospital stores, fruit and industry in heat and humidity." },
-      { slug: "dammam", text: "The Gulf-coast city of the Eastern Province, with chemical plants, port yards and food depots under metal-roof heat." },
+      { slug: "eastern-province", text: "The Gulf coast and the desert behind it, with ports, industrial cities, date oases, hospitals and food depots in heat and humidity." },
     ],
     indexable: true,
     seo: {
@@ -17943,21 +17943,21 @@ export const locations: LegacyLocationNode[] = [
         name: "Eastern Province",
         type: "state",
         intro:
-          "The Eastern Province stretches along the Gulf coast and far inland across the desert, and it holds much of the kingdom's energy and heavy industry. Dammam, Al Khobar and Dhahran form a coastal cluster of ports, offices and hospitals; Jubail and Ras Al Khair are planned industrial cities; Ras Tanura and Abqaiq are linked to oil handling; and Al Ahsa is a great date-growing oasis inland. Summers are hot and humid on the coast and fiercely dry inland, so chemical stores, port yards, food depots and hospital refrigerators all work against the climate. The page for each place names the rooms we would watch first.",
+          "The Eastern Province stretches along the Gulf coast and far inland across the desert, and it holds much of the kingdom's energy and heavy industry. Dammam, Al Khobar and Dhahran form a coastal cluster of ports, offices and hospitals; Jubail and Ras Al Khair are planned industrial cities; Ras Tanura and Abqaiq are linked to oil handling; and Al Ahsa is a great date-growing oasis inland. Summers are hot and humid on the coast and fiercely dry inland, so chemical stores, port yards, food depots and hospital refrigerators all work against the climate. Each place below has its own page, with its main stores and the loggers we would suggest.",
         localIndustries: [
           "Chemicals and heavy industry",
           "Port yards and logistics",
           "Food depots and date processing",
           "Hospitals and retail distribution",
         ],
-        citiesServed: [],
+        citiesServed: ["Dammam", "Al Khobar", "Jubail", "Al Ahsa", "Dhahran", "Qatif", "Ras Al Khair"],
         supportNote:
           "Set-up, alert rules and user access for Eastern Province sites are arranged remotely by call or video. Tell us the city or the plant and what the rooms hold.",
         faqs: [
           {
             question: "Which Eastern Province places have a page?",
             answer:
-              "Pages are being added place by place, and this page lists each one as it goes live. For another town in the province, send us a note through the enquiry form.",
+              "Dammam, Al Khobar, Jubail, Al Ahsa, Dhahran, Qatif and Ras Al Khair each have a city page, and Dammam and Jubail also have area pages for their port and industrial cities. A town not yet written up can be raised through the enquiry form.",
           },
           {
             question: "Why do plants on the Gulf coast need humidity as well as temperature?",
@@ -17970,9 +17970,688 @@ export const locations: LegacyLocationNode[] = [
               "Yes. Every plant or depot is a site on the same dashboard with its own alert contacts, and a manager sees the coastal cluster and the industrial cities together in one list.",
           },
         ],
+        listing: [
+          { slug: "dammam", text: "The Gulf-coast hub of the province, with chemical plants, a major port, fabrication yards and food depots under metal-roof heat." },
+          { slug: "al-khobar", text: "A seafront city of hotels, hospitals, malls and a university, in hot, humid air beside Dammam and Dhahran." },
+          { slug: "jubail", text: "A very large industrial city on the shore, with petrochemical, fertiliser and steel plants, ports, camps and laboratories." },
+          { slug: "al-ahsa", text: "A great date oasis around Hofuf, with date packing houses, rice mills, a university and hospitals." },
+          { slug: "dhahran", text: "A planned campus city of research laboratories, a petroleum university, an archive-rich cultural centre and compound clinics." },
+          { slug: "qatif", text: "An old oasis city of palm gardens, fish landings, bakeries and clinics just north of Dammam." },
+          { slug: "ras-al-khair", text: "An industrial city of aluminium, phosphate and desalination plants, rail and port yards and contractor camps." },
+        ],
+        areaListing: [
+          { slug: "king-abdulaziz-port-dammam", text: "The main Gulf-coast seaport, where containers, cold stores and rail sidings hand cargo from ship to train and truck." },
+          { slug: "dammam-1st-industrial-city", text: "An established estate of food, plastics, fabrication and warehouse firms that supply the Gulf coast's plants." },
+          { slug: "jubail-industrial-city-1", text: "The original part of the Jubail industrial city, with large chemical stores, spares warehouses and laboratories." },
+          { slug: "jubail-industrial-city-2", text: "A later extension with downstream plants, big warehouses and camp kitchens spread over a wide estate." },
+        ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,
         children: [
+          {
+            slug: "dammam",
+            name: "Dammam",
+            type: "city",
+            intro:
+              "Dammam is the main city of the Eastern Province, on the Gulf coast, with industry that is larger in scale and heavier in character than most of the country: chemical and petrochemical-linked plants, industrial suppliers, a port and the warehouses that serve it, and food importers on the same roads. A temperature data logger in Dammam works as much in sheds and yards as in air-conditioned rooms: drums and containers of chemical products, packaged goods waiting for a vessel, chilled stock moving out to the kingdom's other cities. The Gulf air is hot and humid, summer sun on metal roofs is relentless and storage that is perfectly good in winter strains in summer. Prithvi supplies WiFi loggers from India with alerts to phones and email, set up remotely with your team.",
+            climateAngle:
+              "The Gulf coast is hot and damp for much of the year, and metal roofs on sheds and containers turn summer sun into radiant heat that reaches the stock long after the air outside has cooled.",
+            areas: [
+              {
+                name: "Industrial zones",
+                note: "Chemical, process and engineering plants on large plots hold raw materials, drums and finished product in sheds and tank farms spaced far apart.",
+              },
+              {
+                name: "Port logistics zones",
+                note: "Warehouses and yards around the port hold cargo that waits on a vessel, with long dwell times in hot, humid air.",
+              },
+              {
+                name: "Food import and distribution depots",
+                note: "Chilled and frozen stores take in imported food and send it to retailers and caterers in the Eastern Province and beyond.",
+              },
+            ],
+            industries: [
+              {
+                slug: "chemical",
+                sentence:
+                  "Chemical and process plants keep drums and containers with printed storage limits, and a high-temperature alert to the shift supervisor gives a chance to shade or move stock before it is spoiled.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Port yards and freight sheds hold cargo for long periods, and a reading for each bay shows which part of a shed ran hottest under the sun, which is the evidence a plant needs when a customer asks why one lot looks different from another.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Importers and distributors keep chilled and frozen stores that supply the whole province, and an overnight record shows that a chamber held while the building was empty.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels cover a long chemical store or port shed from floor to roof beam, so one device reports on bays that are a long walk apart.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels suit a chilled store or a laboratory room, watching floor, shelf and door positions from one logger.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity along with temperature, which matters for packaging, paper and electrical equipment stored in damp Gulf air.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How does a metal-roofed shed change where loggers go?",
+                answer:
+                  "We put probes at roof-beam height and at the floor, since the top of a stack near a metal roof can run far warmer than the air at the door. The difference between the two is what a single reading would miss, and it often decides whether a second row of probes is worth fitting.",
+              },
+              {
+                question: "Can several plants be seen on one dashboard?",
+                answer:
+                  "Each plant is its own site with its own alert recipients, and a group manager can open every site in one list, compare records side by side and export a report for any room.",
+              },
+              {
+                question: "How is the set-up done for a Dammam plant?",
+                answer:
+                  "Loggers are dispatched from India and registered to your dashboard, and we set up rooms, alert limits and user access with your team by call or video, then stay available as the site changes. A plant with several sheds usually starts with the two that hold the most sensitive stock and adds the rest once the alert rules have settled.",
+              },
+              {
+                question: "Who can map a large store before loggers are fixed?",
+                answer:
+                  "Temperature mapping is delivered by VEGA Calibrations, our parent company. Send the room's size and what it holds and we confirm how a mapping study can be arranged for your site.",
+              },
+            ],
+            nearby: [
+              { slug: "riyadh", name: "Riyadh" },
+              { slug: "bahrain", name: "Bahrain" },
+              { slug: "jeddah", name: "Jeddah" },
+            ],
+            metaTitle: "Temperature Data Loggers in Dammam | Prithvi",
+            metaDescription:
+              "WiFi temperature and humidity data loggers for Dammam's chemical plants, port warehouses and food depots, set up remotely. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "al-khobar",
+            name: "Al Khobar",
+            type: "city",
+            intro:
+              "Al Khobar is a Gulf-coast city that has grown into one continuous urban area with Dammam and Dhahran, and a temperature data logger here serves a place of hotels, hospitals, shopping and offices rather than heavy industry. A seafront corniche lines the shore with restaurants and cafes, large malls and supermarkets draw shoppers from across the Eastern Province, private hospitals and clinics serve a large and varied population, and a university campus adds laboratories. Fresh and frozen food reaches the city's kitchens and shops from depots in Dammam and from the port. Summers are hot and heavy with humidity, so cooling plants rarely rest. Prithvi supplies WiFi loggers from India and sets up alerts to phones and email with your team on a video call, so a hotel or hospital manager can read a room from anywhere.",
+            climateAngle:
+              "The Gulf shore is hot and humid for most of the year, so condensation forms on cold surfaces and cartons sweat, and a door left open on a delivery lets in damp as well as heat.",
+            areas: [
+              {
+                name: "Corniche hotels, restaurants and cafes",
+                note: "Kitchens along the waterfront run walk-in coolers, freezers and bar fridges in buildings that face the sun and the salty sea air, and are loaded hardest in the cooler months and at weekends.",
+              },
+              {
+                name: "Hospitals and clinics",
+                note: "Private hospitals, specialist clinics and pharmacies keep vaccines, insulin and blood products in refrigerators that must hold their ranges through any interruption of power.",
+              },
+              {
+                name: "Malls, supermarkets and retail distribution",
+                note: "Large retail premises and the distribution rooms behind them hold chilled dairy, meat and produce in stores with many doors and frequent deliveries.",
+              },
+              {
+                name: "University campus and the business district",
+                note: "Laboratories on the university campus keep samples and reagents in fridges and freezers, and offices in the business district run server cupboards that need steady cooling.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Restaurants, caterers and supermarkets store chilled and frozen goods that spoil quickly in warm, damp air, and an alert to the duty manager matters most when a cooler is opened every few minutes on a busy evening.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals and clinics receive patients from the whole urban area, and a dated record backs each shift handover for vaccines, insulin and blood units kept in refrigerators.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacy chains and medicine distributors keep stock in cooled rooms with stated ranges, and a record of temperature shows how a room behaved on the hottest afternoons.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "University and clinical laboratories hold samples and reagents with their own limits, and an exported log is ready for a review or an inspection.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "A one-probe logger slips into a hotel walk-in or a clinic refrigerator and leaves the way staff use the unit exactly as it was.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Seeing humidity beside temperature shows when a seafront store is taking on moisture even while the cooling plant seems to cope.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a busy supermarket store room at several shelf levels and beside the door, showing how it behaves between deliveries.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How does a hotel or hospital in Al Khobar get its loggers from India and start using them?",
+                answer:
+                  "The loggers are sent from India and registered to your dashboard before set-up, and a video session then fixes the rooms, the limits and the staff who receive alerts. Each room needs a router in reach for its WiFi logger.",
+              },
+              {
+                question: "Can a group with sites in Al Khobar and Dammam watch them together?",
+                answer:
+                  "Yes. Each site is a point on the same account with its own alert contacts, so an operations manager sees the whole urban area in a single list and exports a report for any room.",
+              },
+              {
+                question: "Why do door alerts matter on a humid coast?",
+                answer:
+                  "Warm, damp air enters each time a door is left open and condenses on cold surfaces, so an alert for a door held open shows the cause of fog and ice before it builds up on the shelves.",
+              },
+              {
+                question: "Is calibration available for loggers used in an Al Khobar hospital or laboratory?",
+                answer:
+                  "VEGA Calibrations, our parent company, can calibrate loggers and probes for hospital and university laboratories; send the model and your working range and we explain how it could be arranged.",
+              },
+            ],
+            nearby: [
+              { slug: "dammam", name: "Dammam" },
+              { slug: "dhahran", name: "Dhahran" },
+            ],
+            metaTitle: "Temperature Data Loggers in Al Khobar | Prithvi",
+            metaDescription:
+              "WiFi temperature data loggers for Al Khobar's hotel kitchens, hospitals, supermarkets and university labs, set up remotely from India. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "jubail",
+            name: "Jubail",
+            type: "city",
+            intro:
+              "Jubail is the site of a very large industrial city of the Gulf, built on the shore north of Dammam under the Royal Commission for Jubail and Yanbu, and a temperature data logger here serves a district of petrochemical, fertiliser, steel and plastics plants beside an older coastal town. A commercial port and an industrial port handle cargo, large desalination and power plants supply the plants, and contractor camps, clinics and canteens house and feed a very large workforce. Chemical stores, spare-parts warehouses and laboratories fill the plant zones. The air is hot and humid, with salt from the sea. Loggers for Jubail are shipped from India and registered to a dashboard where plant managers, warehouse supervisors and quality staff each receive only the alerts they own.",
+            climateAngle:
+              "Heat and humidity combine on the shore, salt in the air attacks metal and packaging, and dust blows in from the desert, so a chemical store or a warehouse may be cooled and damp at the same time.",
+            areas: [
+              {
+                name: "Plant zones of the industrial city",
+                note: "Chemical, fertiliser, steel and plastics plants keep drums, bags, resins and spares in stores and tank farms spread over wide estates, with rooms far from any office.",
+              },
+              {
+                name: "Commercial and industrial ports",
+                note: "Port warehouses and yards hold imported equipment and packed products for a vessel or a truck, in salty, humid air.",
+              },
+              {
+                name: "Contractor camps, canteens and clinics",
+                note: "Camp kitchens feed large workforces from walk-in coolers and freezers, and clinics hold vaccines and medicines in refrigerators that cannot be allowed to warm.",
+              },
+              {
+                name: "Jubail town and its markets",
+                note: "The older coastal town has hospitals, supermarkets, hotels and fishing landings that keep their own cold rooms, chillers and ice stores.",
+              },
+            ],
+            industries: [
+              {
+                slug: "chemical",
+                sentence:
+                  "Chemical and petrochemical stores hold drums, bags and laboratory reagents with printed storage limits, and an alert from a hot store room lets the storekeeper act before material is wasted.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Contractors and suppliers keep spares and consumables in large warehouses, and a reading for each bay lets an operator show a client how its goods were held.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Camp caterers and supermarkets cook and stock for large populations from cold rooms and freezers, and a record from each room shows when one began to fail during a power interruption.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "Plant, quality and testing laboratories keep samples and reagents in fridges and cabinets with their own limits, and an exported log supports an audit.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels cover a long spares warehouse or a chemical store across racks and bays, so one report shows which corner runs hot or damp.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels compare the door end and the back wall of a drum store, which shows whether the air at the far shelves matches the door.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels spread through a camp kitchen block or a canteen store show which rooms run warmest, in a single report.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can plant owners and their contractors each see only their own rooms?",
+                answer:
+                  "Yes. Each room is its own point on the dashboard, and access can be limited so a contractor sees only its rooms while a plant manager sees the whole list.",
+              },
+              {
+                question: "How does salty air affect the choice of position for a logger at Jubail?",
+                answer:
+                  "We mount the body indoors, clear of spray and wet walls, let only the probe lead enter the cold room, and suggest wiping the probe when the room is cleaned.",
+              },
+              {
+                question: "How does a plant store at Jubail start monitoring with loggers from India?",
+                answer:
+                  "The loggers arrive from India and are registered to your dashboard, then a call or video session sets the rooms, limits and alert recipients. Your own staff fit them following our guidance.",
+              },
+              {
+                question: "Is calibration available for plant laboratories at Jubail?",
+                answer:
+                  "Yes. VEGA Calibrations, our parent company, calibrates loggers and probes, and we confirm how it could be arranged once we know the model and the range you work to.",
+              },
+            ],
+            nearby: [
+              { slug: "ras-al-khair", name: "Ras Al Khair" },
+              { slug: "dammam", name: "Dammam" },
+            ],
+            metaTitle: "Temperature Data Loggers in Jubail | Prithvi",
+            metaDescription:
+              "WiFi temperature data loggers for Jubail's plant stores, port warehouses, camp canteens and laboratories, set up remotely from India. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "al-ahsa",
+            name: "Al Ahsa",
+            type: "city",
+            intro:
+              "Al Ahsa is a great oasis in the east of the kingdom, with Hofuf as its main city, and a temperature data logger here serves a place of date palms, rice fields, markets and a university. The oasis is a World Heritage site, watered by springs, and it grows dates in great quantity, along with Hassawi rice, vegetables and fodder. Packers sort, store and ship dates, mills process rice, a university campus has laboratories and clinics, and hospitals serve the oasis and the desert beyond. An industrial city on the edge of the oasis adds plants and warehouses. Summers are fierce and dry. Prithvi can send WiFi loggers from India for a date packer, a hospital or a plant, and our team gets the alert rules and user access working by phone or video.",
+            climateAngle:
+              "Summers are fierce and the nights stay warm, winters are mild, and dust storms cross the oasis, so a date store must be kept cool and dry through months of storage.",
+            areas: [
+              {
+                name: "Date farms, packing houses and cold stores",
+                note: "Growers and packers harvest, sort, pack and store dates in shaded sheds and cool rooms, where steady temperature and low humidity protect the fruit through storage.",
+              },
+              {
+                name: "Rice mills and farm stores",
+                note: "Mills process Hassawi rice and farms store vegetables and fodder, in stores where the damp of irrigation and the dust of the desert both matter.",
+              },
+              {
+                name: "University campus, hospitals and clinics",
+                note: "A university with laboratories and hospitals in Hofuf and the oasis towns hold samples, vaccines and medicines in refrigerators and freezers.",
+              },
+              {
+                name: "Al Ahsa industrial city and the markets",
+                note: "The industrial city on the oasis edge holds plants and warehouses, and the covered markets of Hofuf stock food, dates and household goods in compact shops.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Date packers, rice millers and produce traders hold goods that lose quality in warmth, and a record from each store shows a buyer how a lot was kept from harvest to loading.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals serve the oasis and the desert districts around it, and an alert on a phone means a failing vaccine refrigerator is found at night and not at the morning round.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "University and agricultural laboratories hold cultures, samples and reagents with their own limits, and an exported log supports a research review.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Trucks carry dates and rice to ports and cities across the kingdom, and a logger in the load shows how long goods stood in a vehicle in the afternoon sun.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a date packing store, where dry, cool air protects the fruit through long storage.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a large date cold room at several heights and at the door, showing whether the cold reaches the upper stacks.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with a probe fits a clinic or laboratory refrigerator and records without changing how staff use the unit.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How can a date packer in Al Ahsa show a buyer how a lot was stored?",
+                answer:
+                  "A logger in the packing store and the cold room records temperature and humidity through the season, and a report for the dates of one lot can be exported for the buyer.",
+              },
+              {
+                question: "Can a farm store with a router far from the main building be monitored?",
+                answer:
+                  "A WiFi logger needs its room to have a router in range, and for a more distant store we confirm the option with you before any order is placed.",
+              },
+              {
+                question: "Why do dust storms matter for a logger in the oasis?",
+                answer:
+                  "Fine dust settles on vents and probe tips, so the body goes away from the dustiest doors, probes stay sealed and a wipe at routine cleaning keeps the readings true.",
+              },
+              {
+                question: "Can calibration be discussed for loggers used in Hofuf?",
+                answer:
+                  "Our parent company, VEGA Calibrations, handles calibration of loggers and probes for laboratories and packing houses; send the model and the range and we confirm the options.",
+              },
+            ],
+            nearby: [
+              { slug: "dammam", name: "Dammam" },
+              { slug: "dhahran", name: "Dhahran" },
+            ],
+            metaTitle: "Temperature Data Loggers in Al Ahsa | Prithvi",
+            metaDescription:
+              "WiFi temperature data loggers for Al Ahsa's date packing stores, rice mills, university labs and hospitals, set up remotely from India. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "dhahran",
+            name: "Dhahran",
+            type: "city",
+            intro:
+              "Dhahran is a planned city on the Gulf coast beside Dammam and Al Khobar, home to the headquarters of a major energy company, a university of petroleum and minerals and a large cultural centre, and a temperature data logger here serves a place of campuses, laboratories and compounds. Research and technology parks sit beside housing, schools and clinics, hotels serve business visitors, and hospitals hold blood and medicines for a large resident population. The cultural centre has galleries, a library and archives that need steady temperature and humidity. Summers are hot and heavy with moisture. Prithvi provides WiFi loggers from India and guides a campus, hospital or hotel through alerts and user access by video, so nobody has to travel for set-up.",
+            climateAngle:
+              "The Gulf shore is hot and humid for most of the year, air conditioning is under load for months, and a failed cooling unit can change a laboratory or an archive room within a short time. Compound clinics and hotel kitchens depend on the same grid as the campuses, so a power interruption can reach laboratories, archives and kitchens at once.",
+            areas: [
+              {
+                name: "University and research laboratories",
+                note: "A university of petroleum and minerals and nearby research centres keep samples, reagents and equipment in laboratories, fridges and freezers that need their own limits.",
+              },
+              {
+                name: "Techno valley and office campuses",
+                note: "Technology and research parks hold server rooms, prototype stores and laboratories that depend on steady cooling and low humidity.",
+              },
+              {
+                name: "Cultural centre, galleries and archives",
+                note: "A large cultural centre holds galleries, a library and archive stores in which paper, textiles and objects need stable temperature and humidity.",
+              },
+              {
+                name: "Compound clinics, hotels and canteens",
+                note: "Residential compounds and hotels run clinics, kitchens and walk-in coolers that serve a large resident and visiting population.",
+              },
+            ],
+            industries: [
+              {
+                slug: "laboratories",
+                sentence:
+                  "Teaching and research laboratories keep samples, standards and reagents in many fridges and freezers, and an exported log is ready for a funded project or an inspection.",
+              },
+              {
+                slug: "data-centers",
+                sentence:
+                  "Server rooms and equipment cupboards in the research and office campuses need steady cooling, and a temperature and humidity trend shows the day a cooling unit began to struggle.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Hotels, compound canteens and cafes run chillers and walk-in coolers through long hot spells, and an alert reaches the manager when a unit warms.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Clinics and hospitals serving residents hold vaccines and medicines in refrigerators that need a dated record, and an alert on a phone reaches the person on duty.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Showing humidity beside temperature, one unit watches an archive room or a server cupboard where damp or dry air is the real danger.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels let a laboratory freezer room be read at the door and at the far wall by one device, which shows whether the cold reaches the back.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels across a campus laboratory block or a hotel kitchen floor show which rooms run warmest, in a single report.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Why would an archive or gallery store need a humidity record?",
+                answer:
+                  "Paper, textiles and objects react to damp and dryness, so a log of temperature and humidity shows whether the air stayed steady and when it drifted, which supports a conservation plan.",
+              },
+              {
+                question: "How does a Dhahran campus get started with loggers from India?",
+                answer:
+                  "The loggers are registered to your dashboard on arrival, and a video session sets the rooms, limits and alert contacts, with a router in range of each room for the WiFi logger.",
+              },
+              {
+                question: "Can a research group export a log for a funded project?",
+                answer:
+                  "Any freezer, fridge or room can be reported for any dates and exported as PDF, Excel or CSV, giving a project coordinator a dated record to attach to a file.",
+              },
+              {
+                question: "Is calibration available for laboratory loggers in Dhahran?",
+                answer:
+                  "VEGA Calibrations, our parent company, can calibrate loggers and probes for research laboratories, and we explain the options once we know the model and the range you use.",
+              },
+            ],
+            nearby: [
+              { slug: "al-khobar", name: "Al Khobar" },
+              { slug: "dammam", name: "Dammam" },
+            ],
+            metaTitle: "Temperature Data Loggers in Dhahran | Prithvi",
+            metaDescription:
+              "WiFi temperature data loggers for Dhahran's university labs, research campuses, archive rooms and hotel kitchens, set up remotely. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "qatif",
+            name: "Qatif",
+            type: "city",
+            intro:
+              "Qatif is an old oasis city on the Gulf coast just north of Dammam, joined by road to the city and the industrial coast, and a temperature data logger here serves a place where palm farms, fishing and a busy town meet the Eastern Province's urban sprawl. Date palms and vegetable gardens still fill the oasis, fishing boats work the shallow waters and the nearby island of Tarut, and markets and old streets hold shops, bakeries and restaurants. Hospitals and clinics serve a large population, and food reaches the city's kitchens and shops from depots in Dammam. Summers are hot and heavy with humidity. Loggers are supplied from India to farms, fish stores and clinics in Qatif, with alerts and users configured remotely by our team.",
+            climateAngle:
+              "The oasis is hot and humid for most of the year, the sea breeze carries salt into every shed, and a failed cooler can warm a fish room or a clinic fridge quickly in the summer afternoon.",
+            areas: [
+              {
+                name: "Palm farms and produce stores",
+                note: "Growers keep dates and vegetables in small stores and cool rooms among the palms, shaded from the sun but exposed to damp from irrigation and sea air.",
+              },
+              {
+                name: "Fishing landings and ice rooms",
+                note: "Boats land fish and shrimp at the harbour and on Tarut island, where ice rooms and cold stores hold the catch for markets across the province.",
+              },
+              {
+                name: "Old town markets, bakeries and restaurants",
+                note: "Shops, bakeries and restaurants in the old streets keep chillers and stock rooms in buildings that were not designed for refrigeration.",
+              },
+              {
+                name: "Hospitals, clinics and pharmacies",
+                note: "A central hospital and many clinics and pharmacies hold vaccines and medicines in refrigerators that must survive any interruption of power.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Fish traders, date growers and bakers hold goods that spoil in warm, damp air, and a record from each cold room shows a buyer how a lot was kept after landing or harvest.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals and clinics hold blood products and vaccines for a large urban population, and an alert to the duty staff reaches the right person at once if a refrigerator warms.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies and medicine wholesalers keep stock in cooled rooms with stated ranges, and a dated record shows how a room behaved through the hottest weeks.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Trucks carry fish and produce to markets in Dammam and beyond, and a logger in the load records how long goods stood in a vehicle in the sun.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels let a fish room be read near the door and near the back wall, which shows whether the ice and the cold reach the far shelves.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an external probe slots into a bakery chiller or a clinic fridge and leaves daily routines unchanged.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Seeing humidity beside temperature reveals when salty, damp air is soaking cartons in a produce store even while the cooling seems fine.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How can a fish trader in Qatif prove how a lot was held after landing?",
+                answer:
+                  "A logger in the ice room and the cold store records the whole chain, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for the buyer.",
+              },
+              {
+                question: "How does a small clinic or shop in Qatif begin with loggers from India?",
+                answer:
+                  "A single logger is registered to your dashboard on arrival and a short video session sets its limits and the phone numbers for alerts. The room needs a router in range.",
+              },
+              {
+                question: "Does salty air change how a logger is fitted near the sea?",
+                answer:
+                  "Yes. We keep the body indoors, clear of spray and wet walls, and let only the probe lead enter the cold space, with a wipe of the probe whenever the room is cleaned.",
+              },
+              {
+                question: "Can calibration for a Qatif clinic or laboratory be discussed?",
+                answer:
+                  "VEGA Calibrations, our parent company, looks after calibration of loggers and probes. Share the model and the range you use and we confirm what can be arranged.",
+              },
+            ],
+            nearby: [
+              { slug: "dammam", name: "Dammam" },
+              { slug: "jubail", name: "Jubail" },
+            ],
+            metaTitle: "Temperature Data Loggers in Qatif | Prithvi",
+            metaDescription:
+              "WiFi temperature data loggers for Qatif's palm-farm stores, fish ice rooms, bakeries, clinics and pharmacies, set up remotely from India. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "ras-al-khair",
+            name: "Ras Al Khair",
+            type: "city",
+            intro:
+              "Ras Al Khair is an industrial city on the Gulf coast north of Jubail, built around mining, metals and water, and a temperature data logger here serves plant stores and camps in a place with very little else. A large aluminium smelter and rolling mill, phosphate fertiliser plants and a big desalination and power complex stand on the shore, and minerals from the north arrive by a dedicated railway for processing and export through a port. Contractor camps, canteens and clinics feed and treat the workforce. Everything stored here arrived by rail, road or sea, and dust, salt and heat attack every store. Prithvi supplies WiFi loggers from India for plant stores, camp canteens and clinics and configures alerts and access with the site team over video.",
+            climateAngle:
+              "The shore is hot and humid in summer, salt in the air and fine mineral dust attack equipment, and sudden dust storms can stop work, so stores of spares, chemicals and food must be watched through heat and outages. The site is remote from any town, so supplies, food and medicines are held in larger quantities than in a city, which raises the loss from a failed cooler.",
+            areas: [
+              {
+                name: "Smelter and rolling-mill stores",
+                note: "Plant stores hold spares, instruments, electrical panels and consumables on very large campuses, with rooms far from any office and strict rules for access.",
+              },
+              {
+                name: "Phosphate and fertiliser plant stores",
+                note: "Bags, drums and laboratory reagents are held in sheds exposed to heat, dust and salt, and a failed ventilation system can go unnoticed for days.",
+              },
+              {
+                name: "Port and rail terminal yards",
+                note: "Minerals and products move between rail and ship through terminal yards and warehouses, where goods wait in sun and salty air.",
+              },
+              {
+                name: "Camps, canteens and clinics",
+                note: "Camp kitchens feed large workforces from walk-in coolers and freezers, and clinics hold medicines and vaccines in refrigerators that cannot be allowed to warm.",
+              },
+            ],
+            industries: [
+              {
+                slug: "chemical",
+                sentence:
+                  "Fertiliser and metals plants keep bags, drums and reagents with printed storage limits, and an alert from a hot store lets the storekeeper act before material is spoiled.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Rail and port terminals hold goods between a train and a vessel, and a logger placed in a consignment records the heat and dust it met on the way.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Camp caterers cook for large populations from cold rooms and freezers, and a record from each room shows when one began to fail.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "Plant laboratories keep samples and reagents in fridges and cabinets with their own limits, and an exported log supports an audit.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels cover a very long plant warehouse across racks and bays, so one report shows which corner runs hottest under the roof.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a camp food store at several heights and at the door, showing how the room behaves through the day.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a chemical store near the coast, where salty damp air is the danger.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can stores with strict access rules at Ras Al Khair be covered?",
+                answer:
+                  "Set-up is remote, so your own staff fit the loggers following our guidance, and access to the dashboard can be limited so each user sees only the rooms they are responsible for.",
+              },
+              {
+                question: "How does mineral dust change where a logger is placed?",
+                answer:
+                  "Dust coats vents and probe tips, so we keep the body in the cleanest air available, leave probes sealed and recommend a wipe when the room is cleaned.",
+              },
+              {
+                question: "Can a camp operator give each client a record of its own kitchen?",
+                answer:
+                  "Each kitchen or store can be its own point on the dashboard with separate alert contacts, and a report for it can be exported when the client asks.",
+              },
+              {
+                question: "Is calibration available for plant laboratories at Ras Al Khair?",
+                answer:
+                  "VEGA Calibrations, our parent company, can calibrate loggers and probes, and we explain the options once we know the model and the range you use.",
+              },
+            ],
+            nearby: [
+              { slug: "jubail", name: "Jubail" },
+              { slug: "dammam", name: "Dammam" },
+            ],
+            metaTitle: "Temperature Data Loggers in Ras Al Khair | Prithvi",
+            metaDescription:
+              "WiFi temperature data loggers for Ras Al Khair's plant stores, port and rail yards, camp canteens and clinics, set up remotely. Get Solution.",
+            indexable: true,
+          },
         ],
       },
       {
@@ -18344,94 +19023,6 @@ export const locations: LegacyLocationNode[] = [
         indexable: false,
         children: [
         ],
-      },
-      {
-        slug: "dammam",
-        name: "Dammam",
-        type: "city",
-        intro:
-          "Dammam is the main city of the Eastern Province, on the Gulf coast, with industry that is larger in scale and heavier in character than most of the country: chemical and petrochemical-linked plants, industrial suppliers, a port and the warehouses that serve it, and food importers on the same roads. A temperature data logger in Dammam works as much in sheds and yards as in air-conditioned rooms: drums and containers of chemical products, packaged goods waiting for a vessel, chilled stock moving out to the kingdom's other cities. The Gulf air is hot and humid, summer sun on metal roofs is relentless and storage that is perfectly good in winter strains in summer. Prithvi supplies WiFi loggers from India with alerts to phones and email, set up remotely with your team.",
-        climateAngle:
-          "The Gulf coast is hot and damp for much of the year, and metal roofs on sheds and containers turn summer sun into radiant heat that reaches the stock long after the air outside has cooled.",
-        areas: [
-          {
-            name: "Industrial zones",
-            note: "Chemical, process and engineering plants on large plots hold raw materials, drums and finished product in sheds and tank farms spaced far apart.",
-          },
-          {
-            name: "Port logistics zones",
-            note: "Warehouses and yards around the port hold cargo that waits on a vessel, with long dwell times in hot, humid air.",
-          },
-          {
-            name: "Food import and distribution depots",
-            note: "Chilled and frozen stores take in imported food and send it to retailers and caterers in the Eastern Province and beyond.",
-          },
-        ],
-        industries: [
-          {
-            slug: "chemical",
-            sentence:
-              "Chemical and process plants keep drums and containers with printed storage limits, and a high-temperature alert to the shift supervisor gives a chance to shade or move stock before it is spoiled.",
-          },
-          {
-            slug: "logistics-warehousing",
-            sentence:
-              "Port yards and freight sheds hold cargo for long periods, and a reading for each bay shows which part of a shed ran hottest under the sun, which is the evidence a plant needs when a customer asks why one lot looks different from another.",
-          },
-          {
-            slug: "food-beverage",
-            sentence:
-              "Importers and distributors keep chilled and frozen stores that supply the whole province, and an overnight record shows that a chamber held while the building was empty.",
-          },
-        ],
-        recommendedSeries: [
-          {
-            slug: "virat",
-            reason:
-              "Sixteen channels cover a long chemical store or port shed from floor to roof beam, so one device reports on bays that are a long walk apart.",
-          },
-          {
-            slug: "dhruva",
-            reason:
-              "Four channels suit a chilled store or a laboratory room, watching floor, shelf and door positions from one logger.",
-          },
-          {
-            slug: "nakshatra",
-            reason:
-              "Reads humidity along with temperature, which matters for packaging, paper and electrical equipment stored in damp Gulf air.",
-          },
-        ],
-        faqs: [
-          {
-            question: "How does a metal-roofed shed change where loggers go?",
-            answer:
-              "We put probes at roof-beam height and at the floor, since the top of a stack near a metal roof can run far warmer than the air at the door. The difference between the two is what a single reading would miss, and it often decides whether a second row of probes is worth fitting.",
-          },
-          {
-            question: "Can several plants be seen on one dashboard?",
-            answer:
-              "Each plant is its own site with its own alert recipients, and a group manager can open every site in one list, compare records side by side and export a report for any room.",
-          },
-          {
-            question: "How is the set-up done for a Dammam plant?",
-            answer:
-              "Loggers are dispatched from India and registered to your dashboard, and we set up rooms, alert limits and user access with your team by call or video, then stay available as the site changes. A plant with several sheds usually starts with the two that hold the most sensitive stock and adds the rest once the alert rules have settled.",
-          },
-          {
-            question: "Who can map a large store before loggers are fixed?",
-            answer:
-              "Temperature mapping is delivered by VEGA Calibrations, our parent company. Send the room's size and what it holds and we confirm how a mapping study can be arranged for your site.",
-          },
-        ],
-        nearby: [
-          { slug: "riyadh", name: "Riyadh" },
-          { slug: "bahrain", name: "Bahrain" },
-          { slug: "jeddah", name: "Jeddah" },
-        ],
-        metaTitle: "Temperature Data Loggers in Dammam | Prithvi",
-        metaDescription:
-          "WiFi temperature and humidity data loggers for Dammam's chemical plants, port warehouses and food depots, set up remotely. Get Solution.",
-        indexable: true,
       },
     ],
   },

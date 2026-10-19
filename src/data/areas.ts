@@ -78,6 +78,8 @@ export const areaCities: Record<string, { name: string; stateSlug: string; state
   goa: { name: "Goa", stateSlug: "goa", stateName: "Goa" },
   riyadh: { name: "Riyadh", stateSlug: "riyadh-region", stateName: "Riyadh Region" },
   jeddah: { name: "Jeddah", stateSlug: "makkah-region", stateName: "Makkah Region" },
+  dammam: { name: "Dammam", stateSlug: "eastern-province", stateName: "Eastern Province" },
+  jubail: { name: "Jubail", stateSlug: "eastern-province", stateName: "Eastern Province" },
 };
 
 export const areas: AreaDef[] = [
@@ -5073,6 +5075,223 @@ export const areas: AreaDef[] = [
       ],
       "nearby": [
         "jeddah-islamic-port"
+      ],
+      "indexable": true
+    } },
+  // ------------------------------------------------------------------ Saudi Arabia (batch 3: Eastern Province)
+  { slug: "king-abdulaziz-port-dammam", name: "King Abdulaziz Port Dammam", citySlug: "dammam", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["virat","dhruva"], page: {
+      "metaTitle": "Data Loggers at King Abdulaziz Port Dammam | Prithvi",
+      "metaDescription": "WiFi temperature and humidity data loggers for King Abdulaziz Port Dammam's container yards, cold stores and transit sheds, set up remotely. Get Solution.",
+      "intro": "King Abdulaziz Port is the main seaport on the Gulf coast of the kingdom, at Dammam, and the entry point for a large share of the Eastern Province's imported food, medicine, machinery and general cargo. Container terminals, general-cargo berths and bulk facilities stand along the quay, with yards, cold stores and transit sheds behind them, and a railway carries containers inland toward Riyadh. Trucks collect cleared cargo for the warehouses of Dammam and the roads beyond. Heat and humidity are high through most of the year, and the metal of containers and sheds turns summer sun into radiant heat. A temperature data logger at the port follows goods through the handover from ship to yard, shed, train and truck.",
+      "places": [
+        {
+          "name": "Container terminals and stacking yards",
+          "note": "Boxes are lifted from vessels into tall stacks on open hardstanding, where the sun heats container walls for days before cargo is cleared and collected."
+        },
+        {
+          "name": "Cold stores and powered container points",
+          "note": "Chilled and frozen cargo waits in cold stores or on powered points in the yard, where a lost supply or a door left open can warm goods in the humid heat."
+        },
+        {
+          "name": "Transit sheds and examination areas",
+          "note": "Cargo is opened and checked in sheds beside the quay, so doors stay open and sensitive goods meet hot, damp air while they are examined."
+        },
+        {
+          "name": "Rail sidings and truck gates",
+          "note": "Containers move onto trains and trucks at sidings and gates, and loaded vehicles may wait in the sun for a turn before they leave the port."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Terminal and warehouse operators handle goods for many importers, and a logger placed in a consignment gives each shipper a record that shows how its cargo was held between ship and truck."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Importers of meat, dairy, fruit and vegetables route chilled cargo through the cold stores, and a record from the container and the store shows a buyer how the product was kept before it left the port."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Importers of medicines and healthcare supplies pass cargo through the sheds, and a dated record of temperature shows a distributor whether a pack stood too long in the heat."
+        }
+      ],
+      "services": "For King Abdulaziz Port we supply WiFi loggers for cold stores and transit sheds that have a router, multi-point units for long sheds where one end is hotter than the other, and loggers that travel inside a consignment to record its journey from the quay to the truck or the train. Calibration is available through our parent company, VEGA Calibrations, and can be agreed with the order. WiFi loggers report from rooms with a router in range, and for the yard or a vehicle we confirm the option first.",
+      "visits": "Nobody needs to travel to the quay to begin, since the loggers are registered and set up remotely. Send the terminal operator or shipper, the rooms and sheds to be watched and a contact through the enquiry form or WhatsApp, and we agree a call or video session to name the alert recipients and set the limits.",
+      "approach": "We would begin with the cold store and the shed that hold the most sensitive cargo, placing one logger near the door and one at the back, then slip a logger into a few chosen consignments to compare the yard with the warehouse. After a few weeks the data shows which stage of the journey runs warmest and where a second point is worth adding.",
+      "faqs": [
+        {
+          "question": "Can a shipper see how its containers were held at the Dammam port?",
+          "answer": "A logger tucked into a consignment logs temperature and humidity while it waits in the yard, the shed, the train or the truck, and the report for those dates can be exported for the importer or the buyer."
+        },
+        {
+          "question": "Why does humidity matter at a Gulf port as much as heat?",
+          "answer": "Damp, salty air soaks cartons and attacks metal, and condensation forms when a cold container opens to warm air, so a humidity reading beside the temperature shows when cargo took on moisture."
+        }
+      ],
+      "nearby": [
+        "dammam-1st-industrial-city"
+      ],
+      "indexable": true
+    } },
+  { slug: "dammam-1st-industrial-city", name: "Dammam 1st Industrial City", citySlug: "dammam", areaType: "industrial-estate", nearbyIndustries: ["food-beverage","chemical","logistics-warehousing"], confirmedService: true, hero: ["nakshatra","veer"], page: {
+      "metaTitle": "Data Loggers in Dammam 1st Industrial City | Prithvi",
+      "metaDescription": "WiFi temperature and humidity data loggers for Dammam 1st Industrial City's plants, fabrication yards and warehouses, set up remotely. Get Solution.",
+      "intro": "Dammam 1st Industrial City is an established industrial estate of the Eastern Province, a district of factories, fabrication yards, suppliers and warehouses developed and managed by the state's industrial-cities authority. Plants there make food and drink, plastics and packaging, metal products and building materials, and many firms supply the oilfield and the industrial plants of the Gulf coast with parts, tools and consumables. Warehouses beside them send goods to the port and across the province. The Gulf air is hot and humid, and metal roofs hold the sun's heat. A temperature data logger here watches the ingredient stores, the chemical and consumables rooms and the finished-goods bays where stock waits for a truck.",
+      "places": [
+        {
+          "name": "Food and drink producers' stores",
+          "note": "Makers of food and drink hold ingredients and finished goods in chilled and dry rooms, where condensation forms on cold surfaces every time a loading door opens to humid air."
+        },
+        {
+          "name": "Fabrication yards and industrial suppliers",
+          "note": "Fabricators and suppliers of oilfield and plant equipment keep consumables, coatings and spare parts in sheds and containers that heat up in the summer sun."
+        },
+        {
+          "name": "Chemical and packaging stores",
+          "note": "Firms that make or use plastics, paints and packaging hold resins and chemicals with printed storage limits, in stores that depend on ventilation against heat."
+        },
+        {
+          "name": "Warehouses and loading bays",
+          "note": "Distribution warehouses hold goods for the port and the province, in bays whose doors open to the sun each time a truck backs in."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "food-beverage",
+          "sentence": "Producers and distributors of food keep chilled and frozen rooms that supermarkets and caterers rely on, and a running record shows a buyer how each batch was held until it left the gate."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Suppliers of coatings, resins and industrial consumables hold stock with limits printed on the label, and an alert from a hot or damp store lets the storekeeper act before the limit is crossed."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Third-party warehouses in the estate store goods for several clients, so a separate reading per bay gives the operator a report to send to the client whose pallets stood there."
+        }
+      ],
+      "services": "For Dammam 1st Industrial City we supply WiFi loggers for stores and halls that have a router, multi-point units for long warehouse bays where the roof end is hotter than the floor, and single-point loggers with external probes for cold rooms and freezers. Calibration of the loggers can be arranged through VEGA Calibrations, our parent company, alongside the supply. Each WiFi logger needs a router in range of its room, and outbuildings and vehicles are checked with you before an order.",
+      "visits": "Set-up is done remotely, so no one has to travel to start. Send the plant, the halls and rooms to be watched and a contact through the enquiry form or WhatsApp, and we agree a call or video session to register the loggers, set the limits and name the people who receive alerts.",
+      "approach": "At a food plant we would start with the cold room that holds the most sensitive stock, placing one logger near the door and one at the back, and add a humidity-reading unit where fog or ice forms. At a chemical or consumables store one logger near the roof shows how hot the upper shelves run.",
+      "faqs": [
+        {
+          "question": "Why does a cold room on the Gulf coast fog and ice up near its door?",
+          "answer": "Humid air enters each time the door opens and freezes on cold coils and walls, so alerts for a door left open and a humidity reading beside the temperature show how much moisture each delivery brings in."
+        },
+        {
+          "question": "Can a supplier give a client a record of its store?",
+          "answer": "Yes. A report for the room and the dates in question can be exported in PDF, Excel or CSV form, so a quality manager can pass a client a dated log and not a handwritten sheet."
+        }
+      ],
+      "nearby": [
+        "king-abdulaziz-port-dammam"
+      ],
+      "indexable": true
+    } },
+  { slug: "jubail-industrial-city-1", name: "Jubail Industrial City 1", citySlug: "jubail", areaType: "industrial-estate", nearbyIndustries: ["chemical","logistics-warehousing","laboratories"], confirmedService: true, hero: ["rajmudra","virat-pro"], page: {
+      "metaTitle": "Data Loggers in Jubail Industrial City 1 | Prithvi",
+      "metaDescription": "WiFi temperature and humidity data loggers for Jubail Industrial City 1's petrochemical stores, warehouses and laboratories, set up remotely. Get Solution.",
+      "intro": "Jubail Industrial City 1 is the original part of the Jubail industrial city, planned and managed by the Royal Commission for Jubail and Yanbu on the shore north of Dammam. Large petrochemical, fertiliser, steel and plastics plants stand on wide plots with their own utilities, and a commercial port and an industrial port serve them. Around the great plants lie service areas of warehouses, workshops, laboratories and suppliers that keep them running. The air is hot and humid with salt from the sea, and dust blows in from the desert. A temperature data logger here follows the chemical stores, the spare-parts warehouses and the laboratory rooms in which drums, bags, instruments and samples are held to stated limits.",
+      "places": [
+        {
+          "name": "Plant chemical and drum stores",
+          "note": "Large plants keep bags, drums and intermediate products in stores spaced far apart, where printed storage limits matter and a hot or damp spell can spoil material."
+        },
+        {
+          "name": "Spare-parts warehouses and supplier yards",
+          "note": "Contractors and suppliers hold spares, instruments and consumables in big warehouses, where metal parts rust in salty air and electrical items dislike damp."
+        },
+        {
+          "name": "Quality and testing laboratories",
+          "note": "Plant and independent laboratories keep samples, standards and reagents in fridges, freezers and cabinets with their own limits."
+        },
+        {
+          "name": "Service buildings, canteens and clinics",
+          "note": "Canteens, clinics and offices serving the plants run walk-in coolers, medicine fridges and server cupboards in air-conditioned buildings."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "chemical",
+          "sentence": "Petrochemical and fertiliser plants store drums, bags and reagents with printed limits, and an alert from a hot or damp store room lets the storekeeper act before material is wasted."
+        },
+        {
+          "slug": "laboratories",
+          "sentence": "Quality and testing laboratories hold samples and reagents in many fridges and freezers, and an exported log of each is ready for an audit or a visiting inspector."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Suppliers and contractors who share large warehouses need to show each client how its goods were held, and a reading per bay lets them export a report for the right client."
+        }
+      ],
+      "services": "For Jubail Industrial City 1 we supply WiFi loggers for stores and laboratories that have a router, multi-point units for long chemical and spares warehouses, and single-point loggers with external probes for fridges and freezers. VEGA Calibrations, our parent company, can calibrate the loggers and carry out temperature mapping, and the work can be arranged with the supply. A WiFi logger needs a router in range, and for a yard or a vehicle we confirm the option first.",
+      "visits": "Set-up is carried out remotely, so no site visit is needed to start. Send the plant or supplier, the stores and rooms to be watched and a contact through the enquiry form or WhatsApp, and we agree a video session to register the loggers, set the limits and name who receives alerts.",
+      "approach": "At a plant store we would begin with the room holding the most sensitive material, placing one logger near the door and one deep inside, then add a humidity-reading unit where the air is salty or damp. A logger near the roof of the spares warehouse shows how hot the upper racks run.",
+      "faqs": [
+        {
+          "question": "Can a contractor and its client share one account without seeing each other's rooms?",
+          "answer": "Each room is its own point on the dashboard with its own alert contacts, and access can be limited so each party sees only its own rooms while a manager sees the whole list."
+        },
+        {
+          "question": "Why does salty air matter for a chemical or spares store?",
+          "answer": "Salt-laden damp air attacks metal, labels and packaging, so a humidity reading beside the temperature shows when a store is taking on moisture even while the temperature looks acceptable."
+        }
+      ],
+      "nearby": [
+        "jubail-industrial-city-2"
+      ],
+      "indexable": true
+    } },
+  { slug: "jubail-industrial-city-2", name: "Jubail Industrial City 2", citySlug: "jubail", areaType: "industrial-estate", nearbyIndustries: ["chemical","logistics-warehousing","food-beverage"], confirmedService: true, hero: ["setu","nakshatra"], page: {
+      "metaTitle": "Data Loggers in Jubail Industrial City 2 | Prithvi",
+      "metaDescription": "WiFi temperature and humidity data loggers for Jubail Industrial City 2's downstream plants, warehouses and canteens, set up remotely. Get Solution.",
+      "intro": "Jubail Industrial City 2 is a later extension of the Jubail industrial city, laid out alongside the first area to give more room for further plants, warehouses and services. Downstream and light industry, the makers of plastics, chemicals, packaging and metal goods that use the output of the large plants, find plots here, together with logistics yards and service buildings. Workers live in camps and housing and are fed from canteens and treated at clinics. The climate is hot and humid with salt in the air and blowing dust, and the long distances between plots mean that stores are spread out. A temperature data logger here watches the warehouses, the process-material stores and the canteen kitchens of a newer, more spread-out estate.",
+      "places": [
+        {
+          "name": "Downstream plant stores",
+          "note": "Makers of plastics, chemicals and packaging hold resins, additives and finished goods in halls and stores spaced out along wide estate roads."
+        },
+        {
+          "name": "Logistics yards and warehouses",
+          "note": "Distribution and contract warehouses hold goods for several clients, in big sheds with many dock doors that let in hot, damp air."
+        },
+        {
+          "name": "Camp kitchens and canteens",
+          "note": "Canteens feed large numbers of workers from walk-in coolers and freezers, and any failure has to be found at once because many meals depend on one room."
+        },
+        {
+          "name": "Clinics and service buildings",
+          "note": "Clinics hold vaccines and medicines in refrigerators, and service buildings run server cupboards and offices that need steady cooling."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "chemical",
+          "sentence": "Plants that convert polymers, coatings and chemicals hold material with printed limits in warehouses, and an alert from a baking store lets the storekeeper act in time."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Canteen operators and food suppliers keep chilled and frozen stock for large workforces, and a record from each cold room shows when one began to fail."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Operators of big warehouses hold goods for several clients, so a separate reading for each bay lets them send a client a report for its own pallets."
+        }
+      ],
+      "services": "For Jubail Industrial City 2 we supply WiFi loggers for warehouses and kitchens that have a router, multi-point units for long sheds where the roof end is hotter than the floor, and single-point loggers with external probes for cold rooms and clinic refrigerators. Our parent company, VEGA Calibrations, can calibrate the loggers, and that work can be agreed with the order. A WiFi logger needs a router in range, and for distant outbuildings we confirm the option first.",
+      "visits": "There is no site visit to arrange, because set-up is done remotely. Send the plant, camp or warehouse, the rooms to be watched and a contact through the enquiry form or WhatsApp, and we agree a call or video session to register the loggers, set the limits and name the alert recipients.",
+      "approach": "In a camp kitchen we would begin with the main walk-in cooler and the freezer, placing a logger by the door and one at the back. In a plant warehouse we would put one logger near the roof and one near the floor in the bay with the most sensitive stock, and let the first weeks of data show where to add more.",
+      "faqs": [
+        {
+          "question": "Can a camp operator tell a client how its kitchen cold rooms performed?",
+          "answer": "A report for each cold room and any dates can be exported as PDF, Excel or CSV, giving the client a dated record of the room and not a handwritten sheet."
+        },
+        {
+          "question": "How are far-apart buildings on a wide estate watched on one dashboard?",
+          "answer": "Each building or room is a point on the dashboard, a battery keeps each logger recording, and one list shows them all, so a manager sees the whole estate without crossing it."
+        }
+      ],
+      "nearby": [
+        "jubail-industrial-city-1"
       ],
       "indexable": true
     } },

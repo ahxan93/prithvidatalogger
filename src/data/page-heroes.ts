@@ -246,13 +246,13 @@ const CITY_REGISTRY: { slug: string; region: Region }[] = [
     "puducherry", "karaikal",
   ].map((slug) => ({ slug, region: "india" as const })),
   // Saudi Arabia (appended so earlier assignments never move).
-  ...["al-kharj", "diriyah", "al-majmaah", "makkah", "taif", "rabigh", "king-abdullah-economic-city"].map((slug) => ({ slug, region: "gcc" as const })),
+  ...["al-kharj", "diriyah", "al-majmaah", "makkah", "taif", "rabigh", "king-abdullah-economic-city", "al-khobar", "jubail", "al-ahsa", "dhahran", "qatif", "ras-al-khair"].map((slug) => ({ slug, region: "gcc" as const })),
 ];
 
 /**
  * Cities grouped by their state hub. The 10 loggers give only 45 pairs (41 after the pairs held by
  * other pages), so once every pair is taken a city in a hub may reuse a pair that no city in the
- * SAME hub shows. Maharashtra, Gujarat, Uttar Pradesh, Haryana, Telangana, Karnataka, Tamil Nadu, Punjab, Himachal Pradesh, Kerala, Rajasthan, Madhya Pradesh and West Bengal, Andhra Pradesh, Uttarakhand, Dadra and Nagar Haveli and Daman and Diu, Odisha, Jharkhand, Chhattisgarh, Bihar, Assam, Manipur, Meghalaya, Tripura, Sikkim, Jammu and Kashmir and Puducherry, Riyadh Region and Makkah Region (Saudi Arabia) need this so far; a city outside a hub never shares a pair.
+ * SAME hub shows. Maharashtra, Gujarat, Uttar Pradesh, Haryana, Telangana, Karnataka, Tamil Nadu, Punjab, Himachal Pradesh, Kerala, Rajasthan, Madhya Pradesh and West Bengal, Andhra Pradesh, Uttarakhand, Dadra and Nagar Haveli and Daman and Diu, Odisha, Jharkhand, Chhattisgarh, Bihar, Assam, Manipur, Meghalaya, Tripura, Sikkim, Jammu and Kashmir and Puducherry, Riyadh Region, Makkah Region and Eastern Province (Saudi Arabia) need this so far; a city outside a hub never shares a pair.
  */
 const HUB_OF: Record<string, string> = Object.fromEntries([
   ...[
@@ -338,6 +338,9 @@ const HUB_OF: Record<string, string> = Object.fromEntries([
   ...[
     "jeddah", "makkah", "taif", "rabigh", "king-abdullah-economic-city",
   ].map((slug) => [slug, "makkah-region"]),
+  ...[
+    "dammam", "al-khobar", "jubail", "al-ahsa", "dhahran", "qatif", "ras-al-khair",
+  ].map((slug) => [slug, "eastern-province"]),
   ...[
     "baddi", "solan", "parwanoo", "paonta-sahib", "una", "shimla",
   ].map((slug) => [slug, "himachal-pradesh"]),
