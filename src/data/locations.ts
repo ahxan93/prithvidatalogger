@@ -9596,20 +9596,20 @@ export const locations: LegacyLocationNode[] = [
         name: "Madhya Pradesh",
         type: "state",
         intro:
-          "Madhya Pradesh sits at the middle of the country, and the part of its industry that we serve first gathers around Indore, its commercial capital: food processors known for packaged snacks and sweets, pharmaceutical manufacturers, automotive and engineering plants on the belts at Pithampur and Sanwer Road, and a wholesale trade that supplies districts around. Summer heat builds slowly and the monsoon arrives with real weight, so a store that held its range in April can fail an inspection in June. This regional page introduces the state in our map and links to the Indore city page, which holds the detail for its estates and godowns.",
+          "Madhya Pradesh sits at the middle of the country, and our pages follow its main centres: Indore, the commercial capital of snack makers, pharmaceutical plants and wholesale godowns; Bhopal, the capital with its hospitals, institutions and the Mandideep estate; Jabalpur, with defence works and pulse godowns; and Gwalior, where the Malanpur estate meets the highway and the rail line to Delhi. Summer heat builds slowly and the monsoon arrives with real weight, so a store that held its range in April can fail an inspection in June. The pages below take each city in turn, with its estates, its stores and the loggers that suit them.",
         localIndustries: [
           "Food processing",
           "Pharmaceutical manufacturing",
           "Automotive and engineering",
         ],
-        citiesServed: ["Indore"],
+        citiesServed: ["Indore", "Bhopal", "Jabalpur", "Gwalior"],
         supportNote:
           "Supply, installation support and site visits for Madhya Pradesh plants are arranged from our Mumbai office. Send the estate and the stores in question.",
         faqs: [
           {
             question: "Which Madhya Pradesh locations have a page?",
             answer:
-              "Indore has a city page covering Pithampur, Sanwer Road and the food processors. Other cities of the state are served on enquiry and may follow.",
+              "Indore has a city page covering Pithampur, Sanwer Road and the food processors, and Bhopal, Jabalpur and Gwalior each have a city page of their own. A site elsewhere in the state can be raised through the enquiry form.",
           },
           {
             question: "Why watch humidity in a food store?",
@@ -9624,6 +9624,9 @@ export const locations: LegacyLocationNode[] = [
         ],
         listing: [
           { slug: "indore", text: "The commercial capital, with snack and sweet makers, pharmaceutical plants, the Pithampur and Sanwer Road estates and busy wholesale godowns." },
+          { slug: "bhopal", text: "The capital of lakes and hospitals, with a national medical institute, laboratories, Govindpura workshops and the Mandideep pharmaceutical and food estate." },
+          { slug: "jabalpur", text: "A Narmada-side city of defence factories, a rail junction, pulse and rice godowns and the Richhai and Adhartal industrial areas." },
+          { slug: "gwalior", text: "A fort city on the Agra to Mumbai road and the Delhi rail line, with Malanpur and Banmore estates, dairies and highway godowns." },
         ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,
@@ -9719,6 +9722,296 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Indore | Prithvi",
             metaDescription:
               "WiFi and GSM temperature data loggers for Indore's Pithampur and Sanwer Road plants, food processors and godowns. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "bhopal",
+            name: "Bhopal",
+            type: "city",
+            intro:
+              "Bhopal is the capital of Madhya Pradesh, a city of lakes and hills whose old quarter around the Upper Lake and the great mosque gives way to wide government avenues and the commercial streets of MP Nagar. A temperature data logger here mostly serves institutions and trade: the state's ministries and offices, a national medical institute, the large government and private hospitals, laboratories and universities, and wholesale dealers who supply the districts around. The industrial area at Govindpura holds engineering and food works, while Mandideep, a short run out of the city in the Raisen district, is a larger estate of pharmaceutical, food, chemical and engineering plants. Prithvi supplies WiFi loggers for hospital wards and plant rooms with a network and GSM loggers for vehicles and remote stores.",
+            climateAngle:
+              "Summers are hot and dry, the monsoon fills the lakes and brings heavy damp, and winter mornings are cool, so a store that was dry in May can be damp in August and hospital refrigerators work hardest when the power is least reliable.",
+            areas: [
+              {
+                name: "Govindpura industrial area",
+                note: "The city's long-established estate, with engineering and fabrication works, food makers and the godowns of traders, laid out on regular plots beside the main roads.",
+              },
+              {
+                name: "Mandideep industrial area",
+                note: "A big estate across the district line with pharmaceutical, food, chemical and engineering plants on large plots, where warehouses and quality rooms stand far from one another.",
+              },
+              {
+                name: "MP Nagar and the new city",
+                note: "Offices, banks, coaching centres, clinics, restaurants and showrooms fill the planned streets, with server cupboards, pharmacy fridges and kitchen coolers behind each frontage.",
+              },
+              {
+                name: "Hospital and medical-college cluster",
+                note: "A national medical institute, the main government hospital and private hospitals draw patients from the whole of central India and hold blood, vaccines and laboratory samples.",
+              },
+            ],
+            industries: [
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Large government and private hospitals keep blood units, vaccines and medicines in refrigerators that serve patients from several states, and an alert to the duty staff covers the minutes when mains and generator both fail.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Plants at Mandideep hold ingredients and finished packs in controlled rooms, and a continuous record of temperature and humidity supports each batch file and answers a customer's audit without a hunt through paper.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Food makers, dairies, sweet shops and caterers keep chillers and cold rooms that suffer when the city's power wavers, so a phone alert reaches the owner before stock is lost.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "University, hospital and testing laboratories keep samples, reagents and kits in fridges and cabinets with their own limits, and an exported log is ready on the day an inspector calls.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels let a hospital pharmacy or a plant cold room be watched at two points at once, one near the door and one deep inside, in a single device.",
+              },
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels cover a big Mandideep warehouse or a hospital's many refrigerators from one report, so a quality head sees them all in a single view.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an external probe slots into a clinic fridge or a sweet-shop chiller without changing how the unit is used.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a hospital group watch several Bhopal wards and blood banks on one dashboard?",
+                answer:
+                  "Yes. Every refrigerator and storage room is a point on one account, alerts go to the nurse or technician responsible, and a head of department can export a report for any unit and period.",
+              },
+              {
+                question: "Do you cover Mandideep as well as the city estates?",
+                answer:
+                  "Send the estate, the plant and a contact who will meet us at the gate through the enquiry form, WhatsApp or a call. Plants usually ask for visitor passes and safety briefings in advance, which we plan around.",
+              },
+              {
+                question: "How do loggers help during the long power cuts of a storm?",
+                answer:
+                  "Loggers run on batteries and keep recording through a cut, then send the stored readings once the network is back, so the record shows how long the room was warm.",
+              },
+              {
+                question: "Who calibrates loggers used by a Bhopal laboratory or hospital?",
+                answer:
+                  "VEGA Calibrations, our parent company, handles calibration of loggers and probes, and the work can be arranged alongside the supply and the first visit.",
+              },
+            ],
+            nearby: [
+              { slug: "indore", name: "Indore" },
+              { slug: "jabalpur", name: "Jabalpur" },
+              { slug: "gwalior", name: "Gwalior" },
+            ],
+            metaTitle: "Temperature Data Loggers in Bhopal | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Bhopal's hospitals, laboratories, Mandideep plants and Govindpura stores. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "jabalpur",
+            name: "Jabalpur",
+            type: "city",
+            intro:
+              "Jabalpur lies on the Narmada river in the east of Madhya Pradesh, close to the Marble Rocks gorge at Bhedaghat, and a temperature data logger here works in a city of defence production, rail, courts and colleges. Several defence factories stand on the outskirts, a major railway junction serves the region, and the state high court, a university and medical colleges make the city a centre of administration and learning. The industrial areas of Richhai and Adhartal hold engineering workshops, food and packaging firms and godowns, and dealers in grain and pulses supply the markets of the eastern districts. Prithvi supplies WiFi loggers for rooms and wards with a network and GSM loggers for vehicles, yards and stores beyond a router.",
+            climateAngle:
+              "Summers are hot, the monsoon is long and damp across the Narmada valley and winter nights are cool, so a store of pulses or electrical spares can swing from dry to humid over a few weeks.",
+            areas: [
+              {
+                name: "Richhai industrial area",
+                note: "An estate of engineering workshops, fabricators, packaging firms and godowns on regular plots, many of them supplying the defence factories and the railway.",
+              },
+              {
+                name: "Adhartal industrial area",
+                note: "An industrial belt with factories, food processors and storage sheds, where road transport brings in raw material and takes finished goods to the eastern districts.",
+              },
+              {
+                name: "Defence factory belt",
+                note: "Large government factories on the edge of the city keep stores of materials, instruments and finished items on wide campuses with strict access rules.",
+              },
+              {
+                name: "Grain and pulse markets",
+                note: "Dealers and mills handle pulses, rice and grain in godowns around the old city, where damp from the long monsoon is the main enemy of stored sacks.",
+              },
+            ],
+            industries: [
+              {
+                slug: "electronics",
+                sentence:
+                  "Workshops that supply electrical and instrument parts keep boards and components in stores where monsoon damp causes corrosion, and a humidity trend shows when a store needs drying.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Pulse and rice millers, dairies and sweet makers store ingredients and finished stock that spoil in the heavy air of the rainy months, and an alert on a phone reaches the owner on a holiday.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Medical colleges and hospitals serve patients from many eastern districts, and an alert to the duty staff means a failing refrigerator is found during the night and not at the round.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "The junction and the highways make Jabalpur a transfer point, and a reading at each bay shows how long a load of food or medicine waited on a dock in the heat.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity along with temperature at one point, which tells a pulse godown or an electrical store when the monsoon has overcome its dehumidifier.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "A logger with its own display lets a storekeeper read conditions on the round, while the dashboard keeps the complete record for the quality head.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger reports from a truck or a yard store where no Wi-Fi network exists and sends alerts to a phone.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How does a logger help a pulse or rice miller in Jabalpur?",
+                answer:
+                  "A record of temperature and humidity from the godown shows when the monsoon began to affect the stock, and an alert prompts the staff to cover, dry or move sacks before they are damaged.",
+              },
+              {
+                question: "Can you work inside a site with strict entry rules?",
+                answer:
+                  "Send the site, the rules and a contact through the enquiry form, WhatsApp or a call. Where passes or briefings are needed we plan the visit around them, and keep the equipment list short.",
+              },
+              {
+                question: "Do you visit Richhai and Adhartal in one trip?",
+                answer:
+                  "They lie on different sides of the city, so we plan a sequence that follows the roads. Send the units and a contact at each, and we propose an order.",
+              },
+              {
+                question: "Can calibration be arranged for a Jabalpur laboratory?",
+                answer:
+                  "Calibration of loggers and probes for a Jabalpur laboratory is carried out by VEGA Calibrations, our parent company, and can be booked alongside the supply.",
+              },
+            ],
+            nearby: [
+              { slug: "bhopal", name: "Bhopal" },
+              { slug: "indore", name: "Indore" },
+            ],
+            metaTitle: "Temperature Data Loggers in Jabalpur | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Jabalpur's Richhai and Adhartal units, pulse godowns, hospitals and workshops. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "gwalior",
+            name: "Gwalior",
+            type: "city",
+            intro:
+              "Gwalior stands in the north of Madhya Pradesh beneath its great hill fort, and a temperature data logger here protects stock in a city of trade, learning and transport. The town lies on the Agra to Mumbai road and on the main railway line between Delhi and the south, so trucks and trains carrying food, medicines and consumer goods pass through at all hours. Universities, a medical college and technical institutes give the city a student population, and the estates at Malanpur and Banmore, a drive away, hold pharmaceutical, food, engineering and plastics works. Dairies, sweet makers and cold rooms in the city hold perishable stock through some of the fiercest heat on the plains. Prithvi supplies WiFi loggers for rooms and wards with a network and GSM loggers for trucks, godowns and stores without a router.",
+            climateAngle:
+              "Gwalior is among the hotter plains of the state in summer, winters bring cold mornings and fog, and the monsoon is shorter, so a warehouse runs hot at the roof in June and a chilled delivery can stand in cold fog in January.",
+            areas: [
+              {
+                name: "Malanpur industrial area",
+                note: "A large estate beyond the city limit with pharmaceutical, food and engineering plants on big plots, whose stores are far apart and whose goods leave by truck for Delhi and the south.",
+              },
+              {
+                name: "Banmore industrial area",
+                note: "An industrial belt on the highway toward Morena, with manufacturers of building material, plastics and packaged goods and godowns that serve the Chambal region.",
+              },
+              {
+                name: "City workshops and lanes",
+                note: "Small workshops, food makers and dealers in the old lanes hold stock in crowded rooms in lanes where space is short and power is irregular.",
+              },
+              {
+                name: "Transport yards on the highway",
+                note: "Yards and goods sheds beside the Agra to Mumbai road hold trucks that wait for a load, with goods standing in vehicles and on open docks through hot afternoons.",
+              },
+            ],
+            industries: [
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Plants at Malanpur and medicine wholesalers in the city store ingredients and finished packs in controlled rooms, and a dated record backs a quality head who must answer a customer's audit.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Dairies, biscuit and snack makers and cold-room operators hold stock that suffers in the fierce summer, so an alert on a phone matters when a compressor fails at night.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Carriers on the highway and the rail line move goods between Delhi and the south, and a logger placed in a consignment records how long it stood in a yard or a siding.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "University and institute laboratories keep samples and reagents in fridges and cabinets with their own limits, and an exported log is ready when an inspector asks.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels cover a wide warehouse or a Malanpur plant store across racks and dock doors, so one report shows where the roof heat gathers.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an external probe fits a dairy chiller or a laboratory refrigerator and keeps a quiet, continuous record.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger with an external probe travels in a truck on the highway and reports from yards and sheds that have no network of their own.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a transporter prove how a Gwalior load was kept on the way to Delhi?",
+                answer:
+                  "Yes. A GSM logger placed with the goods records the reading along the journey, and the owner can open the route record on a phone and export it for the buyer.",
+              },
+              {
+                question: "Do you cover Malanpur and Banmore as well as the city?",
+                answer:
+                  "Tell us the estate, the plant and a contact who will meet us, using the enquiry form, WhatsApp or a call, and we confirm a day. The two estates lie in different directions, so we plan them in sequence.",
+              },
+              {
+                question: "How should alert limits suit hot summers and foggy winters?",
+                answer:
+                  "A store that is steady in March can run hot in June, so we suggest watching the swing for a few weeks and then setting limits with a short delay, which catches a warming room without false alarms from doors.",
+              },
+              {
+                question: "Who handles calibration of loggers used in a Gwalior pharmaceutical store?",
+                answer:
+                  "VEGA Calibrations, our parent company, can calibrate the loggers and carry out temperature mapping, and the work can be planned with the visit.",
+              },
+            ],
+            nearby: [
+              { slug: "bhopal", name: "Bhopal" },
+              { slug: "agra", name: "Agra" },
+              { slug: "jabalpur", name: "Jabalpur" },
+            ],
+            metaTitle: "Temperature Data Loggers in Gwalior | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Gwalior's Malanpur plants, dairies, laboratories and highway godowns. Get Solution.",
             indexable: true,
           },
         ],

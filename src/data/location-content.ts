@@ -98,7 +98,7 @@ export const locationContent: Record<string, LocationContent> = {
   },
   "india/madhya-pradesh": {
     metaDescription:
-      "Temperature data loggers in Madhya Pradesh: Indore food processors, pharma makers and the Pithampur and Sanwer Road estates. Get Solution.",
+      "Temperature data loggers in Madhya Pradesh: Indore, Bhopal, Jabalpur and Gwalior's plants, hospitals and godowns. Get Solution.",
     recommended: ["virat", "dhruva", "setu"],
   },
   "india/west-bengal": {
