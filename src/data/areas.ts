@@ -75,6 +75,7 @@ export const areaCities: Record<string, { name: string; stateSlug: string; state
   hyderabad: { name: "Hyderabad", stateSlug: "telangana", stateName: "Telangana" },
   bengaluru: { name: "Bengaluru", stateSlug: "karnataka", stateName: "Karnataka" },
   chennai: { name: "Chennai", stateSlug: "tamil-nadu", stateName: "Tamil Nadu" },
+  goa: { name: "Goa", stateSlug: "goa", stateName: "Goa" },
 };
 
 export const areas: AreaDef[] = [
@@ -4629,6 +4630,229 @@ export const areas: AreaDef[] = [
       "nearby": [
         "sriperumbudur",
         "ambattur"
+      ],
+      "indexable": true
+    } },
+  // ------------------------------------------------------------------ Goa (batch 1: parent is the Goa city page)
+  { slug: "panjim", name: "Panjim", citySlug: "goa", areaType: "business-district", nearbyIndustries: ["hospitals-blood-banks","food-beverage","pharmaceutical"], confirmedService: true, hero: ["setu","veer-pro"], page: {
+      "metaTitle": "Data Loggers in Panjim, Goa | Prithvi",
+      "metaDescription": "WiFi and GSM temperature and humidity data loggers for Panjim's hospitals, pharmacies, hotels and offices on the Mandovi. Get Solution.",
+      "intro": "Panjim, also written Panaji, is the capital of Goa and stands on the southern bank of the Mandovi river, where the old town of narrow lanes, balconied houses and churches meets a newer grid of offices, shops and hotels. Government departments, banks, clinics and pharmacies crowd the centre, and a stream of visitors keeps restaurants and hotels busy for much of the year. Panjim is a town of many small rooms rather than a few giant sheds, so a temperature and humidity logger here usually watches a medicine fridge, a hotel walk-in or a server cupboard, in air that is salty and damp for most of the year.",
+      "places": [
+        {
+          "name": "Mandovi riverfront and the old town",
+          "note": "Hotels, restaurants and shops line the riverside road and the lanes behind it, with kitchens in old buildings where cold rooms were fitted into whatever space was left."
+        },
+        {
+          "name": "Patto and the commercial offices",
+          "note": "A business quarter near the bus stand and the river bridge, with offices, banks and professional rooms where server cupboards and records rooms need steady air."
+        },
+        {
+          "name": "Panjim market and the pharmacy lanes",
+          "note": "The covered municipal market and the streets around it hold fish, vegetables, dairy and medicine shops whose refrigerators are opened all day."
+        },
+        {
+          "name": "Miramar and Dona Paula",
+          "note": "The seaward edge of the town, with hotels, guesthouses and private clinics facing the sea, where salt in the breeze corrodes fittings and condensation forms quickly."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "hospitals-blood-banks",
+          "sentence": "Private hospitals, clinics and diagnostic labs in and around the capital keep vaccines, insulin and samples in refrigerators that must hold their limits through every power cut, and a dated record backs each shift handover."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Hotels, cafes and caterers rely on walk-in coolers that are opened hundreds of times on a busy evening, and an alert to the duty engineer matters most when the dining room is full."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Medicine wholesalers and chemists around the market lanes store stock in small rooms and counter fridges where the monsoon pushes humidity up, so a log shows how a room behaved overnight."
+        }
+      ],
+      "services": "For Panjim we supply WiFi loggers for hotels, offices and clinics with a network, compact single-point loggers with external probes for counter fridges and walk-ins, and GSM versions for vehicles and stores that have no router. Calibration of the loggers can be arranged through VEGA Calibrations, our parent company, along with the supply.",
+      "visits": "Tell us the street or building, the rooms to be watched and a contact who will meet us, using the enquiry form, WhatsApp or a call. Our Mumbai office arranges the trip, and we plan the day around your service hours so a kitchen or a pharmacy is not disturbed at its busiest. Narrow lanes and limited parking in the old town are worth mentioning when you write.",
+      "approach": "For a hotel we would begin with the kitchen walk-in and the bar coolers, placing a probe away from the door seal and the cooling coil, then add the dry store where humidity tends to rise. A clinic would start with its vaccine refrigerator. Alerts go first to the person on duty and then to a manager, so a failure at night is noticed before opening.",
+      "faqs": [
+        {
+          "question": "Can one logger account cover several rooms in a Panjim hotel?",
+          "answer": "Yes. Each cooler, freezer and store becomes a point on one dashboard with its own limits, and the engineer, the manager and the owner can each receive the alerts that concern them."
+        },
+        {
+          "question": "Does the sea air in Panjim affect a logger?",
+          "answer": "Salt air and damp are hard on exposed metal, so we suggest placing the logger body indoors and out of spray, with only the probe cable entering the cold space, and wiping the probe during routine cleaning."
+        }
+      ],
+      "nearby": [
+        "ponda",
+        "margao"
+      ],
+      "indexable": true
+    } },
+  { slug: "verna", name: "Verna", citySlug: "goa", areaType: "industrial-estate", nearbyIndustries: ["pharmaceutical","electronics","logistics-warehousing"], confirmedService: true, hero: ["virat","vayu"], page: {
+      "metaTitle": "Data Loggers in Verna, Goa | Prithvi",
+      "metaDescription": "WiFi and GSM temperature and humidity data loggers for Verna's industrial estate, pharma and electronics plants and warehouses. Get Solution.",
+      "intro": "Verna is a plateau in Salcete taluka of South Goa, and its industrial estate is the most prominent in the state for manufacturing. Pharmaceutical formulation plants, electronics and electrical makers, packaging firms and engineering works stand on planned plots behind gates, close to the main road and the railway line that carry goods in and out. Production halls, raw-material stores and finished-goods rooms are often in separate buildings, and many of them must be kept dry through a long monsoon. A temperature and humidity logger in Verna therefore mostly supports quality teams that must show where a batch was held.",
+      "places": [
+        {
+          "name": "Verna industrial estate",
+          "note": "The main estate, laid out in plots along internal roads, with pharma and electronics plants, warehouses and utility buildings that sit some distance apart."
+        },
+        {
+          "name": "Raw-material and finished-goods stores",
+          "note": "Stores inside the plants hold ingredients, components and packed goods, and these rooms are where humidity drift in the rainy months shows up first."
+        },
+        {
+          "name": "Transport yards beside the main road",
+          "note": "Trucks wait and load near the estate gates, so goods bound for the coast and for other states spend time on docks and in vehicles between legs."
+        },
+        {
+          "name": "Cuncolim and the other southern estates",
+          "note": "Further south, other industrial estates serve similar trades, and a firm with sites in more than one estate can see them together on one account."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Formulation plants keep ingredients, intermediates and finished packs in controlled rooms, and a continuous record of temperature and humidity supports each batch file and answers a customer's questions without a hunt through paper."
+        },
+        {
+          "slug": "electronics",
+          "sentence": "Makers of electronic and electrical goods store boards, components and sealed assemblies where damp causes corrosion, so a humidity trend shows when a store needs drying before the rains peak."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Warehouses and carriers serving the estate hold packed goods in sheds that heat up under metal roofs, and readings at each bay show how long a load waited before it left."
+        }
+      ],
+      "services": "For Verna we supply multi-channel loggers for stability rooms and tall warehouse bays, WiFi loggers for single rooms with a network, and GSM loggers with external probes for vehicles and remote stores. VEGA Calibrations, our parent company, handles calibration and temperature mapping, and the work can be planned together with the supply.",
+      "visits": "Please send the plant, the plot or the road and a contact who will meet us at the gate through the enquiry form, WhatsApp or a call. The trip is organised from our Mumbai office. Pharma and electronics plants usually register visitors and may ask for gowning or ID, so tell us the rules in advance and we agree a day that fits your production schedule.",
+      "approach": "At a formulation plant we would begin with the raw-material store and the finished-goods room, hanging one logger at working height and one near the highest shelf, and place a humidity-reading model where the damp is worst. Alerts go to the stores in-charge and the quality head, and the first weeks of data show which rooms need a second point.",
+      "faqs": [
+        {
+          "question": "Can a quality head see several Verna buildings on one dashboard?",
+          "answer": "Yes. Every store and hall appears as its own point on one account, with separate alert recipients for each, and a report for any room and period can be exported when a customer asks."
+        },
+        {
+          "question": "How do loggers cope with long distances between buildings on the estate?",
+          "answer": "Loggers with a battery and a network link need no cable run between halls. Where a building has poor signal, a GSM logger reports over the mobile network instead, so a far store is as visible as a near one."
+        }
+      ],
+      "nearby": [
+        "margao",
+        "ponda"
+      ],
+      "indexable": true
+    } },
+  { slug: "ponda", name: "Ponda", citySlug: "goa", areaType: "mixed-use", nearbyIndustries: ["pharmaceutical","food-beverage","logistics-warehousing"], confirmedService: true, hero: ["setu","virat"], page: {
+      "metaTitle": "Data Loggers in Ponda, Goa | Prithvi",
+      "metaDescription": "WiFi and GSM temperature and humidity data loggers for Ponda's industrial estates, markets and food and medicine stores. Get Solution.",
+      "intro": "Ponda is an inland town at the centre of Goa, set among hills, temples and spice and areca plantations, and it is also a place where industry and everyday trade meet. Its taluka holds industrial estates on the plateau, while the town itself has a busy market, wholesale shops, clinics and godowns that supply the villages around. The main road between the coast and the Karnataka border runs through it, so goods pass through on trucks at all hours. The hills trap warm, damp air in the monsoon, and a temperature and humidity logger in Ponda mostly guards stock that waits in sheds, shops and small plants.",
+      "places": [
+        {
+          "name": "Kundaim industrial estate",
+          "note": "An inland estate in Ponda taluka where manufacturers have more room than on the coast, with long walks between buildings that suit battery-powered wireless loggers."
+        },
+        {
+          "name": "Betki and Candepar",
+          "note": "A smaller industrial pocket close to the town, where workshops, packing firms and godowns sit in mixed buildings on narrow approach roads."
+        },
+        {
+          "name": "Ponda market and wholesale lanes",
+          "note": "The market and the shops around it sell groceries, dairy, sweets and medicines to the town and nearby villages, with counters and fridges that are opened all day."
+        },
+        {
+          "name": "Highway transport stops",
+          "note": "Trucks halt along the main road for loading and rest, and goods bound for the coast or inland wait in vehicles between legs of a journey."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Manufacturers on the Ponda plateau hold ingredients and finished packs in controlled stores, and a dated log of temperature and humidity gives a quality team something to show at a customer audit."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Sweet makers, bakers, packers and grocery wholesalers keep chilled and dry stock that spoils quickly when the power fails, so an alert to a phone is worth more than a morning check."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Godowns and carriers on the highway receive loads through the day, and a reading at each bay shows how long goods sat in the heat with the doors open."
+        }
+      ],
+      "services": "For Ponda we supply WiFi loggers for plants and shops that have a network, GSM loggers with external probes for godowns, vehicles and stores beyond a router, and multi-channel units for larger halls. Calibration of the loggers comes from VEGA Calibrations, our parent company, and can be arranged together with the supply.",
+      "visits": "Send the estate, the shop or the road, along with a contact who will meet us, through the enquiry form, WhatsApp or a call. Our Mumbai office plans the journey, and Ponda is usually grouped with other Goa stops so the trip is worth making. Tell us your busy market days and shift hours, and we plan around them.",
+      "approach": "For a food or medicine wholesaler we would start with the walk-in or the main refrigerator and the dry store, placing probes away from the door and the cooling coil. In a plant we would start with the raw-material room. Alerts go to the person on duty first and then to the owner, so a failure on a holiday is noticed.",
+      "faqs": [
+        {
+          "question": "Can a Ponda shop owner watch a fridge while away from the shop?",
+          "answer": "Yes. The dashboard opens on a phone, and alerts for a rise in temperature or a door left open go by phone and email to the people you name, with a second person set to follow if the first does not respond."
+        },
+        {
+          "question": "Do loggers keep recording when the power goes off?",
+          "answer": "Loggers have a battery, so they keep recording and sending alerts through a cut. The record then shows how long the power was out and how far the temperature rose before it returned."
+        }
+      ],
+      "nearby": [
+        "panjim",
+        "verna",
+        "margao"
+      ],
+      "indexable": true
+    } },
+  { slug: "margao", name: "Margao (Madgaon)", citySlug: "goa", areaType: "mixed-use", nearbyIndustries: ["food-beverage","hospitals-blood-banks","logistics-warehousing"], confirmedService: true, hero: ["virat","vayu-pro"], page: {
+      "metaTitle": "Data Loggers in Margao (Madgaon), Goa | Prithvi",
+      "metaDescription": "WiFi and GSM temperature and humidity data loggers for Margao's market, cold storage, hospitals and retail trade in South Goa. Get Solution.",
+      "intro": "Margao, also spelt Madgaon, is the main commercial town of Salcete taluka and of South Goa, and it is the place where the district shops, banks and sells. The big municipal market, the railway junction on the Konkan line, the bus stand and a ring of wholesale lanes make it a gathering point for goods from the villages and the beaches to the south. Hospitals, pharmacies, supermarkets, cold stores and godowns fill the streets around the centre. A temperature and humidity logger in Margao mostly watches perishable and medicine stock held in busy rooms, in air that is hot and wet for most of the year.",
+      "places": [
+        {
+          "name": "Margao municipal market",
+          "note": "A large covered market where fish, meat, vegetables and dairy are sold from early morning, with cold rooms and chest freezers behind the stalls."
+        },
+        {
+          "name": "Wholesale lanes and cold stores",
+          "note": "Traders in the older streets store fish, frozen food and dairy in cold stores and godowns that supply restaurants and shops across the south."
+        },
+        {
+          "name": "Hospital and pharmacy quarter",
+          "note": "The district hospital, private hospitals and many medicine shops stand within a short walk of each other and hold vaccines and medicines in refrigerators."
+        },
+        {
+          "name": "Fatorda, Pajifond and the station area",
+          "note": "Supermarkets, showrooms and distribution depots spread along the roads toward the railway station, where chilled stock is received in bulk."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "food-beverage",
+          "sentence": "Fish traders, caterers, bakers and supermarket cold rooms depend on freezers and chillers that run all day, and a continuous log shows exactly when a unit started to fail."
+        },
+        {
+          "slug": "hospitals-blood-banks",
+          "sentence": "Hospitals and clinics keep vaccines, insulin and blood products in refrigerators that must hold their limits through every cut in power, and a dated record backs each shift handover."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Distribution depots near the junction receive chilled and dry goods from many suppliers and send them to the beaches, so a reading at each bay shows how a load was held on the way."
+        }
+      ],
+      "services": "For Margao we supply WiFi loggers for shops, hospitals and cold stores with a network, compact single-point loggers with external probes for chest freezers and counter fridges, and GSM versions for vehicles and godowns without a router. Calibration comes from VEGA Calibrations, our parent company, and can be arranged together with the supply.",
+      "visits": "Send the street or building, the rooms to be watched and a contact who will meet us, using the enquiry form, WhatsApp or a call. We travel from our Mumbai office to Margao. The market and the roads around it are crowded in the morning, so we propose a time when your cold rooms and your lanes are quieter.",
+      "approach": "For a cold store or a fish trader we would begin with the main chamber, placing one probe near the door and one deep inside, since the two can differ widely. A hospital would start with its vaccine and blood refrigerators. Alerts go to the person on duty first and then to a manager, so a failure at night does not wait for the morning.",
+      "faqs": [
+        {
+          "question": "Can a Margao cold store owner see several chambers at once?",
+          "answer": "Yes. Each chamber is a point on one dashboard with its own limits and alert contacts, and a report for any chamber and period can be exported when a buyer or an inspector asks."
+        },
+        {
+          "question": "What helps in the monsoon, when power cuts are common?",
+          "answer": "A logger with a battery keeps recording and sending alerts during a cut, and the record afterwards shows how long the supply was off and how far the temperature climbed before it returned."
+        }
+      ],
+      "nearby": [
+        "verna",
+        "ponda",
+        "panjim"
       ],
       "indexable": true
     } },

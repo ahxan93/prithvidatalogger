@@ -8650,7 +8650,7 @@ export const locations: LegacyLocationNode[] = [
           {
             question: "Which Goa locations have a page?",
             answer:
-              "The Goa city page covers Verna and Kundaim and the hotel kitchens along the coast. The state is small enough that one page serves its industry well.",
+              "The Goa city page covers Verna and Kundaim and the hotel kitchens along the coast, and Panjim, Verna, Ponda and Margao each have an area page of their own. A site elsewhere in Goa can be raised through the enquiry form.",
           },
           {
             question: "Do you serve hotels as well as plants?",
@@ -8665,6 +8665,12 @@ export const locations: LegacyLocationNode[] = [
         ],
         listing: [
           { slug: "goa", text: "A coastal state's pharmaceutical plants at Verna and Kundaim and its hotel and restaurant kitchens, exposed to salt air and a heavy monsoon." },
+        ],
+        areaListing: [
+          { slug: "panjim", text: "The riverside capital of old lanes, hotels, pharmacies, clinics and offices, where small cold rooms work in salty, damp air." },
+          { slug: "verna", text: "The South Goa plateau estate of pharmaceutical, electronics and packaging plants, with stores that must stay dry through the monsoon." },
+          { slug: "ponda", text: "An inland town among hills and plantations, with plateau industrial estates, a busy market and highway godowns." },
+          { slug: "margao", text: "The commercial town of Salcete with a large market, cold stores, hospitals, retail depots and a Konkan railway junction." },
         ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,
