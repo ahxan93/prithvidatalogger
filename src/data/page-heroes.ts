@@ -240,6 +240,7 @@ const CITY_REGISTRY: { slug: string; region: Region }[] = [
     "patna", "hajipur", "muzaffarpur",
     "gaya", "bhagalpur",
     "guwahati", "dibrugarh", "silchar", "tezpur",
+    "imphal", "shillong", "agartala",
   ].map((slug) => ({ slug, region: "india" as const })),
 ];
 
@@ -308,6 +309,15 @@ const HUB_OF: Record<string, string> = Object.fromEntries([
   ...[
     "guwahati", "dibrugarh", "silchar", "tezpur",
   ].map((slug) => [slug, "assam"]),
+  ...[
+    "imphal",
+  ].map((slug) => [slug, "manipur"]),
+  ...[
+    "shillong",
+  ].map((slug) => [slug, "meghalaya"]),
+  ...[
+    "agartala",
+  ].map((slug) => [slug, "tripura"]),
   ...[
     "baddi", "solan", "parwanoo", "paonta-sahib", "una", "shimla",
   ].map((slug) => [slug, "himachal-pradesh"]),

@@ -107,6 +107,21 @@ export const locationContent: Record<string, LocationContent> = {
     recommended: ["rajmudra", "nakshatra", "vayu"],
     inName: "Silvassa, Daman & Diu",
   },
+  "india/tripura": {
+    metaDescription:
+      "Temperature data loggers in Tripura: Agartala's markets, hospitals, university laboratories and border-trade godowns in hot, humid air. Get Solution.",
+    recommended: ["nakshatra","virat","vayu"],
+  },
+  "india/meghalaya": {
+    metaDescription:
+      "Temperature data loggers in Meghalaya: Shillong's hotel kitchens, hospitals, laboratories and Byrnihat-side stores in cool, wet hill air. Get Solution.",
+    recommended: ["nakshatra","setu","rajmudra"],
+  },
+  "india/manipur": {
+    metaDescription:
+      "Temperature data loggers in Manipur: Imphal's markets, medicine distributors, hospitals and handloom godowns in humid hill-road country. Get Solution.",
+    recommended: ["nakshatra","setu","vayu"],
+  },
   "india/assam": {
     metaDescription:
       "Temperature data loggers in Assam: Guwahati, Dibrugarh, Silchar and Tezpur's tea stores, medicine distributors and hospitals. Get Solution.",

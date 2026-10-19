@@ -146,6 +146,9 @@ export const locations: LegacyLocationNode[] = [
       { slug: "chhattisgarh", text: "Raipur's rice mills and steel estates, Bhilai's steel township, Bilaspur's railway and coalfield offices and Korba's coal and power belt, in dust and a heavy monsoon." },
       { slug: "bihar", text: "Patna's hospitals and distributors, Hajipur's railway and banana trade and Muzaffarpur's litchi and fruit markets, in heat, humidity and flood weather." },
       { slug: "assam", text: "Guwahati's gateway trade and hospitals, Dibrugarh's tea and oil country, Silchar's Barak Valley trade and Tezpur's gardens, in very heavy rain and river floods." },
+      { slug: "manipur", text: "Imphal's valley markets, handloom trade and hospitals, reached by long hill roads and exposed to heavy summer rain." },
+      { slug: "meghalaya", text: "Shillong's hill hotels, medical institute and university, with the Byrnihat industrial belt below, in cool, extremely rainy air." },
+      { slug: "tripura", text: "Agartala's border-side markets, rubber and agro trade, hospitals and university, in hot humid air and heavy monsoon rain." },
     ],
     indexable: true,
     children: [
@@ -15637,6 +15640,414 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Tezpur | Prithvi",
             metaDescription:
               "WiFi and GSM temperature and humidity data loggers for Tezpur's tea factories, university laboratories, hospital and river-trade market. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "manipur",
+        name: "Manipur",
+        type: "state",
+        intro:
+          "Manipur is a hill state of the North East with an oval valley at its centre, and almost all of its storage sits in the valley around Imphal, where the capital, the airport, the main hospitals and the markets stand. Goods reach the state by long hill roads from Assam and Nagaland, and the road to Myanmar at Moreh carries border trade. Rain is heavy through the summer, the valley air is humid, and landslides can close the roads for days, so medicines, food and fabrics wait in godowns longer than their owners would like. Winters are cool and dry. Cold rooms and hospital refrigerators must therefore be watched through outages as well as heat. This page introduces the state, and the city page covers Imphal.",
+        localIndustries: [
+          "Handloom and handicraft trade",
+          "Medical and pharmaceutical distribution",
+          "Food and general wholesale",
+          "Hospitals and institutes",
+        ],
+        citiesServed: ["Imphal"],
+        supportNote:
+          "Supply, installation support and site visits for Manipur sites are arranged from our Mumbai office. Tell us the town or the market and what the rooms hold.",
+        faqs: [
+          {
+            question: "Which Manipur locations have a page?",
+            answer:
+              "Imphal has a city page. For any other town in the state, write to us through the enquiry form and we confirm how a visit and supply could be arranged.",
+          },
+          {
+            question: "How does a long hill road change what a logger needs to do?",
+            answer:
+              "A load may spend days on winding roads, so a GSM logger placed with the goods records every hour of the journey and keeps its readings in memory when signal fades, then sends them once coverage returns.",
+          },
+          {
+            question: "Why is a separate page kept for Manipur and not a combined North East page?",
+            answer:
+              "Each state has its own capital, climate pattern, roads and trade, so we describe them one by one and link neighbouring states only where they are genuinely close.",
+          },
+        ],
+        listing: [
+          { slug: "imphal", text: "The valley capital of handloom and market trade, with a medical institute, an airport and long hill roads to Assam and Myanmar." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "imphal",
+            name: "Imphal",
+            type: "city",
+            intro:
+              "Imphal is the capital of Manipur, a city on the flat floor of the valley ringed by hills and watched over by the old Kangla fort, and a temperature data logger here serves a trading and healthcare centre far from the plains. The Ima Keithel, the market run by women, fills the heart of the town, handloom and handicraft traders send woven cloth across the country, and wholesalers stock food, medicines and general goods that arrive on long hill roads. A regional medical institute and other hospitals serve the whole state, a central university stands at Canchipur, and an industrial estate at Takyelpat holds small factories. Prithvi supplies WiFi loggers for wards and rooms with a network and GSM loggers for trucks and distant stores.",
+            climateAngle:
+              "The valley is warm and humid in summer, the monsoon rain is heavy, and winters are cool and dry, so cloth and cartons take on damp for months while hill roads, slides and strikes keep trucks waiting for days.",
+            areas: [
+              {
+                name: "Ima Keithel and the central markets",
+                note: "Traders, mostly women, sell vegetables, fish, cloth and household goods in the covered markets, with cold stores and back rooms nearby for stock that does not sell in a day.",
+              },
+              {
+                name: "Takyelpat industrial estate",
+                note: "An estate on the edge of the city holds small food, packaging and engineering units and the godowns that serve them, where sheds hold goods that arrived after long hill-road journeys.",
+              },
+              {
+                name: "Regional medical institute and the hospital belt",
+                note: "A large teaching hospital, the state's main government hospital and private clinics hold blood units, vaccines and medicines in refrigerators that serve patients from every district.",
+              },
+              {
+                name: "Handloom lanes and godowns",
+                note: "Weavers and cloth merchants keep yarn, finished wraps and shawls in small godowns, where damp from the valley air can mark and weaken fine fabric.",
+              },
+            ],
+            industries: [
+              {
+                slug: "textile",
+                sentence:
+                  "Handloom dealers store yarn and woven cloth that suffer in damp air, and a record of humidity and temperature in a godown shows when a store needed airing before a season's stock was marked.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine distributors supply chemists across the hills and the valley after long truck journeys, and a logger placed with a pack records the whole range of conditions it met on the road.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A medical institute and other hospitals serve the state's whole population, and an alert to the duty staff covers the minutes when mains and generator both fail in a storm.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Fish and vegetable traders, dairies and bakeries keep chillers and cold rooms that must hold through long outages, and a record from each unit shows when one failed.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity and temperature at one point suit a handloom godown or a medicine store, where damp valley air is the main danger to the stock.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A one-probe logger fits a clinic refrigerator or a market chiller in Imphal and does nothing to change how staff use the unit.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger rides in a truck on the hill road and keeps recording where signal fades, sending the readings once coverage returns.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How does a logger help a medicine distributor whose goods travel the hill road to Imphal?",
+                answer:
+                  "A GSM logger placed with the consignment records readings along the road and through any halt, and the distributor can open the record on a phone and export it for the buyer.",
+              },
+              {
+                question: "What if a landslide blocks the road for days?",
+                answer:
+                  "The logger keeps recording on its own battery, so a delayed load leaves a clear record of how long it waited and in what conditions.",
+              },
+              {
+                question: "Do you cover the Takyelpat estate as well as the city?",
+                answer:
+                  "Send the estate, the unit and a person to meet using the enquiry form, WhatsApp or a call, and we confirm how a visit could be arranged for Imphal and the estate together.",
+              },
+              {
+                question: "Can calibration for an Imphal hospital laboratory be arranged?",
+                answer:
+                  "Calibration of loggers and probes is carried out by VEGA Calibrations, our parent company, and can be booked alongside the supply.",
+              },
+            ],
+            nearby: [
+              { slug: "silchar", name: "Silchar" },
+              { slug: "guwahati", name: "Guwahati" },
+            ],
+            metaTitle: "Temperature Data Loggers in Imphal | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Imphal's markets, handloom godowns, medicine distributors and hospitals. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "meghalaya",
+        name: "Meghalaya",
+        type: "state",
+        intro:
+          "Meghalaya is a plateau state of rolling hills, pine forests and one of the wettest regions on earth, and its storage is concentrated in Shillong, the capital, on the Khasi Hills, with an industrial belt at Byrnihat on the Assam border. Tourism fills the hotels and restaurants of the capital for much of the year, a regional medical institute and a hill university draw patients and students, and cement, ferro-alloy and food plants stand in the lowlands. The climate is cool and extremely rainy in the hills, damp and fog-bound in winter, so stores of paper, cartons and food take on moisture. This page introduces the state, and the city page covers Shillong.",
+        localIndustries: [
+          "Hospitality and tourism kitchens",
+          "Hospitals and university laboratories",
+          "Cement, ferro-alloy and food plants",
+          "Wholesale distribution",
+        ],
+        citiesServed: ["Shillong"],
+        supportNote:
+          "Supply, installation support and site visits for Meghalaya sites are arranged from our Mumbai office. Tell us the town, the hotel or the estate and what the rooms hold.",
+        faqs: [
+          {
+            question: "Which Meghalaya locations have a page?",
+            answer:
+              "Shillong has a city page. Anywhere else in the state can be raised through the enquiry form and we confirm what can be arranged.",
+          },
+          {
+            question: "Why watch humidity in a hill hotel store?",
+            answer:
+              "Rain and mist keep the air damp for much of the year, so cartons, flour and linen take on moisture, and a humidity trend shows the day a store needs drying or a fresh shelf.",
+          },
+          {
+            question: "What helps when a storm cuts the power on the hill roads?",
+            answer:
+              "A battery keeps each logger recording through the outage, and an alert for a lost mains supply warns the person responsible that a refrigerator or cold room has lost its protection.",
+          },
+        ],
+        listing: [
+          { slug: "shillong", text: "The Khasi Hills capital of hotels, a regional medical institute and a hill university, close to the Byrnihat industrial belt." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "shillong",
+            name: "Shillong",
+            type: "city",
+            intro:
+              "Shillong is the capital of Meghalaya, a hill city of pines and lakes on the Khasi plateau, and a temperature data logger here serves a cool, wet town of hotels, hospitals and students. Visitors fill hotels, cafes and guesthouses around Police Bazar and Laitumkhrah for much of the year, a regional medical institute and a civil hospital draw patients from the hills and the neighbouring states, and a hill university and many colleges give the city its student population. In the lowlands to the north, the industrial area at Byrnihat on the Assam border holds cement, ferro-alloy, beverage and packaging plants. Prithvi supplies WiFi loggers for kitchens and wards with a network and GSM loggers for trucks and distant stores.",
+            climateAngle:
+              "The plateau is cool and extremely rainy in the monsoon, mist and fog hang over the winter, and slides cut the roads, so cartons, flour and linen absorb moisture in stores that rarely feel hot, and a lorry can be held on the slope for a day or more.",
+            areas: [
+              {
+                name: "Police Bazar and the hotel streets",
+                note: "Hotels, restaurants, bakeries and cafes work in steep lanes, with walk-in coolers and dry stores in old buildings packed tightly along the slope.",
+              },
+              {
+                name: "Laitumkhrah and Mawlai",
+                note: "Residential and market districts hold clinics, pharmacies and food shops with fridges and stock rooms in small buildings that stay damp through the rains.",
+              },
+              {
+                name: "Medical institute, civil hospital and the university",
+                note: "A regional medical institute, a civil hospital and a hill university with laboratories hold blood units, vaccines and samples in refrigerators and freezers.",
+              },
+              {
+                name: "Byrnihat industrial belt",
+                note: "An industrial area on the Assam border, in the lowlands below the plateau, holds cement, ferro-alloy, beverage and packaging plants with stores of bags, drums and cartons.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Hotel kitchens, bakeries and beverage plants run walk-in coolers and stores in damp, cool air, and an alert to the duty engineer matters most on a crowded tourist evening.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A regional institute and the civil hospital serve patients from the hills and neighbouring states, and a dated record backs each shift handover for blood units and vaccines.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "University and institute laboratories keep samples and reagents in freezers and cabinets with their own limits, and an exported log supports a research file.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Cement and ferro-alloy works keep bags, drums and reagents with printed storage limits, and an alert from a damp or hot store lets the storekeeper act before material is wasted.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity along with temperature at one point, which is what a dry store in a rainy hill hotel or a cement-bag shed needs in constantly damp air.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A one-probe logger fits a hotel walk-in or a clinic fridge on a steep street and does nothing to change how staff use it.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels let a hospital store or a plant room be read near the door and the back wall by a single device on the wall.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Shillong hotel be alerted if a cooler fails during the tourist season?",
+                answer:
+                  "Yes. The engineer or manager on duty is alerted by phone and email as soon as a cooler crosses its limit, and a second person can take over if there is no reply.",
+              },
+              {
+                question: "Does the cool, wet climate mean loggers are not needed?",
+                answer:
+                  "The danger is moisture and outages, not heat. Cartons, flour and linen absorb damp, and a failing refrigerator can warm unnoticed, so humidity and temperature records still matter.",
+              },
+              {
+                question: "Do you cover Byrnihat as well as the city?",
+                answer:
+                  "Send the plant, the unit and a contact through the enquiry form, WhatsApp or a call, and we confirm how a visit could be arranged for the plateau and the lowland belt together.",
+              },
+              {
+                question: "Can calibration for a Shillong laboratory be arranged?",
+                answer:
+                  "VEGA Calibrations, our parent company, calibrates loggers and probes, and the date can be fixed with the supply order.",
+              },
+            ],
+            nearby: [
+              { slug: "guwahati", name: "Guwahati" },
+              { slug: "silchar", name: "Silchar" },
+            ],
+            metaTitle: "Temperature Data Loggers in Shillong | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Shillong's hotel kitchens, hospitals, university labs and Byrnihat-side stores. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "tripura",
+        name: "Tripura",
+        type: "state",
+        intro:
+          "Tripura is a small state in the far south-west of the North East, almost surrounded by Bangladesh, and its storage is concentrated in Agartala, the capital, near the border. Trade crosses at Akhaura, rubber, bamboo, tea and pineapples come from the hills, gas fields feed local power stations, and hospitals and a university serve the plains. A long road through Assam and Meghalaya, a railway and an airport tie the state to the rest of India. The air is hot and humid and the monsoon is heavy, so produce, medicines and cartons spoil quickly without cooling. This page introduces the state, and the city page covers Agartala.",
+        localIndustries: [
+          "Rubber, bamboo and agro processing",
+          "Hospitals and university laboratories",
+          "Border trade and wholesale",
+          "Gas-fed power and light industry",
+        ],
+        citiesServed: ["Agartala"],
+        supportNote:
+          "Supply, installation support and site visits for Tripura sites are arranged from our Mumbai office. Tell us the town, the market or the estate and what the rooms hold.",
+        faqs: [
+          {
+            question: "Which Tripura locations have a page?",
+            answer:
+              "Agartala has a city page. Another town in the state can be raised through the enquiry form and we confirm how supply and a visit could be arranged.",
+          },
+          {
+            question: "How do loggers help a trader who moves goods across the border?",
+            answer:
+              "A logger placed in the consignment records how long goods waited at the crossing and on the road, and the report can be exported for the buyer and the shipper.",
+          },
+          {
+            question: "Why is a humidity reading useful in a Tripura store?",
+            answer:
+              "The air is damp for much of the year, so cartons, rubber goods and fabrics take on moisture, and a humidity trend shows the day a store needs a dehumidifier or better ventilation.",
+          },
+        ],
+        listing: [
+          { slug: "agartala", text: "The border-side capital of markets, rubber and bamboo trade, a medical college, a university and trade crossings into Bangladesh." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "agartala",
+            name: "Agartala",
+            type: "city",
+            intro:
+              "Agartala is the capital of Tripura, a low city on the plain beside the Bangladesh border, and a temperature data logger here serves a trading and healthcare centre at the end of a very long supply line. The Ujjayanta Palace stands in a park at the middle of the city, the main hospitals and a medical college serve the state, and a state university stands at Suryamaninagar. Rubber, bamboo, tea and pineapples come from the hills, gas from local fields feeds power stations, and an industrial estate at Bodhjungnagar holds small factories. Trade crosses to Bangladesh at the nearby border, and an airport and a railway tie the city to Assam and beyond. Prithvi supplies WiFi loggers for hospital wards, shops and godowns on a network and GSM loggers for border-road trucks and stores out of range.",
+            climateAngle:
+              "The plain is hot and humid for most of the year, the monsoon is heavy, and a long road through the hills means goods spend days on the way, so produce spoils and cartons take on moisture without cooling.",
+            areas: [
+              {
+                name: "Central markets and the old lanes",
+                note: "Wholesalers of food, fish, cloth and medicines work in busy markets and back rooms near the palace, with chillers and stock rooms that run through long hot days.",
+              },
+              {
+                name: "Bodhjungnagar industrial estate",
+                note: "An estate on the edge of the city holds small food, rubber-goods, packaging and engineering units and godowns, where stock waits for trucks bound for the long hill road.",
+              },
+              {
+                name: "Medical college, hospitals and the university",
+                note: "A medical college hospital, the state's main government hospital and a university with laboratories hold blood units, vaccines and samples in refrigerators and freezers.",
+              },
+              {
+                name: "Border-trade warehouses",
+                note: "Godowns near the road to the border hold goods waiting to cross, in hot, damp sheds where cartons and fabrics take on moisture.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Traders in fish, fruit and packed food, with sweet makers and bakeries, run chillers and cold rooms in long hot spells, and a record from each unit shows when one failed.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine distributors supply chemists across the state after long journeys through the hills, and a logger placed with a pack records the whole range of conditions it met on the road.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A medical college hospital and other hospitals serve the whole state, and an alert on a phone means a failing blood or vaccine refrigerator is found during the night.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Trucks and trains bring goods over very long distances, and a logger in the load records how long it waited at a halt or at the border in the heat.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity and temperature at one point suit a border-trade godown or a medicine store, where hot, damp air is the main danger to the stock.",
+              },
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels spread along a long warehouse give one report for every bay, showing which corner holds the heat and the damp.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger rides in a truck on the long hill road and keeps recording where signal fades, sending the readings once coverage returns.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a trader show a buyer how goods were held while waiting to cross the border?",
+                answer:
+                  "Yes. A logger placed in the consignment or the godown records temperature and humidity through the wait, and a report for those dates can be exported for the buyer or the shipper.",
+              },
+              {
+                question: "How do loggers help a medicine distributor supplying Agartala from far away?",
+                answer:
+                  "A GSM logger placed with the goods records every hour of the journey, and the owner can open the record on a phone and export it for the chemist or the hospital.",
+              },
+              {
+                question: "Do you visit the estate at Bodhjungnagar as well as the city?",
+                answer:
+                  "Tell us the estate, the unit and a person to meet using the enquiry form, WhatsApp or a call, and we confirm how a visit could be arranged for the estate and the city together.",
+              },
+              {
+                question: "Can calibration for an Agartala hospital laboratory be arranged?",
+                answer:
+                  "VEGA Calibrations, our parent company, can calibrate loggers and probes, and the work can be booked alongside the supply.",
+              },
+            ],
+            nearby: [
+              { slug: "silchar", name: "Silchar" },
+              { slug: "guwahati", name: "Guwahati" },
+            ],
+            metaTitle: "Temperature Data Loggers in Agartala | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Agartala's markets, border-trade godowns, hospitals and Bodhjungnagar estate. Get Solution.",
             indexable: true,
           },
         ],
