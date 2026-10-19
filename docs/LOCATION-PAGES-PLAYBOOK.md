@@ -344,6 +344,12 @@
 | Marib (`marib`, city, Marib Governorate) | Yemen | Dam-fed farms and date stores, wholesale food stores, hospitals and clinics, equipment yards | Food, medicines, logistics | Very hot, dry desert edge; dust | Sana'a, Al Jawf (not yet built) |
 | Lahij (`lahij`, city, Lahij Governorate) | Yemen | Delta produce sheds, wholesale yards, dairy and food shops, clinics | Food, medicines, logistics | Hot delta plain, flood and dust | Aden, Zinjibar |
 | Sa'dah (`sadah`, city, Sa'dah Governorate) | Yemen | Walled-town market, terrace fruit and grain stores, hospitals, pharmacy wholesalers | Food, medicines, logistics | Cold, dry mountain climate | Amran (not yet built), Sana'a |
+| Abu Dhabi (`abu-dhabi`, city, Abu Dhabi Emirate) | UAE | Hospitals and laboratories, hotel kitchens, food importers, mainland industrial districts | Medicines, food, logistics | Very hot, humid Gulf coast in summer | Dubai, Al Ain, Ruwais (not yet built) |
+| Mussafah (`mussafah`, area of Abu Dhabi) | UAE | Light factories, general warehouses, chemical and paint stores, workshops | Logistics, food, chemicals | Extreme summer heat under metal roofs | ICAD |
+| ICAD (`icad`, area of Abu Dhabi) | UAE | Factory finished-goods stores, raw-material stores, distribution sheds, loading yards | Food, chemicals, electronics | Extreme summer heat | Mussafah |
+| KIZAD (`kizad`, area of Abu Dhabi) | UAE | Large factory halls, chemical and materials stores, cold stores, loading bays (described generally) | Logistics, chemicals, food | Hot, humid coast | Khalifa Port |
+| Khalifa Port (`khalifa-port`, area of Abu Dhabi) | UAE | Reefer containers and cold stores, container stacks, logistics sheds, trailers (described generally, no operating status) | Logistics, food, medicines | Hot, damp, salty | KIZAD |
+| Ghantoot (`ghantoot`, area of Abu Dhabi) | UAE | Port-side and industrial stores, resort kitchens, roadside shops, vehicles | Food, logistics, chemicals | Hot, salty coast | Khalifa Port |
 | Jazan Economic City (`jazan-economic-city`, area of Jazan) | Saudi Arabia | Plant chemical and drum stores, spares warehouses and contractor yards, port yards, camp kitchens and clinics | Chemical stores, contract warehousing, camp catering | Extreme heat and humidity, salty air | none |
 | Jeddah (`jeddah`) | Saudi Arabia | Industrial and port logistics zones | Port logistics, food import cold chain, hospitals | Hot, humid coastal | Riyadh, Dammam |
 | Dammam (`dammam`) | Saudi Arabia | Industrial and port logistics zones | Industrial & chemical, port logistics, food | Hot, humid Gulf coast | Riyadh, Bahrain, Jeddah |
@@ -567,3 +573,15 @@ Mocha. The Port of Salif is attached as an area of Hodeidah.
 
 Yemen Batch 5 (Marib, Lahij, Sa'dah): three governorate hubs created, each with one city, so all three stay noindex and out of the sitemap until a
 second page is built. Not built, for lack of confident, distinguishing local facts: Amran, Hajjah and Al Bayda.
+
+## UAE emirates
+
+Emirate hubs are state-level hubs under the UAE country hub with the slug pattern `{name}-emirate` (e.g. `abu-dhabi-emirate`), so they never collide
+with city slugs. An emirate hub is indexable only with two or more built child pages, otherwise noindex and out of the sitemap, never empty.
+Dubai (built earlier) still sits directly under the UAE hub until the Dubai Emirate batch moves it under its hub. UAE pages follow the GCC rules:
+no Vayu or GSM series, the GSM note once per page, no local-office claim, no accreditation claim, and no claim about delivery, shipping, customs,
+warranty or local stock. Port, free-zone and airport pages say nothing about operating status, traffic, capacity, operator or eligibility, only
+the goods and rooms a logger user may look after. City pages carry the four FAQs `check:data` requires.
+
+UAE Batch 1 (Abu Dhabi Emirate): hub, Abu Dhabi city and the areas Mussafah, ICAD, KIZAD, Khalifa Port and Ghantoot. The Abu Dhabi Emirate hub is
+indexable (one city and five areas).

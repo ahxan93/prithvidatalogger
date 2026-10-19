@@ -82,6 +82,7 @@ export const areaCities: Record<string, { name: string; stateSlug: string; state
   jubail: { name: "Jubail", stateSlug: "eastern-province", stateName: "Eastern Province" },
   yanbu: { name: "Yanbu", stateSlug: "madinah-region", stateName: "Madinah Region" },
   jazan: { name: "Jazan", stateSlug: "jazan-region", stateName: "Jazan Region" },
+  "abu-dhabi": { name: "Abu Dhabi", stateSlug: "abu-dhabi-emirate", stateName: "Abu Dhabi Emirate" },
   aden: { name: "Aden", stateSlug: "aden-governorate", stateName: "Aden Governorate" },
   mukalla: { name: "Mukalla", stateSlug: "hadramaut-governorate", stateName: "Hadramaut Governorate" },
   sanaa: { name: "Sana'a", stateSlug: "amanat-al-asimah", stateName: "Amanat Al Asimah" },
@@ -5946,6 +5947,277 @@ export const areas: AreaDef[] = [
         }
       ],
       "nearby": [],
+      "indexable": true
+    } },
+  // ------------------------------------------------------------------ UAE (batch 1: Abu Dhabi)
+  { slug: "mussafah", name: "Mussafah", citySlug: "abu-dhabi", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","food-beverage","chemical"], confirmedService: true, hero: ["virat","dhruva"], page: {
+      "metaTitle": "Data Loggers in Mussafah, Abu Dhabi | Prithvi",
+      "metaDescription": "Data loggers for Mussafah's workshops, yards, warehouses and light factories in Abu Dhabi, built for the Gulf's heat. Get Solution.",
+      "intro": "Mussafah is an industrial district on the mainland across the water from Abu Dhabi island, a flat grid of workshops, vehicle and equipment yards, marine and fabrication works, warehouses and light factories. A temperature data logger in a district like this is concerned with the ordinary risks of making and storing goods in extreme summer heat: food and packaging stores, a chemical shed whose labels name a maximum temperature, and warehouses where stock waits under metal roofs. Here the page keeps to the goods and rooms that someone looking after loggers in Mussafah might meet. Enquiries about Mussafah are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Light factories and food-packing units",
+          "note": "Small plants that cut, pack and seal food and consumer goods keep chilled rooms and finished-goods stores, which work hardest through the long summer afternoons."
+        },
+        {
+          "name": "General warehouses and stockyards",
+          "note": "Warehouses with wide doors hold stock for businesses across the city, and the metal roof sets the room temperature long before the cooling catches up."
+        },
+        {
+          "name": "Chemical and paint stores",
+          "note": "Stores of adhesives, paints, lubricants and cleaning products carry labelled limits that a hot shed can quietly exceed."
+        },
+        {
+          "name": "Workshops and spare-parts stores",
+          "note": "Repair shops and parts stores hold electronics, seals and batteries that tolerate a steady range better than the swing between a cooled office and a baking yard."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A warehouse holding goods for several owners in Mussafah can give each owner a temperature record of its own stock, instead of a general remark about the building."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "A small food or packaging unit supplying kitchens and shops can show with a log that a chilled room and a finished-goods store held their limits for every batch."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Paint, adhesive and cleaning-product stores in Mussafah are labelled with ranges, and a dated record shows whether a hot afternoon pushed a pallet outside them."
+        }
+      ],
+      "services": "For a district of this kind we would look at WiFi loggers for sheds and cold rooms that have a router, single-point loggers with external probes for cold rooms and freezers, multi-point units for long sheds where one end is hotter than the other, and loggers that ride inside a load. Calibration of the loggers is something VEGA Calibrations, our parent company, can discuss. A WiFi logger needs a router in range and a power supply for it, and for a yard we would check the alternative with you first. What can be supplied is something we discuss only once a request has been reviewed.",
+      "visits": "Visits and installation at Mussafah are not promised. Give us the business, the rooms in question and a contact on the enquiry form, Call or WhatsApp, and we review the Mussafah request and say what looks practical.",
+      "approach": "If a request went ahead, we would begin with the chilled room or store holding the most sensitive stock, placing one logger by the door and one at the back, then add a humidity-reading unit where a unit washes down floors or makes steam. A few weeks of readings in summer would show which hours of the day strain the room.",
+      "faqs": [
+        {
+          "question": "Can a small Mussafah factory keep a record of its cold room?",
+          "answer": "Yes. A logger in the cold room records day and night, and a report for the dates of a batch can be exported in PDF, Excel or CSV form for a customer."
+        },
+        {
+          "question": "Does heat inside a metal shed really exceed the air outside?",
+          "answer": "A shed under a metal roof in summer can run well above the outdoor reading, so a logger inside the stock, not on an office wall, records what the goods actually met."
+        }
+      ],
+      "nearby": [
+        "icad"
+      ],
+      "indexable": true
+    } },
+  { slug: "icad", name: "ICAD", citySlug: "abu-dhabi", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","food-beverage","chemical"], confirmedService: true, hero: ["nakshatra","setu"], page: {
+      "metaTitle": "Data Loggers in ICAD, Abu Dhabi | Prithvi",
+      "metaDescription": "Data loggers for factory plots, stores and distribution sheds in ICAD, the Industrial City of Abu Dhabi, in Gulf heat. Get Solution.",
+      "intro": "ICAD, the Industrial City of Abu Dhabi, is a planned industrial city in the Mussafah area on the mainland, laid out in regular plots and roads for factories, stores and distribution. A temperature data logger in a planned industrial city is concerned with whatever its plots happen to hold: food and packaging stock, materials that have a labelled limit, or finished goods waiting in a store under a metal roof in summer heat. What follows is limited to the stock and rooms a logger user could look after on an ICAD plot. Enquiries about ICAD are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Factory finished-goods stores",
+          "note": "Plants of many kinds keep finished stock in cooled halls that must hold a range while loading doors open and shut through the day."
+        },
+        {
+          "name": "Raw-material and ingredient stores",
+          "note": "Ingredients, resins, additives and components wait in sheds between arrival and use, and some carry limits that summer heat can break."
+        },
+        {
+          "name": "Distribution sheds",
+          "note": "Stock for shops and kitchens is sorted in sheds with wide doors, where cool indoor air meets the heat outside every time a vehicle backs in."
+        },
+        {
+          "name": "Vehicle bays and loading yards",
+          "note": "Loaded vehicles stand in the sun, and the cargo inside a covered van can run far hotter than the shaded outside air."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "food-beverage",
+          "sentence": "A food maker on an ICAD plot answering to shops and kitchens can show with a log that its chilled rooms and finished-goods stores held their limits for every batch."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Makers and stockists of coatings, adhesives and cleaning products store materials with labelled ranges, and a dated record shows whether a pallet stood too hot for too long."
+        },
+        {
+          "slug": "electronics",
+          "sentence": "Component and equipment stores sensitive to heat and humidity gain from a steady record, because a hot, damp spell can harm parts that look sound on a shelf."
+        }
+      ],
+      "services": "For a planned industrial city we would consider WiFi loggers for halls and cold rooms with a router, probe-type loggers for freezers and chilled rooms, multi-point units along long storage halls, and loggers that travel in a load. VEGA Calibrations, our parent company, can talk through calibration for ICAD users. A WiFi logger needs a router within range and a supply of power, and for a vehicle or an open yard we would explain the alternatives. We say nothing on supply until a request for ICAD has been looked at.",
+      "visits": "No visit or installation at ICAD is promised. Send the business, the rooms to be watched and a contact through the enquiry form, Call or WhatsApp, and we review the request and say what is practical, including whether a video call could explain the set-up.",
+      "approach": "If a request went ahead, we would start with the store holding the most heat-sensitive stock, placing one logger near the door and one at the back, then add a unit reading humidity where cold air meets warm. The first summer weeks would show which hours of the day push the hall outside its range.",
+      "faqs": [
+        {
+          "question": "Can a plot holder in a planned industrial city monitor several rooms?",
+          "answer": "Yes. Several loggers, each in its own room, report to one dashboard, and a combined report for any period can be exported in PDF, Excel or CSV form."
+        },
+        {
+          "question": "Why record humidity as well as temperature in a desert country?",
+          "answer": "Sea air reaches the mainland, doors admit damp air that condenses on cold surfaces, and some stock reacts to moisture, so a humidity trend shows what temperature alone cannot."
+        }
+      ],
+      "nearby": [
+        "mussafah"
+      ],
+      "indexable": true
+    } },
+  { slug: "kizad", name: "KIZAD", citySlug: "abu-dhabi", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["rajmudra","veer"], page: {
+      "metaTitle": "Data Loggers in KIZAD, Abu Dhabi | Prithvi",
+      "metaDescription": "Data loggers for factories, stores and cold rooms in KIZAD, the Khalifa Industrial Zone Abu Dhabi, built for Gulf summers. Get Solution.",
+      "intro": "KIZAD, the Khalifa Industrial Zone Abu Dhabi, is a large planned industrial zone on the Gulf coast between Abu Dhabi and Dubai, beside Khalifa Port, laid out with wide roads and big plots for factories and storage. A temperature data logger in a zone of this scale is concerned with large halls and long supply chains: raw materials waiting for production, finished goods waiting for collection, and chilled stock on the move to and from the coast. The page stays with the goods and halls that a logger user might look after in a zone of this size. Enquiries about KIZAD are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Large factory halls and finished-goods stores",
+          "note": "Big halls under long roofs hold finished goods for collection, with one end of a hall often much warmer than the other in the afternoon."
+        },
+        {
+          "name": "Chemical and materials stores",
+          "note": "Stores of resins, solvents, coatings and metals carry labelled limits that coastal summer heat can strain."
+        },
+        {
+          "name": "Cold stores and chilled halls",
+          "note": "Cold rooms and chilled halls for food and healthcare products work against some of the highest summer temperatures in the Gulf."
+        },
+        {
+          "name": "Loading bays and vehicle yards",
+          "note": "Loading bays admit warm, damp air each time a door lifts, and vehicles waiting beside them stand in strong sun."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Storage in a zone of big halls for goods on their way to and from the coast calls for a record that proves how each lot was held, rather than a claim about the building."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Makers and stockists of coatings, resins and cleaning products keep materials with labelled ranges, and a dated record shows whether a stack stood hot for too long."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "A food plant or chilled store inside the zone holds products that spoil in heat, and a log from each room shows a customer how a lot was kept."
+        }
+      ],
+      "services": "For a zone of large halls we would look at multi-point units that follow a long hall from one end to the other, WiFi loggers for rooms with a router, single-point loggers with external probes for freezers and chilled rooms, and loggers that ride in a load. Calibration for KIZAD users is something VEGA Calibrations, our parent company, can discuss. In KIZAD a WiFi logger needs a router within range and mains power, and for an open yard or a vehicle we set out the alternatives. Supply is a matter we take up only after a request for KIZAD has been reviewed.",
+      "visits": "Visits and installation at KIZAD are not promised. Tell us the business, the halls or rooms to be watched and a contact through the enquiry form, Call or WhatsApp, and we review the request and say what looks practical.",
+      "approach": "If a request went ahead, we would begin with the hall or cold room holding the most sensitive stock, using a multi-point unit along its length and a probe logger at the door, then add humidity reading where cold air meets the warm outside. A month of summer readings would show where the hall runs hottest.",
+      "faqs": [
+        {
+          "question": "Can one report cover a very long hall?",
+          "answer": "Yes. A multi-channel logger reads several probes along the hall, so one report shows which stretch of the building runs warmest and when."
+        },
+        {
+          "question": "Do chilled halls on the Gulf coast need humidity readings?",
+          "answer": "Yes. Warm, damp coastal air condenses on cold surfaces whenever a bay door lifts, so a humidity trend beside the temperature shows how much moisture each opening brought in."
+        }
+      ],
+      "nearby": [
+        "khalifa-port"
+      ],
+      "indexable": true
+    } },
+  { slug: "khalifa-port", name: "Khalifa Port", citySlug: "abu-dhabi", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["virat-pro","setu"], page: {
+      "metaTitle": "Data Loggers at Khalifa Port, Abu Dhabi | Prithvi",
+      "metaDescription": "Data loggers for reefer containers, cold rooms and sheds around Khalifa Port on the Abu Dhabi coast, in Gulf heat. Get Solution.",
+      "intro": "Khalifa Port is a deep-water container port on the Gulf coast at Taweelah, between Abu Dhabi and Dubai. A temperature data logger around a container port serves the waiting that surrounds a sea voyage: boxes lifted from a stack, goods held in a shed or a cold room, and vehicles loading for the road in air that is hot, humid and salty. This page is confined to the kinds of goods and rooms a logger user may look after around a container port. Enquiries about Khalifa Port are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Reefer containers and cold stores",
+          "note": "Chilled and frozen food and healthcare goods travel in refrigerated containers or wait in cold stores, and the hours between plug-in points are the weak part of the chain."
+        },
+        {
+          "name": "Container stacks and yards",
+          "note": "Boxes stacked in the open turn summer sun into radiant heat that reaches goods inside, so dry cargo can run far hotter than the shaded air."
+        },
+        {
+          "name": "Logistics sheds and warehouses",
+          "note": "Sheds near the quay and in logistics areas close by hold goods between a vessel and the road, with large doors that let hot, damp air in."
+        },
+        {
+          "name": "Vehicles and trailers",
+          "note": "Lorries and trailers that load or collect goods stand in the sun, and cargo inside a covered trailer can run much hotter than the air outside."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Whoever stores boxes on behalf of several owners can hand each owner a temperature record for its own consignment, in place of a general remark about the shed."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Chilled and frozen food in a container needs proof of how it was held from loading to collection, and a small logger packed among the cartons supplies exactly that."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Medicines and healthcare supplies in transit through a container port need a dated record of temperature, which shows a distributor whether a pack stood too long in the heat."
+        }
+      ],
+      "services": "For a port-side site we would look at loggers that travel inside a consignment or a reefer container, WiFi loggers for sheds and cold rooms that have a router, and probe-type units for freezers. VEGA Calibrations, our parent company, can talk through calibration for Khalifa Port users. A WiFi logger needs a router in range and a power supply, and for a stack or a vehicle we explain the alternatives. Whether anything can be supplied is left until a request has been reviewed.",
+      "visits": "Visits and installation at Khalifa Port are not promised. Send the business, the consignment or room to be watched and a contact through the enquiry form, Call or WhatsApp, and we review the request and say what looks practical.",
+      "approach": "If a request went ahead, we would begin with the consignment or cold room that is hardest to replace, placing one logger in the load or at the door and another at the far wall, then add a humidity-reading unit where cold goods meet warm, damp air. The first weeks of readings would show how long goods stand between one step and the next.",
+      "faqs": [
+        {
+          "question": "Can a small logger ride inside a reefer or a carton through a container chain?",
+          "answer": "Yes. A logger packed with the goods records the whole trip, and the report can be exported in PDF, Excel or CSV form for the receiver."
+        },
+        {
+          "question": "Why does stacked cargo in the open matter for temperature records?",
+          "answer": "Boxes in the sun turn heat into radiant heat that reaches the goods inside, so a logger in the load shows exposure that a reading in the shade would miss."
+        }
+      ],
+      "nearby": [
+        "kizad"
+      ],
+      "indexable": true
+    } },
+  { slug: "ghantoot", name: "Ghantoot", citySlug: "abu-dhabi", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","food-beverage","chemical"], confirmedService: true, hero: ["veer-pro","nakshatra"], page: {
+      "metaTitle": "Data Loggers in Ghantoot, Abu Dhabi | Prithvi",
+      "metaDescription": "Data loggers for port-side and industrial storage and resort kitchens in Ghantoot on the Abu Dhabi coast, in Gulf heat. Get Solution.",
+      "intro": "Ghantoot is a coastal area on the road between Abu Dhabi and Dubai, a stretch of shoreline where port-side and industrial sites sit near seaside leisure facilities. A temperature data logger in a mixed area like this is concerned with two kinds of rooms: stores for materials and goods kept near the water, and the kitchens, stores and coolers that serve visitors. Both face salt air, strong sun and very hot summers. The text that follows deals only with the stores and kitchens a logger user could look after along this coast. Enquiries about Ghantoot are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Port-side and industrial stores",
+          "note": "Materials and goods held near the shore wait in sheds and yards where sea air carries salt and moisture into cartons and metal."
+        },
+        {
+          "name": "Resort and leisure kitchens",
+          "note": "Seaside facilities run walk-in coolers, freezers and dry stores for large numbers of visitors at weekends, with peaks in cooling demand."
+        },
+        {
+          "name": "Small shops and fuel-stop stores",
+          "note": "Shops serving the road run drinks coolers and chilled counters that are opened constantly through the day."
+        },
+        {
+          "name": "Vehicles on the coast road",
+          "note": "Trucks and vans pause beside the road, and cargo inside a parked, covered vehicle can run far hotter than the air outside."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "food-beverage",
+          "sentence": "Resort kitchens, caterers and roadside shops hold chilled and frozen food that spoils in heat, and a record from each cooler shows when it began to warm."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Goods waiting in sheds near the shore meet salty, humid air, and a logger placed among them records how much heat and moisture each lot met."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Stores of materials with a labelled temperature range, kept in a hot shed near the sea, gain from a dated log showing how the shed behaved through summer."
+        }
+      ],
+      "services": "For a mixed coastal area we would look at WiFi loggers for kitchens and stores with a router, single-point loggers with external probes for coolers and freezers, and loggers that travel in a load. Calibration for Ghantoot users is something VEGA Calibrations, our parent company, can discuss. A WiFi logger needs a router within range and a supply of power, and for a yard or a vehicle we would explain the alternatives. Any answer on supply waits until a request from Ghantoot has been reviewed.",
+      "visits": "Visits and installation at Ghantoot are not promised. Let us know the business, the rooms involved and a contact via the enquiry form, Call or WhatsApp, and we review the Ghantoot request and say what looks practical.",
+      "approach": "If a request went ahead, we would begin with the cooler or store holding the most perishable stock, placing one logger by the door and one at the back, then add a unit reading humidity where sea air has entered. Early summer readings would show which hours strain the room.",
+      "faqs": [
+        {
+          "question": "Can a seaside kitchen keep a temperature record for each cooler?",
+          "answer": "Yes. A logger in each cooler or freezer records through the day and night, and a report for any period can be exported in PDF, Excel or CSV form."
+        },
+        {
+          "question": "Why does salty air matter for stored goods near the shore?",
+          "answer": "Salt-laden air softens cartons and corrodes metal, so a humidity log beside the temperature shows when stock took on moisture."
+        }
+      ],
+      "nearby": [
+        "khalifa-port"
+      ],
       "indexable": true
     } },
 ];

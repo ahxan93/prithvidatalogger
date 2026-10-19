@@ -232,6 +232,11 @@ export const locationContent: Record<string, LocationContent> = {
       "Temperature data loggers for Sa'dah Governorate: Sa'dah's walled-town markets, fruit stores and clinics, case by case for Yemen. Get Solution.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
+  "uae/abu-dhabi-emirate": {
+    metaDescription:
+      "Data loggers for Abu Dhabi Emirate: the city, Mussafah, ICAD, KIZAD, Khalifa Port and Ghantoot warehouse and cold-room storage. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+  },
   "yemen/aden-governorate": {
     metaDescription:
       "Temperature data loggers for Aden Governorate: the port city's clinics, food stores and harbour-area warehouses, reviewed case by case. Get Solution.",

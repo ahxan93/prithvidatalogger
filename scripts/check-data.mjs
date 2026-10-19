@@ -404,7 +404,7 @@ for (const { node, path: p } of all) {
   // Indian cities sit under a state hub; GCC cities directly under their country hub.
   const parentNode = all.find((l) => l.path.join("/") === p.slice(0, -1).join("/"));
   // Saudi Arabia is grouped by administrative region (a state-level hub); other GCC countries list cities directly.
-  const expectedParents = isIndia ? ["state"] : p[0] === "saudi-arabia" || p[0] === "yemen" ? ["country", "state"] : ["country"];
+  const expectedParents = isIndia ? ["state"] : p[0] === "saudi-arabia" || p[0] === "yemen" || p[0] === "uae" ? ["country", "state"] : ["country"];
   if (!parentNode || !expectedParents.includes(parentNode.node.type)) f(`is not under a ${expectedParents.join(" or ")} hub`);
   // SEO settings.
   const title = node.metaTitle;

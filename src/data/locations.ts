@@ -20458,6 +20458,7 @@ export const locations: LegacyLocationNode[] = [
     ],
     listing: [
       { slug: "dubai", text: "A trading city of re-export warehouses at Jebel Ali, food importers, medicine distributors and hotel kitchens in extreme heat and humidity." },
+      { slug: "abu-dhabi-emirate", text: "Abu Dhabi's island city, Mussafah, ICAD, KIZAD, Khalifa Port and Ghantoot, in very hot, humid Gulf heat." },
     ],
     indexable: true,
     seo: {
@@ -20552,6 +20553,150 @@ export const locations: LegacyLocationNode[] = [
         metaDescription:
           "WiFi temperature and humidity data loggers for Dubai's re-export warehouses, food importers and hotel kitchens, set up remotely. Get Solution.",
         indexable: true,
+      },
+      {
+        slug: "abu-dhabi-emirate",
+        name: "Abu Dhabi Emirate",
+        type: "state",
+        intro:
+          "Abu Dhabi Emirate stretches from a string of islands and mangrove shallows on the Arabian Gulf coast, through a broad belt of salt flats, to the sand dunes of the interior and the oasis city of Al Ain near the mountains. The city of Abu Dhabi stands on an island joined to the mainland by bridges, with hospitals, hotels, kitchens and laboratories, while the mainland holds industrial districts, free-zone plots and a deep-water port along the coast. The coast is very hot and humid in summer and the interior hot and dry, with dust and strong sun. Medicines, food, chemicals and electronics wait in warehouses and vehicles in such heat. The pages below describe the city and the districts where a temperature record would help.",
+        localIndustries: [
+          "Industrial and warehouse storage",
+          "Food import and catering",
+          "Hospitals and pharmaceutical distribution",
+          "Port-side and free-zone logistics",
+        ],
+        citiesServed: ["Abu Dhabi"],
+        supportNote:
+          "Enquiries from Abu Dhabi Emirate are handled through the enquiry form, Call or WhatsApp. Tell us the district, the rooms you want to watch and how they are cooled, and we reply with what looks suitable.",
+        faqs: [
+          {
+            question: "Which places in Abu Dhabi Emirate have a page?",
+            answer:
+              "Abu Dhabi has a city page, and Mussafah, ICAD, KIZAD, Khalifa Port and Ghantoot have area pages under it. Another town in the emirate can be put to us through the enquiry form.",
+          },
+          {
+            question: "Why do coastal and inland sites need different loggers set-ups?",
+            answer:
+              "The coast is humid as well as hot, so condensation and damp cartons matter, while inland sites face dry heat and dust, so mounting position and enclosure matter more.",
+          },
+          {
+            question: "Does a logger keep recording through a power cut?",
+            answer:
+              "It carries on recording on its own battery and stores the readings, so the hours without mains power are still on record when the site is next connected.",
+          },
+        ],
+        listing: [
+          { slug: "abu-dhabi", text: "An island city on the Arabian Gulf with hospitals, hotels, food importers and industrial districts on the mainland, in very hot, humid summers." },
+        ],
+        areaListing: [
+          { slug: "mussafah", text: "An industrial district on the mainland across from Abu Dhabi island, with workshops, yards, warehouses and light factories." },
+          { slug: "icad", text: "A planned industrial city in the Mussafah area, laid out in plots for factories, stores and distribution." },
+          { slug: "kizad", text: "A large planned industrial zone on the coast road between Abu Dhabi and Dubai, beside Khalifa Port." },
+          { slug: "khalifa-port", text: "A deep-water container port on the Gulf coast at Taweelah, with reefer stacks, yards and nearby logistics sheds." },
+          { slug: "ghantoot", text: "A coastal area on the road between Abu Dhabi and Dubai, with port-side and industrial sites and seaside leisure facilities." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "abu-dhabi",
+            name: "Abu Dhabi",
+            type: "city",
+            intro:
+              "Abu Dhabi is the capital city of the United Arab Emirates, built largely on an island in the Arabian Gulf and joined to the mainland by bridges and causeways, and a temperature data logger here serves a city of hospitals, hotels, food importers and industrial districts in one of the hottest, most humid coastal climates in the Gulf. Sea air blows across the Corniche and the mangrove shallows, summer afternoons are far above comfortable and nights stay warm. On the mainland, districts such as Mussafah, ICAD and KIZAD hold factories, warehouses and cold rooms, and a deep-water port lies along the coast towards Dubai. Hospitals, clinics, laboratories and large kitchens add to the rooms that need a steady record. Enquiries from Abu Dhabi are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "Summer brings very high heat with humid sea air on the coast, winters are mild and pleasant, and dust and sudden fog appear in some seasons, so air-conditioned stores work hard for months while vehicles and metal sheds without cooling reach extreme temperatures. A cold room that loses power on an August afternoon warms fast, and condensation forms the moment a door opens to the outside air.",
+            areas: [
+              {
+                name: "Hospitals, clinics and laboratories",
+                note: "Large hospitals and clinics on the island and the mainland keep vaccines, insulin, blood products and samples in refrigerators and freezers that must hold a range through every interruption of power.",
+              },
+              {
+                name: "Hotel kitchens and catering stores",
+                note: "Hotels and catering firms run walk-in coolers, freezers and dry stores in basements and back-of-house corridors, where heat from equipment adds to the load on the cooling.",
+              },
+              {
+                name: "Food importers and cold stores",
+                note: "Importers and distributors hold chilled and frozen food in cold rooms and reefer containers before it moves to shops, kitchens and supermarkets across the city.",
+              },
+              {
+                name: "Industrial districts on the mainland",
+                note: "Workshops, warehouses and light factories in the mainland districts hold stock under metal roofs that heat up quickly in the summer sun.",
+              },
+            ],
+            industries: [
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Abu Dhabi hospitals and blood services hold vaccines and blood products to strict ranges, and a phone alert reaches the person on duty if a refrigerator drifts in the middle of the night.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine distributors and pharmacies in Abu Dhabi store stock to labelled ranges, and a dated log of temperature and humidity shows how a room behaved through the hottest weeks of summer.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Hotel kitchens, caterers and food importers around Abu Dhabi hold chilled and frozen stock, and a record from each cold room shows when a compressor began to struggle.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods that arrive for Abu Dhabi wait in warehouses and vehicles before use, and a logger placed in a consignment records the heat and humidity each lot met.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a walk-in cooler at several heights and beside the door, showing how the room behaves between loads at a hotel kitchen.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable fits a ward or pharmacy refrigerator in Abu Dhabi and leaves the way staff use the unit unchanged.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "With humidity read beside temperature, one unit shows when damp sea air has entered a dry store that looks fine on a thermometer.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can an Abu Dhabi hotel or caterer use temperature loggers?",
+                answer:
+                  "A logger in each cooler, freezer and dry store records through the day and night, and a report for any period can be exported in PDF, Excel or CSV form. Enquiries from Abu Dhabi are handled through the enquiry form, Call or WhatsApp.",
+              },
+              {
+                question: "Why does a store in a dry-looking climate need a humidity reading?",
+                answer:
+                  "The coast is damp as well as hot, and cold rooms form condensation each time a door opens to the outside, so a humidity trend beside the temperature shows moisture that temperature alone would miss.",
+              },
+              {
+                question: "What happens to the record if the power or the WiFi fails?",
+                answer:
+                  "The logger keeps recording on its battery and stores the readings, so there is a record for the hours without power or signal, available when the site next connects.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Abu Dhabi laboratories?",
+                answer:
+                  "Calibration of loggers and probes for Abu Dhabi laboratories is looked after by VEGA Calibrations, our parent company; share the model and the range you work to and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "dubai", name: "Dubai" },
+              { slug: "al-ain", name: "Al Ain" },
+              { slug: "ruwais", name: "Ruwais" },
+            ],
+            metaTitle: "Temperature Data Loggers in Abu Dhabi | Prithvi",
+            metaDescription:
+              "Data loggers for Abu Dhabi's hospitals, hotel kitchens, food importers and industrial districts in Gulf heat and humidity. Get Solution.",
+            indexable: true,
+          },
+        ],
       },
     ],
   },
