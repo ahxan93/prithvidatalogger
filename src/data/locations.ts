@@ -141,6 +141,7 @@ export const locations: LegacyLocationNode[] = [
       { slug: "andhra-pradesh", text: "Visakhapatnam's port, steel, shipyard and pharma estates, Vijayawada's markets, Guntur's chilli cold stores and Tirupati's hotels and electronics, in a hot, humid, cyclone-prone coast." },
       { slug: "uttarakhand", text: "Haridwar's factory estate and pilgrim hotels, Dehradun's pharma and technology estates, hospitals and institutes, and Roorkee's engineering town, between hot plains and cold hills." },
       { slug: "dadra-and-nagar-haveli-and-daman-and-diu", text: "Silvassa's pharma, plastics and textile estates, Daman's packaging, bottling and harbour trades, and the island of Diu, in a humid coastal climate." },
+      { slug: "odisha", text: "Bhubaneswar and Cuttack's hospitals, markets and estates, Rourkela's steel town and the Paradip port and Jharsuguda power country, in cyclone and monsoon weather." },
     ],
     indexable: true,
     children: [
@@ -13297,6 +13298,336 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Diu | Prithvi",
             metaDescription:
               "WiFi and GSM temperature and humidity data loggers for Diu's fish ice plants, beach hotels, old-town shops and Bucharwada workshops. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "odisha",
+        name: "Odisha",
+        type: "state",
+        intro:
+          "Odisha runs along the Bay of Bengal from the Mahanadi delta to the mineral-rich western plateau, and its storage divides in the same way. On the coast, Bhubaneswar and Cuttack hold hospitals, institutes, markets and small industrial estates, while ports and refineries line the shore at Paradip. Inland, Rourkela's steel town and the mining and power country around Jharsuguda hold heavy industry with long supply chains. The coast is hot, humid and exposed to cyclones, the plateau is scorching in summer and cold on winter nights, and the monsoon is heavy everywhere. Cold rooms, chemical stores and hospital refrigerators must therefore cope with storms and outages as well as simple heat. The page for each city describes its stores and suggests matching loggers.",
+        localIndustries: [
+          "Steel, aluminium and power works",
+          "Ports, refinery and fertiliser stores",
+          "Hospitals and institutions",
+          "Food and seafood processing",
+        ],
+        citiesServed: ["Bhubaneswar", "Cuttack", "Rourkela"],
+        supportNote:
+          "Supply, installation support and site visits for Odisha sites are arranged from our Mumbai office. Tell us the city, the estate or the plant and what the rooms hold.",
+        faqs: [
+          {
+            question: "Which Odisha locations have a page?",
+            answer:
+              "Bhubaneswar, Cuttack and Rourkela each have a city page. A site in another town of the state can be raised by writing to us through the enquiry form.",
+          },
+          {
+            question: "Why plan for a cyclone when choosing a logger?",
+            answer:
+              "A cyclone brings days of power loss and blocked roads, so a logger with a battery keeps recording and an alert for a lost mains supply tells the responsible person that a cold room has been left unprotected.",
+          },
+          {
+            question: "Can a company with plants on the coast and the plateau use one account?",
+            answer:
+              "Yes. Every plant is a site with its own alert contacts, and a head of operations sees the coast and the western plateau together in one list.",
+          },
+        ],
+        listing: [
+          { slug: "bhubaneswar", text: "The temple capital of hospitals, institutes and technology parks, with Mancheswar, Rasulgarh and Chandaka estates in hot humid coastal air." },
+          { slug: "cuttack", text: "The old twin city on the Mahanadi, with silver filigree workshops, wholesale markets, a teaching hospital and the Choudwar and Jagatpur estates." },
+          { slug: "rourkela", text: "A steel town of the western plateau with planned sectors, a technology institute, a large works hospital and ancillary estates." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "bhubaneswar",
+            name: "Bhubaneswar",
+            type: "city",
+            intro:
+              "Bhubaneswar is the capital of Odisha, a planned city of broad avenues beside the old temple town around the Lingaraj shrine, and a temperature data logger here serves a place of institutions rather than heavy industry. A national medical institute, a large government hospital, private hospitals, universities and a technology institute fill the city with laboratories and pharmacies, while information-technology parks and the offices of government keep server rooms running. Industrial estates at Mancheswar, Rasulgarh and Chandaka, and the Khurda side beyond the city, hold food, engineering, packaging and light manufacturing firms. Hotels serve pilgrims and travellers on the road to Puri. Prithvi supplies WiFi loggers for wards and rooms with a network and GSM loggers for vehicles and distant stores.",
+            climateAngle:
+              "The coast is hot and very humid for most of the year, the monsoon is heavy, and cyclones arrive in the post-monsoon weeks with strong winds and long power cuts, so refrigerators and server rooms must be guarded against outages as well as heat.",
+            areas: [
+              {
+                name: "Mancheswar industrial estate",
+                note: "An older estate on the edge of the city with engineering, food and packaging firms and the godowns of traders, whose sheds heat up under their roofs in the pre-monsoon weeks.",
+              },
+              {
+                name: "Rasulgarh and Chandaka estates",
+                note: "Estates on the northern and eastern sides hold manufacturers of food, plastics and light engineering goods on plots of varied size, with loading bays open to the road.",
+              },
+              {
+                name: "Hospital, institute and campus belt",
+                note: "A national medical institute, a government hospital, private hospitals and university laboratories hold blood, vaccines and samples in refrigerators that serve patients from the whole state.",
+              },
+              {
+                name: "IT parks, hotels and the market streets",
+                note: "Technology parks keep server rooms cool, hotels near the temples run walk-in coolers, and market streets such as Unit-1 stock food and medicines in crowded back rooms.",
+              },
+            ],
+            industries: [
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Large hospitals and a medical institute serve patients from across Odisha, and an alert to the duty staff covers the minutes when the mains fails and the generator has not yet started.",
+              },
+              {
+                slug: "data-centers",
+                sentence:
+                  "Server rooms in technology parks and government offices rely on steady cooling, and a temperature and humidity record shows the day a cooling unit began to struggle.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Hotels, sweet makers, dairies and packaged-food firms run chillers and cold rooms through long hot spells, and an alert on a phone reaches the owner when a unit warms at night.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "University, institute and hospital laboratories keep samples and reagents in freezers and cabinets with their own limits, and an exported log supports a research file.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels give a hospital store or a server room a paired record from one device, with one probe near the door and one at the far end.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an external probe fits a hotel walk-in or a laboratory refrigerator without changing how the unit is used.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a vehicle or reports from a store that has no router, and sends an alert to a phone.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Bhubaneswar hospital watch every refrigerator from one screen?",
+                answer:
+                  "Yes. Each refrigerator and store is a point on one dashboard with its own limit and alert contacts, and a head of department can export a report for any unit and period.",
+              },
+              {
+                question: "What protects a server room or a vaccine fridge during a cyclone?",
+                answer:
+                  "Loggers keep recording on their batteries when mains power fails, and an alert for a lost supply reaches the named person, so an unprotected room is noticed even when roads are blocked.",
+              },
+              {
+                question: "Do you visit Mancheswar, Rasulgarh and Chandaka in one trip?",
+                answer:
+                  "Write to us with the estate, the unit and someone to ask for, by the enquiry form, WhatsApp or a call, and we settle a day. The three estates lie in different directions, so they are taken in a sensible order.",
+              },
+              {
+                question: "Who calibrates loggers used in a Bhubaneswar laboratory?",
+                answer:
+                  "Calibration of loggers and probes is carried out by VEGA Calibrations, our parent company, and can be booked together with the supply.",
+              },
+            ],
+            nearby: [
+              { slug: "cuttack", name: "Cuttack" },
+              { slug: "paradip", name: "Paradip" },
+            ],
+            metaTitle: "Temperature Data Loggers in Bhubaneswar | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Bhubaneswar's hospitals, server rooms, hotels, laboratories and Mancheswar estate. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "cuttack",
+            name: "Cuttack",
+            type: "city",
+            intro:
+              "Cuttack is the old commercial capital of Odisha, built on a strip of land between the Mahanadi and the Kathajodi, and a temperature data logger here serves a trading city that is twinned with Bhubaneswar. Silversmiths make filigree jewellery in narrow lanes, wholesalers crowd the markets at Chandni Chowk and Badambadi, and the state high court and a large medical college and hospital draw people from many districts. Industrial areas at Choudwar and Jagatpur hold steel, ferro-alloy, engineering and food works on the outskirts. The river brings floods in the rains, and the old city stands on a raised embankment. Prithvi supplies WiFi loggers for rooms with a network and GSM loggers for vehicles, godowns and sheds beyond a router.",
+            climateAngle:
+              "The delta is hot and humid, the monsoon floods low ground and cyclones push storm and power cuts across the plain, so stores near the river face damp and outage risk on top of the summer heat.",
+            areas: [
+              {
+                name: "Choudwar industrial area",
+                note: "An estate across the river with steel, ferro-alloy and engineering works and the godowns that serve them, where bagged material and spares stand in sheds exposed to heat and damp.",
+              },
+              {
+                name: "Jagatpur industrial estate",
+                note: "A smaller estate toward Bhubaneswar with food, packaging and light-engineering firms, whose lorries load at the gates through the day.",
+              },
+              {
+                name: "Badambadi and Chandni Chowk markets",
+                note: "Wholesalers of food, cloth, medicines and general goods stock buildings that are crowded and hot, with chillers and back rooms opened from early morning.",
+              },
+              {
+                name: "Medical college and the old city",
+                note: "A large teaching hospital, clinics and silver-filigree workshops lie close together, with blood storage, vaccine fridges and workshop stores in old buildings.",
+              },
+            ],
+            industries: [
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A teaching hospital and private clinics serve patients from many districts, and a dated record backs each shift handover for blood units, vaccines and medicines.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Wholesale food traders, sweet makers and dairies keep chillers and godowns in a crowded market, and a reading from each unit shows the day one began to warm.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Steel, alloy and allied works keep drums, bags and reagents with printed storage limits, and an alert from a hot shed lets the storekeeper act before the limit is crossed.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Carriers use the city as a junction between the coast, the port and the interior, and a logger placed in a consignment records how long it stood in a yard in the sun.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity and temperature at one point suit a market godown or a spares store, where river damp and monsoon air are what harm the stock.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "A logger with its own display lets a storekeeper read conditions at a glance on the round, while the dashboard keeps the full record.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger rides in a lorry and reports from yards and sheds that no Wi-Fi network reaches, with an alert to a phone.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a market trader in Cuttack be warned if a chiller fails at night?",
+                answer:
+                  "Yes. An alert goes by phone and email to the named person as soon as a reading crosses its limit, and a second person can be set to follow if the first does not respond.",
+              },
+              {
+                question: "Does flood risk change where a logger is placed?",
+                answer:
+                  "We mount the logger body above the likely water line and run only the probe cable to the cold space, and battery operation keeps the record going if the supply is cut by a flood.",
+              },
+              {
+                question: "Can Cuttack and Bhubaneswar sites be watched together?",
+                answer:
+                  "Yes. Every site is a point on the same account with its own alert contacts, so a manager sees both cities in one list and exports a report for any period.",
+              },
+              {
+                question: "Can calibration for a Cuttack hospital laboratory be arranged?",
+                answer:
+                  "VEGA Calibrations, our parent company, handles calibration of loggers and probes, and the work can be planned with the supply.",
+              },
+            ],
+            nearby: [
+              { slug: "bhubaneswar", name: "Bhubaneswar" },
+              { slug: "paradip", name: "Paradip" },
+            ],
+            metaTitle: "Temperature Data Loggers in Cuttack | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Cuttack's markets, teaching hospital, Choudwar works and Jagatpur estate. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "rourkela",
+            name: "Rourkela",
+            type: "city",
+            intro:
+              "Rourkela is a steel town in the Sundargarh district of western Odisha, planned in numbered sectors on the banks of the Brahmani and Koel rivers, and a temperature data logger here serves a city built around heavy industry. A large integrated steel works dominates the town, supported by estates such as Kalunga that hold ancillary engineering, fabrication and repair firms, and a technology institute and a big works hospital add laboratories and wards. Iron ore and coal reach the plant from the mines around, and railway lines and a small airport link the town to the rest of the country and to the mining districts around it. Prithvi supplies WiFi loggers for stores and wards with a network and GSM loggers for vehicles, yards and distant sheds.",
+            climateAngle:
+              "The plateau is scorching in summer, the monsoon is heavy and winter nights are cold, so a spares store or a hospital pharmacy meets extreme heat, damp and chill in the same year, and a long power cut in a storm can leave a room unprotected.",
+            areas: [
+              {
+                name: "Steel works and its stores",
+                note: "Large plant stores hold spares, instruments, electrical panels and laboratory reagents on wide campuses, with rooms far from any office and strict access rules.",
+              },
+              {
+                name: "Kalunga industrial estate",
+                note: "An estate of ancillary engineering and fabrication firms and repair shops supplying the works, with stores of steel stock, electrical items and consumables.",
+              },
+              {
+                name: "Town sectors and markets",
+                note: "Residential sectors, markets and clinics stock food, medicines and consumer goods in compact shops and back rooms opened throughout the day.",
+              },
+              {
+                name: "Institute and works hospital",
+                note: "A technology institute with laboratories and a large works hospital with blood storage and pharmacies hold samples and medicines in refrigerators and freezers.",
+              },
+            ],
+            industries: [
+              {
+                slug: "chemical",
+                sentence:
+                  "Plant laboratories and chemical stores keep drums, bags and reagents with printed storage limits, and an alert from a hot store room lets the storekeeper act before the limit is passed.",
+              },
+              {
+                slug: "electronics",
+                sentence:
+                  "Electrical and control stores hold relays, boards and instruments that suffer in damp and dust, and a humidity trend shows when a store needs drying.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A large works hospital and other hospitals hold blood units and vaccines for the town and the mining districts, and an alert to the duty staff covers the minutes between mains and generator.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "Institute and plant laboratories keep samples, standards and reagents in fridges and cabinets with their own limits, and an exported log is ready for an inspector or a research review.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels cover a long plant store or a stacked spares hall across racks and bays, so one report shows the whole building.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels watch a laboratory or a pharmacy at two points at once, which shows whether the cold reaches the back of the room.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger with an external probe reports from a vehicle or a yard store on a wide campus where Wi-Fi does not reach.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How do loggers suit a steel-town campus with long distances between stores?",
+                answer:
+                  "Battery loggers with a network link need no cable run between buildings, and where signal is weak a GSM logger reports over the mobile network, so every store appears on one dashboard.",
+              },
+              {
+                question: "Can an ancillary firm in Kalunga share one account with its customer's site?",
+                answer:
+                  "Each site is a separate point with its own alert contacts, and access can be limited so each party sees only its own rooms, while a manager sees the whole list.",
+              },
+              {
+                question: "Do you work inside sites with strict entry rules?",
+                answer:
+                  "Send the rules and a contact through the enquiry form, WhatsApp or a call. Where passes, briefings or protective gear are required we plan the visit around them and keep the equipment list short.",
+              },
+              {
+                question: "Who calibrates loggers used in a Rourkela laboratory?",
+                answer:
+                  "VEGA Calibrations, our parent company, can calibrate loggers and carry out temperature mapping, and the work can be planned with the first visit.",
+              },
+            ],
+            nearby: [
+              { slug: "jharsuguda", name: "Jharsuguda" },
+              { slug: "bhubaneswar", name: "Bhubaneswar" },
+            ],
+            metaTitle: "Temperature Data Loggers in Rourkela | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Rourkela's steel-works stores, Kalunga estate, laboratories and hospitals. Get Solution.",
             indexable: true,
           },
         ],

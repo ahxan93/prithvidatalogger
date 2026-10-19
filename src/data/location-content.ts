@@ -107,6 +107,11 @@ export const locationContent: Record<string, LocationContent> = {
     recommended: ["rajmudra", "nakshatra", "vayu"],
     inName: "Silvassa, Daman & Diu",
   },
+  "india/odisha": {
+    metaDescription:
+      "Temperature data loggers in Odisha: Bhubaneswar, Cuttack and Rourkela's hospitals, markets, steel-town stores and estates. Get Solution.",
+    recommended: ["nakshatra", "virat", "vayu"],
+  },
   "india/uttarakhand": {
     metaDescription:
       "Temperature data loggers in Uttarakhand: Haridwar, Dehradun, Roorkee, Rudrapur-Pantnagar, Kashipur and Kotdwar. Get Solution.",
