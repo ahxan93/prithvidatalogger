@@ -16981,7 +16981,7 @@ export const locations: LegacyLocationNode[] = [
       },
     ],
     listing: [
-      { slug: "riyadh", text: "The inland capital, where long road journeys end in pharmaceutical, hospital and food warehouses under extreme dry heat." },
+      { slug: "riyadh-region", text: "The central plateau around the capital, with pharmaceutical, hospital and food warehouses, farm oases and industrial cities under extreme dry heat." },
       { slug: "jeddah", text: "The Red Sea gateway, with port warehouses, imported-food cold rooms and hospitals in hot, humid coastal air." },
       { slug: "dammam", text: "The Gulf-coast city of the Eastern Province, with chemical plants, port yards and food depots under metal-roof heat." },
     ],
@@ -17003,14 +17003,14 @@ export const locations: LegacyLocationNode[] = [
           "Industrial-city plants and dry-port cargo",
           "Hospitals and retail distribution",
         ],
-        citiesServed: [],
+        citiesServed: ["Riyadh", "Al Kharj", "Diriyah", "Al Majmaah"],
         supportNote:
           "Set-up, alert rules and user access for Riyadh Region sites are arranged remotely by call or video. Tell us the town and what the rooms hold.",
         faqs: [
           {
             question: "Which Riyadh Region places have a page?",
             answer:
-              "Pages are being added city by city and area by area, and this page lists each one as it goes live. For any other town in the region, send us a note through the enquiry form.",
+              "Riyadh, Al Kharj, Diriyah and Al Majmaah each have a city page, and Riyadh also has pages for its dry port and its 1st Industrial City. Pages for other towns are added as they are written, and a site anywhere in the region can be raised through the enquiry form.",
           },
           {
             question: "Why does desert dust matter for a logger in a warehouse?",
@@ -17023,9 +17023,400 @@ export const locations: LegacyLocationNode[] = [
               "Yes. Each site is a point on the same account with its own alert contacts, so a head of operations sees a distribution centre in the capital and a farm store in an oasis together in one list.",
           },
         ],
+        listing: [
+          { slug: "riyadh", text: "The inland capital, where long road and rail journeys end in pharmaceutical, hospital and food warehouses under extreme dry heat." },
+          { slug: "al-kharj", text: "A farm city on the plain south-east of the capital, with dairy, poultry and produce chilled close to where it is grown." },
+          { slug: "diriyah", text: "A historic oasis town on the capital's north-western edge, with visitor kitchens, heritage archive stores and palm farms in the wadi." },
+          { slug: "al-majmaah", text: "The oasis town of the Sudair region, with date stores, farms, a university campus and a newer industrial area." },
+        ],
+        areaListing: [
+          { slug: "riyadh-dry-port", text: "The rail-linked container terminal where imported cargo is cleared and handed from train to truck in the desert sun." },
+          { slug: "riyadh-1st-industrial-city", text: "An early industrial estate on the capital's edge, with food, plastics and packaging plants and warehouses under hot metal roofs." },
+        ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,
         children: [
+          {
+            slug: "riyadh",
+            name: "Riyadh",
+            type: "city",
+            intro:
+              "Riyadh sits in the middle of the Arabian desert, far from any port, so almost everything its hospitals, pharmacies and food businesses store has travelled a long way and then waits in a warehouse before it is used. A temperature data logger in Riyadh watches those waiting rooms: distribution warehouses that hold medicines for chemists across the region, hospital stores, and chilled and frozen food depots fed by long road journeys. The dry heat of the city is severe for much of the year, cooling plants work close to their limits for months, and a single failed unit can warm a large room in a short time. Prithvi supplies WiFi loggers from India with alerts to phones and email, and sets them up with your team remotely, so a quality manager can follow a room's record without being on site.",
+            climateAngle:
+              "Extreme dry heat keeps air conditioning and refrigeration under load for most of the year, so a logger earns its place by showing a trend toward trouble in the afternoon before a unit trips, rather than a failure discovered at dawn.",
+            areas: [
+              {
+                name: "Industrial zones",
+                note: "Manufacturing and processing zones on the edges of the city, where plants hold raw materials and finished goods in large halls that are cooled against desert heat.",
+              },
+              {
+                name: "Logistics and distribution zones",
+                note: "Distribution parks and freight yards where goods arrive after long road journeys and wait in warehouses before being sent on to shops, clinics and hospitals.",
+              },
+              {
+                name: "Pharmaceutical and food warehouses",
+                note: "Temperature-controlled stores for medicines and chilled and frozen food, often several rooms in one building each with its own stated range.",
+              },
+            ],
+            industries: [
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine distributors hold stock for pharmacies across a wide region in warehouses that are cooled round the clock, and a continuous record shows how a room behaved on the hottest afternoons.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospital pharmacies and blood storage need an alert that reaches a named person when a fridge or a room drifts, since a failed compressor can go unnoticed for hours in a large building.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Chilled and frozen food depots receive loads from long road journeys, and a log kept at the dock and in the chamber shows where in the chain a warm spell began.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Distribution warehouses hold goods for several customers and need readings by bay, because a single air-conditioning unit failing in one corner affects only some of the stock.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an external probe fits a hospital ward fridge or a clinic's medicine cabinet without changing how the unit is used.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels watch a pharmacy store at several shelf heights and at the door, which shows how a busy room really behaves between deliveries.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels spread through a long distribution warehouse show which bays run warmest under a desert roof, in one report.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How are loggers set up for a Riyadh site when the supply comes from India?",
+                answer:
+                  "Loggers are dispatched from India and registered to your dashboard, and we set up alert rules, rooms and user access with your team over a call or video. No visit is needed to start recording.",
+              },
+              {
+                question: "Why does extreme dry heat call for alert limits on the high side as well as the low?",
+                answer:
+                  "A cooling plant that runs near its limit can trip on a hot afternoon, so a high limit with a short delay warns the engineer early. A low limit protects stock that could freeze when a unit overshoots.",
+              },
+              {
+                question: "Can records be shared with a customer or an inspector?",
+                answer:
+                  "Reports for any room and any period can be exported as PDF, Excel or CSV, so a quality manager can hand over a dated log without retyping a register.",
+              },
+              {
+                question: "Can calibration be discussed for loggers used in Riyadh?",
+                answer:
+                  "Calibration of loggers and probes is delivered by VEGA Calibrations, our parent company. Send the model and the range you use and we confirm how the work can be arranged for your site.",
+              },
+            ],
+            nearby: [
+              { slug: "dammam", name: "Dammam" },
+              { slug: "jeddah", name: "Jeddah" },
+              { slug: "bahrain", name: "Bahrain" },
+            ],
+            metaTitle: "Temperature Data Loggers in Riyadh | Prithvi",
+            metaDescription:
+              "WiFi temperature data loggers for Riyadh's pharma warehouses, hospitals and food depots, supplied from India with remote set-up. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "al-kharj",
+            name: "Al Kharj",
+            type: "city",
+            intro:
+              "Al Kharj is an agricultural city on the plain south-east of Riyadh, famous across the kingdom for its irrigated farms, and a temperature data logger here protects food that is grown, collected and chilled close to where it is eaten. Dairy farms, fodder fields, vegetable growers and poultry houses surround the city, collection depots gather milk and produce each day, and processing and packing plants send chilled goods to the capital by road. A public university campus and hospitals add laboratories and wards. Summers are extremely hot and dry, so every cold room works close to its limit for months. Prithvi supplies WiFi loggers from India with alerts to phones and email and sets them up with your team remotely, so a farm manager can follow a room without being on site.",
+            climateAngle:
+              "Heat is extreme from late spring to early autumn, dust storms sweep the farms in the dry months and winter nights are cool, so a cold room is tested hardest in the afternoon, and a milk tank or produce room that overheats can lose a day's collection.",
+            areas: [
+              {
+                name: "Dairy farms and milk collection depots",
+                note: "Farms chill milk in tanks and cooling rooms soon after milking, and collection depots hold it for the tankers that carry it to processing plants in the cooler hours of the night.",
+              },
+              {
+                name: "Vegetable and fruit packing houses",
+                note: "Growers pack produce in shaded halls and cold rooms before it is loaded for the capital's markets and supermarkets, with doors opened constantly in the heat.",
+              },
+              {
+                name: "Poultry and food processing plants",
+                note: "Houses and processing plants around the city hold chilled and frozen product, and a failed compressor on a hot afternoon can warm a large room quickly.",
+              },
+              {
+                name: "University campus, clinics and hospital stores",
+                note: "A public university with laboratories and the city's hospitals hold samples, vaccines and medicines in refrigerators and freezers that need their own limits.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Dairy, poultry and produce businesses chill product soon after collection, and a continuous record of each tank and room shows a buyer that the chain held from the farm to the depot.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Refrigerated trucks leave the farms for Riyadh and the Eastern Province, and a logger placed in the load shows how long goods stood in a vehicle in the afternoon heat.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals and clinics hold vaccines and blood products that must survive a power interruption, and an alert to the duty staff reaches the right person at once.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "University and testing laboratories keep samples and reagents with their own limits, and an exported log is ready for a review or an inspection.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels watch a milk-cooling room at several heights and at the door, which shows how a busy room really behaves between collections.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels spread through a long packing hall or cold store show which bays run warmest under a desert roof, in one report.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an external probe slots into a clinic or university refrigerator and leaves the way staff use the unit unchanged.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How can a dairy farm near Al Kharj use a temperature record?",
+                answer:
+                  "A logger in the cooling tank or room records the milk temperature from the end of milking to collection, and the report shows a buyer how quickly and how steadily the milk was chilled.",
+              },
+              {
+                question: "How is a farm site near Al Kharj brought online when the loggers come from India?",
+                answer:
+                  "The loggers travel from India and are registered to your dashboard, then a call or video session with our team fixes the rooms, the limits and the people who receive alerts. A milk room or packing hall needs a router in range for a WiFi logger to report.",
+              },
+              {
+                question: "Why do alert limits matter on a hot afternoon?",
+                answer:
+                  "A cooling plant that runs near its limit can trip when the sun is highest, so a high limit with a short delay warns the manager early, while a low limit protects produce that could chill too far.",
+              },
+              {
+                question: "Can calibration be arranged for loggers on an Al Kharj farm or in a plant?",
+                answer:
+                  "Yes. Our parent company, VEGA Calibrations, handles calibration of loggers and probes; tell us the model and your working range and we explain how it could be arranged for a farm or a plant.",
+              },
+            ],
+            nearby: [
+              { slug: "riyadh", name: "Riyadh" },
+              { slug: "dammam", name: "Dammam" },
+            ],
+            metaTitle: "Temperature Data Loggers in Al Kharj | Prithvi",
+            metaDescription:
+              "WiFi temperature data loggers for Al Kharj's dairy farms, produce packing houses, poultry plants and hospitals, set up remotely. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "diriyah",
+            name: "Diriyah",
+            type: "city",
+            intro:
+              "Diriyah lies on the north-western edge of Riyadh beside the Wadi Hanifa, a historic oasis town of mud-brick buildings whose At-Turaif district is a World Heritage site, and a temperature data logger here serves a place being developed as a cultural and tourism destination. Restaurants, cafes, hotels and visitor attractions need walk-in coolers and dry stores, the museums, archives and conservation stores that go with a heritage site need steady temperature and humidity, and palm farms still line the wadi. Food and supplies come from the capital's warehouses by road. Summers are extremely hot, so cooling plants and cold rooms work hard. Prithvi supplies WiFi loggers from India with alerts to phones and email and sets them up with your team remotely.",
+            climateAngle:
+              "Extreme dry heat is broken by cool winter evenings and occasional heavy rain that fills the wadi, so a kitchen cooler works at its limit for months, while a museum or archive store needs steady air to protect paper, textiles and mud-brick plaster.",
+            areas: [
+              {
+                name: "Restaurants, cafes and hotel kitchens",
+                note: "Kitchens serving visitors run walk-in coolers, freezers and bar fridges that are loaded hardest at weekends and in the cooler months, when crowds are largest.",
+              },
+              {
+                name: "Museum, archive and conservation stores",
+                note: "Heritage institutions keep documents, textiles and objects in rooms where temperature and humidity must stay steady, because swings damage paper, fabric and plaster.",
+              },
+              {
+                name: "Event and visitor catering stores",
+                note: "Caterers supplying events and visitor attractions hold chilled food and drink in temporary and permanent stores that fill and empty with the programme.",
+              },
+              {
+                name: "Palm farms and produce stores along the wadi",
+                note: "Growers in the wadi keep dates and produce in small stores and cold rooms, shaded from the sun but exposed to dust.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Restaurants and caterers store chilled and frozen ingredients that are used within days, and an alert to the kitchen manager matters most when a cooler is opened every few minutes on a busy evening.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Food and supplies reach the district from the capital's warehouses by road, and a logger placed in the load records how long goods stood in a vehicle before they were unloaded.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "Conservation and research rooms keep samples, materials and reagents in cabinets and fridges with their own limits, and an exported log is ready for a review.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Clinics serving the district hold vaccines and medicines in refrigerators that need a steady record, and an alert on a phone reaches the person on duty.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity along with temperature at one point, which is what a museum or archive store needs to protect paper, textiles and plaster from swings in the air.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an external probe fits a restaurant walk-in or a bar cooler without changing how the unit is used.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels watch a kitchen store at several shelf heights and at the door, which shows how a busy room behaves between deliveries.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Why would a heritage site need a humidity record?",
+                answer:
+                  "Paper, textiles and mud-brick plaster respond to damp and dryness, so a record of temperature and humidity in an archive or conservation store shows whether the air stayed steady and when it drifted.",
+              },
+              {
+                question: "How does a Diriyah kitchen or archive get its loggers from India and go live?",
+                answer:
+                  "The loggers come from India and are registered to your dashboard before set-up, and a phone or video session then settles the rooms, the limits and who receives alerts. A restaurant or archive room needs a router in range for a WiFi logger.",
+              },
+              {
+                question: "Can records be shared with a client or an inspector?",
+                answer:
+                  "Reports for any room and any period can be exported as PDF, Excel or CSV, so a manager can hand over a dated log without retyping a register.",
+              },
+              {
+                question: "Is calibration available for loggers in a Diriyah kitchen or heritage store?",
+                answer:
+                  "Yes. VEGA Calibrations, which is our parent company, calibrates loggers and probes, and for a heritage store or a kitchen we confirm with you how the work could be arranged once we know the model and range.",
+              },
+            ],
+            nearby: [
+              { slug: "riyadh", name: "Riyadh" },
+              { slug: "al-kharj", name: "Al Kharj" },
+            ],
+            metaTitle: "Temperature Data Loggers in Diriyah | Prithvi",
+            metaDescription:
+              "WiFi temperature and humidity data loggers for Diriyah's restaurant kitchens, heritage archive stores and caterers, set up remotely. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "al-majmaah",
+            name: "Al Majmaah",
+            type: "city",
+            intro:
+              "Al Majmaah is the main town of the Sudair region, on the plain north of Riyadh on the road toward Qassim, and a temperature data logger here serves an oasis town of farms, a university and growing industry. Wells irrigate date palms, wheat, fodder and vegetables, dairy and poultry farms supply the markets of the capital, and a public university has its campus in the town with laboratories and clinics. Hospitals and health centres serve the surrounding villages, and a newer industrial city in the Sudair region adds plants and warehouses. Summers are extremely hot and dusty. Prithvi supplies WiFi loggers from India with alerts to phones and email and sets them up with your team remotely, so a manager can follow a room without being on site.",
+            climateAngle:
+              "The plain is scorching for much of the year, dust storms are common in spring and the few winter rains can arrive suddenly, so farm cold rooms and date stores work at their limits and a failed unit can lose a harvest day.",
+            areas: [
+              {
+                name: "Date farms and packing stores",
+                note: "Growers pick, sort and pack dates in shaded sheds and cool rooms, where steady temperature and low humidity protect the fruit through months of storage.",
+              },
+              {
+                name: "Dairy, poultry and vegetable farms",
+                note: "Farms around the town chill milk, hold chilled poultry and pack vegetables in cold rooms, with trucks carrying the output to Riyadh through the heat of the day.",
+              },
+              {
+                name: "University campus and the town hospitals",
+                note: "A public university and the town's hospitals hold samples, vaccines and medicines in refrigerators and freezers on a campus and in wards spread over a wide area.",
+              },
+              {
+                name: "Sudair industrial area",
+                note: "A newer industrial area in the Sudair region adds plants and warehouses whose stores hold food, packaging and building materials in large halls cooled against the heat.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Date packers, dairy farms and poultry businesses hold product that loses quality in heat, and a record from each room shows a buyer how a lot was kept from harvest to loading.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Trucks of produce and chilled goods travel the highway toward Riyadh and Qassim, and a logger in a load shows how long goods stood in a vehicle on the road.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "University and testing laboratories keep samples and reagents in freezers and fridges with their own limits, and an exported log supports a review.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals and health centres hold vaccines and medicines for a scattered population, and an alert to the duty staff reaches the right person at once if a refrigerator warms.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels watch a date store or a cold room at several heights and at the door, which shows how a busy room behaves between loadings.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a date packing store, where dry, steady air protects the fruit through long storage.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A one-probe logger fits a clinic or laboratory fridge in the town and leaves the way staff use the unit untouched.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How can a date packer in Al Majmaah use a temperature record?",
+                answer:
+                  "A logger in the packing store and the cold room records temperature and humidity through the season, and the report shows a buyer how a lot was kept from picking to loading.",
+              },
+              {
+                question: "How is a farm or campus site in Al Majmaah brought online?",
+                answer:
+                  "Once the loggers arrive from India they are registered to your dashboard, and a short call or video session sets the rooms, the limits and the alert contacts, with a router in range of each room for the WiFi logger.",
+              },
+              {
+                question: "Why do dust storms matter for a logger?",
+                answer:
+                  "Fine dust settles on vents and probe tips, so we place the logger body away from the dustiest doors, keep probes sealed and suggest wiping them at routine cleaning.",
+              },
+              {
+                question: "What about calibration for loggers at a date store or campus laboratory in Al Majmaah?",
+                answer:
+                  "Calibration of loggers and probes is handled by our parent company, VEGA Calibrations. Share the model and the range you use and we confirm the options.",
+              },
+            ],
+            nearby: [
+              { slug: "riyadh", name: "Riyadh" },
+              { slug: "al-kharj", name: "Al Kharj" },
+            ],
+            metaTitle: "Temperature Data Loggers in Al Majmaah | Prithvi",
+            metaDescription:
+              "WiFi temperature data loggers for Al Majmaah's date stores, dairy and poultry farms, university labs and hospitals, set up remotely. Get Solution.",
+            indexable: true,
+          },
         ],
       },
       {
@@ -17471,99 +17862,6 @@ export const locations: LegacyLocationNode[] = [
         indexable: false,
         children: [
         ],
-      },
-      {
-        slug: "riyadh",
-        name: "Riyadh",
-        type: "city",
-        intro:
-          "Riyadh sits in the middle of the Arabian desert, far from any port, so almost everything its hospitals, pharmacies and food businesses store has travelled a long way and then waits in a warehouse before it is used. A temperature data logger in Riyadh watches those waiting rooms: distribution warehouses that hold medicines for chemists across the region, hospital stores, and chilled and frozen food depots fed by long road journeys. The dry heat of the city is severe for much of the year, cooling plants work close to their limits for months, and a single failed unit can warm a large room in a short time. Prithvi supplies WiFi loggers from India with alerts to phones and email, and sets them up with your team remotely, so a quality manager can follow a room's record without being on site.",
-        climateAngle:
-          "Extreme dry heat keeps air conditioning and refrigeration under load for most of the year, so a logger earns its place by showing a trend toward trouble in the afternoon before a unit trips, rather than a failure discovered at dawn.",
-        areas: [
-          {
-            name: "Industrial zones",
-            note: "Manufacturing and processing zones on the edges of the city, where plants hold raw materials and finished goods in large halls that are cooled against desert heat.",
-          },
-          {
-            name: "Logistics and distribution zones",
-            note: "Distribution parks and freight yards where goods arrive after long road journeys and wait in warehouses before being sent on to shops, clinics and hospitals.",
-          },
-          {
-            name: "Pharmaceutical and food warehouses",
-            note: "Temperature-controlled stores for medicines and chilled and frozen food, often several rooms in one building each with its own stated range.",
-          },
-        ],
-        industries: [
-          {
-            slug: "pharmaceutical",
-            sentence:
-              "Medicine distributors hold stock for pharmacies across a wide region in warehouses that are cooled round the clock, and a continuous record shows how a room behaved on the hottest afternoons.",
-          },
-          {
-            slug: "hospitals-blood-banks",
-            sentence:
-              "Hospital pharmacies and blood storage need an alert that reaches a named person when a fridge or a room drifts, since a failed compressor can go unnoticed for hours in a large building.",
-          },
-          {
-            slug: "food-beverage",
-            sentence:
-              "Chilled and frozen food depots receive loads from long road journeys, and a log kept at the dock and in the chamber shows where in the chain a warm spell began.",
-          },
-          {
-            slug: "logistics-warehousing",
-            sentence:
-              "Distribution warehouses hold goods for several customers and need readings by bay, because a single air-conditioning unit failing in one corner affects only some of the stock.",
-          },
-        ],
-        recommendedSeries: [
-          {
-            slug: "setu",
-            reason:
-              "A single-point logger with an external probe fits a hospital ward fridge or a clinic's medicine cabinet without changing how the unit is used.",
-          },
-          {
-            slug: "dhruva",
-            reason:
-              "Four channels watch a pharmacy store at several shelf heights and at the door, which shows how a busy room really behaves between deliveries.",
-          },
-          {
-            slug: "veer",
-            reason:
-              "Ten channels spread through a long distribution warehouse show which bays run warmest under a desert roof, in one report.",
-          },
-        ],
-        faqs: [
-          {
-            question: "How are loggers set up for a Riyadh site when the supply comes from India?",
-            answer:
-              "Loggers are dispatched from India and registered to your dashboard, and we set up alert rules, rooms and user access with your team over a call or video. No visit is needed to start recording.",
-          },
-          {
-            question: "Why does extreme dry heat call for alert limits on the high side as well as the low?",
-            answer:
-              "A cooling plant that runs near its limit can trip on a hot afternoon, so a high limit with a short delay warns the engineer early. A low limit protects stock that could freeze when a unit overshoots.",
-          },
-          {
-            question: "Can records be shared with a customer or an inspector?",
-            answer:
-              "Reports for any room and any period can be exported as PDF, Excel or CSV, so a quality manager can hand over a dated log without retyping a register.",
-          },
-          {
-            question: "Can calibration be discussed for loggers used in Riyadh?",
-            answer:
-              "Calibration of loggers and probes is delivered by VEGA Calibrations, our parent company. Send the model and the range you use and we confirm how the work can be arranged for your site.",
-          },
-        ],
-        nearby: [
-          { slug: "dammam", name: "Dammam" },
-          { slug: "jeddah", name: "Jeddah" },
-          { slug: "bahrain", name: "Bahrain" },
-        ],
-        metaTitle: "Temperature Data Loggers in Riyadh | Prithvi",
-        metaDescription:
-          "WiFi temperature data loggers for Riyadh's pharma warehouses, hospitals and food depots, supplied from India with remote set-up. Get Solution.",
-        indexable: true,
       },
       {
         slug: "jeddah",

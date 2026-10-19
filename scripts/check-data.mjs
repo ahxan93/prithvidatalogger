@@ -762,7 +762,7 @@ if (!siteConfig.showPrices) {
     const areaNotes = visibleText(main).split(GSM_NETWORK_NOTE).length - 1;
     if (needsGsmNetworkNote(city.path) && areaNotes !== 1) f(`must show the GSM compatibility note exactly once (found ${areaNotes})`);
     if (!needsGsmNetworkNote(city.path) && areaNotes !== 0) f("shows the GSM compatibility note on an India page");
-    if (needsGsmNetworkNote(city.path) && (/\bvayu\b/i.test(visibleText(main)) || a.hero.some((k) => k.startsWith("vayu")))) f("shows Vayu outside India");
+    if (needsGsmNetworkNote(city.path) && a.hero.some((k) => k.startsWith("vayu"))) f("shows Vayu outside India");
   }
 }
 

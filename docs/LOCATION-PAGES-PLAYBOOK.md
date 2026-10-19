@@ -66,7 +66,7 @@
   pairs held by other pages are removed), and the 41st city exhausted them. **Relaxed rule (Maharashtra hub, added with
   the Satara, Solapur and Ratnagiri-Lote pages; Gujarat hub added with the Rajkot to Kandla pages; Uttar Pradesh hub added with the Ghaziabad to Moradabad pages; Haryana hub added with the Gurugram to Karnal pages; Telangana hub added with the Warangal to Nizamabad pages; Karnataka hub added with the Mysuru to Tumakuru pages; Tamil Nadu hub added with the Hosur to Tuticorin pages; Punjab hub added with the Mohali page and extended with the Ludhiana to Rajpura pages, and Panchkula joins the Haryana hub; Himachal Pradesh hub added with the Solan to Shimla pages; Kerala hub added with the Thiruvananthapuram to Kollam pages; Rajasthan hub added with the Jodhpur to Neemrana pages, and Jaipur joins it; Madhya Pradesh hub added with the Bhopal to Dewas pages, and Indore joins it; West Bengal hub added with the Howrah to Haldia pages, and Kolkata joins it; Andhra Pradesh hub added with the Visakhapatnam to Kakinada pages; Uttarakhand hub added with the Haridwar to Kotdwar pages; the Dadra and Nagar Haveli and Daman and Diu hub added with the Silvassa, Daman and Diu pages; the Odisha hub added with the Bhubaneswar to Jharsuguda pages; the Jharkhand hub added with the Ranchi to Bokaro pages; the Chhattisgarh hub added with the Raipur to Korba pages; the Bihar hub added with the Patna to Bhagalpur pages; the Assam, Manipur, Meghalaya and Tripura hubs added with the Guwahati to Agartala pages; the Sikkim hub added with the Gangtok and Rangpo pages; the Jammu and Kashmir hub added with the Jammu to Kathua pages; the Puducherry hub added with the Puducherry and Karaikal pages):** once every pair is taken, a city that belongs to a state hub
   (`HUB_OF` in `page-heroes.ts`) may reuse a pair that no other city in the SAME hub shows. A city outside a hub
-  never shares a pair, and `npm run check:data` fails on any pair shared inside one hub. Maharashtra, Gujarat, Uttar Pradesh, Haryana, Telangana, Karnataka, Tamil Nadu, Punjab, Himachal Pradesh, Kerala, Rajasthan, Madhya Pradesh, West Bengal, Andhra Pradesh, Uttarakhand and Dadra and Nagar Haveli and Daman and Diu, Odisha, Jharkhand, Chhattisgarh, Bihar, Assam, Manipur, Meghalaya, Tripura, Sikkim, Jammu and Kashmir and Puducherry are in
+  never shares a pair, and `npm run check:data` fails on any pair shared inside one hub. Maharashtra, Gujarat, Uttar Pradesh, Haryana, Telangana, Karnataka, Tamil Nadu, Punjab, Himachal Pradesh, Kerala, Rajasthan, Madhya Pradesh, West Bengal, Andhra Pradesh, Uttarakhand and Dadra and Nagar Haveli and Daman and Diu, Odisha, Jharkhand, Chhattisgarh, Bihar, Assam, Manipur, Meghalaya, Tripura, Sikkim, Jammu and Kashmir, Puducherry and the Riyadh Region of Saudi Arabia are in
   `HUB_OF` so far; a future hub needs its cities added there.
 - **Implementation:** Next cannot match a partial dynamic segment, so `src/app/data-logger/[slug]` is
   the route and `next.config.ts` rewrites `/data-logger-:slug` to it.
@@ -282,6 +282,11 @@
 | Puducherry (`puducherry`; the Union Territory hub is `puducherry-state`) | Puducherry | Mettupalayam, Thirubuvanai, Sedarapet and Thattanchavady estates, White Town and promenade hotels, medical institute and university | Pharma and electronics stores, hotel and brewery kitchens, hospitals | Hot salty humid coast, north-east monsoon, cyclones | Chennai, Vellore |
 | Karaikal (`karaikal`, a separate delta enclave surrounded by Tamil Nadu, not near Puducherry city) | Puducherry | Rice mills and paddy godowns, fishing harbour and ice plants, port-side sheds, medical campus and market | Rice and seafood cold chain, port logistics, hospitals, laboratories | Hot very humid delta, heavy monsoon, cyclones | Tiruchirappalli, Nagapattinam |
 | Riyadh (`riyadh`) | Saudi Arabia | Industrial and logistics zones | Pharma distribution, hospitals, food warehousing | Extreme dry heat | Dammam, Jeddah, Bahrain |
+| Al Kharj (`al-kharj`, under the Riyadh Region hub) | Saudi Arabia | Dairy farms and milk depots, produce packing houses, poultry and food plants, university and hospital stores | Dairy and produce cold chain, laboratories, hospitals, refrigerated transport | Extreme dry heat, dust storms, cool winter nights | Riyadh, Dammam |
+| Diriyah (`diriyah`, under the Riyadh Region hub) | Saudi Arabia | Visitor restaurants and hotel kitchens, museum and archive stores, event caterers, palm farms in the wadi | Hospitality kitchens, heritage archive rooms, catering logistics | Extreme dry heat, cool winter evenings, occasional heavy rain | Riyadh, Al Kharj |
+| Al Majmaah (`al-majmaah`, under the Riyadh Region hub) | Saudi Arabia | Date farms and packing stores, dairy and poultry farms, university campus and hospitals, Sudair industrial area | Date and farm cold storage, laboratories, hospitals | Scorching summer, dust storms, sudden winter rain | Riyadh, Al Kharj |
+| Riyadh Dry Port (`riyadh-dry-port`, area of Riyadh) | Saudi Arabia | Container yard and rail sidings, clearance area, transit sheds, truck terminal | Imported food and medicine cargo, contract logistics | Extreme dry heat | Riyadh 1st Industrial City |
+| Riyadh 1st Industrial City (`riyadh-1st-industrial-city`, area of Riyadh) | Saudi Arabia | Factory halls, packing halls and warehouses, food cold stores, loading bays | Food and drink, plastics and packaging, contract warehousing | Extreme dry heat | Riyadh Dry Port |
 | Jeddah (`jeddah`) | Saudi Arabia | Industrial and port logistics zones | Port logistics, food import cold chain, hospitals | Hot, humid coastal | Riyadh, Dammam |
 | Dammam (`dammam`) | Saudi Arabia | Industrial and port logistics zones | Industrial & chemical, port logistics, food | Hot, humid Gulf coast | Riyadh, Bahrain, Jeddah |
 | Dubai (`dubai`) | UAE | Jebel Ali, Al Quoz | Logistics & re-export, food, pharma distribution, hospitality | Extreme heat and humidity | Riyadh, Dammam, Bahrain |
@@ -447,3 +452,18 @@ model (`AreaDef` in `src/data/areas.ts`) needs a parent city that exists in the 
 Sikkim is Gangtok. Singtam is a separate Teesta-side town in East Sikkim, not part of Gangtok, so it must not be shown as
 Gangtok's area. There were also too few confident local facts for 600 unique words. It stays unbuilt until a Singtam
 city page can be written from owner-confirmed detail.
+
+## Saudi Arabia regions
+
+Saudi Arabia is grouped by its 13 administrative regions, each a state-level hub under the country hub
+(`riyadh-region`, `makkah-region`, `eastern-province`, `madinah-region`, `asir-region`, `qassim-region`, `jazan-region`,
+`tabuk-region`, `hail-region`, `najran-region`, `al-baha-region`, `al-jawf-region`, `northern-borders-region`). The same
+rules apply as for Indian states: a region hub with fewer than two built pages is noindex and out of the sitemap.
+Cities sit under their region; industrial cities, economic cities and dry ports are area pages under a city
+(`Country > Region > City > Area`, flat URL `/data-logger-{slug}`). Existing cities that were once direct children of the
+country (Riyadh, Jeddah, Dammam) move under their region when that region's batch is built; their copy, URLs and hero
+pairs do not change. All GCC rules stay: no Vayu or GSM series, the GSM compatibility note appears once per page (area pages
+included), no delivery, stock or local-service claims, no local office, no accreditation claim.
+
+Not built in Batch 1 (Riyadh Region), for lack of confident, distinguishing local facts: the towns of Al Zulfi and Dawadmi, and
+the Riyadh 2nd and 3rd Industrial Cities and the Sudair Industrial City.

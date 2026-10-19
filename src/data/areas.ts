@@ -76,6 +76,7 @@ export const areaCities: Record<string, { name: string; stateSlug: string; state
   bengaluru: { name: "Bengaluru", stateSlug: "karnataka", stateName: "Karnataka" },
   chennai: { name: "Chennai", stateSlug: "tamil-nadu", stateName: "Tamil Nadu" },
   goa: { name: "Goa", stateSlug: "goa", stateName: "Goa" },
+  riyadh: { name: "Riyadh", stateSlug: "riyadh-region", stateName: "Riyadh Region" },
 };
 
 export const areas: AreaDef[] = [
@@ -4853,6 +4854,115 @@ export const areas: AreaDef[] = [
         "verna",
         "ponda",
         "panjim"
+      ],
+      "indexable": true
+    } },
+  // ------------------------------------------------------------------ Saudi Arabia (batch 1: Riyadh)
+  { slug: "riyadh-dry-port", name: "Riyadh Dry Port", citySlug: "riyadh", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","pharmaceutical","food-beverage"], confirmedService: true, hero: ["virat","rajmudra"], page: {
+      "metaTitle": "Data Loggers at Riyadh Dry Port, Saudi Arabia | Prithvi",
+      "metaDescription": "WiFi temperature and humidity data loggers for Riyadh Dry Port's container yard, transit sheds and truck terminal, set up remotely. Get Solution.",
+      "intro": "Riyadh Dry Port is the inland container terminal of the capital, a rail-linked freight yard where containers that entered the kingdom through the Gulf coast are unloaded, cleared and handed on to trucks. Because Riyadh lies far from any sea port, the dry port works as a gateway for imported cargo: the railway carries boxes of food, medicines, consumer goods and industrial parts inland, and clearance can take place in the yard and not at the coast. A temperature data logger at the dry port follows goods through the waiting and handling that happen between train and truck, when cargo may stand in the sun or in a shed, which is where heat does its damage before the goods reach a warehouse.",
+      "places": [
+        {
+          "name": "Container yard and rail sidings",
+          "note": "Containers arrive by train and stand in stacks in the open yard until they are cleared, so goods inside can sit for hours or days in the full heat of the desert sun."
+        },
+        {
+          "name": "Clearance and inspection area",
+          "note": "Containers are opened, checked and resealed here, and the doors stay open while cargo is examined, which exposes chilled and sensitive goods to hot air."
+        },
+        {
+          "name": "Transit sheds and warehouses",
+          "note": "Cargo is transferred into sheds and warehouses beside the rail line before it is loaded for local delivery, in large halls where the temperature depends on the cooling plant."
+        },
+        {
+          "name": "Truck terminal and gates",
+          "note": "Trucks queue to collect cleared containers, so loaded vehicles may wait in the afternoon heat before they leave for warehouses in the city and beyond."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Operators who handle containers for many importers need to show each customer how its goods were held, and a logger placed in a consignment gives each shipper a record of its own."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Importers of medicines and healthcare products route cargo through the yard and sheds, and a dated record of temperature shows a distributor whether a pack stood too long in the heat."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Importers of food and drink bring chilled and ambient goods through the dry port, and a reading from the container and the shed shows the buyer how the product was kept before it reached a warehouse."
+        }
+      ],
+      "services": "For Riyadh Dry Port we supply WiFi loggers for transit sheds and warehouse rooms that have a router, multi-point units for long sheds where one end is hotter than the other, and loggers that travel inside a consignment to record its journey from train to truck. Calibration of the loggers comes from VEGA Calibrations, our parent company, and can be discussed with the supply. WiFi loggers need a router, and we confirm what suits a vehicle or a yard before any order is placed.",
+      "visits": "Set-up is carried out remotely, so there is no visit to arrange. Send the operator or shipper, the sheds and rooms to be watched and a contact through the enquiry form or WhatsApp, and we agree a call or a video session to register the loggers, set limits and name the people who receive alerts.",
+      "approach": "We would begin with the transit shed that holds the most sensitive goods, hanging one logger at working height and one near the roof, then place a logger inside a few chosen consignments to compare the yard with the warehouse. The first weeks of data show which stage of the journey is the warmest and where a second logger is worth adding.",
+      "faqs": [
+        {
+          "question": "Can a logger show how long a container stood at the dry port before collection?",
+          "answer": "A logger placed inside the consignment records temperature and humidity through the wait in the yard, the shed and the truck, and the report for those dates can be exported for the importer or the buyer."
+        },
+        {
+          "question": "Can several shippers sharing one shed each see only their own rooms?",
+          "answer": "Yes. Each shipper's room or bay can be its own point on the dashboard with its own alert contacts, and access can be limited so each party sees only its own records."
+        }
+      ],
+      "nearby": [
+        "riyadh-1st-industrial-city"
+      ],
+      "indexable": true
+    } },
+  { slug: "riyadh-1st-industrial-city", name: "Riyadh 1st Industrial City", citySlug: "riyadh", areaType: "industrial-estate", nearbyIndustries: ["food-beverage","logistics-warehousing","chemical"], confirmedService: true, hero: ["nakshatra","veer-pro"], page: {
+      "metaTitle": "Data Loggers in Riyadh 1st Industrial City | Prithvi",
+      "metaDescription": "WiFi temperature and humidity data loggers for Riyadh 1st Industrial City's factories, packing halls and warehouses, set up remotely. Get Solution.",
+      "intro": "Riyadh 1st Industrial City is one of the earliest industrial estates of the capital, a large district of factories, warehouses and service buildings on the edge of Riyadh, developed and managed by the state's industrial-cities authority. Plants there make food and drink, plastics and packaging, metal goods and building materials, and the warehouses beside them send finished goods across the kingdom by road. The halls stand under metal roofs that trap the desert heat, so the rooms inside depend on cooling plants that work close to their limits for months. A temperature data logger here watches the raw-material stores, the packing halls and the finished-goods rooms where stock waits for a truck.",
+      "places": [
+        {
+          "name": "Factory halls and raw-material stores",
+          "note": "Plants keep ingredients, resins, metal stock and packaging in large stores that are cooled or ventilated, and a failed fan or compressor can warm a hall quickly on a hot afternoon."
+        },
+        {
+          "name": "Packing halls and finished-goods warehouses",
+          "note": "Finished product waits in warehouses on pallets before it is loaded, in bays where the doors open to the sun every time a truck backs in."
+        },
+        {
+          "name": "Cold and chilled stores for food producers",
+          "note": "Food and drink makers run cold rooms and freezers whose records matter to retail buyers and which work hardest in the long summer."
+        },
+        {
+          "name": "Loading bays and truck yards",
+          "note": "Trucks load and unload along the estate roads at all hours, so goods stand in the open between the warehouse and the vehicle, exposed to full sun."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "food-beverage",
+          "sentence": "Makers of food and drink hold ingredients and finished product in chilled and ambient rooms, and a continuous record shows a retail buyer how each lot was kept between production and loading."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Makers of plastics, coatings and packaging keep resins and chemicals with storage limits printed on the label, and an alert from a hot store room lets the storekeeper act before the limit is crossed."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Contract warehouses in the estate hold goods for several customers at once, and a separate reading for each bay lets an operator export a report for the customer whose goods stood there."
+        }
+      ],
+      "services": "For Riyadh 1st Industrial City we supply WiFi loggers for stores and halls that have a router, multi-point units for long warehouse bays where the roof end is hotter than the floor, and single-point loggers with external probes for cold rooms and freezers. VEGA Calibrations, our parent company, can calibrate the loggers, and that work can be agreed alongside the order. A WiFi logger needs a router in range, and for a vehicle or an outbuilding we confirm the option first.",
+      "visits": "Everything is arranged remotely, so no site visit is needed to begin. Send the plant, the halls and rooms to be watched and a contact through the enquiry form or WhatsApp, and we agree a call or a video session to register the loggers, set limits and name the people who receive alerts.",
+      "approach": "At a food or packaging plant we would begin with the room that holds the most sensitive stock, placing one logger near the door and one at the back, then add a logger near the roof of the warehouse bay where heat gathers. The first weeks of data show which rooms drift on a hot afternoon and where a second point is worth adding.",
+      "faqs": [
+        {
+          "question": "Can a plant give a retail buyer a record of its cold room?",
+          "answer": "Reports for any room and any period can be exported as PDF, Excel or CSV, so a quality manager can hand a buyer a dated log of the cold room without retyping a register."
+        },
+        {
+          "question": "Why does the roof matter for a logger in a warehouse bay?",
+          "answer": "Heat rises and gathers under a metal roof, so a logger at the roof end of a bay shows how much warmer the top pallets run than the floor, which a single reading near the door would miss."
+        }
+      ],
+      "nearby": [
+        "riyadh-dry-port"
       ],
       "indexable": true
     } },
