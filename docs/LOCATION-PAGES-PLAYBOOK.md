@@ -328,6 +328,9 @@
 | Shibam (`shibam`, under the Hadramaut Governorate hub) | Yemen | Tower houses and family stores, guesthouses, conservation and archive rooms, palm gardens | Heritage rooms, guesthouse kitchens, date stores | Very dry and hot, flash floods | Seiyun, Mukalla |
 | Zinjibar (`zinjibar`, under the Abyan Governorate hub; the hub stays noindex with one city) | Yemen | Delta farms and produce stores, fishing beaches and ice stores, town market, clinics | Produce and fish cold chain, pharmacy, clinics | Hot, humid, dusty, flood-prone | Aden, Lahij |
 | Port of Mukalla (`port-of-mukalla`, area of Mukalla) | Yemen | Fish landing beaches and ice rooms, drying yards, quayside sheds, vehicles waiting at the gate (described generally, no operating status) | Fish cold chain, port-area logistics, medicines | Hot, humid, salty | none |
+| Sana'a (`sanaa`, city, Amanat Al Asimah) | Yemen | Old City markets, hospitals and university, pharmacy wholesalers, bakeries and dairies | Medicines, food and coffee, laboratories | Mild, dry highland; cold nights, short summer rains | Amran, Dhamar (not yet built) |
+| Sana'a Industrial Area (`sanaa-industrial-area`, area of Sana'a) | Yemen | Food and dairy units, packaging and chemical stores, warehouses, workshops (described generally) | Food, logistics, chemicals | Highland swings between cold nights and sunny afternoons | Sana'a International Airport |
+| Sana'a International Airport (`sanaa-international-airport`, area of Sana'a) | Yemen | Cargo sheds, medicine cold rooms, catering stores, vehicles (described generally, no flight or cargo status) | Pharmaceutical cold chain, freight, food | Highland swings | Sana'a Industrial Area |
 | Jazan Economic City (`jazan-economic-city`, area of Jazan) | Saudi Arabia | Plant chemical and drum stores, spares warehouses and contractor yards, port yards, camp kitchens and clinics | Chemical stores, contract warehousing, camp catering | Extreme heat and humidity, salty air | none |
 | Jeddah (`jeddah`) | Saudi Arabia | Industrial and port logistics zones | Port logistics, food import cold chain, hospitals | Hot, humid coastal | Riyadh, Dammam |
 | Dammam (`dammam`) | Saudi Arabia | Industrial and port logistics zones | Industrial & chemical, port logistics, food | Hot, humid Gulf coast | Riyadh, Bahrain, Jeddah |
@@ -539,3 +542,7 @@ delivery, shipping, local stock, installation or service, and no named organisat
 series, the GSM note once per page, no local office, no accreditation claim.
 
 Not built in Yemen Batch 2 (Hadramaut, Al Mahrah, Abyan): Al Ghaydah, for lack of confident, distinguishing local facts, so no Al Mahrah hub was created.
+
+Yemen Batch 3 (Sana'a): the city sits under the Amanat Al Asimah hub (the administrative area that covers the city), which is indexable with
+one city and two area pages. The airport, which lies north of the city, is attached as an area of Sana'a without any statement about which
+administrative area it falls in. No Sana'a Governorate hub was created because no page is built under it.

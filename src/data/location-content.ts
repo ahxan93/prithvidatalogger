@@ -192,6 +192,11 @@ export const locationContent: Record<string, LocationContent> = {
       "Temperature data loggers for Abyan Governorate: Zinjibar's delta produce stores, fish landings and clinics, reviewed case by case. Get Solution.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
+  "yemen/amanat-al-asimah": {
+    metaDescription:
+      "Data loggers for Amanat Al Asimah: Sana'a's pharmacies, food stores, industrial area and airport, reviewed case by case for Yemen. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+  },
   "yemen/aden-governorate": {
     metaDescription:
       "Temperature data loggers for Aden Governorate: the port city's clinics, food stores and harbour-area warehouses, reviewed case by case. Get Solution.",

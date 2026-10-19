@@ -84,6 +84,7 @@ export const areaCities: Record<string, { name: string; stateSlug: string; state
   jazan: { name: "Jazan", stateSlug: "jazan-region", stateName: "Jazan Region" },
   aden: { name: "Aden", stateSlug: "aden-governorate", stateName: "Aden Governorate" },
   mukalla: { name: "Mukalla", stateSlug: "hadramaut-governorate", stateName: "Hadramaut Governorate" },
+  sanaa: { name: "Sana'a", stateSlug: "amanat-al-asimah", stateName: "Amanat Al Asimah" },
 };
 
 export const areas: AreaDef[] = [
@@ -5673,6 +5674,115 @@ export const areas: AreaDef[] = [
         }
       ],
       "nearby": [],
+      "indexable": true
+    } },
+  // ------------------------------------------------------------------ Yemen (batch 3: Sana'a)
+  { slug: "sanaa-industrial-area", name: "Sana'a Industrial Area", citySlug: "sanaa", areaType: "industrial-estate", nearbyIndustries: ["food-beverage","logistics-warehousing","chemical"], confirmedService: true, hero: ["virat","setu"], page: {
+      "metaTitle": "Data Loggers in Sana'a Industrial Area | Prithvi",
+      "metaDescription": "Data loggers for factories, workshops and warehouses in the Sana'a Industrial Area, reviewed case by case for Yemen. Get Solution.",
+      "intro": "The Sana'a Industrial Area lies on the edge of the highland city, where small factories, workshops and warehouses stand in rows on flat ground along main roads. A temperature data logger in a district like this is concerned with the ordinary risks of making and storing goods: a drinks or dairy plant whose cold room must hold its range, a plastics or packaging unit with a heated store, and a warehouse where stock waits for lorries through cold nights and sunny afternoons. This page says nothing about how many units work on the estate at any time, which changes. Whether a particular site could be supported is decided case by case after we hear from you.",
+      "places": [
+        {
+          "name": "Food, dairy and drinks units",
+          "note": "Small plants that bake, bottle or pack food keep chilled rooms and finished-goods stores, which run hardest on warm afternoons and in the first hour of a shift."
+        },
+        {
+          "name": "Packaging, plastics and chemical stores",
+          "note": "Units that mould, print or blend hold raw materials and finished stock in sheds whose metal roofs heat quickly and cool fast after dark."
+        },
+        {
+          "name": "General warehouses",
+          "note": "Stock for shops across the city waits in open sheds with wide doors, where the air changes with the weather every time a lorry backs in."
+        },
+        {
+          "name": "Workshops and spare-parts stores",
+          "note": "Repair and fabrication shops keep adhesives, lubricants and electronic parts that suit a steady range better than a cold night followed by a warm noon."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "food-beverage",
+          "sentence": "A food or drinks maker answering to retailers can show with a log that a chilled room and a finished-goods store stayed within limits for every batch."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A warehouse holding goods for several owners can give each owner a record of how its stock was kept, instead of relying on a visual check."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Paint, adhesive and cleaning-product makers store materials with labelled ranges, and a dated record shows whether a cold night or a warm shed pushed a pallet outside them."
+        }
+      ],
+      "services": "For a site of this kind we would look at WiFi loggers for sheds and chilled rooms that have a router, single-point loggers with external probes for cold rooms and freezers, and units that ride inside a load to record its journey. Calibration of the loggers is something VEGA Calibrations, our parent company, can talk through with a plant. Each WiFi logger needs a router in range and a power supply for it, and where those are missing we discuss other ways. We state nothing about what can be supplied until a request has been reviewed.",
+      "visits": "Visits, shipments and installation are not promised for the estate. Tell us the business, the rooms to be watched and a contact through the enquiry form or WhatsApp, and we review the request, say what is practical and discuss whether a video call could explain the set-up.",
+      "approach": "If a request went ahead, we would start with the chilled room or store holding the most sensitive stock, placing one logger by the door and one at the back, and add a humidity-reading unit where a plant makes steam or washes down floors. A few weeks of data would show whether the cold mornings or the warm afternoons strain the room.",
+      "faqs": [
+        {
+          "question": "Can a small factory in the Sana'a Industrial Area keep a record of its cold room?",
+          "answer": "Yes. A logger in the cold room records day and night, and a report covering the dates of a batch can be exported in PDF, Excel or CSV form for a customer."
+        },
+        {
+          "question": "Do cold nights matter for warehouse stock in a highland city?",
+          "answer": "Yes. Goods that sit through a near-freezing night and a sunny afternoon undergo repeated swings, and a logger in the load shows how large those swings were."
+        }
+      ],
+      "nearby": [
+        "sanaa-international-airport"
+      ],
+      "indexable": true
+    } },
+  { slug: "sanaa-international-airport", name: "Sana'a International Airport", citySlug: "sanaa", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","pharmaceutical","food-beverage"], confirmedService: true, hero: ["virat-pro","dhruva"], page: {
+      "metaTitle": "Data Loggers at Sana'a International Airport | Prithvi",
+      "metaDescription": "Data loggers for air-cargo sheds, cold rooms and vehicles around Sana'a International Airport, reviewed case by case. Get Solution.",
+      "intro": "Sana'a International Airport lies north of the city on the high plateau, and the ground around an airport like this is a place of waiting: medicines, vaccines, food and parcels that leave an aircraft, stand in a shed or a vehicle and move on. A temperature data logger in that chain records what the goods met on the apron, in the cargo shed and in the van. This page says nothing about the flights or cargo handled at the airport at any time, which change. Whether a given consignment or store could be supported is decided case by case after we hear from you.",
+      "places": [
+        {
+          "name": "Cargo sheds and holding rooms",
+          "note": "Air cargo waits in sheds with wide doors that open to cold dawn air or strong midday sun, so temperature inside the room follows the weather outside."
+        },
+        {
+          "name": "Cold rooms for medicines and vaccines",
+          "note": "Pharmaceutical consignments may be held in a refrigerated room or a cool box until a vehicle collects them, and the hours in between are the weak point in the chain."
+        },
+        {
+          "name": "Catering and food stores",
+          "note": "Kitchens and stores that prepare food for travellers and staff run refrigerators and freezers through the day and night."
+        },
+        {
+          "name": "Vehicles at the cargo and terminal approaches",
+          "note": "Vans and lorries wait to load, and a closed vehicle on a highland road can warm sharply in the sun and chill soon after sunset."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Medicine and vaccine consignments need a continuous record from aircraft to pharmacy, and a small logger packed with the goods shows the receiver exactly how the journey went."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A freight handler holding parcels for many customers can offer each one a temperature record of its own shipment, rather than a general statement about the shed."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Caterers and food importers keep chilled and frozen stock that cannot afford a long wait at ambient temperature, and a log shows where a break in the chain occurred."
+        }
+      ],
+      "services": "For airport-side sites we would consider single-use or reusable loggers that travel inside a shipment, WiFi loggers for sheds and cold rooms with a router, and probe-type units for refrigerators and freezers. Calibration of the loggers is handled through VEGA Calibrations, our parent company, which we can put you in touch with. A WiFi logger needs a router in range and a supply of power, and for a vehicle or a loose consignment we explain the alternatives. Nothing is stated about what can be supplied until a request has been reviewed.",
+      "visits": "Visits, shipments and installation are not promised. Send the business, the consignment or room to be watched and a contact through the enquiry form or WhatsApp, and we review the request, say what looks practical and discuss whether a call could walk through the set-up.",
+      "approach": "If a request went ahead, we would begin with the consignment or room that is hardest to replace, placing a logger in the load or at the door and a second one at the far wall, then add a unit that reads humidity where cold goods meet warm air. The first weeks of data would show how long goods really wait between steps.",
+      "faqs": [
+        {
+          "question": "Can a logger travel inside a medicine consignment through an airport chain?",
+          "answer": "Yes. A small logger packed with the goods records the whole journey and the report can be exported in PDF, Excel or CSV form for the receiver, whatever route the consignment took."
+        },
+        {
+          "question": "Why does a highland airport matter for temperature records?",
+          "answer": "At this altitude a cargo shed or van can turn from near-freezing to warm over just a few hours, so a continuous log shows swings that a single spot reading would miss."
+        }
+      ],
+      "nearby": [
+        "sanaa-industrial-area"
+      ],
       "indexable": true
     } },
 ];
