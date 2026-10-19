@@ -139,6 +139,7 @@ export const locations: LegacyLocationNode[] = [
       { slug: "madhya-pradesh", text: "Indore's food processors, pharmaceutical makers and the Pithampur and Sanwer Road estates, with a hot summer and a heavy monsoon." },
       { slug: "west-bengal", text: "Kolkata's cold stores, pharmaceutical distributors, hospitals and port-side godowns, with Howrah, Kalyani and Dankuni around it." },
       { slug: "andhra-pradesh", text: "Visakhapatnam's port, steel, shipyard and pharma estates, Vijayawada's markets, Guntur's chilli cold stores and Tirupati's hotels and electronics, in a hot, humid, cyclone-prone coast." },
+      { slug: "uttarakhand", text: "Haridwar's factory estate and pilgrim hotels, Dehradun's pharma and technology estates, hospitals and institutes, and Roorkee's engineering town, between hot plains and cold hills." },
     ],
     indexable: true,
     children: [
@@ -12338,6 +12339,338 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Kakinada | Prithvi",
             metaDescription:
               "WiFi and GSM temperature and humidity data loggers for Kakinada's port godowns, fertiliser works, seafood plants and economic zone. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "uttarakhand",
+        name: "Uttarakhand",
+        type: "state",
+        intro:
+          "Uttarakhand is a state of two climates, the cool wet hills and the hot plains and foothills below them, and its storage sits mostly in the plains: the temple and factory city of Haridwar with its large industrial estate, the capital Dehradun in the Doon valley, and Roorkee between the Ganga and Yamuna canals. Pharmaceutical, food, electrical and automotive plants have grown on the estates, and hospitals, institutes and hotels add rooms that need steady air. Summers are hot, the monsoon is very heavy and winter nights are cold with fog, so a pharmaceutical store or a cold chain meets heat, damp and cold in a single year. The city pages that follow set out each estate, the stores worth watching first and the loggers that fit.",
+        localIndustries: [
+          "Pharmaceutical manufacturing",
+          "Food and agro processing",
+          "Electrical and automotive plants",
+          "Hospitals and pilgrim hospitality",
+        ],
+        citiesServed: ["Haridwar", "Dehradun", "Roorkee"],
+        supportNote:
+          "Supply, installation support and site visits for Uttarakhand sites are arranged from our Mumbai office. Tell us the town, the estate and what the rooms hold.",
+        faqs: [
+          {
+            question: "Which Uttarakhand locations have a page?",
+            answer:
+              "Haridwar, Dehradun and Roorkee each have a city page. A site in any other town of the state can be raised by writing to us through the enquiry form.",
+          },
+          {
+            question: "Can a logger work in a hill town with a weak signal?",
+            answer:
+              "A GSM logger reports over the mobile network and keeps recording on its battery when the signal drops, then sends the stored readings once coverage returns.",
+          },
+          {
+            question: "Why plan for a pharma cold chain through the foothills?",
+            answer:
+              "A lorry can leave a hot plain and climb from a hot plain into cold, damp air on a single road, so a logger in the load shows the whole range the goods met and not just the temperature at the depot.",
+          },
+        ],
+        listing: [
+          { slug: "haridwar", text: "The pilgrim city on the Ganga with a large factory estate of electrical, pharmaceutical and food plants and busy hotels." },
+          { slug: "dehradun", text: "The capital of the Doon valley, with pharma and technology estates at Selaqui and Sahaspur, hospitals, institutes and hotels." },
+          { slug: "roorkee", text: "An engineering and canal town between Haridwar and Saharanpur, with an engineering institute, a research institute and industrial areas." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "haridwar",
+            name: "Haridwar",
+            type: "city",
+            intro:
+              "Haridwar is the pilgrim city where the Ganga leaves the hills and enters the plains, and a temperature data logger here serves a city that is both a place of worship and a centre of factories. Crowds gather at Har ki Pauri throughout the year and in great numbers at the Kumbh fair, so hotels, dharamshalas, sweet shops and eating houses cook at huge volume. A short way out of the city the SIDCUL industrial area, with its estates at Ranipur, Roshnabad and Bahadrabad, holds a large heavy electrical equipment works and the many small firms that supply it, together with pharmaceutical, food and consumer-goods plants. Prithvi supplies WiFi loggers for rooms with a network and GSM loggers for lorries, yards and stores beyond a router.",
+            climateAngle:
+              "Summers on the plain are hot, the monsoon is very heavy and winter mornings are cold and foggy, so a pharmaceutical store or a sweet maker's chiller meets heat, damp and cold within a single year.",
+            areas: [
+              {
+                name: "SIDCUL Ranipur and Roshnabad",
+                note: "The main industrial estates beside the highway hold electrical and engineering works, packaging firms and food makers, with stores of components and finished goods in tall halls and wide yards.",
+              },
+              {
+                name: "Bahadrabad and the pharma units",
+                note: "Pharmaceutical and healthcare firms work on large plots in the estate, with raw-material rooms, finished-goods stores and quality laboratories that need written records.",
+              },
+              {
+                name: "Har ki Pauri, Jwalapur and the old markets",
+                note: "Hotels, sweet makers, prasad shops and wholesale traders work in crowded lanes, with coolers and stock rooms fitted into old buildings and opened all day.",
+              },
+              {
+                name: "Kankhal and the hospital belt",
+                note: "Hospitals, clinics and ashram kitchens along the river road hold medicines, vaccines and food in refrigerators that serve pilgrims and townspeople.",
+              },
+            ],
+            industries: [
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Formulation plants in the estate hold ingredients and finished packs in controlled rooms, and a continuous log of temperature and humidity supports each batch file and any customer audit.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Sweet makers, caterers, dairies and packaged-food firms cook and store for pilgrim crowds, and an alert on a phone reaches the owner when a chiller fails during a fair.",
+              },
+              {
+                slug: "electronics",
+                sentence:
+                  "Makers and suppliers of electrical equipment store sensitive parts in stores where monsoon damp causes faults, and a humidity trend shows a quality team when a store drifted.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Warehouses and carriers serve the estates and the hill roads, and a logger placed in a consignment records the range of heat and cold it met on the way.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels cover a tall plant warehouse or a component hall at several heights and positions, so one report shows where heat gathers under the roof.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels give a pharmaceutical store a paired record from one device, such as a probe near the door and one at the back.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an external probe fits a sweet-shop chiller or a clinic fridge without changing how the unit is used.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Haridwar hotel or sweet maker be alerted if a cooler fails during the Kumbh rush?",
+                answer:
+                  "Yes. The named person is alerted by phone and email as soon as a reading crosses its limit, and a second contact can take over if the first does not reply.",
+              },
+              {
+                question: "Do you visit the SIDCUL estates as well as the city?",
+                answer:
+                  "Give us the estate, the plant and a contact through the enquiry form, WhatsApp or a call, and we settle a day. If the gate asks for a visitor pass, tell us when you write.",
+              },
+              {
+                question: "Can plants in Haridwar and Dehradun be watched on one dashboard?",
+                answer:
+                  "Yes. Every plant is a site with its own alert contacts, so a quality head sees both towns in one list and exports a report for any room and period.",
+              },
+              {
+                question: "Who calibrates the loggers used in a Haridwar pharmaceutical store?",
+                answer:
+                  "Calibration and temperature mapping are carried out by VEGA Calibrations, our parent company, and the work can be planned alongside the supply and the first visit.",
+              },
+            ],
+            nearby: [
+              { slug: "roorkee", name: "Roorkee" },
+              { slug: "dehradun", name: "Dehradun" },
+            ],
+            metaTitle: "Temperature Data Loggers in Haridwar | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Haridwar's SIDCUL plants, pilgrim kitchens, hospitals and pharma stores. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "dehradun",
+            name: "Dehradun",
+            type: "city",
+            intro:
+              "Dehradun is the capital of Uttarakhand, set in the Doon valley between the Shivalik foothills and the Himalaya, and a temperature data logger here serves a city of institutions, hospitals, hotels and growing industry. Research institutes, a military academy, a university and many schools fill the leafy neighbourhoods and give the capital a quiet, orderly feel, while Paltan Bazaar and the streets around the clock tower hold the wholesale trade. Industrial areas at Selaqui and Sahaspur, on the plain beyond the town, hold pharmaceutical, food and technology firms. Hospitals draw patients from the hills, and hotels and restaurants serve visitors bound for Mussoorie and Rishikesh. Prithvi supplies WiFi loggers for rooms and wards with a network and GSM loggers for vehicles and hill stores.",
+            climateAngle:
+              "The valley is mild in the shoulder months, summers are warm and the monsoon is exceptionally heavy, while winter nights are cold, so stores meet damp for weeks and a delivery to a hill town can pass from warm to near freezing in a single day.",
+            areas: [
+              {
+                name: "Selaqui industrial area",
+                note: "A planned estate on the western plain with pharmaceutical, food and technology firms on large plots, where stores and quality rooms are spread across wide campuses.",
+              },
+              {
+                name: "Sahaspur industrial area",
+                note: "An industrial belt toward the east with pharmaceutical and manufacturing firms and godowns, on roads that carry trucks to Haridwar and the hills.",
+              },
+              {
+                name: "Paltan Bazaar and the clock tower",
+                note: "Wholesalers of food, medicines and general goods work in crowded lanes, with chillers and stock rooms in old buildings opened all day.",
+              },
+              {
+                name: "Rajpur Road and the hospital district",
+                note: "Hotels, restaurants and clinics line the road toward the hills, and large hospitals hold blood units, vaccines and medicines for patients from the mountain districts.",
+              },
+            ],
+            industries: [
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Plants at Selaqui and Sahaspur hold ingredients and finished packs in controlled rooms, and a dated record backs a quality head who must answer a customer audit.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Large hospitals receive patients from the mountain districts and hold blood and vaccines that must survive monsoon outages, and an alert to the duty staff covers the minutes between mains and generator.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Hotels, restaurants, bakeries and caterers run walk-in coolers through the tourist months, and a reading from each unit shows exactly when one failed during a busy evening.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "Research institutes, a university and testing houses keep samples and reagents in fridges and cabinets with their own limits, and an exported log is ready for a project review.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels watch a pharmaceutical store or a hospital pharmacy at two points at once, one near the door and one deep inside.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a hotel dry store or an instrument room, where the long monsoon brings damp that the dry months never do.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a vehicle climbing to a hill town and reports from stores where no Wi-Fi network exists.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a distributor show how a delivery fared on the climb to a hill town?",
+                answer:
+                  "A GSM logger placed with the goods records readings along the road, and the owner can open the journey on a phone and export the record for the buyer.",
+              },
+              {
+                question: "How does the long monsoon change where a logger is placed?",
+                answer:
+                  "Damp collects on walls and floors, so we hang the logger away from wet surfaces and run only the probe cable into the cold or damp space, which keeps the record steady.",
+              },
+              {
+                question: "Do you visit Selaqui and Sahaspur as well as the town?",
+                answer:
+                  "Tell us the estate, the plant and a person to meet using the enquiry form, WhatsApp or a call, and we plan a day. The two estates lie in different directions, so we sequence them.",
+              },
+              {
+                question: "Can calibration for a Dehradun hospital or laboratory be arranged?",
+                answer:
+                  "Loggers and probes can be calibrated through VEGA Calibrations, our parent company, with the date fixed together with the supply order.",
+              },
+            ],
+            nearby: [
+              { slug: "haridwar", name: "Haridwar" },
+              { slug: "roorkee", name: "Roorkee" },
+              { slug: "paonta-sahib", name: "Paonta Sahib" },
+            ],
+            metaTitle: "Temperature Data Loggers in Dehradun | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Dehradun's Selaqui and Sahaspur plants, hospitals, hotels and institutes. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "roorkee",
+            name: "Roorkee",
+            type: "city",
+            intro:
+              "Roorkee is an engineering town on the Upper Ganga Canal between Haridwar and Saharanpur, and a temperature data logger here serves a place built around learning, research and trade. An old engineering institute, now a national technology institute, and a research institute for building materials occupy large campuses, and a cantonment lies beside the town. Industrial areas and the SIDCUL estate at Bhagwanpur hold factories making machinery, packaged food, paper and chemicals, with warehouses along the highway that joins Delhi to Haridwar. Hospitals and the old bazaars serve the district, and a grain and vegetable market supplies the villages around. Prithvi supplies WiFi loggers for laboratories and rooms with a network and GSM loggers for lorries, yards and stores that have no router.",
+            climateAngle:
+              "Summers are hot and dry, the monsoon brings damp that tests godowns and laboratories, and winter mornings are cold and foggy, so a research freezer, a food store and a canal-side warehouse all meet a range of conditions.",
+            areas: [
+              {
+                name: "Institute campuses and laboratories",
+                note: "Teaching and research laboratories on wide campuses hold samples, reagents and food in fridges and stores that need their own limits and sit far from any office.",
+              },
+              {
+                name: "SIDCUL Bhagwanpur",
+                note: "An industrial estate on the Haridwar side with machinery, food, paper and chemical works on large plots, with godowns whose bays open to the sun.",
+              },
+              {
+                name: "Roorkee industrial area and highway warehouses",
+                note: "Firms along the Delhi to Haridwar road hold packaged goods and parts for trucks that load through the day, in sheds that bake in summer.",
+              },
+              {
+                name: "Cantonment, bazaars and hospitals",
+                note: "The cantonment, the old bazaars and the hospitals sit close together, with pharmacy fridges, kitchen coolers and blood storage behind each frontage.",
+              },
+            ],
+            industries: [
+              {
+                slug: "laboratories",
+                sentence:
+                  "Institute and testing laboratories keep samples, standards and reagents in freezers and cabinets that each have a limit, and an exported log is ready for a project audit or a visiting inspector.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Paper, chemical and machinery works keep drums, bags and reagents with printed storage limits, and an alert from a hot store room lets the storekeeper act before the limit is crossed.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Packaged-food makers and wholesalers hold ingredients and cartons that spoil in damp heat, and a record from each chiller shows when a unit failed during a power cut.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Lorries on the Delhi to Haridwar road stop to load and rest, and a logger placed in the consignment records how long it stood in a yard in the afternoon sun.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an external probe suits a campus freezer or a small clinic refrigerator and records without anyone having to attend it.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels give a laboratory or a store a paired record from one device, such as the top and the bottom of a large cold room.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger travels in a lorry on the highway and reports from yards and sheds that no Wi-Fi network reaches.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a research group export a temperature log for a funded project?",
+                answer:
+                  "Yes. Any freezer, fridge or room can be reported for any period and exported as PDF, Excel or CSV, giving a research group a dated record to attach to a project file.",
+              },
+              {
+                question: "Can sites at Roorkee and Haridwar be watched together?",
+                answer:
+                  "Each site, whether a laboratory or a plant, is a point on one account with its own alert contacts, and a manager sees all of them in a single list.",
+              },
+              {
+                question: "How are visits arranged on a large campus with gate rules?",
+                answer:
+                  "Send the department or plant, the building and a name to ask for through the enquiry form, WhatsApp or a call. Tell us about passes and briefings in advance and we plan around them.",
+              },
+              {
+                question: "Who calibrates loggers used in a Roorkee laboratory?",
+                answer:
+                  "VEGA Calibrations, our parent company, can calibrate loggers and probes, and the work can be booked together with the first supply.",
+              },
+            ],
+            nearby: [
+              { slug: "haridwar", name: "Haridwar" },
+              { slug: "dehradun", name: "Dehradun" },
+              { slug: "meerut", name: "Meerut" },
+            ],
+            metaTitle: "Temperature Data Loggers in Roorkee | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Roorkee's campus laboratories, Bhagwanpur works, highway godowns and hospitals. Get Solution.",
             indexable: true,
           },
         ],

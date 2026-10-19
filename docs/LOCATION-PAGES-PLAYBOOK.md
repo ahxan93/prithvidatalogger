@@ -64,9 +64,9 @@
 - **City hero pairs:** each city page's pair (`getCityHeroDevices()` in `src/data/page-heroes.ts`) is fixed by the
   registry order, never at render time, and is unique site-wide. The 10 logger photos give only 45 pairs (41 once the
   pairs held by other pages are removed), and the 41st city exhausted them. **Relaxed rule (Maharashtra hub, added with
-  the Satara, Solapur and Ratnagiri-Lote pages; Gujarat hub added with the Rajkot to Kandla pages; Uttar Pradesh hub added with the Ghaziabad to Moradabad pages; Haryana hub added with the Gurugram to Karnal pages; Telangana hub added with the Warangal to Nizamabad pages; Karnataka hub added with the Mysuru to Tumakuru pages; Tamil Nadu hub added with the Hosur to Tuticorin pages; Punjab hub added with the Mohali page and extended with the Ludhiana to Rajpura pages, and Panchkula joins the Haryana hub; Himachal Pradesh hub added with the Solan to Shimla pages; Kerala hub added with the Thiruvananthapuram to Kollam pages; Rajasthan hub added with the Jodhpur to Neemrana pages, and Jaipur joins it; Madhya Pradesh hub added with the Bhopal to Dewas pages, and Indore joins it; West Bengal hub added with the Howrah to Haldia pages, and Kolkata joins it; Andhra Pradesh hub added with the Visakhapatnam to Kakinada pages):** once every pair is taken, a city that belongs to a state hub
+  the Satara, Solapur and Ratnagiri-Lote pages; Gujarat hub added with the Rajkot to Kandla pages; Uttar Pradesh hub added with the Ghaziabad to Moradabad pages; Haryana hub added with the Gurugram to Karnal pages; Telangana hub added with the Warangal to Nizamabad pages; Karnataka hub added with the Mysuru to Tumakuru pages; Tamil Nadu hub added with the Hosur to Tuticorin pages; Punjab hub added with the Mohali page and extended with the Ludhiana to Rajpura pages, and Panchkula joins the Haryana hub; Himachal Pradesh hub added with the Solan to Shimla pages; Kerala hub added with the Thiruvananthapuram to Kollam pages; Rajasthan hub added with the Jodhpur to Neemrana pages, and Jaipur joins it; Madhya Pradesh hub added with the Bhopal to Dewas pages, and Indore joins it; West Bengal hub added with the Howrah to Haldia pages, and Kolkata joins it; Andhra Pradesh hub added with the Visakhapatnam to Kakinada pages; Uttarakhand hub added with the Haridwar to Kotdwar pages):** once every pair is taken, a city that belongs to a state hub
   (`HUB_OF` in `page-heroes.ts`) may reuse a pair that no other city in the SAME hub shows. A city outside a hub
-  never shares a pair, and `npm run check:data` fails on any pair shared inside one hub. Maharashtra, Gujarat, Uttar Pradesh, Haryana, Telangana, Karnataka, Tamil Nadu, Punjab, Himachal Pradesh, Kerala, Rajasthan, Madhya Pradesh, West Bengal and Andhra Pradesh are in
+  never shares a pair, and `npm run check:data` fails on any pair shared inside one hub. Maharashtra, Gujarat, Uttar Pradesh, Haryana, Telangana, Karnataka, Tamil Nadu, Punjab, Himachal Pradesh, Kerala, Rajasthan, Madhya Pradesh, West Bengal, Andhra Pradesh and Uttarakhand are in
   `HUB_OF` so far; a future hub needs its cities added there.
 - **Implementation:** Next cannot match a partial dynamic segment, so `src/app/data-logger/[slug]` is
   the route and `next.config.ts` rewrites `/data-logger-:slug` to it.
@@ -239,6 +239,9 @@
 | Nellore (`nellore`) | Andhra Pradesh | Shrimp and fish processing plants, hatcheries, rice mills and granite works, Krishnapatnam port side | Seafood export cold chain, rice and feed stores, chemicals, hospitals | Hot humid coast, north-east monsoon and cyclone season | Tirupati, Sri City, Guntur |
 | Sri City (`sri-city`) | Andhra Pradesh | Special economic zone plants, domestic tariff area plants, contract warehouses, campus utilities | Electronics, packaged food, healthcare, contract logistics | Hot humid plain, north-east monsoon rain | Tirupati, Nellore, Chennai |
 | Kakinada (`kakinada`) | Andhra Pradesh | Port and rice godowns, fertiliser and gas-based works, seafood processors, economic zone | Seafood and rice export, chemical stores, pharma, port logistics | Hot humid delta, heavy monsoon and cyclones | Visakhapatnam, Vijayawada |
+| Haridwar (`haridwar`) | Uttarakhand | SIDCUL Ranipur, Roshnabad and Bahadrabad estates, Har ki Pauri and Jwalapur markets, Kankhal hospital belt | Pharma, electrical and electronics stores, pilgrim kitchens and sweet makers, logistics | Hot summer, very heavy monsoon, cold foggy winter | Roorkee, Dehradun |
+| Dehradun (`dehradun`) | Uttarakhand | Selaqui and Sahaspur industrial areas, Paltan Bazaar, Rajpur Road hotels and hospitals, institutes | Pharma, hospitals, hotels and food, laboratories | Mild valley, exceptionally heavy monsoon, cold winter nights | Haridwar, Roorkee, Paonta Sahib |
+| Roorkee (`roorkee`) | Uttarakhand | Institute campuses, SIDCUL Bhagwanpur, highway warehouses, cantonment and bazaars | Laboratories, chemical and paper stores, food, logistics | Hot dry summer, damp monsoon, foggy winter | Haridwar, Dehradun, Meerut |
 | Riyadh (`riyadh`) | Saudi Arabia | Industrial and logistics zones | Pharma distribution, hospitals, food warehousing | Extreme dry heat | Dammam, Jeddah, Bahrain |
 | Jeddah (`jeddah`) | Saudi Arabia | Industrial and port logistics zones | Port logistics, food import cold chain, hospitals | Hot, humid coastal | Riyadh, Dammam |
 | Dammam (`dammam`) | Saudi Arabia | Industrial and port logistics zones | Industrial & chemical, port logistics, food | Hot, humid Gulf coast | Riyadh, Bahrain, Jeddah |
@@ -246,7 +249,7 @@
 
 **GCC notes:** supply is from India. Don't name local estates beyond those listed. Never recommend Vayu. Keep the existing GSM compatibility note. Bahrain stays as a country page (no city page).
 
-**Planned, awaiting owner confirmation (do NOT build yet):** Thane, Visakhapatnam, Haridwar. (Vapi, Ankleshwar and Surat were confirmed by the owner and moved into the table above.)
+**Planned, awaiting owner confirmation (do NOT build yet):** none (Thane, Visakhapatnam and Haridwar are now built). (Vapi, Ankleshwar and Surat were confirmed by the owner and moved into the table above.)
 
 ---
 
