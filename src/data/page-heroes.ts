@@ -246,13 +246,13 @@ const CITY_REGISTRY: { slug: string; region: Region }[] = [
     "puducherry", "karaikal",
   ].map((slug) => ({ slug, region: "india" as const })),
   // Saudi Arabia (appended so earlier assignments never move).
-  ...["al-kharj", "diriyah", "al-majmaah", "makkah", "taif", "rabigh", "king-abdullah-economic-city", "al-khobar", "jubail", "al-ahsa", "dhahran", "qatif", "ras-al-khair", "madinah", "yanbu", "buraidah", "unaizah", "abha", "khamis-mushait", "bisha", "jazan", "najran", "al-baha"].map((slug) => ({ slug, region: "gcc" as const })),
+  ...["al-kharj", "diriyah", "al-majmaah", "makkah", "taif", "rabigh", "king-abdullah-economic-city", "al-khobar", "jubail", "al-ahsa", "dhahran", "qatif", "ras-al-khair", "madinah", "yanbu", "buraidah", "unaizah", "abha", "khamis-mushait", "bisha", "jazan", "najran", "al-baha", "tabuk", "hail", "sakaka", "arar"].map((slug) => ({ slug, region: "gcc" as const })),
 ];
 
 /**
  * Cities grouped by their state hub. The 10 loggers give only 45 pairs (41 after the pairs held by
  * other pages), so once every pair is taken a city in a hub may reuse a pair that no city in the
- * SAME hub shows. Maharashtra, Gujarat, Uttar Pradesh, Haryana, Telangana, Karnataka, Tamil Nadu, Punjab, Himachal Pradesh, Kerala, Rajasthan, Madhya Pradesh and West Bengal, Andhra Pradesh, Uttarakhand, Dadra and Nagar Haveli and Daman and Diu, Odisha, Jharkhand, Chhattisgarh, Bihar, Assam, Manipur, Meghalaya, Tripura, Sikkim, Jammu and Kashmir and Puducherry, the Saudi regions built so far (Riyadh, Makkah, Madinah, Qassim, Asir, Jazan, Najran, Al Baha and the Eastern Province) need this; a city outside a hub never shares a pair.
+ * SAME hub shows. Maharashtra, Gujarat, Uttar Pradesh, Haryana, Telangana, Karnataka, Tamil Nadu, Punjab, Himachal Pradesh, Kerala, Rajasthan, Madhya Pradesh and West Bengal, Andhra Pradesh, Uttarakhand, Dadra and Nagar Haveli and Daman and Diu, Odisha, Jharkhand, Chhattisgarh, Bihar, Assam, Manipur, Meghalaya, Tripura, Sikkim, Jammu and Kashmir and Puducherry, all the Saudi regions need this; a city outside a hub never shares a pair.
  */
 const HUB_OF: Record<string, string> = Object.fromEntries([
   ...[
@@ -359,6 +359,18 @@ const HUB_OF: Record<string, string> = Object.fromEntries([
   ...[
     "al-baha",
   ].map((slug) => [slug, "al-baha-region"]),
+  ...[
+    "tabuk",
+  ].map((slug) => [slug, "tabuk-region"]),
+  ...[
+    "hail",
+  ].map((slug) => [slug, "hail-region"]),
+  ...[
+    "sakaka",
+  ].map((slug) => [slug, "al-jawf-region"]),
+  ...[
+    "arar",
+  ].map((slug) => [slug, "northern-borders-region"]),
   ...[
     "baddi", "solan", "parwanoo", "paonta-sahib", "una", "shimla",
   ].map((slug) => [slug, "himachal-pradesh"]),

@@ -16990,6 +16990,10 @@ export const locations: LegacyLocationNode[] = [
       { slug: "jazan-region", text: "The hot, wet Red Sea plain of the far south-west, with fish and fruit cold chains, a port and a planned industrial city." },
       { slug: "najran-region", text: "A fertile southern valley of date and fruit farms, markets, a university and hospitals." },
       { slug: "al-baha-region", text: "A small highland region of terraced fruit and honey, hotels and clinics in cool, damp air." },
+      { slug: "tabuk-region", text: "The north-west, with irrigated farms, food depots and hospitals in hot summers and frosty winters." },
+      { slug: "hail-region", text: "The northern plateau of wheat, dates and dairies, with a university and hospitals." },
+      { slug: "al-jawf-region", text: "A far-northern oasis region of olive groves, date packers and clinics." },
+      { slug: "northern-borders-region", text: "The far-north plateau, with food and medicine depots, clinics and farm stores far from the ports." },
     ],
     indexable: true,
     seo: {
@@ -19606,21 +19610,21 @@ export const locations: LegacyLocationNode[] = [
         name: "Tabuk Region",
         type: "state",
         intro:
-          "The Tabuk Region occupies the north-west of the kingdom, a large area of desert, mountains and coast that reaches the Red Sea and the Gulf of Aqaba. Tabuk, the regional capital, has farms, markets, hospitals and distribution depots; Duba and Haql are small coastal towns with port activity; and NEOM is a planned development in the region with a stated purpose of building new cities and industries. Winters are cold, with frost on high ground and occasional snow on the mountains, and summers are hot and dry, so storage rooms meet both extremes. Distances are long, and goods travel far to reach the region. The page for each place names the rooms we would watch first.",
+          "The Tabuk Region occupies the north-west of the kingdom, a large area of desert, mountains and coast that reaches the Red Sea and the Gulf of Aqaba. Tabuk, the regional capital, has farms, markets, hospitals and distribution depots; Duba and Haql are small coastal towns with port activity; and NEOM is a planned development in the region with a stated purpose of building new cities and industries. Winters are cold, with frost on high ground and occasional snow on the mountains, and summers are hot and dry, so storage rooms meet both extremes. Distances are long, and goods travel far to reach the region. The Tabuk page below covers the farms, depots and hospital stores of the regional capital.",
         localIndustries: [
           "Farm produce and food depots",
           "Hospitals and medicine supply",
           "Coastal port logistics",
           "Retail distribution",
         ],
-        citiesServed: [],
+        citiesServed: ["Tabuk"],
         supportNote:
-          "Set-up, alert rules and user access for Tabuk Region sites are arranged remotely by call or video. Tell us the town and what the rooms hold.",
+          "Set-up, alert rules and user access for Tabuk Region sites are arranged remotely by call or video. Send the town and a short note on what the rooms hold.",
         faqs: [
           {
             question: "Which Tabuk Region places have a page?",
             answer:
-              "Pages are being added place by place, and this page lists each one as it goes live. For another town in the region, send us a note through the enquiry form.",
+              "Tabuk has a city page. The coastal towns and other places in the region can be raised through the enquiry form, and further pages are added as they are written.",
           },
           {
             question: "Why would a store in a hot desert region need a low limit?",
@@ -19633,9 +19637,108 @@ export const locations: LegacyLocationNode[] = [
               "A logger in the load records every hour of the journey, and the report shows how long goods stood in a vehicle in the heat, which helps a supplier answer a buyer's questions.",
           },
         ],
+        listing: [
+          { slug: "tabuk", text: "The north-western regional capital of irrigated farms, food depots, a regional hospital and a university, with hot summers and frosty winters." },
+        ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,
         children: [
+          {
+            slug: "tabuk",
+            name: "Tabuk",
+            type: "city",
+            intro:
+              "Tabuk is the capital of the Tabuk Region in the north-west of the kingdom, a farming and trading city on a wide plain below high mountains, and a temperature data logger here serves a place with cold winters as well as hot summers. Wheat, dates, fruit and vegetables grow on irrigated farms around the city, and packers, mills and cold rooms handle the harvest. A university, a large regional hospital and many clinics add laboratories and wards, markets and wholesale depots supply the northern towns, and an industrial city on the outskirts holds plants and warehouses. An old fort stands in the centre. Prithvi supplies WiFi loggers from India and sets alerts and user access up with your team by video, so a farm or clinic manager can read a room from a phone.",
+            climateAngle:
+              "Summers are hot and dry, winter nights are cold with frost on the plain and snow on the mountains, so a cold room must hold its upper limit in July and a produce store must not chill too far in January.",
+            areas: [
+              {
+                name: "Irrigated farms and packing houses",
+                note: "Growers of wheat, dates, fruit and vegetables pack and store the harvest in sheds and cool rooms, where heat in summer and frost in winter test the same building.",
+              },
+              {
+                name: "Wholesale markets and food depots",
+                note: "Depots receive chilled food from the central and western cities and release it to shops across the northern towns, with doors opened at every delivery.",
+              },
+              {
+                name: "Regional hospital, clinics and university",
+                note: "A large regional hospital, many clinics and a university with laboratories hold blood products, vaccines and samples in refrigerators and freezers.",
+              },
+              {
+                name: "Tabuk industrial city",
+                note: "The industrial city on the outskirts holds food, packaging and building-materials plants and warehouses whose halls depend on cooling plants against the summer sun.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Farm packers, dairies and food importers hold goods that suffer in summer warmth and in winter frost, and a record from each store shows a buyer how a lot was kept after harvest.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The regional hospital and clinics serve a large northern district, and an alert on a phone reaches the duty staff at once if a vaccine or blood refrigerator warms.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "Laboratories at the university and the hospital keep samples and reagents to set limits, and an exported log can be produced whenever a reviewer or inspector asks.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Trucks carry produce and chilled goods over long roads to and from the city, and a logger in the load shows how long goods stood in a vehicle in the sun.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a farm cold room at several heights and at the door, showing how it behaves between loadings in summer and in the frost.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels read a pharmacy store at the door end and the far wall, which shows whether the air at the back matches the front.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single probe on a short lead fits a clinic or laboratory fridge and leaves the way staff use the unit unchanged.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Why does a store in Tabuk need both a low and a high alert limit?",
+                answer:
+                  "Summer sun can overheat a cold room while winter nights can chill produce that should not freeze, so a low limit protects stock in January and a high limit with a short delay protects it in July.",
+              },
+              {
+                question: "How does a Tabuk farm or clinic start with loggers supplied from India?",
+                answer:
+                  "The loggers are registered to your dashboard on arrival, and a phone or video session sets the rooms, limits and alert contacts, with each room within reach of a router.",
+              },
+              {
+                question: "Can records be shared with a buyer or a reviewer?",
+                answer:
+                  "A report for any room and any dates can be exported in PDF, Excel or CSV form, giving a buyer or a reviewer a dated log in place of a handwritten sheet.",
+              },
+              {
+                question: "Is calibration of loggers available for Tabuk laboratories?",
+                answer:
+                  "VEGA Calibrations, our parent company, can calibrate loggers and probes; share the model and the range you use and we explain what can be arranged.",
+              },
+            ],
+            nearby: [
+              { slug: "hail", name: "Hail" },
+              { slug: "sakaka", name: "Sakaka" },
+            ],
+            metaTitle: "Temperature Data Loggers in Tabuk | Prithvi",
+            metaDescription:
+              "WiFi temperature data loggers for Tabuk's farm packing houses, food depots, regional hospital and university labs, set up remotely. Get Solution.",
+            indexable: true,
+          },
         ],
       },
       {
@@ -19643,21 +19746,21 @@ export const locations: LegacyLocationNode[] = [
         name: "Hail Region",
         type: "state",
         intro:
-          "The Hail Region lies in the north of the central plateau, ringed by two ranges of granite hills, and its economy is built on farming and trade. Hail, the capital, has markets, hospitals and warehouses, and the fields of the region grow wheat, dates and vegetables that are packed and stored for sale across the kingdom. Summers are very hot and dry, winters are cold with frost on clear nights, and dust storms arrive in spring. Farm cold rooms, date stores, hospital refrigerators and retail depots must hold their limits through the heat and the cold. The page for each place names the rooms we would watch first.",
+          "The Hail Region lies in the north of the central plateau, ringed by two ranges of granite hills, and its economy is built on farming and trade. Hail, the capital, has markets, hospitals and warehouses, and the fields of the region grow wheat, dates and vegetables that are packed and stored for sale across the kingdom. Summers are very hot and dry, winters are cold with frost on clear nights, and dust storms arrive in spring. Farm cold rooms, date stores, hospital refrigerators and retail depots must hold their limits through the heat and the cold. The Hail page below covers the farms, mills and hospital stores of the regional capital.",
         localIndustries: [
           "Wheat, dates and vegetables",
           "Food and dairy depots",
           "Hospitals and medicine supply",
           "Retail distribution",
         ],
-        citiesServed: [],
+        citiesServed: ["Hail"],
         supportNote:
-          "Set-up, alert rules and user access for Hail Region sites are arranged remotely by call or video. Tell us the town and what the rooms hold.",
+          "Set-up, alert rules and user access for Hail Region sites are arranged remotely by call or video. Share the town and a note on what the rooms hold.",
         faqs: [
           {
             question: "Which Hail Region places have a page?",
             answer:
-              "Pages are being added place by place, and this page lists each one as it goes live. For another town in the region, write to us through the enquiry form.",
+              "Hail has a city page. Other towns of the region can be raised through the enquiry form, and further pages are added as they are written.",
           },
           {
             question: "How does a logger help a farm cold room in a region with cold winters?",
@@ -19670,9 +19773,108 @@ export const locations: LegacyLocationNode[] = [
               "Yes. Each store is a site on the same dashboard with its own alert contacts, so a trader sees both regions in one list and exports a report for any store.",
           },
         ],
+        listing: [
+          { slug: "hail", text: "A hill-ringed farming capital of wheat, dates and dairies, with a university, a large hospital and an industrial city." },
+        ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,
         children: [
+          {
+            slug: "hail",
+            name: "Hail",
+            type: "city",
+            intro:
+              "Hail is the capital of the Hail Region in the north of the central plateau, a city ringed by two ranges of granite hills, and a temperature data logger here serves a farming town with a busy commercial centre. Irrigated fields around the city grow wheat, dates and vegetables, and mills, packers and dairies handle them. A university, a large hospital and many clinics add laboratories and wards, wholesale markets stock food and household goods for the surrounding villages, and an industrial city on the edge of town adds plants and warehouses. Winters are cold enough for frost, summers are very hot. Loggers for Hail come from India and report to a dashboard that managers can open from a phone, with set-up done by call or video.",
+            climateAngle:
+              "Summer heat is severe, winter nights bring frost on the plateau, and dust storms arrive in spring, so a farm cold room faces extremes at both ends of the year and a refrigerator in a remote clinic may fail unseen.",
+            areas: [
+              {
+                name: "Wheat, date and vegetable farms",
+                note: "Growers store wheat, dates and vegetables in silos, sheds and cool rooms around the city, where the heat after harvest and the dust of spring both spoil quality.",
+              },
+              {
+                name: "Dairies, mills and packers",
+                note: "Dairies and food mills on the edge of the city chill and store product before it is sent to Riyadh and the northern towns.",
+              },
+              {
+                name: "University, hospital and clinics",
+                note: "A university with laboratories and a large hospital hold samples, vaccines and blood units in fridges and freezers that must keep their limits through power cuts.",
+              },
+              {
+                name: "Hail industrial city and wholesale markets",
+                note: "The industrial city holds plants and warehouses, and wholesalers in the markets supply the villages with food, medicines and household goods from compact stores.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Dairy, mill and produce businesses hold goods that spoil in heat or chill, and a continuous record from each room shows a buyer how a lot was kept from the farm to the depot.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The hospital and clinics serve a scattered desert population, and an alert on a phone reaches the right person at once if a refrigerator warms in the night.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine wholesalers and pharmacies keep stock in cooled rooms with stated ranges, and a dated record shows how a room behaved through the hottest weeks.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Trucks carry farm output to Riyadh and the northern towns over long roads, and a logger placed in the load records how long goods stood in a vehicle.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels spread through a mill store or a dairy depot show which rooms and bays run warmest, in one report.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "With humidity shown beside temperature, one unit shows when damp has entered a grain or date store after a rare wet spell.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single probe fits a clinic or laboratory refrigerator without changing how staff use the unit, with alerts to a phone.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How does a grain or date store in Hail use a temperature record?",
+                answer:
+                  "A logger in the store records temperature and humidity through the year, and the log shows the weeks when heat or damp threatened the stock and whether they were dealt with.",
+              },
+              {
+                question: "Can a remote clinic use a single logger?",
+                answer:
+                  "Yes. One logger with an alert to a phone covers a single refrigerator, provided the room has a router within reach, and more points can be added to the same account later.",
+              },
+              {
+                question: "Why do dust storms matter for loggers on the plateau?",
+                answer:
+                  "In spring dust coats vents and probe tips, so the logger body hangs clear of dusty doorways, probes stay sealed, and wiping them during cleaning keeps readings honest.",
+              },
+              {
+                question: "Is calibration of loggers available for Hail laboratories and dairies?",
+                answer:
+                  "Calibration of loggers and probes is handled by our parent company, VEGA Calibrations; tell us the model and your working range and we explain the options.",
+              },
+            ],
+            nearby: [
+              { slug: "buraidah", name: "Buraidah" },
+              { slug: "tabuk", name: "Tabuk" },
+            ],
+            metaTitle: "Temperature Data Loggers in Hail | Prithvi",
+            metaDescription:
+              "WiFi temperature data loggers for Hail's farm stores, dairies, mills, hospital and university labs, set up remotely from India. Get Solution.",
+            indexable: true,
+          },
         ],
       },
       {
@@ -19952,21 +20154,21 @@ export const locations: LegacyLocationNode[] = [
         name: "Al Jawf Region",
         type: "state",
         intro:
-          "The Al Jawf Region lies in the far north of the kingdom, an area of desert plains with scattered oases, and its economy is built on farming, above all olives, dates and other crops grown on irrigated fields. Sakaka, the regional capital, has markets, hospitals, hotels and distribution depots, and olive presses and date packers hold their produce in stores that must be kept cool and dry. Summers are very hot, winter nights are cold with frost, and long roads connect the region with the rest of the kingdom. Cold rooms and warehouses meet both extremes in a single year. The page for each place names the rooms we would watch first.",
+          "The Al Jawf Region lies in the far north of the kingdom, an area of desert plains with scattered oases, and its economy is built on farming, above all olives, dates and other crops grown on irrigated fields. Sakaka, the regional capital, has markets, hospitals, hotels and distribution depots, and olive presses and date packers hold their produce in stores that must be kept cool and dry. Summers are very hot, winter nights are cold with frost, and long roads connect the region with the rest of the kingdom. Cold rooms and warehouses meet both extremes in a single year. The Sakaka page below covers the olive and date stores and the hospital rooms of the regional capital.",
         localIndustries: [
           "Olives, dates and farm produce",
           "Food and dairy depots",
           "Hospitals and medicine supply",
           "Retail distribution",
         ],
-        citiesServed: [],
+        citiesServed: ["Sakaka"],
         supportNote:
-          "Set-up, alert rules and user access for Al Jawf Region sites are arranged remotely by call or video. Tell us the town and what the rooms hold.",
+          "Set-up, alert rules and user access for Al Jawf Region sites are arranged remotely by call or video. Give us the town and a short note on what the rooms hold.",
         faqs: [
           {
             question: "Which Al Jawf Region places have a page?",
             answer:
-              "Pages are being added place by place, and this page lists each one as it goes live. For any other town in the region, send us a note through the enquiry form.",
+              "Sakaka has a city page. Other oasis towns can be raised through the enquiry form, and further pages are added as they are written.",
           },
           {
             question: "How does a logger help an olive or date store?",
@@ -19979,9 +20181,108 @@ export const locations: LegacyLocationNode[] = [
               "Yes. Each site is a point on the same account with its own alert contacts, so an owner sees the farm and the town together in one list.",
           },
         ],
+        listing: [
+          { slug: "sakaka", text: "An oasis capital of olive groves, presses and date packers, with a university, a regional hospital and an industrial city." },
+        ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,
         children: [
+          {
+            slug: "sakaka",
+            name: "Sakaka",
+            type: "city",
+            intro:
+              "Sakaka is the capital of the Al Jawf Region in the far north of the kingdom, an oasis city in a wide desert depression, and a temperature data logger here serves a place famous for olives. Olive groves stretch across irrigated fields around the city, presses turn the fruit into oil, and packers store olives, dates and other farm produce. A university, a regional hospital and clinics add laboratories and wards, wholesale markets supply the oases and desert villages, and an industrial city on the edge of town holds plants and warehouses. Historic stone sites draw some visitors. Summers are very hot and winter nights are cold. Prithvi supplies WiFi loggers from India and sets up alerts and users with your team by call or video.",
+            climateAngle:
+              "Summers are scorching, winter nights bring frost and the desert wind carries dust, so olive and date stores must stay cool and dry through long storage while clinic refrigerators work through the heat.",
+            areas: [
+              {
+                name: "Olive groves, presses and oil stores",
+                note: "Growers deliver olives to presses, and oil and table olives are stored in drums, tanks and cool rooms, where heat after pressing dulls flavour and shortens shelf life.",
+              },
+              {
+                name: "Date farms and produce packers",
+                note: "Packers sort and store dates and other produce in shaded sheds and cool rooms, where steady temperature and low humidity protect the fruit.",
+              },
+              {
+                name: "University, hospital and clinics",
+                note: "A university with laboratories, a regional hospital and many clinics hold vaccines, blood units and samples in refrigerators and freezers.",
+              },
+              {
+                name: "Sakaka industrial city and the markets",
+                note: "The industrial city holds plants and warehouses, and wholesalers in the markets stock food and household goods for the surrounding oases.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Olive-oil makers, date packers and wholesalers hold products that lose quality in heat, and a record from each store shows a buyer how a lot was kept after the harvest.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The regional hospital and clinics serve villages scattered over a wide desert, and an alert to the duty staff reaches the right person at once if a refrigerator warms.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "University and clinical laboratories keep samples and reagents with their own limits, and an exported log supports a research file or an inspection.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Trucks carry oil, olives and dates to Riyadh and the ports over very long roads, and a logger in the load shows how long goods stood in a vehicle in the sun.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit an olive-oil or date store, where steady, cool and dry air protects the product through long storage.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow an oil store or a cold room at several heights and at the door, showing how it behaves between loadings.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels let a hospital pharmacy be read at the door and at the back wall by one device on the wall.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How can an olive-oil producer in Sakaka use a temperature record?",
+                answer:
+                  "A logger in the oil store and the cold room records temperature through storage, and a report for the dates of a batch can be exported in PDF, Excel or CSV form for the buyer.",
+              },
+              {
+                question: "How does a Sakaka farm or clinic start with loggers from India?",
+                answer:
+                  "The loggers are registered to your dashboard on arrival, and a call or video session fixes the rooms, the limits and the staff who receive alerts, with a router within reach of each room.",
+              },
+              {
+                question: "Can a distant farm store appear on the same dashboard as a town depot?",
+                answer:
+                  "Yes. Each site is a point on the same account with its own alert contacts, so an owner sees the farm and the town together, provided each room has a router within reach.",
+              },
+              {
+                question: "Is calibration available for Sakaka laboratories and presses?",
+                answer:
+                  "VEGA Calibrations, our parent company, can calibrate loggers and probes; share the model and the range you use and we confirm the options.",
+              },
+            ],
+            nearby: [
+              { slug: "hail", name: "Hail" },
+              { slug: "tabuk", name: "Tabuk" },
+            ],
+            metaTitle: "Temperature Data Loggers in Sakaka | Prithvi",
+            metaDescription:
+              "WiFi temperature data loggers for Sakaka's olive-oil and date stores, produce packers, hospital and university labs, set up remotely. Get Solution.",
+            indexable: true,
+          },
         ],
       },
       {
@@ -19989,21 +20290,21 @@ export const locations: LegacyLocationNode[] = [
         name: "Northern Borders Region",
         type: "state",
         intro:
-          "The Northern Borders Region occupies the far north of the kingdom, a wide area of desert plateau where the regional capital, Arar, holds the markets, hospitals and distribution depots. Livestock, farming and transport shape the local economy, and goods travel a long way by road to reach the region, so warehouses for medicines, chilled food and general cargo are the main storage rooms. Summers are hot and dry, winter nights are cold with frost, and dust storms and sudden rain can interrupt journeys. Cold rooms and refrigerators must therefore be watched through power cuts as well as seasons. The page for each place names the rooms we would watch first.",
+          "The Northern Borders Region occupies the far north of the kingdom, a wide area of desert plateau where the regional capital, Arar, holds the markets, hospitals and distribution depots. Livestock, farming and transport shape the local economy, and goods travel a long way by road to reach the region, so warehouses for medicines, chilled food and general cargo are the main storage rooms. Summers are hot and dry, winter nights are cold with frost, and dust storms and sudden rain can interrupt journeys. Cold rooms and refrigerators must therefore be watched through power cuts as well as seasons. The Arar page below covers the depots, clinics and farm stores of the regional capital.",
         localIndustries: [
           "Food and dairy depots",
           "Hospitals and medicine supply",
           "Livestock and farm produce",
           "Retail distribution",
         ],
-        citiesServed: [],
+        citiesServed: ["Arar"],
         supportNote:
-          "Set-up, alert rules and user access for Northern Borders Region sites are arranged remotely by call or video. Tell us the town and what the rooms hold.",
+          "Set-up, alert rules and user access for Northern Borders Region sites are arranged remotely by call or video. Write to us with the town and a note on what the rooms hold.",
         faqs: [
           {
             question: "Which Northern Borders Region places have a page?",
             answer:
-              "Pages are being added place by place, and this page lists each one as it goes live. For any other town in the region, write to us through the enquiry form.",
+              "Arar has a city page. Other towns of the region can be raised through the enquiry form, and further pages are added as they are written.",
           },
           {
             question: "Why do long road journeys matter for temperature records?",
@@ -20016,9 +20317,108 @@ export const locations: LegacyLocationNode[] = [
               "Loggers keep recording on their batteries and send the stored readings when the network returns, and an alert for a lost mains supply warns the named person.",
           },
         ],
+        listing: [
+          { slug: "arar", text: "A northern plateau capital of food and medicine depots, a regional hospital, a university and farm and livestock stores." },
+        ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,
         children: [
+          {
+            slug: "arar",
+            name: "Arar",
+            type: "city",
+            intro:
+              "Arar is the capital of the Northern Borders Region in the far north of the kingdom, a trading and administrative city on a wide desert plateau, and a temperature data logger here serves a town of markets, clinics and storage far from the ports. Livestock and farming shape the local economy, wholesale depots receive food and medicines from the central cities over long roads, and a university, a regional hospital and clinics add laboratories and wards. An industrial city on the edge of town holds plants and warehouses. Winters are cold, with frost on clear nights, and summers are hot and dry. Loggers for Arar are sent from India and registered to a dashboard that depot and clinic managers can open from a phone, with the first alert rules agreed on a call.",
+            climateAngle:
+              "Summer heat is severe, winter nights bring frost, and dust storms and sudden rain can interrupt journeys, so a store far from a supplier must hold its range through long outages and delayed deliveries, and stock cannot simply be replaced the next day if a room fails.",
+            areas: [
+              {
+                name: "Wholesale depots and food stores",
+                note: "Depots receive chilled and dry food from the central cities and release it to shops in the north, with doors opening to dust and heat at every delivery.",
+              },
+              {
+                name: "Hospital, clinics and pharmacies",
+                note: "A regional hospital, many clinics and pharmacies hold vaccines and medicines in refrigerators serving a wide, thinly populated district.",
+              },
+              {
+                name: "University campus and laboratories",
+                note: "A university campus keeps samples and reagents in laboratory fridges and freezers, with rooms that are heated in winter and cooled in summer.",
+              },
+              {
+                name: "Livestock markets and farm stores",
+                note: "Traders and farmers store feed, dairy products and farm produce in sheds and cool rooms, where summer sun and winter frost both threaten quality.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Dairy, feed and food wholesalers hold stock that spoils in heat or chill, and a record from each room shows a buyer how a lot was kept after the long road from the supplier.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The regional hospital and clinics hold vaccines and blood products for a scattered population, and an alert on a phone reaches the right person if a refrigerator warms in a power cut.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine wholesalers and pharmacies keep stock in cooled rooms with stated ranges, and a dated record shows how a room behaved through heat and outages.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Trucks travel very long distances to reach the city, and a logger in the load shows the full range of temperature goods met on the road and not only at the depot.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels along a long depot give one report for every bay, showing which stretch of the roof keeps the stock warmest.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single probe on a short lead fits a pharmacy or clinic fridge and leaves the way staff use the unit unchanged.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a dry store that must stay steady through frost, heat and dust.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Why do long road journeys matter for temperature records in Arar?",
+                answer:
+                  "Goods may spend a day or more in a vehicle before reaching a store, so a logger in the load shows the full range they met and helps a supplier answer a buyer's questions.",
+              },
+              {
+                question: "How does an Arar clinic or depot start with loggers supplied from India?",
+                answer:
+                  "The loggers are registered to your dashboard on arrival, and a call or video session sets the rooms, the limits and the staff who receive alerts, with each room within reach of a router.",
+              },
+              {
+                question: "What happens to the record if the power fails?",
+                answer:
+                  "Loggers keep recording on their batteries and send the stored readings when the connection returns, and an alert for a lost mains supply warns the named person.",
+              },
+              {
+                question: "Is calibration of loggers available for Arar laboratories?",
+                answer:
+                  "VEGA Calibrations, our parent company, can calibrate loggers and probes; send the model and the range you use and we explain what can be arranged.",
+              },
+            ],
+            nearby: [
+              { slug: "sakaka", name: "Sakaka" },
+              { slug: "hail", name: "Hail" },
+            ],
+            metaTitle: "Temperature Data Loggers in Arar | Prithvi",
+            metaDescription:
+              "WiFi temperature data loggers for Arar's food and medicine depots, regional hospital, clinics and farm stores, set up remotely from India. Get Solution.",
+            indexable: true,
+          },
         ],
       },
     ],
