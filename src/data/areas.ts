@@ -82,6 +82,7 @@ export const areaCities: Record<string, { name: string; stateSlug: string; state
   jubail: { name: "Jubail", stateSlug: "eastern-province", stateName: "Eastern Province" },
   yanbu: { name: "Yanbu", stateSlug: "madinah-region", stateName: "Madinah Region" },
   jazan: { name: "Jazan", stateSlug: "jazan-region", stateName: "Jazan Region" },
+  dubai: { name: "Dubai", stateSlug: "dubai-emirate", stateName: "Dubai Emirate" },
   "abu-dhabi": { name: "Abu Dhabi", stateSlug: "abu-dhabi-emirate", stateName: "Abu Dhabi Emirate" },
   "al-ain": { name: "Al Ain", stateSlug: "abu-dhabi-emirate", stateName: "Abu Dhabi Emirate" },
   ruwais: { name: "Ruwais", stateSlug: "abu-dhabi-emirate", stateName: "Abu Dhabi Emirate" },
@@ -6325,6 +6326,331 @@ export const areas: AreaDef[] = [
         }
       ],
       "nearby": [],
+      "indexable": true
+    } },
+  // ------------------------------------------------------------------ UAE (batch 3: Dubai)
+  { slug: "jebel-ali", name: "Jebel Ali", citySlug: "dubai", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["virat","dhruva"], page: {
+      "metaTitle": "Data Loggers in Jebel Ali (JAFZA), Dubai | Prithvi",
+      "metaDescription": "Data loggers for warehouses, cold stores and yards in the Jebel Ali port and JAFZA free-zone district of Dubai. Get Solution.",
+      "intro": "Jebel Ali is the port and free-zone district on the south-western coast of Dubai, where JAFZA, the Jebel Ali Free Zone, spreads across a flat grid of warehouses, cold stores, factories and logistics yards beside a deep-water harbour. A temperature data logger in a district like this is concerned with the waiting that surrounds a sea journey: containers lifted from a stack, goods held in a warehouse or a cold room, and vehicles loading for the road in air that is hot, humid and salty. This page is confined to the kinds of goods and rooms a logger user may look after in a port and free-zone district. Enquiries about Jebel Ali are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Large bonded and free-zone warehouses",
+          "note": "Big halls under metal roofs hold goods for owners elsewhere, with dock doors that let hot, damp air into racked bays each time they open."
+        },
+        {
+          "name": "Cold stores and reefer holding areas",
+          "note": "Chilled and frozen food and healthcare goods wait in cold stores or refrigerated containers, and the hours between plug-in points are the weak part of the chain."
+        },
+        {
+          "name": "Container stacks and yards",
+          "note": "Containers piled in open yards soak up summer sun and pass the heat to the goods inside, so a dry load can end up far warmer than the shade."
+        },
+        {
+          "name": "Factory finished-goods stores",
+          "note": "Plants of many kinds keep finished stock in cooled halls that must hold a range while loading doors open and close all day."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A warehouse holding goods for several owners in Jebel Ali can give each owner a temperature record of its own bay, instead of a general remark about the hall."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Chilled and frozen food passing through Jebel Ali needs proof of how it was held between arrival and collection, and a small logger packed with the cartons supplies exactly that."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Medicines and healthcare supplies waiting in a free-zone warehouse need a dated record of temperature, which shows a distributor whether a pack stood too long in the heat."
+        }
+      ],
+      "services": "For a port and free-zone district we would look at multi-point units that follow a large hall from one end to the other, WiFi loggers for rooms with a router, single-point loggers with external probes for freezers and chilled rooms, and loggers that travel inside a consignment. Calibration for Jebel Ali users is something VEGA Calibrations, our parent company, can discuss. A WiFi logger needs a router in range and a supply of power, and for an open yard or a vehicle we would explain the alternatives. For Jebel Ali, nothing is promised on supply before a request has been reviewed.",
+      "visits": "Visits and installation in Jebel Ali are not promised. Give us the business, the rooms or consignments in question and a contact on the enquiry form, Call or WhatsApp, and we review the request and say what looks practical.",
+      "approach": "If a request went ahead, we would begin with the hall or cold room holding the goods that are hardest to replace, using a multi-point unit along its length and a probe logger at the door, then add humidity reading where cold air meets the warm outside. A month of summer readings would show where the building runs hottest.",
+      "faqs": [
+        {
+          "question": "Can one report cover a very long free-zone warehouse?",
+          "answer": "Yes. A multi-channel logger reads several probes along the hall, so one report shows which stretch of the building runs warmest and at what time of day."
+        },
+        {
+          "question": "Can a logger ride inside a carton through a container chain?",
+          "answer": "Yes. A small logger tucked in among the cartons keeps a record of the whole trip, and the report can be exported as a PDF, Excel or CSV file for the receiver."
+        }
+      ],
+      "nearby": [
+        "dubai-investments-park"
+      ],
+      "indexable": true
+    } },
+  { slug: "dubai-investments-park", name: "Dubai Investments Park", citySlug: "dubai", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["nakshatra","veer"], page: {
+      "metaTitle": "Data Loggers in Dubai Investments Park | Prithvi",
+      "metaDescription": "Data loggers for factories, warehouses, clinics and kitchens in Dubai Investments Park, a planned mixed park in Dubai. Get Solution.",
+      "intro": "Dubai Investments Park is a planned park in the south-west of the emirate where factories, warehouses, showrooms, clinics, schools and homes share one grid of roads. A temperature data logger in a mixed park is concerned with two kinds of rooms: the stores and halls of its industrial plots, and the kitchens, clinics and shops that serve the people who live and work there. Both face long, hot summers. This page is limited to the kinds of goods and rooms a logger user could look after in a mixed park of this sort. Enquiries about Dubai Investments Park are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Factory halls and finished-goods stores",
+          "note": "Plants keep finished stock in cooled halls whose doors open and shut all day, and the hall nearest the roof is always the warmest."
+        },
+        {
+          "name": "Warehouses and distribution units",
+          "note": "Units of different sizes hold stock for shops and kitchens, with metal roofs that heat the room long before the cooling catches up."
+        },
+        {
+          "name": "Clinics, pharmacies and care centres",
+          "note": "Clinics and pharmacies serving the park keep vaccines and medicines in refrigerators that must hold their range through power interruptions."
+        },
+        {
+          "name": "Restaurants, canteens and shops",
+          "note": "Kitchens and shops serving workers and residents run walk-in coolers and display cabinets that work hardest on weekend afternoons."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A distribution unit in the park supplying shops and kitchens can show with a log that its stock stayed within limits between receipt and collection."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Restaurants, canteens and food makers on the park hold goods that spoil in heat, and a record from each cooler shows when a unit began to struggle."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Clinics and pharmacies in the park store stock to labelled ranges, and a dated log shows how a room behaved through the hottest weeks of summer."
+        }
+      ],
+      "services": "For a mixed park we would consider WiFi loggers for halls, kitchens and clinic rooms with a router, probe-type loggers for freezers and refrigerators, and multi-point units for long halls. VEGA Calibrations, our parent company, can talk through calibration for users in the park. A WiFi logger needs a router within range and a power supply, and for a vehicle we explain the alternatives. We make no claim on supply until a request for the park has been reviewed.",
+      "visits": "No visit or installation in Dubai Investments Park is promised. Tell us the business, the rooms to be watched and a contact through the enquiry form, Call or WhatsApp, and we review the request and say what is practical.",
+      "approach": "If a request went ahead, we would start with the room holding the most sensitive stock, placing one logger by the door and one at the back, then add a unit reading humidity where doors open to the outside air. The first summer weeks would show which hours strain the room.",
+      "faqs": [
+        {
+          "question": "Can a business in a mixed park watch several rooms from one login?",
+          "answer": "Yes. Each room is a point on the same dashboard, alerts go to the people responsible for it, and a combined report for any period can be exported."
+        },
+        {
+          "question": "Why does the hottest hall in a factory matter?",
+          "answer": "Air stratifies under a metal roof, so a logger at ceiling height and another at the door show how large the gap is between the two."
+        }
+      ],
+      "nearby": [
+        "jebel-ali"
+      ],
+      "indexable": true
+    } },
+  { slug: "al-quoz-industrial-area", name: "Al Quoz Industrial Area", citySlug: "dubai", areaType: "industrial-estate", nearbyIndustries: ["food-beverage","logistics-warehousing","chemical"], confirmedService: true, hero: ["rajmudra","setu"], page: {
+      "metaTitle": "Data Loggers in Al Quoz Industrial Area, Dubai | Prithvi",
+      "metaDescription": "Data loggers for workshops, food suppliers and warehouses in the Al Quoz industrial districts of Dubai, in summer heat. Get Solution.",
+      "intro": "Al Quoz is an inland district of Dubai where industrial blocks of workshops, showrooms and mid-sized warehouses sit close to the city's shops and kitchens, and the Al Quoz Industrial Area is its working heart. A temperature data logger in a district like this is concerned with stock that must stay in range between a supplier and a customer: chilled food, building products, chemicals and spare parts, held in units under metal roofs. What follows deals only with the stock and rooms that a logger user in Al Quoz might look after. Enquiries about Al Quoz are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Food supplier and distribution units",
+          "note": "Suppliers to hotels, shops and kitchens keep chilled and frozen stock in cooled units that load and unload all through the early morning."
+        },
+        {
+          "name": "Chemical, paint and adhesive stores",
+          "note": "Stores of coatings, adhesives and cleaning products carry labelled limits that a hot shed can quietly exceed."
+        },
+        {
+          "name": "Workshops and parts stores",
+          "note": "Repair shops and parts stores hold batteries, seals and electronics that tolerate a steady range better than the swing between a cooled office and a baking yard."
+        },
+        {
+          "name": "General warehouses and showrooms",
+          "note": "Warehouses and showrooms hold furniture, tiles and household goods in halls whose temperature follows the weather outside."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "food-beverage",
+          "sentence": "A supplier serving hotel kitchens from an Al Quoz unit can show with a log that its chilled rooms held their limits for every morning's loading."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Paint, adhesive and cleaning-product stores in Al Quoz carry labelled ranges, and a dated record shows whether a hot afternoon pushed a pallet outside them."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A warehouse in Al Quoz holding goods for several owners can give each owner a record of its own stock, rather than a general statement about the unit."
+        }
+      ],
+      "services": "For a district of this kind we would look at WiFi loggers for units and cooled rooms with a router, single-point loggers with external probes for chilled rooms and freezers, multi-point units for long halls, and loggers that ride in a load. Calibration for Al Quoz users is something VEGA Calibrations, our parent company, can discuss. A WiFi logger needs a router in range and a power supply, and for a yard we would explain the alternatives. What can be supplied is settled only once a request has been looked at.",
+      "visits": "Visits and installation in Al Quoz are not promised. Send the business, the rooms to be watched and a contact through the enquiry form, Call or WhatsApp, and we review the request and say what looks practical.",
+      "approach": "If a request went ahead, we would begin with the chilled unit or store holding the most sensitive stock, placing one logger by the door and one at the back, then add a humidity-reading unit where a unit washes down floors. A few weeks of summer readings would show which hours of the day strain the room.",
+      "faqs": [
+        {
+          "question": "Can a small Al Quoz food supplier keep a record of its chilled room?",
+          "answer": "Yes. A logger in the room records day and night, and a report for the dates of a batch can be exported in PDF, Excel or CSV form for a customer."
+        },
+        {
+          "question": "Do metal-roofed units really run hotter than the air outside?",
+          "answer": "A unit under a metal roof in summer can run well above the outdoor reading, so a logger inside the stock, not on an office wall, records what the goods actually met."
+        }
+      ],
+      "nearby": [
+        "ras-al-khor-industrial-area"
+      ],
+      "indexable": true
+    } },
+  { slug: "ras-al-khor-industrial-area", name: "Ras Al Khor Industrial Area", citySlug: "dubai", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","electronics","chemical"], confirmedService: true, hero: ["virat-pro","nakshatra"], page: {
+      "metaTitle": "Data Loggers in Ras Al Khor Industrial Area | Prithvi",
+      "metaDescription": "Data loggers for workshops, spare-parts shops, light industry and warehouses in the Ras Al Khor Industrial Area, Dubai. Get Solution.",
+      "intro": "Ras Al Khor lies at the head of Dubai's creek, where the water narrows into mudflats and wetlands, and the Ras Al Khor Industrial Area beside it is a grid of workshops, spare-parts shops, light industry and warehouses. A temperature data logger in a district like this is concerned with stock that suffers in heat and humidity: electronic parts, batteries, lubricants and chemicals, held in units beside a body of water. The text stays with the kinds of stock and rooms that a logger user near the creek might look after. Enquiries about Ras Al Khor are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Spare-parts and electronics shops",
+          "note": "Shops and stock rooms hold electronic parts, batteries and sensors that suffer when summer heat is followed by a damp night."
+        },
+        {
+          "name": "Light-industry workshops",
+          "note": "Workshops that fabricate, assemble or repair keep adhesives, lubricants and paints in sheds that heat quickly in the sun."
+        },
+        {
+          "name": "Warehouses and cold rooms",
+          "note": "Warehouses and small cold rooms hold goods for traders and caterers in the city, with doors that let hot, damp air in."
+        },
+        {
+          "name": "Vehicles and loading yards",
+          "note": "Vans and trucks load in open yards, and cargo inside a covered vehicle can run far hotter than the air in the shade."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "electronics",
+          "sentence": "Component and equipment stores near the creek gain from a humidity and temperature record, because a damp night after a hot day can harm parts that look sound on a shelf."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Stores of lubricants, paints and adhesives carry labelled ranges, and a dated record shows whether a hot shed pushed a pallet outside them."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A warehouse holding goods for several traders can offer each trader a temperature record of its own stock in place of a general remark about the unit."
+        }
+      ],
+      "services": "For a district of this kind we would look at WiFi loggers for stock rooms and units with a router, single-point loggers with external probes for chilled rooms, and loggers that ride in a load. VEGA Calibrations, our parent company, can talk through calibration for Ras Al Khor users. A WiFi logger needs a router within range and mains power, and for a loading yard we set out the alternatives. What may be supplied is decided only once a Ras Al Khor request has been reviewed.",
+      "visits": "No visit or installation in Ras Al Khor is promised. Tell us the business, the rooms to be watched and a contact through the enquiry form, Call or WhatsApp, and we review the request and say what looks practical.",
+      "approach": "If a request went ahead, we would start with the stock room holding the most heat- and damp-sensitive parts, placing one logger by the door and one at the back, then add a unit reading humidity. A few weeks of readings would show how often a damp night follows a hot day.",
+      "faqs": [
+        {
+          "question": "Can an electronics stockist near the creek keep a humidity record?",
+          "answer": "Yes. A logger that reads humidity beside temperature records the stock room through the day and night, and the report can be exported in PDF, Excel or CSV form."
+        },
+        {
+          "question": "Why does being close to water matter for stored parts?",
+          "answer": "Damp air near a creek condenses on cool surfaces overnight, so a humidity log shows when parts took on moisture even if the temperature stayed in range."
+        }
+      ],
+      "nearby": [
+        "al-quoz-industrial-area"
+      ],
+      "indexable": true
+    } },
+  { slug: "al-qusais-industrial-area", name: "Al Qusais Industrial Area", citySlug: "dubai", areaType: "industrial-estate", nearbyIndustries: ["food-beverage","logistics-warehousing","chemical"], confirmedService: true, hero: ["veer-pro","rajmudra"], page: {
+      "metaTitle": "Data Loggers in Al Qusais Industrial Area | Prithvi",
+      "metaDescription": "Data loggers for factories, food firms, workshops and stores in the Al Qusais Industrial Area of north-east Dubai. Get Solution.",
+      "intro": "Al Qusais is a district in the north-east of Dubai, and the Al Qusais Industrial Area is a dense grid of factories, food firms, workshops and stores close to the airport side of the city. A temperature data logger in a district like this is concerned with the ordinary risks of making and storing goods: a food maker whose chilled room must hold its range, a packaging unit with a heated store, and a warehouse where stock waits for vehicles through hot afternoons. The page covers the sort of stock and rooms that a logger user in Al Qusais could look after. Enquiries about Al Qusais are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Food-making and catering units",
+          "note": "Small plants that bake, cook, pack and chill food keep cold rooms and finished-goods stores that run hardest on warm afternoons."
+        },
+        {
+          "name": "Packaging and plastics units",
+          "note": "Units that mould, print or pack hold raw materials and finished goods in halls whose metal roofs heat quickly."
+        },
+        {
+          "name": "General warehouses and stores",
+          "note": "Warehouses and stores hold goods for shops and businesses, with wide doors that let hot air in as vehicles back up."
+        },
+        {
+          "name": "Workshops and service units",
+          "note": "Repair and service firms keep adhesives, lubricants and electronic parts in sheds that follow the weather outside."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "food-beverage",
+          "sentence": "A catering or food unit in Al Qusais supplying kitchens and shops can show with a log that its chilled room held its limits for every batch."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Makers and stockists of adhesives, coatings and cleaning products store materials with labelled ranges, and a dated record shows whether a stack stood too hot."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A warehouse in Al Qusais holding goods for several owners can give each owner a record of its own stock, rather than a general statement about the store."
+        }
+      ],
+      "services": "For a district of this kind we would look at WiFi loggers for sheds and chilled rooms that have a router, single-point loggers with external probes for cold rooms and freezers, multi-point units for long sheds, and loggers that ride in a load. Calibration for Al Qusais users is something VEGA Calibrations, our parent company, can discuss. In Al Qusais a WiFi logger needs a router in range and a power supply, and for an uncovered yard we would describe the options. What can be supplied is decided only after a request has been reviewed.",
+      "visits": "Visits and installation in Al Qusais are not promised. Give us the business, the rooms in question and a contact on the enquiry form, Call or WhatsApp, and we review the request and say what is practical.",
+      "approach": "If a request went ahead, we would begin with the chilled room or store holding the most sensitive stock, placing one logger by the door and one at the back, then add a humidity unit where a plant washes down floors. A few summer weeks would show which hours strain the room.",
+      "faqs": [
+        {
+          "question": "Can a small Al Qusais food unit keep a record of its cold room?",
+          "answer": "Yes. A logger in the room records through the day and night, and a report for the dates of a batch can be exported in PDF, Excel or CSV form for a customer."
+        },
+        {
+          "question": "Why record humidity in a packaging store?",
+          "answer": "Damp air softens cartons and labels, and condensation forms when cold goods meet warm air, so a humidity reading beside the temperature shows when packaging took on moisture."
+        }
+      ],
+      "nearby": [
+        "al-aweer"
+      ],
+      "indexable": true
+    } },
+  { slug: "al-aweer", name: "Al Aweer", citySlug: "dubai", areaType: "mixed-use", nearbyIndustries: ["food-beverage","logistics-warehousing","chemical"], confirmedService: true, hero: ["setu","virat"], page: {
+      "metaTitle": "Data Loggers in Al Aweer, Dubai | Prithvi",
+      "metaDescription": "Data loggers for produce cold rooms, wholesale stores and industrial yards in Al Aweer, Dubai, in long, hot summers. Get Solution.",
+      "intro": "Al Aweer is a district in the east of Dubai known for its wholesale fruit and vegetable market, with industrial yards and stores spread around it. A temperature data logger around a produce market is concerned with fresh food that spoils fast in heat: pallets of fruit and vegetables waiting for buyers, cold rooms where traders hold stock overnight, and vehicles loading before dawn. This page is limited to the goods and rooms a logger user could look after in a wholesale and industrial district of this sort. Enquiries about Al Aweer are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Produce cold rooms",
+          "note": "Traders hold fruit and vegetables in cold rooms between receipt and sale, and every opening of a door lets warm air in."
+        },
+        {
+          "name": "Market halls and loading bays",
+          "note": "Pallets stand in halls and bays while buyers choose, and the hours between unloading and chilling decide how much of a lot spoils."
+        },
+        {
+          "name": "Wholesale stores and distribution units",
+          "note": "Units that supply shops, hotels and caterers hold chilled and dry goods in rooms that load and unload from early morning."
+        },
+        {
+          "name": "Industrial yards and workshops",
+          "note": "Yards and workshops around the market hold vehicle parts, packaging and materials in sheds that follow the weather outside."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "food-beverage",
+          "sentence": "Fruit and vegetable traders in Al Aweer hold goods that lose quality within a short time in the heat, and a record from each cold room shows a buyer how a lot was kept."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Vehicles that load at the market before dawn carry stock into the heat of the day, and a logger placed in a load records what the cargo met on the way."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Stores of packaging materials, cleaning products and chemicals around the market carry labelled ranges, and a dated record shows whether a hot shed pushed a pallet outside them."
+        }
+      ],
+      "services": "For a produce and wholesale district we would look at probe-type loggers for cold rooms, WiFi loggers for halls and stores that have a router, multi-point units for long bays, and loggers that ride in a load. VEGA Calibrations, our parent company, can talk through calibration for Al Aweer users. A WiFi logger needs a router within range and a supply of power, and for a loading yard we explain the alternatives. We make no statement on supply until a request has been reviewed.",
+      "visits": "Visits and installation in Al Aweer are not promised. Pass on the business, the cold rooms and a contact using the enquiry form, Call or WhatsApp, and we look over the request and say what seems practical.",
+      "approach": "If a request went ahead, we would begin with the cold room holding the most perishable stock, placing one logger by the door and one at the back, then add a humidity-reading unit where fog forms on opening. The first weeks would show how long warm air lingers after each loading.",
+      "faqs": [
+        {
+          "question": "Can a produce trader keep a temperature record for each cold room?",
+          "answer": "Yes. A logger in each room records day and night, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for a buyer."
+        },
+        {
+          "question": "Why do early-morning loadings matter for a cold room record?",
+          "answer": "Doors stand open during loading, so a room can warm quickly at that hour, and a continuous log shows how long it took to recover."
+        }
+      ],
+      "nearby": [
+        "al-qusais-industrial-area"
+      ],
       "indexable": true
     } },
 ];

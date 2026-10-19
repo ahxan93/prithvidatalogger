@@ -356,6 +356,13 @@
 | Ruwais Industrial Complex (`ruwais-industrial-complex`, area of Ruwais) | UAE | Laboratory sample stores, chemical and lubricant stores, parts warehouses, canteens (described generally, no operating status) | Chemicals, laboratories, logistics | Hot, humid, salty | none |
 | Madinat Zayed (`madinat-zayed`, city, Abu Dhabi Emirate) | UAE | Date farms and sheds, supermarkets, hospital and clinics, feed stores | Food, medicines, logistics | Very hot, dry desert; sandstorms | Liwa, Ruwais, Abu Dhabi |
 | Liwa (`liwa`, city, Abu Dhabi Emirate) | UAE | Date plantations, desert resorts, village shops, hospital and clinics | Food, medicines, logistics | Extreme desert heat, cold winter nights | Madinat Zayed, Al Ain |
+| Dubai (`dubai`, city, Dubai Emirate) | UAE | Port and free-zone warehouses, inland industrial districts, hotel and restaurant kitchens, hospitals and pharmacies | Logistics, food, medicines | Long, hot, humid summers; fog and dust | Abu Dhabi (Sharjah, Ajman not yet built) |
+| Jebel Ali (`jebel-ali`, area of Dubai) | UAE | Bonded and free-zone warehouses, cold stores, container stacks, factory stores (described generally, no operating status) | Logistics, food, medicines | Hot, damp, salty | Dubai Investments Park |
+| Dubai Investments Park (`dubai-investments-park`, area of Dubai) | UAE | Factory halls, warehouses, clinics, kitchens | Logistics, food, medicines | Long hot summers | Jebel Ali |
+| Al Quoz Industrial Area (`al-quoz-industrial-area`, area of Dubai) | UAE | Food supplier units, chemical and paint stores, workshops, warehouses | Food, chemicals, logistics | Dry heat under metal roofs | Ras Al Khor Industrial Area |
+| Ras Al Khor Industrial Area (`ras-al-khor-industrial-area`, area of Dubai) | UAE | Spare-parts and electronics stock rooms, light-industry workshops, warehouses | Electronics, chemicals, logistics | Hot, damp near the creek | Al Quoz Industrial Area |
+| Al Qusais Industrial Area (`al-qusais-industrial-area`, area of Dubai) | UAE | Food-making and packaging units, warehouses, workshops | Food, chemicals, logistics | Long hot summers | Al Aweer |
+| Al Aweer (`al-aweer`, area of Dubai) | UAE | Produce cold rooms, market halls, wholesale stores, industrial yards | Food, logistics, chemicals | Hot summers, early-morning loading | Al Qusais Industrial Area |
 | Jazan Economic City (`jazan-economic-city`, area of Jazan) | Saudi Arabia | Plant chemical and drum stores, spares warehouses and contractor yards, port yards, camp kitchens and clinics | Chemical stores, contract warehousing, camp catering | Extreme heat and humidity, salty air | none |
 | Jeddah (`jeddah`) | Saudi Arabia | Industrial and port logistics zones | Port logistics, food import cold chain, hospitals | Hot, humid coastal | Riyadh, Dammam |
 | Dammam (`dammam`) | Saudi Arabia | Industrial and port logistics zones | Industrial & chemical, port logistics, food | Hot, humid Gulf coast | Riyadh, Bahrain, Jeddah |
@@ -594,3 +601,8 @@ indexable (one city and five areas).
 
 UAE Batch 2 (Abu Dhabi Emirate, remaining towns): Al Ain, Ruwais, Madinat Zayed and Liwa, with the areas Al Ain Industrial Area and Ruwais
 Industrial Complex. Not built, for lack of confident, distinguishing local facts: Ghayathi.
+
+UAE Batch 3 (Dubai Emirate): the Dubai Emirate hub is created and the existing Dubai city page moved under it (flat URL unchanged; the old nested
+`/locations/uae/dubai` path keeps its 301 via `MOVED_LEGACY_PATHS` in `next.config.ts`). The Dubai page and the UAE hub text were rewritten to drop
+the old "dispatch from India" and "quote" wording. Areas: Jebel Ali (JAFZA), Dubai Investments Park, Al Quoz Industrial Area, Ras Al Khor
+Industrial Area, Al Qusais Industrial Area and Al Aweer.

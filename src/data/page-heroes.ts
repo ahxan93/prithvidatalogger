@@ -391,6 +391,7 @@ const HUB_OF: Record<string, string> = Object.fromEntries([
   ...["lahij"].map((slug) => [slug, "lahij-governorate"]),
   ...["sadah"].map((slug) => [slug, "sadah-governorate"]),
   ...["abu-dhabi", "al-ain", "ruwais", "madinat-zayed", "liwa"].map((slug) => [slug, "abu-dhabi-emirate"]),
+  ...["dubai"].map((slug) => [slug, "dubai-emirate"]),
   ...[
     "baddi", "solan", "parwanoo", "paonta-sahib", "una", "shimla",
   ].map((slug) => [slug, "himachal-pradesh"]),

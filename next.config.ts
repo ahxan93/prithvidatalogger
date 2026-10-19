@@ -31,6 +31,12 @@ function legacyLocationRedirects() {
   ]);
 }
 
+// Pages whose parent changed after their nested /locations path was first published. The flat URL is
+// unchanged; the old nested path keeps its permanent redirect.
+const MOVED_LEGACY_PATHS: { old: string[]; path: string[] }[] = [
+  { old: ["uae", "dubai"], path: ["uae", "dubai-emirate", "dubai"] },
+];
+
 // Alternative names that people search for. Each one is a permanent redirect to the page that
 // carries the current name (Aurangabad was renamed Chhatrapati Sambhajinagar).
 const ALIAS_REDIRECTS: { alias: string; path: string[] }[] = [
@@ -54,6 +60,11 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       ...legacyLocationRedirects(),
+      ...MOVED_LEGACY_PATHS.map(({ old, path }) => ({
+        source: legacyLocationHref(old),
+        destination: locationHref(path),
+        statusCode: 301 as const,
+      })),
       ...ALIAS_REDIRECTS.map(({ alias, path }) => ({
         source: `/${LOCATION_URL_PREFIX}${alias}`,
         destination: locationHref(path),

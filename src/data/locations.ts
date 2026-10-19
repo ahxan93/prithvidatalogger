@@ -20438,12 +20438,12 @@ export const locations: LegacyLocationNode[] = [
     ],
     citiesServed: ["Dubai", "Abu Dhabi", "Sharjah", "Ajman", "Ras Al Khaimah"],
     supportNote:
-      "International orders follow a simple path: enquiry, quote, dispatch from India and remote setup support. Our team configures Wi-Fi, alert recipients and escalation levels with you once the loggers arrive.",
+      "Enquiries from the UAE are handled through the enquiry form, Call or WhatsApp. Tell us the site, what you store and how it is cooled, and we reply with what looks suitable and how remote set-up support would work.",
     faqs: [
       {
         question: "Do you cover emirates other than Dubai?",
         answer:
-          "Dubai has its own page. For other emirates, send the site and what you store through the enquiry form or WhatsApp, and we confirm what we can supply and how set-up would run.",
+          "Dubai Emirate and Abu Dhabi Emirate each have their own page with city and area pages beneath. For another emirate, send the site and what you store through the enquiry form, Call or WhatsApp, and we reply with what looks suitable.",
       },
       {
         question: "Can a hotel group see every property on one dashboard?",
@@ -20451,13 +20451,13 @@ export const locations: LegacyLocationNode[] = [
           "Each property is a site, each kitchen's alerts go to its own engineer and a group manager sees every site together, with reports that can be exported for any period.",
       },
       {
-        question: "How do GSM options work for delivery vehicles?",
+        question: "How do GSM options work for transport vehicles?",
         answer:
           "GSM versions are available, but network compatibility must be confirmed for your carriers and vehicles before an order, and we do that during the enquiry.",
       },
     ],
     listing: [
-      { slug: "dubai", text: "A trading city of re-export warehouses at Jebel Ali, food importers, medicine distributors and hotel kitchens in extreme heat and humidity." },
+      { slug: "dubai-emirate", text: "Dubai's creek city and its Jebel Ali, Dubai Investments Park, Al Quoz, Ras Al Khor, Al Qusais and Al Aweer districts, in hot, humid Gulf summers." },
       { slug: "abu-dhabi-emirate", text: "Abu Dhabi's island city, Mussafah, ICAD, KIZAD, Khalifa Port and Ghantoot, in very hot, humid Gulf heat." },
     ],
     indexable: true,
@@ -20467,92 +20467,149 @@ export const locations: LegacyLocationNode[] = [
     },
     children: [
       {
-        slug: "dubai",
-        name: "Dubai",
-        type: "city",
+        slug: "dubai-emirate",
+        name: "Dubai Emirate",
+        type: "state",
         intro:
-          "Dubai is a trading city where goods arrive, wait and leave again: shipped into Jebel Ali, held in free-zone and bonded warehouses, repacked and sent on to markets across the region. A temperature data logger in Dubai therefore watches stock that is passing through as often as stock that stays, and the time a lot spends in a store matters to an owner who may be in another country. Food importers, medicine distributors, hotels with dozens of kitchens and re-export traders all work in a climate where summer heat and humidity press on every cooling plant. Prithvi supplies WiFi loggers from India, with alerts to phones and email and remote set-up with your team, so a trader, a chef or a quality manager can read a room's record from anywhere without a visit.",
-        climateAngle:
-          "Heat and humidity peak together through the long summer, and the cooling that carries a store through it runs close to its limit for months, so condenser coils work hard, doors fog when they open onto warm corridors and a store that is comfortable in winter can drift out of range by the afternoon.",
-        areas: [
-          {
-            name: "Jebel Ali",
-            note: "The port and free-zone district to the south-west, where containers are unloaded and goods wait in large bonded and free-zone warehouses before onward movement.",
-          },
-          {
-            name: "Al Quoz",
-            note: "An industrial and warehouse district inland, where traders, food suppliers and service firms keep stock in mid-sized units close to the city's shops and kitchens.",
-          },
-          {
-            name: "Hotel and restaurant kitchens",
-            note: "Hospitality businesses run walk-in fridges, freezers and bar coolers by the dozen, many of them opened constantly through service and several floors away from the engineer.",
-          },
+          "Dubai Emirate is a narrow strip of the Arabian Gulf coast built around a tidal creek, with a dense modern city on the shore and a belt of industrial and warehouse districts spread inland and to the south-west. Hotels, hospitals, malls and kitchens fill the city, while port-side, free-zone and industrial districts hold stock for shops and businesses across the region. Summers are long, very hot and humid on the coast, winters are mild, and dust and fog come in some seasons. Food, medicines, chemicals and electronics wait in warehouses and vehicles in such heat. The pages below cover the city and each district in turn, with the rooms where a temperature record would help.",
+        localIndustries: [
+          "Hotel and restaurant kitchens",
+          "Warehouse and free-zone storage",
+          "Food import and wholesale markets",
+          "Hospitals and medicine distribution",
         ],
-        industries: [
-          {
-            slug: "logistics-warehousing",
-            sentence:
-              "Re-export and freight warehouses hold goods for owners overseas, and a reading for each bay shows exactly how long a lot stood in the warm air before it was released.",
-          },
-          {
-            slug: "food-beverage",
-            sentence:
-              "Importers, caterers and hotel kitchens keep chillers and freezers that are opened all day, so one dashboard with an alert to the duty engineer replaces a round of manual checks, and the chef or store manager can open the same view from a phone during service.",
-          },
-          {
-            slug: "pharmaceutical",
-            sentence:
-              "Medicine distributors and pharmacies hold stock in rooms with stated ranges, and an exported log lets a distributor answer a customer's query without searching through paper records.",
-          },
-        ],
-        recommendedSeries: [
-          {
-            slug: "virat",
-            reason:
-              "Sixteen channels cover a large free-zone warehouse across racks, dock doors and floor positions, so one report shows how a whole bonded hall behaves.",
-          },
-          {
-            slug: "setu",
-            reason:
-              "A single-point logger with an external probe sits inside a kitchen walk-in or a bar cooler without altering how the unit is used or opened.",
-          },
-          {
-            slug: "nakshatra",
-            reason:
-              "Reads humidity along with temperature, which shows when warm, damp air from a corridor or a loading door is fogging a chilled room.",
-          },
-        ],
+        citiesServed: ["Dubai"],
+        supportNote:
+          "Enquiries from Dubai Emirate are handled through the enquiry form, Call or WhatsApp. Name the district, the rooms to be watched and how they are cooled, and we reply with what looks suitable for the site.",
         faqs: [
           {
-            question: "How is monitoring started for a Dubai site when the loggers come from India?",
+            question: "Which places in Dubai Emirate have a page?",
             answer:
-              "Loggers are dispatched from India and registered to your dashboard. We then connect them to your Wi-Fi and set rooms, limits and alert contacts with your team over a call or video, so recording begins without a visit. After the first few weeks we review the limits with you, so routine door openings during service stop raising alarms and a real fault stands out.",
+              "Dubai has a city page, and Jebel Ali, Dubai Investments Park, Al Quoz Industrial Area, Ras Al Khor Industrial Area, Al Qusais Industrial Area and Al Aweer have area pages under it. A district not listed here can be raised through the enquiry form.",
           },
           {
-            question: "Can one hotel group watch every property from a single login?",
+            question: "Why do inland industrial districts and the coast need different logger set-ups?",
             answer:
-              "Yes. Each property is a site on the dashboard, each kitchen's alerts go to its own engineer and a group manager sees every site together, with reports that can be exported for any period.",
+              "The coast is hot and damp, so condensation and soft cartons matter, while inland districts see dry heat, dust and metal roofs that bake, so mounting position and enclosure matter more.",
           },
           {
-            question: "How does a re-export trader show an overseas owner how goods were held?",
+            question: "Can one login watch sites across several districts?",
             answer:
-              "A report for the bay or room can be exported as PDF, Excel or CSV for the period the lot stayed, so the owner receives the same dated record the warehouse sees.",
-          },
-          {
-            question: "Can calibration be discussed for loggers used in Dubai?",
-            answer:
-              "VEGA Calibrations, our parent company, handles the calibration of loggers and probes. Tell us the model and the range you work to, and we explain how a hotel or a warehouse in Dubai can have it arranged.",
+              "Yes. Each site is a separate point on one dashboard, alerts go to the people responsible for each room, and a manager sees every site together with reports that can be exported.",
           },
         ],
-        nearby: [
-          { slug: "riyadh", name: "Riyadh" },
-          { slug: "dammam", name: "Dammam" },
-          { slug: "bahrain", name: "Bahrain" },
+        listing: [
+          { slug: "dubai", text: "A Gulf trading city around a tidal creek, with hotels, hospitals, food importers, malls and warehouses in long, hot, humid summers." },
         ],
-        metaTitle: "Temperature Data Loggers in Dubai | Prithvi",
-        metaDescription:
-          "WiFi temperature and humidity data loggers for Dubai's re-export warehouses, food importers and hotel kitchens, set up remotely. Get Solution.",
-        indexable: true,
+        areaListing: [
+          { slug: "jebel-ali", text: "The port and free-zone district on the south-western coast, with large warehouses, cold stores and logistics yards." },
+          { slug: "dubai-investments-park", text: "A planned park in the south-west of the emirate where factories, warehouses, clinics and homes share the same grid." },
+          { slug: "al-quoz-industrial-area", text: "An inland industrial district of workshops, food suppliers and mid-sized warehouses close to the city's shops and kitchens." },
+          { slug: "ras-al-khor-industrial-area", text: "An industrial district at the head of the creek, with workshops, spare-parts shops, light industry and warehouses." },
+          { slug: "al-qusais-industrial-area", text: "An industrial district in the north-east of the city, with factories, food firms, workshops and stores." },
+          { slug: "al-aweer", text: "An eastern district known for its wholesale fruit and vegetable market and for industrial yards and stores." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "dubai",
+            name: "Dubai",
+            type: "city",
+            intro:
+              "Dubai is a Gulf trading city built around a tidal creek, and a temperature data logger here serves a place of hotels, hospitals, food importers, malls and warehouses working through some of the longest hot, humid summers in the region. Goods arrive through the port and free-zone districts to the south-west, wait in bonded and chilled warehouses, and move on to shops, kitchens and pharmacies across the city and beyond. Inland, industrial districts such as Al Quoz and Al Qusais hold workshops, food suppliers and stores, while towers of apartments and offices rise along the coast. Fog, dust and sea air add to the strain on cooling. The tall towers along the coast hold more kitchens and plant rooms than most visitors imagine. Enquiries from Dubai are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "Heat and humidity peak together through the long summer, and the cooling that carries a store through it runs close to its limit for months, so condenser coils work hard, doors fog when opened and vehicles standing in the sun reach far higher temperatures than the shaded air. Winters are mild and pleasant, which is when many hotels and kitchens are busiest. A cooling unit that loses power on an August afternoon warms quickly, and a record of how long it stood warm is what a customer or an auditor asks to see.",
+            areas: [
+              {
+                name: "Port and free-zone warehouses",
+                note: "The south-western coast holds large warehouses, cold stores and yards where goods wait between arrival and onward movement, in air that is hot, damp and salty.",
+              },
+              {
+                name: "Industrial districts inland",
+                note: "Districts such as Al Quoz, Ras Al Khor and Al Qusais hold workshops, food suppliers and mid-sized warehouses close to the city's shops and kitchens.",
+              },
+              {
+                name: "Hotel and restaurant kitchens",
+                note: "Hospitality businesses run walk-in coolers, freezers and bar coolers by the dozen, opened constantly through service and often several floors from the engineer.",
+              },
+              {
+                name: "Hospitals, clinics and pharmacies",
+                note: "Hospitals, clinics and pharmacies keep vaccines, insulin, blood products and medicines in refrigerators that must hold a range through any interruption of power.",
+              },
+            ],
+            industries: [
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Re-export and freight warehouses in Dubai hold goods for owners overseas, and a reading for each bay shows exactly how long a lot stood in warm air before it was released.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Importers, caterers and hotel kitchens keep chillers and freezers that are opened all day, so one dashboard with an alert to the duty engineer replaces a round of manual checks.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine distributors and pharmacies in Dubai hold stock in rooms with stated ranges, and an exported log lets a distributor answer a customer's query without searching through paper records.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Dubai hospitals and clinics hold vaccines and blood products to strict ranges, and a phone alert reaches the person on duty if a refrigerator drifts overnight.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels cover a large warehouse across racks, dock doors and floor positions, so one report shows how a whole hall behaves.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an external probe sits inside a kitchen walk-in or a bar cooler without altering how the unit is used or opened.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity along with temperature, which shows when warm, damp air from a corridor or a loading door is fogging a chilled room.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How would a Dubai site be set up with loggers?",
+                answer:
+                  "The loggers are registered to your dashboard, connected to your WiFi, and rooms, limits and alert contacts are set with your team over a call or video session.",
+              },
+              {
+                question: "Can one hotel group watch every property from a single login?",
+                answer:
+                  "Yes. Each property is a site on the dashboard, each kitchen's alerts go to its own engineer, and a group manager sees every site together, with reports that can be exported for any period.",
+              },
+              {
+                question: "How does a re-export trader show an overseas owner how goods were held?",
+                answer:
+                  "A report for the bay or room can be exported as PDF, Excel or CSV for the period the lot stayed, so the owner receives the same dated record the warehouse sees.",
+              },
+              {
+                question: "Can calibration be discussed for loggers used in Dubai?",
+                answer:
+                  "Calibration of loggers and probes is looked after by VEGA Calibrations, our parent company. Tell us the model and the range you work to, and we explain how a hotel or a warehouse in Dubai can approach it.",
+              },
+            ],
+            nearby: [
+              { slug: "abu-dhabi", name: "Abu Dhabi" },
+              { slug: "sharjah", name: "Sharjah" },
+              { slug: "ajman", name: "Ajman" },
+            ],
+            metaTitle: "Temperature Data Loggers in Dubai | Prithvi",
+            metaDescription:
+              "Data loggers for Dubai's re-export warehouses, food importers, hospitals and hotel kitchens in long, hot, humid summers. Get Solution.",
+            indexable: true,
+          },
+        ],
       },
       {
         slug: "abu-dhabi-emirate",
