@@ -8775,20 +8775,20 @@ export const locations: LegacyLocationNode[] = [
         name: "Rajasthan",
         type: "state",
         intro:
-          "Rajasthan is a desert state, and its storage is shaped by dry heat and a large daily swing: afternoons that overwhelm ageing cooling and nights that cool the same rooms quickly. The part we serve first is the capital, Jaipur, where industrial areas on the northern and southern sides sit beside crowded wholesale markets, dairies, hospitals and a large hospitality trade. Rooms of stone and concrete hold the day's heat long after dark. This regional page introduces the state in our map and links to the Jaipur city page, which holds the detail for Sitapura, VKI and the city's dairy and medicine trades.",
+          "Rajasthan is a desert state, and its storage is shaped by dry heat and a large daily swing: afternoons that overwhelm ageing cooling and nights that cool the same rooms quickly. We serve the capital, Jaipur, where industrial areas on the northern and southern sides sit beside crowded wholesale markets, dairies, hospitals and hotels, and the cities that anchor the other regions: Jodhpur in the west for handicrafts, stone and cloth, Udaipur in the south for lakeside hotels and mineral works, Kota beside the Chambal for chemicals and coaching hostels, and Ajmer for pilgrimage and trade. Rooms of stone and concrete hold the day's heat long after dark. The pages below take each city in turn, with its estates, its stores and the loggers that fit them.",
         localIndustries: [
           "Pharmaceutical distribution",
           "Food and dairy processing",
           "Hospitals and hospitality",
         ],
-        citiesServed: ["Jaipur"],
+        citiesServed: ["Jaipur", "Jodhpur", "Udaipur", "Kota", "Ajmer"],
         supportNote:
           "Supply, installation support and site visits for Rajasthan sites are arranged from our Mumbai office. Write to us with the district and the rooms to watch.",
         faqs: [
           {
             question: "Which Rajasthan locations have a page?",
             answer:
-              "Jaipur has a city page covering Sitapura, VKI and the dairies and medicine markets. Other cities of the state are served on enquiry and may follow with their own pages.",
+              "Jaipur has a city page covering Sitapura, VKI and the dairies and medicine markets, and Jodhpur, Udaipur, Kota and Ajmer each have a city page of their own. A site elsewhere in Rajasthan can be raised through the enquiry form.",
           },
           {
             question: "Why does the daily swing matter for alerts?",
@@ -8796,13 +8796,17 @@ export const locations: LegacyLocationNode[] = [
               "A room can be in range at dawn and out of it by mid-afternoon, so a short delay on the high limit catches a warming store, while longer delays avoid false alarms from doors left open.",
           },
           {
-            question: "Can a hotel group watch every kitchen from one login?",
+            question: "Can a hotel group see all of its Rajasthan kitchens in one place?",
             answer:
               "Each hotel is a site on the dashboard, each kitchen's alerts go to its own engineer and a group manager sees every site together.",
           },
         ],
         listing: [
           { slug: "jaipur", text: "A tourism and trading city of dairies, medicine stockists, hotels and hospitals, with Sitapura and VKI as its industrial areas in desert heat." },
+          { slug: "jodhpur", text: "The blue city on the edge of the Thar desert, with furniture and handicraft exporters, sandstone, dyeing works, spice dealers and a national medical institute." },
+          { slug: "udaipur", text: "The lake city of heritage hotels and busy kitchens, with marble and mineral works at Madri and Sukher and hospitals serving the hills." },
+          { slug: "kota", text: "A Chambal-side city of power, fertiliser and chemical works, Kota stone yards and hostel mess kitchens that feed its coaching students." },
+          { slug: "ajmer", text: "A hill-ringed pilgrimage and trade city of sweet makers, railway goods sheds, colleges and hospitals, close to the Kishangarh marble yards." },
         ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,
@@ -8902,6 +8906,393 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Jaipur | Prithvi",
             metaDescription:
               "WiFi and GSM temperature data loggers for Jaipur's Sitapura and VKI units, dairies, medicine stockists and hospitals. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "jodhpur",
+            name: "Jodhpur",
+            type: "city",
+            intro:
+              "Jodhpur is the blue-walled city on the edge of the Thar desert, watched over by the great Mehrangarh fort, and a temperature data logger here protects an economy of craft, stone, cloth and spice. Furniture, wrought-iron goods and wooden handicrafts are made for export and for hotels abroad, red sandstone is quarried and dressed nearby, and dyeing works, spice and seed dealers and a busy grain market keep the old city and its outskirts working. Industrial estates at Basni, Boranada and Mandore hold factories and godowns, while a medical college and a national medical institute draw patients from a wide region. Prithvi supplies WiFi loggers for rooms with a network and GSM loggers for stores, vans and yards beyond it.",
+            climateAngle:
+              "Summers are fierce and dry, dust storms arrive before a thin monsoon and winter nights turn cold, so a godown can swing through many degrees in a single day, while humidity matters mainly in the few wet weeks.",
+            areas: [
+              {
+                name: "Basni industrial area",
+                note: "A large estate laid out in phases, with furniture and iron workshops, dyeing and finishing works, packaging firms and the godowns of traders who ship goods to ports and cities far away.",
+              },
+              {
+                name: "Boranada industrial area",
+                note: "An estate of handicraft makers, metal workers and stone processors, where finished pieces are crated for export and wait in sheds that bake through the summer afternoons.",
+              },
+              {
+                name: "Mandore industrial area",
+                note: "An industrial pocket near the old capital of Marwar, with small factories, food makers and storage sheds serving the markets of the city and the villages around.",
+              },
+              {
+                name: "Old city markets",
+                note: "Spice, seed and grain dealers around the clock tower and Sardar Market keep sacks and boxes in crowded back rooms, with sweet and snack makers working in the lanes nearby.",
+              },
+            ],
+            industries: [
+              {
+                slug: "textile",
+                sentence:
+                  "Dyeing, printing and finishing works hold cloth and chemicals in sheds that are dry for most of the year, and a record of temperature and humidity shows when a rare damp spell reaches stock.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Spice grinders, namkeen makers and sweet shops keep ingredients and finished stock that suffer in heat, and an alert on a phone reaches the owner when a chiller or a store room drifts.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A national medical institute, a government medical college and private hospitals keep blood, vaccines and medicines in refrigerators that must hold their limits through the longest power cuts.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Exporters of furniture and handicrafts stuff containers in the estates, and a logger placed among the crates records the heat and dryness the load met on the way to the port.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity as well as temperature, which tells a furniture exporter when dry desert air or a damp spell is stressing wood and finished lacquer in a store.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a container or a truck and reports from stone yards and outer sheds where no Wi-Fi network exists.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels let a hospital pharmacy or a spice cold room be watched at two points, one near the door and one at the back.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a logger help an exporter of wooden furniture and handicrafts in Jodhpur?",
+                answer:
+                  "Yes. Wood that dries too fast in desert air can split, and a piece packed while damp can grow mould in a closed container, so a record of temperature and humidity in the finishing room, the packing hall and the container shows what the goods experienced.",
+              },
+              {
+                question: "Do you visit the outer estates such as Basni, Boranada and Mandore?",
+                answer:
+                  "Send the estate, the unit and a contact through the enquiry form, WhatsApp or a call, and we confirm how a visit would be planned. Estates on different sides of the city are usually grouped on one trip.",
+              },
+              {
+                question: "How should alert limits be set when the day and night differ so much?",
+                answer:
+                  "A store that is cool at dawn can be warm by afternoon, so we suggest watching the daily swing for a few weeks and then setting the high limit with a short delay, which catches a warming room without sounding for every open door.",
+              },
+              {
+                question: "Who calibrates loggers used in a Jodhpur hospital or laboratory?",
+                answer:
+                  "VEGA Calibrations, our parent company, can calibrate the loggers and probes, and the work can be planned with the visit so the paperwork is ready before an inspection.",
+              },
+            ],
+            nearby: [
+              { slug: "ajmer", name: "Ajmer" },
+              { slug: "udaipur", name: "Udaipur" },
+            ],
+            metaTitle: "Temperature Data Loggers in Jodhpur | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Jodhpur's handicraft exporters, textile works, spice stores and hospitals. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "udaipur",
+            name: "Udaipur",
+            type: "city",
+            intro:
+              "Udaipur is the lake city of southern Rajasthan, where palaces, havelis and hotels face Lake Pichola and Fateh Sagar, and a temperature data logger here serves two quite different worlds. Tourism fills the old town and the lakeshore with heritage hotels, rooftop restaurants and guesthouses whose kitchens never rest in the season, while mining and stone sit behind the city: marble is cut and polished across the region, and the zinc and lead mines of the area feed metal and chemical works. Estates at Madri and Sukher hold processing units, workshops and stores, and a medical college, a government hospital and private hospitals draw patients from the hills and districts around. Prithvi supplies WiFi loggers for kitchens and rooms with a network and GSM loggers for vehicles and remote stores.",
+            climateAngle:
+              "Udaipur is hot in summer but gets a fuller monsoon than the western desert, so hotel stores and marble godowns face dry heat in May and damp air in August, and a logger that reads humidity as well as temperature earns its place.",
+            areas: [
+              {
+                name: "Madri industrial area",
+                note: "An estate on the edge of the city with stone-processing, engineering and packaging works and the godowns that serve them, spread over plots of mixed size.",
+              },
+              {
+                name: "Sukher industrial area",
+                note: "Another industrial belt with factories and warehouses where goods leave by road for markets in Gujarat and the rest of Rajasthan, with long loading bays open to the sun.",
+              },
+              {
+                name: "Old town and lakeshore hotels",
+                note: "Heritage hotels, restaurants and guesthouses around the lakes run walk-in coolers in old buildings with thick walls, where space was found for refrigeration long after the rooms were built.",
+              },
+              {
+                name: "Hospital district",
+                note: "The government medical college hospital and several private hospitals stand within the city and serve a wide rural region, with blood storage, vaccine fridges and pharmacies behind them.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Hotel and restaurant kitchens are loaded hardest in the tourist months, and an alert to the duty engineer matters most on a crowded evening when a walk-in door is left ajar.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals serving hill and village patients hold vaccines and blood products that cannot be lost in a night of failed power, and a dated record shows how each refrigerator coped.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Works that process minerals and metals keep reagents, bagged material and drums with storage limits on the label, and an alert from a hot shed lets the storekeeper act before the limit is crossed.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Marble and stone dealers, and the carriers that move cut slabs and packed goods, hold stock in yards and sheds where a reading at the dock shows how long a load sat in the sun.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an external probe fits a hotel walk-in or a bar cooler without changing how the unit is used on a busy night.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity and temperature at one point help in a marble godown or a hotel dry store, where the monsoon brings damp that the dry months never do.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger reports from a vehicle or a mine-side store that has no network of its own, and sends an alert to a phone.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can one account cover several hotels around the lakes?",
+                answer:
+                  "Yes. Each hotel is a site with its own kitchens and stores, each room's alerts go to its own engineer, and a group manager can open every site in one list.",
+              },
+              {
+                question: "How are visits planned around the tourist season?",
+                answer:
+                  "Tell us the busy and quiet weeks when you write, and we propose a day that suits your kitchens and engineers. Old buildings may need a short walk through the plant room to choose positions.",
+              },
+              {
+                question: "Do you serve the Madri and Sukher estates as well as the old town?",
+                answer:
+                  "Send the estate, the unit and a contact through the enquiry form, WhatsApp or a call, and we confirm how a visit would be arranged for the estates on the outskirts.",
+              },
+              {
+                question: "Why does a monsoon matter in a city that is mostly dry?",
+                answer:
+                  "The rains make air heavy for a few weeks, and stored paper, cartons and electrical items can pick up moisture. A humidity trend shows when a store needs a dehumidifier or a drier shelf.",
+              },
+            ],
+            nearby: [
+              { slug: "bhilwara", name: "Bhilwara" },
+              { slug: "ajmer", name: "Ajmer" },
+              { slug: "jodhpur", name: "Jodhpur" },
+            ],
+            metaTitle: "Temperature Data Loggers in Udaipur | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Udaipur's lakeside hotels, hospitals, marble and mineral works. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "kota",
+            name: "Kota",
+            type: "city",
+            intro:
+              "Kota stands on the eastern bank of the Chambal river in south-eastern Rajasthan, and a temperature data logger here works in a city of power, chemicals, stone and learning. A thermal power station and river hydro works supply electricity, fertiliser and chemical plants stand in the industrial areas, and Kota stone, a hard limestone, is quarried and polished nearby for floors across India. Alongside heavy industry sits the great coaching economy: students from many states live in hostels and paying-guest houses fed by mess kitchens, and hospitals and clinics serve them and the districts around. Kota Doria, the fine checked cotton and silk cloth, is woven in villages close to the city. Prithvi supplies WiFi loggers for plant and kitchen rooms and GSM loggers for vehicles and stone yards.",
+            climateAngle:
+              "Summer heat is severe, the monsoon fills the river and humid weeks follow, and winter nights are cool, so a chemical store that is dry in May can be damp in August and a mess kitchen is tested most in the hottest weeks.",
+            areas: [
+              {
+                name: "Indraprastha Industrial Area",
+                note: "The city's main estate, with chemical, engineering, food and packaging works and the godowns that serve them, where drums and bags wait in sheds that heat under their roofs.",
+              },
+              {
+                name: "Power and chemical works along the Chambal",
+                note: "Plants beside the river make fertiliser and chemicals or generate electricity, and their stores of bagged goods, instruments and spares need records that survive an inspection.",
+              },
+              {
+                name: "Coaching and hostel districts",
+                note: "Talwandi, Rajeev Gandhi Nagar and Jawahar Nagar are crowded with coaching centres, hostels and mess kitchens that cook for thousands each day from walk-in stores and kitchen fridges.",
+              },
+              {
+                name: "Stone yards and Kota Doria villages",
+                note: "Slabs of Kota stone are cut, polished and stacked on the outskirts, and weavers' stores in the villages nearby keep yarn and finished cloth from damp.",
+              },
+            ],
+            industries: [
+              {
+                slug: "chemical",
+                sentence:
+                  "Fertiliser and chemical works hold bagged product, drums and laboratory reagents with printed storage limits, and a continuous record backs a storekeeper who has to answer an audit.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Hostel mess kitchens and caterers cook at great volume, and a record from each walk-in and each store shows which unit failed on a hot evening and when.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals, clinics and blood storage centres serve students and the districts around, and an alert to the duty staff covers the minutes between a mains failure and the generator.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Carriers and godown operators move bagged goods, stone and packed food by road and rail, and a logger in the consignment shows how long it stood in a siding or a yard.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels watch a mess-kitchen walk-in or a chemical store at two heights, which shows whether heat gathers near the roof of a stacked room.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "A logger with its own display lets a storekeeper read the temperature at a glance on the round, while the dashboard keeps the full record.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger with an external probe reports from a vehicle or a stone yard beyond any router, and sends alerts to a phone.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can one account cover several hostel mess kitchens in Kota?",
+                answer:
+                  "Yes. Each kitchen is a site with its own walk-in and store, alerts go to the cook-in-charge or the warden, and an owner of several hostels sees them together and exports a report when asked.",
+              },
+              {
+                question: "How do loggers help a fertiliser or chemical store near the Chambal?",
+                answer:
+                  "They record the temperature and humidity of the store where bags and drums stand, so a hot week or a damp spell is on record, and an alert reaches the storekeeper before material is spoiled.",
+              },
+              {
+                question: "Do you visit the industrial area and the river-side works?",
+                answer:
+                  "Send the area, the plant and a contact who will meet us at the gate through the enquiry form, WhatsApp or a call. Plants usually ask for safety rules and visitor passes in advance, which we plan around.",
+              },
+              {
+                question: "What about heat in a stone yard or a weavers' village store?",
+                answer:
+                  "A GSM logger with a probe can sit in a yard store or a village shed that has no Wi-Fi, and its readings reach the dashboard through the mobile network.",
+              },
+            ],
+            nearby: [
+              { slug: "bhilwara", name: "Bhilwara" },
+              { slug: "ajmer", name: "Ajmer" },
+              { slug: "jaipur", name: "Jaipur" },
+            ],
+            metaTitle: "Temperature Data Loggers in Kota | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Kota's chemical stores, hostel kitchens, hospitals and stone yards. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "ajmer",
+            name: "Ajmer",
+            type: "city",
+            intro:
+              "Ajmer lies among the Aravalli hills in central Rajasthan, beneath Taragarh hill and beside the Ana Sagar lake, and a temperature data logger here serves a city of pilgrimage, trade and schooling. Pilgrims come throughout the year to the dargah of Khwaja Moinuddin Chishti and to nearby Pushkar, and the lanes around are lined with sweet makers, eateries, guesthouses and dharamshalas. The railway has a long presence here, with workshops and divisional offices, and Mayo College and many other schools make Ajmer a place of education. A medical college hospital serves the region, and the Madar industrial area holds small factories and godowns. Kishangarh, a short drive away, is a marble market town. Prithvi supplies WiFi loggers for shops and wards with a network and GSM loggers for vehicles and godowns outside the town.",
+            climateAngle:
+              "Summer afternoons are very hot, winters are cool and the monsoon brings a few damp weeks, so sweet shops and godowns fight heat for most of the year while stone and paper stores need watching for moisture in the rains.",
+            areas: [
+              {
+                name: "Dargah bazaar and the sweet-shop lanes",
+                note: "Makers of sweets, dry fruit sellers and eateries around the shrine work in narrow lanes, with chillers and stock rooms packed into old buildings and opened all day.",
+              },
+              {
+                name: "Madar industrial area",
+                note: "An estate on the outskirts with small factories, stone and building-material firms and godowns, where road access is easy and sheds heat quickly under metal roofs.",
+              },
+              {
+                name: "Kishangarh marble belt",
+                note: "The nearby town of Kishangarh is a market for marble, with polishing works and yards, and dealers who stock slabs and chemicals for finishing in open and covered sheds.",
+              },
+              {
+                name: "Railway workshop and station area",
+                note: "Workshops and stores around the junction hold electrical items, spares and supplies that move by rail, and parcels wait on platforms and in goods sheds between trains.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Sweet makers and caterers for pilgrims work through the festival days, and a record from each chiller and store shows when a unit failed during the busiest hours.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The medical college hospital and private hospitals keep blood, vaccines and medicines in refrigerators that serve patients from a wide area, with alerts reaching the duty staff on a phone.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "College and hospital laboratories keep samples, reagents and kits in fridges and cabinets with their own limits, and an exported log is ready when an inspector visits.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Carriers and goods sheds at the junction hold parcels and bulk goods before they move on, and a logger inside a consignment records how long it waited.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an external probe fits a sweet-shop chiller or a laboratory refrigerator and keeps a quiet, continuous record.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity and temperature at one point help in a dry-fruit store or a paper store, where the monsoon brings moisture that the dry months never do.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger reports from a vehicle or an outlying godown without a router, and sends an alert to a phone.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a sweet maker near the dargah be alerted if a chiller fails at night?",
+                answer:
+                  "Yes. An alert by phone and email goes to the named person when a chiller rises above its limit, and a second contact can be set to follow if the first does not respond.",
+              },
+              {
+                question: "Do you cover Kishangarh and the Madar area as well as Ajmer city?",
+                answer:
+                  "Send the town, the unit and a contact through the enquiry form, WhatsApp or a call, and we confirm how a visit would be arranged for the estates and the marble yards.",
+              },
+              {
+                question: "How does a logger help during a pilgrim festival rush?",
+                answer:
+                  "Doors open far more often and units run at their limits, so an alert on a door left ajar or a rising reading lets staff act while the rush is still on.",
+              },
+              {
+                question: "Can calibration be arranged for a hospital laboratory in Ajmer?",
+                answer:
+                  "VEGA Calibrations, our parent company, handles calibration of loggers and probes, and the work can be arranged together with the supply and the first visit.",
+              },
+            ],
+            nearby: [
+              { slug: "jaipur", name: "Jaipur" },
+              { slug: "bhilwara", name: "Bhilwara" },
+              { slug: "jodhpur", name: "Jodhpur" },
+            ],
+            metaTitle: "Temperature Data Loggers in Ajmer | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Ajmer's sweet makers, hospitals, laboratories, goods sheds and marble yards. Get Solution.",
             indexable: true,
           },
         ],
