@@ -404,7 +404,7 @@ for (const { node, path: p } of all) {
   // Indian cities sit under a state hub; GCC cities directly under their country hub.
   const parentNode = all.find((l) => l.path.join("/") === p.slice(0, -1).join("/"));
   // Saudi Arabia is grouped by administrative region (a state-level hub); other GCC countries list cities directly.
-  const expectedParents = isIndia ? ["state"] : p[0] === "saudi-arabia" ? ["country", "state"] : ["country"];
+  const expectedParents = isIndia ? ["state"] : p[0] === "saudi-arabia" || p[0] === "yemen" ? ["country", "state"] : ["country"];
   if (!parentNode || !expectedParents.includes(parentNode.node.type)) f(`is not under a ${expectedParents.join(" or ")} hub`);
   // SEO settings.
   const title = node.metaTitle;
@@ -520,6 +520,24 @@ for (const { node, path: p } of all) {
   const text = uniqueTexts(node).join(" ");
   if (/mobile (coverage|network)|works wherever|reports wherever/i.test(text))
     fail(`decisions: ${p.join("/")} claims GSM works on local networks (not confirmed)`);
+}
+// Yemen (owner decision): every page is neutral, says nothing about operating status and carries the case-by-case line.
+{
+  const yemenTexts = [
+    ...all.filter((l) => l.path[0] === "yemen" && l.path.length > 1).map((l) => ({ where: l.path.join("/"), text: uniqueTexts(l.node).join(" ") })),
+    ...areas
+      .filter((a) => a.page && all.some((l) => l.path[0] === "yemen" && l.node.type === "city" && l.node.slug === a.citySlug))
+      .map((a) => ({ where: `area ${a.citySlug}/${a.slug}`, text: areaTexts(a.page).join(" ") })),
+  ];
+  const political = /\b(government|authorit(?:y|ies)|controlled|military|security|border|rebels?|conflict|war|sanctions?|blockade|army|navy|militia)\b/i;
+  const status = /\b(?:currently|at present|right now|now)\s+(?:open|closed|operat\w*|handl\w*)|\bis (?:open|closed)\b|\bre-?open\w*|\boperating status\b/i;
+  for (const { where, text } of yemenTexts) {
+    if (!/case[- ]by[- ]case/i.test(text)) fail(`yemen: ${where} lacks the case-by-case line`);
+    const m = text.match(political);
+    if (m) fail(`yemen: ${where} uses non-neutral wording "${m[0]}"`);
+    const s = text.match(status);
+    if (s) fail(`yemen: ${where} states operating status ("${s[0]}")`);
+  }
 }
 if (GSM_NETWORK_NOTE !== "GSM versions are available. Contact us to confirm network compatibility for your country.")
   fail("decisions: GSM_NETWORK_NOTE wording changed");

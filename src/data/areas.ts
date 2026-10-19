@@ -82,6 +82,7 @@ export const areaCities: Record<string, { name: string; stateSlug: string; state
   jubail: { name: "Jubail", stateSlug: "eastern-province", stateName: "Eastern Province" },
   yanbu: { name: "Yanbu", stateSlug: "madinah-region", stateName: "Madinah Region" },
   jazan: { name: "Jazan", stateSlug: "jazan-region", stateName: "Jazan Region" },
+  aden: { name: "Aden", stateSlug: "aden-governorate", stateName: "Aden Governorate" },
 };
 
 export const areas: AreaDef[] = [
@@ -5401,6 +5402,223 @@ export const areas: AreaDef[] = [
         }
       ],
       "nearby": [],
+      "indexable": true
+    } },
+  // ------------------------------------------------------------------ Yemen (batch 1: Aden)
+  { slug: "port-of-aden", name: "Port of Aden", citySlug: "aden", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["virat","rajmudra"], page: {
+      "metaTitle": "Data Loggers at the Port of Aden, Yemen | Prithvi",
+      "metaDescription": "Temperature and humidity data loggers for storage around the Port of Aden: yards, transit sheds and cold rooms, reviewed case by case. Get Solution.",
+      "intro": "The Port of Aden lies in the sheltered natural harbour beside the old crater town on the Gulf of Aden, and for generations the harbour has been the reason the city exists: ships called here for coal, water and trade on the sea route between Europe, Africa and Asia. A temperature data logger around a port area is concerned with goods during the waiting that follows any sea journey, when cargo stands on a quay, in a transit shed or in a yard before it moves on, in air that is hot, humid and salty. This page describes the kinds of rooms and handovers where a record helps and says nothing about the port's present activity, which changes. As with every Yemen enquiry, a request for a port site is reviewed case by case before any recommendation is made.",
+      "places": [
+        {
+          "name": "Quayside yards and open stacks",
+          "note": "Wherever cargo is stacked in the open beside a berth, boxes and pallets stand in strong sun, and the metal of containers turns summer heat into radiant heat that reaches goods inside."
+        },
+        {
+          "name": "Transit sheds and warehouses near the harbour",
+          "note": "Sheds close to the quay hold goods between a vessel and the road, with large doors that let hot, damp sea air into the room each time they open."
+        },
+        {
+          "name": "Cold rooms and chilled storage",
+          "note": "Where chilled and frozen goods are held, compressors work against the heat and a lost supply of power can warm a room within an afternoon."
+        },
+        {
+          "name": "Truck gates and holding areas",
+          "note": "Vehicles that wait to load or leave stand with their cargo in the sun, so goods inside a closed truck can run far hotter than the air outside."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Anyone who holds goods on behalf of others needs to show each owner how its cargo was kept, and a logger placed in a consignment gives each owner a record of its own."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Medicines and healthcare supplies that pass through a port area need a dated record of temperature, which shows a distributor whether a pack stood too long in the heat."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Imported food, chilled or dry, spends time in yards and sheds before it reaches a market, and a reading from the container and the shed shows how the product was kept."
+        }
+      ],
+      "services": "For a port-area site we would look at WiFi loggers for sheds and cold rooms that have a router, multi-point units for long sheds where one end is hotter than the other, and loggers that travel inside a consignment to record its journey. VEGA Calibrations, our parent company, can discuss calibration of the loggers. A WiFi logger needs a router in range, and for a yard or a vehicle we would confirm the option with you first. We make no statement about what is possible at any particular site until we have reviewed it.",
+      "visits": "Nothing is promised about visits, shipping or installation. Send the organisation, the rooms and sheds to be watched and a contact through the enquiry form or WhatsApp, and we review the request and tell you what is practical, including whether any call or video session could be arranged.",
+      "approach": "If a request were taken forward, we would begin with the shed or cold room that holds the most sensitive goods, placing one logger near the door and one at the back, and slip a logger into a chosen consignment to compare the yard with the shed. The first weeks of data would show which stage of the journey runs warmest.",
+      "faqs": [
+        {
+          "question": "Can a logger show how long goods stood in a port area before collection?",
+          "answer": "A logger placed inside a consignment records temperature and humidity through the wait in the yard, the shed and the vehicle, and the report for those dates can be exported for the owner or the buyer."
+        },
+        {
+          "question": "Why does humidity matter at a harbour as much as heat?",
+          "answer": "Salty, damp air soaks cartons and attacks metal, and condensation forms when a cold container opens to warm air, so a humidity reading beside the temperature shows when cargo took on moisture."
+        }
+      ],
+      "nearby": [
+        "aden-free-zone"
+      ],
+      "indexable": true
+    } },
+  { slug: "aden-free-zone", name: "Aden Free Zone", citySlug: "aden", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["nakshatra","veer"], page: {
+      "metaTitle": "Data Loggers in the Aden Free Zone, Yemen | Prithvi",
+      "metaDescription": "Temperature and humidity data loggers for storage in the Aden Free Zone's warehouses, packing halls and cold rooms, reviewed case by case. Get Solution.",
+      "intro": "The Aden Free Zone is an area set aside beside the harbour of Aden under a free-zone arrangement, intended as a place where goods can be stored, packed, processed and sent on. A free zone is built around warehouses, packing halls and yards, and what matters to a temperature data logger is the storage that goes with those buildings: large halls under metal roofs, cold rooms for food and medicine, and the long waits that goods make between arrival and onward movement. The air is hot, humid and salty for most of the year. This page describes those rooms in general and says nothing about the present activity, capacity or openness of the zone, which changes. Requests from a free-zone site are, like all Yemen enquiries, looked at case by case before we suggest any logger.",
+      "places": [
+        {
+          "name": "Warehouses and storage halls",
+          "note": "Large halls under metal roofs hold goods for traders who store them before onward movement, and the roof end of a hall runs far hotter than the floor."
+        },
+        {
+          "name": "Packing and re-packing halls",
+          "note": "Goods may be sorted, re-packed or labelled before they are passed on, and the rooms where this happens are warm, with doors open for carts and pallets."
+        },
+        {
+          "name": "Cold rooms for food and medicine",
+          "note": "Chilled and frozen goods are held in cold rooms whose compressors work against the heat and whose doors let in damp sea air at every movement."
+        },
+        {
+          "name": "Yards and loading areas",
+          "note": "Open yards and loading bays hold pallets and containers in the sun between a store and a vehicle, exposed to heat, dust and salt."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A warehouse that stores for several traders at once needs a separate reading for each bay, so that the operator can send each trader a report for its own pallets."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Traders who hold food for re-export or for the local market keep chilled and dry rooms, and a running record shows a buyer how each lot was held until it left the store."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Healthcare goods held for onward movement are kept to stated ranges, and a dated log shows how a room behaved on the hottest afternoons and through any interruption of power."
+        }
+      ],
+      "services": "For free-zone storage we would look at WiFi loggers for halls and rooms that have a router, multi-point units for long bays where the roof end is hotter than the floor, and single-point loggers with external probes for cold rooms. Calibration of the loggers is something our parent company, VEGA Calibrations, can talk through. A WiFi logger needs a router in range, and for an outbuilding we would confirm the option first. No statement is made about what can be supplied or installed until a request has been reviewed.",
+      "visits": "No visit, shipment or installation is promised. Send the trader or operator, the halls and rooms to be watched and a contact through the enquiry form or WhatsApp, and we review the request and say what is practical, including whether a call or video session could be arranged to explain the set-up.",
+      "approach": "If a request went ahead, we would begin with the room holding the most sensitive goods, with a logger near the door and one at the back, then place one near the roof of the main hall to show how much hotter the top pallets run. The first weeks of data would show where a second point is worth adding.",
+      "faqs": [
+        {
+          "question": "How can a trader in a shared warehouse show an owner a record for its own pallets?",
+          "answer": "Each bay or room can be its own point on the dashboard with its own alert contacts, and a report for that point and period can be exported as PDF, Excel or CSV when the owner asks."
+        },
+        {
+          "question": "Why does the top of a metal-roofed hall need its own logger?",
+          "answer": "Heat rises and gathers under the roof, so a logger placed high shows how much warmer the upper pallets run than the floor, which a single reading near the door would miss."
+        }
+      ],
+      "nearby": [
+        "port-of-aden"
+      ],
+      "indexable": true
+    } },
+  { slug: "sheikh-othman-industrial-area", name: "Sheikh Othman Industrial Area", citySlug: "aden", areaType: "industrial-estate", nearbyIndustries: ["food-beverage","logistics-warehousing","chemical"], confirmedService: true, hero: ["setu","dhruva"], page: {
+      "metaTitle": "Data Loggers in Sheikh Othman Industrial Area | Prithvi",
+      "metaDescription": "Temperature and humidity data loggers for workshops, stores and plants in Sheikh Othman Industrial Area, Aden, reviewed case by case. Get Solution.",
+      "intro": "Sheikh Othman is a large district on the plain to the north-west of Aden's older centre, with markets, clinics and neighbourhoods of small shops, and an industrial area of workshops, small plants and warehouses lies within it. Work of this kind generally includes food and drink preparation, packaging, light engineering and the stores that serve them, in buildings with metal roofs that hold the heat of the day. A temperature data logger in a district like this watches the ingredient and product stores of food makers, the chemical and consumables rooms of workshops, and the warehouses where goods wait for a customer. This page says nothing about the present activity of any works, which changes. Whether a particular store in Sheikh Othman can be supported is decided case by case after we hear from you.",
+      "places": [
+        {
+          "name": "Food and drink preparation rooms and stores",
+          "note": "Small producers keep ingredients and finished goods in chilled and dry rooms, where condensation forms on cold surfaces every time a door opens to the humid air."
+        },
+        {
+          "name": "Workshops and consumables stores",
+          "note": "Workshops keep paints, oils, coatings and spare parts in sheds and containers that heat up in the summer sun, and stores of this kind depend on ventilation."
+        },
+        {
+          "name": "Packaging and light-industry units",
+          "note": "Units that pack or make goods hold materials and finished product in halls under metal roofs, with limited cooling and uncertain power."
+        },
+        {
+          "name": "Warehouses on the district's main roads",
+          "note": "Warehouses and depots beside the main roads hold goods for shops and customers across the city, in bays whose doors open to the sun."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "food-beverage",
+          "sentence": "Makers of food and drink hold ingredients and finished goods that spoil in coastal heat, and a continuous record shows a customer how each batch was held until it was collected."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Workshops and small plants that use paints, resins and oils keep stock with limits printed on the label, and an alert from a hot or damp store lets the storekeeper act in time."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Depots that store goods for shops and customers need to show how a lot was held, and a reading for each bay lets an operator export a report for the right customer."
+        }
+      ],
+      "services": "For a site in Sheikh Othman Industrial Area we would look at WiFi loggers for rooms that have a router, multi-point units for long sheds where the roof end is hotter than the floor, and single-point loggers with external probes for cold rooms and freezers. Our parent company, VEGA Calibrations, can talk through calibration of the loggers if it is needed. WiFi loggers need a router in range and a steady power supply for the router. No claim is made about supply or installation until a request has been reviewed.",
+      "visits": "Visits, shipping and installation are not promised. Send the business, the rooms to be watched and a contact through the enquiry form or WhatsApp, and we review the request and tell you what is practical, including whether a call or video session could be arranged to talk through set-up.",
+      "approach": "If a request went ahead, at a food maker we would begin with the main chilled room, with a logger at the door and one at the back, and add a humidity-reading unit where fog or sweat shows. In a workshop store one logger near the roof would show how hot the upper shelves run.",
+      "faqs": [
+        {
+          "question": "Can a small food maker in Sheikh Othman use a single logger?",
+          "answer": "Yes. One logger with an alert to a phone is enough for a single chilled room, provided the room has a router within reach, and more points can be added to the same account later."
+        },
+        {
+          "question": "Why does a store need a battery in a district with uncertain power?",
+          "answer": "A logger with a battery keeps recording through an interruption and stores the readings, so there is a record of how the room behaved while the supply was off."
+        }
+      ],
+      "nearby": [
+        "little-aden"
+      ],
+      "indexable": true
+    } },
+  { slug: "little-aden", name: "Little Aden", citySlug: "aden", areaType: "mixed-use", nearbyIndustries: ["food-beverage","chemical","logistics-warehousing"], confirmedService: true, hero: ["veer-pro","virat-pro"], page: {
+      "metaTitle": "Data Loggers in Little Aden, Yemen | Prithvi",
+      "metaDescription": "Temperature and humidity data loggers for stores, fish landings and plant rooms in Little Aden, across Aden's harbour, reviewed case by case. Get Solution.",
+      "intro": "Little Aden is a rocky peninsula on the western side of Aden's harbour, joined to the mainland by a narrow neck, with the coastal town of Buraiqa, beaches, fishing landings and an industrial history linked to oil: a refinery was built there in the 1950s. Today a temperature data logger on the peninsula is concerned with ordinary storage in a hot, salty setting: fish and ice stores along the shore, food and medicine in the shops and clinics of the town, and the stores of any plant or workshop that needs steady conditions. This page makes no statement about the present activity of any works, which changes. Little Aden enquiries follow the same case-by-case review as every other request from Yemen.",
+      "places": [
+        {
+          "name": "Buraiqa town, shops and clinics",
+          "note": "Shops, bakeries and clinics hold food and medicines in small rooms and refrigerators that must survive hot afternoons and interruptions of power."
+        },
+        {
+          "name": "Fishing landings and ice stores",
+          "note": "Boats land fish on the beaches of the peninsula, where ice stores and cold rooms hold the catch in hot, wet air before it goes to market."
+        },
+        {
+          "name": "Stores near the oil-industry area",
+          "note": "Plants, workshops and suppliers in the industrial part of the peninsula hold spares, instruments and consumables in stores that rust in salty air."
+        },
+        {
+          "name": "Beachside cafes and small hotels",
+          "note": "Cafes and small hotels near the beaches run coolers and bar fridges in simple buildings, with load that rises at weekends and falls in the quietest months."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "food-beverage",
+          "sentence": "Fish traders, bakers and cafe owners hold stock that spoils quickly in warm, damp air, and an alert to a phone tells the owner when a cooler or ice store begins to drift."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Stores of oils, coatings and consumables in the industrial part of the peninsula hold limits printed on the label, and an alert from a baking store lets the storekeeper act in time."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Goods that cross the harbour or arrive by road wait in small warehouses before they are used, and a logger placed in a load records the heat and salty damp they met."
+        }
+      ],
+      "services": "For Little Aden we would look at WiFi loggers for rooms that have a router, single-point loggers with external probes for ice stores and clinic refrigerators, and multi-point units for larger sheds. VEGA Calibrations, our parent company, can discuss calibration. A WiFi logger needs a router in range and a power supply for the router, and we confirm the option for an outbuilding or a boat store first. No promise is made about supply or installation before a request has been reviewed.",
+      "visits": "Visits and shipments are not promised. Send the business, the rooms to be watched and a contact through the enquiry form or WhatsApp, and we review the request and say what is practical, including whether a call or video session could be arranged to explain how the loggers work.",
+      "approach": "If a request went ahead, at a fish store we would place one logger near the door and one at the back of the ice room, and add a humidity-reading unit where sweat appears. At a clinic we would begin with the vaccine refrigerator and a battery-backed alert.",
+      "faqs": [
+        {
+          "question": "Can a fishing business keep a record of its ice store?",
+          "answer": "Yes. A logger in the ice room or cold store records the whole chain from landing to sale, and a report for the dates of a lot can be exported as PDF, Excel or CSV for the buyer."
+        },
+        {
+          "question": "How does salty air affect where a logger is fitted on the peninsula?",
+          "answer": "We keep the logger body indoors and clear of spray and wet walls, let only the probe lead enter the cold space and recommend wiping the probe whenever the room is cleaned."
+        }
+      ],
+      "nearby": [
+        "sheikh-othman-industrial-area"
+      ],
       "indexable": true
     } },
 ];

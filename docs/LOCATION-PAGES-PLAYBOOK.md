@@ -318,6 +318,11 @@
 | Hail (`hail`, under the Hail Region hub; the hub stays noindex with one city) | Saudi Arabia | Wheat, date and vegetable farms, dairies and mills, university and hospital, industrial city and wholesale markets | Dairy and grain storage, medicine supply, hospitals, logistics | Severe summer heat, frost, spring dust | Buraidah, Tabuk |
 | Sakaka (`sakaka`, under the Al Jawf Region hub; the hub stays noindex with one city) | Saudi Arabia | Olive groves, presses and oil stores, date packers, university and hospital, industrial city and markets | Olive-oil and date storage, hospitals, laboratories, logistics | Scorching summer, frosty winter nights, dust | Hail, Tabuk |
 | Arar (`arar`, under the Northern Borders Region hub; the hub stays noindex with one city) | Saudi Arabia | Wholesale food and medicine depots, regional hospital, clinics and pharmacies, university, livestock and farm stores | Food and medicine supply, hospitals, laboratories, long-haul logistics | Hot dry summer, frosty winter, dust and sudden rain | Sakaka, Hail |
+| Aden (`aden`, under the Aden Governorate hub) | Yemen | Crater and the old harbour districts, Ma'alla and Tawahi waterfront, Khormaksar and Sheikh Othman, fish landings | Fish and food stores, hospitals, pharmacy, port-area warehousing | Hot, humid, salty coast | Zinjibar, Lahij |
+| Port of Aden (`port-of-aden`, area of Aden) | Yemen | Quayside yards, transit sheds, cold rooms, truck gates (described generally, no operating status) | Port-area logistics, imported food, medicines | Hot, humid, salty | Aden Free Zone |
+| Aden Free Zone (`aden-free-zone`, area of Aden) | Yemen | Storage halls, packing halls, cold rooms, yards (described generally, no operating status) | Contract storage, food, healthcare goods | Hot, humid, salty | Port of Aden |
+| Sheikh Othman Industrial Area (`sheikh-othman-industrial-area`, area of Aden) | Yemen | Food preparation rooms, workshop stores, packaging units, roadside warehouses | Food makers, workshop consumables, depots | Hot, humid | Little Aden |
+| Little Aden (`little-aden`, area of Aden) | Yemen | Buraiqa town, fishing landings and ice stores, stores near the oil-industry area, beachside cafes | Fish and food, plant consumables, small warehousing | Hot, humid, salty | Sheikh Othman Industrial Area |
 | Jazan Economic City (`jazan-economic-city`, area of Jazan) | Saudi Arabia | Plant chemical and drum stores, spares warehouses and contractor yards, port yards, camp kitchens and clinics | Chemical stores, contract warehousing, camp catering | Extreme heat and humidity, salty air | none |
 | Jeddah (`jeddah`) | Saudi Arabia | Industrial and port logistics zones | Port logistics, food import cold chain, hospitals | Hot, humid coastal | Riyadh, Dammam |
 | Dammam (`dammam`) | Saudi Arabia | Industrial and port logistics zones | Industrial & chemical, port logistics, food | Hot, humid Gulf coast | Riyadh, Bahrain, Jeddah |
@@ -517,3 +522,13 @@ Not built in Batch 6 (Tabuk, Hail, Al Jawf, Northern Borders): Duba and Haql (to
 planned development; no page could be written without claims about its progress, so it is skipped). Tabuk, Hail, Al Jawf and Northern
 Borders each have one city page, so those four region hubs stay noindex and out of the sitemap until a second page is built.
 All 13 Saudi region hubs now exist; the hubs with two or more built pages are Riyadh, Makkah, Eastern Province, Madinah, Qassim, Asir and Jazan.
+
+## Yemen governorates
+
+Yemen is handled case by case. Governorates are state-level hubs under the Yemen country hub and are created only when at least one page is
+built under them (never an empty hub); a hub with fewer than two built pages is noindex and out of the sitemap. Cities sit under their
+governorate; ports, free zones, industrial areas and peninsulas are area pages under a city. `npm run check:data` enforces, for every page
+under Yemen: the case-by-case line (worded differently on each page), neutral wording (no government, authority, control, military, security,
+border, conflict or similar), and no statement of operating status, capacity or openness of any port, zone, airport or road. No claim is made of
+delivery, shipping, local stock, installation or service, and no named organisation is claimed as a customer. GCC rules apply: no Vayu or GSM
+series, the GSM note once per page, no local office, no accreditation claim.

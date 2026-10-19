@@ -246,7 +246,7 @@ const CITY_REGISTRY: { slug: string; region: Region }[] = [
     "puducherry", "karaikal",
   ].map((slug) => ({ slug, region: "india" as const })),
   // Saudi Arabia (appended so earlier assignments never move).
-  ...["al-kharj", "diriyah", "al-majmaah", "makkah", "taif", "rabigh", "king-abdullah-economic-city", "al-khobar", "jubail", "al-ahsa", "dhahran", "qatif", "ras-al-khair", "madinah", "yanbu", "buraidah", "unaizah", "abha", "khamis-mushait", "bisha", "jazan", "najran", "al-baha", "tabuk", "hail", "sakaka", "arar"].map((slug) => ({ slug, region: "gcc" as const })),
+  ...["al-kharj", "diriyah", "al-majmaah", "makkah", "taif", "rabigh", "king-abdullah-economic-city", "al-khobar", "jubail", "al-ahsa", "dhahran", "qatif", "ras-al-khair", "madinah", "yanbu", "buraidah", "unaizah", "abha", "khamis-mushait", "bisha", "jazan", "najran", "al-baha", "tabuk", "hail", "sakaka", "arar", "aden"].map((slug) => ({ slug, region: "gcc" as const })),
 ];
 
 /**
@@ -371,6 +371,9 @@ const HUB_OF: Record<string, string> = Object.fromEntries([
   ...[
     "arar",
   ].map((slug) => [slug, "northern-borders-region"]),
+  ...[
+    "aden",
+  ].map((slug) => [slug, "aden-governorate"]),
   ...[
     "baddi", "solan", "parwanoo", "paonta-sahib", "una", "shimla",
   ].map((slug) => [slug, "himachal-pradesh"]),
