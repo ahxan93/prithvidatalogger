@@ -151,6 +151,7 @@ export const locations: LegacyLocationNode[] = [
       { slug: "tripura", text: "Agartala's border-side markets, rubber and agro trade, hospitals and university, in hot humid air and heavy monsoon rain." },
       { slug: "sikkim", text: "Gangtok's hotels, hospitals and markets and Rangpo's border gateway and pharmaceutical estates, in steep mountain country with landslide-prone roads." },
       { slug: "jammu-and-kashmir", text: "Jammu's pharma estates and gateway trade, Srinagar's fruit, saffron and handicraft stores, and the highway towns of Samba and Kathua, in a climate of hot plains and snowy winters." },
+      { slug: "puducherry-state", text: "Puducherry's pharma and electronics estates, beach hotels and institutes, and the separate delta enclave of Karaikal, in humid, cyclone-prone coastal air." },
     ],
     indexable: true,
     children: [
@@ -16707,6 +16708,239 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Kathua | Prithvi",
             metaDescription:
               "WiFi and GSM temperature and humidity data loggers for Kathua's highway terminals, grain and fruit godowns, estates and hospitals. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "puducherry",
+        name: "Puducherry",
+        type: "state",
+        intro:
+          "The Union Territory of Puducherry is made of separate coastal enclaves, and our pages cover two of them that lie far apart. Puducherry city, the French-planned seaside town and capital, holds industrial estates of pharmaceutical, food, engineering and electronics plants beside hotels, universities and a large medical institute. Karaikal, a separate enclave in the Cauvery delta surrounded by Tamil Nadu, is a smaller town of rice mills, fisheries, a port and a hospital campus. Both share a hot, humid climate, a north-east monsoon and cyclone seasons that bring long power cuts and flooded roads. Open a town below for its estates, its stores and the loggers we suggest.",
+        localIndustries: [
+          "Pharmaceutical and electronics manufacturing",
+          "Hospitality and tourism kitchens",
+          "Rice milling and seafood",
+          "Hospitals and universities",
+        ],
+        citiesServed: ["Puducherry","Karaikal"],
+        supportNote:
+          "Supply, installation support and site visits for the Union Territory's sites are arranged from our Mumbai office. Tell us the town, the estate or the store and what the rooms hold.",
+        faqs: [
+          {
+            question: "Why does this Union Territory have pages for two towns far apart?",
+            answer:
+              "Its parts are separate enclaves with different trades, so Puducherry and Karaikal each have a page of their own, and a firm with a site in each can watch both on one account.",
+          },
+          {
+            question: "How should a store prepare for a cyclone on this coast?",
+            answer:
+              "Storms bring days of power loss, so a logger with a battery keeps recording and an alert for a lost mains supply tells the responsible person that a cold room has lost its protection.",
+          },
+          {
+            question: "Is Karaikal close to Puducherry city?",
+            answer:
+              "No. Karaikal is a separate enclave in the Cauvery delta surrounded by Tamil Nadu, and travel between the two crosses Tamil Nadu districts, so we plan visits to each separately.",
+          },
+        ],
+        listing: [
+          { slug: "puducherry", text: "The French-planned seaside capital of pharma and electronics estates, beach hotels, a medical institute and a university in cyclone-prone air." },
+          { slug: "karaikal", text: "A separate coastal enclave in the Cauvery delta with rice mills, fisheries, a port and a hospital campus, surrounded by Tamil Nadu." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "puducherry",
+            name: "Puducherry",
+            type: "city",
+            intro:
+              "Puducherry is a seaside town on the Coromandel coast laid out by the French on a neat grid of streets, and a temperature data logger here serves a city that blends tourism and learning with a surprising amount of industry. The White Town with its yellow colonial buildings, the beach promenade, cafes and guesthouses draw visitors all year, and a large medical institute and several medical colleges treat patients from far beyond the territory, and a central university stands at Kalapet. Industrial estates at Mettupalayam, Thirubuvanai, Sedarapet and Thattanchavady hold pharmaceutical, food, engineering and electronics plants. Lorries leave the estates for Chennai and the ports through the day. Prithvi supplies WiFi loggers for wards and plants with a network and GSM loggers for trucks, yards and stores out of range.",
+            climateAngle:
+              "The coast is hot, salty and humid for most of the year, the north-east monsoon brings heavy rain and cyclone weather in the last months, and storms cut the power for days, so metal rusts and cartons take on moisture in sheds near the sea.",
+            areas: [
+              {
+                name: "Mettupalayam industrial estate",
+                note: "A large estate on the western side of the town holds pharmaceutical, food, plastics and engineering plants on regular plots, with raw-material rooms and finished-goods stores behind secured gates.",
+              },
+              {
+                name: "Thirubuvanai and Sedarapet estates",
+                note: "Estates further out hold electronics, pharmaceutical and engineering units on wide plots, whose stores stand far apart and whose lorries wait at the gates in the afternoon sun.",
+              },
+              {
+                name: "Thattanchavady and the older estates",
+                note: "A smaller estate close to the town holds light industry, packaging and godowns in crowded sheds that trap heat and damp.",
+              },
+              {
+                name: "White Town, the promenade and the hospital belt",
+                note: "Hotels, cafes and guesthouses in old French houses run coolers in cramped spaces, while a large medical institute and private hospitals hold blood units, vaccines and medicines.",
+              },
+            ],
+            industries: [
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Formulation plants in the estates hold ingredients and finished packs in controlled rooms, and a continuous log of temperature and humidity supports each batch file and any customer audit.",
+              },
+              {
+                slug: "electronics",
+                sentence:
+                  "Makers of electronic and electrical goods store boards and sealed assemblies where salty damp air causes faults, and a humidity trend shows a quality team when a store drifted.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Hotels, cafes, bakeries, breweries and packaged-food firms run coolers and cold rooms through hot, humid weeks, and an alert reaches the supervisor when a unit warms on a busy weekend.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A large medical institute and other hospitals receive patients from the territory and from neighbouring districts, and a dated record backs each handover for blood units and vaccines.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity along with temperature at one point, which tells an electronics store or a pharmaceutical room when salty damp has overcome a dehumidifier or a door seal.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels let a pharmaceutical store be read at the door and at the back wall by a single device, which shows whether the cold reaches the far shelves.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger travels in a goods lorry or reports from an estate yard beyond any router, and raises an alert on a phone when a reading drifts.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Puducherry hotel be alerted if a cooler fails during a holiday weekend?",
+                answer:
+                  "Yes. The engineer or manager on duty receives a phone and email alert as soon as a cooler passes its limit, and a second person can take over if there is no reply.",
+              },
+              {
+                question: "How does salty air change where a logger is fitted near the sea?",
+                answer:
+                  "We mount the logger body indoors, clear of spray and wet walls, let only the probe lead enter the cold space, and suggest wiping the probe whenever the room is cleaned.",
+              },
+              {
+                question: "Do you cover Mettupalayam, Thirubuvanai and Sedarapet in one trip?",
+                answer:
+                  "Write with the estate, the plant and someone to ask for, by the enquiry form, WhatsApp or a call, and we fix a day. The estates lie in different directions from the town, so they are visited in order.",
+              },
+              {
+                question: "Who calibrates loggers used in a Puducherry plant or hospital laboratory?",
+                answer:
+                  "VEGA Calibrations, our parent company, can calibrate loggers and carry out temperature mapping, and the visit can be planned with the supply.",
+              },
+            ],
+            nearby: [
+              { slug: "chennai", name: "Chennai" },
+              { slug: "vellore", name: "Vellore" },
+            ],
+            metaTitle: "Temperature Data Loggers in Puducherry | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Puducherry's pharma and electronics estates, beach hotels and hospitals. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "karaikal",
+            name: "Karaikal",
+            type: "city",
+            intro:
+              "Karaikal is a separate coastal enclave of the Union Territory, set in the green Cauvery delta and surrounded on every side by Tamil Nadu, and a temperature data logger here serves a small town of rice, fish and port trade. It lies far from Puducherry city, and its rivers and canals feed paddy fields that supply rice mills. Fishing boats land their catch at the harbour, a private port handles cargo, and a campus of the medical institute and a government hospital serve the people of the enclave and the districts around. The Thirunallar temple draws pilgrims. Prithvi supplies WiFi loggers for mills, wards and rooms with a network and GSM loggers for lorries, boats and stores beyond a router.",
+            climateAngle:
+              "The delta is hot and very humid for most of the year, the north-east monsoon is heavy and cyclones come ashore on this coast with floods and long power cuts, so rice, seafood and cartons spoil quickly if cooling or ventilation fails.",
+            areas: [
+              {
+                name: "Rice mills and paddy godowns",
+                note: "Mills hull and polish the delta's paddy and hold bagged rice in godowns where monsoon damp and heat decide how long the stock keeps.",
+              },
+              {
+                name: "Fishing harbour and ice plants",
+                note: "Boats land fish, and ice plants, cold rooms and packers hold the catch before it travels to markets in warm, salty air.",
+              },
+              {
+                name: "Port-side warehouses",
+                note: "Sheds near the private port hold bagged and packed cargo that waits for a ship or a truck, in salty, humid air that attacks metal and packaging.",
+              },
+              {
+                name: "Medical campus and the town market",
+                note: "A campus of the medical institute and a government hospital hold blood units and vaccines for the enclave, while shops and wholesalers in the market stock food and medicines in small rooms.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Rice millers, seafood packers and sweet makers hold stock that spoils quickly in damp heat, and a record from each store shows a buyer how a lot was kept before it left the enclave.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Port sheds and lorries hold cargo while it waits for a vessel or a road, and a logger placed among the goods records the heat and damp it met on the dock.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The hospital and the medical campus hold blood and vaccines through the cyclone season, and an alert on a phone means a failing refrigerator is found in the night.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "Teaching and testing laboratories keep samples and reagents in freezers and fridges with their own limits, and an exported log supports an audit or a research file.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity and temperature at one point suit a rice godown or a port shed, where heavy coastal air is what harms the stock.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A one-probe logger fits a fish-room chiller or a hospital refrigerator and does nothing to change how staff use the unit.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a fish lorry or reports from a delta store with no router, and sends an alert to a phone.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Is Karaikal near Puducherry city, and are visits planned together?",
+                answer:
+                  "No. Karaikal is a separate enclave in the Cauvery delta, surrounded by Tamil Nadu, so we plan a visit to it on its own route and not as a stop beside Puducherry city.",
+              },
+              {
+                question: "How does a logger help a rice miller in Karaikal?",
+                answer:
+                  "A record of humidity and temperature in the godown marks the day moisture began to reach the sacks, so staff can ventilate, cover or move stock before it is damaged.",
+              },
+              {
+                question: "What protects a fish cold room during a cyclone cut?",
+                answer:
+                  "Loggers run on batteries through the outage and send an alert for a lost mains supply, so the named person knows the room is unprotected even when roads are flooded.",
+              },
+              {
+                question: "Can calibration for a Karaikal laboratory be arranged?",
+                answer:
+                  "Calibration of loggers and probes is carried out by VEGA Calibrations, our parent company, and the date can be fixed with the supply order.",
+              },
+            ],
+            nearby: [
+              { slug: "tiruchirappalli", name: "Tiruchirappalli" },
+              { slug: "nagapattinam", name: "Nagapattinam" },
+            ],
+            metaTitle: "Temperature Data Loggers in Karaikal | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Karaikal's rice mills, fishing harbour, port sheds and hospital campus. Get Solution.",
             indexable: true,
           },
         ],

@@ -107,6 +107,11 @@ export const locationContent: Record<string, LocationContent> = {
     recommended: ["rajmudra", "nakshatra", "vayu"],
     inName: "Silvassa, Daman & Diu",
   },
+  "india/puducherry": {
+    metaDescription:
+      "Temperature data loggers in Puducherry: the capital's pharma estates, hotels and hospitals and the delta enclave of Karaikal. Get Solution.",
+    recommended: ["nakshatra","rajmudra","vayu"],
+  },
   "india/jammu-and-kashmir": {
     metaDescription:
       "Temperature data loggers in Jammu and Kashmir: Jammu, Srinagar, Samba and Kathua's pharma estates, fruit cold stores and hospitals. Get Solution.",
