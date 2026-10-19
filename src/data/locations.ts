@@ -142,6 +142,7 @@ export const locations: LegacyLocationNode[] = [
       { slug: "uttarakhand", text: "Haridwar's factory estate and pilgrim hotels, Dehradun's pharma and technology estates, hospitals and institutes, and Roorkee's engineering town, between hot plains and cold hills." },
       { slug: "dadra-and-nagar-haveli-and-daman-and-diu", text: "Silvassa's pharma, plastics and textile estates, Daman's packaging, bottling and harbour trades, and the island of Diu, in a humid coastal climate." },
       { slug: "odisha", text: "Bhubaneswar and Cuttack's hospitals, markets and estates, Rourkela's steel town and the Paradip port and Jharsuguda power country, in cyclone and monsoon weather." },
+      { slug: "jharkhand", text: "Ranchi's engineering and hospitals, Jamshedpur's steel and vehicle belt, the Dhanbad coal field and Bokaro's steel township, in dusty heat and a heavy monsoon." },
     ],
     indexable: true,
     children: [
@@ -13822,6 +13823,436 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Jharsuguda | Prithvi",
             metaDescription:
               "WiFi and GSM temperature and humidity data loggers for Jharsuguda's smelter and power-plant stores, junction sheds and hospitals. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "jharkhand",
+        name: "Jharkhand",
+        type: "state",
+        intro:
+          "Jharkhand is a plateau state of coal, iron and steel, and its storage follows the mines, the rail lines and the industrial townships. Ranchi, the capital, holds heavy engineering, hospitals, institutes and a busy trade; Jamshedpur is a steel and vehicle city with an ancillary belt across the river at Adityapur; Dhanbad stands in the Jharia coalfield; and Bokaro is a steel township beside the Damodar. Summers are hot and dusty, the monsoon is heavy and winter nights are cold, so spares stores, laboratories and hospital refrigerators meet dust, damp and chill in a single year. Distances between plants are large and signals can be weak. Each city page below names its estates and the stores worth watching first.",
+        localIndustries: [
+          "Steel and heavy engineering",
+          "Coal and mining supply",
+          "Automotive ancillary works",
+          "Hospitals and institutes",
+        ],
+        citiesServed: ["Ranchi", "Jamshedpur", "Dhanbad", "Bokaro"],
+        supportNote:
+          "Supply, installation support and site visits for Jharkhand sites are arranged from our Mumbai office. Tell us the city, the plant or the mine-side store and what the rooms hold.",
+        faqs: [
+          {
+            question: "Which Jharkhand locations have a page?",
+            answer:
+              "Ranchi, Jamshedpur, Dhanbad and Bokaro each have a city page. For a town not listed here, write to us through the enquiry form and we confirm how we can help.",
+          },
+          {
+            question: "How does coal and mineral dust affect a logger?",
+            answer:
+              "Fine dust settles on exposed sensors, so we hang the logger body out of the dustiest air, keep probes sealed and suggest wiping them at routine cleaning, which keeps the record steady.",
+          },
+          {
+            question: "Can plants in Jharkhand and West Bengal be watched together?",
+            answer:
+              "Yes. Every plant is a site with its own alert contacts, so a head of operations sees works in both states in one list and can export a report for any room and period.",
+          },
+        ],
+        listing: [
+          { slug: "ranchi", text: "The capital of the plateau, with heavy engineering at Dhurwa, Namkum and Tatisilwai estates, a medical institute, campuses and busy markets." },
+          { slug: "jamshedpur", text: "A steel and vehicle city on the Subarnarekha, with Adityapur's ancillary works across the river, hospitals and a rail junction." },
+          { slug: "dhanbad", text: "A coal city in the Jharia field, with mining-supply stores, a technical institute, railway offices and trading lanes in coal dust." },
+          { slug: "bokaro", text: "A planned steel township beside the Damodar, with a steel works, thermal power, sector markets and ancillary firms." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "ranchi",
+            name: "Ranchi",
+            type: "city",
+            intro:
+              "Ranchi is the capital of Jharkhand, a city of lakes and hills on a cool, high stretch of the plateau, and a temperature data logger here serves a mix of heavy engineering, medicine, learning and trade. A large public-sector heavy engineering works stands at Dhurwa, and industrial areas at Namkum, Tatisilwai and Irba hold fabrication, packaging, food and warehouse firms. A big government medical institute and private hospitals draw patients from the whole state and beyond, while universities, an agricultural university and a technology institute at Mesra add laboratories. Main Road and Lalpur hold the wholesale and retail trade. Prithvi supplies WiFi loggers for wards, labs and shops on a network and GSM loggers for vans, trucks and stores out of range.",
+            climateAngle:
+              "The plateau is milder than the plains in summer, the monsoon is heavy and winter nights are cold, so hospital refrigerators and pharmaceutical godowns meet damp for weeks and sharp chill within the same year. Dust from road works drifts in during the dry weeks, and condensation forms on cold surfaces after the first rains.",
+            areas: [
+              {
+                name: "Dhurwa and the heavy engineering belt",
+                note: "A big works and the firms that supply it hold spares, instruments and fabricated parts in large stores on wide campuses, with rooms far from any office.",
+              },
+              {
+                name: "Namkum and Tatisilwai industrial areas",
+                note: "Estates on the edge of the city hold fabrication, food, packaging and warehouse firms on plots of varied size, with trucks loading at the gates through the day.",
+              },
+              {
+                name: "Medical institute and hospital district",
+                note: "A large government institute and private hospitals keep blood units, vaccines and medicines in refrigerators that serve patients from many districts.",
+              },
+              {
+                name: "Main Road, Lalpur and the markets",
+                note: "Wholesalers of medicines, food and general goods work in crowded buildings, with chillers and stock rooms opened from early morning.",
+              },
+            ],
+            industries: [
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A medical institute and private hospitals receive patients from across the state, and an alert to the duty staff covers the minutes when the mains fails and the generator has not yet started.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Stockists supply chemists and hospitals across the plateau from back rooms and godowns, and a dated record answers a buyer who asks how a consignment of medicine was held.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Dairies, bakeries, caterers and packaged-food firms run chillers and cold rooms, and a reading from each unit shows the night a compressor began to fail.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "University, institute and hospital laboratories keep samples and reagents in freezers and cabinets with their own limits, and an exported log supports a research file or an inspection.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels let a hospital store or a godown be watched at two points at once, which shows whether the cold reaches the far end of the room.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an external probe fits a clinic refrigerator or a bakery chiller and keeps a quiet, continuous record.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a vehicle or reports from a store with no router, and sends an alert to a phone.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Ranchi hospital watch every refrigerator from one screen?",
+                answer:
+                  "Yes. Every refrigerator and store appears on one dashboard with its own limit and its own alert recipients, and the person in charge of a department can export a report for any unit over any period.",
+              },
+              {
+                question: "Do you cover Namkum, Tatisilwai and Irba as well as the city?",
+                answer:
+                  "Send the estate, the unit and a person to meet through the enquiry form, WhatsApp or a call, and we propose a day. Estates on different sides of the city are planned in one sequence.",
+              },
+              {
+                question: "How do loggers help during the monsoon power cuts?",
+                answer:
+                  "Loggers run on batteries and keep recording through a cut, then send the stored readings when the network returns, so the record shows how long a room was warm.",
+              },
+              {
+                question: "Who calibrates loggers used in a Ranchi laboratory?",
+                answer:
+                  "VEGA Calibrations, our parent company, can calibrate loggers and probes, and the work can be booked together with the supply.",
+              },
+            ],
+            nearby: [
+              { slug: "jamshedpur", name: "Jamshedpur" },
+              { slug: "bokaro", name: "Bokaro" },
+            ],
+            metaTitle: "Temperature Data Loggers in Ranchi | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Ranchi's hospitals, Namkum and Tatisilwai estates, laboratories and markets. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "jamshedpur",
+            name: "Jamshedpur",
+            type: "city",
+            intro:
+              "Jamshedpur is the steel city of the Subarnarekha and Kharkai rivers, a planned town laid out around a private-sector steel works, and a temperature data logger here serves a dense belt of engineering. A commercial-vehicle works, rolling mills and the many suppliers that feed them stand around the town, and the Adityapur industrial area across the Kharkai holds a great many auto-component, fabrication and casting firms. Bistupur and Sakchi hold the shops, markets and offices, while hospitals, a technology institute, a management school and a medical college add laboratories and wards. The Tatanagar junction connects the town to Kolkata, Mumbai and Delhi. Prithvi supplies WiFi loggers for rooms with a network and GSM loggers for vehicles, yards and distant sheds.",
+            climateAngle:
+              "Summers are hot and dusty, the monsoon is heavy and winters are cool, so electrical stores, foundry consumables and hospital refrigerators meet heat, damp and chill within a single year. Dust from the roads and the works settles on shelves, and monsoon humidity creeps into stores that stood dry for months.",
+            areas: [
+              {
+                name: "Adityapur industrial area",
+                note: "A large estate across the Kharkai with auto-component, fabrication and casting firms on closely packed plots, whose stores of steel, castings and consumables stand in hot sheds.",
+              },
+              {
+                name: "Steel works and vehicle-works stores",
+                note: "Large works keep spares, instruments, laboratory reagents and electrical panels on wide campuses, with strict access rules and rooms far from any office.",
+              },
+              {
+                name: "Bistupur and Sakchi",
+                note: "Shops, hotels, offices and clinics in the commercial heart of the town run chillers, medicine fridges and server cupboards in busy buildings.",
+              },
+              {
+                name: "Hospitals and campus belt",
+                note: "Large hospitals, a medical college and a technology institute hold blood units, vaccines and laboratory samples in refrigerators and freezers.",
+              },
+            ],
+            industries: [
+              {
+                slug: "electronics",
+                sentence:
+                  "Makers of electrical and control gear store relays, wiring and boards in rooms where monsoon damp causes faults, and a humidity trend shows a quality team when a store drifted.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Casting, foundry and heat-treatment works keep resins, coatings and drummed material with printed storage limits, and an alert from a hot shed lets the storekeeper act before material is wasted.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Large hospitals and a medical college hold blood and vaccines for patients from several districts, and a dated record backs each handover between shifts.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Carriers use the junction and the highways to move vehicle parts and steel products, and a logger placed in a consignment records how long it stood in a siding or a yard.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels spread over a long component store or a tall warehouse give one report for every bay and shelf level.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit an electrical store or a consumables room, where damp air in the rainy weeks is the danger.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger with an external probe rides in a truck or reports from a yard store with no router, and sends alerts to a phone.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How does a logger help an auto-component maker in Adityapur?",
+                answer:
+                  "It records the temperature and humidity of the stores holding castings, coatings and electrical parts, so a quality team can show a customer that parts were kept dry and within limits.",
+              },
+              {
+                question: "Can a supplier and its customer's works share one account without seeing each other's rooms?",
+                answer:
+                  "Each site is a separate point with its own alert contacts, and access can be limited so each party sees only its own rooms, while a manager sees the full list.",
+              },
+              {
+                question: "How are visits arranged inside large works with strict gate rules?",
+                answer:
+                  "Send the gate rules and a name to ask for through the enquiry form, WhatsApp or a call. If passes, briefings or protective gear are needed, the visit is planned around them.",
+              },
+              {
+                question: "Who calibrates loggers used in a Jamshedpur laboratory or hospital?",
+                answer:
+                  "Calibration of loggers and probes comes from VEGA Calibrations, our parent company, and the date can be fixed with the supply.",
+              },
+            ],
+            nearby: [
+              { slug: "ranchi", name: "Ranchi" },
+              { slug: "bokaro", name: "Bokaro" },
+              { slug: "kharagpur", name: "Kharagpur" },
+            ],
+            metaTitle: "Temperature Data Loggers in Jamshedpur | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Jamshedpur's Adityapur works, steel-town stores, hospitals and laboratories. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "dhanbad",
+            name: "Dhanbad",
+            type: "city",
+            intro:
+              "Dhanbad is the coal city of eastern India, in the Jharia coalfield of Jharkhand, and a temperature data logger here serves a place where mining, railways and trade share the same dusty streets. Open-cast and underground mines surround the town, some of the underground seams having burned for decades, and dealers in mining equipment, spares and supplies fill the lanes of Bank More and Hirapur. A technical institute that began as the school of mines trains engineers, a medical college hospital serves the coalfield, and the railway division offices and junction link the town to Kolkata and Delhi. Prithvi supplies WiFi loggers for rooms and wards with a network and GSM loggers for vehicles, yards and stores near the mines.",
+            climateAngle:
+              "Summers are hot and thick with coal dust, the monsoon is heavy and turns dust to mud, and winter mornings are cold, so electrical stores, pharmacy fridges and food godowns meet dust, damp and chill in turn. Coal dust drifts into every room, and a storm that cuts the power can leave a pharmacy fridge warming unnoticed through the night.",
+            areas: [
+              {
+                name: "Jharia coalfield and mine-side stores",
+                note: "Stores near the collieries hold spares, instruments, electrical gear and consumables in dusty sheds, some of them on ground that is hot from the seams below.",
+              },
+              {
+                name: "Bank More and Hirapur markets",
+                note: "Wholesalers of food, medicines, hardware and mining supplies work in crowded lanes, with chillers and back rooms opened from early morning.",
+              },
+              {
+                name: "Technical institute and medical college",
+                note: "Laboratories at the institute and a medical college hospital hold samples, reagents, blood units and vaccines in fridges and freezers that serve the whole coalfield.",
+              },
+              {
+                name: "Railway junction and goods sheds",
+                note: "Parcels and bulk goods wait in sheds and wagons around the junction between trains and trucks, in dust and the afternoon sun.",
+              },
+            ],
+            industries: [
+              {
+                slug: "electronics",
+                sentence:
+                  "Suppliers of electrical and control gear for mines hold relays, cables and instruments that suffer in coal dust and monsoon damp, and a humidity trend shows when a store needs attention.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A medical college hospital and private hospitals serve miners and families across the coalfield, and an alert on a phone means a failing blood or vaccine refrigerator is found at night.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Wholesalers of food, dairy and sweets supply a large and busy population, and a record from each chiller shows when a unit failed during a power cut.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Coal moves out and supplies move in through the junction and the highways, and a logger placed in a consignment records how long it stood in a siding or a yard in the heat.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity and temperature at one point suit an electrical store or a spares room, where dust and monsoon damp are what harm the stock.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "A logger with its own display lets a storekeeper read conditions on the round, while the dashboard keeps the complete record.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger with an external probe rides in a vehicle or reports from a store near the mines where no Wi-Fi network exists.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How does coal dust change how a logger is fitted at Dhanbad?",
+                answer:
+                  "Dust coats open sensors and vents, so the logger body goes in the cleanest air available, probes stay sealed, and a wipe at routine cleaning keeps the readings true.",
+              },
+              {
+                question: "Can a store on hot ground near the seams be monitored?",
+                answer:
+                  "Yes. A probe records the air temperature in the shed, and an alert tells the storekeeper when the reading rises past the limit, which helps where the ground itself adds heat.",
+              },
+              {
+                question: "Can Dhanbad and Asansol sites be watched together?",
+                answer:
+                  "Each site is a point on one account with its own alert contacts, and a manager sees stores on both sides of the state line in a single list.",
+              },
+              {
+                question: "Can calibration for a Dhanbad hospital or laboratory be arranged?",
+                answer:
+                  "VEGA Calibrations, our parent company, handles calibration of loggers and probes, and the work can be planned alongside the supply.",
+              },
+            ],
+            nearby: [
+              { slug: "bokaro", name: "Bokaro" },
+              { slug: "asansol", name: "Asansol" },
+              { slug: "durgapur", name: "Durgapur" },
+            ],
+            metaTitle: "Temperature Data Loggers in Dhanbad | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Dhanbad's coal-belt stores, hospitals, laboratories and Bank More markets. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "bokaro",
+            name: "Bokaro",
+            type: "city",
+            intro:
+              "Bokaro is a planned steel township on the Damodar river in Jharkhand, laid out in numbered sectors beside a large public-sector steel works, and a temperature data logger here serves a city built for heavy industry. The works draws iron ore and coal from the mines around, thermal power stations stand along the river, and Chas, the older town beside the planned city, holds the wholesale trade. Ancillary firms in the industrial area supply fabrication, packaging and repair, while a large hospital and schools serve the townships. Reservoirs and hills give the area a greener look than the coal towns nearby. Prithvi supplies WiFi loggers for plant stores, wards and offices on a network and GSM loggers for lorries, yards and far-off sheds.",
+            climateAngle:
+              "Summers are hot and dusty, the monsoon is heavy and winters are cold, so a spares store or a hospital pharmacy meets heat, damp and chill in turn, and long power cuts in a storm can leave a room unprotected. Dust from the works and the roads settles on shelves, and monsoon humidity creeps into stores that stood dry through the spring.",
+            areas: [
+              {
+                name: "Steel works and its stores",
+                note: "Plant stores hold spares, instruments, electrical panels and laboratory reagents on a wide campus, with rooms far from any office and strict rules for visitors.",
+              },
+              {
+                name: "Industrial area and ancillary firms",
+                note: "Fabrication, packaging and repair firms supplying the works keep steel stock, consumables and finished goods in sheds that bake in summer.",
+              },
+              {
+                name: "Sector markets and township hospitals",
+                note: "Markets in the planned sectors and the hospitals nearby hold food, medicines, blood units and vaccines in compact shops and wards.",
+              },
+              {
+                name: "Chas wholesale lanes",
+                note: "Traders in the old town of Chas stock food, hardware and general goods for the whole district in crowded back rooms.",
+              },
+            ],
+            industries: [
+              {
+                slug: "chemical",
+                sentence:
+                  "Plant laboratories and chemical stores keep drums, bags and reagents with printed storage limits, and an alert from a hot store lets the storekeeper act before the limit is crossed.",
+              },
+              {
+                slug: "electronics",
+                sentence:
+                  "Electrical and control stores hold relays, boards and instruments that suffer in dust and damp, and a humidity trend shows when a store needs drying.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A large hospital and other hospitals hold blood and vaccines for the township and the mining districts, and an alert to the duty staff covers the minutes between mains and generator.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Wholesalers, dairies and caterers supply a large township, and a record from each chiller and cold room shows when a unit failed during a monsoon outage.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels spread along a long plant store or a stacked spares hall give one report for each rack and bay, so the whole building can be read at once.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels watch a laboratory or a hospital pharmacy at two points at once, which shows whether the cold reaches the back of the room.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger rides in a vehicle or reports from a yard store on a wide campus where Wi-Fi does not reach.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can an ancillary firm in Bokaro give the works a record of its store?",
+                answer:
+                  "Yes. A report for any room and period can be exported as PDF, Excel or CSV and sent to the customer, while access can be limited so each party sees only its own rooms.",
+              },
+              {
+                question: "How do loggers suit a township with long distances between stores?",
+                answer:
+                  "Battery loggers with a network link need no cable between buildings, and where signal is weak a GSM logger reports over the mobile network, so every store appears on one dashboard.",
+              },
+              {
+                question: "Do you work inside a works with strict entry rules?",
+                answer:
+                  "Give us the entry rules and a name to ask for by the enquiry form, WhatsApp or a call. If passes, briefings or protective gear are required, the visit is planned around them.",
+              },
+              {
+                question: "Who calibrates loggers used in a Bokaro laboratory?",
+                answer:
+                  "Calibration of loggers and temperature mapping come from VEGA Calibrations, our parent company, and can be planned with the first visit.",
+              },
+            ],
+            nearby: [
+              { slug: "dhanbad", name: "Dhanbad" },
+              { slug: "ranchi", name: "Ranchi" },
+              { slug: "jamshedpur", name: "Jamshedpur" },
+            ],
+            metaTitle: "Temperature Data Loggers in Bokaro | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Bokaro's steel-works stores, ancillary firms, hospitals and Chas markets. Get Solution.",
             indexable: true,
           },
         ],

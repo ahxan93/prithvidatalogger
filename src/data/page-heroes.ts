@@ -235,13 +235,14 @@ const CITY_REGISTRY: { slug: string; region: Region }[] = [
     "silvassa", "daman", "diu",
     "bhubaneswar", "cuttack", "rourkela",
     "paradip", "jharsuguda",
+    "ranchi", "jamshedpur", "dhanbad", "bokaro",
   ].map((slug) => ({ slug, region: "india" as const })),
 ];
 
 /**
  * Cities grouped by their state hub. The 10 loggers give only 45 pairs (41 after the pairs held by
  * other pages), so once every pair is taken a city in a hub may reuse a pair that no city in the
- * SAME hub shows. Maharashtra, Gujarat, Uttar Pradesh, Haryana, Telangana, Karnataka, Tamil Nadu, Punjab, Himachal Pradesh, Kerala, Rajasthan, Madhya Pradesh and West Bengal, Andhra Pradesh, Uttarakhand, Dadra and Nagar Haveli and Daman and Diu and Odisha need this so far; a city outside a hub never shares a pair.
+ * SAME hub shows. Maharashtra, Gujarat, Uttar Pradesh, Haryana, Telangana, Karnataka, Tamil Nadu, Punjab, Himachal Pradesh, Kerala, Rajasthan, Madhya Pradesh and West Bengal, Andhra Pradesh, Uttarakhand, Dadra and Nagar Haveli and Daman and Diu, Odisha and Jharkhand need this so far; a city outside a hub never shares a pair.
  */
 const HUB_OF: Record<string, string> = Object.fromEntries([
   ...[
@@ -291,6 +292,9 @@ const HUB_OF: Record<string, string> = Object.fromEntries([
     "bhubaneswar", "cuttack", "rourkela",
     "paradip", "jharsuguda",
   ].map((slug) => [slug, "odisha"]),
+  ...[
+    "ranchi", "jamshedpur", "dhanbad", "bokaro",
+  ].map((slug) => [slug, "jharkhand"]),
   ...[
     "baddi", "solan", "parwanoo", "paonta-sahib", "una", "shimla",
   ].map((slug) => [slug, "himachal-pradesh"]),
