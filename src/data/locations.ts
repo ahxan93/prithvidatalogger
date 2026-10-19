@@ -138,6 +138,7 @@ export const locations: LegacyLocationNode[] = [
       { slug: "rajasthan", text: "Jaipur's dairies, medicine stockists and hospitals, with the Sitapura and VKI industrial areas in a dry desert climate." },
       { slug: "madhya-pradesh", text: "Indore's food processors, pharmaceutical makers and the Pithampur and Sanwer Road estates, with a hot summer and a heavy monsoon." },
       { slug: "west-bengal", text: "Kolkata's cold stores, pharmaceutical distributors, hospitals and port-side godowns, with Howrah, Kalyani and Dankuni around it." },
+      { slug: "andhra-pradesh", text: "Visakhapatnam's port, steel, shipyard and pharma estates, Vijayawada's markets, Guntur's chilli cold stores and Tirupati's hotels and electronics, in a hot, humid, cyclone-prone coast." },
     ],
     indexable: true,
     children: [
@@ -11615,6 +11616,435 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Haldia | Prithvi",
             metaDescription:
               "WiFi and GSM temperature and humidity data loggers for Haldia's dock warehouses, chemical and fertiliser works and laboratories. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "andhra-pradesh",
+        name: "Andhra Pradesh",
+        type: "state",
+        intro:
+          "Andhra Pradesh stretches along a long, hot and humid coast on the Bay of Bengal, and its storage follows the ports, the rivers and the railway between Chennai and Howrah. Visakhapatnam in the north-east holds a major port, a steel works, a shipyard, a refinery and pharmaceutical estates; Vijayawada on the Krishna is the trading and transport junction of the coastal belt; Guntur stores chilli, cotton and tobacco; and Tirupati combines pilgrimage, hospitality and electronics. The state is separate from Telangana, which has its own pages. Cyclones, a heavy monsoon and long hot spells mean that cold rooms, godowns and hospital refrigerators face storms and outages as well as simple heat. Open a city below for its estates, its stores and the loggers we suggest.",
+        localIndustries: [
+          "Port logistics and seafood export",
+          "Pharmaceutical manufacturing",
+          "Spice, grain and cold storage",
+          "Hospitals and pilgrim hospitality",
+        ],
+        citiesServed: ["Visakhapatnam", "Vijayawada", "Guntur", "Tirupati"],
+        supportNote:
+          "Supply, installation support and site visits for Andhra Pradesh sites are arranged from our Mumbai office. Tell us the port, the estate or the town and what the rooms hold.",
+        faqs: [
+          {
+            question: "Which Andhra Pradesh locations have a page?",
+            answer:
+              "Visakhapatnam, Vijayawada, Guntur and Tirupati each have a city page. Any other town in the state can be added by writing to us through the enquiry form.",
+          },
+          {
+            question: "Why should a cold store plan for a cyclone season?",
+            answer:
+              "Storms bring long power cuts, and a loss of cooling can pass unnoticed in an empty building. Loggers record on their batteries and send an alert for a lost mains supply, so the person responsible hears about it at once.",
+          },
+          {
+            question: "Are Andhra Pradesh and Telangana pages separate?",
+            answer:
+              "Yes. Sites in Andhra Pradesh are listed here and those in Telangana under their own state page, and a company with plants in both can still watch them together on one account.",
+          },
+        ],
+        listing: [
+          { slug: "visakhapatnam", text: "The port city of a steel works, shipyard, refinery, fishing harbour and Parawada pharma estate, in salty, humid air and cyclone weather." },
+          { slug: "vijayawada", text: "The Krishna-side trading and rail junction, with Autonagar workshops, grain, spice and mango markets, cold stores and hospitals." },
+          { slug: "guntur", text: "The chilli city of the delta, with cold stores, tobacco and cotton godowns, spinning and rice mills and a teaching hospital." },
+          { slug: "tirupati", text: "The pilgrim city below the Tirumala hills, with hotel kitchens, a medical institute, laboratories and electronics estates near Renigunta." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "visakhapatnam",
+            name: "Visakhapatnam",
+            type: "city",
+            intro:
+              "Visakhapatnam, often shortened to Vizag, is the port city of north-eastern Andhra Pradesh, set between the hills and the sea, and a temperature data logger here serves a varied industrial coast. A major deepwater port handles cargo, an integrated steel works and a shipyard stand on the city's edge, a refinery processes crude, and the eastern fleet of the navy is based in the harbour. Cargo and crude arrive by sea, and trains and trucks carry them inland. Pharmaceutical and chemical firms crowd the estates toward Parawada and the special economic zone further south-west, while fishing boats land their catch at the harbour for the seafood exporters. Prithvi supplies WiFi loggers for rooms with a network and GSM loggers for trucks, quays and distant stores.",
+            climateAngle:
+              "The coast is hot and humid for most of the year, salt hangs in the air, and cyclones arrive in the post-monsoon weeks with heavy rain and long power cuts, so stores must cope with condensation as well as heat.",
+            areas: [
+              {
+                name: "Port and harbour warehouses",
+                note: "Sheds and tank farms near the berths hold bagged and packed cargo before a vessel arrives, and the fishing harbour packs ice and seafood for export in warm, salty air.",
+              },
+              {
+                name: "Gajuwaka and the steel and shipyard side",
+                note: "Heavy industry along the southern road keeps stores of spares, instruments, reagents and electrical panels on wide campuses, with rooms far from any office.",
+              },
+              {
+                name: "Parawada pharma city",
+                note: "A planned pharmaceutical estate to the south-west where formulation and bulk-drug plants keep raw-material rooms and finished-goods stores that need written records.",
+              },
+              {
+                name: "Autonagar and the city markets",
+                note: "Workshops, spare-parts dealers and wholesalers in Autonagar and the older lanes keep food, medicine and consumer stock in back rooms and chillers opened all day.",
+              },
+            ],
+            industries: [
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Formulation and bulk-drug plants hold ingredients and finished packs in controlled rooms, and a continuous log of temperature and humidity supports each batch file and any audit by a buyer.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Seafood processors and exporters run ice rooms and cold stores that must hold their limits from the quay to the container, and a record for each lot answers an overseas buyer who asks how it was kept.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Refinery, steel and chemical works keep drums, bags and laboratory reagents with printed storage limits, and an alert from a hot shed lets the storekeeper act before material is wasted.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Port-linked warehouses hold goods that wait days for a ship or a rake, and a logger placed among the cargo records the heat and salt-laden damp it met on the dock.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity along with temperature at one point, which tells a port godown or a pharmaceutical store when salty damp has overcome a dehumidifier or a door seal.",
+              },
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels cover a large dock warehouse or a plant store across bays and heights, so one report shows where heat and moisture gather.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a container lorry or a reefer and reports from quay-side stores that have no network of their own.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a seafood exporter in Visakhapatnam prove how a lot was held before shipment?",
+                answer:
+                  "Yes. A logger in the ice room, the cold store and the container records temperature through the whole chain, and a report for the dates of one lot can be exported as PDF, Excel or CSV for the buyer.",
+              },
+              {
+                question: "How does salty air affect where a logger is placed near the harbour?",
+                answer:
+                  "We keep the logger body indoors and away from seaward walls and open doors where salt settles, with only the probe cable entering the cold space, and suggest wiping probes during routine cleaning.",
+              },
+              {
+                question: "Do you cover the pharma estate at Parawada as well as the city?",
+                answer:
+                  "Send the estate, the plant and a name to ask for through the enquiry form, WhatsApp or a call, and we propose a date. Plants on different sides of the city are usually planned on one route.",
+              },
+              {
+                question: "What happens to monitoring during a cyclone?",
+                answer:
+                  "Loggers run on batteries through a power cut and send their stored readings when the network returns, and an alert for a lost mains supply goes to the person you have named.",
+              },
+            ],
+            nearby: [
+              { slug: "kakinada", name: "Kakinada" },
+              { slug: "vijayawada", name: "Vijayawada" },
+            ],
+            metaTitle: "Temperature Data Loggers in Visakhapatnam | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Visakhapatnam's port warehouses, seafood exporters, pharma plants and steel works. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "vijayawada",
+            name: "Vijayawada",
+            type: "city",
+            intro:
+              "Vijayawada stands on the Krishna river beneath the Indrakeeladri hill and its Kanaka Durga temple, and a temperature data logger here serves a major trading and transport crossroads of coastal Andhra Pradesh. The railway junction joins the lines from Chennai, Howrah and Delhi, the barrage across the river feeds a belt of rice and fruit farms, and wholesale markets deal in grain, spices, mangoes, iron and steel, and consumer goods for the districts around. Autonagar, a large district of vehicle workshops and spare-parts dealers, and the industrial areas toward Gannavaram add engineering and food processing. Hospitals and a medical college draw patients from several districts. Prithvi supplies WiFi loggers for rooms with a network and GSM loggers for trucks and godowns.",
+            climateAngle:
+              "Summers are fiercely hot, the monsoon and the cyclone weeks bring heavy rain and flooded lanes, and humid air lingers in godowns for much of the year, so a store can be scorching in May and damp in October.",
+            areas: [
+              {
+                name: "Autonagar",
+                note: "A large district of vehicle workshops, spare-parts dealers, lubricant and tyre stores, with stock rooms packed into small plots along busy approach roads.",
+              },
+              {
+                name: "Wholesale markets and godowns",
+                note: "Traders in grain, pulses, spices, mangoes and iron keep stock in crowded multi-storey buildings and cold stores, in air that is hot for most of the year.",
+              },
+              {
+                name: "Railway junction and goods sheds",
+                note: "Parcels and bulk goods change trains and trucks around the junction, and food and medicine wait on platforms and in wagons between connections.",
+              },
+              {
+                name: "Gannavaram and the northern estates",
+                note: "Industrial areas toward the airport hold food processors, engineering firms and warehouses on wider plots, with loading bays open to the afternoon sun.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Mango, rice, spice and dairy traders store produce that spoils in heat, and a reading from each cold room and chiller shows the hour a unit began to warm during a power cut.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine stockists supply chemists across the Krishna and Godavari districts from back rooms near the markets, and a dated log answers a buyer who asks how a pack was held.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Large hospitals and a medical college hold blood units and vaccines for patients from several districts, and an alert to the duty staff covers the minutes between a mains failure and the generator.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Carriers use the city as a place to change vehicles between the north, the south and the coast, and a logger placed in a consignment records how long it stood on a platform or in a yard.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an external probe fits a market cold room or a clinic refrigerator without changing how the unit is used on a busy day.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels give a stockist or a hospital store a paired record from one device, with one probe near the door and one at the back.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger travels in a truck on the highway and reports from godowns and yards without Wi-Fi, with alerts sent to a phone.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a mango or spice trader be alerted if a cold room fails during the night?",
+                answer:
+                  "Yes. An alert goes by phone and email to the named person as soon as a reading crosses its limit, and a second contact can be set to take over if the first does not reply.",
+              },
+              {
+                question: "Can a stockist show a buyer a record for one consignment?",
+                answer:
+                  "Reports for any room and any period can be exported as PDF, Excel or CSV, so a stockist hands over the dated log for the days a consignment stood in the store.",
+              },
+              {
+                question: "Are visits possible in the crowded lanes of Autonagar and the markets?",
+                answer:
+                  "Yes. Tell us the lane, the unit and a person to meet, and we plan a quiet hour. Narrow roads and limited parking are worth mentioning when you write.",
+              },
+              {
+                question: "Who calibrates loggers used in a Vijayawada hospital?",
+                answer:
+                  "Loggers and probes used in a hospital can be calibrated through VEGA Calibrations, our parent company, with the date fixed alongside the supply order.",
+              },
+            ],
+            nearby: [
+              { slug: "guntur", name: "Guntur" },
+              { slug: "kakinada", name: "Kakinada" },
+              { slug: "visakhapatnam", name: "Visakhapatnam" },
+            ],
+            metaTitle: "Temperature Data Loggers in Vijayawada | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Vijayawada's markets, Autonagar workshops, hospitals and junction goods sheds. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "guntur",
+            name: "Guntur",
+            type: "city",
+            intro:
+              "Guntur lies in the fertile Krishna delta country of Andhra Pradesh and is known across India as the city of chilli, and a temperature data logger here protects crops that are traded, graded and stored in great quantity. Dried red chilli arrives at the big market yard each season and is held in cold stores until the grower is ready to sell, tobacco is auctioned and processed in the belt around the city, cotton goes to ginning and spinning mills, and rice mills handle the paddy. A state university, a government medical college and its large hospital, and the Amaravati region close by add laboratories and clinics. Prithvi supplies WiFi loggers for rooms with a network and GSM loggers for trucks, yards and outlying cold stores.",
+            climateAngle:
+              "The delta is hot and humid, the monsoon and cyclone rains bring damp and floods and the cold stores run hardest in the hottest months, so a chilli store that held its range in March can fail in the heavy air of September.",
+            areas: [
+              {
+                name: "Chilli market yard and cold stores",
+                note: "Sacks of dried chilli are traded in the market yard and then held for months in large cold stores, where a door left open or a failed compressor can lose stock worth a season.",
+              },
+              {
+                name: "Tobacco and cotton belt",
+                note: "Warehouses and processing sheds around the city handle tobacco leaf and cotton bales, which absorb moisture and need dry air through the damp weeks.",
+              },
+              {
+                name: "Spinning and rice mills",
+                note: "Mills on the edges of the city spin cotton yarn and hull rice, with humid mill halls and grain godowns that must be kept dry.",
+              },
+              {
+                name: "Hospital and college district",
+                note: "A government hospital, private hospitals and a university campus hold blood, vaccines and laboratory samples in refrigerators that serve several districts.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Chilli exporters, spice grinders and rice millers hold stock whose colour, pungency and moisture depend on dry, cool storage, and a record from each cold store shows a buyer how a lot was kept.",
+              },
+              {
+                slug: "textile",
+                sentence:
+                  "Cotton ginners and spinners keep bales and yarn in sheds where humidity affects both the fibre and the machines, and a trend from several points shows where a hall drifted.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Teaching and private hospitals hold blood units and vaccines for patients from the delta districts, and an alert on a phone means a failing refrigerator is noticed in the night.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Carriers move chilli, cotton and rice to ports and markets across the country, and a logger in the consignment records the heat and damp it met on the road.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels spread over a large chilli cold store at several heights and positions, so one report shows whether the cold reaches the back and the top of the stacks.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a tobacco warehouse or a cotton shed, where heavy air in the damp weeks is what harms the stock.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "A logger with its own display lets a cold-store supervisor read the temperature on the walk-round, while the dashboard keeps the full record.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How can a logger protect chilli held in a Guntur cold store?",
+                answer:
+                  "It records temperature and humidity at several points in the chamber and sends an alert if a reading crosses a limit, so a failed compressor or an open door is caught before the stock is affected.",
+              },
+              {
+                question: "Can an owner of several cold stores watch them all from one phone?",
+                answer:
+                  "Yes. Each store is a site on one account with its own alert contacts, and the owner sees every chamber in one list and can export a report for any store and any period.",
+              },
+              {
+                question: "Do you work in the mill and godown areas outside the city?",
+                answer:
+                  "Give us the place, the unit and a person to meet using the enquiry form, WhatsApp or a call, and we propose a date. Sites in different directions are planned in one sequence.",
+              },
+              {
+                question: "Can calibration be arranged for a Guntur hospital laboratory?",
+                answer:
+                  "Yes. VEGA Calibrations, our parent company, carries out the calibration, and the booking can be made together with the logger order.",
+              },
+            ],
+            nearby: [
+              { slug: "vijayawada", name: "Vijayawada" },
+              { slug: "nellore", name: "Nellore" },
+            ],
+            metaTitle: "Temperature Data Loggers in Guntur | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Guntur's chilli cold stores, tobacco and cotton godowns, mills and hospitals. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "tirupati",
+            name: "Tirupati",
+            type: "city",
+            intro:
+              "Tirupati is the pilgrim city at the foot of the Tirumala hills, and a temperature data logger here serves a city of hospitality, learning, health care and fast-growing industry. Devotees climb to the Venkateswara temple all year, so hotels, lodges, canteens and food stalls cook at huge volume. A university, a medical institute and a large government hospital fill the city with laboratories and pharmacies, and the industrial areas toward Renigunta, the airport and Srikalahasti hold electronics, appliance and food firms in an official electronics cluster. Hotels and travel firms in the town handle visitors from every state, and Chittoor district is also known for mango pulp. Prithvi supplies WiFi loggers for kitchens, labs and rooms with a network and GSM loggers for vehicles and distant stores.",
+            climateAngle:
+              "Summers are very hot and dry, the north-east monsoon brings rain in the late months, and the hills hold cooler, damper air, so stores see heat in May and damp in November.",
+            areas: [
+              {
+                name: "Pilgrim hotels and canteens",
+                note: "Lodges, hotels and canteens around the town and at the foot of the hills cook for many thousands of visitors each day, from walk-in coolers and dry stores.",
+              },
+              {
+                name: "Medical institute and university belt",
+                note: "Laboratories, a teaching hospital and university campuses hold samples, vaccines and reagents in fridges and cabinets that need their own limits.",
+              },
+              {
+                name: "Renigunta and the electronics cluster",
+                note: "Estates near the airport and toward Srikalahasti hold electronics, appliance and component makers on large plots, with stores of boards and sealed assemblies.",
+              },
+              {
+                name: "Mango pulp and food units",
+                note: "Processing units in the district turn the mango harvest into pulp and packed food, with cold rooms and drums held through the hot weeks.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Canteens, caterers and mango-pulp units run cold rooms and chillers at high volume, and an alert to the supervisor matters most on a festival day when a walk-in door is opened every minute.",
+              },
+              {
+                slug: "electronics",
+                sentence:
+                  "Makers of electronic goods store boards, sensors and assemblies in rooms where damp causes faults, and a humidity trend shows a quality team when a store drifted.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A teaching hospital and private hospitals serve patients from several districts, and an alert on a phone means a failing vaccine or blood refrigerator is noticed at night.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "University and institute laboratories keep samples and reagents in freezers and cabinets with their own limits, and an exported log is ready for a research review.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an external probe fits a canteen walk-in or a laboratory freezer and keeps a quiet, continuous record.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity and temperature at one point suit an electronics store or a pulp cold room, where damp air is what harms the stock.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger rides in a vehicle or reports from a distant factory store without Wi-Fi, and sends an alert to a phone.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a hotel or canteen be alerted if a walk-in fails during a festival rush?",
+                answer:
+                  "Yes. An alert goes by phone and email to the engineer on duty the moment the cooler crosses its limit, and a second person can be set to take over if there is no response.",
+              },
+              {
+                question: "Do you cover the electronics estates toward Renigunta as well as the town?",
+                answer:
+                  "Write to us with the estate, the plant and a person to meet through the enquiry form, WhatsApp or a call, and we fix a day. Plants usually register visitors, so mention any pass you need.",
+              },
+              {
+                question: "Can one account cover a plant near Tirupati and another in Tamil Nadu?",
+                answer:
+                  "Yes. Each plant is a site with its own alert contacts, so a head of operations sees both states in one list and can export a report for any period.",
+              },
+              {
+                question: "Who calibrates loggers used in a Tirupati hospital?",
+                answer:
+                  "Calibration of loggers and probes is carried out by VEGA Calibrations, our parent company, and the date can be fixed together with the supply.",
+              },
+            ],
+            nearby: [
+              { slug: "sri-city", name: "Sri City" },
+              { slug: "nellore", name: "Nellore" },
+              { slug: "chennai", name: "Chennai" },
+            ],
+            metaTitle: "Temperature Data Loggers in Tirupati | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Tirupati's pilgrim kitchens, hospitals, laboratories and electronics estates. Get Solution.",
             indexable: true,
           },
         ],

@@ -101,6 +101,11 @@ export const locationContent: Record<string, LocationContent> = {
       "Temperature data loggers in Madhya Pradesh: Indore, Bhopal, Jabalpur, Gwalior, Pithampur, Ujjain and Dewas. Get Solution.",
     recommended: ["virat", "dhruva", "setu"],
   },
+  "india/andhra-pradesh": {
+    metaDescription:
+      "Temperature data loggers in Andhra Pradesh: Visakhapatnam, Vijayawada, Guntur and Tirupati's port stores, cold rooms, plants and hospitals. Get Solution.",
+    recommended: ["nakshatra", "virat", "vayu"],
+  },
   "india/west-bengal": {
     metaDescription:
       "Temperature data loggers in West Bengal: Kolkata, Howrah, Siliguri, Durgapur, Asansol, Kharagpur and Haldia. Get Solution.",
