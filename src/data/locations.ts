@@ -149,6 +149,7 @@ export const locations: LegacyLocationNode[] = [
       { slug: "manipur", text: "Imphal's valley markets, handloom trade and hospitals, reached by long hill roads and exposed to heavy summer rain." },
       { slug: "meghalaya", text: "Shillong's hill hotels, medical institute and university, with the Byrnihat industrial belt below, in cool, extremely rainy air." },
       { slug: "tripura", text: "Agartala's border-side markets, rubber and agro trade, hospitals and university, in hot humid air and heavy monsoon rain." },
+      { slug: "sikkim", text: "Gangtok's hotels, hospitals and markets and Rangpo's border gateway and pharmaceutical estates, in steep mountain country with landslide-prone roads." },
     ],
     indexable: true,
     children: [
@@ -16048,6 +16049,239 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Agartala | Prithvi",
             metaDescription:
               "WiFi and GSM temperature and humidity data loggers for Agartala's markets, border-trade godowns, hospitals and Bodhjungnagar estate. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "sikkim",
+        name: "Sikkim",
+        type: "state",
+        intro:
+          "Sikkim is a small Himalayan state of steep valleys, glaciers and terraced farms, and its storage is arranged along a single road that climbs from the Teesta. Rangpo, at the boundary with West Bengal, is the border gateway and the state's industrial entrance, with pharmaceutical and manufacturing plants on its estates, while Gangtok, the capital on its ridge, holds the hotels, hospitals and markets. The state has declared itself organic, so food and farm produce matter. Heavy monsoon rain brings landslides that close the road for days, winters are cold, and the temperature changes sharply between the valley floor and the high roads. Each place page below names its stores and the loggers we would start with.",
+        localIndustries: [
+          "Pharmaceutical manufacturing",
+          "Hospitality and tourism kitchens",
+          "Hospitals and institutes",
+          "Organic food and cardamom trade",
+        ],
+        citiesServed: ["Gangtok","Rangpo"],
+        supportNote:
+          "Supply, installation support and site visits for Sikkim sites are arranged from our Mumbai office. Tell us the town, the plant or the hotel and what the rooms hold.",
+        faqs: [
+          {
+            question: "Which Sikkim places have a page?",
+            answer:
+              "Gangtok and Rangpo each have a page. For any other Sikkim town, send us a note through the enquiry form and we confirm what can be arranged.",
+          },
+          {
+            question: "How does a landslide that closes the road affect monitoring?",
+            answer:
+              "A load can stand for days on a mountain road, so a GSM logger placed with the goods records every hour of the wait, keeps its readings in memory without signal and sends them when coverage returns.",
+          },
+          {
+            question: "Why would an organic-farming state need temperature records?",
+            answer:
+              "Produce, cardamom and dairy goods lose quality in warm or damp stores, and a record of conditions from the farm store to the market shows a buyer how the goods were kept.",
+          },
+        ],
+        listing: [
+          { slug: "gangtok", text: "The ridge-top capital of hotels, hospitals, markets and trade routes to Siliguri and the high passes, in steep, wet mountain country." },
+          { slug: "rangpo", text: "The border gateway on the Rangpo river at the Bengal boundary, with industrial estates, pharmaceutical plants and trucks waiting to climb into the state." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "gangtok",
+            name: "Gangtok",
+            type: "city",
+            intro:
+              "Gangtok is the capital of Sikkim, a city strung along a ridge in the east of the state with the snow peaks of the Kanchenjunga range on its skyline, and a temperature data logger here serves a mountain town of hotels, hospitals and trade. Visitors fill the guesthouses and restaurants around MG Marg for much of the year, the state's main government hospital and a large private medical institute serve patients from every district, and the markets of Lal Bazaar and Deorali stock food, medicines and goods that arrive on a single road from the plains. A small industrial area at Tadong holds light industry. Pakyong airport and the road to Siliguri link the city to the outside world. Prithvi supplies WiFi loggers for hotel kitchens, wards and market stores on a network and GSM loggers for mountain-road trucks and stores out of range.",
+            climateAngle:
+              "The ridge is cool and wet, mist and cloud hang over the monsoon, snow reaches the higher roads in winter, and landslides can close the road to the plains for days, so cartons, flour and fabrics absorb moisture while refrigerators work through long outages.",
+            areas: [
+              {
+                name: "MG Marg and the hotel streets",
+                note: "Hotels, cafes, bakeries and guesthouses around the pedestrian promenade run walk-in coolers and dry stores in tightly packed buildings on the slope, loaded hardest in the tourist months.",
+              },
+              {
+                name: "Lal Bazaar and Deorali",
+                note: "Wholesalers and market traders stock food, vegetables, medicines and general goods in crowded lanes, with chillers and back rooms that stay damp through the rains.",
+              },
+              {
+                name: "Hospital and medical-institute belt",
+                note: "The state's main government hospital and a large private medical institute at Tadong keep blood units, vaccines and medicines in refrigerators that serve patients from every part of Sikkim.",
+              },
+              {
+                name: "Tadong industrial area",
+                note: "A small industrial area on the lower slope holds light industry, packaging and storage units, whose sheds sit in cool, damp air.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Hotel kitchens, bakeries and organic food traders run coolers and stores in cold, wet air, and an alert to the duty engineer matters most on a crowded tourist evening or after a landslide cut.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A government hospital and a medical institute serve the whole state, and a dated record backs each shift handover for blood units, vaccines and medicines.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine distributors bring stock up the single road from the plains and supply chemists across the hills, and a logger placed with a pack records the range of conditions it met on the climb.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Carriers wait at the checkpost and on the road for days in the rains, and a GSM logger in a load shows how long goods stood in damp air before they reached the capital.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity along with temperature at one point, which is what a dry store in a damp hill hotel or a medicine godown needs in cloud and rain.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A one-probe logger fits a hotel walk-in or a clinic refrigerator on a steep street and does nothing to change how staff use the unit.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a truck on the mountain road and keeps recording where signal fades, sending the readings once coverage returns.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Gangtok hotel be alerted if a cooler fails during the tourist season?",
+                answer:
+                  "Yes. As soon as a cooler passes its limit, the duty engineer or manager gets a phone and email alert, and a second person is set to take over if the first does not answer.",
+              },
+              {
+                question: "Why use a humidity logger in a cold place?",
+                answer:
+                  "The danger on a wet ridge is moisture, not heat. Flour, cartons and fabrics absorb damp in cold stores too, and a humidity trend shows the day a store began to take on water.",
+              },
+              {
+                question: "How are visits planned when the road can close?",
+                answer:
+                  "Tell us the hotel or the plant, the rooms and a contact through the enquiry form, WhatsApp or a call, and we plan the trip around the season and the state of the road, keeping a day in hand for delays.",
+              },
+              {
+                question: "Can calibration for a Gangtok hospital laboratory be arranged?",
+                answer:
+                  "VEGA Calibrations, our parent company, can calibrate loggers and probes, and the date can be fixed with the supply order.",
+              },
+            ],
+            nearby: [
+              { slug: "rangpo", name: "Rangpo" },
+              { slug: "siliguri", name: "Siliguri" },
+            ],
+            metaTitle: "Temperature Data Loggers in Gangtok | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Gangtok's hotel kitchens, hospitals, market stores and mountain-road loads. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "rangpo",
+            name: "Rangpo",
+            type: "city",
+            intro:
+              "Rangpo is the gateway town of Sikkim, on the Rangpo river at the boundary with West Bengal, and a temperature data logger here serves the first place that goods and visitors reach on the road into the state. Trucks stop at the checkpost, travellers have their permits checked, and traffic splits toward Gangtok and the other valleys. The Rangpo industrial estate, with the nearby area of Majhitar, holds the state's pharmaceutical plants and a distillery, a beverage unit and packaging firms, and a university campus stands at Majhitar. Hospitals and clinics serve the town and the surrounding villages in the valley. Prithvi supplies WiFi loggers for plants and clinics with a network and GSM loggers for trucks and stores out of range.",
+            climateAngle:
+              "The river valley is warmer than the ridge above, the monsoon is very heavy and slides close the road, and cold nights come in winter, so a plant store can be warm and damp in the same week that a lorry waits in the mist.",
+            areas: [
+              {
+                name: "Rangpo industrial estate",
+                note: "An estate beside the river holds pharmaceutical plants, a distillery, beverage bottling and packaging firms, with raw-material rooms and finished-goods stores that need written records.",
+              },
+              {
+                name: "Majhitar and the university campus",
+                note: "A neighbouring pocket holds further pharmaceutical units and a university campus whose laboratories keep samples and reagents in fridges and cabinets.",
+              },
+              {
+                name: "Checkpost and truck halt",
+                note: "Trucks wait at the boundary for checks and for the road to open, so goods stand in vehicles in warm, damp air, sometimes for days.",
+              },
+              {
+                name: "Bazaar, clinics and the river road",
+                note: "Shops, wholesalers and clinics along the main road stock food and medicines for the town and nearby villages, with fridges and stock rooms in small buildings.",
+              },
+            ],
+            industries: [
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Formulation plants hold ingredients and finished packs in controlled rooms, and a continuous log of temperature and humidity supports each batch file and any customer audit.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Beverage bottlers, distillers and packaged-food firms hold stock that suffers in warm river air, and an alert on a phone reaches the owner when a store or chiller drifts.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "Plant and university laboratories keep samples, cultures and reagents in freezers and fridges with their own limits, and an exported log supports a research file or an inspection.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Carriers load and wait at the gateway for the road into the mountains, and a GSM logger placed in a load records every hour the goods stood at the checkpost.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels let a pharmaceutical store be read near the door and near the back wall by one device, which shows whether the damp has reached the far shelves.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a raw-material room or a packaging store beside the river, where warm damp air is the danger.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a lorry waiting at the checkpost or climbing the mountain road, and sends an alert to a phone.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Rangpo plant give a customer a record of its raw-material store?",
+                answer:
+                  "Yes. A report for any room and period can be exported as PDF, Excel or CSV and sent to the customer, and access can be limited so each party sees only its own rooms.",
+              },
+              {
+                question: "How does a logger help when trucks wait at the boundary for days?",
+                answer:
+                  "A GSM logger placed in the load records temperature and humidity through the wait, so the owner and the buyer can see how long the goods stood and in what conditions.",
+              },
+              {
+                question: "Can plants in Rangpo and Siliguri be watched on one dashboard?",
+                answer:
+                  "Each site is a point on the same account with its own alert contacts, and a manager sees stores on both sides of the state line in a single list.",
+              },
+              {
+                question: "Who calibrates loggers used in a Rangpo plant laboratory?",
+                answer:
+                  "Our parent company, VEGA Calibrations, calibrates loggers and maps the temperature of stores, and for a Rangpo plant this can be arranged with the first supply and visit.",
+              },
+            ],
+            nearby: [
+              { slug: "gangtok", name: "Gangtok" },
+              { slug: "siliguri", name: "Siliguri" },
+            ],
+            metaTitle: "Temperature Data Loggers in Rangpo | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Rangpo's pharma estate, bottling plants, checkpost loads and clinics. Get Solution.",
             indexable: true,
           },
         ],
