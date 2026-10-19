@@ -9596,20 +9596,20 @@ export const locations: LegacyLocationNode[] = [
         name: "Madhya Pradesh",
         type: "state",
         intro:
-          "Madhya Pradesh sits at the middle of the country, and our pages follow its main centres: Indore, the commercial capital of snack makers, pharmaceutical plants and wholesale godowns; Bhopal, the capital with its hospitals, institutions and the Mandideep estate; Jabalpur, with defence works and pulse godowns; and Gwalior, where the Malanpur estate meets the highway and the rail line to Delhi. Summer heat builds slowly and the monsoon arrives with real weight, so a store that held its range in April can fail an inspection in June. The pages below take each city in turn, with its estates, its stores and the loggers that suit them.",
+          "Madhya Pradesh sits at the middle of the country, and our pages follow its main centres: Indore, the commercial capital of snack makers, pharmaceutical plants and wholesale godowns; Bhopal, the capital with its hospitals, institutions and the Mandideep estate; Jabalpur, with defence works and pulse godowns; Gwalior, where the Malanpur estate meets the highway and the rail line to Delhi; and the Malwa towns of Pithampur, Dewas and Ujjain. Summer heat builds slowly and the monsoon arrives with real weight, so a store that held its range in April can fail an inspection in June. The pages below take each city in turn, with its estates, its stores and the loggers that suit them.",
         localIndustries: [
           "Food processing",
           "Pharmaceutical manufacturing",
           "Automotive and engineering",
         ],
-        citiesServed: ["Indore", "Bhopal", "Jabalpur", "Gwalior"],
+        citiesServed: ["Indore", "Bhopal", "Jabalpur", "Gwalior", "Pithampur", "Ujjain", "Dewas"],
         supportNote:
           "Supply, installation support and site visits for Madhya Pradesh plants are arranged from our Mumbai office. Send the estate and the stores in question.",
         faqs: [
           {
             question: "Which Madhya Pradesh locations have a page?",
             answer:
-              "Indore has a city page covering Pithampur, Sanwer Road and the food processors, and Bhopal, Jabalpur and Gwalior each have a city page of their own. A site elsewhere in the state can be raised through the enquiry form.",
+              "Indore has a city page covering Pithampur, Sanwer Road and the food processors, and Bhopal, Jabalpur, Gwalior, Pithampur, Ujjain and Dewas each have a city page of their own. A site elsewhere in the state can be raised through the enquiry form.",
           },
           {
             question: "Why watch humidity in a food store?",
@@ -9627,6 +9627,9 @@ export const locations: LegacyLocationNode[] = [
           { slug: "bhopal", text: "The capital of lakes and hospitals, with a national medical institute, laboratories, Govindpura workshops and the Mandideep pharmaceutical and food estate." },
           { slug: "jabalpur", text: "A Narmada-side city of defence factories, a rail junction, pulse and rice godowns and the Richhai and Adhartal industrial areas." },
           { slug: "gwalior", text: "A fort city on the Agra to Mumbai road and the Delhi rail line, with Malanpur and Banmore estates, dairies and highway godowns." },
+          { slug: "pithampur", text: "A planned factory belt west of Indore with vehicle, component, pharmaceutical and engineering plants on wide campuses and contract warehouses." },
+          { slug: "ujjain", text: "The temple city on the Kshipra, with pilgrim sweet and flower trades, soybean and grain mills, an Indore road estate and the Nagda works." },
+          { slug: "dewas", text: "An industrial town on the Agra to Mumbai road between Indore and Ujjain, with auto-part, chemical and food plants and highway yards." },
         ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,
@@ -10012,6 +10015,297 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Gwalior | Prithvi",
             metaDescription:
               "WiFi and GSM temperature and humidity data loggers for Gwalior's Malanpur plants, dairies, laboratories and highway godowns. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "pithampur",
+            name: "Pithampur",
+            type: "city",
+            intro:
+              "Pithampur is a large industrial town in Dhar district on the plateau west of Indore, planned around its factory sectors, and a temperature data logger here serves one of the busiest manufacturing belts in central India. Automotive and auto-component makers, engineering plants, pharmaceutical and healthcare firms, textile and packaging works and consumer-goods plants stand on big plots in the sectors, with warehouses and transport yards along the roads between them. Workers travel in from Indore and from villages around, trucks carry parts and finished goods in both directions, and campuses are so wide that a store can be a long walk from the nearest office. Prithvi supplies WiFi loggers for halls with a network and GSM loggers for trucks, yards and distant stores.",
+            climateAngle:
+              "The plateau is hot and dry before the rains, the monsoon is heavy and winter nights are cool, so a plant store that is parched in May can be damp in August and a roof-high rack runs far hotter than the floor.",
+            areas: [
+              {
+                name: "Pithampur industrial sectors",
+                note: "The planned sectors of the main estate hold vehicle and component plants, engineering works and packaging firms on large plots, with stores and quality rooms spread across wide campuses.",
+              },
+              {
+                name: "Special economic zone and pharma plants",
+                note: "Pharmaceutical and healthcare manufacturers work in a separate zone where raw-material rooms and finished-goods stores need records that a customer or an inspector can read.",
+              },
+              {
+                name: "Warehousing and transport yards",
+                note: "Third-party warehouses and truck yards along the roads from Indore hold parts, packed goods and food for several customers at once, with bays that open to the afternoon sun.",
+              },
+              {
+                name: "Worker towns and suppliers around the estate",
+                note: "Small suppliers, food caterers and clinics in the settlements near the sectors keep canteen coolers and medicine fridges that serve the shift workers.",
+              },
+            ],
+            industries: [
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Formulation plants hold ingredients, intermediates and finished packs in controlled rooms, and a continuous log of temperature and humidity supports each batch record and any customer audit.",
+              },
+              {
+                slug: "electronics",
+                sentence:
+                  "Component and electrical makers store boards, sensors and sealed assemblies where damp causes faults, and a humidity trend shows a quality team when a store drifted outside its limits.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Canteen kitchens, caterers and packaged-food makers cook for large shifts from walk-in coolers that are opened constantly, and an alert on a phone reaches the supervisor when one warms.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Contract warehouses hold goods for several customers in one shed, and a separate reading for each bay lets the operator export a report for the customer whose goods stood there.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels cover a tall warehouse or a long plant store at several heights and dock doors, so one report shows where the afternoon heat gathers under the roof.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels give a quality team a paired record from a single device, such as one probe at the door and one at the back of a pharmaceutical store.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger with an external probe rides in a truck and reports from distant sheds and yards without Wi-Fi, with alerts sent to a phone.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a logistics operator in Pithampur give each customer a report for its own bay?",
+                answer:
+                  "Yes. Each bay is a point on the dashboard with its own alert recipients, and a report for that bay and period can be exported as PDF, Excel or CSV for the customer whose goods stood there.",
+              },
+              {
+                question: "How are visits planned for a plant on a wide campus?",
+                answer:
+                  "Tell us the sector, the plant and a contact who will meet us at the gate through the enquiry form, WhatsApp or a call. Plants usually have visitor rules, so mention passes and safety briefings, and we plan the route between stores.",
+              },
+              {
+                question: "Can Pithampur and Indore sites be watched together?",
+                answer:
+                  "Yes. Every plant, store and godown is a site on one account with its own alert contacts, so a head of operations sees the estate and the city in one list.",
+              },
+              {
+                question: "Who calibrates loggers used in a Pithampur pharmaceutical store?",
+                answer:
+                  "VEGA Calibrations, our parent company, can calibrate the loggers and carry out temperature mapping of the store, and the work can be planned with the first visit.",
+              },
+            ],
+            nearby: [
+              { slug: "indore", name: "Indore" },
+              { slug: "dewas", name: "Dewas" },
+              { slug: "ujjain", name: "Ujjain" },
+            ],
+            metaTitle: "Temperature Data Loggers in Pithampur | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Pithampur's automotive, pharma and engineering plants and contract warehouses. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "ujjain",
+            name: "Ujjain",
+            type: "city",
+            intro:
+              "Ujjain is an ancient city on the Kshipra river in the Malwa region, and a temperature data logger here serves a place where pilgrimage, farming and industry share the same lanes. Devotees come all year to the Mahakaleshwar temple, and every twelve years the Simhastha fair fills the city, so sweet makers, flower sellers, caterers, guesthouses and dharamshalas work at great volume. The surrounding plains grow soybean, wheat and gram, which supports oil mills, grain dealers and the produce market. Industrial areas on the Indore road and the works at Nagda, on the Chambal, add chemical and fibre manufacture to the city's trades. Prithvi supplies WiFi loggers for shops and wards with a network and GSM loggers for trucks, mills and distant godowns.",
+            climateAngle:
+              "Summers are hot and dry, the monsoon is heavy and winter mornings are cold, so oilseed and grain stores fight damp in the rains while sweet makers and hotels fight heat for much of the year.",
+            areas: [
+              {
+                name: "Temple lanes and pilgrim kitchens",
+                note: "Sweet makers, flower sellers, prasad shops and caterers around the temple work in narrow lanes, with chillers and stock rooms in old buildings that are opened all day on festival days.",
+              },
+              {
+                name: "Indore road industrial area",
+                note: "An estate on the road toward Indore with food makers, engineering workshops, packaging firms and godowns, where road access is easy and sheds heat up under metal roofs.",
+              },
+              {
+                name: "Nagda",
+                note: "An industrial town in the district, on the Chambal, with chemical and fibre works and the stores that serve them, where bagged material and drums are held on large campuses.",
+              },
+              {
+                name: "Produce market and oil mills",
+                note: "Traders in the market handle soybean, wheat and gram, and mills press and refine oil, with sacks and tins stored in godowns where the monsoon brings damp.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Sweet makers, caterers and edible-oil refiners store ingredients and finished stock that spoil in heat, and a record from each chiller and store shows when a unit failed during a festival rush.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Chemical and fibre works keep drums, bagged material and reagents with printed storage limits, and an alert from a hot shed lets the storekeeper act before material is spoiled.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals and clinics serve patients and pilgrims from far away, and an alert on a phone means a failing vaccine refrigerator is noticed in the night and not at the morning round.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Carriers and godown operators move grain, oil and packed food by road to Indore and beyond, and a logger in the consignment records how long it stood in a yard in the sun.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a grain godown or an oil store, where damp air in the monsoon is what spoils the stock.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an external probe fits a sweet-shop chiller or a clinic fridge and keeps a quiet, continuous record.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger reports from a truck or a mill godown without Wi-Fi and sends an alert to a phone when a reading drifts.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a sweet maker near the temple be alerted if a chiller fails on a festival night?",
+                answer:
+                  "Yes. An alert by phone and email goes to the named person the moment a chiller rises above its limit, and a second contact can be set to follow if the first does not answer.",
+              },
+              {
+                question: "How does a logger help an oil mill or grain dealer in Ujjain?",
+                answer:
+                  "A record of temperature and humidity in the godown shows when damp began to reach the sacks, so the staff can cover, dry or move stock, and the record can be shown to a buyer.",
+              },
+              {
+                question: "Do you visit the Indore road estate and Nagda as well as the city?",
+                answer:
+                  "Send the place, the unit and a contact through the enquiry form, WhatsApp or a call, and we confirm how a visit would be arranged. The two lie in different directions, so we plan them in sequence.",
+              },
+              {
+                question: "Can calibration for a hospital laboratory in Ujjain be arranged?",
+                answer:
+                  "VEGA Calibrations, our parent company, handles calibration of loggers and probes, and the work can be booked together with the supply.",
+              },
+            ],
+            nearby: [
+              { slug: "dewas", name: "Dewas" },
+              { slug: "indore", name: "Indore" },
+              { slug: "pithampur", name: "Pithampur" },
+            ],
+            metaTitle: "Temperature Data Loggers in Ujjain | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Ujjain's temple-town kitchens, oil mills, grain godowns and Nagda works. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "dewas",
+            name: "Dewas",
+            type: "city",
+            intro:
+              "Dewas is an industrial town on the Agra to Mumbai road, between Indore and Ujjain, and a temperature data logger here serves a belt where factories, farms and the highway meet. Industrial areas on the roads to Indore and Ujjain hold makers of auto parts, pharmaceutical products, chemicals and packaged food, and the plains around grow soybean and wheat for the mills and the produce market. A security printing press and a hill-top temple are among the town's landmarks. Because the town sits on the highway and close to two larger cities, trucks stop and load here all day, and many firms keep a plant in Dewas and an office in Indore. Prithvi supplies WiFi loggers for halls with a network and GSM loggers for trucks and godowns.",
+            climateAngle:
+              "Heat on the plateau builds through the spring, the monsoon brings damp that tests grain and chemical stores, and winter nights are cool, so a plant store faces dry heat, damp and cold in turn each year.",
+            areas: [
+              {
+                name: "Industrial areas on the Indore side",
+                note: "Estates toward Indore hold auto-part makers, engineering works and packaging firms on regular plots, with godowns whose bays open to the sun while trucks are loaded.",
+              },
+              {
+                name: "Industrial areas on the Ujjain side",
+                note: "Factories toward Ujjain make food products, chemicals and building material, and their stores of bags and drums stand in sheds that bake before the rains.",
+              },
+              {
+                name: "Highway stops and transport yards",
+                note: "Yards beside the Agra to Mumbai road see trucks halt to load, rest and change drivers, and goods often wait in vehicles in the afternoon heat.",
+              },
+              {
+                name: "Produce market and mills",
+                note: "Traders and mills handle soybean, wheat and pulses in godowns around the market, where damp in the monsoon is the main threat to stored sacks.",
+              },
+            ],
+            industries: [
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmaceutical and healthcare firms hold ingredients and finished packs in controlled rooms, and a dated log answers a customer's audit without a search through paper.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Chemical makers keep bagged material and drums whose labels print storage limits, and an alert from a hot store room lets the storekeeper act before the limit is passed.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Packaged-food makers and edible-oil refiners hold ingredients and cartons that suffer in heat and damp, and an alert on a phone reaches the owner on a holiday.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Carriers on the highway move goods between Indore, Ujjain and the north, and a logger placed in a consignment records how long it stood in a yard or on a dock.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels let a quality team watch a pharmaceutical or chemical store at two heights at once, one near the door and one near the roof.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity along with temperature at one point tells a grain godown or a packaging store when the monsoon has overcome its seals.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger with an external probe rides in a truck on the highway and reports from yards that have no network of their own.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a firm with a plant in Dewas and an office in Indore see both on one dashboard?",
+                answer:
+                  "Yes. Each plant and store is a site on the same account with its own alert contacts, so a manager at the office sees the plant in a single list and can export a report for any period.",
+              },
+              {
+                question: "Do you visit the estates on both sides of the town?",
+                answer:
+                  "Send the estate, the unit and a contact through the enquiry form, WhatsApp or a call, and we confirm how a visit would be arranged. Estates toward Indore and toward Ujjain are usually planned in one sequence.",
+              },
+              {
+                question: "How can a transporter show how a Dewas load was kept?",
+                answer:
+                  "A GSM logger placed with the goods records the reading on the road, and the owner can open the journey on a phone and export the record for the buyer.",
+              },
+              {
+                question: "Who handles calibration of loggers used in a Dewas plant?",
+                answer:
+                  "VEGA Calibrations, our parent company, can calibrate the loggers and probes, and the work can be arranged together with the supply.",
+              },
+            ],
+            nearby: [
+              { slug: "indore", name: "Indore" },
+              { slug: "ujjain", name: "Ujjain" },
+              { slug: "pithampur", name: "Pithampur" },
+            ],
+            metaTitle: "Temperature Data Loggers in Dewas | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Dewas's auto-parts, pharma and chemical plants, mills and highway godowns. Get Solution.",
             indexable: true,
           },
         ],
