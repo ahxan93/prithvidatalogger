@@ -13307,21 +13307,21 @@ export const locations: LegacyLocationNode[] = [
         name: "Odisha",
         type: "state",
         intro:
-          "Odisha runs along the Bay of Bengal from the Mahanadi delta to the mineral-rich western plateau, and its storage divides in the same way. On the coast, Bhubaneswar and Cuttack hold hospitals, institutes, markets and small industrial estates, while ports and refineries line the shore at Paradip. Inland, Rourkela's steel town and the mining and power country around Jharsuguda hold heavy industry with long supply chains. The coast is hot, humid and exposed to cyclones, the plateau is scorching in summer and cold on winter nights, and the monsoon is heavy everywhere. Cold rooms, chemical stores and hospital refrigerators must therefore cope with storms and outages as well as simple heat. The page for each city describes its stores and suggests matching loggers.",
+          "Odisha runs along the Bay of Bengal from the Mahanadi delta to the mineral-rich western plateau, and its storage divides in the same way. On the coast, Bhubaneswar and Cuttack hold hospitals, institutes, markets and small industrial estates, while a port, a refinery and fertiliser works line the shore at Paradip. Inland, Rourkela's steel town and the mining and power country around Jharsuguda hold heavy industry with long supply chains. The coast is hot, humid and exposed to cyclones, the plateau is scorching in summer and cold on winter nights, and the monsoon is heavy everywhere. Cold rooms, chemical stores and hospital refrigerators must therefore cope with storms and outages as well as simple heat. The page for each city describes its stores and suggests matching loggers.",
         localIndustries: [
           "Steel, aluminium and power works",
           "Ports, refinery and fertiliser stores",
           "Hospitals and institutions",
           "Food and seafood processing",
         ],
-        citiesServed: ["Bhubaneswar", "Cuttack", "Rourkela"],
+        citiesServed: ["Bhubaneswar", "Cuttack", "Rourkela", "Paradip", "Jharsuguda"],
         supportNote:
           "Supply, installation support and site visits for Odisha sites are arranged from our Mumbai office. Tell us the city, the estate or the plant and what the rooms hold.",
         faqs: [
           {
             question: "Which Odisha locations have a page?",
             answer:
-              "Bhubaneswar, Cuttack and Rourkela each have a city page. A site in another town of the state can be raised by writing to us through the enquiry form.",
+              "Bhubaneswar, Cuttack, Rourkela, Paradip and Jharsuguda each have a city page. A site in another town of the state can be raised by writing to us through the enquiry form.",
           },
           {
             question: "Why plan for a cyclone when choosing a logger?",
@@ -13338,6 +13338,8 @@ export const locations: LegacyLocationNode[] = [
           { slug: "bhubaneswar", text: "The temple capital of hospitals, institutes and technology parks, with Mancheswar, Rasulgarh and Chandaka estates in hot humid coastal air." },
           { slug: "cuttack", text: "The old twin city on the Mahanadi, with silver filigree workshops, wholesale markets, a teaching hospital and the Choudwar and Jagatpur estates." },
           { slug: "rourkela", text: "A steel town of the western plateau with planned sectors, a technology institute, a large works hospital and ancillary estates." },
+          { slug: "paradip", text: "The deepwater port at the Mahanadi mouth, with a refinery, fertiliser sheds, dock warehouses and a fishing harbour in cyclone-prone, salty air." },
+          { slug: "jharsuguda", text: "A rail and coal-country town of aluminium and power works, sponge-iron firms and neighbouring glass and refractory towns." },
         ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,
@@ -13628,6 +13630,198 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Rourkela | Prithvi",
             metaDescription:
               "WiFi and GSM temperature and humidity data loggers for Rourkela's steel-works stores, Kalunga estate, laboratories and hospitals. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "paradip",
+            name: "Paradip",
+            type: "city",
+            intro:
+              "Paradip is the deepwater port of Odisha, at the mouth of the Mahanadi in Jagatsinghpur district, and a temperature data logger here serves a coast of docks, refineries and chemical works. The port handles coal, iron ore, fertiliser, crude oil and containers, a large refinery stands beside it, and a phosphatic fertiliser plant and other chemical firms hold bagged and liquid cargo in sheds and tanks. A fishing harbour and dry-fish yards add a seafood trade, and a township houses the workforce of the port and the plants. The coast was struck by a catastrophic cyclone in 1999 and storms still shape every plan for storage. Prithvi supplies WiFi loggers for rooms with a network and GSM loggers for lorries, quays and distant stores.",
+            climateAngle:
+              "The air is hot, salty and very humid, the monsoon is heavy and cyclones come off the Bay of Bengal in the post-monsoon weeks, so metal rusts fast, bagged cargo takes on moisture and power cuts follow every major storm.",
+            areas: [
+              {
+                name: "Dock complex and port warehouses",
+                note: "Sheds, yards and tank farms near the berths hold bagged fertiliser, packed goods and containers that wait days for a vessel, in salty air that attacks metal and packaging.",
+              },
+              {
+                name: "Refinery and chemical works",
+                note: "The refinery and its neighbours keep stores of spares, instruments, reagents and drummed material on wide campuses, with rooms far from any office and strict access rules.",
+              },
+              {
+                name: "Fertiliser plant stores",
+                note: "Bagged fertiliser and raw material are stacked in large sheds that heat in summer and take damp in the rains, and a failed ventilation system can go unnoticed for days.",
+              },
+              {
+                name: "Fishing harbour and township",
+                note: "Boats land fish for ice plants and dry-fish yards, while the township's clinics, canteens and shops keep medicine fridges and kitchen coolers running.",
+              },
+            ],
+            industries: [
+              {
+                slug: "chemical",
+                sentence:
+                  "Refinery, fertiliser and chemical works keep bags, drums and laboratory reagents with printed storage limits, and an alert from a hot shed lets the storekeeper act before the limit is crossed.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Port warehouses and carriers hold cargo while it waits for a ship, a rake or a truck, and a logger placed among the goods records the heat and salt-laden damp it met on the quay.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Fish processors, ice plants and township caterers hold stock that spoils quickly in coastal heat, and a record for each cold room shows when a unit began to fail.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "Plant and testing laboratories keep samples and reagents in fridges and cabinets with their own limits, and an exported log is ready for an audit.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity and temperature at one point suit a port godown or a fertiliser shed, where salty damp air is what harms bagged cargo.",
+              },
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels spread over a long quay shed or a plant store give one report for every bay and shelf level, showing which corner holds the heat and the moisture.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger rides in a lorry or reports from a quay-side store beyond any router, and sends an alert to a phone.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How does salty air change where a logger is fitted at Paradip?",
+                answer:
+                  "Near the sea we mount the logger body inside, clear of spray and wet walls, let only the probe lead enter the cold room, and recommend a wipe of the probe whenever the room is cleaned.",
+              },
+              {
+                question: "Can a logger show how bagged cargo was kept while it waited at the quay?",
+                answer:
+                  "Yes. A logger left among the bags records temperature and humidity through the wait, and the report for those dates can be exported for the shipper or the buyer.",
+              },
+              {
+                question: "What happens to monitoring when a cyclone cuts the power?",
+                answer:
+                  "Loggers run on their batteries and keep recording through the outage, then send stored readings once the network returns, and an alert for a lost mains supply goes to the named person.",
+              },
+              {
+                question: "Can calibration for a plant laboratory at Paradip be arranged?",
+                answer:
+                  "VEGA Calibrations, our parent company, handles calibration of loggers and probes, and the work can be booked together with the supply and the first visit.",
+              },
+            ],
+            nearby: [
+              { slug: "cuttack", name: "Cuttack" },
+              { slug: "bhubaneswar", name: "Bhubaneswar" },
+            ],
+            metaTitle: "Temperature Data Loggers in Paradip | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Paradip's port warehouses, fertiliser sheds, refinery stores and fish cold rooms. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "jharsuguda",
+            name: "Jharsuguda",
+            type: "city",
+            intro:
+              "Jharsuguda is a rail and industrial town in western Odisha, in the coal country of the Ib valley, and a temperature data logger here serves a district of smelters, power stations and mines. A large aluminium smelter and its captive power plants, sponge-iron works and other heavy firms stand around the town, and the junction on the Howrah to Mumbai railway line carries coal, metal and goods in every direction. A small airport connects the town to the state capital and beyond. Belpahar, close by, has long made glass and refractory goods. A medical college at Burla near the Hirakud reservoir and local hospitals serve the district. Prithvi supplies WiFi loggers for stores and wards with a network and GSM loggers for vehicles and yards.",
+            climateAngle:
+              "Summers on the western plateau are among the hottest in the state, the monsoon is heavy and winter nights are cold, so a spares store, a pharmacy or a canteen cold room faces fierce heat, damp and chill in one year.",
+            areas: [
+              {
+                name: "Smelter and power-plant stores",
+                note: "Large works keep spares, instruments, electrical panels and laboratory reagents on wide campuses, with rooms far from any office and strict rules for visitors.",
+              },
+              {
+                name: "Sponge-iron and mining-supply firms",
+                note: "Industrial firms around the town hold bagged material, drums and replacement parts in sheds that bake in summer and take damp in the rains.",
+              },
+              {
+                name: "Belpahar and Brajrajnagar",
+                note: "Neighbouring towns of glass, refractory and coal trades hold stores of raw material, finished goods and consumables, and clinics and canteens that serve the workforce.",
+              },
+              {
+                name: "Junction, markets and hospitals",
+                note: "Goods sheds at the junction, wholesalers in the town market and local hospitals hold food, medicines and parcels that wait between trains and trucks.",
+              },
+            ],
+            industries: [
+              {
+                slug: "chemical",
+                sentence:
+                  "Smelting, refractory and allied works keep bags, drums and reagents with printed storage limits, and an alert from a hot store room lets the storekeeper act before the limit is passed.",
+              },
+              {
+                slug: "electronics",
+                sentence:
+                  "Control rooms and electrical stores hold relays, boards and instruments that suffer in damp and coal dust, so a humidity trend shows when a store needs attention.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals and a medical college serve patients from the mining and farming districts, and an alert to the duty staff covers the minutes between a mains failure and the generator.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "The junction moves coal, metal and goods across the country, and a logger placed in a consignment records how long it stood in a wagon or a yard in the afternoon sun.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels let a laboratory or a hospital pharmacy be watched at two points at once, which shows whether the cold reaches the back of the room.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit an electrical store or a spares room, where dust and monsoon damp are what harm the stock.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger with an external probe rides in a vehicle or reports from a yard store beyond a router, with alerts sent to a phone.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How does extreme summer heat affect a logger in Jharsuguda?",
+                answer:
+                  "The sensor is built for wide temperature ranges, yet the body lasts longer if it hangs in shade, below the roof, with just the probe lead running into a furnace-hot store.",
+              },
+              {
+                question: "Can works with strict gate and safety rules be covered?",
+                answer:
+                  "Send the gate rules and a name to ask for by the enquiry form, WhatsApp or a call. If passes, briefings or protective gear are required, the visit is planned around them and the kit we carry is kept small.",
+              },
+              {
+                question: "Can Jharsuguda and Rourkela sites be watched on one dashboard?",
+                answer:
+                  "Yes. Each site is a point on one account with its own alert contacts, so a manager sees the whole western plateau in a single list and exports a report for any period.",
+              },
+              {
+                question: "Who calibrates loggers used in a Jharsuguda laboratory or hospital?",
+                answer:
+                  "Calibration of loggers and probes is carried out by VEGA Calibrations, our parent company, and can be arranged with the supply.",
+              },
+            ],
+            nearby: [
+              { slug: "rourkela", name: "Rourkela" },
+              { slug: "bhubaneswar", name: "Bhubaneswar" },
+            ],
+            metaTitle: "Temperature Data Loggers in Jharsuguda | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Jharsuguda's smelter and power-plant stores, junction sheds and hospitals. Get Solution.",
             indexable: true,
           },
         ],

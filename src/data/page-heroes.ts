@@ -234,6 +234,7 @@ const CITY_REGISTRY: { slug: string; region: Region }[] = [
     "rudrapur-pantnagar", "kashipur", "kotdwar",
     "silvassa", "daman", "diu",
     "bhubaneswar", "cuttack", "rourkela",
+    "paradip", "jharsuguda",
   ].map((slug) => ({ slug, region: "india" as const })),
 ];
 
@@ -285,10 +286,10 @@ const HUB_OF: Record<string, string> = Object.fromEntries([
   ].map((slug) => [slug, "uttarakhand"]),
   ...[
     "silvassa", "daman", "diu",
-    "bhubaneswar", "cuttack", "rourkela",
   ].map((slug) => [slug, "dnh-dd"]),
   ...[
     "bhubaneswar", "cuttack", "rourkela",
+    "paradip", "jharsuguda",
   ].map((slug) => [slug, "odisha"]),
   ...[
     "baddi", "solan", "parwanoo", "paonta-sahib", "una", "shimla",

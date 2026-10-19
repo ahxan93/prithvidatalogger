@@ -109,7 +109,7 @@ export const locationContent: Record<string, LocationContent> = {
   },
   "india/odisha": {
     metaDescription:
-      "Temperature data loggers in Odisha: Bhubaneswar, Cuttack and Rourkela's hospitals, markets, steel-town stores and estates. Get Solution.",
+      "Temperature data loggers in Odisha: Bhubaneswar, Cuttack, Rourkela, Paradip and Jharsuguda. Get Solution.",
     recommended: ["nakshatra", "virat", "vayu"],
   },
   "india/uttarakhand": {
