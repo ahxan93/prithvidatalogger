@@ -20485,7 +20485,7 @@ export const locations: LegacyLocationNode[] = [
           {
             question: "Which places in Dubai Emirate have a page?",
             answer:
-              "Dubai has a city page, and Jebel Ali, Dubai Investments Park, Al Quoz Industrial Area, Ras Al Khor Industrial Area, Al Qusais Industrial Area and Al Aweer have area pages under it. A district not listed here can be raised through the enquiry form.",
+              "Dubai has a city page, and Jebel Ali, Dubai Investments Park, Al Quoz Industrial Area, Ras Al Khor Industrial Area, Al Qusais Industrial Area, Al Aweer, Dubai Silicon Oasis, Dubai Industrial City, Dubai South, Dubai Logistics City, Dubai Airport Freezone and Dubai Healthcare City have area pages under it. A district not listed here can be raised through the enquiry form.",
           },
           {
             question: "Why do inland industrial districts and the coast need different logger set-ups?",
@@ -20508,6 +20508,12 @@ export const locations: LegacyLocationNode[] = [
           { slug: "ras-al-khor-industrial-area", text: "An industrial district at the head of the creek, with workshops, spare-parts shops, light industry and warehouses." },
           { slug: "al-qusais-industrial-area", text: "An industrial district in the north-east of the city, with factories, food firms, workshops and stores." },
           { slug: "al-aweer", text: "An eastern district known for its wholesale fruit and vegetable market and for industrial yards and stores." },
+          { slug: "dubai-silicon-oasis", text: "A technology-minded community in the east of the city, with offices, electronics and light industry, schools and homes on one grid." },
+          { slug: "dubai-industrial-city", text: "A planned industrial city in the south of the emirate, with plots for manufacturing, storage and distribution." },
+          { slug: "dubai-south", text: "A planned city around an airport in the south of the emirate, with aviation, logistics, commercial and residential districts." },
+          { slug: "dubai-logistics-city", text: "The logistics district inside Dubai South, laid out for warehouses, cold stores and distribution yards." },
+          { slug: "dubai-airport-freezone", text: "A free zone beside the city's main airport, with offices and warehouse units for air-related trades." },
+          { slug: "dubai-healthcare-city", text: "A healthcare district near the creek, with clinics, hospitals, laboratories and medical suppliers." },
         ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,

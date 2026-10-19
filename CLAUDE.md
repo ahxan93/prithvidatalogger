@@ -63,7 +63,7 @@ linking, SEO settings, city data and quality checks).
   pair as long as no other city in the SAME hub shows it; cities outside a hub never share a pair. `check:data` enforces it.
 
 ## Placeholder pages
-- Placeholder/dummy pages (e.g. `/blog/__placeholder__`) must be `noindex` and excluded from
+- Placeholder/dummy pages (e.g. `/blog/__gplaceholder__`) must be `noindex` and excluded from
   `sitemap.xml`.
 
 ## Design system

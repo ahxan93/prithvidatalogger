@@ -6421,7 +6421,7 @@ export const areas: AreaDef[] = [
       ],
       "services": "For a mixed park we would consider WiFi loggers for halls, kitchens and clinic rooms with a router, probe-type loggers for freezers and refrigerators, and multi-point units for long halls. VEGA Calibrations, our parent company, can talk through calibration for users in the park. A WiFi logger needs a router within range and a power supply, and for a vehicle we explain the alternatives. We make no claim on supply until a request for the park has been reviewed.",
       "visits": "No visit or installation in Dubai Investments Park is promised. Tell us the business, the rooms to be watched and a contact through the enquiry form, Call or WhatsApp, and we review the request and say what is practical.",
-      "approach": "If a request went ahead, we would start with the room holding the most sensitive stock, placing one logger by the door and one at the back, then add a unit reading humidity where doors let in the outside air. The first summer weeks would show which hours strain the room.",
+      "approach": "If a request went ahead, we would start with the room holding the most sensitive stock, placing one logger by the door and one at the back, then add a unit reading humidity where doors let in the outside air. Readings through the first weeks of summer would show when the room is under most strain.",
       "faqs": [
         {
           "question": "Can a business in a mixed park watch several rooms from one login?",
@@ -6650,6 +6650,331 @@ export const areas: AreaDef[] = [
       ],
       "nearby": [
         "al-qusais-industrial-area"
+      ],
+      "indexable": true
+    } },
+  // ------------------------------------------------------------------ UAE (batch 4: Dubai)
+  { slug: "dubai-silicon-oasis", name: "Dubai Silicon Oasis", citySlug: "dubai", areaType: "mixed-use", nearbyIndustries: ["electronics","data-centers","logistics-warehousing"], confirmedService: true, hero: ["setu","nakshatra"], page: {
+      "metaTitle": "Data Loggers in Dubai Silicon Oasis | Prithvi",
+      "metaDescription": "Data loggers for electronics stores, server rooms, labs and kitchens in Dubai Silicon Oasis, a technology community in Dubai. Get Solution.",
+      "intro": "Dubai Silicon Oasis is a technology-minded community in the east of the city, where offices, electronics and light-industry units, schools, clinics and homes share one planned grid. A temperature data logger in a community like this is concerned with equipment that dislikes heat and humidity: electronic components in stock rooms, server and network rooms, laboratories, and the kitchens and stores that serve a working population. This page is limited to the kinds of goods and rooms a logger user could look after in a technology and mixed-use community. Enquiries about Dubai Silicon Oasis are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Electronics and component stock rooms",
+          "note": "Stock rooms hold boards, sensors and batteries that suffer when summer heat is followed by a damp night, and a steady range matters more than a cool reading at noon."
+        },
+        {
+          "name": "Server and network rooms",
+          "note": "Small server and network rooms in offices depend on air-conditioning that, if it fails on a weekend, lets temperatures climb before anyone arrives."
+        },
+        {
+          "name": "Laboratories and test rooms",
+          "note": "Test benches and small laboratories keep reagents, samples and reference parts in refrigerators and conditioned rooms with limits that have to be shown to have held."
+        },
+        {
+          "name": "Restaurants, canteens and shops",
+          "note": "Kitchens and shops serving the community run walk-in coolers and display cabinets that work hardest at lunchtime and on weekend afternoons."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "electronics",
+          "sentence": "A components stockist in the community can show with a log that parts stayed within a stated range of temperature and humidity between receipt and use."
+        },
+        {
+          "slug": "data-centers",
+          "sentence": "Small server rooms in offices gain an early warning from a logger, because rising temperature is the first sign that cooling has failed."
+        },
+        {
+          "slug": "laboratories",
+          "sentence": "Test and research laboratories keep samples and reagents to set limits, and an exported report is ready whenever a review asks for one."
+        }
+      ],
+      "services": "In Silicon Oasis we would look at WiFi loggers for stock rooms, server rooms and kitchens that sit near a router, probe-type loggers for refrigerators and freezers, and units that read humidity next to temperature for electronics stores. Calibration of the loggers is something VEGA Calibrations, our parent company, can talk through with technology firms and laboratories. WiFi units depend on a router and a power supply, and for a vehicle we would set out other options. Any answer on supply comes after the request has been read.",
+      "visits": "Nothing here promises a visit or an installation in Dubai Silicon Oasis. Pass the business, the rooms and a contact to us on the enquiry form, Call or WhatsApp, and we look the request over and reply with what seems workable.",
+      "approach": "If a request went ahead, we would begin with the room whose failure would cost the most, such as a server room or a component store, placing one logger at the intake and one at the far wall, then add humidity reading where parts are stored. The first summer weeks would show how the room behaves after hours.",
+      "faqs": [
+        {
+          "question": "Why would a small server room want a temperature record?",
+          "answer": "A rise in room temperature is the first sign that cooling has failed, so a logger with a phone alert warns staff before equipment shuts down, and the log shows how long the room stood warm."
+        },
+        {
+          "question": "Do electronic parts really need humidity readings in a dry-looking climate?",
+          "answer": "Yes. Warm, damp nights follow hot days and moisture condenses on cool parts, so a humidity trend beside the temperature shows exposure that temperature alone cannot."
+        }
+      ],
+      "nearby": [
+        "dubai-industrial-city"
+      ],
+      "indexable": true
+    } },
+  { slug: "dubai-industrial-city", name: "Dubai Industrial City", citySlug: "dubai", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","food-beverage","chemical"], confirmedService: true, hero: ["veer-pro","setu"], page: {
+      "metaTitle": "Data Loggers in Dubai Industrial City | Prithvi",
+      "metaDescription": "Data loggers for factory halls, stores and cooled rooms in Dubai Industrial City, a planned industrial zone in Dubai. Get Solution.",
+      "intro": "Dubai Industrial City is a planned industrial city in the south of the emirate, laid out with wide roads and large plots for manufacturing, storage and distribution. A temperature data logger in a planned industrial city is concerned with what its plots happen to hold: raw materials waiting for production, finished goods waiting for collection, and chilled stock moving to and from the coast and the city. This page is limited to the kinds of goods and rooms a logger user could look after in an industrial city of this sort. Enquiries about Dubai Industrial City are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Factory halls and production floors",
+          "note": "Production halls hold materials and work in progress under long roofs, with one end often much warmer than the other in the afternoon."
+        },
+        {
+          "name": "Raw-material and ingredient stores",
+          "note": "Ingredients, resins, additives and components wait between receipt and use, and some carry limits that summer heat can break."
+        },
+        {
+          "name": "Finished-goods stores and distribution sheds",
+          "note": "Finished stock waits for collection in sheds with wide doors, where cool indoor air meets the heat outside every time a vehicle backs in."
+        },
+        {
+          "name": "Cooled rooms and chilled halls",
+          "note": "Chilled halls for food and healthcare stock have to hold their range through months of summer heat that tests every compressor."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A distribution shed holding goods for several customers can give each customer a record of how its stock was held, in place of a general statement about the building."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Plants making coatings, resins and cleaners hold materials with labelled limits, and a dated record shows whether a pallet in the city stood hot for too long."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "A food plant or chilled hall inside the city holds products that spoil in heat, and a log from each room shows a customer how a lot was kept."
+        }
+      ],
+      "services": "For a planned industrial city we would consider multi-point units along long halls, WiFi loggers for rooms with a router, probe-type loggers for freezers and chilled rooms, and loggers that ride in a load. VEGA Calibrations, our parent company, can discuss the calibration of loggers with plant managers here. Each WiFi logger needs a router in range and mains power, and for a yard we describe the other choices. Supply is left until a request for the city has been reviewed.",
+      "visits": "Visits and installation in Dubai Industrial City are not promised. Give us the business, the halls or rooms involved and a contact on the enquiry form, Call or WhatsApp, and we review the request and tell you what is practical.",
+      "approach": "If a request went ahead, we would start with the store or hall holding the most heat-sensitive stock, using a multi-point unit along its length and a probe logger at the door, then add humidity reading where cold air meets the warm outside. A month of readings in summer would show which end of each hall gets warmest.",
+      "faqs": [
+        {
+          "question": "Can one report cover a very long production hall?",
+          "answer": "Yes. A multi-channel logger reads several probes along the hall, so a single report shows which stretch of the building runs warmest and at what time."
+        },
+        {
+          "question": "Why record raw materials as well as finished goods?",
+          "answer": "Some ingredients and resins carry temperature limits too, so a record at the intake store shows whether materials reached production within their stated range."
+        }
+      ],
+      "nearby": [
+        "dubai-south"
+      ],
+      "indexable": true
+    } },
+  { slug: "dubai-south", name: "Dubai South", citySlug: "dubai", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["virat","rajmudra"], page: {
+      "metaTitle": "Data Loggers in Dubai South | Prithvi",
+      "metaDescription": "Data loggers for warehouses, cold rooms, kitchens and clinics in Dubai South, a planned city in the south of Dubai. Get Solution.",
+      "intro": "Dubai South is a planned city in the south of the emirate, laid out around an airport with districts for aviation, logistics, commerce and housing. A temperature data logger in a planned city of this kind is concerned with its many different rooms: warehouses and cold stores for goods in transit, the kitchens and stores that serve a growing community, and clinics and pharmacies for its residents. This page is limited to the kinds of goods and rooms a logger user could look after in a planned city of this sort. Enquiries about Dubai South are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Warehouses and distribution units",
+          "note": "Large sheds hold goods between arrival and onward movement, with metal roofs that heat the room long before the cooling catches up."
+        },
+        {
+          "name": "Cold rooms for food and healthcare goods",
+          "note": "Chilled and frozen stock waits in cold rooms where the hours between loading and collection are the weak part of the chain."
+        },
+        {
+          "name": "Kitchens, canteens and shops",
+          "note": "Restaurants, canteens and shops serving a growing community run walk-in coolers and display cabinets through long summers."
+        },
+        {
+          "name": "Clinics and pharmacies",
+          "note": "Clinics and pharmacies serving residents hold vaccines and medicines in refrigerators that must hold their range through power interruptions."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A warehouse in a planned logistics city can offer each customer a temperature record for its own bay, instead of a remark about the hall."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Caterers and food suppliers in Dubai South keep chilled and frozen stock, and a record from each cooler shows when a unit began to struggle."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Pharmacies and healthcare suppliers store stock to labelled ranges, and a dated log shows how a room behaved through the hottest weeks of summer."
+        }
+      ],
+      "services": "In a planned city of this kind we would look at WiFi loggers for warehouses, kitchens and clinic rooms near a router, probe loggers for freezers and refrigerators, multi-point units for long sheds, and loggers that travel in a load. Calibration of the loggers is something VEGA Calibrations, our parent company, can discuss with users in Dubai South. A WiFi unit needs a router and mains power, and for a vehicle we describe the other choices. Supply is not discussed until a request has been reviewed.",
+      "visits": "A visit or an installation in Dubai South is not promised. Send the business, the rooms and a contact through the enquiry form, Call or WhatsApp, and we review the request and reply with what looks practical.",
+      "approach": "If a request went ahead, we would begin with the cold room or store holding the most sensitive stock, placing one logger near the door and one at the back, then add a humidity-reading unit where doors let warm air in. A spell of summer readings would show at what time of day the room is pushed hardest.",
+      "faqs": [
+        {
+          "question": "Can a business in a new planned city start with a single room?",
+          "answer": "Yes. One logger in one cold room or refrigerator is enough to begin, and more points can be added to the same dashboard as the site grows."
+        },
+        {
+          "question": "Why does a metal-roofed shed run hotter than the air outside?",
+          "answer": "The roof absorbs the sun and radiates heat into the room, so a logger in the stock, not on an office wall, records what the goods actually met."
+        }
+      ],
+      "nearby": [
+        "dubai-logistics-city"
+      ],
+      "indexable": true
+    } },
+  { slug: "dubai-logistics-city", name: "Dubai Logistics City", citySlug: "dubai", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["veer","dhruva"], page: {
+      "metaTitle": "Data Loggers in Dubai Logistics City | Prithvi",
+      "metaDescription": "Data loggers for warehouses, cold stores and distribution yards in Dubai Logistics City, inside Dubai South. Get Solution.",
+      "intro": "Dubai Logistics City is the logistics district inside Dubai South, laid out for warehouses, cold stores and distribution yards beside the airport area. A temperature data logger in a logistics district is concerned with the waiting that surrounds a journey: goods unloaded from a vehicle, held on racks or in a cold room, and loaded again for the next stage, in air that is hot and dry with sudden humid spells. This page is limited to the kinds of goods and rooms a logger user could look after in a logistics district of this sort. Enquiries about Dubai Logistics City are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Racked warehouses",
+          "note": "Tall racked halls hold palletised goods from floor to roof, and the air near the roof can be many degrees warmer than the air at the floor."
+        },
+        {
+          "name": "Cold stores and chilled bays",
+          "note": "Chilled and frozen food and healthcare goods are held in cold stores and chilled bays, where every opening of a dock door lets warm air in."
+        },
+        {
+          "name": "Cross-dock bays and loading doors",
+          "note": "Goods pass through bays between vehicles in a short time, and the weather at the door decides how warm a pallet gets while it waits."
+        },
+        {
+          "name": "Vehicle parking and trailer yards",
+          "note": "Trailers and vans wait in open yards, and cargo inside a covered trailer can run much hotter than the shaded air."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A logistics operator storing goods for several clients can give each client a temperature record of its own pallets, rather than a general statement about the hall."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Chilled and frozen food in a cold store needs proof of how it was held between receipt and collection, and a small logger packed with the cartons supplies exactly that."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Medicines and healthcare goods stored in a logistics hall need a dated record of temperature, which shows a distributor whether a pallet stood too long in the heat."
+        }
+      ],
+      "services": "For a logistics district we would look at multi-point units that follow a racked hall from floor to roof, WiFi loggers for cold stores near a router, probe loggers for chilled bays, and loggers that ride with a consignment. The calibration of loggers used here is something VEGA Calibrations, our parent company, can discuss. WiFi units need a router within range and mains power, and for a trailer yard we set out the alternatives. Supply is a topic we raise only after the request has been reviewed.",
+      "visits": "Dubai Logistics City visits and installations are not promised. Send the business, the halls or rooms to be watched and a contact through the enquiry form, Call or WhatsApp, and we review the request and say what looks practical.",
+      "approach": "If a request went ahead, we would begin with the cold store or hall holding the goods that are hardest to replace, placing loggers at floor and roof height and one at the dock door, then add humidity reading where cold goods meet warm air. A few weeks of readings would show how long pallets really wait.",
+      "faqs": [
+        {
+          "question": "Can one logger show the difference between floor and roof in a racked hall?",
+          "answer": "A multi-channel logger with probes at several heights shows how much warmer the air is at the top of the racks, so a single report covers the whole height."
+        },
+        {
+          "question": "Why do dock doors matter for a cold store record?",
+          "answer": "Each opening lets warm air in, so a continuous log shows how long the room took to recover and how often it drifted outside its range."
+        }
+      ],
+      "nearby": [
+        "dubai-south"
+      ],
+      "indexable": true
+    } },
+  { slug: "dubai-airport-freezone", name: "Dubai Airport Freezone", citySlug: "dubai", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","electronics","pharmaceutical"], confirmedService: true, hero: ["rajmudra","virat-pro"], page: {
+      "metaTitle": "Data Loggers in Dubai Airport Freezone (DAFZA) | Prithvi",
+      "metaDescription": "Data loggers for offices, stock rooms and warehouse units in Dubai Airport Freezone (DAFZA), beside Dubai's airport. Get Solution.",
+      "intro": "Dubai Airport Freezone, known as DAFZA, is a free zone beside the city's main airport, a compact district of office buildings and warehouse units for trades linked to air transport. A temperature data logger in a district like this is concerned with goods that are small, valuable and sensitive: electronic parts, healthcare products and consumer goods held in stock rooms and light warehouses. This page is limited to the kinds of goods and rooms a logger user could look after in a free-zone district of this sort. Enquiries about DAFZA are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Light warehouse units",
+          "note": "Small and mid-sized units hold goods for firms based in the offices above or beside them, under roofs that warm quickly in the summer sun."
+        },
+        {
+          "name": "Electronics and parts stock rooms",
+          "note": "Stock rooms hold components and equipment that suffer when summer heat is followed by a damp night."
+        },
+        {
+          "name": "Healthcare and pharmaceutical stores",
+          "note": "Stores for medical products and medicines keep stock in cooled rooms and refrigerators with labelled limits."
+        },
+        {
+          "name": "Office-block pantries and canteens",
+          "note": "Offices and canteens run refrigerators and coolers that serve many staff and are opened all day."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "electronics",
+          "sentence": "A parts trader in a free-zone unit can show with a log that stock stayed within a stated range of temperature and humidity between receipt and use by a customer."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Firms holding medical products and medicines in the district need a dated record of temperature, which shows a distributor whether a pack stood too long in the heat."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A unit holding goods for several clients can offer each client a record of its own stock in place of a general remark about the room."
+        }
+      ],
+      "services": "For a free-zone district we would look at WiFi loggers for stock rooms and units near a router, probe loggers for refrigerators and freezers, units reading humidity beside temperature for electronics stores, and loggers that ride in a consignment. DAFZA users can talk through calibration with VEGA Calibrations, our parent company. WiFi loggers need a router in range and a supply of power, and for a vehicle we describe other options. We say nothing on supply until a request has been reviewed.",
+      "visits": "A visit or installation in DAFZA is not promised. Pass on the business, the rooms to be watched and a contact on the enquiry form, Call or WhatsApp, and we look over the request and say what is practical.",
+      "approach": "If a request went ahead, we would start with the stock room holding the most sensitive goods, placing one logger near the door and one at the back, and add a humidity unit for electronics. A few weeks of readings would show whether summer afternoons or damp nights strain the room.",
+      "faqs": [
+        {
+          "question": "Can a small trader with one stock room use a single logger?",
+          "answer": "Yes. One logger in one room is enough to begin, and more points can be added to the same dashboard later."
+        },
+        {
+          "question": "Why record humidity for electronic parts as well as temperature?",
+          "answer": "Parts can take up moisture on damp nights even when the temperature looks fine, so a humidity trend shows exposure that a thermometer alone would miss."
+        }
+      ],
+      "nearby": [
+        "al-qusais-industrial-area"
+      ],
+      "indexable": true
+    } },
+  { slug: "dubai-healthcare-city", name: "Dubai Healthcare City", citySlug: "dubai", areaType: "business-district", nearbyIndustries: ["hospitals-blood-banks","pharmaceutical","laboratories"], confirmedService: true, hero: ["nakshatra","veer-pro"], page: {
+      "metaTitle": "Data Loggers in Dubai Healthcare City | Prithvi",
+      "metaDescription": "Data loggers for clinic refrigerators, laboratories and medical stores in Dubai Healthcare City, near the creek in Dubai. Get Solution.",
+      "intro": "Dubai Healthcare City is a healthcare district near the creek, where hospitals, clinics, diagnostic laboratories, pharmacies and medical suppliers stand close together. A temperature data logger in a district devoted to health is concerned with the cold chain at small scale: vaccine refrigerators in clinics, sample and reagent storage in laboratories, and medicines in pharmacies and supplier stores, all in a city where summer heat tests every cooling system. This page is limited to the kinds of goods and rooms a logger user could look after in a healthcare district of this sort. Enquiries about Dubai Healthcare City are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Clinic vaccine and medicine refrigerators",
+          "note": "Clinics hold vaccines, insulin and injectables in refrigerators that must hold a narrow range, with a log showing the hours when staff were away."
+        },
+        {
+          "name": "Diagnostic and research laboratories",
+          "note": "Laboratories keep samples, reagents and reference materials in refrigerators, freezers and conditioned rooms with limits that have to be shown to have held."
+        },
+        {
+          "name": "Pharmacies and medical supply stores",
+          "note": "Pharmacies and suppliers hold medicines and devices in stock rooms and cold cabinets, where the room temperature varies with the weather and the air-conditioning."
+        },
+        {
+          "name": "Hospital pantries and kitchens",
+          "note": "Patient kitchens and pantries run coolers and freezers that serve many people through the day and night."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "hospitals-blood-banks",
+          "sentence": "Hospitals and clinics hold vaccines and blood products to strict ranges, and a phone alert reaches the person on duty if a refrigerator drifts at night."
+        },
+        {
+          "slug": "laboratories",
+          "sentence": "Diagnostic and research laboratories keep samples and reagents to set limits, and an exported report is ready whenever an inspection or a client asks for one."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Pharmacies and medical suppliers store stock to labelled ranges, and a dated log shows how a room behaved through the hottest weeks and any power cut."
+        }
+      ],
+      "services": "In a healthcare district we would look at probe loggers for vaccine and sample refrigerators, WiFi loggers for stock rooms and laboratories near a router, multi-channel units for larger cold rooms, and loggers that ride in a medicine consignment. Clinics and laboratories here can talk through calibration with VEGA Calibrations, our parent company. WiFi units depend on a router and a power supply, and for a transport box we set out other options. Whether anything can be supplied is settled after the request has been reviewed.",
+      "visits": "Visits and installation in Dubai Healthcare City are not promised. Give us the clinic or laboratory, the units to be watched and a contact on the enquiry form, Call or WhatsApp, and we review the request and say what looks practical.",
+      "approach": "If a request went ahead, we would begin with the vaccine or sample refrigerator whose contents are hardest to replace, placing a probe in the middle of the unit rather than the door, then add a second point in a stock room. The first weeks of data would show how often the door and the weekend affect the range.",
+      "faqs": [
+        {
+          "question": "Can a clinic with a single vaccine refrigerator use one logger?",
+          "answer": "Yes. A probe logger with a phone alert covers a single refrigerator, and the dated log is available to show an inspector how the unit held its range."
+        },
+        {
+          "question": "Why should the probe sit inside the unit rather than on its door?",
+          "answer": "Air near the door swings with every opening, so a probe in the middle of the contents records what the vaccines actually experienced."
+        }
+      ],
+      "nearby": [
+        "ras-al-khor-industrial-area"
       ],
       "indexable": true
     } },

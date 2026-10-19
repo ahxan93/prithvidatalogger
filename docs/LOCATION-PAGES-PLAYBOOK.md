@@ -363,6 +363,12 @@
 | Ras Al Khor Industrial Area (`ras-al-khor-industrial-area`, area of Dubai) | UAE | Spare-parts and electronics stock rooms, light-industry workshops, warehouses | Electronics, chemicals, logistics | Hot, damp near the creek | Al Quoz Industrial Area |
 | Al Qusais Industrial Area (`al-qusais-industrial-area`, area of Dubai) | UAE | Food-making and packaging units, warehouses, workshops | Food, chemicals, logistics | Long hot summers | Al Aweer |
 | Al Aweer (`al-aweer`, area of Dubai) | UAE | Produce cold rooms, market halls, wholesale stores, industrial yards | Food, logistics, chemicals | Hot summers, early-morning loading | Al Qusais Industrial Area |
+| Dubai Silicon Oasis (`dubai-silicon-oasis`, area of Dubai) | UAE | Electronics stock rooms, server and network rooms, laboratories, canteens | Electronics, data centers, laboratories | Hot summers, damp nights | Dubai Industrial City |
+| Dubai Industrial City (`dubai-industrial-city`, area of Dubai) | UAE | Factory halls, raw-material stores, finished-goods sheds, chilled halls | Logistics, chemicals, food | Long hot summers | Dubai South |
+| Dubai South (`dubai-south`, area of Dubai) | UAE | Warehouses, cold rooms, kitchens and shops, clinics (described generally, no airport status) | Logistics, food, medicines | Long hot summers | Dubai Logistics City |
+| Dubai Logistics City (`dubai-logistics-city`, area of Dubai) | UAE | Racked warehouses, cold stores, cross-dock bays, trailer yards (described generally) | Logistics, food, medicines | Hot, dry with humid spells | Dubai South |
+| Dubai Airport Freezone (`dubai-airport-freezone`, area of Dubai) | UAE | Light warehouse units, electronics stock rooms, healthcare stores, office pantries (described generally, no operating status) | Electronics, medicines, logistics | Hot summers | Al Qusais Industrial Area |
+| Dubai Healthcare City (`dubai-healthcare-city`, area of Dubai) | UAE | Clinic vaccine refrigerators, laboratories, pharmacies and supply stores, hospital pantries | Hospitals, laboratories, medicines | Hot summers | Ras Al Khor Industrial Area |
 | Jazan Economic City (`jazan-economic-city`, area of Jazan) | Saudi Arabia | Plant chemical and drum stores, spares warehouses and contractor yards, port yards, camp kitchens and clinics | Chemical stores, contract warehousing, camp catering | Extreme heat and humidity, salty air | none |
 | Jeddah (`jeddah`) | Saudi Arabia | Industrial and port logistics zones | Port logistics, food import cold chain, hospitals | Hot, humid coastal | Riyadh, Dammam |
 | Dammam (`dammam`) | Saudi Arabia | Industrial and port logistics zones | Industrial & chemical, port logistics, food | Hot, humid Gulf coast | Riyadh, Bahrain, Jeddah |
@@ -606,3 +612,6 @@ UAE Batch 3 (Dubai Emirate): the Dubai Emirate hub is created and the existing D
 `/locations/uae/dubai` path keeps its 301 via `MOVED_LEGACY_PATHS` in `next.config.ts`). The Dubai page and the UAE hub text were rewritten to drop
 the old "dispatch from India" and "quote" wording. Areas: Jebel Ali (JAFZA), Dubai Investments Park, Al Quoz Industrial Area, Ras Al Khor
 Industrial Area, Al Qusais Industrial Area and Al Aweer.
+
+UAE Batch 4 (Dubai areas): Dubai Silicon Oasis, Dubai Industrial City, Dubai South, Dubai Logistics City, Dubai Airport Freezone and Dubai Healthcare
+City, all areas of Dubai. Airport, free-zone and logistics pages say nothing about operating status, traffic, capacity, operator or eligibility.
