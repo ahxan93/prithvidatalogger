@@ -182,6 +182,71 @@ export const locationContent: Record<string, LocationContent> = {
       "Temperature data loggers in Saudi Arabia: WiFi loggers for Riyadh, Jeddah and Dammam warehouses, supplied from India and set up remotely. Get Solution.",
     recommended: ["nakshatra", "veer", "virat"],
   },
+  "saudi-arabia/riyadh-region": {
+    metaDescription:
+      "Temperature data loggers in the Riyadh Region: the capital, oasis farms and industrial cities, with remote set-up from India. Get Solution.",
+    recommended: ["nakshatra", "virat", "rajmudra"],
+  },
+  "saudi-arabia/makkah-region": {
+    metaDescription:
+      "Temperature data loggers in the Makkah Region: Red Sea port logistics, hospitals, hotel kitchens and food stores, set up remotely. Get Solution.",
+    recommended: ["nakshatra", "virat", "rajmudra"],
+  },
+  "saudi-arabia/eastern-province": {
+    metaDescription:
+      "Temperature data loggers in the Eastern Province: Gulf-coast ports, industrial cities, food depots and hospitals, set up remotely. Get Solution.",
+    recommended: ["nakshatra", "virat", "rajmudra"],
+  },
+  "saudi-arabia/madinah-region": {
+    metaDescription:
+      "Temperature data loggers in the Madinah Region: hospitality, hospital and food stores inland and port plants at Yanbu, set up remotely. Get Solution.",
+    recommended: ["nakshatra", "virat", "rajmudra"],
+  },
+  "saudi-arabia/asir-region": {
+    metaDescription:
+      "Temperature data loggers in the Asir Region: Abha and Khamis Mushait hospitals, food depots and hotel kitchens in cool mountain air. Get Solution.",
+    recommended: ["nakshatra", "virat", "rajmudra"],
+  },
+  "saudi-arabia/qassim-region": {
+    metaDescription:
+      "Temperature data loggers in the Qassim Region: date stores, farm cold rooms, hospitals and food depots on the central plain. Get Solution.",
+    recommended: ["nakshatra", "virat", "rajmudra"],
+  },
+  "saudi-arabia/jazan-region": {
+    metaDescription:
+      "Temperature data loggers in the Jazan Region: fruit and coffee stores, fish depots, hospitals and port stores in hot, humid coastal air. Get Solution.",
+    recommended: ["nakshatra", "virat", "rajmudra"],
+  },
+  "saudi-arabia/tabuk-region": {
+    metaDescription:
+      "Temperature data loggers in the Tabuk Region: farm and food depots, hospitals and coastal port stores in hot summers and cold winters. Get Solution.",
+    recommended: ["nakshatra", "virat", "rajmudra"],
+  },
+  "saudi-arabia/hail-region": {
+    metaDescription:
+      "Temperature data loggers in the Hail Region: farm cold rooms, date and wheat stores, hospitals and food depots on the northern plateau. Get Solution.",
+    recommended: ["nakshatra", "virat", "rajmudra"],
+  },
+  "saudi-arabia/najran-region": {
+    metaDescription:
+      "Temperature data loggers in the Najran Region: date and fruit stores, hospitals, hotel kitchens and food depots in a hot southern valley. Get Solution.",
+    recommended: ["nakshatra", "virat", "rajmudra"],
+  },
+  "saudi-arabia/al-baha-region": {
+    metaDescription:
+      "Temperature data loggers in the Al Baha Region: highland produce, honey and food depots, hospitals and hotel kitchens in cool, misty air. Get Solution.",
+    recommended: ["nakshatra", "virat", "rajmudra"],
+  },
+  "saudi-arabia/al-jawf-region": {
+    metaDescription:
+      "Temperature data loggers in the Al Jawf Region: olive, date and farm stores, hospitals and food depots in hot summers and cold winters. Get Solution.",
+    recommended: ["nakshatra", "virat", "rajmudra"],
+  },
+  "saudi-arabia/northern-borders-region": {
+    metaDescription:
+      "Temperature data loggers in the Northern Borders Region: food and medicine depots, hospitals and farm stores on the northern plateau. Get Solution.",
+    recommended: ["nakshatra", "virat", "rajmudra"],
+  },
   uae: {
     metaDescription:
       "Temperature data loggers in the UAE: WiFi loggers for Dubai warehouses, food importers and hotel kitchens, set up remotely. Get Solution.",

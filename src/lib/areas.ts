@@ -65,9 +65,10 @@ export function writtenAreas(): { area: AreaDef; path: string[] }[] {
 }
 
 export function findAreaByPath(path: string[]): { area: AreaDef; cityPath: string[] } | undefined {
-  if (path.length !== 4) return undefined;
+  // Country > State > City > Area (India), or Country > City > Area / Country > Region > City > Area (GCC).
+  if (path.length < 3 || path.length > 4) return undefined;
   const found = writtenAreas().find((w) => w.path.join("/") === path.join("/"));
-  return found ? { area: found.area, cityPath: path.slice(0, 3) } : undefined;
+  return found ? { area: found.area, cityPath: path.slice(0, -1) } : undefined;
 }
 
 export function areaCityMeta(area: AreaDef) {

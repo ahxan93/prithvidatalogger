@@ -403,8 +403,9 @@ for (const { node, path: p } of all) {
   // Cluster: a state hub above it.
   // Indian cities sit under a state hub; GCC cities directly under their country hub.
   const parentNode = all.find((l) => l.path.join("/") === p.slice(0, -1).join("/"));
-  const expectedParent = isIndia ? "state" : "country";
-  if (!parentNode || parentNode.node.type !== expectedParent) f(`is not under a ${expectedParent} hub`);
+  // Saudi Arabia is grouped by administrative region (a state-level hub); other GCC countries list cities directly.
+  const expectedParents = isIndia ? ["state"] : p[0] === "saudi-arabia" ? ["country", "state"] : ["country"];
+  if (!parentNode || !expectedParents.includes(parentNode.node.type)) f(`is not under a ${expectedParents.join(" or ")} hub`);
   // SEO settings.
   const title = node.metaTitle;
   if (title.length > 60) f(`metaTitle is ${title.length} chars (max 60)`);
@@ -757,6 +758,11 @@ if (!siteConfig.showPrices) {
     if (a.page.nearby.length && !nearbyLinked.length) f("links to none of its nearby areas");
     for (const svcPage of services) if (!hrefs.includes(svcPage.href)) f(`does not link to ${svcPage.href}`);
     if (!/<input[^>]*type="hidden"[^>]*name="city"/.test(html)) f("has no hidden city field in the enquiry form");
+    // Outside India the GSM compatibility note is shown exactly once and no Vayu/GSM series is named.
+    const areaNotes = visibleText(main).split(GSM_NETWORK_NOTE).length - 1;
+    if (needsGsmNetworkNote(city.path) && areaNotes !== 1) f(`must show the GSM compatibility note exactly once (found ${areaNotes})`);
+    if (!needsGsmNetworkNote(city.path) && areaNotes !== 0) f("shows the GSM compatibility note on an India page");
+    if (needsGsmNetworkNote(city.path) && (/\bvayu\b/i.test(visibleText(main)) || a.hero.some((k) => k.startsWith("vayu")))) f("shows Vayu outside India");
   }
 }
 

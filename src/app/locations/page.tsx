@@ -123,7 +123,14 @@ export default function LocationsPage() {
         />
         <ul className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {gcc.map((country) => {
-            const cities = (country.node.children ?? []).filter((c) => c.indexable);
+            // Cities sit directly under a country, or under a region hub (Saudi Arabia).
+            const cities = (country.node.children ?? []).flatMap((c) =>
+              c.type === "state"
+                ? (c.children ?? []).filter((x) => x.indexable).map((x) => ({ node: x, path: [...country.path, c.slug, x.slug] }))
+                : c.indexable
+                  ? [{ node: c, path: [...country.path, c.slug] }]
+                  : [],
+            );
             return (
               <li key={country.path.join("/")}>
                 <article className="flex h-full flex-col rounded-2xl border border-slate-200/80 bg-white p-6 shadow-soft transition duration-300 hover:border-brand-200 hover:shadow-soft-lg">
@@ -140,13 +147,20 @@ export default function LocationsPage() {
                   </p>
                   {cities.length > 0 && (
                     <ul className="mt-4 flex flex-wrap gap-2">
-                      {cities.map((city) => (
-                        <li key={city.slug}>
-                          <Link href={locationHref([...country.path, city.slug])} className={chip}>
-                            {city.name}
+                      {cities.flatMap((city) => [
+                        <li key={city.node.slug}>
+                          <Link href={locationHref(city.path)} className={chip}>
+                            {city.node.name}
                           </Link>
-                        </li>
-                      ))}
+                        </li>,
+                        ...areasOf(city.node.slug).map(({ area, path }) => (
+                          <li key={`${city.node.slug}/${area.slug}`}>
+                            <Link href={locationHref(path)} className={chip}>
+                              {area.name}
+                            </Link>
+                          </li>
+                        )),
+                      ])}
                     </ul>
                   )}
                   <Link

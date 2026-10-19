@@ -2,7 +2,7 @@ import Link from "next/link";
 import { siteConfig } from "@/config/site";
 import type { AreaDef, AreaPageContent } from "@/data/areas";
 import { getIndustryBySlug } from "@/data/industries";
-import { findLocation, locationHref } from "@/data/locations";
+import { findLocation, GSM_NETWORK_NOTE, locationHref, needsGsmNetworkNote } from "@/data/locations";
 import { devicesForKeys } from "@/data/page-heroes";
 import { services } from "@/data/services";
 import EnquiryForm from "@/components/forms/EnquiryForm";
@@ -37,6 +37,9 @@ export default function AreaPage({ area, cityPath }: { area: AreaDef; cityPath: 
   const path = [...cityPath, area.slug];
   const href = locationHref(path);
   const trail = city?.trail ?? [];
+  const outsideIndia = needsGsmNetworkNote(cityPath);
+  const parentPath = cityPath.slice(0, -1);
+  const parentName = findLocation(parentPath)?.node.name ?? meta.stateName;
 
   const crumbs = locationCrumbs(path, [...trail.map((item) => item.name), area.name], "area");
 
@@ -75,7 +78,7 @@ export default function AreaPage({ area, cityPath }: { area: AreaDef; cityPath: 
                 Temperature Data Loggers in {area.name}
               </h1>
               <p className="mt-5 max-w-3xl text-lg leading-relaxed text-slate-300 text-pretty">
-                WiFi and GSM temperature &amp; humidity monitoring for the industries and estates of {area.name}, in {cityName}.
+                {outsideIndia ? "WiFi" : "WiFi and GSM"} temperature &amp; humidity monitoring for the industries and estates of {area.name}, in {cityName}.
               </p>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
                 <Button href="#enquiry" size="lg" className="shadow-glow">
@@ -146,6 +149,9 @@ export default function AreaPage({ area, cityPath }: { area: AreaDef; cityPath: 
         <div className="mx-auto max-w-4xl">
           <SectionHeading id="area-services-title" eyebrow="Services" title={`Services We Offer in ${area.name}`} />
           <p className="mt-6 text-lg leading-relaxed text-ink text-pretty">{page.services}</p>
+          {outsideIndia && (
+            <p className="mt-6 rounded-xl border border-brand-100 bg-white px-4 py-3 text-sm text-ink">{GSM_NETWORK_NOTE}</p>
+          )}
           <ul className="mt-6 flex flex-wrap gap-3">
             {services.map((service) => (
               <li key={service.slug}>
@@ -205,8 +211,8 @@ export default function AreaPage({ area, cityPath }: { area: AreaDef; cityPath: 
             </li>
           ))}
           <li>
-            <Link href={locationHref(cityPath.slice(0, 2))} className={cardLink}>
-              All of {meta.stateName}
+            <Link href={locationHref(parentPath)} className={cardLink}>
+              All of {parentName}
               <ArrowRightIcon className={arrow} />
             </Link>
           </li>

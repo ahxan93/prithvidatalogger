@@ -16992,6 +16992,487 @@ export const locations: LegacyLocationNode[] = [
     },
     children: [
       {
+        slug: "riyadh-region",
+        name: "Riyadh Region",
+        type: "state",
+        intro:
+          "The Riyadh Region fills the centre of the kingdom, a high desert plateau where the capital is surrounded by farm oases such as Al Kharj, the historic town of Diriyah, the university town of Al Majmaah and smaller trading towns along the highways. Almost everything stored here has travelled far, whether by road from the ports or by the rail line that links Riyadh's dry port to the Gulf coast, so warehouses for medicines, food and general cargo are the region's main storage rooms. Summers are extremely hot and dusty, winter nights are cool, and rain is rare but sudden. Industrial cities around the capital add plants with halls of their own. The page for each place names the rooms we would watch first.",
+        localIndustries: [
+          "Pharmaceutical and medical warehousing",
+          "Food, dairy and farm produce",
+          "Industrial-city plants and dry-port cargo",
+          "Hospitals and retail distribution",
+        ],
+        citiesServed: [],
+        supportNote:
+          "Set-up, alert rules and user access for Riyadh Region sites are arranged remotely by call or video. Tell us the town and what the rooms hold.",
+        faqs: [
+          {
+            question: "Which Riyadh Region places have a page?",
+            answer:
+              "Pages are being added city by city and area by area, and this page lists each one as it goes live. For any other town in the region, send us a note through the enquiry form.",
+          },
+          {
+            question: "Why does desert dust matter for a logger in a warehouse?",
+            answer:
+              "Fine dust settles on vents and probe tips, so we place the logger body away from the dustiest doors, keep probes sealed and suggest wiping them at routine cleaning, which keeps the readings true.",
+          },
+          {
+            question: "Can sites in several Riyadh Region towns share one dashboard?",
+            answer:
+              "Yes. Each site is a point on the same account with its own alert contacts, so a head of operations sees a distribution centre in the capital and a farm store in an oasis together in one list.",
+          },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+        ],
+      },
+      {
+        slug: "makkah-region",
+        name: "Makkah Region",
+        type: "state",
+        intro:
+          "The Makkah Region lies along the Red Sea coast in the west of the kingdom and climbs inland into the Sarawat mountains. Jeddah, the port and commercial centre, receives much of the kingdom's imported food, medicine and general cargo; Makkah and Taif sit inland, with hospitality, healthcare and retail trades; and Rabigh and King Abdullah Economic City stand on the coast to the north with industrial and port facilities. The coast is hot and humid, the mountains are cooler, and dust moves in from the desert. Warehouses, hotel kitchens, hospital stores and port yards hold stock that must stay in range. The page for each place names the rooms we would watch first.",
+        localIndustries: [
+          "Port logistics and imported goods",
+          "Hospitality and hotel kitchens",
+          "Hospitals and medicine supply",
+          "Coastal industry and retail distribution",
+        ],
+        citiesServed: [],
+        supportNote:
+          "Set-up, alert rules and user access for Makkah Region sites are arranged remotely by call or video. Tell us the city and what the rooms hold.",
+        faqs: [
+          {
+            question: "Which Makkah Region places have a page?",
+            answer:
+              "Pages are being added place by place, and this page lists each one as it goes live. For any other town, write to us through the enquiry form and we confirm how remote set-up could work.",
+          },
+          {
+            question: "How does coastal humidity change where a logger is placed?",
+            answer:
+              "Damp air condenses on cold surfaces, so we keep the logger body away from door seals and cooling coils, run only the probe into the cold space and set alerts for a door left open.",
+          },
+          {
+            question: "Can a group with sites in Jeddah and Taif view them together?",
+            answer:
+              "Yes. Each site appears on the same dashboard with its own alert recipients, so a hotel or distribution group sees the coast and the mountains in a single list.",
+          },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+        ],
+      },
+      {
+        slug: "eastern-province",
+        name: "Eastern Province",
+        type: "state",
+        intro:
+          "The Eastern Province stretches along the Gulf coast and far inland across the desert, and it holds much of the kingdom's energy and heavy industry. Dammam, Al Khobar and Dhahran form a coastal cluster of ports, offices and hospitals; Jubail and Ras Al Khair are planned industrial cities; Ras Tanura and Abqaiq are linked to oil handling; and Al Ahsa is a great date-growing oasis inland. Summers are hot and humid on the coast and fiercely dry inland, so chemical stores, port yards, food depots and hospital refrigerators all work against the climate. The page for each place names the rooms we would watch first.",
+        localIndustries: [
+          "Chemicals and heavy industry",
+          "Port yards and logistics",
+          "Food depots and date processing",
+          "Hospitals and retail distribution",
+        ],
+        citiesServed: [],
+        supportNote:
+          "Set-up, alert rules and user access for Eastern Province sites are arranged remotely by call or video. Tell us the city or the plant and what the rooms hold.",
+        faqs: [
+          {
+            question: "Which Eastern Province places have a page?",
+            answer:
+              "Pages are being added place by place, and this page lists each one as it goes live. For another town in the province, send us a note through the enquiry form.",
+          },
+          {
+            question: "Why do plants on the Gulf coast need humidity as well as temperature?",
+            answer:
+              "Salt-laden humid air attacks metal and packaging, so a humidity reading beside the temperature shows when a store is taking on moisture even while the cooling plant seems to be coping.",
+          },
+          {
+            question: "Can a company with sites in Dammam and Jubail use one account?",
+            answer:
+              "Yes. Every plant or depot is a site on the same dashboard with its own alert contacts, and a manager sees the coastal cluster and the industrial cities together in one list.",
+          },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+        ],
+      },
+      {
+        slug: "madinah-region",
+        name: "Madinah Region",
+        type: "state",
+        intro:
+          "The Madinah Region lies in the west of the kingdom, with its capital inland on a plateau of lava fields and its Red Sea port and industrial city at Yanbu on the coast. Madinah itself has a large hospitality and healthcare economy, with hotels, hospitals, pharmacies and food suppliers working throughout the year, while Yanbu holds petrochemical plants, a port and the warehouses that serve them. Summers are very hot and dry inland and hot and humid on the coast. Medicines, chilled food and general cargo travel long roads between the two, so storage rooms are watched both at the destination and on the route. The page for each place names the rooms we would watch first.",
+        localIndustries: [
+          "Hospitality and food supply",
+          "Hospitals and medicine distribution",
+          "Port and petrochemical logistics",
+          "Retail distribution",
+        ],
+        citiesServed: [],
+        supportNote:
+          "Set-up, alert rules and user access for Madinah Region sites are arranged remotely by call or video. Tell us the city and what the rooms hold.",
+        faqs: [
+          {
+            question: "Which Madinah Region places have a page?",
+            answer:
+              "Pages are being added place by place, and this page lists each one as it goes live. For any other town in the region, write to us through the enquiry form.",
+          },
+          {
+            question: "How do alerts help a hotel or hospital store in a very hot inland city?",
+            answer:
+              "A cooling plant that works near its limit can trip on a hot afternoon, so a high limit with a short delay warns the engineer early, and a low limit protects stock that could freeze when a unit overshoots.",
+          },
+          {
+            question: "Can one dashboard show a coastal depot and an inland store?",
+            answer:
+              "Yes. Each site is a point on the same account with its own alert contacts, so a supplier sees the port and the city in a single list and exports a report for either.",
+          },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+        ],
+      },
+      {
+        slug: "asir-region",
+        name: "Asir Region",
+        type: "state",
+        intro:
+          "The Asir Region occupies the mountains of the south-west, where the land rises steeply from the Red Sea plain to cool, green highlands. Abha, the regional capital, and Khamis Mushait, the larger trading town beside it, hold hospitals, markets, hotels and distribution depots, and farms on the terraces grow fruit and vegetables for the kingdom. Summers are mild in the highlands, the rainy season brings mist and cloud, and winter nights are cold, so the region has an unusual mix of cool storage and damp. Mountain roads lengthen every delivery of medicines and chilled food. The page for each place names the rooms we would watch first.",
+        localIndustries: [
+          "Hospitals and medicine distribution",
+          "Fruit, vegetable and food depots",
+          "Hospitality and tourism kitchens",
+          "Retail distribution",
+        ],
+        citiesServed: [],
+        supportNote:
+          "Set-up, alert rules and user access for Asir Region sites are arranged remotely by call or video. Tell us the town and what the rooms hold.",
+        faqs: [
+          {
+            question: "Which Asir Region places have a page?",
+            answer:
+              "Pages are being added place by place, and this page lists each one as it goes live. For any other town in the highlands, send us a note through the enquiry form.",
+          },
+          {
+            question: "Does a cool, misty climate mean a store does not need monitoring?",
+            answer:
+              "Cool air still carries damp, and cartons, flour and fabrics take on moisture in cloud and rain, while a refrigerator can fail unnoticed, so humidity and temperature records both matter.",
+          },
+          {
+            question: "How are mountain deliveries of chilled food tracked?",
+            answer:
+              "A logger placed in the load records the journey, and the report shows how long goods stood in a vehicle on the climb, which helps a supplier answer a buyer's questions.",
+          },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+        ],
+      },
+      {
+        slug: "qassim-region",
+        name: "Qassim Region",
+        type: "state",
+        intro:
+          "The Qassim Region sits in the heart of the kingdom, a flat sandy plain irrigated from wells and famous for dates and farming. Buraidah, the capital, Unaizah and Ar Rass are the three main towns, each with markets, hospitals and farm-supply depots, and the dates of the region are packed, stored and sent across the kingdom and abroad. Summers are extremely hot and dry, winter nights are cold, and dust storms are common in the dry months. Date stores, farm cold rooms, hospital refrigerators and retail warehouses must hold their limits through long hot spells. The page for each place names the rooms we would watch first.",
+        localIndustries: [
+          "Dates and farm produce",
+          "Food and dairy depots",
+          "Hospitals and medicine supply",
+          "Retail distribution",
+        ],
+        citiesServed: [],
+        supportNote:
+          "Set-up, alert rules and user access for Qassim Region sites are arranged remotely by call or video. Tell us the town and what the rooms hold.",
+        faqs: [
+          {
+            question: "Which Qassim Region places have a page?",
+            answer:
+              "Pages are being added place by place, and this page lists each one as it goes live. For another town in the region, write to us through the enquiry form.",
+          },
+          {
+            question: "How does a logger help a date packer?",
+            answer:
+              "Dates hold their quality in steady, cool, dry rooms, so a record of temperature and humidity in the store shows when the room drifted and which lots stood through the warm spell.",
+          },
+          {
+            question: "Can a farm store far from a router be monitored?",
+            answer:
+              "A WiFi logger needs the store to have a router, and for a distant store we confirm what suits it before any order is placed, because connection options differ by country.",
+          },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+        ],
+      },
+      {
+        slug: "jazan-region",
+        name: "Jazan Region",
+        type: "state",
+        intro:
+          "The Jazan Region occupies the south-western corner of the kingdom, a hot, humid Red Sea plain backed by green mountains. Jazan, the regional capital and port, Sabya and Abu Arish are the main towns, with farms that grow mangoes, bananas and other fruit on the plain and coffee on the mountain slopes, along with fishing, hospitals and markets. Summers are among the most humid in the kingdom, so cartons, produce and medicines take on moisture quickly, and a planned economic city on the coast is meant to add industry and port activity. The page for each place names the rooms we would watch first.",
+        localIndustries: [
+          "Fruit, coffee and farm produce",
+          "Fishing and food depots",
+          "Hospitals and medicine distribution",
+          "Port and coastal industry",
+        ],
+        citiesServed: [],
+        supportNote:
+          "Set-up, alert rules and user access for Jazan Region sites are arranged remotely by call or video. Tell us the town and what the rooms hold.",
+        faqs: [
+          {
+            question: "Which Jazan Region places have a page?",
+            answer:
+              "Pages are being added place by place, and this page lists each one as it goes live. For any other town, send us a note through the enquiry form.",
+          },
+          {
+            question: "Why is humidity a bigger worry than heat in a Jazan store?",
+            answer:
+              "Hot, damp air condenses on cold surfaces and soaks cartons, so a humidity reading beside the temperature shows the day a store began to take on moisture, even when the temperature looks acceptable.",
+          },
+          {
+            question: "Can a fruit trader show a buyer how mangoes were held?",
+            answer:
+              "A logger in the cold room and the truck records the whole chain, and a report for the dates of one lot can be exported as PDF, Excel or CSV for the buyer.",
+          },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+        ],
+      },
+      {
+        slug: "tabuk-region",
+        name: "Tabuk Region",
+        type: "state",
+        intro:
+          "The Tabuk Region occupies the north-west of the kingdom, a large area of desert, mountains and coast that reaches the Red Sea and the Gulf of Aqaba. Tabuk, the regional capital, has farms, markets, hospitals and distribution depots; Duba and Haql are small coastal towns with port activity; and NEOM is a planned development in the region with a stated purpose of building new cities and industries. Winters are cold, with frost on high ground and occasional snow on the mountains, and summers are hot and dry, so storage rooms meet both extremes. Distances are long, and goods travel far to reach the region. The page for each place names the rooms we would watch first.",
+        localIndustries: [
+          "Farm produce and food depots",
+          "Hospitals and medicine supply",
+          "Coastal port logistics",
+          "Retail distribution",
+        ],
+        citiesServed: [],
+        supportNote:
+          "Set-up, alert rules and user access for Tabuk Region sites are arranged remotely by call or video. Tell us the town and what the rooms hold.",
+        faqs: [
+          {
+            question: "Which Tabuk Region places have a page?",
+            answer:
+              "Pages are being added place by place, and this page lists each one as it goes live. For another town in the region, send us a note through the enquiry form.",
+          },
+          {
+            question: "Why would a store in a hot desert region need a low limit?",
+            answer:
+              "Winter nights can be cold enough to chill stock that should not freeze, so we suggest both a low and a high alert limit, with a short delay on the high one.",
+          },
+          {
+            question: "How are long journeys into the region tracked?",
+            answer:
+              "A logger in the load records every hour of the journey, and the report shows how long goods stood in a vehicle in the heat, which helps a supplier answer a buyer's questions.",
+          },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+        ],
+      },
+      {
+        slug: "hail-region",
+        name: "Hail Region",
+        type: "state",
+        intro:
+          "The Hail Region lies in the north of the central plateau, ringed by two ranges of granite hills, and its economy is built on farming and trade. Hail, the capital, has markets, hospitals and warehouses, and the fields of the region grow wheat, dates and vegetables that are packed and stored for sale across the kingdom. Summers are very hot and dry, winters are cold with frost on clear nights, and dust storms arrive in spring. Farm cold rooms, date stores, hospital refrigerators and retail depots must hold their limits through the heat and the cold. The page for each place names the rooms we would watch first.",
+        localIndustries: [
+          "Wheat, dates and vegetables",
+          "Food and dairy depots",
+          "Hospitals and medicine supply",
+          "Retail distribution",
+        ],
+        citiesServed: [],
+        supportNote:
+          "Set-up, alert rules and user access for Hail Region sites are arranged remotely by call or video. Tell us the town and what the rooms hold.",
+        faqs: [
+          {
+            question: "Which Hail Region places have a page?",
+            answer:
+              "Pages are being added place by place, and this page lists each one as it goes live. For another town in the region, write to us through the enquiry form.",
+          },
+          {
+            question: "How does a logger help a farm cold room in a region with cold winters?",
+            answer:
+              "It records both the high and the low end of the range, so a room that overheats in summer or chills produce on a frosty night leaves a clear record for the owner.",
+          },
+          {
+            question: "Can a group with stores in Hail and Qassim watch them together?",
+            answer:
+              "Yes. Each store is a site on the same dashboard with its own alert contacts, so a trader sees both regions in one list and exports a report for any store.",
+          },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+        ],
+      },
+      {
+        slug: "najran-region",
+        name: "Najran Region",
+        type: "state",
+        intro:
+          "The Najran Region lies in the south of the kingdom, around a long fertile valley between the mountains and the desert, and its economy rests on farming, trade and services. Najran, the regional capital, has markets, hospitals, hotels and distribution depots, and the valley grows dates, grapes and other fruit and grain. Summers are hot and dry, winters are mild to cold, and rain is scarce but can arrive in heavy bursts. Date and fruit stores, farm cold rooms, hospital refrigerators and retail warehouses must hold their ranges through long hot spells, and goods reach the region over long roads. The page for each place names the rooms we would watch first.",
+        localIndustries: [
+          "Dates, fruit and grain",
+          "Food depots and retail distribution",
+          "Hospitals and medicine supply",
+          "Hospitality kitchens",
+        ],
+        citiesServed: [],
+        supportNote:
+          "Set-up, alert rules and user access for Najran Region sites are arranged remotely by call or video. Tell us the town and what the rooms hold.",
+        faqs: [
+          {
+            question: "Which Najran Region places have a page?",
+            answer:
+              "Pages are being added place by place, and this page lists each one as it goes live. For another town, send us a note through the enquiry form.",
+          },
+          {
+            question: "How can a date or fruit store be kept within range through a hot spell?",
+            answer:
+              "A logger records the room all season and sends an alert when a reading passes its limit, so a failing cooler is found while the stock can still be saved.",
+          },
+          {
+            question: "Can goods carried over a long road be tracked?",
+            answer:
+              "A logger placed in the load records every hour of the journey, and the report shows how long goods stood in a vehicle in the heat before they reached the store.",
+          },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+        ],
+      },
+      {
+        slug: "al-baha-region",
+        name: "Al Baha Region",
+        type: "state",
+        intro:
+          "The Al Baha Region is a small mountainous strip in the south-west of the kingdom that drops from cool highlands to the Red Sea plain. Al Baha, the regional capital, has markets, hospitals, hotels and distribution depots, and the terraced farms of the highlands grow fruit, honey and other produce. Summers are mild in the mountains, mist and rain settle over the slopes in the wet season, and winter nights are cold, so storage rooms meet damp and cool air more than the extreme heat of the plains. Roads wind through steep terrain and lengthen every delivery of medicines and chilled food. The page for each place names the rooms we would watch first.",
+        localIndustries: [
+          "Honey, fruit and farm produce",
+          "Food depots and retail distribution",
+          "Hospitals and medicine supply",
+          "Hospitality kitchens",
+        ],
+        citiesServed: [],
+        supportNote:
+          "Set-up, alert rules and user access for Al Baha Region sites are arranged remotely by call or video. Tell us the town and what the rooms hold.",
+        faqs: [
+          {
+            question: "Which Al Baha Region places have a page?",
+            answer:
+              "Pages are being added place by place, and this page lists each one as it goes live. For any other town, write to us through the enquiry form.",
+          },
+          {
+            question: "Why is humidity useful in a cool highland store?",
+            answer:
+              "Mist and rain keep the air damp, and cartons, grain and linen take on moisture in cool stores too, so a humidity trend shows when a room needs drying or better ventilation.",
+          },
+          {
+            question: "Can a small clinic or shop use a single logger?",
+            answer:
+              "Yes. One logger with an alert to a phone is enough for a single medicine fridge or a chiller, and further points can be added to the same account later.",
+          },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+        ],
+      },
+      {
+        slug: "al-jawf-region",
+        name: "Al Jawf Region",
+        type: "state",
+        intro:
+          "The Al Jawf Region lies in the far north of the kingdom, an area of desert plains with scattered oases, and its economy is built on farming, above all olives, dates and other crops grown on irrigated fields. Sakaka, the regional capital, has markets, hospitals, hotels and distribution depots, and olive presses and date packers hold their produce in stores that must be kept cool and dry. Summers are very hot, winter nights are cold with frost, and long roads connect the region with the rest of the kingdom. Cold rooms and warehouses meet both extremes in a single year. The page for each place names the rooms we would watch first.",
+        localIndustries: [
+          "Olives, dates and farm produce",
+          "Food and dairy depots",
+          "Hospitals and medicine supply",
+          "Retail distribution",
+        ],
+        citiesServed: [],
+        supportNote:
+          "Set-up, alert rules and user access for Al Jawf Region sites are arranged remotely by call or video. Tell us the town and what the rooms hold.",
+        faqs: [
+          {
+            question: "Which Al Jawf Region places have a page?",
+            answer:
+              "Pages are being added place by place, and this page lists each one as it goes live. For any other town in the region, send us a note through the enquiry form.",
+          },
+          {
+            question: "How does a logger help an olive or date store?",
+            answer:
+              "Oil and fruit keep their quality in steady, cool rooms, so a record of temperature and humidity shows when a store drifted, and an alert warns the owner while there is time to act.",
+          },
+          {
+            question: "Can one dashboard hold a farm store and a town depot?",
+            answer:
+              "Yes. Each site is a point on the same account with its own alert contacts, so an owner sees the farm and the town together in one list.",
+          },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+        ],
+      },
+      {
+        slug: "northern-borders-region",
+        name: "Northern Borders Region",
+        type: "state",
+        intro:
+          "The Northern Borders Region occupies the far north of the kingdom, a wide area of desert plateau where the regional capital, Arar, holds the markets, hospitals and distribution depots. Livestock, farming and transport shape the local economy, and goods travel a long way by road to reach the region, so warehouses for medicines, chilled food and general cargo are the main storage rooms. Summers are hot and dry, winter nights are cold with frost, and dust storms and sudden rain can interrupt journeys. Cold rooms and refrigerators must therefore be watched through power cuts as well as seasons. The page for each place names the rooms we would watch first.",
+        localIndustries: [
+          "Food and dairy depots",
+          "Hospitals and medicine supply",
+          "Livestock and farm produce",
+          "Retail distribution",
+        ],
+        citiesServed: [],
+        supportNote:
+          "Set-up, alert rules and user access for Northern Borders Region sites are arranged remotely by call or video. Tell us the town and what the rooms hold.",
+        faqs: [
+          {
+            question: "Which Northern Borders Region places have a page?",
+            answer:
+              "Pages are being added place by place, and this page lists each one as it goes live. For any other town in the region, write to us through the enquiry form.",
+          },
+          {
+            question: "Why do long road journeys matter for temperature records?",
+            answer:
+              "Goods may spend a day or more in a vehicle before they reach a store, so a logger in the load shows the full range of temperature the goods met and not just the reading at the depot.",
+          },
+          {
+            question: "What happens to a record if the power fails?",
+            answer:
+              "Loggers keep recording on their batteries and send the stored readings when the network returns, and an alert for a lost mains supply warns the named person.",
+          },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+        ],
+      },
+      {
         slug: "riyadh",
         name: "Riyadh",
         type: "city",
