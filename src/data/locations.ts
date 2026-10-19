@@ -7353,20 +7353,20 @@ export const locations: LegacyLocationNode[] = [
         name: "Punjab",
         type: "state",
         intro:
-          "Punjab is known for its fields, and the grain, dairy and food firms that handle the harvest keep storage of their own, but its cities each add a different trade: Ludhiana's knitwear, hand tools and auto parts, Amritsar's hotels, kitchens and border road, Jalandhar's sports goods and leather, Patiala's hospitals, laboratories and rice mills, and Mohali beside Chandigarh, where pharmaceutical units, electronics makers and research institutes stand on regular plots. Summers are hot and dry, winter nights are cold and foggy, and the monsoon arrives heavily at the foothills. The pages below take each city in turn, with its estates, its rooms and the loggers that suit them.",
+          "Punjab is known for its fields, and the grain, dairy and food firms that handle the harvest keep storage of their own, but its cities each add a different trade: Ludhiana's knitwear, hand tools and auto parts, Amritsar's hotels, kitchens and border road, Jalandhar's sports goods and leather, Patiala's hospitals, laboratories and rice mills, Bathinda's grain, cotton and refinery belt, Rajpura's junction yards, and Mohali beside Chandigarh, where pharmaceutical units, electronics makers and research institutes stand on regular plots. Summers are hot and dry, winter nights are cold and foggy, and the monsoon arrives heavily at the foothills. The pages below take each city in turn, with its estates, its rooms and the loggers that suit them.",
         localIndustries: [
           "Pharmaceutical manufacturing",
           "Electronics and technology parks",
           "Hospitals and research institutes",
         ],
-        citiesServed: ["Mohali", "Ludhiana", "Amritsar", "Jalandhar", "Patiala"],
+        citiesServed: ["Mohali", "Ludhiana", "Amritsar", "Jalandhar", "Patiala", "Bathinda", "Rajpura"],
         supportNote:
           "Supply, installation support and site visits for Punjab sites are arranged from our Mumbai office. Tell us the town, the unit and what the rooms hold.",
         faqs: [
           {
             question: "Which Punjab locations have a page?",
             answer:
-              "Mohali, Ludhiana, Amritsar, Jalandhar and Patiala each have a city page, and the neighbouring Chandigarh and Panchkula pages cover the rest of the tricity. Enquiries from other Punjab towns are welcome.",
+              "Mohali, Ludhiana, Amritsar, Jalandhar, Patiala, Bathinda and Rajpura each have a city page, and the neighbouring Chandigarh and Panchkula pages cover the rest of the tricity. Enquiries from other Punjab towns are welcome.",
           },
           {
             question: "Why does Punjab start with Mohali?",
@@ -7385,6 +7385,8 @@ export const locations: LegacyLocationNode[] = [
           { slug: "amritsar", text: "The pilgrimage city with hotel and temple kitchens, sweet and dry-fruit trades, Attari road godowns, hospitals and woollen bazaars." },
           { slug: "jalandhar", text: "The Doaba centre of sports goods, leather, hand tools and surgical instruments, with Focal Point units and a cantonment." },
           { slug: "patiala", text: "The old royal city of a medical college, university laboratories, rice mills and bazaars, on the road to Chandigarh and Haryana." },
+          { slug: "bathinda", text: "A Malwa junction town of grain and cotton yards, mills, a refinery and fertiliser belt, a cantonment and a medical institute." },
+          { slug: "rajpura", text: "A junction town between Patiala, Chandigarh and Ambala, with goods yards, rice mills, food and packaging firms and warehouses." },
         ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,
@@ -7877,6 +7879,200 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Patiala | Prithvi",
             metaDescription:
               "WiFi and GSM temperature and humidity data loggers for Patiala's hospitals, university laboratories, rice mills and bazaars. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "bathinda",
+            name: "Bathinda",
+            type: "city",
+            intro:
+              "Bathinda lies in the cotton and wheat country of the south-western Malwa belt, and a temperature data logger here serves a railway junction town with a heavy industrial footprint. A refinery and a fertiliser plant stand near the city, thermal power stations feed the state grid and the railway lines meet in every direction, and a large military cantonment sits beside the town. Grain and cotton arrive in the big market yards each season, ginning and oil mills process the crop, and traders ship food and goods by rail in every direction. A national medical institute and other hospitals draw patients from the dry districts around. Prithvi supplies WiFi loggers for rooms and wards with a network and GSM loggers for trucks, yards and distant stores.",
+            climateAngle:
+              "This is the hottest and driest part of the state in summer, with dust storms and little rain, while winter brings hard cold and thick fog, so a godown can be scorching in June and near freezing at night in January.",
+            areas: [
+              {
+                name: "Grain and cotton market yards",
+                note: "Traders and commission agents handle wheat, rice and cotton in open yards and sheds each season, where stored sacks and bales face dust, heat and an occasional storm.",
+              },
+              {
+                name: "Focal Point and industrial area",
+                note: "Estates on the edge of the town hold ginning and oil mills, food processors, engineering shops and godowns, with trucks loading at the gates through the day.",
+              },
+              {
+                name: "Refinery, fertiliser and power belt",
+                note: "Large plants near the city keep stores of spares, instruments, reagents and bagged material on wide campuses, with rooms far apart and strict access rules.",
+              },
+              {
+                name: "Junction, cantonment and hospitals",
+                note: "Goods sheds at the junction, the military station and a medical institute with other hospitals create demand for refrigerated medicine and food storage.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Rice millers, oil pressers and food packers hold grain, oil and cartons that spoil in the heat of the summer, and a reading from each store shows the day a godown began to warm.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Fertiliser and petrochemical stores keep bags, drums and laboratory reagents with printed storage limits, and an alert from a hot shed lets the storekeeper act before the limit is crossed.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A national medical institute and other hospitals serve patients from a wide arid region, and an alert to the duty staff covers the minutes when both the mains and the generator fail.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "The junction and the highways make Bathinda a place where goods change vehicles, and a logger placed with a consignment records how long it sat on a platform or in a yard.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "A logger with its own display lets a storekeeper read conditions on the round, while the dashboard keeps the full record for the quality head.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels watch a godown or a hospital pharmacy at two heights or two positions at once, which shows whether heat gathers near the roof.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a grain truck or reports from a yard store that has no router, and sends an alert to a phone.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How can a logger help a rice miller or oil presser around Bathinda?",
+                answer:
+                  "A record of temperature and humidity from the godown shows when heat or damp began to affect the stock, and an alert gives the staff time to ventilate, cover or move sacks.",
+              },
+              {
+                question: "Does extreme summer heat shorten the life of a logger?",
+                answer:
+                  "Loggers are rated for a wide range, but we advise keeping the body out of direct sun and away from the hottest roof space, and letting only the probe cable reach into a very hot store.",
+              },
+              {
+                question: "Can a plant campus with strict entry rules be covered?",
+                answer:
+                  "Tell us the rules and a name to ask for through the enquiry form, WhatsApp or a call. Where passes or briefings are required we plan the visit around them and keep the list of equipment short.",
+              },
+              {
+                question: "Who calibrates loggers used in a Bathinda laboratory or hospital?",
+                answer:
+                  "Calibration is done by VEGA Calibrations, our parent company, and the visit can be fixed together with the supply of the loggers.",
+              },
+            ],
+            nearby: [
+              { slug: "patiala", name: "Patiala" },
+              { slug: "ludhiana", name: "Ludhiana" },
+            ],
+            metaTitle: "Temperature Data Loggers in Bathinda | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Bathinda's grain and cotton godowns, mills, plant stores and hospitals. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "rajpura",
+            name: "Rajpura",
+            type: "city",
+            intro:
+              "Rajpura is a junction town in the Patiala district where the rail and road routes from Chandigarh, Ambala, Patiala and Delhi meet, and a temperature data logger here serves a place built around movement. Goods change trains and trucks at the junction, a power station stands nearby, and industrial areas hold food and packaging firms, engineering workshops and warehouses. A grain market and rice mills handle the harvest of the surrounding farms, while clinics and hospitals serve the town. Because Rajpura lies between Patiala, the Mohali side of Chandigarh and the Haryana border, many firms keep a store here and a plant or an office in a neighbouring city. Prithvi supplies WiFi loggers for rooms with a network and GSM loggers for trucks and yards.",
+            climateAngle:
+              "Summers are hot and dry, the monsoon fills the air with damp for several weeks and winter mornings are cold and foggy, so a grain store can be scorched in June, damp in August and chilled in January.",
+            areas: [
+              {
+                name: "Junction goods yards",
+                note: "Sheds and platforms around the station hold parcels and bulk goods between trains, with food and medicine waiting in wagons or on open docks in the afternoon sun.",
+              },
+              {
+                name: "Industrial area and Focal Point side",
+                note: "Estates in and around the town hold food and packaging firms, engineering workshops and godowns, whose long bays open to the road and the sun.",
+              },
+              {
+                name: "Grain market and rice mills",
+                note: "Traders and millers handle wheat and rice in yards and godowns each season, where monsoon damp is the main threat to stored sacks.",
+              },
+              {
+                name: "Town markets and clinics",
+                note: "Wholesalers of food and medicines, and clinics with vaccine fridges, work in small buildings along the main bazaar, with chillers opened all day.",
+              },
+            ],
+            industries: [
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Carriers and warehouses use Rajpura as a place to break a journey between Chandigarh, Delhi and the south-west, and a reading at each bay shows how long a load stood in the heat.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Rice millers, packed-food makers and cold-room operators hold stock that spoils in damp heat, and an alert on a phone reaches the owner when a unit warms during a night shift.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine distributors and stockists serve chemists across the district, and a dated log answers a buyer who asks how a pack was held before it was delivered.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals and clinics in the town and the farms around hold vaccines and blood units, and a record of each refrigerator backs the handover at a change of shift.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a rice godown or a packing store, where heavy air in the rainy weeks is what harms the stock.",
+              },
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels cover a long junction shed or a warehouse across bays and heights, so one report shows where the afternoon heat gathers.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger travels in a truck on the highway and reports from yards and sheds that no Wi-Fi network reaches.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a firm with a store in Rajpura and a plant in Mohali or Patiala use one dashboard?",
+                answer:
+                  "Yes. Each store and plant is a site on the same account with its own alert contacts, so a head of operations sees every town in one list and can export a report for any period.",
+              },
+              {
+                question: "How does a logger help a carrier break a journey at the junction?",
+                answer:
+                  "A GSM logger placed with the goods records readings through the wait and onward journey, and the owner can open the record on a phone and export it for the buyer.",
+              },
+              {
+                question: "Do you visit the industrial area and the grain market in one trip?",
+                answer:
+                  "Give us the estate or yard, the unit and a person to meet using the enquiry form, WhatsApp or a call, and we propose a date. Rajpura is often grouped with Patiala or Mohali on the same journey.",
+              },
+              {
+                question: "Who handles calibration of loggers used in a Rajpura store?",
+                answer:
+                  "Calibration comes from VEGA Calibrations, our parent company, and can be arranged along with the first supply and visit.",
+              },
+            ],
+            nearby: [
+              { slug: "patiala", name: "Patiala" },
+              { slug: "mohali", name: "Mohali" },
+              { slug: "chandigarh", name: "Chandigarh" },
+              { slug: "ambala", name: "Ambala" },
+            ],
+            metaTitle: "Temperature Data Loggers in Rajpura | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Rajpura's junction goods sheds, rice mills, food firms, warehouses and clinics. Get Solution.",
             indexable: true,
           },
         ],

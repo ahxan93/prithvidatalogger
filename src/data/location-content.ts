@@ -66,7 +66,7 @@ export const locationContent: Record<string, LocationContent> = {
   },
   "india/punjab": {
     metaDescription:
-      "Temperature data loggers in Punjab: Mohali, Ludhiana, Amritsar, Jalandhar and Patiala's plants, kitchens, laboratories and hospitals. Get Solution.",
+      "Temperature data loggers in Punjab: Mohali, Ludhiana, Amritsar, Jalandhar, Patiala, Bathinda and Rajpura. Get Solution.",
     recommended: ["dhruva", "nakshatra", "vayu"],
   },
   "india/chandigarh": {
