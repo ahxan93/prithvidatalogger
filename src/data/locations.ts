@@ -22162,7 +22162,7 @@ export const locations: LegacyLocationNode[] = [
     name: "Qatar",
     type: "country",
     intro:
-      "Qatar relies on imports for much of its food and medicine, and everything that arrives by port or air has to stay in range until it reaches a shelf, a pharmacy or a hospital ward. Warehouses, cold stores, hotel kitchens and clinics around Doha and its neighbouring towns run cooling plant against a hot, humid summer. Prithvi supplies WiFi temperature and humidity loggers from India for these rooms, with alerts to phones and email and remote set-up with your team. No city pages are written for Qatar yet, so this page is the place to start, and the enquiry form is the quickest way to describe your site.",
+      "Qatar is a peninsula in the Arabian Gulf where nearly everything that arrives has to stay in range until it reaches a shelf, a pharmacy or a hospital ward. Warehouses, cold stores, hotel kitchens and clinics around Doha and the towns near it run cooling plant against long, hot, humid summers, and dust and haze add to the strain. WiFi temperature and humidity loggers with alerts to phones and email suit these rooms, with remote set-up support for your team. The pages below follow the municipalities one by one, starting with Doha, and the enquiry form is the quickest way to describe your site.",
     localIndustries: [
       "Food import and cold storage",
       "Hospitals and clinics",
@@ -22171,17 +22171,17 @@ export const locations: LegacyLocationNode[] = [
     ],
     citiesServed: ["Doha", "Al Rayyan", "Al Wakrah", "Lusail"],
     supportNote:
-      "Send us your requirements and we will recommend the right mix of loggers and accessories. After dispatch from India, our team supports setup over WhatsApp or a video call.",
+      "Enquiries from Qatar are handled through the enquiry form, Call or WhatsApp. Describe the site, the stock and the cooling, and our reply covers what seems suitable for Qatar and how remote set-up support would run.",
     faqs: [
       {
-        question: "Do you have a Doha page?",
+        question: "Which parts of Qatar have a page?",
         answer:
-          "Not yet. This country page covers Doha, Al Rayyan, Al Wakrah and Lusail together until city pages are written, and the enquiry form reaches the same team. Tell us the town and the rooms involved, and we plan the set-up around the sites you name.",
+          "Doha Municipality has its own page, with the city of Doha and its districts beneath it. For another place, send the site and what you store through the enquiry form, Call or WhatsApp, and we reply with what looks suitable.",
       },
       {
         question: "How is monitoring set up for a Qatar site?",
         answer:
-          "Loggers are dispatched from India and registered to your dashboard, and we set up alert rules and user access with your team by phone, WhatsApp or a video call.",
+          "Loggers are registered to your dashboard, and we set up alert rules and user access with your team by phone, WhatsApp or a video call.",
       },
       {
         question: "Can a hotel or hospital group watch several sites together?",
@@ -22189,7 +22189,155 @@ export const locations: LegacyLocationNode[] = [
           "Each site appears on the dashboard with its own alert recipients, and a group manager can open every site in one list and compare rooms side by side.",
       },
     ],
+    listing: [
+      { slug: "doha-municipality", text: "The capital's municipality, with a bay-side city of towers, markets, hospitals and hotels, and its central business and island districts, in hot, humid summers." },
+    ],
     indexable: true,
+    children: [
+      {
+        slug: "doha-municipality",
+        name: "Doha Municipality",
+        type: "state",
+        intro:
+          "Doha Municipality takes in the capital city of Qatar, built around a curved bay on the east coast of the peninsula. A palm-lined Corniche follows the water, towers of glass stand beside traditional dhows, and low-rise lanes of an old market still sell spices, textiles and food. Business, shopping and residential districts spread inland and along the shore, from the towers of West Bay to the busy streets of Al Sadd, the redeveloped quarter of Msheireb and an artificial island of marinas and apartments. Summers are long, very hot and humid, winters mild, and dust and haze come in some seasons. Food, medicines and electronics wait in kitchens, clinics and stores in such heat. The pages below cover the city and four of its districts.",
+        localIndustries: [
+          "Hotel, restaurant and catering kitchens",
+          "Hospitals, clinics and pharmacies",
+          "Food import and retail",
+          "Office and server rooms",
+        ],
+        citiesServed: ["Doha"],
+        supportNote:
+          "Enquiries from Doha Municipality are handled through the enquiry form, Call or WhatsApp. Name the district, the rooms to be watched and how they are cooled, and we answer with what looks suitable for the site.",
+        faqs: [
+          {
+            question: "Which places in Doha Municipality have a page?",
+            answer:
+              "Doha has a city page, and West Bay, Al Sadd, Msheireb and The Pearl-Qatar have area pages under it. Another district of the capital can be raised through the enquiry form.",
+          },
+          {
+            question: "Why does a very hot city still need humidity records?",
+            answer:
+              "The coast is damp as well as hot, so condensation forms whenever a cold room opens to outside air, and a humidity trend beside the temperature shows moisture that a thermometer alone would miss.",
+          },
+          {
+            question: "Can one login watch rooms in several districts?",
+            answer:
+              "Yes. Each room is a separate point on one dashboard, alerts go to whoever looks after that room, and a manager sees every district together in one exported report.",
+          },
+        ],
+        listing: [
+          { slug: "doha", text: "A bay-side capital of towers, markets, hospitals, hotels and warehouses, with very hot, humid summers and sea air that carries dust and salt." },
+        ],
+        areaListing: [
+          { slug: "west-bay", text: "A district of glass towers, hotels, offices and restaurants along the northern curve of the bay." },
+          { slug: "al-sadd", text: "A busy central district of shops, clinics, restaurants and apartment blocks." },
+          { slug: "msheireb", text: "A redeveloped downtown quarter with shaded streets, low-rise buildings, shops, offices and hotels." },
+          { slug: "the-pearl-qatar", text: "An artificial island of marinas, residential towers, shops and restaurants off the northern coast." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "doha",
+            name: "Doha",
+            type: "city",
+            intro:
+              "Doha is the capital city of Qatar, built around a curved bay on the east coast of the peninsula, and a temperature data logger here serves a city of hospitals, hotels, food importers and warehouses in one of the hottest, most humid coastal climates in the Gulf. A palm-lined Corniche follows the water, traditional dhows ride at anchor beside towers of glass, and the low lanes of an old market sell spices, textiles and food. Newer districts of offices, apartments and clinics spread inland, with industrial and warehouse areas on the outskirts. Long summers push every cooling system to its limit, and sea air, dust and sudden haze add to the strain. Enquiries from Doha are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "Summer afternoons are far beyond comfortable and the nights stay warm, humid sea air carries salt onto every shed, and dust storms blow in from the desert in some seasons, so cold rooms, kitchens and vehicles all work against the weather for months. A refrigerator that loses power on an August afternoon warms fast, vehicles standing in the sun reach far higher temperatures than the shaded air, and condensation forms the moment a cold door opens.",
+            areas: [
+              {
+                name: "Hospitals, clinics and laboratories",
+                note: "Hospitals, specialist clinics and diagnostic laboratories hold vaccines, insulin, blood products and samples in refrigerators and freezers that must hold a range through any interruption of power.",
+              },
+              {
+                name: "Hotel, restaurant and catering kitchens",
+                note: "Hotels, restaurants and catering firms run walk-in coolers, freezers and dry stores in basements and back corridors, where heat from the kitchen adds to the load on the cooling.",
+              },
+              {
+                name: "Food importers and supermarket cold stores",
+                note: "Importers and supermarkets hold chilled and frozen food in cold rooms and reefer boxes before it moves to shops and kitchens across the city.",
+              },
+              {
+                name: "Warehouses on the outskirts",
+                note: "Warehouses and workshops on the edge of the city hold stock for shops and businesses under metal roofs that heat up quickly in the summer sun.",
+              },
+            ],
+            industries: [
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Doha hospitals and blood services hold vaccines and blood products to strict ranges, and a phone alert reaches the person on duty if a refrigerator drifts in the middle of the night.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine distributors and pharmacies in Doha store stock to labelled ranges, and a dated log of temperature and humidity shows how a room behaved through the hottest weeks of summer.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Hotel kitchens, caterers and food importers around Doha hold chilled and frozen stock, and a record from each cooler shows when a compressor began to struggle.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods that arrive for Doha wait in warehouses and vehicles before use, and a logger placed in a consignment records the heat and humidity each lot met.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a hotel walk-in cooler at floor, shelf and door height, showing which level warms first between loads.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable fits a ward or pharmacy refrigerator in Doha and leaves the way staff use the unit unchanged.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reading humidity beside temperature, one unit shows when damp bay air has crept into a dry store that looks fine on a thermometer.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Doha hotel or caterer use temperature loggers?",
+                answer:
+                  "A logger in each cooler, freezer and dry store records through the day and night, and a report for any period can be exported in PDF, Excel or CSV form for an inspector or a client.",
+              },
+              {
+                question: "Why does a store in a desert country need a humidity reading?",
+                answer:
+                  "The coast is damp as well as hot, and cold rooms form condensation whenever a door opens to the outside, so a humidity trend beside the temperature shows moisture that a thermometer alone would miss.",
+              },
+              {
+                question: "What happens to the record if the power or the WiFi fails in Doha?",
+                answer:
+                  "The logger keeps recording on its own battery and stores the readings, so the hours of an outage are still on record when the site is connected again.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Doha laboratories?",
+                answer:
+                  "Calibration of loggers and probes for Doha laboratories is looked after by VEGA Calibrations, our parent company; share the model and the range you work to and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "al-rayyan", name: "Al Rayyan" },
+              { slug: "al-wakrah", name: "Al Wakrah" },
+              { slug: "lusail", name: "Lusail" },
+            ],
+            metaTitle: "Temperature Data Loggers in Doha | Prithvi",
+            metaDescription:
+              "Data loggers for Doha's hospitals, hotel kitchens, food importers and warehouses in long, hot, humid summers. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+    ],
   },
   {
     slug: "oman",

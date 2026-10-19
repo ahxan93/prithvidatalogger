@@ -82,6 +82,7 @@ export const areaCities: Record<string, { name: string; stateSlug: string; state
   jubail: { name: "Jubail", stateSlug: "eastern-province", stateName: "Eastern Province" },
   yanbu: { name: "Yanbu", stateSlug: "madinah-region", stateName: "Madinah Region" },
   jazan: { name: "Jazan", stateSlug: "jazan-region", stateName: "Jazan Region" },
+  doha: { name: "Doha", stateSlug: "doha-municipality", stateName: "Doha Municipality" },
   fujairah: { name: "Fujairah", stateSlug: "fujairah-emirate", stateName: "Fujairah Emirate" },
   ajman: { name: "Ajman", stateSlug: "ajman-emirate", stateName: "Ajman Emirate" },
   "umm-al-quwain": { name: "Umm Al Quwain", stateSlug: "umm-al-quwain-emirate", stateName: "Umm Al Quwain Emirate" },
@@ -7629,6 +7630,223 @@ export const areas: AreaDef[] = [
       ],
       "nearby": [
         "fujairah-free-zone"
+      ],
+      "indexable": true
+    } },
+  // ------------------------------------------------------------------ Qatar (batch 1: Doha)
+  { slug: "west-bay", name: "West Bay", citySlug: "doha", areaType: "business-district", nearbyIndustries: ["data-centers","food-beverage","pharmaceutical"], confirmedService: true, hero: ["virat","dhruva"], page: {
+      "metaTitle": "Data Loggers in West Bay, Doha | Prithvi",
+      "metaDescription": "Data loggers for hotel kitchens, office pantries, server rooms and clinics in the West Bay towers of Doha. Get Solution.",
+      "intro": "West Bay is the district of glass towers along the northern curve of Doha's bay, where hotels, offices, apartments, shopping streets and restaurants stand shoulder to shoulder on reclaimed shoreline. A temperature data logger in a district of towers is concerned with rooms that sit far from a store or a warehouse: basement kitchens, floor pantries, server and network rooms, clinic refrigerators and building plant rooms, all cooled by equipment that works hard in long summers. This page is limited to the kinds of goods and rooms a logger user could look after in a tower district of this sort. Enquiries about West Bay are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Hotel kitchens and banqueting stores",
+          "note": "Hotels in the towers run large walk-in coolers and freezers, and the load on the cooling swings between a quiet weekday and a banquet evening."
+        },
+        {
+          "name": "Server, network and communications rooms",
+          "note": "Small server and network rooms inside offices depend on air-conditioning that, if it fails overnight, lets temperatures climb before anyone arrives."
+        },
+        {
+          "name": "Restaurants and food courts",
+          "note": "Restaurants and food courts at the foot of the towers share heat with ovens and fryers, so back-of-house coolers face a hotter room than the street outside."
+        },
+        {
+          "name": "Clinics and pharmacies",
+          "note": "Clinics and pharmacies in the business district hold vaccines and medicines in refrigerators that must hold their range through power dips."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "food-beverage",
+          "sentence": "Hotel and restaurant kitchens in West Bay hold chilled and frozen stock on upper and lower floors, and a record from each cooler shows when a unit began to drift."
+        },
+        {
+          "slug": "data-centers",
+          "sentence": "Small server rooms in the towers gain an early warning from a logger, because a rising room temperature is the first sign that cooling has failed."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Pharmacies and clinics in West Bay store stock to labelled ranges, and a dated log shows how a room behaved through the hottest weeks of summer."
+        }
+      ],
+      "services": "For a district of towers we would look at WiFi loggers for kitchens, pantries and server rooms near a router, probe-type loggers for refrigerators and freezers, and multi-channel units for larger cold rooms. VEGA Calibrations, our parent company, can talk through calibration for users in West Bay. A WiFi logger needs a router within range and a power supply, and where a floor has neither we describe the alternatives. We make no claim on supply until a West Bay request has been reviewed.",
+      "visits": "No visit or installation in West Bay is promised. Give the hotel or office, the rooms involved and a contact on the enquiry form, Call or WhatsApp, and we look over the West Bay request and reply with what appears workable.",
+      "approach": "If a request went ahead, we would begin with the room whose failure would cost the most, such as a banqueting freezer or a server room, placing one logger at the intake and one at the far wall, then add a second kitchen unit. The first summer weeks would show how the rooms behave after hours.",
+      "faqs": [
+        {
+          "question": "Can a hotel in a tower watch every kitchen from one login?",
+          "answer": "Yes. Each kitchen, pantry and plant room is a point on the same dashboard, each alert goes to its own engineer, and a manager sees every room together in one exported report."
+        },
+        {
+          "question": "Why does a server room need a temperature record?",
+          "answer": "The first sign of failed cooling is a climbing room temperature, so a logger with a phone alert warns staff before equipment trips out, and the log shows how long the room stood warm."
+        }
+      ],
+      "nearby": [
+        "the-pearl-qatar"
+      ],
+      "indexable": true
+    } },
+  { slug: "al-sadd", name: "Al Sadd", citySlug: "doha", areaType: "mixed-use", nearbyIndustries: ["pharmaceutical","food-beverage","hospitals-blood-banks"], confirmedService: true, hero: ["setu","nakshatra"], page: {
+      "metaTitle": "Data Loggers in Al Sadd, Doha | Prithvi",
+      "metaDescription": "Data loggers for clinic refrigerators, pharmacies, shop coolers and restaurant stores in Al Sadd, a central Doha district. Get Solution.",
+      "intro": "Al Sadd is a busy central district of Doha, where shops, clinics, pharmacies, restaurants and apartment blocks line the same streets. A temperature data logger in a district like this is concerned with many small rooms rather than a few large ones: clinic vaccine refrigerators, pharmacy stock rooms, supermarket coolers and restaurant stores, all cooled by equipment that works hard through long summers. This page is limited to the kinds of goods and rooms a logger user could look after in a central mixed district of this sort. Enquiries about Al Sadd are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Clinics, specialist centres and pharmacies",
+          "note": "Clinics and pharmacies serving the district hold vaccines, insulin and medicines in refrigerators that must stay in range through power dips."
+        },
+        {
+          "name": "Supermarkets and grocery stores",
+          "note": "Supermarkets and groceries sell dairy products, drinks and frozen food from display cabinets that are opened thousands of times a day."
+        },
+        {
+          "name": "Restaurants and bakeries",
+          "note": "Restaurants and bakeries run walk-in coolers and freezers in back rooms that share heat with ovens and fryers."
+        },
+        {
+          "name": "Small stockrooms above and behind shops",
+          "note": "Many shops keep surplus goods in rooms behind or above the sales floor, where the room temperature follows the weather outside."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Pharmacies in Al Sadd store medicines to labelled ranges, and a dated record shows how a room behaved through the hottest weeks and any outage."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Supermarkets, bakeries and restaurants hold chilled and frozen goods that spoil in heat, and a log from each cooler shows when a unit began to drift."
+        },
+        {
+          "slug": "hospitals-blood-banks",
+          "sentence": "Clinics in the district hold vaccines to strict ranges, and a phone alert reaches the person responsible if a refrigerator warms."
+        }
+      ],
+      "services": "For a district of many small rooms we would look at single-point loggers with external probes for refrigerators and freezers, WiFi loggers for kitchens and stockrooms near a router, and units that read humidity beside temperature for dry stores. Calibration for Al Sadd users is something VEGA Calibrations, our parent company, can discuss. A WiFi logger needs a router in range and mains power, and for a motorbike or a van we explain the alternatives. Whether anything can be supplied waits until a request from Al Sadd has been reviewed.",
+      "visits": "A visit or an installation in Al Sadd is not promised. Pass on the business, the rooms and a contact via the enquiry form, Call or WhatsApp, and we look over the request and reply with what seems workable.",
+      "approach": "If a request went ahead, we would begin with the refrigerator or cooler whose contents are hardest to replace, placing a probe in the middle of the unit rather than at the door, then add a second point in a dry stockroom. The first weeks of data would show how door openings and power dips affect the range.",
+      "faqs": [
+        {
+          "question": "Can a small clinic with one vaccine refrigerator use a single logger?",
+          "answer": "Yes. A probe logger with a phone alert covers a single refrigerator, and the dated log can be shown to an inspector as proof of how the unit held its range."
+        },
+        {
+          "question": "Why should a probe sit among the contents rather than on the door?",
+          "answer": "Door-side air swings with each opening, so a probe set among the contents records what the stock itself went through."
+        }
+      ],
+      "nearby": [
+        "msheireb"
+      ],
+      "indexable": true
+    } },
+  { slug: "msheireb", name: "Msheireb", citySlug: "doha", areaType: "business-district", nearbyIndustries: ["food-beverage","data-centers","pharmaceutical"], confirmedService: true, hero: ["rajmudra","veer"], page: {
+      "metaTitle": "Data Loggers in Msheireb, Doha | Prithvi",
+      "metaDescription": "Data loggers for hotel kitchens, museum and office stores, shop coolers and clinic refrigerators in Msheireb, Doha. Get Solution.",
+      "intro": "Msheireb is a redeveloped downtown quarter of Doha, laid out with shaded streets, courtyards and low-rise buildings in traditional styles, with shops, offices, hotels, galleries and apartments side by side. A temperature data logger in a district like this is concerned with rooms that need steady air for a reason: gallery and archive stores, hotel kitchens, office pantries, clinic refrigerators and plant rooms, all cooled by equipment that works hard through long summers. This page is limited to the kinds of goods and rooms a logger user could look after in a downtown quarter of this sort. Enquiries about Msheireb are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Gallery, archive and collection stores",
+          "note": "Rooms that hold artworks, papers and objects need a steady temperature and humidity, because swings crack varnish and curl paper."
+        },
+        {
+          "name": "Hotel kitchens and restaurants",
+          "note": "Hotels and restaurants in the quarter run walk-in coolers and freezers, and the cooling is tested hardest on weekend evenings."
+        },
+        {
+          "name": "Shops and cafes along the shaded streets",
+          "note": "Cafes and shops open their display coolers all day, and the courtyards trap heat in the afternoon."
+        },
+        {
+          "name": "Office pantries and plant rooms",
+          "note": "Offices and apartment blocks run pantry refrigerators and small plant rooms that serve many people and depend on steady power."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "food-beverage",
+          "sentence": "Hotels, cafes and restaurants in Msheireb hold chilled and frozen food, and a record from each cooler shows when a unit began to struggle."
+        },
+        {
+          "slug": "laboratories",
+          "sentence": "Conservation and storage rooms keep materials to stated limits of temperature and humidity, and an exported report supports a conservation plan."
+        },
+        {
+          "slug": "data-centers",
+          "sentence": "Small server rooms in the quarter's offices gain an early warning from a logger, because a rising room temperature is the first sign that cooling has failed."
+        }
+      ],
+      "services": "For a downtown quarter we would consider WiFi loggers for kitchens, stores and server rooms near a router, humidity-reading units for gallery and archive rooms, probe-type loggers for refrigerators and freezers, and multi-channel units for larger cold rooms. VEGA Calibrations, our parent company, can talk through calibration for Msheireb users. A WiFi logger needs a router within range and a power supply, and where a courtyard store has neither we describe the alternatives. Supply is left until a request for Msheireb has been reviewed.",
+      "visits": "No visit or installation in Msheireb is promised. Let us have the business, the rooms involved and a contact on the enquiry form, Call or WhatsApp, and we review the request and say what appears practical.",
+      "approach": "If a request went ahead, we would begin with the room whose contents are hardest to replace, such as a collection store or a kitchen freezer, placing one logger by the door and one at the far wall, and adding a humidity unit where objects are kept. A few weeks of summer readings would show how steady the room is.",
+      "faqs": [
+        {
+          "question": "Why would a collection store need a humidity record?",
+          "answer": "Paper, varnish and fabric react to dryness and damp, so a log of temperature and humidity shows whether the air stayed steady and when it swung, which supports a conservation plan."
+        },
+        {
+          "question": "Can one dashboard cover a hotel and a gallery in the same quarter?",
+          "answer": "Yes. Each room is a point on the same dashboard, alerts go to whoever looks after that room, and a combined report for any period can be exported."
+        }
+      ],
+      "nearby": [
+        "al-sadd"
+      ],
+      "indexable": true
+    } },
+  { slug: "the-pearl-qatar", name: "The Pearl-Qatar", citySlug: "doha", areaType: "mixed-use", nearbyIndustries: ["food-beverage","pharmaceutical","logistics-warehousing"], confirmedService: true, hero: ["virat-pro","setu"], page: {
+      "metaTitle": "Data Loggers in The Pearl-Qatar, Doha | Prithvi",
+      "metaDescription": "Data loggers for marina cafes, supermarket coolers, clinic refrigerators and apartment stores on The Pearl-Qatar island, Doha. Get Solution.",
+      "intro": "The Pearl-Qatar is an artificial island off the northern coast of Doha, built on reclaimed land with marinas, residential towers, villas, shops and restaurants arranged around a ring of waterfront. A temperature data logger on an island of this sort is concerned with rooms that sit on reclaimed land: supermarket coolers, restaurant and cafe stores, clinic refrigerators and the stockrooms of the shops, all cooled by equipment that works hard in humid sea air. This page is limited to the kinds of goods and rooms a logger user could look after on a waterfront island of this sort. Enquiries about The Pearl-Qatar are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Supermarkets and grocery stores",
+          "note": "Supermarkets on the island serve whole towers of residents from display coolers and walk-in cold rooms opened constantly through the day."
+        },
+        {
+          "name": "Waterfront cafes and restaurants",
+          "note": "Cafes and restaurants along the marina run coolers and freezers in warm, salty air, and their busy evenings test the cooling."
+        },
+        {
+          "name": "Clinics and pharmacies",
+          "note": "Clinics and pharmacies hold vaccines and medicines in refrigerators that must hold their range through power dips."
+        },
+        {
+          "name": "Building stockrooms and apartment stores",
+          "note": "Residential towers keep shared pantries, maintenance stockrooms and small refrigerators in basements where humid air sits."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "food-beverage",
+          "sentence": "Supermarkets, cafes and restaurants on the island hold chilled and frozen goods in humid sea air, and a log from each cooler shows when a unit began to drift."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Pharmacies and clinics on the island store stock to labelled ranges, and a dated record shows how a room behaved through the hottest weeks and any outage."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Goods brought onto the island wait in vehicles and stockrooms before use, and a logger placed in a load records the heat and humidity each lot met."
+        }
+      ],
+      "services": "For a waterfront island we would look at probe-type loggers for coolers and refrigerators, WiFi loggers for stockrooms and kitchens near a router, and units that read humidity beside temperature for basements. Calibration for users on the island is something VEGA Calibrations, our parent company, can discuss. A WiFi logger needs a router in range and mains power, and for a van we explain the alternatives. Nothing is stated on supply until a request for The Pearl-Qatar has been reviewed.",
+      "visits": "A visit or an installation on The Pearl-Qatar is not promised. Give the business, the rooms to be watched and a contact via the enquiry form, Call or WhatsApp, and we look the request over and say what looks practical.",
+      "approach": "If a request went ahead, we would begin with the cooler or cold room whose contents are hardest to replace, placing a probe in the middle of the unit, then add a humidity unit in a basement store where damp collects. The first weeks of readings would show which hours strain the room.",
+      "faqs": [
+        {
+          "question": "Can a marina cafe watch its coolers from a phone?",
+          "answer": "Yes. A probe logger in each cooler sends an alert to a phone if the range is crossed, and the dated log is available to show how the unit held its range."
+        },
+        {
+          "question": "Why does a basement store near the sea need a humidity reading?",
+          "answer": "Warm, damp air settles in low rooms and condenses on cool surfaces, so a humidity trend beside the temperature shows moisture that a thermometer alone would miss."
+        }
+      ],
+      "nearby": [
+        "west-bay"
       ],
       "indexable": true
     } },

@@ -389,6 +389,11 @@
 | Dibba Al Fujairah (`dibba`, city, Fujairah Emirate) | UAE | Fishing harbour and ice boxes, date farms, dive-centre kitchens, clinic and shops | Food, medicines, logistics | Hot, humid bay below steep peaks | Fujairah, Khor Fakkan |
 | Fujairah Free Zone (`fujairah-free-zone`, area of Fujairah) | UAE | Warehouse units, chemical and lubricant stores, food and drink stock rooms (described generally, no operating status) | Logistics, food, chemicals | Hot, damp, salty | Port of Fujairah |
 | Port of Fujairah (`port-of-fujairah`, area of Fujairah) | UAE | Quayside sheds, cold rooms and refrigerated boxes, warehouses, vehicles (described generally, no operating status) | Logistics, food, medicines | Hot, damp, salty | Fujairah Free Zone |
+| Doha (`doha`, city, Doha Municipality) | Qatar | Hospitals and laboratories, hotel and catering kitchens, food importers, outskirt warehouses | Medicines, food, logistics | Very hot, humid bay coast; dust and haze | Al Rayyan, Al Wakrah, Lusail (not yet built) |
+| West Bay (`west-bay`, area of Doha) | Qatar | Hotel kitchens, server rooms, restaurants and food courts, clinics | Food, data centers, medicines | Hot, humid, towers | The Pearl-Qatar |
+| Al Sadd (`al-sadd`, area of Doha) | Qatar | Clinics and pharmacies, supermarkets, restaurants and bakeries, shop stockrooms | Medicines, food, clinics | Hot, humid | Msheireb |
+| Msheireb (`msheireb`, area of Doha) | Qatar | Collection and archive stores, hotel kitchens, cafes, office pantries and plant rooms | Food, laboratories, data centers | Hot, humid, shaded streets | Al Sadd |
+| The Pearl-Qatar (`the-pearl-qatar`, area of Doha) | Qatar | Supermarkets, marina cafes, clinics, basement stockrooms | Food, medicines, logistics | Hot, humid sea air | West Bay |
 | Jazan Economic City (`jazan-economic-city`, area of Jazan) | Saudi Arabia | Plant chemical and drum stores, spares warehouses and contractor yards, port yards, camp kitchens and clinics | Chemical stores, contract warehousing, camp catering | Extreme heat and humidity, salty air | none |
 | Jeddah (`jeddah`) | Saudi Arabia | Industrial and port logistics zones | Port logistics, food import cold chain, hospitals | Hot, humid coastal | Riyadh, Dammam |
 | Dammam (`dammam`) | Saudi Arabia | Industrial and port logistics zones | Industrial & chemical, port logistics, food | Hot, humid Gulf coast | Riyadh, Bahrain, Jeddah |
@@ -647,3 +652,16 @@ distinguishing local facts: Falaj Al Mualla.
 UAE Batch 7 (Fujairah Emirate): hub, Fujairah, Dibba Al Fujairah (named for the Fujairah side only; no border or jurisdiction statement is made), and the
 areas Fujairah Free Zone and Port of Fujairah. This completes the UAE build: Abu Dhabi, Dubai, Sharjah, Ajman, Umm Al Quwain, Ras Al Khaimah and
 Fujairah emirate hubs are all indexable.
+
+## Qatar municipalities
+
+Municipality hubs are state-level hubs under the Qatar country hub with the slug pattern `{name}-municipality` (e.g. `doha-municipality`), so they never
+collide with city slugs. A municipality hub is indexable only with two or more built child pages, otherwise noindex and out of the sitemap, never empty.
+Place each city and area under the municipality and city it really belongs to; where that is not confidently known, make no municipal or boundary
+statement, attach it to the nearest confident city, or skip it. Qatar pages follow the GCC rules (no Vayu or GSM series, GSM note once per page, no
+local-office claim, no accreditation claim, no delivery, shipping, customs, warranty or local-stock claims) and carry no event, stadium, tournament or
+political reference and no company name. Port, airport, free-zone, industrial-city and Ras Laffan pages say nothing about operating status, traffic,
+capacity, production, cargo volumes, energy output, operator or eligibility.
+
+Qatar Batch 1 (Doha Municipality): hub, Doha city, and the areas West Bay, Al Sadd, Msheireb and The Pearl-Qatar. The Qatar country hub text was
+rewritten to drop the old "dispatch from India" and "no city pages yet" wording.
