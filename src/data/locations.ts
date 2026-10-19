@@ -150,6 +150,7 @@ export const locations: LegacyLocationNode[] = [
       { slug: "meghalaya", text: "Shillong's hill hotels, medical institute and university, with the Byrnihat industrial belt below, in cool, extremely rainy air." },
       { slug: "tripura", text: "Agartala's border-side markets, rubber and agro trade, hospitals and university, in hot humid air and heavy monsoon rain." },
       { slug: "sikkim", text: "Gangtok's hotels, hospitals and markets and Rangpo's border gateway and pharmaceutical estates, in steep mountain country with landslide-prone roads." },
+      { slug: "jammu-and-kashmir", text: "Jammu's pharma estates and gateway trade, Srinagar's fruit, saffron and handicraft stores, and the highway towns of Samba and Kathua, in a climate of hot plains and snowy winters." },
     ],
     indexable: true,
     children: [
@@ -16282,6 +16283,430 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Rangpo | Prithvi",
             metaDescription:
               "WiFi and GSM temperature and humidity data loggers for Rangpo's pharma estate, bottling plants, checkpost loads and clinics. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "jammu-and-kashmir",
+        name: "Jammu and Kashmir",
+        type: "state",
+        intro:
+          "The Union Territory of Jammu and Kashmir joins two very different storage worlds: the hot plains around Jammu, Samba and Kathua, where pharmaceutical, food and engineering estates stand beside the highway from Punjab, and the cool valley around Srinagar, where apples, saffron, dry fruit and handicrafts are grown, traded and stored. Goods move between the two over mountain roads that can close in heavy snow, and winters are cold, so cold stores, medicine godowns and fruit chambers must be watched through power cuts as well as seasons. Summers on the plains are fiercely hot. Each city page below names its estates and the stores we would watch first.",
+        localIndustries: [
+          "Pharmaceutical manufacturing",
+          "Fruit and dry-fruit cold storage",
+          "Handicraft and saffron trade",
+          "Hospitals and medicine distribution",
+        ],
+        citiesServed: ["Jammu","Srinagar","Samba","Kathua"],
+        supportNote:
+          "Supply, installation support and site visits for sites in the Union Territory are arranged from our Mumbai office. Tell us the town, the estate or the cold store and what the rooms hold.",
+        faqs: [
+          {
+            question: "Which places in Jammu and Kashmir have a page?",
+            answer:
+              "Jammu, Srinagar, Samba and Kathua each have a city page. For any other town in the Union Territory, send us a note through the enquiry form and we confirm what can be arranged.",
+          },
+          {
+            question: "How does a logger help an apple or dry-fruit trader?",
+            answer:
+              "Fruit holds its quality only within a narrow range, so a logger in the chamber and the truck records the temperature through storage and the mountain road, and an alert warns the owner if a chamber drifts.",
+          },
+          {
+            question: "What if snow closes the road and the power fails?",
+            answer:
+              "Each logger keeps recording on its battery through a snow outage, the stored readings follow when the network is back, and a lost-mains alert warns the named person that a room has lost its protection.",
+          },
+        ],
+        listing: [
+          { slug: "jammu", text: "The plains gateway on the Tawi, with Bari Brahmana and Gangyal estates, pharma and medicine distribution, hospitals and the Narwal market." },
+          { slug: "srinagar", text: "The valley city on the Jhelum, with apple and dry-fruit cold stores, saffron and handicraft trade, hospitals and Rangreth estate." },
+          { slug: "samba", text: "A highway town beside Jammu, with an industrial complex of pharma and food plants and a medical institute at Vijaypur." },
+          { slug: "kathua", text: "The highway entry from Punjab, with a medical college, grain and fruit markets, truck terminals and small industrial estates." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "jammu",
+            name: "Jammu",
+            type: "city",
+            intro:
+              "Jammu is the commercial and logistics gateway of the Union Territory, a city on the Tawi river at the foot of the Shivalik hills, and a temperature data logger here serves a trading and healthcare centre on the highway from Punjab. Trains and trucks bring medicines, food and consumer goods that are sorted and sent on to the valley and the hill towns, pilgrims travelling to the shrine at Katra pass through in great numbers, and hospitals and a medical college serve the region. Industrial areas at Bari Brahmana, Gangyal and Digiana hold pharmaceutical, food, steel and packaging firms, and the Narwal market handles fruit and vegetables. Prithvi supplies WiFi loggers for wards and plants with a network and GSM loggers for trucks, mountain loads and distant stores.",
+            climateAngle:
+              "Summers on the plain are fiercely hot, the monsoon turns the air heavy and winter mornings are cold and foggy, so a godown that is scorching in June can be damp in August and chilled in January.",
+            areas: [
+              {
+                name: "Bari Brahmana",
+                note: "A planned industrial complex on the highway side holds pharmaceutical, food, steel and packaging plants on regular plots, with raw-material rooms, finished-goods stores and loading bays open to the sun.",
+              },
+              {
+                name: "Gangyal and Digiana",
+                note: "Older industrial areas inside and beside the city hold small factories, engineering workshops and godowns, whose stores are packed into crowded buildings with limited ventilation.",
+              },
+              {
+                name: "Narwal market and the wholesale lanes",
+                note: "Traders in fruit, vegetables, dry fruit, medicines and general goods work in busy markets, with cold rooms and back rooms that run hard through the long hot summer.",
+              },
+              {
+                name: "Hospitals and the pilgrim route",
+                note: "Government and private hospitals, a medical college and the guesthouses and eating houses used by pilgrims keep medicine fridges, blood storage and kitchen coolers running through the year.",
+              },
+            ],
+            industries: [
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Formulation plants and medicine distributors hold ingredients and finished packs in controlled rooms, and a continuous log of temperature and humidity supports each batch file and answers a buyer's audit.",
+              },
+              {
+                slug: "vaccine-cold-chain",
+                sentence:
+                  "Vaccines reach district centres in the hills by road from Jammu, and a logger in the carrier shows whether the doses stayed within range on a hot plain and on a cold mountain climb.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Dairies, bakeries, dry-fruit dealers and caterers run chillers and cold rooms through the long summer, and an alert on a phone reaches the owner when a unit warms at night.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Warehouses and carriers sort goods for the valley and the hills, and a reading at each bay shows how long a load stood in the heat before it began the climb.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels let a pharmaceutical store or a medicine godown be read at its door and at its back wall by a single device on the wall.",
+              },
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels spread along a long warehouse or a plant store give one report for each bay and shelf level, showing which corner holds the heat.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger travels in a truck bound for the valley, holds its readings in memory through the tunnels and passes, and uploads them as soon as a signal is found.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Jammu distributor show how medicines fared on the road to the valley?",
+                answer:
+                  "A GSM logger placed with the pack records readings along the road and through any halt, and the owner can open the record on a phone and export it for the buyer.",
+              },
+              {
+                question: "Do you cover Bari Brahmana, Gangyal and Digiana in one trip?",
+                answer:
+                  "Send the estate, the unit and a person to meet using the enquiry form, WhatsApp or a call, and we propose a day. The estates lie on different sides of the city, so they are taken in a sensible order.",
+              },
+              {
+                question: "How are alert limits set for a hot summer and a cold winter?",
+                answer:
+                  "A godown can run hot in June and near freezing in January, so we set both a low and a high limit, and add a short delay to the high one so that an open door does not raise the alarm.",
+              },
+              {
+                question: "Who calibrates loggers used in a Jammu hospital or plant laboratory?",
+                answer:
+                  "For a Jammu hospital or plant laboratory, VEGA Calibrations, our parent company, calibrates the loggers and probes, and the date is agreed with the order.",
+              },
+            ],
+            nearby: [
+              { slug: "samba", name: "Samba" },
+              { slug: "kathua", name: "Kathua" },
+              { slug: "srinagar", name: "Srinagar" },
+            ],
+            metaTitle: "Temperature Data Loggers in Jammu | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Jammu's Bari Brahmana pharma plants, medicine distributors, hospitals and markets. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "srinagar",
+            name: "Srinagar",
+            type: "city",
+            intro:
+              "Srinagar lies in the Kashmir valley on the banks of the Jhelum, around the Dal Lake and its houseboats, and a temperature data logger here serves a city of orchards, crafts and mountain trade. The valley grows apples, walnuts and almonds, and saffron is harvested at Pampore, so cold stores and controlled-atmosphere chambers hold fruit through the year, while workshops make carpets, papier-mache and shawls. Fruit markets at Parimpora and orchards toward Sopore feed trucks bound for the plains. Industrial areas at Rangreth and Lassipora hold small factories, and the Sher-i-Kashmir Institute of Medical Sciences and other hospitals serve the valley. Prithvi supplies WiFi loggers for stores and wards with a network and GSM loggers for trucks and distant orchards.",
+            climateAngle:
+              "Winters are cold with heavy snow that can close the mountain road, spring rains are damp, and summers are mild to warm, so cold stores must hold their range through outages, and stored fruit and fabrics meet damp and cold in turn.",
+            areas: [
+              {
+                name: "Parimpora fruit market",
+                note: "Growers and traders bring apples, pears and dry fruit to the market in season, and packed cartons wait in cold stores and trucks before the long climb over the pass to the plains.",
+              },
+              {
+                name: "Rangreth and Lassipora estates",
+                note: "Industrial estates on either side of the valley hold small factories, food and packaging firms and cold stores, some of them holding apples in controlled-atmosphere chambers.",
+              },
+              {
+                name: "Saffron and handicraft trade",
+                note: "Saffron grown around Pampore and carpets, shawls and papier-mache from city workshops are stored in small rooms that must stay cool, dry and free of damp.",
+              },
+              {
+                name: "Hospital and medical-institute belt",
+                note: "A large institute of medical sciences and other hospitals keep blood units, vaccines and medicines in refrigerators that serve patients from the whole valley.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Apple and dry-fruit dealers, saffron traders and dairies hold produce whose value depends on narrow storage limits, and a record from each chamber shows a buyer how a lot was kept from the orchard to the truck.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A large medical institute and other hospitals receive patients from every district, and an alert to the duty staff covers the minutes when the mains fails and the generator has not started in a snow outage.",
+              },
+              {
+                slug: "vaccine-cold-chain",
+                sentence:
+                  "Vaccines are sent to district centres in the valley, and a logger in the carrier shows whether the doses stayed within range on a long, cold road.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Trucks of fruit leave the valley for far cities, and a GSM logger in the load records every hour of the climb, so a delay at the pass leaves a clear trace.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels spread over a large fruit chamber at several heights and positions show whether the cold reaches the back and the top of the stacks.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A one-probe logger fits a saffron store or a clinic refrigerator and does nothing to change how staff use the unit.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a fruit truck and keeps recording on the mountain road, sending the readings once signal returns.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How can a logger help an apple trader in Srinagar?",
+                answer:
+                  "It records temperature and humidity in the cold store and the truck, and an alert warns the owner if a chamber drifts or the power fails, so a lot's record can be shown to a buyer.",
+              },
+              {
+                question: "What happens when snow closes the road and cuts the power?",
+                answer:
+                  "Loggers keep recording on their batteries and send an alert for a lost supply, then pass on the stored readings once the network returns, so a delayed load leaves a clear trace.",
+              },
+              {
+                question: "Can saffron or dry fruit be monitored in a small room?",
+                answer:
+                  "Yes. A single compact logger with a probe, or a temperature and humidity unit, records the room all season, and the log can be exported as PDF, Excel or CSV for a buyer.",
+              },
+              {
+                question: "Can calibration for a Srinagar hospital laboratory be arranged?",
+                answer:
+                  "Loggers and probes used in a Srinagar hospital laboratory can be calibrated through VEGA Calibrations, our parent company, with the visit planned together with the supply.",
+              },
+            ],
+            nearby: [
+              { slug: "jammu", name: "Jammu" },
+              { slug: "samba", name: "Samba" },
+            ],
+            metaTitle: "Temperature Data Loggers in Srinagar | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Srinagar's apple cold stores, saffron and handicraft rooms and hospitals. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "samba",
+            name: "Samba",
+            type: "city",
+            intro:
+              "Samba is a town beside Jammu on the national highway toward Punjab, and a temperature data logger here serves an industrial belt and a healthcare campus that have grown up on the plain next to the larger city. A planned industrial complex holds pharmaceutical, food, plastics and engineering plants on regular plots, a national medical institute stands at Vijaypur with its wards and laboratories, and warehouses and truck terminals line the highway. Farms around the town grow wheat and rice and supply a grain market, and trucks leave for Jammu and the valley through the day. Because the plants here are close neighbours of the Jammu estates, many firms keep a store in Samba and an office in Jammu. Prithvi supplies WiFi loggers for plants and wards with a network and GSM loggers for trucks and yards.",
+            climateAngle:
+              "The plain is scorching in summer, the monsoon brings heavy, humid weeks and winter mornings are cold and foggy, so a plant store can be dry and hot in June, damp in August and chilled in January, and a dusty afternoon wind often follows the harvest.",
+            areas: [
+              {
+                name: "Samba industrial complex",
+                note: "A planned estate holds pharmaceutical, food, plastics and engineering plants on regular plots, with raw-material rooms and finished-goods halls that need written records of temperature.",
+              },
+              {
+                name: "Vijaypur medical institute campus",
+                note: "A national medical institute with wards, laboratories and pharmacies keeps blood units, vaccines and samples in refrigerators and freezers on a wide campus.",
+              },
+              {
+                name: "Highway warehouses and truck terminals",
+                note: "Warehouses and parking yards beside the national highway hold goods bound for the valley and for Punjab, with bays open to the afternoon sun.",
+              },
+              {
+                name: "Samba town market and grain yards",
+                note: "A grain market and wholesale shops stock wheat, rice, food and medicines for the district, in godowns where monsoon damp threatens sacks.",
+              },
+            ],
+            industries: [
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Plants in the industrial complex hold ingredients and finished packs in controlled rooms, and a dated log answers a customer who asks how a pack was held through a hot summer.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A national medical institute holds blood units and vaccines for patients from across the region, and an alert on a phone means a failing refrigerator is found at night.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Contract warehouses along the highway hold goods for several customers, and a separate reading for each bay lets the operator export a report for the customer whose goods stood there.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels give a quality team a paired record from one device, such as one probe near the door and one at the back of a pharmaceutical store.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity and temperature at one point suit a plastics or packaging store, where heavy monsoon air is what harms the stock.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger rides in a truck on the highway and reports from yards and sheds that no Wi-Fi network reaches.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a firm with a plant in Samba and an office in Jammu use one dashboard?",
+                answer:
+                  "Yes. Both places can share one account, each plant or store with its own alert contacts, and a manager in Jammu reads the Samba plant from the same list and pulls a report for any dates.",
+              },
+              {
+                question: "Can a warehouse operator give each customer a report for its own bay?",
+                answer:
+                  "Each bay can be its own point on the dashboard with separate alert recipients, and a report for that bay and period can be exported when the customer asks.",
+              },
+              {
+                question: "How are visits planned for a plant in the industrial complex?",
+                answer:
+                  "Tell us the plot, the plant and a person to meet by the enquiry form, WhatsApp or a call, and mention any visitor pass. Samba is usually grouped with Jammu on the same trip.",
+              },
+              {
+                question: "Who calibrates loggers used in a Samba plant or hospital laboratory?",
+                answer:
+                  "VEGA Calibrations, our parent company, calibrates loggers and carries out temperature mapping, and the date can be fixed with the supply.",
+              },
+            ],
+            nearby: [
+              { slug: "jammu", name: "Jammu" },
+              { slug: "kathua", name: "Kathua" },
+            ],
+            metaTitle: "Temperature Data Loggers in Samba | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Samba's industrial complex, medical institute, highway warehouses and grain yards. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "kathua",
+            name: "Kathua",
+            type: "city",
+            intro:
+              "Kathua is the highway town through which road and rail traffic from Punjab enters the Union Territory, and a temperature data logger here serves a place of passing trade. Trucks from the plains stop at the terminals near Lakhanpur before they climb toward Jammu and the valley, and the town has a medical college and hospital, a busy grain and fruit market, and industrial estates with food, packaging and engineering units, including one toward Hiranagar. The Ujh and Ravi rivers water the farms around, which grow wheat, rice and vegetables. Because goods change hands and sometimes wait at the entry, rooms and trucks are exposed to long stretches of heat. Prithvi supplies WiFi loggers for wards and stores with a network and GSM loggers for trucks and yards.",
+            climateAngle:
+              "The plain is very hot in summer, the monsoon brings damp and flooded streams, and winter mornings are cold and foggy, so loads that wait at the entry meet scorching sun in June and fog in January.",
+            areas: [
+              {
+                name: "Lakhanpur truck terminals",
+                note: "Trucks halt at the entry for paperwork and for loading, so food, medicine and parcels often stand in vehicles in the afternoon sun before the climb to Jammu.",
+              },
+              {
+                name: "Kathua industrial estates",
+                note: "Estates in and around the town, including one toward Hiranagar, hold food, packaging and engineering units on plots of varied size, with godowns open to the road.",
+              },
+              {
+                name: "Grain and fruit market",
+                note: "Traders handle wheat, rice, vegetables and fruit in yards and godowns, where monsoon damp threatens sacks and heat spoils fruit quickly.",
+              },
+              {
+                name: "Medical college and the town hospitals",
+                note: "A medical college hospital and other hospitals serve the district, with blood storage and vaccine fridges that must hold their limits through outages.",
+              },
+            ],
+            industries: [
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Carriers use the entry as a place to complete paperwork, load and rest, and a logger in a consignment records how long goods stood in the sun before they began the climb.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Grain millers, fruit dealers and packaged-food firms hold stock that spoils in heat or damp, and an alert on a phone reaches the owner when a store or chiller drifts.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A medical college hospital holds blood and vaccines for the district, and an alert to the duty staff covers the minutes when the mains and the generator both fail.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine stockists supply chemists in the district and in the hills beyond, and a logger placed with a pack records the whole range of conditions it met on the road.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a truck waiting at the terminals or climbing toward Jammu, and sends an alert to a phone.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity and temperature at one point suit a grain godown or a medicine store, where monsoon air is what harms the stock.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A one-probe logger fits a clinic refrigerator or a dairy chiller and does nothing to change how staff use the unit.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a transporter show a buyer how a load was held at the entry?",
+                answer:
+                  "Yes. A logger placed with the goods records readings through the halt and onward journey, and the owner can open the record on a phone and export it for the buyer.",
+              },
+              {
+                question: "Do you cover the estate toward Hiranagar as well as the town?",
+                answer:
+                  "Give us the estate, the unit and a person to meet through the enquiry form, WhatsApp or a call, and we propose a day. Kathua is often grouped with Samba and Jammu on one trip.",
+              },
+              {
+                question: "How does a logger help a grain dealer in monsoon weeks?",
+                answer:
+                  "A record of humidity and temperature in the godown marks the day damp began to reach the sacks, so the staff can ventilate, cover or move stock.",
+              },
+              {
+                question: "Can calibration for a Kathua hospital laboratory be arranged?",
+                answer:
+                  "Calibration of loggers and probes for a Kathua hospital laboratory is carried out by VEGA Calibrations, our parent company, and can be booked with the order.",
+              },
+            ],
+            nearby: [
+              { slug: "samba", name: "Samba" },
+              { slug: "jammu", name: "Jammu" },
+              { slug: "amritsar", name: "Amritsar" },
+            ],
+            metaTitle: "Temperature Data Loggers in Kathua | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Kathua's highway terminals, grain and fruit godowns, estates and hospitals. Get Solution.",
             indexable: true,
           },
         ],
