@@ -5412,7 +5412,7 @@ export const areas: AreaDef[] = [
   { slug: "port-of-aden", name: "Port of Aden", citySlug: "aden", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["virat","rajmudra"], page: {
       "metaTitle": "Data Loggers at the Port of Aden, Yemen | Prithvi",
       "metaDescription": "Temperature and humidity data loggers for storage around the Port of Aden: yards, transit sheds and cold rooms, reviewed case by case. Get Solution.",
-      "intro": "The Port of Aden lies in the sheltered natural harbour beside the old crater town on the Gulf of Aden, and for generations the harbour has been the reason the city exists: ships called here for coal, water and trade on the sea route between Europe, Africa and Asia. A temperature data logger around a port area is concerned with goods during the waiting that follows any sea journey, when cargo stands on a quay, in a transit shed or in a yard before it moves on, in air that is hot, humid and salty. This page describes the kinds of rooms and handovers where a record helps and says nothing about the port's present activity, which changes. As with every Yemen enquiry, a request for a port site is reviewed case by case before any recommendation is made.",
+      "intro": "The Port of Aden lies in the sheltered natural harbour beside the old crater town on the Gulf of Aden, and for generations the harbour has been the reason the city exists: it has long stood on the sea route between Europe, Africa and Asia. A temperature data logger around a port area is concerned with goods during the waiting that follows any sea journey, when cargo stands on a quay, in a transit shed or in a yard before it moves on, in air that is hot, humid and salty. This page describes, in general terms, the kinds of rooms and handovers where a record helps. As with every Yemen enquiry, a request for a port site is reviewed case by case before any recommendation is made.",
       "places": [
         {
           "name": "Quayside yards and open stacks",
@@ -5428,7 +5428,7 @@ export const areas: AreaDef[] = [
         },
         {
           "name": "Truck gates and holding areas",
-          "note": "Vehicles that wait to load or leave stand with their cargo in the sun, so goods inside a closed truck can run far hotter than the air outside."
+          "note": "Vehicles that load or collect goods stand with their cargo in the sun, so goods inside a covered truck can run far hotter than the air outside."
         }
       ],
       "industries": [
@@ -5466,7 +5466,7 @@ export const areas: AreaDef[] = [
   { slug: "aden-free-zone", name: "Aden Free Zone", citySlug: "aden", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["nakshatra","veer"], page: {
       "metaTitle": "Data Loggers in the Aden Free Zone, Yemen | Prithvi",
       "metaDescription": "Temperature and humidity data loggers for storage in the Aden Free Zone's warehouses, packing halls and cold rooms, reviewed case by case. Get Solution.",
-      "intro": "The Aden Free Zone is an area set aside beside the harbour of Aden under a free-zone arrangement, intended as a place where goods can be stored, packed, processed and sent on. A free zone is built around warehouses, packing halls and yards, and what matters to a temperature data logger is the storage that goes with those buildings: large halls under metal roofs, cold rooms for food and medicine, and the long waits that goods make between arrival and onward movement. The air is hot, humid and salty for most of the year. This page describes those rooms in general and says nothing about the present activity, capacity or openness of the zone, which changes. Requests from a free-zone site are, like all Yemen enquiries, looked at case by case before we suggest any logger.",
+      "intro": "The Aden Free Zone lies beside the harbour of Aden, and sites of this kind are usually places where goods are stored, packed and sent on. A free zone is built around warehouses, packing halls and yards, and what matters to a temperature data logger is the storage that goes with those buildings: large halls under metal roofs, cold rooms for food and medicine, and the long waits that goods make between arrival and onward movement. The air is hot, humid and salty for most of the year. This page describes those rooms in general terms, as a logger user would meet them. Requests from a free-zone site are, like all Yemen enquiries, looked at case by case before we suggest any logger.",
       "places": [
         {
           "name": "Warehouses and storage halls",
@@ -5520,7 +5520,7 @@ export const areas: AreaDef[] = [
   { slug: "sheikh-othman-industrial-area", name: "Sheikh Othman Industrial Area", citySlug: "aden", areaType: "industrial-estate", nearbyIndustries: ["food-beverage","logistics-warehousing","chemical"], confirmedService: true, hero: ["setu","dhruva"], page: {
       "metaTitle": "Data Loggers in Sheikh Othman Industrial Area | Prithvi",
       "metaDescription": "Temperature and humidity data loggers for workshops, stores and plants in Sheikh Othman Industrial Area, Aden, reviewed case by case. Get Solution.",
-      "intro": "Sheikh Othman is a large district on the plain to the north-west of Aden's older centre, with markets, clinics and neighbourhoods of small shops, and an industrial area of workshops, small plants and warehouses lies within it. Work of this kind generally includes food and drink preparation, packaging, light engineering and the stores that serve them, in buildings with metal roofs that hold the heat of the day. A temperature data logger in a district like this watches the ingredient and product stores of food makers, the chemical and consumables rooms of workshops, and the warehouses where goods wait for a customer. This page says nothing about the present activity of any works, which changes. Whether a particular store in Sheikh Othman can be supported is decided case by case after we hear from you.",
+      "intro": "Sheikh Othman is a large district on the plain to the north-west of Aden's older centre, with markets, clinics and neighbourhoods of small shops, and an industrial area of workshops, small plants and warehouses lies within it. Work of this kind generally includes food and drink preparation, packaging, light engineering and the stores that serve them, in buildings with metal roofs that hold the heat of the day. A temperature data logger in a district like this watches the ingredient and product stores of food makers, the chemical and consumables rooms of workshops, and the warehouses where goods wait for a customer. The page describes only the kinds of rooms and stock a logger user might look after in such a district. Whether a particular store in Sheikh Othman can be supported is decided case by case after we hear from you.",
       "places": [
         {
           "name": "Food and drink preparation rooms and stores",
@@ -5536,7 +5536,7 @@ export const areas: AreaDef[] = [
         },
         {
           "name": "Warehouses on the district's main roads",
-          "note": "Warehouses and depots beside the main roads hold goods for shops and customers across the city, in bays whose doors open to the sun."
+          "note": "Warehouses and depots beside the main roads hold goods for shops and customers across the city, in bays whose doors face the sun."
         }
       ],
       "industries": [
@@ -5574,7 +5574,7 @@ export const areas: AreaDef[] = [
   { slug: "little-aden", name: "Little Aden", citySlug: "aden", areaType: "mixed-use", nearbyIndustries: ["food-beverage","chemical","logistics-warehousing"], confirmedService: true, hero: ["veer-pro","virat-pro"], page: {
       "metaTitle": "Data Loggers in Little Aden, Yemen | Prithvi",
       "metaDescription": "Temperature and humidity data loggers for stores, fish landings and plant rooms in Little Aden, across Aden's harbour, reviewed case by case. Get Solution.",
-      "intro": "Little Aden is a rocky peninsula on the western side of Aden's harbour, joined to the mainland by a narrow neck, with the coastal town of Buraiqa, beaches, fishing landings and an industrial history linked to oil: a refinery was built there in the 1950s. Today a temperature data logger on the peninsula is concerned with ordinary storage in a hot, salty setting: fish and ice stores along the shore, food and medicine in the shops and clinics of the town, and the stores of any plant or workshop that needs steady conditions. This page makes no statement about the present activity of any works, which changes. Little Aden enquiries follow the same case-by-case review as every other request from Yemen.",
+      "intro": "Little Aden is a rocky peninsula on the western side of Aden's harbour, joined to the mainland by a narrow neck, with the coastal town of Buraiqa, beaches, fishing landings and an industrial history linked to oil: a refinery was built there in the 1950s. Today a temperature data logger on the peninsula is concerned with ordinary storage in a hot, salty setting: fish and ice stores along the shore, food and medicine in the shops and clinics of the town, and the stores of any plant or workshop that needs steady conditions. The page keeps to the kinds of rooms and stock a logger user might look after on such a peninsula. Little Aden enquiries follow the same case-by-case review as every other request from Yemen.",
       "places": [
         {
           "name": "Buraiqa town, shops and clinics",
@@ -5629,7 +5629,7 @@ export const areas: AreaDef[] = [
   { slug: "port-of-mukalla", name: "Port of Mukalla", citySlug: "mukalla", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["setu","virat-pro"], page: {
       "metaTitle": "Data Loggers at the Port of Mukalla, Yemen | Prithvi",
       "metaDescription": "Data loggers for storage around the Port of Mukalla: fish landings, ice stores and quayside sheds, reviewed case by case. Get Solution.",
-      "intro": "The Port of Mukalla lies on the curved bay of Mukalla on the Gulf of Aden, where wooden boats have long landed fish and sailing dhows once carried goods along the trading routes of the Indian Ocean, and the harbour is the reason for the old town's waterfront. A temperature data logger around a harbour like this is concerned with the waiting that follows a sea journey or a landing: fish in ice, goods on a quay or in a shed, and food and medicines stood in vehicles before they move on, in air that is hot, humid and salty. This page says nothing about the present activity of the port, which changes. Whether a particular store could be supported is decided case by case after we hear from you.",
+      "intro": "The Port of Mukalla lies on the curved bay of Mukalla on the Gulf of Aden, where wooden boats have long landed fish and sailing dhows once carried goods along the trading routes of the Indian Ocean, and the harbour is the reason for the old town's waterfront. A temperature data logger around a harbour like this is concerned with the waiting that follows a sea journey or a landing: fish in ice, goods on a quay or in a shed, and food and medicines stood in vehicles before they move on, in air that is hot, humid and salty. The page keeps to the kinds of goods and rooms a logger user would be concerned with, described in general terms. Whether a particular store could be supported is decided case by case after we hear from you.",
       "places": [
         {
           "name": "Fish landing beaches and ice rooms",
@@ -5645,7 +5645,7 @@ export const areas: AreaDef[] = [
         },
         {
           "name": "Vehicles waiting at the harbour gate",
-          "note": "Trucks wait to load or leave, and goods inside a closed vehicle can run far hotter than the air outside."
+          "note": "Trucks that load or collect goods stand in the sun, and goods inside a covered vehicle can run far hotter than the air outside."
         }
       ],
       "industries": [
@@ -5682,7 +5682,7 @@ export const areas: AreaDef[] = [
   { slug: "sanaa-industrial-area", name: "Sana'a Industrial Area", citySlug: "sanaa", areaType: "industrial-estate", nearbyIndustries: ["food-beverage","logistics-warehousing","chemical"], confirmedService: true, hero: ["virat","setu"], page: {
       "metaTitle": "Data Loggers in Sana'a Industrial Area | Prithvi",
       "metaDescription": "Data loggers for factories, workshops and warehouses in the Sana'a Industrial Area, reviewed case by case for Yemen. Get Solution.",
-      "intro": "The Sana'a Industrial Area lies on the edge of the highland city, where small factories, workshops and warehouses stand in rows on flat ground along main roads. A temperature data logger in a district like this is concerned with the ordinary risks of making and storing goods: a drinks or dairy plant whose cold room must hold its range, a plastics or packaging unit with a heated store, and a warehouse where stock waits for lorries through cold nights and sunny afternoons. This page says nothing about how many units work on the estate at any time, which changes. Whether a particular site could be supported is decided case by case after we hear from you.",
+      "intro": "The Sana'a Industrial Area lies on the edge of the highland city, where small factories, workshops and warehouses stand in rows on flat ground along main roads. A temperature data logger in a district like this is concerned with the ordinary risks of making and storing goods: a drinks or dairy plant whose cold room must hold its range, a plastics or packaging unit with a heated store, and a warehouse where stock waits for lorries through cold nights and sunny afternoons. The page describes only the ordinary kinds of rooms and stock found in an estate of this sort. Whether a particular site could be supported is decided case by case after we hear from you.",
       "places": [
         {
           "name": "Food, dairy and drinks units",
@@ -5735,12 +5735,12 @@ export const areas: AreaDef[] = [
     } },
   { slug: "sanaa-international-airport", name: "Sana'a International Airport", citySlug: "sanaa", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","pharmaceutical","food-beverage"], confirmedService: true, hero: ["virat-pro","dhruva"], page: {
       "metaTitle": "Data Loggers at Sana'a International Airport | Prithvi",
-      "metaDescription": "Data loggers for air-cargo sheds, cold rooms and vehicles around Sana'a International Airport, reviewed case by case. Get Solution.",
-      "intro": "Sana'a International Airport lies north of the city on the high plateau, and the ground around an airport like this is a place of waiting: medicines, vaccines, food and parcels that leave an aircraft, stand in a shed or a vehicle and move on. A temperature data logger in that chain records what the goods met on the apron, in the cargo shed and in the van. This page says nothing about the flights or cargo handled at the airport at any time, which change. Whether a given consignment or store could be supported is decided case by case after we hear from you.",
+      "metaDescription": "Data loggers for sheds, cold rooms and vehicles around Sana'a International Airport, reviewed case by case. Get Solution.",
+      "intro": "Sana'a International Airport lies north of the city on the high plateau, and the ground around an airport like this is a place of waiting: medicines, vaccines, food and parcels that leave an aircraft, stand in a shed or a vehicle and move on. A temperature data logger in that chain records what the goods met on the apron, in the cargo shed and in the van. The page keeps to the general kinds of goods and rooms a logger user might look after around an airport. Whether a given consignment or store could be supported is decided case by case after we hear from you.",
       "places": [
         {
           "name": "Cargo sheds and holding rooms",
-          "note": "Air cargo waits in sheds with wide doors that open to cold dawn air or strong midday sun, so temperature inside the room follows the weather outside."
+          "note": "Goods that come or go by air may wait in sheds with wide doors that let in cold dawn air or strong midday sun, so temperature inside the room follows the weather outside."
         },
         {
           "name": "Cold rooms for medicines and vaccines",
@@ -5748,11 +5748,11 @@ export const areas: AreaDef[] = [
         },
         {
           "name": "Catering and food stores",
-          "note": "Kitchens and stores that prepare food for travellers and staff run refrigerators and freezers through the day and night."
+          "note": "Kitchens and stores that prepare food for the people who work at or visit the site run refrigerators and freezers through the day and night."
         },
         {
           "name": "Vehicles at the cargo and terminal approaches",
-          "note": "Vans and lorries wait to load, and a closed vehicle on a highland road can warm sharply in the sun and chill soon after sunset."
+          "note": "Vans and lorries that load or collect goods stand with their cargo, and a covered vehicle on a highland road can warm sharply in the sun and chill soon after sunset."
         }
       ],
       "industries": [
@@ -5791,7 +5791,7 @@ export const areas: AreaDef[] = [
   { slug: "port-of-hodeidah", name: "Port of Hodeidah", citySlug: "hodeidah", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["veer-pro","rajmudra"], page: {
       "metaTitle": "Data Loggers at the Port of Hodeidah | Prithvi",
       "metaDescription": "Data loggers for sheds, cold rooms and vehicles around the Port of Hodeidah on the Red Sea, reviewed case by case. Get Solution.",
-      "intro": "The Port of Hodeidah is the harbour of the Red Sea city of the same name, set on the flat Tihama coast where the air is hot and heavy with moisture, and the ground around a harbour like this is a place of waiting: food, medicines and general goods that leave a ship, stand on a quay or in a shed, and move on by lorry. A temperature data logger in that chain records what the goods met on the way. This page says nothing about the shipping or cargo handled at the port at any time, which changes. Whether a particular store or consignment could be supported is decided case by case after we hear from you.",
+      "intro": "The Port of Hodeidah is the harbour of the Red Sea city of the same name, set on the flat Tihama coast where the air is hot and heavy with moisture, and the ground around a harbour like this is a place of waiting: food, medicines and general goods that leave a ship, stand on a quay or in a shed, and move on by lorry. A temperature data logger in that chain records what the goods met on the way. The page describes only the kinds of goods and rooms that matter to someone placing a logger in a harbour area. Whether a particular store or consignment could be supported is decided case by case after we hear from you.",
       "places": [
         {
           "name": "Quayside sheds",
@@ -5807,7 +5807,7 @@ export const areas: AreaDef[] = [
         },
         {
           "name": "Lorries waiting to load",
-          "note": "Vehicles queue to load and leave, and cargo inside a closed lorry can run far hotter than the air outside."
+          "note": "Vehicles that load or collect goods stand with their cargo in the sun, and cargo inside a covered lorry can run far hotter than the air outside."
         }
       ],
       "industries": [
@@ -5845,7 +5845,7 @@ export const areas: AreaDef[] = [
   { slug: "port-of-salif", name: "Port of Salif", citySlug: "hodeidah", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["dhruva","nakshatra"], page: {
       "metaTitle": "Data Loggers at the Port of Salif, Yemen | Prithvi",
       "metaDescription": "Data loggers for storage near the Port of Salif and its salt works on the Red Sea coast, reviewed case by case. Get Solution.",
-      "intro": "Salif lies on a low peninsula of the Red Sea coast north of Hodeidah, a place long associated with salt that is worked from the shore, and its port serves a flat, hot and exposed stretch of coast. A temperature data logger around a harbour like this is concerned with what waits there: bulk bags and sacks on a quay, general goods in a shed, and food or medicines stood in a vehicle before they move on, in air that is salty and very warm. This page says nothing about the work or traffic of the port at any time, which changes. Whether a store near Salif could be supported is decided case by case once we hear from you.",
+      "intro": "Salif lies on a low peninsula of the Red Sea coast north of Hodeidah, a place long associated with salt that is worked from the shore, and the port there stands on a flat, hot and exposed stretch of coast. A temperature data logger around a harbour like this is concerned with what waits there: bulk bags and sacks on a quay, general goods in a shed, and food or medicines stood in a vehicle before they move on, in air that is salty and very warm. The page describes only the sort of goods and rooms a logger user might look after on an exposed shore. Whether a store near Salif could be supported is decided case by case once we hear from you.",
       "places": [
         {
           "name": "Bagged salt and bulk-goods sheds",
@@ -5857,11 +5857,11 @@ export const areas: AreaDef[] = [
         },
         {
           "name": "Food and drink stores for local staff",
-          "note": "Small kitchens and shops that feed people working on this exposed coast run refrigerators and coolers through hot days and warm nights."
+          "note": "Small kitchens and shops that feed the people who live or work nearby run refrigerators and coolers through hot days and warm nights."
         },
         {
           "name": "Vehicles waiting beside the quay",
-          "note": "Lorries wait to load or leave, and cargo inside a closed vehicle can be much hotter than the air outside."
+          "note": "Lorries that load or collect goods stand in the sun, and cargo inside a covered vehicle can be much hotter than the air outside."
         }
       ],
       "industries": [
@@ -5899,7 +5899,7 @@ export const areas: AreaDef[] = [
   { slug: "port-of-mocha", name: "Port of Mocha", citySlug: "mocha", areaType: "warehousing-hub", nearbyIndustries: ["food-beverage","logistics-warehousing","pharmaceutical"], confirmedService: true, hero: ["setu","veer"], page: {
       "metaTitle": "Data Loggers at the Port of Mocha, Yemen | Prithvi",
       "metaDescription": "Data loggers for fish, coffee and goods stores around the Port of Mocha on the Red Sea, reviewed case by case. Get Solution.",
-      "intro": "The Port of Mocha is the small harbour of a Red Sea town whose name became a word for coffee, because the beans of the Yemeni mountains once left from this shore for markets across the world. A temperature data logger around a harbour like this is concerned with the waiting that follows a landing or a voyage: fish in ice, dry goods in a shed and food or medicines standing in a vehicle in air that is hot, damp and salty. The page makes no claim about what the harbour is doing today, since that changes. Whether a store at Mocha could be supported is decided case by case once we have your details.",
+      "intro": "The Port of Mocha is the small harbour of a Red Sea town whose name became a word for coffee, because the beans of the Yemeni mountains once left from this shore for markets across the world. A temperature data logger around a harbour like this is concerned with the waiting that follows a landing or a voyage: fish in ice, dry goods in a shed and food or medicines standing in a vehicle in air that is hot, damp and salty. What follows stays with the general kinds of goods and rooms a logger user might look after. Whether a store at Mocha could be supported is decided case by case once we have your details.",
       "places": [
         {
           "name": "Fish landing beaches and ice boxes",
@@ -5911,11 +5911,11 @@ export const areas: AreaDef[] = [
         },
         {
           "name": "Small sheds for food and household goods",
-          "note": "Goods that arrive by sea or by road stand in sheds with doors that open to hot, damp air."
+          "note": "Goods that arrive by sea or by road stand in sheds with doors that let in hot, damp air."
         },
         {
           "name": "Vehicles waiting at the shore",
-          "note": "Lorries and pickups wait to load or leave, and goods in a closed vehicle can run far hotter than the shaded air."
+          "note": "Lorries and pickups that load or collect goods stand with their cargo, and goods in a covered vehicle can run far hotter than the shaded air."
         }
       ],
       "industries": [

@@ -21006,7 +21006,7 @@ export const locations: LegacyLocationNode[] = [
               {
                 question: "Is calibration of loggers discussed for Mukalla hospitals and laboratories?",
                 answer:
-                  "VEGA Calibrations, our parent company, handles calibration of loggers and probes; share the model and the range you work to and we explain what could be considered for your site.",
+                  "VEGA Calibrations, our parent company, looks after calibration of loggers and probes; share the model and the range you work to and we explain what could be considered for your site.",
               },
             ],
             nearby: [
@@ -21334,7 +21334,7 @@ export const locations: LegacyLocationNode[] = [
               {
                 question: "Is calibration discussed for loggers used in Zinjibar clinics?",
                 answer:
-                  "VEGA Calibrations, our parent company, handles calibration of loggers and probes; tell us the model and the range you work to and we explain the options.",
+                  "VEGA Calibrations, our parent company, looks after calibration of loggers and probes; tell us the model and the range you work to and we explain the options.",
               },
             ],
             nearby: [
@@ -21474,7 +21474,7 @@ export const locations: LegacyLocationNode[] = [
               {
                 question: "Is calibration discussed for loggers used in Sana'a laboratories?",
                 answer:
-                  "VEGA Calibrations, our parent company, handles calibration of loggers and probes. Share the model and the range you work to and we outline the choices for your site.",
+                  "Calibration of loggers and probes for Sana'a sites is looked after by VEGA Calibrations, our parent company. Share the model and the range you work to and we outline the choices for your site.",
               },
             ],
             nearby: [
@@ -21950,7 +21950,7 @@ export const locations: LegacyLocationNode[] = [
               {
                 question: "Is calibration discussed for Zabid loggers?",
                 answer:
-                  "For Zabid sites, VEGA Calibrations, our parent company, handles calibration of loggers and probes; send the model and your working range and we explain what could be done.",
+                  "For Zabid sites, VEGA Calibrations, our parent company, looks after calibration of loggers and probes; send the model and your working range and we explain what could be done.",
               },
             ],
             nearby: [
@@ -22182,7 +22182,7 @@ export const locations: LegacyLocationNode[] = [
               {
                 question: "Is calibration discussed for loggers used in Ibb laboratories?",
                 answer:
-                  "For Ibb laboratories, VEGA Calibrations, our parent company, handles calibration of loggers and probes; tell us the model and range and we explain the choices.",
+                  "For Ibb laboratories, VEGA Calibrations, our parent company, looks after calibration of loggers and probes; tell us the model and range and we explain the choices.",
               },
             ],
             nearby: [
@@ -22318,7 +22318,7 @@ export const locations: LegacyLocationNode[] = [
               {
                 question: "Is calibration discussed for loggers used in Dhamar laboratories?",
                 answer:
-                  "For Dhamar laboratories, VEGA Calibrations, our parent company, handles calibration of loggers and probes; share the model and the range and we outline the options.",
+                  "For Dhamar laboratories, VEGA Calibrations, our parent company, looks after calibration of loggers and probes; share the model and the range and we outline the options.",
               },
             ],
             nearby: [
@@ -22454,7 +22454,7 @@ export const locations: LegacyLocationNode[] = [
               {
                 question: "Is calibration discussed for loggers used in Marib clinics and laboratories?",
                 answer:
-                  "For Marib sites, VEGA Calibrations, our parent company, handles calibration of loggers and probes; share the model and range and we outline the choices.",
+                  "For Marib sites, VEGA Calibrations, our parent company, looks after calibration of loggers and probes; share the model and range and we outline the choices.",
               },
             ],
             nearby: [
@@ -22726,7 +22726,7 @@ export const locations: LegacyLocationNode[] = [
               {
                 question: "Is calibration discussed for loggers used in Sa'dah laboratories?",
                 answer:
-                  "VEGA Calibrations, our parent company, handles calibration of loggers and probes for Sa'dah sites; tell us the model and range and we outline the options.",
+                  "VEGA Calibrations, our parent company, looks after calibration of loggers and probes for Sa'dah sites; tell us the model and range and we outline the options.",
               },
             ],
             nearby: [
