@@ -6421,7 +6421,7 @@ export const areas: AreaDef[] = [
       ],
       "services": "For a mixed park we would consider WiFi loggers for halls, kitchens and clinic rooms with a router, probe-type loggers for freezers and refrigerators, and multi-point units for long halls. VEGA Calibrations, our parent company, can talk through calibration for users in the park. A WiFi logger needs a router within range and a power supply, and for a vehicle we explain the alternatives. We make no claim on supply until a request for the park has been reviewed.",
       "visits": "No visit or installation in Dubai Investments Park is promised. Tell us the business, the rooms to be watched and a contact through the enquiry form, Call or WhatsApp, and we review the request and say what is practical.",
-      "approach": "If a request went ahead, we would start with the room holding the most sensitive stock, placing one logger by the door and one at the back, then add a unit reading humidity where doors open to the outside air. The first summer weeks would show which hours strain the room.",
+      "approach": "If a request went ahead, we would start with the room holding the most sensitive stock, placing one logger by the door and one at the back, then add a unit reading humidity where doors let in the outside air. The first summer weeks would show which hours strain the room.",
       "faqs": [
         {
           "question": "Can a business in a mixed park watch several rooms from one login?",
