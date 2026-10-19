@@ -20719,7 +20719,7 @@ export const locations: LegacyLocationNode[] = [
       {
         question: "How should we start an enquiry?",
         answer:
-          "Use WhatsApp or the enquiry form, describe the rooms and the situation on site and mention any constraints on delivery. Our team replies to discuss what is practical.",
+          "Use WhatsApp or the enquiry form, describe the rooms and the situation on site and mention any constraints on access. Our team replies to discuss what is practical.",
       },
     ],
     listing: [
@@ -21409,7 +21409,7 @@ export const locations: LegacyLocationNode[] = [
               },
               {
                 name: "Pharmacies and medicine wholesalers",
-                note: "Wholesalers and pharmacies spread through the newer districts hold medicines in stock rooms where the cold of a winter night and the sun of an afternoon both pass through the walls.",
+                note: "Wholesalers and pharmacies spread through the newer districts hold medicines in storerooms where the cold of a winter night and the sun of an afternoon both pass through the walls.",
               },
               {
                 name: "Bakeries, dairies and food stores",
@@ -21537,7 +21537,7 @@ export const locations: LegacyLocationNode[] = [
             intro:
               "Taiz is a hill city in the south-west highlands of Yemen, built on the lower slopes of Mount Sabir and overlooking a fertile plain, and a temperature data logger here serves a busy commercial town of hospitals, universities and workshops in a mild, damp climate. Narrow streets climb the hillsides, an old citadel looks down from a rock above the centre, and large markets sell food, cloth and household goods to the whole governorate. Many small factories and trading houses work from compact premises, and clinics and hospitals draw patients from the villages around. Mornings are often misty, afternoons warm and the rainy season is wet. The loggers keep their readings in memory on battery power if a network drops. We look at every request from Taiz case by case.",
             climateAngle:
-              "Altitude keeps the air cooler than on the coast, but mist, summer rain and steep hillsides bring damp into stores, so rooms swing between warm afternoons, cool nights and wet spells. Heavy traffic and steep lanes mean that deliveries reach shops late and unevenly, so goods may stand in a hot vehicle or a cold doorway longer than planned. Many buildings on the hillsides have grown by extension over decades, which gives uneven rooms where one wall faces the sun and another the rock.",
+              "Altitude keeps the air cooler than on the coast, but mist, summer rain and steep hillsides bring damp into stores, so rooms swing between warm afternoons, cool nights and wet spells. Heavy traffic and steep lanes mean that loads reach shops late and unevenly, so goods may stand in a hot vehicle or a cold doorway longer than planned. Many buildings on the hillsides have grown by extension over decades, which gives uneven rooms where one wall faces the sun and another the rock.",
             areas: [
               {
                 name: "Hillside markets and wholesale stores",
@@ -21570,7 +21570,7 @@ export const locations: LegacyLocationNode[] = [
               {
                 slug: "food-beverage",
                 sentence:
-                  "Bakers, dairies and packers around Taiz supply a crowded city, and a log from each cold room shows a retailer how a batch was kept before delivery.",
+                  "Bakers, dairies and packers around Taiz supply a crowded city, and a log from each cold room shows a retailer how a batch was kept before it left the plant.",
               },
               {
                 slug: "laboratories",
@@ -21821,7 +21821,7 @@ export const locations: LegacyLocationNode[] = [
               {
                 slug: "dhruva",
                 reason:
-                  "Four channels follow an ice room or a wholesale store at several heights and beside the door, showing how it behaves between deliveries.",
+                  "Four channels follow an ice room or a wholesale store at several heights and beside the door, showing how it behaves between loads.",
               },
               {
                 slug: "nakshatra",
@@ -22105,7 +22105,7 @@ export const locations: LegacyLocationNode[] = [
             intro:
               "Ibb is a hill city in the green southern highlands of Yemen, built on a ridge above a fertile plain where rain reaches the mountains for much of the year, and a temperature data logger here serves a farming and market town in a cool, misty, damp setting. Terraced fields of grain, fruit, coffee and vegetables climb the slopes around it, the old town has narrow lanes of stone houses, and the historic hill town of Jibla lies nearby. Markets, workshops, a university and hospitals serve the governorate. Mist and heavy rain are common and nights are cool. The loggers hold their readings on their own batteries when no network is present. We consider each Ibb request case by case.",
             climateAngle:
-              "Rain and mist come often, the hills stay cool and green, and the air is damp through much of the year, so stores worry about moisture and mould more than about heat. Stone buildings keep rooms cool but slow to dry, and a store that was dry in the dry season can turn mouldy after a few weeks of rain. Roads between the terraces become slippery in the wet months, so deliveries to farms and shops can be delayed, leaving goods in vehicles or on doorsteps in the damp.",
+              "Rain and mist come often, the hills stay cool and green, and the air is damp through much of the year, so stores worry about moisture and mould more than about heat. Stone buildings keep rooms cool but slow to dry, and a store that was dry in the dry season can turn mouldy after a few weeks of rain. Roads between the terraces become slippery in the wet months, so loads to farms and shops can be delayed, leaving goods in vehicles or on doorsteps in the damp.",
             areas: [
               {
                 name: "Terrace-farm produce stores",
@@ -22385,7 +22385,7 @@ export const locations: LegacyLocationNode[] = [
               },
               {
                 name: "The town market and wholesale food stores",
-                note: "Dealers and shopkeepers stack flour, oil, drinks and household goods in stock rooms with simple roofs that bake in the afternoon sun.",
+                note: "Dealers and shopkeepers stack flour, oil, drinks and household goods in storerooms with simple roofs that bake in the afternoon sun.",
               },
               {
                 name: "Hospitals and clinics",
