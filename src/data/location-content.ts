@@ -93,7 +93,7 @@ export const locationContent: Record<string, LocationContent> = {
   },
   "india/rajasthan": {
     metaDescription:
-      "Temperature data loggers in Rajasthan: Jaipur, Jodhpur, Udaipur, Kota and Ajmer's dairies, hotels, chemical stores and hospitals. Get Solution.",
+      "Temperature data loggers in Rajasthan: Jaipur, Jodhpur, Udaipur, Kota, Ajmer, Bhilwara, Bhiwadi and Neemrana. Get Solution.",
     recommended: ["veer", "rajmudra", "vayu"],
   },
   "india/madhya-pradesh": {

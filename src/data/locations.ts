@@ -8775,20 +8775,20 @@ export const locations: LegacyLocationNode[] = [
         name: "Rajasthan",
         type: "state",
         intro:
-          "Rajasthan is a desert state, and its storage is shaped by dry heat and a large daily swing: afternoons that overwhelm ageing cooling and nights that cool the same rooms quickly. We serve the capital, Jaipur, where industrial areas on the northern and southern sides sit beside crowded wholesale markets, dairies, hospitals and hotels, and the cities that anchor the other regions: Jodhpur in the west for handicrafts, stone and cloth, Udaipur in the south for lakeside hotels and mineral works, Kota beside the Chambal for chemicals and coaching hostels, and Ajmer for pilgrimage and trade. Rooms of stone and concrete hold the day's heat long after dark. The pages below take each city in turn, with its estates, its stores and the loggers that fit them.",
+          "Rajasthan is a desert state, and its storage is shaped by dry heat and a large daily swing: afternoons that overwhelm ageing cooling and nights that cool the same rooms quickly. We serve the capital, Jaipur, where industrial areas on the northern and southern sides sit beside crowded wholesale markets, dairies, hospitals and hotels, and the cities that anchor the other regions: Jodhpur in the west for handicrafts, stone and cloth, Udaipur in the south for lakeside hotels and mineral works, Kota beside the Chambal for chemicals and coaching hostels, and Ajmer for pilgrimage and trade, with Bhilwara's textile mills and the Bhiwadi and Neemrana factory zones toward Delhi. Rooms of stone and concrete hold the day's heat long after dark. The pages below take each city in turn, with its estates, its stores and the loggers that fit them.",
         localIndustries: [
           "Pharmaceutical distribution",
           "Food and dairy processing",
           "Hospitals and hospitality",
         ],
-        citiesServed: ["Jaipur", "Jodhpur", "Udaipur", "Kota", "Ajmer"],
+        citiesServed: ["Jaipur", "Jodhpur", "Udaipur", "Kota", "Ajmer", "Bhilwara", "Bhiwadi", "Neemrana"],
         supportNote:
           "Supply, installation support and site visits for Rajasthan sites are arranged from our Mumbai office. Write to us with the district and the rooms to watch.",
         faqs: [
           {
             question: "Which Rajasthan locations have a page?",
             answer:
-              "Jaipur has a city page covering Sitapura, VKI and the dairies and medicine markets, and Jodhpur, Udaipur, Kota and Ajmer each have a city page of their own. A site elsewhere in Rajasthan can be raised through the enquiry form.",
+              "Jaipur has a city page covering Sitapura, VKI and the dairies and medicine markets, and Jodhpur, Udaipur, Kota, Ajmer, Bhilwara, Bhiwadi and Neemrana each have a city page of their own. A site elsewhere in Rajasthan can be raised through the enquiry form.",
           },
           {
             question: "Why does the daily swing matter for alerts?",
@@ -8807,6 +8807,9 @@ export const locations: LegacyLocationNode[] = [
           { slug: "udaipur", text: "The lake city of heritage hotels and busy kitchens, with marble and mineral works at Madri and Sukher and hospitals serving the hills." },
           { slug: "kota", text: "A Chambal-side city of power, fertiliser and chemical works, Kota stone yards and hostel mess kitchens that feed its coaching students." },
           { slug: "ajmer", text: "A hill-ringed pilgrimage and trade city of sweet makers, railway goods sheds, colleges and hospitals, close to the Kishangarh marble yards." },
+          { slug: "bhilwara", text: "The textile city of spinning and weaving mills, dyeing houses and cloth godowns, where humidity decides how yarn runs." },
+          { slug: "bhiwadi", text: "A large factory town on the Delhi-region side of the state, with auto-parts, plastics, food and warehouse estates beside the Haryana border." },
+          { slug: "neemrana", text: "A planned industrial corridor on the Delhi to Jaipur highway, with the Japanese Zone, automotive and appliance makers and highway warehouses." },
         ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,
@@ -9293,6 +9296,297 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Ajmer | Prithvi",
             metaDescription:
               "WiFi and GSM temperature and humidity data loggers for Ajmer's sweet makers, hospitals, laboratories, goods sheds and marble yards. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "bhilwara",
+            name: "Bhilwara",
+            type: "city",
+            intro:
+              "Bhilwara is the textile city of the Mewar region in southern Rajasthan, and a temperature data logger here guards yarn, fabric and the carefully conditioned rooms where they are made. Spinning mills, weaving sheds and processing houses turn out synthetic yarn and suiting and shirting cloth that is sold in markets across India, and the district is also known for mica, stone and the large zinc mining works at Rampura Agucha. Industrial areas on the edge of the city hold mills, dyeing and finishing works, packaging firms and godowns, while a government hospital and private hospitals serve the town and the villages around. Prithvi supplies WiFi loggers for mill floors and stores with a network and GSM loggers for vans and distant sheds.",
+            climateAngle:
+              "Summers are hot and dry, the monsoon brings a few damp weeks and winter nights are cool, so a spinning hall that needs steady humidity is tested by dry air in May and by heavy air in August.",
+            areas: [
+              {
+                name: "Spinning and weaving mills",
+                note: "Mills on the outskirts run spinning and weaving halls where yarn breaks if the air is too dry and sticks if it is too damp, so humidity matters as much as temperature.",
+              },
+              {
+                name: "Processing and dyeing houses at Hamirgarh",
+                note: "Houses that bleach, dye and finish cloth keep chemicals, dyes and rolls of finished fabric in stores that are hot and humid near the process lines.",
+              },
+              {
+                name: "Industrial areas on the edge of the city",
+                note: "RIICO estates hold packaging firms, engineering workshops and godowns, with loading bays that open to the sun and goods that leave by road for the big markets.",
+              },
+              {
+                name: "Cloth market and godowns",
+                note: "Traders in the city market keep bales of suiting and shirting cloth in godowns, where damp can mark stock and heat can fade dyed fabric over the summer.",
+              },
+            ],
+            industries: [
+              {
+                slug: "textile",
+                sentence:
+                  "Spinning and weaving halls need a steady range of humidity, and a trend from several points on the floor shows when a hall drifted before the quality of yarn or cloth suffered.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Dyes, bleaches and finishing chemicals are stored in drums and bags with printed limits, and an alert from a hot store room lets the storekeeper act before material is spoiled.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Cloth and yarn leave in loaded trucks for markets far away, and a logger placed among the bales records the heat and damp the load met on the highway.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals and clinics serve mill workers and villagers from the district, and an alert on a phone means a failing vaccine refrigerator is noticed during the night.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity along with temperature at one point, which is what a spinning hall or a cloth godown needs to see before yarn breaks or bales take damp.",
+              },
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels spread across a long mill floor or a tall godown show hot and humid corners that a single reading would miss.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a truck of cloth bales and reports from distant sheds that have no network of their own.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Why does humidity matter in a Bhilwara spinning or weaving hall?",
+                answer:
+                  "Fibre takes up and gives off moisture, so yarn behaves differently in dry and damp air. A record from several points in the hall shows where and when the air drifted, which helps a supervisor adjust the plant before faults appear.",
+              },
+              {
+                question: "Can a mill owner see several mills on one dashboard?",
+                answer:
+                  "Yes. Each mill, hall and godown is a point on one account, alerts go to the person who looks after it, and the owner sees every site together and exports a report for any period.",
+              },
+              {
+                question: "Do you visit the estates on the outskirts as well as the city?",
+                answer:
+                  "Send the estate, the mill and a contact who will meet us through the enquiry form, WhatsApp or a call, and we confirm how a visit would be planned. Mills often run in shifts, so we propose a time that does not stop a line.",
+              },
+              {
+                question: "Can calibration of loggers used in a textile laboratory be arranged?",
+                answer:
+                  "VEGA Calibrations, our parent company, handles calibration of loggers and probes, and the work can be planned together with the supply.",
+              },
+            ],
+            nearby: [
+              { slug: "ajmer", name: "Ajmer" },
+              { slug: "udaipur", name: "Udaipur" },
+              { slug: "kota", name: "Kota" },
+            ],
+            metaTitle: "Temperature Data Loggers in Bhilwara | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Bhilwara's spinning and weaving mills, dyeing works, godowns and hospitals. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "bhiwadi",
+            name: "Bhiwadi",
+            type: "city",
+            intro:
+              "Bhiwadi is a large industrial town in Alwar district on the Rajasthan side of the Delhi region, pressed against the Haryana border, and a temperature data logger here serves a landscape of factories and warehouses. Plots laid out by the state industrial corporation hold manufacturers of auto components, steel and metal goods, plastics, packaging, consumer goods and food, and the estates of Tapukara, Khushkhera and Chopanki lie close by. Many firms supply makers in Gurugram, Manesar and Delhi, so goods and drivers cross the state line all day. Offices and storage are often in the same building, and the workforce travels in from nearby towns. Prithvi supplies WiFi loggers for halls with a network and GSM loggers for vehicles, yards and remote sheds.",
+            climateAngle:
+              "The plain is very hot before the monsoon, damp for a few weeks in the rains and cold on winter nights, and dust is constant, so electronics, food and packaging stores face a mix of heat, humidity and grit over the year.",
+            areas: [
+              {
+                name: "Bhiwadi industrial area",
+                note: "The main estate, laid out in phases of regular plots with factories, stores and utility rooms, many of them making parts for plants across the border in Haryana.",
+              },
+              {
+                name: "Tapukara",
+                note: "An industrial area to the south with manufacturers and large warehouses beside the road, where long bays stay open to sun and dust while trucks are loaded.",
+              },
+              {
+                name: "Khushkhera and Chopanki",
+                note: "Estates close to the town hold factories, packaging firms and godowns, with wide spacing between buildings that suits battery-powered wireless loggers.",
+              },
+              {
+                name: "Border road warehouses",
+                note: "Distribution sheds along the roads that join Bhiwadi to Dharuhera and Gurugram hold goods that wait for a truck to cross the state line, often in the afternoon sun.",
+              },
+            ],
+            industries: [
+              {
+                slug: "electronics",
+                sentence:
+                  "Assemblers of electrical and electronic parts hold boards and components in stores where dust and damp cause faults, and a trend of temperature and humidity shows when a store needs attention.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Makers of packaged food, beverages and dairy products store ingredients and finished cartons that spoil in heat, so an alert on a phone matters when a cold room fails on a night shift.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmaceutical and personal-care firms keep raw materials and finished packs in controlled rooms, and a dated log answers a customer's questions without a search through paper.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Warehouses and carriers serve factories on both sides of the border, and a reading at each bay shows how long a load stood in the heat before it left the yard.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels cover a big warehouse bay by bay and at different heights, so one report shows where the afternoon heat gathers under the roof.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity and temperature at one point suit an electronics store or a packaging room, where damp air or dust is the danger.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger with an external probe reports from a truck, a yard or a remote shed, and sends alerts to a phone when there is no router.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can one account cover a plant in Bhiwadi and another in Haryana?",
+                answer:
+                  "Yes. Each plant is a site on the same dashboard with its own alert contacts, so a manager can see factories on both sides of the border in one list and export a report for any period.",
+              },
+              {
+                question: "Do you visit Tapukara, Khushkhera and Chopanki as well as the main estate?",
+                answer:
+                  "Send the estate, the plant and a contact who will meet us through the enquiry form, WhatsApp or a call, and we confirm how a visit would be planned. Nearby estates are usually grouped on one trip.",
+              },
+              {
+                question: "How do loggers cope with dust in a factory store?",
+                answer:
+                  "We keep the logger body clear of the dustiest areas and out of direct air flow, and the probe tip is wiped at routine cleaning, so the record reflects the stock and not the grit.",
+              },
+              {
+                question: "Who calibrates loggers used by a Bhiwadi pharmaceutical or food unit?",
+                answer:
+                  "VEGA Calibrations, our parent company, handles calibration and temperature mapping, and the work can be planned together with the first visit.",
+              },
+            ],
+            nearby: [
+              { slug: "neemrana", name: "Neemrana" },
+              { slug: "manesar", name: "Manesar" },
+              { slug: "gurugram", name: "Gurugram" },
+            ],
+            metaTitle: "Temperature Data Loggers in Bhiwadi | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Bhiwadi's factories, warehouses, food and electronics stores. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "neemrana",
+            name: "Neemrana",
+            type: "city",
+            intro:
+              "Neemrana is an industrial town on the Delhi to Jaipur highway in Alwar district, and a temperature data logger here works in a corridor of planned factory zones. Estates developed by the state industrial corporation, among them the Japanese Zone, hold makers of automotive parts, consumer goods, electronics, packaging and food, along with the warehouses that serve them. A hill-fort hotel stands above the town and brings visitors from Delhi. Because the town sits on the main highway, goods for Delhi, Gurugram and Jaipur pass through it day and night, and staff travel from several towns. Large halls, long loading bays and wide plots mean rooms are far apart. Prithvi supplies WiFi loggers for halls with a network and GSM loggers for trucks, yards and remote stores.",
+            climateAngle:
+              "Summers are fierce and dry, winters bring fog and cold mornings, and a short monsoon adds damp, so a tall warehouse can run hot at the roof by day and cold at the floor on a winter night.",
+            areas: [
+              {
+                name: "Japanese Zone",
+                note: "A planned industrial zone of wide plots and large halls where manufacturers of parts and appliances run clean stores, and quality teams ask for dated records of conditions.",
+              },
+              {
+                name: "Neemrana industrial area phases",
+                note: "Several phases of estates along the highway hold factories, packaging firms and godowns, each with its own gate, stores and loading bays opening to the sun.",
+              },
+              {
+                name: "Ghilot and Behror side",
+                note: "Industrial pockets toward Behror and Ghilot hold further manufacturers and distribution sheds, with long drives between sites that suit GSM loggers with their own network link.",
+              },
+              {
+                name: "Highway warehousing",
+                note: "Warehouses and transport yards beside the Delhi to Jaipur road receive and release trucks at all hours, so goods often wait in vehicles and on open docks.",
+              },
+            ],
+            industries: [
+              {
+                slug: "electronics",
+                sentence:
+                  "Plants making electrical and electronic goods store sensitive parts in rooms that must stay dry, and a humidity trend shows a quality team when a store drifted outside its limits.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Makers and distributors of packaged and chilled food hold stock on the highway between Delhi and Jaipur, and a record from each cold room and vehicle shows how a lot was kept.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmaceutical and healthcare firms hold ingredients and finished packs in controlled rooms, and a continuous log is ready for an audit by a customer or an inspector.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Third-party warehouses hold goods for several customers at once, and a separate reading for each bay lets the operator export a report for the customer whose goods stood there.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels spread over a tall warehouse or a long production hall show how conditions differ between floor and roof and between one dock door and another.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels give a quality team a paired record from a single device, such as one probe at the door and one at the back of a store.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger travels in a truck on the highway and reports from yards and remote sheds without Wi-Fi, with alerts to a phone.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a logistics operator in Neemrana give each customer a report for its bay?",
+                answer:
+                  "Yes. Each bay can be its own point on the dashboard, and a report for that bay and period can be exported as PDF, Excel or CSV when the customer asks.",
+              },
+              {
+                question: "How are visits planned for a plant in the Japanese Zone?",
+                answer:
+                  "Send the plant, the plot and a contact who will meet us at the gate through the enquiry form, WhatsApp or a call. Plants usually have visitor rules, so tell us about passes or safety briefings in advance.",
+              },
+              {
+                question: "Does fog or winter cold affect loggers on the highway?",
+                answer:
+                  "Loggers are rated for a wide range of temperatures, and in winter a low-temperature alert is as useful as a high one when a delivery of chilled or sensitive goods waits in an unheated yard.",
+              },
+              {
+                question: "Can Neemrana and Bhiwadi sites be watched together?",
+                answer:
+                  "Yes. Each plant or warehouse is a site on one account with its own alert recipients, so a head of operations sees both towns in one list.",
+              },
+            ],
+            nearby: [
+              { slug: "bhiwadi", name: "Bhiwadi" },
+              { slug: "manesar", name: "Manesar" },
+              { slug: "jaipur", name: "Jaipur" },
+            ],
+            metaTitle: "Temperature Data Loggers in Neemrana | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Neemrana's factory zones, warehouses and highway food and parts stores. Get Solution.",
             indexable: true,
           },
         ],
