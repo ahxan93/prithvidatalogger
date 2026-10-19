@@ -394,6 +394,12 @@
 | Al Sadd (`al-sadd`, area of Doha) | Qatar | Clinics and pharmacies, supermarkets, restaurants and bakeries, shop stockrooms | Medicines, food, clinics | Hot, humid | Msheireb |
 | Msheireb (`msheireb`, area of Doha) | Qatar | Collection and archive stores, hotel kitchens, cafes, office pantries and plant rooms | Food, laboratories, data centers | Hot, humid, shaded streets | Al Sadd |
 | The Pearl-Qatar (`the-pearl-qatar`, area of Doha) | Qatar | Supermarkets, marina cafes, clinics, basement stockrooms | Food, medicines, logistics | Hot, humid sea air | West Bay |
+| Hamad International Airport (`hamad-international-airport`, area of Doha) | Qatar | Cargo sheds, cold rooms for medicines, catering stores, vehicles (described generally, no flight or cargo status) | Medicines, logistics, food | Hot, humid | Ras Bufontas Free Zone |
+| Ras Bufontas Free Zone (`ras-bufontas-free-zone`, area of Doha) | Qatar | Light warehouse units, component rooms, healthcare supply stores, workshops (described generally, no operating status) | Electronics, medicines, logistics | Hot summers | Hamad International Airport |
+| Al Rayyan (`al-rayyan`, city, Al Rayyan Municipality) | Qatar | Supermarkets and groceries, pharmacies and clinics, bakeries and restaurants, roadside warehouses | Food, medicines, logistics | Very hot; dry or humid with the wind; dust | Doha, Umm Salal, Al Wakrah (not yet built) |
+| Al Gharafa (`al-gharafa`, area of Al Rayyan) | Qatar | Neighbourhood groceries, pharmacies and clinics, takeaway kitchens, small workshops | Food, medicines, clinics | Hot summers | Al Sailiya |
+| Birkat Al Awamer (`birkat-al-awamer`, area of Al Rayyan) | Qatar | Storage yards, paint and chemical stores, food and drink stock rooms, workshops | Logistics, food, chemicals | Hot, dusty outer district | Al Sailiya |
+| Al Sailiya (`al-sailiya`, area of Al Rayyan) | Qatar | Roadside shops, workshops and parts stores, warehouses, distribution rooms | Food, electronics, logistics | Hot, dusty roadside | Al Gharafa |
 | Jazan Economic City (`jazan-economic-city`, area of Jazan) | Saudi Arabia | Plant chemical and drum stores, spares warehouses and contractor yards, port yards, camp kitchens and clinics | Chemical stores, contract warehousing, camp catering | Extreme heat and humidity, salty air | none |
 | Jeddah (`jeddah`) | Saudi Arabia | Industrial and port logistics zones | Port logistics, food import cold chain, hospitals | Hot, humid coastal | Riyadh, Dammam |
 | Dammam (`dammam`) | Saudi Arabia | Industrial and port logistics zones | Industrial & chemical, port logistics, food | Hot, humid Gulf coast | Riyadh, Bahrain, Jeddah |
@@ -665,3 +671,7 @@ capacity, production, cargo volumes, energy output, operator or eligibility.
 
 Qatar Batch 1 (Doha Municipality): hub, Doha city, and the areas West Bay, Al Sadd, Msheireb and The Pearl-Qatar. The Qatar country hub text was
 rewritten to drop the old "dispatch from India" and "no city pages yet" wording.
+
+Qatar Batch 2: Hamad International Airport and Ras Bufontas Free Zone added as areas of Doha (placed under Doha as instructed, with no municipal or
+boundary statement); Al Rayyan Municipality hub, Al Rayyan city and the areas Al Gharafa, Birkat Al Awamer and Al Sailiya. Not built: Doha Industrial Area,
+because I am not confident which municipality or city it sits in.

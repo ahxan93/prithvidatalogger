@@ -83,6 +83,7 @@ export const areaCities: Record<string, { name: string; stateSlug: string; state
   yanbu: { name: "Yanbu", stateSlug: "madinah-region", stateName: "Madinah Region" },
   jazan: { name: "Jazan", stateSlug: "jazan-region", stateName: "Jazan Region" },
   doha: { name: "Doha", stateSlug: "doha-municipality", stateName: "Doha Municipality" },
+  "al-rayyan": { name: "Al Rayyan", stateSlug: "al-rayyan-municipality", stateName: "Al Rayyan Municipality" },
   fujairah: { name: "Fujairah", stateSlug: "fujairah-emirate", stateName: "Fujairah Emirate" },
   ajman: { name: "Ajman", stateSlug: "ajman-emirate", stateName: "Ajman Emirate" },
   "umm-al-quwain": { name: "Umm Al Quwain", stateSlug: "umm-al-quwain-emirate", stateName: "Umm Al Quwain Emirate" },
@@ -7847,6 +7848,277 @@ export const areas: AreaDef[] = [
       ],
       "nearby": [
         "west-bay"
+      ],
+      "indexable": true
+    } },
+  // ------------------------------------------------------------------ Qatar (batch 2: Doha airport area, Al Rayyan)
+  { slug: "hamad-international-airport", name: "Hamad International Airport", citySlug: "doha", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","pharmaceutical","food-beverage"], confirmedService: true, hero: ["veer-pro","dhruva"], page: {
+      "metaTitle": "Data Loggers at Hamad International Airport | Prithvi",
+      "metaDescription": "Data loggers for cargo sheds, cold rooms, catering stores and vehicles around Hamad International Airport, Doha. Get Solution.",
+      "intro": "Hamad International Airport lies on the south-eastern side of Doha, near the coast, and the ground around an airport is a place of waiting: medicines, vaccines, food and parcels that leave an aircraft, stand in a shed or a vehicle and move on. A temperature data logger in that chain records what the goods met on the apron, in the cargo shed and in the van, in air that is hot, humid and salty. This page keeps to the kinds of goods and rooms a logger user may look after around an airport. Enquiries about the airport area are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Cargo sheds and holding rooms",
+          "note": "Goods that come or go by air may wait in sheds with wide doors that let in hot, damp air or strong midday sun, so the room temperature follows the weather outside."
+        },
+        {
+          "name": "Cold rooms for medicines and vaccines",
+          "note": "Pharmaceutical consignments may be held in a refrigerated room or a cool box until a vehicle collects them, and the hours in between are the weak part of the chain."
+        },
+        {
+          "name": "Catering and food-preparation stores",
+          "note": "Kitchens and stores that prepare food for people who work at or pass through the site run refrigerators and freezers through the day and night."
+        },
+        {
+          "name": "Vehicles on the cargo approaches",
+          "note": "Vans and lorries that load or collect goods stand with their cargo in the sun, and a covered vehicle can warm sharply and stay warm after dusk."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Medicine and vaccine consignments need a continuous record from aircraft to pharmacy, and a small logger packed with the goods shows the receiver how the whole trip went."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A freight firm holding parcels for many customers can offer each one a temperature record of its own consignment rather than a general statement about the shed."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Catering firms handling chilled and frozen food for the site cannot afford a long wait in warm air, and a log shows at which step a break in the chain occurred."
+        }
+      ],
+      "services": "For airport-side sites we would consider single-use or reusable loggers that travel inside a consignment, WiFi loggers for sheds and cold rooms near a router, and probe-type units for refrigerators and freezers. VEGA Calibrations, our parent company, can talk through calibration for users here. A WiFi logger needs a router in range and a supply of power, and for a vehicle or a loose consignment we set out the alternatives. Anything about supply waits until a request for the airport area has been reviewed.",
+      "visits": "A visit or an installation around the airport is not promised. Give the business, the consignment or room to be watched and a contact via the enquiry form, Call or WhatsApp, and we look over the request and reply with what appears workable.",
+      "approach": "If a request went ahead, we would begin with the consignment or room that is hardest to replace, placing a logger in the load or at the door and a second at the far wall, then add a unit reading humidity where cold goods meet warm air. A short run of readings would show how long goods really stand between one stage and the next.",
+      "faqs": [
+        {
+          "question": "Can a logger travel inside a medicine consignment through an air-cargo chain?",
+          "answer": "Yes. A logger tucked in among the boxes keeps a record from start to finish, and the report can be saved as a PDF, Excel or CSV file for the receiver, whichever route the consignment took."
+        },
+        {
+          "question": "Why do temperature swings between shed and vehicle matter?",
+          "answer": "A cargo shed or a van can turn from cool air-conditioned air to strong sun in minutes, so a continuous log shows swings that a single spot reading would miss."
+        }
+      ],
+      "nearby": [
+        "ras-bufontas-free-zone"
+      ],
+      "indexable": true
+    } },
+  { slug: "ras-bufontas-free-zone", name: "Ras Bufontas Free Zone", citySlug: "doha", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","electronics","pharmaceutical"], confirmedService: true, hero: ["nakshatra","virat"], page: {
+      "metaTitle": "Data Loggers in Ras Bufontas Free Zone, Doha | Prithvi",
+      "metaDescription": "Data loggers for warehouse units, stock rooms and offices in the Ras Bufontas Free Zone beside the airport in Doha. Get Solution.",
+      "intro": "The Ras Bufontas Free Zone lies beside the airport on the south-eastern side of Doha, a compact grid of warehouse units, light-industrial plots and offices set out for trading and manufacturing firms. For a temperature data logger the interest lies in the small, valuable and sensitive goods such plots tend to hold: electronic parts, healthcare supplies and consumer products, kept in storerooms and light warehouses through long hot summers. The description is confined to the kinds of goods and rooms that a logger user at Ras Bufontas may look after. Enquiries about Ras Bufontas are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Light warehouse units",
+          "note": "Compact units hold goods for firms that rent the offices next to them, and their thin roofs pick up the sun well before the air-conditioning responds."
+        },
+        {
+          "name": "Component and equipment rooms",
+          "note": "Rooms for components and equipment suffer when a baking afternoon is followed by a damp, cool night that leaves moisture on metal."
+        },
+        {
+          "name": "Healthcare supply stores",
+          "note": "Stores for medical devices and medicines hold stock in cooled rooms and fridges that have stated limits."
+        },
+        {
+          "name": "Assembly and packing workshops",
+          "note": "Workshops that assemble, pack or repair keep glues, oils and fittings in sheds that follow the weather outside."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "electronics",
+          "sentence": "A components dealer with a unit at Ras Bufontas can use a log to show that stock stayed inside a set range of heat and humidity until its customer collected it."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Firms keeping healthcare supplies on the plots need a dated temperature trace, which tells a distributor whether a carton stood too long in the warmth."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A unit that stores goods for several clients can give each client a record of its own pallets, not a blanket remark about the building."
+        }
+      ],
+      "services": "In a free-zone district we would look at WiFi loggers for stock rooms near a router, probe units for fridges and freezers, humidity-reading models for component stores, and loggers that ride inside a consignment. Calibration for Ras Bufontas users can be raised with VEGA Calibrations, our parent company. WiFi models need a router within range and a power supply, and for a vehicle we describe other options. We say nothing on supply until a Ras Bufontas request has been read.",
+      "visits": "A visit or an installation at Ras Bufontas is not promised. Hand us the business, the rooms and a contact through the enquiry form, Call or WhatsApp, and we look the request over and reply with what seems achievable.",
+      "approach": "If a request went ahead, we would begin with the room whose contents are hardest to replace, placing one logger near the door and one at the back, and adding a humidity unit where components are kept. A first run of readings would show whether afternoon heat or damp nights put the room under more strain.",
+      "faqs": [
+        {
+          "question": "Can a small trader with one unit begin with a single logger?",
+          "answer": "Yes. A single logger in one room is enough to start, and further points can join the same dashboard as the business grows."
+        },
+        {
+          "question": "Why do stored components care about a damp night after a hot day?",
+          "answer": "Moisture gathers on cool surfaces after dark, so a humidity trend next to the temperature shows exposure that a thermometer alone would miss."
+        }
+      ],
+      "nearby": [
+        "hamad-international-airport"
+      ],
+      "indexable": true
+    } },
+  { slug: "al-gharafa", name: "Al Gharafa", citySlug: "al-rayyan", areaType: "mixed-use", nearbyIndustries: ["food-beverage","pharmaceutical","hospitals-blood-banks"], confirmedService: true, hero: ["virat","rajmudra"], page: {
+      "metaTitle": "Data Loggers in Al Gharafa, Al Rayyan | Prithvi",
+      "metaDescription": "Data loggers for supermarket coolers, pharmacy refrigerators, clinic stores and workshops in Al Gharafa, Al Rayyan. Get Solution.",
+      "intro": "Al Gharafa is a dense residential district in the Al Rayyan area, where family streets, mosques, schools, shops, restaurants and clinics sit close together along its main roads. A temperature data logger in a district like this is concerned with many small rooms: supermarket cold rooms, pharmacy and clinic refrigerators, restaurant stores and the stockrooms of small workshops, all cooled by equipment that works hard through long summers. This page keeps to the kinds of goods and rooms a logger user could look after in a residential district of this sort. Enquiries about Al Gharafa are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Supermarkets and neighbourhood groceries",
+          "note": "Grocers serve whole blocks of homes from display coolers and walk-in cold rooms that are opened again and again from early morning."
+        },
+        {
+          "name": "Pharmacies and family clinics",
+          "note": "Pharmacies and clinics along the main roads keep vaccines and medicines in refrigerators that must stay in range through power dips."
+        },
+        {
+          "name": "Restaurants and takeaway kitchens",
+          "note": "Restaurants and takeaway kitchens run freezers and prep coolers in back rooms that share heat with the cooking line."
+        },
+        {
+          "name": "Small workshops and stockrooms",
+          "note": "Workshops and small stores tucked between homes keep parts, paints and household goods in rooms that follow the weather outside."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "food-beverage",
+          "sentence": "Grocers and restaurants in Al Gharafa hold chilled and frozen goods that spoil in heat, and a log from each cooler shows when a unit began to drift."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Pharmacies in Al Gharafa store medicines to labelled ranges, and a dated record shows how a room behaved through the hottest weeks and any outage."
+        },
+        {
+          "slug": "hospitals-blood-banks",
+          "sentence": "Family clinics in the district hold vaccines to strict ranges, and a phone alert reaches the person responsible if a refrigerator warms."
+        }
+      ],
+      "services": "In a residential district of small rooms we would look at probe-type loggers for fridges and freezers, WiFi loggers for kitchens and back rooms near a router, and humidity-reading units for dry stores. Calibration for Al Gharafa users is something VEGA Calibrations, our parent company, can discuss. A WiFi logger needs a router within range and mains power, and for a van we explain the alternatives. Whether anything can be supplied waits until an Al Gharafa request has been reviewed.",
+      "visits": "A visit or an installation in Al Gharafa is not promised. Pass on the shop or clinic, the rooms and a contact via the enquiry form, Call or WhatsApp, and we look over the request and reply with what looks workable.",
+      "approach": "If a request went ahead, we would begin with the refrigerator whose contents are hardest to replace, placing a probe among the contents rather than at the door, then add a second point in a dry stockroom. The first weeks of readings would show how door openings and power dips affect the range.",
+      "faqs": [
+        {
+          "question": "Can a neighbourhood pharmacy with one refrigerator use a single logger?",
+          "answer": "Yes. One probe logger with a phone alert is enough for a lone refrigerator, and its dated log can be handed to an inspector as proof that the unit stayed in range."
+        },
+        {
+          "question": "Is a humidity reading useful for a small dry store?",
+          "answer": "Yes. Damp air softens packaging and spoils dry goods, so a humidity trend beside the temperature shows when a store took on moisture."
+        }
+      ],
+      "nearby": [
+        "al-sailiya"
+      ],
+      "indexable": true
+    } },
+  { slug: "birkat-al-awamer", name: "Birkat Al Awamer", citySlug: "al-rayyan", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","food-beverage","chemical"], confirmedService: true, hero: ["setu","veer"], page: {
+      "metaTitle": "Data Loggers in Birkat Al Awamer, Al Rayyan | Prithvi",
+      "metaDescription": "Data loggers for storage yards, workshops, warehouses and food stores in Birkat Al Awamer, on the edge of Al Rayyan. Get Solution.",
+      "intro": "Birkat Al Awamer is a district on the south-western side of the Al Rayyan area, where villas and farms give way to storage yards, workshops and open land beside the roads out of the city. A temperature data logger in an outer district like this is concerned with stock that waits in simple buildings far from a shop: building materials, paints and chemicals with labelled limits, food and drink for the city, and spare parts kept in sheds and yards. This page keeps to the kinds of goods and rooms a logger user could look after in an outer district of this sort. Enquiries about Birkat Al Awamer are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Storage yards and open stock areas",
+          "note": "Goods stand in yards and under simple canopies, where the sun heats cartons, pipes and drums long before the evening cools them."
+        },
+        {
+          "name": "Paint, chemical and adhesive stores",
+          "note": "Stores of paints, glues and cleaning products carry limits printed on the label, and a hot shed can pass them quietly."
+        },
+        {
+          "name": "Food and drink stock rooms",
+          "note": "Small distributors keep chilled and dry stock in cooled rooms that load and unload in the early morning to avoid the heat."
+        },
+        {
+          "name": "Workshops and spare-parts sheds",
+          "note": "Workshops and parts sheds hold batteries, seals and electronics that tolerate a steady range better than the swing between a cooled office and a baking yard."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A storage yard holding goods for several owners can hand each owner a temperature record of its own stock in place of a general remark about the site."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "A distributor supplying kitchens and shops from an outer district can show with a log that its chilled room stayed in range at every early loading."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Stockists of paints, glues and cleaners can use a dated record to show whether a hot afternoon carried a pallet beyond its printed limit."
+        }
+      ],
+      "services": "For an outer district we would consider WiFi loggers for stores near a router, probe loggers for chilled rooms and freezers, multi-point units for long sheds, and loggers that ride inside a load. Birkat Al Awamer users can ask VEGA Calibrations, our parent company, about calibration. A WiFi logger relies on a router in range and mains power, and for an open yard we set out other options. What can be supplied is settled only once a request from Birkat Al Awamer has been read.",
+      "visits": "Visits and installation in Birkat Al Awamer are not promised. Tell us the business, the sheds or rooms involved and a contact via the enquiry form, Call or WhatsApp, and we review the request and say what appears practical.",
+      "approach": "If a request went ahead, we would begin with the shed or chilled room that holds the most delicate stock, placing loggers at floor level and under the roof and one at the door. Several weeks of summer readings would show which part of the shed gets hottest.",
+      "faqs": [
+        {
+          "question": "Can one report cover a long storage shed?",
+          "answer": "Yes. A multi-channel logger reads probes along the shed, so one report shows which stretch of the building runs warmest and when."
+        },
+        {
+          "question": "Why do goods in open yards need a logger in the load?",
+          "answer": "Cartons in the sun can run far hotter than the shaded air, so a logger inside the load records what the goods actually met."
+        }
+      ],
+      "nearby": [
+        "al-sailiya"
+      ],
+      "indexable": true
+    } },
+  { slug: "al-sailiya", name: "Al Sailiya", citySlug: "al-rayyan", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","food-beverage","electronics"], confirmedService: true, hero: ["dhruva","nakshatra"], page: {
+      "metaTitle": "Data Loggers in Al Sailiya, Al Rayyan | Prithvi",
+      "metaDescription": "Data loggers for shops, workshops, warehouses and food stores in Al Sailiya, along the road west of Doha. Get Solution.",
+      "intro": "Al Sailiya is a district along the road heading west out of the Doha area, where shops, workshops, warehouses and stores line the route beside open desert. A temperature data logger in a roadside district like this is concerned with stock that waits on the way into the city: food and drink, spare parts, electronics and household goods, kept in simple buildings with metal roofs and wide doors. This page keeps to the kinds of goods and rooms a logger user could look after in a roadside district of this sort. Enquiries about Al Sailiya are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Roadside shops and small stores",
+          "note": "Shops along the road sell drinks, dairy products and household goods from coolers and shelves that are opened constantly in strong sun."
+        },
+        {
+          "name": "Workshops and parts stores",
+          "note": "Workshops and parts stores keep batteries, seals and electronic components in rooms that follow the weather outside."
+        },
+        {
+          "name": "Warehouses with wide doors",
+          "note": "Warehouses hold goods for shops across the area, and wide doors let hot, dusty air into the room each time a vehicle backs in."
+        },
+        {
+          "name": "Food and drink distribution rooms",
+          "note": "Small distributors keep chilled and dry stock in cooled rooms that work hardest on summer afternoons."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "food-beverage",
+          "sentence": "Distributors and shopkeepers in Al Sailiya hold chilled goods that spoil in heat, and a log from each cooler shows when a unit began to struggle."
+        },
+        {
+          "slug": "electronics",
+          "sentence": "Parts and equipment stores in Al Sailiya gain from a humidity and temperature record, because a hot, dusty spell can harm components that look sound on a shelf."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A warehouse in Al Sailiya holding goods for several owners can give each owner a record of its own stock, rather than a general statement about the unit."
+        }
+      ],
+      "services": "For a roadside district we would look at probe loggers for refrigerators and chilled rooms, WiFi loggers for stores and warehouses near a router, humidity-reading models for parts stores, and loggers that ride in a load. Calibration for Al Sailiya users is something VEGA Calibrations, our parent company, can discuss. A WiFi logger needs a router in range and a power supply, and for a vehicle we describe the alternatives. Supply is left until an Al Sailiya request has been reviewed.",
+      "visits": "A visit or an installation in Al Sailiya is not promised. Pass on the business, the rooms and a contact using the enquiry form, Call or WhatsApp, and we look the Al Sailiya request over and reply with what appears practical.",
+      "approach": "If a request went ahead, we would start with the room holding the most heat-sensitive stock, placing one logger by the door and one at the back, then add a humidity unit where dust or damp enters. A few weeks of readings would show the hours when the room is pushed hardest.",
+      "faqs": [
+        {
+          "question": "Does dust affect a logger beside a desert road?",
+          "answer": "Dust from the desert coats anything left in the open, so a logger sits on a shaded inner wall clear of vents, with a battery that keeps the record running through an outage."
+        },
+        {
+          "question": "Can a roadside shop with one cooler start with a single logger?",
+          "answer": "Yes. A single probe logger with a phone alert covers one cooler, and more points can be added to the same dashboard later."
+        }
+      ],
+      "nearby": [
+        "al-gharafa"
       ],
       "indexable": true
     } },

@@ -22176,7 +22176,7 @@ export const locations: LegacyLocationNode[] = [
       {
         question: "Which parts of Qatar have a page?",
         answer:
-          "Doha Municipality has its own page, with the city of Doha and its districts beneath it. For another place, send the site and what you store through the enquiry form, Call or WhatsApp, and we reply with what looks suitable.",
+          "Doha Municipality and Al Rayyan Municipality have their own pages, each with a city and its districts beneath it. For another place, send the site and what you store through the enquiry form, Call or WhatsApp, and we reply with what looks suitable.",
       },
       {
         question: "How is monitoring set up for a Qatar site?",
@@ -22191,6 +22191,7 @@ export const locations: LegacyLocationNode[] = [
     ],
     listing: [
       { slug: "doha-municipality", text: "The capital's municipality, with a bay-side city of towers, markets, hospitals and hotels, and its central business and island districts, in hot, humid summers." },
+      { slug: "al-rayyan-municipality", text: "The municipality west of the capital, with a spreading city of villas, malls, schools and clinics, and its Al Gharafa, Birkat Al Awamer and Al Sailiya districts, in hot, dusty summers." },
     ],
     indexable: true,
     children: [
@@ -22213,7 +22214,7 @@ export const locations: LegacyLocationNode[] = [
           {
             question: "Which places in Doha Municipality have a page?",
             answer:
-              "Doha has a city page, and West Bay, Al Sadd, Msheireb and The Pearl-Qatar have area pages under it. Another district of the capital can be raised through the enquiry form.",
+              "Doha has a city page, and West Bay, Al Sadd, Msheireb, The Pearl-Qatar, Hamad International Airport and Ras Bufontas Free Zone have area pages under it. Another district of the capital can be raised through the enquiry form.",
           },
           {
             question: "Why does a very hot city still need humidity records?",
@@ -22234,6 +22235,8 @@ export const locations: LegacyLocationNode[] = [
           { slug: "al-sadd", text: "A busy central district of shops, clinics, restaurants and apartment blocks." },
           { slug: "msheireb", text: "A redeveloped downtown quarter with shaded streets, low-rise buildings, shops, offices and hotels." },
           { slug: "the-pearl-qatar", text: "An artificial island of marinas, residential towers, shops and restaurants off the northern coast." },
+          { slug: "hamad-international-airport", text: "The airport on the south-eastern side of the city, where medicines, food and parcels wait between aircraft and onward vehicles." },
+          { slug: "ras-bufontas-free-zone", text: "A free zone beside the airport, with warehouse units and offices for trading and light-industrial firms." },
         ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,
@@ -22333,6 +22336,148 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Doha | Prithvi",
             metaDescription:
               "Data loggers for Doha's hospitals, hotel kitchens, food importers and warehouses in long, hot, humid summers. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "al-rayyan-municipality",
+        name: "Al Rayyan Municipality",
+        type: "state",
+        intro:
+          "Al Rayyan Municipality lies to the west of the capital, where the built-up edge of Doha gives way to a wide plain of villas, schools, malls, farms and open desert. The city of Al Rayyan is a sprawling suburban centre of family neighbourhoods and shopping streets, with the districts of Al Gharafa, Birkat Al Awamer and Al Sailiya spread along the main roads out of town. Summers are long, very hot and dry-to-humid depending on the wind, winters mild, and dust blows in from the desert. Food, medicines and household goods wait in shops, clinics and warehouses in such heat. The pages below describe the city and three of its districts.",
+        localIndustries: [
+          "Supermarkets and shopping streets",
+          "Clinics, pharmacies and care centres",
+          "Warehouses and workshops",
+          "Restaurants and bakeries",
+        ],
+        citiesServed: ["Al Rayyan"],
+        supportNote:
+          "Enquiries from Al Rayyan Municipality are handled through the enquiry form, Call or WhatsApp. Say which district, which rooms and how they are cooled, and our reply covers what seems suitable here.",
+        faqs: [
+          {
+            question: "Which places in Al Rayyan Municipality have a page?",
+            answer:
+              "Al Rayyan has a city page, and Al Gharafa, Birkat Al Awamer and Al Sailiya have area pages under it. A district not named here can be raised through the enquiry form.",
+          },
+          {
+            question: "Why does a dusty suburb want a mounting position as well as a logger?",
+            answer:
+              "Fine dust settles on anything left open or near a vent, so a logger is fixed on a shaded inner wall away from the door, and its battery keeps the record going through a power cut.",
+          },
+          {
+            question: "Can one login watch shops and warehouses in different districts?",
+            answer:
+              "Yes. Each shop or warehouse is a separate point on one dashboard, alerts go to whoever looks after it, and a manager sees every site together in one exported report.",
+          },
+        ],
+        listing: [
+          { slug: "al-rayyan", text: "A sprawling suburban city west of the capital, with villas, malls, schools, clinics and warehouses, in hot summers and blowing dust." },
+        ],
+        areaListing: [
+          { slug: "al-gharafa", text: "A dense residential district with shops, restaurants, clinics and small workshops along its main roads." },
+          { slug: "birkat-al-awamer", text: "A district on the south-western side of the city with villas, storage yards, workshops and open land." },
+          { slug: "al-sailiya", text: "A district along the road out of the city, with shops, workshops, warehouses and stores in dry heat." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "al-rayyan",
+            name: "Al Rayyan",
+            type: "city",
+            intro:
+              "Al Rayyan is a large suburban city to the west of Doha, where family neighbourhoods, shopping streets, schools and clinics spread across a flat plain, and a temperature data logger here serves a place of supermarkets, bakeries, pharmacies and warehouses in long, hot summers. Shopping malls and neighbourhood parades sell food and household goods, clinics and care centres serve the residential districts, and workshops and storage yards line the roads that lead out of town. Open desert and farms begin not far from the last houses, and the school run fills the streets twice a day. Dust blows in from the desert in some seasons, and summer afternoons are far beyond comfortable. Enquiries from Al Rayyan are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "Summers are very hot with strong sun, nights stay warm, the air is dry on some days and humid on others depending on the wind, and dust storms blow in from the desert, so supermarket coolers, pharmacy refrigerators and warehouse sheds all work against the weather for months. A refrigerator that loses power on a summer afternoon warms quickly, and vehicles parked in the sun reach far higher temperatures than the shaded air.",
+            areas: [
+              {
+                name: "Supermarkets and neighbourhood groceries",
+                note: "Supermarkets and groceries sell dairy products, drinks and frozen food from display cabinets and walk-in cold rooms opened thousands of times a day.",
+              },
+              {
+                name: "Pharmacies, clinics and care centres",
+                note: "Pharmacies, family clinics and care centres hold vaccines and medicines in refrigerators that must hold their range through power dips.",
+              },
+              {
+                name: "Bakeries, cafes and restaurants",
+                note: "Bakeries, cafes and restaurants run coolers and freezers in back rooms that share heat with ovens and fryers.",
+              },
+              {
+                name: "Warehouses and workshops along the main roads",
+                note: "Warehouses, workshops and storage yards hold goods for shops and homes under metal roofs that heat up quickly in the sun.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Supermarkets, bakeries and cafes across Al Rayyan hold chilled and frozen goods that spoil in heat, and a log from each cooler shows when a unit began to drift.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies and medicine stores in Al Rayyan keep stock to labelled ranges, and a dated record shows how a room behaved through the hottest weeks and any outage.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Clinics and care centres in Al Rayyan hold vaccines to strict ranges, and a phone alert reaches the person responsible if a refrigerator warms in the night.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Warehouses along the roads of Al Rayyan hold goods for owners elsewhere, and a reading for each bay shows how long a lot stood in warm air before it was collected.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short lead slips into a pharmacy or clinic refrigerator in Al Rayyan and leaves the way staff use the unit unchanged.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels follow a supermarket cold room from its door to its rear wall, showing whether the chill reaches the last shelf.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels spaced along a long storage shed show which bay sits warmest under the roof, all in one report.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can an Al Rayyan supermarket or bakery use temperature loggers?",
+                answer:
+                  "A logger in each cooler, freezer and cold room records through the day and night, and a report for any period can be exported in PDF, Excel or CSV form for an inspector or a client.",
+              },
+              {
+                question: "Why does fine desert dust matter for where a logger is fixed?",
+                answer:
+                  "Dust settles on anything left open or near a vent, so a logger is fixed on a shaded inner wall away from the door, and its battery keeps the record going through a power cut.",
+              },
+              {
+                question: "How would an enquiry from Al Rayyan be handled?",
+                answer:
+                  "Send the shop, clinic or store, the rooms and a contact through the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Al Rayyan.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Al Rayyan clinics?",
+                answer:
+                  "Calibration of loggers and probes for Al Rayyan clinics is looked after by VEGA Calibrations, our parent company; share the model and range and we explain the options.",
+              },
+            ],
+            nearby: [
+              { slug: "doha", name: "Doha" },
+              { slug: "umm-salal", name: "Umm Salal" },
+              { slug: "al-wakrah", name: "Al Wakrah" },
+            ],
+            metaTitle: "Temperature Data Loggers in Al Rayyan | Prithvi",
+            metaDescription:
+              "Data loggers for Al Rayyan's supermarkets, bakeries, pharmacies, clinics and warehouses in hot summers and blowing dust. Get Solution.",
             indexable: true,
           },
         ],
