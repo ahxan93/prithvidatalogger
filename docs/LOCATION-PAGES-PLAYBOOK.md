@@ -350,6 +350,12 @@
 | KIZAD (`kizad`, area of Abu Dhabi) | UAE | Large factory halls, chemical and materials stores, cold stores, loading bays (described generally) | Logistics, chemicals, food | Hot, humid coast | Khalifa Port |
 | Khalifa Port (`khalifa-port`, area of Abu Dhabi) | UAE | Reefer containers and cold stores, container stacks, logistics sheds, trailers (described generally, no operating status) | Logistics, food, medicines | Hot, damp, salty | KIZAD |
 | Ghantoot (`ghantoot`, area of Abu Dhabi) | UAE | Port-side and industrial stores, resort kitchens, roadside shops, vehicles | Food, logistics, chemicals | Hot, salty coast | Khalifa Port |
+| Al Ain (`al-ain`, city, Abu Dhabi Emirate) | UAE | Hospitals and university laboratories, date plantations and stores, hotel kitchens, edge-of-town workshops | Medicines, laboratories, food | Hot, dry desert; dust | Abu Dhabi, Dubai, Liwa |
+| Al Ain Industrial Area (`al-ain-industrial-area`, area of Al Ain) | UAE | Workshops and spare-parts stores, warehouses, food distribution rooms, vehicle yards | Logistics, food, electronics | Dry desert heat, dust | none |
+| Ruwais (`ruwais`, city, Abu Dhabi Emirate) | UAE | Industrial laboratories, chemical and spare-parts warehouses, canteens, clinics | Chemicals, laboratories, food | Extreme heat, humid salty coast | Abu Dhabi, Madinat Zayed |
+| Ruwais Industrial Complex (`ruwais-industrial-complex`, area of Ruwais) | UAE | Laboratory sample stores, chemical and lubricant stores, parts warehouses, canteens (described generally, no operating status) | Chemicals, laboratories, logistics | Hot, humid, salty | none |
+| Madinat Zayed (`madinat-zayed`, city, Abu Dhabi Emirate) | UAE | Date farms and sheds, supermarkets, hospital and clinics, feed stores | Food, medicines, logistics | Very hot, dry desert; sandstorms | Liwa, Ruwais, Abu Dhabi |
+| Liwa (`liwa`, city, Abu Dhabi Emirate) | UAE | Date plantations, desert resorts, village shops, hospital and clinics | Food, medicines, logistics | Extreme desert heat, cold winter nights | Madinat Zayed, Al Ain |
 | Jazan Economic City (`jazan-economic-city`, area of Jazan) | Saudi Arabia | Plant chemical and drum stores, spares warehouses and contractor yards, port yards, camp kitchens and clinics | Chemical stores, contract warehousing, camp catering | Extreme heat and humidity, salty air | none |
 | Jeddah (`jeddah`) | Saudi Arabia | Industrial and port logistics zones | Port logistics, food import cold chain, hospitals | Hot, humid coastal | Riyadh, Dammam |
 | Dammam (`dammam`) | Saudi Arabia | Industrial and port logistics zones | Industrial & chemical, port logistics, food | Hot, humid Gulf coast | Riyadh, Bahrain, Jeddah |
@@ -585,3 +591,6 @@ the goods and rooms a logger user may look after. City pages carry the four FAQs
 
 UAE Batch 1 (Abu Dhabi Emirate): hub, Abu Dhabi city and the areas Mussafah, ICAD, KIZAD, Khalifa Port and Ghantoot. The Abu Dhabi Emirate hub is
 indexable (one city and five areas).
+
+UAE Batch 2 (Abu Dhabi Emirate, remaining towns): Al Ain, Ruwais, Madinat Zayed and Liwa, with the areas Al Ain Industrial Area and Ruwais
+Industrial Complex. Not built, for lack of confident, distinguishing local facts: Ghayathi.

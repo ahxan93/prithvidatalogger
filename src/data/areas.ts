@@ -83,6 +83,8 @@ export const areaCities: Record<string, { name: string; stateSlug: string; state
   yanbu: { name: "Yanbu", stateSlug: "madinah-region", stateName: "Madinah Region" },
   jazan: { name: "Jazan", stateSlug: "jazan-region", stateName: "Jazan Region" },
   "abu-dhabi": { name: "Abu Dhabi", stateSlug: "abu-dhabi-emirate", stateName: "Abu Dhabi Emirate" },
+  "al-ain": { name: "Al Ain", stateSlug: "abu-dhabi-emirate", stateName: "Abu Dhabi Emirate" },
+  ruwais: { name: "Ruwais", stateSlug: "abu-dhabi-emirate", stateName: "Abu Dhabi Emirate" },
   aden: { name: "Aden", stateSlug: "aden-governorate", stateName: "Aden Governorate" },
   mukalla: { name: "Mukalla", stateSlug: "hadramaut-governorate", stateName: "Hadramaut Governorate" },
   sanaa: { name: "Sana'a", stateSlug: "amanat-al-asimah", stateName: "Amanat Al Asimah" },
@@ -6218,6 +6220,111 @@ export const areas: AreaDef[] = [
       "nearby": [
         "khalifa-port"
       ],
+      "indexable": true
+    } },
+  // ------------------------------------------------------------------ UAE (batch 2: Al Ain, Ruwais)
+  { slug: "al-ain-industrial-area", name: "Al Ain Industrial Area", citySlug: "al-ain", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","food-beverage","electronics"], confirmedService: true, hero: ["virat","nakshatra"], page: {
+      "metaTitle": "Data Loggers in Al Ain Industrial Area | Prithvi",
+      "metaDescription": "Data loggers for workshops, vehicle yards, warehouses and small factories in the Al Ain Industrial Area, in dry desert heat. Get Solution.",
+      "intro": "The Al Ain Industrial Area lies on the edge of the oasis city, where workshops, vehicle and tyre yards, warehouses and small factories stand in rows along wide roads. A temperature data logger in a district like this is concerned with the ordinary risks of making, repairing and storing goods in dry desert heat: food and drink stock, spare parts and batteries, and building materials waiting under metal roofs. This page is limited to the stock and rooms that a logger user could look after in such a district. Enquiries about the Al Ain Industrial Area are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Workshops and spare-parts stores",
+          "note": "Repair shops and parts stores hold batteries, seals, electronics and lubricants that suit a steady range better than the swing between a cooled office and a baking yard."
+        },
+        {
+          "name": "General warehouses",
+          "note": "Warehouses with wide doors hold stock for shops and businesses across the city, and a metal roof sets the room temperature long before the cooling catches up."
+        },
+        {
+          "name": "Food and drink distribution rooms",
+          "note": "Small distributors keep chilled and dry goods in cooled rooms that work hardest on summer afternoons, when doors open and shut all day."
+        },
+        {
+          "name": "Vehicle and tyre yards",
+          "note": "Tyres, batteries and vehicle parts stand in open yards, and anything left in a covered van or cabin runs far hotter than the shaded air."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A warehouse holding goods for several owners in Al Ain can give each owner a temperature record of its own stock, instead of a general remark about the building."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "A small distributor supplying kitchens and shops in Al Ain can show with a log that a chilled room held its limits for every batch."
+        },
+        {
+          "slug": "electronics",
+          "sentence": "Component and equipment stores sensitive to heat and humidity gain from a steady record, because a hot, dusty spell can harm parts that look sound on a shelf."
+        }
+      ],
+      "services": "For a district of this kind we would look at WiFi loggers for sheds and cooled rooms that have a router, single-point loggers with external probes for chilled rooms and freezers, multi-point units for long sheds where one end is hotter than the other, and loggers that ride inside a load. VEGA Calibrations, our parent company, can discuss calibration for users here. A WiFi logger needs a router in range and a supply of power, and for an open yard we would explain the alternatives. Whatever can be supplied is decided only after a request has been reviewed.",
+      "visits": "Visits and installation in the Al Ain Industrial Area are not promised. Give us the business, the rooms in question and a contact on the enquiry form, Call or WhatsApp, and we review the request and say what looks practical.",
+      "approach": "If a request went ahead, we would begin with the room holding the most heat-sensitive stock, placing one logger by the door and one at the back, then add a unit reading humidity where dust or washing-down changes the air. The first summer weeks would show which hours of the day strain the room.",
+      "faqs": [
+        {
+          "question": "Can a small Al Ain workshop or store keep a temperature record?",
+          "answer": "Yes. A logger in the store records day and night, and a report for any period can be exported in PDF, Excel or CSV form."
+        },
+        {
+          "question": "Does dust affect a logger in a desert industrial area?",
+          "answer": "Fine dust settles on anything exposed, so a logger is fixed on a shaded inner wall away from vents, and its battery keeps the record going through a power cut."
+        }
+      ],
+      "nearby": [],
+      "indexable": true
+    } },
+  { slug: "ruwais-industrial-complex", name: "Ruwais Industrial Complex", citySlug: "ruwais", areaType: "industrial-estate", nearbyIndustries: ["chemical","laboratories","logistics-warehousing"], confirmedService: true, hero: ["dhruva","rajmudra"], page: {
+      "metaTitle": "Data Loggers at Ruwais Industrial Complex | Prithvi",
+      "metaDescription": "Data loggers for laboratories, chemical stores and workshops around the Ruwais Industrial Complex, in hot, humid coastal air. Get Solution.",
+      "intro": "The Ruwais Industrial Complex stands beside the Gulf coast of the Al Dhafra region and is built around refining and petrochemical works, with supporting laboratories, stores, workshops and contractors' yards. A temperature data logger around a complex of this kind is concerned with what its support buildings hold: laboratory samples, chemicals and lubricants with labelled limits, spare parts and food for working communities, all kept in air that is extremely hot, humid and salty. The page is confined to the kinds of goods and rooms that a logger user could look after at a large coastal complex. Enquiries about the Ruwais Industrial Complex are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Laboratory sample and reagent stores",
+          "note": "Laboratories keep samples, reagents and reference materials in refrigerators, freezers and conditioned rooms, each with a limit that has to be shown to have held."
+        },
+        {
+          "name": "Chemical and lubricant stores",
+          "note": "Stores of chemicals, coatings and lubricants near the coast face heat and salt damp, and labelled ranges can be broken in a hot shed without anyone noticing."
+        },
+        {
+          "name": "Spare-parts and electronics warehouses",
+          "note": "Warehouses hold gaskets, seals, bearings and electronic parts that suit a steady range better than the swing between conditioned stores and baking yards."
+        },
+        {
+          "name": "Catering and canteen stores",
+          "note": "Kitchens and canteens feeding working communities run walk-in coolers and freezers through the long summer, far from alternative suppliers."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "chemical",
+          "sentence": "Stores of chemicals, coatings and lubricants keep labelled ranges, and a dated record shows whether a stack stood too hot for too long in a coastal shed."
+        },
+        {
+          "slug": "laboratories",
+          "sentence": "Laboratories supporting industrial plants keep reagents and samples to set limits, and an exported report is ready whenever an audit asks for one."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A warehouse holding materials for several contractors can give each contractor a record of how its stock was kept, instead of a general statement about the building."
+        }
+      ],
+      "services": "For a coastal industrial complex we would consider WiFi loggers for laboratories and stores that have a router, probe-type loggers for freezers and sample refrigerators, multi-point units for long storage sheds, and loggers that ride inside a load. Calibration for users at Ruwais is something VEGA Calibrations, our parent company, can talk through. A WiFi logger needs a router within range and a supply of power, and for an open yard or a vehicle we would explain the alternatives. Whether anything can be supplied for Ruwais is settled only after a request has been reviewed.",
+      "visits": "Visits and installation at the Ruwais Industrial Complex are not promised. Send the business, the rooms to be watched and a contact through the enquiry form, Call or WhatsApp, and we review the request and say what is practical.",
+      "approach": "If a request went ahead, we would start with the laboratory refrigerator or chemical store holding the most sensitive materials, placing one logger near the door and one at the back, and add a humidity-reading unit where sea air enters. Early summer readings would show which hours push a room outside its range.",
+      "faqs": [
+        {
+          "question": "Can a laboratory at an industrial complex show that a refrigerator held its range?",
+          "answer": "Yes. A logger records temperature continuously and a dated report can be exported in PDF, Excel or CSV form for an audit or a customer."
+        },
+        {
+          "question": "Why does salty sea air matter for stored materials?",
+          "answer": "Sea air carries salt that softens cartons and corrodes metal, so a humidity trend beside the temperature shows when stock took on moisture."
+        }
+      ],
+      "nearby": [],
       "indexable": true
     } },
 ];

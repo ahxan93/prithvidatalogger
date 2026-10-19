@@ -20566,14 +20566,14 @@ export const locations: LegacyLocationNode[] = [
           "Hospitals and pharmaceutical distribution",
           "Port-side and free-zone logistics",
         ],
-        citiesServed: ["Abu Dhabi"],
+        citiesServed: ["Abu Dhabi","Al Ain","Ruwais","Madinat Zayed","Liwa"],
         supportNote:
           "Enquiries from Abu Dhabi Emirate are handled through the enquiry form, Call or WhatsApp. Tell us the district, the rooms you want to watch and how they are cooled, and we reply with what looks suitable.",
         faqs: [
           {
             question: "Which places in Abu Dhabi Emirate have a page?",
             answer:
-              "Abu Dhabi has a city page, and Mussafah, ICAD, KIZAD, Khalifa Port and Ghantoot have area pages under it. Another town in the emirate can be put to us through the enquiry form.",
+              "Abu Dhabi, Al Ain, Ruwais, Madinat Zayed and Liwa each have a city page, and Mussafah, ICAD, KIZAD, Khalifa Port, Ghantoot, the Al Ain Industrial Area and the Ruwais Industrial Complex have area pages. Another town in the emirate can be put to us through the enquiry form.",
           },
           {
             question: "Why do coastal and inland sites need different loggers set-ups?",
@@ -20588,6 +20588,10 @@ export const locations: LegacyLocationNode[] = [
         ],
         listing: [
           { slug: "abu-dhabi", text: "An island city on the Arabian Gulf with hospitals, hotels, food importers and industrial districts on the mainland, in very hot, humid summers." },
+          { slug: "al-ain", text: "An inland oasis city near the mountains, with date palms, old irrigation channels, a university, hospitals and hot, dry summers." },
+          { slug: "ruwais", text: "An industrial town on the western Gulf coast of the emirate, built around refining and petrochemical works, with hot, humid sea air." },
+          { slug: "madinat-zayed", text: "A desert regional town in the Al Dhafra region with farms, a livestock market, shops and clinics in dry heat and dust." },
+          { slug: "liwa", text: "An oasis of date plantations at the edge of the great sand desert, with giant dunes, farms, guesthouses and clinics." },
         ],
         areaListing: [
           { slug: "mussafah", text: "An industrial district on the mainland across from Abu Dhabi island, with workshops, yards, warehouses and light factories." },
@@ -20595,6 +20599,8 @@ export const locations: LegacyLocationNode[] = [
           { slug: "kizad", text: "A large planned industrial zone on the coast road between Abu Dhabi and Dubai, beside Khalifa Port." },
           { slug: "khalifa-port", text: "A deep-water container port on the Gulf coast at Taweelah, with reefer stacks, yards and nearby logistics sheds." },
           { slug: "ghantoot", text: "A coastal area on the road between Abu Dhabi and Dubai, with port-side and industrial sites and seaside leisure facilities." },
+          { slug: "al-ain-industrial-area", text: "An industrial area on the edge of Al Ain, with workshops, vehicle yards, warehouses and small factories in dry heat." },
+          { slug: "ruwais-industrial-complex", text: "The industrial complex at Ruwais, built around refining and petrochemicals, with storage, laboratories and workshops by the sea." },
         ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,
@@ -20694,6 +20700,392 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Abu Dhabi | Prithvi",
             metaDescription:
               "Data loggers for Abu Dhabi's hospitals, hotel kitchens, food importers and industrial districts in Gulf heat and humidity. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "al-ain",
+            name: "Al Ain",
+            type: "city",
+            intro:
+              "Al Ain is an inland oasis city in the east of Abu Dhabi Emirate, set among date palms at the foot of a bare limestone mountain, and a temperature data logger here serves a city of hospitals, a national university, hotels, food stores and workshops in a hot, dry desert climate. Old irrigation channels still run through shaded plantations, and the oases, forts and ancient tombs are recognised as a World Heritage site. Tourism, farming, education and light industry all share the city, and the roads out of town lead to the coast, to Dubai and to the desert. Summer afternoons are fiercely hot, nights cool slowly and winters are mild. Enquiries from Al Ain are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "Al Ain is drier than the coast, so the air is less humid but heat, dust and strong sun dominate, with summer afternoons that load every cooling system and winter mornings that can feel cool. Vehicles and metal-roofed sheds reach far higher temperatures than the shaded air, and a power cut on a July afternoon can warm a room in an hour or two. Sandy winds bring dust that settles on equipment and clogs vents.",
+            areas: [
+              {
+                name: "Hospitals, clinics and the university",
+                note: "Large hospitals, clinics and a university with research laboratories keep vaccines, blood products, reagents and samples in refrigerators and freezers that must hold a range through any interruption of power.",
+              },
+              {
+                name: "Palm plantations and date stores",
+                note: "Growers and packers keep dates and farm produce in cool rooms and sheds among the palms, where heat in the weeks after harvest is the main danger to quality.",
+              },
+              {
+                name: "Hotels, restaurants and food stores",
+                note: "Hotels, restaurants and food shops run walk-in coolers, freezers and dry stores, and visitor numbers peak in the cooler months when the cooling still has to keep pace.",
+              },
+              {
+                name: "Workshops and warehouses on the edge of town",
+                note: "Workshops, tyre and spare-parts yards and general warehouses hold stock under metal roofs that bake in the summer sun.",
+              },
+            ],
+            industries: [
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Al Ain hospitals and clinics hold vaccines and blood products for a wide district, and a phone alert reaches the person on duty if a refrigerator warms overnight.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "University and clinical laboratories in Al Ain keep reagents and samples to set limits, and an exported report is ready whenever a review asks for one.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Date packers, hotel kitchens and food shops in Al Ain hold goods that suffer in heat, and a record from each store shows a buyer how a lot was kept.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies and medicine distributors in Al Ain store stock to labelled ranges, and a dated log shows how a room behaved through the hottest weeks of summer.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a date store or a laboratory room, where steady, cool and dry air protects the contents through long storage.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable fits a ward or pharmacy refrigerator in Al Ain and leaves the way staff use the unit unchanged.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels along a long warehouse show which stretch of the roof keeps stock warmest, in a single report.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can an Al Ain date or food business use a temperature record?",
+                answer:
+                  "A logger in the store records temperature and humidity through the season, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for a buyer.",
+              },
+              {
+                question: "Why does dust matter for where a logger is mounted in Al Ain?",
+                answer:
+                  "Fine dust settles on anything left open, so a logger sits on a shaded inner wall away from vents, and its battery keeps the record going if the power fails.",
+              },
+              {
+                question: "How would an enquiry from Al Ain be handled?",
+                answer:
+                  "Send the place, the rooms and a contact through the enquiry form, Call or WhatsApp, and we reply with what looks suitable for the site.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Al Ain laboratories?",
+                answer:
+                  "Calibration of loggers and probes for Al Ain laboratories is looked after by VEGA Calibrations, our parent company; share the model and range and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "abu-dhabi", name: "Abu Dhabi" },
+              { slug: "dubai", name: "Dubai" },
+              { slug: "liwa", name: "Liwa" },
+            ],
+            metaTitle: "Temperature Data Loggers in Al Ain | Prithvi",
+            metaDescription:
+              "Data loggers for Al Ain's hospitals, university labs, date stores, hotel kitchens and warehouses in desert heat and dust. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "ruwais",
+            name: "Ruwais",
+            type: "city",
+            intro:
+              "Ruwais is an industrial town on the Gulf coast of the Al Dhafra region, west of Abu Dhabi, and a temperature data logger here serves a planned town built around refining and petrochemical works, with housing, shops, clinics and a port along the shore. Large industrial plants stand beside the sea, supported by laboratories, stores, workshops and contractors' yards, while the residential districts have supermarkets, restaurants and a hospital. Summers are extremely hot and the sea air is humid and salty, winters are mild, and sandy winds blow in from the desert. Chemicals, spare parts, food and medicines all wait in warehouses and vehicles in such heat, often far from the next supplier. Enquiries from Ruwais are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The coast is extremely hot in summer with high humidity and salt in the air, the interior behind it is dry desert, and winter mornings are pleasantly cool, so stores face heat, damp and dust in turn. Equipment yards and metal-roofed sheds near the sea corrode as well as overheat, and a refrigerator that fails in a residential block can lose its contents before the next shift. Contractors' yards and laboratory stores sit close to the water, so salt reaches labels, cartons and cabinets, and a room that was in range at dawn can be outside it by the afternoon.",
+            areas: [
+              {
+                name: "Industrial laboratories and sample stores",
+                note: "Laboratories attached to industrial plants keep reagents, samples and reference materials in refrigerators, freezers and conditioned rooms with a labelled limit.",
+              },
+              {
+                name: "Chemical and spare-parts warehouses",
+                note: "Warehouses hold lubricants, coatings, gaskets, electronic parts and chemicals in sheds near the coast, where heat and salt damp both threaten stock.",
+              },
+              {
+                name: "Supermarkets, restaurants and canteens",
+                note: "The residential districts run supermarkets, restaurants and canteens with walk-in coolers and freezers working constantly through long summers.",
+              },
+              {
+                name: "Clinics, pharmacies and the hospital",
+                note: "A hospital, clinics and pharmacies in the town hold vaccines and medicines in refrigerators that must hold their range through power interruptions.",
+              },
+            ],
+            industries: [
+              {
+                slug: "chemical",
+                sentence:
+                  "Stores of chemicals, lubricants and coatings in Ruwais carry labelled ranges, and a dated log shows whether a hot, damp shed pushed a pallet outside them.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "Industrial and clinical laboratories in Ruwais keep samples and reference materials to set limits, and an exported report is ready whenever an audit asks for one.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Canteens, supermarkets and restaurants serving a large working community hold chilled and frozen food, and a record from each cooler shows when a compressor began to struggle.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods reaching Ruwais wait in warehouses and vehicles before use, and a logger placed in a load records the heat and humidity each lot met.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a chemical shed or a supermarket cold room at several heights and beside the door, showing which corner runs warmest.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels read a laboratory room at the door end and the far wall, showing whether the air at the back matches the front.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "With humidity read beside temperature, one unit shows when salty damp has entered a store that is otherwise dry.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Ruwais laboratory or warehouse use temperature loggers?",
+                answer:
+                  "A logger in each room records through the day and night, and a report for any period can be exported in PDF, Excel or CSV form for an audit or a customer.",
+              },
+              {
+                question: "Why does a coastal industrial store need a humidity reading?",
+                answer:
+                  "Salt-laden, humid air softens cartons and attacks metal, and condensation forms on anything cold, so a humidity trend beside the temperature shows moisture that temperature alone would miss.",
+              },
+              {
+                question: "What happens to the record if the power or the WiFi fails at Ruwais?",
+                answer:
+                  "The logger carries on recording from its battery and keeps the readings, so the hours of an outage at Ruwais are still on record once the site is back online.",
+              },
+              {
+                question: "How would an enquiry from Ruwais be handled?",
+                answer:
+                  "Use the enquiry form, Call or WhatsApp to give the plant or store, the rooms and a contact, and we reply with what looks suitable for Ruwais.",
+              },
+            ],
+            nearby: [
+              { slug: "abu-dhabi", name: "Abu Dhabi" },
+              { slug: "madinat-zayed", name: "Madinat Zayed" },
+            ],
+            metaTitle: "Temperature Data Loggers in Ruwais | Prithvi",
+            metaDescription:
+              "Data loggers for Ruwais's laboratories, chemical stores, canteens and clinics on the hot, humid Gulf coast of Al Dhafra. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "madinat-zayed",
+            name: "Madinat Zayed",
+            type: "city",
+            intro:
+              "Madinat Zayed is a desert town in the Al Dhafra region of Abu Dhabi Emirate, a regional centre inland from the western coast, and a temperature data logger here serves a place where farms, shops and clinics sit among dunes and flat gravel plains. Date farms and irrigated fields grow around the town, livestock are traded in a market, and shopping centres sell food, household goods and gold to families from the surrounding settlements. A hospital and clinics serve a wide district, and the road network links the town with Abu Dhabi, Liwa and the western coast. Summers are very hot and dry, nights cool slowly and sandstorms are common. Enquiries from Madinat Zayed are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The air is dry, the sun is intense, summer days climb far above comfortable levels and winter nights can be cool, while dust and sandstorms blow through in spring and summer, so stores face dry heat and fine sand together. A refrigerator that loses power on an August afternoon warms fast, and the long roads to the next town mean goods spend hours in vehicles.",
+            areas: [
+              {
+                name: "Date farms and packing sheds",
+                note: "Farmers keep dates, vegetables and fodder in sheds and small cool rooms among the plots, where heat after harvest is the main danger to the crop.",
+              },
+              {
+                name: "Shopping centres and food stores",
+                note: "Supermarkets and shopping centres sell chilled and frozen food from walk-in coolers and display cabinets that are opened constantly through the day.",
+              },
+              {
+                name: "Hospital, clinics and pharmacies",
+                note: "A hospital, clinics and pharmacies serve a wide desert district and keep vaccines and medicines in refrigerators that must hold their range through power cuts.",
+              },
+              {
+                name: "Livestock market and feed stores",
+                note: "Traders and farmers store feed, veterinary medicines and supplies in sheds that bake in the summer sun.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Date growers, supermarkets and grocers in Madinat Zayed hold goods that suffer in heat, and a log from each store shows a buyer how a lot was kept after harvest.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The hospital and clinics of Madinat Zayed hold vaccines for settlements spread across a wide dry district, and a phone alert reaches the right person if a refrigerator drifts.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Madinat Zayed keep stock in rooms with labelled ranges, and a dated log shows how a room behaved through the hottest weeks and any outage.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods reaching Madinat Zayed travel long desert roads, and a logger placed in a load records how long it stood in a vehicle in the sun.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a date store, where steady, cool and dry air protects the fruit through long storage.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single probe on a short lead slips into a clinic or pharmacy refrigerator in Madinat Zayed and leaves daily routines unchanged.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels read a supermarket cold room at the door end and the far wall, showing whether the chill reaches the back shelves.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Madinat Zayed farm or shop use a single logger?",
+                answer:
+                  "Yes. One logger with a phone alert can watch a single cold room or refrigerator if a router is within reach, and more points can be added to the same account later.",
+              },
+              {
+                question: "Does fine desert sand affect a logger?",
+                answer:
+                  "Dust settles on anything left open, so a logger is fixed on a shaded inner wall away from vents and doors, and its battery keeps the record going through a power cut.",
+              },
+              {
+                question: "How would an enquiry from Madinat Zayed be handled?",
+                answer:
+                  "Send the place, what you store and a contact through the enquiry form, Call or WhatsApp, and we reply with what looks suitable for the site.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Madinat Zayed clinics?",
+                answer:
+                  "Calibration of loggers and probes for Madinat Zayed clinics is looked after by VEGA Calibrations, our parent company; share the model and the range and we explain the options.",
+              },
+            ],
+            nearby: [
+              { slug: "liwa", name: "Liwa" },
+              { slug: "ruwais", name: "Ruwais" },
+              { slug: "abu-dhabi", name: "Abu Dhabi" },
+            ],
+            metaTitle: "Temperature Data Loggers in Madinat Zayed | Prithvi",
+            metaDescription:
+              "Data loggers for Madinat Zayed's date farms, supermarkets, clinics and feed stores in desert heat and dust. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "liwa",
+            name: "Liwa",
+            type: "city",
+            intro:
+              "Liwa is a crescent of oasis villages and date plantations on the northern edge of the Rub' al Khali, the great sand desert, in the Al Dhafra region of Abu Dhabi Emirate, and a temperature data logger here serves a remote farming and visitor district set among very tall sand dunes. Date farms, fodder plots and irrigated gardens cling to the hollows between the dunes, guesthouses and desert resorts welcome visitors, and a hospital, clinics and shops serve the villages. The dunes rise to great heights beside the road, summers are very hot and winter nights are cool. The drive to the nearest large town is long, so storage on site matters. Enquiries from Liwa are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "Liwa is deep desert, so heat in summer is extreme and the air is very dry, winter nights can be surprisingly cold, and wind lifts sand into the air for days. Distances to the next large town are long, so a refrigerator that fails may go unnoticed for hours and a vehicle load can sit in the sun for much of a journey. Dates must be stored with care after harvest because heat and sand both threaten the fruit.",
+            areas: [
+              {
+                name: "Date plantations and cool rooms",
+                note: "Growers keep dates and farm produce in sheds and cool rooms among the dune hollows, where heat in the weeks after harvest is the main danger to quality.",
+              },
+              {
+                name: "Guesthouses and desert resorts",
+                note: "Resorts and guesthouses run kitchens, coolers and dry stores for visitors, far from the next supplier, so a failed refrigerator is costly.",
+              },
+              {
+                name: "Village shops and food stores",
+                note: "Shops in the villages sell drinks, dairy products and packaged food from coolers that are opened constantly through the day.",
+              },
+              {
+                name: "Hospital, clinics and pharmacies",
+                note: "A hospital, clinics and pharmacies hold vaccines and medicines for isolated settlements in refrigerators that must survive power interruptions.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Liwa date growers, resort kitchens and village shops hold goods that spoil or soften in heat, and a log from each cooler shows when it began to warm.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The Liwa hospital and clinics hold vaccines for villages that are a long drive from larger towns, and a phone alert reaches the person on duty if a refrigerator drifts.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Liwa keep stock in rooms with labelled ranges, and a dated record shows how a room behaved through the hottest weeks and any outage.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Supplies reach Liwa over long desert roads, and a logger placed in a load records how long it stood in a vehicle in the sun before reaching a small store.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "With humidity read beside temperature, one unit suits a date store where steady, cool and dry air is the goal.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable fits a resort or clinic refrigerator in Liwa and leaves the way staff use the unit unchanged.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a guesthouse pantry or a village store at several heights and by the door, showing which shelf warms first.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Why would a remote resort kitchen in Liwa want phone alerts?",
+                answer:
+                  "The next supplier is far away, so a warning that a cooler is drifting lets staff act while the stock can still be saved, instead of discovering the loss the next morning.",
+              },
+              {
+                question: "Can one logger watch a single refrigerator in a village shop?",
+                answer:
+                  "Yes. A single logger with an alert to a phone can watch one refrigerator if a router is within reach, and more points can be added to the same account later.",
+              },
+              {
+                question: "How would an enquiry from Liwa be handled?",
+                answer:
+                  "Write via the enquiry form, Call or WhatsApp with the village, the rooms and a contact, and we reply with what looks suitable for Liwa.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Liwa clinics?",
+                answer:
+                  "Calibration of loggers and probes for Liwa clinics is looked after by VEGA Calibrations, our parent company; share the model and the range and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "madinat-zayed", name: "Madinat Zayed" },
+              { slug: "al-ain", name: "Al Ain" },
+            ],
+            metaTitle: "Temperature Data Loggers in Liwa | Prithvi",
+            metaDescription:
+              "Data loggers for Liwa's date farms, desert resort kitchens, village shops and clinics beside the great sand dunes. Get Solution.",
             indexable: true,
           },
         ],
