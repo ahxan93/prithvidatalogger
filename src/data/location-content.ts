@@ -101,6 +101,12 @@ export const locationContent: Record<string, LocationContent> = {
       "Temperature data loggers in Madhya Pradesh: Indore, Bhopal, Jabalpur, Gwalior, Pithampur, Ujjain and Dewas. Get Solution.",
     recommended: ["virat", "dhruva", "setu"],
   },
+  "india/dadra-and-nagar-haveli-and-daman-and-diu": {
+    metaDescription:
+      "Temperature data loggers in Silvassa, Daman and Diu: pharma, plastics and packaging plants, harbour stores and hotel kitchens. Get Solution.",
+    recommended: ["rajmudra", "nakshatra", "vayu"],
+    inName: "Silvassa, Daman & Diu",
+  },
   "india/uttarakhand": {
     metaDescription:
       "Temperature data loggers in Uttarakhand: Haridwar, Dehradun, Roorkee, Rudrapur-Pantnagar, Kashipur and Kotdwar. Get Solution.",

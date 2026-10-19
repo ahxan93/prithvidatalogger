@@ -140,6 +140,7 @@ export const locations: LegacyLocationNode[] = [
       { slug: "west-bengal", text: "Kolkata's cold stores, pharmaceutical distributors, hospitals and port-side godowns, with Howrah, Kalyani and Dankuni around it." },
       { slug: "andhra-pradesh", text: "Visakhapatnam's port, steel, shipyard and pharma estates, Vijayawada's markets, Guntur's chilli cold stores and Tirupati's hotels and electronics, in a hot, humid, cyclone-prone coast." },
       { slug: "uttarakhand", text: "Haridwar's factory estate and pilgrim hotels, Dehradun's pharma and technology estates, hospitals and institutes, and Roorkee's engineering town, between hot plains and cold hills." },
+      { slug: "dadra-and-nagar-haveli-and-daman-and-diu", text: "Silvassa's pharma, plastics and textile estates, Daman's packaging, bottling and harbour trades, and the island of Diu, in a humid coastal climate." },
     ],
     indexable: true,
     children: [
@@ -12965,6 +12966,337 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Kotdwar | Prithvi",
             metaDescription:
               "WiFi and GSM temperature and humidity data loggers for Kotdwar's hill-bound godowns, medicine wholesalers, clinics and railway goods sheds. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "dadra-and-nagar-haveli-and-daman-and-diu",
+        name: "Dadra and Nagar Haveli and Daman and Diu",
+        type: "state",
+        intro:
+          "The Union Territory of Dadra and Nagar Haveli and Daman and Diu was formed in 2020 by joining two former territories, and its three places lie far apart. Silvassa, inland among the foothills, and Daman, on the coast beside Vapi, are the two industrial centres, with pharmaceutical, plastics, packaging, textile and engineering plants on planned estates, while Diu is a small island off the Saurashtra coast, given over to tourism and fishing. All three share a humid coastal climate and a heavy monsoon, and the sea adds salt to the air. Heat, damp and storm outages test cold rooms, chemical stores and hotel kitchens alike. The page for each place describes its stores and suggests loggers to match.",
+        localIndustries: [
+          "Pharmaceutical and plastics manufacturing",
+          "Packaging and engineering works",
+          "Distilleries and beverage bottling",
+          "Tourism kitchens and fishing",
+        ],
+        citiesServed: ["Silvassa", "Daman", "Diu"],
+        supportNote:
+          "Supply, installation support and site visits for the Union Territory are arranged from our Mumbai office. Tell us the place, the estate and what the rooms hold.",
+        faqs: [
+          {
+            question: "Why does this Union Territory have one page for three places?",
+            answer:
+              "It is one administrative unit, so we group Silvassa, Daman and Diu under it, although each place has its own page because their estates, hotels and harbours are very different.",
+          },
+          {
+            question: "Are Silvassa and Daman close to existing Gujarat and Maharashtra pages?",
+            answer:
+              "Both lie beside Gujarat and Maharashtra, and a firm with a plant here and another in Vapi or the Palghar belt can watch them together on one account.",
+          },
+          {
+            question: "How should a store plan for the monsoon on this coast?",
+            answer:
+              "Heavy rain brings damp air and power cuts, so we place humidity-reading loggers in dry stores and set alerts for lost mains power, which tells the person responsible that a room is no longer protected.",
+          },
+        ],
+        listing: [
+          { slug: "silvassa", text: "The inland headquarters town of Dadra and Nagar Haveli, with Naroli, Amli and Masat estates of pharma, plastics, textile and engineering plants." },
+          { slug: "daman", text: "A coastal town beside Vapi, with Kachigam, Bhimpore and Somnath estates, packaging and bottling plants, a fishing harbour and beach hotels." },
+          { slug: "diu", text: "A small island off the Saurashtra coast of fish landings, ice plants, beach hotels and a modest industrial estate." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "silvassa",
+            name: "Silvassa",
+            type: "city",
+            intro:
+              "Silvassa is the headquarters of Dadra and Nagar Haveli, a small inland territory between Gujarat and Maharashtra, and a temperature data logger here serves a green valley town that has become a dense factory district. The Daman Ganga river and the Madhuban reservoir lie beside the town, and the hills of the Western Ghats rise behind it. Industrial estates at Naroli, Amli, Kharadpada and Masat hold pharmaceutical, plastics, textile, packaging and engineering plants, many of which supply buyers in Mumbai, Vapi and Gujarat. Workers live in the town and in villages around, and a civil hospital serves the whole territory. Prithvi supplies WiFi loggers for halls and rooms with a network and GSM loggers for lorries, yards and distant stores.",
+            climateAngle:
+              "The valley is hot and humid for most of the year, the monsoon is very heavy against the hills, and storms bring power cuts, so a pharmaceutical store or a yarn godown meets damp air for months and heat in the weeks before the rains.",
+            areas: [
+              {
+                name: "Naroli",
+                note: "A large industrial area on the road toward the Maharashtra border, with pharmaceutical, plastics and engineering works on regular plots and storage sheds that open to the sun.",
+              },
+              {
+                name: "Amli",
+                note: "An estate close to the town centre with textile, packaging and plastics firms, whose yarn, resin and carton stores sit in buildings that trap damp air.",
+              },
+              {
+                name: "Kharadpada and Masat",
+                note: "Industrial pockets with pharmaceutical, chemical and engineering works, where raw-material rooms and finished-goods stores stand in separate buildings on narrow approach roads.",
+              },
+              {
+                name: "Town centre, civil hospital and markets",
+                note: "Wholesalers of food and medicines, clinics and the civil hospital keep chillers, vaccine fridges and blood storage in compact buildings opened throughout the day.",
+              },
+            ],
+            industries: [
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Formulation plants hold ingredients and finished packs in controlled rooms, and a continuous record of temperature and humidity supports each batch file and answers a customer's audit.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Plastics and chemical works keep resins, drums and reagents with printed storage limits, and an alert from a hot shed lets the storekeeper act before material is wasted.",
+              },
+              {
+                slug: "textile",
+                sentence:
+                  "Yarn and fabric makers store cotton and synthetic stock that suffers in heavy air, and a trend from several points on the floor shows where a hall drifted in the rains.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Warehouses and carriers on the border roads move goods between Gujarat, Maharashtra and the territory, and a logger placed in a consignment records how long it stood in a yard.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels let a quality head compare the door end and the far end of a pharmaceutical store, using a single device on the wall.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity and temperature at one point suit a yarn godown or a packaging store, where heavy air in the monsoon is what harms the stock.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a lorry on the border road and reports from yards and sheds that have no router.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Silvassa plant and a Vapi plant be watched on one dashboard?",
+                answer:
+                  "Yes. Each plant is a site on the same account with its own alert contacts, so a quality head sees factories in the territory and in Gujarat in a single list and exports a report for any period.",
+              },
+              {
+                question: "How are visits planned for the Naroli and Amli estates?",
+                answer:
+                  "Send the estate, the plant and a contact who will meet us through the enquiry form, WhatsApp or a call, and mention any visitor pass. The estates are close to one another, so we usually plan them on one day.",
+              },
+              {
+                question: "What happens to monitoring in a monsoon power cut?",
+                answer:
+                  "Loggers keep recording on their batteries through a cut and send stored readings when the network returns, and an alert for a lost mains supply goes to the person you named.",
+              },
+              {
+                question: "Who calibrates loggers used in a Silvassa pharmaceutical plant?",
+                answer:
+                  "VEGA Calibrations, our parent company, can calibrate the loggers and carry out temperature mapping of the store, and the work can be planned together with the first visit.",
+              },
+            ],
+            nearby: [
+              { slug: "daman", name: "Daman" },
+              { slug: "vapi", name: "Vapi" },
+              { slug: "vasai-palghar", name: "Vasai-Palghar" },
+            ],
+            metaTitle: "Temperature Data Loggers in Silvassa | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Silvassa's Naroli and Amli plants, yarn godowns, hospitals and border-road warehouses. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "daman",
+            name: "Daman",
+            type: "city",
+            intro:
+              "Daman is a coastal town on the Arabian Sea at the mouth of the Daman Ganga river, beside Vapi, and a temperature data logger here serves a mix of factories, a harbour and a holiday coast. Nani Daman and Moti Daman face each other across the river, with an old walled fort on the northern side, while estates at Kachigam, Bhimpore and Somnath hold pharmaceutical, packaging, plastics, engineering and bottling works, including distilleries and beverage plants. Fishing boats land their catch at the jetties, and hotels and beach resorts along the shore cook for the weekend and holiday visitors from Gujarat and Maharashtra. Prithvi supplies WiFi loggers for rooms with a network and GSM loggers for lorries, jetties and distant stores.",
+            climateAngle:
+              "The air is hot, salty and humid for most of the year, the monsoon is heavy and storms strike the coast, so metal rusts quickly and cartons take on moisture in sheds near the shore.",
+            areas: [
+              {
+                name: "Kachigam",
+                note: "A large industrial area on the inland side of the town, with pharmaceutical, plastics and engineering plants on regular plots, whose stores of resin and cartons heat under metal roofs.",
+              },
+              {
+                name: "Bhimpore and Somnath",
+                note: "Estates close to the town hold packaging, bottling and distillery works and the warehouses that serve them, with lorries loading beside the gates at all hours.",
+              },
+              {
+                name: "Fishing jetties and ice plants",
+                note: "Boats land fish at the jetties of Nani Daman, where ice plants and cold rooms pack the catch for markets in Gujarat and Maharashtra in warm, salty air.",
+              },
+              {
+                name: "Beach hotels and the old town",
+                note: "Hotels, restaurants and bars along the shore and in the old lanes run walk-in coolers and bar fridges that are loaded hardest on weekends and holidays.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Distilleries, beverage bottlers and hotel kitchens hold ingredients, bottled goods and chilled stock that suffer in coastal heat, and an alert reaches the supervisor when a cooler warms on a busy weekend.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmaceutical firms in the estates hold raw materials and finished packs in controlled rooms, and a dated log answers a buyer who asks how a pack was held.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Plastics and packaging works keep resins, inks and drums with printed storage limits, and an alert from a baking shed lets the storekeeper act in time.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Warehouses beside the border road with Vapi hold goods for Gujarat and Maharashtra, and a reading at each bay shows how long a load stood in the heat before it left.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an external probe fits a hotel walk-in or an ice-plant room without changing how the unit is used on a busy weekend.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity and temperature at one point suit a packaging store near the shore, where salty damp air is the danger.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger rides in a lorry or reports from a jetty store beyond any router, and sends an alert to a phone when a reading drifts.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a distillery or bottling plant in Daman keep a record of its storage rooms?",
+                answer:
+                  "Yes. Each room is a point on one dashboard with its own limits and alert contacts, and a report for any room and period can be exported as PDF, Excel or CSV when a buyer or an inspector asks.",
+              },
+              {
+                question: "How does salty air affect where a logger is placed near the shore?",
+                answer:
+                  "We keep the logger body indoors and away from seaward walls and open doors where salt settles, with only the probe cable entering the cold or damp space, and suggest wiping probes at routine cleaning.",
+              },
+              {
+                question: "Do you cover Kachigam, Bhimpore and Somnath in one trip?",
+                answer:
+                  "Tell us the estate, the unit and a person to meet using the enquiry form, WhatsApp or a call, and we propose a day. Daman is often grouped with Vapi and Silvassa on the same journey.",
+              },
+              {
+                question: "Can calibration for a Daman plant laboratory be arranged?",
+                answer:
+                  "Loggers and probes can be calibrated by VEGA Calibrations, our parent company, with the date fixed alongside the supply.",
+              },
+            ],
+            nearby: [
+              { slug: "vapi", name: "Vapi" },
+              { slug: "silvassa", name: "Silvassa" },
+            ],
+            metaTitle: "Temperature Data Loggers in Daman | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Daman's Kachigam and Bhimpore plants, bottling works, jetties and beach hotels. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "diu",
+            name: "Diu",
+            type: "city",
+            intro:
+              "Diu is a small island off the southern tip of the Saurashtra coast, joined to the mainland by bridges, and a temperature data logger here serves a place of fishing, tourism and quiet trade. An old Portuguese fort stands at the eastern end, a large church and the lanes of the old town lie beside it, and beaches such as Nagoa and Ghoghla draw visitors for much of the year. Fishing boats land their catch at the western end of the island, ice plants and cold rooms hold it, and a small industrial estate at Bucharwada holds workshops and light industry. Hotels, guesthouses and bars cook and chill for holiday crowds. Prithvi supplies WiFi loggers for kitchens and rooms with a network and GSM loggers for boats, lorries and stores.",
+            climateAngle:
+              "The island is hot and humid with salt in every breeze, the monsoon is heavy and cyclones can pass along the coast, so equipment corrodes quickly and power cuts after a storm test every cold room.",
+            areas: [
+              {
+                name: "Fishing harbour and ice plants",
+                note: "Boats land fish at the island's harbour, where ice plants, cold rooms and packers hold the catch before it travels to markets on the mainland in warm, salty air.",
+              },
+              {
+                name: "Beach hotels and guesthouses",
+                note: "Hotels and resorts near Nagoa and Ghoghla beaches run walk-in coolers, bar fridges and kitchens that are loaded hardest in the holiday months and sit quiet in the monsoon.",
+              },
+              {
+                name: "Old town, fort and the market",
+                note: "Shops, bakeries and eating houses in the old lanes keep chillers and stock rooms in thick-walled buildings, where space for refrigeration was found long after the walls were built.",
+              },
+              {
+                name: "Bucharwada industrial estate",
+                note: "A small estate holds workshops, packaging and light industry with storage sheds that heat quickly under their roofs.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Fish packers, hotel kitchens and bakeries run ice rooms and coolers that must hold their limits in coastal heat, and a record from each unit shows exactly when one began to fail.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Fish and supplies cross the bridges by lorry, and a GSM logger placed in the load records the temperature through the whole crossing and the road beyond.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A small hospital and the clinics on the island hold vaccines and medicines, and an alert on a phone means a failing refrigerator is noticed in a stormy night.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Workshops and packaging firms in the estate keep paints, resins and cleaning chemicals with printed storage limits, and an alert from a hot shed lets the storekeeper act.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an external probe fits a hotel walk-in or an ice-plant chamber and keeps a quiet, continuous record.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a fish lorry or reports from a boat-side store with no Wi-Fi, and sends an alert to a phone.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity and temperature at one point suit a hotel dry store or a workshop shed, where salty damp air is what harms the stock.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a hotel on Diu be alerted if a walk-in fails on a holiday weekend?",
+                answer:
+                  "Yes. The engineer or manager on duty is alerted by phone and email as soon as a cooler crosses its limit, and a second person can be set to take over if there is no reply.",
+              },
+              {
+                question: "Does a quiet off-season matter for monitoring?",
+                answer:
+                  "A logger in a closed kitchen keeps recording, so a rise in temperature or a lost mains supply is reported even when nobody visits, and the record from the quiet months shows whether the unit held.",
+              },
+              {
+                question: "Can a fish packer show a buyer how a lot was held?",
+                answer:
+                  "A logger in the ice room, the cold room and the lorry records the whole chain, and a report for the dates of one lot can be exported for the buyer.",
+              },
+              {
+                question: "How are visits to an island site arranged?",
+                answer:
+                  "Write to us with the place, the hotel or plant and a contact through the enquiry form, WhatsApp or a call. Visits are arranged from our Mumbai office, and Diu is planned as a separate trip.",
+              },
+            ],
+            nearby: [
+              { slug: "daman", name: "Daman" },
+              { slug: "silvassa", name: "Silvassa" },
+            ],
+            metaTitle: "Temperature Data Loggers in Diu | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Diu's fish ice plants, beach hotels, old-town shops and Bucharwada workshops. Get Solution.",
             indexable: true,
           },
         ],
