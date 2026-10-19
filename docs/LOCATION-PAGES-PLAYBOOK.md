@@ -323,6 +323,11 @@
 | Aden Free Zone (`aden-free-zone`, area of Aden) | Yemen | Storage halls, packing halls, cold rooms, yards (described generally, no operating status) | Contract storage, food, healthcare goods | Hot, humid, salty | Port of Aden |
 | Sheikh Othman Industrial Area (`sheikh-othman-industrial-area`, area of Aden) | Yemen | Food preparation rooms, workshop stores, packaging units, roadside warehouses | Food makers, workshop consumables, depots | Hot, humid | Little Aden |
 | Little Aden (`little-aden`, area of Aden) | Yemen | Buraiqa town, fishing landings and ice stores, stores near the oil-industry area, beachside cafes | Fish and food, plant consumables, small warehousing | Hot, humid, salty | Sheikh Othman Industrial Area |
+| Mukalla (`mukalla`, under the Hadramaut Governorate hub) | Yemen | Fish landings, ice stores and drying yards, old town markets, hospitals and university, harbour warehouses | Fish and food cold chain, hospitals, pharmacy | Hot, humid, salty coast | Seiyun, Shibam |
+| Seiyun (`seiyun`, under the Hadramaut Governorate hub) | Yemen | Palm groves and date stores, honey dealers and central market, palace museum and heritage rooms, clinics and college | Date and honey storage, heritage rooms, hospitals | Very hot dry days, cooler nights, flash floods | Shibam, Mukalla |
+| Shibam (`shibam`, under the Hadramaut Governorate hub) | Yemen | Tower houses and family stores, guesthouses, conservation and archive rooms, palm gardens | Heritage rooms, guesthouse kitchens, date stores | Very dry and hot, flash floods | Seiyun, Mukalla |
+| Zinjibar (`zinjibar`, under the Abyan Governorate hub; the hub stays noindex with one city) | Yemen | Delta farms and produce stores, fishing beaches and ice stores, town market, clinics | Produce and fish cold chain, pharmacy, clinics | Hot, humid, dusty, flood-prone | Aden, Lahij |
+| Port of Mukalla (`port-of-mukalla`, area of Mukalla) | Yemen | Fish landing beaches and ice rooms, drying yards, quayside sheds, vehicles waiting at the gate (described generally, no operating status) | Fish cold chain, port-area logistics, medicines | Hot, humid, salty | none |
 | Jazan Economic City (`jazan-economic-city`, area of Jazan) | Saudi Arabia | Plant chemical and drum stores, spares warehouses and contractor yards, port yards, camp kitchens and clinics | Chemical stores, contract warehousing, camp catering | Extreme heat and humidity, salty air | none |
 | Jeddah (`jeddah`) | Saudi Arabia | Industrial and port logistics zones | Port logistics, food import cold chain, hospitals | Hot, humid coastal | Riyadh, Dammam |
 | Dammam (`dammam`) | Saudi Arabia | Industrial and port logistics zones | Industrial & chemical, port logistics, food | Hot, humid Gulf coast | Riyadh, Bahrain, Jeddah |
@@ -532,3 +537,5 @@ under Yemen: the case-by-case line (worded differently on each page), neutral wo
 border, conflict or similar), and no statement of operating status, capacity or openness of any port, zone, airport or road. No claim is made of
 delivery, shipping, local stock, installation or service, and no named organisation is claimed as a customer. GCC rules apply: no Vayu or GSM
 series, the GSM note once per page, no local office, no accreditation claim.
+
+Not built in Yemen Batch 2 (Hadramaut, Al Mahrah, Abyan): Al Ghaydah, for lack of confident, distinguishing local facts, so no Al Mahrah hub was created.

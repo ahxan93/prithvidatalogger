@@ -20724,6 +20724,8 @@ export const locations: LegacyLocationNode[] = [
     ],
     listing: [
       { slug: "aden-governorate", text: "Aden, a port city on the Gulf of Aden, with its harbour, free-zone, industrial and peninsula areas, reviewed case by case." },
+      { slug: "hadramaut-governorate", text: "Mukalla's harbour, Seiyun's palm groves and Shibam's mud-brick towers, in a hot coast and a dry, flood-prone valley, reviewed case by case." },
+      { slug: "abyan-governorate", text: "Zinjibar's delta fields and fishing beaches on the Gulf of Aden coast, reviewed case by case." },
     ],
     indexable: true,
     children: [
@@ -20865,6 +20867,475 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Aden | Prithvi",
             metaDescription:
               "Temperature and humidity data loggers for Aden's port-city clinics, food stores and fish landings, reviewed case by case for Yemen. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "hadramaut-governorate",
+        name: "Hadramaut Governorate",
+        type: "state",
+        intro:
+          "Hadramaut Governorate takes in a long Gulf of Aden coast in the east of Yemen and, behind it, the great Wadi Hadramaut, a green trench of date palms cut into dry plateau. Mukalla is the main coastal town, a fishing and trading harbour with whitewashed buildings, while Seiyun and Shibam lie inland among palm groves and tall mud-brick houses that are well known beyond Yemen. Trade between coast and valley has gone on for centuries, carrying dried fish, honey, dates and household goods. The coast is hot and humid, the interior hot, dry and subject to sudden floods, and nights in the valley can be cool. Medicines, food and heritage collections all need steady storage. The pages below describe the places and rooms where a temperature record would help.",
+        localIndustries: [
+          "Fishing and dried-fish trade",
+          "Date, honey and farm produce",
+          "Medicine and vaccine storage",
+          "Heritage and guesthouse kitchens",
+        ],
+        citiesServed: ["Mukalla","Seiyun","Shibam"],
+        supportNote:
+          "Enquiries from Hadramaut Governorate are reviewed case by case. Send the town, what you store and the situation on site, and we confirm what is practical before recommending anything.",
+        faqs: [
+          {
+            question: "Which Hadramaut places have a page?",
+            answer:
+              "Mukalla, Seiyun and Shibam each have a city page, and the Port of Mukalla has an area page. A different place in Hadramaut can be put to us through the enquiry form.",
+          },
+          {
+            question: "Why does a hot, dry valley still call for humidity records?",
+            answer:
+              "Rare rain and flash floods bring sudden damp into mud-brick buildings, and food and paper stores swing between very dry and damp air, so a humidity reading beside the temperature shows when a room has drifted.",
+          },
+          {
+            question: "What does a logger do when the power is off?",
+            answer:
+              "It keeps recording on its battery and stores the readings, so there is a record for the hours without power, available when the site is next connected.",
+          },
+        ],
+        listing: [
+          { slug: "mukalla", text: "A whitewashed harbour town on the Gulf of Aden, with fish landings, drying yards, honey and date markets, a university and clinics." },
+          { slug: "seiyun", text: "A palm-grove city of Wadi Hadramaut, with date and honey trade, an old palace museum, clinics and a hot, dry, flood-prone climate." },
+          { slug: "shibam", text: "A walled town of tall mud-brick towers in the wadi, a World Heritage site with guesthouses, archives and palm gardens." },
+        ],
+        areaListing: [
+          { slug: "port-of-mukalla", text: "The harbour of Mukalla, where fish are landed, iced and dried and goods wait on the quay in warm, salty air." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "mukalla",
+            name: "Mukalla",
+            type: "city",
+            intro:
+              "Mukalla is a port city on the Gulf of Aden coast of eastern Yemen, the main coastal town of Hadramaut Governorate, with whitewashed buildings climbing from a curved bay beneath a rocky escarpment, and a temperature data logger here serves a fishing and trading town in a hot, humid setting. Boats land sardines, tuna and other fish at the harbour, where the catch is iced, salted, dried and processed, and traders sell dried fish, honey from the wadis and dates in the old markets. A university, hospitals and clinics serve the coast and the valleys behind it. Heat and humidity are high through much of the year, and sea air is salty. Prithvi loggers store their readings on their own batteries when a network is absent. Whether a given site can be supported is decided case by case after we hear from you.",
+            climateAngle:
+              "The coast is hot and humid for most of the year, salt reaches every shed, and the dry months bring dust, so ice stores and drying yards face heat and damp together while rain is rare but can be heavy.",
+            areas: [
+              {
+                name: "Fish landings, ice stores and drying yards",
+                note: "Boats land fish at the harbour and on the beaches, and ice stores, salting sheds and drying yards handle the catch in warm, wet and salty air.",
+              },
+              {
+                name: "The old town markets",
+                note: "Shops and stalls sell dried fish, honey, dates, spices and household goods in narrow streets of old buildings where stock rooms were never designed for cooling.",
+              },
+              {
+                name: "Hospitals, clinics and the university",
+                note: "Hospitals, clinics and a university with laboratories keep vaccines, insulin and samples in refrigerators that must hold their ranges through any interruption of power.",
+              },
+              {
+                name: "Warehouses near the harbour",
+                note: "Small warehouses near the shore hold food and household goods that arrive by sea or by road, in rooms that heat up under metal roofs.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Fish traders, honey and date dealers and grocers hold goods that lose quality in warmth and damp, and a record from each store shows when a cooler or an ice room began to drift.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals and clinics hold vaccines and blood products for the coast and the valleys, and an alert on a phone reaches the right person at once if a refrigerator warms.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies and medicine distributors keep stock in rooms with stated ranges, and a dated log of temperature and humidity shows how a room behaved through the hottest weeks.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods that arrive by sea or by road wait in sheds and vehicles before they are used, and a logger placed among them records the heat and salty damp they met.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow an ice room or a fish store at several heights and beside the door, showing how the room behaves between landings.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "With humidity read beside temperature, one unit shows when salty damp has entered a honey or date store that is otherwise dry.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable fits a pharmacy or clinic fridge in Mukalla and leaves daily routines as they were.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Is it possible to arrange loggers for a fish or food business in Mukalla?",
+                answer:
+                  "That depends on the site. Supply to Yemen is looked at case by case, so send the place, the rooms and the situation, and we reply with what seems practical.",
+              },
+              {
+                question: "Why does an ice store near the sea need a humidity reading?",
+                answer:
+                  "Warm, damp air enters when a door opens and condenses on cold surfaces, so a humidity trend beside the temperature shows how much moisture each landing brought in.",
+              },
+              {
+                question: "What happens to the record if the power or connection fails?",
+                answer:
+                  "The logger goes on recording on its battery and stores the readings, so there is a record for the hours without power or signal, available when the site is next connected.",
+              },
+              {
+                question: "Is calibration of loggers discussed for Mukalla hospitals and laboratories?",
+                answer:
+                  "VEGA Calibrations, our parent company, handles calibration of loggers and probes; share the model and the range you work to and we explain what could be considered for your site.",
+              },
+            ],
+            nearby: [
+              { slug: "seiyun", name: "Seiyun" },
+              { slug: "shibam", name: "Shibam" },
+            ],
+            metaTitle: "Temperature Data Loggers in Mukalla | Prithvi",
+            metaDescription:
+              "Temperature and humidity data loggers for Mukalla's fish ice stores, honey and date markets and clinics, reviewed case by case for Yemen. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "seiyun",
+            name: "Seiyun",
+            type: "city",
+            intro:
+              "Seiyun is a major town of the Wadi Hadramaut, an inland city of palm groves, mud-brick houses and a white palace that is now a museum, and a temperature data logger here serves a valley economy of dates, honey and trade in a hot, dry setting. Palm groves line the wadi floor, beekeepers bring honey from the side valleys, and markets sell dates, honey, vegetables and household goods to the villages around. A university college, hospitals and clinics serve the valley, and travellers visit the old buildings. Days are very hot, nights can be cool, and rare heavy rain sends floods down the wadi. The loggers hold their readings in memory on battery power, even with no network at all. We consider each request from Seiyun case by case before recommending anything.",
+            climateAngle:
+              "The valley is very hot and dry by day, noticeably cooler at night, and prone to sudden flash floods after rain, so date and honey stores swing between dry heat and brief damp while clinic refrigerators work through long hot spells.",
+            areas: [
+              {
+                name: "Palm groves, date stores and packing sheds",
+                note: "Growers pick and store dates in shaded sheds and cool rooms among the palms, where heat in the weeks after harvest is the main danger to the fruit.",
+              },
+              {
+                name: "Honey dealers and the central market",
+                note: "Honey from the side valleys, dates, vegetables and household goods are sold in a busy central market, in shops and back rooms that heat up under the midday sun.",
+              },
+              {
+                name: "The palace museum and heritage rooms",
+                note: "The old palace and other heritage buildings hold collections and archives in rooms of thick mud brick, where steady temperature and humidity protect paper, textiles and objects.",
+              },
+              {
+                name: "Clinics, hospitals and the university college",
+                note: "Hospitals, clinics and a college with laboratories hold vaccines, medicines and samples in refrigerators that need a dated record through power interruptions.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Date packers, honey dealers and grocers hold goods that lose quality in heat, and a record from each store shows a buyer how a lot was kept after harvest.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals and clinics serve the whole valley, and an alert on a phone reaches the duty staff at once if a vaccine or blood refrigerator warms in the night.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "College and clinical laboratories keep samples and reagents to set limits, and an exported log is ready whenever a review calls for one.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods reach the valley over long roads, and a logger placed in a load shows how long it stood in a vehicle in the afternoon sun.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a date or honey store, where steady, cool and dry air protects the product through long storage.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels let a heritage store or a pharmacy room be read at the door and the far wall, showing whether the air at the back matches the front.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels along a long packing shed show which stretch of the roof keeps the stock warmest, in one report.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a date or honey business in Seiyun use a temperature record?",
+                answer:
+                  "A logger in the store records temperature and humidity through the season, and a report for the dates of a lot can be exported in PDF, Excel or CSV form for a buyer.",
+              },
+              {
+                question: "How would a request from Seiyun be handled?",
+                answer:
+                  "Send the place, the rooms and a contact through the enquiry form or WhatsApp, and we reply with what seems practical, since Yemen requests are considered case by case.",
+              },
+              {
+                question: "Why do flash floods matter for where a logger is mounted?",
+                answer:
+                  "Water and silt can reach low rooms and cut the power, so the logger body is mounted above the likely water line and a battery keeps the record going through the outage.",
+              },
+              {
+                question: "Is calibration discussed for loggers in Seiyun laboratories and clinics?",
+                answer:
+                  "For clinic and college laboratories in Seiyun, VEGA Calibrations, our parent company, looks after calibration; share the model and range and we outline the choices.",
+              },
+            ],
+            nearby: [
+              { slug: "shibam", name: "Shibam" },
+              { slug: "mukalla", name: "Mukalla" },
+            ],
+            metaTitle: "Temperature Data Loggers in Seiyun | Prithvi",
+            metaDescription:
+              "Data loggers for Seiyun's date and honey stores, heritage rooms and clinics in Wadi Hadramaut, reviewed case by case. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "shibam",
+            name: "Shibam",
+            type: "city",
+            intro:
+              "Shibam is a walled town in the Wadi Hadramaut, famous for its tall mud-brick tower houses, some of them five to eight storeys high, and a World Heritage site, and a temperature data logger here serves a small place where heritage, hospitality and farming meet. Palm gardens surround the walls, guesthouses and small restaurants serve visitors, and families store dates, honey and household goods in the lower rooms of their towers. Conservation of the buildings depends on keeping damp out of mud brick, and any archive, workshop or collection in the town needs steady air. Summers are very hot, winters mild, and rare rain can bring floods. Prithvi loggers store readings on their batteries without a network. We review any request from Shibam case by case.",
+            climateAngle:
+              "The air is very dry and hot for most of the year, but flash floods and rare heavy rain bring sudden damp to thick mud-brick walls, so stores and heritage rooms feel dryness and moisture in sharp swings. Visitors arrive in the cooler months, when guesthouse kitchens are busiest, and a failed refrigerator can go unnoticed in a quiet corner of an old building.",
+            areas: [
+              {
+                name: "Tower houses and family stores",
+                note: "Families keep dates, honey, grain and household goods in the lower rooms of tall mud-brick houses, which stay cooler than the street but can take on damp after rain.",
+              },
+              {
+                name: "Guesthouses and small restaurants",
+                note: "Visitor accommodation and restaurants run small kitchens, refrigerators and dry stores in old buildings where space and power are limited.",
+              },
+              {
+                name: "Conservation workshops and archive rooms",
+                note: "Rooms used for building conservation, documents and collections need steady temperature and humidity, because swings crack plaster and curl paper.",
+              },
+              {
+                name: "Palm gardens outside the walls",
+                note: "Growers outside the walls store dates and garden produce in shaded sheds, where the heat after harvest is the main danger.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Guesthouses, small restaurants and date and honey sellers hold food that spoils in heat, and a record from each refrigerator or store shows when a unit began to drift.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "Conservation and research rooms keep materials, samples and documents to set limits of temperature and humidity, and an exported log supports a conservation plan.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Supplies reach the town over long roads, and a logger placed in a load shows how long goods stood in a vehicle in the sun before they reached a small store.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A clinic serving the town and its villages holds vaccines and medicines in a refrigerator that needs a steady record through power interruptions.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reading humidity beside temperature, one unit watches an archive or conservation room where dryness and damp are the real dangers.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single probe fits a guesthouse refrigerator or a clinic fridge and leaves the way staff use the unit unchanged.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a family store or a guesthouse pantry at several heights and by the door, showing how it behaves through the day.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Why would a heritage room in Shibam need a humidity record?",
+                answer:
+                  "Plaster, paper and textiles react to dryness and damp, so a log of temperature and humidity shows whether the air stayed steady and when it swung, which supports a conservation plan.",
+              },
+              {
+                question: "Can a small guesthouse use a single logger?",
+                answer:
+                  "Yes. A single logger with a phone alert is enough for one refrigerator if the room is within reach of a router, and further points can join the same account when needed.",
+              },
+              {
+                question: "How would a Shibam request be handled?",
+                answer:
+                  "Tell us the place, what you keep and who to contact, using the enquiry form or WhatsApp; Yemen requests are looked at case by case and we reply with what is practical.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in conservation rooms?",
+                answer:
+                  "Calibration of loggers and probes is handled by our parent company, VEGA Calibrations; share the model and the range and we explain what could be considered.",
+              },
+            ],
+            nearby: [
+              { slug: "seiyun", name: "Seiyun" },
+              { slug: "mukalla", name: "Mukalla" },
+            ],
+            metaTitle: "Temperature Data Loggers in Shibam | Prithvi",
+            metaDescription:
+              "Data loggers for Shibam's heritage rooms, guesthouse kitchens and date stores in Wadi Hadramaut, reviewed case by case. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "abyan-governorate",
+        name: "Abyan Governorate",
+        type: "state",
+        intro:
+          "Abyan Governorate lies on the Gulf of Aden coast east of Aden, and its farming and its storage follow two seasonal rivers, the Wadi Bana and the Wadi Hassan, whose floodwater has watered a fertile delta behind the coast for generations. Zinjibar, on the shore, is the main town, set among cotton fields, vegetable plots, orchards and fishing beaches. The coast is hot and humid with salt in the air, the delta is dusty in the dry months and flooded in wet spells, and rain is uneven from year to year. Food, medicines and farm produce wait in small stores and clinics where cooling and power cannot always be counted on. The page below describes the town and the rooms where a record of temperature would help.",
+        localIndustries: [
+          "Delta farming and produce",
+          "Fishing landings",
+          "Medicine and vaccine storage",
+          "Food shops and small stores",
+        ],
+        citiesServed: ["Zinjibar"],
+        supportNote:
+          "Enquiries from Abyan Governorate are reviewed case by case. Send the town, what you store and the situation on site, and we confirm what is practical before recommending anything.",
+        faqs: [
+          {
+            question: "Which Abyan places have a page?",
+            answer:
+              "Zinjibar has a city page. Any other place in the governorate can be raised through the enquiry form, and further pages are added only when they can be written from confident facts.",
+          },
+          {
+            question: "How does a delta flood affect a store?",
+            answer:
+              "Floodwater and silt can reach low rooms and cut the power, so mounting the logger body above the likely water line and keeping a battery in it preserves the record of what happened.",
+          },
+          {
+            question: "Can a small clinic use a single logger?",
+            answer:
+              "Yes. One logger with an alert to a phone covers a single vaccine refrigerator, provided the room has a router within reach, and more points can be added to the same account later.",
+          },
+        ],
+        listing: [
+          { slug: "zinjibar", text: "A coastal town east of Aden among delta fields of cotton, vegetables and orchards, with fishing beaches in hot, humid air." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "zinjibar",
+            name: "Zinjibar",
+            type: "city",
+            intro:
+              "Zinjibar is a coastal town of Abyan Governorate on the Gulf of Aden, east of Aden, and a temperature data logger here serves a place where fields of a fertile delta meet the sea. Floodwater from seasonal rivers has long watered cotton fields, vegetable plots and orchards behind the town, fishing boats work the beaches, and markets sell farm produce, fish and household goods to the villages around. Clinics and small hospitals serve the district. The climate is hot and humid with salt in the air, the dry months are dusty and wet spells can flood low ground. The loggers keep readings in memory on battery power even when no network is present. Each request from Zinjibar is considered case by case before we recommend anything.",
+            climateAngle:
+              "Heat and humidity are both high through most of the year, rain is uneven and sometimes arrives as flood, and dust blows in the dry months, so produce stores and clinic refrigerators work through long hot spells and interrupted power. Ice and cold rooms matter most in the hot months, and a failed chiller on a night with no power can lose a whole day's catch before anyone notices.",
+            areas: [
+              {
+                name: "Delta farms and produce stores",
+                note: "Growers of vegetables, fruit and other crops keep produce in sheds and small cool rooms, where heat after harvest and flood damp both threaten quality.",
+              },
+              {
+                name: "Fishing beaches and ice stores",
+                note: "Boats land fish on the beaches, where ice stores and cold rooms hold the catch for local markets in hot, humid, salty air.",
+              },
+              {
+                name: "Town market and food shops",
+                note: "Shops and stalls sell fish, produce and household goods from small rooms with simple coolers, opened constantly through the day.",
+              },
+              {
+                name: "Clinics and pharmacies",
+                note: "Clinics and pharmacies hold vaccines and medicines in refrigerators that must survive hot afternoons and interruptions of power.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Fish traders, produce growers and grocers hold goods that spoil quickly in coastal heat, and a record from each cold room shows when a chiller or an ice store began to fail.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Clinics and small hospitals hold vaccines and blood products for the district, and an alert on a phone reaches the right person if a refrigerator warms.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies keep stock in rooms with stated ranges, and a dated log of temperature shows how a room behaved through the hottest weeks and any outage.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods reach the town by road along the coast, and a logger placed in a load records how long it stood in a vehicle in the sun.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels read a fish room at the door end and the far wall, showing whether the chill reaches the back shelves.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single probe on a short lead slips into a clinic or pharmacy refrigerator and leaves daily routines unchanged.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "With humidity shown beside temperature, one unit shows when damp from a flood or the sea has entered a produce store.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Zinjibar clinic or shop use a single logger?",
+                answer:
+                  "Yes. A lone logger with an alert to a phone can watch one refrigerator in a clinic or shop, as long as a router is within reach, and more points can be added later.",
+              },
+              {
+                question: "How would a request from Zinjibar be handled?",
+                answer:
+                  "Write with the place, what you store and a contact, using the enquiry form or WhatsApp. Requests from Yemen are judged case by case, and we reply with what looks practical.",
+              },
+              {
+                question: "Why mount a logger above the likely water line?",
+                answer:
+                  "Floodwater and silt can reach low rooms and cut the power, so a body mounted higher, with a battery inside, preserves the record of what happened in the room.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Zinjibar clinics?",
+                answer:
+                  "VEGA Calibrations, our parent company, handles calibration of loggers and probes; tell us the model and the range you work to and we explain the options.",
+              },
+            ],
+            nearby: [
+              { slug: "aden", name: "Aden" },
+              { slug: "lahij", name: "Lahij" },
+            ],
+            metaTitle: "Temperature Data Loggers in Zinjibar | Prithvi",
+            metaDescription:
+              "Data loggers for Zinjibar's delta produce stores, fish ice rooms, shops and clinics, reviewed case by case for Yemen. Get Solution.",
             indexable: true,
           },
         ],

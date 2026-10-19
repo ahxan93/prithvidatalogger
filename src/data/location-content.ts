@@ -182,6 +182,16 @@ export const locationContent: Record<string, LocationContent> = {
       "Temperature data loggers in Saudi Arabia: WiFi loggers for Riyadh, Jeddah and Dammam warehouses, supplied from India and set up remotely. Get Solution.",
     recommended: ["nakshatra", "veer", "virat"],
   },
+  "yemen/hadramaut-governorate": {
+    metaDescription:
+      "Data loggers for Hadramaut Governorate: Mukalla's fish stores, Seiyun and Shibam's date and heritage rooms, reviewed case by case. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+  },
+  "yemen/abyan-governorate": {
+    metaDescription:
+      "Temperature data loggers for Abyan Governorate: Zinjibar's delta produce stores, fish landings and clinics, reviewed case by case. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+  },
   "yemen/aden-governorate": {
     metaDescription:
       "Temperature data loggers for Aden Governorate: the port city's clinics, food stores and harbour-area warehouses, reviewed case by case. Get Solution.",
