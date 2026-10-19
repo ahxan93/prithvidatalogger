@@ -16984,6 +16984,8 @@ export const locations: LegacyLocationNode[] = [
       { slug: "riyadh-region", text: "The central plateau around the capital, with pharmaceutical, hospital and food warehouses, farm oases and industrial cities under extreme dry heat." },
       { slug: "makkah-region", text: "The Red Sea coast and the mountains behind it, with port warehouses, hotel and hospital stores, fruit and industry in heat and humidity." },
       { slug: "eastern-province", text: "The Gulf coast and the desert behind it, with ports, industrial cities, date oases, hospitals and food depots in heat and humidity." },
+      { slug: "madinah-region", text: "The western plateau and its Red Sea port, with hotel, hospital and date-pack stores inland and refineries and fishing on the coast." },
+      { slug: "qassim-region", text: "The central farming plain of date groves, wheat and camel markets, with packing houses, farm cold rooms and a university." },
     ],
     indexable: true,
     seo: {
@@ -18659,21 +18661,21 @@ export const locations: LegacyLocationNode[] = [
         name: "Madinah Region",
         type: "state",
         intro:
-          "The Madinah Region lies in the west of the kingdom, with its capital inland on a plateau of lava fields and its Red Sea port and industrial city at Yanbu on the coast. Madinah itself has a large hospitality and healthcare economy, with hotels, hospitals, pharmacies and food suppliers working throughout the year, while Yanbu holds petrochemical plants, a port and the warehouses that serve them. Summers are very hot and dry inland and hot and humid on the coast. Medicines, chilled food and general cargo travel long roads between the two, so storage rooms are watched both at the destination and on the route. The page for each place names the rooms we would watch first.",
+          "The Madinah Region lies in the west of the kingdom, with its capital inland on a plateau of lava fields and its Red Sea port and industrial city at Yanbu on the coast. Madinah itself has a large hospitality and healthcare economy, with hotels, hospitals, pharmacies and food suppliers working throughout the year, while Yanbu holds petrochemical plants, a port and the warehouses that serve them. Summers are very hot and dry inland and hot and humid on the coast. Medicines, chilled food and general cargo travel long roads between the two, so storage rooms are watched both at the destination and on the route. The pages below cover the inland city and the port, with the rooms we would suggest watching in each.",
         localIndustries: [
           "Hospitality and food supply",
           "Hospitals and medicine distribution",
           "Port and petrochemical logistics",
           "Retail distribution",
         ],
-        citiesServed: [],
+        citiesServed: ["Madinah", "Yanbu"],
         supportNote:
-          "Set-up, alert rules and user access for Madinah Region sites are arranged remotely by call or video. Tell us the city and what the rooms hold.",
+          "Set-up, alert rules and user access for Madinah Region sites are arranged remotely by call or video. Send the city and a note of what the rooms hold.",
         faqs: [
           {
             question: "Which Madinah Region places have a page?",
             answer:
-              "Pages are being added place by place, and this page lists each one as it goes live. For any other town in the region, write to us through the enquiry form.",
+              "Madinah and Yanbu each have a city page, and Yanbu also has an area page for its industrial city. Any other town can be raised through the enquiry form.",
           },
           {
             question: "How do alerts help a hotel or hospital store in a very hot inland city?",
@@ -18686,9 +18688,210 @@ export const locations: LegacyLocationNode[] = [
               "Yes. Each site is a point on the same account with its own alert contacts, so a supplier sees the port and the city in a single list and exports a report for either.",
           },
         ],
+        listing: [
+          { slug: "madinah", text: "A hot plateau city of hotel and catering kitchens, hospital and pharmacy stores, date packers and depots supplied by road and rail." },
+          { slug: "yanbu", text: "A Red Sea port town beside a large industrial city, with fishing landings, resort kitchens, clinics and port warehouses." },
+        ],
+        areaListing: [
+          { slug: "yanbu-industrial-city", text: "The planned coastal industrial city of refineries, downstream plants, shared utilities, spares warehouses and camps." },
+        ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,
         children: [
+          {
+            slug: "madinah",
+            name: "Madinah",
+            type: "city",
+            intro:
+              "Madinah lies on a high plateau of dark lava fields in the west of the kingdom, ringed by hills and date oases, and a temperature data logger here serves a city whose economy rests on hospitality, healthcare, retail and the supply chains that feed them. Hotels and restaurants cook and stock for a constant flow of visitors, two universities and several hospitals fill the city with laboratories, wards and pharmacies, and wholesale depots receive food and medicines from the coast by road and by the high-speed railway corridor. Date farms in the surrounding oases send fruit to packing houses. Summers are extremely hot and dry, so cooling plants rarely rest. Prithvi can supply WiFi loggers from India and walk a hotel, hospital or depot through alerts and user access by call or video.",
+            climateAngle:
+              "Extreme dry heat settles on the plateau for months, nights stay warm in summer, and sudden winter rain or dust storms break the pattern, so a failing cooling unit can warm a kitchen or a pharmacy store within a single afternoon.",
+            areas: [
+              {
+                name: "Hotel and catering kitchens",
+                note: "Hotels and catering companies run large walk-in coolers, freezers and dry stores that are loaded and emptied around the clock, and any failure has to be found quickly because many meals depend on one room.",
+              },
+              {
+                name: "Hospitals, clinics and pharmacy stores",
+                note: "Government and private hospitals, clinics and pharmacies hold vaccines, insulin and blood products in refrigerators that must hold their ranges through a hot summer and any power interruption.",
+              },
+              {
+                name: "Date farms, packing houses and dealers",
+                note: "Oasis growers and packers sort and store dates in shaded sheds and cool rooms, and dealers hold the fruit in the city before it is sold or sent on.",
+              },
+              {
+                name: "Wholesale depots and the industrial area",
+                note: "Food and medicine depots and the plants of an industrial area receive goods by road and rail, in warehouses whose doors open to the heat at each delivery.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Caterers, restaurants and food depots keep chilled and frozen stock for a steady stream of visitors, and an alert to the kitchen manager matters most when a cooler is opened every few minutes at a busy hour.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals and clinics hold blood products and vaccines for residents and guests, and an alert on a phone reaches the duty staff at once if a refrigerator warms during a power interruption.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine wholesalers and pharmacies hold stock in cooled rooms with stated ranges, and a dated record shows how a room behaved through the hottest weeks.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods reach the city over long roads and by rail, and a logger placed in a load shows how long it stood in a vehicle in the sun before it was unloaded.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels spread through a long food depot or a hotel back-of-house block show which rooms run warmest, in one report.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single probe on a short lead fits a pharmacy fridge or a hotel bar cooler and leaves the way staff use the unit unchanged.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "With humidity shown beside temperature, one unit reveals when damp has entered a dry store during a rare wet spell.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How would a Madinah hotel or hospital begin when the loggers come from India?",
+                answer:
+                  "The loggers are registered to your dashboard on arrival, and a call or video session settles the rooms, the limits and the staff who receive alerts, with a router within reach of each room.",
+              },
+              {
+                question: "Why use a short delay on a high alert in a busy kitchen?",
+                answer:
+                  "Doors open constantly, so readings spike for a minute at each delivery; a short delay lets staff ignore a brief rise while still being warned when a cooler is really drifting.",
+              },
+              {
+                question: "Can one dashboard hold sites in Madinah and Yanbu?",
+                answer:
+                  "Yes. Each site is a point on the same account with its own alert contacts, so a supplier sees the inland city and the port in one list and exports a report for either.",
+              },
+              {
+                question: "Is calibration of loggers possible for hospitals and kitchens in Madinah?",
+                answer:
+                  "Calibration is handled by VEGA Calibrations, our parent company. Share the model and the range you work to and we explain how it could be arranged.",
+              },
+            ],
+            nearby: [
+              { slug: "yanbu", name: "Yanbu" },
+              { slug: "makkah", name: "Makkah" },
+              { slug: "jeddah", name: "Jeddah" },
+            ],
+            metaTitle: "Temperature Data Loggers in Madinah | Prithvi",
+            metaDescription:
+              "WiFi temperature data loggers for Madinah's hotel kitchens, hospital and pharmacy stores and date packing houses, set up remotely. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "yanbu",
+            name: "Yanbu",
+            type: "city",
+            intro:
+              "Yanbu is the Red Sea port of the Madinah Region, a coastal town of two old centres beside a large industrial city, and a temperature data logger here serves the harbour, the town and the workforce that lives around them. Boats still fish from the old waterfront, divers and holidaymakers fill hotels along a coral shore, and a commercial port and an industrial port handle cargo for the plants inland. Hospitals and clinics serve a large population of workers and families, supermarkets and canteens feed them, and warehouses hold supplies brought from Jeddah by road. The coast is hot and humid with salt in the air. Prithvi supplies WiFi loggers from India, registers them to a dashboard you control and walks your team through alert rules over a call.",
+            climateAngle:
+              "The Red Sea coast is hot and heavy with moisture for most of the year, salt corrodes metal and packaging, and sudden dust and sea fog can interrupt journeys and cooling alike.",
+            areas: [
+              {
+                name: "Old waterfront, fishing landings and ice rooms",
+                note: "Boats land fish at the old harbour towns, where ice rooms and cold stores hold the catch for markets in warm, salty air.",
+              },
+              {
+                name: "Hotels, resorts and dive centres",
+                note: "Coastal hotels and dive centres run kitchens, bar fridges and walk-in coolers in buildings that face the sun and the sea air.",
+              },
+              {
+                name: "Hospitals, clinics and supermarkets",
+                note: "Hospitals and clinics hold vaccines and medicines in refrigerators, while supermarkets and wholesalers stock chilled food for a workforce of families and contractors.",
+              },
+              {
+                name: "Commercial and industrial port warehouses",
+                note: "Warehouses near the ports hold imported goods and packed products between a vessel and a truck, in humid air that soaks cartons.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Fish traders, hotel kitchens, supermarkets and caterers hold stock that spoils in coastal heat, and a record from each cold room shows when one began to fail during a power interruption.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Port warehouses and carriers hold goods for several clients, and a reading for each bay lets an operator send a client a report for its own pallets.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals and clinics hold vaccines and blood products for a large resident population, and an alert on a phone reaches the right person if a unit warms.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Suppliers to the industrial city keep drums, coatings and consumables with limits printed on the label, and an alert from a hot store room lets the storekeeper act in time.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels watch a canteen store or a supermarket stock room at several heights and by the door, showing how a busy room behaves between deliveries.",
+              },
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels spread over a long port warehouse give one report for each bay and shelf level, showing which corner holds the heat and damp.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels let a fish room be read near the door and at the back wall, showing whether the cold reaches the far shelves.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How does salt in the air change where a logger is placed at Yanbu?",
+                answer:
+                  "The body is mounted indoors, clear of spray and wet walls, with only the probe lead entering the cold room, and the probe is wiped whenever the room is cleaned.",
+              },
+              {
+                question: "How does a Yanbu business get started with loggers supplied from India?",
+                answer:
+                  "After the loggers arrive they are registered to your dashboard, and a phone or video session sets the rooms, the limits and the people who receive alerts. Each room should be within reach of a router.",
+              },
+              {
+                question: "Can a fish trader show a buyer how a catch was held?",
+                answer:
+                  "A logger in the ice room and the cold store records the chain, and a report for the dates of one lot can be exported in PDF, Excel or CSV form.",
+              },
+              {
+                question: "Can calibration for loggers at Yanbu be arranged?",
+                answer:
+                  "VEGA Calibrations, our parent company, can calibrate loggers and probes; send the model and the range you use and we confirm what can be arranged.",
+              },
+            ],
+            nearby: [
+              { slug: "madinah", name: "Madinah" },
+              { slug: "rabigh", name: "Rabigh" },
+              { slug: "jeddah", name: "Jeddah" },
+            ],
+            metaTitle: "Temperature Data Loggers in Yanbu | Prithvi",
+            metaDescription:
+              "WiFi temperature data loggers for Yanbu's fish ice rooms, hotel kitchens, clinics and port warehouses, set up remotely from India. Get Solution.",
+            indexable: true,
+          },
         ],
       },
       {
@@ -18733,21 +18936,21 @@ export const locations: LegacyLocationNode[] = [
         name: "Qassim Region",
         type: "state",
         intro:
-          "The Qassim Region sits in the heart of the kingdom, a flat sandy plain irrigated from wells and famous for dates and farming. Buraidah, the capital, Unaizah and Ar Rass are the three main towns, each with markets, hospitals and farm-supply depots, and the dates of the region are packed, stored and sent across the kingdom and abroad. Summers are extremely hot and dry, winter nights are cold, and dust storms are common in the dry months. Date stores, farm cold rooms, hospital refrigerators and retail warehouses must hold their limits through long hot spells. The page for each place names the rooms we would watch first.",
+          "The Qassim Region sits in the heart of the kingdom, a flat sandy plain irrigated from wells and famous for dates and farming. Buraidah, the capital, Unaizah and Ar Rass are the three main towns, each with markets, hospitals and farm-supply depots, and the dates of the region are packed, stored and sent across the kingdom and abroad. Summers are extremely hot and dry, winter nights are cold, and dust storms are common in the dry months. Date stores, farm cold rooms, hospital refrigerators and retail warehouses must hold their limits through long hot spells. Open a town below for its date stores, farm cold rooms and clinics, and the loggers we would start with.",
         localIndustries: [
           "Dates and farm produce",
           "Food and dairy depots",
           "Hospitals and medicine supply",
           "Retail distribution",
         ],
-        citiesServed: [],
+        citiesServed: ["Buraidah", "Unaizah"],
         supportNote:
-          "Set-up, alert rules and user access for Qassim Region sites are arranged remotely by call or video. Tell us the town and what the rooms hold.",
+          "Set-up, alert rules and user access for Qassim Region sites are arranged remotely by call or video. Send the town and a note on what the rooms hold.",
         faqs: [
           {
             question: "Which Qassim Region places have a page?",
             answer:
-              "Pages are being added place by place, and this page lists each one as it goes live. For another town in the region, write to us through the enquiry form.",
+              "Buraidah and Unaizah each have a city page. Ar Rass and the region's other towns can be raised through the enquiry form.",
           },
           {
             question: "How does a logger help a date packer?",
@@ -18760,9 +18963,206 @@ export const locations: LegacyLocationNode[] = [
               "A WiFi logger needs the store to have a router, and for a distant store we confirm what suits it before any order is placed, because connection options differ by country.",
           },
         ],
+        listing: [
+          { slug: "buraidah", text: "The regional capital, with a date market, farm cold rooms, an industrial city, a university and a regional hospital." },
+          { slug: "unaizah", text: "An oasis city of date orchards, a covered market, clinics and a college campus south of Buraidah." },
+        ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,
         children: [
+          {
+            slug: "buraidah",
+            name: "Buraidah",
+            type: "city",
+            intro:
+              "Buraidah is the capital of the Qassim Region, a large city on the central plain amid wheat fields and date groves, and a temperature data logger here serves the trading centre of a major farming district. A large date market fills in the season with growers, dealers and packers, a camel market and livestock yards operate year round, and wheat, fodder and vegetable growers sell and store their crops in the city. A public university, an industrial city and a regional hospital add laboratories, plants and wards. Roads link the city to Riyadh and Madinah. Summers are scorching and dust blows in the dry months. Loggers for Buraidah arrive from India and report to a dashboard that managers can open from a phone, with set-up done by call or video.",
+            climateAngle:
+              "Heat is severe for months, winter nights can be cold with frost on the open plain, and dust storms cross the farms in spring, so date stores, farm cold rooms and hospital refrigerators meet extremes at both ends of the range.",
+            areas: [
+              {
+                name: "Date market and packing houses",
+                note: "In the season growers and dealers bring dates to the market, and packers sort, pack and store them in cool rooms where steady temperature and low humidity protect the fruit.",
+              },
+              {
+                name: "Wheat, fodder and vegetable farms",
+                note: "Farms around the city grow wheat, fodder and vegetables, and growers hold produce in stores and cold rooms before it is sold in the city or sent to Riyadh.",
+              },
+              {
+                name: "Buraidah industrial city",
+                note: "The industrial city holds food, packaging, plastics and building-materials plants and warehouses, whose halls depend on cooling plants against the heat.",
+              },
+              {
+                name: "University, hospitals and the town markets",
+                note: "A public university with laboratories, the regional hospital and the markets of the old centre hold samples, vaccines, medicines and food in fridges and freezers.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Date packers, dairy and poultry businesses and food importers hold goods that lose quality in warmth, and a record from each store shows a buyer how a lot was kept from harvest to loading.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Trucks carry dates and farm produce to Riyadh and the ports, and a logger in the load shows how long goods stood in a vehicle in the afternoon sun.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The regional hospital and private clinics hold vaccines and blood products for a wide district, and an alert on a phone reaches the duty staff if a refrigerator warms.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "University and agricultural laboratories keep samples and cultures with their own limits, and an exported log is ready for a research review.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a date packing store, where cool, dry air protects the fruit through months of storage.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels read a big date chamber near the floor, mid-stack and roof, and at the door, which shows whether the cold reaches the highest pallets.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A one-probe logger slips into a clinic or laboratory refrigerator and leaves the way staff use the unit unchanged, with an alert to a phone.",
+              },
+            ],
+            faqs: [
+              {
+                question: "How can a date dealer in Buraidah use a temperature record?",
+                answer:
+                  "Loggers in the packing store and the chamber keep a season-long log of temperature and humidity, and a report covering one lot's dates can be sent to the buyer.",
+              },
+              {
+                question: "Why do dust storms matter for a logger on a farm store?",
+                answer:
+                  "Fine dust settles on vents and probe tips, so the body goes away from the dustiest doors, the probes stay sealed and a wipe at routine cleaning keeps the readings true.",
+              },
+              {
+                question: "Can farm stores spread over a wide area appear on one dashboard?",
+                answer:
+                  "Yes. Each store is a point on the same account with its own alert contacts, so an owner sees every farm and depot in one list, provided each room has a router within reach.",
+              },
+              {
+                question: "Is calibration of loggers available for Buraidah laboratories and packing houses?",
+                answer:
+                  "VEGA Calibrations, our parent company, can calibrate loggers and probes, and we explain the options once we know the model and the range you work to.",
+              },
+            ],
+            nearby: [
+              { slug: "unaizah", name: "Unaizah" },
+              { slug: "riyadh", name: "Riyadh" },
+              { slug: "al-majmaah", name: "Al Majmaah" },
+            ],
+            metaTitle: "Temperature Data Loggers in Buraidah | Prithvi",
+            metaDescription:
+              "WiFi temperature data loggers for Buraidah's date market stores, farm cold rooms, industrial city plants and hospitals, set up remotely. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "unaizah",
+            name: "Unaizah",
+            type: "city",
+            intro:
+              "Unaizah is an oasis city of the Qassim Region, south of Buraidah, famed for its date orchards and its old mud-brick quarter, and a temperature data logger here serves a quieter farming town than the regional capital. Orchards and farms surround the city, date dealers and packers work in a covered market, and wholesalers stock food and household goods for the villages around. Hospitals and clinics serve the district, a college of the regional university has laboratories, and small factories make food, packaging and building materials. Because crops are sold fresh or stored for months, steady temperature and humidity decide how long they keep. Prithvi supplies WiFi loggers from India for packing houses, clinics and shops, with alerts and users configured remotely by our team.",
+            climateAngle:
+              "The oasis is scorching in summer, cold on clear winter nights and dusty in spring, so a date store must hold a cool, dry range through months of storage and a clinic refrigerator must survive a hot afternoon, with nobody on site to notice a failure after hours.",
+            areas: [
+              {
+                name: "Date orchards and cool stores",
+                note: "Growers pick dates and hold them in small stores and cool rooms beside the orchards, where heat in the weeks after harvest is the main danger to the crop.",
+              },
+              {
+                name: "Covered market and dealers",
+                note: "Date dealers and wholesalers in the covered market stock fruit, vegetables and household goods in compact shops and back rooms opened from early morning.",
+              },
+              {
+                name: "Hospitals, clinics and the college campus",
+                note: "Hospitals and clinics hold vaccines and medicines in refrigerators, and a college of the regional university keeps samples and reagents in laboratory fridges.",
+              },
+              {
+                name: "Small factories and wholesalers on the edge of the city",
+                note: "Light factories and wholesale depots on the outskirts make and store food, packaging and building materials in sheds that heat quickly under metal roofs.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Date growers, packers and wholesalers hold fruit and food that lose quality in heat, and a record from each store shows a buyer how a lot was kept after harvest.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals and clinics serve the oasis and the villages beyond, and an alert on a phone means a failing vaccine refrigerator is found at night and not at the morning round.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies and medicine wholesalers hold stock in cooled rooms with stated ranges, and a dated record shows how a room behaved through the hottest weeks.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "College laboratories keep samples and reagents in fridges and cabinets with their own limits, and an exported log supports a review.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels watch a date cold room at several heights and beside the door, showing how the room behaves between loadings.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels compare the door end and the back wall of a pharmacy store or packing room, using a single device on the wall.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity shown beside temperature warns when damp air has entered a dry date store during a rare wet spell.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a small date packer in Unaizah use a single logger?",
+                answer:
+                  "Yes. One logger with an alert to a phone is enough for a single cool room, and more points can be added to the same account later as the business grows.",
+              },
+              {
+                question: "How does a clinic in Unaizah begin with loggers sent from India?",
+                answer:
+                  "The logger is registered to your dashboard on arrival, and a short call sets the limits and the phone numbers for alerts, with the room within reach of a router.",
+              },
+              {
+                question: "Why does heat in the weeks after harvest matter so much for dates?",
+                answer:
+                  "Warmth speeds spoilage and pests, so a record of the store temperature from harvest to sale shows whether the fruit was kept in a safe range.",
+              },
+              {
+                question: "Is calibration of loggers available for clinics and laboratories in Unaizah?",
+                answer:
+                  "VEGA Calibrations, our parent company, handles calibration of loggers and probes, and we explain what can be arranged once we know the model and the range.",
+              },
+            ],
+            nearby: [
+              { slug: "buraidah", name: "Buraidah" },
+              { slug: "riyadh", name: "Riyadh" },
+            ],
+            metaTitle: "Temperature Data Loggers in Unaizah | Prithvi",
+            metaDescription:
+              "WiFi temperature data loggers for Unaizah's date stores, covered-market dealers, clinics and college labs, set up remotely from India. Get Solution.",
+            indexable: true,
+          },
         ],
       },
       {
