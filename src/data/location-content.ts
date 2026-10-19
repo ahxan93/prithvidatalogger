@@ -109,7 +109,7 @@ export const locationContent: Record<string, LocationContent> = {
   },
   "india/bihar": {
     metaDescription:
-      "Temperature data loggers in Bihar: Patna, Hajipur and Muzaffarpur's hospitals, medicine stores, fruit cold rooms and railway godowns. Get Solution.",
+      "Temperature data loggers in Bihar: Patna, Hajipur, Muzaffarpur, Gaya and Bhagalpur. Get Solution.",
     recommended: ["setu", "nakshatra", "vayu"],
   },
   "india/chhattisgarh": {

@@ -14691,21 +14691,21 @@ export const locations: LegacyLocationNode[] = [
         name: "Bihar",
         type: "state",
         intro:
-          "Bihar lies on the flat Gangetic plain, crossed by the Ganga and the rivers that rush down from Nepal, and its storage is shaped by heat, humidity and flood. Patna, the capital, is the state's main centre for hospitals, medicine distribution and wholesale trade; across the river Hajipur holds a railway zone, a pharmaceutical institute and banana yards; and Muzaffarpur is the litchi and fruit trading city of the north. Summers are hot and heavy with humidity, the monsoon brings floods that cut roads for days, and winter nights are cold with fog. Cold chains for fruit, vaccines and food therefore depend on records that survive outages. Each city page names its estates and the stores worth watching first.",
+          "Bihar lies on the flat Gangetic plain, crossed by the Ganga and the rivers that rush down from Nepal, and its storage is shaped by heat, humidity and flood. Patna, the capital, is the state's main centre for hospitals, medicine distribution and wholesale trade; across the river Hajipur holds a railway zone, a pharmaceutical institute and banana yards; Muzaffarpur is the litchi and fruit trading city of the north, and Gaya and Bhagalpur add a pilgrim city and a silk city. Summers are hot and heavy with humidity, the monsoon brings floods that cut roads for days, and winter nights are cold with fog. Cold chains for fruit, vaccines and food therefore depend on records that survive outages. Each city page names its estates and the stores worth watching first.",
         localIndustries: [
           "Hospitals and medicine distribution",
           "Fruit, grain and food processing",
           "Railway and wholesale stores",
           "Pilgrimage hospitality",
         ],
-        citiesServed: ["Patna", "Hajipur", "Muzaffarpur"],
+        citiesServed: ["Patna", "Hajipur", "Muzaffarpur", "Gaya", "Bhagalpur"],
         supportNote:
           "Supply, installation support and site visits for Bihar sites are arranged from our Mumbai office. Tell us the city, the market or the estate and what the rooms hold.",
         faqs: [
           {
             question: "Which Bihar locations have a page?",
             answer:
-              "Patna, Hajipur and Muzaffarpur each have a city page. For any other Bihar town, send us a note through the enquiry form and we confirm what we can arrange.",
+              "Patna, Hajipur, Muzaffarpur, Gaya and Bhagalpur each have a city page. For any other Bihar town, send us a note through the enquiry form and we confirm what we can arrange.",
           },
           {
             question: "How do loggers help a fruit trader during the litchi and mango seasons?",
@@ -14722,6 +14722,8 @@ export const locations: LegacyLocationNode[] = [
           { slug: "patna", text: "The Ganga-side capital of hospitals, medicine distributors, wholesale markets and estates at Bihta, Fatuha and Patliputra." },
           { slug: "hajipur", text: "The north-bank railway-zone city linked by the Gandhi Setu, with a pharmaceutical institute, banana yards and an industrial area." },
           { slug: "muzaffarpur", text: "The litchi and fruit city of north Bihar, with food processors, a teaching hospital and a trading belt in flood-prone country." },
+          { slug: "gaya", text: "The pilgrim city of the Vishnupad and Mahabodhi temples, with hotel and sweet-maker kitchens, a teaching hospital and a small industrial area." },
+          { slug: "bhagalpur", text: "The silk city on the Ganga, with Nathnagar weaving lanes, silk godowns, mango and rice markets and a medical college hospital." },
         ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,
@@ -15013,6 +15015,199 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Muzaffarpur | Prithvi",
             metaDescription:
               "WiFi and GSM temperature and humidity data loggers for Muzaffarpur's litchi cold rooms, Bela food plants, hospitals and trading lanes. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "gaya",
+            name: "Gaya",
+            type: "city",
+            intro:
+              "Gaya is a pilgrimage city on the Phalgu river in south Bihar, ringed by rocky hills, and a temperature data logger here serves a place of worship, hospitality and trade. Hindus come to the Vishnupad temple to offer rites for their ancestors, above all during the Pitrapaksha fair, and Buddhists from many countries travel to the Mahabodhi temple at nearby Bodh Gaya, so hotels, monasteries, guesthouses and eating houses cook for crowds that swell and vanish with the season. The city is also known for tilkut, a sesame sweet made in the winter lanes. An international airport, a medical college hospital and an industrial area on the outskirts add rooms that need steady air. Prithvi supplies WiFi loggers for kitchens and rooms with a network and GSM loggers for vehicles and distant stores.",
+            climateAngle:
+              "The plain is dry and fiercely hot in summer, the monsoon brings heavy air for several weeks and winter nights are cold, so a hotel dry store, a sweet maker's stock and a hospital pharmacy meet scorching heat, damp and chill in a single year.",
+            areas: [
+              {
+                name: "Vishnupad and the old city lanes",
+                note: "Sweet makers, flower sellers, small hotels and priests' lodgings work in narrow lanes around the temple, with coolers and stock rooms fitted into old buildings and busiest during the fair.",
+              },
+              {
+                name: "Bodh Gaya hotels and monasteries",
+                note: "Hotels, guesthouses and monastery kitchens near the Mahabodhi temple cook for visitors from many countries, from walk-in coolers and dry stores that are loaded hardest in the cool season.",
+              },
+              {
+                name: "Gaya industrial area and godowns",
+                note: "An estate on the outskirts holds small factories, food makers and godowns, with road and rail links that carry goods to Patna and the south.",
+              },
+              {
+                name: "Medical college hospital and the markets",
+                note: "A large teaching hospital and the busy markets of the city centre hold blood units, vaccines, medicines and food in compact rooms and refrigerators.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Sweet makers, hotel kitchens and monastery canteens cook at great volume through the pilgrim season, and a record from each cooler shows exactly when one failed during a rush.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A teaching hospital and clinics serve patients from the southern districts, and an alert on a phone means a failing blood or vaccine refrigerator is found in the night.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine stockists supply chemists across south Bihar from the city, and a dated log answers a buyer who asks how a pack was kept through the dry summer heat.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Rail and road carry goods and pilgrims through the city, and a logger placed in a consignment records how long it stood on a platform or in a yard in the sun.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "A single-point logger with an external probe fits a hotel walk-in or a sweet maker's chiller without changing how the unit is used in the pilgrim season.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity and temperature at one point suit a hotel dry store or a medicine godown, where the monsoon brings heavy air after months of dryness.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A GSM logger rides in a lorry or reports from an outlying store with no router, and sends an alert to a phone.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a hotel in Gaya be alerted if a cooler fails during the Pitrapaksha crowds?",
+                answer:
+                  "Yes. The engineer or manager on duty is alerted by phone and email the moment a cooler crosses its limit, and a second person can be set to take over if there is no reply.",
+              },
+              {
+                question: "Does an off-season lull matter for monitoring?",
+                answer:
+                  "A logger in a closed kitchen keeps recording, so a rise in temperature or a lost mains supply is reported even when nobody visits, and the log from the quiet weeks shows whether the unit held.",
+              },
+              {
+                question: "Do you serve Bodh Gaya hotels as well as the city?",
+                answer:
+                  "Tell us the hotel or monastery, the rooms and a contact through the enquiry form, WhatsApp or a call, and we propose a day that avoids the busiest weeks.",
+              },
+              {
+                question: "Can calibration for a hospital laboratory in Gaya be arranged?",
+                answer:
+                  "VEGA Calibrations, our parent company, handles calibration of loggers and probes, and the work can be fixed alongside the supply.",
+              },
+            ],
+            nearby: [
+              { slug: "patna", name: "Patna" },
+              { slug: "bhagalpur", name: "Bhagalpur" },
+            ],
+            metaTitle: "Temperature Data Loggers in Gaya | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Gaya's pilgrim hotels, Bodh Gaya kitchens, sweet makers and hospital stores. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "bhagalpur",
+            name: "Bhagalpur",
+            type: "city",
+            intro:
+              "Bhagalpur is the silk city of Bihar, on the southern bank of the Ganga in the east of the state, and a temperature data logger here serves a place of weavers, traders and students. Looms in Nathnagar and Champanagar weave the tussar silk known across India as Bhagalpuri silk, and dealers hold raw cocoons, yarn and finished cloth in warehouses and shops. The district is also known for Jardalu mangoes and Katarni rice, which move through the markets. A university, a medical college hospital and clinics serve the eastern districts, and the Vikramshila Setu bridge carries traffic across the Ganga. Prithvi supplies WiFi loggers for shops, labs and wards with a network and GSM loggers for lorries and stores beyond a router.",
+            climateAngle:
+              "The river plain is hot and very humid, the monsoon floods low lanes and winters are cool and foggy, so silk yarn, grain and fruit meet damp and heat in turn, and moisture in a store can damage fine cloth long before anyone opens the bale.",
+            areas: [
+              {
+                name: "Nathnagar and Champanagar weaving lanes",
+                note: "Weavers and silk dealers keep yarn, cocoons and finished cloth in small workshops and godowns, where damp from the river air can mark fabric and invite mould.",
+              },
+              {
+                name: "Silk shops and export godowns",
+                note: "Traders in the main bazaars stock saris, dress material and scarves for buyers across India, in multi-storey buildings whose upper rooms bake in summer.",
+              },
+              {
+                name: "Mango, rice and grain markets",
+                note: "Dealers handle Jardalu mangoes in the fruit season and Katarni rice and grain through the year, in yards and godowns exposed to heat and flood damp.",
+              },
+              {
+                name: "Medical college hospital and the university",
+                note: "A teaching hospital, clinics and university laboratories hold blood units, vaccines, samples and reagents in fridges and cabinets.",
+              },
+            ],
+            industries: [
+              {
+                slug: "textile",
+                sentence:
+                  "Silk yarn and cloth take up moisture from damp air and fade in heat, and a record of humidity and temperature in a godown shows when a store drifted before a season's stock was affected.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Mango traders, rice dealers, sweet makers and dairies hold stock that spoils in the heat, and a record from each cold room and chiller shows a buyer how a lot was kept.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A teaching hospital serves patients from the eastern districts, and an alert to the duty staff covers the minutes between a mains failure and the generator.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "University and hospital laboratories keep samples and reagents in freezers and fridges with their own limits, and an exported log supports a research file.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reads humidity along with temperature at one point, which is what a silk godown or a grain store needs in the heavy air of the rainy weeks.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels watch a mango cold room or a hospital store at two positions, which shows whether the cold reaches the far wall.",
+              },
+              {
+                slug: "vayu",
+                reason:
+                  "A SIM-based GSM logger rides in a lorry carrying cloth or fruit and reports from stores with no router, with alerts sent to a phone.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a silk dealer in Bhagalpur protect yarn and cloth from damp?",
+                answer:
+                  "A logger in the godown records humidity and temperature, and an alert tells the dealer when the air has become heavy, so stock can be moved, aired or covered before it is marked.",
+              },
+              {
+                question: "Can a trader show a buyer how Jardalu mangoes or Katarni rice were held?",
+                answer:
+                  "Yes. A report from the cold room or godown for the dates of a lot can be exported as PDF, Excel or CSV for the buyer.",
+              },
+              {
+                question: "How do floods and power cuts affect monitoring?",
+                answer:
+                  "Loggers keep recording on their batteries through a cut, send the stored readings when the network returns, and raise an alert for a lost mains supply.",
+              },
+              {
+                question: "Who calibrates loggers used in a Bhagalpur laboratory or hospital?",
+                answer:
+                  "Calibration of loggers and probes comes from VEGA Calibrations, our parent company, and the date can be set when you order.",
+              },
+            ],
+            nearby: [
+              { slug: "gaya", name: "Gaya" },
+              { slug: "patna", name: "Patna" },
+              { slug: "muzaffarpur", name: "Muzaffarpur" },
+            ],
+            metaTitle: "Temperature Data Loggers in Bhagalpur | Prithvi",
+            metaDescription:
+              "WiFi and GSM temperature and humidity data loggers for Bhagalpur's silk godowns, mango and rice markets, laboratories and hospitals. Get Solution.",
             indexable: true,
           },
         ],
