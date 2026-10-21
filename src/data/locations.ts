@@ -26582,7 +26582,7 @@ export const locations: LegacyLocationNode[] = [
       {
         question: "Which parts of Kuwait have a page?",
         answer:
-          "Al Asimah, Hawalli and Farwaniya governorates have their own pages, with Kuwait City, Hawalli, Salmiya, Farwaniya, Khaitan and Jleeb Al-Shuyoukh and their districts beneath. If your site is somewhere else, write through the enquiry form, Call or WhatsApp with what you store and we answer with what looks workable.",
+          "Al Asimah, Hawalli, Farwaniya and Ahmadi governorates have their own pages, with Kuwait City, Hawalli, Salmiya, Farwaniya, Khaitan, Jleeb Al-Shuyoukh, Ahmadi and Fahaheel and their districts beneath. If your site is somewhere else, write through the enquiry form, Call or WhatsApp with what you store and we answer with what looks workable.",
       },
       {
         question: "What alert limits suit a store in extreme summer heat?",
@@ -26599,6 +26599,7 @@ export const locations: LegacyLocationNode[] = [
       { slug: "al-asimah-governorate", text: "The capital governorate on Kuwait Bay, with a harbour city of towers, markets and hospitals, a commercial port and an industrial area, in extreme summer heat." },
       { slug: "hawalli-governorate", text: "The dense commercial and residential governorate south-east of the capital, with busy shopping streets, apartment blocks, clinics and a long seafront, in blazing summer heat." },
       { slug: "farwaniya-governorate", text: "The crowded inland governorate beside the capital, with busy markets, dense apartment districts, industrial and warehouse areas and the airport, in blazing dry summers and blowing dust." },
+      { slug: "ahmadi-governorate", text: "The long southern governorate along the Gulf coast, with a green planned town and a busy seafront commercial town, in blazing summers and humid shore air." },
     ],
     indexable: true,
     children: [
@@ -26748,7 +26749,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Hawalli Governorate",
         type: "state",
         intro:
-          "Hawalli Governorate is a densely built part of Kuwait's urban strip, a crowded mix of apartment blocks, shopping streets, clinics, restaurants and small offices stretching south-east of the capital along the Gulf coast. Hawalli itself is a busy commercial neighbourhood of narrow-fronted shops and traders' stores, while Salmiya runs along the seafront with malls, hotels, cafes, marinas and tall apartment towers. Summers are blazing and dry, the air by the water turns humid, winters are mild, and dust storms drift in from the desert. Food, medicines and household goods wait in shops, kitchens and small stockrooms in such heat. The pages below cover the two towns and the rooms where a temperature record would help.",
+          "Hawalli Governorate is a densely built part of Kuwait's urban strip, a crowded mix of apartment blocks, shopping streets, clinics, restaurants and small offices stretching south-east of the capital along the Gulf coast. Hawalli itself is a busy commercial neighbourhood of narrow-fronted shops and traders' stores, while Salmiya runs along the seafront with malls, hotels, cafes, marinas and tall apartment towers. Summers are blazing and dry, the air by the water turns humid, winters are mild, and dust storms drift in from the desert. Food, medicines and household goods wait in shops, kitchens and small stockrooms in such heat. The pages below describe both towns and the rooms in each where a temperature record would help.",
         localIndustries: [
           "Shops, supermarkets and food retail",
           "Restaurants, cafes and catering kitchens",
@@ -27309,6 +27310,240 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Jleeb Al-Shuyoukh | Prithvi",
             metaDescription:
               "Data loggers for Jleeb Al-Shuyoukh's wholesale cold rooms, warehouses, shops and clinics in blazing dry heat and dust. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "ahmadi-governorate",
+        name: "Ahmadi Governorate",
+        type: "state",
+        intro:
+          "Ahmadi Governorate stretches along the Gulf coast to the south of the capital, a long ribbon of towns where a quiet planned town of tree-lined streets and villas sits not far from a busy seafront strip of shops, restaurants and apartment blocks. Ahmadi is the planned town, with gardens, a hospital and a central square, while Fahaheel is a lively commercial town with a long shore road, markets, cafes and heavy traffic. Summers are blazing and dry, the air by the water turns humid, winters are mild, and dust storms blow in from the desert. Food, medicines and household goods wait in shops, kitchens and clinics in such heat. The pages below cover the two towns and the rooms where a temperature record would help.",
+        localIndustries: [
+          "Shops, supermarkets and food retail",
+          "Restaurants, cafes and catering kitchens",
+          "Clinics, hospitals and pharmacies",
+          "Workshops and small warehouses",
+        ],
+        citiesServed: ["Ahmadi","Fahaheel"],
+        supportNote:
+          "Enquiries from Ahmadi Governorate are handled through the enquiry form, Call or WhatsApp. Say which town, which rooms and how they are cooled, and we come back with what seems suitable at the site.",
+        faqs: [
+          {
+            question: "Which places in Ahmadi Governorate have a page?",
+            answer:
+              "Ahmadi and Fahaheel each have a city page. Another town in the governorate can be raised through the enquiry form, and further pages follow only when they can be written from confident facts.",
+          },
+          {
+            question: "Why would a green planned town differ from a seafront strip for storage?",
+            answer:
+              "Gardens and shade keep a planned town a little cooler and damper, while a seafront strip is hotter, saltier and noisier with traffic, so mounting spots and humidity checks differ between the two.",
+          },
+          {
+            question: "Can one login watch a hospital pharmacy and a row of shop coolers?",
+            answer:
+              "Yes. Each room is a separate point on one dashboard with its own alert contacts, and a manager can see all sites together in one exported report.",
+          },
+        ],
+        listing: [
+          { slug: "ahmadi", text: "A planned town of tree-lined streets, villas, gardens and a hospital, in blazing summers and slightly cooler shade." },
+          { slug: "fahaheel", text: "A lively seafront commercial town of shops, restaurants, markets and apartment blocks, in blazing heat and humid shore air." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "ahmadi",
+            name: "Ahmadi",
+            type: "city",
+            intro:
+              "Ahmadi is a planned town south of Kuwait City, laid out with wide tree-lined streets, gardens, villas and a central square, and a temperature data logger here serves a quiet place of clinics, a hospital, supermarkets, kitchens and workshops in blazing summer heat. Greenery gives the streets more shade than most towns in the country, schools and shops serve the families who live there, and a hospital and pharmacies serve the district. Summers are blazing and dry, the air turns humid when the sea breeze arrives, and dust storms blow in from the desert in some seasons, while in the cooler months families gather in the gardens and the central square in the evenings. Enquiries from Ahmadi are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "Shade and gardens soften the heat a little in the evening but the afternoons are blazing, dust coats every vent and compressor, and the sea breeze carries humidity inland, so supermarket coolers, clinic refrigerators and workshop stores work against the weather for months. A refrigerator in a quiet street that fails on a summer night warms quickly, and quiet suburban roads mean a failed unit is often noticed late.",
+            areas: [
+              {
+                name: "The hospital, clinics and pharmacies",
+                note: "A hospital, family clinics and pharmacies store vaccines, insulin and medicines in fridges and freezers that have to stay in range when the mains supply stutters.",
+              },
+              {
+                name: "Supermarkets and neighbourhood groceries",
+                note: "Supermarkets and groceries serve the villas and flats from display coolers and cold rooms opened again and again through the day.",
+              },
+              {
+                name: "Restaurants, cafes and school kitchens",
+                note: "Restaurants, cafes and school kitchens run chillers and freezers in back rooms that share heat with the cooking line.",
+              },
+              {
+                name: "Workshops and stockrooms on the edge of town",
+                note: "Workshops and small stockrooms hold parts, tools and household goods under metal roofs that soak up the summer sun at speed.",
+              },
+            ],
+            industries: [
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The Ahmadi hospital and clinics must keep vaccines and blood products inside strict ranges, and a phone alert reaches whoever is on duty if a refrigerator drifts in the small hours.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Ahmadi store medicines to labelled ranges, and a dated log of temperature shows how a room coped with the hottest weeks of summer.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Supermarkets, cafes and school kitchens in Ahmadi hold chilled and frozen goods that spoil in heat, and a record from each cooler shows when a unit began to slip.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods for Ahmadi's shops wait in vans and small yards before use, and a logger tucked into a load records the heat each lot met on the way.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable slides into a ward or pharmacy refrigerator in Ahmadi and leaves the way staff use the unit unchanged.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reading humidity beside temperature, a single unit shows when sea-breeze damp has crept into a dry store that looks fine on a thermometer.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels follow a school-kitchen cold room from its door to its back wall, showing whether the cold reaches the last shelf.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can an Ahmadi supermarket or school kitchen use temperature loggers?",
+                answer:
+                  "A logger in each cooler and freezer keeps a round-the-clock record, and a report for any period can be saved as a PDF, Excel or CSV file for an inspector or a school.",
+              },
+              {
+                question: "Why would a shaded planned town still need humidity readings?",
+                answer:
+                  "Gardens and sea breezes bring moisture into stores that are otherwise dry, and cold rooms collect condensation whenever a door opens, so humidity beside the temperature shows damp a thermometer would miss.",
+              },
+              {
+                question: "How would an enquiry from Ahmadi be handled?",
+                answer:
+                  "Give the shop, clinic or kitchen, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Ahmadi.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Ahmadi clinics?",
+                answer:
+                  "Calibration of loggers and probes for Ahmadi clinics is looked after by VEGA Calibrations, our parent company; share the model and the range you work to and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "fahaheel", name: "Fahaheel" },
+              { slug: "kuwait-city", name: "Kuwait City" },
+            ],
+            metaTitle: "Temperature Data Loggers in Ahmadi | Prithvi",
+            metaDescription:
+              "Data loggers for Ahmadi's hospital, pharmacies, supermarkets and school kitchens in a planned green town in blazing heat. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "fahaheel",
+            name: "Fahaheel",
+            type: "city",
+            intro:
+              "Fahaheel is a lively commercial town on the Gulf coast south of Kuwait City, with a long shore road, markets, restaurants, shops and apartment blocks, and a temperature data logger here serves a busy place of kitchens, cafes, supermarkets and small stockrooms in blazing summer heat and humid shore air. Families come to eat along the seafront in the cooler evenings, shopkeepers carry crates through crowded back lanes, and traffic is heavy at almost any hour. Clinics and pharmacies serve the apartment blocks. Summers are blazing, winters are mild, and dust storms blow in from the desert, while on weekend evenings the promenade fills with walkers and the cafes and grills stay open late. Enquiries from Fahaheel are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "Heat and humidity gather along the seafront, salt reaches every service yard and basement, and heavy traffic keeps vans idling and loading in the sun, so kitchen chillers, shop coolers and stockrooms work against the weather for months. Restaurant kitchens add their own heat to the load on the cooling, and a chiller that fails during a busy weekend evening can lose its stock before anyone is free to look. Many kitchens here are fed by vans that park at the kerb in strong sun, so cartons of fish, dairy and meat may stand on the pavement for a while before they reach a fridge, and the loss is only discovered at service.",
+            areas: [
+              {
+                name: "Seafront restaurants and cafes",
+                note: "Restaurants and cafes along the shore road keep walk-in chillers, freezers and dry stores in service rooms where kitchen heat and humid air meet.",
+              },
+              {
+                name: "Markets and neighbourhood groceries",
+                note: "Groceries and market stalls sell chilled and frozen food from cabinets and small cold rooms opened constantly through the day.",
+              },
+              {
+                name: "Clinics and pharmacies",
+                note: "Clinics and pharmacies serving the apartment blocks keep vaccines and medicines in refrigerators that must stay in range through brief power dips.",
+              },
+              {
+                name: "Small stockrooms and workshops behind the shops",
+                note: "Small traders keep stock in basements and back rooms where the temperature follows the weather outside.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Restaurants, cafes and grocers in Fahaheel hold chilled and frozen goods in humid shore air, and a record from each cooler shows when a compressor began to struggle.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Fahaheel keep stock to labelled ranges, and a dated record shows how a room behaved through the hottest weeks and any outage.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Clinics serving Fahaheel hold vaccines to strict ranges, and a phone alert reaches the person responsible if a refrigerator warms at night.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Vans bringing goods to Fahaheel's shops queue in traffic in the sun, and a logger tucked into a load records how warm the cargo became before it was unloaded.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a restaurant chiller from the floor to the top shelf and the door, showing which level warms first on a busy night.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single probe on a short lead fits a pharmacy or clinic refrigerator in Fahaheel and leaves daily routines unchanged.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels along a long back-lane stockroom show which stretch is warmest and when, all in one report.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Fahaheel restaurant group watch every kitchen from one login?",
+                answer:
+                  "Yes. Every kitchen and pantry reports to one dashboard, each alert reaches its own engineer, and a manager can export a single report that covers all the rooms.",
+              },
+              {
+                question: "Why does a basement stockroom near the sea need a humidity reading?",
+                answer:
+                  "Humid air collects in low rooms and turns to water on cool surfaces, so a humidity line next to the temperature reveals damp a thermometer alone would not.",
+              },
+              {
+                question: "How would an enquiry from Fahaheel be handled?",
+                answer:
+                  "Give the restaurant, shop or clinic, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Fahaheel.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Fahaheel clinics?",
+                answer:
+                  "Calibration of loggers and probes for Fahaheel clinics is looked after by VEGA Calibrations, our parent company; share the model and the range and we explain the options.",
+              },
+            ],
+            nearby: [
+              { slug: "ahmadi", name: "Ahmadi" },
+              { slug: "salmiya", name: "Salmiya" },
+              { slug: "kuwait-city", name: "Kuwait City" },
+            ],
+            metaTitle: "Temperature Data Loggers in Fahaheel | Prithvi",
+            metaDescription:
+              "Data loggers for Fahaheel's seafront restaurant kitchens, markets, pharmacies and back-lane stockrooms in blazing heat. Get Solution.",
             indexable: true,
           },
         ],

@@ -463,6 +463,8 @@
 | Al Rai Industrial Area (`al-rai-industrial-area`, area of Farwaniya) | Kuwait | Wholesale food stores, general warehouses, workshops, chemical and cleaning stores | Logistics, food, chemicals | Blazing, dusty | Ardiya Industrial Area |
 | Kuwait International Airport (`kuwait-international-airport`, area of Farwaniya) | Kuwait | Freight halls, medicine cool rooms, meal-preparation stores, vehicles (described generally, no flight or cargo status) | Logistics, medicines, food | Blazing, dusty | none |
 | Jleeb Al-Shuyoukh Warehouses (`jleeb-al-shuyoukh-warehouses`, area of Jleeb Al-Shuyoukh) | Kuwait | Wholesale cold rooms, tall dry-goods stacks, electronics stockrooms, trucks | Food, logistics, electronics | Blazing, dusty | none |
+| Ahmadi (`ahmadi`, city, Ahmadi Governorate) | Kuwait | Hospital, clinics and pharmacies, supermarkets and school kitchens, edge-of-town workshops | Medicines, food, logistics | Blazing dry summers; sea-breeze damp | Fahaheel, Kuwait City |
+| Fahaheel (`fahaheel`, city, Ahmadi Governorate) | Kuwait | Seafront restaurant kitchens, markets and groceries, clinics and pharmacies, back-lane stockrooms | Food, medicines, logistics | Blazing heat, humid shore air | Ahmadi, Salmiya, Kuwait City |
 | Ibra (`ibra`, city, Ash Sharqiyah North Governorate) | Oman | Date stores and grove sheds, weekly-market stock rooms, shops and cafes, hospital and clinics | Food, medicines, logistics | Fierce dry heat, cold winter nights | Bidiyah, Sur |
 | Bidiyah (`bidiyah`, city, Ash Sharqiyah North Governorate) | Oman | Date gardens and farm sheds, roadside shops, workshops and yards, clinic | Food, medicines, logistics | Fierce heat, blowing sand | Ibra, Sur |
 | Khasab (`khasab`, city, Musandam Governorate) | Oman | Harbour ice boxes, shops and cafes, hospital and clinics, valley date stores | Food, medicines, logistics | Hot, humid inlets; cliffs hold heat | Muscat, Sohar |
@@ -810,3 +812,6 @@ Kuwait Batch 2 (Hawalli Governorate): hub, Hawalli and Salmiya (no area pages).
 
 Kuwait Batch 3 (Farwaniya Governorate): hub, Farwaniya, Khaitan, Jleeb Al-Shuyoukh; Ardiya Industrial Area, Al Rai Industrial Area and Kuwait International Airport
 are attached to Farwaniya as the nearest confident city (no administrative statement), and the Jleeb Al-Shuyoukh Warehouses to Jleeb Al-Shuyoukh.
+
+Kuwait Batch 4 (Ahmadi Governorate): hub, Ahmadi and Fahaheel. Not built: Mangaf, Mahboula and Abu Halifa (too few confident, distinguishing local facts to write a
+page that is not a near-copy of the other coastal apartment towns).

@@ -338,6 +338,11 @@ export const locationContent: Record<string, LocationContent> = {
       "Data loggers for Farwaniya Governorate: Farwaniya, Khaitan, Jleeb Al-Shuyoukh, industrial areas, the airport and warehouse stores. Get Solution.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
+  "kuwait/ahmadi-governorate": {
+    metaDescription:
+      "Data loggers for Ahmadi Governorate: Ahmadi's hospital pharmacies and shops and Fahaheel's seafront kitchens and stockrooms. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+  },
   "qatar/doha-municipality": {
     metaDescription:
       "Data loggers for Doha Municipality: Doha city, West Bay, Al Sadd, Msheireb and The Pearl-Qatar kitchens, clinics and stores. Get Solution.",
