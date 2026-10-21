@@ -93,6 +93,8 @@ export const areaCities: Record<string, { name: string; stateSlug: string; state
   ahmadi: { name: "Ahmadi", stateSlug: "ahmadi-governorate", stateName: "Ahmadi Governorate" },
   jahra: { name: "Jahra", stateSlug: "jahra-governorate", stateName: "Jahra Governorate" },
   sulaibiya: { name: "Sulaibiya", stateSlug: "jahra-governorate", stateName: "Jahra Governorate" },
+  muharraq: { name: "Muharraq", stateSlug: "muharraq-governorate", stateName: "Muharraq Governorate" },
+  hidd: { name: "Hidd", stateSlug: "muharraq-governorate", stateName: "Muharraq Governorate" },
   manama: { name: "Manama", stateSlug: "capital-governorate", stateName: "Capital Governorate" },
   "kuwait-city": { name: "Kuwait City", stateSlug: "al-asimah-governorate", stateName: "Al Asimah Governorate" },
   farwaniya: { name: "Farwaniya", stateSlug: "farwaniya-governorate", stateName: "Farwaniya Governorate" },
@@ -9956,6 +9958,167 @@ export const areas: AreaDef[] = [
         }
       ],
       "nearby": [],
+      "indexable": true
+    } },
+  // ------------------------------------------------------------------ Bahrain (batch 3: Muharraq Governorate)
+  { slug: "bahrain-international-airport", name: "Bahrain International Airport", citySlug: "muharraq", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","pharmaceutical","food-beverage"], confirmedService: true, hero: ["nakshatra","virat"], page: {
+      "metaTitle": "Data Loggers at Bahrain International Airport | Prithvi",
+      "metaDescription": "Data loggers for freight halls, medicine cool rooms, meal-preparation stores and vehicles around Bahrain International Airport. Get Solution.",
+      "intro": "Bahrain International Airport stands on flat ground on Muharraq Island, north of the old town, with long runways, terminal buildings and a belt of service and freight sheds around them. For a temperature data logger the interest lies in the stores and vehicles that sit around a site of this kind: halls for goods waiting to move, cool rooms for medicines, kitchens preparing food, and vans parked in the sun between jobs. This page covers only the kinds of goods and rooms that a logger user could look after, and says nothing about how the site is run. Enquiries about the airport are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Freight halls and transit sheds",
+          "note": "Parcels, spare parts and general goods wait on racks in large halls where the roof heats up through the day and doors open to hot, hazy air."
+        },
+        {
+          "name": "Cool rooms for medicines and health supplies",
+          "note": "Medicines and temperature-sensitive supplies wait in cool rooms and insulated boxes, and the gaps between one stage and the next are the fragile moments."
+        },
+        {
+          "name": "Meal-preparation kitchens and stores",
+          "note": "Kitchens that prepare food for onward service keep chillers, blast units and dry stores that must show a clean temperature record."
+        },
+        {
+          "name": "Vans and trucks on the apron roads",
+          "note": "Service vehicles stand in the sun between runs, and a covered body can heat quickly and hold that heat long after dark."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A firm that keeps goods for several owners in one hall can give each owner a written trace of how its pallets were stored, in place of a general remark about the building."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Medicines and health supplies waiting between stages need a dated temperature record, so a distributor can judge whether a pack stood too long in the heat."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Food prepared for onward service needs a time-stamped account of how it was held, and a small logger beside the chilled items supplies it."
+        }
+      ],
+      "services": "For a site of this kind we would look at WiFi loggers in halls and kitchens near a router, probe loggers in cool rooms and refrigerators, multi-point units along long racks, and loggers carried inside a consignment. Anyone at the airport with calibration questions can raise them with VEGA Calibrations, our parent company. WiFi units need a router in reach and a power supply, and for a van or a crate we set out other options. We settle what can be supplied only when we have read your request.",
+      "visits": "No visit or installation at the airport is promised. Send the business, the rooms or load involved and a contact on the enquiry form, Call or WhatsApp, and we study the request and say what looks achievable.",
+      "approach": "If a request went ahead, we would begin with the room or load that is hardest to replace, placing one logger beside the door and another on the far wall, then add a humidity unit where cool rooms meet damp outside air. A few weeks of readings would show how long goods really sit between stages.",
+      "faqs": [
+        {
+          "question": "Can a small logger be packed inside a consignment?",
+          "answer": "Yes. A logger packed with the goods records the whole journey, and its report can be exported as a PDF, Excel or CSV file for whoever receives the load."
+        },
+        {
+          "question": "Why does a hall roof matter to stored goods?",
+          "answer": "A metal roof in strong sun heats the air beneath it through the afternoon, so a logger on the racks shows conditions that a reading at floor level may not."
+        }
+      ],
+      "nearby": [],
+      "indexable": true
+    } },
+  { slug: "khalifa-bin-salman-port", name: "Khalifa Bin Salman Port", citySlug: "hidd", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["dhruva","rajmudra"], page: {
+      "metaTitle": "Data Loggers at Khalifa Bin Salman Port, Hidd | Prithvi",
+      "metaDescription": "Data loggers for quayside sheds, container stacks, cold halls and vehicles around Khalifa Bin Salman Port, Hidd. Get Solution.",
+      "intro": "Khalifa Bin Salman Port is a harbour area at the south-eastern tip of Muharraq Island, near Hidd, with deep-water quays, broad yards and sheds set on flat reclaimed ground. Goods that pass through a harbour spend a lot of their time standing still, and a temperature data logger exists to answer one question about those pauses: how warm and damp did the stock get? Strong sun, salt air and the contrast between a cooled hall and an open quay all play a part. This page is limited to the kinds of goods and rooms a logger user may look after at a harbour. Enquiries about the port are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Container stacks on the yards",
+          "note": "Containers piled in full sun conduct heat through their sides, which leaves a dry load far warmer than the shaded air around it."
+        },
+        {
+          "name": "Cold halls and refrigerated boxes",
+          "note": "Perishable consignments can wait in a chilled hall or a powered box, and the brief interruptions when plugs are moved are the weak points."
+        },
+        {
+          "name": "Sheds beside the quays",
+          "note": "Goods rest in sheds whose big doors let hot, salty air in, and the metal roof decides how warm the space becomes."
+        },
+        {
+          "name": "Trucks collecting loads",
+          "note": "Trucks queuing for a load sit in strong sun, and a covered body heats quickly and holds that heat long after dark."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A firm storing cargo for several importers can hand each importer a written trace of how its pallets were kept, instead of a remark about the building."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Chilled and frozen food crossing a harbour needs an account of how it was held between vessel and shop, and a compact logger packed with the cartons supplies one."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Medicines and health supplies held near the water need a dated record, so a distributor can judge whether a pack stood too long in the heat."
+        }
+      ],
+      "services": "Around a harbour we would suggest WiFi loggers in sheds and cold halls near a router, probe loggers in freezers and refrigerated boxes, multi-point units along long halls, and loggers carried inside a consignment. Port users who want to discuss calibration can ask VEGA Calibrations, our parent company. WiFi units depend on a router in reach and mains power, and for an open stack or a vehicle we describe other approaches. Any answer on supply waits until your request has been read.",
+      "visits": "We promise no visit or installation at the port. Send the business, the load or hall involved and a contact on the enquiry form, Call or WhatsApp, and we weigh up the request and tell you what appears workable.",
+      "approach": "If a request went ahead, we would start with the hall or load that is hardest to replace, placing one logger in the cargo or by the door and another at the far wall, then add a humidity unit where chilled goods meet salty air. Some weeks of readings would show how long goods truly stand between one stage and the next.",
+      "faqs": [
+        {
+          "question": "Can a logger travel inside a carton through a harbour chain?",
+          "answer": "Yes. A logger packed with the cartons records the whole trip, and its report can be exported as a PDF, Excel or CSV file for whoever receives the load."
+        },
+        {
+          "question": "Why does cargo standing in the sun need its own record?",
+          "answer": "Heat soaks through the walls of a box in the sun, so a logger inside the load shows exposure that a shaded reading would never reveal."
+        }
+      ],
+      "nearby": [
+        "bahrain-logistics-zone"
+      ],
+      "indexable": true
+    } },
+  { slug: "bahrain-logistics-zone", name: "Bahrain Logistics Zone", citySlug: "hidd", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","electronics","food-beverage"], confirmedService: true, hero: ["setu","veer"], page: {
+      "metaTitle": "Data Loggers in Bahrain Logistics Zone, Hidd | Prithvi",
+      "metaDescription": "Data loggers for warehouse units, cold rooms, packing halls and yards in the Bahrain Logistics Zone near Hidd. Get Solution.",
+      "intro": "The Bahrain Logistics Zone is a warehouse district beside the south-eastern harbour near Hidd, with large sheds on flat ground, wide lanes between them and open yards for vehicles. A temperature data logger in a district like this is concerned with racked goods that sit for days or weeks: pallets of food, household goods and electronics under metal roofs, cold rooms beside them, and packing halls where cartons are made up for the road. This page is limited to the kinds of goods and rooms a logger user could look after, and says nothing about who is based there or how the zone is run. The enquiry form, Call or WhatsApp is how we receive enquiries about the zone.",
+      "places": [
+        {
+          "name": "Racked warehouse units",
+          "note": "Tall racks hold pallets of mixed goods, and the air near the roof can be many degrees hotter than at floor level."
+        },
+        {
+          "name": "Cold rooms and chilled bays",
+          "note": "Chilled and frozen food waits in cold rooms with loading doors that open onto hot yards, which makes door discipline a daily concern."
+        },
+        {
+          "name": "Packing and re-labelling halls",
+          "note": "Halls where cartons are opened, checked and made up again let goods stand in ambient air for hours at a time."
+        },
+        {
+          "name": "Yard bays and loading docks",
+          "note": "Pallets wait on docks and in trailers parked in the sun, and a loaded trailer can reach high temperatures well before the doors are opened."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A warehouse holding stock for many customers can give each one a record of its own pallets, instead of one assurance about the whole shed."
+        },
+        {
+          "slug": "electronics",
+          "sentence": "Electronics and appliances stored for long periods benefit from a heat and humidity trend, because a warm, damp shed can harm boxed stock that looks sound."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Dry and chilled food stored in a distribution shed needs a time-stamped account of how it was held, which a logger on the racks and one in the cold room provide."
+        }
+      ],
+      "services": "For a warehouse district we would look at WiFi loggers on racks and in cold rooms near a router, probe loggers in freezers, multi-channel units along long aisles, and loggers carried in trailers. VEGA Calibrations, our parent company, can talk through calibration for loggers used in the zone. WiFi units need a router within range and a power supply, and for a trailer or an open yard we describe other methods. What can be supplied is decided only after a request has been read.",
+      "visits": "No visit or installation in the zone is promised. Send the business, the units involved and a contact on the enquiry form, Call or WhatsApp, and we look over the request and say what seems practical.",
+      "approach": "If a request went ahead, we would start with the shelf or room whose contents are hardest to replace, placing one logger at roof height and another near the floor, then add one in the cold room beside the loading door. The first weeks of readings would show how heat builds up through the afternoon.",
+      "faqs": [
+        {
+          "question": "Can a warehouse show each customer how its goods were stored?",
+          "answer": "Yes. Loggers placed by each customer's pallets or rooms feed one dashboard, and separate reports can be exported for each customer."
+        },
+        {
+          "question": "Why measure at roof height as well as the floor?",
+          "answer": "Warm air collects under a metal roof, so goods on the top racks can sit in noticeably hotter conditions than those at floor level."
+        }
+      ],
+      "nearby": [
+        "khalifa-bin-salman-port"
+      ],
       "indexable": true
     } },
 ];

@@ -28237,14 +28237,14 @@ export const locations: LegacyLocationNode[] = [
       "Logistics and warehousing",
       "Hospitality",
     ],
-    citiesServed: ["Manama"],
+    citiesServed: ["Manama", "Muharraq"],
     supportNote:
       "Enquiries from Bahrain are handled through the enquiry form, Call or WhatsApp. Tell us the site, the rooms and what you store, and our reply covers what seems suitable and how remote set-up support would run.",
     faqs: [
       {
         question: "Which parts of Bahrain have a page?",
         answer:
-          "The Capital Governorate has its own page, with Manama and its waterfront, commercial and port districts beneath it. For a place not yet listed, describe the site and what you store through the enquiry form, Call or WhatsApp, and we reply with a suggestion.",
+          "The Capital Governorate and the Muharraq Governorate each have a page, with their cities and districts beneath them. For a place not yet listed, describe the site and what you store through the enquiry form, Call or WhatsApp, and we reply with a suggestion.",
       },
       {
         question: "How do we start monitoring a Bahrain site?",
@@ -28259,6 +28259,7 @@ export const locations: LegacyLocationNode[] = [
     ],
     listing: [
       { slug: "capital-governorate", text: "The governorate of the capital on the north-east of the island, with a harbour city of towers, markets, hospitals and a commercial port, in hot, humid sea air." },
+      { slug: "muharraq-governorate", text: "The island governorate to the north-east of the capital, with an old walled-lane town, a seaside industrial and harbour area, and the island's airport." },
     ],
     indexable: true,
     children: [
@@ -28586,6 +28587,442 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Adliya | Prithvi",
             metaDescription:
               "Data loggers for Adliya's villa-built cafe kitchens, bakeries, clinics and server cupboards in humid, hot air. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "muharraq-governorate",
+        name: "Muharraq Governorate",
+        type: "state",
+        intro:
+          "The Muharraq Governorate covers Muharraq Island and the shore around it to the north-east of Manama, joined to the capital by causeways. Narrow lanes of old houses and sweet shops sit close to newer housing towns, a seaside district with a harbour and warehouse zone lies at the south-east tip, and the island's airport occupies flat ground in the middle. Summers are long, very hot and humid, winters are mild, and haze and salt blow across the low land from every side. Food, medicines and general freight sit in small shops, home kitchens and larger sheds in that air. The pages below cover the old city, Hidd and its harbour district, Arad and Busaiteen.",
+        localIndustries: [
+          "Food shops and sweet makers",
+          "Clinics and pharmacies",
+          "Warehousing and freight",
+          "Fishing and seafood trade",
+        ],
+        citiesServed: ["Muharraq","Hidd","Arad","Busaiteen"],
+        supportNote:
+          "Enquiries from the Muharraq Governorate are handled through the enquiry form, Call or WhatsApp. Name the town, the rooms and the goods, and our reply sets out what seems suitable for the site.",
+        faqs: [
+          {
+            question: "Which places in the Muharraq Governorate have a page?",
+            answer:
+              "Muharraq, Hidd, Arad and Busaiteen have city pages. The airport sits under Muharraq, and Khalifa Bin Salman Port and the Bahrain Logistics Zone sit under Hidd. A town not listed here can be raised through the enquiry form.",
+          },
+          {
+            question: "Why do island sites need extra attention to humidity?",
+            answer:
+              "Moist sea air reaches every building on a low island, so dry goods soften and cold rooms sweat when doors open, and a humidity trend beside the temperature shows what a plain thermometer would miss.",
+          },
+          {
+            question: "What happens to the record if the WiFi at a site drops?",
+            answer:
+              "The logger goes on recording on its battery and keeps the readings, so the gap in connection leaves no gap in the record once the site is online again.",
+          },
+        ],
+        listing: [
+          { slug: "muharraq", text: "The old island town of narrow lanes, sweet shops and bakeries, with dense housing and the airport on the flat ground to its north." },
+          { slug: "hidd", text: "The seaside town at the south-east tip, with fishing boats, a harbour and a warehouse district nearby." },
+          { slug: "arad", text: "A housing town on the south-western shore of the island, with bayside streets, neighbourhood shops and clinics." },
+          { slug: "busaiteen", text: "A town on the northern coast of the island, with a long shore road, family kitchens, shops and boat yards." },
+        ],
+        areaListing: [
+          { slug: "bahrain-international-airport", text: "The island's airport on flat ground north of the old town, described only through the stores, halls and vehicles a logger user might look after." },
+          { slug: "khalifa-bin-salman-port", text: "The harbour area at the south-east tip of the island, covered only through the goods a logger user may keep on quays and in sheds." },
+          { slug: "bahrain-logistics-zone", text: "A warehouse zone beside the south-east harbour, covered only through the pallets, cold rooms and yards a logger user could look after." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "muharraq",
+            name: "Muharraq",
+            type: "city",
+            intro:
+              "Muharraq is the old town of Muharraq Island, a close-built place of narrow lanes, restored family houses, sweet makers, bakeries, markets and busy housing blocks beside the water, and a temperature data logger here serves small kitchens and food stores in buildings that were laid out long before modern cooling. Newer apartment streets and shop rows have grown around the old centre, and the airport sits on flat ground just to the north. The island is linked to Manama by causeways. Summers are long, very hot and humid, winters are mild, and haze and salt arrive from the sea on windy days, so air-conditioning and refrigeration run for most of the year. Enquiries from Muharraq are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "Thick old walls hold heat long after sunset, and the tight lanes keep air still, so a back room never fully cools through a summer night. Salt air corrodes the coils of older fridges, shaded courtyards stay damp, and any unit that sits against a sun-baked wall is working in air much hotter than the street thermometer reads.",
+            areas: [
+              {
+                name: "Sweet makers and bakeries in the old lanes",
+                note: "Producers of traditional sweets keep sugar, nuts, butter and finished trays in small rooms where heat from the ovens and a humid street combine to spoil goods quickly.",
+              },
+              {
+                name: "Family restaurants and takeaway kitchens",
+                note: "Compact kitchens in restored houses keep meat, dairy and prepared dishes in reach-in fridges fitted wherever a wall allowed, often with poor air movement behind them.",
+              },
+              {
+                name: "Pharmacies and clinics among the housing blocks",
+                note: "Neighbourhood pharmacies and health rooms store vaccines, insulin and tablets in domestic-size refrigerators that must hold their range through frequent supply dips.",
+              },
+              {
+                name: "Cold stores for fish and chilled produce",
+                note: "Traders who sell fish, poultry and vegetables to the island's homes keep ice rooms and chillers in lane-side units that open to the street all day.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Sweet makers, bakeries and restaurant kitchens in Muharraq store butter, cream and ready dishes in small units, and a stored record shows which fridge began to drift on a hot evening.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in the old town keep stock to labelled ranges, and a dated trace shows how each refrigerator coped through a long, hot week.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Health centres in Muharraq need to show that vaccines stayed in range, and a phone alert reaches the nurse in charge if a refrigerator warms overnight.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Vans that restock the island's shops make many short stops in the sun, and a logger packed in a crate records what each stop did to the load.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "A slim probe on a short cable slides into a pharmacy fridge or a bakery cooler without disturbing how the unit is loaded.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "One unit reading humidity as well as temperature shows when damp street air has crept into a sweet maker's store.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a restaurant chiller from its lowest shelf to its top shelf and door, revealing which level warms first.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a small sweet maker or bakery in Muharraq use data loggers?",
+                answer:
+                  "Yes. A logger in each cooler or store keeps a continuous record, an alert reaches the owner's phone if a unit warms, and a report can be exported in PDF, Excel or CSV form.",
+              },
+              {
+                question: "Why does an old building need a record rather than a spot reading?",
+                answer:
+                  "Heat held in thick walls changes the temperature of a back room across the day, so a trend line shows swings that one reading taken at noon would miss.",
+              },
+              {
+                question: "How would an enquiry from Muharraq be handled?",
+                answer:
+                  "Name the shop, kitchen or clinic, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable.",
+              },
+              {
+                question: "Is calibration of loggers used in a Muharraq clinic something we can discuss?",
+                answer:
+                  "Yes. VEGA Calibrations, our parent company, looks after calibration; share the model and the range you work to and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "manama", name: "Manama" },
+              { slug: "hidd", name: "Hidd" },
+              { slug: "arad", name: "Arad" },
+            ],
+            metaTitle: "Temperature Data Loggers in Muharraq | Prithvi",
+            metaDescription:
+              "Data loggers for Muharraq's old-town sweet makers, bakeries, pharmacies and fish stores in hot, humid island air. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "hidd",
+            name: "Hidd",
+            type: "city",
+            intro:
+              "Hidd is a seaside town at the south-eastern tip of Muharraq Island, with fishing boats along its shore, family housing, small shops, workshops and a harbour and warehouse district a short way along the coast, and a temperature data logger here serves fish stores, kitchens, clinics and the sheds that feed the area. The air carries salt and moisture from every side, so metal fittings corrode and cartons soften. Summers are long, very hot and humid, winters are mild, and dust and haze drift in from the flat land behind. Hidd page text is limited to the kinds of goods and rooms a logger user may look after. Enquiries from Hidd are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "Standing at the end of the island, Hidd takes the sea air at full strength, so ice melts quickly in open boxes, cold-room doors sweat, and anything left on a quay or a roof is heated and dampened in turn. Workshops and sheds with sheet-metal roofs build up heat through the afternoon and release it slowly after dark, which keeps night-time temperatures inside them well above the street.",
+            areas: [
+              {
+                name: "Fish stores and ice rooms by the shore",
+                note: "Boat crews and fish traders keep ice, whole fish and fillets in insulated boxes and small cold rooms that are opened and refilled many times a day.",
+              },
+              {
+                name: "Family kitchens, groceries and bakeries",
+                note: "Corner groceries and bakeries stock dairy, bread dough and frozen items in domestic-size fridges and chest freezers run hard through summer.",
+              },
+              {
+                name: "Workshops and parts stores near the shore road",
+                note: "Garages, fabricators and parts shops keep adhesives, lubricants and electronic spares in rooms where heat and salt air act on sensitive stock.",
+              },
+              {
+                name: "Warehouse sheds serving the nearby harbour",
+                note: "Sheds close to the south-east harbour hold food, household goods and building supplies under metal roofs that soak up the sun.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Fish traders, grocers and bakeries in Hidd work with products that spoil quickly in heat, and a phone alert tells the owner that an ice room is warming before the catch is affected.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Sheds near the harbour hold goods for several owners, and a logger placed among the pallets gives each owner a record of the heat and damp their stock met.",
+              },
+              {
+                slug: "electronics",
+                sentence:
+                  "Spares and electronic parts stored in sheet-metal workshops can be harmed by heat and damp, and a humidity trend shows when a store needs attention.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies and clinics in Hidd store stock to labelled ranges, and a dated log shows how a refrigerator held up through the hottest weeks.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "A single unit that reads humidity and temperature shows when salt-laden air has crept into a store that looks sound on a thermometer.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A probe on a short cable fits into a clinic fridge or a chest freezer in a grocery without changing how the unit is used.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "A wired option suits a fixed cold room where the owner wants a steady reading from one spot every day of the week.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a fish trader in Hidd use a data logger?",
+                answer:
+                  "Yes. A probe logger in an ice room or insulated box records the temperature all day and night, and a phone alert tells the owner if the unit warms.",
+              },
+              {
+                question: "Why does sea air matter for stored goods?",
+                answer:
+                  "Moisture and salt reach every building at the island's tip, so cartons soften and fittings corrode, and a humidity trend shows conditions that a thermometer alone would not.",
+              },
+              {
+                question: "How would a request from Hidd be handled?",
+                answer:
+                  "Name the business, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what seems practical for the site.",
+              },
+              {
+                question: "Can one login cover a shop and a shed in different places?",
+                answer:
+                  "Yes. Every logger reports to the same dashboard, alerts can go to different people, and one report can cover all the locations.",
+              },
+            ],
+            nearby: [
+              { slug: "muharraq", name: "Muharraq" },
+              { slug: "arad", name: "Arad" },
+              { slug: "manama", name: "Manama" },
+            ],
+            metaTitle: "Temperature Data Loggers in Hidd | Prithvi",
+            metaDescription:
+              "Data loggers for Hidd's fish stores, kitchens, workshops and harbour-side sheds in salty, humid island air. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "arad",
+            name: "Arad",
+            type: "city",
+            intro:
+              "Arad is a housing town on the south-western shore of Muharraq Island, facing a shallow bay, with rows of family houses, neighbourhood shops, bakeries, clinics and school canteens, and a temperature data logger here serves the small stores and kitchens that keep a residential town fed. The airport lies to the north and the capital is reached across the causeways. Streets are broad enough for parked cars on both sides, and ground-floor units hold shop stockrooms and workshops. Summers are long, very hot and humid, winters are mild, and haze and dust drift in from the flat land, so the air-conditioning in every shop, canteen and clinic runs hard from spring to autumn. Evenings stay busy as families shop late, which keeps doors open and compressors working. Enquiries from Arad are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "A shallow bay warms in summer and adds moisture to the evening air, so shops that open late meet damp heat as they cool down for the night. Rooftop condensers on low buildings share the same hot, still air, and compressors on shaded side walls still struggle in the sun-heated lane. Salt from the bay settles on coils and grilles over a season, so a unit that was fine in spring can be quietly losing ground by August, and only a trend record shows that decline before stock is affected. Power dips on the busiest summer evenings add to the strain on older refrigerators.",
+            areas: [
+              {
+                name: "Neighbourhood groceries and supermarkets",
+                note: "Shops serving the housing streets keep milk, yoghurt and frozen food in open cabinets and small walk-in rooms opened hundreds of times a day.",
+              },
+              {
+                name: "School and nursery canteens",
+                note: "Canteens prepare and hold lunches for children and need to show that chilled food stayed in range between the morning kitchen and the midday service.",
+              },
+              {
+                name: "Clinics and dispensaries along the main street",
+                note: "Small medical practices and dispensaries keep vaccines and medicines in domestic-size refrigerators that share circuits with air-conditioning units.",
+              },
+              {
+                name: "Workshop and storeroom units at street level",
+                note: "Little workshops and storerooms below flats keep paints, adhesives and spare electrical parts in rooms with a single window unit for cooling, and the heat of the afternoon sits in those rooms until well after the shutters come down.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Groceries, bakeries and canteens in Arad serve a residential market, and a record from every cooler shows when a unit began to struggle during a heatwave.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Dispensaries and clinics in Arad store stock to labelled ranges, and a stored log shows how each refrigerator behaved through a supply dip.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A phone alert reaches the person on duty in a small clinic if a vaccine fridge drifts in the small hours, which a daytime check would never catch.",
+              },
+              {
+                slug: "electronics",
+                sentence:
+                  "Storerooms of spare parts and appliances below flats benefit from a humidity trend, because stale damp air can harm boxed goods that look sound on a shelf.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "A slim probe on a short cable slips into a grocery cooler or a dispensary fridge without changing how it is loaded.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "One compact unit watching temperature and humidity shows when damp evening air has crept into a storeroom.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a canteen chiller from base to top shelf and door, showing which level warms first at lunchtime.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a school or nursery canteen in Arad use loggers?",
+                answer:
+                  "Yes. A logger in each fridge or hot-holding area provides a time-stamped record that can be exported as a PDF, Excel or CSV file for managers or inspectors.",
+              },
+              {
+                question: "Why is a residential-town grocery hard on cooling equipment?",
+                answer:
+                  "Doors open constantly through long trading hours and evenings stay humid, so compressors rarely rest, and a trend record shows a unit that is slowly losing ground.",
+              },
+              {
+                question: "How would an enquiry from Arad be handled?",
+                answer:
+                  "Name the shop, canteen or clinic, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable.",
+              },
+              {
+                question: "Does a logger keep recording during a power cut?",
+                answer:
+                  "It records on its own battery and keeps the readings, so the hours of an outage are on record once the site is connected again.",
+              },
+            ],
+            nearby: [
+              { slug: "muharraq", name: "Muharraq" },
+              { slug: "manama", name: "Manama" },
+              { slug: "busaiteen", name: "Busaiteen" },
+            ],
+            metaTitle: "Temperature Data Loggers in Arad | Prithvi",
+            metaDescription:
+              "Data loggers for Arad's neighbourhood groceries, canteens, clinics and street-level storerooms in hot, humid air. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "busaiteen",
+            name: "Busaiteen",
+            type: "city",
+            intro:
+              "Busaiteen is a town on the northern coast of Muharraq Island, strung out along a long shore road with family housing behind, and a temperature data logger here serves home kitchens that cook for sale, neighbourhood shops, boat yards, clinics and the small units that supply them. Fishing boats and small craft are kept along the shore, and wide coastal views open between buildings. Summers are long, very hot and humid, winters are mild, and onshore breezes carry salt and haze across the low land, so refrigerators and air-conditioners on the sea side of the town age faster than those inland. Many households run a second freezer on a veranda or in a yard store, and those units work in the warmest, saltiest air of all. Enquiries from Busaiteen are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "Facing open water, the northern shore catches the breeze but also the salt, which eats at condenser coils and door seals, and midsummer evenings stay thick with moisture. A freezer on a breezy veranda may seem to enjoy cool air while its coil quietly fills with dust and salt crust. Boat yards and small craft stores stand open to the weather, so adhesives, resins and electrical fittings go through the same swings as the air. A trend record shows slow decline that a spot check never would, and it shows how the sheds behaved on still, humid nights when the breeze dropped and the heat stayed.",
+            areas: [
+              {
+                name: "Home-based cooks and catering kitchens",
+                note: "Families who cook meals for orders keep meat, rice dishes and desserts in domestic fridges and chest freezers that are loaded to the door in busy weeks.",
+              },
+              {
+                name: "Coastal-road shops and bakeries",
+                note: "Shops along the shore road sell chilled drinks, dairy and bread, and keep surplus in back rooms with only a wall-mounted air-conditioner for cooling.",
+              },
+              {
+                name: "Boat yards and tackle stores",
+                note: "Yards that repair and fit out small craft store resins, adhesives and electrical fittings that react to heat and damp in open sheds.",
+              },
+              {
+                name: "Health rooms and pharmacies",
+                note: "Neighbourhood pharmacies and clinics keep vaccines and medicines in refrigerators that must hold range through supply dips, and a seaside town where many households depend on a handful of practices has little room for a spoiled batch.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Home caterers, bakeries and grocers in Busaiteen hold chilled and frozen stock in small units, and a record from each shows the moment a compressor began to labour.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies on the coast road store stock to labelled ranges, and a dated trace shows how a refrigerator behaved through the hottest weeks.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Boat yards store resins, adhesives and cleaning chemicals that must not overheat, and a temperature log shows how an open shed behaved on a still day.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Vans that carry orders from Busaiteen kitchens spend long periods in the sun, and a logger in the load records what the journey did to the food.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "A probe on a short cable fits into a home-kitchen freezer or a pharmacy fridge without changing how the unit is loaded.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "One unit reading humidity and temperature shows when salt-laden air has crept into a shed or storeroom.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "A wired option suits a fixed cold room where the owner wants a steady reading from the same spot each day.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a home-based caterer use a data logger?",
+                answer:
+                  "Yes. A logger in each fridge or freezer keeps a time-stamped record, which can be exported and shown to a customer or an inspector who asks how food was kept.",
+              },
+              {
+                question: "Why does a shore-road shop need a humidity reading?",
+                answer:
+                  "Sea air carries moisture into back rooms, softening cartons and dry goods, so a humidity trend shows conditions that a thermometer alone would not.",
+              },
+              {
+                question: "How would a request from Busaiteen be handled?",
+                answer:
+                  "Name the business, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what seems suitable.",
+              },
+              {
+                question: "Can chemicals in a boat-yard shed be monitored?",
+                answer:
+                  "A logger in the store records the shed's temperature and humidity day and night, so the owner can check whether materials stayed within the range the label asks for.",
+              },
+            ],
+            nearby: [
+              { slug: "muharraq", name: "Muharraq" },
+              { slug: "arad", name: "Arad" },
+              { slug: "manama", name: "Manama" },
+            ],
+            metaTitle: "Temperature Data Loggers in Busaiteen | Prithvi",
+            metaDescription:
+              "Data loggers for Busaiteen's home kitchens, shore-road shops, boat-yard stores and pharmacies in salty, humid air. Get Solution.",
             indexable: true,
           },
         ],
