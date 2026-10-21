@@ -23828,7 +23828,7 @@ export const locations: LegacyLocationNode[] = [
       {
         question: "Which parts of Oman have a page?",
         answer:
-          "Muscat Governorate has its own page, with the cities of Muscat and Muttrah and their districts beneath it. If your site is somewhere else, write to us through the enquiry form, Call or WhatsApp with what you store, and we answer with what looks suitable.",
+          "Muscat Governorate has its own page, with the cities of Muscat, Muttrah, Seeb, Bawshar and Quriyat and their districts beneath it. If your site is somewhere else, write to us through the enquiry form, Call or WhatsApp with what you store, and we answer with what looks suitable.",
       },
       {
         question: "How are loggers set up for a site far from a main city?",
@@ -23858,14 +23858,14 @@ export const locations: LegacyLocationNode[] = [
           "Port-side and industrial warehousing",
           "Markets, fish and food trade",
         ],
-        citiesServed: ["Muscat","Muttrah"],
+        citiesServed: ["Muscat","Muttrah","Seeb","Bawshar","Quriyat"],
         supportNote:
           "Enquiries from Muscat Governorate are handled through the enquiry form, Call or WhatsApp. Say which district, which rooms and how they are cooled, and our reply covers what seems suitable on site.",
         faqs: [
           {
             question: "Which places in Muscat Governorate have a page?",
             answer:
-              "Muscat and Muttrah each have a city page. Al Khuwair, Al Ghubra and Ghala Industrial Area have area pages under Muscat, and Sultan Qaboos Port Muttrah has an area page under Muttrah. Another district can be raised through the enquiry form.",
+              "Muscat, Muttrah, Seeb, Bawshar and Quriyat each have a city page. Al Khuwair, Al Ghubra and Ghala Industrial Area have area pages under Muscat, Sultan Qaboos Port Muttrah has one under Muttrah, and Muscat International Airport has one under Seeb. Another place can be raised through the enquiry form.",
           },
           {
             question: "Why does storm water matter when choosing a mounting spot?",
@@ -23881,12 +23881,16 @@ export const locations: LegacyLocationNode[] = [
         listing: [
           { slug: "muscat", text: "A harbour capital between rocky hills and the sea, with hospitals, universities, offices, hotels and industrial districts, in long, hot, humid summers." },
           { slug: "muttrah", text: "An old harbour town with a corniche, a covered market, a fish market and a commercial port, in hot, damp sea air." },
+          { slug: "seeb", text: "A coastal city north-west of the capital with a fishing harbour, beaches, farms behind the shore, growing suburbs and the airport." },
+          { slug: "bawshar", text: "A sprawling suburb behind the coast with homes, malls, clinics and schools, and a belt of sand dunes at its edge, in hot, dry heat." },
+          { slug: "quriyat", text: "A fishing town on the south-eastern coast beneath the mountains, with a harbour, date palms, a dam in the valley behind and damp sea air." },
         ],
         areaListing: [
           { slug: "al-khuwair", text: "A busy district of offices, hotels, restaurants, shops and clinics near the capital's main roads." },
           { slug: "al-ghubra", text: "A residential and commercial district with shops, clinics, schools and restaurants close to the coast." },
           { slug: "ghala-industrial-area", text: "An industrial area with workshops, warehouses, light factories and building-material yards." },
           { slug: "sultan-qaboos-port-muttrah", text: "The commercial port at Muttrah, where food, supplies and general goods wait on quays and in sheds in warm, damp air." },
+          { slug: "muscat-international-airport", text: "The airport on the north-western side of the capital region, where medicines, food and parcels wait between aircraft and onward vehicles." },
         ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,
@@ -24082,6 +24086,296 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Muttrah | Prithvi",
             metaDescription:
               "Data loggers for Muttrah's fish ice stores, covered-market stock rooms, port-side sheds and clinics in damp harbour heat. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "seeb",
+            name: "Seeb",
+            type: "city",
+            intro:
+              "Seeb is a coastal city to the north-west of Muscat, a long strip of beaches, fishing harbours and growing suburbs on the Gulf of Oman with farms and low hills behind, and a temperature data logger here serves a place of food stores, clinics, workshops and a busy airport district in hot, humid sea air. Fishing boats land their catch on the shore, date palms and small farms grow on the plain inland, and new housing, schools and shopping streets spread along the coast road. A university campus and hospitals draw people from across the capital region. Summers are long and very hot, and the evening breeze along the shore brings families out to the promenades. Enquiries from Seeb are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The coast is hot and damp through the long summer, salt reaches every shed and cold box, and the plain behind is dry and dusty, so shop coolers, fish rooms and clinic refrigerators work against the weather for months. A cold room that loses power on an August afternoon warms fast, and the odd storm sends water down dry valleys onto low-lying streets.",
+            areas: [
+              {
+                name: "Fishing beaches, the harbour and ice stores",
+                note: "Boats land the catch on the beach and at the harbour, where ice stores and cold boxes hold it through the hottest part of the day in salty air.",
+              },
+              {
+                name: "Supermarkets, bakeries and restaurants",
+                note: "Shops and restaurants along the coast road keep chillers, freezers and display cabinets that are opened constantly through the day.",
+              },
+              {
+                name: "Clinics, hospitals and pharmacies",
+                note: "Hospitals, clinics and pharmacies serving the growing suburbs hold vaccines and medicines in refrigerators that must stay in range through power dips.",
+              },
+              {
+                name: "Farms, date stores and workshops inland",
+                note: "Farms and workshops on the plain behind the coast keep dates, produce and parts in sheds that heat up fast under the summer sun.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Fish sellers, bakeries, supermarkets and date traders in Seeb hold goods that spoil or soften in coastal heat, and a record from each ice store shows when a cold box began to warm.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Seeb hospitals and clinics hold vaccines to strict ranges, and a phone alert reaches whoever is on duty if a refrigerator warms in the small hours.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Seeb keep stock to labelled ranges, and a dated log shows how a room behaved through the hottest weeks and any power cut.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods brought to Seeb wait in vehicles and storerooms before use, and a logger tucked into a load records the heat and humidity each lot met.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels follow a fish room from its entrance to its back wall, showing whether the cold reaches the last boxes.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short lead fits a clinic or shop refrigerator in Seeb and leaves daily routines unchanged.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a date store or a bakery pantry at floor, shelf and door height, showing which level warms first.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Seeb fish seller or date trader use a temperature record?",
+                answer:
+                  "A logger in the ice store or the date room keeps a day-and-night record, and a report for the dates of one lot can be saved as a PDF, Excel or CSV file for a buyer.",
+              },
+              {
+                question: "Why would a coastal strip with a dry plain behind it want a humidity reading?",
+                answer:
+                  "Salty damp air hugs the shore while the plain behind is dry, so stores swing between the two, and a humidity trend beside the temperature shows when a room took on moisture.",
+              },
+              {
+                question: "How would an enquiry from Seeb be handled?",
+                answer:
+                  "Give the shop, clinic or store, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Seeb.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Seeb clinics?",
+                answer:
+                  "Calibration of loggers and probes for Seeb clinics is looked after by VEGA Calibrations, our parent company; share the model and the range and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "muscat", name: "Muscat" },
+              { slug: "muttrah", name: "Muttrah" },
+              { slug: "bawshar", name: "Bawshar" },
+            ],
+            metaTitle: "Temperature Data Loggers in Seeb | Prithvi",
+            metaDescription:
+              "Data loggers for Seeb's harbour ice stores, date rooms, bakeries, clinics and airport-district stores on the hot, humid coast. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "bawshar",
+            name: "Bawshar",
+            type: "city",
+            intro:
+              "Bawshar is a sprawling suburb behind the coast of the capital region, where homes, schools, clinics and shopping streets spread across a wide plain between the mountains and a belt of pale sand dunes, and a temperature data logger here serves a place of supermarkets, bakeries, pharmacies and workshops in hot, dry heat. Neighbourhood malls and parades sell food and household goods, family clinics and care centres serve the housing blocks, and workshops and storage yards line the busier roads. Summers are long and very hot, nights stay warm, and dust blows in from the dunes in some seasons, while the evenings bring families out to the parks and playgrounds between the housing blocks. Enquiries from Bawshar are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The suburb sits away from the shore, so the air is drier than at the harbour but summer heat is just as fierce, and the dunes at its edge send sand across streets and into vents. Rocky slopes hold the sun's heat well into the night, vehicles parked on wide roads reach far higher temperatures than the shaded air, and a refrigerator that loses power on a summer afternoon warms quickly. Roads are wide and shops are spread out, so a failed cooler in a corner parade can go unnoticed until the next morning.",
+            areas: [
+              {
+                name: "Supermarkets and neighbourhood groceries",
+                note: "Supermarkets and groceries serve whole blocks of homes from display coolers and cold rooms that are opened constantly through the day.",
+              },
+              {
+                name: "Pharmacies, clinics and care centres",
+                note: "Pharmacies, family clinics and care centres hold vaccines, insulin and medicines in refrigerators that must hold a range through power interruptions.",
+              },
+              {
+                name: "Bakeries and restaurants",
+                note: "Bakeries and restaurants keep chillers and freezers in back rooms that share heat with ovens and fryers.",
+              },
+              {
+                name: "Workshops and yards on the main roads",
+                note: "Workshops and small storage yards hold parts, tools and household goods under metal roofs that heat up quickly in the sun.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Supermarkets, bakeries and restaurants in Bawshar hold chilled and frozen goods that spoil in heat, and a log from each cooler shows when a unit began to drift.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Bawshar store medicines to labelled ranges, and a dated record shows how a room behaved through the hottest weeks and any outage.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Clinics and care centres in Bawshar hold vaccines to strict ranges, and a phone alert reaches the person responsible if a refrigerator warms overnight.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Yards along the busier roads hold goods for owners elsewhere, and a reading for each bay shows how long a lot stood in warm air before it was collected.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a dry store or a bakery pantry, where steady, cool air keeps the contents sound.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single probe on a short cable fits a pharmacy or clinic refrigerator in Bawshar and leaves the way staff use the unit unchanged.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels set along a long yard shed show which section is warmest under the roof, all in a single report.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a small Bawshar pharmacy or shop use a single logger?",
+                answer:
+                  "Yes. One logger with a phone alert can watch a lone refrigerator as long as a router is within reach, and more points can be added to the same account later.",
+              },
+              {
+                question: "Does dune sand matter for where a logger is fixed in Bawshar?",
+                answer:
+                  "Fine sand settles on anything left open or near a vent, so a logger is fixed on a shaded inner wall away from the door, with a battery that keeps the record running through a power cut.",
+              },
+              {
+                question: "How would an enquiry from Bawshar be handled?",
+                answer:
+                  "Give the shop, clinic or yard, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Bawshar.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Bawshar clinics?",
+                answer:
+                  "Calibration of loggers and probes for Bawshar clinics is looked after by VEGA Calibrations, our parent company; share the model and range and we explain the options.",
+              },
+            ],
+            nearby: [
+              { slug: "muscat", name: "Muscat" },
+              { slug: "seeb", name: "Seeb" },
+              { slug: "muttrah", name: "Muttrah" },
+            ],
+            metaTitle: "Temperature Data Loggers in Bawshar | Prithvi",
+            metaDescription:
+              "Data loggers for Bawshar's supermarkets, bakeries, pharmacies, clinics and workshops in hot, dry heat beside the dunes. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "quriyat",
+            name: "Quriyat",
+            type: "city",
+            intro:
+              "Quriyat is a fishing town on the south-eastern coast of the capital region, set in a bay beneath steep mountains with a valley and a dam behind, and a temperature data logger here serves a small place of fishing boats, date palms, shops and clinics in damp sea air. Boats land their catch at a harbour and on the beach, date palms and small gardens grow along the valley, and shops sell food and household goods to the town and the villages in the hills. A clinic and pharmacies serve the district. Summers are long, hot and humid, and winter days are mild, with the pace of life set by the tide and the morning landing of fish. Enquiries from Quriyat are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The bay is hot and very humid through the long summer, salt reaches every shed and cold box, and the mountains close behind bring sudden heavy rain that runs down the valley and can reach low rooms and cut the power. A small town far from the larger suppliers can wait hours for a repair, so ice rooms and clinic refrigerators depend on a warning arriving in time.",
+            areas: [
+              {
+                name: "The fishing harbour and ice boxes",
+                note: "Boats land the catch at the harbour and on the sand, where ice boxes and small cold rooms hold it for the market in damp, salty air.",
+              },
+              {
+                name: "Date palms and garden stores",
+                note: "Growers along the valley keep dates and vegetables in sheds and cool rooms among the palms, where heat after harvest and storm damp both threaten the crop.",
+              },
+              {
+                name: "Shops, groceries and cafes",
+                note: "Shops and cafes sell drinks, dairy goods and packaged food from coolers that are opened constantly through the day.",
+              },
+              {
+                name: "Clinic, pharmacies and hill-village supplies",
+                note: "A clinic and pharmacies hold vaccines and medicines for the town and its hill villages in refrigerators that must survive power interruptions.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Quriyat fish sellers, date growers and grocers hold goods that spoil fast in coastal heat, and a log from each ice box or cooler shows when it began to warm.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The Quriyat clinic holds vaccines for the town and the hill villages, and a phone alert reaches the person on duty if a refrigerator warms.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Quriyat keep stock in rooms with labelled ranges, and a dated record shows how a room behaved through the hottest weeks and any storm outage.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Supplies reach Quriyat by road along the coast, and a logger placed in a load records how long it stood in a vehicle in the sun before reaching a small store.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a cafe pantry or a date shed at several heights and by the door, showing which level warms first.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable fits a shop or clinic refrigerator in Quriyat and leaves the way the unit is used unchanged.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reading temperature and humidity at a single point suits a dry store on the bay shore, where creeping damp does the harm.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can one logger watch a single refrigerator in a Quriyat shop?",
+                answer:
+                  "Yes. One logger with a phone alert can keep an eye on a single refrigerator in a Quriyat shop, provided a router is near, and the same account can take extra points as the shop grows.",
+              },
+              {
+                question: "Why does a small fishing town benefit from a phone alert?",
+                answer:
+                  "An engineer may be a long drive away, so an early warning about a drifting ice box lets the family move the catch while it is still good, instead of finding the loss the next day.",
+              },
+              {
+                question: "How would an enquiry from Quriyat be handled?",
+                answer:
+                  "Give the place, what you store and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Quriyat.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Quriyat clinics?",
+                answer:
+                  "Calibration of loggers and probes for Quriyat clinics is looked after by VEGA Calibrations, our parent company; share the model and the range and we explain the choices.",
+              },
+            ],
+            nearby: [
+              { slug: "muscat", name: "Muscat" },
+              { slug: "muttrah", name: "Muttrah" },
+            ],
+            metaTitle: "Temperature Data Loggers in Quriyat | Prithvi",
+            metaDescription:
+              "Data loggers for Quriyat's harbour ice boxes, date sheds, shops and clinic beneath the mountains on the south-eastern coast. Get Solution.",
             indexable: true,
           },
         ],

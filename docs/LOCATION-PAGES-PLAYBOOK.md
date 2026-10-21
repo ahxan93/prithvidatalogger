@@ -420,6 +420,10 @@
 | Al Ghubra (`al-ghubra`, area of Muscat) | Oman | Clinics and pharmacies, groceries, restaurants and bakeries, shop stockrooms | Medicines, food, clinics | Hot, humid | Al Khuwair |
 | Ghala Industrial Area (`ghala-industrial-area`, area of Muscat) | Oman | Light factories, paint and chemical stores, warehouses and building-material yards, garages | Chemicals, logistics, food | Extreme summer heat | none |
 | Sultan Qaboos Port Muttrah (`sultan-qaboos-port-muttrah`, area of Muttrah) | Oman | Quayside sheds, chilled rooms and refrigerated boxes, warehouses, vehicles (described generally, no operating status) | Logistics, food, medicines | Hot, damp, salty | none |
+| Seeb (`seeb`, city, Muscat Governorate) | Oman | Fishing harbour and ice stores, supermarkets and bakeries, clinics and pharmacies, date stores and workshops | Food, medicines, logistics | Hot, damp coast with a dry plain behind | Muscat, Muttrah, Bawshar |
+| Bawshar (`bawshar`, city, Muscat Governorate) | Oman | Supermarkets and groceries, pharmacies and clinics, bakeries and restaurants, workshop yards | Food, medicines, logistics | Hot, dry suburb beside dunes | Muscat, Seeb, Muttrah |
+| Quriyat (`quriyat`, city, Muscat Governorate) | Oman | Harbour ice boxes, date and garden sheds, shops and cafes, clinic and pharmacies | Food, medicines, logistics | Hot, humid bay; storm water | Muscat, Muttrah |
+| Muscat International Airport (`muscat-international-airport`, area of Seeb) | Oman | Cargo sheds, medicine cold rooms, catering stores, vehicles (described generally, no flight or cargo status) | Medicines, logistics, food | Hot, humid | none |
 | Jazan Economic City (`jazan-economic-city`, area of Jazan) | Saudi Arabia | Plant chemical and drum stores, spares warehouses and contractor yards, port yards, camp kitchens and clinics | Chemical stores, contract warehousing, camp catering | Extreme heat and humidity, salty air | none |
 | Jeddah (`jeddah`) | Saudi Arabia | Industrial and port logistics zones | Port logistics, food import cold chain, hospitals | Hot, humid coastal | Riyadh, Dammam |
 | Dammam (`dammam`) | Saudi Arabia | Industrial and port logistics zones | Industrial & chemical, port logistics, food | Hot, humid Gulf coast | Riyadh, Bahrain, Jeddah |
@@ -723,3 +727,6 @@ industrial-estate pages say nothing about operating status, traffic, capacity, p
 Oman Batch 1 (Muscat Governorate): hub, Muscat, Muttrah and the areas Al Khuwair, Al Ghubra and Ghala Industrial Area (attached to Muscat as the nearest
 confident city, with no wilayat statement) and Sultan Qaboos Port Muttrah (under Muttrah). The Oman country hub text was rewritten to drop the old
 "quote from India" and "dispatch" wording.
+
+Oman Batch 2 (Muscat Governorate): Seeb, Bawshar and Quriyat added, plus Muscat International Airport (under Seeb). Not built: Al Amerat (too few confident,
+distinguishing local facts), Rusayl Industrial Estate and Knowledge Oasis Muscat (not confident which city they belong to).
