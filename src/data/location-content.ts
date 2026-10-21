@@ -258,6 +258,16 @@ export const locationContent: Record<string, LocationContent> = {
       "Data loggers for Umm Salal Municipality: Umm Salal's farm sheds, shops, clinics and workshops in hot, dry summers. Get Solution.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
+  "qatar/al-shamal-municipality": {
+    metaDescription:
+      "Data loggers for Al Shamal Municipality: Al Shamal's harbour ice stores, farm sheds, supermarkets and clinics on the northern coast. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+  },
+  "qatar/al-shahaniya-municipality": {
+    metaDescription:
+      "Data loggers for Al Shahaniya Municipality: Al Shahaniya's farm sheds, Dukhan's town and the Dukhan Industrial Area storage. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+  },
   "qatar/doha-municipality": {
     metaDescription:
       "Data loggers for Doha Municipality: Doha city, West Bay, Al Sadd, Msheireb and The Pearl-Qatar kitchens, clinics and stores. Get Solution.",

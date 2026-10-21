@@ -22176,7 +22176,7 @@ export const locations: LegacyLocationNode[] = [
       {
         question: "Which parts of Qatar have a page?",
         answer:
-          "Doha, Al Rayyan, Al Wakrah, Al Khor and Al Thakhira, Al Daayen and Umm Salal municipalities have their own pages, each with cities and districts beneath them. For another place, send the site and what you store through the enquiry form, Call or WhatsApp, and we reply with what looks suitable.",
+          "Doha, Al Rayyan, Al Wakrah, Al Khor and Al Thakhira, Al Daayen, Umm Salal, Al Shamal and Al Shahaniya municipalities have their own pages, each with cities and districts beneath them. For another place, send the site and what you store through the enquiry form, Call or WhatsApp, and we reply with what looks suitable.",
       },
       {
         question: "How is monitoring set up for a Qatar site?",
@@ -22196,6 +22196,8 @@ export const locations: LegacyLocationNode[] = [
       { slug: "al-khor-and-al-thakhira-municipality", text: "The municipality on the north-east coast, with a creek-side fishing town, mangrove shallows and a headland industrial city, in hot, humid summers and salt air." },
       { slug: "al-daayen-municipality", text: "The municipality along the coast north of the capital, with a planned waterfront city of towers and marinas and a northern suburb of villas, schools and farms, in hot, humid summers." },
       { slug: "umm-salal-municipality", text: "The municipality north of the capital, with a historic fort town, farms, villas and open land, in hot, dry summers and blowing dust." },
+      { slug: "al-shamal-municipality", text: "The municipality on the northern tip of the peninsula, with a planned coastal city, fishing harbours, farms and beaches, in hot, humid summers." },
+      { slug: "al-shahaniya-municipality", text: "The municipality of the central and western desert, with a farming and camel-keeping town and a west-coast town beside the dunes, in hot, dry summers and blowing dust." },
     ],
     indexable: true,
     children: [
@@ -23427,6 +23429,380 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Umm Salal | Prithvi",
             metaDescription:
               "Data loggers for Umm Salal's farm sheds, bakeries, shops, clinics and workshops in hot, dry heat and blowing dust. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "al-shamal-municipality",
+        name: "Al Shamal Municipality",
+        type: "state",
+        intro:
+          "Al Shamal Municipality occupies the northern tip of the Qatari peninsula, a flat limestone coast where fishing harbours, farms, beaches and small settlements look out over shallow, clear water. Al Shamal itself is a planned coastal city built around a broad central avenue, with housing, schools, shops and a hospital, while old forts and archaeological remains stand a short drive along the shore. Fishing boats go out from several small harbours, and irrigated farms grow vegetables and fodder inland. Summers are long, very hot and humid on the coast, winters mild and breezy, and dust blows in from the desert. Fish, food and medicines wait in cold boxes and clinics in such heat. The page below describes the city and the rooms where a temperature record would help.",
+        localIndustries: [
+          "Fish landing and ice stores",
+          "Farm produce and fodder",
+          "Clinics, pharmacies and care centres",
+          "Supermarkets and neighbourhood shops",
+        ],
+        citiesServed: ["Al Shamal"],
+        supportNote:
+          "Enquiries from Al Shamal Municipality are handled through the enquiry form, Call or WhatsApp. Say which town, which rooms and how they are cooled, and our reply covers what seems suitable here.",
+        faqs: [
+          {
+            question: "Which places in Al Shamal Municipality have a page?",
+            answer:
+              "Al Shamal has a city page. Another place in the municipality can be raised through the enquiry form, and further pages follow only when they can be written from confident facts.",
+          },
+          {
+            question: "Why does a far-north fishing coast want phone alerts?",
+            answer:
+              "The nearest large supplier is a long drive away, so a warning that an ice room is drifting lets staff move stock or fix the unit while it can still be saved, instead of finding the loss in the morning.",
+          },
+          {
+            question: "Can a harbour ice store use a battery logger?",
+            answer:
+              "Yes. A probe logger runs on its own battery and keeps its readings in memory, so a store with unreliable power still has a record, though a WiFi unit needs a router with power.",
+          },
+        ],
+        listing: [
+          { slug: "al-shamal", text: "A planned coastal city at the northern tip of the peninsula, with fishing harbours, farms, beaches and a hospital, in hot, humid summers." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "al-shamal",
+            name: "Al Shamal",
+            type: "city",
+            intro:
+              "Al Shamal is a planned coastal city at the northern tip of the Qatari peninsula, laid out around a broad central avenue with housing, schools, shops and a hospital, and a temperature data logger here serves a place of fishing harbours, farms and beaches in hot, humid sea air. Fishing boats go out from nearby harbours each morning and land their catch at small quays, irrigated farms grow vegetables and fodder inland, and old forts and archaeological remains stand along the coast. Family neighbourhoods are quiet, roads are wide and distances between shops are long. Summer afternoons are far beyond comfortable, and in the cooler months visitors come to walk the shore and the old fort sites. Enquiries from Al Shamal are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The far north is exposed, so summer sun and salt air strike every shed, the shallow sea keeps the coast humid, and dust and sandy wind blow in from the plain behind, so ice stores, shop coolers and clinic refrigerators work against the weather for months. A cold box on a harbour quay that loses power in the afternoon warms quickly, and long distances to the next supplier mean a failed unit costs more than it would in a city.",
+            areas: [
+              {
+                name: "Harbour quays and ice stores",
+                note: "Boats land the catch at small harbours, where ice stores and cold boxes hold it through the hottest part of the day in damp, salty air.",
+              },
+              {
+                name: "Irrigated farms and produce sheds",
+                note: "Growers of vegetables and fodder keep produce in sheds and small cool rooms, where heat after picking and wind-blown dust threaten quality.",
+              },
+              {
+                name: "Supermarkets, bakeries and restaurants",
+                note: "Supermarkets, bakeries and restaurants serve the neighbourhoods from display coolers and cold rooms opened constantly through the day.",
+              },
+              {
+                name: "Hospital, clinics and pharmacies",
+                note: "A hospital, clinics and pharmacies hold vaccines and medicines for a scattered population in refrigerators that must hold their range through power interruptions.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Fish sellers, farmers, bakeries and supermarkets in Al Shamal hold goods that spoil quickly in coastal heat, and a record from each cold box shows when it began to warm.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The hospital and clinics of Al Shamal hold vaccines for villages spread along the northern coast, and a phone alert reaches the person on duty if a refrigerator warms.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Al Shamal keep stock to labelled ranges, and a dated record shows how a room behaved through the hottest weeks and any outage.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Supplies reach Al Shamal over long roads, and a logger placed in a load records how long it stood in a vehicle in the sun before reaching a small store.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels follow a harbour ice store from its door to its rear wall, showing whether the cold reaches the last boxes.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short lead slips into a clinic or shop refrigerator in Al Shamal and leaves daily routines unchanged.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a farm shed or a bakery pantry at floor, shelf and door height, showing which level warms first.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can an Al Shamal fish seller keep a record of an ice store?",
+                answer:
+                  "Yes. A probe logger in the store keeps a day-and-night record, and a report for the dates of one lot can be saved as a PDF, Excel or CSV file for a buyer.",
+              },
+              {
+                question: "Why does a far-north town want a phone alert?",
+                answer:
+                  "The next supplier is a long drive away, so a warning that a cooler is drifting lets staff act while the stock can still be saved.",
+              },
+              {
+                question: "How would an enquiry from Al Shamal be handled?",
+                answer:
+                  "Give the harbour store, farm, shop or clinic, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Al Shamal.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Al Shamal clinics?",
+                answer:
+                  "Calibration of loggers and probes for Al Shamal clinics is looked after by VEGA Calibrations, our parent company; share the model and range and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "al-khor", name: "Al Khor" },
+              { slug: "umm-salal", name: "Umm Salal" },
+            ],
+            metaTitle: "Temperature Data Loggers in Al Shamal | Prithvi",
+            metaDescription:
+              "Data loggers for Al Shamal's harbour ice stores, farm sheds, supermarkets and clinics on the far northern coast. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "al-shahaniya-municipality",
+        name: "Al Shahaniya Municipality",
+        type: "state",
+        intro:
+          "Al Shahaniya Municipality covers a broad swathe of the central and western desert of Qatar, from open gravel plains and farms to a long stretch of west-coast shore with dunes and limestone cliffs. Al Shahaniya is a desert town of farms, camel stables, villas and workshops, while Dukhan lies on the west coast, a town of housing, a hospital and shops beside the sea with an industrial area on its edge. Summers are long, very hot and dry inland, humid on the west coast, winters mild, and dust and sandstorms blow through in some seasons. Food, animal feed, medicines and materials wait in sheds and warehouses in such heat. The pages below describe the two towns and the Dukhan Industrial Area.",
+        localIndustries: [
+          "Farm produce, animal feed and veterinary supplies",
+          "Clinics, pharmacies and care centres",
+          "Warehouses and workshops",
+          "Supermarkets and neighbourhood shops",
+        ],
+        citiesServed: ["Al Shahaniya","Dukhan"],
+        supportNote:
+          "Enquiries from Al Shahaniya Municipality are handled through the enquiry form, Call or WhatsApp. Name the town, the rooms to be watched and how they are cooled, and we reply with what looks suitable for the site.",
+        faqs: [
+          {
+            question: "Which places in Al Shahaniya Municipality have a page?",
+            answer:
+              "Al Shahaniya and Dukhan each have a city page, and the Dukhan Industrial Area has an area page under Dukhan. Another place in the municipality can be raised through the enquiry form.",
+          },
+          {
+            question: "Why does a desert farm want a logger in the load as well as in the store?",
+            answer:
+              "Feed, produce and veterinary supplies ride long roads in vehicles that heat up in the sun, so a logger packed with the goods shows how hot the load became before it reached a shed.",
+          },
+          {
+            question: "Does fine sand harm a logger?",
+            answer:
+              "Sand settles on anything left open, so a logger is fixed on a shaded inner wall away from vents and doors, and its battery keeps the record running through a power cut.",
+          },
+        ],
+        listing: [
+          { slug: "al-shahaniya", text: "A desert town of farms, camel stables, villas and workshops in the central plains, in very hot, dry summers and blowing sand." },
+          { slug: "dukhan", text: "A west-coast town of housing, a hospital and shops beside dunes and limestone cliffs, with an industrial area on its edge." },
+        ],
+        areaListing: [
+          { slug: "dukhan-industrial-area", text: "The industrial area on the edge of Dukhan, with workshops, warehouses, parts stores and yards." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "al-shahaniya",
+            name: "Al Shahaniya",
+            type: "city",
+            intro:
+              "Al Shahaniya is a desert town in the open plains west of Doha, and a temperature data logger here serves a place of farms, camel stables, villas, workshops and neighbourhood shops in very hot, dry heat. Irrigated farms stand in green patches amid gravel and sand, stables and enclosures keep camels and other animals that need feed and veterinary supplies, and long straight roads link the town with the capital and the coast. A clinic and pharmacies serve the families who live there. Summers are fierce, winter nights can be cool, and dust and sandstorms blow through in some seasons. Families come out to the desert in the cooler months, and farm shops sell produce beside the roads. Enquiries from Al Shahaniya are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The inland air is very dry, daytime heat is fierce and the sun is relentless, winter nights can turn cool, and dust and sandstorms sweep across the plain, so farm sheds, feed stores and shop coolers all work against the desert for months. Open-sided sheds heat directly under the sun, veterinary medicines and dairy produce suffer quickly, and vehicles standing on the long roads reach far higher temperatures than the shaded air.",
+            areas: [
+              {
+                name: "Farm sheds and produce stores",
+                note: "Farmers store vegetables, fodder and dairy produce in sheds open on one side and in small cool rooms, where the heat of the day and drifting sand threaten quality.",
+              },
+              {
+                name: "Feed stores and veterinary supplies",
+                note: "Stables and farms keep animal feed, supplements and veterinary medicines in sheds and refrigerators that must stay within a range in desert heat.",
+              },
+              {
+                name: "Neighbourhood shops and bakeries",
+                note: "Shops, groceries and bakeries serve family streets from display coolers and cold rooms opened constantly through the day.",
+              },
+              {
+                name: "Clinics and pharmacies",
+                note: "A clinic and pharmacies serving the town and its farms hold vaccines and medicines in refrigerators that must hold their range through power dips.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Farms, bakeries and shops in Al Shahaniya hold produce and chilled goods that spoil in heat, and a log from each cooler shows a buyer how a lot was kept after harvest.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies and veterinary suppliers in Al Shahaniya keep stock to labelled ranges, and a dated record shows how a room behaved through the hottest weeks and any outage.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The clinic serving Al Shahaniya holds vaccines to strict ranges, and a phone alert reaches the person responsible if a refrigerator warms overnight.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods brought to Al Shahaniya wait in vehicles and sheds before use, and a logger placed in a load records the heat and humidity each lot met.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at a single point suit a feed store or a produce shed, where steady, cool air keeps the contents sound.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single probe on a short lead fits a clinic or veterinary refrigerator in Al Shahaniya and leaves daily routines unchanged.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels spread through a long storage shed show which bay runs hottest beneath the roof, in one report.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a desert farm use a temperature record for its produce and feed?",
+                answer:
+                  "A logger in the shed or cool room records temperature and humidity through the season, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for a buyer or a supplier.",
+              },
+              {
+                question: "Why shade a logger on an open-sided shed?",
+                answer:
+                  "A logger in direct sun reads the heat of its own case, so it is fixed on a shaded inner wall among the goods, with a battery that keeps the record running through a power cut.",
+              },
+              {
+                question: "How would an enquiry from Al Shahaniya be handled?",
+                answer:
+                  "Give the farm, stable, shop or clinic, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Al Shahaniya.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Al Shahaniya clinics?",
+                answer:
+                  "Calibration of loggers and probes for Al Shahaniya clinics is looked after by VEGA Calibrations, our parent company; share the model and range and we explain the options.",
+              },
+            ],
+            nearby: [
+              { slug: "dukhan", name: "Dukhan" },
+              { slug: "al-rayyan", name: "Al Rayyan" },
+              { slug: "doha", name: "Doha" },
+              { slug: "umm-salal", name: "Umm Salal" },
+            ],
+            metaTitle: "Temperature Data Loggers in Al Shahaniya | Prithvi",
+            metaDescription:
+              "Data loggers for Al Shahaniya's desert farm sheds, feed stores, shops and clinics in very hot, dry heat and blowing sand. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "dukhan",
+            name: "Dukhan",
+            type: "city",
+            intro:
+              "Dukhan is a town on the west coast of Qatar, set between dunes and low limestone cliffs facing the sea, and a temperature data logger here serves a place of housing, a hospital, shops and workshops in hot, humid sea air and dry desert heat. The town was laid out with neat streets, schools and a shopping centre, an industrial area stands on its edge, and beaches and dunes draw visitors in the cooler months. A hospital and clinics serve the community. Summers are long and fierce, the sea air is damp, and sand blows in from the dunes behind. The cooler months bring campers and day visitors to the dunes, and the town fills with cars at weekends. Enquiries from Dukhan are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The west coast is hot through the long summer, damp near the water and dry inland behind the dunes, and sandy winds blow in often, so shop coolers, clinic refrigerators and warehouse sheds work against heat, salt and dust in turn. Metal-roofed sheds without cooling reach extreme temperatures, and a refrigerator that fails in a quiet street can lose its contents before anyone notices. The industrial area on the edge of town and the housing streets are far apart, so stock held in one is not easily replaced from the other, and a warning on a phone is worth more than a morning round.",
+            areas: [
+              {
+                name: "Supermarkets, bakeries and restaurants",
+                note: "Shops and restaurants serving the town run walk-in coolers, freezers and display cabinets that are opened constantly through the day.",
+              },
+              {
+                name: "The hospital, clinics and pharmacies",
+                note: "The town's hospital, clinics and pharmacies keep vaccines, insulin and medicines in refrigerators that must stay in range when the power dips.",
+              },
+              {
+                name: "Workshops and warehouses on the edge of town",
+                note: "Workshops and warehouses hold parts, tools and household goods under metal roofs that heat up quickly in the summer sun.",
+              },
+              {
+                name: "Beach cafes and visitor facilities",
+                note: "Cafes and facilities near the beaches run coolers and freezers through weekends in the cooler months, in salty air.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Supermarkets, bakeries and cafes in Dukhan hold chilled goods that spoil in heat, and a log from each cooler shows when a unit began to drift.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The hospital and clinics of Dukhan hold vaccines to strict ranges, and a phone alert reaches the person on duty if a refrigerator warms in the night.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Dukhan store medicines to labelled ranges, and a dated record shows how a room behaved through the hottest weeks and any outage.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Warehouses on the edge of Dukhan hold goods for owners elsewhere, and a reading for each bay shows how long a lot stood in warm air before it was collected.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a supermarket cold room or a warehouse bay at several heights and beside the door, showing which corner runs warmest.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable fits a ward or pharmacy refrigerator in Dukhan and leaves the way staff use the unit unchanged.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels read a cafe cold room at the door end and the back wall, showing whether the cold reaches the last shelf.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Dukhan shop or clinic use a single logger?",
+                answer:
+                  "Yes. One logger with a phone alert can watch a single refrigerator as long as a router is within reach, and more points can be added to the same account later.",
+              },
+              {
+                question: "Why does a store near sea and dunes need a humidity reading?",
+                answer:
+                  "Damp sea air condenses on cool surfaces while dry sandy wind dries the next room, so a humidity trend beside the temperature shows how a store swings between the two.",
+              },
+              {
+                question: "How would an enquiry from Dukhan be handled?",
+                answer:
+                  "Give the shop, clinic or warehouse, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Dukhan.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Dukhan clinics?",
+                answer:
+                  "Calibration of loggers and probes for Dukhan clinics is looked after by VEGA Calibrations, our parent company; share the model and the range and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "al-shahaniya", name: "Al Shahaniya" },
+              { slug: "doha", name: "Doha" },
+            ],
+            metaTitle: "Temperature Data Loggers in Dukhan | Prithvi",
+            metaDescription:
+              "Data loggers for Dukhan's supermarkets, hospital, clinics and edge-of-town warehouses beside the west-coast dunes. Get Solution.",
             indexable: true,
           },
         ],

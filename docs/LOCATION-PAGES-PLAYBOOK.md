@@ -410,6 +410,10 @@
 | Lusail (`lusail`, city, Al Daayen Municipality) | Qatar | Hotel, resort and restaurant kitchens, supermarkets, clinics and pharmacies, tower stockrooms and plant rooms | Food, medicines, data centers | Hot, humid waterfront | Doha, Al Daayen, Umm Salal |
 | Al Daayen (`al-daayen`, city, Al Daayen Municipality) | Qatar | Neighbourhood supermarkets and bakeries, farm sheds, clinics and pharmacies, small warehouses | Food, medicines, logistics | Hot, dry, dusty | Lusail, Doha, Umm Salal |
 | Umm Salal (`umm-salal`, city, Umm Salal Municipality) | Qatar | Irrigated farm sheds, neighbourhood shops and bakeries, clinics and pharmacies, main-road warehouses | Food, medicines, logistics | Hot, dry; dust | Doha, Al Rayyan, Al Daayen, Al Khor |
+| Al Shamal (`al-shamal`, city, Al Shamal Municipality) | Qatar | Harbour quays and ice stores, irrigated farm sheds, supermarkets and bakeries, hospital and clinics | Food, medicines, logistics | Hot, humid, exposed north coast | Al Khor, Umm Salal |
+| Al Shahaniya (`al-shahaniya`, city, Al Shahaniya Municipality) | Qatar | Desert farm sheds, feed and veterinary stores, neighbourhood shops, clinics | Food, medicines, logistics | Very hot, dry; sandstorms | Dukhan, Al Rayyan, Doha, Umm Salal |
+| Dukhan (`dukhan`, city, Al Shahaniya Municipality) | Qatar | Supermarkets and bakeries, hospital and clinics, edge-of-town warehouses, beach cafes | Food, medicines, logistics | Hot, humid coast; sand | Al Shahaniya, Doha |
+| Dukhan Industrial Area (`dukhan-industrial-area`, area of Dukhan) | Qatar | Workshops and parts stores, warehouses, paint and lubricant stores, canteens (described generally; no operating status or output) | Logistics, chemicals, food | Extreme heat, sand | none |
 | Jazan Economic City (`jazan-economic-city`, area of Jazan) | Saudi Arabia | Plant chemical and drum stores, spares warehouses and contractor yards, port yards, camp kitchens and clinics | Chemical stores, contract warehousing, camp catering | Extreme heat and humidity, salty air | none |
 | Jeddah (`jeddah`) | Saudi Arabia | Industrial and port logistics zones | Port logistics, food import cold chain, hospitals | Hot, humid coastal | Riyadh, Dammam |
 | Dammam (`dammam`) | Saudi Arabia | Industrial and port logistics zones | Industrial & chemical, port logistics, food | Hot, humid Gulf coast | Riyadh, Bahrain, Jeddah |
@@ -695,3 +699,7 @@ is shortened ("Al Khor and Al Thakhira") to keep the title within 60 characters.
 
 Qatar Batch 5: Al Daayen Municipality hub (Lusail and Al Daayen; indexable with two city pages) and Umm Salal Municipality hub (Umm Salal only, so noindex and
 out of the sitemap until a second page is built). Not built: Barwa Al Baraha, because I am not confident which city it belongs to.
+
+Qatar Batch 6: Al Shamal Municipality hub (Al Shamal only, so noindex and out of the sitemap until a second page is built) and Al Shahaniya Municipality hub
+(Al Shahaniya, Dukhan and Dukhan Industrial Area; indexable). This completes the Qatar build; nothing in it is skipped except the pages named in the earlier
+batch notes (Doha Industrial Area, Hamad Port, Umm Al Houl Free Zone, Barwa Al Baraha).
