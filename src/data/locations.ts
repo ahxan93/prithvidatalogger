@@ -28230,34 +28230,181 @@ export const locations: LegacyLocationNode[] = [
     name: "Bahrain",
     type: "country",
     intro:
-      "Bahrain is an island kingdom joined to Saudi Arabia by a causeway, and its warehouses, cold stores, hospitals and hotels sit within a short drive of each other and of a busy port. Goods cross both the sea and the causeway, so a lot may spend time on a dock and in a lorry before it reaches its room. The climate is hot and humid for much of the year. Prithvi supplies WiFi temperature and humidity loggers from India, with alerts to phones and email and set-up carried out remotely with your team. No city pages are written for Bahrain yet, and the country page covers the whole island.",
+      "Bahrain is a compact island nation in the Gulf where warehouses, cold stores, hospitals, hotels and kitchens sit within a short drive of each other and of a busy port. Goods may spend time on a dock and in a lorry before they reach their room, and the climate is hot and humid for much of the year, with sea air that carries salt and dust. Temperature and humidity loggers on WiFi, sending alerts to phones and email, suit these rooms, and set-up can be guided remotely. The pages below follow the governorates, beginning with the Capital Governorate and Manama, and the enquiry form is the quickest way to describe your site.",
     localIndustries: [
       "Food distribution",
       "Hospitals and pharmacies",
-      "Logistics and cross-border transport",
+      "Logistics and warehousing",
       "Hospitality",
     ],
-    citiesServed: ["Manama", "Muharraq", "Riffa", "Sitra"],
+    citiesServed: ["Manama"],
     supportNote:
-      "Our team handles Bahrain enquiries directly from India: we confirm the right models, quote, dispatch and then guide your staff through setup remotely.",
+      "Enquiries from Bahrain are handled through the enquiry form, Call or WhatsApp. Tell us the site, the rooms and what you store, and our reply covers what seems suitable and how remote set-up support would run.",
     faqs: [
       {
-        question: "Is Bahrain served separately from Saudi Arabia?",
+        question: "Which parts of Bahrain have a page?",
         answer:
-          "Yes. Supply and set-up are arranged for Bahrain on its own, although the two countries share long road journeys, and the Saudi city pages describe the rooms across the causeway.",
+          "The Capital Governorate has its own page, with Manama and its waterfront, commercial and port districts beneath it. For a place not yet listed, describe the site and what you store through the enquiry form, Call or WhatsApp, and we reply with a suggestion.",
       },
       {
         question: "How do we start monitoring a Bahrain site?",
         answer:
-          "Send the site, the rooms and what you store through the enquiry form or WhatsApp, and we recommend loggers, dispatch them from India and set them up with your team remotely. If the site has several buildings, tell us which rooms matter most and we start there.",
+          "Send the site, the rooms and what you store through the enquiry form, Call or WhatsApp, and we recommend loggers and set them up with your team remotely. If the site has several buildings, tell us which rooms matter most and we start there.",
       },
       {
-        question: "Can goods that cross the causeway be tracked?",
+        question: "Can goods be tracked through a long road or sea journey?",
         answer:
-          "A logger placed in the load records the whole journey, and a trip report can be exported for the consignee. GSM options depend on carrier compatibility that we confirm first.",
+          "A logger placed in the load records the whole journey, and a trip report can be exported for the consignee, so the heat a load met is on record when it arrives.",
       },
     ],
+    listing: [
+      { slug: "capital-governorate", text: "The governorate of the capital on the north-east of the island, with a harbour city of towers, markets, hospitals and a commercial port, in hot, humid sea air." },
+    ],
     indexable: true,
+    children: [
+      {
+        slug: "capital-governorate",
+        name: "Capital Governorate",
+        type: "state",
+        intro:
+          "The Capital Governorate holds Manama and its surroundings on the north-east of Bahrain's main island, a dense strip of towers, covered markets, hotels, hospitals, shopping streets and apartment blocks packed along the Gulf shore. A waterfront district of glass towers and a commercial quarter of malls and offices have grown on reclaimed ground along the northern coast, while a commercial port stands to the south-east. Summers are long, very hot and humid, winters mild and pleasant, and dust and sea haze blow in on some days. Food, medicines and household goods wait in kitchens, clinics and warehouses in such air. The pages below cover the city, two of its districts and its port.",
+        localIndustries: [
+          "Hospitals, clinics and pharmacies",
+          "Hotel, restaurant and catering kitchens",
+          "Port-side warehousing",
+          "Markets and food retail",
+        ],
+        citiesServed: ["Manama"],
+        supportNote:
+          "Enquiries from the Capital Governorate are handled through the enquiry form, Call or WhatsApp. Say which district, which rooms and how they are cooled, and our reply sets out what seems suitable for the site.",
+        faqs: [
+          {
+            question: "Which places in the Capital Governorate have a page?",
+            answer:
+              "Manama has a city page. Bahrain Financial Harbour, Seef District and Mina Salman Port have area pages under it. A district not listed here can still be raised through the enquiry form.",
+          },
+          {
+            question: "Why does hot, humid air call for humidity records as well as temperature?",
+            answer:
+              "Moist sea air condenses on cold surfaces whenever a cooler is opened, and it softens cartons and spoils dry goods, so a humidity trend beside the temperature shows moisture that a thermometer alone would miss.",
+          },
+          {
+            question: "What does a logger do when the power or WiFi drops?",
+            answer:
+              "It keeps recording on its own battery and stores the readings, so the hours of an outage are still on record when the site is connected again.",
+          },
+        ],
+        listing: [
+          { slug: "manama", text: "The island's capital on the north-east shore, with towers, covered markets, hotels, hospitals and a port, in long, hot, humid summers." },
+        ],
+        areaListing: [
+          { slug: "bahrain-financial-harbour", text: "A waterfront district of glass towers on reclaimed ground, with offices, a mall, restaurants and hotel kitchens beside the sea." },
+          { slug: "seef-district", text: "A commercial district of malls, hotels, offices and food courts along the northern coast road." },
+          { slug: "mina-salman-port", text: "The commercial port south-east of the city, where food, supplies and general goods wait on quays and in sheds in hot, damp air." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "manama",
+            name: "Manama",
+            type: "city",
+            intro:
+              "Manama is the capital of Bahrain, a dense harbour city on the north-east shore of the main island, and a temperature data logger here serves a place of hospitals, hotels, covered markets, supermarkets and warehouses in hot, humid sea air. Towers of glass rise beside old market lanes, a corniche follows the water, and apartment blocks, clinics and shopping streets fill the districts behind. A commercial port lies to the south-east, and reclaimed land along the north coast carries newer districts of offices, malls and hotels. Summers are long and very damp, winters are mild, and dust and sea haze blow in on some days, so food, medicines and dry goods all need watching in rooms that rely on air-conditioning. Enquiries from Manama are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "Heat and humidity peak together through the long summer, salt reaches every shed and service yard, and the narrow lanes of the old districts trap warm air that never fully clears at night. A cooler that loses power on an August afternoon warms fast, vehicles standing in the sun reach far higher temperatures than the shaded air, and condensation forms the moment a cold door opens to the outside.",
+            areas: [
+              {
+                name: "Hospitals, clinics and laboratories",
+                note: "Large hospitals, specialist clinics and laboratories keep vaccines, insulin, blood products and samples in fridges and freezers that have to stay in range when the mains supply stutters.",
+              },
+              {
+                name: "The covered markets and their stock rooms",
+                note: "Traders in the old market lanes keep spices, dates, sweets and household goods in small back rooms that were never designed for cooling or dehumidifying.",
+              },
+              {
+                name: "Hotel, restaurant and catering kitchens",
+                note: "Hotels and caterers house their chillers, freezers and dry stores in basements and service corridors, where kitchen heat adds to the strain on the cooling plant.",
+              },
+              {
+                name: "Warehouses and cold stores near the port",
+                note: "Importers and food distributors keep chilled and dry goods in warehouses and cold rooms behind the port, under roofs that soak up the sun at speed.",
+              },
+            ],
+            industries: [
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Manama hospitals and blood services must keep vaccines and blood products inside strict ranges, and a phone alert reaches whoever is on duty if a refrigerator drifts in the small hours.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine distributors and pharmacies in Manama store stock to labelled ranges, and a dated log of temperature and humidity shows how a room coped with the hottest weeks of summer.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Hotel kitchens, caterers and food importers in Manama hold chilled and frozen stock, and a record from each cooler shows the moment a compressor began to struggle.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods arriving in Manama wait in warehouses and vehicles before they are used, and a logger tucked into a consignment records the heat and humidity each lot met.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "With four channels, one unit can follow a hotel chiller from its bottom shelf to its top shelf and its door, revealing which level warms first during a busy service.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable slides into a ward or pharmacy refrigerator in Manama and leaves the way staff use the unit unchanged.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "A unit that reads humidity as well as temperature shows when damp sea air has crept into a dry store that a thermometer calls fine.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Manama hotel, caterer or importer use temperature loggers?",
+                answer:
+                  "A logger in every cooler, freezer and dry store keeps a round-the-clock record, and a report for any period can be exported in PDF, Excel or CSV form for an inspector or a client.",
+              },
+              {
+                question: "Why does a market stock room need a humidity reading?",
+                answer:
+                  "Damp air softens dried goods and spices, and a cool room forms condensation whenever it opens to warm air, so a humidity trend shows moisture that a thermometer would miss.",
+              },
+              {
+                question: "How would an enquiry from Manama be handled?",
+                answer:
+                  "Give the shop, clinic, kitchen or warehouse, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Manama.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Manama laboratories?",
+                answer:
+                  "Calibration of loggers and probes for Manama laboratories is looked after by VEGA Calibrations, our parent company; share the model and the range you work to and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "muharraq", name: "Muharraq" },
+              { slug: "juffair", name: "Juffair" },
+              { slug: "riffa", name: "Riffa" },
+            ],
+            metaTitle: "Temperature Data Loggers in Manama | Prithvi",
+            metaDescription:
+              "Data loggers for Manama's hospitals, hotel kitchens, market stock rooms and port-side warehouses in hot, humid sea air. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+    ],
   },
   {
     slug: "yemen",

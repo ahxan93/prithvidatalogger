@@ -59,7 +59,7 @@ linking, SEO settings, city data and quality checks).
   unique within its own city: area pages of one city differ from each other and from the city page's pair.
   `npm run check:data` enforces this; choose a new pair by hashing the slug into the city's unused pairs.
 - City pages: each city's pair is fixed by registry order in `src/data/page-heroes.ts` and is unique site-wide. All
-  available logger pairs are now used, so a city inside a state hub (`HUB_OF`, currently Maharashtra, Gujarat, Uttar Pradesh, Haryana, Telangana, Karnataka, Tamil Nadu, Punjab, Himachal Pradesh, Kerala, Rajasthan, Madhya Pradesh, West Bengal, Andhra Pradesh, Uttarakhand and Dadra and Nagar Haveli and Daman and Diu, Odisha, Jharkhand, Chhattisgarh, Bihar, Assam, Manipur, Meghalaya, Tripura, Sikkim, Jammu and Kashmir, Puducherry, the 13 Saudi Arabian regions, the Yemen governorates, the UAE emirates, the Qatar municipalities, the Oman governorates and the Kuwait governorates) may reuse a
+  available logger pairs are now used, so a city inside a state hub (`HUB_OF`, currently Maharashtra, Gujarat, Uttar Pradesh, Haryana, Telangana, Karnataka, Tamil Nadu, Punjab, Himachal Pradesh, Kerala, Rajasthan, Madhya Pradesh, West Bengal, Andhra Pradesh, Uttarakhand and Dadra and Nagar Haveli and Daman and Diu, Odisha, Jharkhand, Chhattisgarh, Bihar, Assam, Manipur, Meghalaya, Tripura, Sikkim, Jammu and Kashmir, Puducherry, the 13 Saudi Arabian regions, the Yemen governorates, the UAE emirates, the Qatar municipalities, the Oman governorates, the Kuwait governorates and the Bahrain governorates) may reuse a
   pair as long as no other city in the SAME hub shows it; cities outside a hub never share a pair. `check:data` enforces it.
 
 ## Placeholder pages

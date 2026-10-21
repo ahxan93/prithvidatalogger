@@ -353,6 +353,11 @@ export const locationContent: Record<string, LocationContent> = {
       "Data loggers for Mubarak Al-Kabeer Governorate: Sabah Al Salem's coastal shops and kitchens and Mubarak Al-Kabeer's clinics and stockrooms. Get Solution.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
+  "bahrain/capital-governorate": {
+    metaDescription:
+      "Data loggers for the Capital Governorate: Manama, the Financial Harbour, Seef District and Mina Salman Port kitchens, clinics and stores. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+  },
   "qatar/doha-municipality": {
     metaDescription:
       "Data loggers for Doha Municipality: Doha city, West Bay, Al Sadd, Msheireb and The Pearl-Qatar kitchens, clinics and stores. Get Solution.",

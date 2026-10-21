@@ -471,6 +471,10 @@
 | Sulaibiya (`sulaibiya`, city, Jahra Governorate) | Kuwait | Wholesale cold rooms, warehouses and trading yards, small factories, shops and clinics among the housing | Logistics, food, chemicals | Blazing, wide-open, dusty plain | Jahra, Farwaniya, Kuwait City |
 | Sabah Al Salem (`sabah-al-salem`, city, Mubarak Al-Kabeer Governorate) | Kuwait | Supermarkets and groceries, bakeries and takeaways, clinics and pharmacies, parade stockrooms | Food, medicines, logistics | Blazing, humid sea air | Mubarak Al-Kabeer, Salmiya, Fahaheel |
 | Mubarak Al-Kabeer (`mubarak-al-kabeer`, city, Mubarak Al-Kabeer Governorate) | Kuwait | Groceries, bakeries and sandwich counters, clinics and pharmacies, parade stockrooms | Food, medicines, logistics | Blazing dry heat, dust | Sabah Al Salem, Hawalli, Farwaniya |
+| Manama (`manama`, city, Capital Governorate) | Bahrain | Hospitals and laboratories, covered markets and stock rooms, hotel and catering kitchens, warehouses near the port | Medicines, food, logistics | Long hot humid summers, salty sea air | Muharraq, Juffair, Riffa (not yet built) |
+| Bahrain Financial Harbour (`bahrain-financial-harbour`, area of Manama) | Bahrain | Podium and basement kitchens, mall food courts, server cupboards, clinics and pharmacies (described generally, no tenant or status claims) | Food, data centres, medicines | Hot, humid waterfront air | Seef District |
+| Seef District (`seef-district`, area of Manama) | Bahrain | Mall supermarkets, hotel kitchens, shop stockrooms, clinics and pharmacies | Food, electronics, medicines | Hot, humid coastal air | Bahrain Financial Harbour |
+| Mina Salman Port (`mina-salman-port`, area of Manama) | Bahrain | Container stacks, cold halls, warehouses behind the quays, lorries (described generally, no operating status) | Logistics, food, medicines | Hot, damp, salty harbour air | none |
 | Sulaibiya Industrial Area (`sulaibiya-industrial-area`, area of Sulaibiya) | Kuwait | Wholesale food stores, cleaner and sealant stores, light factories, open yards | Food, logistics, chemicals | Blazing, dusty | none |
 | Amghara Industrial Area (`amghara-industrial-area`, area of Jahra) | Kuwait | Parts yards and workshops, electronics and appliance stores, lubricant and cleaner stores, warehouses | Electronics, logistics, chemicals | Blazing, dusty | none |
 | Shuaiba Industrial Area (`shuaiba-industrial-area`, area of Ahmadi) | Kuwait | Factory halls, sealant and coating stores, warehouses and parts stores, canteens | Chemicals, logistics, food | Blazing heat, humid shore air | Shuaiba Port |
@@ -838,3 +842,7 @@ is a distinct industrial area or where it sits) and Sabhan Industrial Area (gove
 Kuwait Batch 7 (Mubarak Al-Kabeer Governorate): hub, Sabah Al Salem and Mubarak Al-Kabeer. Not built: Fintas (not confident which governorate it belongs to, so not
 guessed). This completes the Kuwait build. Pages not built across the plan: Mangaf, Mahboula, Abu Halifa, Sabah Al-Ahmad City, Mina Abdullah, Abdali, Subiya,
 Kabd Industrial Area, Sabhan Industrial Area and Fintas.
+
+Bahrain Batch 0: the Bahrain country node already existed and was rewritten (no causeway, India dispatch or GSM wording; no local-office, delivery or accreditation claim) with a neutral line that enquiries from Bahrain are handled through the enquiry form, Call or WhatsApp.
+
+Bahrain Batch 1 (Capital Governorate): hub, Manama, Bahrain Financial Harbour, Seef District and Mina Salman Port, all attached to Manama, the nearest confident city (no administrative statement beyond the governorate hub). The port and the harbour district carry no statement about operating status, traffic, capacity, operators or tenants.

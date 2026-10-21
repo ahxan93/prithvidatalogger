@@ -93,6 +93,7 @@ export const areaCities: Record<string, { name: string; stateSlug: string; state
   ahmadi: { name: "Ahmadi", stateSlug: "ahmadi-governorate", stateName: "Ahmadi Governorate" },
   jahra: { name: "Jahra", stateSlug: "jahra-governorate", stateName: "Jahra Governorate" },
   sulaibiya: { name: "Sulaibiya", stateSlug: "jahra-governorate", stateName: "Jahra Governorate" },
+  manama: { name: "Manama", stateSlug: "capital-governorate", stateName: "Capital Governorate" },
   "kuwait-city": { name: "Kuwait City", stateSlug: "al-asimah-governorate", stateName: "Al Asimah Governorate" },
   farwaniya: { name: "Farwaniya", stateSlug: "farwaniya-governorate", stateName: "Farwaniya Governorate" },
   "jleeb-al-shuyoukh": { name: "Jleeb Al-Shuyoukh", stateSlug: "farwaniya-governorate", stateName: "Farwaniya Governorate" },
@@ -9791,6 +9792,167 @@ export const areas: AreaDef[] = [
         {
           "question": "Why does dust matter for where a logger is mounted in a yard?",
           "answer": "Dust from the plain coats anything left in the open, so a logger sits on a shaded inner wall clear of vents, with a battery that keeps recording through an outage."
+        }
+      ],
+      "nearby": [],
+      "indexable": true
+    } },
+  // ------------------------------------------------------------------ Bahrain (batch 1: Manama)
+  { slug: "bahrain-financial-harbour", name: "Bahrain Financial Harbour", citySlug: "manama", areaType: "business-district", nearbyIndustries: ["food-beverage","data-centers","pharmaceutical"], confirmedService: true, hero: ["virat","dhruva"], page: {
+      "metaTitle": "Data Loggers in Bahrain Financial Harbour, Manama | Prithvi",
+      "metaDescription": "Data loggers for hotel kitchens, mall food courts, office pantries and server rooms in the Bahrain Financial Harbour, Manama. Get Solution.",
+      "intro": "The Bahrain Financial Harbour is a waterfront district of glass towers on reclaimed ground along the northern coast of Manama, with a shopping mall, restaurants, hotels and promenades at its foot. For a temperature data logger the interest lies in rooms that sit far from any warehouse: basement and podium kitchens, floor pantries, server cupboards and plant rooms, all cooled by equipment that works hard through the long, humid summer. The text below is limited to the goods and rooms a logger user could look after in a tower district of this sort. Enquiries about the Bahrain Financial Harbour are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Hotel and restaurant kitchens",
+          "note": "Kitchens at the foot of the towers keep chillers and freezers in podium and basement rooms, where kitchen heat and humid air meet."
+        },
+        {
+          "name": "Mall food courts and supermarkets",
+          "note": "Food courts and shops in the mall sell chilled and frozen food from cabinets and cold rooms opened thousands of times a day."
+        },
+        {
+          "name": "Server and network cupboards",
+          "note": "An office floor with a small server cupboard depends on its air-conditioning, and a night-time failure lets the room heat up long before anyone is at a desk."
+        },
+        {
+          "name": "Clinics and pharmacies",
+          "note": "Clinics and pharmacies in the district keep vaccines and medicines in fridges that must stay in range through brief power dips."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "food-beverage",
+          "sentence": "Kitchens and food courts beside the harbour hold chilled and frozen stock in damp air, and a record from each cooler shows the moment a unit began to slip."
+        },
+        {
+          "slug": "data-centers",
+          "sentence": "A logger gives small server rooms in the towers an early warning, because a climbing room temperature is the first sign that cooling has failed."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Tower-level pharmacies and clinics store stock to labelled ranges, and a dated log shows how each refrigerator held up when the lifts and lights were serviced or the supply flickered."
+        }
+      ],
+      "services": "In a waterfront tower district we would look at WiFi loggers for kitchens, pantries and server rooms near a router, probe loggers for fridges and freezers, and multi-channel units for larger cold rooms. Users here can ask VEGA Calibrations, our parent company, about calibration. WiFi units want a router in range and a socket, and on a floor with neither we talk through other routes. Whether anything can be supplied is settled only after a request has been read.",
+      "visits": "A visit or an installation in the Bahrain Financial Harbour is not promised. Give the kitchen, shop or office, the rooms involved and a contact on the enquiry form, Call or WhatsApp, and we look the request over and reply with what seems practical.",
+      "approach": "If a request went ahead, we would start with the room whose failure would cost most, such as a podium freezer or a server cupboard, placing one logger at the intake and one at the far wall. A first stretch of summer readings would reveal how each room behaves overnight and at weekends.",
+      "faqs": [
+        {
+          "question": "Can a kitchen group watch every outlet from one login?",
+          "answer": "Yes. Every kitchen, pantry and plant room reports to one dashboard, each alert reaches its own engineer, and a manager can export one report covering all the rooms."
+        },
+        {
+          "question": "Why does a small server cupboard want a temperature record?",
+          "answer": "When cooling fails, the room temperature is the first thing to climb, so a phone alert gives staff time to act before equipment shuts down, and the log shows how long the room stood warm."
+        }
+      ],
+      "nearby": [
+        "seef-district"
+      ],
+      "indexable": true
+    } },
+  { slug: "seef-district", name: "Seef District", citySlug: "manama", areaType: "business-district", nearbyIndustries: ["food-beverage","pharmaceutical","electronics"], confirmedService: true, hero: ["setu","nakshatra"], page: {
+      "metaTitle": "Data Loggers in Seef District, Manama | Prithvi",
+      "metaDescription": "Data loggers for mall food courts, hotel kitchens, supermarkets and clinic fridges in the Seef District of Manama. Get Solution.",
+      "intro": "The Seef District is a commercial quarter along the northern coast road of Manama, with malls, hotels, offices, restaurants and apartment blocks laid out beside wide avenues and the sea. A temperature data logger in a district like this is concerned with many busy rooms: mall supermarkets and food courts, hotel kitchens, shop stockrooms and clinic refrigerators, all cooled by equipment that labours through the long, damp summer. The text below is limited to the goods and rooms a logger user could look after in a commercial district of this sort. Enquiries about the Seef District are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Mall supermarkets and food courts",
+          "note": "Supermarkets and food courts keep walk-in cold rooms and display cabinets that are opened constantly through long trading hours."
+        },
+        {
+          "name": "Hotel kitchens and banqueting stores",
+          "note": "Hotels run large chillers and freezers, and the load on the cooling swings between a quiet weekday and a full evening."
+        },
+        {
+          "name": "Shop stockrooms behind the malls",
+          "note": "Retailers keep spare stock, including electronics and appliances, in back rooms where stale heat and humidity gather."
+        },
+        {
+          "name": "Clinics and pharmacies",
+          "note": "Surgeries and dispensaries around the avenues keep vaccines and tablets in refrigerators that are expected to hold their range whenever the supply wobbles."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "food-beverage",
+          "sentence": "Supermarkets, food courts and hotel kitchens in the Seef District hold chilled and frozen goods in damp coastal air, and a log from each cooler shows when a unit began to drift."
+        },
+        {
+          "slug": "electronics",
+          "sentence": "Electronics and appliance retailers in the district gain from a dated record of heat and humidity, because a stale stockroom can harm boxed stock that looks sound on a shelf."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Pharmacies in the district keep stock to labelled ranges, and a dated record shows how a room coped with the hottest weeks and any outage."
+        }
+      ],
+      "services": "For a commercial district we would look at WiFi loggers for kitchens and stockrooms near a router, probe-type loggers for refrigerators and freezers, humidity-reading units for dry stores, and multi-channel units for larger cold rooms. Calibration for Seef users can be raised with VEGA Calibrations, our parent company. WiFi units need a router in range and mains power, and for a delivery van we explain the alternatives. We say nothing about supply until a request for the district has been read.",
+      "visits": "Nothing is promised about visits or installation in the Seef District. Share the business, the rooms to be watched and a contact via the enquiry form, Call or WhatsApp, and we study the request and tell you what appears achievable.",
+      "approach": "If a request went ahead, we would begin with the cold room or freezer whose contents are hardest to replace, placing a probe among the contents rather than at the door, then add a second point in a dry stockroom. Early readings would show how busy trading hours and short supply dips push the range around.",
+      "faqs": [
+        {
+          "question": "Can a retailer with several shops see them all on one dashboard?",
+          "answer": "Yes. Each shop is a point on the same dashboard with its own alert contacts, and an owner can export one report that covers every outlet."
+        },
+        {
+          "question": "Where should the probe go inside a busy cold room?",
+          "answer": "Put it among the goods rather than by the door, because air at the door swings with every opening and the goods feel a gentler version."
+        }
+      ],
+      "nearby": [
+        "bahrain-financial-harbour"
+      ],
+      "indexable": true
+    } },
+  { slug: "mina-salman-port", name: "Mina Salman Port", citySlug: "manama", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["rajmudra","veer"], page: {
+      "metaTitle": "Data Loggers at Mina Salman Port, Manama | Prithvi",
+      "metaDescription": "Data loggers for quayside sheds, cold rooms, container stacks and vehicles around Mina Salman Port, Manama. Get Solution.",
+      "intro": "Mina Salman Port is the commercial harbour south-east of Manama's centre, set on reclaimed shoreline with broad yards and warehouses behind the quays. Goods that reach a harbour spend much of their time standing still, and for a temperature data logger the question is how warm that standing time was: in the sun on the apron, in a shed, in a waiting van, in air that is hot, damp and salty. This page stays with the kinds of goods and rooms that a logger user at a commercial harbour could look after. Enquiries about Mina Salman Port are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Container stacks and yards",
+          "note": "Boxes stacked in the open soak up the sun, and in the damp season moisture gets into cartons, so cargo can end up hotter or wetter than expected."
+        },
+        {
+          "name": "Cold halls and plugged-in containers",
+          "note": "Chilled and frozen food and health supplies may wait in a cooled hall or a plugged-in box, and the gaps between connections are the fragile moments."
+        },
+        {
+          "name": "Warehouses behind the quays",
+          "note": "Importers keep food, drinks and household goods in warehouses close to the harbour, where heat builds under the roof through the afternoon."
+        },
+        {
+          "name": "Lorries waiting to load",
+          "note": "Lorries waiting for cargo stand in strong sun, and a covered body can heat quickly and hold that heat long after dark."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A firm storing cargo for several importers can give each importer a written trace of how its pallets were kept, instead of a comment about the building."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Imported chilled and frozen food needs an account of how it was held from the vessel to the shop shelf, and a compact logger packed among the cartons writes that account."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Health supplies held near the water need a dated temperature trace, so that a distributor can decide whether a pallet spent too long in the sun before collection."
+        }
+      ],
+      "services": "Around this harbour we would suggest WiFi loggers in sheds and cold halls near a router, probe loggers in freezers and plugged-in boxes, multi-point units along long halls, and loggers carried inside a consignment. Calibration queries from the port can be put to VEGA Calibrations, our parent company. WiFi units need a router in reach and a power supply, and for a stack or a vehicle we set out other approaches. We settle what can be supplied only once a request from the port has been read.",
+      "visits": "We make no promise of a visit or an installation at the port. Send the business, the load or hall involved and a contact on the enquiry form, Call or WhatsApp, and we weigh up the request and say what seems workable.",
+      "approach": "If a request went ahead, we would begin with the load or hall that is hardest to replace, placing one logger inside the cargo or beside the door and another on the far wall, then add a humidity unit where chilled goods meet damp harbour air. A few weeks of data would show how long stock really sits between stages.",
+      "faqs": [
+        {
+          "question": "Can a small logger be packed in a carton and followed through a harbour chain?",
+          "answer": "Yes. A logger packed in with the cartons records the whole journey, and its report can be exported as a PDF, Excel or CSV file for whoever receives the load."
+        },
+        {
+          "question": "Why does stacked cargo in strong sun deserve its own record?",
+          "answer": "Sunlight heats a loaded box from outside in, so only a logger placed within the load reveals the exposure that a shaded reading would miss."
         }
       ],
       "nearby": [],
