@@ -26582,7 +26582,7 @@ export const locations: LegacyLocationNode[] = [
       {
         question: "Which parts of Kuwait have a page?",
         answer:
-          "Al Asimah, Hawalli, Farwaniya and Ahmadi governorates have their own pages, with Kuwait City, Hawalli, Salmiya, Farwaniya, Khaitan, Jleeb Al-Shuyoukh, Ahmadi, Fahaheel, Wafra and Khiran and their districts beneath. If your site is somewhere else, write through the enquiry form, Call or WhatsApp with what you store and we answer with what looks workable.",
+          "Al Asimah, Hawalli, Farwaniya, Ahmadi and Jahra governorates have their own pages, with Kuwait City, Hawalli, Salmiya, Farwaniya, Khaitan, Jleeb Al-Shuyoukh, Ahmadi, Fahaheel, Wafra, Khiran, Jahra and Sulaibiya and their districts beneath. If your site is somewhere else, write through the enquiry form, Call or WhatsApp with what you store and we answer with what looks workable.",
       },
       {
         question: "What alert limits suit a store in extreme summer heat?",
@@ -26600,6 +26600,7 @@ export const locations: LegacyLocationNode[] = [
       { slug: "hawalli-governorate", text: "The dense commercial and residential governorate south-east of the capital, with busy shopping streets, apartment blocks, clinics and a long seafront, in blazing summer heat." },
       { slug: "farwaniya-governorate", text: "The crowded inland governorate beside the capital, with busy markets, dense apartment districts, industrial and warehouse areas and the airport, in blazing dry summers and blowing dust." },
       { slug: "ahmadi-governorate", text: "The long southern governorate along the Gulf coast, with a green planned town and a busy seafront commercial town, in blazing summers and humid shore air." },
+      { slug: "jahra-governorate", text: "The wide western governorate beyond the bay, with a large town of farms, livestock yards and a hospital, a big industrial and warehouse district, and trading yards, in blazing dry heat." },
     ],
     indexable: true,
     children: [
@@ -27227,7 +27228,7 @@ export const locations: LegacyLocationNode[] = [
             areas: [
               {
                 name: "Wholesale markets and cold rooms",
-                note: "Wholesalers keep chilled and frozen food in cold rooms that open and close all day as shopkeepers collect their orders.",
+                note: "Wholesalers store chilled and frozen food in cold rooms whose doors swing open all day while buyers load up for their shops.",
               },
               {
                 name: "Warehouses and stockrooms",
@@ -27278,7 +27279,7 @@ export const locations: LegacyLocationNode[] = [
               {
                 slug: "dhruva",
                 reason:
-                  "Four channels follow a wholesale cold room at floor, shelf and door height, showing which level warms first as orders go out.",
+                  "Four channels trace a wholesale cold room from floor to top shelf and the door, showing which level warms first during a busy loading.",
               },
             ],
             faqs: [
@@ -27743,6 +27744,245 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Khiran | Prithvi",
             metaDescription:
               "Data loggers for Khiran's chalet kitchens, cafes, marina stores and clinic on the far southern shore in humid heat. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "jahra-governorate",
+        name: "Jahra Governorate",
+        type: "state",
+        intro:
+          "Jahra Governorate covers a wide stretch of western Kuwait beyond the head of the bay, a flat country of farms, livestock yards, trading yards, industrial districts and housing that spreads out along the main roads. Jahra is the main town, with a large hospital, markets and farms at its edge, while Sulaibiya is a sprawling district of warehouses, workshops, yards and housing, and the Amghara Industrial Area lies near Jahra with workshops and trading yards. Summers are blazing and dry, winters mild and cool at night, and dust storms are frequent. Food, animal feed, medicines and building materials wait in sheds and warehouses in such heat. The pages below cover the two towns and the two industrial areas.",
+        localIndustries: [
+          "Farms, livestock and animal feed",
+          "Industrial and warehouse storage",
+          "Clinics, hospitals and pharmacies",
+          "Trading yards and workshops",
+        ],
+        citiesServed: ["Jahra","Sulaibiya"],
+        supportNote:
+          "Enquiries from Jahra Governorate are handled through the enquiry form, Call or WhatsApp. State the town, the rooms and how they are cooled, and we come back with what looks workable on site.",
+        faqs: [
+          {
+            question: "Which places in Jahra Governorate have a page?",
+            answer:
+              "Jahra and Sulaibiya each have a city page. Sulaibiya Industrial Area has an area page under Sulaibiya, and Amghara Industrial Area has one under Jahra. A place elsewhere in the west can be raised through the enquiry form.",
+          },
+          {
+            question: "Why do big yards and warehouses suit multi-point loggers?",
+            answer:
+              "A wide shed is warmest under the roof and coolest near the doors and the floor, so probes at several heights and positions show where stock really sits in the heat.",
+          },
+          {
+            question: "Does flying dust matter for a logger on a farm or in a yard?",
+            answer:
+              "Dust settles on anything left open, so a logger is fixed on a shaded inner wall away from vents and doors, with a battery that keeps the record going through a power cut.",
+          },
+        ],
+        listing: [
+          { slug: "jahra", text: "A large western town beyond the head of the bay, with a big hospital, markets, farms and livestock yards, in blazing dry heat and dust." },
+          { slug: "sulaibiya", text: "A sprawling district of warehouses, workshops, yards and housing on the flat western plain, in blazing dry heat." },
+        ],
+        areaListing: [
+          { slug: "sulaibiya-industrial-area", text: "An industrial area in Sulaibiya, with workshops, warehouses, light factories and yards on flat open ground." },
+          { slug: "amghara-industrial-area", text: "An industrial and trading area near Jahra, with workshops, parts yards and warehouses along wide roads." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "jahra",
+            name: "Jahra",
+            type: "city",
+            intro:
+              "Jahra is a large town in western Kuwait beyond the head of Kuwait Bay, a flat sprawl of housing, markets, farms and livestock yards, and a temperature data logger here serves a place of a big hospital, supermarkets, butchers, kitchens and stockrooms in blazing dry heat. Families from a wide district come to shop in its markets, farms lie at the edge of town, and a large hospital and pharmacies serve the surrounding neighbourhoods. Winters are mild and cool at night, summers are blazing, and dust storms blow in from the desert, while the markets stay busy into the evening and the farms on the edge of town start work at first light. Enquiries from Jahra are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "Jahra sits inland of the bay, so the air is bone dry in summer, walls and paving hold the heat after dark, dust storms are frequent, and the open land around town gives no shelter, so shop coolers, farm sheds and clinic refrigerators work against the weather for months. A stockroom behind a shop can run far hotter than the sales floor, and a refrigerator that fails on a summer night warms quickly.",
+            areas: [
+              {
+                name: "The hospital, clinics and pharmacies",
+                note: "A large hospital, family clinics and pharmacies keep vaccines, insulin, blood products and medicines in fridges and freezers that must stay in range through short power dips.",
+              },
+              {
+                name: "Markets, butchers and supermarkets",
+                note: "Butchers, fish sellers and supermarkets keep chilled meat and frozen goods in cold rooms and cabinets that are opened thousands of times a day.",
+              },
+              {
+                name: "Farms and feed stores at the edge of town",
+                note: "Farms keep produce, feed and veterinary medicines in sheds and fridges that have to hold their range in desert heat.",
+              },
+              {
+                name: "Workshops and yards along the main roads",
+                note: "Workshops and storage yards hold parts, tools and household goods under metal roofs that soak up the summer sun at speed.",
+              },
+            ],
+            industries: [
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The hospital and clinics of Jahra serve a very wide district, and a phone alert reaches whoever is on duty if a vaccine or blood refrigerator drifts in the small hours.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies and medicine stores in Jahra keep stock to labelled ranges, and a dated record shows how a room coped with the hottest weeks of summer.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Butchers, bakers and supermarkets in Jahra hold chilled and frozen goods that spoil in heat, and a log from each cooler shows when a unit began to slip.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods for Jahra's shops and farms wait in vehicles and yards before use, and a logger tucked into a load records the heat each lot met on the way.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "A single probe on a short lead fits a ward or pharmacy refrigerator in Jahra and leaves the way staff use the unit unchanged.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels follow a butcher's cold room from its door to its back wall, showing whether the cold reaches the last rail.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels set along a long yard shed show which stretch runs warmest and at what hour, all in one report.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Jahra butcher or supermarket use temperature loggers?",
+                answer:
+                  "A logger in each cold room and cabinet keeps a round-the-clock record, and a report for any period can be saved as a PDF, Excel or CSV file for an inspector or a client.",
+              },
+              {
+                question: "Why would a farm near town want a record for veterinary medicines?",
+                answer:
+                  "Vaccines and medicines have labelled ranges, and a farm fridge in desert heat can drift without anyone noticing, so a dated log shows whether they were kept in range.",
+              },
+              {
+                question: "How would an enquiry from Jahra be handled?",
+                answer:
+                  "Give the shop, farm, clinic or yard, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Jahra.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Jahra clinics?",
+                answer:
+                  "Calibration of loggers and probes for Jahra clinics is looked after by VEGA Calibrations, our parent company; share the model and the range and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "sulaibiya", name: "Sulaibiya" },
+              { slug: "kuwait-city", name: "Kuwait City" },
+              { slug: "farwaniya", name: "Farwaniya" },
+            ],
+            metaTitle: "Temperature Data Loggers in Jahra | Prithvi",
+            metaDescription:
+              "Data loggers for Jahra's hospital, butchers, supermarkets, farm stores and yards in blazing dry heat and dust. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "sulaibiya",
+            name: "Sulaibiya",
+            type: "city",
+            intro:
+              "Sulaibiya is a sprawling district on the flat western plain of Kuwait, packed with warehouses, workshops, storage yards, farms and blocks of housing, and a temperature data logger here serves a place of wholesale stores, trading yards, small factories and shops in blazing dry heat. Trucks load and unload along wide roads, goods of every kind are stored in rows of sheds, and families live in estates between the yards. Clinics and pharmacies serve the housing. Summers are blazing, winters mild and cool at night, and dust storms are frequent, while the roads fill with lorries and pickups from before dawn and the estates empty out in the heat of the afternoon. Enquiries from Sulaibiya are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The plain is wide open, so summer sun and wind-blown sand strike every shed, paving holds the heat after dark, and dust storms are frequent, so warehouse stock, wholesale cold rooms and shop coolers work against the weather for months. Goods stacked high under metal roofs are far hotter at the top than at the floor, and a chiller that fails during the night can lose its contents before the yard opens. Many sheds here are rented by the bay to different traders, so a pallet of chilled goods may sit in a shared hall without anyone responsible for watching its temperature, and loss is blamed on the carrier.",
+            areas: [
+              {
+                name: "Wholesale stores and cold rooms",
+                note: "Wholesalers keep chilled and frozen food in cold rooms that open and close all day as shopkeepers collect their orders.",
+              },
+              {
+                name: "Warehouses and trading yards",
+                note: "Warehouses and yards hold dry food, drinks, building materials and household goods under metal roofs and open canopies.",
+              },
+              {
+                name: "Small factories and workshops",
+                note: "Small plants and workshops keep parts, packaging and finished goods in halls that are pushed hardest by the late summer afternoon.",
+              },
+              {
+                name: "Shops and clinics serving the housing",
+                note: "Groceries, bakeries, clinics and pharmacies among the housing estates keep chilled goods and medicines in coolers and refrigerators opened constantly.",
+              },
+            ],
+            industries: [
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "A warehouse in Sulaibiya holding goods for several traders can give each trader a record of its own stacks in place of a general remark about the shed.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Wholesalers and grocers in Sulaibiya hold chilled and frozen food in bulk, and a log from each cold room shows when a unit began to struggle.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Stockists of cleaners, paints and adhesives in Sulaibiya keep products with labelled ranges, and a dated record shows whether a stack sat hot for too long.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies among the housing estates keep stock to labelled ranges, and a dated log shows how a room behaved through the hottest weeks.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels follow a wide warehouse across racks, dock doors and floor positions, so a single report shows how the whole shed behaves.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a wholesale cold room at floor, shelf and door height, showing which level warms first as orders go out.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable fits a pharmacy or clinic refrigerator in Sulaibiya and leaves daily routines unchanged.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Sulaibiya wholesaler give a customer a temperature record?",
+                answer:
+                  "Yes. A report for the dates a lot stood in a cold room can be exported in PDF, Excel or CSV form and handed to the customer or an inspector.",
+              },
+              {
+                question: "Why does stock stacked high need probes at several heights?",
+                answer:
+                  "Heat collects under the roof and the floor stays cooler, so a probe at the top and another low down show how much hotter the highest pallets became than the lowest.",
+              },
+              {
+                question: "How would an enquiry from Sulaibiya be handled?",
+                answer:
+                  "Give the warehouse, yard, shop or clinic, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Sulaibiya.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Sulaibiya?",
+                answer:
+                  "Calibration of loggers and probes for Sulaibiya sites is looked after by VEGA Calibrations, our parent company; share the model and the range and we explain the options.",
+              },
+            ],
+            nearby: [
+              { slug: "jahra", name: "Jahra" },
+              { slug: "farwaniya", name: "Farwaniya" },
+              { slug: "kuwait-city", name: "Kuwait City" },
+            ],
+            metaTitle: "Temperature Data Loggers in Sulaibiya | Prithvi",
+            metaDescription:
+              "Data loggers for Sulaibiya's wholesale cold rooms, warehouses, trading yards and workshops on the flat western plain. Get Solution.",
             indexable: true,
           },
         ],

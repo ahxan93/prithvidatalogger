@@ -91,6 +91,8 @@ export const areaCities: Record<string, { name: string; stateSlug: string; state
   barka: { name: "Barka", stateSlug: "al-batinah-south-governorate", stateName: "Al Batinah South Governorate" },
   sohar: { name: "Sohar", stateSlug: "al-batinah-north-governorate", stateName: "Al Batinah North Governorate" },
   ahmadi: { name: "Ahmadi", stateSlug: "ahmadi-governorate", stateName: "Ahmadi Governorate" },
+  jahra: { name: "Jahra", stateSlug: "jahra-governorate", stateName: "Jahra Governorate" },
+  sulaibiya: { name: "Sulaibiya", stateSlug: "jahra-governorate", stateName: "Jahra Governorate" },
   "kuwait-city": { name: "Kuwait City", stateSlug: "al-asimah-governorate", stateName: "Al Asimah Governorate" },
   farwaniya: { name: "Farwaniya", stateSlug: "farwaniya-governorate", stateName: "Farwaniya Governorate" },
   "jleeb-al-shuyoukh": { name: "Jleeb Al-Shuyoukh", stateSlug: "farwaniya-governorate", stateName: "Farwaniya Governorate" },
@@ -9684,6 +9686,111 @@ export const areas: AreaDef[] = [
         {
           "question": "Why does shore air matter for stored lubricants and parts?",
           "answer": "Salt-laden damp air attacks metal and softens packaging, so a humidity trend beside the temperature shows when stock took on moisture."
+        }
+      ],
+      "nearby": [],
+      "indexable": true
+    } },
+  // ------------------------------------------------------------------ Kuwait (batch 6: Jahra)
+  { slug: "sulaibiya-industrial-area", name: "Sulaibiya Industrial Area", citySlug: "sulaibiya", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["virat-pro","setu"], page: {
+      "metaTitle": "Data Loggers in Sulaibiya Industrial Area, Kuwait | Prithvi",
+      "metaDescription": "Data loggers for workshops, warehouses, light factories and yards in the Sulaibiya Industrial Area, western Kuwait. Get Solution.",
+      "intro": "The Sulaibiya Industrial Area occupies flat open ground in Sulaibiya, a wide grid of workshops, warehouses, light factories and storage yards with broad roads between them. For a temperature data logger the interest lies in the everyday trouble of keeping goods through blazing, dusty summers: food and drink in bulk, building materials, sealants and cleaners with a printed limit, and parts and tools under metal roofs. What follows covers only the stock and rooms that a logger user in Sulaibiya could look after. Enquiries about the Sulaibiya Industrial Area are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Wholesale food and drink stores",
+          "note": "Wholesalers keep chilled and dry goods in cooled rooms that load and unload before dawn to avoid the heat."
+        },
+        {
+          "name": "Cleaner, sealant and paint stores",
+          "note": "Shelves of cleaners, sealants and paints carry limits printed on the tin, and a baking shed can pass them without any sign."
+        },
+        {
+          "name": "Light factories and packing halls",
+          "note": "Small plants that make and pack consumer goods keep finished stock in halls that strain most in the late summer afternoon."
+        },
+        {
+          "name": "Open yards and canopies",
+          "note": "Goods wait in open yards and under canopies, where the sun heats cartons and the wind carries sand across them."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "food-beverage",
+          "sentence": "A wholesaler supplying shops and kitchens from the estate can show through a log that a chilled room stayed in range at every early loading."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A shared warehouse in the Sulaibiya estate can hand every owner a record of its own shelves instead of a general assurance about the whole building."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Stockists of cleaners and sealants can use a dated record to show whether a scorching afternoon pushed a pallet outside its printed range."
+        }
+      ],
+      "services": "For a wide, open industrial area we would look at multi-point units for long sheds, WiFi loggers for cooled rooms near a router, probe loggers for chilled rooms and freezers, and loggers that ride in a load. Users in Sulaibiya can ask VEGA Calibrations, our parent company, about calibration. WiFi units need a router within reach and mains power, and for an open yard we set out the alternatives. What may be supplied is settled only once a request for Sulaibiya has been read.",
+      "visits": "A visit or an installation in the Sulaibiya Industrial Area is not promised. Hand us the business, the rooms involved and a contact on the enquiry form, Call or WhatsApp, and we weigh up the request and tell you what seems practical.",
+      "approach": "If a request went ahead, we would start with the chilled room or store holding the most fragile stock, putting one logger by the door and one at the back, then mount each body out of the sand and the sun. A month of summer readings would show which part of the shed runs hottest.",
+      "faqs": [
+        {
+          "question": "Can one report describe a long wholesale shed?",
+          "answer": "Yes. A multi-channel logger reads probes placed along the shed, so a single report shows which stretch of the building is warmest and at what hour."
+        },
+        {
+          "question": "Why do open yards and canopies need a logger inside the load?",
+          "answer": "Sun and wind-blown sand reach cartons in the open, so a logger placed in the load records the exposure that a reading taken in the shade would miss."
+        }
+      ],
+      "nearby": [],
+      "indexable": true
+    } },
+  { slug: "amghara-industrial-area", name: "Amghara Industrial Area", citySlug: "jahra", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","electronics","chemical"], confirmedService: true, hero: ["rajmudra","dhruva"], page: {
+      "metaTitle": "Data Loggers in Amghara Industrial Area, Kuwait | Prithvi",
+      "metaDescription": "Data loggers for workshops, parts yards and warehouses in the Amghara Industrial Area, near Jahra. Get Solution.",
+      "intro": "The Amghara Industrial Area lies near Jahra on flat open ground beside wide roads, a district of workshops, parts yards, trading yards and warehouses. For a temperature data logger the interest lies in stock that suffers in blazing, dusty summers: vehicle parts and batteries, tyres, tools, electronics and the lubricants and cleaners that go with them. The text below is limited to the goods and rooms a logger user could look after in a workshop and trading district of this sort. Enquiries about the Amghara Industrial Area are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Parts yards and workshops",
+          "note": "Yards and workshops hold batteries, seals, tyres and tools in sheds and open yards where the sun heats metal and rubber for long hours."
+        },
+        {
+          "name": "Electronics and appliance stores",
+          "note": "Stores of electronics and appliances suit a steady range better than the swing between a cooled counter and a scorching yard."
+        },
+        {
+          "name": "Lubricant and cleaner stores",
+          "note": "Shelves of lubricants and cleaners carry limits printed on the label, and an exposed shed can pass them quietly."
+        },
+        {
+          "name": "General warehouses",
+          "note": "Warehouses with wide doors hold goods for shops across the region, and wind-blown dust enters each time a vehicle backs in."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "electronics",
+          "sentence": "Dealers in electronics and batteries in the area can use a dated record of heat and humidity to show that stock was kept inside a sensible range until sold."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A warehouse here holding goods for several owners can give each owner a trace of its own stock in place of a remark about the hall."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Stockists of lubricants and cleaners can use a log to show whether a hot afternoon carried a pallet beyond its printed limit."
+        }
+      ],
+      "services": "In a workshop and trading district we would look at WiFi loggers for stores near a router, probe loggers for chilled rooms and freezers, multi-point units for long sheds, and loggers that ride in a load. Amghara users with calibration questions can put them to VEGA Calibrations, our parent company. WiFi units depend on a router in range and a power supply, and for a yard we describe other routes. Any word on supply waits until an Amghara request has been looked at.",
+      "visits": "A visit or an installation in the Amghara Industrial Area is not promised. Give the business, the rooms to be watched and a contact via the enquiry form, Call or WhatsApp, and we look over the request and reply with what seems workable.",
+      "approach": "If a request went ahead, we would begin with the store holding the most sensitive stock, such as electronics or batteries, placing one logger by the door and one at the back and adding a humidity unit. A few weeks of readings would show which hours the room swings most.",
+      "faqs": [
+        {
+          "question": "Can a small parts dealer keep a temperature record for batteries and electronics?",
+          "answer": "Yes. A logger left among the stock keeps a record through day and night, and a report for chosen dates can be exported as a PDF, Excel or CSV file."
+        },
+        {
+          "question": "Why does dust matter for where a logger is mounted in a yard?",
+          "answer": "Dust from the plain coats anything left in the open, so a logger sits on a shaded inner wall clear of vents, with a battery that keeps recording through an outage."
         }
       ],
       "nearby": [],

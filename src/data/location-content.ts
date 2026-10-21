@@ -343,6 +343,11 @@ export const locationContent: Record<string, LocationContent> = {
       "Data loggers for Ahmadi Governorate: Ahmadi's hospital pharmacies and shops and Fahaheel's seafront kitchens and stockrooms. Get Solution.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
+  "kuwait/jahra-governorate": {
+    metaDescription:
+      "Data loggers for Jahra Governorate: Jahra, Sulaibiya, Sulaibiya Industrial Area and Amghara Industrial Area farms and warehouses. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+  },
   "qatar/doha-municipality": {
     metaDescription:
       "Data loggers for Doha Municipality: Doha city, West Bay, Al Sadd, Msheireb and The Pearl-Qatar kitchens, clinics and stores. Get Solution.",

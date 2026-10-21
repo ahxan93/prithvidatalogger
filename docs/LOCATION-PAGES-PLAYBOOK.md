@@ -467,6 +467,10 @@
 | Fahaheel (`fahaheel`, city, Ahmadi Governorate) | Kuwait | Seafront restaurant kitchens, markets and groceries, clinics and pharmacies, back-lane stockrooms | Food, medicines, logistics | Blazing heat, humid shore air | Ahmadi, Salmiya, Kuwait City |
 | Wafra (`wafra`, city, Ahmadi Governorate) | Kuwait | Greenhouse and produce sheds, animal-farm feed and veterinary stores, packing cold rooms, clinic | Food, logistics, medicines | Blazing dry heat; greenhouses trap damp | Ahmadi, Fahaheel |
 | Khiran (`khiran`, city, Ahmadi Governorate) | Kuwait | Chalet kitchens and cafes, marina and boat stores, small shops, clinic and pharmacy | Food, medicines, logistics | Blazing, humid shore air | Fahaheel, Wafra |
+| Jahra (`jahra`, city, Jahra Governorate) | Kuwait | Hospital, clinics and pharmacies, butchers and supermarkets, farm and feed stores, yard workshops | Medicines, food, logistics | Bone-dry blazing summers, dust | Sulaibiya, Kuwait City, Farwaniya |
+| Sulaibiya (`sulaibiya`, city, Jahra Governorate) | Kuwait | Wholesale cold rooms, warehouses and trading yards, small factories, shops and clinics among the housing | Logistics, food, chemicals | Blazing, wide-open, dusty plain | Jahra, Farwaniya, Kuwait City |
+| Sulaibiya Industrial Area (`sulaibiya-industrial-area`, area of Sulaibiya) | Kuwait | Wholesale food stores, cleaner and sealant stores, light factories, open yards | Food, logistics, chemicals | Blazing, dusty | none |
+| Amghara Industrial Area (`amghara-industrial-area`, area of Jahra) | Kuwait | Parts yards and workshops, electronics and appliance stores, lubricant and cleaner stores, warehouses | Electronics, logistics, chemicals | Blazing, dusty | none |
 | Shuaiba Industrial Area (`shuaiba-industrial-area`, area of Ahmadi) | Kuwait | Factory halls, sealant and coating stores, warehouses and parts stores, canteens | Chemicals, logistics, food | Blazing heat, humid shore air | Shuaiba Port |
 | Shuaiba Port (`shuaiba-port`, area of Ahmadi) | Kuwait | Container stacks, reefer boxes, quayside sheds, trucks (described generally, no operating status) | Logistics, food, medicines | Hot, hazy shore air | Shuaiba Industrial Area |
 | Mina Al Ahmadi (`mina-al-ahmadi`, area of Ahmadi) | Kuwait | Laboratory sample stores, lubricant and coating stores, electrical warehouses, canteens (support buildings only; no refining, oil, gas or output wording) | Chemicals, laboratories, logistics | Blazing, humid shore air | none |
@@ -824,3 +828,7 @@ page that is not a near-copy of the other coastal apartment towns).
 Kuwait Batch 5 (Ahmadi Governorate): Wafra and Khiran added, plus Shuaiba Industrial Area, Shuaiba Port and Mina Al Ahmadi, attached to Ahmadi as the nearest
 confident city (no administrative statement). Not built: Sabah Al-Ahmad City (not confident which development is meant) and Mina Abdullah (not confident of its
 location).
+
+Kuwait Batch 6 (Jahra Governorate): hub, Jahra, Sulaibiya, Sulaibiya Industrial Area (under Sulaibiya) and Amghara Industrial Area (attached to Jahra as the nearest
+confident city, no administrative statement). Not built: Abdali and Subiya (too few confident, distinguishing local facts), Kabd Industrial Area (not confident it
+is a distinct industrial area or where it sits) and Sabhan Industrial Area (governorate not guessed).
