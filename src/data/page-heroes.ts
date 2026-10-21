@@ -246,7 +246,7 @@ const CITY_REGISTRY: { slug: string; region: Region }[] = [
     "puducherry", "karaikal",
   ].map((slug) => ({ slug, region: "india" as const })),
   // Saudi Arabia (appended so earlier assignments never move).
-  ...["al-kharj", "diriyah", "al-majmaah", "makkah", "taif", "rabigh", "king-abdullah-economic-city", "al-khobar", "jubail", "al-ahsa", "dhahran", "qatif", "ras-al-khair", "madinah", "yanbu", "buraidah", "unaizah", "abha", "khamis-mushait", "bisha", "jazan", "najran", "al-baha", "tabuk", "hail", "sakaka", "arar", "aden", "mukalla", "seiyun", "shibam", "zinjibar", "sanaa", "taiz", "mocha", "hodeidah", "zabid", "bajil", "ibb", "dhamar", "marib", "lahij", "sadah", "abu-dhabi", "al-ain", "ruwais", "madinat-zayed", "liwa", "sharjah", "khor-fakkan", "kalba", "ajman", "umm-al-quwain", "ras-al-khaimah", "fujairah", "dibba", "doha", "al-rayyan", "al-wakrah", "mesaieed", "al-wukair", "al-khor", "ras-laffan"].map((slug) => ({ slug, region: "gcc" as const })),
+  ...["al-kharj", "diriyah", "al-majmaah", "makkah", "taif", "rabigh", "king-abdullah-economic-city", "al-khobar", "jubail", "al-ahsa", "dhahran", "qatif", "ras-al-khair", "madinah", "yanbu", "buraidah", "unaizah", "abha", "khamis-mushait", "bisha", "jazan", "najran", "al-baha", "tabuk", "hail", "sakaka", "arar", "aden", "mukalla", "seiyun", "shibam", "zinjibar", "sanaa", "taiz", "mocha", "hodeidah", "zabid", "bajil", "ibb", "dhamar", "marib", "lahij", "sadah", "abu-dhabi", "al-ain", "ruwais", "madinat-zayed", "liwa", "sharjah", "khor-fakkan", "kalba", "ajman", "umm-al-quwain", "ras-al-khaimah", "fujairah", "dibba", "doha", "al-rayyan", "al-wakrah", "mesaieed", "al-wukair", "al-khor", "ras-laffan", "lusail", "al-daayen", "umm-salal"].map((slug) => ({ slug, region: "gcc" as const })),
 ];
 
 /**
@@ -401,6 +401,8 @@ const HUB_OF: Record<string, string> = Object.fromEntries([
   ...["al-rayyan"].map((slug) => [slug, "al-rayyan-municipality"]),
   ...["al-wakrah", "mesaieed", "al-wukair"].map((slug) => [slug, "al-wakrah-municipality"]),
   ...["al-khor", "ras-laffan"].map((slug) => [slug, "al-khor-and-al-thakhira-municipality"]),
+  ...["lusail", "al-daayen"].map((slug) => [slug, "al-daayen-municipality"]),
+  ...["umm-salal"].map((slug) => [slug, "umm-salal-municipality"]),
   ...[
     "baddi", "solan", "parwanoo", "paonta-sahib", "una", "shimla",
   ].map((slug) => [slug, "himachal-pradesh"]),

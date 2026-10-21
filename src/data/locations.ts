@@ -22176,7 +22176,7 @@ export const locations: LegacyLocationNode[] = [
       {
         question: "Which parts of Qatar have a page?",
         answer:
-          "Doha, Al Rayyan, Al Wakrah and Al Khor and Al Thakhira municipalities have their own pages, each with cities and districts beneath them. For another place, send the site and what you store through the enquiry form, Call or WhatsApp, and we reply with what looks suitable.",
+          "Doha, Al Rayyan, Al Wakrah, Al Khor and Al Thakhira, Al Daayen and Umm Salal municipalities have their own pages, each with cities and districts beneath them. For another place, send the site and what you store through the enquiry form, Call or WhatsApp, and we reply with what looks suitable.",
       },
       {
         question: "How is monitoring set up for a Qatar site?",
@@ -22194,6 +22194,8 @@ export const locations: LegacyLocationNode[] = [
       { slug: "al-rayyan-municipality", text: "The municipality west of the capital, with a spreading city of villas, malls, schools and clinics, and its Al Gharafa, Birkat Al Awamer and Al Sailiya districts, in hot, dusty summers." },
       { slug: "al-wakrah-municipality", text: "The municipality south of the capital, with a coastal fishing town, an industrial port town beside the dunes and a growing inland suburb, in hot, humid summers." },
       { slug: "al-khor-and-al-thakhira-municipality", text: "The municipality on the north-east coast, with a creek-side fishing town, mangrove shallows and a headland industrial city, in hot, humid summers and salt air." },
+      { slug: "al-daayen-municipality", text: "The municipality along the coast north of the capital, with a planned waterfront city of towers and marinas and a northern suburb of villas, schools and farms, in hot, humid summers." },
+      { slug: "umm-salal-municipality", text: "The municipality north of the capital, with a historic fort town, farms, villas and open land, in hot, dry summers and blowing dust." },
     ],
     indexable: true,
     children: [
@@ -22442,7 +22444,7 @@ export const locations: LegacyLocationNode[] = [
               {
                 slug: "rajmudra",
                 reason:
-                  "Two channels follow a supermarket cold room from its door to its rear wall, showing whether the chill reaches the last shelf.",
+                  "Two channels trace a supermarket cold room from the entrance to the back wall, showing whether the cold reaches the final shelf.",
               },
               {
                 slug: "veer",
@@ -22782,7 +22784,7 @@ export const locations: LegacyLocationNode[] = [
               {
                 slug: "nakshatra",
                 reason:
-                  "Temperature and humidity at one point suit a dry store or a produce shed, where steady, cool air protects the contents.",
+                  "Temperature and humidity at a single point suit a dry store or a produce shed, where cool, steady air keeps the contents sound.",
               },
             ],
             faqs: [
@@ -23052,6 +23054,379 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Ras Laffan | Prithvi",
             metaDescription:
               "Data loggers for Ras Laffan's support warehouses, laboratories, canteens and clinics on the exposed north-east headland. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "al-daayen-municipality",
+        name: "Al Daayen Municipality",
+        type: "state",
+        intro:
+          "Al Daayen Municipality stretches along the Gulf coast north of the capital, a flat shoreline where a planned waterfront city of towers, marinas and shopping boulevards has been laid out beside older suburbs of villas, schools and farms. Lusail is the waterfront city, with hotels, apartments, offices and restaurants arranged around canals and a marina, while Al Daayen itself is a quieter northern suburb with family homes, small shops and open land behind the coast. On the shore the long summers are very hot and humid and the winters mild, while dust and haze drift in at certain times of year. Food, medicines and household goods wait in kitchens, clinics and warehouses in such heat. The pages below cover the two towns.",
+        localIndustries: [
+          "Hotel, restaurant and catering kitchens",
+          "Supermarkets and shopping streets",
+          "Clinics, pharmacies and care centres",
+          "Warehouses and workshops",
+        ],
+        citiesServed: ["Lusail","Al Daayen"],
+        supportNote:
+          "Enquiries from Al Daayen Municipality are handled through the enquiry form, Call or WhatsApp. Name the town, the rooms and how they are cooled, and our reply covers what seems suitable on site.",
+        faqs: [
+          {
+            question: "Which places in Al Daayen Municipality have a page?",
+            answer:
+              "Lusail and Al Daayen each have a city page. Another place on this stretch of coast can be raised through the enquiry form, and further pages follow only when they can be written from confident facts.",
+          },
+          {
+            question: "Why would a new waterfront city want a temperature record?",
+            answer:
+              "New towers and shopping streets are cooled by plant that works at its limit through the long summer, so a record of kitchens, clinics and stockrooms shows when a unit begins to struggle, before stock is lost.",
+          },
+          {
+            question: "Can one login watch rooms across both towns?",
+            answer:
+              "Yes. Each room is a separate point on one dashboard with its own alert contacts, and a manager can view both towns together in a single exported report.",
+          },
+        ],
+        listing: [
+          { slug: "lusail", text: "A planned waterfront city of towers, hotels, marinas and shopping boulevards on the coast north of the capital, in hot, humid summers and sea air." },
+          { slug: "al-daayen", text: "A quieter northern suburb of villas, schools, small shops and farms, with open land behind the coast, in hot, dusty summers." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "lusail",
+            name: "Lusail",
+            type: "city",
+            intro:
+              "Lusail is a planned waterfront city on the Gulf coast north of Doha, laid out with towers, hotels, marinas, canals and shopping boulevards, and a temperature data logger here serves a young city of kitchens, clinics, supermarkets and stockrooms in hot, humid sea air. Apartment blocks and offices rise beside the marina, restaurants and cafes line the waterfront, and islands of villas and resorts reach out into the shallows. Everything is new, so cooling plant is modern but runs at its limit through the long summer, and the glass towers hold the heat well into the night. Winters are mild and the evening promenade is busy, with families, cyclists and cafe tables spilling along the water. Enquiries from Lusail are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "Summer heat and humidity peak together on the water, salt reaches every balcony and service yard, and dust and haze blow in from the desert in some seasons, so basement kitchens, supermarket cold rooms and tower plant rooms all work against the weather for months. A cooler on a hotel service floor that loses power on an August afternoon warms fast, and condensation forms the moment a cold door opens to the outside air. Resorts out on the shallows depend on stock that arrives in warm vehicles, so a record of each load is worth having.",
+            areas: [
+              {
+                name: "Hotel, resort and restaurant kitchens",
+                note: "Hotels, resorts and waterfront restaurants run walk-in coolers, freezers and dry stores in service basements, and the load on the cooling swings between a quiet weekday and a busy weekend evening.",
+              },
+              {
+                name: "Supermarkets and neighbourhood groceries",
+                note: "Supermarkets and groceries serve the new towers from display cabinets and cold rooms opened constantly through the day.",
+              },
+              {
+                name: "Clinics, pharmacies and care centres",
+                note: "Clinics, pharmacies and care centres hold vaccines, insulin and medicines in refrigerators that must hold a range through power dips.",
+              },
+              {
+                name: "Building stockrooms and plant rooms",
+                note: "Residential and office towers keep pantry refrigerators, maintenance stockrooms and plant rooms in basements and service floors where humid air sits.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Hotel and restaurant kitchens in Lusail hold chilled and frozen stock in service basements, and a record from each cooler shows when a unit began to struggle.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Lusail store medicines to labelled ranges, and a dated record shows how a room behaved through the hottest weeks of summer.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Clinics and care centres in Lusail hold vaccines to strict ranges, and a phone alert reaches the person responsible if a refrigerator warms in the night.",
+              },
+              {
+                slug: "data-centers",
+                sentence:
+                  "Small server and network rooms in the offices of Lusail gain an early warning from a logger, because a rising room temperature is the first sign that cooling has failed.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a service-floor cooler at floor, shelf and door height, showing which level warms first between loads.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short lead slips into a clinic or pharmacy refrigerator in Lusail and leaves the way staff use the unit unchanged.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity read next to temperature shows when salty marina air has got into a dry basement store that looks fine on a thermometer.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Lusail hotel or restaurant watch every kitchen from one login?",
+                answer:
+                  "Yes. Every kitchen, pantry and plant room reports to one dashboard, each alert reaches its own engineer, and a manager gets a single exported report covering all the rooms.",
+              },
+              {
+                question: "Why does a basement store near the water need a humidity reading?",
+                answer:
+                  "Humid air collects in low rooms and condenses on cool surfaces, so a humidity trend next to the temperature reveals moisture that a thermometer alone would miss.",
+              },
+              {
+                question: "How would an enquiry from Lusail be handled?",
+                answer:
+                  "Give the hotel, shop or clinic, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Lusail.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Lusail clinics?",
+                answer:
+                  "Calibration of loggers and probes for Lusail clinics is looked after by VEGA Calibrations, our parent company; share the model and the range and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "doha", name: "Doha" },
+              { slug: "al-daayen", name: "Al Daayen" },
+              { slug: "umm-salal", name: "Umm Salal" },
+            ],
+            metaTitle: "Temperature Data Loggers in Lusail | Prithvi",
+            metaDescription:
+              "Data loggers for Lusail's hotel kitchens, supermarkets, clinics and tower stockrooms on the hot, humid waterfront. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "al-daayen",
+            name: "Al Daayen",
+            type: "city",
+            intro:
+              "Al Daayen is a northern suburb of the capital region, set back from the Gulf coast on flat open land, and a temperature data logger here serves a district of family homes, schools, small shops, farms and workshops in hot, dusty heat. Villas and low apartment blocks stand along planned streets lined with young trees, neighbourhood supermarkets and bakeries serve the families, and farms and open stretches of desert still lie between the newer developments. Summers are very hot and winters mild, with dust and haze in some seasons, and the cooler months bring families out to the parks and playgrounds that dot the neighbourhoods. Roads are wide and traffic is light outside school times, which makes it easy for a failed cooler in a quiet corner shop to go unnoticed until the next morning. Enquiries from Al Daayen are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The air is drier than on the waterfront but summer heat is just as fierce, nights stay warm, and dust storms blow through in some seasons, so supermarket coolers, farm sheds and warehouse roofs all work against the sun for months. Vehicles parked on the main roads reach far higher temperatures than the shaded air, and a refrigerator that fails on a summer afternoon warms quickly. Large gaps between the shops of a new district mean that a failed cooler may not be noticed until the next shift. Small farms beside the houses keep produce in unshaded sheds, and wind-blown sand reaches vents and door seals.",
+            areas: [
+              {
+                name: "Neighbourhood supermarkets and bakeries",
+                note: "Supermarkets, groceries and bakeries serve family streets from display coolers and cold rooms that open constantly through the day.",
+              },
+              {
+                name: "Farm sheds and produce stores",
+                note: "Farms between the villas keep vegetables, fodder and dairy produce in sheds and small cool rooms, where heat after picking is the main danger to quality.",
+              },
+              {
+                name: "Clinics and pharmacies",
+                note: "Family clinics and pharmacies hold vaccines and medicines in refrigerators that must hold their range through power dips.",
+              },
+              {
+                name: "Workshops and small warehouses",
+                note: "Workshops and small warehouses hold parts and household goods under metal roofs that heat up quickly in the summer sun.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Supermarkets, bakeries and farm stores in Al Daayen hold goods that spoil in heat, and a log from each cooler shows when a unit began to drift.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Al Daayen store stock to labelled ranges, and a dated record shows how a room behaved through the hottest weeks and any outage.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Family clinics in Al Daayen hold vaccines to strict ranges, and a phone alert reaches whoever looks after the unit if a refrigerator warms.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Small warehouses in Al Daayen hold goods for shops and homes, and a reading for each bay shows how long a lot stood in warm air before it was collected.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels follow a supermarket cold room from its door to its rear wall, showing whether the chill reaches the last shelf.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable fits a clinic or pharmacy refrigerator in Al Daayen and leaves daily routines unchanged.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a dry store or a produce shed, where steady, cool air protects the contents.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a small Al Daayen shop or farm use a single logger?",
+                answer:
+                  "Yes. One logger with a phone alert can watch a single cold room or refrigerator as long as a router is within reach, and more points can be added to the same account later.",
+              },
+              {
+                question: "Does desert dust matter for where a logger is fixed in Al Daayen?",
+                answer:
+                  "Fine dust settles on anything left open or near a vent, so a logger sits on a shaded inner wall away from the door, with a battery that keeps the record running through a power cut.",
+              },
+              {
+                question: "How would an enquiry from Al Daayen be handled?",
+                answer:
+                  "Give the shop, farm or clinic, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Al Daayen.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Al Daayen clinics?",
+                answer:
+                  "Calibration of loggers and probes for Al Daayen clinics is looked after by VEGA Calibrations, our parent company; share the model and range and we explain the options.",
+              },
+            ],
+            nearby: [
+              { slug: "lusail", name: "Lusail" },
+              { slug: "doha", name: "Doha" },
+              { slug: "umm-salal", name: "Umm Salal" },
+            ],
+            metaTitle: "Temperature Data Loggers in Al Daayen | Prithvi",
+            metaDescription:
+              "Data loggers for Al Daayen's supermarkets, bakeries, farm sheds, clinics and workshops in hot, dusty heat. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "umm-salal-municipality",
+        name: "Umm Salal Municipality",
+        type: "state",
+        intro:
+          "Umm Salal Municipality lies north of the capital, inland from the coast, in a landscape of farms, villas, schools and open desert, with an old fort standing in the town of Umm Salal that has become a landmark of the district. Farms grow vegetables and fodder under irrigation, neighbourhood shops and clinics serve family streets, and workshops and warehouses sit along the main roads. Summers are very hot and dry, winters mild, and dust blows in from the desert. Food, farm produce and medicines wait in sheds, clinics and shops in such heat. The page below describes the town and the rooms where a temperature record would help.",
+        localIndustries: [
+          "Farm produce and fodder",
+          "Supermarkets and neighbourhood shops",
+          "Clinics, pharmacies and care centres",
+          "Warehouses and workshops",
+        ],
+        citiesServed: ["Umm Salal"],
+        supportNote:
+          "Enquiries from Umm Salal Municipality are handled through the enquiry form, Call or WhatsApp. Say which town, which rooms and how they are cooled, and our reply covers what seems suitable here.",
+        faqs: [
+          {
+            question: "Which places in Umm Salal Municipality have a page?",
+            answer:
+              "Umm Salal has a city page. Another place in the municipality can be raised through the enquiry form, and further pages follow only when they can be written from confident facts.",
+          },
+          {
+            question: "How do farm sheds differ from city stores for a logger?",
+            answer:
+              "Farm sheds heat up from direct sun and open sides, so a logger is placed among the produce and shaded from the roof, while city stores are watched mainly at the door and the back wall.",
+          },
+          {
+            question: "What does a logger do through a long power cut on a farm?",
+            answer:
+              "It carries on recording from its battery and keeps the readings, so the hours of an outage are still on record when the site is connected again.",
+          },
+        ],
+        listing: [
+          { slug: "umm-salal", text: "A fort town and farming district north of the capital, with villas, shops, clinics and workshops in hot, dry summers." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "umm-salal",
+            name: "Umm Salal",
+            type: "city",
+            intro:
+              "Umm Salal is a town and farming district north of the capital, inland from the coast, and a temperature data logger here serves a place of old fort walls, irrigated farms, villas and workshops in hot, dry heat. A small historic fort of mud and stone stands in the town and draws visitors, farms grow vegetables and fodder under irrigation, and neighbourhood shops, bakeries and clinics serve family streets. Warehouses and workshops sit beside the main roads. Summers are very hot and winters mild, and dust blows in from the desert in some seasons. Families gather at the fort in the cooler months, and farm stalls sell produce at the roadside. Enquiries from Umm Salal are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The inland air is dry, summer heat is fierce and nights stay warm, and dust storms blow through in some seasons, so farm sheds, shop coolers and warehouse roofs all work against the sun for months. Open-sided sheds heat up directly under the sun, a refrigerator that loses power on a summer afternoon warms quickly, and vehicles waiting on the main roads reach far higher temperatures than the shaded air. Wind-blown sand reaches vents and door seals, and old stone walls hold the day's heat well into the evening.",
+            areas: [
+              {
+                name: "Irrigated farms and produce sheds",
+                note: "Farms keep vegetables, fodder and dairy produce in open-sided sheds and small cool rooms, where heat after picking and wind-blown dust are the main dangers to quality.",
+              },
+              {
+                name: "Neighbourhood shops and bakeries",
+                note: "Shops, groceries and bakeries serve family streets from display coolers and cold rooms that are opened constantly through the day.",
+              },
+              {
+                name: "Clinics and pharmacies",
+                note: "Clinics and pharmacies serving the town and its farms hold vaccines and medicines in refrigerators that must hold their range through power interruptions.",
+              },
+              {
+                name: "Workshops and warehouses on the main roads",
+                note: "Workshops and small warehouses hold tools, parts and household goods under metal roofs that bake in the afternoon sun.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Farms, bakeries and shops in Umm Salal hold produce and chilled goods that spoil in heat, and a log from each cooler shows a buyer how a lot was kept after harvest.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Umm Salal keep stock to labelled ranges, and a dated record shows how a room behaved through the hottest weeks and any outage.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Clinics serving Umm Salal hold vaccines to strict ranges, and a phone alert reaches the person responsible if a refrigerator warms overnight.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods brought to Umm Salal wait in vehicles and storerooms before use, and a logger placed in a load records the heat and humidity each lot met.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a produce shed or a dry store, where steady, cool air protects the contents through long storage.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single probe on a short lead slips into a clinic or pharmacy refrigerator in Umm Salal and leaves daily routines unchanged.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels along a long storage shed show which bay sits warmest under the roof, all in one report.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can an Umm Salal farm use a temperature record for its produce?",
+                answer:
+                  "A logger in the shed or cool room records temperature and humidity through the season, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for a buyer.",
+              },
+              {
+                question: "Why shade the logger on a farm shed?",
+                answer:
+                  "A logger in direct sun reads the warmth of its own case, so it is fixed on a shaded inner wall among the produce, with a battery that keeps the record going through a power cut.",
+              },
+              {
+                question: "How would an enquiry from Umm Salal be handled?",
+                answer:
+                  "Give the farm, shop or clinic, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Umm Salal.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Umm Salal clinics?",
+                answer:
+                  "Calibration of loggers and probes for Umm Salal clinics is looked after by VEGA Calibrations, our parent company; share the model and the range and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "doha", name: "Doha" },
+              { slug: "al-rayyan", name: "Al Rayyan" },
+              { slug: "al-daayen", name: "Al Daayen" },
+              { slug: "al-khor", name: "Al Khor" },
+            ],
+            metaTitle: "Temperature Data Loggers in Umm Salal | Prithvi",
+            metaDescription:
+              "Data loggers for Umm Salal's farm sheds, bakeries, shops, clinics and workshops in hot, dry heat and blowing dust. Get Solution.",
             indexable: true,
           },
         ],

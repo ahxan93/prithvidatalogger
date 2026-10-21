@@ -248,6 +248,16 @@ export const locationContent: Record<string, LocationContent> = {
     recommended: ["nakshatra", "setu", "rajmudra"],
     inName: "Al Khor and Al Thakhira",
   },
+  "qatar/al-daayen-municipality": {
+    metaDescription:
+      "Data loggers for Al Daayen Municipality: Lusail's hotel kitchens, clinics and stockrooms and Al Daayen's shops, farms and stores. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+  },
+  "qatar/umm-salal-municipality": {
+    metaDescription:
+      "Data loggers for Umm Salal Municipality: Umm Salal's farm sheds, shops, clinics and workshops in hot, dry summers. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+  },
   "qatar/doha-municipality": {
     metaDescription:
       "Data loggers for Doha Municipality: Doha city, West Bay, Al Sadd, Msheireb and The Pearl-Qatar kitchens, clinics and stores. Get Solution.",

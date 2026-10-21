@@ -407,6 +407,9 @@
 | Al Khor (`al-khor`, city, Al Khor and Al Thakhira Municipality) | Qatar | Harbour ice stores, supermarkets and bakeries, hospital and clinics, edge-of-town warehouses | Food, medicines, logistics | Hot, humid creek coast | Ras Laffan, Doha, Umm Salal (not yet built) |
 | Ras Laffan (`ras-laffan`, city, Al Khor and Al Thakhira Municipality) | Qatar | Support warehouses and parts stores, laboratories, canteens, clinics in the living quarters | Chemicals, laboratories, food | Extreme heat on an exposed headland | Al Khor, Doha |
 | Ras Laffan Industrial City (`ras-laffan-industrial-city`, area of Ras Laffan) | Qatar | Materials and parts warehouses, chemical stores, laboratories and instrument rooms, canteens (described generally; no operating status, production, energy or gas output) | Chemicals, laboratories, logistics | Extreme heat, salt damp | none |
+| Lusail (`lusail`, city, Al Daayen Municipality) | Qatar | Hotel, resort and restaurant kitchens, supermarkets, clinics and pharmacies, tower stockrooms and plant rooms | Food, medicines, data centers | Hot, humid waterfront | Doha, Al Daayen, Umm Salal |
+| Al Daayen (`al-daayen`, city, Al Daayen Municipality) | Qatar | Neighbourhood supermarkets and bakeries, farm sheds, clinics and pharmacies, small warehouses | Food, medicines, logistics | Hot, dry, dusty | Lusail, Doha, Umm Salal |
+| Umm Salal (`umm-salal`, city, Umm Salal Municipality) | Qatar | Irrigated farm sheds, neighbourhood shops and bakeries, clinics and pharmacies, main-road warehouses | Food, medicines, logistics | Hot, dry; dust | Doha, Al Rayyan, Al Daayen, Al Khor |
 | Jazan Economic City (`jazan-economic-city`, area of Jazan) | Saudi Arabia | Plant chemical and drum stores, spares warehouses and contractor yards, port yards, camp kitchens and clinics | Chemical stores, contract warehousing, camp catering | Extreme heat and humidity, salty air | none |
 | Jeddah (`jeddah`) | Saudi Arabia | Industrial and port logistics zones | Port logistics, food import cold chain, hospitals | Hot, humid coastal | Riyadh, Dammam |
 | Dammam (`dammam`) | Saudi Arabia | Industrial and port logistics zones | Industrial & chemical, port logistics, food | Hot, humid Gulf coast | Riyadh, Bahrain, Jeddah |
@@ -689,3 +692,6 @@ Umm Al Houl Free Zone, because I am not confident which city (Al Wakrah or Mesai
 Qatar Batch 4 (Al Khor and Al Thakhira Municipality): hub, Al Khor, Ras Laffan and Ras Laffan Industrial City (under Ras Laffan). The Ras Laffan pages
 describe the support buildings only and say nothing about energy, gas, production or operating status. The hub's `inName` in `location-content.ts`
 is shortened ("Al Khor and Al Thakhira") to keep the title within 60 characters.
+
+Qatar Batch 5: Al Daayen Municipality hub (Lusail and Al Daayen; indexable with two city pages) and Umm Salal Municipality hub (Umm Salal only, so noindex and
+out of the sitemap until a second page is built). Not built: Barwa Al Baraha, because I am not confident which city it belongs to.
