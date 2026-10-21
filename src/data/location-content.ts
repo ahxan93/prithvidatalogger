@@ -283,6 +283,21 @@ export const locationContent: Record<string, LocationContent> = {
       "Data loggers for Al Batinah South Governorate: Barka, Rustaq, Nakhal and Barka Industrial Area stores, farms and cold rooms. Get Solution.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
+  "oman/ad-dakhiliyah-governorate": {
+    metaDescription:
+      "Data loggers for Ad Dakhiliyah Governorate: Nizwa, Bahla, Izki, Sumail and the Nizwa Industrial Estate date stores and warehouses. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+  },
+  "oman/ad-dhahirah-governorate": {
+    metaDescription:
+      "Data loggers for Ad Dhahirah Governorate: Ibri's date and farm stores, clinics and the Ibri Industrial Area in fierce dry heat. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+  },
+  "oman/al-buraimi-governorate": {
+    metaDescription:
+      "Data loggers for Al Buraimi Governorate: Buraimi's markets, date gardens, clinics and the Buraimi Industrial Area stores. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+  },
   "qatar/doha-municipality": {
     metaDescription:
       "Data loggers for Doha Municipality: Doha city, West Bay, Al Sadd, Msheireb and The Pearl-Qatar kitchens, clinics and stores. Get Solution.",

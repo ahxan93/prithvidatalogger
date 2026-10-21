@@ -23828,7 +23828,7 @@ export const locations: LegacyLocationNode[] = [
       {
         question: "Which parts of Oman have a page?",
         answer:
-          "Muscat, Al Batinah North and Al Batinah South governorates have their own pages, with the cities of Muscat, Muttrah, Seeb, Bawshar, Quriyat, Sohar, Saham, Al Suwaiq, Barka, Rustaq and Nakhal and their districts beneath. If your site is somewhere else, write to us through the enquiry form, Call or WhatsApp with what you store, and we answer with what looks suitable.",
+          "Muscat, Al Batinah North, Al Batinah South, Ad Dakhiliyah, Ad Dhahirah and Al Buraimi governorates have their own pages, with their cities and districts beneath. If your site is somewhere else, write to us through the enquiry form, Call or WhatsApp with what you store, and we answer with what looks suitable.",
       },
       {
         question: "How are loggers set up for a site far from a main city?",
@@ -23845,6 +23845,9 @@ export const locations: LegacyLocationNode[] = [
       { slug: "muscat-governorate", text: "The capital region on the Gulf of Oman, with a harbour city, an old market town, hospitals, shopping streets and industrial districts between the sea and bare mountains." },
       { slug: "al-batinah-north-governorate", text: "The northern stretch of the Batinah coast, with a historic port city, an industrial estate, farming towns of date palms and fishing harbours between the sea and the mountains." },
       { slug: "al-batinah-south-governorate", text: "The southern stretch of the Batinah, with a coastal market town and an industrial area, and foothill oasis towns of date palms and old irrigation channels below the mountains." },
+      { slug: "ad-dakhiliyah-governorate", text: "The interior below the high mountains, with old oasis towns, date groves, irrigation channels, forts, markets and an industrial estate, in hot days and cold winter nights." },
+      { slug: "ad-dhahirah-governorate", text: "The dry plain on the western side of the mountains, with an oasis town at the edge of the desert, date farms, markets and an industrial area, in fierce summer heat." },
+      { slug: "al-buraimi-governorate", text: "The inland oasis governorate in the north-west, with a trading city of shops and date gardens and an industrial area, in hot, dry summers." },
     ],
     indexable: true,
     children: [
@@ -25047,6 +25050,718 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Nakhal | Prithvi",
             metaDescription:
               "Data loggers for Nakhal's date sheds, small-market coolers, clinic and farm-supply stores at the foot of the mountains. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "ad-dakhiliyah-governorate",
+        name: "Ad Dakhiliyah Governorate",
+        type: "state",
+        intro:
+          "Ad Dakhiliyah Governorate lies on the inland side of the Hajar mountains, where old oasis towns sit at the foot of the high ranges among date groves watered by ancient channels. Nizwa is the main town, with a great round fort, a traditional market and an industrial estate, while Bahla, Izki and Sumail are smaller oasis and valley towns of palms, mud-brick houses and farms. Summer days are fierce and dry, winter nights can turn cold, dust is common, and storms send water down the wadis. Dates, farm produce, sweets, tools and building materials wait in sheds and warehouses in such swings. The pages below cover the four towns and the industrial estate at Nizwa.",
+        localIndustries: [
+          "Dates, farm produce and sweets",
+          "Market and craft trade",
+          "Industrial and workshop storage",
+          "Clinics, pharmacies and care centres",
+        ],
+        citiesServed: ["Nizwa","Bahla","Izki","Sumail"],
+        supportNote:
+          "Enquiries from Ad Dakhiliyah Governorate are handled through the enquiry form, Call or WhatsApp. Name the town, the rooms and how they are cooled, and we reply with what looks suitable for the site.",
+        faqs: [
+          {
+            question: "Which places in Ad Dakhiliyah Governorate have a page?",
+            answer:
+              "Nizwa, Bahla, Izki and Sumail each have a city page, and the Nizwa Industrial Estate has an area page under Nizwa. Another town in the governorate can be raised through the enquiry form.",
+          },
+          {
+            question: "Why do cold winter nights matter for inland stores?",
+            answer:
+              "Dates and some medicines can be harmed by a cold night as well as a hot afternoon, so a continuous log shows the swings that a single daytime reading would miss.",
+          },
+          {
+            question: "Can one login watch a market, a date grove and an industrial site?",
+            answer:
+              "Yes. Each room is a separate point on one dashboard with its own alert contacts, and a manager can view all the towns together in a single exported report.",
+          },
+        ],
+        listing: [
+          { slug: "nizwa", text: "A historic inland town below the high mountains, with a round fort, a traditional market, date groves, universities and an industrial estate." },
+          { slug: "bahla", text: "A walled oasis town of mud-brick houses, date palms, a great hill fort and a long tradition of pottery, in dry heat." },
+          { slug: "izki", text: "An ancient oasis town with old houses, date groves and a channel system that waters the palms, at the foot of the mountains." },
+          { slug: "sumail", text: "A valley town in the gap through the mountains, with farms, date palms and shops along the road between the coast and the interior." },
+        ],
+        areaListing: [
+          { slug: "nizwa-industrial-estate", text: "The industrial estate beside Nizwa, with workshops, warehouses, light factories and building-material yards." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "nizwa",
+            name: "Nizwa",
+            type: "city",
+            intro:
+              "Nizwa is a historic inland town on the interior side of the Hajar mountains, a market and farming centre where date groves, irrigation channels, a great round fort and a traditional market share a flat plain below high ranges, and a temperature data logger here serves a place of date stores, sweet-makers, workshops, clinics and warehouses in fierce dry heat. Farmers bring dates and vegetables to the market, craftsmen make tools and copper and silver goods, universities and a hospital serve the region, and an industrial estate lies beside the road. Summer days are very hot, winter nights are cold, and dust blows in across the plain from time to time. Enquiries from Nizwa are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The interior is dry and bright, summer afternoons are fierce, and winter nights can fall surprisingly low, so date stores, sweet rooms and clinic refrigerators swing between baking heat and sharp cold in the same week. Rock walls and stone houses hold the day's heat into the evening, a rare storm can send water down the wadis across low roads, and dust settles on every vent.",
+            areas: [
+              {
+                name: "Date stores and grove sheds",
+                note: "Growers keep dates, limes and vegetables in sheds and cool rooms among the palms, where heat after harvest and a cold night can both threaten the crop.",
+              },
+              {
+                name: "The market and sweet-makers' rooms",
+                note: "Traders and sweet-makers keep dates, sweets, spices and crafts in small back rooms of old buildings that were never designed for cooling.",
+              },
+              {
+                name: "Hospital, clinics, universities and laboratories",
+                note: "A hospital, clinics and university laboratories hold vaccines, reagents and samples in refrigerators and freezers that must stay in range when the supply wavers.",
+              },
+              {
+                name: "Warehouses and workshops by the road",
+                note: "Warehouses and workshops beside the roads keep parts, tools and building materials under metal roofs that heat up quickly in the sun.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Nizwa date growers, sweet-makers and grocers hold goods that suffer in heat and in cold snaps, and a log from each store shows a buyer how a lot was kept after harvest.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The Nizwa hospital and clinics hold vaccines for a district of scattered villages, and a phone alert reaches whoever is on duty if a refrigerator warms in the small hours.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "University and clinical laboratories in Nizwa keep samples and reagents to set limits, and an exported report is ready whenever a review asks for one.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods reaching Nizwa travel long roads from the coast and the south, and a logger tucked into a load records how long it stood in a vehicle in the sun.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at a single point suit a date room or a sweet store, where steady, cool and dry air keeps the contents sound.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable fits a ward or laboratory refrigerator in Nizwa and leaves the way staff use the unit unchanged.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels set along a long warehouse show which section runs warmest under the roof, all in one report.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Nizwa date grower or sweet-maker keep a temperature record?",
+                answer:
+                  "A logger in the date room or sweet store keeps a day-and-night record, and a report for the dates of one lot can be saved as a PDF, Excel or CSV file for a buyer.",
+              },
+              {
+                question: "Why do cold winter nights matter in a hot country?",
+                answer:
+                  "Dates and some medicines can be harmed by a cold night as well as a hot afternoon, so a continuous log shows swings that a single daytime reading would miss.",
+              },
+              {
+                question: "How would an enquiry from Nizwa be handled?",
+                answer:
+                  "Give the farm, shop, clinic or store, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Nizwa.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Nizwa laboratories?",
+                answer:
+                  "Calibration of loggers and probes for Nizwa laboratories is looked after by VEGA Calibrations, our parent company; share the model and the range and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "bahla", name: "Bahla" },
+              { slug: "izki", name: "Izki" },
+              { slug: "sumail", name: "Sumail" },
+              { slug: "adam", name: "Adam" },
+            ],
+            metaTitle: "Temperature Data Loggers in Nizwa | Prithvi",
+            metaDescription:
+              "Data loggers for Nizwa's date stores, sweet-makers, hospital, laboratories and warehouses in fierce dry heat and cold nights. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "bahla",
+            name: "Bahla",
+            type: "city",
+            intro:
+              "Bahla is an old oasis town at the foot of the mountains, ringed by a long mud wall and watched over by a great hill fort, and a temperature data logger here serves a quiet place of date palms, pottery workshops, shops and a clinic in dry heat. Palm gardens are watered by old channels, mud-brick houses stand in narrow lanes, potters make clay vessels in kilns beside the road, and a small market sells food and household goods. A small clinic and a few pharmacies look after the townspeople and nearby hamlets. Summer days are fierce, winter nights are cold, and dust is common, while the wall around the oasis still marks the edge of the gardens. Enquiries from Bahla are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The oasis is hot and dry for most of the year but damp among the palm gardens, and thick mud walls keep rooms cooler by day and slower to warm by night. Storms in the mountains can send water down the wadis, nights in winter can be sharply cold, and a failed refrigerator in a quiet lane may go unnoticed until the next morning. Clay for the kilns is stored in sheds that can dry out in the wind, and finished pots are packed for the road in cartons that soften if a store turns damp.",
+            areas: [
+              {
+                name: "Date palm gardens and grove stores",
+                note: "Farmers keep dates and vegetables in sheds among the palms, where the damp of the irrigation channels and the heat of the day both threaten the crop.",
+              },
+              {
+                name: "Pottery workshops and craft stores",
+                note: "Potters and craftsmen keep clay, glazes and finished pieces in workshops whose temperature and humidity follow the weather outside.",
+              },
+              {
+                name: "The small market and shop coolers",
+                note: "Shops and stalls sell drinks, dairy goods and packaged food from coolers that are opened constantly through the day.",
+              },
+              {
+                name: "The clinic and pharmacies",
+                note: "A clinic and pharmacies hold vaccines and medicines in refrigerators that must hold a range through power cuts.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Bahla date growers and grocers hold goods that suffer in heat and damp, and a record from each cool room shows a buyer how a lot was kept after picking.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The Bahla clinic holds vaccines for the town and its villages, and a phone alert reaches the person on duty if a refrigerator warms.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Bahla keep stock to labelled ranges, and a dated log shows how a room behaved through the hottest weeks and any storm outage.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods brought to Bahla wait in vehicles and storerooms before use, and a logger tucked into a load records the heat and humidity each lot met.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a grove shed or a shop pantry from the floor to the top shelf and the door, showing which level warms first.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single probe on a short lead slips into a clinic or shop refrigerator in Bahla and leaves daily routines unchanged.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels read a craft store at the door end and the back wall, showing whether the air at the rear matches the front.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can one logger watch a single refrigerator in a Bahla shop?",
+                answer:
+                  "Yes. A lone logger with a phone alert can watch one refrigerator as long as a router is within reach, and the account can take more points later.",
+              },
+              {
+                question: "Why would a workshop for clay and glazes want a humidity reading?",
+                answer:
+                  "Clay dries and cracks if the air is too dry or too fast-moving, so a log of humidity beside the temperature shows whether a store stayed steady while pieces waited.",
+              },
+              {
+                question: "How would an enquiry from Bahla be handled?",
+                answer:
+                  "Give the shop, workshop or clinic, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Bahla.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Bahla clinics?",
+                answer:
+                  "Calibration of loggers and probes for Bahla clinics is looked after by VEGA Calibrations, our parent company; share the model and range and we explain the choices.",
+              },
+            ],
+            nearby: [
+              { slug: "nizwa", name: "Nizwa" },
+              { slug: "izki", name: "Izki" },
+            ],
+            metaTitle: "Temperature Data Loggers in Bahla | Prithvi",
+            metaDescription:
+              "Data loggers for Bahla's date gardens, pottery workshops, small-market coolers and clinic in a walled oasis town. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "izki",
+            name: "Izki",
+            type: "city",
+            intro:
+              "Izki is an ancient oasis town at the foot of the mountains, where old mud houses stand among date groves watered by a long irrigation channel, and a temperature data logger here serves a small farming place of date sheds, shops, workshops and a clinic in dry heat. Farmers harvest dates and vegetables, shops along the main road sell food and household goods, and the old quarter keeps narrow lanes of mud-brick buildings. A clinic and pharmacies care for the townspeople and the hamlets around the groves, and school buses and pickups use the main road all day. Summer days are very hot, winter nights are cold, and dust is common. Enquiries from Izki are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The air is dry and bright, summer afternoons are fierce and winter nights can be cold, while the damp of the irrigation channel hangs between the palms, so date sheds and shop coolers swing between heat, cold and moisture within a single week. A cooler that fails in a quiet lane may go unnoticed until morning, and drifting dust clogs vents on roadside units. Old stone and mud walls keep the lanes shaded, but a store room on the sunny side of the quarter can run far hotter than one on the shaded side, and dates left in a hot corner darken and dry.",
+            areas: [
+              {
+                name: "Date groves and farm sheds",
+                note: "Farmers keep dates and vegetables in sheds among the palms, where the heat after harvest and the damp near the channel both threaten the crop.",
+              },
+              {
+                name: "Roadside shops and groceries",
+                note: "Shops on the main road sell dairy goods, drinks and packaged food from coolers opened constantly through the day.",
+              },
+              {
+                name: "The old quarter's stock rooms",
+                note: "Small traders keep dates, spices and household goods in mud-brick rooms that stay cooler by day but never fully dry.",
+              },
+              {
+                name: "The clinic and pharmacies",
+                note: "A clinic and pharmacies hold vaccines and medicines for the town and its villages in refrigerators that must survive power interruptions.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Izki date growers and shopkeepers hold goods that suffer in heat, cold snaps and damp, and a log from each store shows a buyer how a lot was kept.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The Izki clinic holds vaccines for the oasis villages, and a phone alert reaches whoever is on duty if a refrigerator drifts.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Izki store medicines to labelled ranges, and a dated record shows how a room behaved through the hottest weeks and any outage.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods reaching Izki wait in vehicles and sheds before use, and a logger tucked into a load records how long it stood warm.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a date shed beside an irrigation channel, where damp is the quiet danger.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable fits a shop or clinic refrigerator in Izki and leaves the way the unit is used unchanged.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a roadside shop store at floor, shelf and door height, showing which level warms first.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can an Izki date grower keep a record of a lot in store?",
+                answer:
+                  "Yes. A logger set in a shed or cool room tracks heat and damp through the season, and a report for the dates of one lot can be saved as a PDF, Excel or CSV file for a buyer.",
+              },
+              {
+                question: "Why do sheds beside an irrigation channel need a humidity reading?",
+                answer:
+                  "The channel keeps the air damp around the groves, so a humidity trend beside the temperature shows when a store took on moisture even on a dry-looking day.",
+              },
+              {
+                question: "How would an enquiry from Izki be handled?",
+                answer:
+                  "Give the farm, shop or clinic, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Izki.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Izki clinics?",
+                answer:
+                  "Calibration of loggers and probes for Izki clinics is looked after by VEGA Calibrations, our parent company; share the model and the range and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "nizwa", name: "Nizwa" },
+              { slug: "bahla", name: "Bahla" },
+              { slug: "sumail", name: "Sumail" },
+            ],
+            metaTitle: "Temperature Data Loggers in Izki | Prithvi",
+            metaDescription:
+              "Data loggers for Izki's date groves, roadside shops, old-quarter stock rooms and clinic in an ancient oasis town. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "sumail",
+            name: "Sumail",
+            type: "city",
+            intro:
+              "Sumail is a valley town in the gap that cuts through the Hajar mountains, where farms and date palms line a broad wadi and shops and workshops stand along the road linking the coast with the interior, and a temperature data logger here serves a place of farm stores, roadside shops, workshops and a clinic in hot, dry air. Growers bring dates, limes and vegetables to the roadside, lorries and cars stop at cafes and shops, and a hospital and clinics serve the valley. Summer days are fierce, nights are cooler, and storms can send floods down the wadi, while the road through the gap carries traffic all day and into the night. Enquiries from Sumail are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The gap funnels hot air along the valley by day and cooler air by night, wadi floods can follow storms in the mountains, and fine dust blows along the road, so farm stores, roadside coolers and clinic refrigerators swing between baking heat, cooler nights and the odd outage. Vehicles waiting at roadside stops reach far higher temperatures than the shaded air. Drivers stop for drinks and food at all hours, so roadside coolers are opened constantly and lose cold air with every customer, and a failed unit at a quiet stop can lose a whole day's stock before anyone notices.",
+            areas: [
+              {
+                name: "Farm stores and date sheds in the valley",
+                note: "Growers keep dates, limes and vegetables in sheds and small cool rooms along the wadi, where heat after picking and the odd flood damp both threaten the crop.",
+              },
+              {
+                name: "Roadside shops and cafes",
+                note: "Shops and cafes beside the road sell drinks, dairy goods and food from coolers opened constantly through the day.",
+              },
+              {
+                name: "Workshops and garages on the through road",
+                note: "Garages and workshops keep parts and tools under metal roofs that bake in the summer sun.",
+              },
+              {
+                name: "The hospital, clinics and pharmacies",
+                note: "The valley's hospital, clinics and pharmacies keep vaccines, insulin and medicines in refrigerators that must stay in range whenever the supply wavers.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Sumail growers, shopkeepers and cafe owners hold goods that spoil in heat, and a record from each cooler shows when a unit began to drift.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The Sumail hospital and clinics hold vaccines for a valley of scattered villages, and a phone alert reaches the person responsible if a refrigerator warms.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Sumail keep stock in rooms with labelled ranges, and a dated log shows how a room behaved through the hottest weeks and any flood outage.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods passing through Sumail by road wait in vehicles and sheds, and a logger placed in a load records how long it stood warm.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels follow a roadside cold room from its door to its rear wall, showing whether the cold reaches the last shelf.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single probe on a short lead fits a clinic or cafe refrigerator in Sumail and leaves daily routines unchanged.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels along a long storage shed show which section runs warmest beneath the roof, in one report.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Sumail roadside shop use a single logger?",
+                answer:
+                  "Yes. One logger with a phone alert can watch a lone cooler as long as a router is within reach, and more points can be added to the account later.",
+              },
+              {
+                question: "Why mount a logger above the flood line in a wadi town?",
+                answer:
+                  "Flood water running down the wadi can reach low rooms and cut the supply, so a body fixed higher with a battery inside keeps the record of what the room went through.",
+              },
+              {
+                question: "How would an enquiry from Sumail be handled?",
+                answer:
+                  "Give the shop, farm or clinic, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Sumail.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Sumail clinics?",
+                answer:
+                  "Calibration of loggers and probes for Sumail clinics is looked after by VEGA Calibrations, our parent company; share the model and range and we explain the options.",
+              },
+            ],
+            nearby: [
+              { slug: "nizwa", name: "Nizwa" },
+              { slug: "izki", name: "Izki" },
+              { slug: "barka", name: "Barka" },
+            ],
+            metaTitle: "Temperature Data Loggers in Sumail | Prithvi",
+            metaDescription:
+              "Data loggers for Sumail's valley farm stores, roadside shops, garages and clinics in the gap through the mountains. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "ad-dhahirah-governorate",
+        name: "Ad Dhahirah Governorate",
+        type: "state",
+        intro:
+          "Ad Dhahirah Governorate occupies a broad dry plain on the western side of the Hajar mountains, where oasis towns and date farms cling to the foot of the ranges and the desert opens out beyond. Ibri is its main town, a market and farming centre with a hospital, shops and an industrial area, surrounded by gravel plains, palm gardens and distant hills. Summers are fierce and very dry, winter nights can be cool, and dust and sandstorms blow through in some seasons. Dates, farm produce, medicines and building materials wait in sheds and warehouses in such heat. The page below describes the town, its industrial area and the rooms where a temperature record would help.",
+        localIndustries: [
+          "Dates and farm produce",
+          "Market and shop trade",
+          "Industrial and workshop storage",
+          "Clinics, pharmacies and care centres",
+        ],
+        citiesServed: ["Ibri"],
+        supportNote:
+          "Enquiries from Ad Dhahirah Governorate are handled through the enquiry form, Call or WhatsApp. Name the town, the rooms and how they are cooled, and we reply with what looks workable on site.",
+        faqs: [
+          {
+            question: "Which places in Ad Dhahirah Governorate have a page?",
+            answer:
+              "Ibri has a city page, and the Ibri Industrial Area has an area page under it. A town elsewhere on the plain can be raised through the enquiry form.",
+          },
+          {
+            question: "Why does a very dry plain still need humidity records?",
+            answer:
+              "Rare rain and storms bring sudden damp into stores that are dry the rest of the year, and dates, paper and some medicines react to the change, so a humidity log shows when it happened.",
+          },
+          {
+            question: "What does a logger do through a long power cut?",
+            answer:
+              "It carries on recording from its own battery and keeps the readings in memory, so the hours of an outage are still on record when the site is connected again.",
+          },
+        ],
+        listing: [
+          { slug: "ibri", text: "A market and farming town at the edge of the desert, with date gardens, shops, a hospital and an industrial area, in fierce summer heat." },
+        ],
+        areaListing: [
+          { slug: "ibri-industrial-area", text: "The industrial area beside Ibri, with workshops, warehouses, parts stores and building-material yards." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "ibri",
+            name: "Ibri",
+            type: "city",
+            intro:
+              "Ibri is a market and farming town at the edge of the desert on the western side of the Hajar mountains, where date gardens and small farms lie beside wide gravel plains, and a temperature data logger here serves a place of date stores, shops, workshops, a hospital and an industrial area in fierce dry heat. Farmers bring dates and vegetables to the market, shops sell food and household goods to the town and the villages around, and distant hills rise from the plain. Summer days are fierce and dry, nights cool slowly, and dust and sandstorms blow through in some seasons, while the evenings bring families to the market and the date gardens. Enquiries from Ibri are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The plain is open and exposed, so summer sun and wind-blown sand strike every shed, nights cool slowly, and a rare storm sends sudden water across the gravel, so date stores, shop coolers and clinic refrigerators work against the desert for months. Vehicles parked on wide roads reach far higher temperatures than the shaded air, and a failed refrigerator on a summer afternoon warms quickly. A cooler in a distant village shop may be the only fridge for miles, so a warning on a phone matters more than a daily round.",
+            areas: [
+              {
+                name: "Date gardens and farm sheds",
+                note: "Farmers keep dates and vegetables in sheds and small cool rooms beside the gardens, where the heat after harvest is the main danger to the crop.",
+              },
+              {
+                name: "The market and wholesale stores",
+                note: "Traders and wholesalers keep food, drinks and household goods in storerooms with simple roofs that bake in the afternoon sun.",
+              },
+              {
+                name: "The hospital, clinics and pharmacies",
+                note: "A hospital, clinics and pharmacies serving a wide desert-edge district hold vaccines and medicines in refrigerators that must survive power interruptions.",
+              },
+              {
+                name: "Workshops and warehouses on the main roads",
+                note: "Workshops and warehouses beside the roads keep parts, tools and building materials under metal roofs that heat up fast.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Ibri date growers, wholesalers and grocers hold goods that suffer in desert heat, and a log from each store shows a buyer how a lot was kept after harvest.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The Ibri hospital and clinics hold vaccines for villages spread across a wide dry district, and a phone alert reaches the person on duty if a refrigerator warms overnight.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Ibri store medicines to labelled ranges, and a dated record shows how a room behaved through the hottest weeks and any outage.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods reaching Ibri travel long inland roads, and a logger placed in a load records how long it stood in a vehicle in the sun.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "A single unit reading temperature and humidity suits a date room, where cool, dry and steady air keeps the fruit sound in storage.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable slides into a clinic or pharmacy refrigerator in Ibri and leaves daily routines unchanged.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels along a long warehouse show which section runs warmest under the roof, in a single report.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can an Ibri date grower or wholesaler use a temperature record?",
+                answer:
+                  "A logger left in the store follows heat and damp across the season, and a report for the dates of one lot can be exported as a PDF, Excel or CSV file for a buyer.",
+              },
+              {
+                question: "Why does a very dry plain call for a battery in the logger?",
+                answer:
+                  "Power cuts and storms are common enough to plan for, and the battery keeps the record running through an outage so the hours without power are still on record.",
+              },
+              {
+                question: "How would an enquiry from Ibri be handled?",
+                answer:
+                  "Give the farm, shop, clinic or store, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Ibri.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Ibri clinics?",
+                answer:
+                  "Calibration of loggers and probes for Ibri clinics is looked after by VEGA Calibrations, our parent company; share the model and the range and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "nizwa", name: "Nizwa" },
+              { slug: "buraimi", name: "Buraimi" },
+            ],
+            metaTitle: "Temperature Data Loggers in Ibri | Prithvi",
+            metaDescription:
+              "Data loggers for Ibri's date stores, market wholesalers, hospital and warehouses at the edge of the desert plain. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "al-buraimi-governorate",
+        name: "Al Buraimi Governorate",
+        type: "state",
+        intro:
+          "Al Buraimi Governorate lies in the north-west of Oman, a flat inland oasis region of date gardens, shops, workshops and wide roads set in gravel plains below low hills. Buraimi is its main city, a trading and farming centre with busy markets, a hospital and an industrial area, where families shop for food, household goods and building materials. Summers are fierce and dry, winters mild and cool at night, and dust and sandstorms blow through in some seasons. Dates, food, medicines and materials wait in shops, sheds and warehouses in such heat. The page below describes the city, its industrial area and the rooms where a temperature record would help.",
+        localIndustries: [
+          "Dates and farm produce",
+          "Shop and wholesale trade",
+          "Industrial and workshop storage",
+          "Clinics, pharmacies and care centres",
+        ],
+        citiesServed: ["Buraimi"],
+        supportNote:
+          "Enquiries from Al Buraimi Governorate are handled through the enquiry form, Call or WhatsApp. Tell us which city, which rooms and how they are cooled, and we answer with what looks suitable for the site.",
+        faqs: [
+          {
+            question: "Which places in Al Buraimi Governorate have a page?",
+            answer:
+              "Buraimi has a city page, and the Buraimi Industrial Area has an area page under it. Another place in the governorate can be raised through the enquiry form.",
+          },
+          {
+            question: "How is a trading city different from a farm town for logger set-up?",
+            answer:
+              "A trading city needs many small shop coolers and warehouse bays watched at once, while a farm town needs date sheds and cool rooms watched against heat after harvest, so probes and alert rules differ.",
+          },
+          {
+            question: "Does dust matter for where a logger is fixed?",
+            answer:
+              "Dust from the plain coats anything left open, so a logger sits on a shaded inner wall clear of vents and doors, with a battery that keeps the record running through a power cut.",
+          },
+        ],
+        listing: [
+          { slug: "buraimi", text: "A trading and farming city of markets, shops, date gardens, a hospital and an industrial area, in hot, dry summers." },
+        ],
+        areaListing: [
+          { slug: "buraimi-industrial-area", text: "The industrial area beside Buraimi, with workshops, warehouses, light factories and building-material yards." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "buraimi",
+            name: "Buraimi",
+            type: "city",
+            intro:
+              "Buraimi is an inland trading and farming city in the north-west of Oman, a flat oasis of date gardens, shops, workshops and wide roads set below low hills, and a temperature data logger here serves a place of busy markets, supermarkets, clinics, a hospital and warehouses in hot, dry air. Families shop for food and household goods all week, growers bring dates and vegetables to the markets, and an industrial area lies beside the road. Summers are fierce and long, winters are mild and cool at night, and dust and sandstorms blow through in some seasons, while the markets stay busy into the late evening once the heat eases. Enquiries from Buraimi are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The inland air is dry, summer heat is fierce and nights cool slowly, and dust storms blow across the flat plain, so supermarket coolers, date sheds and warehouse roofs work against the sun for months. Open shop fronts let cold air out all day, vehicles loading on wide roads stand in strong sun, and a refrigerator that fails on a summer afternoon warms quickly. Stock arrives by long road journeys, so a pallet of chilled goods may already be warm before it reaches the cold room.",
+            areas: [
+              {
+                name: "Supermarkets and shop coolers",
+                note: "Supermarkets and shops sell dairy goods, drinks and frozen food from display cabinets and cold rooms opened thousands of times a day.",
+              },
+              {
+                name: "Date gardens and market stores",
+                note: "Growers and traders keep dates and vegetables in sheds and cool rooms near the gardens and the markets, where heat after harvest is the main danger to the crop.",
+              },
+              {
+                name: "The hospital, clinics and pharmacies",
+                note: "A hospital, clinics and pharmacies hold vaccines, insulin and medicines in refrigerators that must hold a range through power dips.",
+              },
+              {
+                name: "Warehouses and workshops by the roads",
+                note: "Warehouses and workshops beside the wide roads keep goods, parts and building materials under metal roofs that bake in the sun.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Buraimi supermarkets, date traders and grocers hold goods that spoil or soften in desert heat, and a log from each cooler shows when a unit began to drift.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The Buraimi hospital and clinics hold vaccines to strict ranges, and a phone alert reaches whoever is on duty if a refrigerator warms in the small hours.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Buraimi keep stock to labelled ranges, and a dated record shows how a room behaved through the hottest weeks and any power cut.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Warehouses in Buraimi hold goods for owners elsewhere, and a reading for each bay shows how long a lot stood in warm air before it was collected.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a supermarket cold room at floor, shelf and door height, showing which level warms first between loads.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short lead slips into a pharmacy or clinic refrigerator in Buraimi and leaves the way staff use the unit unchanged.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels read a wholesale cold room at the door end and the back wall, showing whether the cold reaches the last pallet.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Buraimi supermarket or date trader use temperature loggers?",
+                answer:
+                  "A logger in each cooler and cold room records through the day and night, and a report for any period can be exported in PDF, Excel or CSV form for an inspector or a buyer.",
+              },
+              {
+                question: "Why does a store in a dry inland city still want a humidity reading?",
+                answer:
+                  "Cold rooms form condensation whenever a door opens to warm air, and dates soften in damp, so a humidity trend beside the temperature shows moisture that a thermometer alone would miss.",
+              },
+              {
+                question: "How would an enquiry from Buraimi be handled?",
+                answer:
+                  "Give the shop, clinic or store, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Buraimi.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Buraimi clinics?",
+                answer:
+                  "Calibration of loggers and probes for Buraimi clinics is looked after by VEGA Calibrations, our parent company; share the model and the range and we explain the choices.",
+              },
+            ],
+            nearby: [
+              { slug: "ibri", name: "Ibri" },
+              { slug: "sohar", name: "Sohar" },
+            ],
+            metaTitle: "Temperature Data Loggers in Buraimi | Prithvi",
+            metaDescription:
+              "Data loggers for Buraimi's supermarkets, date traders, hospital and warehouses in an inland oasis city. Get Solution.",
             indexable: true,
           },
         ],

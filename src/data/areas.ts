@@ -82,6 +82,9 @@ export const areaCities: Record<string, { name: string; stateSlug: string; state
   jubail: { name: "Jubail", stateSlug: "eastern-province", stateName: "Eastern Province" },
   yanbu: { name: "Yanbu", stateSlug: "madinah-region", stateName: "Madinah Region" },
   jazan: { name: "Jazan", stateSlug: "jazan-region", stateName: "Jazan Region" },
+  nizwa: { name: "Nizwa", stateSlug: "ad-dakhiliyah-governorate", stateName: "Ad Dakhiliyah Governorate" },
+  ibri: { name: "Ibri", stateSlug: "ad-dhahirah-governorate", stateName: "Ad Dhahirah Governorate" },
+  buraimi: { name: "Buraimi", stateSlug: "al-buraimi-governorate", stateName: "Al Buraimi Governorate" },
   barka: { name: "Barka", stateSlug: "al-batinah-south-governorate", stateName: "Al Batinah South Governorate" },
   sohar: { name: "Sohar", stateSlug: "al-batinah-north-governorate", stateName: "Al Batinah North Governorate" },
   muscat: { name: "Muscat", stateSlug: "muscat-governorate", stateName: "Muscat Governorate" },
@@ -8712,6 +8715,163 @@ export const areas: AreaDef[] = [
         {
           "question": "Why does a unit under a metal roof read hotter than the open air?",
           "answer": "Sun on a metal roof is passed down into the room as heat, so a logger set among the goods, rather than by the office door, records what the stock really met."
+        }
+      ],
+      "nearby": [],
+      "indexable": true
+    } },
+  // ------------------------------------------------------------------ Oman (batch 5: Nizwa, Ibri, Buraimi)
+  { slug: "nizwa-industrial-estate", name: "Nizwa Industrial Estate", citySlug: "nizwa", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["virat","setu"], page: {
+      "metaTitle": "Data Loggers in Nizwa Industrial Estate | Prithvi",
+      "metaDescription": "Data loggers for workshops, warehouses, light factories and building-material yards in the Nizwa Industrial Estate. Get Solution.",
+      "intro": "The Nizwa Industrial Estate lies beside the road near Nizwa, a grid of workshops, warehouses, light factories and building-material yards laid out on the flat plain below the mountains. For a temperature data logger the interest lies in the daily trouble of making and keeping goods through fierce dry heat and cold winter nights: paints and adhesives with a printed limit, food and sweets packaging, and spare parts and tools under metal roofs. What follows covers only the stock and rooms that a logger user on the Nizwa estate could look after. Enquiries about the Nizwa Industrial Estate are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Light factories and packing units",
+          "note": "Small plants that make, fill and pack consumer goods keep finished cartons in halls that are pushed hardest by the late summer afternoon."
+        },
+        {
+          "name": "Paint, adhesive and cleaning-product stores",
+          "note": "Shelves of paints, glues and cleaners carry limits printed on the label, and a cold night or a hot shed can pass them without any visible sign."
+        },
+        {
+          "name": "Building-material yards and warehouses",
+          "note": "Tiles, pipe, fittings and cable lie in yards and warehouses where the roof throws heat down well before the cooling can respond."
+        },
+        {
+          "name": "Workshops and parts counters",
+          "note": "Workshops and parts counters keep batteries, seals and electronic parts that last longer in a steady range than in a swing from cool office to scorching yard."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "chemical",
+          "sentence": "Stockists of paints, glues and cleaners on the Nizwa estate can use a dated record to show whether a hot afternoon or a cold night carried a pallet beyond its printed limit."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A shared warehouse here can hand every customer a record of its own pallets rather than a general assurance about the whole building."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "A packing unit serving shops and kitchens from the estate can show through a log that its chilled room stayed within range at every early loading."
+        }
+      ],
+      "services": "In an industrial estate of this type we would look at WiFi loggers for units and cooled rooms near a router, probe loggers for chilled rooms and freezers, multi-point units for long sheds, and loggers that travel inside a load. Calibration questions from Nizwa users go to VEGA Calibrations, our parent company. WiFi units in Nizwa need a router within reach and a power supply, and for an open yard we set out the alternatives. What may be supplied is settled only once a request for Nizwa has been read.",
+      "visits": "A visit or an installation on the Nizwa Industrial Estate is not promised. Pass on the business, the rooms involved and a contact via the enquiry form, Call or WhatsApp, and we look the request over and reply with what seems practical.",
+      "approach": "If a request went ahead, we would start with the cooled room or store holding the most fragile stock, setting one logger by the door and one at the back and adding a humidity unit where dust or damp gets in. A short run of readings across a hot week and a cold one would show how the room swings.",
+      "faqs": [
+        {
+          "question": "Can a small Nizwa workshop keep a record of its store temperature?",
+          "answer": "Yes. One logger kept with the goods builds an unbroken record, and a report for the dates you choose can be saved as a PDF, Excel or CSV file at any time."
+        },
+        {
+          "question": "Do cold winter nights matter for stored paints and glues?",
+          "answer": "Yes. Many products name a lowest as well as a highest storage temperature, so a log that covers cold nights shows whether a shed dropped below the label."
+        }
+      ],
+      "nearby": [],
+      "indexable": true
+    } },
+  { slug: "ibri-industrial-area", name: "Ibri Industrial Area", citySlug: "ibri", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["rajmudra","veer"], page: {
+      "metaTitle": "Data Loggers in Ibri Industrial Area | Prithvi",
+      "metaDescription": "Data loggers for workshops, warehouses, parts stores and building-material yards in the Ibri Industrial Area. Get Solution.",
+      "intro": "The Ibri Industrial Area stands on the open gravel plain beside Ibri, a grid of workshops, warehouses, parts stores and building-material yards with hills in the distance. For a temperature data logger the interest lies in the everyday trouble of keeping goods through desert summer heat: parts and tools under metal roofs, paints and chemicals with a printed limit, and food and drink for people who work there. The page deals only with the stock and rooms that a logger user at Ibri could look after. Enquiries about the Ibri Industrial Area are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Workshops and garages",
+          "note": "Garages and workshops hold tools, batteries and parts in sheds that heat quickly and cool slowly on the open plain."
+        },
+        {
+          "name": "General warehouses",
+          "note": "Warehouses with wide doors hold goods for shops and homes across the district, and wind-blown sand enters each time a vehicle backs in."
+        },
+        {
+          "name": "Paint and chemical stores",
+          "note": "Stores of paints, solvents and cleaners carry labelled limits that an exposed shed can pass quietly in the afternoon."
+        },
+        {
+          "name": "Small food and drink stock rooms",
+          "note": "Wholesalers hold chilled and dry goods in cooled rooms that come under most strain once the summer afternoon sets in."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A warehouse in the Ibri Industrial Area holding goods for several owners can give each owner a temperature record of its own stock in place of a remark about the hall."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Stores of paints, solvents and cleaners here carry labelled ranges, and a dated record shows whether a hot afternoon carried a pallet beyond its printed limit."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Distributors serving shops and kitchens from the area can show through a log that a chilled room held its limits through every loading."
+        }
+      ],
+      "services": "For an industrial area on an open plain we would look at multi-point units for long sheds, WiFi loggers for rooms near a router, probe-type loggers for chilled rooms and freezers, and loggers that ride in a load. Calibration for Ibri users is something VEGA Calibrations, our parent company, can discuss. WiFi units need a router within range and a power supply, and for an open yard we set out other ways. Any answer on supply comes once a request from Ibri has been read.",
+      "visits": "Visits and installation in the Ibri Industrial Area are not promised. Give us the business, the rooms to be watched and a contact on the enquiry form, Call or WhatsApp, and we study the request and tell you what appears feasible.",
+      "approach": "If a request went ahead, we would begin with the store holding the most heat-sensitive goods, placing loggers at floor level and under the roof and one at the door, then mount each body out of the sand and the sun. A few weeks of summer readings would show which part of the shed gets hottest.",
+      "faqs": [
+        {
+          "question": "Can one report cover a long workshop shed on the plain?",
+          "answer": "Yes. A multi-channel unit takes readings from probes placed along the shed, so a single report shows which stretch of the building is warmest and at what hour."
+        },
+        {
+          "question": "Does wind-blown sand affect a logger in an exposed yard?",
+          "answer": "Sand settles on anything exposed, so a logger is fixed on a shaded inner wall clear of vents and doors, with a battery that keeps the record running through an outage."
+        }
+      ],
+      "nearby": [],
+      "indexable": true
+    } },
+  { slug: "buraimi-industrial-area", name: "Buraimi Industrial Area", citySlug: "buraimi", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["nakshatra","virat"], page: {
+      "metaTitle": "Data Loggers in Buraimi Industrial Area | Prithvi",
+      "metaDescription": "Data loggers for workshops, warehouses, light factories and building-material yards in the Buraimi Industrial Area. Get Solution.",
+      "intro": "The Buraimi Industrial Area lies beside the roads of Buraimi, a flat grid of workshops, warehouses, light factories and building-material yards set among gravel and low hills. For a temperature data logger the interest lies in the everyday trouble of making and keeping goods in dry inland heat: sealants and paints with a printed limit, food and packaging stock, and tools and parts under metal roofs. Only the stock and rooms that a logger user at Buraimi could look after are described here. Enquiries about the Buraimi Industrial Area are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Light factories and packing units",
+          "note": "Compact plants that mould, fill and seal consumer goods hold finished cartons in halls that strain most in the summer afternoon."
+        },
+        {
+          "name": "Sealant and paint stores",
+          "note": "Shelves of sealants, paints and glues carry limits printed on the tin, and a baking shed can pass them without any sign."
+        },
+        {
+          "name": "Building-material yards",
+          "note": "Yards keep tiles, pipe, fittings and cable under roofs that radiate heat downward long before the cooling catches up."
+        },
+        {
+          "name": "Wholesale food and drink rooms",
+          "note": "Wholesalers supplying the city's shops keep chilled and dry stock in cooled rooms that load and unload from the early morning."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "chemical",
+          "sentence": "Stockists of sealants, paints and glues in the Buraimi Industrial Area can use a dated record to show whether a hot afternoon pushed a pallet outside its printed limit."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A shared warehouse on the estate can hand every owner a record of its own shelves instead of a blanket statement about the building."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "A wholesaler supplying shops and kitchens from the area can show through a log that a chilled room stayed in range at every early loading."
+        }
+      ],
+      "services": "For an inland industrial area we would look at WiFi loggers for units and cooled rooms near a router, probe loggers for chilled rooms and freezers, multi-point units for long sheds, and loggers that ride in a load. Buraimi users can ask VEGA Calibrations, our parent company, about calibration. WiFi units depend on a router in range and mains power, and for a yard we describe the alternatives. Whether anything can be supplied is left open until a Buraimi request has been read.",
+      "visits": "Nothing is promised about visits or installation in the Buraimi Industrial Area. Share the business, the rooms involved and a contact via the enquiry form, Call or WhatsApp, and we review the request and say what looks achievable.",
+      "approach": "If a request went ahead, we would start with the cooled room or store holding the most fragile stock, putting one logger by the door and one at the back and adding a humidity unit where cold rooms meet warm air. A first run of summer readings would show the hours when the room is under most strain.",
+      "faqs": [
+        {
+          "question": "Can a small Buraimi wholesaler keep a record of a chilled room?",
+          "answer": "Yes. A logger in the room records day and night, and a report for chosen dates can be exported as a PDF, Excel or CSV file for a customer."
+        },
+        {
+          "question": "Why do metal-roofed units get so much hotter than the air outside?",
+          "answer": "A metal roof soaks up the sun and radiates heat down into the room, so a logger among the goods, not on an office wall, records what the stock really met."
         }
       ],
       "nearby": [],

@@ -433,6 +433,15 @@
 | Rustaq (`rustaq`, city, Al Batinah South Governorate) | Oman | Date stores and grove sheds, market stock rooms, hospital and clinics, edge-of-town stores | Food, medicines, logistics | Hot days, cooler nights; wadi storms | Nakhal, Barka |
 | Nakhal (`nakhal`, city, Al Batinah South Governorate) | Oman | Date sheds, small-market coolers, clinic and pharmacies, farm-supply stores | Food, medicines, logistics | Hot foothill oasis; wadi storms | Rustaq, Barka |
 | Barka Industrial Area (`barka-industrial-area`, area of Barka) | Oman | Light factories, sealant and paint stores, building-material yards, garages and parts counters | Chemicals, logistics, food | Extreme coastal heat | none |
+| Nizwa (`nizwa`, city, Ad Dakhiliyah Governorate) | Oman | Date stores and grove sheds, market and sweet-makers' rooms, hospital and university laboratories, roadside warehouses | Food, medicines, laboratories | Fierce dry days, cold winter nights; dust | Bahla, Izki, Sumail, Adam (not yet built) |
+| Bahla (`bahla`, city, Ad Dakhiliyah Governorate) | Oman | Date-garden sheds, pottery workshops, small-market coolers, clinic | Food, medicines, logistics | Hot, dry; damp among palms | Nizwa, Izki |
+| Izki (`izki`, city, Ad Dakhiliyah Governorate) | Oman | Date groves and farm sheds, roadside shops, old-quarter stock rooms, clinic | Food, medicines, logistics | Hot days, cold nights; channel damp | Nizwa, Bahla, Sumail |
+| Sumail (`sumail`, city, Ad Dakhiliyah Governorate) | Oman | Valley farm stores, roadside shops and cafes, garages, hospital and clinics | Food, medicines, logistics | Hot by day, wadi floods | Nizwa, Izki, Barka |
+| Nizwa Industrial Estate (`nizwa-industrial-estate`, area of Nizwa) | Oman | Light factories, paint and cleaner stores, building-material yards, workshops | Chemicals, logistics, food | Fierce heat and cold nights | none |
+| Ibri (`ibri`, city, Ad Dhahirah Governorate) | Oman | Date gardens and farm sheds, market and wholesale stores, hospital and clinics, roadside warehouses | Food, medicines, logistics | Fierce dry heat; sandstorms | Nizwa, Buraimi |
+| Ibri Industrial Area (`ibri-industrial-area`, area of Ibri) | Oman | Workshops and garages, general warehouses, paint and chemical stores, small food stock rooms | Logistics, chemicals, food | Fierce dry heat; sand | none |
+| Buraimi (`buraimi`, city, Al Buraimi Governorate) | Oman | Supermarkets and shop coolers, date gardens and market stores, hospital and clinics, roadside warehouses | Food, medicines, logistics | Hot, dry; dust | Ibri, Sohar |
+| Buraimi Industrial Area (`buraimi-industrial-area`, area of Buraimi) | Oman | Light factories, sealant and paint stores, building-material yards, wholesale food rooms | Chemicals, logistics, food | Dry inland heat | none |
 | Jazan Economic City (`jazan-economic-city`, area of Jazan) | Saudi Arabia | Plant chemical and drum stores, spares warehouses and contractor yards, port yards, camp kitchens and clinics | Chemical stores, contract warehousing, camp catering | Extreme heat and humidity, salty air | none |
 | Jeddah (`jeddah`) | Saudi Arabia | Industrial and port logistics zones | Port logistics, food import cold chain, hospitals | Hot, humid coastal | Riyadh, Dammam |
 | Dammam (`dammam`) | Saudi Arabia | Industrial and port logistics zones | Industrial & chemical, port logistics, food | Hot, humid Gulf coast | Riyadh, Bahrain, Jeddah |
@@ -745,3 +754,7 @@ Oman Batch 3 (Al Batinah North Governorate): hub, Sohar, Saham, Al Suwaiq, Sohar
 
 Oman Batch 4 (Al Batinah South Governorate): hub, Barka, Rustaq, Nakhal and Barka Industrial Area (under Barka). Not built: Khazaen Economic City, because I am not
 confident which city or governorate it belongs to.
+
+Oman Batch 5: Ad Dakhiliyah Governorate (Nizwa, Bahla, Izki, Sumail, Nizwa Industrial Estate), Ad Dhahirah Governorate (Ibri, Ibri Industrial Area) and
+Al Buraimi Governorate (Buraimi, Buraimi Industrial Area). Not built: Adam (too few confident, distinguishing local facts). No border or boundary statement is
+made for Buraimi.
