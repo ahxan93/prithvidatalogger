@@ -26582,7 +26582,7 @@ export const locations: LegacyLocationNode[] = [
       {
         question: "Which parts of Kuwait have a page?",
         answer:
-          "Al Asimah, Hawalli, Farwaniya and Ahmadi governorates have their own pages, with Kuwait City, Hawalli, Salmiya, Farwaniya, Khaitan, Jleeb Al-Shuyoukh, Ahmadi and Fahaheel and their districts beneath. If your site is somewhere else, write through the enquiry form, Call or WhatsApp with what you store and we answer with what looks workable.",
+          "Al Asimah, Hawalli, Farwaniya and Ahmadi governorates have their own pages, with Kuwait City, Hawalli, Salmiya, Farwaniya, Khaitan, Jleeb Al-Shuyoukh, Ahmadi, Fahaheel, Wafra and Khiran and their districts beneath. If your site is somewhere else, write through the enquiry form, Call or WhatsApp with what you store and we answer with what looks workable.",
       },
       {
         question: "What alert limits suit a store in extreme summer heat?",
@@ -27326,14 +27326,14 @@ export const locations: LegacyLocationNode[] = [
           "Clinics, hospitals and pharmacies",
           "Workshops and small warehouses",
         ],
-        citiesServed: ["Ahmadi","Fahaheel"],
+        citiesServed: ["Ahmadi","Fahaheel","Wafra","Khiran"],
         supportNote:
           "Enquiries from Ahmadi Governorate are handled through the enquiry form, Call or WhatsApp. Say which town, which rooms and how they are cooled, and we come back with what seems suitable at the site.",
         faqs: [
           {
             question: "Which places in Ahmadi Governorate have a page?",
             answer:
-              "Ahmadi and Fahaheel each have a city page. Another town in the governorate can be raised through the enquiry form, and further pages follow only when they can be written from confident facts.",
+              "Ahmadi, Fahaheel, Wafra and Khiran each have a city page. Shuaiba Industrial Area, Shuaiba Port and Mina Al Ahmadi have area pages under Ahmadi. A town elsewhere along the southern coast can be raised through the enquiry form.",
           },
           {
             question: "Why would a green planned town differ from a seafront strip for storage?",
@@ -27349,6 +27349,13 @@ export const locations: LegacyLocationNode[] = [
         listing: [
           { slug: "ahmadi", text: "A planned town of tree-lined streets, villas, gardens and a hospital, in blazing summers and slightly cooler shade." },
           { slug: "fahaheel", text: "A lively seafront commercial town of shops, restaurants, markets and apartment blocks, in blazing heat and humid shore air." },
+          { slug: "wafra", text: "A farming district far to the south, with greenhouses, irrigated plots and animal farms spread across open desert, in blazing dry heat." },
+          { slug: "khiran", text: "A beach-side district of holiday homes, chalets and marinas on the far southern coast, in humid shore air and blazing summers." },
+        ],
+        areaListing: [
+          { slug: "shuaiba-industrial-area", text: "A large industrial area north of Ahmadi, with factories, workshops, warehouses and yards on flat coastal ground." },
+          { slug: "shuaiba-port", text: "The commercial port at Shuaiba, where food, supplies and general goods wait on quays and in sheds in hot, hazy air." },
+          { slug: "mina-al-ahmadi", text: "The port-side industrial area on the coast beside Ahmadi, with support stores, laboratories, workshops and canteens." },
         ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,
@@ -27544,6 +27551,198 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Fahaheel | Prithvi",
             metaDescription:
               "Data loggers for Fahaheel's seafront restaurant kitchens, markets, pharmacies and back-lane stockrooms in blazing heat. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "wafra",
+            name: "Wafra",
+            type: "city",
+            intro:
+              "Wafra is a farming district far to the south of Kuwait, where greenhouses, irrigated plots, animal farms and date groves are scattered across open desert, and a temperature data logger here serves a place of farm cold rooms, produce sheds, feed stores and small shops in blazing dry heat. Growers raise vegetables and fruit under cover, farms keep sheep, cattle and poultry, and trucks carry produce to markets in the city along long straight roads. A clinic and a few shops serve the farm workers and families. Summers are blazing, winters are mild and cool at night, and dust storms blow in from the desert, while the farms start work at dawn to beat the heat and the trucks leave before the sun is high. Enquiries from Wafra are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The land is flat, open and exposed, so summer sun and wind-blown sand strike every shed and greenhouse, nights are cooler in winter than most visitors expect, and greenhouses trap heat and moisture together. Produce picked in the heat loses quality fast, and a farm cold room that fails on a summer afternoon can lose a whole day's harvest before the trucks arrive.",
+            areas: [
+              {
+                name: "Greenhouse and produce sheds",
+                note: "Growers pick vegetables and fruit under cover and hold them in sheds and cool rooms, where the hours between picking and the truck decide how much is lost.",
+              },
+              {
+                name: "Animal farms and feed stores",
+                note: "Farms keep feed, supplements and veterinary medicines in sheds and fridges that have to stay within range in desert heat.",
+              },
+              {
+                name: "Packing sheds and cold rooms for the road to market",
+                note: "Packers hold crates in cold rooms and loading bays before long truck journeys, and every opened door lets in air that is hot and dusty.",
+              },
+              {
+                name: "The clinic and farm-village shops",
+                note: "A clinic and small shops serving farm workers keep vaccines, medicines and drinks in refrigerators that must stay in range when the supply wavers.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Wafra growers and packers hold vegetables and fruit that lose quality quickly in the heat, and a log from each cool room shows a buyer how a lot was kept before it left the farm.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Produce loaded in Wafra for city markets stands in trucks in strong sun, and a logger placed in a load records what the cargo met on the road.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Veterinary medicines and vaccines kept on Wafra farms have labelled ranges, and a dated record shows whether a farm fridge held them through the hottest weeks.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The clinic serving Wafra holds vaccines for farm families, and a phone alert reaches the person responsible if a refrigerator warms overnight.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels set along a long packing shed show which stretch runs warmest as the afternoon wears on, all in one report.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short lead slips into a clinic or farm veterinary fridge in Wafra and leaves daily routines unchanged.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a greenhouse produce shed, where moisture and heat gather together.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Wafra farm use a temperature record for a harvest lot?",
+                answer:
+                  "A logger in the cool room records temperature and humidity through the day, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for a buyer.",
+              },
+              {
+                question: "Why does a greenhouse produce shed want humidity as well as temperature?",
+                answer:
+                  "Greenhouses trap moisture, so crates can sweat and spoil even when the temperature looks fine, and a humidity trend beside the temperature shows when it happened.",
+              },
+              {
+                question: "How would an enquiry from Wafra be handled?",
+                answer:
+                  "Give the farm, packer or clinic, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Wafra.",
+              },
+              {
+                question: "Is calibration discussed for loggers used on Wafra farms?",
+                answer:
+                  "Calibration of loggers and probes for Wafra sites is looked after by VEGA Calibrations, our parent company; share the model and the range and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "ahmadi", name: "Ahmadi" },
+              { slug: "fahaheel", name: "Fahaheel" },
+            ],
+            metaTitle: "Temperature Data Loggers in Wafra | Prithvi",
+            metaDescription:
+              "Data loggers for Wafra's greenhouse produce sheds, packing cold rooms, animal-farm stores and clinic in blazing dry heat. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "khiran",
+            name: "Khiran",
+            type: "city",
+            intro:
+              "Khiran is a beach-side district on the far southern coast of Kuwait, with holiday homes, chalets, small marinas and a long stretch of shallow shore, and a temperature data logger here serves a place of kitchens, small shops, boat stores and a clinic in blazing summer heat and humid shore air. Weekend and holiday visitors fill the chalets, boat owners keep supplies in small stores beside the water, and a few shops, cafes and a clinic serve residents and visitors. The district is quiet in the working week and crowded at weekends, when families arrive with boats, barbecues and cool boxes. Summers are blazing, winters are mild, and dust storms blow in from the desert. Enquiries from Khiran are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The shore is hot and humid, salt reaches every shed and boat store, and open land behind the chalets lets wind carry sand into every vent, so small coolers and chillers work hard against the weather and a failure on a quiet weekday can go unnoticed. Demand for cooling swings between an empty week and a crowded weekend, and perishable stock bought for a busy weekend can be wasted if a cooler fails on the Thursday night before visitors arrive.",
+            areas: [
+              {
+                name: "Chalet kitchens and cafe stores",
+                note: "Cafes and kitchens serving weekend visitors keep chillers and freezers that sit idle in the week and run flat out on the weekend.",
+              },
+              {
+                name: "Marina and boat stores",
+                note: "Small stores beside the water keep drinks, food and supplies for boats in rooms exposed to salt air and strong sun.",
+              },
+              {
+                name: "Small shops and groceries",
+                note: "Shops and groceries sell drinks, dairy goods and frozen food from coolers opened constantly through the busiest hours.",
+              },
+              {
+                name: "The clinic and pharmacy",
+                note: "A clinic and pharmacy keep vaccines and medicines in refrigerators that must hold their range through power interruptions.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Khiran cafes, shops and chalet kitchens hold chilled and frozen goods that spoil in humid heat, and a record from each cooler shows when a unit began to slip.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The Khiran clinic holds vaccines to strict ranges, and a phone alert reaches whoever looks after the unit if a refrigerator warms.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "The pharmacy in Khiran keeps stock to labelled ranges, and a dated log shows how a room behaved through the hottest weeks and any outage.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Supplies reach Khiran in vans over long coast roads, and a logger tucked into a load records how long it stood in the sun before it reached a small store.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a cafe pantry or a boat store from the floor to the top shelf and the door, showing which level warms first.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable fits a clinic or shop refrigerator in Khiran and leaves the way the unit is used unchanged.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at a single point suit a store beside the water, where salt damp does the harm.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can one logger watch a single cooler in a Khiran cafe?",
+                answer:
+                  "Yes. A single logger with a phone alert can watch one cooler as long as a router is within reach, and extra points can be added to the account later.",
+              },
+              {
+                question: "Why is an alert useful for a business that is quiet in the week?",
+                answer:
+                  "A cooler can fail on a quiet weekday and go unnoticed until visitors arrive, and a phone alert gives the owner time to move stock before the weekend rush.",
+              },
+              {
+                question: "How would an enquiry from Khiran be handled?",
+                answer:
+                  "Give the cafe, shop or clinic, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Khiran.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Khiran clinics?",
+                answer:
+                  "Calibration of loggers and probes for Khiran clinics is looked after by VEGA Calibrations, our parent company; share the model and the range and we explain the choices.",
+              },
+            ],
+            nearby: [
+              { slug: "fahaheel", name: "Fahaheel" },
+              { slug: "wafra", name: "Wafra" },
+            ],
+            metaTitle: "Temperature Data Loggers in Khiran | Prithvi",
+            metaDescription:
+              "Data loggers for Khiran's chalet kitchens, cafes, marina stores and clinic on the far southern shore in humid heat. Get Solution.",
             indexable: true,
           },
         ],

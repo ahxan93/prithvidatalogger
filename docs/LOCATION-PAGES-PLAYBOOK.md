@@ -465,6 +465,11 @@
 | Jleeb Al-Shuyoukh Warehouses (`jleeb-al-shuyoukh-warehouses`, area of Jleeb Al-Shuyoukh) | Kuwait | Wholesale cold rooms, tall dry-goods stacks, electronics stockrooms, trucks | Food, logistics, electronics | Blazing, dusty | none |
 | Ahmadi (`ahmadi`, city, Ahmadi Governorate) | Kuwait | Hospital, clinics and pharmacies, supermarkets and school kitchens, edge-of-town workshops | Medicines, food, logistics | Blazing dry summers; sea-breeze damp | Fahaheel, Kuwait City |
 | Fahaheel (`fahaheel`, city, Ahmadi Governorate) | Kuwait | Seafront restaurant kitchens, markets and groceries, clinics and pharmacies, back-lane stockrooms | Food, medicines, logistics | Blazing heat, humid shore air | Ahmadi, Salmiya, Kuwait City |
+| Wafra (`wafra`, city, Ahmadi Governorate) | Kuwait | Greenhouse and produce sheds, animal-farm feed and veterinary stores, packing cold rooms, clinic | Food, logistics, medicines | Blazing dry heat; greenhouses trap damp | Ahmadi, Fahaheel |
+| Khiran (`khiran`, city, Ahmadi Governorate) | Kuwait | Chalet kitchens and cafes, marina and boat stores, small shops, clinic and pharmacy | Food, medicines, logistics | Blazing, humid shore air | Fahaheel, Wafra |
+| Shuaiba Industrial Area (`shuaiba-industrial-area`, area of Ahmadi) | Kuwait | Factory halls, sealant and coating stores, warehouses and parts stores, canteens | Chemicals, logistics, food | Blazing heat, humid shore air | Shuaiba Port |
+| Shuaiba Port (`shuaiba-port`, area of Ahmadi) | Kuwait | Container stacks, reefer boxes, quayside sheds, trucks (described generally, no operating status) | Logistics, food, medicines | Hot, hazy shore air | Shuaiba Industrial Area |
+| Mina Al Ahmadi (`mina-al-ahmadi`, area of Ahmadi) | Kuwait | Laboratory sample stores, lubricant and coating stores, electrical warehouses, canteens (support buildings only; no refining, oil, gas or output wording) | Chemicals, laboratories, logistics | Blazing, humid shore air | none |
 | Ibra (`ibra`, city, Ash Sharqiyah North Governorate) | Oman | Date stores and grove sheds, weekly-market stock rooms, shops and cafes, hospital and clinics | Food, medicines, logistics | Fierce dry heat, cold winter nights | Bidiyah, Sur |
 | Bidiyah (`bidiyah`, city, Ash Sharqiyah North Governorate) | Oman | Date gardens and farm sheds, roadside shops, workshops and yards, clinic | Food, medicines, logistics | Fierce heat, blowing sand | Ibra, Sur |
 | Khasab (`khasab`, city, Musandam Governorate) | Oman | Harbour ice boxes, shops and cafes, hospital and clinics, valley date stores | Food, medicines, logistics | Hot, humid inlets; cliffs hold heat | Muscat, Sohar |
@@ -815,3 +820,7 @@ are attached to Farwaniya as the nearest confident city (no administrative state
 
 Kuwait Batch 4 (Ahmadi Governorate): hub, Ahmadi and Fahaheel. Not built: Mangaf, Mahboula and Abu Halifa (too few confident, distinguishing local facts to write a
 page that is not a near-copy of the other coastal apartment towns).
+
+Kuwait Batch 5 (Ahmadi Governorate): Wafra and Khiran added, plus Shuaiba Industrial Area, Shuaiba Port and Mina Al Ahmadi, attached to Ahmadi as the nearest
+confident city (no administrative statement). Not built: Sabah Al-Ahmad City (not confident which development is meant) and Mina Abdullah (not confident of its
+location).

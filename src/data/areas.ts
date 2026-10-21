@@ -90,6 +90,7 @@ export const areaCities: Record<string, { name: string; stateSlug: string; state
   sur: { name: "Sur", stateSlug: "ash-sharqiyah-south-governorate", stateName: "Ash Sharqiyah South Governorate" },
   barka: { name: "Barka", stateSlug: "al-batinah-south-governorate", stateName: "Al Batinah South Governorate" },
   sohar: { name: "Sohar", stateSlug: "al-batinah-north-governorate", stateName: "Al Batinah North Governorate" },
+  ahmadi: { name: "Ahmadi", stateSlug: "ahmadi-governorate", stateName: "Ahmadi Governorate" },
   "kuwait-city": { name: "Kuwait City", stateSlug: "al-asimah-governorate", stateName: "Al Asimah Governorate" },
   farwaniya: { name: "Farwaniya", stateSlug: "farwaniya-governorate", stateName: "Farwaniya Governorate" },
   "jleeb-al-shuyoukh": { name: "Jleeb Al-Shuyoukh", stateSlug: "farwaniya-governorate", stateName: "Farwaniya Governorate" },
@@ -9522,6 +9523,167 @@ export const areas: AreaDef[] = [
         {
           "question": "Can a small stockroom among apartment blocks use a single logger?",
           "answer": "Yes. One logger in one room is enough to start, and more points can be added to the same dashboard as the business grows."
+        }
+      ],
+      "nearby": [],
+      "indexable": true
+    } },
+  // ------------------------------------------------------------------ Kuwait (batch 5: Ahmadi areas)
+  { slug: "shuaiba-industrial-area", name: "Shuaiba Industrial Area", citySlug: "ahmadi", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["virat","setu"], page: {
+      "metaTitle": "Data Loggers in Shuaiba Industrial Area, Kuwait | Prithvi",
+      "metaDescription": "Data loggers for factories, workshops, warehouses and yards in the Shuaiba Industrial Area, near Ahmadi. Get Solution.",
+      "intro": "The Shuaiba Industrial Area is a large industrial district on flat coastal ground north of Ahmadi, a grid of factories, workshops, warehouses and storage yards with wide roads between them. For a temperature data logger the interest lies in the ordinary trouble of keeping goods through blazing summers and humid shore air: sealants and paints with a printed limit, food and packaging stock, spare parts, and materials under metal roofs. Only the stock and rooms that a logger user on the Shuaiba estate could look after are described here. Enquiries about the Shuaiba Industrial Area are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Factory halls and finished-goods rooms",
+          "note": "Plants of many kinds hold finished stock in halls that have to stay in range while loading doors swing open and shut."
+        },
+        {
+          "name": "Sealant, paint and coating stores",
+          "note": "Shelves of sealants, paints and coatings carry limits printed on the tin, and a hot, damp shed can pass them without any visible sign."
+        },
+        {
+          "name": "General warehouses and parts stores",
+          "note": "Warehouses and parts stores hold seals, cable, fittings and household goods under roofs that throw heat downward long before the cooling responds."
+        },
+        {
+          "name": "Canteens and site kitchens",
+          "note": "Kitchens feeding shifts of workers keep chillers and freezers running day and night through the long summer."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "chemical",
+          "sentence": "Stockists of sealants, paints and coatings on the Shuaiba estate store materials with labelled ranges, and a dated record shows whether a stack sat hot or damp for too long."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A shared warehouse on the Shuaiba estate can hand each customer a record of its own pallets in place of a blanket assurance about the whole shed."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Canteens and food stores on the estate hold chilled and frozen goods, and a log from each cooler shows the moment a unit began to labour."
+        }
+      ],
+      "services": "On this estate we would suggest WiFi loggers in stores and rooms that sit near a router, probe loggers in chilled rooms and freezers, multi-point units in long sheds, and loggers carried inside a load. Shuaiba users who have calibration questions can put them to VEGA Calibrations, our parent company. WiFi units need a router within reach and a power supply, and for an open yard we set out other ways. What may be supplied is settled only once a Shuaiba request has been read.",
+      "visits": "A visit or an installation in the Shuaiba Industrial Area is not promised. Hand us the business, the rooms involved and a contact via the enquiry form, Call or WhatsApp, and we look over the request and tell you what appears feasible.",
+      "approach": "If a request went ahead, we would begin with the store holding the most sensitive material, placing loggers at floor level and under the roof and one at the door, and add a humidity unit because shore damp matters as much as heat. A month of readings would show which section of the shed runs hottest.",
+      "faqs": [
+        {
+          "question": "Can one report cover a long factory shed near the sea?",
+          "answer": "Yes. A multi-channel logger reads probes spaced along the shed, so one report shows which stretch of the building runs warmest and at what hour."
+        },
+        {
+          "question": "Why does shore air matter for stored coatings and packaging?",
+          "answer": "Humid, salty air softens packaging and can push products outside their dry-storage label, so a humidity log beside the temperature shows whether a store stayed within it."
+        }
+      ],
+      "nearby": [
+        "shuaiba-port"
+      ],
+      "indexable": true
+    } },
+  { slug: "shuaiba-port", name: "Shuaiba Port", citySlug: "ahmadi", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["rajmudra","dhruva"], page: {
+      "metaTitle": "Data Loggers at Shuaiba Port, Kuwait | Prithvi",
+      "metaDescription": "Data loggers for quayside sheds, cold rooms, container stacks and vehicles around Shuaiba Port, near Ahmadi. Get Solution.",
+      "intro": "Shuaiba Port is a commercial harbour on the coast north of Ahmadi, laid out on flat ground with broad yards between the water and the industrial estate behind. Goods that come through a harbour stand about for long stretches, and a temperature data logger exists to answer one question about those stretches: how warm did the stock get while it waited? Strong sun, hazy shore air and the contrast between a cooled hall and an open quay all play a part. The description is limited to the goods and rooms a logger user may look after at a harbour. Enquiries about Shuaiba Port are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Stacks of containers on the apron",
+          "note": "Boxes stacked in the sun pass heat inward through their walls, so a dry load can end up much hotter than the shade nearby."
+        },
+        {
+          "name": "Refrigerated halls and reefer boxes",
+          "note": "Chilled and frozen goods may wait in a cooled hall or a plugged-in box, and the short gaps between connections are the fragile moments."
+        },
+        {
+          "name": "Quayside sheds",
+          "note": "Goods rest in sheds whose large doors let hot, hazy air in, and the metal roof decides how warm the room becomes."
+        },
+        {
+          "name": "Trucks collecting cargo",
+          "note": "Trucks waiting for cargo sit in strong sun, and a covered body can heat quickly and hold that heat long after dark."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A firm storing cargo for several importers can supply each importer with a written trace of how its pallets were kept, instead of a remark about the building."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Chilled and frozen food passing through a harbour needs a trace of how it was held between vessel and shop, and a small logger packed with the cartons supplies one."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Medicines and healthcare supplies held beside the water need a dated temperature record, so a distributor can judge whether a pack stood too long in the heat."
+        }
+      ],
+      "services": "Around this harbour we would suggest WiFi loggers in sheds and cold halls near a router, probe loggers in freezers and reefer boxes, multi-point units along long halls, and loggers carried inside a consignment. Calibration questions from port users go to VEGA Calibrations, our parent company. WiFi units need a router in reach and mains power, and for an open stack or a vehicle we set out other options. Any answer on supply for Shuaiba Port comes once a request has been looked at.",
+      "visits": "Nothing is promised about visits or installation at Shuaiba Port. Pass on the business, the load or hall involved and a contact on the enquiry form, Call or WhatsApp, and we study the request and say what looks achievable.",
+      "approach": "If a request went ahead, we would begin with the load or hall that is hardest to replace, placing one logger in the cargo or beside the door and another on the far wall, then add a humidity unit where chilled goods meet damp shore air. A few weeks of readings would show how long stock really sits between stages.",
+      "faqs": [
+        {
+          "question": "Can a small logger be packed in a carton and followed through a port chain?",
+          "answer": "Yes. A logger packed with the cartons records the whole journey, and its report can be exported as a PDF, Excel or CSV file for whoever receives the load."
+        },
+        {
+          "question": "Why are boxes stacked in blazing sun worth their own record?",
+          "answer": "Heat soaks through the walls of a box in the sun, so a logger inside the load shows exposure that a reading taken in the shade would never show."
+        }
+      ],
+      "nearby": [
+        "shuaiba-industrial-area"
+      ],
+      "indexable": true
+    } },
+  { slug: "mina-al-ahmadi", name: "Mina Al Ahmadi", citySlug: "ahmadi", areaType: "industrial-estate", nearbyIndustries: ["chemical","laboratories","logistics-warehousing"], confirmedService: true, hero: ["nakshatra","veer"], page: {
+      "metaTitle": "Data Loggers in Mina Al Ahmadi, Kuwait | Prithvi",
+      "metaDescription": "Data loggers for support stores, laboratories, workshops and canteens in the Mina Al Ahmadi port-side area near Ahmadi. Get Solution.",
+      "intro": "Mina Al Ahmadi is a port-side industrial area on the coast beside Ahmadi, a flat expanse of yards, stores, workshops and support buildings set along the water. A temperature data logger around an area of this kind is concerned with what its support buildings hold: laboratory samples, lubricants and coatings with labelled limits, spare parts, and food for working communities, all kept in air that is blazing in summer and humid by the shore. The text below is limited to the kinds of goods and rooms a logger user may look after in a port-side area of this sort. Enquiries about Mina Al Ahmadi are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Laboratory sample and reagent stores",
+          "note": "Laboratories keep samples, reagents and reference materials in fridges, freezers and conditioned rooms with stated limits that have to be shown to have held."
+        },
+        {
+          "name": "Lubricant, coating and treatment stores",
+          "note": "Stores of lubricants, coatings and treatment products carry limits printed on the label, and an exposed shed can pass them quietly in the afternoon."
+        },
+        {
+          "name": "Spare-parts and electrical warehouses",
+          "note": "Warehouses hold gaskets, cable, bearings and electrical parts that suit a steady range better than the swing between a conditioned store and a baking yard."
+        },
+        {
+          "name": "Canteens and staff kitchens",
+          "note": "Kitchens feeding shifts of staff run chillers and freezers around the clock, a long way from the next wholesale supplier."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "chemical",
+          "sentence": "Stores of lubricants, coatings and treatment products in the area keep labelled ranges, and a dated record shows whether a stack sat hot for too long."
+        },
+        {
+          "slug": "laboratories",
+          "sentence": "Support laboratories keep samples and reference materials to set limits, and an exported report is ready whenever an audit asks for one."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "Where one warehouse holds materials for several contractors, each contractor can be given a trace of its own stock instead of a remark about the whole shed."
+        }
+      ],
+      "services": "For a port-side area we would consider WiFi loggers for stores and laboratories near a router, probe-type loggers for freezers and sample refrigerators, multi-point units for long sheds, and loggers that ride in a load. Mina Al Ahmadi users can raise calibration with VEGA Calibrations, our parent company. WiFi units depend on a router in reach and mains power, and for an open yard we describe other options. Any answer on supply waits until a request for the area has been read.",
+      "visits": "A visit or an installation in Mina Al Ahmadi is not promised. Share the business, the rooms involved and a contact via the enquiry form, Call or WhatsApp, and we weigh up the request and reply with what seems practical.",
+      "approach": "If a request went ahead, we would start with the laboratory refrigerator or lubricant store holding the most sensitive items, placing one logger near the door and one at the back, then add a humidity unit where shore air enters. A few weeks of summer readings would show which hours push a room outside its range.",
+      "faqs": [
+        {
+          "question": "Can a laboratory in a port-side area prove that a freezer held its range?",
+          "answer": "Yes. A logger keeps an unbroken temperature record, and a dated report can be saved as a PDF, Excel or CSV file to show an auditor how the freezer held its range."
+        },
+        {
+          "question": "Why does shore air matter for stored lubricants and parts?",
+          "answer": "Salt-laden damp air attacks metal and softens packaging, so a humidity trend beside the temperature shows when stock took on moisture."
         }
       ],
       "nearby": [],
