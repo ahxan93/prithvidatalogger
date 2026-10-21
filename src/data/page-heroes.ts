@@ -246,7 +246,7 @@ const CITY_REGISTRY: { slug: string; region: Region }[] = [
     "puducherry", "karaikal",
   ].map((slug) => ({ slug, region: "india" as const })),
   // Saudi Arabia (appended so earlier assignments never move).
-  ...["al-kharj", "diriyah", "al-majmaah", "makkah", "taif", "rabigh", "king-abdullah-economic-city", "al-khobar", "jubail", "al-ahsa", "dhahran", "qatif", "ras-al-khair", "madinah", "yanbu", "buraidah", "unaizah", "abha", "khamis-mushait", "bisha", "jazan", "najran", "al-baha", "tabuk", "hail", "sakaka", "arar", "aden", "mukalla", "seiyun", "shibam", "zinjibar", "sanaa", "taiz", "mocha", "hodeidah", "zabid", "bajil", "ibb", "dhamar", "marib", "lahij", "sadah", "abu-dhabi", "al-ain", "ruwais", "madinat-zayed", "liwa", "sharjah", "khor-fakkan", "kalba", "ajman", "umm-al-quwain", "ras-al-khaimah", "fujairah", "dibba", "doha", "al-rayyan", "al-wakrah", "mesaieed", "al-wukair", "al-khor", "ras-laffan", "lusail", "al-daayen", "umm-salal", "al-shamal", "al-shahaniya", "dukhan", "muscat", "muttrah", "seeb", "bawshar", "quriyat", "sohar", "saham", "al-suwaiq", "barka", "rustaq", "nakhal", "nizwa", "bahla", "izki", "sumail", "ibri", "buraimi", "salalah", "duqm", "sur", "ibra", "bidiyah", "khasab"].map((slug) => ({ slug, region: "gcc" as const })),
+  ...["al-kharj", "diriyah", "al-majmaah", "makkah", "taif", "rabigh", "king-abdullah-economic-city", "al-khobar", "jubail", "al-ahsa", "dhahran", "qatif", "ras-al-khair", "madinah", "yanbu", "buraidah", "unaizah", "abha", "khamis-mushait", "bisha", "jazan", "najran", "al-baha", "tabuk", "hail", "sakaka", "arar", "aden", "mukalla", "seiyun", "shibam", "zinjibar", "sanaa", "taiz", "mocha", "hodeidah", "zabid", "bajil", "ibb", "dhamar", "marib", "lahij", "sadah", "abu-dhabi", "al-ain", "ruwais", "madinat-zayed", "liwa", "sharjah", "khor-fakkan", "kalba", "ajman", "umm-al-quwain", "ras-al-khaimah", "fujairah", "dibba", "doha", "al-rayyan", "al-wakrah", "mesaieed", "al-wukair", "al-khor", "ras-laffan", "lusail", "al-daayen", "umm-salal", "al-shamal", "al-shahaniya", "dukhan", "muscat", "muttrah", "seeb", "bawshar", "quriyat", "sohar", "saham", "al-suwaiq", "barka", "rustaq", "nakhal", "nizwa", "bahla", "izki", "sumail", "ibri", "buraimi", "salalah", "duqm", "sur", "ibra", "bidiyah", "khasab", "kuwait-city"].map((slug) => ({ slug, region: "gcc" as const })),
 ];
 
 /**
@@ -416,6 +416,7 @@ const HUB_OF: Record<string, string> = Object.fromEntries([
   ...["sur"].map((slug) => [slug, "ash-sharqiyah-south-governorate"]),
   ...["ibra", "bidiyah"].map((slug) => [slug, "ash-sharqiyah-north-governorate"]),
   ...["khasab"].map((slug) => [slug, "musandam-governorate"]),
+  ...["kuwait-city"].map((slug) => [slug, "al-asimah-governorate"]),
   ...[
     "baddi", "solan", "parwanoo", "paonta-sahib", "una", "shimla",
   ].map((slug) => [slug, "himachal-pradesh"]),

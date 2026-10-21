@@ -451,6 +451,9 @@
 | Port of Duqm (`port-of-duqm`, area of Duqm) | Oman | Container stacks, cold halls, quayside sheds, lorries for long road journeys (described generally, no operating status) | Logistics, food, medicines | Dry heat, salty wind | Duqm Special Economic Zone |
 | Sur (`sur`, city, Ash Sharqiyah South Governorate) | Oman | Harbour ice stores, dhow-yard materials, market stock rooms, hospital and clinics | Food, medicines, logistics | Hot, humid sea air | Ibra, Bidiyah, Muscat |
 | Sur Industrial Estate (`sur-industrial-estate`, area of Sur) | Oman | Light factories, sealant and paint stores, timber and tile yards, parts counters | Chemicals, logistics, food | Hot, salty, humid | none |
+| Kuwait City (`kuwait-city`, city, Al Asimah Governorate) | Kuwait | Hospitals and laboratories, covered market and fish market, supermarkets and hotel kitchens, western warehouses | Medicines, food, electronics | Blazing dry summers, humid bay air, dust storms | Hawalli, Salmiya, Farwaniya (not yet built) |
+| Shuwaikh Industrial Area (`shuwaikh-industrial-area`, area of Kuwait City) | Kuwait | Workshops and spare-parts shops, warehouses, paint and chemical stores, food and packaging units | Electronics, logistics, chemicals | Blazing summer heat | Shuwaikh Port |
+| Shuwaikh Port (`shuwaikh-port`, area of Kuwait City) | Kuwait | Container stacks, cold halls and reefer containers, quayside sheds, trucks (described generally, no operating status) | Logistics, food, medicines | Hot, hazy bay air | Shuwaikh Industrial Area |
 | Ibra (`ibra`, city, Ash Sharqiyah North Governorate) | Oman | Date stores and grove sheds, weekly-market stock rooms, shops and cafes, hospital and clinics | Food, medicines, logistics | Fierce dry heat, cold winter nights | Bidiyah, Sur |
 | Bidiyah (`bidiyah`, city, Ash Sharqiyah North Governorate) | Oman | Date gardens and farm sheds, roadside shops, workshops and yards, clinic | Food, medicines, logistics | Fierce heat, blowing sand | Ibra, Sur |
 | Khasab (`khasab`, city, Musandam Governorate) | Oman | Harbour ice boxes, shops and cafes, hospital and clinics, valley date stores | Food, medicines, logistics | Hot, humid inlets; cliffs hold heat | Muscat, Sohar |
@@ -780,3 +783,16 @@ built across the plan: Al Amerat, Rusayl Industrial Estate, Knowledge Oasis Musc
 
 Oman audit: the Oman build has 1 country page, 11 governorate hubs (10 indexable, Musandam noindex), 23 cities and 17 areas. Fort mentions were replaced with neutral wording. Rusayl
 Industrial Estate stays skipped (not confident which city it belongs to).
+
+## Kuwait governorates
+
+Governorate hubs are state-level hubs under the Kuwait country hub with the slug pattern `{name}-governorate` (e.g. `al-asimah-governorate`), so they never collide
+with city slugs. A governorate hub is indexable only with two or more built child pages, otherwise noindex and out of the sitemap, never empty. Attach a place
+to the governorate and city it really belongs to; where that is not confidently known (e.g. Sabhan, Fintas), make no administrative statement and attach it to the
+nearest confident city, or skip it. Kuwait pages follow the GCC rules (no Vayu or GSM series, GSM note once per page, no local-office claim, no accreditation
+claim, no delivery, shipping, customs, warranty or local-stock claims) and carry no political, royal, border, security or event reference and no company name. Port,
+airport, industrial-area, Mina and warehouse-district pages say nothing about operating status, traffic, capacity, production, refining, oil or gas output, operator
+or eligibility.
+
+Kuwait Batch 1 (Al Asimah Governorate): hub, Kuwait City, Shuwaikh Industrial Area and Shuwaikh Port (both under Kuwait City, with no administrative statement). The
+Kuwait country hub text was rewritten to drop the old "ship from India" and "no city pages yet" wording.

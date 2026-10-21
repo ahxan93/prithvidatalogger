@@ -90,6 +90,7 @@ export const areaCities: Record<string, { name: string; stateSlug: string; state
   sur: { name: "Sur", stateSlug: "ash-sharqiyah-south-governorate", stateName: "Ash Sharqiyah South Governorate" },
   barka: { name: "Barka", stateSlug: "al-batinah-south-governorate", stateName: "Al Batinah South Governorate" },
   sohar: { name: "Sohar", stateSlug: "al-batinah-north-governorate", stateName: "Al Batinah North Governorate" },
+  "kuwait-city": { name: "Kuwait City", stateSlug: "al-asimah-governorate", stateName: "Al Asimah Governorate" },
   muscat: { name: "Muscat", stateSlug: "muscat-governorate", stateName: "Muscat Governorate" },
   muttrah: { name: "Muttrah", stateSlug: "muscat-governorate", stateName: "Muscat Governorate" },
   seeb: { name: "Seeb", stateSlug: "muscat-governorate", stateName: "Muscat Governorate" },
@@ -9200,6 +9201,115 @@ export const areas: AreaDef[] = [
         }
       ],
       "nearby": [],
+      "indexable": true
+    } },
+  // ------------------------------------------------------------------ Kuwait (batch 1: Kuwait City)
+  { slug: "shuwaikh-industrial-area", name: "Shuwaikh Industrial Area", citySlug: "kuwait-city", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","electronics","chemical"], confirmedService: true, hero: ["virat","dhruva"], page: {
+      "metaTitle": "Data Loggers in Shuwaikh Industrial Area, Kuwait | Prithvi",
+      "metaDescription": "Data loggers for workshops, warehouses, spare-parts shops and light factories in the Shuwaikh Industrial Area, Kuwait City. Get Solution.",
+      "intro": "The Shuwaikh Industrial Area lies west of Kuwait City's centre, a dense grid of workshops, warehouses, spare-parts shops, light factories and yards laid out on flat ground between the main roads and the bay. For a temperature data logger the interest lies in the everyday trouble of keeping goods through blazing summer heat: electronic parts and batteries, paints and adhesives with a printed limit, food and packaging stock, and tools under metal roofs. The text below is limited to the goods and rooms a logger user could look after in an industrial area of this sort. Enquiries about the Shuwaikh Industrial Area are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Workshops and spare-parts shops",
+          "note": "Garages and parts counters keep batteries, gaskets and electronic fittings that fare better in a steady range than in a swing from air-conditioned shop to scorching yard."
+        },
+        {
+          "name": "General warehouses with wide doors",
+          "note": "Warehouses hold stock for shops and businesses across the city, and a metal roof sets the room temperature long before the cooling catches up."
+        },
+        {
+          "name": "Paint, adhesive and chemical stores",
+          "note": "Paints, glues and cleaners are shelved with limits printed on the tin, and a shed that bakes all afternoon can take them past those limits without any sign."
+        },
+        {
+          "name": "Food and packaging units",
+          "note": "Small plants that pack or distribute food keep chilled rooms and finished-goods stores that are pushed hardest by the summer afternoon."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "electronics",
+          "sentence": "Stockists of electronic parts and batteries in Shuwaikh gain from a dated record of temperature and humidity, because a blazing shed can harm components that look sound on a shelf."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A shared warehouse here can hand every owner a record of its own shelves instead of a general assurance about the whole building."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "A stockist of paints, glues and cleaners can use a record to show whether a scorching afternoon pushed a pallet outside its printed range."
+        }
+      ],
+      "services": "For an industrial area of this kind we would look at WiFi loggers for units and cooled rooms near a router, probe-type loggers for chilled rooms and freezers, multi-point units for long sheds, and loggers that travel inside a load. Users in Shuwaikh can raise calibration with VEGA Calibrations, our parent company. WiFi units depend on a router within range and mains power, and for an open yard we describe other routes. What may be supplied is settled only once a Shuwaikh request has been read.",
+      "visits": "Nothing is promised about visits or installation in the Shuwaikh Industrial Area. Share the business, the rooms in question and a contact on the enquiry form, Call or WhatsApp, and we study the request and say what looks achievable.",
+      "approach": "If a request went ahead, we would start with the cooled room or store holding the most fragile stock, putting one logger by the door and one at the back, and adding a humidity unit where bay air enters. Readings over a few summer weeks would show at which hours of the day the room comes under most strain.",
+      "faqs": [
+        {
+          "question": "Can a small Shuwaikh workshop keep a temperature record of its store?",
+          "answer": "Yes. One logger set among the stock keeps a record through day and night, and a report for any dates can be exported as a PDF, Excel or CSV file."
+        },
+        {
+          "question": "Can the inside of a roofed unit be hotter than the street outside?",
+          "answer": "In summer a metal-topped unit can run well above the outdoor reading, so a logger set in the stock itself, not on a cool office wall, records what the goods really met."
+        }
+      ],
+      "nearby": [
+        "shuwaikh-port"
+      ],
+      "indexable": true
+    } },
+  { slug: "shuwaikh-port", name: "Shuwaikh Port", citySlug: "kuwait-city", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["setu","nakshatra"], page: {
+      "metaTitle": "Data Loggers at Shuwaikh Port, Kuwait | Prithvi",
+      "metaDescription": "Data loggers for quayside sheds, cold rooms, container stacks and vehicles around Shuwaikh Port, Kuwait City. Get Solution.",
+      "intro": "Shuwaikh Port is the commercial harbour on the western side of Kuwait City, set on the shore of Kuwait Bay with the industrial area behind it. Cargo that reaches a harbour spends much of its time standing still, and for a temperature data logger the question is what the stock endured while it stood: heat from the sun, hot hazy air by the bay, and the swing between a cooled hall and an open quay. Everything on this page is limited to the kinds of goods and rooms a logger user may look after at a harbour. Enquiries about Shuwaikh Port are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Container stacks in the open",
+          "note": "Boxes piled on the open apron absorb the sun and pass that heat inward, so a dry load can be far hotter than the shade a few steps away."
+        },
+        {
+          "name": "Cold halls and reefer containers",
+          "note": "Chilled and frozen food and health supplies may wait in a refrigerated hall or a plugged-in container, and the minutes between connections are the fragile moment."
+        },
+        {
+          "name": "Sheds by the quayside",
+          "note": "Goods rest in sheds whose big doors let hot, hazy air flood in, while the metal roof decides how warm the room becomes."
+        },
+        {
+          "name": "Trucks queuing for cargo",
+          "note": "Trucks waiting for their cargo sit in strong sun, and a covered body can heat quickly and stay hot long after sunset."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A firm storing cargo for different importers can give each importer a written trace of how its pallets were kept, in place of a comment about the building."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Chilled and frozen food that crosses a harbour needs a trace of how it was held between vessel and shop, and a small logger packed in with the cartons supplies it."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Medicines and healthcare supplies stored beside the water call for a dated temperature trace, so a distributor can see whether a pack stood too long in the heat."
+        }
+      ],
+      "services": "Around a harbour we would suggest WiFi loggers in sheds and cold halls that sit near a router, probe loggers in freezers and plugged-in containers, multi-point units along long halls, and loggers tucked into a consignment. Calibration questions can go to VEGA Calibrations, our parent company. WiFi units need a router in reach and a power supply, and for an open stack or a vehicle we set out other options. Whether anything can be supplied is decided only after a request has been read.",
+      "visits": "No visit or installation at the port is promised. Pass on the business, the load or hall in question and a contact using the enquiry form, Call or WhatsApp, and we study the request and tell you what appears feasible.",
+      "approach": "If a request went ahead, we would start with the load or hall that is hardest to replace, placing one logger inside the cargo or beside the door and another on the far wall, then add a humidity unit where chilled goods meet damp bay air. A few weeks of data would show how long stock really waits between one stage and the next.",
+      "faqs": [
+        {
+          "question": "Can a small logger go inside a carton and follow it through a harbour chain?",
+          "answer": "Yes. A logger packed in with the cartons records the entire journey, and its report can be exported as a PDF, Excel or CSV file for whoever receives the load."
+        },
+        {
+          "question": "Why do stacks of boxes in strong sun deserve their own record?",
+          "answer": "Heat soaks through the walls of a box in the sun, so a logger placed inside the load shows exposure that a reading taken in the shade would never reveal."
+        }
+      ],
+      "nearby": [
+        "shuwaikh-industrial-area"
+      ],
       "indexable": true
     } },
 ];

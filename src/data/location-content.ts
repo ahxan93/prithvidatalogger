@@ -323,6 +323,11 @@ export const locationContent: Record<string, LocationContent> = {
       "Data loggers for Musandam Governorate: Khasab's fish ice boxes, shops, hospital and clinics among steep inlets. Get Solution.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
+  "kuwait/al-asimah-governorate": {
+    metaDescription:
+      "Data loggers for Al Asimah Governorate: Kuwait City, Shuwaikh Industrial Area and Shuwaikh Port kitchens, clinics and warehouses. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+  },
   "qatar/doha-municipality": {
     metaDescription:
       "Data loggers for Doha Municipality: Doha city, West Bay, Al Sadd, Msheireb and The Pearl-Qatar kitchens, clinics and stores. Get Solution.",

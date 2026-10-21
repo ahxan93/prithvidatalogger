@@ -26568,7 +26568,7 @@ export const locations: LegacyLocationNode[] = [
     name: "Kuwait",
     type: "country",
     intro:
-      "Kuwait is compact and dense: a single urban area around Kuwait City, a port, and industrial and logistics zones that serve the whole country. Food and medicine arrive from abroad, wait in warehouses and cold stores and move on to hospitals, pharmacies, supermarkets and kitchens, all through long, hot summers. Prithvi supplies WiFi temperature and humidity loggers from India for these rooms, with alerts to phones and email and set-up carried out remotely with your team. No city pages are written for Kuwait yet, so this page covers the country as a whole, and the enquiry form is the quickest way to describe your site and get a reply from the team.",
+      "Kuwait is compact and dense: a single urban area around Kuwait City, a port, and industrial and logistics zones that serve the whole country. Food and medicine arrive from abroad, wait in warehouses and cold stores and move on to hospitals, pharmacies, supermarkets and kitchens, all through long, hot summers. Loggers that read temperature and humidity and send alerts to phones and email fit these rooms, and your team can be helped to set them up remotely. The pages below follow the governorates, beginning with Al Asimah and Kuwait City, and the enquiry form is the quickest way to describe your site and get a reply from the team.",
     localIndustries: [
       "Food retail and co-operative stores",
       "Pharmacies and medical stores",
@@ -26577,12 +26577,12 @@ export const locations: LegacyLocationNode[] = [
     ],
     citiesServed: ["Kuwait City", "Hawalli", "Farwaniya", "Ahmadi", "Jahra"],
     supportNote:
-      "Tell us how many rooms and units you need to cover. We prepare a quote, ship from India and help you set up alerts and user access over a call.",
+      "Enquiries from Kuwait are handled through the enquiry form, Call or WhatsApp. Tell us how many rooms and units you need to cover, and our reply covers what seems suitable and how remote set-up support would run.",
     faqs: [
       {
-        question: "Do you cover places outside Kuwait City?",
+        question: "Which parts of Kuwait have a page?",
         answer:
-          "Yes. Kuwait City, Hawalli, Farwaniya, Ahmadi and Jahra are covered together on this page until separate pages exist.",
+          "Al Asimah Governorate has its own page, with Kuwait City and its port and industrial districts beneath it. If your site is somewhere else, write through the enquiry form, Call or WhatsApp with what you store and we answer with what looks workable.",
       },
       {
         question: "What alert limits suit a store in extreme summer heat?",
@@ -26595,7 +26595,153 @@ export const locations: LegacyLocationNode[] = [
           "Reports for any room and any period can be exported as PDF, Excel or CSV, so a quality manager can hand over a dated log without retyping.",
       },
     ],
+    listing: [
+      { slug: "al-asimah-governorate", text: "The capital governorate on Kuwait Bay, with a harbour city of towers, markets and hospitals, a commercial port and an industrial area, in extreme summer heat." },
+    ],
     indexable: true,
+    children: [
+      {
+        slug: "al-asimah-governorate",
+        name: "Al Asimah Governorate",
+        type: "state",
+        intro:
+          "Al Asimah Governorate holds the capital area of Kuwait, a compact urban strip along the southern shore of Kuwait Bay where towers of glass stand beside an old covered market and a fish market, and wide roads link districts of offices, shops, hospitals and apartments. To the west a commercial port and an industrial area hold warehouses, workshops and yards. Summers are extremely hot and dry with strong sun, the air by the bay is humid, winters are mild, and dust storms blow in from the desert in some seasons. Food, medicines, electronics and building materials wait in kitchens, clinics and warehouses in such heat. The pages below cover the city, its industrial area and its port.",
+        localIndustries: [
+          "Hospitals, clinics and pharmacies",
+          "Food retail and catering kitchens",
+          "Port-side and industrial warehousing",
+          "Markets and fish trade",
+        ],
+        citiesServed: ["Kuwait City"],
+        supportNote:
+          "Enquiries from Al Asimah Governorate are handled through the enquiry form, Call or WhatsApp. Let us know the district, the rooms and how they are cooled, and we answer with what looks workable at the site.",
+        faqs: [
+          {
+            question: "Which places in Al Asimah Governorate have a page?",
+            answer:
+              "Kuwait City has a city page, and the Shuwaikh Industrial Area and Shuwaikh Port have area pages under it. Another district can be raised through the enquiry form.",
+          },
+          {
+            question: "Why does extreme dry heat still call for humidity records near the bay?",
+            answer:
+              "Air beside the bay is humid, and cold rooms form condensation whenever a door opens to the outside, so a humidity trend beside the temperature shows moisture that a thermometer alone would miss.",
+          },
+          {
+            question: "What happens to the record during a power cut?",
+            answer:
+              "A logger carries on from its own battery and holds its readings in memory, so an outage leaves a complete record to read once the site is back online.",
+          },
+        ],
+        listing: [
+          { slug: "kuwait-city", text: "A harbour capital on Kuwait Bay, with towers, an old covered market, a fish market, hospitals and apartments, in extreme dry summer heat and humid bay air." },
+        ],
+        areaListing: [
+          { slug: "shuwaikh-industrial-area", text: "An industrial area west of the city centre, with workshops, warehouses, spare-parts shops and light factories." },
+          { slug: "shuwaikh-port", text: "The commercial port at Shuwaikh, where food, supplies and general goods wait on quays and in sheds in hot, hazy air." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "kuwait-city",
+            name: "Kuwait City",
+            type: "city",
+            intro:
+              "Kuwait City is the capital of Kuwait, built on the southern shore of Kuwait Bay, and a temperature data logger here serves a compact city of hospitals, supermarkets, kitchens, markets and warehouses in blazing summer heat. Towers of glass rise beside an old covered market, a fish market lands the morning catch, a corniche follows the water, and wide roads link districts of offices, shops and apartment blocks. A commercial port and an industrial area lie to the west. Summer days are blazing and dry, the air by the bay is humid, and dust storms blow in from the desert, while the cooler evenings fill the corniche with walkers and the old market lanes with shoppers. Enquiries from Kuwait City are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "Summer afternoons are blazing and the nights stay warm, the bay keeps the air damp on the coast while the desert behind is bone dry, and dust storms turn the sky brown in some seasons, so cold rooms, kitchens and vehicles all work against the weather for months. A refrigerator that loses power on a July afternoon warms fast, and vehicles standing in the sun reach far higher temperatures than the shaded air.",
+            areas: [
+              {
+                name: "Hospitals, clinics and laboratories",
+                note: "Large hospitals, specialist clinics and laboratories store vaccines, insulin, blood products and samples in fridges and freezers that have to stay in range even when the mains supply stutters.",
+              },
+              {
+                name: "The covered market and fish market",
+                note: "Traders in the old market lanes keep dates, spices, sweets and textiles in small back rooms, while the fish market lands the morning catch into ice stores and cold boxes in humid air.",
+              },
+              {
+                name: "Supermarkets, hotel kitchens and catering stores",
+                note: "Supermarkets, hotels and catering firms keep walk-in chillers, freezers and dry stores in basements and service corridors, where the heat of the kitchen itself adds to the load on the cooling.",
+              },
+              {
+                name: "Warehouses and workshops on the western side",
+                note: "Warehouses, workshops and yards in the industrial area and around the port keep stock under metal roofs that soak up the summer sun at speed.",
+              },
+            ],
+            industries: [
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals and blood services in Kuwait City must keep vaccines and blood products inside strict ranges, and a phone alert reaches whoever is on duty if a refrigerator drifts in the small hours.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine distributors and pharmacies in Kuwait City store stock to labelled ranges, and a dated log of temperature and humidity shows how a room coped with the hottest weeks of summer.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Supermarkets, hotel kitchens and fish sellers around Kuwait City hold chilled and frozen stock, and a record from each cooler shows the moment a compressor began to struggle.",
+              },
+              {
+                slug: "electronics",
+                sentence:
+                  "Electronics and appliance stores in the city gain from a steady record, because a blazing yard and a cooled showroom swing the air around stock that looks sound on a shelf.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels track a hotel chiller from the floor to the top shelf and the door, showing which level warms first as stock is moved in and out.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable slides into a ward or pharmacy refrigerator in Kuwait City and leaves the way staff use the unit unchanged.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reading humidity beside temperature, a single unit shows when damp bay air has crept into a dry store that looks fine on a thermometer.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Kuwait City supermarket or caterer use temperature loggers?",
+                answer:
+                  "Yes. A logger placed in each cooler, freezer and dry store logs round the clock, and a report for any chosen period can be exported as a PDF, Excel or CSV file for an inspector or a client.",
+              },
+              {
+                question: "Why would a store in a desert country want a humidity reading?",
+                answer:
+                  "The bay coast is damp as well as hot, and cold rooms collect condensation each time a door opens to the outside, so humidity beside the temperature shows moisture that a thermometer would miss.",
+              },
+              {
+                question: "How would an enquiry from Kuwait City be handled?",
+                answer:
+                  "Give the shop, clinic or store, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Kuwait City.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Kuwait City laboratories?",
+                answer:
+                  "Calibration of loggers and probes for Kuwait City laboratories is looked after by VEGA Calibrations, our parent company; share the model and the range you work to and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "hawalli", name: "Hawalli" },
+              { slug: "salmiya", name: "Salmiya" },
+              { slug: "farwaniya", name: "Farwaniya" },
+            ],
+            metaTitle: "Temperature Data Loggers in Kuwait City | Prithvi",
+            metaDescription:
+              "Data loggers for Kuwait City's hospitals, supermarkets, hotel kitchens, markets and warehouses in extreme summer heat. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+    ],
   },
   {
     slug: "bahrain",
