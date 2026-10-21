@@ -23814,7 +23814,7 @@ export const locations: LegacyLocationNode[] = [
     name: "Oman",
     type: "country",
     intro:
-      "Oman's storage is spread between a long coastline and a large interior: ports on the Gulf of Oman and the Arabian Sea, the capital region around Muscat, and towns joined by long roads where goods spend hours in vehicles. Pharmacies, hospitals, food importers and distributors keep rooms that must hold their range through a hot, humid coast and a dry, hotter interior. Prithvi supplies WiFi temperature and humidity loggers from India, with alerts to phones and email and remote set-up with your team. No city pages are written for Oman yet, so this page covers the country, and the enquiry form is the way to describe your site.",
+      "Oman stretches along a long coastline and across a vast interior, with ports on the Gulf of Oman and the Arabian Sea, a capital region around Muscat, and towns joined by long roads where goods can spend hours in vehicles. Pharmacies, hospitals, food importers and distributors keep rooms that must hold their range through a hot, humid coast and a drier, hotter interior, while mountain towns add swings between cold nights and warm days. Temperature and humidity loggers that send alerts to phones and email fit these rooms, and remote help is available for your team. The pages below follow the governorates, beginning with Muscat, and the enquiry form is the quickest way to describe your site.",
     localIndustries: [
       "Fisheries and seafood cold storage",
       "Food distribution",
@@ -23823,25 +23823,270 @@ export const locations: LegacyLocationNode[] = [
     ],
     citiesServed: ["Muscat", "Sohar", "Salalah", "Nizwa"],
     supportNote:
-      "We quote from India, dispatch the loggers and then help your staff connect and configure them remotely. If a site has no Wi-Fi, ask us about GSM versions and we will check network compatibility in Oman first.",
+      "Enquiries from Oman are handled through the enquiry form, Call or WhatsApp. Describe the site, the stock and the cooling, and our reply covers what seems suitable for Oman and how remote set-up support would run.",
     faqs: [
       {
-        question: "Which Omani cities do you supply?",
+        question: "Which parts of Oman have a page?",
         answer:
-          "Muscat, Sohar, Salalah and Nizwa are the places listed for Oman, and this page covers them together until city pages are written.",
+          "Muscat Governorate has its own page, with the cities of Muscat and Muttrah and their districts beneath it. If your site is somewhere else, write to us through the enquiry form, Call or WhatsApp with what you store, and we answer with what looks suitable.",
       },
       {
         question: "How are loggers set up for a site far from a main city?",
         answer:
-          "They are dispatched from India and registered to your dashboard, and we set up the rooms and limits with your team remotely, so no one needs to travel to start recording.",
+          "Loggers are registered to your dashboard, and we set up rooms, limits and alert contacts with your team remotely, so no one needs to travel to start recording.",
       },
       {
         question: "Can a vehicle be monitored on a long road trip?",
         answer:
-          "A logger in the load records the whole journey and can be exported by trip. GSM versions can report along the way, subject to network compatibility that we confirm first.",
+          "A logger in the load records the whole journey, and the report can be exported by trip, so the heat a load met on a long road is on record when it arrives.",
       },
     ],
+    listing: [
+      { slug: "muscat-governorate", text: "The capital region on the Gulf of Oman, with a harbour city, an old market town, hospitals, shopping streets and industrial districts between the sea and bare mountains." },
+    ],
     indexable: true,
+    children: [
+      {
+        slug: "muscat-governorate",
+        name: "Muscat Governorate",
+        type: "state",
+        intro:
+          "Muscat Governorate holds the capital region of Oman, a string of bays and districts squeezed between the Gulf of Oman and a wall of bare brown mountains. White low buildings climb the hillsides, wide highways link neighbourhoods of offices, hospitals, universities and shopping streets, and the old harbour town of Muttrah keeps a covered market, a fish market and a busy waterfront. Industrial districts and a commercial port lie behind the coast. Summers run long, very hot and humid on the shore, winters stay mild, and the odd storm sends flash floods down the dry valleys. Kitchens, clinics and warehouses here carry stock of every kind through that heat. The pages below cover the two cities and four of their districts.",
+        localIndustries: [
+          "Hospitals, clinics and pharmacies",
+          "Hotel, restaurant and catering kitchens",
+          "Port-side and industrial warehousing",
+          "Markets, fish and food trade",
+        ],
+        citiesServed: ["Muscat","Muttrah"],
+        supportNote:
+          "Enquiries from Muscat Governorate are handled through the enquiry form, Call or WhatsApp. Say which district, which rooms and how they are cooled, and our reply covers what seems suitable on site.",
+        faqs: [
+          {
+            question: "Which places in Muscat Governorate have a page?",
+            answer:
+              "Muscat and Muttrah each have a city page. Al Khuwair, Al Ghubra and Ghala Industrial Area have area pages under Muscat, and Sultan Qaboos Port Muttrah has an area page under Muttrah. Another district can be raised through the enquiry form.",
+          },
+          {
+            question: "Why does storm water matter when choosing a mounting spot?",
+            answer:
+              "Water running down dry valleys after a storm can reach low rooms and cut the power, so a logger body is fixed above the likely water line and its battery keeps the record running through the outage.",
+          },
+          {
+            question: "Is one login enough to watch rooms across the capital region?",
+            answer:
+              "Yes. Every room is a separate point on one dashboard with its own alert contacts, and a manager can see all the districts together in a single exported report.",
+          },
+        ],
+        listing: [
+          { slug: "muscat", text: "A harbour capital between rocky hills and the sea, with hospitals, universities, offices, hotels and industrial districts, in long, hot, humid summers." },
+          { slug: "muttrah", text: "An old harbour town with a corniche, a covered market, a fish market and a commercial port, in hot, damp sea air." },
+        ],
+        areaListing: [
+          { slug: "al-khuwair", text: "A busy district of offices, hotels, restaurants, shops and clinics near the capital's main roads." },
+          { slug: "al-ghubra", text: "A residential and commercial district with shops, clinics, schools and restaurants close to the coast." },
+          { slug: "ghala-industrial-area", text: "An industrial area with workshops, warehouses, light factories and building-material yards." },
+          { slug: "sultan-qaboos-port-muttrah", text: "The commercial port at Muttrah, where food, supplies and general goods wait on quays and in sheds in warm, damp air." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "muscat",
+            name: "Muscat",
+            type: "city",
+            intro:
+              "Muscat is the capital city of Oman, spread along a rocky stretch of the Gulf of Oman coast where bare brown mountains drop almost to the water, and a temperature data logger here serves a city of hospitals, hotels, food importers and warehouses in a hot, humid harbour climate. White low buildings climb the hillsides above sheltered bays, wide highways link districts of offices, shops, clinics and universities, and industrial areas and a commercial port lie to the west. Summers are long and very hot, the sea air is damp, and winters are mild and pleasant. Hospitals, schools and large kitchens add to the rooms that need a steady record. Enquiries from Muscat are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "Summer afternoons are far beyond comfortable and the nights stay warm, humid sea air carries salt onto every shed, and the mountains behind the city hold the heat so that streets stay hot well into the evening. Occasional storms send flash floods down the dry valleys, power cuts follow, and a refrigerator that fails on an August afternoon warms fast while condensation forms the moment a cold door opens to the outside air.",
+            areas: [
+              {
+                name: "Hospitals, clinics and laboratories",
+                note: "Large hospitals, specialist clinics and university laboratories store vaccines, insulin, blood products and samples in fridges and freezers that have to stay in range even when the mains supply stutters.",
+              },
+              {
+                name: "Hotel, restaurant and catering kitchens",
+                note: "Hotels and catering firms keep chillers, freezers and dry stores in basements and service corridors, where the heat of the kitchen itself adds to the load on the cooling.",
+              },
+              {
+                name: "Food importers and supermarket cold stores",
+                note: "Importers and supermarkets keep chilled and frozen food in cold rooms and refrigerated boxes before it is sent on to shops and kitchens across the capital region.",
+              },
+              {
+                name: "Industrial and warehouse districts",
+                note: "Workshops, building-material yards and warehouses keep stock under metal roofs that soak up the summer sun at speed.",
+              },
+            ],
+            industries: [
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Hospitals and blood services in Muscat must keep vaccines and blood products inside strict ranges, and a phone alert reaches whoever is on duty if a refrigerator drifts in the small hours.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Medicine distributors and pharmacies around Muscat store stock to labelled ranges, and a dated log of temperature and humidity shows how a room coped with the hottest weeks of summer.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Hotel kitchens, caterers and importers of food in Muscat hold chilled and frozen stock, and a record from each cooler shows the moment a compressor began to struggle.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods arriving for Muscat wait in warehouses and vehicles before they are used, and a logger tucked into a consignment records the heat and humidity each lot met.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a hotel chiller at floor, shelf and door height, showing which level warms first between deliveries of stock.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable slides into a ward or pharmacy refrigerator in Muscat and leaves the way staff use the unit unchanged.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reading humidity beside temperature, a single unit shows when damp harbour air has crept into a dry store that looks fine on a thermometer.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Muscat hotel or caterer use temperature loggers?",
+                answer:
+                  "A logger in every cooler, freezer and dry store keeps a day-and-night record, and a report for any period can be saved as a PDF, Excel or CSV file for an inspector or a client.",
+              },
+              {
+                question: "Why would a store in a dry country want a humidity reading?",
+                answer:
+                  "The coast is damp as well as hot, and cold rooms collect condensation each time a door opens to the outside, so humidity beside the temperature shows moisture that a thermometer would miss.",
+              },
+              {
+                question: "What if the power or the WiFi drops out in Muscat?",
+                answer:
+                  "The logger carries on recording from its own battery and holds the readings, so the hours of an outage are still on record once the site is back online.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Muscat laboratories?",
+                answer:
+                  "Calibration of loggers and probes for Muscat laboratories is looked after by VEGA Calibrations, our parent company; share the model and the range you work to and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "muttrah", name: "Muttrah" },
+              { slug: "seeb", name: "Seeb" },
+              { slug: "quriyat", name: "Quriyat" },
+            ],
+            metaTitle: "Temperature Data Loggers in Muscat | Prithvi",
+            metaDescription:
+              "Data loggers for Muscat's hospitals, hotel kitchens, food importers and warehouses in long, hot, humid summers. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "muttrah",
+            name: "Muttrah",
+            type: "city",
+            intro:
+              "Muttrah is an old harbour town on the Gulf of Oman, tucked into a curve of the coast beneath bare mountains, and a temperature data logger here serves a place of fishing boats, a covered market, a commercial port and crowded lanes in hot, damp sea air. A corniche follows the water, dhows and fishing boats shelter in the harbour, and a covered market of narrow alleys sells textiles, spices, silver, sweets and household goods. A fish market lands the morning catch, shops and small hotels line the front, and clinics serve the district. Summers are long and humid, and the mountains behind trap the heat until well after dark. Enquiries from Muttrah are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The harbour holds heat and moisture together, the mountains stand close behind and cut off the breeze, and salt reaches every shed and cold box, so ice rooms, shop coolers and clinic refrigerators work through long hot spells. A power cut at the height of summer can warm a cold room in a matter of hours, and the covered lanes of the market trap warm air that never fully clears.",
+            areas: [
+              {
+                name: "The fish market and ice stores",
+                note: "Boats land the catch at the fish market, where ice stores and cold rooms hold it through the hottest part of the day in damp, salty air.",
+              },
+              {
+                name: "The covered market and its stock rooms",
+                note: "Traders in the narrow lanes keep dates, sweets, spices and textiles in small back rooms that were never designed for cooling.",
+              },
+              {
+                name: "The port-side sheds and warehouses",
+                note: "Sheds and warehouses near the quays hold food, supplies and household goods between a vessel and the road, with metal roofs that heat up in the sun.",
+              },
+              {
+                name: "Clinics, pharmacies and shop coolers",
+                note: "Clinics and pharmacies keep vaccines and medicines in refrigerators that must hold a range through power interruptions, while shops sell drinks and dairy from constantly opened coolers.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Muttrah fish sellers, sweet-makers and shopkeepers hold goods that spoil or soften quickly in damp heat, and a record from each ice store shows when a cold box began to warm.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods held in sheds near the quays meet salty, humid air, and a logger placed among them records the heat and moisture each lot met.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Muttrah keep stock in rooms with labelled ranges, and a dated log shows how a room behaved through the hottest weeks and any outage.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Clinics in Muttrah hold vaccines for the old town and the districts behind it, and a phone alert reaches the person responsible if a refrigerator warms.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels follow a fish room from its door to its rear wall, showing whether the cold reaches the last boxes.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "With humidity read next to temperature, one unit shows when harbour damp has entered a dates, sweets or spice store.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single probe on a short lead slips into a clinic or shop refrigerator in Muttrah and leaves daily routines unchanged.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Muttrah fish seller keep a record of an ice store?",
+                answer:
+                  "Yes. A probe logger in the ice store keeps a day-and-night record, and a report for the dates of one lot can be saved as a PDF, Excel or CSV file for a buyer.",
+              },
+              {
+                question: "Why do market stock rooms in the lanes need a humidity reading?",
+                answer:
+                  "Damp air softens dates, sweets and spices, and condensation forms when a cool room opens to warm air, so a humidity trend shows moisture that a thermometer would miss.",
+              },
+              {
+                question: "How would an enquiry from Muttrah be handled?",
+                answer:
+                  "Give the shop, store or clinic, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Muttrah.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Muttrah clinics?",
+                answer:
+                  "Calibration of loggers and probes for Muttrah clinics is looked after by VEGA Calibrations, our parent company; share the model and the range and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "muscat", name: "Muscat" },
+              { slug: "seeb", name: "Seeb" },
+            ],
+            metaTitle: "Temperature Data Loggers in Muttrah | Prithvi",
+            metaDescription:
+              "Data loggers for Muttrah's fish ice stores, covered-market stock rooms, port-side sheds and clinics in damp harbour heat. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+    ],
   },
   {
     slug: "kuwait",

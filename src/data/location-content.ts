@@ -268,6 +268,11 @@ export const locationContent: Record<string, LocationContent> = {
       "Data loggers for Al Shahaniya Municipality: Al Shahaniya's farm sheds, Dukhan's town and the Dukhan Industrial Area storage. Get Solution.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
+  "oman/muscat-governorate": {
+    metaDescription:
+      "Data loggers for Muscat Governorate: Muscat, Muttrah, Al Khuwair, Al Ghubra, Ghala and the Muttrah port kitchens, clinics and stores. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+  },
   "qatar/doha-municipality": {
     metaDescription:
       "Data loggers for Doha Municipality: Doha city, West Bay, Al Sadd, Msheireb and The Pearl-Qatar kitchens, clinics and stores. Get Solution.",

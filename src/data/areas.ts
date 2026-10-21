@@ -82,6 +82,8 @@ export const areaCities: Record<string, { name: string; stateSlug: string; state
   jubail: { name: "Jubail", stateSlug: "eastern-province", stateName: "Eastern Province" },
   yanbu: { name: "Yanbu", stateSlug: "madinah-region", stateName: "Madinah Region" },
   jazan: { name: "Jazan", stateSlug: "jazan-region", stateName: "Jazan Region" },
+  muscat: { name: "Muscat", stateSlug: "muscat-governorate", stateName: "Muscat Governorate" },
+  muttrah: { name: "Muttrah", stateSlug: "muscat-governorate", stateName: "Muscat Governorate" },
   doha: { name: "Doha", stateSlug: "doha-municipality", stateName: "Doha Municipality" },
   "al-rayyan": { name: "Al Rayyan", stateSlug: "al-rayyan-municipality", stateName: "Al Rayyan Municipality" },
   mesaieed: { name: "Mesaieed", stateSlug: "al-wakrah-municipality", stateName: "Al Wakrah Municipality" },
@@ -8279,6 +8281,219 @@ export const areas: AreaDef[] = [
         {
           "question": "Does sand affect a logger in an industrial yard?",
           "answer": "Sand settles on anything left open, so a logger is fixed on a shaded inner wall clear of vents, with a battery that keeps the record running through an outage."
+        }
+      ],
+      "nearby": [],
+      "indexable": true
+    } },
+  // ------------------------------------------------------------------ Oman (batch 1: Muscat)
+  { slug: "al-khuwair", name: "Al Khuwair", citySlug: "muscat", areaType: "business-district", nearbyIndustries: ["food-beverage","pharmaceutical","data-centers"], confirmedService: true, hero: ["virat","dhruva"], page: {
+      "metaTitle": "Data Loggers in Al Khuwair, Muscat | Prithvi",
+      "metaDescription": "Data loggers for hotel kitchens, office pantries, server rooms and clinic refrigerators in Al Khuwair, Muscat. Get Solution.",
+      "intro": "Al Khuwair is a busy district of offices, hotels, restaurants, shops and clinics beside the capital's main roads, where glass-fronted buildings and low shopping parades stand side by side. For a temperature data logger the interest lies in rooms that sit far from any warehouse: basement kitchens, floor pantries, server and network cupboards and clinic fridges, all kept cool by equipment that works hard through the long summer. The text below is limited to the goods and rooms a logger user in an office and hotel district of this sort could look after. Enquiries about Al Khuwair are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Hotel kitchens and banqueting stores",
+          "note": "Hotel chillers and freezers are large, and the demand on them swings between a quiet weekday and a full evening of guests."
+        },
+        {
+          "name": "Server, network and communications rooms",
+          "note": "A small server cupboard in an office relies on air-conditioning that, if it fails overnight, lets the temperature climb before the first member of staff arrives."
+        },
+        {
+          "name": "Restaurants and cafes",
+          "note": "Restaurant and cafe kitchens share heat with ovens and fryers, so the coolers at the back face a hotter room than the street outside."
+        },
+        {
+          "name": "Clinics and pharmacies",
+          "note": "Clinic and pharmacy fridges hold vaccines and medicines that must stay in range through brief power dips."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "food-beverage",
+          "sentence": "Hotel and restaurant kitchens in Al Khuwair keep chilled and frozen stock, and a record from each cooler shows when a unit began to slip."
+        },
+        {
+          "slug": "data-centers",
+          "sentence": "A logger gives small server rooms in the district an early warning, because a climbing room temperature is the first sign that cooling has failed."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Pharmacies and clinics in Al Khuwair store stock to labelled ranges, and a dated log shows how a room behaved through the hottest weeks and any outage."
+        }
+      ],
+      "services": "In an office and hotel district we would look at WiFi loggers for kitchens, pantries and server rooms near a router, probe-type loggers for fridges and freezers, and multi-channel units for larger cold rooms. Users in Al Khuwair can ask VEGA Calibrations, our parent company, about calibration. A WiFi logger needs a router within range and a power supply, and where a floor has neither we describe other options. What may be supplied is settled only once an Al Khuwair request has been read.",
+      "visits": "A visit or an installation in Al Khuwair is not promised. Give the hotel, office or clinic, the rooms involved and a contact via the enquiry form, Call or WhatsApp, and we look the request over and reply with what seems practical.",
+      "approach": "If a request went ahead, we would start with the room whose failure would cost most, such as a hotel freezer or a server cupboard, placing one logger at the intake and one at the far wall. A first run of summer readings would show how the rooms behave after hours.",
+      "faqs": [
+        {
+          "question": "Can a hotel watch all of its kitchens from one login?",
+          "answer": "Yes. All of a hotel's kitchens, pantries and plant rooms can sit on one dashboard, alerts go to the engineer for each room, and the manager can export one report that covers every point."
+        },
+        {
+          "question": "Why does a small server room want a temperature record?",
+          "answer": "A rising room temperature is the first sign that cooling has failed, so a logger with a phone alert warns staff before equipment trips out, and the log shows how long the room stood warm."
+        }
+      ],
+      "nearby": [
+        "al-ghubra"
+      ],
+      "indexable": true
+    } },
+  { slug: "al-ghubra", name: "Al Ghubra", citySlug: "muscat", areaType: "mixed-use", nearbyIndustries: ["food-beverage","pharmaceutical","hospitals-blood-banks"], confirmedService: true, hero: ["setu","nakshatra"], page: {
+      "metaTitle": "Data Loggers in Al Ghubra, Muscat | Prithvi",
+      "metaDescription": "Data loggers for shop coolers, pharmacy refrigerators, clinic stores and restaurant kitchens in Al Ghubra, Muscat. Get Solution.",
+      "intro": "Al Ghubra is a residential and commercial district close to the coast, where family streets, shops, clinics, schools and restaurants share the same roads. For a temperature data logger the interest lies in many small rooms rather than a few large ones: clinic vaccine fridges, pharmacy stock rooms, grocery coolers and restaurant stores, every one of them cooled by equipment that labours through the long summer. The description is limited to the goods and rooms a logger user could look after in a mixed district of this sort. Enquiries about Al Ghubra are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Family clinics and pharmacies",
+          "note": "Family clinics and pharmacies keep vaccines, insulin and medicines in fridges that have to stay inside their range through short power dips."
+        },
+        {
+          "name": "Groceries and small supermarkets",
+          "note": "Groceries sell dairy goods, drinks and frozen food from cabinets that are opened thousands of times in a day."
+        },
+        {
+          "name": "Restaurants and bakeries",
+          "note": "Restaurants and bakeries keep chillers and freezers in back rooms that share heat with the cooking line."
+        },
+        {
+          "name": "Stockrooms behind and above shops",
+          "note": "Shops often keep spare goods in rooms behind or above the sales floor, where the temperature follows the weather outside."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Pharmacies in Al Ghubra store medicines to labelled ranges, and a dated record shows how a room coped with the hottest weeks and any outage."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Groceries, bakeries and restaurants hold chilled and frozen goods that spoil in heat, and a log from each cabinet shows when a unit began to drift."
+        },
+        {
+          "slug": "hospitals-blood-banks",
+          "sentence": "Clinics in the district hold vaccines to strict ranges, and a phone alert reaches whoever looks after the unit if a refrigerator warms."
+        }
+      ],
+      "services": "For Al Ghubra's many small rooms we would suggest probe loggers in the fridges and freezers, WiFi loggers in kitchens and back rooms that sit near a router, and humidity-reading units in the dry stores. Calibration is something Al Ghubra users can take up with VEGA Calibrations, our parent company. WiFi units depend on a router in range and mains power, and for a van we explain other options. We say nothing about supply until an Al Ghubra request has been read.",
+      "visits": "A visit or an installation in Al Ghubra is not promised. Pass on the shop or clinic, the rooms and a contact using the enquiry form, Call or WhatsApp, and we look over the request and reply with what looks workable.",
+      "approach": "If a request went ahead, we would begin with the fridge whose contents are hardest to replace, placing a probe among the contents rather than at the door, then add a second point in a dry stockroom. The first weeks of readings would show how door openings and power dips move the range.",
+      "faqs": [
+        {
+          "question": "Can a neighbourhood pharmacy with a single refrigerator use one logger?",
+          "answer": "Yes. A single probe with a phone alert looks after a lone fridge, and the dated log it keeps can be shown to an inspector as evidence that the unit held its range."
+        },
+        {
+          "question": "Does a small dry store gain anything from a humidity reading?",
+          "answer": "Yes. Humid air spoils dry goods and softens their packaging, so a humidity trend next to the temperature shows when a store went damp."
+        }
+      ],
+      "nearby": [
+        "al-khuwair"
+      ],
+      "indexable": true
+    } },
+  { slug: "ghala-industrial-area", name: "Ghala Industrial Area", citySlug: "muscat", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["rajmudra","veer"], page: {
+      "metaTitle": "Data Loggers in Ghala Industrial Area, Muscat | Prithvi",
+      "metaDescription": "Data loggers for workshops, warehouses, light factories and building-material yards in the Ghala Industrial Area, Muscat. Get Solution.",
+      "intro": "The Ghala Industrial Area is an industrial district in the capital region, a grid of workshops, warehouses, light factories and building-material yards laid out beside main roads and the rocky foothills. For a temperature data logger the interest lies in the everyday trouble of making and keeping goods through extreme summer heat: paints and adhesives with a printed limit, food and packaging stock, and spare parts and tools under metal roofs. The description is limited to the goods and rooms a logger user could look after in an industrial area of this sort. Enquiries about Ghala are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Light factories and packing units",
+          "note": "Compact plants that mould, fill and seal consumer products hold finished cartons in rooms that are pushed hardest by the late summer afternoon."
+        },
+        {
+          "name": "Paint, adhesive and chemical stores",
+          "note": "Shelves of paints, glues and cleaning products carry limits printed on the label, and a baking shed can pass them without any visible sign."
+        },
+        {
+          "name": "Warehouses and building-material yards",
+          "note": "Warehouses and yards hold tiles, fittings, cable and household goods under roofs whose underside follows the sun long before the air-conditioning responds."
+        },
+        {
+          "name": "Garages and parts counters",
+          "note": "Garages and parts counters keep batteries, seals and electronic parts that last longer in a steady range than in a swing from cool office to scorching yard."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "chemical",
+          "sentence": "Stockists of paints, glues and cleaners in Ghala can use a dated record to show whether a hot afternoon carried a pallet beyond its printed limit."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A shared warehouse in Ghala can hand every owner a record of its own shelves instead of a general assurance about the whole building."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "A small distributor serving kitchens and shops from Ghala can show through a log that its chilled room stayed within range at every early loading."
+        }
+      ],
+      "services": "In an industrial area of this type we would look at WiFi loggers for units and cooled rooms near a router, probe-type loggers for chilled rooms and freezers, multi-point units for long sheds, and loggers that travel inside a load. VEGA Calibrations, our parent company, can talk through calibration for users in Ghala. WiFi units in Ghala depend on a router within range and a supply of power, and for a yard we describe the alternatives. Any answer on supply comes once a Ghala request has been read.",
+      "visits": "Visits and installation in Ghala are not promised. Hand us the business, the rooms involved and a contact via the enquiry form, Call or WhatsApp, and we look over the request and tell you what appears practical.",
+      "approach": "If a request went ahead, we would begin with the cooled room or store holding the most fragile stock, setting one logger by the door and one at the back, and adding a humidity unit where sea air gets in. A short run of summer readings would show the hours when the room is under most strain.",
+      "faqs": [
+        {
+          "question": "Can a small Ghala workshop keep a temperature record of its store?",
+          "answer": "Yes. One logger placed among the stock gives a continuous record, and a report for chosen dates can be saved as a PDF, Excel or CSV file whenever it is wanted."
+        },
+        {
+          "question": "Why do metal-roofed units run hotter than the air outside?",
+          "answer": "A metal roof absorbs the sun and radiates heat into the room, so a logger among the stock, not on an office wall, records what the goods actually met."
+        }
+      ],
+      "nearby": [],
+      "indexable": true
+    } },
+  { slug: "sultan-qaboos-port-muttrah", name: "Sultan Qaboos Port Muttrah", citySlug: "muttrah", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["virat-pro","setu"], page: {
+      "metaTitle": "Data Loggers at Sultan Qaboos Port Muttrah | Prithvi",
+      "metaDescription": "Data loggers for quayside sheds, cold rooms and vehicles around the Sultan Qaboos Port at Muttrah, Muscat. Get Solution.",
+      "intro": "The Sultan Qaboos Port at Muttrah is the commercial harbour of the old town, set on a bay of the Gulf of Oman with bare mountains behind. Around any harbour there is waiting: food, supplies and general goods that come off a ship, stand on a quay or in a shed, and go on by road. A temperature data logger in that chain keeps a record of what the goods met on the way, in air that is hot, damp and salty. The text below is limited to the kinds of goods and rooms a logger user may look after around a harbour. Enquiries about the port area are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Sheds along the quay",
+          "note": "Goods wait in sheds whose wide doors let warm, damp sea air flood in whenever they open, while the metal roof sets the temperature inside."
+        },
+        {
+          "name": "Chilled rooms and refrigerated boxes",
+          "note": "Chilled and frozen food and health supplies may sit in a cold room or a refrigerated box, and the hours between plug-in points are the fragile part of the chain."
+        },
+        {
+          "name": "Warehouses just past the gate",
+          "note": "Traders store food, drinks and household goods in warehouses close to the harbour, where heat builds under the roof through the afternoon."
+        },
+        {
+          "name": "Lorries and vans collecting goods",
+          "note": "Lorries and vans collecting goods stand with their cargo in the sun, and a covered load can end up far hotter than the shade."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A firm that stores goods for several traders can give each trader an account of how its pallets were kept, rather than a remark about the shed."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Chilled and frozen food crossing a harbour needs proof of how it was held between ship and shop, and a small logger packed in with the cartons supplies exactly that."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Health supplies and medicines held beside the quay need a dated record of temperature, so that a distributor can tell whether a pack waited too long in the heat."
+        }
+      ],
+      "services": "Around the Muttrah quays we would suggest WiFi loggers in sheds and cold rooms that sit within reach of a router, probe loggers in freezers and refrigerated boxes, and loggers carried inside a consignment so that its journey is recorded. Questions about calibration can go to VEGA Calibrations, our parent company. WiFi units depend on a router and mains power, and for a quay or a vehicle we set out other ways. Whether anything can be supplied is left open until a request has been looked at.",
+      "visits": "Nothing is promised about visits or installation at the port. Share the business, the load or room to be watched and a contact on the enquiry form, Call or WhatsApp, and we study the request and tell you what appears achievable.",
+      "approach": "If a request went ahead, we would start with the load or cold room that is hardest to replace, putting one logger inside the cargo or beside the door and another at the far wall, then bring in a humidity unit at the point where chilled goods meet damp air. A short run of data would show how long stock really stands between stages.",
+      "faqs": [
+        {
+          "question": "Can a small logger travel in a carton along a harbour chain?",
+          "answer": "Yes. A logger slipped in among the cartons records the whole trip, and its report can be exported as a PDF, Excel or CSV file for whoever receives the load."
+        },
+        {
+          "question": "Does a shed beside a bay need humidity records as well as temperature?",
+          "answer": "Damp, warm air settles as water on cold surfaces and softens cartons, so a humidity line next to the temperature shows when stock picked up moisture and how long it stayed that way."
         }
       ],
       "nearby": [],

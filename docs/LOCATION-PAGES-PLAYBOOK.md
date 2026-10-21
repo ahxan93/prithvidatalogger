@@ -414,6 +414,12 @@
 | Al Shahaniya (`al-shahaniya`, city, Al Shahaniya Municipality) | Qatar | Desert farm sheds, feed and veterinary stores, neighbourhood shops, clinics | Food, medicines, logistics | Very hot, dry; sandstorms | Dukhan, Al Rayyan, Doha, Umm Salal |
 | Dukhan (`dukhan`, city, Al Shahaniya Municipality) | Qatar | Supermarkets and bakeries, hospital and clinics, edge-of-town warehouses, beach cafes | Food, medicines, logistics | Hot, humid coast; sand | Al Shahaniya, Doha |
 | Dukhan Industrial Area (`dukhan-industrial-area`, area of Dukhan) | Qatar | Workshops and parts stores, warehouses, paint and lubricant stores, canteens (described generally; no operating status or output) | Logistics, chemicals, food | Extreme heat, sand | none |
+| Muscat (`muscat`, city, Muscat Governorate) | Oman | Hospitals and laboratories, hotel and catering kitchens, food importers, industrial and warehouse districts | Medicines, food, logistics | Long, hot, humid harbour summers; flash floods after storms | Muttrah, Seeb, Quriyat (not yet built) |
+| Muttrah (`muttrah`, city, Muscat Governorate) | Oman | Fish market and ice stores, covered-market stock rooms, port-side sheds, clinics and shop coolers | Food, medicines, logistics | Hot, damp harbour; mountains trap heat | Muscat, Seeb (not yet built) |
+| Al Khuwair (`al-khuwair`, area of Muscat) | Oman | Hotel kitchens, server cupboards, restaurants and cafes, clinics | Food, data centers, medicines | Hot, humid | Al Ghubra |
+| Al Ghubra (`al-ghubra`, area of Muscat) | Oman | Clinics and pharmacies, groceries, restaurants and bakeries, shop stockrooms | Medicines, food, clinics | Hot, humid | Al Khuwair |
+| Ghala Industrial Area (`ghala-industrial-area`, area of Muscat) | Oman | Light factories, paint and chemical stores, warehouses and building-material yards, garages | Chemicals, logistics, food | Extreme summer heat | none |
+| Sultan Qaboos Port Muttrah (`sultan-qaboos-port-muttrah`, area of Muttrah) | Oman | Quayside sheds, chilled rooms and refrigerated boxes, warehouses, vehicles (described generally, no operating status) | Logistics, food, medicines | Hot, damp, salty | none |
 | Jazan Economic City (`jazan-economic-city`, area of Jazan) | Saudi Arabia | Plant chemical and drum stores, spares warehouses and contractor yards, port yards, camp kitchens and clinics | Chemical stores, contract warehousing, camp catering | Extreme heat and humidity, salty air | none |
 | Jeddah (`jeddah`) | Saudi Arabia | Industrial and port logistics zones | Port logistics, food import cold chain, hospitals | Hot, humid coastal | Riyadh, Dammam |
 | Dammam (`dammam`) | Saudi Arabia | Industrial and port logistics zones | Industrial & chemical, port logistics, food | Hot, humid Gulf coast | Riyadh, Bahrain, Jeddah |
@@ -703,3 +709,17 @@ out of the sitemap until a second page is built). Not built: Barwa Al Baraha, be
 Qatar Batch 6: Al Shamal Municipality hub (Al Shamal only, so noindex and out of the sitemap until a second page is built) and Al Shahaniya Municipality hub
 (Al Shahaniya, Dukhan and Dukhan Industrial Area; indexable). This completes the Qatar build; nothing in it is skipped except the pages named in the earlier
 batch notes (Doha Industrial Area, Hamad Port, Umm Al Houl Free Zone, Barwa Al Baraha).
+
+## Oman governorates
+
+Governorate hubs are state-level hubs under the Oman country hub with the slug pattern `{name}-governorate` (e.g. `muscat-governorate`), so they never
+collide with city slugs. A governorate hub is indexable only with two or more built child pages, otherwise noindex and out of the sitemap, never empty.
+The Oman city Liwa must not reuse `liwa` (the UAE Liwa page); give it a distinct slug such as `liwa-oman` and make the title and copy say Oman. Make no
+administrative (governorate, wilayat, boundary) statement unless confident; attach a place to the nearest confident city instead. Oman pages follow the GCC
+rules (no Vayu or GSM series, GSM note once per page, no local-office claim, no accreditation claim, no delivery, shipping, customs, warranty or local-stock
+claims) and carry no political, royal, event, tourism or festival reference and no company name. Port, airport, free-zone, special-economic-zone and
+industrial-estate pages say nothing about operating status, traffic, capacity, production, cargo volumes, operator or eligibility.
+
+Oman Batch 1 (Muscat Governorate): hub, Muscat, Muttrah and the areas Al Khuwair, Al Ghubra and Ghala Industrial Area (attached to Muscat as the nearest
+confident city, with no wilayat statement) and Sultan Qaboos Port Muttrah (under Muttrah). The Oman country hub text was rewritten to drop the old
+"quote from India" and "dispatch" wording.
