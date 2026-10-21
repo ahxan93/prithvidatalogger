@@ -8189,7 +8189,7 @@ export const areas: AreaDef[] = [
         },
         {
           "name": "Chemical and lubricant stores",
-          "note": "Stores of oils, solvents and treatment products carry limits printed on the label, and an exposed shed can pass them quietly in the afternoon sun."
+          "note": "Stores of lubricants, solvents and treatment products carry limits printed on the label, and an exposed shed can pass them quietly in the afternoon sun."
         },
         {
           "name": "Laboratories and calibration rooms",
@@ -8203,7 +8203,7 @@ export const areas: AreaDef[] = [
       "industries": [
         {
           "slug": "chemical",
-          "sentence": "Stockists of oils, solvents and coatings on the estate store materials with labelled ranges, and a dated record shows whether a stack sat hot for too long."
+          "sentence": "Stockists of lubricants, solvents and coatings on the estate store materials with labelled ranges, and a dated record shows whether a stack sat hot for too long."
         },
         {
           "slug": "laboratories",
