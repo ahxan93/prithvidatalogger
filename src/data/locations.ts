@@ -26582,7 +26582,7 @@ export const locations: LegacyLocationNode[] = [
       {
         question: "Which parts of Kuwait have a page?",
         answer:
-          "Al Asimah Governorate has its own page, with Kuwait City and its port and industrial districts beneath it. If your site is somewhere else, write through the enquiry form, Call or WhatsApp with what you store and we answer with what looks workable.",
+          "Al Asimah Governorate (Kuwait City, its port and industrial area) and Hawalli Governorate (Hawalli and Salmiya) have their own pages. If your site is somewhere else, write through the enquiry form, Call or WhatsApp with what you store and we answer with what looks workable.",
       },
       {
         question: "What alert limits suit a store in extreme summer heat?",
@@ -26597,6 +26597,7 @@ export const locations: LegacyLocationNode[] = [
     ],
     listing: [
       { slug: "al-asimah-governorate", text: "The capital governorate on Kuwait Bay, with a harbour city of towers, markets and hospitals, a commercial port and an industrial area, in extreme summer heat." },
+      { slug: "hawalli-governorate", text: "The dense commercial and residential governorate south-east of the capital, with busy shopping streets, apartment blocks, clinics and a long seafront, in blazing summer heat." },
     ],
     indexable: true,
     children: [
@@ -26737,6 +26738,239 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Kuwait City | Prithvi",
             metaDescription:
               "Data loggers for Kuwait City's hospitals, supermarkets, hotel kitchens, markets and warehouses in extreme summer heat. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "hawalli-governorate",
+        name: "Hawalli Governorate",
+        type: "state",
+        intro:
+          "Hawalli Governorate is a densely built part of Kuwait's urban strip, a crowded mix of apartment blocks, shopping streets, clinics, restaurants and small offices stretching south-east of the capital along the Gulf coast. Hawalli itself is a busy commercial neighbourhood of narrow-fronted shops and traders' stores, while Salmiya runs along the seafront with malls, hotels, cafes, marinas and tall apartment towers. Summers are blazing and dry, the air by the water turns humid, winters are mild, and dust storms drift in from the desert. Food, medicines and household goods wait in shops, kitchens and small stockrooms in such heat. The pages below cover the two towns and the rooms where a temperature record would help.",
+        localIndustries: [
+          "Shops, supermarkets and food retail",
+          "Restaurants, cafes and catering kitchens",
+          "Clinics, pharmacies and care centres",
+          "Small traders' stockrooms",
+        ],
+        citiesServed: ["Hawalli","Salmiya"],
+        supportNote:
+          "Enquiries from Hawalli Governorate are handled through the enquiry form, Call or WhatsApp. Tell us the neighbourhood, the rooms and how they are cooled, and we come back with what looks suitable for the site.",
+        faqs: [
+          {
+            question: "Which places in Hawalli Governorate have a page?",
+            answer:
+              "Hawalli and Salmiya each have a city page. Another neighbourhood can be raised through the enquiry form, and further pages follow only when they can be written from confident facts.",
+          },
+          {
+            question: "Why do small shop stockrooms matter in a crowded district?",
+            answer:
+              "Space is tight, so goods are often stacked in back rooms and mezzanines with little cooling, and a logger there shows how warm stock got behind the sales floor.",
+          },
+          {
+            question: "Can one login watch many small shops?",
+            answer:
+              "Yes. Each shop or kitchen is a separate point on one dashboard with its own alert contacts, and an owner with several outlets sees them all together in one exported report.",
+          },
+        ],
+        listing: [
+          { slug: "hawalli", text: "A crowded commercial neighbourhood of narrow shops, traders' stores, clinics, restaurants and apartment blocks, in blazing dry summers." },
+          { slug: "salmiya", text: "A seafront town of malls, hotels, cafes, marinas and apartment towers along the Gulf, in blazing summers and humid shore air." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "hawalli",
+            name: "Hawalli",
+            type: "city",
+            intro:
+              "Hawalli is a crowded commercial and residential neighbourhood south-east of Kuwait City, packed with narrow-fronted shops, traders' stores, clinics, restaurants and apartment blocks, and a temperature data logger here serves a district of small rooms where food, medicines and household goods are stacked tightly in blazing summer heat. Pavements are lined with grocers, bakeries, pharmacies, tailors and electronics sellers, and small wholesalers keep stock in back rooms and basements. Families from many countries live in the blocks above the shops. Summers are blazing and dry, the air turns humid as the sea breeze arrives, and dust drifts in from the desert, while the evenings stay lively until late with shoppers filling the pavements and shopkeepers pulling stock from back rooms. Enquiries from Hawalli are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "Heat builds between tall buildings and narrow streets and lingers well after dark, narrow back lanes trap warm air behind the shops, and dust coats every vent and compressor, so small coolers work harder than their size suggests. A stockroom above a shop or behind a workshop can run far hotter than the sales floor, and a refrigerator that fails on a summer evening may not be noticed until the shutters go up.",
+            areas: [
+              {
+                name: "Grocers, bakeries and neighbourhood supermarkets",
+                note: "Grocers and bakeries serve whole blocks of flats from display coolers and small cold rooms opened again and again from early morning until late at night.",
+              },
+              {
+                name: "Pharmacies and family clinics",
+                note: "Pharmacies and clinics along the main shopping streets hold vaccines, insulin and medicines in refrigerators that must hold their range through short power dips.",
+              },
+              {
+                name: "Restaurants and takeaway kitchens",
+                note: "Small restaurants and takeaway kitchens keep chillers and freezers in tight back rooms that share heat with the cooking line.",
+              },
+              {
+                name: "Traders' stockrooms and basements",
+                note: "Wholesalers and electronics sellers keep stock in basements, mezzanines and back rooms where the temperature follows the weather outside.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Grocers, bakeries and restaurants in Hawalli hold chilled and frozen goods that spoil in heat, and a log from each cooler shows the moment a unit began to slip.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Hawalli store medicines to labelled ranges, and a dated record shows how a room coped with the hottest weeks and any outage.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Clinics along the shopping streets hold vaccines to strict ranges, and a phone alert reaches whoever looks after the unit if a refrigerator warms.",
+              },
+              {
+                slug: "electronics",
+                sentence:
+                  "Electronics and appliance sellers keep stock in basements and back rooms, and a steady record of heat and humidity shows whether a stockroom stayed kind to parts that look sound on a shelf.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "A single probe on a short lead slips into a pharmacy or clinic refrigerator in Hawalli and leaves daily routines unchanged.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a basement stockroom, where damp and stale heat gather without anyone noticing.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels read a small cold room at the door end and the back wall, showing whether the cold reaches the last shelf.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a single small shop in Hawalli use one logger?",
+                answer:
+                  "Yes. One logger with a phone alert can watch a lone cooler as long as a router is within reach, and the account can take more points as the business grows.",
+              },
+              {
+                question: "Why record the stockroom above or behind a shop?",
+                answer:
+                  "Back rooms and mezzanines are often the hottest part of a shop, so a logger there shows how warm goods got before they reached the sales floor.",
+              },
+              {
+                question: "How would an enquiry from Hawalli be handled?",
+                answer:
+                  "Give the shop, clinic or kitchen, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Hawalli.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Hawalli clinics?",
+                answer:
+                  "Calibration of loggers and probes for Hawalli clinics is looked after by VEGA Calibrations, our parent company; share the model and the range you work to and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "salmiya", name: "Salmiya" },
+              { slug: "kuwait-city", name: "Kuwait City" },
+            ],
+            metaTitle: "Temperature Data Loggers in Hawalli | Prithvi",
+            metaDescription:
+              "Data loggers for Hawalli's grocers, bakeries, pharmacies, clinics and traders' stockrooms in blazing dry summers. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "salmiya",
+            name: "Salmiya",
+            type: "city",
+            intro:
+              "Salmiya is a seafront town on the Gulf coast south-east of Kuwait City, lined with malls, hotels, cafes, restaurants, marinas and tall apartment towers, and a temperature data logger here serves a busy place of kitchens, supermarkets, clinics and shop stockrooms in blazing summer heat and humid shore air. A promenade follows the water, shopping streets run inland from the coast road, and boats shelter in small marinas. Hotel and restaurant kitchens work late into the evening. Summers are blazing and dry inland, humid at the shore, and winters are mild with the odd dust storm, while on cooler evenings families walk the promenade and the cafes spill onto the pavement. Enquiries from Salmiya are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "Heat and humidity gather together along the seafront, salt reaches every service yard and basement, and sea breezes carry fine dust, so walk-in coolers, mall food courts and clinic refrigerators work against the weather for months. Large kitchens add their own heat to the load on the cooling, and a chiller that fails during a busy weekend can lose a whole evening's stock before anyone is free to look. Parking is tight and loading bays are few, so vans unload by the kerb in the sun, and chilled cartons can stand on the pavement while a door is found and a key fetched.",
+            areas: [
+              {
+                name: "Hotel, restaurant and cafe kitchens",
+                note: "Hotels and restaurants along the shore keep walk-in chillers, freezers and dry stores in service basements, where kitchen heat and humid air meet.",
+              },
+              {
+                name: "Supermarkets and mall food courts",
+                note: "Supermarkets and food courts sell chilled and frozen goods from cabinets and cold rooms that are opened thousands of times a day.",
+              },
+              {
+                name: "Clinics, pharmacies and care centres",
+                note: "Clinics, pharmacies and care centres hold vaccines and medicines in refrigerators that must stay in range when the supply wavers.",
+              },
+              {
+                name: "Marina and boat-supply stores",
+                note: "Small stores near the marinas keep food, drinks and supplies for boats in rooms exposed to salt air and strong sun.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Hotel kitchens, cafes and supermarkets in Salmiya hold chilled and frozen stock in humid shore air, and a record from each cooler shows when a compressor began to struggle.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Clinics and care centres in Salmiya hold vaccines to strict ranges, and a phone alert reaches the person responsible if a refrigerator warms at night.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Salmiya keep stock to labelled ranges, and a dated log shows how a room behaved through the hottest weeks and any power cut.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods brought to Salmiya's shops and kitchens stand in vans and back yards before use, and a logger tucked into a load records the heat and humidity each lot met.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a kitchen walk-in from the floor to the top shelf and the door, showing which level warms first on a busy night.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable fits a pharmacy or clinic refrigerator in Salmiya and leaves the way staff use the unit unchanged.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels along a long service basement show which stretch is warmest and when, all in one report.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Salmiya hotel or cafe group watch every kitchen from one login?",
+                answer:
+                  "Yes. Every kitchen and pantry reports to one dashboard, each alert goes to its own engineer, and a manager can export a single report that covers all the rooms.",
+              },
+              {
+                question: "Why does a basement near the sea need a humidity reading?",
+                answer:
+                  "Humid air collects in basements and low rooms and turns to water on cool surfaces, so a humidity line next to the temperature reveals damp that a thermometer alone would not.",
+              },
+              {
+                question: "How would an enquiry from Salmiya be handled?",
+                answer:
+                  "Give the kitchen, shop or clinic, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Salmiya.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Salmiya clinics?",
+                answer:
+                  "Calibration of loggers and probes for Salmiya clinics is looked after by VEGA Calibrations, our parent company; share the model and the range and we explain the options.",
+              },
+            ],
+            nearby: [
+              { slug: "hawalli", name: "Hawalli" },
+              { slug: "kuwait-city", name: "Kuwait City" },
+            ],
+            metaTitle: "Temperature Data Loggers in Salmiya | Prithvi",
+            metaDescription:
+              "Data loggers for Salmiya's seafront hotel kitchens, supermarkets, clinics and shop stockrooms in blazing heat and humid air. Get Solution.",
             indexable: true,
           },
         ],

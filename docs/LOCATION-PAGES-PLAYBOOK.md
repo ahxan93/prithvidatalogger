@@ -454,6 +454,8 @@
 | Kuwait City (`kuwait-city`, city, Al Asimah Governorate) | Kuwait | Hospitals and laboratories, covered market and fish market, supermarkets and hotel kitchens, western warehouses | Medicines, food, electronics | Blazing dry summers, humid bay air, dust storms | Hawalli, Salmiya, Farwaniya (not yet built) |
 | Shuwaikh Industrial Area (`shuwaikh-industrial-area`, area of Kuwait City) | Kuwait | Workshops and spare-parts shops, warehouses, paint and chemical stores, food and packaging units | Electronics, logistics, chemicals | Blazing summer heat | Shuwaikh Port |
 | Shuwaikh Port (`shuwaikh-port`, area of Kuwait City) | Kuwait | Container stacks, cold halls and reefer containers, quayside sheds, trucks (described generally, no operating status) | Logistics, food, medicines | Hot, hazy bay air | Shuwaikh Industrial Area |
+| Hawalli (`hawalli`, city, Hawalli Governorate) | Kuwait | Grocers and bakeries, pharmacies and clinics, takeaway kitchens, traders' basements and stockrooms | Food, medicines, electronics | Blazing dry summers; heat trapped between buildings | Salmiya, Kuwait City |
+| Salmiya (`salmiya`, city, Hawalli Governorate) | Kuwait | Hotel and cafe kitchens, supermarkets and food courts, clinics and pharmacies, marina stores | Food, medicines, logistics | Blazing summers, humid shore air | Hawalli, Kuwait City |
 | Ibra (`ibra`, city, Ash Sharqiyah North Governorate) | Oman | Date stores and grove sheds, weekly-market stock rooms, shops and cafes, hospital and clinics | Food, medicines, logistics | Fierce dry heat, cold winter nights | Bidiyah, Sur |
 | Bidiyah (`bidiyah`, city, Ash Sharqiyah North Governorate) | Oman | Date gardens and farm sheds, roadside shops, workshops and yards, clinic | Food, medicines, logistics | Fierce heat, blowing sand | Ibra, Sur |
 | Khasab (`khasab`, city, Musandam Governorate) | Oman | Harbour ice boxes, shops and cafes, hospital and clinics, valley date stores | Food, medicines, logistics | Hot, humid inlets; cliffs hold heat | Muscat, Sohar |
@@ -796,3 +798,5 @@ or eligibility.
 
 Kuwait Batch 1 (Al Asimah Governorate): hub, Kuwait City, Shuwaikh Industrial Area and Shuwaikh Port (both under Kuwait City, with no administrative statement). The
 Kuwait country hub text was rewritten to drop the old "ship from India" and "no city pages yet" wording.
+
+Kuwait Batch 2 (Hawalli Governorate): hub, Hawalli and Salmiya (no area pages).

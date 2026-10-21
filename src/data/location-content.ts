@@ -328,6 +328,11 @@ export const locationContent: Record<string, LocationContent> = {
       "Data loggers for Al Asimah Governorate: Kuwait City, Shuwaikh Industrial Area and Shuwaikh Port kitchens, clinics and warehouses. Get Solution.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
+  "kuwait/hawalli-governorate": {
+    metaDescription:
+      "Data loggers for Hawalli Governorate: Hawalli's shops and traders' stores and Salmiya's seafront kitchens, clinics and malls. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+  },
   "qatar/doha-municipality": {
     metaDescription:
       "Data loggers for Doha Municipality: Doha city, West Bay, Al Sadd, Msheireb and The Pearl-Qatar kitchens, clinics and stores. Get Solution.",
