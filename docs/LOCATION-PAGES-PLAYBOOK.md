@@ -456,6 +456,13 @@
 | Shuwaikh Port (`shuwaikh-port`, area of Kuwait City) | Kuwait | Container stacks, cold halls and reefer containers, quayside sheds, trucks (described generally, no operating status) | Logistics, food, medicines | Hot, hazy bay air | Shuwaikh Industrial Area |
 | Hawalli (`hawalli`, city, Hawalli Governorate) | Kuwait | Grocers and bakeries, pharmacies and clinics, takeaway kitchens, traders' basements and stockrooms | Food, medicines, electronics | Blazing dry summers; heat trapped between buildings | Salmiya, Kuwait City |
 | Salmiya (`salmiya`, city, Hawalli Governorate) | Kuwait | Hotel and cafe kitchens, supermarkets and food courts, clinics and pharmacies, marina stores | Food, medicines, logistics | Blazing summers, humid shore air | Hawalli, Kuwait City |
+| Farwaniya (`farwaniya`, city, Farwaniya Governorate) | Kuwait | Hospital, clinics and pharmacies, supermarkets and wholesalers, bakeries and restaurants, back-street workshops | Medicines, food, logistics | Blazing dry heat, dust | Khaitan, Jleeb Al-Shuyoukh, Kuwait City |
+| Khaitan (`khaitan`, city, Farwaniya Governorate) | Kuwait | Corner groceries, butchers and bakers, pharmacies and clinic, back-room stockrooms | Food, medicines, logistics | Blazing dry heat, dust | Farwaniya, Jleeb Al-Shuyoukh |
+| Jleeb Al-Shuyoukh (`jleeb-al-shuyoukh`, city, Farwaniya Governorate) | Kuwait | Wholesale cold rooms, warehouses and stockrooms, corner shops and bakeries, clinics | Food, logistics, medicines | Blazing dry heat; heat trapped in lanes | Farwaniya, Khaitan |
+| Ardiya Industrial Area (`ardiya-industrial-area`, area of Farwaniya) | Kuwait | Light factories, spare-parts and electronics stores, sealant and paint stores, storage yards | Logistics, chemicals, electronics | Blazing, dusty | Al Rai Industrial Area |
+| Al Rai Industrial Area (`al-rai-industrial-area`, area of Farwaniya) | Kuwait | Wholesale food stores, general warehouses, workshops, chemical and cleaning stores | Logistics, food, chemicals | Blazing, dusty | Ardiya Industrial Area |
+| Kuwait International Airport (`kuwait-international-airport`, area of Farwaniya) | Kuwait | Freight halls, medicine cool rooms, meal-preparation stores, vehicles (described generally, no flight or cargo status) | Logistics, medicines, food | Blazing, dusty | none |
+| Jleeb Al-Shuyoukh Warehouses (`jleeb-al-shuyoukh-warehouses`, area of Jleeb Al-Shuyoukh) | Kuwait | Wholesale cold rooms, tall dry-goods stacks, electronics stockrooms, trucks | Food, logistics, electronics | Blazing, dusty | none |
 | Ibra (`ibra`, city, Ash Sharqiyah North Governorate) | Oman | Date stores and grove sheds, weekly-market stock rooms, shops and cafes, hospital and clinics | Food, medicines, logistics | Fierce dry heat, cold winter nights | Bidiyah, Sur |
 | Bidiyah (`bidiyah`, city, Ash Sharqiyah North Governorate) | Oman | Date gardens and farm sheds, roadside shops, workshops and yards, clinic | Food, medicines, logistics | Fierce heat, blowing sand | Ibra, Sur |
 | Khasab (`khasab`, city, Musandam Governorate) | Oman | Harbour ice boxes, shops and cafes, hospital and clinics, valley date stores | Food, medicines, logistics | Hot, humid inlets; cliffs hold heat | Muscat, Sohar |
@@ -800,3 +807,6 @@ Kuwait Batch 1 (Al Asimah Governorate): hub, Kuwait City, Shuwaikh Industrial Ar
 Kuwait country hub text was rewritten to drop the old "ship from India" and "no city pages yet" wording.
 
 Kuwait Batch 2 (Hawalli Governorate): hub, Hawalli and Salmiya (no area pages).
+
+Kuwait Batch 3 (Farwaniya Governorate): hub, Farwaniya, Khaitan, Jleeb Al-Shuyoukh; Ardiya Industrial Area, Al Rai Industrial Area and Kuwait International Airport
+are attached to Farwaniya as the nearest confident city (no administrative statement), and the Jleeb Al-Shuyoukh Warehouses to Jleeb Al-Shuyoukh.

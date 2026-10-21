@@ -91,6 +91,8 @@ export const areaCities: Record<string, { name: string; stateSlug: string; state
   barka: { name: "Barka", stateSlug: "al-batinah-south-governorate", stateName: "Al Batinah South Governorate" },
   sohar: { name: "Sohar", stateSlug: "al-batinah-north-governorate", stateName: "Al Batinah North Governorate" },
   "kuwait-city": { name: "Kuwait City", stateSlug: "al-asimah-governorate", stateName: "Al Asimah Governorate" },
+  farwaniya: { name: "Farwaniya", stateSlug: "farwaniya-governorate", stateName: "Farwaniya Governorate" },
+  "jleeb-al-shuyoukh": { name: "Jleeb Al-Shuyoukh", stateSlug: "farwaniya-governorate", stateName: "Farwaniya Governorate" },
   muscat: { name: "Muscat", stateSlug: "muscat-governorate", stateName: "Muscat Governorate" },
   muttrah: { name: "Muttrah", stateSlug: "muscat-governorate", stateName: "Muscat Governorate" },
   seeb: { name: "Seeb", stateSlug: "muscat-governorate", stateName: "Muscat Governorate" },
@@ -9310,6 +9312,219 @@ export const areas: AreaDef[] = [
       "nearby": [
         "shuwaikh-industrial-area"
       ],
+      "indexable": true
+    } },
+  // ------------------------------------------------------------------ Kuwait (batch 3: Farwaniya)
+  { slug: "ardiya-industrial-area", name: "Ardiya Industrial Area", citySlug: "farwaniya", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","electronics"], confirmedService: true, hero: ["virat","veer"], page: {
+      "metaTitle": "Data Loggers in Ardiya Industrial Area, Kuwait | Prithvi",
+      "metaDescription": "Data loggers for workshops, warehouses, light factories and yards in the Ardiya Industrial Area, Farwaniya. Get Solution.",
+      "intro": "The Ardiya Industrial Area lies on flat ground inland of the capital, near Farwaniya, a grid of workshops, warehouses, light factories and storage yards with wide roads between them. For a temperature data logger the interest lies in the everyday trouble of keeping goods through blazing, dusty summers: spare parts and electronics, sealants and paints with a printed limit, and food and packaging stock held under metal roofs. What follows covers only the stock and rooms that a logger user at Ardiya could look after. Enquiries about the Ardiya Industrial Area are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Light factories and fabrication units",
+          "note": "Small plants that cut, weld, mould and pack hold finished goods in halls that are pushed hardest by the late summer afternoon."
+        },
+        {
+          "name": "Spare-parts and electronics stores",
+          "note": "Stores of cable, boards, batteries and fittings suit a steady range better than the swing between a conditioned counter and a scorching yard."
+        },
+        {
+          "name": "Sealant, paint and cleaner stores",
+          "note": "Shelves of sealants, paints and cleaners carry limits printed on the tin, and a shed that bakes all afternoon can pass them without any sign."
+        },
+        {
+          "name": "Storage yards and trailers",
+          "note": "Stock stands in open yards and in trailers left parked in the sun, where a covered load can end up far hotter than the shade."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "electronics",
+          "sentence": "Parts dealers in the Ardiya area can use a dated record of heat and humidity to show that boards and batteries were stored inside a sensible range until collected."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A shared warehouse in Ardiya can hand every customer a record of its own pallets rather than a general assurance about the whole shed."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Stockists of sealants and paints here can use a log to show whether a scorching day carried a pallet beyond its printed limit."
+        }
+      ],
+      "services": "For an inland industrial area we would look at multi-point units for long sheds, WiFi loggers for rooms near a router, probe-type loggers for chilled rooms and freezers, and loggers that travel inside a load. Calibration for Ardiya users is something VEGA Calibrations, our parent company, can discuss. WiFi units need a router in range and mains power, and for an open yard we describe the alternatives. Any answer on supply comes once an Ardiya request has been read.",
+      "visits": "Nothing is promised about visits or installation in the Ardiya Industrial Area. Pass on the business, the rooms involved and a contact via the enquiry form, Call or WhatsApp, and we look over the request and reply with what seems practical.",
+      "approach": "If a request went ahead, we would begin with the store holding the most heat-sensitive goods, placing loggers at floor level and under the roof and one at the door, then mount each body out of the dust and the sun. A month of summer readings would show which corner of the shed gets hottest.",
+      "faqs": [
+        {
+          "question": "Can one report cover a long fabrication shed?",
+          "answer": "Yes. A multi-channel unit reads probes spaced along the shed, so a single report shows which stretch of the building runs warmest and at what hour."
+        },
+        {
+          "question": "Does dust affect a logger in an industrial yard?",
+          "answer": "Fine dust settles on anything exposed, so a logger is fixed on a shaded inner wall clear of vents, with a battery that keeps the record running through an outage."
+        }
+      ],
+      "nearby": [
+        "al-rai-industrial-area"
+      ],
+      "indexable": true
+    } },
+  { slug: "al-rai-industrial-area", name: "Al Rai Industrial Area", citySlug: "farwaniya", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","food-beverage","chemical"], confirmedService: true, hero: ["rajmudra","setu"], page: {
+      "metaTitle": "Data Loggers in Al Rai Industrial Area, Kuwait | Prithvi",
+      "metaDescription": "Data loggers for wholesalers, workshops and warehouses in the Al Rai Industrial Area, near Farwaniya. Get Solution.",
+      "intro": "The Al Rai Industrial Area is a trading and workshop district on the northern side of the inland belt, near Farwaniya, where wholesalers, workshops and warehouses stand in rows along wide roads. For a temperature data logger the interest lies in the stock that wholesalers keep to hand through blazing, dusty summers: food and drink in bulk, household goods, tools, materials with printed limits and the vehicles that carry them. The description is limited to the goods and rooms a logger user could look after in a district of this sort. Enquiries about the Al Rai Industrial Area are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Wholesale food and drink stores",
+          "note": "Wholesalers keep chilled and dry goods in cooled rooms that load and unload from the early morning, before the sun is up."
+        },
+        {
+          "name": "General warehouses",
+          "note": "Warehouses with wide doors hold household goods and materials, and wind-blown dust enters each time a vehicle backs in."
+        },
+        {
+          "name": "Workshops and tool stores",
+          "note": "Garages and workshops keep tools, batteries and fittings in sheds that heat quickly and cool slowly."
+        },
+        {
+          "name": "Chemical and cleaning-product stores",
+          "note": "Stores of cleaners, adhesives and treatment products carry labelled limits that an exposed shed can pass quietly."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "food-beverage",
+          "sentence": "A wholesaler supplying shops from the area can show through a log that a chilled room stayed in range through every early loading."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A warehouse holding goods for several owners can give each owner a temperature record of its own stock in place of a remark about the hall."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Stockists of cleaners and adhesives here carry labelled ranges, and a dated record shows whether a hot afternoon pushed a pallet outside them."
+        }
+      ],
+      "services": "In a wholesale and workshop district we would look at WiFi loggers for cooled rooms near a router, probe loggers for chilled rooms and freezers, multi-point units for long warehouses, and loggers that ride in a load. Al Rai users can ask VEGA Calibrations, our parent company, about calibration. WiFi units depend on a router within reach and a power supply, and for a yard we set out the alternatives. Whether anything can be supplied waits until a request has been read.",
+      "visits": "A visit or an installation in the Al Rai Industrial Area is not promised. Hand us the business, the rooms to be watched and a contact on the enquiry form, Call or WhatsApp, and we study the request and tell you what looks workable.",
+      "approach": "If a request went ahead, we would start with the cooled room holding the most perishable stock, placing one logger by the door and one at the back, then add a humidity unit where cold air meets the dusty heat outside. Readings across the first hot weeks would show at which hours of the day the room comes under most strain.",
+      "faqs": [
+        {
+          "question": "Can a small wholesaler keep a record of a chilled room?",
+          "answer": "Yes. One logger kept in the room logs through day and night, and a report for dates you choose can be saved as a PDF, Excel or CSV file for a customer."
+        },
+        {
+          "question": "Why record the early-morning loading hours?",
+          "answer": "With the doors wide during loading, a room can warm fast at that hour, and an unbroken log shows how long the cold took to come back."
+        }
+      ],
+      "nearby": [
+        "ardiya-industrial-area"
+      ],
+      "indexable": true
+    } },
+  { slug: "kuwait-international-airport", name: "Kuwait International Airport", citySlug: "farwaniya", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","pharmaceutical","food-beverage"], confirmedService: true, hero: ["nakshatra","virat-pro"], page: {
+      "metaTitle": "Data Loggers at Kuwait International Airport | Prithvi",
+      "metaDescription": "Data loggers for cargo sheds, cold rooms, catering stores and vehicles around Kuwait International Airport. Get Solution.",
+      "intro": "Kuwait International Airport stands on flat open ground inland of the capital, near Farwaniya, with broad approaches and large sheds around it. Goods that travel by air spend much of their journey standing still, and for a temperature data logger the question is how warm that standing time was: on the apron, in a cargo shed, in a waiting van. In summer the answer is often blazing and dusty. Everything on this page is limited to the kinds of goods and rooms a logger user may look after around an airport. Enquiries about Kuwait International Airport are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Freight sheds and handling halls",
+          "note": "Air freight can rest in halls whose big doors let blazing, dusty air in, so the room temperature follows the weather outside."
+        },
+        {
+          "name": "Cool rooms for medicines and vaccines",
+          "note": "Health consignments may be held in a refrigerated room or a cool box until a vehicle collects them, and that gap is the weakest point of the chain."
+        },
+        {
+          "name": "Meal-preparation stores",
+          "note": "Kitchens preparing meals for staff and travellers keep chillers and freezers running around the clock."
+        },
+        {
+          "name": "Vans and trucks on the freight roads",
+          "note": "Vehicles waiting to take parcels away stand in strong sun with their load, and a covered body can heat quickly and stay hot long after dark."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Health consignments need an unbroken temperature trace from aircraft to pharmacy, and a small logger packed in with the boxes shows the receiver exactly how the journey went."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A freight handler storing parcels for many customers can give each customer a record of its own boxes, not just a general promise about the hall."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Caterers supplying chilled and frozen meals to the airport zone cannot leave stock in warm air for long, and a log shows at which step it warmed."
+        }
+      ],
+      "services": "Around an airport we would consider reusable loggers carried inside a load, WiFi loggers in halls and cool rooms near a router, and probe units for refrigerators and freezers. Calibration is a subject for VEGA Calibrations, our parent company. WiFi units depend on a router in range and mains power, and for a van or a loose consignment we set out other ways. Whether anything can be supplied is decided only after a request for the airport area has been read.",
+      "visits": "No visit or installation around the airport is promised. Send the business, the consignment or room involved and a contact through the enquiry form, Call or WhatsApp, and we study the request and tell you what looks achievable.",
+      "approach": "If a request went ahead, we would start with the consignment or room that is hardest to replace, putting one logger inside the load and another on the far wall, then add humidity reading where chilled stock meets warm air. A few weeks of data would show how long goods really wait between handovers.",
+      "faqs": [
+        {
+          "question": "Can a logger ride inside a medicine consignment all the way from aircraft to pharmacy?",
+          "answer": "Yes. A small logger tucked in with the boxes keeps a record from first handling to last, and the report can be saved as a PDF, Excel or CSV file for the receiver."
+        },
+        {
+          "question": "Why does the step from a cool hall into a van in the sun deserve a record?",
+          "answer": "The air around a pallet can change by many degrees within a few steps, so a continuous log shows swings that a single spot reading would miss."
+        }
+      ],
+      "nearby": [],
+      "indexable": true
+    } },
+  { slug: "jleeb-al-shuyoukh-warehouses", name: "Jleeb Al-Shuyoukh Warehouses", citySlug: "jleeb-al-shuyoukh", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","electronics"], confirmedService: true, hero: ["dhruva","virat"], page: {
+      "metaTitle": "Data Loggers in Jleeb Al-Shuyoukh Warehouses | Prithvi",
+      "metaDescription": "Data loggers for wholesale warehouses, cold rooms and stockrooms in the Jleeb Al-Shuyoukh warehouse district. Get Solution.",
+      "intro": "The Jleeb Al-Shuyoukh Warehouses are the cluster of wholesale stores, stockrooms and storage sheds packed between apartment blocks and market streets in Jleeb Al-Shuyoukh, with trucks loading and unloading in narrow lanes. For a temperature data logger the interest lies in goods stacked tightly and handled in bulk through blazing, dusty summers: food and drink, household goods, electronics and appliances. The text below is limited to the goods and rooms a logger user could look after in a warehouse district of this sort. Enquiries about the Jleeb Al-Shuyoukh Warehouses are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Wholesale cold rooms",
+          "note": "Cold rooms hold chilled and frozen food for hundreds of shops, with doors that open and close all day as orders are collected."
+        },
+        {
+          "name": "Dry-goods warehouses",
+          "note": "Warehouses stack drinks, rice, tins and household goods to the ceiling under metal roofs, where the top of a stack can be far hotter than the floor."
+        },
+        {
+          "name": "Electronics and appliance stockrooms",
+          "note": "Stockrooms hold appliances, phones and accessories in boxes that suffer when stale heat is followed by a damp or cold cooling cycle."
+        },
+        {
+          "name": "Trucks and loading lanes",
+          "note": "Trucks idle in narrow lanes while they load, and cargo inside a covered body can heat quickly in the sun."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "food-beverage",
+          "sentence": "Wholesalers holding chilled and frozen food in bulk can show through a log that a cold room held its range while orders were collected through the day."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A warehouse holding goods for several traders can give each trader an account of how its stacks were kept, in place of a remark about the building."
+        },
+        {
+          "slug": "electronics",
+          "sentence": "Dealers in appliances and phones can use a dated record of heat and humidity to show that stock stayed inside a sensible range before it reached a customer."
+        }
+      ],
+      "services": "In a warehouse district we would look at multi-point units that read floor and roof height, probe loggers for cold rooms and freezers, WiFi loggers for rooms near a router, and loggers that ride in a load. For the warehouse district, questions about calibration can go to VEGA Calibrations, our parent company. WiFi units need a router within reach and mains power, and for a truck we describe other options. What may be supplied is settled only after a request has been read.",
+      "visits": "A visit or an installation in the Jleeb Al-Shuyoukh Warehouses is not promised. Give us the business, the rooms involved and a contact on the enquiry form, Call or WhatsApp, and we weigh up the request and say what seems achievable.",
+      "approach": "If a request went ahead, we would start with the cold room or the tallest stack, placing probes at floor, mid and roof height and one at the door, then add humidity reading in the electronics stockroom. A month of readings would show how much hotter the top of a stack becomes than the bottom.",
+      "faqs": [
+        {
+          "question": "Why do tall stacks need probes at more than one height?",
+          "answer": "Warm air rises to the roof while the floor stays cooler, so probes at different heights show how hot the upper pallets became while the lower ones stayed cool."
+        },
+        {
+          "question": "Can a small stockroom among apartment blocks use a single logger?",
+          "answer": "Yes. One logger in one room is enough to start, and more points can be added to the same dashboard as the business grows."
+        }
+      ],
+      "nearby": [],
       "indexable": true
     } },
 ];

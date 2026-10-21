@@ -26582,7 +26582,7 @@ export const locations: LegacyLocationNode[] = [
       {
         question: "Which parts of Kuwait have a page?",
         answer:
-          "Al Asimah Governorate (Kuwait City, its port and industrial area) and Hawalli Governorate (Hawalli and Salmiya) have their own pages. If your site is somewhere else, write through the enquiry form, Call or WhatsApp with what you store and we answer with what looks workable.",
+          "Al Asimah, Hawalli and Farwaniya governorates have their own pages, with Kuwait City, Hawalli, Salmiya, Farwaniya, Khaitan and Jleeb Al-Shuyoukh and their districts beneath. If your site is somewhere else, write through the enquiry form, Call or WhatsApp with what you store and we answer with what looks workable.",
       },
       {
         question: "What alert limits suit a store in extreme summer heat?",
@@ -26598,6 +26598,7 @@ export const locations: LegacyLocationNode[] = [
     listing: [
       { slug: "al-asimah-governorate", text: "The capital governorate on Kuwait Bay, with a harbour city of towers, markets and hospitals, a commercial port and an industrial area, in extreme summer heat." },
       { slug: "hawalli-governorate", text: "The dense commercial and residential governorate south-east of the capital, with busy shopping streets, apartment blocks, clinics and a long seafront, in blazing summer heat." },
+      { slug: "farwaniya-governorate", text: "The crowded inland governorate beside the capital, with busy markets, dense apartment districts, industrial and warehouse areas and the airport, in blazing dry summers and blowing dust." },
     ],
     indexable: true,
     children: [
@@ -26971,6 +26972,343 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Salmiya | Prithvi",
             metaDescription:
               "Data loggers for Salmiya's seafront hotel kitchens, supermarkets, clinics and shop stockrooms in blazing heat and humid air. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "farwaniya-governorate",
+        name: "Farwaniya Governorate",
+        type: "state",
+        intro:
+          "Farwaniya Governorate lies inland of the capital, a flat and crowded belt of apartment districts, wholesale markets, workshops, warehouses and wide ring roads where much of Kuwait's everyday trade happens. Farwaniya itself is a busy centre with a large hospital and a dense grid of shops, Khaitan and Jleeb Al-Shuyoukh are packed residential and commercial neighbourhoods with markets and stores, and industrial areas and the country's airport lie among the districts to the north. Summers are blazing and dry, winters mild, and dust storms blow in from the desert. Food, medicines, electronics and building materials wait in shops, stockrooms and warehouses in such heat. The pages below cover the three towns and four industrial and transport areas.",
+        localIndustries: [
+          "Wholesale markets and warehousing",
+          "Shops, supermarkets and food retail",
+          "Clinics, hospitals and pharmacies",
+          "Workshops and light industry",
+        ],
+        citiesServed: ["Farwaniya","Khaitan","Jleeb Al-Shuyoukh"],
+        supportNote:
+          "Enquiries from Farwaniya Governorate are handled through the enquiry form, Call or WhatsApp. Name the neighbourhood, the rooms and how they are cooled, and we reply with what looks suitable for the site.",
+        faqs: [
+          {
+            question: "Which places in Farwaniya Governorate have a page?",
+            answer:
+              "Farwaniya, Khaitan and Jleeb Al-Shuyoukh each have a city page. Ardiya Industrial Area, Al Rai Industrial Area and Kuwait International Airport have area pages under Farwaniya, and the Jleeb Al-Shuyoukh Warehouses have one under Jleeb Al-Shuyoukh. Another neighbourhood can be raised through the enquiry form.",
+          },
+          {
+            question: "Why do wholesale warehouses suit multi-point loggers?",
+            answer:
+              "A big warehouse is warmest under the roof and coolest at the floor and near the doors, so probes at several heights and positions show where stock really sits in the heat.",
+          },
+          {
+            question: "Can one login watch shops, warehouses and clinics together?",
+            answer:
+              "Yes. Each room is a separate point on one dashboard with its own alert contacts, and a manager can see every site together in one exported report.",
+          },
+        ],
+        listing: [
+          { slug: "farwaniya", text: "A busy inland centre of dense shopping grids, apartment blocks and a large hospital, in blazing dry summers and blowing dust." },
+          { slug: "khaitan", text: "A packed residential and commercial neighbourhood of apartment blocks, markets and small shops beside the airport side of the governorate." },
+          { slug: "jleeb-al-shuyoukh", text: "A crowded neighbourhood of apartment blocks, wholesale markets and warehouses on the southern side of the governorate." },
+        ],
+        areaListing: [
+          { slug: "ardiya-industrial-area", text: "An industrial area with workshops, warehouses, light factories and yards on flat ground inland of the capital." },
+          { slug: "al-rai-industrial-area", text: "An industrial and trading area of workshops, wholesalers and warehouses on the northern side of the governorate." },
+          { slug: "kuwait-international-airport", text: "The country's airport, where medicines, food and parcels wait between aircraft and onward vehicles." },
+          { slug: "jleeb-al-shuyoukh-warehouses", text: "The warehouse district of Jleeb Al-Shuyoukh, with wholesale stores, stockrooms and trucks on crowded streets." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "farwaniya",
+            name: "Farwaniya",
+            type: "city",
+            intro:
+              "Farwaniya is a busy inland centre in Kuwait, a flat and crowded grid of shopping streets, apartment blocks, clinics and workshops that lies away from the sea, and a temperature data logger here serves a district of supermarkets, pharmacies, kitchens and stockrooms in blazing dry heat. A large hospital draws patients from the surrounding neighbourhoods, markets and wholesalers sell food and household goods, and workshops and storage yards fill the back streets. Wide roads carry heavy traffic all day. Summers are blazing, winters are mild, and dust storms blow in from the desert, while the shopping streets stay lit and busy long after dark and families fill the pavements once the heat has eased. Enquiries from Farwaniya are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "Away from the sea the air is bone dry, summer afternoons are blazing, paving and walls hold the heat well into the night, and fine dust blows into every vent and compressor, so coolers and cold rooms work against the weather for months. A stockroom above a shop or beside a workshop can run far hotter than the sales floor, and a refrigerator that fails on a summer night warms quickly.",
+            areas: [
+              {
+                name: "The hospital, clinics and pharmacies",
+                note: "A large hospital, family clinics and pharmacies store vaccines, insulin, blood products and medicines in fridges and freezers that have to stay in range when the mains supply stutters.",
+              },
+              {
+                name: "Supermarkets and grocery wholesalers",
+                note: "Supermarkets and wholesalers keep chilled and frozen food in cold rooms and cabinets that are opened thousands of times a day.",
+              },
+              {
+                name: "Restaurants and bakeries",
+                note: "Restaurants and bakeries run chillers and freezers in back rooms that share heat with ovens and fryers.",
+              },
+              {
+                name: "Workshops and storage yards in the back streets",
+                note: "Workshops and yards hold parts, tools and household goods under metal roofs that soak up the summer sun at speed.",
+              },
+            ],
+            industries: [
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The hospital and clinics in Farwaniya must keep vaccines and blood products inside strict ranges, and a phone alert reaches whoever is on duty if a refrigerator drifts in the small hours.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies and medicine wholesalers in Farwaniya store stock to labelled ranges, and a dated log of temperature shows how a room coped with the hottest weeks of summer.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Supermarkets, bakeries and restaurants in Farwaniya hold chilled and frozen goods that spoil in heat, and a record from each cooler shows when a unit began to slip.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods for Farwaniya's shops wait in vans and back yards before use, and a logger tucked into a load records the heat each lot met on the way.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "A single probe on a short lead fits a ward or pharmacy refrigerator in Farwaniya and leaves the way staff use the unit unchanged.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a supermarket cold room from the floor to the top shelf and the door, showing which level warms first.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels spaced along a long wholesale store show which stretch of the roof keeps stock warmest, in one report.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Farwaniya supermarket or bakery use temperature loggers?",
+                answer:
+                  "A logger in each cooler, freezer and cold room keeps a round-the-clock record, and a report for any period can be exported in PDF, Excel or CSV form for an inspector or a client.",
+              },
+              {
+                question: "Does blown dust change where a logger should be fixed?",
+                answer:
+                  "Dust settles on anything left open or beside a vent, so a logger sits on a shaded inner wall clear of the door, with a battery that keeps recording through a power cut.",
+              },
+              {
+                question: "How would an enquiry from Farwaniya be handled?",
+                answer:
+                  "Give the shop, clinic or store, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Farwaniya.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Farwaniya clinics?",
+                answer:
+                  "Calibration of loggers and probes for Farwaniya clinics is looked after by VEGA Calibrations, our parent company; share the model and the range and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "khaitan", name: "Khaitan" },
+              { slug: "jleeb-al-shuyoukh", name: "Jleeb Al-Shuyoukh" },
+              { slug: "kuwait-city", name: "Kuwait City" },
+            ],
+            metaTitle: "Temperature Data Loggers in Farwaniya | Prithvi",
+            metaDescription:
+              "Data loggers for Farwaniya's hospital, pharmacies, supermarkets, wholesalers and workshops in blazing dry heat and dust. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "khaitan",
+            name: "Khaitan",
+            type: "city",
+            intro:
+              "Khaitan is a packed residential and commercial neighbourhood inland of the capital, a dense grid of apartment blocks, small markets, bakeries, pharmacies and workshops, and a temperature data logger here serves a district where thousands of households buy food from small shops in blazing dry heat. Corner groceries open from early morning until late at night, butchers and bakers work in small rooms behind their counters, and a clinic and pharmacies serve the blocks. Roads are busy and parking is tight. Summers are blazing and dry, winters mild, and dust drifts in from the desert, while buses, taxis and market vans crowd the streets at the start and end of the day and shopkeepers carry crates in and out of cramped back doors. Enquiries from Khaitan are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The district is far from the sea and the air is dry, walls and paving hold the heat after dark, and fine dust settles on every compressor, so small coolers work harder than their size suggests. Butchers and bakers share heat with ovens and cutting rooms, and a refrigerator that fails in a back room on a summer night may not be noticed until the shutters rise in the morning. Stock is carried up narrow stairs to mezzanines and flats above the shops, where the air is hotter and still, and food left there between restocking can warm well beyond what the label allows.",
+            areas: [
+              {
+                name: "Corner groceries and small markets",
+                note: "Groceries and small markets sell dairy goods, drinks and frozen food from cabinets opened constantly through the day and late into the evening.",
+              },
+              {
+                name: "Butchers, bakers and takeaway kitchens",
+                note: "Butchers, bakers and takeaway kitchens keep chilled meat, dough and prepared food in small back rooms that share heat with the work area.",
+              },
+              {
+                name: "Pharmacies and the clinic",
+                note: "A clinic and pharmacies hold vaccines and medicines in refrigerators that must stay in range through short power dips.",
+              },
+              {
+                name: "Workshops and stockrooms behind shops",
+                note: "Small workshops and stockrooms above or behind the shops hold goods and parts in rooms that follow the weather outside.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Groceries, butchers and bakers in Khaitan hold chilled and frozen goods that spoil in heat, and a log from each cooler shows the moment a unit began to drift.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Khaitan store medicines to labelled ranges, and a dated record shows how a room behaved through the hottest weeks and any outage.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The clinic serving Khaitan holds vaccines to strict ranges, and a phone alert reaches whoever looks after the unit if a refrigerator warms.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Small traders in Khaitan keep stock in basements and back rooms, and a reading from each room shows how warm goods got before they reached the shelf.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels follow a small cold room from its door to its back wall, showing whether the cold reaches the last shelf.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable slips into a pharmacy or clinic refrigerator in Khaitan and leaves daily routines unchanged.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a back-room dry store, where stale heat gathers without anyone noticing.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can one logger watch a single refrigerator in a Khaitan grocery?",
+                answer:
+                  "Yes. One logger with a phone alert can watch a lone cooler as long as a router is within reach, and the account can take more points as the shop grows.",
+              },
+              {
+                question: "Why record a butcher's back room as well as the display counter?",
+                answer:
+                  "The cold room behind the counter holds the meat for the whole day, so its record shows whether stock stayed in range before it ever reached the counter.",
+              },
+              {
+                question: "How would an enquiry from Khaitan be handled?",
+                answer:
+                  "Give the shop, clinic or kitchen, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Khaitan.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Khaitan clinics?",
+                answer:
+                  "Calibration of loggers and probes for Khaitan clinics is looked after by VEGA Calibrations, our parent company; share the model and the range and we explain the choices.",
+              },
+            ],
+            nearby: [
+              { slug: "farwaniya", name: "Farwaniya" },
+              { slug: "jleeb-al-shuyoukh", name: "Jleeb Al-Shuyoukh" },
+            ],
+            metaTitle: "Temperature Data Loggers in Khaitan | Prithvi",
+            metaDescription:
+              "Data loggers for Khaitan's corner groceries, butchers, bakers, pharmacies and back-room stockrooms in blazing dry heat. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "jleeb-al-shuyoukh",
+            name: "Jleeb Al-Shuyoukh",
+            type: "city",
+            intro:
+              "Jleeb Al-Shuyoukh is a crowded neighbourhood on the southern side of Kuwait's inland belt, packed with apartment blocks, wholesale markets, small shops and warehouses, and a temperature data logger here serves a district where food and household goods are bought, stored and resold in huge quantities in blazing dry heat. Wholesalers sell to shopkeepers from across the country, trucks load and unload in narrow streets, and families live above the shops. Clinics and pharmacies serve the blocks. Summers are blazing, winters mild, and dust storms blow in from the desert, while market lanes stay crowded with shoppers, handcarts and pickups from the early morning to late at night. Enquiries from Jleeb Al-Shuyoukh are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "Heat builds between close-packed buildings and lingers after dark, trucks idle and load in narrow lanes, and dust coats every vent, so wholesale cold rooms and warehouse stocks work against the weather for months. Goods stacked to the ceiling in a shed under a metal roof can be far hotter at the top than at the floor, and a chiller that fails during the night shift may lose its contents before the market opens. Many cold rooms are squeezed into the ground floors of residential blocks, so heat from compressors has nowhere to go, and a door propped open during a busy loading can let the room warm for an hour before anyone notices.",
+            areas: [
+              {
+                name: "Wholesale markets and cold rooms",
+                note: "Wholesalers keep chilled and frozen food in cold rooms that open and close all day as shopkeepers collect their orders.",
+              },
+              {
+                name: "Warehouses and stockrooms",
+                note: "Warehouses and stockrooms hold dry food, drinks and household goods stacked high under metal roofs that soak up the sun.",
+              },
+              {
+                name: "Corner shops, bakeries and takeaways",
+                note: "Shops, bakeries and takeaway kitchens serve the blocks of flats from small coolers and freezers opened constantly.",
+              },
+              {
+                name: "Clinics and pharmacies",
+                note: "Neighbourhood clinics and pharmacies keep vaccines and medicines in fridges that have to stay in range whenever the power flickers.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Wholesalers and shopkeepers in Jleeb Al-Shuyoukh hold chilled and frozen goods in bulk, and a record from each cold room shows when a unit began to struggle.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "A warehouse in Jleeb Al-Shuyoukh holding goods for several traders can give each trader a record of its own shelves instead of a general remark about the building.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies and medicine wholesalers in the neighbourhood keep stock to labelled ranges, and a dated record shows how a room behaved through the hottest weeks.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Clinics in the neighbourhood hold vaccines to strict ranges, and a phone alert reaches whoever is on duty if a refrigerator drifts overnight.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "virat",
+                reason:
+                  "Sixteen channels follow a big wholesale warehouse across racks, dock doors and floor positions, so a single report shows how the whole shed behaves.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single probe on a short cable fits a pharmacy or clinic refrigerator in Jleeb Al-Shuyoukh and leaves daily routines unchanged.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a wholesale cold room at floor, shelf and door height, showing which level warms first as orders go out.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Jleeb Al-Shuyoukh wholesaler give a customer a temperature record?",
+                answer:
+                  "Yes. A report for the dates a lot stood in a cold room can be exported in PDF, Excel or CSV form and passed to the customer or an inspector.",
+              },
+              {
+                question: "Why does stock stacked to the ceiling need probes at several heights?",
+                answer:
+                  "Air is warmest under the roof and coolest at the floor, so probes at several heights show how warm the top pallets became while the bottom ones stayed cool.",
+              },
+              {
+                question: "How would an enquiry from Jleeb Al-Shuyoukh be handled?",
+                answer:
+                  "Give the shop, wholesaler or clinic, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for the neighbourhood.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Jleeb Al-Shuyoukh?",
+                answer:
+                  "Calibration of loggers and probes for Jleeb Al-Shuyoukh sites is looked after by VEGA Calibrations, our parent company; share the model and the range and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "farwaniya", name: "Farwaniya" },
+              { slug: "khaitan", name: "Khaitan" },
+            ],
+            metaTitle: "Temperature Data Loggers in Jleeb Al-Shuyoukh | Prithvi",
+            metaDescription:
+              "Data loggers for Jleeb Al-Shuyoukh's wholesale cold rooms, warehouses, shops and clinics in blazing dry heat and dust. Get Solution.",
             indexable: true,
           },
         ],
