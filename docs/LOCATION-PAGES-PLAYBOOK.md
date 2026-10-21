@@ -777,3 +777,6 @@ Governorate (Duqm, Duqm Special Economic Zone and Port of Duqm). Not built: Haim
 Oman Batch 7: Ash Sharqiyah South Governorate (Sur, Sur Industrial Estate), Ash Sharqiyah North Governorate (Ibra, Bidiyah) and Musandam Governorate (Khasab only, so
 noindex and out of the sitemap until a second page is built). No border, exclave or boundary statement is made for Khasab. This completes the Oman build. Pages not
 built across the plan: Al Amerat, Rusayl Industrial Estate, Knowledge Oasis Muscat, Shinas, Liwa (Oman), Khazaen Economic City, Adam, Haima.
+
+Oman audit: the Oman build has 1 country page, 11 governorate hubs (10 indexable, Musandam noindex), 23 cities and 17 areas. Fort mentions were replaced with neutral wording. Rusayl
+Industrial Estate stays skipped (not confident which city it belongs to).

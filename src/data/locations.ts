@@ -23845,7 +23845,7 @@ export const locations: LegacyLocationNode[] = [
       { slug: "muscat-governorate", text: "The capital region on the Gulf of Oman, with a harbour city, an old market town, hospitals, shopping streets and industrial districts between the sea and bare mountains." },
       { slug: "al-batinah-north-governorate", text: "The northern stretch of the Batinah coast, with a historic port city, an industrial estate, farming towns of date palms and fishing harbours between the sea and the mountains." },
       { slug: "al-batinah-south-governorate", text: "The southern stretch of the Batinah, with a coastal market town and an industrial area, and foothill oasis towns of date palms and old irrigation channels below the mountains." },
-      { slug: "ad-dakhiliyah-governorate", text: "The interior below the high mountains, with old oasis towns, date groves, irrigation channels, forts, markets and an industrial estate, in hot days and cold winter nights." },
+      { slug: "ad-dakhiliyah-governorate", text: "The interior below the high mountains, with old oasis towns, date groves, irrigation channels, old lanes, markets and an industrial estate, in hot days and cold winter nights." },
       { slug: "ad-dhahirah-governorate", text: "The dry plain on the western side of the mountains, with an oasis town at the edge of the desert, date farms, markets and an industrial area, in fierce summer heat." },
       { slug: "al-buraimi-governorate", text: "The inland oasis governorate in the north-west, with a trading city of shops and date gardens and an industrial area, in hot, dry summers." },
       { slug: "dhofar-governorate", text: "The far south on the Arabian Sea, with a coastal city of coconut and banana groves, a monsoon season of mist and drizzle, a port, a free zone and an industrial estate." },
@@ -24425,7 +24425,7 @@ export const locations: LegacyLocationNode[] = [
         listing: [
           { slug: "sohar", text: "A historic port city on the Batinah coast with a fishing harbour, an industrial estate, a modern port, hospitals and markets, in hot, humid summers." },
           { slug: "saham", text: "A farming and fishing town on the coast road, with date palms, small farms, markets and a clinic, in hot, humid air." },
-          { slug: "al-suwaiq", text: "A coastal town of date and fruit farms, a fishing harbour and an old fort, between the sea and the mountains." },
+          { slug: "al-suwaiq", text: "A coastal town of date and fruit farms, a fishing harbour and old lanes, between the sea and the mountains." },
         ],
         areaListing: [
           { slug: "sohar-industrial-estate", text: "The industrial estate beside Sohar, with factories, workshops, warehouses and chemical and materials stores." },
@@ -24439,7 +24439,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Sohar",
             type: "city",
             intro:
-              "Sohar is a historic port city on the Batinah coast of the Gulf of Oman, long a harbour town and today a centre of industry, and a temperature data logger here serves a city of fishing boats, markets, hospitals, workshops and warehouses in hot, humid sea air. An old fort stands near the shore, fishing boats land their catch at the harbour, date palms and farms line the plain behind, and an industrial estate and a modern port lie beside the coast. Shops, clinics and a university serve the growing city, and the corniche fills with families on cooler evenings. Summers are long and very hot, and winters are mild. Enquiries from Sohar are handled through the enquiry form, Call or WhatsApp.",
+              "Sohar is a historic port city on the Batinah coast of the Gulf of Oman, long a harbour town and today a centre of industry, and a temperature data logger here serves a city of fishing boats, markets, hospitals, workshops and warehouses in hot, humid sea air. Old lanes run down to the shore, fishing boats land their catch at the harbour, date palms and farms line the plain behind, and an industrial estate and a modern port lie beside the coast. Shops, clinics and a university serve the growing city, and the corniche fills with families on cooler evenings. Summers are long and very hot, and winters are mild. Enquiries from Sohar are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The flat coast is hot and very humid through the long summer, salt reaches every shed and cold box, and the mountains behind are far enough away that little breeze reaches the streets, so ice rooms, shop coolers and warehouse sheds work against the weather for months. A cold room that loses power in the afternoon warms fast, and sudden storms bring water down the valleys onto the plain.",
             areas: [
@@ -24632,7 +24632,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Al Suwaiq",
             type: "city",
             intro:
-              "Al Suwaiq is a coastal town on the Batinah plain, where farms of date palms and fruit trees run down to a fishing harbour and an old fort stands near the sea, and a temperature data logger here serves a place of farm sheds, fish rooms, shops and a hospital in hot, humid air. Growers pick dates, limes and vegetables on the plain behind the shore, boats land the catch at the harbour, and a market sells food and household goods to the town and the villages around. Mountains rise in the distance, and the old fort stands as a landmark above the palms. Summers are long and hot, and sudden storms bring water down the valleys. Enquiries from Al Suwaiq are handled through the enquiry form, Call or WhatsApp.",
+              "Al Suwaiq is a coastal town on the Batinah plain, where farms of date palms and fruit trees run down to a fishing harbour and old lanes stand near the sea, and a temperature data logger here serves a place of farm sheds, fish rooms, shops and a hospital in hot, humid air. Growers pick dates, limes and vegetables on the plain behind the shore, boats land the catch at the harbour, and a market sells food and household goods to the town and the villages around. Mountains rise in the distance, and the old lanes sit in the shade of the palms. Summers are long and hot, and sudden storms bring water down the valleys. Enquiries from Al Suwaiq are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The plain is flat, hot and humid, salt reaches every shed along the shore, and rain from the mountains can arrive as a flood across farmland and low roads, so farm stores, fish rooms and clinic refrigerators work through long warm spells with the odd outage. Fruit picked in the heat loses quality quickly, and a cold room that fails on a summer afternoon can lose a day's harvest before the evening shift arrives.",
             areas: [
@@ -24758,9 +24758,9 @@ export const locations: LegacyLocationNode[] = [
           },
         ],
         listing: [
-          { slug: "barka", text: "A coastal market town of fish, fruit and dates with a fort, farms and an industrial area, in hot, humid sea air." },
-          { slug: "rustaq", text: "A foothill oasis town below the mountains, with date palms, irrigation channels, a hilltop fort and hot days and cooler nights." },
-          { slug: "nakhal", text: "A small oasis town at the foot of the mountains, with groves of date palms, a hill fort, farms and warm springs nearby." },
+          { slug: "barka", text: "A coastal market town of fish, fruit and dates with a market, farms and an industrial area, in hot, humid sea air." },
+          { slug: "rustaq", text: "A foothill oasis town below the mountains, with date palms, irrigation channels, a hillside quarter and hot days and cooler nights." },
+          { slug: "nakhal", text: "A small oasis town at the foot of the mountains, with groves of date palms, a hillside quarter, farms and warm springs nearby." },
         ],
         areaListing: [
           { slug: "barka-industrial-area", text: "The industrial area beside Barka, with workshops, warehouses, light factories and building-material yards." },
@@ -24773,7 +24773,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Barka",
             type: "city",
             intro:
-              "Barka is a coastal market town on the Batinah plain west of Muscat, where fishing boats, fruit and date farms, an old fort and a lively market share a flat stretch of the Gulf of Oman coast, and a temperature data logger here serves a place of fish rooms, produce stores, workshops and warehouses in hot, humid sea air. Boats land the morning catch on the beach, growers bring dates, vegetables and fruit to the market, and an industrial area lies beside the road. Clinics and a hospital serve the town and the villages around. Summers are long and the air is damp, and the market is most active in the cool of the early morning. Enquiries from Barka are handled through the enquiry form, Call or WhatsApp.",
+              "Barka is a coastal market town on the Batinah plain west of Muscat, where fishing boats, fruit and date farms, an old quarter and a lively market share a flat stretch of the Gulf of Oman coast, and a temperature data logger here serves a place of fish rooms, produce stores, workshops and warehouses in hot, humid sea air. Boats land the morning catch on the beach, growers bring dates, vegetables and fruit to the market, and an industrial area lies beside the road. Clinics and a hospital serve the town and the villages around. Summers are long and the air is damp, and the market is most active in the cool of the early morning. Enquiries from Barka are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The plain is flat and hot through the long summer, the air is damp and salty near the shore and drier among the farms inland, and sudden storms can send water over farmland and low roads, so fish rooms, produce stores and clinic refrigerators work through long hot spells with the odd outage. Produce picked in the heat loses quality fast, and a cold room that fails on an August afternoon can lose a whole day's market stock.",
             areas: [
@@ -24870,7 +24870,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Rustaq",
             type: "city",
             intro:
-              "Rustaq is an oasis town at the foot of the Hajar mountains on the inland edge of the Batinah, where date palms and small farms are watered by ancient irrigation channels and a large fort stands on the hillside above the groves, and a temperature data logger here serves a place of date stores, farm sheds, shops and clinics in hot, dry heat. Farmers harvest dates, limes and vegetables, a market sells food and household goods to the town and the hill villages, and a hospital and clinics serve the district. Summer days are very hot, nights are cooler than on the coast, and storms bring water down the wadis. Enquiries from Rustaq are handled through the enquiry form, Call or WhatsApp.",
+              "Rustaq is an oasis town at the foot of the Hajar mountains on the inland edge of the Batinah, where date palms and small farms are watered by ancient irrigation channels and a large old quarter stands on the hillside above the groves, and a temperature data logger here serves a place of date stores, farm sheds, shops and clinics in hot, dry heat. Farmers harvest dates, limes and vegetables, a market sells food and household goods to the town and the hill villages, and a hospital and clinics serve the district. Summer days are very hot, nights are cooler than on the coast, and storms bring water down the wadis. Enquiries from Rustaq are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "Hot days and cooler nights are typical of the foothills, the air among the palms is damp while the rocky slopes above are dry, and storms in the mountains can send water down the wadis across farms and low roads, so date sheds, shop coolers and clinic refrigerators work through long hot spells with the odd outage. Stone walls hold the day's heat well into the evening.",
             areas: [
@@ -24966,7 +24966,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Nakhal",
             type: "city",
             intro:
-              "Nakhal is a small oasis town at the foot of the Hajar mountains, where groves of date palms and farms are watered by old irrigation channels and a fort stands on a rocky hill above the town, and a temperature data logger here serves a quiet place of date sheds, shops and a clinic in hot, dry air. Farmers pick dates, limes and vegetables, a small market sells food and household goods, and warm springs rise in the valley nearby. A clinic and pharmacies serve the town and the villages around. Days are very hot in summer, nights are cooler, and storms can fill the wadis, while the palm groves stay green and shaded all year. Enquiries from Nakhal are handled through the enquiry form, Call or WhatsApp.",
+              "Nakhal is a small oasis town at the foot of the Hajar mountains, where groves of date palms and farms are watered by old irrigation channels and an old quarter stands on a rocky hill above the town, and a temperature data logger here serves a quiet place of date sheds, shops and a clinic in hot, dry air. Farmers pick dates, limes and vegetables, a small market sells food and household goods, and warm springs rise in the valley nearby. A clinic and pharmacies serve the town and the villages around. Days are very hot in summer, nights are cooler, and storms can fill the wadis, while the palm groves stay green and shaded all year. Enquiries from Nakhal are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The foothills are hot by day and cooler by night, the oasis air is damp among the trees and dry on the rocks above, and a storm in the mountains can send water across fields and roads, so date sheds and clinic refrigerators work through long hot spells with the odd outage. A small town far from larger suppliers can wait hours for a repair, so an early warning on a phone matters more than a morning round.",
             areas: [
@@ -25064,7 +25064,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Ad Dakhiliyah Governorate",
         type: "state",
         intro:
-          "Ad Dakhiliyah Governorate lies on the inland side of the Hajar mountains, where old oasis towns sit at the foot of the high ranges among date groves watered by ancient channels. Nizwa is the main town, with a great round fort, a traditional market and an industrial estate, while Bahla, Izki and Sumail are smaller oasis and valley towns of palms, mud-brick houses and farms. Summer days are fierce and dry, winter nights can turn cold, dust is common, and storms send water down the wadis. Dates, farm produce, sweets, tools and building materials wait in sheds and warehouses in such swings. The pages below cover the four towns and the industrial estate at Nizwa.",
+          "Ad Dakhiliyah Governorate lies on the inland side of the Hajar mountains, where old oasis towns sit at the foot of the high ranges among date groves watered by ancient channels. Nizwa is the main town, with a great old quarter, a traditional market and an industrial estate, while Bahla, Izki and Sumail are smaller oasis and valley towns of palms, mud-brick houses and farms. Summer days are fierce and dry, winter nights can turn cold, dust is common, and storms send water down the wadis. Dates, farm produce, sweets, tools and building materials wait in sheds and warehouses in such swings. The pages below cover the four towns and the industrial estate at Nizwa.",
         localIndustries: [
           "Dates, farm produce and sweets",
           "Market and craft trade",
@@ -25092,8 +25092,8 @@ export const locations: LegacyLocationNode[] = [
           },
         ],
         listing: [
-          { slug: "nizwa", text: "A historic inland town below the high mountains, with a round fort, a traditional market, date groves, universities and an industrial estate." },
-          { slug: "bahla", text: "A walled oasis town of mud-brick houses, date palms, a great hill fort and a long tradition of pottery, in dry heat." },
+          { slug: "nizwa", text: "A historic inland town below the high mountains, with an old quarter, a traditional market, date groves, universities and an industrial estate." },
+          { slug: "bahla", text: "A walled oasis town of mud-brick houses, date palms, a great hillside quarter and a long tradition of pottery, in dry heat." },
           { slug: "izki", text: "An ancient oasis town with old houses, date groves and a channel system that waters the palms, at the foot of the mountains." },
           { slug: "sumail", text: "A valley town in the gap through the mountains, with farms, date palms and shops along the road between the coast and the interior." },
         ],
@@ -25108,7 +25108,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Nizwa",
             type: "city",
             intro:
-              "Nizwa is a historic inland town on the interior side of the Hajar mountains, a market and farming centre where date groves, irrigation channels, a great round fort and a traditional market share a flat plain below high ranges, and a temperature data logger here serves a place of date stores, sweet-makers, workshops, clinics and warehouses in fierce dry heat. Farmers bring dates and vegetables to the market, craftsmen make tools and copper and silver goods, universities and a hospital serve the region, and an industrial estate lies beside the road. Summer days are very hot, winter nights are cold, and dust blows in across the plain from time to time. Enquiries from Nizwa are handled through the enquiry form, Call or WhatsApp.",
+              "Nizwa is a historic inland town on the interior side of the Hajar mountains, a market and farming centre where date groves, irrigation channels, a great old quarter and a traditional market share a flat plain below high ranges, and a temperature data logger here serves a place of date stores, sweet-makers, workshops, clinics and warehouses in fierce dry heat. Farmers bring dates and vegetables to the market, craftsmen make tools and copper and silver goods, universities and a hospital serve the region, and an industrial estate lies beside the road. Summer days are very hot, winter nights are cold, and dust blows in across the plain from time to time. Enquiries from Nizwa are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The interior is dry and bright, summer afternoons are fierce, and winter nights can fall surprisingly low, so date stores, sweet rooms and clinic refrigerators swing between baking heat and sharp cold in the same week. Rock walls and stone houses hold the day's heat into the evening, a rare storm can send water down the wadis across low roads, and dust settles on every vent.",
             areas: [
@@ -25206,7 +25206,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Bahla",
             type: "city",
             intro:
-              "Bahla is an old oasis town at the foot of the mountains, ringed by a long mud wall and watched over by a great hill fort, and a temperature data logger here serves a quiet place of date palms, pottery workshops, shops and a clinic in dry heat. Palm gardens are watered by old channels, mud-brick houses stand in narrow lanes, potters make clay vessels in kilns beside the road, and a small market sells food and household goods. A small clinic and a few pharmacies look after the townspeople and nearby hamlets. Summer days are fierce, winter nights are cold, and dust is common, while the wall around the oasis still marks the edge of the gardens. Enquiries from Bahla are handled through the enquiry form, Call or WhatsApp.",
+              "Bahla is an old oasis town at the foot of the mountains, ringed by a long mud wall and watched over by a great hillside quarter, and a temperature data logger here serves a quiet place of date palms, pottery workshops, shops and a clinic in dry heat. Palm gardens are watered by old channels, mud-brick houses stand in narrow lanes, potters make clay vessels in kilns beside the road, and a small market sells food and household goods. A small clinic and a few pharmacies look after the townspeople and nearby hamlets. Summer days are fierce, winter nights are cold, and dust is common, while the wall around the oasis still marks the edge of the gardens. Enquiries from Bahla are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The oasis is hot and dry for most of the year but damp among the palm gardens, and thick mud walls keep rooms cooler by day and slower to warm by night. Storms in the mountains can send water down the wadis, nights in winter can be sharply cold, and a failed refrigerator in a quiet lane may go unnoticed until the next morning. Clay for the kilns is stored in sheds that can dry out in the wind, and finished pots are packed for the road in cartons that soften if a store turns damp.",
             areas: [
@@ -26430,7 +26430,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Musandam Governorate",
         type: "state",
         intro:
-          "Musandam Governorate occupies a rugged rocky peninsula in the far north of Oman, where bare mountains drop steeply into deep, narrow inlets and small fishing villages cling to the shore. Khasab is the main town, with a harbour for fishing boats and dhows, an old fort, a market, a hospital and shops, and a few farms and date palms in the valleys behind. Summers are very hot and humid on the water, the cliffs hold the heat, and winters are mild with the odd storm. Fish, food, medicines and household goods wait in cold boxes, shops and clinics in such heat. The page below describes the town and the rooms where a temperature record would help.",
+          "Musandam Governorate occupies a rugged rocky peninsula in the far north of Oman, where bare mountains drop steeply into deep, narrow inlets and small fishing villages cling to the shore. Khasab is the main town, with a harbour for fishing boats and dhows, an old quarter, a market, a hospital and shops, and a few farms and date palms in the valleys behind. Summers are very hot and humid on the water, the cliffs hold the heat, and winters are mild with the odd storm. Fish, food, medicines and household goods wait in cold boxes, shops and clinics in such heat. The page below describes the town and the rooms where a temperature record would help.",
         localIndustries: [
           "Fish and harbour trade",
           "Shops and food stores",
@@ -26458,7 +26458,7 @@ export const locations: LegacyLocationNode[] = [
           },
         ],
         listing: [
-          { slug: "khasab", text: "A harbour town among steep inlets and bare cliffs, with fishing boats, dhows, an old fort, a market and a hospital, in hot, humid air." },
+          { slug: "khasab", text: "A harbour town among steep inlets and bare cliffs, with fishing boats, dhows, an old quarter, a market and a hospital, in hot, humid air." },
         ],
         // Noindex while it has fewer than two built child pages; promoted automatically (see below).
         indexable: false,
@@ -26468,7 +26468,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Khasab",
             type: "city",
             intro:
-              "Khasab is a harbour town on a rugged rocky peninsula in the far north of Oman, set among deep, narrow inlets with bare cliffs rising steeply behind, and a temperature data logger here serves a place of fishing boats, dhows, shops, a hospital and small farms in hot, humid air. Boats land their catch at the harbour, an old fort stands near the shore, a market sells food and household goods to the town and the villages along the inlets, and date palms grow in the valley behind. Summers are very hot and the water is still, and in the cooler months the harbour is busy with boats loading supplies for the villages along the inlets. Enquiries from Khasab are handled through the enquiry form, Call or WhatsApp.",
+              "Khasab is a harbour town on a rugged rocky peninsula in the far north of Oman, set among deep, narrow inlets with bare cliffs rising steeply behind, and a temperature data logger here serves a place of fishing boats, dhows, shops, a hospital and small farms in hot, humid air. Boats land their catch at the harbour, an old quarter stands near the shore, a market sells food and household goods to the town and the villages along the inlets, and date palms grow in the valley behind. Summers are very hot and the water is still, and in the cooler months the harbour is busy with boats loading supplies for the villages along the inlets. Enquiries from Khasab are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The steep rock faces soak up the sun and hand the heat back well into the evening, the still water of the inlets keeps the air damp, and salt reaches every shed and cold box, so ice rooms, shop coolers and clinic refrigerators work through long hot spells. Supplies reach the town by long routes, so a failed cold box cannot be replaced quickly, and an early warning matters more than a morning round.",
             areas: [
