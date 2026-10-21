@@ -23828,7 +23828,7 @@ export const locations: LegacyLocationNode[] = [
       {
         question: "Which parts of Oman have a page?",
         answer:
-          "Muscat, Al Batinah North, Al Batinah South, Ad Dakhiliyah, Ad Dhahirah, Al Buraimi, Dhofar and Al Wusta governorates have their own pages, with their cities and districts beneath. If your site is somewhere else, write to us through the enquiry form, Call or WhatsApp with what you store, and we answer with what looks suitable.",
+          "Muscat, Al Batinah North, Al Batinah South, Ad Dakhiliyah, Ad Dhahirah, Al Buraimi, Dhofar, Al Wusta, Ash Sharqiyah South, Ash Sharqiyah North and Musandam governorates have their own pages, with their cities and districts beneath. If your site is somewhere else, write to us through the enquiry form, Call or WhatsApp with what you store, and we answer with what looks suitable.",
       },
       {
         question: "How are loggers set up for a site far from a main city?",
@@ -23850,6 +23850,9 @@ export const locations: LegacyLocationNode[] = [
       { slug: "al-buraimi-governorate", text: "The inland oasis governorate in the north-west, with a trading city of shops and date gardens and an industrial area, in hot, dry summers." },
       { slug: "dhofar-governorate", text: "The far south on the Arabian Sea, with a coastal city of coconut and banana groves, a monsoon season of mist and drizzle, a port, a free zone and an industrial estate." },
       { slug: "al-wusta-governorate", text: "The central desert and coast, with a young port and economic-zone town on the Arabian Sea among gravel plains, in dry heat and sea wind." },
+      { slug: "ash-sharqiyah-south-governorate", text: "The south-eastern coast, with an old dhow-building port city, a fishing harbour and an industrial estate, in hot, humid sea air." },
+      { slug: "ash-sharqiyah-north-governorate", text: "The inland east, with oasis towns of date palms, old markets and irrigation channels at the edge of the great dunes, in dry heat and cold winter nights." },
+      { slug: "musandam-governorate", text: "The rocky northern peninsula, with a port town among steep inlets and bare cliffs, fishing boats and dhows, in hot, humid weather." },
     ],
     indexable: true,
     children: [
@@ -26045,6 +26048,515 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Duqm | Prithvi",
             metaDescription:
               "Data loggers for Duqm's fishing harbour, supermarkets, hospital and warehouse plots on the empty Arabian Sea coast. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "ash-sharqiyah-south-governorate",
+        name: "Ash Sharqiyah South Governorate",
+        type: "state",
+        intro:
+          "Ash Sharqiyah South Governorate faces the Arabian Sea on the south-eastern coast of Oman, where low rocky hills meet sheltered creeks and long beaches. Sur is its main town, an old port famous for its dhow yards, with a fishing harbour, a lagoon of calm water, a market and an industrial estate beside the road. Date palms and small farms grow in the valleys behind the coast. The shore is hot and humid in summer, salt reaches every shed, and winters are mild. Fish, dates, food and building materials wait in sheds and warehouses in such air. The pages below describe the town, its industrial estate and the rooms where a temperature record would help.",
+        localIndustries: [
+          "Fish and harbour trade",
+          "Dates and farm produce",
+          "Industrial and workshop storage",
+          "Clinics, pharmacies and care centres",
+        ],
+        citiesServed: ["Sur"],
+        supportNote:
+          "Enquiries from Ash Sharqiyah South Governorate are handled through the enquiry form, Call or WhatsApp. Give the town, the rooms and how they are cooled, and we come back with what seems suitable here.",
+        faqs: [
+          {
+            question: "Which places in Ash Sharqiyah South Governorate have a page?",
+            answer:
+              "Sur has a city page, and the Sur Industrial Estate has an area page under it. A town elsewhere on this coast can be raised through the enquiry form.",
+          },
+          {
+            question: "Why does a boat-building port still need humidity records?",
+            answer:
+              "Salt and damp air reach timber, paint and fittings as well as food, so a humidity log beside the temperature shows when a store of materials or goods turned damp.",
+          },
+          {
+            question: "Can a harbour ice store and a workshop share one dashboard?",
+            answer:
+              "Yes. Each room is a separate point with its own alert contacts, and a manager can view the harbour, the town and the estate together in one exported report.",
+          },
+        ],
+        listing: [
+          { slug: "sur", text: "An old dhow-building port on the south-eastern coast, with a lagoon, a fishing harbour, a market and an industrial estate, in hot, humid sea air." },
+        ],
+        areaListing: [
+          { slug: "sur-industrial-estate", text: "The industrial estate beside Sur, with workshops, warehouses, light factories and building-material yards." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "sur",
+            name: "Sur",
+            type: "city",
+            intro:
+              "Sur is an old port city on the south-eastern coast of Oman, built around a calm lagoon and a creek where wooden dhows are still built and repaired, and a temperature data logger here serves a place of fishing boats, a market, workshops, a hospital and warehouses in hot, humid sea air. Fishermen land their catch at the harbour, dhow yards line the water with timber, rope and paint, and a market sells food, dates and household goods. Date palms and small farms grow in the valleys behind the coast, and an industrial estate lies beside the road. Summers are long and the sea air stays heavy after dark, while in the cooler evenings people stroll along the lagoon front. Enquiries from Sur are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The shore is hot and humid through the long summer, salt reaches every shed and cold box, and the low hills behind the town give little shelter from the heat, so ice rooms, shop coolers and clinic refrigerators work against the weather for months. Timber and paint in the yards suffer from damp, power cuts follow storms, and a cooler that fails on an August afternoon warms fast.",
+            areas: [
+              {
+                name: "The fishing harbour and ice stores",
+                note: "Boats land the catch at the harbour, where ice stores and cold rooms keep it for the market through the warmest hours in damp, salty air.",
+              },
+              {
+                name: "Dhow yards and boat-building stores",
+                note: "Yards keep timber, rope, paints and fittings in open sheds where salt air and damp work on materials with their own storage limits.",
+              },
+              {
+                name: "The market and its stock rooms",
+                note: "Traders keep dates, sweets, spices and household goods in small back rooms that were never designed for cooling.",
+              },
+              {
+                name: "The hospital, clinics and pharmacies",
+                note: "A hospital, clinics and pharmacies hold vaccines, insulin and medicines in refrigerators that must hold their range through power interruptions.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Sur fish sellers, date traders and grocers hold goods that spoil or soften quickly in damp heat, and a record from each ice store shows when a cold box began to warm.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The Sur hospital and clinics hold vaccines for the town and the villages down the coast, and a phone alert reaches whoever is on duty if a refrigerator warms in the small hours.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Sur keep stock to labelled ranges, and a dated log shows how a room behaved through the hottest weeks and any storm outage.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods brought to Sur wait in vehicles and warehouses before use, and a logger tucked into a load records the heat and humidity each lot met.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels follow a harbour fish room from its entrance to its back wall, showing whether the cold reaches the last boxes.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Humidity read beside temperature shows when lagoon damp has crept into a dates or spice store that looks fine on a thermometer.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable fits a clinic or pharmacy refrigerator in Sur and leaves daily routines unchanged.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Sur fish seller or date trader keep a temperature record?",
+                answer:
+                  "Yes. A logger set in the ice store or the date room keeps a record through day and night, and a report for the dates of one lot can be exported as a PDF, Excel or CSV file for a buyer.",
+              },
+              {
+                question: "Why would a boat-building yard want a humidity record?",
+                answer:
+                  "Timber, paint and fittings take on moisture in salt air, so a log of humidity beside temperature shows whether a store kept materials inside the limits they are sold with.",
+              },
+              {
+                question: "How would an enquiry from Sur be handled?",
+                answer:
+                  "Give the harbour store, yard, shop or clinic, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Sur.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Sur clinics?",
+                answer:
+                  "Calibration of loggers and probes for Sur clinics is looked after by VEGA Calibrations, our parent company; share the model and the range and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "ibra", name: "Ibra" },
+              { slug: "bidiyah", name: "Bidiyah" },
+              { slug: "muscat", name: "Muscat" },
+            ],
+            metaTitle: "Temperature Data Loggers in Sur | Prithvi",
+            metaDescription:
+              "Data loggers for Sur's harbour ice stores, dhow-yard materials, market stock rooms and hospital on the humid south-eastern coast. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "ash-sharqiyah-north-governorate",
+        name: "Ash Sharqiyah North Governorate",
+        type: "state",
+        intro:
+          "Ash Sharqiyah North Governorate lies on the inland east of Oman, where old oasis towns of date palms and mud-brick houses stand between the Hajar mountains and the first great dunes of the sands. Ibra is its well-known market town, with an old quarter, a weekly market and groves watered by irrigation channels, while Bidiyah sits at the edge of the dunes among palms, farms and desert tracks. Summer days are fierce and dry, winter nights are cold, and dust and sandstorms blow through in some seasons. Dates, farm produce, sweets and medicines wait in sheds and stock rooms in such swings. The pages below describe the two towns and the rooms where a temperature record would help.",
+        localIndustries: [
+          "Dates and farm produce",
+          "Market and shop trade",
+          "Workshops and warehouse storage",
+          "Clinics, pharmacies and care centres",
+        ],
+        citiesServed: ["Ibra","Bidiyah"],
+        supportNote:
+          "Enquiries from Ash Sharqiyah North Governorate are handled through the enquiry form, Call or WhatsApp. Say the town, the rooms and how they are cooled, and our reply covers what looks workable on site.",
+        faqs: [
+          {
+            question: "Which places in Ash Sharqiyah North Governorate have a page?",
+            answer:
+              "Ibra and Bidiyah each have a city page. A town elsewhere in the inland east can be raised through the enquiry form.",
+          },
+          {
+            question: "Why do oasis sheds near irrigation channels need humidity records?",
+            answer:
+              "Water running between the palms keeps the air damp around the groves, so a humidity log beside the temperature shows when a store took on moisture on a dry-looking day.",
+          },
+          {
+            question: "Does drifting sand affect a logger?",
+            answer:
+              "Fine sand settles on anything left open, so a logger sits on a shaded inner wall clear of vents and doors, with a battery that keeps the record running through a power cut.",
+          },
+        ],
+        listing: [
+          { slug: "ibra", text: "An oasis market town below the mountains, with an old quarter, a weekly market, date groves and irrigation channels, in hot days and cold nights." },
+          { slug: "bidiyah", text: "A desert-edge oasis town beside the dunes, with date palms, farms, shops and a clinic, in fierce heat and blowing sand." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "ibra",
+            name: "Ibra",
+            type: "city",
+            intro:
+              "Ibra is an oasis market town in the inland east of Oman, set among date groves below the Hajar mountains with an old quarter of tall mud-brick houses, and a temperature data logger here serves a place of date stores, shops, a weekly market, workshops and a clinic in dry heat. Irrigation channels water the palm gardens, traders sell dates, sweets, spices and household goods, and a hospital and clinics serve the town and the villages around. Summer days are fierce, winter nights are cold, and dust is common, while the weekly market draws buyers and sellers from the villages across the whole district and fills the old lanes with stalls from early morning. Enquiries from Ibra are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The oasis is dry and bright with fierce summer afternoons and cold winter nights, but damp among the gardens where channels run, so date stores and clinic refrigerators swing between baking heat, sharp cold and moisture. Thick walls hold the day's heat into the evening, a storm in the mountains can send water across low roads, and drifting dust clogs vents on roadside units. Stock bought at the weekly market is often carried home in open pickups, so a load of dates or sweets can stand in the sun for hours before it reaches a cool store.",
+            areas: [
+              {
+                name: "Date stores and grove sheds",
+                note: "Growers keep dates, limes and vegetables in sheds and cool rooms among the palms, where heat after harvest and the damp of the channels both threaten the crop.",
+              },
+              {
+                name: "The weekly market and its stock rooms",
+                note: "Traders keep dates, sweets, spices and household goods in back rooms of old buildings that stay cooler by day but never fully dry.",
+              },
+              {
+                name: "Shops, groceries and cafes",
+                note: "Shops and cafes sell dairy goods, drinks and packaged food from coolers opened constantly through the day.",
+              },
+              {
+                name: "The hospital, clinics and pharmacies",
+                note: "A hospital, clinics and pharmacies keep vaccines and medicines in refrigerators that must hold their range through power cuts.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Ibra date growers, sweet-sellers and grocers hold goods that suffer in heat, cold snaps and damp, and a log from each store shows a buyer how a lot was kept.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The Ibra hospital and clinics hold vaccines for the oasis villages, and a phone alert reaches whoever is on duty if a refrigerator drifts overnight.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Ibra store medicines to labelled ranges, and a dated record shows how a room behaved through the hottest weeks and any outage.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods reaching Ibra wait in vehicles and sheds before use, and a logger tucked into a load records how long it stood warm.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a market stock room from the floor to the top shelf and the door, showing which level warms first.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at a single point suit a date shed beside an irrigation channel, where damp is the quiet danger.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single probe on a short lead slips into a shop or clinic refrigerator in Ibra and leaves the way the unit is used unchanged.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can an Ibra date grower or sweet-seller keep a temperature record?",
+                answer:
+                  "Yes. A logger in the shed or stock room records temperature and humidity through the season, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for a buyer.",
+              },
+              {
+                question: "Do cold winter nights matter in a country known for heat?",
+                answer:
+                  "A cold night can harm dates and some medicines just as a hot afternoon can, so a log that runs through the dark hours shows swings a midday reading never sees.",
+              },
+              {
+                question: "How would an enquiry from Ibra be handled?",
+                answer:
+                  "Give the farm, shop or clinic, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Ibra.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Ibra clinics?",
+                answer:
+                  "Calibration of loggers and probes for Ibra clinics is looked after by VEGA Calibrations, our parent company; share the model and the range and we explain the choices.",
+              },
+            ],
+            nearby: [
+              { slug: "bidiyah", name: "Bidiyah" },
+              { slug: "sur", name: "Sur" },
+            ],
+            metaTitle: "Temperature Data Loggers in Ibra | Prithvi",
+            metaDescription:
+              "Data loggers for Ibra's date stores, weekly-market stock rooms, shops and clinics in an inland oasis town. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "bidiyah",
+            name: "Bidiyah",
+            type: "city",
+            intro:
+              "Bidiyah is a desert-edge oasis town where date palms and small farms stand beside the first great dunes of the sands, and a temperature data logger here serves a quiet place of date sheds, shops, workshops and a clinic in fierce heat and blowing sand. Farmers harvest dates and grow fodder in gardens watered from wells and channels, shops along the road sell food and fuel and household goods, and desert tracks lead away from the last houses. A clinic and pharmacies look after the townspeople and the hamlets scattered along the desert tracks. Winter nights are cold, and the dunes glow orange in the low evening light. Enquiries from Bidiyah are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The desert is open and exposed, so summer sun and blown sand strike every shed, days are fierce and dry, winter nights can turn cold, and a failed cooler on a summer afternoon warms quickly. Dust drifts through door gaps and settles on vents, and a long drive to the nearest large supplier means a spoiled stock cannot be replaced quickly. Wells and channels keep the gardens green, so a shed beside them is damp while the sand a few steps away is bone dry, and dates stored in the damp corner can sour in a few warm weeks.",
+            areas: [
+              {
+                name: "Date gardens and farm sheds",
+                note: "Farmers keep dates and fodder in sheds and small cool rooms beside the gardens, where heat after harvest and blown sand are the main dangers to the crop.",
+              },
+              {
+                name: "Roadside shops and fuel-stop stores",
+                note: "Shops along the road sell drinks, dairy goods and food from coolers opened constantly through the day, in air full of dust.",
+              },
+              {
+                name: "Workshops and yards by the road",
+                note: "Workshops and small yards keep parts, tools and household goods under metal roofs that bake in the afternoon sun.",
+              },
+              {
+                name: "The clinic and pharmacies",
+                note: "A clinic and pharmacies hold vaccines and medicines for the town and the desert villages in refrigerators that must survive power cuts.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Bidiyah date growers and shopkeepers hold goods that suffer in heat, cold snaps and dust, and a log from each store shows a buyer how a lot was kept after harvest.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The Bidiyah clinic holds vaccines for scattered desert villages, and a phone alert reaches the person on duty if a refrigerator warms.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Bidiyah keep stock to labelled ranges, and a dated log shows how a room behaved through the hottest weeks and any outage.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Supplies reach Bidiyah over long roads, and a logger placed in a load records how long it stood in a vehicle in the sun.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels set along a long storage shed show which section runs warmest under the roof, all in one report.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable fits a shop or clinic refrigerator in Bidiyah and leaves daily routines unchanged.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels read a date room at the door end and the back wall, showing whether the air at the rear matches the front.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can one logger watch a single refrigerator in a Bidiyah shop?",
+                answer:
+                  "Yes. One logger with a phone alert is enough for a single shop refrigerator in Bidiyah when a router is nearby, and extra points can be added to the account as the shop grows.",
+              },
+              {
+                question: "Why is a battery important in a desert-edge town?",
+                answer:
+                  "Power cuts happen and a repairer may be hours away, so a battery lets the logger keep recording and gives a full account of how long a room stood warm.",
+              },
+              {
+                question: "How would an enquiry from Bidiyah be handled?",
+                answer:
+                  "Give the farm, shop or clinic, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Bidiyah.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Bidiyah clinics?",
+                answer:
+                  "Calibration of loggers and probes for Bidiyah clinics is looked after by VEGA Calibrations, our parent company; share the model and range and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "ibra", name: "Ibra" },
+              { slug: "sur", name: "Sur" },
+            ],
+            metaTitle: "Temperature Data Loggers in Bidiyah | Prithvi",
+            metaDescription:
+              "Data loggers for Bidiyah's date sheds, roadside shops, workshops and clinic at the edge of the dunes. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "musandam-governorate",
+        name: "Musandam Governorate",
+        type: "state",
+        intro:
+          "Musandam Governorate occupies a rugged rocky peninsula in the far north of Oman, where bare mountains drop steeply into deep, narrow inlets and small fishing villages cling to the shore. Khasab is the main town, with a harbour for fishing boats and dhows, an old fort, a market, a hospital and shops, and a few farms and date palms in the valleys behind. Summers are very hot and humid on the water, the cliffs hold the heat, and winters are mild with the odd storm. Fish, food, medicines and household goods wait in cold boxes, shops and clinics in such heat. The page below describes the town and the rooms where a temperature record would help.",
+        localIndustries: [
+          "Fish and harbour trade",
+          "Shops and food stores",
+          "Clinics, pharmacies and care centres",
+          "Small farms and dates",
+        ],
+        citiesServed: ["Khasab"],
+        supportNote:
+          "Enquiries from Musandam Governorate are handled through the enquiry form, Call or WhatsApp. Tell us the town, the rooms and how they are cooled, and we reply with what looks suitable for the site.",
+        faqs: [
+          {
+            question: "Which places in Musandam Governorate have a page?",
+            answer:
+              "Khasab has a city page. Another place in the governorate can be raised through the enquiry form, and further pages follow only when they can be written from confident facts.",
+          },
+          {
+            question: "Why do steep cliffs matter for stores at the water's edge?",
+            answer:
+              "Rock faces absorb the sun and give the heat back into the evening, and the still air in the inlets stays damp, so a room by the water needs both a temperature and a humidity record.",
+          },
+          {
+            question: "How does a logger help where supplies arrive by long routes?",
+            answer:
+              "A logger placed in a load records how long it stood warm on the way, so a shop or clinic can see whether goods were kept in range before they arrived.",
+          },
+        ],
+        listing: [
+          { slug: "khasab", text: "A harbour town among steep inlets and bare cliffs, with fishing boats, dhows, an old fort, a market and a hospital, in hot, humid air." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "khasab",
+            name: "Khasab",
+            type: "city",
+            intro:
+              "Khasab is a harbour town on a rugged rocky peninsula in the far north of Oman, set among deep, narrow inlets with bare cliffs rising steeply behind, and a temperature data logger here serves a place of fishing boats, dhows, shops, a hospital and small farms in hot, humid air. Boats land their catch at the harbour, an old fort stands near the shore, a market sells food and household goods to the town and the villages along the inlets, and date palms grow in the valley behind. Summers are very hot and the water is still, and in the cooler months the harbour is busy with boats loading supplies for the villages along the inlets. Enquiries from Khasab are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The steep rock faces soak up the sun and hand the heat back well into the evening, the still water of the inlets keeps the air damp, and salt reaches every shed and cold box, so ice rooms, shop coolers and clinic refrigerators work through long hot spells. Supplies reach the town by long routes, so a failed cold box cannot be replaced quickly, and an early warning matters more than a morning round.",
+            areas: [
+              {
+                name: "The harbour, fish landings and ice boxes",
+                note: "Boats land the catch at the harbour, where ice boxes and small cold rooms keep it for the market through the warmest hours in damp, salty air.",
+              },
+              {
+                name: "Shops, groceries and cafes",
+                note: "Shops and cafes sell drinks, dairy goods and food from coolers opened constantly through the day, a long way from a wholesale supplier.",
+              },
+              {
+                name: "The hospital, clinics and pharmacies",
+                note: "Khasab's hospital, clinics and pharmacies store vaccines, insulin and medicines in refrigerators that have to stay within range whenever the power falters.",
+              },
+              {
+                name: "Date palms and valley stores",
+                note: "Growers behind the town keep dates and vegetables in sheds and cool rooms, where heat after picking is the main danger to quality.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Khasab fish sellers, grocers and cafe owners hold goods that spoil quickly in coastal heat, and a record from each ice box shows when it began to warm.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The Khasab hospital and clinics hold vaccines for the town and the villages along the inlets, and a phone alert reaches whoever is on duty if a refrigerator warms.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Khasab keep stock in rooms with labelled ranges, and a dated record shows how a room behaved through the hottest weeks and any outage.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Supplies reach Khasab by long routes, and a logger placed in a load records how long it stood warm on the way before it reached a small store.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a cafe pantry or a harbour store at floor, shelf and door height, showing which level warms first.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short lead slips into a clinic or shop refrigerator in Khasab and leaves daily routines unchanged.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reading temperature and humidity at a single point suits a dry store on the water's edge, where damp does the harm.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Khasab fish seller keep a record of an ice box?",
+                answer:
+                  "Yes. A probe logger in the box keeps a day-and-night record, and a report for the dates of one lot can be saved as a PDF, Excel or CSV file for a buyer.",
+              },
+              {
+                question: "Why do cliffs and still water matter for a store by the harbour?",
+                answer:
+                  "The rock gives back the sun's heat into the evening and the still air stays damp, so a room by the water needs a temperature and a humidity record.",
+              },
+              {
+                question: "How would an enquiry from Khasab be handled?",
+                answer:
+                  "Give the shop, clinic or store, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Khasab.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Khasab clinics?",
+                answer:
+                  "Calibration of loggers and probes for Khasab clinics is looked after by VEGA Calibrations, our parent company; share the model and range and we explain the options.",
+              },
+            ],
+            nearby: [
+              { slug: "muscat", name: "Muscat" },
+              { slug: "sohar", name: "Sohar" },
+            ],
+            metaTitle: "Temperature Data Loggers in Khasab | Prithvi",
+            metaDescription:
+              "Data loggers for Khasab's harbour ice boxes, shops, hospital and clinics among steep inlets and bare cliffs. Get Solution.",
             indexable: true,
           },
         ],

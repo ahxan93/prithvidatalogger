@@ -308,6 +308,21 @@ export const locationContent: Record<string, LocationContent> = {
       "Data loggers for Al Wusta Governorate: Duqm, the Duqm Special Economic Zone and Port of Duqm stores and cold rooms. Get Solution.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
+  "oman/ash-sharqiyah-south-governorate": {
+    metaDescription:
+      "Data loggers for Ash Sharqiyah South Governorate: Sur's harbour ice stores, market and the Sur Industrial Estate warehouses. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+  },
+  "oman/ash-sharqiyah-north-governorate": {
+    metaDescription:
+      "Data loggers for Ash Sharqiyah North Governorate: Ibra's market and date groves and Bidiyah's desert-edge farm stores. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+  },
+  "oman/musandam-governorate": {
+    metaDescription:
+      "Data loggers for Musandam Governorate: Khasab's fish ice boxes, shops, hospital and clinics among steep inlets. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+  },
   "qatar/doha-municipality": {
     metaDescription:
       "Data loggers for Doha Municipality: Doha city, West Bay, Al Sadd, Msheireb and The Pearl-Qatar kitchens, clinics and stores. Get Solution.",

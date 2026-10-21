@@ -449,6 +449,11 @@
 | Duqm (`duqm`, city, Al Wusta Governorate) | Oman | Fishing-harbour ice boxes, supermarkets, hospital and clinics, warehouses behind the shore | Food, medicines, logistics | Dry heat, strong wind, sand | Salalah, Haima (not yet built) |
 | Duqm Special Economic Zone (`duqm-special-economic-zone`, area of Duqm) | Oman | Warehouse plots, materials and parts stores, cold rooms, workshops and canteens (described generally, no operating status) | Logistics, chemicals, food | Dry heat, wind, sand | Port of Duqm |
 | Port of Duqm (`port-of-duqm`, area of Duqm) | Oman | Container stacks, cold halls, quayside sheds, lorries for long road journeys (described generally, no operating status) | Logistics, food, medicines | Dry heat, salty wind | Duqm Special Economic Zone |
+| Sur (`sur`, city, Ash Sharqiyah South Governorate) | Oman | Harbour ice stores, dhow-yard materials, market stock rooms, hospital and clinics | Food, medicines, logistics | Hot, humid sea air | Ibra, Bidiyah, Muscat |
+| Sur Industrial Estate (`sur-industrial-estate`, area of Sur) | Oman | Light factories, sealant and paint stores, timber and tile yards, parts counters | Chemicals, logistics, food | Hot, salty, humid | none |
+| Ibra (`ibra`, city, Ash Sharqiyah North Governorate) | Oman | Date stores and grove sheds, weekly-market stock rooms, shops and cafes, hospital and clinics | Food, medicines, logistics | Fierce dry heat, cold winter nights | Bidiyah, Sur |
+| Bidiyah (`bidiyah`, city, Ash Sharqiyah North Governorate) | Oman | Date gardens and farm sheds, roadside shops, workshops and yards, clinic | Food, medicines, logistics | Fierce heat, blowing sand | Ibra, Sur |
+| Khasab (`khasab`, city, Musandam Governorate) | Oman | Harbour ice boxes, shops and cafes, hospital and clinics, valley date stores | Food, medicines, logistics | Hot, humid inlets; cliffs hold heat | Muscat, Sohar |
 | Jazan Economic City (`jazan-economic-city`, area of Jazan) | Saudi Arabia | Plant chemical and drum stores, spares warehouses and contractor yards, port yards, camp kitchens and clinics | Chemical stores, contract warehousing, camp catering | Extreme heat and humidity, salty air | none |
 | Jeddah (`jeddah`) | Saudi Arabia | Industrial and port logistics zones | Port logistics, food import cold chain, hospitals | Hot, humid coastal | Riyadh, Dammam |
 | Dammam (`dammam`) | Saudi Arabia | Industrial and port logistics zones | Industrial & chemical, port logistics, food | Hot, humid Gulf coast | Riyadh, Bahrain, Jeddah |
@@ -768,3 +773,7 @@ made for Buraimi.
 
 Oman Batch 6: Dhofar Governorate (Salalah, Salalah Free Zone, Raysut Industrial Estate and Port of Salalah, all attached to Salalah with no wilayat statement) and Al Wusta
 Governorate (Duqm, Duqm Special Economic Zone and Port of Duqm). Not built: Haima (too few confident, distinguishing local facts).
+
+Oman Batch 7: Ash Sharqiyah South Governorate (Sur, Sur Industrial Estate), Ash Sharqiyah North Governorate (Ibra, Bidiyah) and Musandam Governorate (Khasab only, so
+noindex and out of the sitemap until a second page is built). No border, exclave or boundary statement is made for Khasab. This completes the Oman build. Pages not
+built across the plan: Al Amerat, Rusayl Industrial Estate, Knowledge Oasis Muscat, Shinas, Liwa (Oman), Khazaen Economic City, Adam, Haima.
