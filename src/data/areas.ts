@@ -82,6 +82,7 @@ export const areaCities: Record<string, { name: string; stateSlug: string; state
   jubail: { name: "Jubail", stateSlug: "eastern-province", stateName: "Eastern Province" },
   yanbu: { name: "Yanbu", stateSlug: "madinah-region", stateName: "Madinah Region" },
   jazan: { name: "Jazan", stateSlug: "jazan-region", stateName: "Jazan Region" },
+  sohar: { name: "Sohar", stateSlug: "al-batinah-north-governorate", stateName: "Al Batinah North Governorate" },
   muscat: { name: "Muscat", stateSlug: "muscat-governorate", stateName: "Muscat Governorate" },
   muttrah: { name: "Muttrah", stateSlug: "muscat-governorate", stateName: "Muscat Governorate" },
   seeb: { name: "Seeb", stateSlug: "muscat-governorate", stateName: "Muscat Governorate" },
@@ -8551,6 +8552,115 @@ export const areas: AreaDef[] = [
         }
       ],
       "nearby": [],
+      "indexable": true
+    } },
+  // ------------------------------------------------------------------ Oman (batch 3: Sohar)
+  { slug: "sohar-industrial-estate", name: "Sohar Industrial Estate", citySlug: "sohar", areaType: "industrial-estate", nearbyIndustries: ["chemical","logistics-warehousing","food-beverage"], confirmedService: true, hero: ["virat","setu"], page: {
+      "metaTitle": "Data Loggers in Sohar Industrial Estate | Prithvi",
+      "metaDescription": "Data loggers for factories, chemical stores, warehouses and workshops in the Sohar Industrial Estate on the Batinah coast. Get Solution.",
+      "intro": "The Sohar Industrial Estate lies beside the coast road near Sohar, a wide grid of plots, roads, factory halls, warehouses and workshops laid out on the flat plain. For a temperature data logger the interest lies in the everyday trouble of making and keeping goods in extreme coastal heat: chemicals and coatings with a printed limit, food and packaging stock, spare parts and materials under metal roofs. The description is limited to the goods and rooms a logger user could look after in an industrial estate of this sort. Enquiries about the Sohar Industrial Estate are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Factory halls and finished-goods stores",
+          "note": "Plants of several kinds keep finished stock in halls that must stay within range while loading doors swing open and shut."
+        },
+        {
+          "name": "Chemical, coating and lubricant stores",
+          "note": "Shelves of coatings, lubricants and treatment products carry limits printed on the label, and a hot, damp shed can pass them without any visible sign."
+        },
+        {
+          "name": "General warehouses and spare-parts stores",
+          "note": "Warehouses and parts stores hold seals, cable, fittings and household goods under roofs whose underside follows the sun long before the air-conditioning responds."
+        },
+        {
+          "name": "Canteens and staff kitchens",
+          "note": "Kitchens feeding shifts of staff keep chillers and freezers running through the long summer, a long way from the next supplier."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "chemical",
+          "sentence": "Stockists of coatings, lubricants and treatment products on the estate store materials with labelled ranges, and a dated record shows whether a stack sat hot for too long."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A shared warehouse on the estate can hand every customer a record of its own pallets rather than a general assurance about the whole building."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Canteens and food stores on the estate hold chilled and frozen goods, and a log from each cooler shows when a unit began to struggle."
+        }
+      ],
+      "services": "For an industrial estate we would look at WiFi loggers for stores and rooms near a router, probe-type loggers for chilled rooms and freezers, multi-point units for long sheds, and loggers that travel inside a load. Users on the estate can raise calibration with VEGA Calibrations, our parent company. WiFi units depend on a router in range and mains power, and for an open yard we explain the alternatives. Any answer on supply comes once a request for the estate has been read.",
+      "visits": "Nothing is promised about a visit or an installation on the Sohar Industrial Estate. Give us the business, the rooms involved and a contact using the enquiry form, Call or WhatsApp, and we read the request and tell you what appears feasible.",
+      "approach": "If a request went ahead, we would start with the store holding the most heat-sensitive material, placing loggers at floor level and under the roof and one at the door, then add a humidity unit where sea air enters. A month of summer readings would show which section of the shed runs hottest.",
+      "faqs": [
+        {
+          "question": "Can one report describe a long factory shed?",
+          "answer": "Yes. A multi-channel logger reads probes spaced along the shed, so one report shows which stretch of the building runs warmest and when."
+        },
+        {
+          "question": "Why does salty air matter for materials kept near the sea?",
+          "answer": "Salt-laden air softens cartons and attacks metal, and moisture settles on cool surfaces overnight, so a humidity trend beside the temperature shows when stock took on damp."
+        }
+      ],
+      "nearby": [
+        "sohar-port-and-freezone"
+      ],
+      "indexable": true
+    } },
+  { slug: "sohar-port-and-freezone", name: "Sohar Port and Freezone", citySlug: "sohar", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["rajmudra","dhruva"], page: {
+      "metaTitle": "Data Loggers at Sohar Port and Freezone | Prithvi",
+      "metaDescription": "Data loggers for quayside sheds, cold rooms, warehouses and vehicles around the Sohar port and freezone. Get Solution.",
+      "intro": "The Sohar Port and Freezone lies beside the coast on the Gulf of Oman, a flat expanse of quays, yards and warehouse plots where goods wait between a ship and the road. Around any port and free zone there is waiting: food, supplies and general goods that come off a vessel, stand in a stack or a shed, and go on by lorry. For a temperature data logger the interest is the record of what that stock endured, in air that is hot, damp and salty, between the hold and the customer. The text below is limited to the kinds of goods and rooms a logger user may look after around a port and free zone. Enquiries about the port and freezone are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Container stacks and yards",
+          "note": "Boxes stacked in the open soak up the sun and pass that heat to the goods inside, so dry cargo can run far hotter than the shaded air."
+        },
+        {
+          "name": "Chilled halls and refrigerated boxes",
+          "note": "Chilled and frozen food and health supplies may wait in a cold hall or a refrigerated box, and the hours between plug-in points are the fragile part of the chain."
+        },
+        {
+          "name": "Warehouse plots in the free zone",
+          "note": "Warehouses hold goods for firms elsewhere under metal roofs, with dock doors that let hot, damp air into racked bays."
+        },
+        {
+          "name": "Lorries collecting goods",
+          "note": "Lorries collecting goods stand in the sun with their load, and a covered body can end up far hotter than the shade."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A warehouse holding goods for several firms can give each firm an account of how its pallets were kept, in place of a remark about the hall."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Chilled and frozen food passing a port needs proof of how it was held between ship and shop, and a small logger packed in with the cartons gives exactly that."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Medicines and healthcare supplies waiting on a quay need a dated temperature trace, so that a distributor can tell whether a pack stood too long in the heat."
+        }
+      ],
+      "services": "For a port and free-zone site we would look at WiFi loggers for sheds and cold rooms near a router, probe loggers for freezers and refrigerated boxes, multi-point units for long halls, and loggers that ride inside a consignment. Anyone working here can take calibration questions to VEGA Calibrations, our parent company. WiFi units need a router within range and a power supply, and for a stack or a vehicle we set out other ways. Whether anything can be supplied is left open until a request has been read.",
+      "visits": "Visits and installation at the port and freezone are not promised. Pass on the business, the load or room to be watched and a contact on the enquiry form, Call or WhatsApp, and we study the request and tell you what looks achievable.",
+      "approach": "If a request went ahead, we would begin with the load or cold room that is hardest to replace, placing one logger in the cargo or beside the door and another at the far wall, then add a humidity unit where chilled goods meet damp air. A few weeks of readings would show how long stock sits between one stage and the next.",
+      "faqs": [
+        {
+          "question": "Can a small logger ride in a carton through a port chain?",
+          "answer": "Yes. A small logger packed with the cartons keeps a record of the entire journey, and the report can be saved as a PDF, Excel or CSV file for the person receiving the load."
+        },
+        {
+          "question": "Why does stacked cargo in the open matter for a record?",
+          "answer": "Boxes in the sun pass heat to the goods inside, so a logger in the load shows exposure that a reading taken in the shade would miss."
+        }
+      ],
+      "nearby": [
+        "sohar-industrial-estate"
+      ],
       "indexable": true
     } },
 ];

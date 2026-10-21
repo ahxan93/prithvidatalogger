@@ -23828,7 +23828,7 @@ export const locations: LegacyLocationNode[] = [
       {
         question: "Which parts of Oman have a page?",
         answer:
-          "Muscat Governorate has its own page, with the cities of Muscat, Muttrah, Seeb, Bawshar and Quriyat and their districts beneath it. If your site is somewhere else, write to us through the enquiry form, Call or WhatsApp with what you store, and we answer with what looks suitable.",
+          "Muscat Governorate (with Muscat, Muttrah, Seeb, Bawshar and Quriyat) and Al Batinah North Governorate (with Sohar, Saham and Al Suwaiq) have their own pages, each with districts beneath the cities. If your site is somewhere else, write to us through the enquiry form, Call or WhatsApp with what you store, and we answer with what looks suitable.",
       },
       {
         question: "How are loggers set up for a site far from a main city?",
@@ -23843,6 +23843,7 @@ export const locations: LegacyLocationNode[] = [
     ],
     listing: [
       { slug: "muscat-governorate", text: "The capital region on the Gulf of Oman, with a harbour city, an old market town, hospitals, shopping streets and industrial districts between the sea and bare mountains." },
+      { slug: "al-batinah-north-governorate", text: "The northern stretch of the Batinah coast, with a historic port city, an industrial estate, farming towns of date palms and fishing harbours between the sea and the mountains." },
     ],
     indexable: true,
     children: [
@@ -24376,6 +24377,341 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Quriyat | Prithvi",
             metaDescription:
               "Data loggers for Quriyat's harbour ice boxes, date sheds, shops and clinic beneath the mountains on the south-eastern coast. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "al-batinah-north-governorate",
+        name: "Al Batinah North Governorate",
+        type: "state",
+        intro:
+          "Al Batinah North Governorate takes in the northern part of the Batinah, a narrow, fertile coastal plain on the Gulf of Oman where date palms, farms and fishing harbours stand between the sea and the dark mountains behind. Sohar, a historic port city that has grown an industrial estate and a modern port, is the main centre, while Saham and Al Suwaiq are farming and fishing towns of palm groves, markets and small harbours along the coast road. The plain is hot and humid in summer, the sea air salty, and winters are mild. Fish, dates, farm produce, chemicals and building materials wait in sheds and warehouses in such heat. The pages below cover the three towns and two industrial districts at Sohar.",
+        localIndustries: [
+          "Dates, farm produce and fish",
+          "Port-side and industrial warehousing",
+          "Clinics, pharmacies and care centres",
+          "Supermarkets and market trade",
+        ],
+        citiesServed: ["Sohar","Saham","Al Suwaiq"],
+        supportNote:
+          "Enquiries from Al Batinah North Governorate are handled through the enquiry form, Call or WhatsApp. Tell us which town, which rooms and how they are cooled, and we answer with what looks suitable for the site.",
+        faqs: [
+          {
+            question: "Which places in Al Batinah North Governorate have a page?",
+            answer:
+              "Sohar, Saham and Al Suwaiq each have a city page, and Sohar Industrial Estate and Sohar Port and Freezone have area pages under Sohar. A town elsewhere along the Batinah can be raised through the enquiry form.",
+          },
+          {
+            question: "Why do date palms and farm sheds call for different logger mounting from a warehouse?",
+            answer:
+              "Farm sheds are open-sided and heat in direct sun, so a logger sits on a shaded inner wall among the produce, while a warehouse is watched at the door and the back wall, and both need a battery for power cuts.",
+          },
+          {
+            question: "Can one login cover sites in different towns of the coast?",
+            answer:
+              "Yes. Each site is a separate point on one dashboard with its own alert contacts, and a manager can see the towns together in a single exported report.",
+          },
+        ],
+        listing: [
+          { slug: "sohar", text: "A historic port city on the Batinah coast with a fishing harbour, an industrial estate, a modern port, hospitals and markets, in hot, humid summers." },
+          { slug: "saham", text: "A farming and fishing town on the coast road, with date palms, small farms, markets and a clinic, in hot, humid air." },
+          { slug: "al-suwaiq", text: "A coastal town of date and fruit farms, a fishing harbour and an old fort, between the sea and the mountains." },
+        ],
+        areaListing: [
+          { slug: "sohar-industrial-estate", text: "The industrial estate beside Sohar, with factories, workshops, warehouses and chemical and materials stores." },
+          { slug: "sohar-port-and-freezone", text: "The port and free zone on the Sohar coast, where food, supplies and general goods wait on quays and in sheds in hot, damp air." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "sohar",
+            name: "Sohar",
+            type: "city",
+            intro:
+              "Sohar is a historic port city on the Batinah coast of the Gulf of Oman, long a harbour town and today a centre of industry, and a temperature data logger here serves a city of fishing boats, markets, hospitals, workshops and warehouses in hot, humid sea air. An old fort stands near the shore, fishing boats land their catch at the harbour, date palms and farms line the plain behind, and an industrial estate and a modern port lie beside the coast. Shops, clinics and a university serve the growing city, and the corniche fills with families on cooler evenings. Summers are long and very hot, and winters are mild. Enquiries from Sohar are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The flat coast is hot and very humid through the long summer, salt reaches every shed and cold box, and the mountains behind are far enough away that little breeze reaches the streets, so ice rooms, shop coolers and warehouse sheds work against the weather for months. A cold room that loses power in the afternoon warms fast, and sudden storms bring water down the valleys onto the plain.",
+            areas: [
+              {
+                name: "The fishing harbour and fish market",
+                note: "Boats come in to the harbour with the catch, and ice stores and cold rooms keep it fresh for the market while the sun is at its fiercest and the air is thick with salt.",
+              },
+              {
+                name: "Date stores and farm sheds on the plain",
+                note: "Growers behind the city keep dates, vegetables and fodder in sheds and cool rooms among the palms, where heat after harvest is the main danger to quality.",
+              },
+              {
+                name: "Hospitals, clinics and pharmacies",
+                note: "Hospitals, clinics and pharmacies hold vaccines, insulin and medicines in refrigerators that must hold a range through power interruptions.",
+              },
+              {
+                name: "Warehouses and workshops near the estate",
+                note: "Warehouses and workshops beside the industrial estate hold parts, materials and household goods under metal roofs that heat up quickly in the sun.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Fish sellers, date traders, bakeries and supermarkets in Sohar hold goods that spoil or soften quickly in coastal heat, and a record from each ice store shows when a cold box began to warm.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Sohar hospitals and clinics hold vaccines to strict ranges, and a phone alert reaches whoever is on duty if a refrigerator warms in the small hours.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Sohar keep stock to labelled ranges, and a dated record shows how a room behaved through the hottest weeks and any power cut.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods brought to Sohar wait in vehicles and warehouses before use, and a logger tucked into a load records the heat and humidity each lot met.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels follow a fish room from its entrance to its back wall, showing whether the cold reaches the final boxes.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "A single unit reading temperature and humidity suits a date room, where cool, dry and steady air is what keeps the fruit sound in storage.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels set along a long warehouse show which section is warmest under the roof, all in one report.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Sohar fish seller or date trader use a temperature record?",
+                answer:
+                  "Yes. A logger left in the ice store or the date room logs through night and day, and a report for the dates of one lot can be exported as a PDF, Excel or CSV file for a buyer.",
+              },
+              {
+                question: "Why does a store on a flat humid coast need a humidity reading?",
+                answer:
+                  "Salt-laden damp air softens cartons and spoils dry goods, and condensation forms whenever a cold door opens to the outside, so a humidity trend beside the temperature shows moisture that a thermometer would miss.",
+              },
+              {
+                question: "How would an enquiry from Sohar be handled?",
+                answer:
+                  "Give the shop, clinic, farm or store, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Sohar.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Sohar laboratories?",
+                answer:
+                  "Calibration of loggers and probes for Sohar laboratories is looked after by VEGA Calibrations, our parent company; share the model and the range and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "saham", name: "Saham" },
+              { slug: "al-suwaiq", name: "Al Suwaiq" },
+              { slug: "shinas", name: "Shinas" },
+            ],
+            metaTitle: "Temperature Data Loggers in Sohar | Prithvi",
+            metaDescription:
+              "Data loggers for Sohar's harbour ice stores, date rooms, hospitals, supermarkets and warehouses on the hot, humid Batinah coast. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "saham",
+            name: "Saham",
+            type: "city",
+            intro:
+              "Saham is a farming and fishing town on the Batinah coast road, set among date palms and small farms between the sea and the dark mountains behind, and a temperature data logger here serves a quiet place of markets, shops, a clinic and fishing boats in hot, humid air. Growers bring dates and vegetables to the town market, boats land fish on the beach, and shops sell food and household goods to the town and the villages along the plain. Summers are long and the nights stay warm. Dust blows in from the interior in some seasons, and in the evenings people gather at the market and along the coast road when the heat finally eases. Enquiries from Saham are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The coastal plain is hot and humid for most of the year, the palm groves hold damp air between the trees, and sudden storms can send water down the valleys onto farms and low roads, so date sheds, shop coolers and clinic refrigerators work through long hot spells with the odd outage. Small shops opened constantly through the day lose cold air with every customer, and a repairer may be a long drive away.",
+            areas: [
+              {
+                name: "The town market and its cold boxes",
+                note: "Traders in the market keep fish, dairy goods and vegetables in cold boxes and small coolers that lose their chill every time a customer opens the lid.",
+              },
+              {
+                name: "Date sheds and farm stores among the palms",
+                note: "Farmers keep dates, vegetables and fodder in sheds among the palms, where heat after harvest and storm damp both threaten the crop.",
+              },
+              {
+                name: "Shops, groceries and cafes",
+                note: "Shops and cafes along the coast road sell drinks, dairy goods and packaged food from coolers that are opened constantly.",
+              },
+              {
+                name: "The clinic, pharmacies and village supplies",
+                note: "A clinic and pharmacies hold vaccines and medicines for the town and its villages in refrigerators that must survive power cuts.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Saham date growers, fish sellers and grocers hold goods that spoil fast in coastal heat, and a log from each cold box or cooler shows when it began to warm.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The Saham clinic holds vaccines for the town and the villages along the plain, and a phone alert reaches the person on duty if a refrigerator warms.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Saham keep stock in rooms with labelled ranges, and a dated record shows how a room behaved through the hottest weeks and any storm outage.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Supplies reach Saham by road along the coast, and a logger placed in a load records how long it stood in a vehicle in the sun before reaching a small store.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a date shed or a shop pantry at floor, shelf and door height, showing which level warms first.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable fits a shop or clinic refrigerator in Saham and leaves the way the unit is used unchanged.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reading humidity beside temperature, one unit shows when the damp of the palm groves has crept into a dry store.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can one logger watch a single refrigerator in a Saham shop?",
+                answer:
+                  "Yes. A single logger with a phone alert can watch one refrigerator as long as a router is within reach, and the account can take extra points later.",
+              },
+              {
+                question: "Why do date sheds under palms need a humidity reading?",
+                answer:
+                  "The shade of the palms keeps the air damp around a shed, so a humidity trend beside the temperature shows when a store took on moisture even on a cool-looking day.",
+              },
+              {
+                question: "How would an enquiry from Saham be handled?",
+                answer:
+                  "Give the farm, shop or clinic, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Saham.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Saham clinics?",
+                answer:
+                  "Calibration of loggers and probes for Saham clinics is looked after by VEGA Calibrations, our parent company; share the model and the range and we explain the choices.",
+              },
+            ],
+            nearby: [
+              { slug: "sohar", name: "Sohar" },
+              { slug: "al-suwaiq", name: "Al Suwaiq" },
+            ],
+            metaTitle: "Temperature Data Loggers in Saham | Prithvi",
+            metaDescription:
+              "Data loggers for Saham's market cold boxes, date sheds, shops and clinic among the palms of the Batinah coast. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "al-suwaiq",
+            name: "Al Suwaiq",
+            type: "city",
+            intro:
+              "Al Suwaiq is a coastal town on the Batinah plain, where farms of date palms and fruit trees run down to a fishing harbour and an old fort stands near the sea, and a temperature data logger here serves a place of farm sheds, fish rooms, shops and a hospital in hot, humid air. Growers pick dates, limes and vegetables on the plain behind the shore, boats land the catch at the harbour, and a market sells food and household goods to the town and the villages around. Mountains rise in the distance, and the old fort stands as a landmark above the palms. Summers are long and hot, and sudden storms bring water down the valleys. Enquiries from Al Suwaiq are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The plain is flat, hot and humid, salt reaches every shed along the shore, and rain from the mountains can arrive as a flood across farmland and low roads, so farm stores, fish rooms and clinic refrigerators work through long warm spells with the odd outage. Fruit picked in the heat loses quality quickly, and a cold room that fails on a summer afternoon can lose a day's harvest before the evening shift arrives.",
+            areas: [
+              {
+                name: "Date and fruit farm stores",
+                note: "Growers keep dates, limes and vegetables in sheds and small cool rooms near the fields, where the hours after picking decide how much is lost.",
+              },
+              {
+                name: "The fishing harbour and ice stores",
+                note: "Boats land the catch at the harbour, where ice stores and cold boxes hold it for the market in damp, salty air.",
+              },
+              {
+                name: "The market and food shops",
+                note: "Shops and market stalls sell dairy goods, drinks and packaged food from coolers opened constantly through the day.",
+              },
+              {
+                name: "The hospital, clinics and pharmacies",
+                note: "The town's hospital, clinics and pharmacies keep vaccines, insulin and medicines in refrigerators that must stay in range whenever the supply wavers.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Al Suwaiq growers, fish sellers and grocers hold goods that spoil or soften in coastal heat, and a log from each cold room shows a buyer how a lot was kept after picking.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The hospital and clinics of Al Suwaiq hold vaccines for the town and the villages inland, and a phone alert reaches whoever is on duty if a refrigerator warms.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Al Suwaiq store medicines to labelled ranges, and a dated record shows how a room behaved through the hottest weeks and any storm outage.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Produce loaded in Al Suwaiq for markets elsewhere stands in vehicles in the sun, and a logger placed in a load records what the cargo met on the road.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels read a fruit cold room at the door end and the back wall, showing whether the chill reaches the last crates.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single probe on a short lead slips into a clinic or shop refrigerator in Al Suwaiq and leaves daily routines unchanged.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels along a long packing shed show which section is warmest under the roof, all in one report.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can an Al Suwaiq grower keep a temperature record for a fruit lot?",
+                answer:
+                  "Yes. A logger set in the shed or cool room tracks heat and damp through the season, and a report for the dates of one lot can be saved as a PDF, Excel or CSV file for a buyer.",
+              },
+              {
+                question: "Why mount a logger above the likely flood line on the plain?",
+                answer:
+                  "Water running off the mountains can reach low rooms and cut the supply, so a body fixed higher with a battery inside keeps the record of what the room went through.",
+              },
+              {
+                question: "How would an enquiry from Al Suwaiq be handled?",
+                answer:
+                  "Give the farm, shop or clinic, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Al Suwaiq.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Al Suwaiq clinics?",
+                answer:
+                  "Calibration of loggers and probes for Al Suwaiq clinics is looked after by VEGA Calibrations, our parent company; share the model and range and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "saham", name: "Saham" },
+              { slug: "sohar", name: "Sohar" },
+            ],
+            metaTitle: "Temperature Data Loggers in Al Suwaiq | Prithvi",
+            metaDescription:
+              "Data loggers for Al Suwaiq's date and fruit farm stores, harbour fish rooms, market shops and hospital on the Batinah plain. Get Solution.",
             indexable: true,
           },
         ],
