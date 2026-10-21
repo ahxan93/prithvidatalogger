@@ -7928,7 +7928,7 @@ export const areas: AreaDef[] = [
         },
         {
           "name": "Assembly and packing workshops",
-          "note": "Workshops that assemble, pack or repair keep glues, oils and fittings in sheds that follow the weather outside."
+          "note": "Workshops that assemble, pack or repair keep glues, lubricants and fittings in sheds that follow the weather outside."
         }
       ],
       "industries": [
@@ -8133,7 +8133,7 @@ export const areas: AreaDef[] = [
       "places": [
         {
           "name": "Chemical, coating and lubricant stores",
-          "note": "Stores of chemicals, coatings and oils near the coast carry labelled limits that a hot, damp shed can break without anyone noticing."
+          "note": "Stores of chemicals, coatings and lubricants near the coast carry labelled limits that a hot, damp shed can break without anyone noticing."
         },
         {
           "name": "Laboratory sample and reagent stores",
@@ -8151,7 +8151,7 @@ export const areas: AreaDef[] = [
       "industries": [
         {
           "slug": "chemical",
-          "sentence": "Stockists of chemicals, coatings and oils on the estate store materials with labelled ranges, and a dated record shows whether a stack stood hot for too long."
+          "sentence": "Stockists of chemicals, coatings and lubricants on the estate store materials with labelled ranges, and a dated record shows whether a stack stood hot for too long."
         },
         {
           "slug": "laboratories",
