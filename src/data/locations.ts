@@ -23828,7 +23828,7 @@ export const locations: LegacyLocationNode[] = [
       {
         question: "Which parts of Oman have a page?",
         answer:
-          "Muscat Governorate (with Muscat, Muttrah, Seeb, Bawshar and Quriyat) and Al Batinah North Governorate (with Sohar, Saham and Al Suwaiq) have their own pages, each with districts beneath the cities. If your site is somewhere else, write to us through the enquiry form, Call or WhatsApp with what you store, and we answer with what looks suitable.",
+          "Muscat, Al Batinah North and Al Batinah South governorates have their own pages, with the cities of Muscat, Muttrah, Seeb, Bawshar, Quriyat, Sohar, Saham, Al Suwaiq, Barka, Rustaq and Nakhal and their districts beneath. If your site is somewhere else, write to us through the enquiry form, Call or WhatsApp with what you store, and we answer with what looks suitable.",
       },
       {
         question: "How are loggers set up for a site far from a main city?",
@@ -23844,6 +23844,7 @@ export const locations: LegacyLocationNode[] = [
     listing: [
       { slug: "muscat-governorate", text: "The capital region on the Gulf of Oman, with a harbour city, an old market town, hospitals, shopping streets and industrial districts between the sea and bare mountains." },
       { slug: "al-batinah-north-governorate", text: "The northern stretch of the Batinah coast, with a historic port city, an industrial estate, farming towns of date palms and fishing harbours between the sea and the mountains." },
+      { slug: "al-batinah-south-governorate", text: "The southern stretch of the Batinah, with a coastal market town and an industrial area, and foothill oasis towns of date palms and old irrigation channels below the mountains." },
     ],
     indexable: true,
     children: [
@@ -24574,7 +24575,7 @@ export const locations: LegacyLocationNode[] = [
               {
                 slug: "dhruva",
                 reason:
-                  "Four channels follow a date shed or a shop pantry at floor, shelf and door height, showing which level warms first.",
+                  "Four channels trace a grove shed or a shop store from the floor to the top shelf and the door, showing which level warms first.",
               },
               {
                 slug: "setu",
@@ -24712,6 +24713,340 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Al Suwaiq | Prithvi",
             metaDescription:
               "Data loggers for Al Suwaiq's date and fruit farm stores, harbour fish rooms, market shops and hospital on the Batinah plain. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "al-batinah-south-governorate",
+        name: "Al Batinah South Governorate",
+        type: "state",
+        intro:
+          "Al Batinah South Governorate covers the southern part of the Batinah, where the flat coastal plain on the Gulf of Oman gives way to the foothills of the Hajar mountains. On the coast, Barka is a market town of fish, fruit and dates with an industrial area beside the road, while inland Rustaq and Nakhal are oasis towns at the foot of the mountains, with date palms, small farms and ancient irrigation channels running between the groves. The coast is hot and humid in summer, the foothills hot by day and cooler at night, and storms send water down the wadis. Fish, dates, farm produce and building materials wait in sheds in such heat. The pages below cover the three towns and the industrial area at Barka.",
+        localIndustries: [
+          "Dates, fruit and farm produce",
+          "Fish and market trade",
+          "Industrial and workshop storage",
+          "Clinics, pharmacies and care centres",
+        ],
+        citiesServed: ["Barka","Rustaq","Nakhal"],
+        supportNote:
+          "Enquiries from Al Batinah South Governorate are handled through the enquiry form, Call or WhatsApp. Say which town, which rooms and how they are cooled, and our reply covers what seems suitable on site.",
+        faqs: [
+          {
+            question: "Which places in Al Batinah South Governorate have a page?",
+            answer:
+              "Barka, Rustaq and Nakhal each have a city page, and the Barka Industrial Area has an area page under Barka. A town elsewhere in the governorate can be raised through the enquiry form.",
+          },
+          {
+            question: "How do foothill oasis towns differ from the coast for storage?",
+            answer:
+              "Oasis towns are hot by day but cooler at night and damp among the palms, while the coast is hot and salty round the clock, so mounting spots, humidity checks and alert rules differ between the two.",
+          },
+          {
+            question: "Can one dashboard hold a coastal market and an inland date farm?",
+            answer:
+              "Yes. Each room is a separate point on one dashboard with its own alert contacts, and a manager can view the coast and the foothills together in a single exported report.",
+          },
+        ],
+        listing: [
+          { slug: "barka", text: "A coastal market town of fish, fruit and dates with a fort, farms and an industrial area, in hot, humid sea air." },
+          { slug: "rustaq", text: "A foothill oasis town below the mountains, with date palms, irrigation channels, a hilltop fort and hot days and cooler nights." },
+          { slug: "nakhal", text: "A small oasis town at the foot of the mountains, with groves of date palms, a hill fort, farms and warm springs nearby." },
+        ],
+        areaListing: [
+          { slug: "barka-industrial-area", text: "The industrial area beside Barka, with workshops, warehouses, light factories and building-material yards." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "barka",
+            name: "Barka",
+            type: "city",
+            intro:
+              "Barka is a coastal market town on the Batinah plain west of Muscat, where fishing boats, fruit and date farms, an old fort and a lively market share a flat stretch of the Gulf of Oman coast, and a temperature data logger here serves a place of fish rooms, produce stores, workshops and warehouses in hot, humid sea air. Boats land the morning catch on the beach, growers bring dates, vegetables and fruit to the market, and an industrial area lies beside the road. Clinics and a hospital serve the town and the villages around. Summers are long and the air is damp, and the market is busiest in the cool of the early morning. Enquiries from Barka are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The plain is flat and hot through the long summer, the air is damp and salty near the shore and drier among the farms inland, and sudden storms can send water over farmland and low roads, so fish rooms, produce stores and clinic refrigerators work through long hot spells with the odd outage. Produce picked in the heat loses quality fast, and a cold room that fails on an August afternoon can lose a whole day's market stock.",
+            areas: [
+              {
+                name: "The beach landing, fish market and ice stores",
+                note: "Boats land the catch on the beach, where ice stores and cold rooms hold it for the market through the hottest hours in damp, salty air.",
+              },
+              {
+                name: "The produce market and date stores",
+                note: "Traders in the market keep dates, fruit, vegetables and sweets in back rooms and cold boxes that lose their chill every time a customer opens the lid.",
+              },
+              {
+                name: "Hospital, clinics and pharmacies",
+                note: "A hospital, clinics and pharmacies hold vaccines, insulin and medicines in refrigerators that must stay in range when the supply wavers.",
+              },
+              {
+                name: "Workshops and warehouses beside the road",
+                note: "Workshops and warehouses on the town's edge keep parts, tools and household goods under metal roofs that heat up quickly in the sun.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Barka fish sellers, produce traders and grocers hold goods that spoil or soften quickly in coastal heat, and a record from each ice store shows when a cold box began to warm.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The Barka hospital and clinics hold vaccines to strict ranges, and a phone alert reaches whoever is on duty if a refrigerator warms in the small hours.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Barka keep stock to labelled ranges, and a dated log shows how a room behaved through the hottest weeks and any power cut.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods brought to Barka wait in vehicles and warehouses before use, and a logger tucked into a load records the heat and humidity each lot met.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a produce cold room at floor, shelf and door height, showing which level warms first between loads.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable slides into a clinic or pharmacy refrigerator in Barka and leaves the way staff use the unit unchanged.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "With humidity read beside temperature, one unit shows when damp sea air has crept into a date or sweets store that looks fine on a thermometer.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Barka fish seller or produce trader keep a temperature record?",
+                answer:
+                  "A logger in the ice store or the cold room keeps a day-and-night record, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for a buyer.",
+              },
+              {
+                question: "Why would a market town on a hot plain want a humidity reading?",
+                answer:
+                  "Damp coastal air softens dried fruit and sweets and cold rooms form condensation whenever a door opens, so humidity beside the temperature shows moisture that a thermometer would miss.",
+              },
+              {
+                question: "How would an enquiry from Barka be handled?",
+                answer:
+                  "Give the shop, clinic, farm or store, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Barka.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Barka clinics?",
+                answer:
+                  "Calibration of loggers and probes for Barka clinics is looked after by VEGA Calibrations, our parent company; share the model and the range and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "rustaq", name: "Rustaq" },
+              { slug: "nakhal", name: "Nakhal" },
+              { slug: "seeb", name: "Seeb" },
+            ],
+            metaTitle: "Temperature Data Loggers in Barka | Prithvi",
+            metaDescription:
+              "Data loggers for Barka's fish rooms, produce and date stores, clinics and warehouses on the hot, humid Batinah plain. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "rustaq",
+            name: "Rustaq",
+            type: "city",
+            intro:
+              "Rustaq is an oasis town at the foot of the Hajar mountains on the inland edge of the Batinah, where date palms and small farms are watered by ancient irrigation channels and a large fort stands on the hillside above the groves, and a temperature data logger here serves a place of date stores, farm sheds, shops and clinics in hot, dry heat. Farmers harvest dates, limes and vegetables, a market sells food and household goods to the town and the hill villages, and a hospital and clinics serve the district. Summer days are very hot, nights are cooler than on the coast, and storms bring water down the wadis. Enquiries from Rustaq are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "Hot days and cooler nights are typical of the foothills, the air among the palms is damp while the rocky slopes above are dry, and storms in the mountains can send water down the wadis across farms and low roads, so date sheds, shop coolers and clinic refrigerators work through long hot spells with the odd outage. Stone walls hold the day's heat well into the evening.",
+            areas: [
+              {
+                name: "Date stores and farm sheds among the palms",
+                note: "Farmers keep dates, limes and vegetables in sheds and cool rooms in the groves, where heat after harvest and the damp between the palms both threaten the crop.",
+              },
+              {
+                name: "The market and its stock rooms",
+                note: "Traders keep dates, sweets, spices and household goods in small back rooms of old buildings that were never designed for cooling.",
+              },
+              {
+                name: "The hospital, clinics and pharmacies",
+                note: "A hospital, clinics and pharmacies serve the town and the villages in the hills and hold vaccines and medicines in refrigerators that must survive power interruptions.",
+              },
+              {
+                name: "Workshops and stores on the town's edge",
+                note: "Workshops and small stores keep parts, tools and building materials in sheds that follow the weather outside.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Rustaq date growers, grocers and shopkeepers hold goods that suffer in heat and damp, and a log from each store shows a buyer how a lot was kept after harvest.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The Rustaq hospital and clinics hold vaccines for a district of scattered hill villages, and a phone alert reaches the person on duty if a refrigerator warms.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Rustaq keep stock in rooms with labelled ranges, and a dated record shows how a room behaved through the hottest weeks and any storm outage.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Supplies reach Rustaq over roads from the coast and the mountains, and a logger placed in a load records how long it stood in a vehicle in the sun.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at a single point suit a date store, where cool, steady air keeps the fruit sound through long storage.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels read a market cold room at the door end and the back wall, showing whether the cold reaches the last shelf.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single probe on a short lead slips into a clinic or shop refrigerator in Rustaq and leaves daily routines unchanged.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Rustaq date grower keep a temperature record for a lot?",
+                answer:
+                  "A logger placed in the shed or cool room follows heat and humidity across the season, and a report for the dates of one lot can be saved as a PDF, Excel or CSV file for a buyer.",
+              },
+              {
+                question: "Why are date sheds among palms damp even in a dry country?",
+                answer:
+                  "Irrigation channels and the shade of the palms keep the air humid around the groves, so a humidity trend beside the temperature shows when a store took on moisture.",
+              },
+              {
+                question: "How would an enquiry from Rustaq be handled?",
+                answer:
+                  "Give the farm, shop or clinic, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Rustaq.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Rustaq clinics?",
+                answer:
+                  "Calibration of loggers and probes for Rustaq clinics is looked after by VEGA Calibrations, our parent company; share the model and the range and we explain the choices.",
+              },
+            ],
+            nearby: [
+              { slug: "nakhal", name: "Nakhal" },
+              { slug: "barka", name: "Barka" },
+            ],
+            metaTitle: "Temperature Data Loggers in Rustaq | Prithvi",
+            metaDescription:
+              "Data loggers for Rustaq's date stores, farm sheds, market stock rooms and clinics in the foothill oasis below the mountains. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "nakhal",
+            name: "Nakhal",
+            type: "city",
+            intro:
+              "Nakhal is a small oasis town at the foot of the Hajar mountains, where groves of date palms and farms are watered by old irrigation channels and a fort stands on a rocky hill above the town, and a temperature data logger here serves a quiet place of date sheds, shops and a clinic in hot, dry air. Farmers pick dates, limes and vegetables, a small market sells food and household goods, and warm springs rise in the valley nearby. A clinic and pharmacies serve the town and the villages around. Days are very hot in summer, nights are cooler, and storms can fill the wadis, while the palm groves stay green and shaded all year. Enquiries from Nakhal are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The foothills are hot by day and cooler by night, the oasis air is damp among the trees and dry on the rocks above, and a storm in the mountains can send water across fields and roads, so date sheds and clinic refrigerators work through long hot spells with the odd outage. A small town far from larger suppliers can wait hours for a repair, so an early warning on a phone matters more than a morning round.",
+            areas: [
+              {
+                name: "Date sheds and grove stores",
+                note: "Farmers keep dates, limes and vegetables in sheds and small cool rooms in the groves, where heat after picking and the damp of the irrigation channels both threaten the crop.",
+              },
+              {
+                name: "The small market and shop coolers",
+                note: "Shops and market stalls sell drinks, dairy goods and packaged food from coolers that are opened constantly through the day.",
+              },
+              {
+                name: "The clinic and pharmacies",
+                note: "A clinic and pharmacies hold vaccines and medicines for the town and its hill villages in refrigerators that must survive power cuts.",
+              },
+              {
+                name: "Stores for farm supplies and tools",
+                note: "Small stores keep feed, tools, seed and spare parts in sheds whose temperature follows the weather outside.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Nakhal date growers and grocers hold goods that suffer in heat and damp, and a record from each cool room shows a buyer how a lot was kept after picking.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The Nakhal clinic holds vaccines for the town and the hill villages, and a phone alert reaches the person on duty if a refrigerator warms.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Nakhal keep stock to labelled ranges, and a dated log shows how a room behaved through the hottest weeks and any storm outage.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods reaching Nakhal travel winding roads from the coast, and a logger placed in a load records how long it stood warm before reaching a small store.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a date shed or a shop pantry at floor, shelf and door height, showing which level warms first.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable fits a shop or clinic refrigerator in Nakhal and leaves the way the unit is used unchanged.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels along a long storage shed show which section runs warmest under the roof, all in one report.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can one logger watch a single refrigerator in a Nakhal shop?",
+                answer:
+                  "Yes. A single logger with a phone alert can watch one refrigerator as long as a router is within reach, and extra points can be added to the account later.",
+              },
+              {
+                question: "Why does a small oasis town want a phone alert more than a daily round?",
+                answer:
+                  "A repairer may be a long drive away, so an early warning that a cooler is drifting lets staff move stock while it can still be saved, instead of finding the loss at the next round.",
+              },
+              {
+                question: "How would an enquiry from Nakhal be handled?",
+                answer:
+                  "Give the farm, shop or clinic, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Nakhal.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Nakhal clinics?",
+                answer:
+                  "Calibration of loggers and probes for Nakhal clinics is looked after by VEGA Calibrations, our parent company; share the model and range and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "rustaq", name: "Rustaq" },
+              { slug: "barka", name: "Barka" },
+            ],
+            metaTitle: "Temperature Data Loggers in Nakhal | Prithvi",
+            metaDescription:
+              "Data loggers for Nakhal's date sheds, small-market coolers, clinic and farm-supply stores at the foot of the mountains. Get Solution.",
             indexable: true,
           },
         ],

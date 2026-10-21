@@ -278,6 +278,11 @@ export const locationContent: Record<string, LocationContent> = {
       "Data loggers for Al Batinah North Governorate: Sohar, Saham, Al Suwaiq, Sohar Industrial Estate and the port and freezone. Get Solution.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
+  "oman/al-batinah-south-governorate": {
+    metaDescription:
+      "Data loggers for Al Batinah South Governorate: Barka, Rustaq, Nakhal and Barka Industrial Area stores, farms and cold rooms. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+  },
   "qatar/doha-municipality": {
     metaDescription:
       "Data loggers for Doha Municipality: Doha city, West Bay, Al Sadd, Msheireb and The Pearl-Qatar kitchens, clinics and stores. Get Solution.",

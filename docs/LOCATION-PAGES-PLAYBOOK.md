@@ -429,6 +429,10 @@
 | Al Suwaiq (`al-suwaiq`, city, Al Batinah North Governorate) | Oman | Date and fruit farm stores, harbour ice stores, market shops, hospital | Food, medicines, logistics | Hot, humid; storm water | Saham, Sohar |
 | Sohar Industrial Estate (`sohar-industrial-estate`, area of Sohar) | Oman | Factory halls, chemical and lubricant stores, warehouses and parts stores, canteens | Chemicals, logistics, food | Extreme coastal heat | Sohar Port and Freezone |
 | Sohar Port and Freezone (`sohar-port-and-freezone`, area of Sohar) | Oman | Container stacks, chilled halls, warehouse plots, lorries (described generally, no operating status) | Logistics, food, medicines | Hot, damp, salty | Sohar Industrial Estate |
+| Barka (`barka`, city, Al Batinah South Governorate) | Oman | Fish rooms and ice stores, produce and date stores, hospital and clinics, workshops and warehouses | Food, medicines, logistics | Hot, humid coast; storm water | Rustaq, Nakhal, Seeb |
+| Rustaq (`rustaq`, city, Al Batinah South Governorate) | Oman | Date stores and grove sheds, market stock rooms, hospital and clinics, edge-of-town stores | Food, medicines, logistics | Hot days, cooler nights; wadi storms | Nakhal, Barka |
+| Nakhal (`nakhal`, city, Al Batinah South Governorate) | Oman | Date sheds, small-market coolers, clinic and pharmacies, farm-supply stores | Food, medicines, logistics | Hot foothill oasis; wadi storms | Rustaq, Barka |
+| Barka Industrial Area (`barka-industrial-area`, area of Barka) | Oman | Light factories, sealant and paint stores, building-material yards, garages and parts counters | Chemicals, logistics, food | Extreme coastal heat | none |
 | Jazan Economic City (`jazan-economic-city`, area of Jazan) | Saudi Arabia | Plant chemical and drum stores, spares warehouses and contractor yards, port yards, camp kitchens and clinics | Chemical stores, contract warehousing, camp catering | Extreme heat and humidity, salty air | none |
 | Jeddah (`jeddah`) | Saudi Arabia | Industrial and port logistics zones | Port logistics, food import cold chain, hospitals | Hot, humid coastal | Riyadh, Dammam |
 | Dammam (`dammam`) | Saudi Arabia | Industrial and port logistics zones | Industrial & chemical, port logistics, food | Hot, humid Gulf coast | Riyadh, Bahrain, Jeddah |
@@ -738,3 +742,6 @@ distinguishing local facts), Rusayl Industrial Estate and Knowledge Oasis Muscat
 
 Oman Batch 3 (Al Batinah North Governorate): hub, Sohar, Saham, Al Suwaiq, Sohar Industrial Estate and Sohar Port and Freezone. Not built: Shinas and Liwa
 (Oman), because I lack enough confident, distinguishing local facts and would only repeat the other Batinah towns; so the `liwa-oman` slug is not yet used.
+
+Oman Batch 4 (Al Batinah South Governorate): hub, Barka, Rustaq, Nakhal and Barka Industrial Area (under Barka). Not built: Khazaen Economic City, because I am not
+confident which city or governorate it belongs to.
