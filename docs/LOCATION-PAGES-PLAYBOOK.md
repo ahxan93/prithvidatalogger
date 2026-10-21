@@ -442,6 +442,13 @@
 | Ibri Industrial Area (`ibri-industrial-area`, area of Ibri) | Oman | Workshops and garages, general warehouses, paint and chemical stores, small food stock rooms | Logistics, chemicals, food | Fierce dry heat; sand | none |
 | Buraimi (`buraimi`, city, Al Buraimi Governorate) | Oman | Supermarkets and shop coolers, date gardens and market stores, hospital and clinics, roadside warehouses | Food, medicines, logistics | Hot, dry; dust | Ibri, Sohar |
 | Buraimi Industrial Area (`buraimi-industrial-area`, area of Buraimi) | Oman | Light factories, sealant and paint stores, building-material yards, wholesale food rooms | Chemicals, logistics, food | Dry inland heat | none |
+| Salalah (`salalah`, city, Dhofar Governorate) | Oman | Harbour ice stores, fruit and coconut stores, market spice and frankincense stock rooms, hospital and clinics | Food, medicines, logistics | Warm, salty; monsoon weeks cool, misty and very humid | Duqm |
+| Salalah Free Zone (`salalah-free-zone`, area of Salalah) | Oman | Warehouse units, food and drink stock rooms, lubricant and cleaner stores, office pantries (described generally, no operating status) | Logistics, food, medicines | Warm, salty, monsoon damp | Port of Salalah |
+| Raysut Industrial Estate (`raysut-industrial-estate`, area of Salalah) | Oman | Factory halls, coating and solvent stores, warehouses and parts stores, canteens | Chemicals, logistics, food | Warm, salty, monsoon damp | none |
+| Port of Salalah (`port-of-salalah`, area of Salalah) | Oman | Container stacks, cold halls and refrigerated containers, transit sheds, lorries (described generally, no operating status) | Logistics, food, medicines | Warm, salty, monsoon damp | Salalah Free Zone |
+| Duqm (`duqm`, city, Al Wusta Governorate) | Oman | Fishing-harbour ice boxes, supermarkets, hospital and clinics, warehouses behind the shore | Food, medicines, logistics | Dry heat, strong wind, sand | Salalah, Haima (not yet built) |
+| Duqm Special Economic Zone (`duqm-special-economic-zone`, area of Duqm) | Oman | Warehouse plots, materials and parts stores, cold rooms, workshops and canteens (described generally, no operating status) | Logistics, chemicals, food | Dry heat, wind, sand | Port of Duqm |
+| Port of Duqm (`port-of-duqm`, area of Duqm) | Oman | Container stacks, cold halls, quayside sheds, lorries for long road journeys (described generally, no operating status) | Logistics, food, medicines | Dry heat, salty wind | Duqm Special Economic Zone |
 | Jazan Economic City (`jazan-economic-city`, area of Jazan) | Saudi Arabia | Plant chemical and drum stores, spares warehouses and contractor yards, port yards, camp kitchens and clinics | Chemical stores, contract warehousing, camp catering | Extreme heat and humidity, salty air | none |
 | Jeddah (`jeddah`) | Saudi Arabia | Industrial and port logistics zones | Port logistics, food import cold chain, hospitals | Hot, humid coastal | Riyadh, Dammam |
 | Dammam (`dammam`) | Saudi Arabia | Industrial and port logistics zones | Industrial & chemical, port logistics, food | Hot, humid Gulf coast | Riyadh, Bahrain, Jeddah |
@@ -758,3 +765,6 @@ confident which city or governorate it belongs to.
 Oman Batch 5: Ad Dakhiliyah Governorate (Nizwa, Bahla, Izki, Sumail, Nizwa Industrial Estate), Ad Dhahirah Governorate (Ibri, Ibri Industrial Area) and
 Al Buraimi Governorate (Buraimi, Buraimi Industrial Area). Not built: Adam (too few confident, distinguishing local facts). No border or boundary statement is
 made for Buraimi.
+
+Oman Batch 6: Dhofar Governorate (Salalah, Salalah Free Zone, Raysut Industrial Estate and Port of Salalah, all attached to Salalah with no wilayat statement) and Al Wusta
+Governorate (Duqm, Duqm Special Economic Zone and Port of Duqm). Not built: Haima (too few confident, distinguishing local facts).

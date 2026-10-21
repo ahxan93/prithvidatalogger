@@ -85,6 +85,8 @@ export const areaCities: Record<string, { name: string; stateSlug: string; state
   nizwa: { name: "Nizwa", stateSlug: "ad-dakhiliyah-governorate", stateName: "Ad Dakhiliyah Governorate" },
   ibri: { name: "Ibri", stateSlug: "ad-dhahirah-governorate", stateName: "Ad Dhahirah Governorate" },
   buraimi: { name: "Buraimi", stateSlug: "al-buraimi-governorate", stateName: "Al Buraimi Governorate" },
+  salalah: { name: "Salalah", stateSlug: "dhofar-governorate", stateName: "Dhofar Governorate" },
+  duqm: { name: "Duqm", stateSlug: "al-wusta-governorate", stateName: "Al Wusta Governorate" },
   barka: { name: "Barka", stateSlug: "al-batinah-south-governorate", stateName: "Al Batinah South Governorate" },
   sohar: { name: "Sohar", stateSlug: "al-batinah-north-governorate", stateName: "Al Batinah North Governorate" },
   muscat: { name: "Muscat", stateSlug: "muscat-governorate", stateName: "Muscat Governorate" },
@@ -8875,6 +8877,275 @@ export const areas: AreaDef[] = [
         }
       ],
       "nearby": [],
+      "indexable": true
+    } },
+  // ------------------------------------------------------------------ Oman (batch 6: Salalah, Duqm)
+  { slug: "salalah-free-zone", name: "Salalah Free Zone", citySlug: "salalah", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["virat","setu"], page: {
+      "metaTitle": "Data Loggers in Salalah Free Zone | Prithvi",
+      "metaDescription": "Data loggers for warehouse units, stock rooms and offices in the Salalah Free Zone beside the port at Raysut. Get Solution.",
+      "intro": "The Salalah Free Zone lies beside the port at Raysut, west of the city, a compact set of warehouse units, offices and light-industrial plots with the sea close at hand and the hills behind. For a temperature data logger the interest lies in the stock that small trading and making firms keep to hand: food and packaging, materials with printed limits, and household goods, all held in air that is warm, salty and in the monsoon weeks very damp. The text below is limited to the stock and rooms a logger user in the Salalah Free Zone could look after. Enquiries about the Salalah Free Zone are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Warehouse units near the port",
+          "note": "Units of several sizes hold goods for firms that rent the offices beside them, and the roofs soak up the sun before the cooling responds."
+        },
+        {
+          "name": "Stock rooms for food and drink",
+          "note": "Small distributors keep chilled and dry goods in rooms where monsoon damp and summer warmth both test the cooling."
+        },
+        {
+          "name": "Lubricant, glue and cleaner stores",
+          "note": "Shelves of lubricants, glues and cleaners carry limits printed on the label, and a hot, damp shed can pass them without any visible sign."
+        },
+        {
+          "name": "Office pantries and canteens",
+          "note": "Offices and canteens keep fridges that serve whole floors of staff and are opened again and again through the day."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A unit that stores goods for different firms can give every firm a record of its own pallets in place of a blanket remark about the building."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Distributors holding chilled and dry food for the south can show through a log that a room stayed in range through the damp weeks."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Firms keeping healthcare supplies in the zone need a dated trace of temperature, which tells a distributor whether a carton stood too long in the warmth."
+        }
+      ],
+      "services": "In the Salalah zone we would suggest WiFi loggers in storerooms that sit near a router, probe loggers in fridges and freezers, humidity-reading units in dry stores, and loggers carried inside a consignment. Calibration is something users here can take up with VEGA Calibrations, our parent company. WiFi units need a router within reach and mains power, and for a vehicle we describe other options. Nothing is said about supply until a request for the zone has been read.",
+      "visits": "A visit or an installation in the Salalah Free Zone is not promised. Give the business, the rooms and a contact via the enquiry form, Call or WhatsApp, and we look the request over and reply with what looks achievable.",
+      "approach": "If a request went ahead, we would begin with the room whose contents are hardest to replace, placing one logger near the door and one at the back and adding a humidity unit where dry goods are kept. A run of readings across a damp spell and a dry one would show how the room swings.",
+      "faqs": [
+        {
+          "question": "Can a small firm renting one unit start with a single logger?",
+          "answer": "Yes. One logger in one room is plenty for a first step, and the same dashboard can take further points as the firm grows."
+        },
+        {
+          "question": "Why does a free-zone store near the sea need a humidity reading?",
+          "answer": "Salt-laden damp air softens cartons and attacks metal, and in the monsoon weeks the whole coast turns very humid, so a humidity trend beside the temperature shows when stock took on moisture."
+        }
+      ],
+      "nearby": [
+        "port-of-salalah"
+      ],
+      "indexable": true
+    } },
+  { slug: "raysut-industrial-estate", name: "Raysut Industrial Estate", citySlug: "salalah", areaType: "industrial-estate", nearbyIndustries: ["chemical","logistics-warehousing","food-beverage"], confirmedService: true, hero: ["rajmudra","dhruva"], page: {
+      "metaTitle": "Data Loggers in Raysut Industrial Estate | Prithvi",
+      "metaDescription": "Data loggers for factories, workshops, warehouses and chemical stores in the Raysut Industrial Estate near Salalah. Get Solution.",
+      "intro": "The Raysut Industrial Estate stands on the coastal plain at Raysut, west of Salalah, a grid of factory halls, workshops, warehouses and stores laid out beside the sea and the main road. For a temperature data logger the interest lies in the everyday trouble of making and keeping goods where the air is warm, salty and for weeks each summer very damp: chemicals and coatings with a printed limit, food and packaging stock, and spare parts and tools under metal roofs. The description is limited to the stock and rooms that a logger user on the estate could look after. Enquiries about the Raysut Industrial Estate are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Factory halls and finished-goods rooms",
+          "note": "Plants of several kinds hold finished stock in halls that must stay in range while loading doors swing open and shut through the monsoon damp."
+        },
+        {
+          "name": "Coating, treatment and solvent stores",
+          "note": "Shelves of coatings, treatment products and solvents carry limits printed on the label, and damp or heat can carry a pallet beyond them quietly."
+        },
+        {
+          "name": "General warehouses and parts stores",
+          "note": "Warehouses and parts stores hold seals, cable, fittings and household goods under roofs that throw heat down long before the cooling responds."
+        },
+        {
+          "name": "Canteens and site kitchens",
+          "note": "Kitchens feeding shifts of staff keep chillers and freezers running day and night, a long drive from the next wholesale supplier."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "chemical",
+          "sentence": "Stockists of coatings, treatment products and solvents on the estate store materials with labelled ranges, and a dated record shows whether a stack sat hot or damp for too long."
+        },
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A shared warehouse on the estate can hand every customer a record of its own shelves rather than a general assurance about the whole building."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Estate canteens and food stores keep chilled and frozen goods, and a record from each cooler shows the moment a unit started to slip."
+        }
+      ],
+      "services": "For an industrial estate beside the sea we would look at WiFi loggers for stores and rooms near a router, probe-type loggers for chilled rooms and freezers, multi-point units for long sheds, and loggers that travel inside a load. Calibration for users at Raysut is something VEGA Calibrations, our parent company, can discuss. WiFi units depend on a router in range and a power supply, and for an open yard we explain the alternatives. Any answer on supply comes once a Raysut request has been read.",
+      "visits": "Nothing is promised about visits or installation on the Raysut Industrial Estate. Hand us the business, the rooms involved and a contact on the enquiry form, Call or WhatsApp, and we read the request and tell you what appears feasible.",
+      "approach": "If a request went ahead, we would start with the store holding the most sensitive material, placing loggers at floor level and under the roof and one at the door, and add a humidity unit because the damp weeks matter as much as the heat. A month of readings would show which section of the shed runs hottest and dampest.",
+      "faqs": [
+        {
+          "question": "Can one report describe a long factory shed near the sea?",
+          "answer": "Yes. A multi-channel logger reads probes spaced along the shed, so one report shows which stretch of the building runs warmest or dampest and when."
+        },
+        {
+          "question": "Why do monsoon weeks matter for stored chemicals and packaging?",
+          "answer": "Very humid air softens packaging and can affect products that are labelled for dry storage, so a humidity log beside the temperature shows whether a store stayed within its label."
+        }
+      ],
+      "nearby": [],
+      "indexable": true
+    } },
+  { slug: "port-of-salalah", name: "Port of Salalah", citySlug: "salalah", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["nakshatra","virat"], page: {
+      "metaTitle": "Data Loggers at the Port of Salalah | Prithvi",
+      "metaDescription": "Data loggers for quayside sheds, cold rooms, container stacks and vehicles around the Port of Salalah at Raysut. Get Solution.",
+      "intro": "The Port of Salalah is the container harbour at Raysut on the Arabian Sea, west of the city, with a flat apron of quays, stacks and yards between the water and the hills. What matters to a temperature data logger here is the long wait that follows a sea voyage: cargo that comes off a vessel, rests in a stack or a shed, and moves on by lorry, in warm, salty air that turns very damp for several weeks each summer. Only the stock and rooms that a logger user at Raysut could look after are described here. Please send enquiries about Salalah's port through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Container stacks on the apron",
+          "note": "Boxes stacked in the open soak up the sun, and in the monsoon weeks damp air gets into cartons, so cargo can end up hotter or wetter than expected."
+        },
+        {
+          "name": "Cold halls and refrigerated containers",
+          "note": "Chilled and frozen food and health supplies may stand in a cold hall or a refrigerated container, and the hours between plug-in points are the fragile stretch."
+        },
+        {
+          "name": "Transit sheds beside the quay",
+          "note": "Goods rest in sheds with wide doors that admit warm, salty, sometimes very damp air, while the metal roof decides the temperature inside."
+        },
+        {
+          "name": "Lorries waiting to load",
+          "note": "Lorries waiting for their cargo stand in the sun, and a covered body can end up far hotter than the shade."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A handler storing cargo for several traders can give each trader a statement of how its pallets were kept, in place of a remark about the shed."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Chilled and frozen food crossing a harbour needs evidence of how it was held between ship and shop, and a small logger packed with the cartons provides it."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Medicines and healthcare supplies resting on a quay call for a dated temperature trace, so a distributor can judge whether a pack stood too long in warm or damp air."
+        }
+      ],
+      "services": "At a harbour of this kind we would suggest WiFi loggers in sheds and cold rooms that sit near a router, probe loggers in freezers and refrigerated containers, multi-point units in long halls, and loggers that ride inside a consignment. Port users can take calibration questions to VEGA Calibrations, our parent company. WiFi units need a router in range and mains power, and for a stack or a vehicle we set out other approaches. Any word on supply waits until a Salalah port request has been read.",
+      "visits": "Nothing is promised about visits or installation at the Port of Salalah. Give us the business, the cargo or room involved and a contact on the enquiry form, Call or WhatsApp, and we weigh up the request and say what seems practical.",
+      "approach": "If a request went ahead, we would begin with the load or cold room that is hardest to replace, placing one logger in the cargo or beside the door and another at the far wall, then add a humidity unit because damp is a risk here as much as heat. A short run of data would show how long stock really sits between stages.",
+      "faqs": [
+        {
+          "question": "Can a small logger ride inside a carton through a port chain?",
+          "answer": "Yes. A logger packed with the cartons keeps a record of the entire journey, and the report can be saved as a PDF, Excel or CSV file for whoever receives the load."
+        },
+        {
+          "question": "Why does stacked cargo need humidity records in the monsoon weeks?",
+          "answer": "Cool, misty air can be very humid, so cartons soften and dry goods take on moisture even when the temperature looks mild, and a humidity trend shows when it happened."
+        }
+      ],
+      "nearby": [
+        "salalah-free-zone"
+      ],
+      "indexable": true
+    } },
+  { slug: "duqm-special-economic-zone", name: "Duqm Special Economic Zone", citySlug: "duqm", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["veer-pro","setu"], page: {
+      "metaTitle": "Data Loggers in Duqm Special Economic Zone | Prithvi",
+      "metaDescription": "Data loggers for warehouse plots, stores, workshops and cold rooms in the Duqm Special Economic Zone. Get Solution.",
+      "intro": "The Duqm Special Economic Zone is an area of plots, roads, warehouses and workshops laid out on the flat ground behind the Duqm shore, with wide gravel plains on one side and the sea on the other. For a temperature data logger the interest lies in whatever its plots happen to hold: construction materials, spare parts, food for working communities and chilled stock that has travelled a very long way. The description is limited to the goods and rooms a logger user could look after in a zone of this sort. Enquiries about the zone are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Warehouse plots and storage halls",
+          "note": "Large halls shelter goods under long roofs, with one end of a hall often many degrees warmer than the other by mid-afternoon."
+        },
+        {
+          "name": "Materials and spare-parts stores",
+          "note": "Stores hold cable, fittings, seals, coatings and electrical parts that suit a steady range better than the swing between a conditioned store and a baking yard."
+        },
+        {
+          "name": "Cold rooms and food stores",
+          "note": "Cold rooms for food and healthcare stock have to hold their range through dry summer heat, a very long way from the next supplier."
+        },
+        {
+          "name": "Workshops and canteens",
+          "note": "Workshops and kitchens that serve working communities run coolers and freezers around the clock."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A warehouse holding materials for several contractors can give each contractor an account of its own stock in place of a general remark about the hall."
+        },
+        {
+          "slug": "chemical",
+          "sentence": "Stores of coatings, treatment products and lubricants keep labelled limits, and a dated record shows whether a stack sat hot for too long in the exposed zone."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Canteens and food stores in the zone hold chilled and frozen goods that have come a long way, and a log from each room shows when a unit began to struggle."
+        }
+      ],
+      "services": "In an economic zone on an exposed coast we would consider multi-point units along long halls, WiFi loggers for rooms near a router, probe-type loggers for freezers and chilled rooms, and loggers that ride inside a load. Users in Duqm can ask VEGA Calibrations, our parent company, about calibration. WiFi units need a router within range and a power supply, and for a yard we set out the alternatives. What may be supplied for Duqm waits until a request has been reviewed.",
+      "visits": "A visit or an installation in the Duqm Special Economic Zone is not promised. Pass on the business, the rooms to be watched and a contact using the enquiry form, Call or WhatsApp, and we look over the request and reply with what seems workable.",
+      "approach": "If a request went ahead, we would start with the hall or cold room holding the most sensitive stock, using a multi-point unit along its length and a probe logger at the door, then add humidity reading where cold air meets the warm outside. Readings through a summer month would show which end of each hall runs hottest.",
+      "faqs": [
+        {
+          "question": "Can one report cover a very long storage hall?",
+          "answer": "Yes. A multi-channel logger reads probes spaced along the hall, so a single report shows which stretch of the building runs warmest and at what time."
+        },
+        {
+          "question": "Why does a remote zone want batteries in its loggers?",
+          "answer": "Power cuts happen and a repairer is far away, so a battery keeps the record going and gives a complete account of how long a room stood warm."
+        }
+      ],
+      "nearby": [
+        "port-of-duqm"
+      ],
+      "indexable": true
+    } },
+  { slug: "port-of-duqm", name: "Port of Duqm", citySlug: "duqm", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["rajmudra","virat-pro"], page: {
+      "metaTitle": "Data Loggers at the Port of Duqm | Prithvi",
+      "metaDescription": "Data loggers for quayside sheds, cold rooms, container stacks and vehicles around the Port of Duqm on the Arabian Sea. Get Solution.",
+      "intro": "The Port of Duqm is the commercial harbour of the young coastal town, set on an open stretch of the Arabian Sea with wide gravel plains behind. What matters to a temperature data logger here is the waiting between a ship and a very long road: food, supplies and general goods that come off a vessel, stand in a stack or a shed, and then set off across the desert, in dry heat and strong, salty wind. The page deals only with the stock and rooms that a logger user at Duqm could look after. Enquiries about the Duqm port are handled through the enquiry form, Call or WhatsApp.",
+      "places": [
+        {
+          "name": "Container stacks and open yards",
+          "note": "Boxes stacked in the open soak up the sun and the wind blows sand into every gap, so dry cargo can end up far hotter than the shaded air."
+        },
+        {
+          "name": "Cold halls and refrigerated containers",
+          "note": "Chilled and frozen food and health supplies may wait in a cold hall or a refrigerated container before a long road journey, and the hours between plug-in points are the fragile stretch."
+        },
+        {
+          "name": "Sheds and warehouses by the quay",
+          "note": "Goods stand in sheds and warehouses with wide doors that let hot, dusty air in, while the metal roof sets the temperature inside."
+        },
+        {
+          "name": "Lorries waiting for the long road",
+          "note": "Lorries loading for far-off towns stand in the sun with their cargo, and a covered body can end up far hotter than the shade."
+        }
+      ],
+      "industries": [
+        {
+          "slug": "logistics-warehousing",
+          "sentence": "A handler holding goods for several consignees can give each consignee a record of how its pallets were kept, instead of a remark about the shed."
+        },
+        {
+          "slug": "food-beverage",
+          "sentence": "Chilled and frozen food about to set off on a very long road journey needs proof of how it was held at the port, and a small logger packed with the cartons gives exactly that."
+        },
+        {
+          "slug": "pharmaceutical",
+          "sentence": "Medicines and healthcare supplies waiting on a quay before a long road journey need a dated temperature trace, so that a distributor can tell whether a pack stood too long in the heat."
+        }
+      ],
+      "services": "On this stretch of coast we would suggest WiFi loggers in sheds and cold rooms near a router, probe loggers in freezers and refrigerated containers, multi-point units in long halls, and loggers carried inside a consignment. Calibration is something Duqm port users can discuss with VEGA Calibrations, our parent company. WiFi units need a router in range and a power supply, and for a stack or a vehicle we set out other options. What may be supplied for Duqm is decided only after a request has been read.",
+      "visits": "A visit or an installation at the Port of Duqm is not promised. Share the business, the load or room to be watched and a contact on the enquiry form, Call or WhatsApp, and we study the request and tell you what looks workable.",
+      "approach": "If a request went ahead, we would begin with the load or cold room that is hardest to replace, placing one logger in the cargo or beside the door and another at the far wall, then add a humidity unit where chilled goods meet warm air. Several weeks of readings would show how long goods wait between each stage of a trip to the interior.",
+      "faqs": [
+        {
+          "question": "Can a small logger ride in a carton through a remote port chain?",
+          "answer": "Yes. A logger tucked into the load keeps a record of the entire trip, and the report can be exported as a PDF, Excel or CSV file for the person who receives it."
+        },
+        {
+          "question": "Why does a very long road journey make a load record more useful?",
+          "answer": "Hours of travel in a closed vehicle can warm a load far beyond the shade temperature, and a continuous log shows when and for how long that happened."
+        }
+      ],
+      "nearby": [
+        "duqm-special-economic-zone"
+      ],
       "indexable": true
     } },
 ];

@@ -298,6 +298,16 @@ export const locationContent: Record<string, LocationContent> = {
       "Data loggers for Al Buraimi Governorate: Buraimi's markets, date gardens, clinics and the Buraimi Industrial Area stores. Get Solution.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
+  "oman/dhofar-governorate": {
+    metaDescription:
+      "Data loggers for Dhofar Governorate: Salalah, Salalah Free Zone, Raysut Industrial Estate and Port of Salalah stores and cold rooms. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+  },
+  "oman/al-wusta-governorate": {
+    metaDescription:
+      "Data loggers for Al Wusta Governorate: Duqm, the Duqm Special Economic Zone and Port of Duqm stores and cold rooms. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+  },
   "qatar/doha-municipality": {
     metaDescription:
       "Data loggers for Doha Municipality: Doha city, West Bay, Al Sadd, Msheireb and The Pearl-Qatar kitchens, clinics and stores. Get Solution.",

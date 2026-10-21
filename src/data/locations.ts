@@ -23828,7 +23828,7 @@ export const locations: LegacyLocationNode[] = [
       {
         question: "Which parts of Oman have a page?",
         answer:
-          "Muscat, Al Batinah North, Al Batinah South, Ad Dakhiliyah, Ad Dhahirah and Al Buraimi governorates have their own pages, with their cities and districts beneath. If your site is somewhere else, write to us through the enquiry form, Call or WhatsApp with what you store, and we answer with what looks suitable.",
+          "Muscat, Al Batinah North, Al Batinah South, Ad Dakhiliyah, Ad Dhahirah, Al Buraimi, Dhofar and Al Wusta governorates have their own pages, with their cities and districts beneath. If your site is somewhere else, write to us through the enquiry form, Call or WhatsApp with what you store, and we answer with what looks suitable.",
       },
       {
         question: "How are loggers set up for a site far from a main city?",
@@ -23848,6 +23848,8 @@ export const locations: LegacyLocationNode[] = [
       { slug: "ad-dakhiliyah-governorate", text: "The interior below the high mountains, with old oasis towns, date groves, irrigation channels, forts, markets and an industrial estate, in hot days and cold winter nights." },
       { slug: "ad-dhahirah-governorate", text: "The dry plain on the western side of the mountains, with an oasis town at the edge of the desert, date farms, markets and an industrial area, in fierce summer heat." },
       { slug: "al-buraimi-governorate", text: "The inland oasis governorate in the north-west, with a trading city of shops and date gardens and an industrial area, in hot, dry summers." },
+      { slug: "dhofar-governorate", text: "The far south on the Arabian Sea, with a coastal city of coconut and banana groves, a monsoon season of mist and drizzle, a port, a free zone and an industrial estate." },
+      { slug: "al-wusta-governorate", text: "The central desert and coast, with a young port and economic-zone town on the Arabian Sea among gravel plains, in dry heat and sea wind." },
     ],
     indexable: true,
     children: [
@@ -25762,6 +25764,287 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Buraimi | Prithvi",
             metaDescription:
               "Data loggers for Buraimi's supermarkets, date traders, hospital and warehouses in an inland oasis city. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "dhofar-governorate",
+        name: "Dhofar Governorate",
+        type: "state",
+        intro:
+          "Dhofar Governorate occupies the far south of Oman on the Arabian Sea, a region where a coastal plain of coconut palms, banana groves and fishing beaches rises into hills that turn green under the summer monsoon. Salalah is the main city, with a harbour, a market, a hospital and shops, while at Raysut, to the west, a container port, a free zone and an industrial estate stand beside the sea. For several weeks each year mist and drizzle cool the coast and push humidity very high, then the dry heat returns. Fruit, fish, frankincense goods, food and building materials wait in sheds and warehouses in such swings. The pages below cover the city, its port district and its industrial areas.",
+        localIndustries: [
+          "Fruit, coconut and fish trade",
+          "Port-side and free-zone warehousing",
+          "Industrial and workshop storage",
+          "Clinics, pharmacies and care centres",
+        ],
+        citiesServed: ["Salalah"],
+        supportNote:
+          "Enquiries from Dhofar Governorate are handled through the enquiry form, Call or WhatsApp. Say which area, which rooms and how they are cooled, and our reply covers what seems suitable on site.",
+        faqs: [
+          {
+            question: "Which places in Dhofar Governorate have a page?",
+            answer:
+              "Salalah has a city page, and Salalah Free Zone, Raysut Industrial Estate and Port of Salalah have area pages under it. A town elsewhere in the south can be raised through the enquiry form.",
+          },
+          {
+            question: "Why does a monsoon season matter for stored goods?",
+            answer:
+              "For weeks the air is cool, misty and very humid, so cartons soften, dry goods take on moisture and mould can start, and a humidity log beside the temperature shows when a store turned damp.",
+          },
+          {
+            question: "Can one login cover a city market and a port-side warehouse?",
+            answer:
+              "Yes. Each room is a separate point on one dashboard with its own alert contacts, and a manager can see the city and the port district together in one exported report.",
+          },
+        ],
+        listing: [
+          { slug: "salalah", text: "A coastal city of coconut and banana groves, a harbour and market, a hospital and shops, with a misty, very humid monsoon season." },
+        ],
+        areaListing: [
+          { slug: "salalah-free-zone", text: "A free zone beside the port at Raysut, with warehouse units, offices and light industry close to the sea." },
+          { slug: "raysut-industrial-estate", text: "The industrial estate at Raysut, with factories, workshops, warehouses and chemical and materials stores." },
+          { slug: "port-of-salalah", text: "The container port at Raysut, where food, supplies and general goods wait on quays and in sheds in warm, damp air." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "salalah",
+            name: "Salalah",
+            type: "city",
+            intro:
+              "Salalah is a coastal city on the Arabian Sea in the far south of Oman, set on a green plain of coconut palms and banana groves below hills that turn lush under the summer monsoon, and a temperature data logger here serves a city of fish rooms, fruit stores, markets, a hospital and warehouses in warm, often very damp air. Fishing boats land the catch at a harbour, growers bring coconuts, bananas and papayas to the markets, and traders sell frankincense, spices and household goods in old lanes. Shops, clinics and workshops serve a growing city, and families take to the beaches and the green hills when the weather turns. For weeks each summer mist and drizzle cool the coast. Enquiries from Salalah are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The year turns on the monsoon: for weeks in mid-year the air is cool, misty and very humid with drizzle on the hills, while the rest of the year is warm and dry with sea breezes, so stores swing between damp and dry, and cartons, fruit and frankincense goods all respond. Mould can start quickly in a shut-up room during the wet weeks, power cuts follow storms, and a cooler that fails in warm weather loses its contents fast.",
+            areas: [
+              {
+                name: "The fishing harbour and ice stores",
+                note: "Boats land the catch at the harbour, where ice stores and cold rooms keep it for the market through warm, salty, often very humid weather.",
+              },
+              {
+                name: "Fruit, coconut and banana stores",
+                note: "Growers and traders keep bananas, papayas, coconuts and vegetables in sheds and cool rooms, where ripening and rot speed up in the damp weeks.",
+              },
+              {
+                name: "The market and frankincense and spice stock rooms",
+                note: "Traders in the old lanes keep frankincense goods, spices, sweets and household goods in small back rooms that were never designed for cooling or dehumidifying.",
+              },
+              {
+                name: "The hospital, clinics and pharmacies",
+                note: "The city's hospital, clinics and pharmacies keep vaccines, insulin and medicines in refrigerators that must hold their range whenever the power dips.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Salalah fish sellers, fruit traders and grocers hold goods that spoil or ripen fast in warm damp air, and a record from each cold room shows a buyer how a lot was kept.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The Salalah hospital and clinics hold vaccines for a wide southern district, and a phone alert reaches whoever is on duty if a refrigerator warms in the small hours.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Salalah keep stock to labelled ranges, and a dated log shows how a room behaved through the monsoon weeks and any power cut.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods brought to Salalah wait in vehicles and warehouses before use, and a logger tucked into a load records the heat and humidity each lot met.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reading humidity beside temperature, one unit shows when monsoon damp has crept into a spice, frankincense or dry-goods store that looks fine on a thermometer.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a fruit cold room at floor, shelf and door height, showing which level warms first between loads.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable fits a ward or pharmacy refrigerator in Salalah and leaves the way staff use the unit unchanged.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Salalah fruit trader or fish seller keep a temperature record?",
+                answer:
+                  "A logger in the cold room or the ice store keeps a day-and-night record, and a report for the dates of one lot can be saved as a PDF, Excel or CSV file for a buyer.",
+              },
+              {
+                question: "Why does the monsoon season matter for a humidity reading?",
+                answer:
+                  "For weeks the air is cool and very damp, so cartons soften and dry goods take on moisture, and a humidity trend beside the temperature shows when a store turned wet.",
+              },
+              {
+                question: "How would an enquiry from Salalah be handled?",
+                answer:
+                  "Give the shop, clinic or store, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Salalah.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Salalah clinics?",
+                answer:
+                  "Calibration of loggers and probes for Salalah clinics is looked after by VEGA Calibrations, our parent company; share the model and the range and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "duqm", name: "Duqm" },
+              { slug: "nizwa", name: "Nizwa" },
+            ],
+            metaTitle: "Temperature Data Loggers in Salalah | Prithvi",
+            metaDescription:
+              "Data loggers for Salalah's fish rooms, fruit stores, spice stock rooms, hospital and warehouses through the humid monsoon. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "al-wusta-governorate",
+        name: "Al Wusta Governorate",
+        type: "state",
+        intro:
+          "Al Wusta Governorate stretches across the central desert of Oman to a long, empty coast on the Arabian Sea, a country of gravel plains, low cliffs, salt flats and very few towns. Duqm, the main coastal town, has grown around a fishing harbour, a new port and an economic zone laid out on the flat ground behind the shore, with housing, shops and a hospital for the people who work there. Summers are hot and dry with strong sea winds and sudden dust, winters are mild, and long roads link every settlement. Food, medicines, spare parts and materials wait in sheds and vehicles in such heat. The page below describes Duqm, its port and its economic zone.",
+        localIndustries: [
+          "Port-side and zone warehousing",
+          "Fish and food supply",
+          "Workshops and materials stores",
+          "Clinics, pharmacies and care centres",
+        ],
+        citiesServed: ["Duqm"],
+        supportNote:
+          "Enquiries from Al Wusta Governorate are handled through the enquiry form, Call or WhatsApp. State the town, the rooms and how they are cooled, and we come back with what seems suitable here.",
+        faqs: [
+          {
+            question: "Which places in Al Wusta Governorate have a page?",
+            answer:
+              "Duqm has a city page, and the Duqm Special Economic Zone and the Port of Duqm have area pages under it. A place elsewhere along the central coast can be raised through the enquiry form.",
+          },
+          {
+            question: "Why does a remote coast want phone alerts and batteries?",
+            answer:
+              "The next supplier is a very long drive away, so a warning that a cold room is drifting lets staff act while the stock can still be saved, and a battery keeps the record going through a power cut.",
+          },
+          {
+            question: "Is blown sand a problem for a logger on this coast?",
+            answer:
+              "Wind drives sand into every gap, so a logger is fixed on a shaded inner wall clear of vents and doors, with a battery that keeps the record going through any outage.",
+          },
+        ],
+        listing: [
+          { slug: "duqm", text: "A young port and economic-zone town on an empty stretch of the Arabian Sea coast, with a fishing harbour, housing and a hospital, in dry heat and strong wind." },
+        ],
+        areaListing: [
+          { slug: "duqm-special-economic-zone", text: "The economic zone on the flat ground behind the Duqm shore, with warehouse plots, workshops, stores and offices." },
+          { slug: "port-of-duqm", text: "The commercial port at Duqm, where food, supplies and general goods wait on quays and in sheds in dry heat and sea wind." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "duqm",
+            name: "Duqm",
+            type: "city",
+            intro:
+              "Duqm is a young port and economic-zone town on a long, empty stretch of the Arabian Sea coast in central Oman, built on flat ground between the shore and wide gravel plains, and a temperature data logger here serves a place of fishing boats, new housing, shops, a hospital and large warehouse plots in dry heat and strong sea wind. A fishing harbour lands the catch each morning, a commercial port and a zone of plots lie along the coast, and the town has been laid out with wide roads, schools and a shopping area for the people who work there. Summers are hot and dry, and in the evenings the wind drops and families walk along the new streets. Enquiries from Duqm are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The coast is exposed to strong wind, so summer sun and blown sand strike every shed, the air is dry with salt on the breeze, and the nearest large supplier is a very long drive away, so cold boxes, shop coolers and clinic refrigerators depend on a warning arriving in time. Metal-roofed buildings without cooling reach extreme temperatures, and a failed fridge in a new housing block can lose its contents before anyone notices.",
+            areas: [
+              {
+                name: "The fishing harbour and ice boxes",
+                note: "Boats land the catch at the harbour, where ice boxes and small cold rooms hold it for the market through the warmest hours in salty, windy air.",
+              },
+              {
+                name: "Supermarkets and food stores",
+                note: "Shops and supermarkets serve the housing and the workplaces from display coolers and cold rooms opened constantly through the day, a very long way from a wholesale supplier.",
+              },
+              {
+                name: "The hospital, clinics and pharmacies",
+                note: "A hospital, clinics and pharmacies hold vaccines and medicines in refrigerators that must hold a range through power interruptions.",
+              },
+              {
+                name: "Warehouses and workshops behind the shore",
+                note: "Warehouses and workshops on the flat ground hold parts, materials and household goods under metal roofs that heat up quickly in the sun.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Duqm fish sellers, grocers and supermarkets hold goods that spoil quickly in dry heat, and a log from each cold box shows when a unit began to warm.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The Duqm hospital and clinics hold vaccines for a very wide, sparsely settled district, and a phone alert reaches the person on duty if a refrigerator warms.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Duqm store medicines to labelled ranges, and a dated record shows how a room behaved through the hottest weeks and any outage.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Supplies reach Duqm over very long desert roads, and a logger tucked into a load records how long it stood in a vehicle in the sun before reaching a store.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels trace a supermarket cold room from entrance to back wall, showing whether the cold reaches the final shelf.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short lead slips into a clinic or pharmacy refrigerator in Duqm and leaves daily routines unchanged.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels placed down a long storage hall show which bay is warmest beneath the roof, in a single report.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Duqm shop or clinic use a single logger?",
+                answer:
+                  "Yes. One logger with a phone alert can watch a lone cold room or refrigerator as long as a router is within reach, and extra points can be added to the account later.",
+              },
+              {
+                question: "Why is a battery important on a remote coast?",
+                answer:
+                  "Power cuts happen and a repairer is far away, so a battery lets the logger keep recording and gives a full record of how long a room stood warm.",
+              },
+              {
+                question: "How would an enquiry from Duqm be handled?",
+                answer:
+                  "Give the shop, clinic or store, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Duqm.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Duqm clinics?",
+                answer:
+                  "Calibration of loggers and probes for Duqm clinics is looked after by VEGA Calibrations, our parent company; share the model and the range and we explain the choices.",
+              },
+            ],
+            nearby: [
+              { slug: "salalah", name: "Salalah" },
+              { slug: "haima", name: "Haima" },
+            ],
+            metaTitle: "Temperature Data Loggers in Duqm | Prithvi",
+            metaDescription:
+              "Data loggers for Duqm's fishing harbour, supermarkets, hospital and warehouse plots on the empty Arabian Sea coast. Get Solution.",
             indexable: true,
           },
         ],
