@@ -22176,7 +22176,7 @@ export const locations: LegacyLocationNode[] = [
       {
         question: "Which parts of Qatar have a page?",
         answer:
-          "Doha, Al Rayyan and Al Wakrah municipalities have their own pages, each with cities and districts beneath them. For another place, send the site and what you store through the enquiry form, Call or WhatsApp, and we reply with what looks suitable.",
+          "Doha, Al Rayyan, Al Wakrah and Al Khor and Al Thakhira municipalities have their own pages, each with cities and districts beneath them. For another place, send the site and what you store through the enquiry form, Call or WhatsApp, and we reply with what looks suitable.",
       },
       {
         question: "How is monitoring set up for a Qatar site?",
@@ -22193,6 +22193,7 @@ export const locations: LegacyLocationNode[] = [
       { slug: "doha-municipality", text: "The capital's municipality, with a bay-side city of towers, markets, hospitals and hotels, and its central business and island districts, in hot, humid summers." },
       { slug: "al-rayyan-municipality", text: "The municipality west of the capital, with a spreading city of villas, malls, schools and clinics, and its Al Gharafa, Birkat Al Awamer and Al Sailiya districts, in hot, dusty summers." },
       { slug: "al-wakrah-municipality", text: "The municipality south of the capital, with a coastal fishing town, an industrial port town beside the dunes and a growing inland suburb, in hot, humid summers." },
+      { slug: "al-khor-and-al-thakhira-municipality", text: "The municipality on the north-east coast, with a creek-side fishing town, mangrove shallows and a headland industrial city, in hot, humid summers and salt air." },
     ],
     indexable: true,
     children: [
@@ -22680,7 +22681,7 @@ export const locations: LegacyLocationNode[] = [
               {
                 slug: "veer",
                 reason:
-                  "Ten channels along a long parts warehouse show which bay sits warmest under the roof, all in one report.",
+                  "Ten channels spread through a long materials shed show which bay runs hottest beneath the roof, in one report.",
               },
               {
                 slug: "setu",
@@ -22692,7 +22693,7 @@ export const locations: LegacyLocationNode[] = [
               {
                 question: "Can a Mesaieed laboratory or warehouse use temperature loggers?",
                 answer:
-                  "A logger in each room records through the day and night, and a report for any period can be exported in PDF, Excel or CSV form for an audit or a client.",
+                  "Each room can have its own logger keeping a day-and-night record, and a report for any period can be saved as a PDF, Excel or CSV file for an audit or a client.",
               },
               {
                 question: "Why does a store beside the dunes and the sea need a humidity reading?",
@@ -22814,6 +22815,243 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Al Wukair | Prithvi",
             metaDescription:
               "Data loggers for Al Wukair's supermarkets, farm sheds, restaurants, clinics and roadside warehouses in dry, dusty heat. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "al-khor-and-al-thakhira-municipality",
+        name: "Al Khor and Al Thakhira Municipality",
+        type: "state",
+        intro:
+          "The Al Khor and Al Thakhira Municipality covers a stretch of the north-east coast of Qatar, where a creek-side fishing town, shallow mangrove-lined inlets and a flat headland meet the Gulf. Al Khor is the main town, with a harbour for fishing boats, a corniche, parks and family neighbourhoods, while Ras Laffan lies further along the coast on a headland that has been laid out as an industrial city with a harbour of its own. Summers are long, very hot and humid on the shore, winters mild, and sandy winds blow in from the desert. Food, fish, chemicals and medicines wait in shops, sheds and warehouses in such heat. The pages below cover the two towns and the industrial city at Ras Laffan.",
+        localIndustries: [
+          "Fish, food and market trade",
+          "Industrial support stores and laboratories",
+          "Clinics, pharmacies and care centres",
+          "Warehouses and workshops",
+        ],
+        citiesServed: ["Al Khor","Ras Laffan"],
+        supportNote:
+          "Enquiries from Al Khor and Al Thakhira Municipality are handled through the enquiry form, Call or WhatsApp. Say which town, which rooms and how they are cooled, and we reply with what looks suitable for the site.",
+        faqs: [
+          {
+            question: "Which places in Al Khor and Al Thakhira Municipality have a page?",
+            answer:
+              "Al Khor and Ras Laffan each have a city page, and the Ras Laffan Industrial City has an area page under Ras Laffan. Another place on the coast can be raised through the enquiry form.",
+          },
+          {
+            question: "Why does a creek and mangrove coast matter for stores?",
+            answer:
+              "Still, damp air above the creek and salt on the breeze reach every shed and cold box, so a humidity record beside the temperature shows moisture that a thermometer alone would miss.",
+          },
+          {
+            question: "Can one dashboard cover a fishing town and an industrial site?",
+            answer:
+              "Yes. Each room is a separate point on one dashboard with its own alert contacts, and a manager can view both places together in a single exported report.",
+          },
+        ],
+        listing: [
+          { slug: "al-khor", text: "A creek-side fishing town with a corniche, parks, a harbour and family neighbourhoods, in hot, humid summers and salt air." },
+          { slug: "ras-laffan", text: "A headland city on the north-east coast with a harbour, support stores, laboratories, workshops and housing for a working community." },
+        ],
+        areaListing: [
+          { slug: "ras-laffan-industrial-city", text: "The planned industrial city on the Ras Laffan headland, with materials and parts stores, laboratories, canteens and workshops beside the shore." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "al-khor",
+            name: "Al Khor",
+            type: "city",
+            intro:
+              "Al Khor is a coastal town on the north-east side of Qatar, named for the creek that curls beside it, and a temperature data logger here serves a place of fishing boats, family neighbourhoods, shops and clinics in hot, humid sea air. Fishermen land their catch at a small harbour, mangrove-lined inlets lie close to the town, and a corniche, parks and beaches draw families in the cooler months. Supermarkets, bakeries and restaurants serve the neighbourhoods, and a hospital and clinics serve the district. Summer afternoons are far beyond comfortable and the nights stay warm, and in the cooler evenings families walk the corniche and fill the cafes. Enquiries from Al Khor are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The creek keeps the air damp as well as hot through the long summer, salt reaches every shed and ice box, and sandy winds blow in from the desert in some seasons, so cold rooms, shop coolers and clinic refrigerators work against the weather for months. A cooler that loses power on an August afternoon warms fast, and doors opened constantly in the harbour market let in damp air that condenses on anything cold.",
+            areas: [
+              {
+                name: "The fishing harbour and ice stores",
+                note: "Boats land the catch at the harbour, where ice stores and cold boxes hold it through the hottest part of the day in damp, salty air.",
+              },
+              {
+                name: "Supermarkets, bakeries and restaurants",
+                note: "Shops and restaurants in the neighbourhoods run walk-in coolers, freezers and display cabinets that are opened constantly through the day.",
+              },
+              {
+                name: "Hospital, clinics and pharmacies",
+                note: "A hospital, clinics and pharmacies hold vaccines, insulin and medicines in refrigerators that must hold a range through power interruptions.",
+              },
+              {
+                name: "Warehouses and workshops on the town's edge",
+                note: "Small warehouses and workshops hold goods and parts for the district under metal roofs that heat up quickly in the sun.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Fish sellers, bakeries, supermarkets and restaurants in Al Khor hold goods that spoil quickly in coastal heat, and a record from each ice store shows when a cold box began to warm.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Al Khor keep stock to labelled ranges, and a dated record shows how a room behaved through the hottest weeks and any outage.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "The hospital and clinics of Al Khor hold vaccines to strict ranges, and a phone alert reaches the person on duty if a refrigerator warms in the night.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods brought to Al Khor wait in vehicles and storerooms before use, and a logger placed in a load records the heat and humidity each lot met.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow an ice store or a bakery cold room at floor, shelf and door height, showing which level warms first.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable fits a clinic or pharmacy refrigerator in Al Khor and leaves the way staff use the unit unchanged.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reading humidity beside temperature, one unit shows when creek damp has crept into a dry store that looks fine on a thermometer.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can an Al Khor fish seller or bakery use temperature loggers?",
+                answer:
+                  "Every ice store, cooler and freezer can carry its own logger, giving a day-and-night record, and a report for any chosen period can be saved as a PDF, Excel or CSV file for a buyer or an inspector.",
+              },
+              {
+                question: "Why does a store near a creek need a humidity reading?",
+                answer:
+                  "Warm, damp air condenses on cool surfaces and softens cartons, so a humidity trend beside the temperature shows moisture that a thermometer would miss.",
+              },
+              {
+                question: "What happens to the record if the power or the WiFi fails in Al Khor?",
+                answer:
+                  "The logger keeps recording from its own battery and stores the readings, so the hours of an outage are still on record when the site is connected again.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Al Khor clinics?",
+                answer:
+                  "Calibration of loggers and probes for Al Khor clinics is looked after by VEGA Calibrations, our parent company; share the model and the range and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "ras-laffan", name: "Ras Laffan" },
+              { slug: "doha", name: "Doha" },
+              { slug: "umm-salal", name: "Umm Salal" },
+            ],
+            metaTitle: "Temperature Data Loggers in Al Khor | Prithvi",
+            metaDescription:
+              "Data loggers for Al Khor's harbour ice stores, bakeries, supermarkets, clinics and warehouses beside the creek. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "ras-laffan",
+            name: "Ras Laffan",
+            type: "city",
+            intro:
+              "Ras Laffan is a headland on the north-east coast of Qatar, laid out as a planned industrial city with a harbour and living quarters, and a temperature data logger here serves a working community of laboratories, stores, workshops, canteens and clinics in extreme summer heat. The flat plain behind the shore is dry and sandy, the sea air is humid and salty, and the surrounding land is open and treeless. Spare parts, chemicals, food and medicines all wait in warehouses and vehicles for use on the site and in its housing. Winters are mild and summers are long, and the nearest large town is a drive away, so stock held on site matters. Enquiries from Ras Laffan are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The headland is exposed, so summer sun and sandy wind strike every building, the shore is damp and salty while the plain behind is dry, and metal-roofed sheds without cooling reach extreme temperatures. A refrigerator in a staff canteen can lose its contents in a single night shift, and condensation forms the moment a cold door opens to the outside air. Roads on the headland are long and straight, so vehicles carrying chilled food cross open ground in full sun, and a clinic refrigerator that warms overnight may not be noticed until the morning round.",
+            areas: [
+              {
+                name: "Support warehouses and parts stores",
+                note: "Warehouses hold spare parts, lubricants, coatings and electrical equipment in sheds where heat and salt damp both threaten stock.",
+              },
+              {
+                name: "Laboratory sample and reagent stores",
+                note: "Laboratories that support industrial users keep samples, reagents and reference materials in refrigerators, freezers and conditioned rooms with stated limits.",
+              },
+              {
+                name: "Canteens and staff kitchens",
+                note: "Canteens and kitchens feeding a working community run walk-in coolers and freezers through long summers, far from alternative suppliers.",
+              },
+              {
+                name: "Clinics and pharmacies in the living quarters",
+                note: "Clinics and pharmacies serving the community hold vaccines and medicines in refrigerators that must hold their range through power interruptions.",
+              },
+            ],
+            industries: [
+              {
+                slug: "chemical",
+                sentence:
+                  "Stores of lubricants, coatings and treatment products at Ras Laffan carry labelled ranges, and a dated log shows whether a hot shed pushed a pallet outside them.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "Support laboratories at Ras Laffan keep samples and reference materials to set limits, and an exported report is ready whenever an audit asks for one.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Canteens and kitchens feeding the community hold chilled and frozen food, and a record from each cooler shows when a compressor began to struggle.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Clinics in the living quarters hold vaccines to strict ranges, and a phone alert reaches the person responsible if a refrigerator warms.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels follow a laboratory room from its entrance to its back wall, showing whether the air at the rear matches the air at the front.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels along a long parts warehouse show which bay sits warmest under the roof, all in one report.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable fits a clinic or laboratory refrigerator at Ras Laffan and leaves daily routines unchanged.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a laboratory or canteen at Ras Laffan use temperature loggers?",
+                answer:
+                  "A logger in each room records through the day and night, and a report for any period can be exported in PDF, Excel or CSV form for an audit or a client.",
+              },
+              {
+                question: "Why do sheds on an exposed headland run so hot?",
+                answer:
+                  "Direct sun and sandy wind strike a metal roof from every side, so a logger among the stock, not on an office wall, records what the goods actually met.",
+              },
+              {
+                question: "How would an enquiry from Ras Laffan be handled?",
+                answer:
+                  "Send the store, laboratory or canteen, the rooms and a contact through the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Ras Laffan.",
+              },
+              {
+                question: "Is calibration discussed for loggers used at Ras Laffan?",
+                answer:
+                  "Calibration of loggers and probes for Ras Laffan sites is looked after by VEGA Calibrations, our parent company; share the model and range and we explain the options.",
+              },
+            ],
+            nearby: [
+              { slug: "al-khor", name: "Al Khor" },
+              { slug: "doha", name: "Doha" },
+            ],
+            metaTitle: "Temperature Data Loggers in Ras Laffan | Prithvi",
+            metaDescription:
+              "Data loggers for Ras Laffan's support warehouses, laboratories, canteens and clinics on the exposed north-east headland. Get Solution.",
             indexable: true,
           },
         ],

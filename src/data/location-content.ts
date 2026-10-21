@@ -242,6 +242,12 @@ export const locationContent: Record<string, LocationContent> = {
       "Data loggers for Al Wakrah Municipality: Al Wakrah, Mesaieed, Al Wukair and Mesaieed Industrial City stores, kitchens and clinics. Get Solution.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
+  "qatar/al-khor-and-al-thakhira-municipality": {
+    metaDescription:
+      "Data loggers for Al Khor and Al Thakhira Municipality: Al Khor, Ras Laffan and Ras Laffan Industrial City stores, kitchens and clinics. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+    inName: "Al Khor and Al Thakhira",
+  },
   "qatar/doha-municipality": {
     metaDescription:
       "Data loggers for Doha Municipality: Doha city, West Bay, Al Sadd, Msheireb and The Pearl-Qatar kitchens, clinics and stores. Get Solution.",
