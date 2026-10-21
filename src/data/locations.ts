@@ -28596,21 +28596,21 @@ export const locations: LegacyLocationNode[] = [
         name: "Muharraq Governorate",
         type: "state",
         intro:
-          "The Muharraq Governorate covers Muharraq Island and the shore around it to the north-east of Manama, joined to the capital by causeways. Narrow lanes of old houses and sweet shops sit close to newer housing towns, a seaside district with a harbour and warehouse zone lies at the south-east tip, and the island's airport occupies flat ground in the middle. Summers are long, very hot and humid, winters are mild, and haze and salt blow across the low land from every side. Food, medicines and general freight sit in small shops, home kitchens and larger sheds in that air. The pages below cover the old city, Hidd and its harbour district, Arad and Busaiteen.",
+          "The Muharraq Governorate covers Muharraq Island and the shore around it to the north-east of Manama, joined to the capital by causeways. Narrow lanes of old houses and sweet shops sit close to newer housing towns, a seaside district with a harbour and warehouse zone lies at the south-east tip, and the island's airport occupies flat ground in the middle. Summers are long, very hot and humid, winters are mild, and haze and salt blow across the low land from every side. Food, medicines and general freight sit in small shops, home kitchens and larger sheds in that air. The pages below cover the old city, Hidd and its harbour district, Arad, Busaiteen and the Amwaj Islands.",
         localIndustries: [
           "Food shops and sweet makers",
           "Clinics and pharmacies",
           "Warehousing and freight",
           "Fishing and seafood trade",
         ],
-        citiesServed: ["Muharraq","Hidd","Arad","Busaiteen"],
+        citiesServed: ["Muharraq","Hidd","Arad","Busaiteen","Amwaj Islands"],
         supportNote:
           "Enquiries from the Muharraq Governorate are handled through the enquiry form, Call or WhatsApp. Name the town, the rooms and the goods, and our reply sets out what seems suitable for the site.",
         faqs: [
           {
             question: "Which places in the Muharraq Governorate have a page?",
             answer:
-              "Muharraq, Hidd, Arad and Busaiteen have city pages. The airport sits under Muharraq, and Khalifa Bin Salman Port and the Bahrain Logistics Zone sit under Hidd. A town not listed here can be raised through the enquiry form.",
+              "Muharraq, Hidd, Arad, Busaiteen and the Amwaj Islands have city pages. The airport sits under Muharraq, and Khalifa Bin Salman Port and the Bahrain Logistics Zone sit under Hidd. A town not listed here can be raised through the enquiry form.",
           },
           {
             question: "Why do island sites need extra attention to humidity?",
@@ -28628,6 +28628,7 @@ export const locations: LegacyLocationNode[] = [
           { slug: "hidd", text: "The seaside town at the south-east tip, with fishing boats, a harbour and a warehouse district nearby." },
           { slug: "arad", text: "A housing town on the south-western shore of the island, with bayside streets, neighbourhood shops and clinics." },
           { slug: "busaiteen", text: "A town on the northern coast of the island, with a long shore road, family kitchens, shops and boat yards." },
+          { slug: "amwaj-islands", text: "A group of reclaimed islands off the north-east coast, with waterside cafes, apartment blocks, marinas and clinics in salty, humid air." },
         ],
         areaListing: [
           { slug: "bahrain-international-airport", text: "The island's airport on flat ground north of the old town, described only through the stores, halls and vehicles a logger user might look after." },
@@ -29023,6 +29024,103 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Busaiteen | Prithvi",
             metaDescription:
               "Data loggers for Busaiteen's home kitchens, shore-road shops, boat-yard stores and pharmacies in salty, humid air. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "amwaj-islands",
+            name: "Amwaj Islands",
+            type: "city",
+            intro:
+              "The Amwaj Islands are a group of reclaimed islands off the north-eastern coast of Muharraq Island, reached by road across a short link, and a temperature data logger here serves waterside apartment blocks, villas, cafes, restaurants, small hotels, supermarkets and clinics, all sitting on low, flat, sea-ringed ground. Marinas, promenades and shop rows run beside the water, and residential streets fill the space between. Summers are long, very hot and humid, winters are mild and breezy, and salt spray and haze blow across the whole group. Enquiries from the Amwaj Islands are handled through the enquiry form, Call or WhatsApp. This page covers only the kinds of goods and rooms a logger user may look after, and makes no statement about who built or owns anything on the islands.",
+            climateAngle:
+              "With open water on every side, the islands get no shelter from the sun and no break from salt. Sea air reaches rooftop condensers, balcony freezers and ground-floor store doors, so coils clog and seals perish faster than inland, and summer evenings stay warm and damp long after dark. Hot, humid air also makes every cooled room work harder against a heavy daytime load.",
+            areas: [
+              {
+                name: "Waterside cafes, restaurants and takeaway kitchens",
+                note: "Kitchens facing the promenades keep dairy, meat, seafood and desserts in chillers and freezers that run flat out on summer evenings, often beside outdoor seating that keeps doors open.",
+              },
+              {
+                name: "Supermarkets and convenience stores in the residential streets",
+                note: "Shops serving the apartment blocks sell chilled drinks, dairy and frozen food from open cabinets and keep surplus in small back rooms with limited airflow.",
+              },
+              {
+                name: "Small hotels and serviced flats",
+                note: "Residential hotels hold breakfast supplies, laundry chemicals and cleaning stock in service rooms where one wall-mounted unit does all the cooling.",
+              },
+              {
+                name: "Clinics, pharmacies and dental practices",
+                note: "Small medical practices keep vaccines, anaesthetics and medicines in domestic-size refrigerators that share a circuit with the rest of the unit.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Cafes, restaurants and supermarkets on the islands hold chilled and frozen stock in salt-laden air, and a stored record shows which cooler began to drift on a busy weekend evening.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies and clinics on the islands store stock to labelled ranges, and a dated log shows how each refrigerator held up through the hottest weeks and any supply dip.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A small clinic that keeps vaccines needs to show they stayed in range, and a phone alert reaches the person on duty if a fridge warms overnight.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Vans that restock the shops on the islands cross the link and spend time parked in the sun, and a logger tucked into a crate records what each stop did to the load.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "A slim probe on a short cable slips into a pharmacy fridge or a cafe cooler without changing how the unit is loaded.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "One unit reading humidity as well as temperature shows when salt-damp air has crept into a storeroom that seems fine on a thermometer.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a restaurant chiller from its lowest shelf to its top shelf and door, showing which level warms first during service.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a waterside cafe or supermarket use a data logger?",
+                answer:
+                  "Yes. A logger in each cooler or freezer keeps a continuous record, a phone alert reaches the owner if a unit warms, and a report can be exported in PDF, Excel or CSV form.",
+              },
+              {
+                question: "Why does sea spray matter to refrigeration equipment?",
+                answer:
+                  "Salt and moisture settle on coils and seals, so units lose efficiency over a season, and a trend record shows that slow decline before stock is affected.",
+              },
+              {
+                question: "How would an enquiry from the Amwaj Islands be handled?",
+                answer:
+                  "Name the business, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for the site.",
+              },
+              {
+                question: "Can a clinic on the islands discuss calibration for its loggers?",
+                answer:
+                  "Calibration for a clinic's loggers on the islands is something VEGA Calibrations, our parent company, can discuss; tell us the model and the range you work to.",
+              },
+            ],
+            nearby: [
+              { slug: "muharraq", name: "Muharraq" },
+              { slug: "busaiteen", name: "Busaiteen" },
+              { slug: "manama", name: "Manama" },
+            ],
+            metaTitle: "Temperature Data Loggers in Amwaj Islands | Prithvi",
+            metaDescription:
+              "Data loggers for Amwaj Islands cafes, supermarkets, clinics and small hotels in salty, hot, humid air. Get Solution.",
             indexable: true,
           },
         ],
