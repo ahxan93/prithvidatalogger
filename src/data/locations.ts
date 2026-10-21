@@ -23943,7 +23943,7 @@ export const locations: LegacyLocationNode[] = [
               {
                 slug: "dhruva",
                 reason:
-                  "Four channels follow a hotel chiller at floor, shelf and door height, showing which level warms first between deliveries of stock.",
+                  "Four channels follow a hotel chiller at floor, shelf and door height, showing which level warms first between loads of stock.",
               },
               {
                 slug: "setu",
