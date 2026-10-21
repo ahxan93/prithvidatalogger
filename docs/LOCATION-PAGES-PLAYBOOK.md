@@ -469,6 +469,8 @@
 | Khiran (`khiran`, city, Ahmadi Governorate) | Kuwait | Chalet kitchens and cafes, marina and boat stores, small shops, clinic and pharmacy | Food, medicines, logistics | Blazing, humid shore air | Fahaheel, Wafra |
 | Jahra (`jahra`, city, Jahra Governorate) | Kuwait | Hospital, clinics and pharmacies, butchers and supermarkets, farm and feed stores, yard workshops | Medicines, food, logistics | Bone-dry blazing summers, dust | Sulaibiya, Kuwait City, Farwaniya |
 | Sulaibiya (`sulaibiya`, city, Jahra Governorate) | Kuwait | Wholesale cold rooms, warehouses and trading yards, small factories, shops and clinics among the housing | Logistics, food, chemicals | Blazing, wide-open, dusty plain | Jahra, Farwaniya, Kuwait City |
+| Sabah Al Salem (`sabah-al-salem`, city, Mubarak Al-Kabeer Governorate) | Kuwait | Supermarkets and groceries, bakeries and takeaways, clinics and pharmacies, parade stockrooms | Food, medicines, logistics | Blazing, humid sea air | Mubarak Al-Kabeer, Salmiya, Fahaheel |
+| Mubarak Al-Kabeer (`mubarak-al-kabeer`, city, Mubarak Al-Kabeer Governorate) | Kuwait | Groceries, bakeries and sandwich counters, clinics and pharmacies, parade stockrooms | Food, medicines, logistics | Blazing dry heat, dust | Sabah Al Salem, Hawalli, Farwaniya |
 | Sulaibiya Industrial Area (`sulaibiya-industrial-area`, area of Sulaibiya) | Kuwait | Wholesale food stores, cleaner and sealant stores, light factories, open yards | Food, logistics, chemicals | Blazing, dusty | none |
 | Amghara Industrial Area (`amghara-industrial-area`, area of Jahra) | Kuwait | Parts yards and workshops, electronics and appliance stores, lubricant and cleaner stores, warehouses | Electronics, logistics, chemicals | Blazing, dusty | none |
 | Shuaiba Industrial Area (`shuaiba-industrial-area`, area of Ahmadi) | Kuwait | Factory halls, sealant and coating stores, warehouses and parts stores, canteens | Chemicals, logistics, food | Blazing heat, humid shore air | Shuaiba Port |
@@ -832,3 +834,7 @@ location).
 Kuwait Batch 6 (Jahra Governorate): hub, Jahra, Sulaibiya, Sulaibiya Industrial Area (under Sulaibiya) and Amghara Industrial Area (attached to Jahra as the nearest
 confident city, no administrative statement). Not built: Abdali and Subiya (too few confident, distinguishing local facts), Kabd Industrial Area (not confident it
 is a distinct industrial area or where it sits) and Sabhan Industrial Area (governorate not guessed).
+
+Kuwait Batch 7 (Mubarak Al-Kabeer Governorate): hub, Sabah Al Salem and Mubarak Al-Kabeer. Not built: Fintas (not confident which governorate it belongs to, so not
+guessed). This completes the Kuwait build. Pages not built across the plan: Mangaf, Mahboula, Abu Halifa, Sabah Al-Ahmad City, Mina Abdullah, Abdali, Subiya,
+Kabd Industrial Area, Sabhan Industrial Area and Fintas.

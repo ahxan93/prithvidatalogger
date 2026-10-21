@@ -26582,7 +26582,7 @@ export const locations: LegacyLocationNode[] = [
       {
         question: "Which parts of Kuwait have a page?",
         answer:
-          "Al Asimah, Hawalli, Farwaniya, Ahmadi and Jahra governorates have their own pages, with Kuwait City, Hawalli, Salmiya, Farwaniya, Khaitan, Jleeb Al-Shuyoukh, Ahmadi, Fahaheel, Wafra, Khiran, Jahra and Sulaibiya and their districts beneath. If your site is somewhere else, write through the enquiry form, Call or WhatsApp with what you store and we answer with what looks workable.",
+          "Al Asimah, Hawalli, Farwaniya, Ahmadi, Jahra and Mubarak Al-Kabeer governorates have their own pages, with Kuwait City, Hawalli, Salmiya, Farwaniya, Khaitan, Jleeb Al-Shuyoukh, Ahmadi, Fahaheel, Wafra, Khiran, Jahra, Sulaibiya, Sabah Al Salem and Mubarak Al-Kabeer and their districts beneath. If your site is somewhere else, write through the enquiry form, Call or WhatsApp with what you store and we answer with what looks workable.",
       },
       {
         question: "What alert limits suit a store in extreme summer heat?",
@@ -26601,6 +26601,7 @@ export const locations: LegacyLocationNode[] = [
       { slug: "farwaniya-governorate", text: "The crowded inland governorate beside the capital, with busy markets, dense apartment districts, industrial and warehouse areas and the airport, in blazing dry summers and blowing dust." },
       { slug: "ahmadi-governorate", text: "The long southern governorate along the Gulf coast, with a green planned town and a busy seafront commercial town, in blazing summers and humid shore air." },
       { slug: "jahra-governorate", text: "The wide western governorate beyond the bay, with a large town of farms, livestock yards and a hospital, a big industrial and warehouse district, and trading yards, in blazing dry heat." },
+      { slug: "mubarak-al-kabeer-governorate", text: "The coastal residential governorate south-east of the capital, with quiet suburbs of villas, apartment blocks, schools and clinics along the Gulf shore, in blazing dry summers and humid shore air." },
     ],
     indexable: true,
     children: [
@@ -27320,7 +27321,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Ahmadi Governorate",
         type: "state",
         intro:
-          "Ahmadi Governorate stretches along the Gulf coast to the south of the capital, a long ribbon of towns where a quiet planned town of tree-lined streets and villas sits not far from a busy seafront strip of shops, restaurants and apartment blocks. Ahmadi is the planned town, with gardens, a hospital and a central square, while Fahaheel is a lively commercial town with a long shore road, markets, cafes and heavy traffic. Summers are blazing and dry, the air by the water turns humid, winters are mild, and dust storms blow in from the desert. Food, medicines and household goods wait in shops, kitchens and clinics in such heat. The pages below cover the two towns and the rooms where a temperature record would help.",
+          "Ahmadi Governorate stretches along the Gulf coast to the south of the capital, a long ribbon of towns where a quiet planned town of tree-lined streets and villas sits not far from a busy seafront strip of shops, restaurants and apartment blocks. Ahmadi is the planned town, with gardens, a hospital and a central square, while Fahaheel is a lively commercial town with a long shore road, markets, cafes and heavy traffic. Summers are blazing and dry, the air by the water turns humid, winters are mild, and dust storms blow in from the desert. Groceries, medicines and household goods sit in shops, kitchens and clinics through that heat. The pages below cover the two towns and the rooms where a temperature record would help.",
         localIndustries: [
           "Shops, supermarkets and food retail",
           "Restaurants, cafes and catering kitchens",
@@ -27983,6 +27984,241 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Sulaibiya | Prithvi",
             metaDescription:
               "Data loggers for Sulaibiya's wholesale cold rooms, warehouses, trading yards and workshops on the flat western plain. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "mubarak-al-kabeer-governorate",
+        name: "Mubarak Al-Kabeer Governorate",
+        type: "state",
+        intro:
+          "Mubarak Al-Kabeer Governorate lies along the Gulf coast south-east of the capital, a belt of quiet residential suburbs where villas, low apartment blocks, schools, mosques, clinics and neighbourhood shops line planned streets, with a strip of beach and sea road to the east. Sabah Al Salem stretches along the shore with its wide avenues and community centres, while Mubarak Al-Kabeer itself is a settled residential area of shops, bakeries, clinics and small workshops. Summers are blazing and dry, the air by the sea turns humid, winters are mild, and dust storms blow in from the desert. Food, medicines and household goods wait in shops, kitchens and clinics in such heat. The pages below cover the two suburbs and the rooms where a temperature record would help.",
+        localIndustries: [
+          "Neighbourhood shops and food retail",
+          "Bakeries, kitchens and catering",
+          "Clinics, pharmacies and care centres",
+          "Small workshops and stockrooms",
+        ],
+        citiesServed: ["Sabah Al Salem","Mubarak Al-Kabeer"],
+        supportNote:
+          "Enquiries from Mubarak Al-Kabeer Governorate are handled through the enquiry form, Call or WhatsApp. Say which suburb, which rooms and how they are cooled, and we reply with what seems suitable on site.",
+        faqs: [
+          {
+            question: "Which places in Mubarak Al-Kabeer Governorate have a page?",
+            answer:
+              "Sabah Al Salem and Mubarak Al-Kabeer each have a city page. Another suburb can be raised through the enquiry form, and further pages follow only when they can be written from confident facts.",
+          },
+          {
+            question: "Why do quiet residential streets still want phone alerts?",
+            answer:
+              "Shops in a quiet suburb may be shut for hours at midday or overnight, so a cooler can fail and warm for a long time before anyone notices, and a phone alert gives time to move stock.",
+          },
+          {
+            question: "Can a small chain of shops share one dashboard?",
+            answer:
+              "Yes. Each shop is a separate point on one dashboard with its own alert contacts, and an owner with several outlets sees them all together in one exported report.",
+          },
+        ],
+        listing: [
+          { slug: "sabah-al-salem", text: "A coastal suburb of villas, apartment blocks, wide avenues, community shops and clinics along the Gulf shore, in blazing summers and humid sea air." },
+          { slug: "mubarak-al-kabeer", text: "A settled residential area of shops, bakeries, clinics and small workshops on planned streets, in blazing dry heat and dust." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "sabah-al-salem",
+            name: "Sabah Al Salem",
+            type: "city",
+            intro:
+              "Sabah Al Salem is a coastal suburb south-east of Kuwait City, laid out with wide avenues, villas, low apartment blocks, schools and neighbourhood shopping parades beside the Gulf shore, and a temperature data logger here serves a quiet residential place of supermarkets, bakeries, clinics and kitchens in blazing summer heat and humid sea air. Families shop at large supermarkets and small groceries, bakeries and takeaways open early, and clinics and pharmacies serve the streets. A sea road runs along the shore. Summers are blazing, winters are mild, and dust storms blow in from the desert, while on cooler evenings families walk the sea road and the avenues fill with parked cars outside the cafes and bakeries. Enquiries from Sabah Al Salem are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The suburb is close enough to the water for humid air to reach the streets on summer evenings, yet the afternoons are blazing and dusty, so supermarket coolers, bakery chillers and clinic refrigerators work against the weather for months. Broad parking areas heat up in the sun, supply vans stand with their cartons in the glare, and a chiller that fails in a shuttered shop at midday may go unnoticed for hours.",
+            areas: [
+              {
+                name: "Supermarkets and neighbourhood groceries",
+                note: "Supermarkets and small groceries serve whole districts of villas and flats from display coolers and cold rooms opened constantly through the day.",
+              },
+              {
+                name: "Bakeries and takeaway kitchens",
+                note: "Bakeries and takeaways keep dough, fillings and prepared food in chillers and freezers that share heat with ovens and fryers.",
+              },
+              {
+                name: "Clinics, pharmacies and care centres",
+                note: "Clinics, pharmacies and care centres keep vaccines, insulin and medicines in refrigerators that must hold their range through short power dips.",
+              },
+              {
+                name: "Small workshops and shop stockrooms",
+                note: "Small workshops and stockrooms behind the parades hold parts, drinks and household goods in rooms that follow the weather outside.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Supermarkets, bakeries and takeaways in Sabah Al Salem hold chilled and frozen goods that spoil in heat, and a record from each cooler shows when a unit began to slip.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Sabah Al Salem store medicines to labelled ranges, and a dated log shows how a room behaved through the hottest weeks and any outage.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Clinics serving Sabah Al Salem hold vaccines to strict ranges, and a phone alert reaches whoever looks after the unit if a refrigerator warms overnight.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods brought to the suburb's shops wait in vans and back yards before use, and a logger tucked into a load records the heat each lot met on the way.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "A single probe on a short lead slips into a pharmacy or clinic refrigerator in Sabah Al Salem and leaves daily routines unchanged.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Reading temperature and humidity at one point suits a back-room dry store near the shore, where damp creeps in unnoticed.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels follow a supermarket cold room from its door to its back wall, showing whether the chill reaches the last shelf.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Sabah Al Salem bakery or supermarket use temperature loggers?",
+                answer:
+                  "A logger in each cooler and freezer keeps a round-the-clock record, and a report for any period can be exported in PDF, Excel or CSV form for an inspector or a client.",
+              },
+              {
+                question: "Why would a suburban shop that closes at midday want an alert?",
+                answer:
+                  "A cooler can fail while the shop is shut and warm for hours before anyone arrives, and a phone alert gives the owner time to move stock or call a repairer.",
+              },
+              {
+                question: "How would an enquiry from Sabah Al Salem be handled?",
+                answer:
+                  "Give the shop, clinic or kitchen, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Sabah Al Salem.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Sabah Al Salem clinics?",
+                answer:
+                  "Calibration of loggers and probes for Sabah Al Salem clinics is looked after by VEGA Calibrations, our parent company; share the model and the range and we explain the choices.",
+              },
+            ],
+            nearby: [
+              { slug: "mubarak-al-kabeer", name: "Mubarak Al-Kabeer" },
+              { slug: "salmiya", name: "Salmiya" },
+              { slug: "fahaheel", name: "Fahaheel" },
+            ],
+            metaTitle: "Temperature Data Loggers in Sabah Al Salem | Prithvi",
+            metaDescription:
+              "Data loggers for Sabah Al Salem's supermarkets, bakeries, clinics and shop stockrooms in blazing heat and humid sea air. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "mubarak-al-kabeer",
+            name: "Mubarak Al-Kabeer",
+            type: "city",
+            intro:
+              "Mubarak Al-Kabeer is a settled residential area south-east of Kuwait City, with villas, apartment blocks, mosques, schools and parades of shops and workshops on planned streets, and a temperature data logger here serves a quiet district of groceries, bakeries, clinics and small stockrooms in blazing dry heat. Shopkeepers open early and close during the hottest part of the afternoon, bakeries and sandwich counters serve the school run, and clinics and pharmacies serve the streets. Winters are mild, summers are fierce and dry, and dust drifts across the planned streets in spring, while the mosques, schools and parades fill the district with a regular daily rhythm of prayer times, school runs and shop hours. Enquiries from Mubarak Al-Kabeer are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The district lies a little back from the shore, so the air is drier than at the beach but the heat is just as fierce, paving and walls hold it after dark, and fine dust coats every vent and compressor, so small coolers work harder than their size suggests. Shops that shut during the afternoon leave stock in coolers and stockrooms that keep warming, and a failed refrigerator is only found when the shutters rise. Shops depend on a handful of suppliers whose vans arrive at fixed times, so a spoilt batch cannot easily be replaced the same day, and the cost of a failed cooler is felt for the whole week.",
+            areas: [
+              {
+                name: "Groceries and small supermarkets",
+                note: "Groceries and small supermarkets sell dairy goods, drinks and frozen food from cabinets opened constantly through the busy morning and evening hours.",
+              },
+              {
+                name: "Bakeries and sandwich counters",
+                note: "Bakeries and counters serving the school run keep dough, fillings and drinks in small chillers that share heat with the ovens.",
+              },
+              {
+                name: "Clinics and pharmacies",
+                note: "Clinics and pharmacies serving the streets hold vaccines and medicines in refrigerators that must stay in range through brief power interruptions.",
+              },
+              {
+                name: "Stockrooms and workshops behind the parades",
+                note: "Small workshops and stockrooms hold parts, tools and household goods in back rooms that follow the weather outside.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Groceries, bakeries and sandwich counters in Mubarak Al-Kabeer hold chilled goods that spoil in heat, and a log from each cooler shows the moment a unit began to drift.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Mubarak Al-Kabeer keep stock to labelled ranges, and a dated record shows how a room coped with the hottest weeks and any outage.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Clinics serving the district hold vaccines to strict ranges, and a phone alert reaches the person responsible if a refrigerator warms.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Small traders keep stock in back rooms behind the parades, and a reading from each room shows how warm goods became before they reached the shelf.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a grocery cold room from the floor to the top shelf and the door, showing which level warms first.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable fits a pharmacy or clinic refrigerator in Mubarak Al-Kabeer and leaves daily routines unchanged.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels set along a long stockroom show which stretch runs warmest and at what hour, all in one report.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can one logger watch a single refrigerator in a Mubarak Al-Kabeer grocery?",
+                answer:
+                  "Yes. A lone logger with a phone alert can watch one cooler as long as a router is within reach, and the account can take more points as the business grows.",
+              },
+              {
+                question: "Why is a record useful when a shop shuts for the afternoon?",
+                answer:
+                  "A closed shop leaves coolers working unattended through the hottest hours, so a continuous log shows whether stock stayed in range while no one was there.",
+              },
+              {
+                question: "How would an enquiry from Mubarak Al-Kabeer be handled?",
+                answer:
+                  "Give the shop, clinic or bakery, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Mubarak Al-Kabeer.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Mubarak Al-Kabeer clinics?",
+                answer:
+                  "Calibration of loggers and probes for Mubarak Al-Kabeer clinics is looked after by VEGA Calibrations, our parent company; share the model and the range and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "sabah-al-salem", name: "Sabah Al Salem" },
+              { slug: "hawalli", name: "Hawalli" },
+              { slug: "farwaniya", name: "Farwaniya" },
+            ],
+            metaTitle: "Temperature Data Loggers in Mubarak Al-Kabeer | Prithvi",
+            metaDescription:
+              "Data loggers for Mubarak Al-Kabeer's groceries, bakeries, clinics and parade stockrooms in blazing dry heat and dust. Get Solution.",
             indexable: true,
           },
         ],
