@@ -237,6 +237,11 @@ export const locationContent: Record<string, LocationContent> = {
       "Data loggers for Al Rayyan Municipality: Al Rayyan city, Al Gharafa, Birkat Al Awamer and Al Sailiya shops, clinics and stores. Get Solution.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
+  "qatar/al-wakrah-municipality": {
+    metaDescription:
+      "Data loggers for Al Wakrah Municipality: Al Wakrah, Mesaieed, Al Wukair and Mesaieed Industrial City stores, kitchens and clinics. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+  },
   "qatar/doha-municipality": {
     metaDescription:
       "Data loggers for Doha Municipality: Doha city, West Bay, Al Sadd, Msheireb and The Pearl-Qatar kitchens, clinics and stores. Get Solution.",

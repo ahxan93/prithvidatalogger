@@ -20678,7 +20678,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Abu Dhabi",
             type: "city",
             intro:
-              "Abu Dhabi is the capital city of the United Arab Emirates, built largely on an island in the Arabian Gulf and joined to the mainland by bridges and causeways, and a temperature data logger here serves a city of hospitals, hotels, food importers and industrial districts in one of the hottest, most humid coastal climates in the Gulf. Sea air blows across the Corniche and the mangrove shallows, summer afternoons are far above comfortable and nights stay warm. On the mainland, districts such as Mussafah, ICAD and KIZAD hold factories, warehouses and cold rooms, and a deep-water port lies along the coast towards Dubai. Hospitals, clinics, laboratories and large kitchens add to the rooms that need a steady record. Enquiries from Abu Dhabi are handled through the enquiry form, Call or WhatsApp.",
+              "Abu Dhabi is the capital city of the United Arab Emirates, built largely on an island in the Arabian Gulf and joined to the mainland by bridges and causeways, and a temperature data logger here serves a city of hospitals, hotels, food importers and industrial districts in the very hot, humid coastal climate of the Gulf. Sea air blows across the Corniche and the mangrove shallows, summer afternoons are far above comfortable and nights stay warm. On the mainland, districts such as Mussafah, ICAD and KIZAD hold factories, warehouses and cold rooms, and a deep-water port lies along the coast towards Dubai. Hospitals, clinics, laboratories and large kitchens add to the rooms that need a steady record. Enquiries from Abu Dhabi are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "Summer brings very high heat with humid sea air on the coast, winters are mild and pleasant, and dust and sudden fog appear in some seasons, so air-conditioned stores work hard for months while vehicles and metal sheds without cooling reach extreme temperatures. A cold room that loses power on an August afternoon warms fast, and condensation forms the moment a door opens to the outside air.",
             areas: [
@@ -22176,7 +22176,7 @@ export const locations: LegacyLocationNode[] = [
       {
         question: "Which parts of Qatar have a page?",
         answer:
-          "Doha Municipality and Al Rayyan Municipality have their own pages, each with a city and its districts beneath it. For another place, send the site and what you store through the enquiry form, Call or WhatsApp, and we reply with what looks suitable.",
+          "Doha, Al Rayyan and Al Wakrah municipalities have their own pages, each with cities and districts beneath them. For another place, send the site and what you store through the enquiry form, Call or WhatsApp, and we reply with what looks suitable.",
       },
       {
         question: "How is monitoring set up for a Qatar site?",
@@ -22192,6 +22192,7 @@ export const locations: LegacyLocationNode[] = [
     listing: [
       { slug: "doha-municipality", text: "The capital's municipality, with a bay-side city of towers, markets, hospitals and hotels, and its central business and island districts, in hot, humid summers." },
       { slug: "al-rayyan-municipality", text: "The municipality west of the capital, with a spreading city of villas, malls, schools and clinics, and its Al Gharafa, Birkat Al Awamer and Al Sailiya districts, in hot, dusty summers." },
+      { slug: "al-wakrah-municipality", text: "The municipality south of the capital, with a coastal fishing town, an industrial port town beside the dunes and a growing inland suburb, in hot, humid summers." },
     ],
     indexable: true,
     children: [
@@ -22246,7 +22247,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Doha",
             type: "city",
             intro:
-              "Doha is the capital city of Qatar, built around a curved bay on the east coast of the peninsula, and a temperature data logger here serves a city of hospitals, hotels, food importers and warehouses in one of the hottest, most humid coastal climates in the Gulf. A palm-lined Corniche follows the water, traditional dhows ride at anchor beside towers of glass, and the low lanes of an old market sell spices, textiles and food. Newer districts of offices, apartments and clinics spread inland, with industrial and warehouse areas on the outskirts. Long summers push every cooling system to its limit, and sea air, dust and sudden haze add to the strain. Enquiries from Doha are handled through the enquiry form, Call or WhatsApp.",
+              "Doha is the capital city of Qatar, built around a curved bay on the east coast of the peninsula, and a temperature data logger here serves a city of hospitals, hotels, food importers and warehouses in the very hot, humid coastal climate of the Gulf. A palm-lined Corniche follows the water, traditional dhows ride at anchor beside towers of glass, and the low lanes of an old market sell spices, textiles and food. Newer districts of offices, apartments and clinics spread inland, with industrial and warehouse areas on the outskirts. Long summers push every cooling system to its limit, and sea air, dust and sudden haze add to the strain. Enquiries from Doha are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "Summer afternoons are far beyond comfortable and the nights stay warm, humid sea air carries salt onto every shed, and dust storms blow in from the desert in some seasons, so cold rooms, kitchens and vehicles all work against the weather for months. A refrigerator that loses power on an August afternoon warms fast, vehicles standing in the sun reach far higher temperatures than the shaded air, and condensation forms the moment a cold door opens.",
             areas: [
@@ -22478,6 +22479,341 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Al Rayyan | Prithvi",
             metaDescription:
               "Data loggers for Al Rayyan's supermarkets, bakeries, pharmacies, clinics and warehouses in hot summers and blowing dust. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "al-wakrah-municipality",
+        name: "Al Wakrah Municipality",
+        type: "state",
+        intro:
+          "Al Wakrah Municipality lies to the south of the capital along the Gulf coast, a mix of old fishing waterfront, new suburbs and industrial shoreline. Al Wakrah itself is a coastal town with a restored market, a harbour for fishing boats and a long beach, Mesaieed is an industrial town beside a port with sand dunes rolling away behind it, and Al Wukair is a growing inland suburb on the road from the capital. Summers are long, very hot and humid on the shore, winters mild, and dust and haze come in some seasons. Food, fish, chemicals, building materials and medicines wait in shops, sheds and warehouses in such heat. The pages below cover the three towns and the industrial city at Mesaieed.",
+        localIndustries: [
+          "Fish, food and market trade",
+          "Industrial and building-material storage",
+          "Clinics, pharmacies and care centres",
+          "Warehouses and workshops",
+        ],
+        citiesServed: ["Al Wakrah","Mesaieed","Al Wukair"],
+        supportNote:
+          "Enquiries from Al Wakrah Municipality are handled through the enquiry form, Call or WhatsApp. Tell us which town, which rooms and how they are cooled, and we reply with what looks suitable for the site.",
+        faqs: [
+          {
+            question: "Which places in Al Wakrah Municipality have a page?",
+            answer:
+              "Al Wakrah, Mesaieed and Al Wukair each have a city page, and the Mesaieed Industrial City has an area page under Mesaieed. Another town in the municipality can be raised through the enquiry form.",
+          },
+          {
+            question: "How is a fishing waterfront different from an industrial shoreline for logger set-up?",
+            answer:
+              "A fishing waterfront needs ice stores and cold boxes watched against heat and salt damp, while an industrial shoreline needs materials stores and laboratories watched against labelled limits, so probes, mounting and alert rules differ.",
+          },
+          {
+            question: "Is one dashboard enough for sites in separate towns?",
+            answer:
+              "Yes. Each site is a separate point on one dashboard, alerts go to whoever looks after that room, and a manager sees every town together in one exported report.",
+          },
+        ],
+        listing: [
+          { slug: "al-wakrah", text: "A coastal town with a restored market, a fishing harbour and a long beach, in hot, humid summers and salt air." },
+          { slug: "mesaieed", text: "An industrial coastal town beside a port, with dunes behind it, workshops, canteens and a hospital." },
+          { slug: "al-wukair", text: "A growing inland suburb on the road from the capital, with homes, farms, shops and workshops in dry, dusty heat." },
+        ],
+        areaListing: [
+          { slug: "mesaieed-industrial-city", text: "The planned industrial city at Mesaieed, with chemical, materials and parts stores, laboratories and workshops beside the shore." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "al-wakrah",
+            name: "Al Wakrah",
+            type: "city",
+            intro:
+              "Al Wakrah is a coastal town south of Doha on the Gulf shore, long a fishing and pearling settlement, and a temperature data logger here serves a place where an old market, a fishing harbour and a growing residential town meet hot, humid sea air. A restored souq of low arcades sells spices, textiles and food, fishing boats land their catch each morning, and a long beach and a marina draw families in the cooler months. Newer districts of villas, apartments, clinics and shopping streets spread inland. Summer afternoons are far beyond comfortable and the air is damp. Fishing families have worked this shore for generations, and the evening walk along the beach is part of town life. Enquiries from Al Wakrah are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The shore is very hot and humid through the long summer, salt reaches every shed and cold box, and dust blows in from the desert in some seasons, so ice rooms, shop coolers and clinic refrigerators work against the weather for months. A cooler that loses power on an August afternoon warms fast, and doors opened constantly in the market let in damp air that condenses on anything cold.",
+            areas: [
+              {
+                name: "The fishing harbour, fish market and ice stores",
+                note: "Boats land the catch at the harbour, where ice stores and cold rooms hold it for the market through the hottest part of the day in damp, salty air.",
+              },
+              {
+                name: "The market arcades and spice stores",
+                note: "Traders in the old arcades keep spices, dried fruit, textiles and sweets in small stock rooms that were never designed for cooling.",
+              },
+              {
+                name: "Clinics, pharmacies and care centres",
+                note: "Clinics, pharmacies and care centres keep vaccines, insulin and medicines in refrigerators that must hold a range through power interruptions.",
+              },
+              {
+                name: "Supermarkets, cafes and restaurants",
+                note: "Supermarkets, cafes and restaurants serving residents and visitors run coolers and freezers that work hardest on weekend afternoons.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Fish sellers, supermarkets, cafes and restaurants in Al Wakrah hold goods that spoil quickly in coastal heat, and a record from each ice store shows when a cold box began to warm.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Al Wakrah keep stock to labelled ranges, and a dated record shows how a room behaved through the hottest weeks and any outage.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Clinics and care centres in Al Wakrah hold vaccines to strict ranges, and a phone alert reaches the person responsible if a refrigerator warms in the night.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods brought to Al Wakrah wait in vehicles and storerooms before use, and a logger placed in a load records the heat and humidity each lot met.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "rajmudra",
+                reason:
+                  "Two channels follow an ice store from its door to its rear wall, showing whether the cold reaches the last boxes.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A single probe on a short lead slips into a clinic or pharmacy refrigerator in Al Wakrah and leaves daily routines unchanged.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "With humidity read next to temperature, one unit shows when salty damp has entered a spice or dry-goods store.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can an Al Wakrah fish seller keep a record of an ice store?",
+                answer:
+                  "Yes. A probe in the ice store keeps a day-and-night record, and a report for the dates of one lot can be saved as a PDF, Excel or CSV file for a buyer.",
+              },
+              {
+                question: "Why do old market stock rooms need a humidity reading?",
+                answer:
+                  "Damp sea air softens dried goods and spices, and condensation forms when a cool room opens to warm air, so a humidity trend shows moisture that a thermometer would miss.",
+              },
+              {
+                question: "How would an enquiry from Al Wakrah be handled?",
+                answer:
+                  "Give the shop, clinic or store, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Al Wakrah.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Al Wakrah clinics?",
+                answer:
+                  "Calibration of loggers and probes for Al Wakrah clinics is looked after by VEGA Calibrations, our parent company; share the model and the range and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "doha", name: "Doha" },
+              { slug: "mesaieed", name: "Mesaieed" },
+              { slug: "al-wukair", name: "Al Wukair" },
+            ],
+            metaTitle: "Temperature Data Loggers in Al Wakrah | Prithvi",
+            metaDescription:
+              "Data loggers for Al Wakrah's fish ice stores, market spice stores, clinics, cafes and supermarkets in salt air. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "mesaieed",
+            name: "Mesaieed",
+            type: "city",
+            intro:
+              "Mesaieed is an industrial coastal town south of Doha, built beside a port with rolling sand dunes behind it, and a temperature data logger here serves a place of workshops, canteens, clinics and stores serving a working community in extreme summer heat. Industrial plots and a harbour stand along the shore, housing, shops and a hospital serve the people who live there, and beaches and dunes draw visitors in the cooler months. Summers are long and very hot, the sea air is humid and salty, and sandy winds blow in from the desert. Chemicals, spare parts, food and medicines all wait in warehouses and vehicles in such heat. Enquiries from Mesaieed are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "Mesaieed is extremely hot in summer, with high humidity on the shore and dry sandy winds from the dunes, so stores near the water face heat, salt damp and dust in turn. The dunes behind the town give way to flat salt ground, workshops stand close to the fence line of larger plants, and a failed cold room in a remote canteen can go unnoticed through a whole night shift. Metal-roofed sheds without cooling reach extreme temperatures, a refrigerator in a residential block can lose its contents before the next shift, and condensation forms the moment a cold door opens to the outside air.",
+            areas: [
+              {
+                name: "Industrial stores and parts warehouses",
+                note: "Warehouses hold spare parts, lubricants, coatings and chemicals in sheds near the coast, where heat and salt damp both threaten stock.",
+              },
+              {
+                name: "Laboratories and sample stores",
+                note: "Laboratories supporting industrial plants keep samples, reagents and reference materials in refrigerators, freezers and conditioned rooms with limits that have to be shown to have held.",
+              },
+              {
+                name: "Canteens, supermarkets and restaurants",
+                note: "Canteens and shops feeding a working community run walk-in coolers and freezers through the long summer.",
+              },
+              {
+                name: "The hospital, clinics and pharmacies",
+                note: "A hospital, clinics and pharmacies hold vaccines and medicines in refrigerators that must hold their range through power interruptions.",
+              },
+            ],
+            industries: [
+              {
+                slug: "chemical",
+                sentence:
+                  "Stores of lubricants, coatings and treatment products in Mesaieed carry labelled ranges, and a dated log shows whether a hot, damp shed pushed a pallet outside them.",
+              },
+              {
+                slug: "laboratories",
+                sentence:
+                  "Industrial and clinical laboratories in Mesaieed keep samples and reference materials to set limits, and an exported report is ready whenever an audit asks for one.",
+              },
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Canteens, supermarkets and restaurants serving the community hold chilled and frozen food, and a record from each cooler shows when a compressor began to struggle.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Goods reaching Mesaieed wait in warehouses and vehicles before use, and a logger placed in a load records the heat and humidity each lot met.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a chemical shed or a canteen cold room at several heights and beside the door, showing which corner runs warmest.",
+              },
+              {
+                slug: "veer",
+                reason:
+                  "Ten channels along a long parts warehouse show which bay sits warmest under the roof, all in one report.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short cable fits a ward or pharmacy refrigerator in Mesaieed and leaves daily routines unchanged.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a Mesaieed laboratory or warehouse use temperature loggers?",
+                answer:
+                  "A logger in each room records through the day and night, and a report for any period can be exported in PDF, Excel or CSV form for an audit or a client.",
+              },
+              {
+                question: "Why does a store beside the dunes and the sea need a humidity reading?",
+                answer:
+                  "Salt-laden, humid air softens cartons and attacks metal, and condensation forms on anything cold, so a humidity trend beside the temperature shows moisture that a thermometer would miss.",
+              },
+              {
+                question: "What happens to the record if the power fails in Mesaieed?",
+                answer:
+                  "The logger keeps recording from its own battery and stores the readings, so the hours of an outage are still on record when the site is back online.",
+              },
+              {
+                question: "How would an enquiry from Mesaieed be handled?",
+                answer:
+                  "Send the plant, store or canteen, the rooms and a contact through the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Mesaieed.",
+              },
+            ],
+            nearby: [
+              { slug: "al-wakrah", name: "Al Wakrah" },
+              { slug: "doha", name: "Doha" },
+            ],
+            metaTitle: "Temperature Data Loggers in Mesaieed | Prithvi",
+            metaDescription:
+              "Data loggers for Mesaieed's industrial stores, laboratories, canteens and clinics beside the dunes and the Gulf. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "al-wukair",
+            name: "Al Wukair",
+            type: "city",
+            intro:
+              "Al Wukair is a growing suburb inland of Al Wakrah, on the road south from Doha, and a temperature data logger here serves a place of new homes, farms, shops, restaurants and workshops in dry, dusty heat. Villas and apartment blocks have spread across what was once farmland, neighbourhood supermarkets and cafes serve the new streets, and small workshops and warehouses sit beside the main road. Farms with sheds and cool rooms still survive between the housing. Summers are very hot and winters mild, and dust blows in from the desert. Weekends bring families to the new cafes along the main road, and school buses fill the streets twice a day. Enquiries from Al Wukair are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "The inland air is drier than on the shore but summer heat is just as fierce, nights stay warm, and dust storms blow through in some seasons, so supermarket coolers, farm sheds and warehouse roofs all work against the sun for months. Vehicles parked on the main road reach far higher temperatures than the shaded air, and a refrigerator that fails on a summer afternoon warms quickly. Farm sheds stand unshaded between the houses, and a produce cold room that is opened by the hour loses its cold with every visit.",
+            areas: [
+              {
+                name: "Neighbourhood supermarkets and groceries",
+                note: "Supermarkets and groceries serve new streets of homes from display coolers and cold rooms opened constantly through the day.",
+              },
+              {
+                name: "Farm sheds and produce stores",
+                note: "Farms between the houses keep vegetables, fodder and dairy produce in sheds and small cool rooms, where heat after picking is the main danger to quality.",
+              },
+              {
+                name: "Restaurants, bakeries and cafes",
+                note: "Restaurants, bakeries and cafes run coolers and freezers in back rooms that share heat with ovens and fryers.",
+              },
+              {
+                name: "Workshops and warehouses beside the main road",
+                note: "Workshops and small warehouses hold parts and household goods under metal roofs that heat up quickly in the sun.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Supermarkets, bakeries and farm stores in Al Wukair hold goods that spoil in heat, and a log from each cooler shows when a unit began to drift.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in Al Wukair store medicines to labelled ranges, and a dated record shows how a room behaved through the hottest weeks and any outage.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "Family clinics in the suburb hold vaccines to strict ranges, and a phone alert reaches the person responsible if a refrigerator warms.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Warehouses beside the main road hold goods for owners elsewhere, and a reading for each bay shows how long a lot stood in warm air before it was collected.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "One probe on a short lead slips into a pharmacy or clinic refrigerator in Al Wukair and leaves the way staff use the unit unchanged.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a farm shed or a supermarket cold room at floor, shelf and door height, showing which level warms first.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "Temperature and humidity at one point suit a dry store or a produce shed, where steady, cool air protects the contents.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a small Al Wukair farm or shop use a single logger?",
+                answer:
+                  "Yes. One logger with a phone alert can watch a cold room or refrigerator as long as a router is within reach, and more points can be added to the same account later.",
+              },
+              {
+                question: "Does desert dust matter for where a logger is fixed in Al Wukair?",
+                answer:
+                  "Fine dust settles on anything left open or near a vent, so a logger is fixed on a shaded inner wall away from the door, with a battery that keeps the record going through a power cut.",
+              },
+              {
+                question: "How would an enquiry from Al Wukair be handled?",
+                answer:
+                  "Give the shop, farm or store, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for Al Wukair.",
+              },
+              {
+                question: "Is calibration discussed for loggers used in Al Wukair clinics?",
+                answer:
+                  "Calibration of loggers and probes for Al Wukair clinics is looked after by VEGA Calibrations, our parent company; share the model and range and we explain the choices.",
+              },
+            ],
+            nearby: [
+              { slug: "al-wakrah", name: "Al Wakrah" },
+              { slug: "doha", name: "Doha" },
+              { slug: "al-rayyan", name: "Al Rayyan" },
+            ],
+            metaTitle: "Temperature Data Loggers in Al Wukair | Prithvi",
+            metaDescription:
+              "Data loggers for Al Wukair's supermarkets, farm sheds, restaurants, clinics and roadside warehouses in dry, dusty heat. Get Solution.",
             indexable: true,
           },
         ],
