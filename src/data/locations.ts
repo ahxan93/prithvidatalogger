@@ -28237,14 +28237,14 @@ export const locations: LegacyLocationNode[] = [
       "Logistics and warehousing",
       "Hospitality",
     ],
-    citiesServed: ["Manama", "Muharraq", "Hamad Town"],
+    citiesServed: ["Manama", "Muharraq", "Hamad Town", "Riffa"],
     supportNote:
       "Enquiries from Bahrain are handled through the enquiry form, Call or WhatsApp. Tell us the site, the rooms and what you store, and our reply covers what seems suitable and how remote set-up support would run.",
     faqs: [
       {
         question: "Which parts of Bahrain have a page?",
         answer:
-          "The Capital, Muharraq and Northern Governorates each have a page, with their cities and districts beneath them. For a place not yet listed, describe the site and what you store through the enquiry form, Call or WhatsApp, and we reply with a suggestion.",
+          "All four governorates have a page, with their cities and districts beneath them. For a place not yet listed, describe the site and what you store through the enquiry form, Call or WhatsApp, and we reply with a suggestion.",
       },
       {
         question: "How do we start monitoring a Bahrain site?",
@@ -28261,6 +28261,7 @@ export const locations: LegacyLocationNode[] = [
       { slug: "capital-governorate", text: "The governorate of the capital on the north-east of the island, with a harbour city of towers, markets, hospitals and a commercial port, in hot, humid sea air." },
       { slug: "muharraq-governorate", text: "The island governorate to the north-east of the capital, with an old walled-lane town, a seaside industrial and harbour area, and the island's airport." },
       { slug: "northern-governorate", text: "The governorate covering the north-western part of the main island, with a planned inland town, a coastal strip of palm gardens and seaside villages." },
+      { slug: "southern-governorate", text: "The governorate covering the southern part of the main island, with large residential towns, a planned market town and a western shore of farms and seaside kitchens." },
     ],
     indexable: true,
     children: [
@@ -28606,7 +28607,7 @@ export const locations: LegacyLocationNode[] = [
         ],
         citiesServed: ["Muharraq","Hidd","Arad","Busaiteen","Amwaj Islands"],
         supportNote:
-          "Enquiries from the Muharraq Governorate are handled through the enquiry form, Call or WhatsApp. Say which town, which rooms and which goods, and our reply describes what appears suitable for the site.",
+          "Enquiries from the Muharraq Governorate are handled through the enquiry form, Call or WhatsApp. Give the town, the rooms and the goods involved, and our reply outlines what seems suitable for the site.",
         faqs: [
           {
             question: "Which places in the Muharraq Governorate have a page?",
@@ -29131,7 +29132,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Northern Governorate",
         type: "state",
         intro:
-          "The Northern Governorate covers much of the north and west of Bahrain's main island, from a planned inland town of numbered roundabouts and wide streets to a coastal strip of date-palm gardens, farm plots and seaside villages. Inland, the ground is flat and dry and the summer heat is fierce, while along the shore the air is humid and carries salt. Shops, market stalls, school canteens, clinics, farm stores and workshops all keep goods in rooms that were never meant for such heat. Winters are mild, and dust blows in on windy days. The pages below cover Hamad Town and its industrial area, Budaiya and Saar.",
+          "The Northern Governorate covers much of the north and west of Bahrain's main island, from a planned inland town of numbered roundabouts and wide streets to a coastal strip of date-palm gardens, farm plots and seaside villages. Inland, the ground is flat and dry and the summer heat is fierce, while along the shore the air is humid and carries salt. Shops, market stalls, school canteens, clinics, farm stores and workshops all keep goods in rooms that were never meant for such heat. Winters are mild, though dust arrives from the open land when the wind rises. The pages below cover Hamad Town and its industrial area, Budaiya and Saar.",
         localIndustries: [
           "Food shops and market traders",
           "Clinics and pharmacies",
@@ -29453,6 +29454,329 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Saar | Prithvi",
             metaDescription:
               "Data loggers for Saar's groceries, bakeries, school canteens and clinic fridges in hot, humid coastal air. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "southern-governorate",
+        name: "Southern Governorate",
+        type: "state",
+        intro:
+          "The Southern Governorate covers the broad southern part of Bahrain's main island, from large residential towns of schools, malls, clinics and bakeries to a planned market town of numbered blocks and a western shore of farms and seaside resorts. Much of the land is flat, open and dry, so afternoon heat is fierce, while the western coast adds humidity and salt. Supermarkets, canteens, pharmacies, hotel kitchens and market stalls keep goods in rooms that rely on air-conditioning for most of the year. Winters are mild, and dust blows in on windy days. The pages below cover Riffa, Isa Town and Zallaq.",
+        localIndustries: [
+          "Food shops and market traders",
+          "Clinics and pharmacies",
+          "Hotel and resort kitchens",
+          "Farm produce and fishing",
+        ],
+        citiesServed: ["Riffa","Isa Town","Zallaq"],
+        supportNote:
+          "Enquiries from the Southern Governorate are handled through the enquiry form, Call or WhatsApp. Say which town, which rooms and which goods, and our reply describes what appears suitable for the site.",
+        faqs: [
+          {
+            question: "Which places in the Southern Governorate have a page?",
+            answer:
+              "Riffa, Isa Town and Zallaq have city pages. Another town can be raised through the enquiry form, and we say what looks practical.",
+          },
+          {
+            question: "Why does the southern heat call for more than a thermometer?",
+            answer:
+              "Afternoon heat is strong and evenings stay warm, so cooling plant runs for long spells, and a stored trend shows a unit slowly losing ground before any stock is harmed.",
+          },
+          {
+            question: "Can a logger cover a hotel kitchen as well as a shop?",
+            answer:
+              "Yes. Every logger reports to one dashboard, each alert can reach a different person, and a single report can cover kitchens, shops and stores in different places.",
+          },
+        ],
+        listing: [
+          { slug: "riffa", text: "A large residential town in two halves, with schools, malls, clinics, bakeries and workshops on open, dry ground." },
+          { slug: "isa-town", text: "A planned inland market town of numbered blocks, a busy central market, housing, sports grounds and schools." },
+          { slug: "zallaq", text: "A town on the western coast with farms, fishing craft, seaside hotel kitchens and shops in humid, salty air." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "riffa",
+            name: "Riffa",
+            type: "city",
+            intro:
+              "Riffa is a large residential town in the south of Bahrain's main island, divided into East Riffa and West Riffa, and a temperature data logger here serves the supermarkets, bakeries, school canteens, pharmacies, clinics, gyms and workshops of a big, settled community. Wide roads link housing districts, malls and shop rows, and the ground is open, flat and dry rather than crowded. Summers are long, very hot and humid by the evening, winters are mild, and dust blows across the open land on windy days. Evenings are the busiest hours, when families shop after work and the school run ends, so shop coolers open and close constantly until late at night. Enquiries from Riffa are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "Housing here is spread out rather than stacked, so cars, walls and roads absorb the sun all day and release heat into the evening. Shop rows with flat roofs hold the afternoon warmth, back service lanes have no breeze, and compressors on exposed walls collect dust, which cuts airflow and makes cooling work harder just when the summer evening trade is busiest.",
+            areas: [
+              {
+                name: "Supermarkets and bakeries in the two halves of town",
+                note: "Neighbourhood shops sell dairy, bread and frozen food from open cabinets and keep surplus in back rooms with a single air-conditioner and little airflow.",
+              },
+              {
+                name: "School canteens and nursery kitchens",
+                note: "Schools across Riffa prepare and hold meals for large numbers of pupils, and chilled items must be shown to have stayed in range between the morning kitchen and the midday service.",
+              },
+              {
+                name: "Clinics, pharmacies and dental rooms",
+                note: "Medical rooms keep vaccines, anaesthetics and medicines in refrigerators that share circuits with air-conditioning and must hold range through supply dips.",
+              },
+              {
+                name: "Workshop and trade units on the town's edges",
+                note: "Car-repair bays, carpentry shops and spare-parts counters store glues, coatings and wiring supplies in rooms where heat piles up beneath flat roofs through the afternoon.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Supermarkets, bakeries and canteens in Riffa hold dairy and prepared food through long evening trading hours, and a stored record shows which cooler began to drift.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Riffa pharmacies hold medicines to the ranges on their labels, and a dated trace shows how each refrigerator coped when the summer peaked or the supply wavered.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A clinic holding vaccines needs to show they stayed in range, and a phone alert reaches the person on duty if a fridge warms overnight.",
+              },
+              {
+                slug: "electronics",
+                sentence:
+                  "Spares and appliances stored in trade units can suffer in heat and dust, and a temperature and humidity trend shows how a store behaves from day to night.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "A slim probe on a short cable slips into a clinic fridge or a bakery cooler without changing how the unit is loaded.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "One unit reading humidity as well as temperature shows when damp evening air has crept into a storeroom that looks fine on a thermometer.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "With four channels, a single unit can follow a school chiller from the floor shelf to the top shelf and the door, revealing which level warms first before midday service.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a school canteen in Riffa use data loggers?",
+                answer:
+                  "Yes. Each fridge or cold room carrying a logger builds a dated record, and reports for any period come out as PDF, Excel or CSV files for a head teacher or an inspector.",
+              },
+              {
+                question: "Why does dust matter to cooling equipment?",
+                answer:
+                  "Open ground sends dust onto filters and coils, which makes compressors run longer for less cooling, and a stored trend reveals the slow decline before any food is spoiled.",
+              },
+              {
+                question: "How would an enquiry from Riffa be handled?",
+                answer:
+                  "Let us know the shop, school kitchen or clinic, the units involved and a contact through the enquiry form, Call or WhatsApp, and we answer with what seems suitable for Riffa.",
+              },
+              {
+                question: "Can a pharmacy in Riffa ask about calibration?",
+                answer:
+                  "VEGA Calibrations, our parent company, looks after calibration questions; tell us the model and the range you work to and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "isa-town", name: "Isa Town" },
+              { slug: "zallaq", name: "Zallaq" },
+              { slug: "manama", name: "Manama" },
+            ],
+            metaTitle: "Temperature Data Loggers in Riffa | Prithvi",
+            metaDescription:
+              "Data loggers for Riffa's supermarkets, bakeries, school canteens, clinics and workshop stores in hot, dry heat. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "isa-town",
+            name: "Isa Town",
+            type: "city",
+            intro:
+              "Isa Town is a planned town on the inland plain of Bahrain's main island, built on a grid of numbered blocks and wide avenues, with a busy central market, large housing districts, schools, sports grounds and health centres. A temperature data logger here serves the traders, butchers, grocers, bakeries, pharmacies and canteens of a town where people shop daily. Summers are long, hot and dry in the afternoon, evenings stay warm, winters are mild, and dust blows across the plain. Streets fill in the early evening when stalls trade late, shutters stay up well after sunset, and the same coolers run from dawn to midnight with little rest. Enquiries from Isa Town are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "Stalls in the market lanes sit under shade roofs that block the sun but trap warm air, so chilled counters work against stale heat all day. Planned blocks of identical houses leave service lanes between them where air hardly moves, and rooftop equipment on flat roofs collects dust through the season, which dulls its cooling performance. Butchers and fishmongers often prepare goods at the counter, so cold displays stand open to the aisle, and ice melts faster on still, hot afternoons than owners expect. In some lanes stalls shut for the midday rest, which leaves chillers running unattended through the hottest hours, and a failure then may not be noticed until trading resumes. Storerooms behind the stalls are small, unventilated and packed to the ceiling at the busiest times of year.",
+            areas: [
+              {
+                name: "The central market's meat, dairy and produce stalls",
+                note: "Traders keep meat, poultry, dairy and vegetables in chillers and ice-packed counters, and every extra hour of warmth in the afternoon shortens their selling life.",
+              },
+              {
+                name: "Grocers and bakeries in the numbered blocks",
+                note: "Corner shops and bakeries hold bread dough, milk and frozen food in compact fridges and chest freezers run hard through summer.",
+              },
+              {
+                name: "School canteens and sports-ground kitchens",
+                note: "Kitchens serving pupils and sports clubs prepare meals in volume and need chilled items shown to have stayed in range before serving.",
+              },
+              {
+                name: "Pharmacies and health centres",
+                note: "Pharmacies and health rooms keep vaccines, insulin and medicines in refrigerators that must hold their range through supply dips.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Butchers, grocers and bakeries in Isa Town hold perishables through dry afternoon heat, and a record from each cooler shows which unit began to struggle at the peak.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in the town store stock to labelled ranges, and a dated log shows how a refrigerator behaved through the hottest weeks.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A health centre keeping vaccines needs to show they stayed in range, and a phone alert reaches the nurse in charge if a refrigerator warms overnight.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "A slim probe on a short cable fits into a butcher's chiller or a pharmacy fridge without changing how the unit is used.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "A wired option suits a fixed cold room where the owner wants a steady reading from one place each day.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "A compact unit watching humidity as well as temperature shows when damp air has crept into a dry store.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a market trader in Isa Town use a data logger?",
+                answer:
+                  "Yes. A logger in a chiller or ice-packed counter records the temperature all day and night, and a phone alert tells the trader if the unit warms.",
+              },
+              {
+                question: "Why do market stalls suffer in afternoon heat?",
+                answer:
+                  "Shade roofs trap warm air around chilled counters, so cooling works against stale heat, and a trend line shows the hours when a unit loses ground.",
+              },
+              {
+                question: "How would a request from Isa Town be handled?",
+                answer:
+                  "Name the stall, shop or canteen, the units and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks practical.",
+              },
+              {
+                question: "Can one login cover several stalls owned by one trader?",
+                answer:
+                  "Yes. Each stall appears on the same dashboard with its own alert contacts, and one report can cover every unit.",
+              },
+            ],
+            nearby: [
+              { slug: "riffa", name: "Riffa" },
+              { slug: "manama", name: "Manama" },
+              { slug: "hamad-town", name: "Hamad Town" },
+            ],
+            metaTitle: "Temperature Data Loggers in Isa Town | Prithvi",
+            metaDescription:
+              "Data loggers for Isa Town's market stalls, grocers, bakeries, canteens and pharmacy fridges in dry, hot afternoon air. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "zallaq",
+            name: "Zallaq",
+            type: "city",
+            intro:
+              "Zallaq is a town on the western coast of Bahrain's main island, with a long sandy shoreline, farm plots, fishing craft, seaside hotels and villas, and a temperature data logger here serves hotel kitchens, beach cafes, fish traders, farm stores, grocers and clinics. The air carries salt and moisture off the Gulf, so fittings corrode and cartons soften. Summers are long, very hot and humid, winters are mild and breezy, and haze and dust drift in from the flat land. Fishing boats land their catch early, markets and hotel kitchens buy it the same morning, and farms on the inland side send vegetables to shops across the island. Enquiries from Zallaq are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "Open sand and water reflect strong sun onto cafe terraces and kitchen walls, evening air stays thick with moisture, and sea breeze carries salt that settles on coils and door seals. Kitchens that serve outdoor tables keep doors open to hot air for long stretches, which pushes chillers to work well beyond their rating. Fishing craft are kept on trailers and moorings along the shore, and ice carried in insulated boxes melts faster in midsummer sun than owners expect, which makes a stored temperature trace valuable.",
+            areas: [
+              {
+                name: "Seaside hotel and resort kitchens",
+                note: "Large kitchens keep chillers, freezers and dry stores serving breakfast, buffet and banquet service, and the load on cooling swings between quiet days and full evenings.",
+              },
+              {
+                name: "Beach cafes and snack kitchens",
+                note: "Cafes by the shore store dairy, drinks and frozen desserts in compact units that stand in sun and salt spray all day.",
+              },
+              {
+                name: "Fish traders and fishing-craft ice boxes",
+                note: "Boat owners and traders keep ice and catch in insulated boxes and small cold stores beside the water, where the sun is strong and the air is damp.",
+              },
+              {
+                name: "Farm stores and grocers",
+                note: "Growers keep vegetables and herbs in cool stores before sale, and grocers serving the town stock chilled and frozen goods in rooms cooled by one unit.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Hotel kitchens, beach cafes and fish traders in Zallaq work with stock that spoils quickly, and a phone alert tells the owner that a cold store is warming before the catch is affected.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies and clinics in the town store stock to labelled ranges, and a dated trace shows how each refrigerator held up through the hottest weeks.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Vans carrying produce and seafood from Zallaq to other towns spend time parked in the sun, and a logger packed among the crates records what each leg did to the load.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "A unit reading humidity as well as temperature shows when salt-damp air has crept into a dry store that looks fine on a thermometer.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a hotel chiller from its lowest shelf to its top shelf and door, showing which level warms first during service.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A slim probe on a short lead drops into a beach-cafe fridge or an ice box and leaves the way the staff use it untouched.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a hotel or beach cafe in Zallaq use data loggers?",
+                answer:
+                  "Yes. A logger in every chiller, freezer and dry store keeps a round-the-clock record, and a report for any period can be exported in PDF, Excel or CSV form.",
+              },
+              {
+                question: "Why does sea air matter for refrigeration equipment?",
+                answer:
+                  "Salt and moisture settle on coils and seals, so units lose efficiency over a season, and a trend record shows that decline before stock is affected.",
+              },
+              {
+                question: "How would an enquiry from Zallaq be handled?",
+                answer:
+                  "Name the kitchen, shop or boat store, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable.",
+              },
+              {
+                question: "What if the WiFi at a seaside kitchen is patchy?",
+                answer:
+                  "The logger keeps writing readings to its memory on battery power, so patchy signal near the shore costs nothing in the record.",
+              },
+            ],
+            nearby: [
+              { slug: "riffa", name: "Riffa" },
+              { slug: "budaiya", name: "Budaiya" },
+              { slug: "manama", name: "Manama" },
+            ],
+            metaTitle: "Temperature Data Loggers in Zallaq | Prithvi",
+            metaDescription:
+              "Data loggers for Zallaq's seaside hotel kitchens, beach cafes, fish stores and farm cold rooms in salty, humid air. Get Solution.",
             indexable: true,
           },
         ],
