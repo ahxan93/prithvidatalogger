@@ -28267,21 +28267,21 @@ export const locations: LegacyLocationNode[] = [
         name: "Capital Governorate",
         type: "state",
         intro:
-          "The Capital Governorate holds Manama and its surroundings on the north-east of Bahrain's main island, a dense strip of towers, covered markets, hotels, hospitals, shopping streets and apartment blocks packed along the Gulf shore. A waterfront district of glass towers and a commercial quarter of malls and offices have grown on reclaimed ground along the northern coast, while a commercial port stands to the south-east. Summers are long, very hot and humid, winters mild and pleasant, and dust and sea haze blow in on some days. Food, medicines and household goods wait in kitchens, clinics and warehouses in such air. The pages below cover the city, two of its districts and its port.",
+          "The Capital Governorate holds Manama and its surroundings on the north-east of Bahrain's main island, a dense strip of towers, covered markets, hotels, hospitals, shopping streets and apartment blocks packed along the Gulf shore. A waterfront district of glass towers and a commercial quarter of malls and offices have grown on reclaimed ground along the northern coast, while a commercial port stands to the south-east. Summers are long, very hot and humid, winters mild and pleasant, and dust and sea haze blow in on some days. Food, medicines and household goods wait in kitchens, clinics and warehouses in such air. The pages below cover the city, the built-up districts of Juffair and Adliya, two commercial and waterfront districts and the port.",
         localIndustries: [
           "Hospitals, clinics and pharmacies",
           "Hotel, restaurant and catering kitchens",
           "Port-side warehousing",
           "Markets and food retail",
         ],
-        citiesServed: ["Manama"],
+        citiesServed: ["Manama", "Juffair", "Adliya"],
         supportNote:
           "Enquiries from the Capital Governorate are handled through the enquiry form, Call or WhatsApp. Say which district, which rooms and how they are cooled, and our reply sets out what seems suitable for the site.",
         faqs: [
           {
             question: "Which places in the Capital Governorate have a page?",
             answer:
-              "Manama has a city page. Bahrain Financial Harbour, Seef District and Mina Salman Port have area pages under it. A district not listed here can still be raised through the enquiry form.",
+              "Manama, Juffair and Adliya have city pages. Bahrain Financial Harbour, Seef District and Mina Salman Port have area pages under Manama. A district not listed here can still be raised through the enquiry form.",
           },
           {
             question: "Why does hot, humid air call for humidity records as well as temperature?",
@@ -28296,6 +28296,8 @@ export const locations: LegacyLocationNode[] = [
         ],
         listing: [
           { slug: "manama", text: "The island's capital on the north-east shore, with towers, covered markets, hotels, hospitals and a port, in long, hot, humid summers." },
+          { slug: "juffair", text: "A district of tall apartment blocks, serviced flats, cafes and neighbourhood shops on the south-east edge of the capital, facing the Gulf." },
+          { slug: "adliya", text: "A central district of converted villas, cafe kitchens, bakeries and clinics on quiet streets, where older buildings meet modern cooling." },
         ],
         areaListing: [
           { slug: "bahrain-financial-harbour", text: "A waterfront district of glass towers on reclaimed ground, with offices, a mall, restaurants and hotel kitchens beside the sea." },
@@ -28400,6 +28402,190 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Manama | Prithvi",
             metaDescription:
               "Data loggers for Manama's hospitals, hotel kitchens, market stock rooms and port-side warehouses in hot, humid sea air. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "juffair",
+            name: "Juffair",
+            type: "city",
+            intro:
+              "Juffair is a built-up district on the south-eastern edge of Manama, facing the Gulf, and a temperature data logger here serves tall apartment blocks, serviced flats, restaurants, supermarkets, small clinics and shops in hot, humid sea air. Residential towers stand shoulder to shoulder along broad avenues, ground floors are given over to cafes, bakeries and grocers, and back lanes hide storerooms and delivery bays for them all. Summers are long and damp, winters are mild, and dust and haze arrive on windy days, so air-conditioning runs from spring to autumn. Because so much food is prepared, sold and kept in small units, one failed cooler can spoil a day's trade. Enquiries from Juffair are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "Tall buildings throw hot, damp air back and forth between them, so the lanes behind the avenues stay warm after dark, and the rooftops that hold condensers soak up the sun all afternoon. A cooler squeezed into a narrow service passage struggles with that heat, and a refrigerator in a ground-floor shop meets a wall of moist air each time the door to the street is opened.",
+            areas: [
+              {
+                name: "Restaurants, cafes and bakeries on the avenues",
+                note: "Small kitchens at street level keep dairy, meat, dough and desserts in undercounter fridges and compact freezers that run flat out through the summer evenings.",
+              },
+              {
+                name: "Supermarkets and grocers beneath the apartment blocks",
+                note: "Neighbourhood shops sell chilled drinks, dairy and frozen food from open display cabinets and keep the remainder in cramped back rooms with little airflow.",
+              },
+              {
+                name: "Serviced apartments and small hotels",
+                note: "Residential hotels hold breakfast supplies and laundry chemicals in service rooms off the lifts, usually with a single wall-mounted air-conditioning unit.",
+              },
+              {
+                name: "Clinics, dispensaries and pharmacies",
+                note: "Small medical practices and pharmacies on the ground floors of towers keep vaccines and tablets in domestic-size refrigerators that must hold their range through supply dips.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Cafes, bakeries and takeaway kitchens in Juffair pack a lot of chilled stock into small boxes, and a record from each unit shows which cooler began to drift on a busy night.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies and clinics beneath the towers store stock to labelled ranges, and a dated log proves how a refrigerator behaved through a hot week or a flicker in the supply.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Vans that restock the district's shops make several stops in the heat, and a logger tucked into a crate records what each leg of the round did to the load.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "A single probe on a short lead slips into a pharmacy fridge or a bakery cooler without changing how the staff use it.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "A compact unit that reads humidity as well as temperature shows when moist street air has crept into a cramped storeroom.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a restaurant chiller from the base to the top shelf and the door, showing which level warms first during a rush.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a small shop or cafe in Juffair use a data logger?",
+                answer:
+                  "Yes. One logger in each cooler or freezer gives a continuous record, a phone alert reaches the owner if a unit warms, and a report can be exported in PDF, Excel or CSV form.",
+              },
+              {
+                question: "Why do ground-floor refrigerators suffer in tall districts?",
+                answer:
+                  "Heat and humidity gather in the lanes between towers, so cooling units work harder and every opened door lets in moist air, which makes a trend record more useful than a single spot reading.",
+              },
+              {
+                question: "How would a request from Juffair be handled?",
+                answer:
+                  "Name the shop, kitchen or clinic, the number of units and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable for a site of that size.",
+              },
+              {
+                question: "Can calibration be discussed for loggers used in a Juffair clinic?",
+                answer:
+                  "VEGA Calibrations, our parent company, looks after calibration questions; share the model and the range you work to and we outline the options.",
+              },
+            ],
+            nearby: [
+              { slug: "manama", name: "Manama" },
+              { slug: "adliya", name: "Adliya" },
+              { slug: "muharraq", name: "Muharraq" },
+            ],
+            metaTitle: "Temperature Data Loggers in Juffair | Prithvi",
+            metaDescription:
+              "Data loggers for Juffair's apartment-block shops, cafe kitchens, clinics and serviced flats in hot, humid air. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "adliya",
+            name: "Adliya",
+            type: "city",
+            intro:
+              "Adliya is a central district of Manama of low-rise villas, converted houses, cafes and quiet streets, and a temperature data logger here serves small kitchens, bakeries, specialist food shops, clinics and offices that occupy old buildings never planned for modern cooling. Restaurants and coffee houses fill lanes that were once residential, and shops sell chilled and fresh produce from compact premises. Summers are long and very humid, winters are mild, and haze and dust arrive on windy days. The older fabric of the district means thick walls, patched-in wiring and air-conditioners added room by room, so cooling quality varies from one property to the next, and a unit that suits one kitchen may struggle in the next. Enquiries from Adliya are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "Villas converted into kitchens and shops carry window units and split systems fitted where the old rooms allowed, so temperatures differ sharply between a front room and a back store. Narrow lanes shaded by neighbouring walls stay damp, and a small freezer on a covered terrace can run in far warmer air than the specification assumed. Rooftop condensers on low buildings share the same hot, still air, which makes breakdowns more likely in the deepest part of summer and harder to notice before stock is affected.",
+            areas: [
+              {
+                name: "Cafe and restaurant kitchens in converted villas",
+                note: "Kitchens built into former bedrooms and courtyards keep cream, meat and pastry in reach-in chillers whose compressors are squeezed against walls with little ventilation.",
+              },
+              {
+                name: "Bakeries, patisseries and speciality food shops",
+                note: "Small producers keep butter, fillings and finished cakes in display fridges and cold rooms where a few degrees of drift can spoil a whole tray.",
+              },
+              {
+                name: "Clinics and consulting rooms",
+                note: "Doctors and dentists working from converted houses store vaccines, anaesthetics and samples in ordinary refrigerators that share a circuit with the rest of the building.",
+              },
+              {
+                name: "Offices and studios with a small server cupboard",
+                note: "Design offices and agencies keep network equipment in cupboards cooled by the same air-conditioning that serves a desk area, so it can warm unnoticed overnight.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Bakeries, patisseries and cafe kitchens in Adliya work with dairy and cream that spoil quickly, and a phone alert tells the owner that a display fridge is warming before the batch is lost.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Clinics in converted houses keep vaccines and medicines in refrigerators that are easy to forget, and a stored record shows how each one behaved over a weekend.",
+              },
+              {
+                slug: "data-centers",
+                sentence:
+                  "A server cupboard in a villa office warms silently after the staff leave, and a logger in the cupboard supplies the early warning that a room thermometer cannot.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "A slim probe on a short cable reaches into a clinic fridge or a patisserie display unit with no change to how it is loaded.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "One unit watching temperature and humidity shows when damp air has crept into a back store that was never designed for dry goods.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "A wired option suits a fixed cold room where the owner wants a steady reading from the same spot every day.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Why is a converted villa harder to keep cool than a purpose-built unit?",
+                answer:
+                  "Cooling is fitted room by room where the building allowed, so one corner may run much warmer than another, and a logger placed among the stored goods shows the real conditions in that spot.",
+              },
+              {
+                question: "Can one login cover a cafe, a bakery and a shop owned by the same person?",
+                answer:
+                  "Yes. Every unit reports to the same dashboard, each alert can go to a different person, and one report can cover all the sites.",
+              },
+              {
+                question: "How should an Adliya business ask about loggers?",
+                answer:
+                  "Give the business, the number of fridges, freezers or cold rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks practical.",
+              },
+              {
+                question: "Do the loggers keep working if the building loses power at night?",
+                answer:
+                  "They keep recording on their own batteries and store the readings, so the hours of an outage are still on record when the building is connected again.",
+              },
+            ],
+            nearby: [
+              { slug: "manama", name: "Manama" },
+              { slug: "juffair", name: "Juffair" },
+              { slug: "muharraq", name: "Muharraq" },
+            ],
+            metaTitle: "Temperature Data Loggers in Adliya | Prithvi",
+            metaDescription:
+              "Data loggers for Adliya's villa-built cafe kitchens, bakeries, clinics and server cupboards in humid, hot air. Get Solution.",
             indexable: true,
           },
         ],

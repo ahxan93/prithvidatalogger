@@ -475,6 +475,8 @@
 | Bahrain Financial Harbour (`bahrain-financial-harbour`, area of Manama) | Bahrain | Podium and basement kitchens, mall food courts, server cupboards, clinics and pharmacies (described generally, no tenant or status claims) | Food, data centres, medicines | Hot, humid waterfront air | Seef District |
 | Seef District (`seef-district`, area of Manama) | Bahrain | Mall supermarkets, hotel kitchens, shop stockrooms, clinics and pharmacies | Food, electronics, medicines | Hot, humid coastal air | Bahrain Financial Harbour |
 | Mina Salman Port (`mina-salman-port`, area of Manama) | Bahrain | Container stacks, cold halls, warehouses behind the quays, lorries (described generally, no operating status) | Logistics, food, medicines | Hot, damp, salty harbour air | none |
+| Juffair (`juffair`, city, Capital Governorate) | Bahrain | Cafe and bakery kitchens, shops beneath apartment blocks, serviced flats, clinics and pharmacies | Food, medicines, logistics | Hot, humid air trapped between towers | Manama, Adliya |
+| Adliya (`adliya`, city, Capital Governorate) | Bahrain | Converted-villa kitchens, bakeries and patisseries, clinics, offices with a server cupboard | Food, medicines, data centres | Hot, humid air; uneven cooling in older buildings | Manama, Juffair |
 | Sulaibiya Industrial Area (`sulaibiya-industrial-area`, area of Sulaibiya) | Kuwait | Wholesale food stores, cleaner and sealant stores, light factories, open yards | Food, logistics, chemicals | Blazing, dusty | none |
 | Amghara Industrial Area (`amghara-industrial-area`, area of Jahra) | Kuwait | Parts yards and workshops, electronics and appliance stores, lubricant and cleaner stores, warehouses | Electronics, logistics, chemicals | Blazing, dusty | none |
 | Shuaiba Industrial Area (`shuaiba-industrial-area`, area of Ahmadi) | Kuwait | Factory halls, sealant and coating stores, warehouses and parts stores, canteens | Chemicals, logistics, food | Blazing heat, humid shore air | Shuaiba Port |
@@ -846,3 +848,5 @@ Kabd Industrial Area, Sabhan Industrial Area and Fintas.
 Bahrain Batch 0: the Bahrain country node already existed and was rewritten (no causeway, India dispatch or GSM wording; no local-office, delivery or accreditation claim) with a neutral line that enquiries from Bahrain are handled through the enquiry form, Call or WhatsApp.
 
 Bahrain Batch 1 (Capital Governorate): hub, Manama, Bahrain Financial Harbour, Seef District and Mina Salman Port, all attached to Manama, the nearest confident city (no administrative statement beyond the governorate hub). The port and the harbour district carry no statement about operating status, traffic, capacity, operators or tenants.
+
+Bahrain Batch 2 (Capital Governorate): Juffair and Adliya added as city pages (both are districts of Manama; no administrative statement beyond the governorate hub). Not built: Tubli and Sanad (not confident which governorate they belong to under the current four, so not guessed).
