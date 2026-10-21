@@ -28237,14 +28237,14 @@ export const locations: LegacyLocationNode[] = [
       "Logistics and warehousing",
       "Hospitality",
     ],
-    citiesServed: ["Manama", "Muharraq"],
+    citiesServed: ["Manama", "Muharraq", "Hamad Town"],
     supportNote:
       "Enquiries from Bahrain are handled through the enquiry form, Call or WhatsApp. Tell us the site, the rooms and what you store, and our reply covers what seems suitable and how remote set-up support would run.",
     faqs: [
       {
         question: "Which parts of Bahrain have a page?",
         answer:
-          "The Capital Governorate and the Muharraq Governorate each have a page, with their cities and districts beneath them. For a place not yet listed, describe the site and what you store through the enquiry form, Call or WhatsApp, and we reply with a suggestion.",
+          "The Capital, Muharraq and Northern Governorates each have a page, with their cities and districts beneath them. For a place not yet listed, describe the site and what you store through the enquiry form, Call or WhatsApp, and we reply with a suggestion.",
       },
       {
         question: "How do we start monitoring a Bahrain site?",
@@ -28260,6 +28260,7 @@ export const locations: LegacyLocationNode[] = [
     listing: [
       { slug: "capital-governorate", text: "The governorate of the capital on the north-east of the island, with a harbour city of towers, markets, hospitals and a commercial port, in hot, humid sea air." },
       { slug: "muharraq-governorate", text: "The island governorate to the north-east of the capital, with an old walled-lane town, a seaside industrial and harbour area, and the island's airport." },
+      { slug: "northern-governorate", text: "The governorate covering the north-western part of the main island, with a planned inland town, a coastal strip of palm gardens and seaside villages." },
     ],
     indexable: true,
     children: [
@@ -28605,12 +28606,12 @@ export const locations: LegacyLocationNode[] = [
         ],
         citiesServed: ["Muharraq","Hidd","Arad","Busaiteen","Amwaj Islands"],
         supportNote:
-          "Enquiries from the Muharraq Governorate are handled through the enquiry form, Call or WhatsApp. Name the town, the rooms and the goods, and our reply sets out what seems suitable for the site.",
+          "Enquiries from the Muharraq Governorate are handled through the enquiry form, Call or WhatsApp. Say which town, which rooms and which goods, and our reply describes what appears suitable for the site.",
         faqs: [
           {
             question: "Which places in the Muharraq Governorate have a page?",
             answer:
-              "Muharraq, Hidd, Arad, Busaiteen and the Amwaj Islands have city pages. The airport sits under Muharraq, and Khalifa Bin Salman Port and the Bahrain Logistics Zone sit under Hidd. A town not listed here can be raised through the enquiry form.",
+              "Muharraq, Hidd, Arad, Busaiteen and the Amwaj Islands have city pages. The airport sits under Muharraq, and Khalifa Bin Salman Port and the Bahrain Logistics Zone sit under Hidd. Another town can be raised through the enquiry form.",
           },
           {
             question: "Why do island sites need extra attention to humidity?",
@@ -29121,6 +29122,337 @@ export const locations: LegacyLocationNode[] = [
             metaTitle: "Temperature Data Loggers in Amwaj Islands | Prithvi",
             metaDescription:
               "Data loggers for Amwaj Islands cafes, supermarkets, clinics and small hotels in salty, hot, humid air. Get Solution.",
+            indexable: true,
+          },
+        ],
+      },
+      {
+        slug: "northern-governorate",
+        name: "Northern Governorate",
+        type: "state",
+        intro:
+          "The Northern Governorate covers much of the north and west of Bahrain's main island, from a planned inland town of numbered roundabouts and wide streets to a coastal strip of date-palm gardens, farm plots and seaside villages. Inland, the ground is flat and dry and the summer heat is fierce, while along the shore the air is humid and carries salt. Shops, market stalls, school canteens, clinics, farm stores and workshops all keep goods in rooms that were never meant for such heat. Winters are mild, and dust blows in on windy days. The pages below cover Hamad Town and its industrial area, Budaiya and Saar.",
+        localIndustries: [
+          "Food shops and market traders",
+          "Clinics and pharmacies",
+          "Workshops and light industry",
+          "Farm produce and nurseries",
+        ],
+        citiesServed: ["Hamad Town","Budaiya","Saar"],
+        supportNote:
+          "Enquiries from the Northern Governorate are handled through the enquiry form, Call or WhatsApp. Name the town, the rooms and the goods, and our reply sets out what seems suitable for the site.",
+        faqs: [
+          {
+            question: "Which places in the Northern Governorate have a page?",
+            answer:
+              "Hamad Town, Budaiya and Saar have city pages, and the Hamad Town Industrial Area sits under Hamad Town. A town not listed here can be raised through the enquiry form.",
+          },
+          {
+            question: "Why does an inland town need a different approach from the coast?",
+            answer:
+              "Inland air is drier and hotter in the afternoon, so cooling plant works hard, while the coast brings humid, salty air that clogs coils, and the right records differ between them.",
+          },
+          {
+            question: "Can one login cover sites in several towns?",
+            answer:
+              "Yes. Every logger reports to one dashboard, alerts can go to different people, and one report can cover shops, stores and sheds in different places.",
+          },
+        ],
+        listing: [
+          { slug: "hamad-town", text: "The planned inland town of numbered roundabouts, large housing districts, markets, workshops and an industrial area, in dry and fierce summer heat." },
+          { slug: "budaiya", text: "A town on the northern shore with date-palm gardens, farm plots, a long coastal road and small fishing craft, in humid and salty air." },
+          { slug: "saar", text: "A coastal housing town west of the capital, with residential compounds, school canteens, shop rows and clinics along its main roads." },
+        ],
+        areaListing: [
+          { slug: "hamad-town-industrial-area", text: "The workshop and storage district of Hamad Town, covered only through the goods and rooms a logger user may look after." },
+        ],
+        // Noindex while it has fewer than two built child pages; promoted automatically (see below).
+        indexable: false,
+        children: [
+          {
+            slug: "hamad-town",
+            name: "Hamad Town",
+            type: "city",
+            intro:
+              "Hamad Town is a planned town on the flat inland plain of Bahrain's main island, laid out on a grid of wide streets joined by numbered roundabouts, with large residential districts, shopping rows, markets, schools, health centres and an industrial area on its edge. A temperature data logger here serves grocers, bakeries, school canteens, pharmacies, workshops and stores in a place that sits away from the sea breeze. Summer afternoons are fierce and dry, evenings stay warm, winters are mild, and dust blows across the plain on windy days. Many families shop late, so doors open and close until after dark, and the sea breeze that cools coastal towns is missing from the plain. Enquiries from Hamad Town are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "Without the sea close by, afternoon heat is intense and the ground radiates warmth into the evening, so air-conditioning compressors run for most of the day between spring and autumn. Wide streets and low buildings leave little shade, flat roofs bake in the sun, and dust settles on filters and coils, which blocks airflow and makes cooling units work harder than they should.",
+            areas: [
+              {
+                name: "Grocery rows and markets around the roundabouts",
+                note: "Shops and market stalls near the busy junctions sell dairy, meat, vegetables and frozen food from open cabinets and keep surplus in small back stores with limited airflow.",
+              },
+              {
+                name: "School canteens and nursery kitchens",
+                note: "Schools across the town prepare and hold meals for large numbers of children, and chilled food must be shown to have stayed in range between kitchen and serving.",
+              },
+              {
+                name: "Pharmacies and health centres",
+                note: "Pharmacies and health rooms keep vaccines, insulin and medicines in refrigerators that share circuits with air-conditioning and must hold range through supply dips.",
+              },
+              {
+                name: "Workshop and trade units on the edges of the town",
+                note: "Garages, joinery shops and parts counters keep adhesives, paints and electrical spares in rooms where afternoon heat builds under flat roofs.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Grocers, bakeries and canteens in Hamad Town store dairy and prepared food in dry heat, and a record from each cooler shows which unit began to struggle during the afternoon peak.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies in the town keep stock to labelled ranges, and a dated log shows how a refrigerator behaved through a hot week or a supply dip.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A health centre holding vaccines needs to show they stayed in range, and a phone alert reaches the nurse in charge if a fridge warms overnight.",
+              },
+              {
+                slug: "electronics",
+                sentence:
+                  "Spares and appliances kept in trade units under flat roofs can suffer in heat and dust, and a temperature and humidity trend shows how a store behaves from day to night.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "A slim probe on a short cable slips into a pharmacy fridge or a canteen cooler without changing how the unit is loaded.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "A wired unit suits a permanent cold room, where the owner wants the same steady reading from one fixed spot.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a canteen chiller from its base to its top shelf and door, showing which level warms first at lunchtime.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a school canteen in Hamad Town use data loggers?",
+                answer:
+                  "Yes. A logger in each fridge or cold room provides a time-stamped record that can be exported as a PDF, Excel or CSV file for managers or inspectors.",
+              },
+              {
+                question: "Why does dust matter for cooling equipment?",
+                answer:
+                  "Dust blocks filters and coils, so units lose efficiency and run longer, and a trend record shows a unit slowly losing ground before the stock is harmed.",
+              },
+              {
+                question: "How would an enquiry from Hamad Town be handled?",
+                answer:
+                  "Name the shop, canteen or workshop, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable.",
+              },
+              {
+                question: "Can a logger keep recording through a power cut?",
+                answer:
+                  "On a power cut it carries on from its own battery and stores the readings, so the outage hours can be reviewed when the site is back online.",
+              },
+            ],
+            nearby: [
+              { slug: "budaiya", name: "Budaiya" },
+              { slug: "saar", name: "Saar" },
+              { slug: "manama", name: "Manama" },
+            ],
+            metaTitle: "Temperature Data Loggers in Hamad Town | Prithvi",
+            metaDescription:
+              "Data loggers for Hamad Town's groceries, school canteens, pharmacies and workshop stores in fierce, dusty summer heat. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "budaiya",
+            name: "Budaiya",
+            type: "city",
+            intro:
+              "Budaiya is a town on the northern shore of Bahrain's main island, strung along a long coastal road lined with date-palm gardens, farm plots, plant nurseries, cafes and small shops, with fishing craft kept along the water. A temperature data logger here serves farm stores, nurseries, produce sellers, roadside kitchens, grocers and clinics in air that is humid and carries salt. Greenery gives the road a cooler feel than the inland plain, but the summer remains long, very hot and damp, and winters are mild. Farm tracks lead off the road between the gardens, produce is sold from roadside stalls and small markets, and sheds close to the water store boxes, crates and ice through the hottest months. Enquiries from Budaiya are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "Between irrigated gardens and open water, the shore holds moisture in the air, so stored dry goods soften and metal fittings rust. Palm shade lowers the temperature on the road but not inside sheds with metal roofs, and the dust from farm tracks mixes with salt to form a crust on condenser coils. Tracks between the plots are dusty in summer, and trucks that collect produce wait in the sun with their loads exposed.",
+            areas: [
+              {
+                name: "Farm stores and produce sheds",
+                note: "Growers keep harvested vegetables, dates and herbs in cool stores and sheds before they go to market, and every hour of warmth shortens their shelf life.",
+              },
+              {
+                name: "Plant nurseries and seed stores",
+                note: "Nurseries keep seeds, fertiliser and growing media in rooms where heat and damp together can spoil stock long before the plants themselves.",
+              },
+              {
+                name: "Roadside cafes and small kitchens",
+                note: "Cafes along the coastal road keep dairy, meat and prepared food in compact fridges and freezers, with doors that open to hot outdoor seating.",
+              },
+              {
+                name: "Fishing-craft stores and ice boxes",
+                note: "Boat owners keep ice, bait and catch in insulated boxes and small cold stores beside the water, where the sun is strong and the air is damp.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Produce sellers, roadside cafes and fish traders in Budaiya work with stock that spoils quickly in heat, and a phone alert tells the owner that a cold store is warming before the harvest is affected.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies and clinics along the coastal road store stock to labelled ranges, and a dated log shows how a refrigerator coped with the hottest weeks.",
+              },
+              {
+                slug: "chemical",
+                sentence:
+                  "Nurseries and farm suppliers keep fertilisers and treatments that must not overheat, and a temperature log shows how a shed behaved on a still afternoon.",
+              },
+              {
+                slug: "logistics-warehousing",
+                sentence:
+                  "Vans carrying produce from Budaiya to markets spend time parked in the sun, and a logger packed among the crates records what each leg did to the load.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "nakshatra",
+                reason:
+                  "A unit reading humidity as well as temperature shows when damp shore air has crept into a seed store that looks fine on a thermometer.",
+              },
+              {
+                slug: "setu",
+                reason:
+                  "A probe on a short cable fits into a cafe fridge or an ice box without changing how the unit is used.",
+              },
+              {
+                slug: "rajmudra",
+                reason:
+                  "A wired option suits a fixed cold store where the owner wants a steady reading from one spot each day.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a farm or nursery in Budaiya use data loggers?",
+                answer:
+                  "Yes. A logger in a produce store or seed room records temperature and humidity day and night, and a phone alert reaches the owner if conditions drift.",
+              },
+              {
+                question: "Why do garden-side sheds need a humidity reading?",
+                answer:
+                  "Irrigation and sea air add moisture, which softens cartons and damages seeds and dry goods, so a humidity trend reveals what a thermometer alone would miss.",
+              },
+              {
+                question: "How would a request from Budaiya be handled?",
+                answer:
+                  "Name the business, the stores and a contact on the enquiry form, Call or WhatsApp, and we reply with what seems practical.",
+              },
+              {
+                question: "Can one login cover a farm store and a roadside shop?",
+                answer:
+                  "Yes. All loggers feed one dashboard, each alert can reach a different person, and a single report can span the farm store and the shop.",
+              },
+            ],
+            nearby: [
+              { slug: "saar", name: "Saar" },
+              { slug: "hamad-town", name: "Hamad Town" },
+              { slug: "manama", name: "Manama" },
+            ],
+            metaTitle: "Temperature Data Loggers in Budaiya | Prithvi",
+            metaDescription:
+              "Data loggers for Budaiya's farm stores, nurseries, roadside kitchens and ice boxes in humid, salty coastal air. Get Solution.",
+            indexable: true,
+          },
+          {
+            slug: "saar",
+            name: "Saar",
+            type: "city",
+            intro:
+              "Saar is a coastal housing town on the northern shore of Bahrain's main island, west of Manama, with residential compounds, villas, shop rows, school canteens, gyms, salons and clinics spread along its main roads. A temperature data logger here serves the grocers, bakeries, canteens and pharmacies that supply a settled, family-oriented neighbourhood. Summers are long, very hot and humid, winters are mild, and haze and salt drift in from the sea. Its streets are shaded by walls and trees rather than tall blocks, and many households keep a spare fridge or freezer in a utility room or on a porch. Small businesses run from villas and compound units, so kitchens, studios and stores often sit in rooms built as bedrooms or garages. Enquiries from Saar are handled through the enquiry form, Call or WhatsApp.",
+            climateAngle:
+              "Housing compounds with walled yards hold heat between buildings, and the humid sea air mixes with the warmth of air-conditioner exhausts, so rear service lanes stay oppressive long after sunset. Compressors on garden walls collect salt and dust through the season, and freezers kept in car ports work in air that is warmer than the shaded street. Villa garages used as stores or kitchens have no insulation to speak of, so goods kept there follow the outdoor temperature closely, and a door left ajar for a few minutes lets in a surge of damp heat.",
+            areas: [
+              {
+                name: "Grocers and bakeries on the main roads",
+                note: "Shops serving the housing compounds sell milk, yoghurt, bread and frozen food, and keep surplus in compact back rooms cooled by a single unit.",
+              },
+              {
+                name: "School canteens and after-school clubs",
+                note: "Canteens prepare and hold meals for large groups of children, and chilled items must be shown to have stayed in range between the kitchen and the midday service.",
+              },
+              {
+                name: "Clinics, pharmacies and dental rooms",
+                note: "Small practices keep vaccines, anaesthetics and medicines in domestic-size refrigerators that share a circuit with the rest of the premises.",
+              },
+              {
+                name: "Salons, gyms and cafes with a kitchenette",
+                note: "Cafes, gyms and salons keep drinks, snacks and treatment products in small fridges and stock cupboards that are rarely checked for temperature.",
+              },
+            ],
+            industries: [
+              {
+                slug: "food-beverage",
+                sentence:
+                  "Grocers, bakeries and canteens in Saar hold chilled and frozen stock in humid air, and a stored record shows the moment a compressor began to labour.",
+              },
+              {
+                slug: "pharmaceutical",
+                sentence:
+                  "Pharmacies and clinics in the town store stock to labelled ranges, and a dated trace shows how each refrigerator coped with the hottest weeks.",
+              },
+              {
+                slug: "hospitals-blood-banks",
+                sentence:
+                  "A small clinic keeping vaccines needs to show they stayed in range, and a phone alert reaches the person on duty if a fridge warms overnight.",
+              },
+            ],
+            recommendedSeries: [
+              {
+                slug: "setu",
+                reason:
+                  "A slim probe on a short cable fits into a clinic fridge or a canteen cooler without changing how the unit is loaded.",
+              },
+              {
+                slug: "nakshatra",
+                reason:
+                  "One unit reading humidity as well as temperature shows when damp air has crept into a storeroom that looks fine on a thermometer.",
+              },
+              {
+                slug: "dhruva",
+                reason:
+                  "Four channels follow a canteen chiller from its lowest shelf to its top shelf and door, showing which level warms first.",
+              },
+            ],
+            faqs: [
+              {
+                question: "Can a school canteen or after-school club in Saar use data loggers?",
+                answer:
+                  "Yes. A logger in each fridge provides a time-stamped record that can be exported as a PDF, Excel or CSV file for managers or inspectors.",
+              },
+              {
+                question: "Why does a freezer in a car port need monitoring?",
+                answer:
+                  "Air in a car port can be far hotter than indoors, so the freezer works harder, and a trend record shows whether it holds its range through a summer afternoon.",
+              },
+              {
+                question: "How would an enquiry from Saar be handled?",
+                answer:
+                  "Tell us the shop, canteen or clinic, the rooms to be covered and a contact through the enquiry form, Call or WhatsApp, and we reply with a suggestion.",
+              },
+              {
+                question: "Do the loggers keep recording if the WiFi drops?",
+                answer:
+                  "They carry on recording on their own battery and keep the readings, so the period without a connection leaves no gap in the record.",
+              },
+            ],
+            nearby: [
+              { slug: "budaiya", name: "Budaiya" },
+              { slug: "manama", name: "Manama" },
+              { slug: "hamad-town", name: "Hamad Town" },
+            ],
+            metaTitle: "Temperature Data Loggers in Saar | Prithvi",
+            metaDescription:
+              "Data loggers for Saar's groceries, bakeries, school canteens and clinic fridges in hot, humid coastal air. Get Solution.",
             indexable: true,
           },
         ],

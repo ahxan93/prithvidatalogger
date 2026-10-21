@@ -363,6 +363,11 @@ export const locationContent: Record<string, LocationContent> = {
       "Data loggers for the Muharraq Governorate: Muharraq, Hidd, Arad and Busaiteen shops, kitchens, sheds and the harbour area. Get Solution.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
+  "bahrain/northern-governorate": {
+    metaDescription:
+      "Data loggers for the Northern Governorate: Hamad Town, Budaiya and Saar shops, kitchens, farm stores and workshops. Get Solution.",
+    recommended: ["nakshatra", "setu", "rajmudra"],
+  },
   "qatar/doha-municipality": {
     metaDescription:
       "Data loggers for Doha Municipality: Doha city, West Bay, Al Sadd, Msheireb and The Pearl-Qatar kitchens, clinics and stores. Get Solution.",
