@@ -12,7 +12,7 @@
 | Item | Value |
 |---|---|
 | Brand | Prithvi Data Loggers |
-| Website | https://prithvidataloggers.com |
+| Website | https://prithvidatalogger.com |
 | Parent company | VEGA Calibrations: NABL accredited (ISO/IEC 17025:2017) calibration laboratory, ISO 9001:2015 certified. Established 2 August 2016. https://www.vegacalibrations.com |
 | Founder | Mr. Ashwin Masurkar, Director (TM). Temperature mapping & monitoring expert; NABL calibration & validation; helps pharma QA and cold chain teams become audit-ready. |
 | Head office | A-202-A, Second Floor, Jaswanti Allied Business Centre, Kachpada, Ramchandra Lane Extn., Malad West, Mumbai – 400064, Maharashtra, India |

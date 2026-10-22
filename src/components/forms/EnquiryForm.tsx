@@ -10,7 +10,7 @@ import { whatsappHref } from "@/lib/contact";
 import { cn } from "@/lib/cn";
 
 const WEB3FORMS_ENDPOINT = "https://api.web3forms.com/submit";
-const SITE_HOST = "prithvidataloggers.com";
+const SITE_HOST = "prithvidatalogger.com";
 const COMPANY_MAX_LENGTH = 120;
 
 /** Collapse whitespace, drop control characters and angle brackets, trim and cap the length. */

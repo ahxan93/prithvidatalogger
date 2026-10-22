@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Prithvi Data Loggers",
-  url: "https://prithvidataloggers.com",
+  url: "https://prithvidatalogger.com",
   description:
     "IoT temperature & humidity data loggers (WiFi / GSM / LoRa) for pharma, cold chain, hospitals, food, warehousing and labs.",
   email: "support@prithvidataloggers.com",

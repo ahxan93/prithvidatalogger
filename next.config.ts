@@ -56,7 +56,7 @@ const nextConfig: NextConfig = {
     },
   },
 
-  // Canonical host is the apex domain (no www).
+  // Host redirects (www and the old prithvidataloggers.com domain to the apex) live in src/proxy.ts.
   async redirects() {
     return [
       ...legacyLocationRedirects(),
@@ -75,12 +75,6 @@ const nextConfig: NextConfig = {
         source: "/data-logger/:slug",
         destination: `/${LOCATION_URL_PREFIX}:slug`,
         statusCode: 301 as const,
-      },
-      {
-        source: "/:path*",
-        has: [{ type: "host", value: "www.prithvidataloggers.com" }],
-        destination: "https://prithvidataloggers.com/:path*",
-        permanent: true,
       },
     ];
   },

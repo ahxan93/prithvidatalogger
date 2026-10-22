@@ -1,6 +1,6 @@
 # Launch Checklist
 
-Everything still needed before `prithvidataloggers.com` goes live. Split into what
+Everything still needed before `prithvidatalogger.com` goes live. Split into what
 the owner needs to provide/approve, and the technical steps to deploy.
 
 ---
@@ -104,10 +104,10 @@ leave it as is.
 
 1. **Environment variables** — set `NEXT_PUBLIC_WEB3FORMS_KEY` on the hosting
    platform (see A.2).
-2. **Domain & DNS** — point `prithvidataloggers.com` (apex) at the host.
-   `www.prithvidataloggers.com` should also resolve (even just to the same
+2. **Domain & DNS** — point `prithvidatalogger.com` (apex) at the host.
+   `www.prithvidatalogger.com` should also resolve (even just to the same
    host) so the app's own 308 redirect from www → apex (configured in
-   `next.config.ts`) can fire; a DNS-level redirect/forward also works if the
+   `src/proxy.ts`) can fire; a DNS-level redirect/forward also works if the
    host doesn't terminate TLS for the www host.
 3. **TLS** — confirm HTTPS is issued and enforced for both the apex and www
    hostnames before pointing DNS live.
@@ -116,12 +116,12 @@ leave it as is.
    verified. Until this is set, the site stays reachable but `noindex`ed on
    the `*.vercel.app` preview URL and sends `X-Robots-Tag: noindex`; setting
    it also turns on a 308 redirect from any `*.vercel.app` host to
-   `https://prithvidataloggers.com` (path preserved). See `src/proxy.ts`.
+   `https://prithvidatalogger.com` (path preserved). See `src/proxy.ts`.
    Redeploy after setting it.
 5. **Build & deploy** — `npm run build` (static/PPR output confirmed working
    in this audit); `npm run start` or the host's Next.js runtime serves it.
 6. **Google Search Console** — verify the domain, submit
-   `https://prithvidataloggers.com/sitemap.xml`.
+   `https://prithvidatalogger.com/sitemap.xml`.
 7. **Bing Webmaster Tools** — same, optional but low-effort.
 8. **Analytics** — none is installed (by design, per the Privacy Policy's
    current wording). If one is added later (GA4, Plausible, etc.), update the
@@ -129,7 +129,7 @@ leave it as is.
    it — the current wording explicitly says none is used.
 9. **Smoke test on the live domain** after DNS cutover:
    - `/sitemap.xml` and `/robots.txt` resolve and reference the live domain.
-   - `www.prithvidataloggers.com` redirects to the apex domain.
+   - `www.prithvidatalogger.com`, `prithvidataloggers.com` and `www.prithvidataloggers.com` 308-redirect to the apex domain.
    - Enquiry form submits successfully end-to-end (needs step 1).
    - Google Maps embed loads on `/contact`.
    - View source confirms no `X-Robots-Tag: noindex` header and no

@@ -98,7 +98,7 @@
 | 9 | **Why Prithvi** | Short shared block (4 points), allowed to repeat across pages. |
 | 10 | **{City} FAQs** | 4 city-specific questions with visible answers, plus FAQPage JSON-LD. Good topics: site visits in that area, which logger suits the local climate or industry, calibration availability, monitoring multiple sites in the region. |
 | 11 | **Nearby Locations We Serve** | 2 to 3 sibling city links plus the state hub link. |
-| 12 | **Enquiry form** | Compact EnquiryForm with a hidden `city` field = {City}. Email subject: "New enquiry from {Name} ({Company}) – {City} – prithvidataloggers.com" (name only when the optional Company name is empty). |
+| 12 | **Enquiry form** | Compact EnquiryForm with a hidden `city` field = {City}. Email subject: "New enquiry from {Name} ({Company}) – {City} – prithvidatalogger.com" (name only when the optional Company name is empty). |
 
 **SEO settings per city page:**
 - **Title (≤60):** `Temperature Data Loggers in {City} | Prithvi`. If too long, drop "Temperature".

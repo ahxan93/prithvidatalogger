@@ -22,7 +22,7 @@ import path from "node:path";
 const ROOT = path.join(import.meta.dirname, "..");
 const PORT = Number(process.env.CHECK_LINKS_PORT ?? 3199);
 const ORIGIN = `http://localhost:${PORT}`;
-const PRODUCTION_HOST = "prithvidataloggers.com";
+const PRODUCTION_HOST = "prithvidatalogger.com";
 const args = new Set(process.argv.slice(2));
 
 const hasBuild = fs.existsSync(path.join(ROOT, ".next", "BUILD_ID"));
