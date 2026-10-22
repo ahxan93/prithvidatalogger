@@ -53,7 +53,7 @@ const HOW_WE_WORK = [
 const HOW_WE_WORK_GCC = [
   { title: "Share your requirement", text: "Tell us what you store, where, and how many points need watching." },
   { title: "Recommendation", text: "We recommend the loggers and quantities for your sites by call, WhatsApp or video." },
-  { title: "Supply from India", text: "Loggers are dispatched from India to your site and registered to your dashboard." },
+  { title: "Handled from India", text: "Your enquiry is handled remotely from India, and the agreed loggers are registered to your dashboard." },
   { title: "Remote set-up and support", text: "We set up alert rules and user access with your team remotely and stay available as sites change." },
 ];
 
@@ -138,7 +138,7 @@ export default async function CityPage({ city }: { city: ResolvedCity }) {
             Temperature Data Loggers in {name}
           </h1>
           <p className="mt-5 max-w-3xl text-lg leading-relaxed text-slate-300 text-pretty">
-            WiFi and GSM temperature &amp; humidity monitoring for {name}&apos;s pharma, cold chain and industrial sites.
+            {outsideIndia ? "WiFi" : "WiFi and GSM"} temperature &amp; humidity monitoring for {name}&apos;s pharma, cold chain and industrial sites.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <Button href="#enquiry" size="lg" className="shadow-glow">
@@ -156,7 +156,7 @@ export default async function CityPage({ city }: { city: ResolvedCity }) {
           </div>
           <ul className="mt-8 flex flex-wrap gap-x-6 gap-y-3 text-sm text-slate-200">
             {(outsideIndia
-              ? ["Calibration by parent lab VEGA", `Supplied from India to ${name}`, "Remote set-up and support"]
+              ? ["Calibration by parent lab VEGA", path[0] === "yemen" ? `Reviewed case by case for ${name}` : `Enquiries from ${name} handled remotely`, "Remote set-up and support"]
               : ["Calibration by parent lab VEGA", `Site visits in ${name}`, "Supply across India & the GCC"]
             ).map((chip) => (
               <li key={chip} className="flex items-center gap-2">
@@ -192,7 +192,7 @@ export default async function CityPage({ city }: { city: ResolvedCity }) {
 
       {/* 4. Industrial areas */}
       <Section tone="surface" aria-labelledby="city-areas-title" data-city-section="areas">
-        <SectionHeading id="city-areas-title" eyebrow="Areas" title={outsideIndia ? `Industrial Zones We Supply in ${name}` : `Industrial Areas We Serve in ${name}`} />
+        <SectionHeading id="city-areas-title" eyebrow="Areas" title={outsideIndia ? `Industrial Zones in ${name}` : `Industrial Areas We Serve in ${name}`} />
         <ul className="mt-10 grid gap-5 sm:grid-cols-2">
           {node.areas.map((area) => (
             <li key={area.name} className="rounded-2xl border border-slate-200/80 bg-white p-6 shadow-soft">
