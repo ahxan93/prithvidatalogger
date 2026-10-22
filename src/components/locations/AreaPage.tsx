@@ -1,3 +1,4 @@
+import { isKeywordPage } from "@/data/keyword-pages";
 import Link from "next/link";
 import { siteConfig } from "@/config/site";
 import type { AreaDef, AreaPageContent } from "@/data/areas";
@@ -35,6 +36,7 @@ export default function AreaPage({ area, cityPath }: { area: AreaDef; cityPath: 
   const meta = areaCityMeta(area);
   const cityName = city?.node.name ?? meta.name;
   const path = [...cityPath, area.slug];
+  const keywordPass = isKeywordPage(path);
   const href = locationHref(path);
   const trail = city?.trail ?? [];
   const outsideIndia = needsGsmNetworkNote(cityPath);
@@ -98,7 +100,7 @@ export default function AreaPage({ area, cityPath }: { area: AreaDef; cityPath: 
             <LiveDeviceVisual
               devices={devicesForKeys(area.hero)}
               badge={`${area.name} · ${cityName}`}
-              altPrefix={`${area.name} monitoring`}
+              altPrefix={keywordPass ? `${area.name} temperature data logger` : `${area.name} monitoring`}
             />
           </div>
         </div>
@@ -106,7 +108,7 @@ export default function AreaPage({ area, cityPath }: { area: AreaDef; cityPath: 
 
       <Section aria-labelledby="area-intro-title" data-area-section="overview">
         <div className="mx-auto max-w-4xl">
-          <SectionHeading id="area-intro-title" eyebrow="The area" title={`Monitoring in ${area.name}`} />
+          <SectionHeading id="area-intro-title" eyebrow="The area" title={keywordPass ? `Temperature Data Logger Monitoring in ${area.name}` : `Monitoring in ${area.name}`} />
           <p className="mt-6 text-lg leading-relaxed text-ink text-pretty">{page.intro}</p>
         </div>
       </Section>
