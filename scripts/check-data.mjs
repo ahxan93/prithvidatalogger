@@ -118,7 +118,7 @@ for (const i of industries) {
   const c = industryContent[i.slug];
   if (!c) { fail(`industry-content: no copy for ${i.slug}`); continue; }
   uniqueDesc(`industry-content: ${i.slug}`, c.metaDescription);
-  const title = `${i.name} Temperature Monitoring`;
+  const title = c.metaTitle ?? c.h1 ?? `${i.name} Temperature Monitoring`;
   if (title.length > 60) fail(`industry-content: ${i.slug} title is ${title.length} chars (max 60)`);
   if (c.challenges.length !== 3) fail(`industry-content: ${i.slug} needs 3 challenges`);
   if (c.helps.length !== 3) fail(`industry-content: ${i.slug} needs 3 "helps" points`);
@@ -565,7 +565,7 @@ const BLOG_DIR = path.join(ROOT, "src/content/blog");
 const blogSlugs = fs.existsSync(BLOG_DIR) ? fs.readdirSync(BLOG_DIR).filter((f) => f.endsWith(".mdx")) : [];
 const requiredTitles = [
   "What Is a Temperature Data Logger and How Does It Work?",
-  "WiFi vs GSM vs LoRa Data Loggers: Which One Should You Choose?",
+  "WiFi vs GSM vs LoRa: Choosing a Wireless Data Logger",
   "Temperature Mapping vs Temperature Monitoring: What's the Difference?",
   "Why NABL Calibration Matters for Your Data Loggers",
 ];

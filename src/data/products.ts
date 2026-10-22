@@ -129,7 +129,7 @@ export const products: ProductSeries[] = [
     slug: "setu",
     name: "Setu",
     category: "series",
-    headline: "Setu – WiFi Temperature Data Logger",
+    headline: "Setu – Single-Channel WiFi Data Logger",
     summary: "Single-channel WiFi temperature logger with an internal sensor or external probe.",
     channels: 1,
     connectivity: ["wifi"],
@@ -144,7 +144,7 @@ export const products: ProductSeries[] = [
       { name: "Setu Pro X", slug: "setu-pro-x", sensors: "Temperature", tempRange: "−100 to +200 °C", sensorType: "external", cable: "1 m external probe", battery: "7000 + 7000 mAh", mrp: 9000 },
     ],
     seo: {
-      primaryKeyword: "WiFi temperature data logger",
+      primaryKeyword: "WiFi data logger",
       supporting: ["single channel", "external probe", "freezer data logger"],
     },
   },
@@ -152,7 +152,7 @@ export const products: ProductSeries[] = [
     slug: "nakshatra",
     name: "Nakshatra",
     category: "series",
-    headline: "Nakshatra – WiFi Temperature & Humidity Data Logger",
+    headline: "Nakshatra – IoT Temperature Data Logger with Humidity",
     summary: "Single-channel WiFi temperature and humidity logger, internal or external sensor.",
     channels: 1,
     connectivity: ["wifi"],
@@ -167,7 +167,7 @@ export const products: ProductSeries[] = [
       { name: "Nakshatra Pro X", slug: "nakshatra-pro-x", sensors: "Temperature + RH", tempRange: "−30 to +70 °C", rhRange: "0–100 %RH", sensorType: "external", cable: "1 m external probe", battery: "7000 + 7000 mAh", mrp: 11000 },
     ],
     seo: {
-      primaryKeyword: "temperature and humidity data logger",
+      primaryKeyword: "IoT temperature data logger",
       supporting: ["WiFi RH logger", "warehouse humidity monitoring"],
     },
   },
@@ -175,7 +175,7 @@ export const products: ProductSeries[] = [
     slug: "rajmudra",
     name: "Rajmudra",
     category: "series",
-    headline: "Rajmudra – 2-Channel WiFi Temperature Data Logger",
+    headline: "Rajmudra – 2-Channel WiFi Logger for Validation Studies",
     summary: "Two-channel WiFi logger for temperature, or temperature and humidity, at two points.",
     channels: 2,
     connectivity: ["wifi"],
@@ -196,7 +196,7 @@ export const products: ProductSeries[] = [
     slug: "dhruva",
     name: "Dhruva",
     category: "series",
-    headline: "Dhruva – 4-Channel WiFi Temperature Data Logger",
+    headline: "Dhruva – 4-Channel WiFi Logger for Multi-Point Monitoring",
     summary: "Four-channel WiFi logger for multi-point temperature or temperature and humidity.",
     channels: 4,
     connectivity: ["wifi"],
@@ -217,7 +217,7 @@ export const products: ProductSeries[] = [
     slug: "veer",
     name: "Veer",
     category: "series",
-    headline: "Veer – 10-Channel WiFi Temperature Data Logger",
+    headline: "Veer – 10-Channel WiFi Logger for Warehouses",
     summary: "Ten-channel WiFi logger for warehouses and multi-zone facilities.",
     channels: 10,
     connectivity: ["wifi"],
@@ -237,7 +237,7 @@ export const products: ProductSeries[] = [
     slug: "virat",
     name: "Virat",
     category: "series",
-    headline: "Virat – 16-Channel WiFi Temperature Data Logger",
+    headline: "Virat – 16-Channel WiFi Logger for Large Facilities",
     summary: "Sixteen-channel WiFi logger for large facilities.",
     channels: 16,
     connectivity: ["wifi"],
@@ -258,7 +258,7 @@ export const products: ProductSeries[] = [
     slug: "vayu",
     name: "Vayu",
     category: "series",
-    headline: "Vayu – GSM Temperature & Humidity Data Logger",
+    headline: "Vayu – GSM Data Logger for Remote Sites & Reefer Trucks",
     summary: "SIM-based GSM logger for sites and vehicles without Wi-Fi.",
     channels: 1,
     connectivity: ["gsm"],
@@ -281,7 +281,7 @@ export const products: ProductSeries[] = [
       },
     ],
     seo: {
-      primaryKeyword: "GSM temperature data logger",
+      primaryKeyword: "GSM data logger",
       supporting: ["SIM data logger", "reefer truck monitoring"],
     },
   },
@@ -289,11 +289,12 @@ export const products: ProductSeries[] = [
     slug: "accessories",
     name: "Accessories",
     category: "accessories",
-    headline: "Data Logger Accessories – Hooter, Door Sensor & Charging Dock",
+    headline: "Data Logger with Alarm – Hooter, Door Sensor & Charging Dock",
     summary: "Audible alarms, door monitoring and spare-battery charging for Prithvi loggers.",
     connectivity: ["wifi"],
     filters: [],
     bestFor: "Adding on-site alarms, door monitoring and a charged spare battery.",
+    seo: { primaryKeyword: "data logger with alarm", supporting: ["hooter", "door sensor"] },
     variants: [
       {
         name: "External Hooter with Door Sensor",
@@ -360,7 +361,7 @@ export function keywordTitle(keyword: string): string {
   const keep: Record<string, string> = { wifi: "WiFi", gsm: "GSM", rh: "RH" };
   return keyword
     .split(" ")
-    .map((word) => keep[word.toLowerCase()] ?? (/^[a-z]/.test(word) && !["and", "or", "for"].includes(word) ? word[0].toUpperCase() + word.slice(1) : word))
+    .map((word) => keep[word.toLowerCase()] ?? (/^[a-z]/.test(word) && !["and", "or", "for", "with"].includes(word) ? word[0].toUpperCase() + word.slice(1) : word))
     .join(" ");
 }
 

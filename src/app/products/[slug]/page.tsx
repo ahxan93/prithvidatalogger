@@ -90,7 +90,7 @@ export default async function ProductPage({ params }: PageProps<"/products/[slug
         specs: variantSpecs(variant),
         description: variant.description,
         image: showImage
-          ? { src: image.src, alt: keyword ? `${variant.name} ${keyword}` : variant.name, ...(await getImageSize(image.src)) }
+          ? { src: image.src, alt: keyword && isLogger ? `${variant.name} ${keyword}` : variant.name, ...(await getImageSize(image.src)) }
           : undefined,
       };
     }),

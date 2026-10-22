@@ -10,11 +10,11 @@ import HomeFaq from "@/components/sections/home/HomeFaq";
 import FinalCta from "@/components/sections/home/FinalCta";
 import { buildMetadata } from "@/lib/seo";
 
-// Title and description fixed by docs/MASTER-BRIEF.md §7.1.
+// Title and description updated per the owner's keyword map (supersedes MASTER-BRIEF §7.1).
 export const metadata = buildMetadata({
-  title: "WiFi Temperature & Humidity Data Loggers | Prithvi",
+  title: "Temperature Data Logger – Live WiFi Monitoring | Prithvi",
   description:
-    "Real-time WiFi & GSM temperature and humidity data loggers with instant alerts and audit-ready reports. India & GCC. Get a solution today.",
+    "WiFi temperature data loggers with live readings, instant alerts and audit-ready reports for India and the GCC. Get a solution today.",
   path: "/",
   absoluteTitle: true,
 });

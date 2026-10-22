@@ -49,8 +49,8 @@ export const services: Service[] = [
     enquiryOption: "Calibration / Temperature Mapping",
     deliveredBy: VEGA,
     seo: {
-      primaryKeyword: "calibration services Mumbai",
-      supporting: ["data logger calibration", "instrument calibration"],
+      primaryKeyword: "data logger calibration",
+      supporting: ["instrument calibration"],
     },
   },
   {

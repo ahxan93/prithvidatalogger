@@ -39,7 +39,7 @@ export async function generateMetadata({
   if (!industry || !content) return {};
 
   return buildMetadata({
-    title: pageTitle(industry.name),
+    title: content.metaTitle ?? content.h1 ?? pageTitle(industry.name),
     description: content.metaDescription,
     path: `/industries/${industry.slug}`,
   });
@@ -81,8 +81,8 @@ export default async function IndustryPage({ params }: PageProps<"/industries/[s
           { name: industry.name, href: `/industries/${industry.slug}` },
         ]}
         eyebrow="Industries"
-        title={pageTitle(industry.name)}
-        intro={industry.whyItMatters}
+        title={content.h1 ?? pageTitle(industry.name)}
+        intro={content.lead ? `${content.lead} ${industry.whyItMatters}` : industry.whyItMatters}
         visual={
           heroDevice ? (
             <LiveDeviceVisual devices={[heroDevice]} altPrefix={`${industry.name} monitoring`} plain />
@@ -122,7 +122,7 @@ export default async function IndustryPage({ params }: PageProps<"/industries/[s
         <SectionHeading
           id="helps-title"
           eyebrow="How Prithvi helps"
-          title="Continuous Records, Instant Alerts"
+          title={content.helpsHeading ?? "Continuous Records, Instant Alerts"}
           subtitle={industry.summary}
         />
         <ul className="mt-10 grid gap-5 md:grid-cols-3">

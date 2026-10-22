@@ -5,7 +5,7 @@
 
 import type { SeriesSlug } from "./products";
 
-export type ProductFaq = { question: string; answer: string };
+export type ProductFaq = { question: string; answer: string; link?: { href: string; text: string } };
 
 export type ProductContent = {
   /** <title>; must stay ≤ 60 characters. */
@@ -25,11 +25,11 @@ export type ProductContent = {
 
 export const productContent: Record<SeriesSlug, ProductContent> = {
   setu: {
-    metaTitle: "Setu – WiFi Temperature Data Logger",
+    metaTitle: "Setu – WiFi Data Logger for Fridges & Cold Rooms",
     metaDescription:
-      "Setu WiFi temperature data logger: single channel, internal sensor or external probe (−100 to +200 °C), instant alerts. Get a solution.",
+      "Setu is a single-channel WiFi data logger with an internal sensor or external probe (−100 to +200 °C) and instant alerts. Get a solution.",
     intro:
-      "Setu is a single-channel WiFi temperature data logger for refrigerators, freezers, cold rooms and storage areas. It records temperature at the interval you set, syncs readings over Wi-Fi and alerts your team the moment a limit is crossed.",
+      "Setu is a single-channel WiFi data logger for refrigerators, freezers, cold rooms and storage areas. It records temperature at the interval you set, syncs readings over Wi-Fi and alerts your team the moment a limit is crossed.",
     measures: "Temperature",
     rangeSummary: "−30 to +70 °C · −100 to +200 °C with external probe",
     keyFeatures: [
@@ -60,14 +60,20 @@ export const productContent: Record<SeriesSlug, ProductContent> = {
         answer:
           "Through a universal USB Type-C port. The rechargeable Li-ion battery lasts about 3 months at a 10-minute logging interval.",
       },
+      {
+        question: "Is Setu a WiFi data logger I can use for a vaccine fridge or cold room?",
+        answer:
+          "Yes. Setu X and Setu Pro X have an external probe on a 1 m cable, so the probe sits inside the fridge or cold room while the logger stays outside and syncs over your Wi-Fi.",
+        link: { href: "/industries/vaccine-cold-chain", text: "See the vaccine temperature data logger guide" },
+      },
     ],
   },
   nakshatra: {
-    metaTitle: "Nakshatra – WiFi Temperature & Humidity Data Logger",
+    metaTitle: "Nakshatra – IoT Temperature & Humidity Logger",
     metaDescription:
-      "Nakshatra WiFi temperature and humidity data logger: −30 to +70 °C, 0–100 %RH, instant alerts and audit-ready reports. Get a solution.",
+      "Nakshatra is an IoT temperature data logger that also reads 0–100 %RH, syncs over Wi-Fi and sends instant alerts. Get a solution.",
     intro:
-      "Nakshatra is a WiFi temperature and humidity data logger for rooms, stores and warehouses where both conditions matter. It measures −30 to +70 °C and 0–100 %RH, syncs readings over Wi-Fi and sends an alert when temperature or humidity leaves its limits.",
+      "Nakshatra is an IoT temperature data logger with a humidity sensor, for rooms, stores and warehouses where both conditions matter. It measures −30 to +70 °C and 0–100 %RH, syncs readings over Wi-Fi to the cloud dashboard and sends an alert when temperature or humidity leaves its limits.",
     measures: "Temperature + humidity",
     rangeSummary: "−30 to +70 °C · 0–100 %RH",
     keyFeatures: [
@@ -97,12 +103,18 @@ export const productContent: Record<SeriesSlug, ProductContent> = {
         question: "How accurate is the humidity reading?",
         answer: "±2 %RH, with a resolution of 0.1 %RH, across 0–100 %RH.",
       },
+      {
+        question: "Is Nakshatra an IoT temperature data logger, and does it need Wi-Fi?",
+        answer:
+          "Yes. Nakshatra syncs readings over Wi-Fi to the cloud dashboard and alerts your team by email, SMS and app. If the connection drops it keeps recording to its internal memory, and data can be downloaded offline through the PC software.",
+        link: { href: "/products", text: "Compare the full temperature and humidity data logger range" },
+      },
     ],
   },
   rajmudra: {
-    metaTitle: "Rajmudra – 2-Channel WiFi Temperature Data Logger",
+    metaTitle: "Rajmudra – 2-Channel WiFi Logger for Validation",
     metaDescription:
-      "Rajmudra dual channel WiFi temperature data logger for validation and comparative studies. Two sensors, cables up to 50 m. Get a solution.",
+      "Rajmudra records two points at once over Wi-Fi for qualification, validation and comparative studies. Temperature or temperature + RH. Get a solution.",
     intro:
       "Rajmudra is a dual channel temperature data logger that records two points at once over Wi-Fi. Use it for qualification, validation and comparative studies, or wherever two locations need to be monitored from one device.",
     measures: "2 × temperature, or 2 × temperature + humidity (Pro)",
@@ -133,9 +145,9 @@ export const productContent: Record<SeriesSlug, ProductContent> = {
     ],
   },
   dhruva: {
-    metaTitle: "Dhruva – 4-Channel WiFi Temperature Data Logger",
+    metaTitle: "Dhruva – 4-Channel WiFi Logger for Chambers & Rooms",
     metaDescription:
-      "Dhruva 4 channel WiFi temperature data logger for multi-point monitoring. Temperature or temperature + RH sensors. Get a solution.",
+      "Dhruva connects four sensors to one WiFi logger to cover chambers, rooms and storage areas at several positions. Get a solution.",
     intro:
       "Dhruva is a 4 channel temperature data logger for multi-point monitoring. Four sensors connect to one Wi-Fi logger, so a room, chamber or storage area can be covered at several positions and seen on one screen.",
     measures: "4 × temperature, or 4 × temperature + humidity (Pro)",
@@ -165,9 +177,9 @@ export const productContent: Record<SeriesSlug, ProductContent> = {
     ],
   },
   veer: {
-    metaTitle: "Veer – 10-Channel WiFi Temperature Data Logger",
+    metaTitle: "Veer – 10-Channel WiFi Logger for Warehouses",
     metaDescription:
-      "Veer 10 channel WiFi temperature data logger for warehouses and multi-zone sites. Sensor cables extendable to 50 m. Get a solution.",
+      "Veer runs ten sensors from one WiFi logger, giving warehouses and multi-zone sites one view of racks, zones and rooms. Get a solution.",
     intro:
       "Veer is a 10 channel temperature data logger built for warehouses and multi-zone facilities. Ten sensors run from a single Wi-Fi logger, giving one clear view of temperature across racks, zones and rooms.",
     measures: "10 × temperature, or 10 × temperature + humidity (Pro)",
@@ -196,9 +208,9 @@ export const productContent: Record<SeriesSlug, ProductContent> = {
     ],
   },
   virat: {
-    metaTitle: "Virat – 16-Channel WiFi Temperature Data Logger",
+    metaTitle: "Virat – 16-Channel WiFi Logger for Cold Stores",
     metaDescription:
-      "Virat 16 channel WiFi temperature data logger for large facilities and cold stores. Temperature or temperature + RH. Get a solution.",
+      "Virat connects sixteen sensors to one WiFi logger, covering large warehouses and cold stores point by point. Get a solution from Prithvi.",
     intro:
       "Virat is a 16 channel temperature data logger for large facilities. Sixteen sensors connect to one Wi-Fi logger, so big warehouses and cold stores can be monitored point by point without a separate device at each position.",
     measures: "16 × temperature, or 16 × temperature + humidity (Pro)",
@@ -229,11 +241,11 @@ export const productContent: Record<SeriesSlug, ProductContent> = {
     ],
   },
   vayu: {
-    metaTitle: "Vayu – GSM Temperature & Humidity Data Logger",
+    metaTitle: "Vayu – GSM Data Logger with SIM Connectivity",
     metaDescription:
-      "Vayu GSM temperature data logger with SIM connectivity for remote sites and reefer trucks. Temperature + humidity. Get a solution.",
+      "Vayu is a GSM data logger for remote sites and reefer trucks: SIM-based, temperature plus humidity, instant alerts. Get a solution.",
     intro:
-      "Vayu is a GSM temperature data logger that uses a SIM card instead of Wi-Fi. It measures temperature and humidity and suits remote sites, reefer trucks and outdoor locations where Wi-Fi does not reach.",
+      "Vayu is a GSM data logger that reports over a SIM card, so it keeps working at remote sites and on vehicles where Wi-Fi does not reach. It measures temperature and humidity and suits reefer trucks and outdoor locations.",
     measures: "Temperature + humidity",
     rangeSummary: "−30 to +70 °C · 0–100 %RH",
     keyFeatures: [
@@ -259,17 +271,23 @@ export const productContent: Record<SeriesSlug, ProductContent> = {
           "Network compatibility outside India has to be confirmed first. Contact us with your country and mobile operator and we will check before you order.",
       },
       {
+        question: "Which GSM data logger suits a reefer truck or a remote site?",
+        answer:
+          "Vayu, which sends its readings over the mobile network and measures temperature and humidity. Vayu Pro adds an external temperature probe on a 3 m cable, rated from −100 to +70 °C.",
+        link: { href: "/industries/logistics-warehousing", text: "See shipment temperature data logger uses" },
+      },
+      {
         question: "What does Vayu cost?",
         answer: "Share your requirement and we will send a clear quote.",
       },
     ],
   },
   accessories: {
-    metaTitle: "Data Logger Accessories: Hooter & Charging Dock",
+    metaTitle: "Data Logger with Alarm: Hooter & Door Sensor",
     metaDescription:
-      "Accessories for Prithvi data loggers: external Wi-Fi hooter with door sensors for audible alarms, and a charging dock for spare batteries.",
+      "Add a Wi-Fi hooter with up to 4 door sensors to get a data logger with alarm, plus a charging dock for spare batteries. Get a solution.",
     intro:
-      "Accessories that extend your Prithvi data loggers: an external hooter with door sensors for audible on-site alarms, and a charging dock that keeps a charged spare battery ready.",
+      "Add the external hooter to your Prithvi setup and you have a data logger with alarm that sounds on site, with up to 4 door sensors. A charging dock keeps a charged spare battery ready. Our team confirms accessory compatibility for your model when we prepare your quote.",
     measures: "Alarm, door sensing and battery charging",
     rangeSummary: "Up to 4 door sensors per hooter",
     keyFeatures: [
@@ -291,6 +309,12 @@ export const productContent: Record<SeriesSlug, ProductContent> = {
       {
         question: "How is the hooter powered?",
         answer: "It uses a 12 V DC adapter with a 12 V external hooter. The cable length is configurable.",
+      },
+      {
+        question: "How do I get a data logger with alarm that sounds on site?",
+        answer:
+          "Add the external hooter. It gives an audible alarm on any excursion, and an alarm if a door stays open beyond the time you set. Our team confirms it works with your logger model when we prepare your quote.",
+        link: { href: "/industries/hospitals-blood-banks", text: "See hospital and blood bank monitoring" },
       },
       {
         question: "What do the accessories cost?",

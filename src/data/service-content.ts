@@ -6,9 +6,13 @@
 
 import type { ServiceSlug } from "./services";
 
-export type ServiceFaq = { question: string; answer: string };
+export type ServiceFaq = { question: string; answer: string; link?: { href: string; text: string } };
 
 export type ServiceContent = {
+  /** <title> text when it should differ from the H1. */
+  metaTitle?: string;
+  /** Replaces the "Why It Matters" heading. */
+  whyHeading?: string;
   /** The page's H1 and <title> (≤ 60 characters). */
   h1: string;
   /** Meta description; ≤ 155 characters. */
@@ -28,11 +32,12 @@ export type ServiceContent = {
 
 export const serviceContent: Record<ServiceSlug, ServiceContent> = {
   calibration: {
-    h1: "Calibration Services in Mumbai & Across India",
+    h1: "Data Logger Calibration Services",
+    whyHeading: "Why Data Logger Calibration Matters",
     metaDescription:
-      "Calibration for data loggers, thermometers, gauges and more, delivered by VEGA Calibrations. Get a solution.",
+      "Data logger calibration for loggers, thermometers and gauges, arranged through our parent company VEGA Calibrations. Get a solution.",
     intro:
-      "Calibration services in Mumbai and across India for data loggers and measuring instruments, delivered by our parent company, VEGA Calibrations, with its head office in Mumbai. Certificates are traceable to national standards.",
+      "Data logger calibration, and calibration of other measuring instruments, arranged through our parent company, VEGA Calibrations. Certificates are traceable to national standards.",
     whatItIs:
       "Calibration compares an instrument's readings with a reference of known accuracy and records the difference. It tells you how far each measurement can be trusted.",
     whyItMatters: [
@@ -66,12 +71,20 @@ export const serviceContent: Record<ServiceSlug, ServiceContent> = {
         answer:
           "The scope covers temperature and humidity instruments and data loggers in general. Send us your make and model and we will confirm.",
       },
+      {
+        question: "What does data logger calibration involve?",
+        answer:
+          "Each logger's readings are compared with a reference of known accuracy and the difference is recorded on a certificate. Send us your list and we will confirm the scope and arrange the work through VEGA Calibrations.",
+        link: { href: "/products", text: "Browse Prithvi temperature and humidity data loggers" },
+      },
     ],
   },
   "temperature-mapping": {
     h1: "Temperature Mapping Services",
+    metaTitle: "Temperature Mapping Service for Cold Rooms & Reefers",
+    whyHeading: "Why a Temperature Mapping Service Matters",
     metaDescription:
-      "Temperature mapping services for cold rooms, warehouses, freezers and reefer vehicles. Find hot and cold spots and the right sensor positions.",
+      "Temperature mapping service for cold rooms, warehouses, freezers and reefer vehicles. Find hot and cold spots and the right sensor positions.",
     intro:
       "Temperature mapping services for cold rooms, warehouses and reefer vehicles, delivered by our parent company, VEGA Calibrations. A mapping study identifies the hot and cold spots in a space and the right positions for your sensors.",
     whatItIs:
@@ -106,6 +119,12 @@ export const serviceContent: Record<ServiceSlug, ServiceContent> = {
         question: "What happens after the mapping study?",
         answer:
           "Loggers can be installed at the positions the study identifies. Multi-channel loggers such as Veer and Virat cover many of those points from one device.",
+      },
+      {
+        question: "Do I need a temperature mapping service before installing data loggers?",
+        answer:
+          "A mapping study is the step that shows where the hot and cold spots are, so your loggers go in the right positions. Without one, sensors are placed by assumption.",
+        link: { href: "/products/veer", text: "See the multi-channel Veer logger" },
       },
     ],
   },
@@ -148,6 +167,12 @@ export const serviceContent: Record<ServiceSlug, ServiceContent> = {
       {
         question: "Is the monitoring software covered?",
         answer: "Yes. A software validation report is included in the scope.",
+      },
+      {
+        question: "Is temperature mapping part of validation?",
+        answer:
+          "They are separate studies that often go together. Mapping finds the hot and cold spots, and validation documents that the monitoring system performs as intended. Both are arranged through VEGA Calibrations.",
+        link: { href: "/services", text: "See temperature mapping and validation services" },
       },
     ],
   },

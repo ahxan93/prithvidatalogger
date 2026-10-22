@@ -12,9 +12,9 @@ export type HomeIcon =
 export type HomeCard = { icon: HomeIcon; title: string; description: string; href?: string };
 
 export const hero = {
-  h1Lead: "WiFi Temperature & Humidity Data Loggers",
+  h1Lead: "Temperature Data Loggers",
   h1Accent: "for Real-Time Monitoring",
-  sub: "Protect medicines, vaccines, food and critical environments with live readings, instant alerts and audit-ready records, backed by our parent calibration lab, VEGA Calibrations.",
+  sub: "A temperature data logger replaces clipboard readings with a continuous, timestamped record and alerts your team the moment a limit is crossed. Protect medicines, vaccines, food and critical environments, backed by our parent calibration lab, VEGA Calibrations.",
   trust: ["Parent lab: VEGA Calibrations", "Supports 21 CFR Part 11", "India & GCC"],
   imageAlt:
     "Nakshatra WiFi temperature and humidity data logger showing a live reading on its display",
@@ -26,7 +26,7 @@ export const whatWeDo: HomeCard[] = [
   {
     icon: "activity",
     title: "Real-Time Monitoring Data Loggers",
-    description: "WiFi and GSM loggers that send live readings and instant alerts to your team.",
+    description: "WiFi loggers that send live readings and instant alerts to your team, with GSM models for Indian sites without Wi-Fi.",
     href: "/products",
   },
   {
@@ -170,11 +170,17 @@ export const buyingSteps: HomeCard[] = [
 ];
 
 /** Homepage FAQ (6). Rendered visibly and as FAQPage JSON-LD. */
-export const homeFaqs: { question: string; answer: string }[] = [
+export const homeFaqs: { question: string; answer: string; link?: { href: string; text: string } }[] = [
+  {
+    question: "Which temperature data logger do I need for a fridge, cold room or warehouse?",
+    answer:
+      "For one fridge, Setu records temperature at the interval you set and alerts your team over Wi-Fi, and Nakshatra adds humidity. A cold room or warehouse with many points is covered by the multi-channel series, from Dhruva with 4 channels to Virat with 16.",
+    link: { href: "/products", text: "Compare every Prithvi logger series" },
+  },
   {
     question: "What is the difference between WiFi and GSM data loggers?",
     answer:
-      "WiFi loggers suit sites that already have Wi-Fi, such as stores, labs and warehouses. GSM loggers use a SIM card and work where there is mobile coverage, which suits remote sites and vehicles. LoRa versions with long-range radio are also available on request. Outside India, contact us to confirm GSM network compatibility for your country.",
+      "WiFi loggers suit sites that already have Wi-Fi, such as stores, labs and warehouses. In India, GSM loggers use a SIM card and work where there is mobile coverage, which suits remote sites and vehicles. LoRa versions with long-range radio are also available on request. Outside India, contact us to confirm GSM network compatibility for your country.",
   },
   {
     question: "How long does the battery last?",

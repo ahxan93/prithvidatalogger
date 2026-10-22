@@ -142,7 +142,7 @@ export default async function WhatWeDo() {
         <SectionHeading
           id="what-we-do-title"
           eyebrow="What we do"
-          title="More Than a WiFi Temperature and Humidity Data Logger"
+          title="More Than a WiFi Temperature Data Logger"
           subtitle="Monitoring hardware, calibration, temperature mapping, validation and support, from one team."
           align="center"
         />

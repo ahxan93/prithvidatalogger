@@ -1,9 +1,15 @@
+import Link from "next/link";
 import JsonLd from "@/components/seo/JsonLd";
 import { PlusIcon } from "@/components/ui/icons";
 import { faqSchema } from "@/lib/schema";
 import { cn } from "@/lib/cn";
 
-export type FaqItem = { question: string; answer: string };
+export type FaqItem = {
+  question: string;
+  answer: string;
+  /** Optional internal link shown after the answer (descriptive anchor text). */
+  link?: { href: string; text: string };
+};
 
 type FaqProps = {
   items: FaqItem[];
@@ -29,7 +35,18 @@ export default function Faq({ items, withSchema = true, className }: FaqProps) {
               <PlusIcon className="size-4" />
             </span>
           </summary>
-          <p className="px-5 pb-6 leading-relaxed text-muted sm:px-6">{item.answer}</p>
+          <p className="px-5 pb-6 leading-relaxed text-muted sm:px-6">
+            {item.answer}
+            {item.link && (
+              <>
+                {" "}
+                <Link href={item.link.href} className="font-semibold text-brand-600 underline underline-offset-4">
+                  {item.link.text}
+                </Link>
+                .
+              </>
+            )}
+          </p>
         </details>
       ))}
     </div>

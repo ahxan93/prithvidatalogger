@@ -13,9 +13,9 @@ import { ArrowRightIcon, BadgeCheckIcon, CheckCircleIcon, MapIcon, ShieldCheckIc
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "Calibration, Mapping & Validation Services",
+  title: "Temperature Mapping and Validation Services",
   description:
-    "Calibration, temperature mapping and IQ/OQ/PQ validation services, delivered by our parent company VEGA Calibrations. Get a solution.",
+    "Temperature mapping and validation, plus data logger calibration, arranged through our parent company VEGA Calibrations. Get a solution.",
   path: "/services",
 });
 
@@ -34,8 +34,8 @@ export default function ServicesPage() {
         visual={<LiveDeviceVisual devices={getPageHeroDevices("services")} />}
         crumbs={[{ name: "Services", href: "/services" }]}
         eyebrow="Services"
-        title="Calibration, Mapping & Validation Services"
-        intro="Monitoring is only as good as the measurements behind it. Alongside our data loggers, we offer calibration, temperature mapping and validation, all delivered by our parent company, VEGA Calibrations."
+        title="Temperature Mapping and Validation Services"
+        intro="Monitoring is only as good as the measurements behind it. Temperature mapping and validation studies show where a space runs hot or cold and document that your monitoring system performs as intended, alongside calibration for your loggers, all delivered by our parent company, VEGA Calibrations."
       />
 
       <Section aria-labelledby="services-list-title">

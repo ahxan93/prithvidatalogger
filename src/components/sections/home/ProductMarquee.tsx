@@ -27,7 +27,7 @@ export default async function ProductMarquee() {
           id="range-title"
           eyebrow="Products"
           title="Explore the Prithvi Range"
-          subtitle="From single-point WiFi loggers to 16-channel systems and GSM models for sites without Wi-Fi."
+          subtitle="From single-point WiFi loggers to 16-channel systems and GSM models for Indian sites without Wi-Fi."
           align="center"
         />
       </div>

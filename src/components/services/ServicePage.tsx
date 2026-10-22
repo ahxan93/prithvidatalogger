@@ -30,7 +30,7 @@ import { buildMetadata } from "@/lib/seo";
 export function serviceMetadata(slug: ServiceSlug) {
   const content = serviceContent[slug];
   return buildMetadata({
-    title: content.h1,
+    title: content.metaTitle ?? content.h1,
     description: content.metaDescription,
     path: `/services/${slug}`,
   });
@@ -84,7 +84,7 @@ export default function ServicePage({ slug }: { slug: ServiceSlug }) {
             <p className="mt-6 text-lg leading-relaxed text-muted text-pretty">{content.whatItIs}</p>
           </div>
           <div>
-            <h2 className="font-heading text-2xl font-bold text-ink sm:text-3xl">Why It Matters</h2>
+            <h2 className="font-heading text-2xl font-bold text-ink sm:text-3xl">{content.whyHeading ?? "Why It Matters"}</h2>
             <ul className="mt-6 space-y-4">
               {content.whyItMatters.map((point) => (
                 <li key={point} className="flex gap-3">

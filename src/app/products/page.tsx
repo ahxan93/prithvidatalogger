@@ -25,7 +25,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Temperature & Humidity Data Loggers",
   description:
-    "Compare Prithvi temperature data loggers: WiFi and GSM, 1 to 16 channels, temperature and humidity. Find the right model and get a solution.",
+    "Compare the Prithvi temperature and humidity data logger range: WiFi models from 1 to 16 channels, for a fridge or a warehouse. Get a solution.",
   path: "/products",
 });
 
@@ -50,7 +50,7 @@ export default function ProductsPage() {
         crumbs={[{ name: "Products", href: "/products" }]}
         eyebrow="Products"
         title="Temperature & Humidity Data Loggers"
-        intro="Prithvi temperature data loggers record continuously, sync over Wi-Fi or GSM and alert your team the moment a limit is crossed. Choose a single-point logger for one fridge or a multi-channel data logger for a whole warehouse. Share your requirement and we'll send a clear, itemised quote."
+        intro="Whether you need a temperature and humidity data logger for one fridge or a sixteen-point warehouse, start with the series below. Prithvi temperature data loggers record continuously, sync over Wi-Fi or GSM and alert your team the moment a limit is crossed. Share your requirement and we'll send a clear, itemised quote."
       >
         <div className="flex flex-col gap-3 sm:flex-row">
           <Button href={quoteHref} size="lg">
@@ -170,7 +170,7 @@ export default function ProductsPage() {
         <SectionHeading
           id="connectivity-title"
           eyebrow="Connectivity"
-          title="Wi-Fi, GSM or LoRa: Which Do You Need?"
+          title="Wi-Fi, GSM or LoRa: Which Wireless Data Logger Do You Need?"
           subtitle="The right choice depends on where your loggers will be installed."
           align="center"
         />
