@@ -108,7 +108,7 @@ export default function AreaPage({ area, cityPath }: { area: AreaDef; cityPath: 
 
       <Section aria-labelledby="area-intro-title" data-area-section="overview">
         <div className="mx-auto max-w-4xl">
-          <SectionHeading id="area-intro-title" eyebrow="The area" title={keywordPass ? `Temperature Data Logger Monitoring in ${area.name}` : `Monitoring in ${area.name}`} />
+          <SectionHeading id="area-intro-title" eyebrow="The area" title={`Monitoring in ${area.name}`} />
           <p className="mt-6 text-lg leading-relaxed text-ink text-pretty">{page.intro}</p>
         </div>
       </Section>
@@ -149,7 +149,7 @@ export default function AreaPage({ area, cityPath }: { area: AreaDef; cityPath: 
 
       <Section tone="surface" aria-labelledby="area-services-title" data-area-section="services">
         <div className="mx-auto max-w-4xl">
-          <SectionHeading id="area-services-title" eyebrow="Services" title={`Services We Offer in ${area.name}`} />
+          <SectionHeading id="area-services-title" eyebrow="Services" title={keywordPass ? `Temperature Data Logger Services in ${area.name}` : `Services We Offer in ${area.name}`} />
           <p className="mt-6 text-lg leading-relaxed text-ink text-pretty">{page.services}</p>
           {outsideIndia && (
             <p className="mt-6 rounded-xl border border-brand-100 bg-white px-4 py-3 text-sm text-ink">{GSM_NETWORK_NOTE}</p>

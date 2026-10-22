@@ -87,11 +87,11 @@ export const certifications = [
   },
 ] as const;
 
-/** How international supply works (brief §7.8). No delivery-time promises. */
+/** How international (non-India) supply works (brief §7.8). Enquiry-based wording; no delivery claims or delivery times. */
 export const supplySteps: { title: string; description: string }[] = [
   { title: "Enquiry", description: "Tell us your sites and what you need to monitor." },
   { title: "Quote", description: "We recommend models and send a clear quote." },
-  { title: "Dispatch from India", description: "Your loggers are dispatched from India." },
+  { title: "Handled remotely from India", description: "Enquiries are handled remotely from India. Yemen is reviewed case by case." },
   { title: "Remote setup support", description: "We help you connect the loggers and set up alerts by phone, WhatsApp or video call." },
 ];
 
