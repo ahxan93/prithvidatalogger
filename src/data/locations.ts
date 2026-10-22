@@ -8,7 +8,7 @@ import { areas } from "./areas.ts";
 
 export type LocationType = "country" | "state" | "city";
 
-export type LocationFaq = { question: string; answer: string };
+export type LocationFaq = { question: string; answer: string; link?: { href: string; text: string } };
 
 /** Fields every node shares. */
 type NodeBase = {
@@ -93,7 +93,7 @@ export const locations: LegacyLocationNode[] = [
     name: "India",
     type: "country",
     intro:
-      "India is where Prithvi Data Loggers is based, and the country's storage map is as varied as its climate: pharmaceutical and chemical estates in Maharashtra and Gujarat, electronics and technology campuses in the south, food and cold-chain businesses in every state, and hospitals and medicine distributors everywhere. This page is the starting point for every Indian location we serve, grouped by state. Choose a state to see its cities and industrial areas, the industries we support there and the loggers we suggest, or go straight to a city. Whichever page you open, the same dashboard, alerts and calibration support are behind it, and our team in Mumbai arranges supply, set-up and site visits with you.",
+      "A temperature data logger in India covers everything from hospital fridges to port warehouses, in very different climates. India is where Prithvi Data Loggers is based, and the country's storage map is as varied as its climate: pharmaceutical and chemical estates in Maharashtra and Gujarat, electronics and technology campuses in the south, food and cold-chain businesses in every state, and hospitals and medicine distributors everywhere. This page is the starting point for every Indian location we serve, grouped by state. Choose a state to see its cities and industrial areas, the industries we support there and the loggers we suggest, or go straight to a city. Whichever page you open, the same dashboard, alerts and calibration support are behind it, and our team in Mumbai arranges supply, set-up and site visits with you.",
     localIndustries: [
       "Pharmaceutical manufacturing and distribution",
       "Vaccine and cold chain logistics",
@@ -106,9 +106,9 @@ export const locations: LegacyLocationNode[] = [
       "Loggers are dispatched from our Mumbai office. Our team helps you with Wi-Fi setup, alert rules and dashboard access by phone, WhatsApp or video call. Calibration and temperature mapping are delivered by VEGA Calibrations; tell us your location and we will confirm what can be arranged.",
     faqs: [
       {
-        question: "How do I find the page for my own city?",
+        question: "Where can I find a temperature data logger in my own Indian city?",
         answer:
-          "Open the state that holds your city, where each city and industrial area has its own page, or use the list on the locations page. If your city is not listed, send the location through the enquiry form and we confirm what we can supply.",
+          "Open the state that holds your city, where each city and industrial area has its own page, or use the list on the locations page. If your city is not listed, send the location through the enquiry form and we confirm what we can supply.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
       },
       {
         question: "Is the supply the same in every Indian state?",
@@ -160,7 +160,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Maharashtra",
         type: "state",
         intro:
-          "Maharashtra is the home state of Prithvi Data Loggers and the busiest region on this site: the pharmaceutical and chemical estates on the edges of Mumbai, the MIDC belts of Navi Mumbai, Thane and Bhiwandi, the port-linked logistics around Panvel, the engineering and automotive ring around Pune and the coastal estates of Vasai and Palghar. Rooms here range from hospital blood banks and vaccine fridges to large bonded warehouses and server halls. The coast keeps the air humid and the monsoon is heavy, while the interior swings hotter and drier. Below is every city and area page we have written for the state, each with a short note on what makes the place distinct.",
+          "A temperature data logger in Maharashtra serves blood banks, pharma plants, cold stores and server rooms alike. Maharashtra is the home state of Prithvi Data Loggers and the busiest region on this site: the pharmaceutical and chemical estates on the edges of Mumbai, the MIDC belts of Navi Mumbai, Thane and Bhiwandi, the port-linked logistics around Panvel, the engineering and automotive ring around Pune and the coastal estates of Vasai and Palghar. Rooms here range from hospital blood banks and vaccine fridges to large bonded warehouses and server halls. The coast keeps the air humid and the monsoon is heavy, while the interior swings hotter and drier. Below is every city and area page we have written for the state, each with a short note on what makes the place distinct.",
         localIndustries: [
           "Pharmaceutical and API units",
           "Warehousing and logistics parks",
@@ -181,9 +181,9 @@ export const locations: LegacyLocationNode[] = [
           "Working in the same state as our head office keeps coordination simple. Orders leave from Mumbai, and our team guides installation and alert setup with you. For calibration or temperature mapping at a site in Maharashtra, contact us to plan it with VEGA Calibrations.",
         faqs: [
           {
-            question: "Which Maharashtra locations have their own pages?",
+            question: "Where can I find a temperature data logger in Maharashtra?",
             answer:
-              "Thirteen cities have full pages, and many of the Mumbai-region industrial areas have pages of their own. Each is listed below with a note, so you can open the one nearest to your site.",
+              "Thirteen cities have full pages, and many of the Mumbai-region industrial areas have pages of their own. Each is listed below with a note, so you can open the one nearest to your site.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Can one team watch sites in Mumbai, Pune and Thane together?",
@@ -360,9 +360,9 @@ export const locations: LegacyLocationNode[] = [
                   "Calibration of temperature and humidity instruments and data loggers is part of VEGA Calibrations' calibration scope. Share your instrument details and we will confirm how it can be arranged for your site.",
               },
               {
-                question: "Can one dashboard monitor several sites in and around Mumbai?",
+                question: "Can one temperature data logger dashboard monitor several sites in and around Mumbai?",
                 answer:
-                  "Yes. Devices are organised by organisation, site, room and device, so a distributor with a warehouse in Bhiwandi, a store in Andheri and an office in Lower Parel sees them together, with role-based access for each team.",
+                  "Yes. Devices are organised by organisation, site, room and device, so a distributor with a warehouse in Bhiwandi, a store in Andheri and an office in Lower Parel sees them together, with role-based access for each team.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
             ],
             nearby: [
@@ -373,7 +373,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Mumbai | Prithvi",
             metaDescription:
-              "Mumbai, Maharashtra: WiFi and GSM temperature loggers run from our head office in Malad West, with calibration support. Get Solution to start in Mumbai.",
+              "Temperature data logger in Mumbai, Maharashtra: WiFi and GSM models run from our head office in Malad West. Get Solution to start in Mumbai.",
             indexable: true,
           },
           {
@@ -759,9 +759,9 @@ export const locations: LegacyLocationNode[] = [
                   "Choose a model that reads humidity as well as temperature, with alert limits set for each season if your product needs it. Keep the probe off sun-facing walls, where afternoon heat distorts the reading.",
               },
               {
-                question: "Can server rooms in a technology park be monitored without wiring?",
+                question: "Can a temperature data logger in Pune monitor a technology-park server room without wiring?",
                 answer:
-                  "Yes. Wireless loggers report over the building's Wi-Fi or over GSM, so a server room, a UPS room and a pantry store can each be added to one dashboard without trunking or a rebuild.",
+                  "Yes. Wireless loggers report over the building's Wi-Fi or over GSM, so a server room, a UPS room and a pantry store can each be added to one dashboard without trunking or a rebuild.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Can plants in Chakan and Ranjangaon be compared on one view?",
@@ -776,7 +776,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Pune | Prithvi",
             metaDescription:
-              "Pune, Maharashtra: loggers for the Chakan, Ranjangaon, Pimpri-Chinchwad and Talegaon estates. Get Solution to scope monitoring in Pune.",
+              "Temperature data logger in Pune for the Chakan, Ranjangaon, Pimpri-Chinchwad and Talegaon estates. Get Solution to scope monitoring in Pune.",
             indexable: true,
           },
           {
@@ -1591,7 +1591,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Gujarat",
         type: "state",
         intro:
-          "Gujarat's industry runs along the corridor between Ahmedabad and the coast, from the estates around the state's largest city to the chemical belt of the south. Ahmedabad's older eastern districts and newer western estates hold pharmaceutical, chemical and engineering units, while Vapi, Ankleshwar and Surat to the south concentrate dyes, intermediates, bulk drugs and textile processing. The north is hot and dry, the south receives a heavier monsoon and a humid coast, and plants on both ends keep stores that need an unbroken record. This page lists every Gujarat city and area page we have written, each with a short description, so a plant head or a quality manager can go straight to the place that matches their site.",
+          "A temperature data logger in Gujarat is most often asked for by pharmaceutical, chemical and dairy sites. Gujarat's industry runs along the corridor between Ahmedabad and the coast, from the estates around the state's largest city to the chemical belt of the south. Ahmedabad's older eastern districts and newer western estates hold pharmaceutical, chemical and engineering units, while Vapi, Ankleshwar and Surat to the south concentrate dyes, intermediates, bulk drugs and textile processing. The north is hot and dry, the south receives a heavier monsoon and a humid coast, and plants on both ends keep stores that need an unbroken record. This page lists every Gujarat city and area page we have written, each with a short description, so a plant head or a quality manager can go straight to the place that matches their site.",
         localIndustries: [
           "Pharmaceutical manufacturing",
           "Chemical and dye industry",
@@ -1602,9 +1602,9 @@ export const locations: LegacyLocationNode[] = [
           "Supply, installation support and site visits for Gujarat estates are arranged from our Mumbai office. Write to us with the estate and what you store.",
         faqs: [
           {
-            question: "Which Gujarat places have their own pages?",
+            question: "Where can I find a temperature data logger in Gujarat?",
             answer:
-              "Thirteen cities have full pages, and the estates of Ahmedabad, Vapi, Ankleshwar and Surat have area pages too. Open the one nearest your plant, or send the estate through the enquiry form if yours is not listed.",
+              "Thirteen cities have full pages, and the estates of Ahmedabad, Vapi, Ankleshwar and Surat have area pages too. Open the one nearest your plant, or send the estate through the enquiry form if yours is not listed.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why does the south of the state need different advice from the north?",
@@ -1720,9 +1720,9 @@ export const locations: LegacyLocationNode[] = [
                   "Send the estate, the plot and the rooms you want looked at through the enquiry form, WhatsApp or a call, and we agree a day with the person who controls entry. Many estates ask for a gate pass in advance, so mention it when you write.",
               },
               {
-                question: "Will the loggers cope with very hot rooms?",
+                question: "Will a temperature data logger in Ahmedabad cope with very hot rooms?",
                 answer:
-                  "Internal sensors read from minus 30 to plus 70 degrees Celsius, and external probes extend that range far beyond it, so a probe can sit in a hot process area while the logger stays outside it in the cooler corridor.",
+                  "Internal sensors read from minus 30 to plus 70 degrees Celsius, and external probes extend that range far beyond it, so a probe can sit in a hot process area while the logger stays outside it in the cooler corridor.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Can calibration and mapping be arranged for an Ahmedabad plant?",
@@ -1742,7 +1742,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Ahmedabad | Prithvi",
             metaDescription:
-              "Ahmedabad, Gujarat: WiFi and GSM loggers for the Naroda, Vatva, Changodar and Sanand estates. Get Solution: request a plan for Ahmedabad.",
+              "Temperature data logger in Ahmedabad, Gujarat: WiFi and GSM models for the Naroda, Vatva, Changodar and Sanand estates. Get Solution for Ahmedabad.",
             indexable: true,
           },
           {
@@ -2953,7 +2953,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Delhi",
         type: "state",
         intro:
-          "Delhi is a city and a state in one, and its storage is correspondingly concentrated: hospitals, nursing homes and diagnostic laboratories, wholesale medicine markets, food and cold stores that feed the capital, and a ring of industrial areas at Okhla, Naraina, Bawana and Narela. Buildings are often old, multi-storey and cramped, so wireless loggers are the practical choice, and the climate pushes both ways, with extreme summer heat and cold winter nights. This regional page sits above the Delhi city page and its area pages, and it is the place to start if you are not sure which part of the capital region applies to your site.",
+          "A temperature data logger in the Delhi Region mostly watches hospital fridges, medicine stores and cold stores. Delhi is a city and a state in one, and its storage is correspondingly concentrated: hospitals, nursing homes and diagnostic laboratories, wholesale medicine markets, food and cold stores that feed the capital, and a ring of industrial areas at Okhla, Naraina, Bawana and Narela. Buildings are often old, multi-storey and cramped, so wireless loggers are the practical choice, and the climate pushes both ways, with extreme summer heat and cold winter nights. This regional page sits above the Delhi city page and its area pages, and it is the place to start if you are not sure which part of the capital region applies to your site.",
         localIndustries: [
           "Hospitals and diagnostic laboratories",
           "Pharmaceutical distribution",
@@ -2969,9 +2969,9 @@ export const locations: LegacyLocationNode[] = [
               "The city page goes into the capital's rooms, climate and loggers in depth, while this page gives the regional picture and lists every Delhi area page we have written in one place.",
           },
           {
-            question: "Which parts of the capital region are covered?",
+            question: "Where can I find a temperature data logger in the Delhi Region?",
             answer:
-              "The industrial areas of Okhla, Bawana and Narela have their own pages, and nearby Noida and Manesar have city pages under their own states.",
+              "The industrial areas of Okhla, Bawana and Narela have their own pages, and nearby Noida and Manesar have city pages under their own states.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Can one hospital group watch several buildings in the capital?",
@@ -3074,9 +3074,9 @@ export const locations: LegacyLocationNode[] = [
                   "Yes. Each building is a site with its rooms beneath it, alerts go to the person responsible for each room, and a head of quality sees every site in one view and can export a report for any period.",
               },
               {
-                question: "What do you do in old multi-storey buildings where cabling is hard?",
+                question: "Can a temperature data logger in Delhi work in old multi-storey buildings where cabling is hard?",
                 answer:
-                  "Loggers run on rechargeable batteries and connect over Wi-Fi, and GSM versions use the mobile network, so nothing has to be chased through a wall. We check the signal in each room during the visit before fixing positions.",
+                  "Loggers run on rechargeable batteries and connect over Wi-Fi, and GSM versions use the mobile network, so nothing has to be chased through a wall. We check the signal in each room during the visit before fixing positions.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
             ],
             nearby: [
@@ -3086,7 +3086,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Delhi | Prithvi",
             metaDescription:
-              "Delhi, India: WiFi and GSM loggers for hospitals, medicine distributors and cold stores in Okhla, Bawana and Narela. Use Get Solution to plan Delhi.",
+              "Temperature data logger in Delhi for hospitals, medicine distributors and cold stores in Okhla, Bawana and Narela. Use Get Solution to plan Delhi.",
             indexable: true,
           },
         ],
@@ -3096,7 +3096,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Uttar Pradesh",
         type: "state",
         intro:
-          "Uttar Pradesh is a large state, and the part we serve first lies at either end of its range: the planned townships of Noida and Greater Noida on the eastern edge of the capital region, and the state capital, Lucknow, on the central plain. The first holds electronics assemblers, data centre operators and distribution warehouses in sector blocks; the second holds hospitals, medicine stockists and cold stores that supply districts a long drive away. Summers are fierce, the monsoon heavy and winter nights are cold enough to chill unheated stores. The pages listed below describe what that means for each place and for the industrial areas around it.",
+          "A temperature data logger in Uttar Pradesh is most often placed in electronics plants, server rooms and warehouses. Uttar Pradesh is a large state, and the part we serve first lies at either end of its range: the planned townships of Noida and Greater Noida on the eastern edge of the capital region, and the state capital, Lucknow, on the central plain. The first holds electronics assemblers, data centre operators and distribution warehouses in sector blocks; the second holds hospitals, medicine stockists and cold stores that supply districts a long drive away. Summers are fierce, the monsoon heavy and winter nights are cold enough to chill unheated stores. The pages listed below describe what that means for each place and for the industrial areas around it.",
         localIndustries: [
           "Electronics manufacturing",
           "Data centres and server rooms",
@@ -3107,9 +3107,9 @@ export const locations: LegacyLocationNode[] = [
           "Supply, installation support and site visits for Uttar Pradesh sites are arranged from our Mumbai office. Write to us with the sector and what you store.",
         faqs: [
           {
-            question: "Which Uttar Pradesh locations have their own pages?",
+            question: "Where can I find a temperature data logger in Uttar Pradesh?",
             answer:
-              "Noida, Lucknow and eight more cities have full pages, and Greater Noida and Sahibabad have area pages under Noida. More of the state will follow with pages of its own.",
+              "Noida, Lucknow and eight more cities have full pages, and Greater Noida and Sahibabad have area pages under Noida. More of the state will follow with pages of its own.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Do you cover places in the state that are not listed?",
@@ -4147,7 +4147,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Haryana",
         type: "state",
         intro:
-          "Haryana surrounds the capital on three sides, and its storage falls into two broad belts. Around the capital sit Gurugram and Faridabad, Manesar's large plants and highway warehouses, and Sonipat and Panipat along the Grand Trunk Road to the north, where towns make everything from auto parts and packed food to blankets and refined fuels. Further out, Rohtak, Hisar, Karnal and Ambala hold hospitals, research campuses, rice and grain stores, steel works and instrument workshops that buyers and research sponsors inspect. Summers are hot and dry, the monsoon is humid and winter nights are cold and foggy. The pages below describe each place and the loggers we suggest for it.",
+          "A temperature data logger in Haryana covers automotive plants, warehouses, textile units and food processors. Haryana surrounds the capital on three sides, and its storage falls into two broad belts. Around the capital sit Gurugram and Faridabad, Manesar's large plants and highway warehouses, and Sonipat and Panipat along the Grand Trunk Road to the north, where towns make everything from auto parts and packed food to blankets and refined fuels. Further out, Rohtak, Hisar, Karnal and Ambala hold hospitals, research campuses, rice and grain stores, steel works and instrument workshops that buyers and research sponsors inspect. Summers are hot and dry, the monsoon is humid and winter nights are cold and foggy. The pages below describe each place and the loggers we suggest for it.",
         localIndustries: [
           "Automotive and electronics",
           "Warehousing and distribution",
@@ -4160,9 +4160,9 @@ export const locations: LegacyLocationNode[] = [
           "Supply, installation support and site visits for Haryana plants are arranged from our Mumbai office. Tell us the plant and the stores to look at.",
         faqs: [
           {
-            question: "Which Haryana locations have a page?",
+            question: "Where can I find a temperature data logger in Haryana?",
             answer:
-              "Manesar, Gurugram, Faridabad, Panipat, Sonipat, Rohtak, Hisar, Ambala, Karnal and Panchkula have city pages. More of the state will follow, and the capital region pages cover places across the border.",
+              "Manesar, Gurugram, Faridabad, Panipat, Sonipat, Rohtak, Hisar, Ambala, Karnal and Panchkula have city pages. More of the state will follow, and the capital region pages cover places across the border.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why is Manesar treated as a separate city page from Gurugram?",
@@ -5163,7 +5163,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Telangana",
         type: "state",
         intro:
-          "Telangana's storage divides into two broad kinds. Around Hyderabad sit pharmaceutical and chemical estates to the north-west and west, a life-science research cluster to the north and technology parks and server halls on the western side, all of them delicate and often examined by customers, regulators or research sponsors. In the districts to the north and north-east, Warangal, Karimnagar and Nizamabad are market and mill towns where cotton, chilli, rice and turmeric are traded and stored, and where heat and damp threaten stock for months. Summers are hot and dry and the monsoon is short and sharp. The pages below describe each city, the three area pages written for Hyderabad and the loggers we suggest.",
+          "A temperature data logger in Telangana is most often specified for pharma plants, research laboratories and server rooms. Telangana's storage divides into two broad kinds. Around Hyderabad sit pharmaceutical and chemical estates to the north-west and west, a life-science research cluster to the north and technology parks and server halls on the western side, all of them delicate and often examined by customers, regulators or research sponsors. In the districts to the north and north-east, Warangal, Karimnagar and Nizamabad are market and mill towns where cotton, chilli, rice and turmeric are traded and stored, and where heat and damp threaten stock for months. Summers are hot and dry and the monsoon is short and sharp. The pages below describe each city, the three area pages written for Hyderabad and the loggers we suggest.",
         localIndustries: [
           "Pharmaceutical manufacturing",
           "Life-science research and laboratories",
@@ -5175,9 +5175,9 @@ export const locations: LegacyLocationNode[] = [
           "Supply, installation support and site visits for Telangana sites are arranged from our Mumbai office. Send the estate and the rooms that matter most.",
         faqs: [
           {
-            question: "Which Telangana locations have their own pages?",
+            question: "Where can I find a temperature data logger in Telangana?",
             answer:
-              "Hyderabad has a city page, with Jeedimetla, Patancheru and Genome Valley as area pages beneath it, and Warangal, Karimnagar and Nizamabad have city pages of their own. Other estates are mentioned on the city page and may follow.",
+              "Hyderabad has a city page, with Jeedimetla, Patancheru and Genome Valley as area pages beneath it, and Warangal, Karimnagar and Nizamabad have city pages of their own. Other estates are mentioned on the city page and may follow.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why is Genome Valley a separate page from the older estates?",
@@ -5280,9 +5280,9 @@ export const locations: LegacyLocationNode[] = [
                   "A low-range probe goes inside the freezer with a tight high limit, and alerts go to two named people so that a night-time fault is never left with one phone. Limits and contacts are set freezer by freezer.",
               },
               {
-                question: "Can records be handed to an auditor from a customer?",
+                question: "Can a temperature data logger in Hyderabad give an auditor the records they ask for?",
                 answer:
-                  "Reports can be exported for any room and any period as PDF, Excel or CSV, and calibration records can be kept against each device, so the file an auditor asks for is ready without retyping.",
+                  "Reports can be exported for any room and any period as PDF, Excel or CSV, and calibration records can be kept against each device, so the file an auditor asks for is ready without retyping.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Who arranges mapping of a large Hyderabad warehouse?",
@@ -5297,7 +5297,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Hyderabad | Prithvi",
             metaDescription:
-              "Hyderabad, Telangana: WiFi and GSM loggers for pharma estates, life-science labs and data centres. Use Get Solution to plan Hyderabad.",
+              "Temperature data logger in Hyderabad, Telangana: WiFi and GSM models for pharma estates, life-science labs and data centres. Get Solution for Hyderabad.",
             indexable: true,
           },
           {
@@ -5596,7 +5596,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Karnataka",
         type: "state",
         intro:
-          "Karnataka's storage falls into several different groups. Bengaluru and its estates hold technology parks, laboratories and electronics makers where a cooling fault matters more than the weather, while Mysuru and Tumakuru add research cold rooms, food plants and highway warehouses on either side of the capital region. On the coast Mangaluru works around a port, cashew and seafood, and in the north-west Hubballi-Dharwad and Belagavi combine trade, universities, foundries and precision engineering. Climates run from a mild plateau to a wet coast, so humidity decides some of the choices. The pages below describe each city and the three area pages written for Bengaluru.",
+          "A temperature data logger in Karnataka mostly protects technology parks, biotech laboratories and server rooms. Karnataka's storage falls into several different groups. Bengaluru and its estates hold technology parks, laboratories and electronics makers where a cooling fault matters more than the weather, while Mysuru and Tumakuru add research cold rooms, food plants and highway warehouses on either side of the capital region. On the coast Mangaluru works around a port, cashew and seafood, and in the north-west Hubballi-Dharwad and Belagavi combine trade, universities, foundries and precision engineering. Climates run from a mild plateau to a wet coast, so humidity decides some of the choices. The pages below describe each city and the three area pages written for Bengaluru.",
         localIndustries: [
           "Electronics and technology parks",
           "Biotech and research laboratories",
@@ -5608,9 +5608,9 @@ export const locations: LegacyLocationNode[] = [
           "Supply, installation support and site visits for Karnataka sites are arranged from our Mumbai office. Tell us the campus or estate and what the rooms hold.",
         faqs: [
           {
-            question: "Which Karnataka locations have a page?",
+            question: "Where can I find a temperature data logger in Karnataka?",
             answer:
-              "Bengaluru has a city page, with Peenya, Electronic City and Whitefield as area pages, and Mysuru, Hubballi-Dharwad, Mangaluru, Belagavi and Tumakuru have city pages of their own. Bommasandra and Jigani are mentioned on the city page and may follow.",
+              "Bengaluru has a city page, with Peenya, Electronic City and Whitefield as area pages, and Mysuru, Hubballi-Dharwad, Mangaluru, Belagavi and Tumakuru have city pages of their own. Bommasandra and Jigani are mentioned on the city page and may follow.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Do you use the name Bangalore as well as Bengaluru?",
@@ -5711,12 +5711,12 @@ export const locations: LegacyLocationNode[] = [
               {
                 question: "Do you cover Bangalore as well as Bengaluru?",
                 answer:
-                  "Yes, they are the same city. Whichever name you use, send the area and what you store through the enquiry form, WhatsApp or a call, and we arrange the visit.",
+                  "Yes, Bangalore and Bengaluru are the same city. Whichever name you use, send the area and what you store through the enquiry form, WhatsApp or a call, and we arrange the visit.",
               },
               {
-                question: "How is a server room different from a store when placing probes?",
+                question: "Where should a temperature data logger in Bengaluru go in a server room or a store?",
                 answer:
-                  "A server hall is watched at rack inlet height along the cold aisle and at the top of a row where heat collects, while a store is watched at the warmest shelf and near the door. We set limits for each room's purpose.",
+                  "A server hall is watched at rack inlet height along the cold aisle and at the top of a row where heat collects, while a store is watched at the warmest shelf and near the door. We set limits for each room's purpose.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Can several campuses be watched by one facilities team?",
@@ -5736,7 +5736,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Bengaluru | Prithvi",
             metaDescription:
-              "Bengaluru, Karnataka: WiFi and GSM loggers for labs, data centres, electronics plants and hospitals. Get Solution: request a plan for Bengaluru.",
+              "Temperature data logger in Bengaluru (Bangalore) for labs, data centres, electronics plants and hospitals. Get Solution: request a plan for Bengaluru.",
             indexable: true,
           },
           {
@@ -6227,7 +6227,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Tamil Nadu",
         type: "state",
         intro:
-          "Tamil Nadu's storage lies in several different parts of the state. The coast around Chennai holds electronics, automotive and pharmaceutical plants and the warehouses that serve the ports, all in salty, humid air. Coimbatore, Tiruppur, Erode and Salem in the west hold mills, knitwear exporters, turmeric stores, steel and starch works where humidity swings decide how stock behaves. Vellore is a hospital and leather town in the north-east, and Tuticorin is a port with seafood, salt and chemicals. Tiruchirappalli and Madurai in the centre and south combine heavy fabrication, hospitals and flower and vegetable markets under long, dry heat. In the north-west, Hosur is a vehicle, component and electronics cluster beside the Bengaluru border, with cut-flower growers who need cold rooms of their own. The pages below describe each city and the three area pages written for Chennai.",
+          "A temperature data logger in Tamil Nadu must handle coastal humidity. Tamil Nadu's storage lies in several different parts of the state. The coast around Chennai holds electronics, automotive and pharmaceutical plants and the warehouses that serve the ports, all in salty, humid air. Coimbatore, Tiruppur, Erode and Salem in the west hold mills, knitwear exporters, turmeric stores, steel and starch works where humidity swings decide how stock behaves. Vellore is a hospital and leather town in the north-east, and Tuticorin is a port with seafood, salt and chemicals. Tiruchirappalli and Madurai in the centre and south combine heavy fabrication, hospitals and flower and vegetable markets under long, dry heat. In the north-west, Hosur is a vehicle, component and electronics cluster beside the Bengaluru border, with cut-flower growers who need cold rooms of their own. The pages below describe each city and the three area pages written for Chennai.",
         localIndustries: [
           "Electronics and automotive manufacturing",
           "Pharmaceutical manufacturing",
@@ -6240,9 +6240,9 @@ export const locations: LegacyLocationNode[] = [
           "Supply, installation support and site visits for Tamil Nadu sites are arranged from our Mumbai office. Send us the estate and the stores that need watching.",
         faqs: [
           {
-            question: "Which Tamil Nadu locations have their own pages?",
+            question: "Where can I find a temperature data logger in Tamil Nadu?",
             answer:
-              "Chennai, Coimbatore, Hosur, Madurai, Tiruchirappalli, Salem, Tiruppur, Erode, Vellore and Tuticorin have city pages, and Ambattur, Sriperumbudur and Oragadam have area pages under Chennai. More of the state may follow.",
+              "Chennai, Coimbatore, Hosur, Madurai, Tiruchirappalli, Salem, Tiruppur, Erode, Vellore and Tuticorin have city pages, and Ambattur, Sriperumbudur and Oragadam have area pages under Chennai. More of the state may follow.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why does humidity matter more in the west than the coast?",
@@ -6342,9 +6342,9 @@ export const locations: LegacyLocationNode[] = [
                   "We plan them as separate days by direction, since Ambattur lies on the north-western side and the other two on the south-western corridor. Send the plants, the stores and the contacts and we propose an order.",
               },
               {
-                question: "How do you handle a power cut during a heavy storm?",
+                question: "Does a temperature data logger in Chennai keep recording through a power cut in a heavy storm?",
                 answer:
-                  "Loggers carry on recording on their batteries, send stored readings when the network returns and GSM versions can still report if a building's Wi-Fi is down. Alerts for a lost mains supply go to the named people.",
+                  "Loggers carry on recording on their batteries, send stored readings when the network returns and GSM versions can still report if a building's Wi-Fi is down. Alerts for a lost mains supply go to the named people.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Can we give an overseas customer the record of a consignment?",
@@ -6364,7 +6364,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Chennai | Prithvi",
             metaDescription:
-              "Chennai, Tamil Nadu: temperature and humidity loggers for pharma, electronics and port-linked warehouses. Get Solution to begin in Chennai.",
+              "Temperature data logger in Chennai, Tamil Nadu: temperature and humidity models for pharma, electronics and port warehouses. Get Solution for Chennai.",
             indexable: true,
           },
           {
@@ -7235,7 +7235,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Chandigarh",
         type: "state",
         intro:
-          "Chandigarh is a planned city and a union territory, the shared capital of two states, and the towns of Mohali and Panchkula have grown into its edges. Its storage is shaped by a prosperous population and a regional role: hospitals and research institutes, medicine distributors who supply surrounding districts, and dairy, bakery and food firms with depots in the industrial area. Rooms are modern but busy, and the climate swings between hot, dry summers and cold winters, so a low limit matters alongside the high one. This regional page introduces the territory and points to the city page, which holds the detail for the sectors, the industrial area and the neighbouring towns.",
+          "A temperature data logger in the Chandigarh Region mostly serves hospitals, medicine distributors and dairy depots. Chandigarh is a planned city and a union territory, the shared capital of two states, and the towns of Mohali and Panchkula have grown into its edges. Its storage is shaped by a prosperous population and a regional role: hospitals and research institutes, medicine distributors who supply surrounding districts, and dairy, bakery and food firms with depots in the industrial area. Rooms are modern but busy, and the climate swings between hot, dry summers and cold winters, so a low limit matters alongside the high one. This regional page introduces the territory and points to the city page, which holds the detail for the sectors, the industrial area and the neighbouring towns.",
         localIndustries: [
           "Hospitals and diagnostic laboratories",
           "Pharmaceutical distribution",
@@ -7251,9 +7251,9 @@ export const locations: LegacyLocationNode[] = [
               "The territory page gives the regional picture and links the pages beneath it, while the city page goes into rooms, climate and loggers for Chandigarh, Mohali and Panchkula in depth.",
           },
           {
-            question: "Which parts of the region are covered?",
+            question: "Where can I find a temperature data logger in the Chandigarh Region?",
             answer:
-              "The city page covers the industrial area phases, Mohali and Panchkula together. Baddi's pharmaceutical cluster, a short drive away, has its own page under Himachal Pradesh.",
+              "The city page covers the industrial area phases, Mohali and Panchkula together. Baddi's pharmaceutical cluster, a short drive away, has its own page under Himachal Pradesh.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Can a clinic with several floors watch every fridge?",
@@ -7367,7 +7367,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Punjab",
         type: "state",
         intro:
-          "Punjab is known for its fields, and the grain, dairy and food firms that handle the harvest keep storage of their own, but its cities each add a different trade: Ludhiana's knitwear, hand tools and auto parts, Amritsar's hotels, kitchens and border road, Jalandhar's sports goods and leather, Patiala's hospitals, laboratories and rice mills, Bathinda's grain, cotton and refinery belt, Rajpura's junction yards, and Mohali beside Chandigarh, where pharmaceutical units, electronics makers and research institutes stand on regular plots. Summers are hot and dry, winter nights are cold and foggy, and the monsoon arrives heavily at the foothills. The pages below take each city in turn, with its estates, its rooms and the loggers that suit them.",
+          "A temperature data logger in Punjab is often asked for by pharma plants, electronics makers and hospitals. Punjab is known for its fields, and the grain, dairy and food firms that handle the harvest keep storage of their own, but its cities each add a different trade: Ludhiana's knitwear, hand tools and auto parts, Amritsar's hotels, kitchens and border road, Jalandhar's sports goods and leather, Patiala's hospitals, laboratories and rice mills, Bathinda's grain, cotton and refinery belt, Rajpura's junction yards, and Mohali beside Chandigarh, where pharmaceutical units, electronics makers and research institutes stand on regular plots. Summers are hot and dry, winter nights are cold and foggy, and the monsoon arrives heavily at the foothills. The pages below take each city in turn, with its estates, its rooms and the loggers that suit them.",
         localIndustries: [
           "Pharmaceutical manufacturing",
           "Electronics and technology parks",
@@ -7378,9 +7378,9 @@ export const locations: LegacyLocationNode[] = [
           "Supply, installation support and site visits for Punjab sites are arranged from our Mumbai office. Tell us the town, the unit and what the rooms hold.",
         faqs: [
           {
-            question: "Which Punjab locations have a page?",
+            question: "Where can I find a temperature data logger in Punjab?",
             answer:
-              "Mohali, Ludhiana, Amritsar, Jalandhar, Patiala, Bathinda and Rajpura each have a city page, and the neighbouring Chandigarh and Panchkula pages cover the rest of the tricity. Enquiries from other Punjab towns are welcome.",
+              "Mohali, Ludhiana, Amritsar, Jalandhar, Patiala, Bathinda and Rajpura each have a city page, and the neighbouring Chandigarh and Panchkula pages cover the rest of the tricity. Enquiries from other Punjab towns are welcome.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why does Punjab start with Mohali?",
@@ -8096,7 +8096,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Himachal Pradesh",
         type: "state",
         intro:
-          "Himachal Pradesh is a hill state, and its storage follows the road up from the plains. At the foot, around Baddi, Barotiwala and Nalagarh in Solan district and again at Parwanoo, Paonta Sahib and Una, pharmaceutical, packaging, steel and food units work to written limits in warm, damp air. Higher up, the mushroom growers and university laboratories of Solan and the hospitals, hotels and apple stores of Shimla deal with cold as much as with heat. Hill roads and the narrow-gauge railway slow deliveries, and winter snow can cut both power and access, so records have to survive delays. Each page below describes one town, its rooms and the loggers that suit them.",
+          "A temperature data logger in Himachal Pradesh is mostly placed in pharma plants, quality laboratories and packaging units. Himachal Pradesh is a hill state, and its storage follows the road up from the plains. At the foot, around Baddi, Barotiwala and Nalagarh in Solan district and again at Parwanoo, Paonta Sahib and Una, pharmaceutical, packaging, steel and food units work to written limits in warm, damp air. Higher up, the mushroom growers and university laboratories of Solan and the hospitals, hotels and apple stores of Shimla deal with cold as much as with heat. Hill roads and the narrow-gauge railway slow deliveries, and winter snow can cut both power and access, so records have to survive delays. Each page below describes one town, its rooms and the loggers that suit them.",
         localIndustries: [
           "Pharmaceutical manufacturing",
           "Laboratories and quality control",
@@ -8108,9 +8108,9 @@ export const locations: LegacyLocationNode[] = [
           "Supply, installation support and site visits for Himachal Pradesh plants are arranged from our Mumbai office. Tell us the estate and the plant's storage rooms.",
         faqs: [
           {
-            question: "Which Himachal Pradesh locations have a page?",
+            question: "Where can I find a temperature data logger in Himachal Pradesh?",
             answer:
-              "Baddi, Solan, Parwanoo, Paonta Sahib, Una and Shimla have city pages, and the Baddi page also covers Barotiwala and Nalagarh. Other parts of the hill state have no page of their own yet.",
+              "Baddi, Solan, Parwanoo, Paonta Sahib, Una and Shimla have city pages, and the Baddi page also covers Barotiwala and Nalagarh. Other parts of the hill state have no page of their own yet.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why are three estates covered on one page?",
@@ -8718,7 +8718,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Kerala",
         type: "state",
         intro:
-          "Kerala is a long, narrow state between the sea and the hills, and its storage is arranged along the coast road and the railway. Kochi in the middle is the great port, Thiruvananthapuram in the south is the capital with its technology park, hospitals and research institutes, and Kollam holds cashew and fisheries. Thrissur trades in gold and herbal medicine, while Kozhikode in the north still moves spices, timber and oil. The air is warm and very humid for most months and the monsoon is heavy and long, so condensation, mould and storm power cuts matter as much as heat. Each page below describes one city, its rooms and the loggers that suit them.",
+          "A temperature data logger in Kerala mostly protects seafood stores, port warehouses and hospital stores. Kerala is a long, narrow state between the sea and the hills, and its storage is arranged along the coast road and the railway. Kochi in the middle is the great port, Thiruvananthapuram in the south is the capital with its technology park, hospitals and research institutes, and Kollam holds cashew and fisheries. Thrissur trades in gold and herbal medicine, while Kozhikode in the north still moves spices, timber and oil. The air is warm and very humid for most months and the monsoon is heavy and long, so condensation, mould and storm power cuts matter as much as heat. Each page below describes one city, its rooms and the loggers that suit them.",
         localIndustries: [
           "Seafood processing and export",
           "Port logistics and warehousing",
@@ -8730,9 +8730,9 @@ export const locations: LegacyLocationNode[] = [
           "Supply, installation support and site visits for Kerala sites are arranged from our Mumbai office. Send the area and the cold rooms or stores in question.",
         faqs: [
           {
-            question: "Which Kerala locations have a page?",
+            question: "Where can I find a temperature data logger in Kerala?",
             answer:
-              "Kochi has a city page covering Kakkanad, Kalamassery and Edayar, and Thiruvananthapuram, Kozhikode, Thrissur and Kollam have city pages of their own. Other places in the state are served on enquiry.",
+              "Kochi has a city page covering Kakkanad, Kalamassery and Edayar, and Thiruvananthapuram, Kozhikode, Thrissur and Kollam have city pages of their own. Other places in the state are served on enquiry.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "What is special about monitoring a cold chain in this climate?",
@@ -9239,7 +9239,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Goa",
         type: "state",
         intro:
-          "Goa is a small coastal state with two quite different storage worlds: a handful of inland industrial estates where pharmaceutical manufacturers work, and the long strip of coast where hotels, resorts, restaurants and the suppliers that stock them run walk-in fridges at their hardest in the tourist season. Salt air and humidity affect both, and the monsoon is heavy, while rooms that empty out in the off-season can drift unseen. This regional page introduces the state in our map and links to the Goa city page, which holds the detail for Verna, Kundaim and the coastal kitchens. The state is small, so a single page describes the plants and the kitchens side by side.",
+          "A temperature data logger in Goa covers pharma plants and coastal hotel kitchens. Goa is a small coastal state with two quite different storage worlds: a handful of inland industrial estates where pharmaceutical manufacturers work, and the long strip of coast where hotels, resorts, restaurants and the suppliers that stock them run walk-in fridges at their hardest in the tourist season. Salt air and humidity affect both, and the monsoon is heavy, while rooms that empty out in the off-season can drift unseen. This regional page introduces the state in our map and links to the Goa city page, which holds the detail for Verna, Kundaim and the coastal kitchens. The state is small, so a single page describes the plants and the kitchens side by side.",
         localIndustries: [
           "Pharmaceutical manufacturing",
           "Hotels and restaurant kitchens",
@@ -9250,9 +9250,9 @@ export const locations: LegacyLocationNode[] = [
           "Supply, installation support and site visits for Goa sites are arranged from our Mumbai office. Tell us the area and whether it is a plant or a kitchen.",
         faqs: [
           {
-            question: "Which Goa locations have a page?",
+            question: "Where can I find a temperature data logger in the State of Goa?",
             answer:
-              "The Goa city page covers Verna and Kundaim and the hotel kitchens along the coast, and Panjim, Verna, Ponda and Margao each have an area page of their own. A site elsewhere in Goa can be raised through the enquiry form.",
+              "The Goa city page covers Verna and Kundaim and the hotel kitchens along the coast, and Panjim, Verna, Ponda and Margao each have an area page of their own. A site elsewhere in Goa can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Do you serve hotels as well as plants?",
@@ -9377,7 +9377,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Rajasthan",
         type: "state",
         intro:
-          "Rajasthan is a desert state, and its storage is shaped by dry heat and a large daily swing: afternoons that overwhelm ageing cooling and nights that cool the same rooms quickly. We serve the capital, Jaipur, where industrial areas on the northern and southern sides sit beside crowded wholesale markets, dairies, hospitals and hotels, and the cities that anchor the other regions: Jodhpur in the west for handicrafts, stone and cloth, Udaipur in the south for lakeside hotels and mineral works, Kota beside the Chambal for chemicals and coaching hostels, and Ajmer for pilgrimage and trade, with Bhilwara's textile mills and the Bhiwadi and Neemrana factory zones toward Delhi. Rooms of stone and concrete hold the day's heat long after dark. The pages below take each city in turn, with its estates, its stores and the loggers that fit them.",
+          "A temperature data logger in Rajasthan faces dry desert heat. Rajasthan is a desert state, and its storage is shaped by dry heat and a large daily swing: afternoons that overwhelm ageing cooling and nights that cool the same rooms quickly. We serve the capital, Jaipur, where industrial areas on the northern and southern sides sit beside crowded wholesale markets, dairies, hospitals and hotels, and the cities that anchor the other regions: Jodhpur in the west for handicrafts, stone and cloth, Udaipur in the south for lakeside hotels and mineral works, Kota beside the Chambal for chemicals and coaching hostels, and Ajmer for pilgrimage and trade, with Bhilwara's textile mills and the Bhiwadi and Neemrana factory zones toward Delhi. Rooms of stone and concrete hold the day's heat long after dark. The pages below take each city in turn, with its estates, its stores and the loggers that fit them.",
         localIndustries: [
           "Pharmaceutical distribution",
           "Food and dairy processing",
@@ -9388,9 +9388,9 @@ export const locations: LegacyLocationNode[] = [
           "Supply, installation support and site visits for Rajasthan sites are arranged from our Mumbai office. Write to us with the district and the rooms to watch.",
         faqs: [
           {
-            question: "Which Rajasthan locations have a page?",
+            question: "Where can I find a temperature data logger in Rajasthan?",
             answer:
-              "Jaipur has a city page covering Sitapura, VKI and the dairies and medicine markets, and Jodhpur, Udaipur, Kota, Ajmer, Bhilwara, Bhiwadi and Neemrana each have a city page of their own. A site elsewhere in Rajasthan can be raised through the enquiry form.",
+              "Jaipur has a city page covering Sitapura, VKI and the dairies and medicine markets, and Jodhpur, Udaipur, Kota, Ajmer, Bhilwara, Bhiwadi and Neemrana each have a city page of their own. A site elsewhere in Rajasthan can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why does the daily swing matter for alerts?",
@@ -10198,7 +10198,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Madhya Pradesh",
         type: "state",
         intro:
-          "Madhya Pradesh sits at the middle of the country, and our pages follow its main centres: Indore, the commercial capital of snack makers, pharmaceutical plants and wholesale godowns; Bhopal, the capital with its hospitals, institutions and the Mandideep estate; Jabalpur, with defence works and pulse godowns; Gwalior, where the Malanpur estate meets the highway and the rail line to Delhi; and the Malwa towns of Pithampur, Dewas and Ujjain. Summer heat builds slowly and the monsoon arrives with real weight, so a store that held its range in April can fail an inspection in June. The pages below take each city in turn, with its estates, its stores and the loggers that suit them.",
+          "A temperature data logger in Madhya Pradesh is often placed in food plants, pharma units and engineering works. Madhya Pradesh sits at the middle of the country, and our pages follow its main centres: Indore, the commercial capital of snack makers, pharmaceutical plants and wholesale godowns; Bhopal, the capital with its hospitals, institutions and the Mandideep estate; Jabalpur, with defence works and pulse godowns; Gwalior, where the Malanpur estate meets the highway and the rail line to Delhi; and the Malwa towns of Pithampur, Dewas and Ujjain. Summer heat builds slowly and the monsoon arrives with real weight, so a store that held its range in April can fail an inspection in June. The pages below take each city in turn, with its estates, its stores and the loggers that suit them.",
         localIndustries: [
           "Food processing",
           "Pharmaceutical manufacturing",
@@ -10209,9 +10209,9 @@ export const locations: LegacyLocationNode[] = [
           "Supply, installation support and site visits for Madhya Pradesh plants are arranged from our Mumbai office. Send the estate and the stores in question.",
         faqs: [
           {
-            question: "Which Madhya Pradesh locations have a page?",
+            question: "Where can I find a temperature data logger in Madhya Pradesh?",
             answer:
-              "Indore has a city page covering Pithampur, Sanwer Road and the food processors, and Bhopal, Jabalpur, Gwalior, Pithampur, Ujjain and Dewas each have a city page of their own. A site elsewhere in the state can be raised through the enquiry form.",
+              "Indore has a city page covering Pithampur, Sanwer Road and the food processors, and Bhopal, Jabalpur, Gwalior, Pithampur, Ujjain and Dewas each have a city page of their own. A site elsewhere in the state can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why watch humidity in a food store?",
@@ -10917,7 +10917,7 @@ export const locations: LegacyLocationNode[] = [
         name: "West Bengal",
         type: "state",
         intro:
-          "West Bengal's storage follows the river and the railway: godowns around Kolkata, an industrial township at Kalyani, the logistics belt around Dankuni and port-side warehouses, with the foundries and goods yards of Howrah across the Hooghly, the steel and power city of Durgapur inland, Asansol and its coal and railway belt, the campus town of Kharagpur, the port town of Haldia, and Siliguri far to the north, where tea, medicines and trucks head for the hills. Cold stores for fish, dairy and sweets, medicine distributors and a large hospital sector complete the picture. The air is hot and humid for most of the year, the monsoon is long and pre-monsoon storms cut the power, so condensation and outages are as common a risk as heat. Each city page below lists its main trades and the rooms we would watch first.",
+          "A temperature data logger in West Bengal faces river-delta humidity. West Bengal's storage follows the river and the railway: godowns around Kolkata, an industrial township at Kalyani, the logistics belt around Dankuni and port-side warehouses, with the foundries and goods yards of Howrah across the Hooghly, the steel and power city of Durgapur inland, Asansol and its coal and railway belt, the campus town of Kharagpur, the port town of Haldia, and Siliguri far to the north, where tea, medicines and trucks head for the hills. Cold stores for fish, dairy and sweets, medicine distributors and a large hospital sector complete the picture. The air is hot and humid for most of the year, the monsoon is long and pre-monsoon storms cut the power, so condensation and outages are as common a risk as heat. Each city page below lists its main trades and the rooms we would watch first.",
         localIndustries: [
           "Pharmaceutical distribution",
           "Food and cold storage",
@@ -10928,9 +10928,9 @@ export const locations: LegacyLocationNode[] = [
           "Supply, installation support and site visits for West Bengal sites are arranged from our Mumbai office. Tell us the district and what the rooms hold.",
         faqs: [
           {
-            question: "Which West Bengal locations have a page?",
+            question: "Where can I find a temperature data logger in West Bengal?",
             answer:
-              "Kolkata has a city page covering Howrah, Kalyani, Dankuni and the port-side warehouses, and Howrah, Siliguri, Durgapur, Asansol, Kharagpur and Haldia each have a city page of their own. A site elsewhere in Bengal can be raised with us through the enquiry form.",
+              "Kolkata has a city page covering Howrah, Kalyani, Dankuni and the port-side warehouses, and Howrah, Siliguri, Durgapur, Asansol, Kharagpur and Haldia each have a city page of their own. A site elsewhere in Bengal can be raised with us through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "How are loggers protected through a storm outage?",
@@ -11650,9 +11650,9 @@ export const locations: LegacyLocationNode[] = [
           "Supply, installation support and site visits for Andhra Pradesh sites are arranged from our Mumbai office. Tell us the port, the estate or the town and what the rooms hold.",
         faqs: [
           {
-            question: "Which Andhra Pradesh locations have a page?",
+            question: "Where can I find a temperature data logger in Andhra Pradesh?",
             answer:
-              "Visakhapatnam, Vijayawada, Guntur, Tirupati, Nellore, Sri City and Kakinada each have a city page. Any other town in the state can be added by writing to us through the enquiry form.",
+              "Visakhapatnam, Vijayawada, Guntur, Tirupati, Nellore, Sri City and Kakinada each have a city page. Any other town in the state can be added by writing to us through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why should a cold store plan for a cyclone season?",
@@ -12360,7 +12360,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Uttarakhand",
         type: "state",
         intro:
-          "Uttarakhand is a state of two climates, the cool wet hills and the hot plains and foothills below them, and its storage sits mostly in the plains: the temple and factory city of Haridwar with its large industrial estate, the capital Dehradun in the Doon valley, Roorkee between the Ganga and Yamuna canals, the Terai factory belt of Rudrapur-Pantnagar and Kashipur, and the foothill gateway of Kotdwar. Pharmaceutical, food, electrical and automotive plants have grown on the estates, and hospitals, institutes and hotels add rooms that need steady air. Summers are hot, the monsoon is very heavy and winter nights are cold with fog, so a pharmaceutical store or a cold chain meets heat, damp and cold in a single year. The city pages that follow set out each estate, the stores worth watching first and the loggers that fit.",
+          "A temperature data logger in Uttarakhand serves plains and foothills. Uttarakhand is a state of two climates, the cool wet hills and the hot plains and foothills below them, and its storage sits mostly in the plains: the temple and factory city of Haridwar with its large industrial estate, the capital Dehradun in the Doon valley, Roorkee between the Ganga and Yamuna canals, the Terai factory belt of Rudrapur-Pantnagar and Kashipur, and the foothill gateway of Kotdwar. Pharmaceutical, food, electrical and automotive plants have grown on the estates, and hospitals, institutes and hotels add rooms that need steady air. Summers are hot, the monsoon is very heavy and winter nights are cold with fog, so a pharmaceutical store or a cold chain meets heat, damp and cold in a single year. The city pages that follow set out each estate, the stores worth watching first and the loggers that fit.",
         localIndustries: [
           "Pharmaceutical manufacturing",
           "Food and agro processing",
@@ -12372,9 +12372,9 @@ export const locations: LegacyLocationNode[] = [
           "Supply, installation support and site visits for Uttarakhand sites are arranged from our Mumbai office. Tell us the town, the estate and what the rooms hold.",
         faqs: [
           {
-            question: "Which Uttarakhand locations have a page?",
+            question: "Where can I find a temperature data logger in Uttarakhand?",
             answer:
-              "Haridwar, Dehradun, Roorkee, Rudrapur-Pantnagar, Kashipur and Kotdwar each have a city page. A site in any other town of the state can be raised by writing to us through the enquiry form.",
+              "Haridwar, Dehradun, Roorkee, Rudrapur-Pantnagar, Kashipur and Kotdwar each have a city page. A site in any other town of the state can be raised by writing to us through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Can a logger work in a hill town with a weak signal?",
@@ -12986,7 +12986,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Dadra and Nagar Haveli and Daman and Diu",
         type: "state",
         intro:
-          "The Union Territory of Dadra and Nagar Haveli and Daman and Diu was formed in 2020 by joining two former territories, and its three places lie far apart. Silvassa, inland among the foothills, and Daman, on the coast beside Vapi, are the two industrial centres, with pharmaceutical, plastics, packaging, textile and engineering plants on planned estates, while Diu is a small island off the Saurashtra coast, given over to tourism and fishing. All three share a humid coastal climate and a heavy monsoon, and the sea adds salt to the air. Heat, damp and storm outages test cold rooms, chemical stores and hotel kitchens alike. The page for each place describes its stores and suggests loggers to match.",
+          "A temperature data logger in Dadra and Nagar Haveli and Daman and Diu mostly serves pharma, plastics and packaging plants. The Union Territory of Dadra and Nagar Haveli and Daman and Diu was formed in 2020 by joining two former territories, and its three places lie far apart. Silvassa, inland among the foothills, and Daman, on the coast beside Vapi, are the two industrial centres, with pharmaceutical, plastics, packaging, textile and engineering plants on planned estates, while Diu is a small island off the Saurashtra coast, given over to tourism and fishing. All three share a humid coastal climate and a heavy monsoon, and the sea adds salt to the air. Heat, damp and storm outages test cold rooms, chemical stores and hotel kitchens alike. The page for each place describes its stores and suggests loggers to match.",
         localIndustries: [
           "Pharmaceutical and plastics manufacturing",
           "Packaging and engineering works",
@@ -13003,9 +13003,9 @@ export const locations: LegacyLocationNode[] = [
               "It is one administrative unit, so we group Silvassa, Daman and Diu under it, although each place has its own page because their estates, hotels and harbours are very different.",
           },
           {
-            question: "Are Silvassa and Daman close to existing Gujarat and Maharashtra pages?",
+            question: "Can I watch a temperature data logger in Silvassa and one in Vapi on one account?",
             answer:
-              "Both lie beside Gujarat and Maharashtra, and a firm with a plant here and another in Vapi or the Palghar belt can watch them together on one account.",
+              "Both lie beside Gujarat and Maharashtra, and a firm with a plant here and another in Vapi or the Palghar belt can watch them together on one account.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "How should a store plan for the monsoon on this coast?",
@@ -13317,7 +13317,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Odisha",
         type: "state",
         intro:
-          "Odisha runs along the Bay of Bengal from the Mahanadi delta to the mineral-rich western plateau, and its storage divides in the same way. On the coast, Bhubaneswar and Cuttack hold hospitals, institutes, markets and small industrial estates, while a port, a refinery and fertiliser works line the shore at Paradip. Inland, Rourkela's steel town and the mining and power country around Jharsuguda hold heavy industry with long supply chains. The coast is hot, humid and exposed to cyclones, the plateau is scorching in summer and cold on winter nights, and the monsoon is heavy everywhere. Cold rooms, chemical stores and hospital refrigerators must therefore cope with storms and outages as well as simple heat. The page for each city describes its stores and suggests matching loggers.",
+          "A temperature data logger in Odisha is mostly placed in steel works, port stores and hospitals. Odisha runs along the Bay of Bengal from the Mahanadi delta to the mineral-rich western plateau, and its storage divides in the same way. On the coast, Bhubaneswar and Cuttack hold hospitals, institutes, markets and small industrial estates, while a port, a refinery and fertiliser works line the shore at Paradip. Inland, Rourkela's steel town and the mining and power country around Jharsuguda hold heavy industry with long supply chains. The coast is hot, humid and exposed to cyclones, the plateau is scorching in summer and cold on winter nights, and the monsoon is heavy everywhere. Cold rooms, chemical stores and hospital refrigerators must therefore cope with storms and outages as well as simple heat. The page for each city describes its stores and suggests matching loggers.",
         localIndustries: [
           "Steel, aluminium and power works",
           "Ports, refinery and fertiliser stores",
@@ -13329,9 +13329,9 @@ export const locations: LegacyLocationNode[] = [
           "Supply, installation support and site visits for Odisha sites are arranged from our Mumbai office. Tell us the city, the estate or the plant and what the rooms hold.",
         faqs: [
           {
-            question: "Which Odisha locations have a page?",
+            question: "Where can I find a temperature data logger in Odisha?",
             answer:
-              "Bhubaneswar, Cuttack, Rourkela, Paradip and Jharsuguda each have a city page. A site in another town of the state can be raised by writing to us through the enquiry form.",
+              "Bhubaneswar, Cuttack, Rourkela, Paradip and Jharsuguda each have a city page. A site in another town of the state can be raised by writing to us through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why plan for a cyclone when choosing a logger?",
@@ -13841,7 +13841,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Jharkhand",
         type: "state",
         intro:
-          "Jharkhand is a plateau state of coal, iron and steel, and its storage follows the mines, the rail lines and the industrial townships. Ranchi, the capital, holds heavy engineering, hospitals, institutes and a busy trade; Jamshedpur is a steel and vehicle city with an ancillary belt across the river at Adityapur; Dhanbad stands in the Jharia coalfield; and Bokaro is a steel township beside the Damodar. Summers are hot and dusty, the monsoon is heavy and winter nights are cold, so spares stores, laboratories and hospital refrigerators meet dust, damp and chill in a single year. Distances between plants are large and signals can be weak. Each city page below names its estates and the stores worth watching first.",
+          "A temperature data logger in Jharkhand mostly protects steel-town stores, hospitals and engineering plants. Jharkhand is a plateau state of coal, iron and steel, and its storage follows the mines, the rail lines and the industrial townships. Ranchi, the capital, holds heavy engineering, hospitals, institutes and a busy trade; Jamshedpur is a steel and vehicle city with an ancillary belt across the river at Adityapur; Dhanbad stands in the Jharia coalfield; and Bokaro is a steel township beside the Damodar. Summers are hot and dusty, the monsoon is heavy and winter nights are cold, so spares stores, laboratories and hospital refrigerators meet dust, damp and chill in a single year. Distances between plants are large and signals can be weak. Each city page below names its estates and the stores worth watching first.",
         localIndustries: [
           "Steel and heavy engineering",
           "Coal and mining supply",
@@ -13853,9 +13853,9 @@ export const locations: LegacyLocationNode[] = [
           "Supply, installation support and site visits for Jharkhand sites are arranged from our Mumbai office. Tell us the city, the plant or the mine-side store and what the rooms hold.",
         faqs: [
           {
-            question: "Which Jharkhand locations have a page?",
+            question: "Where can I find a temperature data logger in Jharkhand?",
             answer:
-              "Ranchi, Jamshedpur, Dhanbad and Bokaro each have a city page. For a town not listed here, write to us through the enquiry form and we confirm how we can help.",
+              "Ranchi, Jamshedpur, Dhanbad and Bokaro each have a city page. For a town not listed here, write to us through the enquiry form and we confirm how we can help.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "How does coal and mineral dust affect a logger?",
@@ -14271,7 +14271,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Chhattisgarh",
         type: "state",
         intro:
-          "Chhattisgarh sits in the middle of the country on a plain of rice fields ringed by coal, iron ore and forest, and its storage follows the railway and the mines. Raipur, the capital, holds rice mills, sponge-iron and steel works, hospitals and wholesale godowns; Bhilai is a steel township twinned with Durg; Bilaspur is the rail and coalfield administrative centre; and Korba is a city of coal mines, power stations and an aluminium smelter. Summers are very hot and dusty, the monsoon is heavy and winter nights are cool, so spares stores, grain godowns and hospital refrigerators meet dust, damp and chill in a single year. The page for each city names its estates and suggests matching loggers.",
+          "A temperature data logger in Chhattisgarh is often placed in rice godowns, steel stores and hospitals. Chhattisgarh sits in the middle of the country on a plain of rice fields ringed by coal, iron ore and forest, and its storage follows the railway and the mines. Raipur, the capital, holds rice mills, sponge-iron and steel works, hospitals and wholesale godowns; Bhilai is a steel township twinned with Durg; Bilaspur is the rail and coalfield administrative centre; and Korba is a city of coal mines, power stations and an aluminium smelter. Summers are very hot and dusty, the monsoon is heavy and winter nights are cool, so spares stores, grain godowns and hospital refrigerators meet dust, damp and chill in a single year. The page for each city names its estates and suggests matching loggers.",
         localIndustries: [
           "Steel and sponge iron",
           "Coal, power and aluminium",
@@ -14283,9 +14283,9 @@ export const locations: LegacyLocationNode[] = [
           "Supply, installation support and site visits for Chhattisgarh sites are arranged from our Mumbai office. Send the city, the works or the mine-side shed and a note of what the rooms hold.",
         faqs: [
           {
-            question: "Which Chhattisgarh locations have a page?",
+            question: "Where can I find a temperature data logger in Chhattisgarh?",
             answer:
-              "Raipur, Bhilai, Bilaspur and Korba each have a city page. A town elsewhere in the state can be raised by writing to us through the enquiry form.",
+              "Raipur, Bhilai, Bilaspur and Korba each have a city page. A town elsewhere in the state can be raised by writing to us through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why watch humidity in a rice or sponge-iron store?",
@@ -14698,7 +14698,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Bihar",
         type: "state",
         intro:
-          "Bihar lies on the flat Gangetic plain, crossed by the Ganga and the rivers that rush down from Nepal, and its storage is shaped by heat, humidity and flood. Patna, the capital, is the state's main centre for hospitals, medicine distribution and wholesale trade; across the river Hajipur holds a railway zone, a pharmaceutical institute and banana yards; Muzaffarpur is the litchi and fruit trading city of the north, and Gaya and Bhagalpur add a pilgrim city and a silk city. Summers are hot and heavy with humidity, the monsoon brings floods that cut roads for days, and winter nights are cold with fog. Cold chains for fruit, vaccines and food therefore depend on records that survive outages. Each city page names its estates and the stores worth watching first.",
+          "A temperature data logger in Bihar mostly watches hospital fridges, fruit stores and wholesale godowns. Bihar lies on the flat Gangetic plain, crossed by the Ganga and the rivers that rush down from Nepal, and its storage is shaped by heat, humidity and flood. Patna, the capital, is the state's main centre for hospitals, medicine distribution and wholesale trade; across the river Hajipur holds a railway zone, a pharmaceutical institute and banana yards; Muzaffarpur is the litchi and fruit trading city of the north, and Gaya and Bhagalpur add a pilgrim city and a silk city. Summers are hot and heavy with humidity, the monsoon brings floods that cut roads for days, and winter nights are cold with fog. Cold chains for fruit, vaccines and food therefore depend on records that survive outages. Each city page names its estates and the stores worth watching first.",
         localIndustries: [
           "Hospitals and medicine distribution",
           "Fruit, grain and food processing",
@@ -14710,9 +14710,9 @@ export const locations: LegacyLocationNode[] = [
           "Supply, installation support and site visits for Bihar sites are arranged from our Mumbai office. Tell us the city, the market or the estate and what the rooms hold.",
         faqs: [
           {
-            question: "Which Bihar locations have a page?",
+            question: "Where can I find a temperature data logger in Bihar?",
             answer:
-              "Patna, Hajipur, Muzaffarpur, Gaya and Bhagalpur each have a city page. For any other Bihar town, send us a note through the enquiry form and we confirm what we can arrange.",
+              "Patna, Hajipur, Muzaffarpur, Gaya and Bhagalpur each have a city page. For any other Bihar town, send us a note through the enquiry form and we confirm what we can arrange.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "How do loggers help a fruit trader during the litchi and mango seasons?",
@@ -15224,7 +15224,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Assam",
         type: "state",
         intro:
-          "Assam is the gateway to the North East, a long valley of tea gardens, oilfields and rivers carved by the Brahmaputra, and its storage follows the river, the railway and the hill roads. Guwahati is the commercial, medical and distribution centre for the whole region, Dibrugarh sits in the tea and oil country of the upper valley, Tezpur lies on the north bank among gardens and a university campus, and Silchar is the main city of the southern Barak Valley, the doorway to Manipur and Mizoram. Rain is very heavy, the air is humid for most of the year, and floods and landslides cut roads for days. Open any city below to see its estates, its stores and the loggers we would start with.",
+          "A temperature data logger in Assam mostly serves tea stores, medicine distributors and hospitals. Assam is the gateway to the North East, a long valley of tea gardens, oilfields and rivers carved by the Brahmaputra, and its storage follows the river, the railway and the hill roads. Guwahati is the commercial, medical and distribution centre for the whole region, Dibrugarh sits in the tea and oil country of the upper valley, Tezpur lies on the north bank among gardens and a university campus, and Silchar is the main city of the southern Barak Valley, the doorway to Manipur and Mizoram. Rain is very heavy, the air is humid for most of the year, and floods and landslides cut roads for days. Open any city below to see its estates, its stores and the loggers we would start with.",
         localIndustries: [
           "Tea packing and storage",
           "Pharmaceutical and medical distribution",
@@ -15236,9 +15236,9 @@ export const locations: LegacyLocationNode[] = [
           "Supply, installation support and site visits for Assam sites are arranged from our Mumbai office. Tell us the city, the garden or the estate and what the rooms hold.",
         faqs: [
           {
-            question: "Which Assam locations have a page?",
+            question: "Where can I find a temperature data logger in Assam?",
             answer:
-              "Guwahati, Dibrugarh, Silchar and Tezpur each have a city page. For any other Assam town, send us a note through the enquiry form and we confirm what we can arrange.",
+              "Guwahati, Dibrugarh, Silchar and Tezpur each have a city page. For any other Assam town, send us a note through the enquiry form and we confirm what we can arrange.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why does humidity matter so much in a tea store?",
@@ -15652,7 +15652,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Manipur",
         type: "state",
         intro:
-          "Manipur is a hill state of the North East with an oval valley at its centre, and almost all of its storage sits in the valley around Imphal, where the capital, the airport, the main hospitals and the markets stand. Goods reach the state by long hill roads from Assam and Nagaland, and the road to Myanmar at Moreh carries border trade. Rain is heavy through the summer, the valley air is humid, and landslides can close the roads for days, so medicines, food and fabrics wait in godowns longer than their owners would like. Winters are cool and dry. Cold rooms and hospital refrigerators must therefore be watched through outages as well as heat. This page introduces the state, and the city page covers Imphal.",
+          "A temperature data logger in Manipur mostly serves Imphal's hospitals, medicine stores and markets. Manipur is a hill state of the North East with an oval valley at its centre, and almost all of its storage sits in the valley around Imphal, where the capital, the airport, the main hospitals and the markets stand. Goods reach the state by long hill roads from Assam and Nagaland, and the road to Myanmar at Moreh carries border trade. Rain is heavy through the summer, the valley air is humid, and landslides can close the roads for days, so medicines, food and fabrics wait in godowns longer than their owners would like. Winters are cool and dry. Cold rooms and hospital refrigerators must therefore be watched through outages as well as heat. This page introduces the state, and the city page covers Imphal.",
         localIndustries: [
           "Handloom and handicraft trade",
           "Medical and pharmaceutical distribution",
@@ -15664,9 +15664,9 @@ export const locations: LegacyLocationNode[] = [
           "Supply, installation support and site visits for Manipur sites are arranged from our Mumbai office. Tell us the town or the market and what the rooms hold.",
         faqs: [
           {
-            question: "Which Manipur locations have a page?",
+            question: "Where can I find a temperature data logger in Manipur?",
             answer:
-              "Imphal has a city page. For any other town in the state, write to us through the enquiry form and we confirm how a visit and supply could be arranged.",
+              "Imphal has a city page. For any other town in the state, write to us through the enquiry form and we confirm how a visit and supply could be arranged.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "How does a long hill road change what a logger needs to do?",
@@ -15788,7 +15788,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Meghalaya",
         type: "state",
         intro:
-          "Meghalaya is a plateau state of rolling hills, pine forests and one of the wettest regions on earth, and its storage is concentrated in Shillong, the capital, on the Khasi Hills, with an industrial belt at Byrnihat on the Assam border. Tourism fills the hotels and restaurants of the capital for much of the year, a regional medical institute and a hill university draw patients and students, and cement, ferro-alloy and food plants stand in the lowlands. The climate is cool and extremely rainy in the hills, damp and fog-bound in winter, so stores of paper, cartons and food take on moisture. This page introduces the state, and the city page covers Shillong.",
+          "A temperature data logger in Meghalaya mostly serves Shillong's hotel kitchens, hospitals and laboratories. Meghalaya is a plateau state of rolling hills, pine forests and one of the wettest regions on earth, and its storage is concentrated in Shillong, the capital, on the Khasi Hills, with an industrial belt at Byrnihat on the Assam border. Tourism fills the hotels and restaurants of the capital for much of the year, a regional medical institute and a hill university draw patients and students, and cement, ferro-alloy and food plants stand in the lowlands. The climate is cool and extremely rainy in the hills, damp and fog-bound in winter, so stores of paper, cartons and food take on moisture. This page introduces the state, and the city page covers Shillong.",
         localIndustries: [
           "Hospitality and tourism kitchens",
           "Hospitals and university laboratories",
@@ -15800,9 +15800,9 @@ export const locations: LegacyLocationNode[] = [
           "Supply, installation support and site visits for Meghalaya sites are arranged from our Mumbai office. Tell us the town, the hotel or the estate and what the rooms hold.",
         faqs: [
           {
-            question: "Which Meghalaya locations have a page?",
+            question: "Where can I find a temperature data logger in Meghalaya?",
             answer:
-              "Shillong has a city page. Anywhere else in the state can be raised through the enquiry form and we confirm what can be arranged.",
+              "Shillong has a city page. Anywhere else in the state can be raised through the enquiry form and we confirm what can be arranged.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why watch humidity in a hill hotel store?",
@@ -15924,7 +15924,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Tripura",
         type: "state",
         intro:
-          "Tripura is a small state in the far south-west of the North East, almost surrounded by Bangladesh, and its storage is concentrated in Agartala, the capital, near the border. Trade crosses at Akhaura, rubber, bamboo, tea and pineapples come from the hills, gas fields feed local power stations, and hospitals and a university serve the plains. A long road through Assam and Meghalaya, a railway and an airport tie the state to the rest of India. The air is hot and humid and the monsoon is heavy, so produce, medicines and cartons spoil quickly without cooling. This page introduces the state, and the city page covers Agartala.",
+          "A temperature data logger in Tripura mostly serves Agartala's hospitals, laboratories and wholesale godowns. Tripura is a small state in the far south-west of the North East, almost surrounded by Bangladesh, and its storage is concentrated in Agartala, the capital, near the border. Trade crosses at Akhaura, rubber, bamboo, tea and pineapples come from the hills, gas fields feed local power stations, and hospitals and a university serve the plains. A long road through Assam and Meghalaya, a railway and an airport tie the state to the rest of India. The air is hot and humid and the monsoon is heavy, so produce, medicines and cartons spoil quickly without cooling. This page introduces the state, and the city page covers Agartala.",
         localIndustries: [
           "Rubber, bamboo and agro processing",
           "Hospitals and university laboratories",
@@ -15936,9 +15936,9 @@ export const locations: LegacyLocationNode[] = [
           "Supply, installation support and site visits for Tripura sites are arranged from our Mumbai office. Tell us the town, the market or the estate and what the rooms hold.",
         faqs: [
           {
-            question: "Which Tripura locations have a page?",
+            question: "Where can I find a temperature data logger in Tripura?",
             answer:
-              "Agartala has a city page. Another town in the state can be raised through the enquiry form and we confirm how supply and a visit could be arranged.",
+              "Agartala has a city page. Another town in the state can be raised through the enquiry form and we confirm how supply and a visit could be arranged.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "How do loggers help a trader who moves goods across the border?",
@@ -16060,7 +16060,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Sikkim",
         type: "state",
         intro:
-          "Sikkim is a small Himalayan state of steep valleys, glaciers and terraced farms, and its storage is arranged along a single road that climbs from the Teesta. Rangpo, at the boundary with West Bengal, is the border gateway and the state's industrial entrance, with pharmaceutical and manufacturing plants on its estates, while Gangtok, the capital on its ridge, holds the hotels, hospitals and markets. The state has declared itself organic, so food and farm produce matter. Heavy monsoon rain brings landslides that close the road for days, winters are cold, and the temperature changes sharply between the valley floor and the high roads. Each place page below names its stores and the loggers we would start with.",
+          "A temperature data logger in Sikkim mostly serves pharma plants, hotel kitchens and hospitals. Sikkim is a small Himalayan state of steep valleys, glaciers and terraced farms, and its storage is arranged along a single road that climbs from the Teesta. Rangpo, at the boundary with West Bengal, is the border gateway and the state's industrial entrance, with pharmaceutical and manufacturing plants on its estates, while Gangtok, the capital on its ridge, holds the hotels, hospitals and markets. The state has declared itself organic, so food and farm produce matter. Heavy monsoon rain brings landslides that close the road for days, winters are cold, and the temperature changes sharply between the valley floor and the high roads. Each place page below names its stores and the loggers we would start with.",
         localIndustries: [
           "Pharmaceutical manufacturing",
           "Hospitality and tourism kitchens",
@@ -16072,9 +16072,9 @@ export const locations: LegacyLocationNode[] = [
           "Supply, installation support and site visits for Sikkim sites are arranged from our Mumbai office. Tell us the town, the plant or the hotel and what the rooms hold.",
         faqs: [
           {
-            question: "Which Sikkim places have a page?",
+            question: "Where can I find a temperature data logger in Sikkim?",
             answer:
-              "Gangtok and Rangpo each have a page. For any other Sikkim town, send us a note through the enquiry form and we confirm what can be arranged.",
+              "Gangtok and Rangpo each have a page. For any other Sikkim town, send us a note through the enquiry form and we confirm what can be arranged.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "How does a landslide that closes the road affect monitoring?",
@@ -16293,7 +16293,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Jammu and Kashmir",
         type: "state",
         intro:
-          "The Union Territory of Jammu and Kashmir joins two very different storage worlds: the hot plains around Jammu, Samba and Kathua, where pharmaceutical, food and engineering estates stand beside the highway from Punjab, and the cool valley around Srinagar, where apples, saffron, dry fruit and handicrafts are grown, traded and stored. Goods move between the two over mountain roads that can close in heavy snow, and winters are cold, so cold stores, medicine godowns and fruit chambers must be watched through power cuts as well as seasons. Summers on the plains are fiercely hot. Each city page below names its estates and the stores we would watch first.",
+          "A temperature data logger in Jammu and Kashmir covers pharma plants, fruit cold stores and hospitals. The Union Territory of Jammu and Kashmir joins two very different storage worlds: the hot plains around Jammu, Samba and Kathua, where pharmaceutical, food and engineering estates stand beside the highway from Punjab, and the cool valley around Srinagar, where apples, saffron, dry fruit and handicrafts are grown, traded and stored. Goods move between the two over mountain roads that can close in heavy snow, and winters are cold, so cold stores, medicine godowns and fruit chambers must be watched through power cuts as well as seasons. Summers on the plains are fiercely hot. Each city page below names its estates and the stores we would watch first.",
         localIndustries: [
           "Pharmaceutical manufacturing",
           "Fruit and dry-fruit cold storage",
@@ -16305,9 +16305,9 @@ export const locations: LegacyLocationNode[] = [
           "Supply, installation support and site visits for sites in the Union Territory are arranged from our Mumbai office. Tell us the town, the estate or the cold store and what the rooms hold.",
         faqs: [
           {
-            question: "Which places in Jammu and Kashmir have a page?",
+            question: "Where can I find a temperature data logger in Jammu and Kashmir?",
             answer:
-              "Jammu, Srinagar, Samba and Kathua each have a city page. For any other town in the Union Territory, send us a note through the enquiry form and we confirm what can be arranged.",
+              "Jammu, Srinagar, Samba and Kathua each have a city page. For any other town in the Union Territory, send us a note through the enquiry form and we confirm what can be arranged.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "How does a logger help an apple or dry-fruit trader?",
@@ -16717,7 +16717,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Puducherry",
         type: "state",
         intro:
-          "The Union Territory of Puducherry is made of separate coastal enclaves, and our pages cover two of them that lie far apart. Puducherry city, the French-planned seaside town and capital, holds industrial estates of pharmaceutical, food, engineering and electronics plants beside hotels, universities and a large medical institute. Karaikal, a separate enclave in the Cauvery delta surrounded by Tamil Nadu, is a smaller town of rice mills, fisheries, a port and a hospital campus. Both share a hot, humid climate, a north-east monsoon and cyclone seasons that bring long power cuts and flooded roads. Open a town below for its estates, its stores and the loggers we suggest.",
+          "A temperature data logger in Puducherry mostly serves pharma plants, hotels and hospitals. The Union Territory of Puducherry is made of separate coastal enclaves, and our pages cover two of them that lie far apart. Puducherry city, the French-planned seaside town and capital, holds industrial estates of pharmaceutical, food, engineering and electronics plants beside hotels, universities and a large medical institute. Karaikal, a separate enclave in the Cauvery delta surrounded by Tamil Nadu, is a smaller town of rice mills, fisheries, a port and a hospital campus. Both share a hot, humid climate, a north-east monsoon and cyclone seasons that bring long power cuts and flooded roads. Open a town below for its estates, its stores and the loggers we suggest.",
         localIndustries: [
           "Pharmaceutical and electronics manufacturing",
           "Hospitality and tourism kitchens",
@@ -16734,9 +16734,9 @@ export const locations: LegacyLocationNode[] = [
               "Its parts are separate enclaves with different trades, so Puducherry and Karaikal each have a page of their own, and a firm with a site in each can watch both on one account.",
           },
           {
-            question: "How should a store prepare for a cyclone on this coast?",
+            question: "How should a store prepare a temperature data logger in Puducherry for a cyclone?",
             answer:
-              "Storms bring days of power loss, so a logger with a battery keeps recording and an alert for a lost mains supply tells the responsible person that a cold room has lost its protection.",
+              "Storms bring days of power loss, so a logger with a battery keeps recording and an alert for a lost mains supply tells the responsible person that a cold room has lost its protection.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Is Karaikal close to Puducherry city?",
@@ -16952,7 +16952,7 @@ export const locations: LegacyLocationNode[] = [
     name: "Saudi Arabia",
     type: "country",
     intro:
-      "Saudi Arabia's storage chain stretches across long distances: medicines and food arrive by sea at Jeddah and Dammam, travel inland by road to Riyadh and beyond, and wait in warehouses where desert heat works against every cooling plant. Prithvi supplies WiFi temperature and humidity loggers from India to pharmacies, hospitals, food importers and logistics yards across the kingdom, with alerts to phones and email and set-up carried out remotely with your team. The pages below describe the three cities we have written for, each with the industries and climate that make it distinct, so you can open the one closest to your site.",
+      "A temperature data logger in Saudi Arabia has to keep medicines and food in range across long distances and desert heat. Saudi Arabia's storage chain stretches across long distances: medicines and food arrive by sea at Jeddah and Dammam, travel inland by road to Riyadh and beyond, and wait in warehouses where desert heat works against every cooling plant. Prithvi supplies WiFi temperature and humidity loggers from India to pharmacies, hospitals, food importers and logistics yards across the kingdom, with alerts to phones and email and set-up carried out remotely with your team. The pages below describe the three cities we have written for, each with the industries and climate that make it distinct, so you can open the one closest to your site.",
     localIndustries: [
       "Pharmaceutical warehousing and distribution",
       "Hospitals and medical supply",
@@ -16965,9 +16965,9 @@ export const locations: LegacyLocationNode[] = [
       "Share your sites and requirements by WhatsApp or the enquiry form. We recommend models, send a quote, dispatch from India and then set up the loggers, alerts and user access with your team over a video call.",
     faqs: [
       {
-        question: "Can warehouses in Riyadh, Jeddah and Dammam appear on one screen?",
+        question: "Can one temperature data logger setup show warehouses in Riyadh, Jeddah and Dammam on one screen?",
         answer:
-          "Yes. Each warehouse is a site on the dashboard, with alerts going to the person responsible there, and a head of operations can open every site in a single list.",
+          "Yes. Each warehouse is a site on the dashboard, with alerts going to the person responsible there, and a head of operations can open every site in a single list.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
       },
       {
         question: "How is a Saudi site set up when the loggers come from India?",
@@ -20428,7 +20428,7 @@ export const locations: LegacyLocationNode[] = [
     name: "United Arab Emirates",
     type: "country",
     intro:
-      "The United Arab Emirates runs on trade: containers arrive at its ports and free zones, wait in bonded and chilled warehouses and leave again for markets across the region, while hotels, hospitals and food importers keep cold rooms under heavy summer load. Prithvi supplies WiFi temperature and humidity loggers from India to these businesses, with alerts to phones and email and set-up done remotely with your team, so an owner, a chef or a quality manager can read a room's record from anywhere. The page below describes the Dubai city page we have written, and other emirates are served on enquiry.",
+      "A temperature data logger in the UAE mostly serves free-zone warehouses, food importers and hotel kitchens. The United Arab Emirates runs on trade: containers arrive at its ports and free zones, wait in bonded and chilled warehouses and leave again for markets across the region, while hotels, hospitals and food importers keep cold rooms under heavy summer load. Prithvi supplies WiFi temperature and humidity loggers from India to these businesses, with alerts to phones and email and set-up done remotely with your team, so an owner, a chef or a quality manager can read a room's record from anywhere. The page below describes the Dubai city page we have written, and other emirates are served on enquiry.",
     localIndustries: [
       "Free-zone and port warehousing",
       "Food import and distribution",
@@ -20441,9 +20441,9 @@ export const locations: LegacyLocationNode[] = [
       "Enquiries from the UAE are handled through the enquiry form, Call or WhatsApp. Tell us the site, what you store and how it is cooled, and we reply with what looks suitable and how remote set-up support would work.",
     faqs: [
       {
-        question: "Do you cover emirates other than Dubai?",
+        question: "Can I get a temperature data logger in emirates other than Dubai?",
         answer:
-          "Every emirate from Abu Dhabi to Fujairah has its own emirate page with city and area pages beneath. For another emirate, send the site and what you store through the enquiry form, Call or WhatsApp, and we reply with what looks suitable.",
+          "Every emirate from Abu Dhabi to Fujairah has its own emirate page with city and area pages beneath. For another emirate, send the site and what you store through the enquiry form, Call or WhatsApp, and we reply with what looks suitable.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
       },
       {
         question: "Can a hotel group see every property on one dashboard?",
@@ -22162,7 +22162,7 @@ export const locations: LegacyLocationNode[] = [
     name: "Qatar",
     type: "country",
     intro:
-      "Qatar is a peninsula in the Arabian Gulf where nearly everything that arrives has to stay in range until it reaches a shelf, a pharmacy or a hospital ward. Warehouses, cold stores, hotel kitchens and clinics around Doha and the towns near it run cooling plant against long, hot, humid summers, and dust and haze add to the strain. WiFi temperature and humidity loggers with alerts to phones and email suit these rooms, with remote set-up support for your team. The pages below follow the municipalities one by one, starting with Doha, and the enquiry form is the quickest way to describe your site.",
+      "A temperature data logger in Qatar mostly serves food importers, hospitals and hotel kitchens. Qatar is a peninsula in the Arabian Gulf where nearly everything that arrives has to stay in range until it reaches a shelf, a pharmacy or a hospital ward. Warehouses, cold stores, hotel kitchens and clinics around Doha and the towns near it run cooling plant against long, hot, humid summers, and dust and haze add to the strain. WiFi temperature and humidity loggers with alerts to phones and email suit these rooms, with remote set-up support for your team. The pages below follow the municipalities one by one, starting with Doha, and the enquiry form is the quickest way to describe your site.",
     localIndustries: [
       "Food import and cold storage",
       "Hospitals and clinics",
@@ -22174,9 +22174,9 @@ export const locations: LegacyLocationNode[] = [
       "Enquiries from Qatar are handled through the enquiry form, Call or WhatsApp. Describe the site, the stock and the cooling, and our reply covers what seems suitable for Qatar and how remote set-up support would run.",
     faqs: [
       {
-        question: "Which parts of Qatar have a page?",
+        question: "Where can I find a temperature data logger in Qatar?",
         answer:
-          "Doha, Al Rayyan, Al Wakrah, Al Khor and Al Thakhira, Al Daayen, Umm Salal, Al Shamal and Al Shahaniya municipalities have their own pages, each with cities and districts beneath them. For another place, send the site and what you store through the enquiry form, Call or WhatsApp, and we reply with what looks suitable.",
+          "Doha, Al Rayyan, Al Wakrah, Al Khor and Al Thakhira, Al Daayen, Umm Salal, Al Shamal and Al Shahaniya municipalities have their own pages, each with cities and districts beneath them. For another place, send the site and what you store through the enquiry form, Call or WhatsApp, and we reply with what looks suitable.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
       },
       {
         question: "How is monitoring set up for a Qatar site?",
@@ -23814,7 +23814,7 @@ export const locations: LegacyLocationNode[] = [
     name: "Oman",
     type: "country",
     intro:
-      "Oman stretches along a long coastline and across a vast interior, with ports on the Gulf of Oman and the Arabian Sea, a capital region around Muscat, and towns joined by long roads where goods can spend hours in vehicles. Pharmacies, hospitals, food importers and distributors keep rooms that must hold their range through a hot, humid coast and a drier, hotter interior, while mountain towns add swings between cold nights and warm days. Temperature and humidity loggers that send alerts to phones and email fit these rooms, and remote help is available for your team. The pages below follow the governorates, beginning with Muscat, and the enquiry form is the quickest way to describe your site.",
+      "A temperature data logger in Oman mostly serves seafood stores, pharmacies and port warehouses. Oman stretches along a long coastline and across a vast interior, with ports on the Gulf of Oman and the Arabian Sea, a capital region around Muscat, and towns joined by long roads where goods can spend hours in vehicles. Pharmacies, hospitals, food importers and distributors keep rooms that must hold their range through a hot, humid coast and a drier, hotter interior, while mountain towns add swings between cold nights and warm days. Temperature and humidity loggers that send alerts to phones and email fit these rooms, and remote help is available for your team. The pages below follow the governorates, beginning with Muscat, and the enquiry form is the quickest way to describe your site.",
     localIndustries: [
       "Fisheries and seafood cold storage",
       "Food distribution",
@@ -23826,9 +23826,9 @@ export const locations: LegacyLocationNode[] = [
       "Enquiries from Oman are handled through the enquiry form, Call or WhatsApp. Describe the site, the stock and the cooling, and our reply covers what seems suitable for Oman and how remote set-up support would run.",
     faqs: [
       {
-        question: "Which parts of Oman have a page?",
+        question: "Where can I find a temperature data logger in Oman?",
         answer:
-          "Muscat, Al Batinah North, Al Batinah South, Ad Dakhiliyah, Ad Dhahirah, Al Buraimi, Dhofar, Al Wusta, Ash Sharqiyah South, Ash Sharqiyah North and Musandam governorates have their own pages, with their cities and districts beneath. If your site is somewhere else, write to us through the enquiry form, Call or WhatsApp with what you store, and we answer with what looks suitable.",
+          "Muscat, Al Batinah North, Al Batinah South, Ad Dakhiliyah, Ad Dhahirah, Al Buraimi, Dhofar, Al Wusta, Ash Sharqiyah South, Ash Sharqiyah North and Musandam governorates have their own pages, with their cities and districts beneath. If your site is somewhere else, write to us through the enquiry form, Call or WhatsApp with what you store, and we answer with what looks suitable.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
       },
       {
         question: "How are loggers set up for a site far from a main city?",
@@ -26568,7 +26568,7 @@ export const locations: LegacyLocationNode[] = [
     name: "Kuwait",
     type: "country",
     intro:
-      "Kuwait is compact and dense: a single urban area around Kuwait City, a port, and industrial and logistics zones that serve the whole country. Food and medicine arrive from abroad, wait in warehouses and cold stores and move on to hospitals, pharmacies, supermarkets and kitchens, all through long, hot summers. Loggers that read temperature and humidity and send alerts to phones and email fit these rooms, and your team can be helped to set them up remotely. The pages below follow the governorates, beginning with Al Asimah and Kuwait City, and the enquiry form is the quickest way to describe your site and get a reply from the team.",
+      "A temperature data logger in Kuwait mostly serves co-operative stores, pharmacies and hospitals. Kuwait is compact and dense: a single urban area around Kuwait City, a port, and industrial and logistics zones that serve the whole country. Food and medicine arrive from abroad, wait in warehouses and cold stores and move on to hospitals, pharmacies, supermarkets and kitchens, all through long, hot summers. Loggers that read temperature and humidity and send alerts to phones and email fit these rooms, and your team can be helped to set them up remotely. The pages below follow the governorates, beginning with Al Asimah and Kuwait City, and the enquiry form is the quickest way to describe your site and get a reply from the team.",
     localIndustries: [
       "Food retail and co-operative stores",
       "Pharmacies and medical stores",
@@ -26580,9 +26580,9 @@ export const locations: LegacyLocationNode[] = [
       "Enquiries from Kuwait are handled through the enquiry form, Call or WhatsApp. Tell us how many rooms and units you need to cover, and our reply covers what seems suitable and how remote set-up support would run.",
     faqs: [
       {
-        question: "Which parts of Kuwait have a page?",
+        question: "Where can I find a temperature data logger in Kuwait?",
         answer:
-          "Al Asimah, Hawalli, Farwaniya, Ahmadi, Jahra and Mubarak Al-Kabeer governorates have their own pages, with Kuwait City, Hawalli, Salmiya, Farwaniya, Khaitan, Jleeb Al-Shuyoukh, Ahmadi, Fahaheel, Wafra, Khiran, Jahra, Sulaibiya, Sabah Al Salem and Mubarak Al-Kabeer and their districts beneath. If your site is somewhere else, write through the enquiry form, Call or WhatsApp with what you store and we answer with what looks workable.",
+          "Al Asimah, Hawalli, Farwaniya, Ahmadi, Jahra and Mubarak Al-Kabeer governorates have their own pages, with Kuwait City, Hawalli, Salmiya, Farwaniya, Khaitan, Jleeb Al-Shuyoukh, Ahmadi, Fahaheel, Wafra, Khiran, Jahra, Sulaibiya, Sabah Al Salem and Mubarak Al-Kabeer and their districts beneath. If your site is somewhere else, write through the enquiry form, Call or WhatsApp with what you store and we answer with what looks workable.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
       },
       {
         question: "What alert limits suit a store in extreme summer heat?",
@@ -28230,7 +28230,7 @@ export const locations: LegacyLocationNode[] = [
     name: "Bahrain",
     type: "country",
     intro:
-      "Bahrain is a compact island nation in the Gulf where warehouses, cold stores, hospitals, hotels and kitchens sit within a short drive of each other and of a busy port. Goods may spend time on a dock and in a lorry before they reach their room, and the climate is hot and humid for much of the year, with sea air that carries salt and dust. Temperature and humidity loggers on WiFi, sending alerts to phones and email, suit these rooms, and set-up can be guided remotely. The pages below follow the governorates, beginning with the Capital Governorate and Manama, and the enquiry form is the quickest way to describe your site.",
+      "A temperature data logger in Bahrain mostly serves cold stores, hospitals and hotel kitchens. Bahrain is a compact island nation in the Gulf where warehouses, cold stores, hospitals, hotels and kitchens sit within a short drive of each other and of a busy port. Goods may spend time on a dock and in a lorry before they reach their room, and the climate is hot and humid for much of the year, with sea air that carries salt and dust. Temperature and humidity loggers on WiFi, sending alerts to phones and email, suit these rooms, and set-up can be guided remotely. The pages below follow the governorates, beginning with the Capital Governorate and Manama, and the enquiry form is the quickest way to describe your site.",
     localIndustries: [
       "Food distribution",
       "Hospitals and pharmacies",
@@ -28242,9 +28242,9 @@ export const locations: LegacyLocationNode[] = [
       "Enquiries from Bahrain are handled through the enquiry form, Call or WhatsApp. Tell us the site, the rooms and what you store, and our reply covers what seems suitable and how remote set-up support would run.",
     faqs: [
       {
-        question: "Which parts of Bahrain have a page?",
+        question: "Where can I find a temperature data logger in Bahrain?",
         answer:
-          "All four governorates have a page, with their cities and districts beneath them. For a place not yet listed, describe the site and what you store through the enquiry form, Call or WhatsApp, and we reply with a suggestion.",
+          "All four governorates have a page, with their cities and districts beneath them. For a place not yet listed, describe the site and what you store through the enquiry form, Call or WhatsApp, and we reply with a suggestion.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
       },
       {
         question: "How do we start monitoring a Bahrain site?",
@@ -29788,7 +29788,7 @@ export const locations: LegacyLocationNode[] = [
     name: "Yemen",
     type: "country",
     intro:
-      "Yemen is served case by case. Healthcare providers and distributors there store medicines, vaccines and food in conditions where power and connectivity are not always dependable, so the first question is always what is practical for a particular site rather than what a catalogue offers. Prithvi loggers record on their batteries through outages and keep storing readings when a network is absent, which is why they can suit such sites. Every enquiry is reviewed individually: we ask about the location, the rooms and the route for dispatch, and we confirm what is possible before anything is recommended. No city pages are written for Yemen, and this page covers the country as a whole.",
+      "Any temperature data logger in Yemen is arranged case by case, starting with what you store. Yemen is served case by case. Healthcare providers and distributors there store medicines, vaccines and food in conditions where power and connectivity are not always dependable, so the first question is always what is practical for a particular site rather than what a catalogue offers. Prithvi loggers record on their batteries through outages and keep storing readings when a network is absent, which is why they can suit such sites. Every enquiry is reviewed individually: we ask about the location, the rooms and the route for dispatch, and we confirm what is possible before anything is recommended. No city pages are written for Yemen, and this page covers the country as a whole.",
     localIndustries: [
       "Healthcare and medical stores",
       "Vaccine and medicine storage",
@@ -29799,9 +29799,9 @@ export const locations: LegacyLocationNode[] = [
       "Supply to Yemen is arranged case by case. Contact us with your location and requirements, and we will confirm what is possible before quoting.",
     faqs: [
       {
-        question: "Can you supply to Yemen?",
+        question: "Can you arrange a temperature data logger in Yemen?",
         answer:
-          "Supply to Yemen is arranged case by case. Send the location, what you store and how it would reach you, and we confirm what is possible before we recommend anything.",
+          "Supply to Yemen is arranged case by case. Send the location, what you store and how it would reach you, and we confirm what is possible before we recommend anything.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
       },
       {
         question: "What happens to the record when the power or network is down?",

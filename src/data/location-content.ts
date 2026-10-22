@@ -20,166 +20,166 @@ export type LocationContent = {
 export const locationContent: Record<string, LocationContent> = {
   india: {
     metaDescription:
-      "India: WiFi and GSM temperature loggers arranged by state, city and industrial area, with set-up and calibration support. Get Solution to begin in India.",
+      "India: WiFi and GSM temperature data loggers by state, city and industrial area, with set-up and calibration support. Get Solution to begin in India.",
     recommended: ["nakshatra", "veer", "vayu"],
   },
   "india/maharashtra": {
     metaDescription:
-      "Maharashtra, India: temperature loggers covering Mumbai, Pune, Nashik, Nagpur, Kolhapur and Solapur, plus smaller cities. Use Get Solution for Maharashtra.",
+      "Maharashtra: temperature data loggers covering Mumbai, Pune, Nashik, Nagpur, Kolhapur and Solapur, plus smaller cities. Use Get Solution for Maharashtra.",
     recommended: ["nakshatra", "dhruva", "virat"],
   },
   "india/gujarat": {
     metaDescription:
-      "Gujarat, India: temperature loggers covering Ahmedabad, Vadodara, Rajkot, Gandhinagar, Surat and the Vapi to Bharuch chemical belt. Get Solution: Gujarat.",
+      "Gujarat: temperature data loggers covering Ahmedabad, Vadodara, Rajkot, Gandhinagar, Surat and the Vapi to Bharuch chemical belt. Get Solution: Gujarat.",
     recommended: ["nakshatra", "dhruva", "veer"],
   },
   "india/delhi": {
     metaDescription:
-      "Delhi region, India: temperature loggers for hospitals, medicine distributors, food stores and the Okhla and Narela estates. Get Solution: Delhi Region.",
+      "Delhi region: temperature data loggers for hospitals, medicine distributors, food stores and the Okhla and Narela estates. Get Solution: Delhi Region.",
     recommended: ["dhruva", "setu", "vayu"],
     inName: "the Delhi Region",
   },
   "india/uttar-pradesh": {
     metaDescription:
-      "Uttar Pradesh, India: temperature loggers covering Noida, Lucknow, Kanpur, Agra, Varanasi, Meerut and Moradabad. Get Solution: Uttar Pradesh.",
+      "Uttar Pradesh, India: temperature data loggers covering Noida, Lucknow, Kanpur, Agra, Varanasi, Meerut and Moradabad. Get Solution: Uttar Pradesh.",
     recommended: ["virat", "nakshatra", "dhruva"],
   },
   "india/haryana": {
     metaDescription:
-      "Haryana, India: temperature loggers covering Gurugram, Faridabad, Manesar, Panchkula, Karnal, Hisar and industrial areas. Get Solution to begin in Haryana.",
+      "Haryana: temperature data loggers covering Gurugram, Faridabad, Manesar, Panchkula, Karnal, Hisar and industrial areas. Get Solution to begin in Haryana.",
     recommended: ["veer", "rajmudra", "vayu"],
   },
   "india/telangana": {
     metaDescription:
-      "Telangana, India: temperature loggers for Hyderabad's pharma estates and labs, plus Warangal, Karimnagar and Nizamabad mills. Get Solution: Telangana.",
+      "Telangana, India: temperature data loggers for Hyderabad's pharma estates and labs, plus Warangal, Karimnagar and Nizamabad mills. Get Solution: Telangana.",
     recommended: ["rajmudra", "veer", "nakshatra"],
   },
   "india/karnataka": {
     metaDescription:
-      "Karnataka, India: temperature loggers covering Bengaluru, Mysuru, Mangaluru, Belagavi, Hubballi-Dharwad and Tumakuru. Get Solution to cover Karnataka.",
+      "Karnataka, India: temperature data loggers covering Bengaluru, Mysuru, Mangaluru, Belagavi, Hubballi-Dharwad and Tumakuru. Get Solution to cover Karnataka.",
     recommended: ["setu", "dhruva", "nakshatra"],
   },
   "india/tamil-nadu": {
     metaDescription:
-      "Tamil Nadu, India: temperature loggers covering Chennai, Coimbatore, Madurai, Tiruchirappalli, Salem, Tiruppur and Hosur. Get Solution to cover Tamil Nadu.",
+      "Tamil Nadu: temperature data loggers covering Chennai, Coimbatore, Madurai, Tiruchirappalli, Salem, Tiruppur and Hosur. Get Solution to cover Tamil Nadu.",
     recommended: ["nakshatra", "virat", "vayu"],
   },
   "india/punjab": {
     metaDescription:
-      "Punjab, India: temperature loggers covering Mohali, Ludhiana, Amritsar, Jalandhar, Patiala, Bathinda and Rajpura. Get Solution: Punjab.",
+      "Punjab, India: temperature data loggers covering Mohali, Ludhiana, Amritsar, Jalandhar, Patiala, Bathinda and Rajpura. Get Solution: Punjab.",
     recommended: ["dhruva", "nakshatra", "vayu"],
   },
   "india/chandigarh": {
     metaDescription:
-      "Chandigarh region, India: loggers for hospitals, medicine distributors and food depots across Mohali and Panchkula. Get Solution for Chandigarh Region.",
+      "Chandigarh region: temperature data loggers for hospitals, medicine distributors and food depots in Mohali and Panchkula. Get Solution: Chandigarh Region.",
     recommended: ["nakshatra", "dhruva", "vayu"],
     inName: "the Chandigarh Region",
   },
   "india/himachal-pradesh": {
     metaDescription:
-      "Himachal Pradesh, India: temperature loggers for Baddi, Solan, Parwanoo, Paonta Sahib, Una and Shimla plants and hospitals. Get Solution: Himachal Pradesh.",
+      "Himachal Pradesh: temperature data loggers for Baddi, Solan, Parwanoo, Paonta Sahib, Una and Shimla plants and hospitals. Get Solution: Himachal Pradesh.",
     recommended: ["rajmudra", "virat", "setu"],
   },
   "india/kerala": {
     metaDescription:
-      "Kerala, India: temperature loggers for the cold chain, labs and hospitals of Kochi, Kozhikode, Thrissur and Kollam. Get Solution to begin in Kerala.",
+      "Kerala, India: temperature data loggers for the cold chain, labs and hospitals of Kochi, Kozhikode, Thrissur and Kollam. Get Solution to begin in Kerala.",
     recommended: ["dhruva", "vayu", "virat"],
   },
   "india/goa": {
     metaDescription:
-      "Goa, India: temperature loggers for pharma plants at Verna and Kundaim and for coastal hotel kitchens. Get Solution: request a plan for State of Goa.",
+      "Goa, India: temperature data loggers for pharma plants at Verna and Kundaim and for coastal hotel kitchens. Get Solution: request a plan for State of Goa.",
     recommended: ["rajmudra", "setu", "nakshatra"],
     inName: "the State of Goa",
   },
   "india/rajasthan": {
     metaDescription:
-      "Rajasthan, India: temperature loggers covering Jaipur, Jodhpur, Udaipur, Kota, Ajmer, Bhilwara, Bhiwadi and Neemrana. Get Solution to begin in Rajasthan.",
+      "Rajasthan: temperature data loggers covering Jaipur, Jodhpur, Udaipur, Kota, Ajmer, Bhilwara, Bhiwadi and Neemrana. Get Solution to begin in Rajasthan.",
     recommended: ["veer", "rajmudra", "vayu"],
   },
   "india/madhya-pradesh": {
     metaDescription:
-      "Madhya Pradesh, India: temperature loggers covering Indore, Bhopal, Jabalpur, Gwalior, Pithampur, Ujjain and Dewas. Get Solution to cover Madhya Pradesh.",
+      "Madhya Pradesh: temperature data loggers covering Indore, Bhopal, Jabalpur, Gwalior, Pithampur, Ujjain and Dewas. Get Solution to cover Madhya Pradesh.",
     recommended: ["virat", "dhruva", "setu"],
   },
   "india/dadra-and-nagar-haveli-and-daman-and-diu": {
     metaDescription:
-      "Silvassa, Daman and Diu: loggers for pharma, plastics and packaging plants, harbour stores and hotel kitchens. Get Solution to cover Silvassa, Daman & Diu.",
+      "Silvassa, Daman and Diu: temperature data loggers for pharma, plastics and packaging plants, harbour stores and hotel kitchens. Get Solution.",
     recommended: ["rajmudra", "nakshatra", "vayu"],
     inName: "Silvassa, Daman & Diu",
   },
   "india/puducherry": {
     metaDescription:
-      "Puducherry, India: temperature loggers for pharma estates, hotels and hospitals, plus the delta enclave of Karaikal. Get Solution for Puducherry.",
+      "Puducherry, India: temperature data loggers for pharma estates, hotels and hospitals, plus the delta enclave of Karaikal. Get Solution for Puducherry.",
     recommended: ["nakshatra","rajmudra","vayu"],
   },
   "india/jammu-and-kashmir": {
     metaDescription:
-      "Jammu and Kashmir, India: loggers for pharma estates, fruit cold stores and hospitals in Jammu, Srinagar, Samba, Kathua. Get Solution: Jammu and Kashmir.",
+      "Jammu and Kashmir: temperature data loggers for pharma estates, fruit cold stores and hospitals in Jammu and Srinagar. Get Solution: Jammu and Kashmir.",
     recommended: ["rajmudra","virat","vayu"],
   },
   "india/sikkim": {
     metaDescription:
-      "Sikkim, India: temperature loggers for Gangtok's hotels and hospitals and Rangpo's pharma estates in wet mountain country. Get Solution to begin in Sikkim.",
+      "Sikkim: temperature data loggers for Gangtok's hotels and hospitals and Rangpo's pharma estates in wet mountain country. Get Solution to begin in Sikkim.",
     recommended: ["nakshatra","setu","vayu"],
   },
   "india/tripura": {
     metaDescription:
-      "Tripura, India: temperature loggers for Agartala's markets, hospitals, university laboratories and border-trade godowns. Get Solution to begin in Tripura.",
+      "Tripura: temperature data loggers for Agartala's markets, hospitals, university laboratories and border-trade godowns. Get Solution to begin in Tripura.",
     recommended: ["nakshatra","virat","vayu"],
   },
   "india/meghalaya": {
     metaDescription:
-      "Meghalaya, India: temperature loggers for Shillong's hotel kitchens, hospitals, laboratories and Byrnihat-side stores. Get Solution to begin in Meghalaya.",
+      "Meghalaya: temperature data loggers for Shillong's hotel kitchens, hospitals, laboratories and Byrnihat-side stores. Get Solution to begin in Meghalaya.",
     recommended: ["nakshatra","setu","rajmudra"],
   },
   "india/manipur": {
     metaDescription:
-      "Manipur, India: temperature loggers for Imphal's markets, medicine distributors, hospitals and handloom godowns. Get Solution: request a plan for Manipur.",
+      "Manipur: temperature data loggers for Imphal's markets, medicine distributors, hospitals and handloom godowns. Get Solution: request a plan for Manipur.",
     recommended: ["nakshatra","setu","vayu"],
   },
   "india/assam": {
     metaDescription:
-      "Assam, India: temperature loggers for tea stores, medicine distributors and hospitals in Guwahati, Dibrugarh, Silchar and Tezpur. Get Solution: Assam.",
+      "Assam, India: temperature data loggers for tea stores, medicine distributors and hospitals in Guwahati, Dibrugarh, Silchar and Tezpur. Get Solution: Assam.",
     recommended: ["nakshatra","setu","vayu"],
   },
   "india/bihar": {
     metaDescription:
-      "Bihar, India: temperature loggers covering Patna, Hajipur, Muzaffarpur, Gaya and Bhagalpur. Get Solution to cover Bihar.",
+      "Bihar, India: temperature data loggers covering Patna, Hajipur, Muzaffarpur, Gaya and Bhagalpur. Get Solution to cover Bihar.",
     recommended: ["setu", "nakshatra", "vayu"],
   },
   "india/chhattisgarh": {
     metaDescription:
-      "Chhattisgarh, India: temperature loggers for rice godowns, steel stores and hospitals in Raipur, Bhilai, Bilaspur and Korba. Get Solution: Chhattisgarh.",
+      "Chhattisgarh: temperature data loggers for rice godowns, steel stores and hospitals in Raipur, Bhilai, Bilaspur and Korba. Get Solution: Chhattisgarh.",
     recommended: ["nakshatra", "virat", "vayu"],
   },
   "india/jharkhand": {
     metaDescription:
-      "Jharkhand, India: loggers for steel-town stores, hospitals and coal-belt godowns in Ranchi, Jamshedpur, Dhanbad, Bokaro. Get Solution to cover Jharkhand.",
+      "Jharkhand: temperature data loggers for steel-town stores, hospitals and coal-belt godowns in Ranchi, Jamshedpur and Dhanbad. Get Solution: Jharkhand.",
     recommended: ["virat", "rajmudra", "vayu"],
   },
   "india/odisha": {
     metaDescription:
-      "Odisha, India: temperature loggers covering Bhubaneswar, Cuttack, Rourkela, Paradip and Jharsuguda. Get Solution: Odisha.",
+      "Odisha, India: temperature data loggers covering Bhubaneswar, Cuttack, Rourkela, Paradip and Jharsuguda. Get Solution: Odisha.",
     recommended: ["nakshatra", "virat", "vayu"],
   },
   "india/uttarakhand": {
     metaDescription:
-      "Uttarakhand, India: temperature loggers covering Haridwar, Dehradun, Roorkee, Rudrapur-Pantnagar, Kashipur and Kotdwar. Get Solution to cover Uttarakhand.",
+      "Uttarakhand: temperature data loggers covering Haridwar, Dehradun, Roorkee, Rudrapur-Pantnagar, Kashipur and Kotdwar. Get Solution to cover Uttarakhand.",
     recommended: ["virat", "rajmudra", "vayu"],
   },
   "india/andhra-pradesh": {
     metaDescription:
-      "Andhra Pradesh, India: loggers covering Visakhapatnam, Vijayawada, Guntur, Tirupati, Nellore, Sri City and Kakinada. Get Solution to cover Andhra Pradesh.",
+      "Andhra Pradesh: temperature data loggers for Visakhapatnam, Vijayawada, Guntur, Tirupati, Nellore, Sri City and Kakinada. Get Solution for Andhra Pradesh.",
     recommended: ["nakshatra", "virat", "vayu"],
   },
   "india/west-bengal": {
     metaDescription:
-      "West Bengal, India: temperature loggers covering Kolkata, Howrah, Siliguri, Durgapur, Asansol, Kharagpur and Haldia. Use Get Solution for West Bengal.",
+      "West Bengal, India: temperature data loggers covering Kolkata, Howrah, Siliguri, Durgapur, Asansol, Kharagpur and Haldia. Use Get Solution for West Bengal.",
     recommended: ["nakshatra", "virat", "vayu"],
   },
   "saudi-arabia": {
     metaDescription:
-      "Saudi Arabia: WiFi loggers for Riyadh, Jeddah and Dammam warehouses, supplied from India and set up remotely. Get Solution for Saudi Arabia.",
+      "Saudi Arabia: WiFi temperature data loggers for Riyadh, Jeddah and Dammam warehouses, supplied from India, set up remotely. Get Solution.",
     recommended: ["nakshatra", "veer", "virat"],
   },
   "yemen/hadramaut-governorate": {
@@ -485,33 +485,33 @@ export const locationContent: Record<string, LocationContent> = {
   },
   uae: {
     metaDescription:
-      "UAE: WiFi loggers for Dubai warehouses, food importers and hotel kitchens, set up remotely. Get Solution: request a plan for UAE.",
+      "UAE: WiFi temperature data loggers for Dubai warehouses, food importers and hotel kitchens, set up remotely. Get Solution: request a plan for UAE.",
     recommended: ["setu", "nakshatra", "veer"],
     inName: "the UAE",
   },
   qatar: {
     metaDescription:
-      "Qatar: WiFi loggers for Doha warehouses, cold stores, hotels and clinics, supplied from India. Get Solution for Qatar.",
+      "Qatar: WiFi temperature data loggers for Doha warehouses, cold stores, hotels and clinics, supplied from India. Get Solution for Qatar.",
     recommended: ["setu", "nakshatra", "dhruva"],
   },
   oman: {
     metaDescription:
-      "Oman: WiFi loggers for Muscat, Sohar and Salalah pharmacies, hospitals and food distributors. Use Get Solution for Oman.",
+      "Oman: WiFi temperature data loggers for Muscat, Sohar and Salalah pharmacies, hospitals and food distributors. Use Get Solution for Oman.",
     recommended: ["setu", "nakshatra", "veer"],
   },
   kuwait: {
     metaDescription:
-      "Kuwait: WiFi loggers for warehouses, cold stores, hospitals and kitchens, supplied from India. Get Solution for Kuwait.",
+      "Kuwait: WiFi temperature data loggers for warehouses, cold stores, hospitals and kitchens, supplied from India. Get Solution for Kuwait.",
     recommended: ["setu", "nakshatra", "dhruva"],
   },
   bahrain: {
     metaDescription:
-      "Bahrain: WiFi loggers for warehouses, cold stores, hospitals and hotels, supplied from India. With Get Solution, start your Bahrain enquiry.",
+      "Bahrain: WiFi temperature data loggers for warehouses, cold stores, hospitals and hotels, supplied from India. Get Solution to start in Bahrain.",
     recommended: ["setu", "nakshatra", "veer"],
   },
   yemen: {
     metaDescription:
-      "Yemen: temperature loggers arranged case by case, built to keep recording through power and network outages. Get Solution to cover Yemen.",
+      "Yemen: temperature data loggers arranged case by case, built to keep recording through power and network outages. Get Solution to cover Yemen.",
     recommended: ["setu", "nakshatra", "dhruva"],
   },
 };

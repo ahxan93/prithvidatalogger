@@ -1,0 +1,53 @@
+// Location pages that have had the keyword-map copy pass (batch 2). Their "Recommended" heading and
+// hero image alt text use the keyword; later batches add their pages here.
+export const KEYWORD_PAGES = new Set<string>([
+  "india",
+  "india/maharashtra",
+  "india/maharashtra/mumbai",
+  "india/maharashtra/pune",
+  "india/gujarat",
+  "india/gujarat/ahmedabad",
+  "india/delhi",
+  "india/delhi/delhi",
+  "india/uttar-pradesh",
+  "india/haryana",
+  "india/telangana",
+  "india/telangana/hyderabad",
+  "india/karnataka",
+  "india/karnataka/bengaluru",
+  "india/tamil-nadu",
+  "india/tamil-nadu/chennai",
+  "india/chandigarh",
+  "india/punjab",
+  "india/himachal-pradesh",
+  "india/kerala",
+  "india/goa",
+  "india/rajasthan",
+  "india/madhya-pradesh",
+  "india/west-bengal",
+  "india/andhra-pradesh",
+  "india/uttarakhand",
+  "india/dadra-and-nagar-haveli-and-daman-and-diu",
+  "india/odisha",
+  "india/jharkhand",
+  "india/chhattisgarh",
+  "india/bihar",
+  "india/assam",
+  "india/manipur",
+  "india/meghalaya",
+  "india/tripura",
+  "india/sikkim",
+  "india/jammu-and-kashmir",
+  "india/puducherry",
+  "saudi-arabia",
+  "uae",
+  "qatar",
+  "oman",
+  "kuwait",
+  "bahrain",
+  "yemen"
+]);
+
+export function isKeywordPage(path: string[]): boolean {
+  return KEYWORD_PAGES.has(path.join("/"));
+}

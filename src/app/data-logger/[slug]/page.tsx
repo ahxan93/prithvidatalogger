@@ -19,6 +19,7 @@ import AreaPage from "@/components/locations/AreaPage";
 import CityPage from "@/components/locations/CityPage";
 import LiveDeviceVisual from "@/components/sections/LiveDeviceVisual";
 import { getCityHeroDevices, getHubHeroDevices } from "@/data/page-heroes";
+import { isKeywordPage } from "@/data/keyword-pages";
 import { findAreaByPath, isAreaIndexable, writtenAreas } from "@/lib/areas";
 import { locationCrumbs } from "@/lib/location-crumbs";
 import ProductCard from "@/components/products/ProductCard";
@@ -141,6 +142,7 @@ export default async function LocationPage({ params }: PageProps<"/data-logger/[
   const href = locationHref(path);
   const crumbs = locationCrumbs(path, trail.map((n) => n.name), node.type);
   const isMumbai = path.join("/") === "india/maharashtra/mumbai";
+  const keywordPass = isKeywordPage(path);
   const outsideIndia = needsGsmNetworkNote(path);
   const recommended = (content?.recommended ?? [])
     .map((seriesSlug) => getProductBySlug(seriesSlug))
@@ -205,7 +207,7 @@ export default async function LocationPage({ params }: PageProps<"/data-logger/[
             // Country and state hubs: photos only (GSM models are left out outside India).
             <LiveDeviceVisual
               devices={getHubHeroDevices(node.slug, path[0] === "india" ? "india" : "gcc")}
-              altPrefix={`${node.name} monitoring`}
+              altPrefix={keywordPass ? `${node.name} temperature data logger` : `${node.name} monitoring`}
               plain
             />
           )
@@ -349,7 +351,7 @@ export default async function LocationPage({ params }: PageProps<"/data-logger/[
             <SectionHeading
               id="recommended-title"
               eyebrow="Recommended products"
-              title={`Recommended Data Loggers in ${place}`}
+              title={`Recommended ${keywordPass ? "Temperature " : ""}Data Loggers in ${place}`}
               subtitle="A starting point for the industries above. Our team will help you choose."
             />
             <Button href="/products" variant="outline" className="shrink-0 self-start lg:self-auto">

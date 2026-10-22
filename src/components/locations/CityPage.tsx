@@ -1,3 +1,4 @@
+import { isKeywordPage } from "@/data/keyword-pages";
 import Link from "next/link";
 import { siteConfig } from "@/config/site";
 import { getIndustryBySlug } from "@/data/industries";
@@ -87,6 +88,7 @@ export default async function CityPage({ city }: { city: ResolvedCity }) {
   const parentHref = locationHref(path.slice(0, -1));
   const outsideIndia = needsGsmNetworkNote(path);
   const isMumbai = path.join("/") === "india/maharashtra/mumbai";
+  const keywordPass = isKeywordPage(path);
 
   const crumbs = locationCrumbs(path, trail.map((item) => item.name), "city");
 
@@ -168,7 +170,7 @@ export default async function CityPage({ city }: { city: ResolvedCity }) {
           <LiveDeviceVisual
             devices={getCityHeroDevices(node.slug, path[0] === "india" ? "india" : "gcc")}
             badge={`${name} · ${parent.name}`}
-            altPrefix={`${name} monitoring`}
+            altPrefix={keywordPass ? `${name} temperature data logger` : `${name} monitoring`}
           />
           </div>
         </div>
@@ -263,7 +265,7 @@ export default async function CityPage({ city }: { city: ResolvedCity }) {
           <SectionHeading
             id="city-products-title"
             eyebrow="Recommended products"
-            title={`Recommended Data Loggers for ${name}`}
+            title={`Recommended ${keywordPass ? "Temperature " : ""}Data Loggers for ${name}`}
             subtitle="A starting point for the sites above. Our team will help you choose."
           />
           <Button href="/products" variant="outline" className="shrink-0 self-start lg:self-auto">
