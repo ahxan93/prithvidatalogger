@@ -4,10 +4,12 @@ import { notFound } from "next/navigation";
 import { getIndustryBySlug, industries } from "@/data/industries";
 import { industryContent } from "@/data/industry-content";
 import { quoteHref } from "@/data/navigation";
+import { getIndustryHeroDevice } from "@/data/page-heroes";
 import { getProductBySlug, getVariantBySlug, type ProductSeries } from "@/data/products";
 import { services } from "@/data/services";
 import ProductCard from "@/components/products/ProductCard";
 import CtaBand from "@/components/sections/CtaBand";
+import LiveDeviceVisual from "@/components/sections/LiveDeviceVisual";
 import PageHero from "@/components/sections/PageHero";
 import Button from "@/components/ui/Button";
 import Faq from "@/components/ui/Faq";
@@ -15,7 +17,6 @@ import Section from "@/components/ui/Section";
 import SectionHeading from "@/components/ui/SectionHeading";
 import { AlertCircleIcon, ArrowRightIcon, CheckCircleIcon, ShieldCheckIcon } from "@/components/ui/icons";
 import WhereWeServe from "@/components/locations/WhereWeServe";
-import { isPlaceholderImage } from "@/lib/images";
 import { buildMetadata } from "@/lib/seo";
 
 // Every valid path is prerendered at build time, so navigations may wait for the
@@ -69,7 +70,8 @@ export default async function IndustryPage({ params }: PageProps<"/industries/[s
   if (!industry || !content) notFound();
 
   const recommended = resolveRecommended(industry.recommended);
-  const hasPhoto = !(await isPlaceholderImage(industry.image));
+  // The logger this industry's own recommended list starts with (photo only, no overlay).
+  const heroDevice = getIndustryHeroDevice(industry.recommended);
 
   return (
     <>
@@ -81,8 +83,11 @@ export default async function IndustryPage({ params }: PageProps<"/industries/[s
         eyebrow="Industries"
         title={pageTitle(industry.name)}
         intro={industry.whyItMatters}
-        image={hasPhoto ? industry.image : undefined}
-        imageAlt={`${industry.name} temperature monitoring`}
+        visual={
+          heroDevice ? (
+            <LiveDeviceVisual devices={[heroDevice]} altPrefix={`${industry.name} monitoring`} plain />
+          ) : undefined
+        }
       >
         <div className="flex flex-col gap-3 sm:flex-row">
           <Button href={quoteHref} size="lg">

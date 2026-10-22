@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import LiveDeviceVisual from "@/components/sections/LiveDeviceVisual";
+import { getPageHeroDevices } from "@/data/page-heroes";
 import Button from "@/components/ui/Button";
 import Section from "@/components/ui/Section";
 import { WhatsAppIcon } from "@/components/ui/icons";
@@ -32,6 +34,7 @@ export default function NotFound() {
           WhatsApp
         </Button>
       </div>
+      <LiveDeviceVisual className="mt-12 max-w-sm" devices={getPageHeroDevices("not-found")} plain />
     </Section>
   );
 }

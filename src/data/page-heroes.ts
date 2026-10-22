@@ -157,7 +157,10 @@ export type PageHeroId =
   | "global-presence"
   | "locations"
   | "contact"
-  | "blog";
+  | "blog"
+  | "privacy-policy"
+  | "terms"
+  | "not-found";
 
 /**
  * One entry per page; no two share the same hero. Series pages (Setu to Vayu)
@@ -175,10 +178,15 @@ export const pageHeroes: Record<PageHeroId, DeviceKey[]> = {
   "temperature-mapping": ["veer-pro", "virat-pro"],
   validation: ["dhruva", "veer"],
   about: ["hooter"],
-  "global-presence": ["nakshatra", "vayu"],
-  locations: ["setu", "vayu-pro"],
+  // Cover India and the Gulf, so no GSM logger (Vayu) here.
+  "global-presence": ["nakshatra"],
+  locations: ["setu"],
   contact: ["dock"],
   blog: ["rajmudra", "dock"],
+  // Legal and 404 pages: one logger each, not required to be unique.
+  "privacy-policy": ["setu"],
+  terms: ["nakshatra"],
+  "not-found": ["rajmudra"],
 };
 
 export function getPageHeroDevices(id: PageHeroId): HeroDevice[] {
@@ -443,12 +451,18 @@ const GSM_KEYS = new Set<DeviceKey>(["vayu", "vayu-pro"]);
 
 const pairKey = (a: DeviceKey, b: DeviceKey) => [a, b].sort().join("+");
 
-/** Combinations already used by the non-city pages above, so no hero is shared. */
-const RESERVED_PAIRS = new Set(
-  Object.values(pageHeroes)
-    .filter((keys) => keys.length === 2)
-    .map(([a, b]) => pairKey(a, b)),
-);
+/**
+ * Combinations kept out of the city pool so no city repeats a page pair. Fixed
+ * (not derived from pageHeroes) so changing an index page's hero never moves a
+ * city's assignment.
+ */
+const RESERVED_PAIRS = new Set([
+  pairKey("veer-pro", "virat-pro"),
+  pairKey("dhruva", "veer"),
+  pairKey("nakshatra", "vayu"),
+  pairKey("setu", "vayu-pro"),
+  pairKey("rajmudra", "dock"),
+]);
 
 function fnv1a(text: string): number {
   let h = 0x811c9dc5;
@@ -508,6 +522,27 @@ for (const city of CITY_REGISTRY) assignCity(city.slug, city.region);
 /** The two logger photos for a city page: deterministic and distinct per city. */
 export function getCityHeroDevices(slug: string, region: Region): HeroDevice[] {
   return assignCity(slug, region).map((key) => deviceCatalogue[key] as HeroDevice);
+}
+
+/**
+ * Hero pair for a country / state hub: deterministic from the slug, not required to be
+ * unique. Outside India the GSM models are never in the pool.
+ */
+export function getHubHeroDevices(slug: string, region: Region): HeroDevice[] {
+  const pairs = pairsFor(region);
+  return pairs[fnv1a(`hub:${slug}`) % pairs.length].map((key) => deviceCatalogue[key] as HeroDevice);
+}
+
+/**
+ * Hero logger for an industry page: the first model its own recommended list names
+ * (a variant such as "setu-x" shows its series photo). Accessories have no logger photo.
+ */
+export function getIndustryHeroDevice(recommended: string[]): HeroDevice | undefined {
+  for (const ref of recommended) {
+    const key = [ref, ref.replace(/-(pro-x|pro|x)$/, "")].find((k): k is DeviceKey => LOGGER_KEYS.includes(k as DeviceKey));
+    if (key) return deviceCatalogue[key] as HeroDevice;
+  }
+  return undefined;
 }
 
 /** For check:data: every registry city with its assigned combination. */

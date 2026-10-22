@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { siteConfig } from "@/config/site";
+import LiveDeviceVisual from "@/components/sections/LiveDeviceVisual";
+import { getPageHeroDevices } from "@/data/page-heroes";
 import PageHero from "@/components/sections/PageHero";
 import Section from "@/components/ui/Section";
 import { buildMetadata } from "@/lib/seo";
@@ -28,6 +30,7 @@ export default function PrivacyPolicyPage() {
         eyebrow="Legal"
         title="Privacy Policy"
         intro={`Last updated ${updated}. This page explains what information we collect through this website, how we use it, and who you can contact about it.`}
+        visual={<LiveDeviceVisual devices={getPageHeroDevices("privacy-policy")} plain />}
       />
 
       <Section aria-labelledby="privacy-title">

@@ -131,6 +131,8 @@ type DeviceImageProps = {
   alt?: string;
   eager?: boolean;
   hidden?: boolean;
+  /** Photo only: no illustrative reading on the screen. */
+  plain?: boolean;
   className?: string;
 };
 
@@ -141,7 +143,7 @@ type DeviceImageProps = {
  * display at any size. Put a <LiveReadingTicker /> in an ancestor element to
  * make the digits move.
  */
-export function DeviceImage({ device, offset = 0, frameRatio, sizes, alt, eager, hidden, className }: DeviceImageProps) {
+export function DeviceImage({ device, offset = 0, frameRatio, sizes, alt, eager, hidden, plain, className }: DeviceImageProps) {
   const ratio = device.width / device.height;
   const fitWidth = ratio >= frameRatio;
 
@@ -168,7 +170,7 @@ export function DeviceImage({ device, offset = 0, frameRatio, sizes, alt, eager,
           className="object-contain"
         />
         {/* Hidden gallery variants skip their overlay; it renders when they are shown. */}
-        {!hidden && <ScreenOverlay device={device} offset={offset} />}
+        {!hidden && !plain && <ScreenOverlay device={device} offset={offset} />}
       </div>
     </div>
   );
@@ -181,16 +183,18 @@ type LiveDeviceVisualProps = {
   badge?: string;
   /** Put before each photo's description so alt text is specific to the page. */
   altPrefix?: string;
+  /** Photo only: no illustrative reading, ticker or caption (pages where the overlay never appeared). */
+  plain?: boolean;
 };
 
 // A lineup of 1-4 loggers in a glass frame. One image per page is eager.
-export default function LiveDeviceVisual({ devices, className, badge, altPrefix }: LiveDeviceVisualProps) {
+export default function LiveDeviceVisual({ devices, className, badge, altPrefix, plain }: LiveDeviceVisualProps) {
   const count = devices.length;
   const cols = count === 1 ? 1 : 2;
 
   return (
     <figure className={cn("relative mx-auto w-full max-w-xl lg:max-w-none", className)}>
-      <LiveReadingTicker />
+      {!plain && <LiveReadingTicker />}
       <div aria-hidden="true" className="glow-brand pointer-events-none absolute -inset-10 -z-10 opacity-30" />
       <div className="relative rounded-[2rem] bg-white/5 p-2 shadow-glow ring-1 ring-white/15">
         {badge && (
@@ -218,16 +222,19 @@ export default function LiveDeviceVisual({ devices, className, badge, altPrefix 
                   frameRatio={frameRatio}
                   sizes={count === 1 ? "(min-width: 1024px) 560px, 100vw" : "(min-width: 1024px) 280px, 50vw"}
                   eager={i === 0}
+                  plain={plain}
                 />
               </div>
             );
           })}
         </div>
       </div>
-      <figcaption aria-hidden="true" className="mt-3 flex items-center justify-center gap-2 text-xs text-slate-300">
-        <span className="size-1.5 rounded-full bg-live-green" />
-        Illustrative live reading
-      </figcaption>
+      {!plain && (
+        <figcaption aria-hidden="true" className="mt-3 flex items-center justify-center gap-2 text-xs text-slate-300">
+          <span className="size-1.5 rounded-full bg-live-green" />
+          Illustrative live reading
+        </figcaption>
+      )}
     </figure>
   );
 }

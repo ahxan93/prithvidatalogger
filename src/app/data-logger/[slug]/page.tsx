@@ -18,7 +18,7 @@ import { getProductBySlug, type ProductSeries } from "@/data/products";
 import AreaPage from "@/components/locations/AreaPage";
 import CityPage from "@/components/locations/CityPage";
 import LiveDeviceVisual from "@/components/sections/LiveDeviceVisual";
-import { getCityHeroDevices } from "@/data/page-heroes";
+import { getCityHeroDevices, getHubHeroDevices } from "@/data/page-heroes";
 import { findAreaByPath, isAreaIndexable, writtenAreas } from "@/lib/areas";
 import { locationCrumbs } from "@/lib/location-crumbs";
 import ProductCard from "@/components/products/ProductCard";
@@ -201,7 +201,14 @@ export default async function LocationPage({ params }: PageProps<"/data-logger/[
               badge={`${node.name} · ${trail[trail.length - 2]?.name ?? ""}`}
               altPrefix={`${node.name} monitoring`}
             />
-          ) : undefined
+          ) : (
+            // Country and state hubs: photos only (GSM models are left out outside India).
+            <LiveDeviceVisual
+              devices={getHubHeroDevices(node.slug, path[0] === "india" ? "india" : "gcc")}
+              altPrefix={`${node.name} monitoring`}
+              plain
+            />
+          )
         }
       >
         <div className="flex flex-col gap-3 sm:flex-row">

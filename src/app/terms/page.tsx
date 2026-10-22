@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { siteConfig } from "@/config/site";
+import LiveDeviceVisual from "@/components/sections/LiveDeviceVisual";
+import { getPageHeroDevices } from "@/data/page-heroes";
 import PageHero from "@/components/sections/PageHero";
 import Section from "@/components/ui/Section";
 import { buildMetadata } from "@/lib/seo";
@@ -26,6 +28,7 @@ export default function TermsPage() {
         eyebrow="Legal"
         title="Terms & Conditions"
         intro={`Last updated ${updated}. These terms apply to your use of this website. Please read them alongside our Privacy Policy.`}
+        visual={<LiveDeviceVisual devices={getPageHeroDevices("terms")} plain />}
       />
 
       <Section aria-labelledby="terms-title">
