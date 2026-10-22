@@ -20,498 +20,498 @@ export type LocationContent = {
 export const locationContent: Record<string, LocationContent> = {
   india: {
     metaDescription:
-      "Temperature data loggers across India: WiFi and GSM loggers by state, city and industrial area, with set-up support and calibration. Get Solution.",
+      "India: WiFi and GSM temperature loggers arranged by state, city and industrial area, with set-up and calibration support. Get Solution to begin in India.",
     recommended: ["nakshatra", "veer", "vayu"],
   },
   "india/maharashtra": {
     metaDescription:
-      "Temperature data loggers in Maharashtra: Mumbai, Pune, Nashik, Nagpur, Kolhapur, Solapur and more cities and areas. Get Solution.",
+      "Maharashtra, India: temperature loggers covering Mumbai, Pune, Nashik, Nagpur, Kolhapur and Solapur, plus smaller cities. Use Get Solution for Maharashtra.",
     recommended: ["nakshatra", "dhruva", "virat"],
   },
   "india/gujarat": {
     metaDescription:
-      "Temperature data loggers across Gujarat: Ahmedabad, Vadodara, Rajkot, Gandhinagar, Surat and the Vapi to Bharuch chemical belt. Get Solution.",
+      "Gujarat, India: temperature loggers covering Ahmedabad, Vadodara, Rajkot, Gandhinagar, Surat and the Vapi to Bharuch chemical belt. Get Solution: Gujarat.",
     recommended: ["nakshatra", "dhruva", "veer"],
   },
   "india/delhi": {
     metaDescription:
-      "Temperature data loggers across the Delhi region: hospitals, medicine distributors, food stores and the Okhla, Bawana and Narela estates. Get Solution.",
+      "Delhi region, India: temperature loggers for hospitals, medicine distributors, food stores and the Okhla and Narela estates. Get Solution: Delhi Region.",
     recommended: ["dhruva", "setu", "vayu"],
     inName: "the Delhi Region",
   },
   "india/uttar-pradesh": {
     metaDescription:
-      "Temperature data loggers in Uttar Pradesh: Noida, Lucknow, Kanpur, Agra, Varanasi, Meerut, Moradabad and more cities. Get Solution.",
+      "Uttar Pradesh, India: temperature loggers covering Noida, Lucknow, Kanpur, Agra, Varanasi, Meerut and Moradabad. Get Solution: Uttar Pradesh.",
     recommended: ["virat", "nakshatra", "dhruva"],
   },
   "india/haryana": {
     metaDescription:
-      "Temperature data loggers in Haryana: Gurugram, Faridabad, Manesar, Panchkula, Karnal, Hisar and more cities and industrial areas. Get Solution.",
+      "Haryana, India: temperature loggers covering Gurugram, Faridabad, Manesar, Panchkula, Karnal, Hisar and industrial areas. Get Solution to begin in Haryana.",
     recommended: ["veer", "rajmudra", "vayu"],
   },
   "india/telangana": {
     metaDescription:
-      "Temperature data loggers in Telangana: Hyderabad's pharma estates and labs, plus Warangal, Karimnagar and Nizamabad's mills and godowns. Get Solution.",
+      "Telangana, India: temperature loggers for Hyderabad's pharma estates and labs, plus Warangal, Karimnagar and Nizamabad mills. Get Solution: Telangana.",
     recommended: ["rajmudra", "veer", "nakshatra"],
   },
   "india/karnataka": {
     metaDescription:
-      "Temperature data loggers in Karnataka: Bengaluru (Bangalore), Mysuru, Mangaluru, Belagavi, Hubballi-Dharwad and Tumakuru. Get Solution.",
+      "Karnataka, India: temperature loggers covering Bengaluru, Mysuru, Mangaluru, Belagavi, Hubballi-Dharwad and Tumakuru. Get Solution to cover Karnataka.",
     recommended: ["setu", "dhruva", "nakshatra"],
   },
   "india/tamil-nadu": {
     metaDescription:
-      "Temperature data loggers in Tamil Nadu: Chennai, Coimbatore, Madurai, Tiruchirappalli, Salem, Tiruppur, Hosur and more cities. Get Solution.",
+      "Tamil Nadu, India: temperature loggers covering Chennai, Coimbatore, Madurai, Tiruchirappalli, Salem, Tiruppur and Hosur. Get Solution to cover Tamil Nadu.",
     recommended: ["nakshatra", "virat", "vayu"],
   },
   "india/punjab": {
     metaDescription:
-      "Temperature data loggers in Punjab: Mohali, Ludhiana, Amritsar, Jalandhar, Patiala, Bathinda and Rajpura. Get Solution.",
+      "Punjab, India: temperature loggers covering Mohali, Ludhiana, Amritsar, Jalandhar, Patiala, Bathinda and Rajpura. Get Solution: Punjab.",
     recommended: ["dhruva", "nakshatra", "vayu"],
   },
   "india/chandigarh": {
     metaDescription:
-      "Temperature data loggers in the Chandigarh region: hospitals, medicine distributors and food depots across Mohali and Panchkula. Get Solution.",
+      "Chandigarh region, India: loggers for hospitals, medicine distributors and food depots across Mohali and Panchkula. Get Solution for Chandigarh Region.",
     recommended: ["nakshatra", "dhruva", "vayu"],
     inName: "the Chandigarh Region",
   },
   "india/himachal-pradesh": {
     metaDescription:
-      "Temperature data loggers in Himachal Pradesh: Baddi, Solan, Parwanoo, Paonta Sahib, Una and Shimla plants, stores and hospitals. Get Solution.",
+      "Himachal Pradesh, India: temperature loggers for Baddi, Solan, Parwanoo, Paonta Sahib, Una and Shimla plants and hospitals. Get Solution: Himachal Pradesh.",
     recommended: ["rajmudra", "virat", "setu"],
   },
   "india/kerala": {
     metaDescription:
-      "Temperature data loggers in Kerala: Kochi, Thiruvananthapuram, Kozhikode, Thrissur and Kollam's cold chain, labs and hospitals. Get Solution.",
+      "Kerala, India: temperature loggers for the cold chain, labs and hospitals of Kochi, Kozhikode, Thrissur and Kollam. Get Solution to begin in Kerala.",
     recommended: ["dhruva", "vayu", "virat"],
   },
   "india/goa": {
     metaDescription:
-      "Temperature data loggers in the State of Goa: pharmaceutical plants at Verna and Kundaim and coastal hotel kitchens. Get Solution.",
+      "Goa, India: temperature loggers for pharma plants at Verna and Kundaim and for coastal hotel kitchens. Get Solution: request a plan for State of Goa.",
     recommended: ["rajmudra", "setu", "nakshatra"],
     inName: "the State of Goa",
   },
   "india/rajasthan": {
     metaDescription:
-      "Temperature data loggers in Rajasthan: Jaipur, Jodhpur, Udaipur, Kota, Ajmer, Bhilwara, Bhiwadi and Neemrana. Get Solution.",
+      "Rajasthan, India: temperature loggers covering Jaipur, Jodhpur, Udaipur, Kota, Ajmer, Bhilwara, Bhiwadi and Neemrana. Get Solution to begin in Rajasthan.",
     recommended: ["veer", "rajmudra", "vayu"],
   },
   "india/madhya-pradesh": {
     metaDescription:
-      "Temperature data loggers in Madhya Pradesh: Indore, Bhopal, Jabalpur, Gwalior, Pithampur, Ujjain and Dewas. Get Solution.",
+      "Madhya Pradesh, India: temperature loggers covering Indore, Bhopal, Jabalpur, Gwalior, Pithampur, Ujjain and Dewas. Get Solution to cover Madhya Pradesh.",
     recommended: ["virat", "dhruva", "setu"],
   },
   "india/dadra-and-nagar-haveli-and-daman-and-diu": {
     metaDescription:
-      "Temperature data loggers in Silvassa, Daman and Diu: pharma, plastics and packaging plants, harbour stores and hotel kitchens. Get Solution.",
+      "Silvassa, Daman and Diu: loggers for pharma, plastics and packaging plants, harbour stores and hotel kitchens. Get Solution to cover Silvassa, Daman & Diu.",
     recommended: ["rajmudra", "nakshatra", "vayu"],
     inName: "Silvassa, Daman & Diu",
   },
   "india/puducherry": {
     metaDescription:
-      "Temperature data loggers in Puducherry: the capital's pharma estates, hotels and hospitals and the delta enclave of Karaikal. Get Solution.",
+      "Puducherry, India: temperature loggers for pharma estates, hotels and hospitals, plus the delta enclave of Karaikal. Get Solution for Puducherry.",
     recommended: ["nakshatra","rajmudra","vayu"],
   },
   "india/jammu-and-kashmir": {
     metaDescription:
-      "Temperature data loggers in Jammu and Kashmir: Jammu, Srinagar, Samba and Kathua's pharma estates, fruit cold stores and hospitals. Get Solution.",
+      "Jammu and Kashmir, India: loggers for pharma estates, fruit cold stores and hospitals in Jammu, Srinagar, Samba, Kathua. Get Solution: Jammu and Kashmir.",
     recommended: ["rajmudra","virat","vayu"],
   },
   "india/sikkim": {
     metaDescription:
-      "Temperature data loggers in Sikkim: Gangtok's hotels and hospitals and Rangpo's pharma estates, in wet mountain country. Get Solution.",
+      "Sikkim, India: temperature loggers for Gangtok's hotels and hospitals and Rangpo's pharma estates in wet mountain country. Get Solution to begin in Sikkim.",
     recommended: ["nakshatra","setu","vayu"],
   },
   "india/tripura": {
     metaDescription:
-      "Temperature data loggers in Tripura: Agartala's markets, hospitals, university laboratories and border-trade godowns in hot, humid air. Get Solution.",
+      "Tripura, India: temperature loggers for Agartala's markets, hospitals, university laboratories and border-trade godowns. Get Solution to begin in Tripura.",
     recommended: ["nakshatra","virat","vayu"],
   },
   "india/meghalaya": {
     metaDescription:
-      "Temperature data loggers in Meghalaya: Shillong's hotel kitchens, hospitals, laboratories and Byrnihat-side stores in cool, wet hill air. Get Solution.",
+      "Meghalaya, India: temperature loggers for Shillong's hotel kitchens, hospitals, laboratories and Byrnihat-side stores. Get Solution to begin in Meghalaya.",
     recommended: ["nakshatra","setu","rajmudra"],
   },
   "india/manipur": {
     metaDescription:
-      "Temperature data loggers in Manipur: Imphal's markets, medicine distributors, hospitals and handloom godowns in humid hill-road country. Get Solution.",
+      "Manipur, India: temperature loggers for Imphal's markets, medicine distributors, hospitals and handloom godowns. Get Solution: request a plan for Manipur.",
     recommended: ["nakshatra","setu","vayu"],
   },
   "india/assam": {
     metaDescription:
-      "Temperature data loggers in Assam: Guwahati, Dibrugarh, Silchar and Tezpur's tea stores, medicine distributors and hospitals. Get Solution.",
+      "Assam, India: temperature loggers for tea stores, medicine distributors and hospitals in Guwahati, Dibrugarh, Silchar and Tezpur. Get Solution: Assam.",
     recommended: ["nakshatra","setu","vayu"],
   },
   "india/bihar": {
     metaDescription:
-      "Temperature data loggers in Bihar: Patna, Hajipur, Muzaffarpur, Gaya and Bhagalpur. Get Solution.",
+      "Bihar, India: temperature loggers covering Patna, Hajipur, Muzaffarpur, Gaya and Bhagalpur. Get Solution to cover Bihar.",
     recommended: ["setu", "nakshatra", "vayu"],
   },
   "india/chhattisgarh": {
     metaDescription:
-      "Temperature data loggers in Chhattisgarh: Raipur, Bhilai, Bilaspur and Korba's rice godowns, steel stores, hospitals and coal-belt sheds. Get Solution.",
+      "Chhattisgarh, India: temperature loggers for rice godowns, steel stores and hospitals in Raipur, Bhilai, Bilaspur and Korba. Get Solution: Chhattisgarh.",
     recommended: ["nakshatra", "virat", "vayu"],
   },
   "india/jharkhand": {
     metaDescription:
-      "Temperature data loggers in Jharkhand: Ranchi, Jamshedpur, Dhanbad and Bokaro's steel-town stores, hospitals and coal-belt godowns. Get Solution.",
+      "Jharkhand, India: loggers for steel-town stores, hospitals and coal-belt godowns in Ranchi, Jamshedpur, Dhanbad, Bokaro. Get Solution to cover Jharkhand.",
     recommended: ["virat", "rajmudra", "vayu"],
   },
   "india/odisha": {
     metaDescription:
-      "Temperature data loggers in Odisha: Bhubaneswar, Cuttack, Rourkela, Paradip and Jharsuguda. Get Solution.",
+      "Odisha, India: temperature loggers covering Bhubaneswar, Cuttack, Rourkela, Paradip and Jharsuguda. Get Solution: Odisha.",
     recommended: ["nakshatra", "virat", "vayu"],
   },
   "india/uttarakhand": {
     metaDescription:
-      "Temperature data loggers in Uttarakhand: Haridwar, Dehradun, Roorkee, Rudrapur-Pantnagar, Kashipur and Kotdwar. Get Solution.",
+      "Uttarakhand, India: temperature loggers covering Haridwar, Dehradun, Roorkee, Rudrapur-Pantnagar, Kashipur and Kotdwar. Get Solution to cover Uttarakhand.",
     recommended: ["virat", "rajmudra", "vayu"],
   },
   "india/andhra-pradesh": {
     metaDescription:
-      "Temperature data loggers in Andhra Pradesh: Visakhapatnam, Vijayawada, Guntur, Tirupati, Nellore, Sri City and Kakinada. Get Solution.",
+      "Andhra Pradesh, India: loggers covering Visakhapatnam, Vijayawada, Guntur, Tirupati, Nellore, Sri City and Kakinada. Get Solution to cover Andhra Pradesh.",
     recommended: ["nakshatra", "virat", "vayu"],
   },
   "india/west-bengal": {
     metaDescription:
-      "Temperature data loggers in West Bengal: Kolkata, Howrah, Siliguri, Durgapur, Asansol, Kharagpur and Haldia. Get Solution.",
+      "West Bengal, India: temperature loggers covering Kolkata, Howrah, Siliguri, Durgapur, Asansol, Kharagpur and Haldia. Use Get Solution for West Bengal.",
     recommended: ["nakshatra", "virat", "vayu"],
   },
   "saudi-arabia": {
     metaDescription:
-      "Temperature data loggers in Saudi Arabia: WiFi loggers for Riyadh, Jeddah and Dammam warehouses, supplied from India and set up remotely. Get Solution.",
+      "Saudi Arabia: WiFi loggers for Riyadh, Jeddah and Dammam warehouses, supplied from India and set up remotely. Get Solution for Saudi Arabia.",
     recommended: ["nakshatra", "veer", "virat"],
   },
   "yemen/hadramaut-governorate": {
     metaDescription:
-      "Data loggers for Hadramaut Governorate: Mukalla's fish stores, Seiyun and Shibam's date and heritage rooms, reviewed case by case. Get Solution.",
+      "Hadramaut Governorate, Yemen: loggers for Mukalla fish stores and Seiyun and Shibam date rooms, reviewed case by case. Get Solution: Hadramaut Governorate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "yemen/abyan-governorate": {
     metaDescription:
-      "Temperature data loggers for Abyan Governorate: Zinjibar's delta produce stores, fish landings and clinics, reviewed case by case. Get Solution.",
+      "Abyan Governorate, Yemen: loggers for Zinjibar's delta produce stores, fish landings and clinics, reviewed case by case. Get Solution: Abyan Governorate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "yemen/amanat-al-asimah": {
     metaDescription:
-      "Data loggers for Amanat Al Asimah: Sana'a's pharmacies, food stores, industrial area and airport, reviewed case by case for Yemen. Get Solution.",
+      "Amanat Al Asimah, Yemen: data loggers for Sana'a pharmacies, food stores and industrial area, reviewed case by case. Use Get Solution for Amanat Al Asimah.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "yemen/taiz-governorate": {
     metaDescription:
-      "Data loggers for Taiz Governorate: Taiz's hospitals and food stores and Mocha's coffee port storage, reviewed case by case. Get Solution.",
+      "Taiz Governorate, Yemen: data loggers for Taiz hospitals and food stores and Mocha port storage, reviewed case by case. Get Solution: Taiz Governorate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "yemen/al-hudaydah-governorate": {
     metaDescription:
-      "Data loggers for Al Hudaydah Governorate: Hodeidah's port stores, Zabid and Bajil markets on the Tihama, reviewed case by case. Get Solution.",
+      "Al Hudaydah Governorate, Yemen: loggers for Hodeidah port stores and Zabid and Bajil markets, reviewed case by case. Get Solution: Al Hudaydah Governorate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "yemen/ibb-governorate": {
     metaDescription:
-      "Temperature data loggers for Ibb Governorate: Ibb's terrace-farm produce, markets and clinics in a wet highland, case by case. Get Solution.",
+      "Ibb Governorate, Yemen: loggers for terrace-farm produce, markets and clinics in a wet highland, reviewed case by case. Get Solution: Ibb Governorate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "yemen/dhamar-governorate": {
     metaDescription:
-      "Temperature data loggers for Dhamar Governorate: Dhamar's farm produce, clinics and university labs on a cold plateau, case by case. Get Solution.",
+      "Dhamar Governorate, Yemen: loggers for farm produce, clinics and university labs, reviewed case by case. Get Solution to begin in Dhamar Governorate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "yemen/marib-governorate": {
     metaDescription:
-      "Temperature data loggers for Marib Governorate: Marib's desert-edge food stores, clinics and farm produce, case by case. Get Solution.",
+      "Marib Governorate, Yemen: loggers for desert-edge food stores, clinics and farm produce, reviewed case by case. Get Solution to begin in Marib Governorate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "yemen/lahij-governorate": {
     metaDescription:
-      "Temperature data loggers for Lahij Governorate: Lahij's delta produce stores, wholesale food rooms and clinics, case by case. Get Solution.",
+      "Lahij Governorate, Yemen: loggers for delta produce stores, wholesale food rooms and clinics, reviewed case by case. Get Solution: Lahij Governorate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "yemen/sadah-governorate": {
     metaDescription:
-      "Temperature data loggers for Sa'dah Governorate: Sa'dah's walled-town markets, fruit stores and clinics, case by case for Yemen. Get Solution.",
+      "Sa'dah Governorate, Yemen: temperature loggers for walled-town markets, fruit stores and clinics, reviewed case by case. Get Solution: Sa'dah Governorate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "qatar/al-rayyan-municipality": {
     metaDescription:
-      "Data loggers for Al Rayyan Municipality: Al Rayyan city, Al Gharafa, Birkat Al Awamer and Al Sailiya shops, clinics and stores. Get Solution.",
+      "Al Rayyan Municipality, Qatar: data loggers for Al Gharafa, Birkat Al Awamer and Al Sailiya shops, clinics, stores. Get Solution: Al Rayyan Municipality.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "qatar/al-wakrah-municipality": {
     metaDescription:
-      "Data loggers for Al Wakrah Municipality: Al Wakrah, Mesaieed, Al Wukair and Mesaieed Industrial City stores, kitchens and clinics. Get Solution.",
+      "Al Wakrah Municipality, Qatar: data loggers for Mesaieed, Al Wukair and Mesaieed Industrial City stores and clinics. Get Solution: Al Wakrah Municipality.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "qatar/al-khor-and-al-thakhira-municipality": {
     metaDescription:
-      "Data loggers for Al Khor and Al Thakhira Municipality: Al Khor, Ras Laffan and Ras Laffan Industrial City stores, kitchens and clinics. Get Solution.",
+      "Al Khor and Al Thakhira, Qatar: data loggers for Al Khor, Ras Laffan and Ras Laffan Industrial City stores. Get Solution: Al Khor and Al Thakhira.",
     recommended: ["nakshatra", "setu", "rajmudra"],
     inName: "Al Khor and Al Thakhira",
   },
   "qatar/al-daayen-municipality": {
     metaDescription:
-      "Data loggers for Al Daayen Municipality: Lusail's hotel kitchens, clinics and stockrooms and Al Daayen's shops, farms and stores. Get Solution.",
+      "Al Daayen Municipality, Qatar: data loggers for Lusail's hotel kitchens and clinics and Al Daayen's shops and farms. Get Solution: Al Daayen Municipality.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "qatar/umm-salal-municipality": {
     metaDescription:
-      "Data loggers for Umm Salal Municipality: Umm Salal's farm sheds, shops, clinics and workshops in hot, dry summers. Get Solution.",
+      "Umm Salal Municipality, Qatar: data loggers for farm sheds, shops, clinics and workshops in hot, dry summers. Get Solution to cover Umm Salal Municipality.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "qatar/al-shamal-municipality": {
     metaDescription:
-      "Data loggers for Al Shamal Municipality: Al Shamal's harbour ice stores, farm sheds, supermarkets and clinics on the northern coast. Get Solution.",
+      "Al Shamal Municipality, Qatar: data loggers for harbour ice stores, farm sheds, supermarkets and clinics. Get Solution to begin in Al Shamal Municipality.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "qatar/al-shahaniya-municipality": {
     metaDescription:
-      "Data loggers for Al Shahaniya Municipality: Al Shahaniya's farm sheds, Dukhan's town and the Dukhan Industrial Area storage. Get Solution.",
+      "Al Shahaniya Municipality, Qatar: data loggers for farm sheds, Dukhan's town and Dukhan Industrial Area storage. Get Solution: Al Shahaniya Municipality.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "oman/muscat-governorate": {
     metaDescription:
-      "Data loggers for Muscat Governorate: Muscat, Muttrah, Al Khuwair, Al Ghubra, Ghala and the Muttrah port kitchens, clinics and stores. Get Solution.",
+      "Muscat Governorate, Oman: data loggers for Muttrah, Al Khuwair, Al Ghubra and Ghala kitchens, clinics and stores. Get Solution to cover Muscat Governorate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "oman/al-batinah-north-governorate": {
     metaDescription:
-      "Data loggers for Al Batinah North Governorate: Sohar, Saham, Al Suwaiq, Sohar Industrial Estate and the port and freezone. Get Solution.",
+      "Al Batinah North Governorate, Oman: data loggers for Sohar, Saham, Al Suwaiq and the Sohar estate and port. Get Solution: Al Batinah North Governorate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "oman/al-batinah-south-governorate": {
     metaDescription:
-      "Data loggers for Al Batinah South Governorate: Barka, Rustaq, Nakhal and Barka Industrial Area stores, farms and cold rooms. Get Solution.",
+      "Al Batinah South Governorate, Oman: data loggers for Barka, Rustaq, Nakhal and Barka Industrial Area stores. Get Solution: Al Batinah South Governorate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "oman/ad-dakhiliyah-governorate": {
     metaDescription:
-      "Data loggers for Ad Dakhiliyah Governorate: Nizwa, Bahla, Izki, Sumail and the Nizwa Industrial Estate date stores and warehouses. Get Solution.",
+      "Ad Dakhiliyah Governorate, Oman: data loggers for Nizwa, Bahla, Izki, Sumail and Nizwa Industrial Estate stores. Get Solution: Ad Dakhiliyah Governorate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "oman/ad-dhahirah-governorate": {
     metaDescription:
-      "Data loggers for Ad Dhahirah Governorate: Ibri's date and farm stores, clinics and the Ibri Industrial Area in fierce dry heat. Get Solution.",
+      "Ad Dhahirah Governorate, Oman: data loggers for Ibri's date and farm stores, clinics and the Ibri Industrial Area. Get Solution: Ad Dhahirah Governorate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "oman/al-buraimi-governorate": {
     metaDescription:
-      "Data loggers for Al Buraimi Governorate: Buraimi's markets, date gardens, clinics and the Buraimi Industrial Area stores. Get Solution.",
+      "Al Buraimi Governorate, Oman: data loggers for Buraimi's markets, date gardens, clinics and industrial area stores. Get Solution: Al Buraimi Governorate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "oman/dhofar-governorate": {
     metaDescription:
-      "Data loggers for Dhofar Governorate: Salalah, Salalah Free Zone, Raysut Industrial Estate and Port of Salalah stores and cold rooms. Get Solution.",
+      "Dhofar Governorate, Oman: data loggers for Salalah Free Zone, Raysut Industrial Estate and Port of Salalah stores. Use Get Solution for Dhofar Governorate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "oman/al-wusta-governorate": {
     metaDescription:
-      "Data loggers for Al Wusta Governorate: Duqm, the Duqm Special Economic Zone and Port of Duqm stores and cold rooms. Get Solution.",
+      "Al Wusta Governorate, Oman: data loggers for Duqm, the Duqm Special Economic Zone and Port of Duqm stores. Get Solution to begin in Al Wusta Governorate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "oman/ash-sharqiyah-south-governorate": {
     metaDescription:
-      "Data loggers for Ash Sharqiyah South Governorate: Sur's harbour ice stores, market and the Sur Industrial Estate warehouses. Get Solution.",
+      "Ash Sharqiyah South Governorate, Oman: data loggers for Sur's harbour ice stores and industrial estate. Get Solution: Ash Sharqiyah South Governorate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "oman/ash-sharqiyah-north-governorate": {
     metaDescription:
-      "Data loggers for Ash Sharqiyah North Governorate: Ibra's market and date groves and Bidiyah's desert-edge farm stores. Get Solution.",
+      "Ash Sharqiyah North Governorate, Oman: data loggers for Ibra's market and Bidiyah's farm stores. Get Solution: Ash Sharqiyah North Governorate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "oman/musandam-governorate": {
     metaDescription:
-      "Data loggers for Musandam Governorate: Khasab's fish ice boxes, shops, hospital and clinics among steep inlets. Get Solution.",
+      "Musandam Governorate, Oman: data loggers for Khasab's fish ice boxes, shops, hospital and clinics among steep inlets. Get Solution: Musandam Governorate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "kuwait/al-asimah-governorate": {
     metaDescription:
-      "Data loggers for Al Asimah Governorate: Kuwait City, Shuwaikh Industrial Area and Shuwaikh Port kitchens, clinics and warehouses. Get Solution.",
+      "Al Asimah Governorate, Kuwait: data loggers for Shuwaikh Industrial Area and Shuwaikh Port kitchens and warehouses. Get Solution: Al Asimah Governorate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "kuwait/hawalli-governorate": {
     metaDescription:
-      "Data loggers for Hawalli Governorate: Hawalli's shops and traders' stores and Salmiya's seafront kitchens, clinics and malls. Get Solution.",
+      "Hawalli Governorate, Kuwait: data loggers for Hawalli's shops and traders' stores and Salmiya's seafront kitchens. Get Solution: Hawalli Governorate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "kuwait/farwaniya-governorate": {
     metaDescription:
-      "Data loggers for Farwaniya Governorate: Farwaniya, Khaitan, Jleeb Al-Shuyoukh, industrial areas, the airport and warehouse stores. Get Solution.",
+      "Farwaniya Governorate, Kuwait: data loggers for Khaitan, Jleeb Al-Shuyoukh, industrial areas and the airport. Get Solution for Farwaniya Governorate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "kuwait/ahmadi-governorate": {
     metaDescription:
-      "Data loggers for Ahmadi Governorate: Ahmadi's hospital pharmacies and shops and Fahaheel's seafront kitchens and stockrooms. Get Solution.",
+      "Ahmadi Governorate, Kuwait: data loggers for Ahmadi's hospital pharmacies and Fahaheel's seafront kitchens. Get Solution to begin in Ahmadi Governorate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "kuwait/jahra-governorate": {
     metaDescription:
-      "Data loggers for Jahra Governorate: Jahra, Sulaibiya, Sulaibiya Industrial Area and Amghara Industrial Area farms and warehouses. Get Solution.",
+      "Jahra Governorate, Kuwait: data loggers for Sulaibiya, Sulaibiya and Amghara Industrial Areas, farms and warehouses. Get Solution: Jahra Governorate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "kuwait/mubarak-al-kabeer-governorate": {
     metaDescription:
-      "Data loggers for Mubarak Al-Kabeer Governorate: Sabah Al Salem's coastal shops and kitchens and Mubarak Al-Kabeer's clinics and stockrooms. Get Solution.",
+      "Mubarak Al-Kabeer Governorate, Kuwait: data loggers for Sabah Al Salem's coastal shops and kitchens. Get Solution to cover Mubarak Al-Kabeer Governorate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "bahrain/capital-governorate": {
     metaDescription:
-      "Data loggers for the Capital Governorate: Manama, the Financial Harbour, Seef District and Mina Salman Port kitchens, clinics and stores. Get Solution.",
+      "Capital Governorate, Bahrain: data loggers for the Financial Harbour, Seef District and Mina Salman Port. Get Solution to start in Capital Governorate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "bahrain/muharraq-governorate": {
     metaDescription:
-      "Data loggers for the Muharraq Governorate: Muharraq, Hidd, Arad and Busaiteen shops, kitchens, sheds and the harbour area. Get Solution.",
+      "Muharraq Governorate, Bahrain: data loggers for Muharraq, Hidd, Arad and Busaiteen shops, kitchens and sheds. Get Solution to cover Muharraq Governorate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "bahrain/northern-governorate": {
     metaDescription:
-      "Data loggers for the Northern Governorate: Hamad Town, Budaiya and Saar shops, kitchens, farm stores and workshops. Get Solution.",
+      "Northern Governorate, Bahrain: data loggers for Hamad Town, Budaiya and Saar shops, kitchens and workshops. Get Solution to begin in Northern Governorate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "bahrain/southern-governorate": {
     metaDescription:
-      "Data loggers for the Southern Governorate: Riffa, Isa Town and Zallaq shops, kitchens, clinics and market stores. Get Solution.",
+      "Southern Governorate, Bahrain: data loggers for Riffa, Isa Town and Zallaq shops, kitchens, clinics and market stores. Get Solution: Southern Governorate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "qatar/doha-municipality": {
     metaDescription:
-      "Data loggers for Doha Municipality: Doha city, West Bay, Al Sadd, Msheireb and The Pearl-Qatar kitchens, clinics and stores. Get Solution.",
+      "Doha Municipality, Qatar: data loggers for West Bay, Al Sadd, Msheireb and The Pearl-Qatar kitchens, clinics and stores. Get Solution: Doha Municipality.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "uae/dubai-emirate": {
     metaDescription:
-      "Data loggers for Dubai Emirate: the city, Jebel Ali, Dubai Investments Park, Al Quoz, Ras Al Khor, Al Qusais and Al Aweer storage. Get Solution.",
+      "Dubai Emirate, UAE: data loggers for Jebel Ali, Dubai Investments Park, Al Quoz, Ras Al Khor, Al Qusais and Al Aweer storage. Get Solution: Dubai Emirate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "uae/sharjah-emirate": {
     metaDescription:
-      "Data loggers for Sharjah Emirate: Sharjah, Khor Fakkan, Kalba, Sajaa, SAIF Zone, Hamriyah and Muwaileh storage. Get Solution.",
+      "Sharjah Emirate, UAE: data loggers for Khor Fakkan, Kalba, Sajaa, SAIF Zone, Hamriyah and Muwaileh storage. Get Solution to begin in Sharjah Emirate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "uae/ajman-emirate": {
     metaDescription:
-      "Data loggers for Ajman Emirate: Ajman city, the Al Jurf Industrial Area and the Ajman Free Zone warehouse and cold-room storage. Get Solution.",
+      "Ajman Emirate, UAE: data loggers for Ajman city, Al Jurf Industrial Area and Ajman Free Zone storage. With Get Solution, start your Ajman Emirate enquiry.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "uae/umm-al-quwain-emirate": {
     metaDescription:
-      "Data loggers for Umm Al Quwain Emirate: the town's fish ice stores, shops, clinics and the UAQ Free Trade Zone storage. Get Solution.",
+      "Umm Al Quwain Emirate, UAE: data loggers for fish ice stores, shops, clinics and UAQ Free Trade Zone storage. Get Solution to cover Umm Al Quwain Emirate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "uae/ras-al-khaimah-emirate": {
     metaDescription:
-      "Data loggers for Ras Al Khaimah Emirate: the city, RAKEZ, Al Ghail Industrial Area and Al Jazirah Al Hamra storage and cold rooms. Get Solution.",
+      "Ras Al Khaimah Emirate, UAE: data loggers for RAKEZ, Al Ghail Industrial Area and Al Jazirah Al Hamra storage. Get Solution: Ras Al Khaimah Emirate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "uae/fujairah-emirate": {
     metaDescription:
-      "Data loggers for Fujairah Emirate: Fujairah, Dibba Al Fujairah, the Fujairah Free Zone and Port of Fujairah storage. Get Solution.",
+      "Fujairah Emirate, UAE: data loggers for Dibba Al Fujairah, the Fujairah Free Zone and Port of Fujairah storage. Get Solution: Fujairah Emirate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "uae/abu-dhabi-emirate": {
     metaDescription:
-      "Data loggers for Abu Dhabi Emirate: the city, Mussafah, ICAD, KIZAD, Khalifa Port and Ghantoot warehouse and cold-room storage. Get Solution.",
+      "Abu Dhabi Emirate, UAE: data loggers for Mussafah, ICAD, KIZAD, Khalifa Port and Ghantoot warehouse and cold-room storage. Get Solution: Abu Dhabi Emirate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "yemen/aden-governorate": {
     metaDescription:
-      "Temperature data loggers for Aden Governorate: the port city's clinics, food stores and harbour-area warehouses, reviewed case by case. Get Solution.",
+      "Aden Governorate, Yemen: loggers for the port city's clinics, food stores and harbour warehouses, reviewed case by case. Get Solution: Aden Governorate.",
     recommended: ["nakshatra", "setu", "rajmudra"],
   },
   "saudi-arabia/riyadh-region": {
     metaDescription:
-      "Temperature data loggers in the Riyadh Region: the capital, oasis farms and industrial cities, with remote set-up from India. Get Solution.",
+      "Riyadh Region, Saudi Arabia: loggers for the capital, oasis farms and industrial cities, with remote set-up from India. Use Get Solution for Riyadh Region.",
     recommended: ["nakshatra", "virat", "rajmudra"],
   },
   "saudi-arabia/makkah-region": {
     metaDescription:
-      "Temperature data loggers in the Makkah Region: Red Sea port logistics, hospitals, hotel kitchens and food stores, set up remotely. Get Solution.",
+      "Makkah Region, Saudi Arabia: loggers for Red Sea port logistics, hospitals, hotel kitchens and food stores. Get Solution to begin in Makkah Region.",
     recommended: ["nakshatra", "virat", "rajmudra"],
   },
   "saudi-arabia/eastern-province": {
     metaDescription:
-      "Temperature data loggers in the Eastern Province: Gulf-coast ports, industrial cities, food depots and hospitals, set up remotely. Get Solution.",
+      "Eastern Province, Saudi Arabia: loggers for Gulf-coast ports, industrial cities, food depots and hospitals. Get Solution for Eastern Province.",
     recommended: ["nakshatra", "virat", "rajmudra"],
   },
   "saudi-arabia/madinah-region": {
     metaDescription:
-      "Temperature data loggers in the Madinah Region: hospitality, hospital and food stores inland and port plants at Yanbu, set up remotely. Get Solution.",
+      "Madinah Region, Saudi Arabia: loggers for hotel, hospital and food stores inland and port plants at Yanbu. Use Get Solution for Madinah Region.",
     recommended: ["nakshatra", "virat", "rajmudra"],
   },
   "saudi-arabia/asir-region": {
     metaDescription:
-      "Temperature data loggers in the Asir Region: Abha and Khamis Mushait hospitals, food depots and hotel kitchens in cool mountain air. Get Solution.",
+      "Asir Region, Saudi Arabia: loggers for Abha and Khamis Mushait hospitals, food depots and hotel kitchens in cool air. Use Get Solution to plan Asir Region.",
     recommended: ["nakshatra", "virat", "rajmudra"],
   },
   "saudi-arabia/qassim-region": {
     metaDescription:
-      "Temperature data loggers in the Qassim Region: date stores, farm cold rooms, hospitals and food depots on the central plain. Get Solution.",
+      "Qassim Region, Saudi Arabia: loggers for date stores, farm cold rooms, hospitals and food depots on the central plain. Get Solution to cover Qassim Region.",
     recommended: ["nakshatra", "virat", "rajmudra"],
   },
   "saudi-arabia/jazan-region": {
     metaDescription:
-      "Temperature data loggers in the Jazan Region: fruit and coffee stores, fish depots, hospitals and port stores in hot, humid coastal air. Get Solution.",
+      "Jazan Region, Saudi Arabia: loggers for fruit and coffee stores, fish depots, hospitals and port stores. Through Get Solution, tell us about Jazan Region.",
     recommended: ["nakshatra", "virat", "rajmudra"],
   },
   "saudi-arabia/tabuk-region": {
     metaDescription:
-      "Temperature data loggers in the Tabuk Region: farm and food depots, hospitals and coastal port stores in hot summers and cold winters. Get Solution.",
+      "Tabuk Region, Saudi Arabia: loggers for farm and food depots, hospitals and coastal port stores. Get Solution and plan your Tabuk Region sites.",
     recommended: ["nakshatra", "virat", "rajmudra"],
   },
   "saudi-arabia/hail-region": {
     metaDescription:
-      "Temperature data loggers in the Hail Region: farm cold rooms, date and wheat stores, hospitals and food depots on the northern plateau. Get Solution.",
+      "Hail Region, Saudi Arabia: loggers for farm cold rooms, date and wheat stores, hospitals and food depots. Get Solution, or WhatsApp us about Hail Region.",
     recommended: ["nakshatra", "virat", "rajmudra"],
   },
   "saudi-arabia/najran-region": {
     metaDescription:
-      "Temperature data loggers in the Najran Region: date and fruit stores, hospitals, hotel kitchens and food depots in a hot southern valley. Get Solution.",
+      "Najran Region, Saudi Arabia: loggers for date and fruit stores, hospitals, hotel kitchens and food depots. Get Solution: request a plan for Najran Region.",
     recommended: ["nakshatra", "virat", "rajmudra"],
   },
   "saudi-arabia/al-baha-region": {
     metaDescription:
-      "Temperature data loggers in the Al Baha Region: highland produce, honey and food depots, hospitals and hotel kitchens in cool, misty air. Get Solution.",
+      "Al Baha Region, Saudi Arabia: temperature loggers for highland produce, honey and food depots, hospitals and hotel kitchens. Get Solution: Al Baha Region.",
     recommended: ["nakshatra", "virat", "rajmudra"],
   },
   "saudi-arabia/al-jawf-region": {
     metaDescription:
-      "Temperature data loggers in the Al Jawf Region: olive, date and farm stores, hospitals and food depots in hot summers and cold winters. Get Solution.",
+      "Al Jawf Region, Saudi Arabia: loggers for olive, date and farm stores, hospitals and food depots. Get Solution for Al Jawf Region.",
     recommended: ["nakshatra", "virat", "rajmudra"],
   },
   "saudi-arabia/northern-borders-region": {
     metaDescription:
-      "Temperature data loggers in the Northern Borders Region: food and medicine depots, hospitals and farm stores on the northern plateau. Get Solution.",
+      "Northern Borders Region, Saudi Arabia: loggers for food and medicine depots, hospitals and farm stores. Get Solution to begin in Northern Borders Region.",
     recommended: ["nakshatra", "virat", "rajmudra"],
   },
   uae: {
     metaDescription:
-      "Temperature data loggers in the UAE: WiFi loggers for Dubai warehouses, food importers and hotel kitchens, set up remotely. Get Solution.",
+      "UAE: WiFi loggers for Dubai warehouses, food importers and hotel kitchens, set up remotely. Get Solution: request a plan for UAE.",
     recommended: ["setu", "nakshatra", "veer"],
     inName: "the UAE",
   },
   qatar: {
     metaDescription:
-      "Temperature data loggers in Qatar: WiFi loggers for Doha warehouses, cold stores, hotels and clinics, supplied from India. Get Solution.",
+      "Qatar: WiFi loggers for Doha warehouses, cold stores, hotels and clinics, supplied from India. Get Solution for Qatar.",
     recommended: ["setu", "nakshatra", "dhruva"],
   },
   oman: {
     metaDescription:
-      "Temperature data loggers in Oman: WiFi loggers for Muscat, Sohar and Salalah pharmacies, hospitals and food distributors. Get Solution.",
+      "Oman: WiFi loggers for Muscat, Sohar and Salalah pharmacies, hospitals and food distributors. Use Get Solution for Oman.",
     recommended: ["setu", "nakshatra", "veer"],
   },
   kuwait: {
     metaDescription:
-      "Temperature data loggers in Kuwait: WiFi loggers for warehouses, cold stores, hospitals and kitchens, supplied from India. Get Solution.",
+      "Kuwait: WiFi loggers for warehouses, cold stores, hospitals and kitchens, supplied from India. Get Solution for Kuwait.",
     recommended: ["setu", "nakshatra", "dhruva"],
   },
   bahrain: {
     metaDescription:
-      "Temperature data loggers in Bahrain: WiFi loggers for warehouses, cold stores, hospitals and hotels, supplied from India. Get Solution.",
+      "Bahrain: WiFi loggers for warehouses, cold stores, hospitals and hotels, supplied from India. With Get Solution, start your Bahrain enquiry.",
     recommended: ["setu", "nakshatra", "veer"],
   },
   yemen: {
     metaDescription:
-      "Temperature data loggers for Yemen, arranged case by case: loggers that keep recording through power and network outages. Get Solution.",
+      "Yemen: temperature loggers arranged case by case, built to keep recording through power and network outages. Get Solution to cover Yemen.",
     recommended: ["setu", "nakshatra", "dhruva"],
   },
 };

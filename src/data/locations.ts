@@ -373,7 +373,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Mumbai | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers in Mumbai from our head office, with site visits and calibration support. Get Solution for your site.",
+              "Mumbai, Maharashtra: WiFi and GSM temperature loggers run from our head office in Malad West, with calibration support. Get Solution to start in Mumbai.",
             indexable: true,
           },
           {
@@ -478,7 +478,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Navi Mumbai | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Navi Mumbai's Turbhe, Rabale, Mahape and Taloja estates, with site visits arranged. Get Solution.",
+              "Navi Mumbai, Maharashtra: WiFi and GSM loggers for the Turbhe, Rabale, Mahape and Taloja estates. Get Solution, or call us to discuss Navi Mumbai.",
             indexable: true,
           },
           {
@@ -572,7 +572,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Thane & Bhiwandi | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers in Thane & Bhiwandi: Wagle Estate, Dombivli MIDC and warehouse parks, with site visits. Get Solution.",
+              "Thane and Bhiwandi, Maharashtra: temperature loggers for Wagle Estate, Dombivli MIDC and warehouse parks. Get Solution for Thane & Bhiwandi.",
             indexable: true,
           },
           {
@@ -671,7 +671,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Panvel | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Panvel's Taloja MIDC and port-linked warehouses, with site visits arranged. Get Solution.",
+              "Panvel, Maharashtra: WiFi and GSM loggers for Taloja MIDC units and port-linked warehouses. Get Solution to cover Panvel.",
             indexable: true,
           },
           {
@@ -776,7 +776,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Pune | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Pune's Chakan, Ranjangaon, Pimpri-Chinchwad and Talegaon estates, with site visits. Get Solution.",
+              "Pune, Maharashtra: loggers for the Chakan, Ranjangaon, Pimpri-Chinchwad and Talegaon estates. Get Solution to scope monitoring in Pune.",
             indexable: true,
           },
           {
@@ -873,7 +873,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Vasai-Palghar | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers in Vasai-Palghar: Vasai, Tarapur and Boisar estates and godowns, with site visits. Get Solution.",
+              "Vasai-Palghar, Maharashtra: temperature loggers for Vasai, Tarapur and Boisar estates and godowns. Get Solution to begin in Vasai-Palghar.",
             indexable: true,
           },
           {
@@ -975,7 +975,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Nashik | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Nashik's wineries, Ambad and Satpur estates, Sinnar plants and onion and grape stores. Get Solution.",
+              "Nashik, Maharashtra: loggers for wineries, Ambad and Satpur estates, Sinnar plants and onion and grape stores. Get Solution to cover Nashik.",
             indexable: true,
           },
           {
@@ -1076,7 +1076,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Data Loggers in Chhatrapati Sambhajinagar | Prithvi",
             metaDescription:
-              "Temperature data loggers for Chhatrapati Sambhajinagar (Aurangabad): Waluj, Chikalthana and Shendra plants, hospitals and kitchens. Get Solution.",
+              "Chhatrapati Sambhajinagar, Maharashtra: loggers for Waluj, Chikalthana and Shendra plants, hospitals and kitchens. Get Solution: Chhatrapati Sambhajinagar.",
             indexable: true,
           },
           {
@@ -1177,7 +1177,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Nagpur | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Nagpur's Hingna, Butibori and MIHAN sites, orange and grain stores and hospitals. Get Solution.",
+              "Nagpur, Maharashtra: WiFi and GSM loggers for Hingna, Butibori and MIHAN sites, orange and grain stores. Get Solution, or WhatsApp us about Nagpur.",
             indexable: true,
           },
           {
@@ -1278,7 +1278,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Kolhapur | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Kolhapur's dairies, foundries and mills at Shiroli, Gokul Shirgaon and Kagal, with site visits. Get Solution.",
+              "Kolhapur, Maharashtra: loggers for dairies, foundries and mills at Shiroli, Gokul Shirgaon and Kagal. Get Solution to begin in Kolhapur.",
             indexable: true,
           },
           {
@@ -1379,7 +1379,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Satara | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Satara, Shirwal and Karad: strawberry and dairy cold rooms, hospitals and small estates. Get Solution.",
+              "Satara, Maharashtra: loggers for Shirwal and Karad strawberry and dairy cold rooms, hospitals and small estates. Get Solution: Satara.",
             indexable: true,
           },
           {
@@ -1480,7 +1480,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Solapur | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Solapur's textile godowns, Akkalkot Road plants, fruit cold rooms and hospitals. Get Solution.",
+              "Solapur, Maharashtra: loggers for textile godowns, Akkalkot Road plants, fruit cold rooms and hospitals. Get Solution to scope monitoring in Solapur.",
             indexable: true,
           },
           {
@@ -1581,7 +1581,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Ratnagiri-Lote | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Ratnagiri-Lote: Lote Parshuram chemical plants, mango and fish cold rooms and Konkan godowns. Get Solution.",
+              "Ratnagiri-Lote, Maharashtra: loggers for Lote Parshuram chemical plants, mango and fish cold rooms. Get Solution to scope monitoring in Ratnagiri-Lote.",
             indexable: true,
           },
         ],
@@ -1742,7 +1742,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Ahmedabad | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Ahmedabad's Naroda, Vatva, Changodar and Sanand estates, with site visits arranged. Get Solution.",
+              "Ahmedabad, Gujarat: WiFi and GSM loggers for the Naroda, Vatva, Changodar and Sanand estates. Get Solution: request a plan for Ahmedabad.",
             indexable: true,
           },
           {
@@ -1839,7 +1839,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Vapi | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Vapi's GIDC chemical, pharma and paper units and highway godowns, with site visits. Get Solution.",
+              "Vapi, Gujarat: temperature loggers for GIDC chemical, pharma and paper units and highway godowns. Get Solution to scope monitoring in Vapi.",
             indexable: true,
           },
           {
@@ -1936,7 +1936,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Ankleshwar | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Ankleshwar, Panoli, Jhagadia and Dahej chemical and pharma plants, with site visits. Get Solution.",
+              "Ankleshwar, Gujarat: loggers for chemical and pharma plants at Ankleshwar, Panoli, Jhagadia and Dahej. Get Solution to begin in Ankleshwar.",
             indexable: true,
           },
           {
@@ -2033,7 +2033,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Surat | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Surat's textile, dyeing and Hazira units, with site visits arranged. Get Solution.",
+              "Surat, Gujarat: temperature and humidity loggers for textile, dyeing and Hazira units. Get Solution: request a plan for Surat.",
             indexable: true,
           },
           {
@@ -2135,7 +2135,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Vadodara | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Vadodara (Baroda): Makarpura, Waghodia and Savli plants, hospitals and dairies. Get Solution.",
+              "Vadodara, Gujarat: loggers for Makarpura, Waghodia and Savli plants, hospitals and dairies. Get Solution to cover Vadodara.",
             indexable: true,
           },
           {
@@ -2236,7 +2236,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Rajkot | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Rajkot's engineering estates at Aji and Metoda, oil mills, distributors and hospitals. Get Solution.",
+              "Rajkot, Gujarat: loggers for engineering estates at Aji and Metoda, oil mills, distributors and hospitals. Through Get Solution, tell us about Rajkot.",
             indexable: true,
           },
           {
@@ -2339,7 +2339,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Bharuch | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Bharuch town on the Narmada: Zadeshwar and Bholav units, hospitals, cotton and chemical stores. Get Solution.",
+              "Bharuch, Gujarat: loggers for Zadeshwar and Bholav units, hospitals, and cotton and chemical stores on the Narmada. Get Solution to begin in Bharuch.",
             indexable: true,
           },
           {
@@ -2440,7 +2440,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Gandhinagar | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Gandhinagar's GIFT City data halls, Sector 25 units, laboratories and hospitals. Get Solution.",
+              "Gandhinagar, Gujarat: loggers for GIFT City data halls, Sector 25 units, laboratories and hospitals. Get Solution: Gandhinagar.",
             indexable: true,
           },
           {
@@ -2541,7 +2541,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Halol-Panchmahal | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Halol-Panchmahal: Halol GIDC and Kalol component stores, pharma units and Godhra dairies. Get Solution.",
+              "Halol-Panchmahal, Gujarat: loggers for Halol GIDC and Kalol component stores, pharma units and Godhra dairies. Get Solution to begin in Halol-Panchmahal.",
             indexable: true,
           },
           {
@@ -2643,7 +2643,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Morbi | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Morbi's ceramic cluster: glaze stores, panel rooms and tile warehouses, with site visits. Get Solution.",
+              "Morbi, Gujarat: loggers for the ceramic cluster's glaze stores, panel rooms and tile warehouses. Get Solution for Morbi.",
             indexable: true,
           },
           {
@@ -2744,7 +2744,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Jamnagar | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Jamnagar's Dared brass estate, the refinery belt, port godowns and hospitals. Get Solution.",
+              "Jamnagar, Gujarat: loggers for the Dared brass estate, the refinery belt, port godowns and hospitals. Get Solution, or WhatsApp us about Jamnagar.",
             indexable: true,
           },
           {
@@ -2841,7 +2841,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Mundra | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Mundra's port terminals, SEZ warehouses, container yards and cold rooms. Get Solution.",
+              "Mundra, Gujarat: loggers for port terminals, SEZ warehouses, container yards and cold rooms. Get Solution to start in Mundra.",
             indexable: true,
           },
           {
@@ -2943,7 +2943,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Kandla | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Kandla (Deendayal Port) and Gandhidham: tank farms, bonded sheds, hospitals and godowns. Get Solution.",
+              "Kandla, Gujarat: loggers for Deendayal Port and Gandhidham tank farms, bonded sheds, hospitals and godowns. Through Get Solution, tell us about Kandla.",
             indexable: true,
           },
         ],
@@ -3086,7 +3086,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Delhi | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Delhi's hospitals, medicine distributors and cold stores in Okhla, Bawana and Narela. Get Solution.",
+              "Delhi, India: WiFi and GSM loggers for hospitals, medicine distributors and cold stores in Okhla, Bawana and Narela. Use Get Solution to plan Delhi.",
             indexable: true,
           },
         ],
@@ -3225,7 +3225,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Noida | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Noida and Greater Noida's electronics plants, data centres and warehouses. Get Solution.",
+              "Noida, Uttar Pradesh: loggers for electronics plants, data centres and warehouses in Noida and Greater Noida. Use Get Solution for Noida.",
             indexable: true,
           },
           {
@@ -3318,7 +3318,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Lucknow | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Lucknow's hospitals, medicine stockists and cold stores, with site visits arranged. Get Solution.",
+              "Lucknow, Uttar Pradesh: WiFi and GSM temperature loggers for hospitals, medicine stockists and cold stores. Get Solution: request a plan for Lucknow.",
             indexable: true,
           },
           {
@@ -3425,7 +3425,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Ghaziabad | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Ghaziabad's Loni, Meerut Road and Kavi Nagar units, warehouses, depots and hospitals. Get Solution.",
+              "Ghaziabad, Uttar Pradesh: loggers for Loni, Meerut Road and Kavi Nagar units, depots and hospitals. Get Solution, or WhatsApp us about Ghaziabad.",
             indexable: true,
           },
           {
@@ -3526,7 +3526,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Kanpur | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Kanpur's Jajmau tanneries, Panki and Dada Nagar units, wholesale godowns and hospitals. Get Solution.",
+              "Kanpur, Uttar Pradesh: loggers for Jajmau tanneries, Panki and Dada Nagar units, wholesale godowns and hospitals. Get Solution to start in Kanpur.",
             indexable: true,
           },
           {
@@ -3627,7 +3627,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Agra | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Agra's potato cold stores, Foundry Nagar and Sikandra units, hotels and sweet makers. Get Solution.",
+              "Agra, Uttar Pradesh: loggers for potato cold stores, Foundry Nagar and Sikandra units, hotels and sweet makers. Use Get Solution for Agra.",
             indexable: true,
           },
           {
@@ -3728,7 +3728,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Varanasi | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Varanasi's silk stores, Ramnagar and Chandpur units, hospitals, guest houses and godowns. Get Solution.",
+              "Varanasi, Uttar Pradesh: loggers for silk stores, Ramnagar and Chandpur units, hospitals and guest houses. Get Solution, or WhatsApp us about Varanasi.",
             indexable: true,
           },
           {
@@ -3830,7 +3830,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Meerut | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Meerut's Partapur and Modipuram units, sports-goods stores, jaggery godowns and hospitals. Get Solution.",
+              "Meerut, Uttar Pradesh: loggers for Partapur and Modipuram units, sports-goods stores, jaggery godowns and hospitals. Get Solution to begin in Meerut.",
             indexable: true,
           },
           {
@@ -3935,7 +3935,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Prayagraj | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Prayagraj (Allahabad): Naini units, hospitals, mela camps, paper stores and cold rooms. Get Solution.",
+              "Prayagraj, Uttar Pradesh: loggers for Naini units, hospitals, mela camps, paper stores and cold rooms. Use Get Solution for Prayagraj.",
             indexable: true,
           },
           {
@@ -4036,7 +4036,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Bareilly | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Bareilly's Bhojipura units, furniture stores, laboratories, hospitals and godowns. Get Solution.",
+              "Bareilly, Uttar Pradesh: loggers for Bhojipura units, furniture stores, laboratories, hospitals and godowns. Get Solution: Bareilly.",
             indexable: true,
           },
           {
@@ -4137,7 +4137,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Moradabad | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Moradabad's brassware workshops on Kanth Road, export packing rooms, hospitals and godowns. Get Solution.",
+              "Moradabad, Uttar Pradesh: loggers for brassware workshops on Kanth Road, export packing rooms and hospitals. Get Solution: request a plan for Moradabad.",
             indexable: true,
           },
         ],
@@ -4280,7 +4280,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Manesar | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for IMT Manesar's automotive, electronics and pharma plants and highway warehouses. Get Solution.",
+              "Manesar, Haryana: loggers for IMT Manesar's automotive, electronics and pharma plants and highway warehouses. Through Get Solution, tell us about Manesar.",
             indexable: true,
           },
           {
@@ -4383,7 +4383,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Gurugram | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Gurugram's Udyog Vihar units, hospitals, data halls and export stores, with site visits. Get Solution.",
+              "Gurugram, Haryana: loggers for Udyog Vihar units, hospitals, data halls and export stores. Get Solution and plan your Gurugram sites.",
             indexable: true,
           },
           {
@@ -4481,7 +4481,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Faridabad | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Faridabad's NIT and Ballabgarh units, coating stores, hospitals and warehouses. Get Solution.",
+              "Faridabad, Haryana: loggers for NIT and Ballabgarh units, coating stores, hospitals and warehouses. Get Solution to scope monitoring in Faridabad.",
             indexable: true,
           },
           {
@@ -4573,7 +4573,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Panipat | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Panipat's textile godowns, Samalkha units and chemical stores. Get Solution.",
+              "Panipat, Haryana: temperature and humidity loggers for textile godowns, Samalkha units and chemical stores. Get Solution: request a plan for Panipat.",
             indexable: true,
           },
           {
@@ -4670,7 +4670,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Sonipat | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Sonipat's Kundli, Rai and Barhi units, food and packaging stores and warehouses. Get Solution.",
+              "Sonipat, Haryana: loggers for Kundli, Rai and Barhi units, food and packaging stores and warehouses. Get Solution to scope monitoring in Sonipat.",
             indexable: true,
           },
           {
@@ -4767,7 +4767,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Rohtak | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Rohtak's hospitals, laboratories, medicine stockists, grain markets and industrial estates. Get Solution.",
+              "Rohtak, Haryana: loggers for hospitals, laboratories, medicine stockists, grain markets and industrial estates. Use Get Solution for Rohtak.",
             indexable: true,
           },
           {
@@ -4863,7 +4863,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Hisar | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Hisar's steel works, research campuses, oilseed godowns and hospitals, set up with site visits. Get Solution.",
+              "Hisar, Haryana: loggers for steel works, research campuses, oilseed godowns and hospitals. Through Get Solution, tell us about Hisar.",
             indexable: true,
           },
           {
@@ -4959,7 +4959,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Ambala | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Ambala Cantonment stores, instrument workshops, hospitals and city godowns. Get Solution.",
+              "Ambala, Haryana: loggers for Cantonment stores, instrument workshops, hospitals and city godowns. Get Solution to begin in Ambala.",
             indexable: true,
           },
           {
@@ -5055,7 +5055,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Karnal | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Karnal's rice mills, grain godowns, research institutes and hospitals. Get Solution.",
+              "Karnal, Haryana: temperature and humidity loggers for rice mills, grain godowns, research institutes and hospitals. Get Solution to begin in Karnal.",
             indexable: true,
           },
           {
@@ -5153,7 +5153,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Panchkula | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Panchkula's industrial phases, hospitals, medicine stockists and Pinjore warehouses. Get Solution.",
+              "Panchkula, Haryana: loggers for industrial phases, hospitals, medicine stockists and Pinjore warehouses. Get Solution for Panchkula.",
             indexable: true,
           },
         ],
@@ -5297,7 +5297,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Hyderabad | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Hyderabad's pharma estates, life-science labs and data centres, with site visits arranged. Get Solution.",
+              "Hyderabad, Telangana: WiFi and GSM loggers for pharma estates, life-science labs and data centres. Use Get Solution to plan Hyderabad.",
             indexable: true,
           },
           {
@@ -5393,7 +5393,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Warangal | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Warangal's chilli cold stores, textile park, hospitals and godowns, with site visits. Get Solution.",
+              "Warangal, Telangana: loggers for chilli cold stores, the textile park, hospitals and godowns. Get Solution for Warangal.",
             indexable: true,
           },
           {
@@ -5490,7 +5490,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Karimnagar | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Karimnagar's rice mills, granite units, seed godowns and hospitals. Get Solution.",
+              "Karimnagar, Telangana: temperature and humidity loggers for rice mills, granite units, seed godowns and hospitals. Get Solution to begin in Karimnagar.",
             indexable: true,
           },
           {
@@ -5586,7 +5586,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Nizamabad | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Nizamabad's turmeric godowns, rice mills, sugar stores and hospitals. Get Solution.",
+              "Nizamabad, Telangana: temperature and humidity loggers for turmeric godowns, rice mills, sugar stores and hospitals. Get Solution to begin in Nizamabad.",
             indexable: true,
           },
         ],
@@ -5736,7 +5736,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Bengaluru | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers in Bengaluru (Bangalore) for labs, data centres, electronics plants and hospitals. Get Solution.",
+              "Bengaluru, Karnataka: WiFi and GSM loggers for labs, data centres, electronics plants and hospitals. Get Solution: request a plan for Bengaluru.",
             indexable: true,
           },
           {
@@ -5832,7 +5832,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Mysuru | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Mysuru's research labs, hotels, hospitals and Nanjangud and Metagalli units. Get Solution.",
+              "Mysuru, Karnataka: loggers for research labs, hotels, hospitals and the Nanjangud and Metagalli units. Get Solution for Mysuru.",
             indexable: true,
           },
           {
@@ -5928,7 +5928,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Hubballi-Dharwad | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Hubballi-Dharwad's medicine stockists, hospitals, universities, market godowns and estates. Get Solution.",
+              "Hubballi-Dharwad, Karnataka: loggers for medicine stockists, hospitals, universities, market godowns and estates. Get Solution to cover Hubballi-Dharwad.",
             indexable: true,
           },
           {
@@ -6024,7 +6024,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Mangaluru | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Mangaluru's port yards, cashew and seafood units, chemical stores and hospitals. Get Solution.",
+              "Mangaluru, Karnataka: temperature and humidity loggers for port yards, cashew and seafood units and hospitals. Get Solution: Mangaluru.",
             indexable: true,
           },
           {
@@ -6121,7 +6121,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Belagavi | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Belagavi's Udyambag and Macche units, aerospace-parts makers, hospitals and godowns. Get Solution.",
+              "Belagavi, Karnataka: loggers for Udyambag and Macche units, aerospace-parts makers, hospitals and godowns. Get Solution to start in Belagavi.",
             indexable: true,
           },
           {
@@ -6217,7 +6217,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Tumakuru | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Tumakuru's industrial areas, food units, copra godowns and hospitals, with site visits. Get Solution.",
+              "Tumakuru, Karnataka: loggers for industrial areas, food units, copra godowns and hospitals. Use Get Solution to plan Tumakuru.",
             indexable: true,
           },
         ],
@@ -6364,7 +6364,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Chennai | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Chennai's pharma, electronics and port-linked warehouses, with site visits. Get Solution.",
+              "Chennai, Tamil Nadu: temperature and humidity loggers for pharma, electronics and port-linked warehouses. Get Solution to begin in Chennai.",
             indexable: true,
           },
           {
@@ -6457,7 +6457,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Coimbatore | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Coimbatore's mills, engineering estates, hospitals and food firms. Get Solution.",
+              "Coimbatore, Tamil Nadu: temperature and humidity loggers for mills, engineering estates, hospitals and food firms. Get Solution to begin in Coimbatore.",
             indexable: true,
           },
           {
@@ -6554,7 +6554,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Hosur | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Hosur's SIPCOT plants, foundries, electronics units and flower cold rooms, with site visits. Get Solution.",
+              "Hosur, Tamil Nadu: loggers for SIPCOT plants, foundries, electronics units and flower cold rooms. Get Solution: request a plan for Hosur.",
             indexable: true,
           },
           {
@@ -6651,7 +6651,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Madurai | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Madurai's flower cold rooms, hospitals, garment units and Kappalur estates. Get Solution.",
+              "Madurai, Tamil Nadu: loggers for flower cold rooms, hospitals, garment units and Kappalur estates. Through Get Solution, tell us about Madurai.",
             indexable: true,
           },
           {
@@ -6747,7 +6747,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Tiruchirappalli | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Tiruchirappalli's engineering estates, railway stores, flower markets and hospitals. Get Solution.",
+              "Tiruchirappalli, Tamil Nadu: loggers for engineering estates, railway stores, flower markets and hospitals. Get Solution to begin in Tiruchirappalli.",
             indexable: true,
           },
           {
@@ -6844,7 +6844,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Salem | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Salem's sago mills, textile stores, mango trade and hospitals. Get Solution.",
+              "Salem, Tamil Nadu: temperature and humidity loggers for sago mills, textile stores, the mango trade and hospitals. Get Solution: request a plan for Salem.",
             indexable: true,
           },
           {
@@ -6936,7 +6936,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Tiruppur | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Tiruppur's knitwear units, dyeing houses, export sheds and godowns. Get Solution.",
+              "Tiruppur, Tamil Nadu: temperature and humidity loggers for knitwear units, dyeing houses and export sheds. Get Solution to start in Tiruppur.",
             indexable: true,
           },
           {
@@ -7033,7 +7033,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Erode | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Erode's turmeric godowns, textile market, Perundurai units and hospitals. Get Solution.",
+              "Erode, Tamil Nadu: temperature and humidity loggers for turmeric godowns, the textile market and Perundurai units. Get Solution to begin in Erode.",
             indexable: true,
           },
           {
@@ -7129,7 +7129,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Vellore | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Vellore's hospitals, laboratories, pharmacies and the Ranipet and Ambur leather belt. Get Solution.",
+              "Vellore, Tamil Nadu: loggers for hospitals, laboratories, pharmacies and the Ranipet and Ambur leather belt. Through Get Solution, tell us about Vellore.",
             indexable: true,
           },
           {
@@ -7225,7 +7225,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Tuticorin | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Tuticorin (Thoothukudi) port yards, seafood cold stores, chemical stores and hospitals. Get Solution.",
+              "Tuticorin, Tamil Nadu: loggers for Thoothukudi port yards, seafood cold stores, chemical stores and hospitals. Get Solution: request a plan for Tuticorin.",
             indexable: true,
           },
         ],
@@ -7357,7 +7357,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Chandigarh | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Chandigarh, Mohali and Panchkula hospitals, pharma distributors and food depots. Get Solution.",
+              "Chandigarh, India: loggers for hospitals, pharma distributors and food depots across Chandigarh, Mohali and Panchkula. Get Solution to begin in Chandigarh.",
             indexable: true,
           },
         ],
@@ -7504,7 +7504,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Mohali | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Mohali's pharma units, technology parks, institutes and hospitals, with site visits. Get Solution.",
+              "Mohali, Punjab: loggers for pharma units, technology parks, institutes and hospitals. Get Solution to cover Mohali.",
             indexable: true,
           },
           {
@@ -7602,7 +7602,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Ludhiana | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Ludhiana's knitwear mills, dye works, dairies, cloth markets and hospitals. Get Solution.",
+              "Ludhiana, Punjab: temperature and humidity loggers for knitwear mills, dye works, dairies and hospitals. Get Solution to cover Ludhiana.",
             indexable: true,
           },
           {
@@ -7698,7 +7698,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Amritsar | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Amritsar's hotels, sweet makers, dry-fruit stores, hospitals and Attari road godowns. Get Solution.",
+              "Amritsar, Punjab: temperature and humidity loggers for hotels, sweet makers, dry-fruit stores and Attari road godowns. Get Solution to begin in Amritsar.",
             indexable: true,
           },
           {
@@ -7794,7 +7794,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Jalandhar | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Jalandhar's sports-goods makers, leather works, Focal Point units and hospitals. Get Solution.",
+              "Jalandhar, Punjab: temperature and humidity loggers for sports-goods makers, leather works and Focal Point units. Get Solution to begin in Jalandhar.",
             indexable: true,
           },
           {
@@ -7892,7 +7892,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Patiala | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Patiala's hospitals, university laboratories, rice mills and bazaars. Get Solution.",
+              "Patiala, Punjab: temperature and humidity loggers for hospitals, university laboratories, rice mills and bazaars. Get Solution: request a plan for Patiala.",
             indexable: true,
           },
           {
@@ -7988,7 +7988,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Bathinda | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Bathinda's grain and cotton godowns, mills, plant stores and hospitals. Get Solution.",
+              "Bathinda, Punjab: temperature and humidity loggers for grain and cotton godowns, mills and hospitals. With Get Solution, start your Bathinda enquiry.",
             indexable: true,
           },
           {
@@ -8086,7 +8086,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Rajpura | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Rajpura's junction goods sheds, rice mills, food firms, warehouses and clinics. Get Solution.",
+              "Rajpura, Punjab: temperature and humidity loggers for junction goods sheds, rice mills, food firms and clinics. Get Solution: request a plan for Rajpura.",
             indexable: true,
           },
         ],
@@ -8223,7 +8223,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Baddi | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Baddi, Barotiwala and Nalagarh pharma plants and laboratories, with site visits. Get Solution.",
+              "Baddi, Himachal Pradesh: WiFi and GSM loggers for pharma plants and laboratories in Baddi, Barotiwala and Nalagarh. Get Solution: Baddi.",
             indexable: true,
           },
           {
@@ -8320,7 +8320,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Solan | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Solan's mushroom cold rooms, university labs, vegetable depots and hill hospitals. Get Solution.",
+              "Solan, Himachal Pradesh: loggers for mushroom cold rooms, university labs, vegetable depots and hill hospitals. Get Solution, or WhatsApp us about Solan.",
             indexable: true,
           },
           {
@@ -8418,7 +8418,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Parwanoo | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Parwanoo's industrial units, transport yards, fruit processors and hotels. Get Solution.",
+              "Parwanoo, Himachal Pradesh: loggers for industrial units, transport yards, fruit processors and hotels. Get Solution, or WhatsApp us about Parwanoo.",
             indexable: true,
           },
           {
@@ -8514,7 +8514,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Paonta Sahib | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Paonta Sahib's pharma, paper and engineering units, border-road godowns and kitchens. Get Solution.",
+              "Paonta Sahib, Himachal Pradesh: loggers for pharma, paper and engineering units, border-road godowns and kitchens. Use Get Solution for Paonta Sahib.",
             indexable: true,
           },
           {
@@ -8611,7 +8611,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Una | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Una's Gagret and Mehatpur units, steel and food stores, border depots and hospitals. Get Solution.",
+              "Una, Himachal Pradesh: loggers for Gagret and Mehatpur units, steel and food stores, border depots and hospitals. Get Solution to begin in Una.",
             indexable: true,
           },
           {
@@ -8708,7 +8708,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Shimla | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Shimla's hospitals, apple cold stores, hotels and mountain-road deliveries. Get Solution.",
+              "Shimla, Himachal Pradesh: loggers for hospitals, apple cold stores, hotels and goods moving on mountain roads. Get Solution to cover Shimla.",
             indexable: true,
           },
         ],
@@ -8845,7 +8845,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Kochi | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Kochi's seafood cold chain, port warehouses and hospitals, with site visits arranged. Get Solution.",
+              "Kochi, Kerala: WiFi and GSM loggers for the seafood cold chain, port warehouses and hospitals. Get Solution and plan your Kochi sites.",
             indexable: true,
           },
           {
@@ -8941,7 +8941,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Thiruvananthapuram | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Thiruvananthapuram's hospitals, laboratories, Technopark server rooms and Vizhinjam port. Get Solution.",
+              "Thiruvananthapuram, Kerala: loggers for hospitals, laboratories, Technopark server rooms and the Vizhinjam port. Get Solution to cover Thiruvananthapuram.",
             indexable: true,
           },
           {
@@ -9037,7 +9037,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Kozhikode | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Kozhikode's spice godowns, oil stores, harbours and hospitals. Get Solution.",
+              "Kozhikode, Kerala: temperature and humidity loggers for spice godowns, oil stores, harbours and hospitals. Use Get Solution to plan Kozhikode.",
             indexable: true,
           },
           {
@@ -9133,7 +9133,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Thrissur | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Thrissur's ayurveda makers, hospitals, university labs and food godowns. Get Solution.",
+              "Thrissur, Kerala: temperature and humidity loggers for ayurveda makers, hospitals, university labs and food godowns. Get Solution to cover Thrissur.",
             indexable: true,
           },
           {
@@ -9229,7 +9229,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Kollam | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Kollam's cashew sheds, seafood cold stores, mineral works and hospitals. Get Solution.",
+              "Kollam, Kerala: temperature and humidity loggers for cashew sheds, seafood cold stores, mineral works and hospitals. Get Solution to begin in Kollam.",
             indexable: true,
           },
         ],
@@ -9367,7 +9367,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Goa | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Goa's pharma plants in Verna and Kundaim and coastal hotel kitchens. Get Solution.",
+              "Goa, India: WiFi and GSM loggers for pharma plants in Verna and Kundaim and coastal hotel kitchens. Get Solution: request a plan for Goa.",
             indexable: true,
           },
         ],
@@ -9510,7 +9510,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Jaipur | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Jaipur's Sitapura and VKI units, dairies, medicine stockists and hospitals. Get Solution.",
+              "Jaipur, Rajasthan: loggers for Sitapura and VKI units, dairies, medicine stockists and hospitals. With Get Solution, start your Jaipur enquiry.",
             indexable: true,
           },
           {
@@ -9606,7 +9606,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Jodhpur | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Jodhpur's handicraft exporters, textile works, spice stores and hospitals. Get Solution.",
+              "Jodhpur, Rajasthan: temperature and humidity loggers for handicraft exporters, textile works, spice stores and hospitals. Use Get Solution to plan Jodhpur.",
             indexable: true,
           },
           {
@@ -9703,7 +9703,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Udaipur | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Udaipur's lakeside hotels, hospitals, marble and mineral works. Get Solution.",
+              "Udaipur, Rajasthan: temperature and humidity loggers for lakeside hotels, hospitals, marble and mineral works. Get Solution, or call us to discuss Udaipur.",
             indexable: true,
           },
           {
@@ -9800,7 +9800,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Kota | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Kota's chemical stores, hostel kitchens, hospitals and stone yards. Get Solution.",
+              "Kota, Rajasthan: temperature and humidity loggers for chemical stores, hostel kitchens, hospitals and stone yards. Get Solution: request a plan for Kota.",
             indexable: true,
           },
           {
@@ -9897,7 +9897,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Ajmer | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Ajmer's sweet makers, hospitals, laboratories, goods sheds and marble yards. Get Solution.",
+              "Ajmer, Rajasthan: temperature and humidity loggers for sweet makers, hospitals, laboratories, goods sheds and marble yards. Get Solution for Ajmer.",
             indexable: true,
           },
           {
@@ -9994,7 +9994,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Bhilwara | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Bhilwara's spinning and weaving mills, dyeing works, godowns and hospitals. Get Solution.",
+              "Bhilwara, Rajasthan: temperature and humidity loggers for spinning and weaving mills, dyeing works and godowns. Get Solution to cover Bhilwara.",
             indexable: true,
           },
           {
@@ -10091,7 +10091,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Bhiwadi | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Bhiwadi's factories, warehouses, food and electronics stores. Get Solution.",
+              "Bhiwadi, Rajasthan: temperature and humidity loggers for factories, warehouses, and food and electronics stores. Get Solution: Bhiwadi.",
             indexable: true,
           },
           {
@@ -10188,7 +10188,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Neemrana | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Neemrana's factory zones, warehouses and highway food and parts stores. Get Solution.",
+              "Neemrana, Rajasthan: temperature and humidity loggers for factory zones, warehouses and highway food and parts stores. Get Solution to begin in Neemrana.",
             indexable: true,
           },
         ],
@@ -10326,7 +10326,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Indore | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Indore's Pithampur and Sanwer Road plants, food processors and godowns. Get Solution.",
+              "Indore, Madhya Pradesh: loggers for Pithampur and Sanwer Road plants, food processors and godowns. Through Get Solution, tell us about Indore.",
             indexable: true,
           },
           {
@@ -10423,7 +10423,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Bhopal | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Bhopal's hospitals, laboratories, Mandideep plants and Govindpura stores. Get Solution.",
+              "Bhopal, Madhya Pradesh: temperature and humidity loggers for hospitals, laboratories, Mandideep plants and Govindpura stores. Get Solution: Bhopal.",
             indexable: true,
           },
           {
@@ -10519,7 +10519,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Jabalpur | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Jabalpur's Richhai and Adhartal units, pulse godowns, hospitals and workshops. Get Solution.",
+              "Jabalpur, Madhya Pradesh: temperature and humidity loggers for Richhai and Adhartal units, pulse godowns and hospitals. Get Solution to start in Jabalpur.",
             indexable: true,
           },
           {
@@ -10616,7 +10616,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Gwalior | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Gwalior's Malanpur plants, dairies, laboratories and highway godowns. Get Solution.",
+              "Gwalior, Madhya Pradesh: temperature and humidity loggers for Malanpur plants, dairies, laboratories and highway godowns. Get Solution to start in Gwalior.",
             indexable: true,
           },
           {
@@ -10713,7 +10713,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Pithampur | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Pithampur's automotive, pharma and engineering plants and contract warehouses. Get Solution.",
+              "Pithampur, Madhya Pradesh: temperature and humidity loggers for automotive, pharma and engineering plants and contract warehouses. Get Solution: Pithampur.",
             indexable: true,
           },
           {
@@ -10810,7 +10810,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Ujjain | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Ujjain's temple-town kitchens, oil mills, grain godowns and Nagda works. Get Solution.",
+              "Ujjain, Madhya Pradesh: temperature and humidity loggers for temple-town kitchens, oil mills, grain godowns and Nagda works. Get Solution for Ujjain.",
             indexable: true,
           },
           {
@@ -10907,7 +10907,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Dewas | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Dewas's auto-parts, pharma and chemical plants, mills and highway godowns. Get Solution.",
+              "Dewas, Madhya Pradesh: temperature and humidity loggers for auto-parts, pharma and chemical plants, mills and highway godowns. Get Solution to cover Dewas.",
             indexable: true,
           },
         ],
@@ -11049,7 +11049,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Kolkata | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature data loggers for Kolkata's pharma distributors, cold stores and port warehouses, with site visits arranged. Get Solution.",
+              "Kolkata, West Bengal: WiFi and GSM loggers for pharma distributors, cold stores and port warehouses. Get Solution: request a plan for Kolkata.",
             indexable: true,
           },
           {
@@ -11146,7 +11146,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Howrah | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Howrah's engineering works, rail goods yards, wholesale lanes and godowns. Get Solution.",
+              "Howrah, West Bengal: temperature and humidity loggers for engineering works, rail goods yards, wholesale lanes and godowns. Get Solution for Howrah.",
             indexable: true,
           },
           {
@@ -11242,7 +11242,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Siliguri | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Siliguri's tea houses, medicine distributors, hospitals and hill-road warehouses. Get Solution.",
+              "Siliguri, West Bengal: temperature and humidity loggers for tea houses, medicine distributors, hospitals and hill-road warehouses. Get Solution: Siliguri.",
             indexable: true,
           },
           {
@@ -11338,7 +11338,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Durgapur | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Durgapur's steel and power plants, laboratories, hospitals and estates. Get Solution.",
+              "Durgapur, West Bengal: temperature and humidity loggers for steel and power plants, laboratories, hospitals and estates. Use Get Solution to plan Durgapur.",
             indexable: true,
           },
           {
@@ -11434,7 +11434,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Asansol | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Asansol's steel, coal-belt and railway stores, hospitals and wholesale markets. Get Solution.",
+              "Asansol, West Bengal: temperature and humidity loggers for steel, coal-belt and railway stores, hospitals and wholesale markets. Get Solution: Asansol.",
             indexable: true,
           },
           {
@@ -11531,7 +11531,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Kharagpur | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Kharagpur's campus laboratories, rail stores, rice mills and hospitals. Get Solution.",
+              "Kharagpur, West Bengal: temperature and humidity loggers for campus laboratories, rail stores, rice mills and hospitals. Get Solution to cover Kharagpur.",
             indexable: true,
           },
           {
@@ -11628,7 +11628,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Haldia | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Haldia's dock warehouses, chemical and fertiliser works and laboratories. Get Solution.",
+              "Haldia, West Bengal: temperature and humidity loggers for dock warehouses, chemical and fertiliser works and laboratories. Get Solution to begin in Haldia.",
             indexable: true,
           },
         ],
@@ -11770,7 +11770,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Visakhapatnam | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Visakhapatnam's port warehouses, seafood exporters, pharma plants and steel works. Get Solution.",
+              "Visakhapatnam, Andhra Pradesh: loggers for port warehouses, seafood exporters, pharma plants and steel works. Get Solution to begin in Visakhapatnam.",
             indexable: true,
           },
           {
@@ -11867,7 +11867,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Vijayawada | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Vijayawada's markets, Autonagar workshops, hospitals and junction goods sheds. Get Solution.",
+              "Vijayawada, Andhra Pradesh: loggers for markets, Autonagar workshops, hospitals and junction goods sheds. Get Solution to start in Vijayawada.",
             indexable: true,
           },
           {
@@ -11963,7 +11963,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Guntur | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Guntur's chilli cold stores, tobacco and cotton godowns, mills and hospitals. Get Solution.",
+              "Guntur, Andhra Pradesh: temperature and humidity loggers for chilli cold stores, tobacco and cotton godowns, mills and hospitals. Get Solution: Guntur.",
             indexable: true,
           },
           {
@@ -12060,7 +12060,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Tirupati | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Tirupati's pilgrim kitchens, hospitals, laboratories and electronics estates. Get Solution.",
+              "Tirupati, Andhra Pradesh: temperature and humidity loggers for pilgrim kitchens, hospitals, laboratories and electronics estates. Get Solution: Tirupati.",
             indexable: true,
           },
           {
@@ -12157,7 +12157,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Nellore | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Nellore's seafood plants, hatcheries, rice mills and Krishnapatnam port stores. Get Solution.",
+              "Nellore, Andhra Pradesh: temperature and humidity loggers for seafood plants, hatcheries, rice mills and Krishnapatnam port stores. Get Solution: Nellore.",
             indexable: true,
           },
           {
@@ -12254,7 +12254,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Sri City | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Sri City's electronics, auto-part and food plants and contract warehouses. Get Solution.",
+              "Sri City, Andhra Pradesh: temperature and humidity loggers for electronics, auto-part and food plants and contract warehouses. Get Solution: Sri City.",
             indexable: true,
           },
           {
@@ -12350,7 +12350,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Kakinada | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Kakinada's port godowns, fertiliser works, seafood plants and economic zone. Get Solution.",
+              "Kakinada, Andhra Pradesh: loggers for port godowns, fertiliser works, seafood plants and the economic zone. Get Solution to scope monitoring in Kakinada.",
             indexable: true,
           },
         ],
@@ -12491,7 +12491,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Haridwar | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Haridwar's SIDCUL plants, pilgrim kitchens, hospitals and pharma stores. Get Solution.",
+              "Haridwar, Uttarakhand: temperature and humidity loggers for SIDCUL plants, pilgrim kitchens, hospitals and pharma stores. Get Solution: Haridwar.",
             indexable: true,
           },
           {
@@ -12588,7 +12588,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Dehradun | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Dehradun's Selaqui and Sahaspur plants, hospitals, hotels and institutes. Get Solution.",
+              "Dehradun, Uttarakhand: temperature and humidity loggers for Selaqui and Sahaspur plants, hospitals, hotels and institutes. Use Get Solution for Dehradun.",
             indexable: true,
           },
           {
@@ -12685,7 +12685,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Roorkee | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Roorkee's campus laboratories, Bhagwanpur works, highway godowns and hospitals. Get Solution.",
+              "Roorkee, Uttarakhand: temperature and humidity loggers for campus laboratories, Bhagwanpur works, highway godowns and hospitals. Get Solution: Roorkee.",
             indexable: true,
           },
           {
@@ -12782,7 +12782,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Rudrapur-Pantnagar | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Rudrapur-Pantnagar's SIDCUL plants, dairies, mills and university labs. Get Solution.",
+              "Rudrapur-Pantnagar, Uttarakhand: temperature and humidity loggers for SIDCUL plants, dairies, mills and university labs. Get Solution: Rudrapur-Pantnagar.",
             indexable: true,
           },
           {
@@ -12879,7 +12879,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Kashipur | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Kashipur's SIDCUL plants, sugar and rice mills, godowns and hospitals. Get Solution.",
+              "Kashipur, Uttarakhand: temperature and humidity loggers for SIDCUL plants, sugar and rice mills, godowns and hospitals. Get Solution to begin in Kashipur.",
             indexable: true,
           },
           {
@@ -12976,7 +12976,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Kotdwar | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Kotdwar's hill-bound godowns, medicine wholesalers, clinics and railway goods sheds. Get Solution.",
+              "Kotdwar, Uttarakhand: loggers for hill-bound godowns, medicine wholesalers, clinics and railway goods sheds. Get Solution to begin in Kotdwar.",
             indexable: true,
           },
         ],
@@ -13115,7 +13115,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Silvassa | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Silvassa's Naroli and Amli plants, yarn godowns, hospitals and border-road warehouses. Get Solution.",
+              "Silvassa, Dadra and Nagar Haveli: temperature and humidity loggers for Naroli and Amli plants, yarn godowns and hospitals. Get Solution: Silvassa.",
             indexable: true,
           },
           {
@@ -13211,7 +13211,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Daman | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Daman's Kachigam and Bhimpore plants, bottling works, jetties and beach hotels. Get Solution.",
+              "Daman, Daman and Diu: temperature and humidity loggers for Kachigam and Bhimpore plants, bottling works, jetties and beach hotels. Get Solution: Daman.",
             indexable: true,
           },
           {
@@ -13307,7 +13307,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Diu | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Diu's fish ice plants, beach hotels, old-town shops and Bucharwada workshops. Get Solution.",
+              "Diu, Daman and Diu: temperature and humidity loggers for fish ice plants, beach hotels, old-town shops and Bucharwada workshops. Get Solution: Diu.",
             indexable: true,
           },
         ],
@@ -13447,7 +13447,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Bhubaneswar | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Bhubaneswar's hospitals, server rooms, hotels, laboratories and Mancheswar estate. Get Solution.",
+              "Bhubaneswar, Odisha: temperature and humidity loggers for hospitals, server rooms, hotels, laboratories and Mancheswar estate. Get Solution: Bhubaneswar.",
             indexable: true,
           },
           {
@@ -13543,7 +13543,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Cuttack | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Cuttack's markets, teaching hospital, Choudwar works and Jagatpur estate. Get Solution.",
+              "Cuttack, Odisha: temperature and humidity loggers for markets, the teaching hospital, Choudwar works and Jagatpur estate. Get Solution for Cuttack.",
             indexable: true,
           },
           {
@@ -13639,7 +13639,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Rourkela | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Rourkela's steel-works stores, Kalunga estate, laboratories and hospitals. Get Solution.",
+              "Rourkela, Odisha: temperature and humidity loggers for steel-works stores, Kalunga estate, laboratories and hospitals. Use Get Solution for Rourkela.",
             indexable: true,
           },
           {
@@ -13735,7 +13735,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Paradip | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Paradip's port warehouses, fertiliser sheds, refinery stores and fish cold rooms. Get Solution.",
+              "Paradip, Odisha: temperature and humidity loggers for port warehouses, fertiliser sheds, refinery stores and fish cold rooms. Get Solution for Paradip.",
             indexable: true,
           },
           {
@@ -13831,7 +13831,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Jharsuguda | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Jharsuguda's smelter and power-plant stores, junction sheds and hospitals. Get Solution.",
+              "Jharsuguda, Odisha: temperature and humidity loggers for smelter and power-plant stores, junction sheds and hospitals. Get Solution to cover Jharsuguda.",
             indexable: true,
           },
         ],
@@ -13970,7 +13970,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Ranchi | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Ranchi's hospitals, Namkum and Tatisilwai estates, laboratories and markets. Get Solution.",
+              "Ranchi, Jharkhand: temperature and humidity loggers for hospitals, Namkum and Tatisilwai estates, laboratories and markets. Get Solution to cover Ranchi.",
             indexable: true,
           },
           {
@@ -14067,7 +14067,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Jamshedpur | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Jamshedpur's Adityapur works, steel-town stores, hospitals and laboratories. Get Solution.",
+              "Jamshedpur, Jharkhand: temperature and humidity loggers for Adityapur works, steel-town stores, hospitals and laboratories. Get Solution: Jamshedpur.",
             indexable: true,
           },
           {
@@ -14164,7 +14164,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Dhanbad | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Dhanbad's coal-belt stores, hospitals, laboratories and Bank More markets. Get Solution.",
+              "Dhanbad, Jharkhand: temperature and humidity loggers for coal-belt stores, hospitals, laboratories and Bank More markets. Get Solution to begin in Dhanbad.",
             indexable: true,
           },
           {
@@ -14261,7 +14261,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Bokaro | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Bokaro's steel-works stores, ancillary firms, hospitals and Chas markets. Get Solution.",
+              "Bokaro, Jharkhand: temperature and humidity loggers for steel-works stores, ancillary firms, hospitals and Chas markets. Get Solution to begin in Bokaro.",
             indexable: true,
           },
         ],
@@ -14400,7 +14400,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Raipur | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Raipur's rice mills, Siltara and Urla works, hospitals and Pandri godowns. Get Solution.",
+              "Raipur, Chhattisgarh: temperature and humidity loggers for rice mills, Siltara and Urla works, hospitals and Pandri godowns. Use Get Solution for Raipur.",
             indexable: true,
           },
           {
@@ -14496,7 +14496,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Bhilai | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Bhilai's steel-works stores, ancillary estates, Durg markets and hospitals. Get Solution.",
+              "Bhilai, Chhattisgarh: temperature and humidity loggers for steel-works stores, ancillary estates, Durg markets and hospitals. Get Solution to cover Bhilai.",
             indexable: true,
           },
           {
@@ -14592,7 +14592,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Bilaspur | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Bilaspur's railway and coalfield offices, rice mills, hospital and Sirgitti estate. Get Solution.",
+              "Bilaspur, Chhattisgarh: temperature and humidity loggers for railway and coalfield offices, rice mills and Sirgitti estate. Get Solution to cover Bilaspur.",
             indexable: true,
           },
           {
@@ -14688,7 +14688,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Korba | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Korba's coal-mine stores, power-station laboratories, hospitals and markets. Get Solution.",
+              "Korba, Chhattisgarh: temperature and humidity loggers for coal-mine stores, power-station laboratories, hospitals and markets. Get Solution to cover Korba.",
             indexable: true,
           },
         ],
@@ -14829,7 +14829,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Patna | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Patna's hospitals, medicine distributors, Bihta and Fatuha estates and markets. Get Solution.",
+              "Patna, Bihar: temperature and humidity loggers for hospitals, medicine distributors, Bihta and Fatuha estates and markets. Use Get Solution to plan Patna.",
             indexable: true,
           },
           {
@@ -14925,7 +14925,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Hajipur | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Hajipur's banana ripening rooms, railway stores, institute labs and industrial area. Get Solution.",
+              "Hajipur, Bihar: temperature and humidity loggers for banana ripening rooms, railway stores, institute labs and industrial area. Get Solution: Hajipur.",
             indexable: true,
           },
           {
@@ -15021,7 +15021,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Muzaffarpur | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Muzaffarpur's litchi cold rooms, Bela food plants, hospitals and trading lanes. Get Solution.",
+              "Muzaffarpur, Bihar: temperature and humidity loggers for litchi cold rooms, Bela food plants, hospitals and trading lanes. Get Solution: Muzaffarpur.",
             indexable: true,
           },
           {
@@ -15117,7 +15117,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Gaya | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Gaya's pilgrim hotels, Bodh Gaya kitchens, sweet makers and hospital stores. Get Solution.",
+              "Gaya, Bihar: temperature and humidity loggers for pilgrim hotels, Bodh Gaya kitchens, sweet makers and hospital stores. Get Solution: Gaya.",
             indexable: true,
           },
           {
@@ -15214,7 +15214,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Bhagalpur | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Bhagalpur's silk godowns, mango and rice markets, laboratories and hospitals. Get Solution.",
+              "Bhagalpur, Bihar: temperature and humidity loggers for silk godowns, mango and rice markets, laboratories and hospitals. Get Solution to cover Bhagalpur.",
             indexable: true,
           },
         ],
@@ -15354,7 +15354,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Guwahati | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Guwahati's medicine distributors, hospitals, Amingaon yards and bazaars. Get Solution.",
+              "Guwahati, Assam: temperature and humidity loggers for medicine distributors, hospitals, Amingaon yards and bazaars. Get Solution to begin in Guwahati.",
             indexable: true,
           },
           {
@@ -15450,7 +15450,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Dibrugarh | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Dibrugarh's tea factories and warehouses, oilfield suppliers and hospitals. Get Solution.",
+              "Dibrugarh, Assam: temperature and humidity loggers for tea factories and warehouses, oilfield suppliers and hospitals. Get Solution: Dibrugarh.",
             indexable: true,
           },
           {
@@ -15546,7 +15546,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Silchar | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Silchar's wholesale lanes, hospital, hill-road yards and Barak Valley tea stores. Get Solution.",
+              "Silchar, Assam: temperature and humidity loggers for wholesale lanes, hill-road yards and Barak Valley tea stores. Get Solution to cover Silchar.",
             indexable: true,
           },
           {
@@ -15642,7 +15642,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Tezpur | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Tezpur's tea factories, university laboratories, hospital and river-trade market. Get Solution.",
+              "Tezpur, Assam: temperature and humidity loggers for tea factories, university laboratories, the hospital and river-trade market. Get Solution: Tezpur.",
             indexable: true,
           },
         ],
@@ -15778,7 +15778,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Imphal | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Imphal's markets, handloom godowns, medicine distributors and hospitals. Get Solution.",
+              "Imphal, Manipur: temperature and humidity loggers for markets, handloom godowns, medicine distributors and hospitals. Get Solution to begin in Imphal.",
             indexable: true,
           },
         ],
@@ -15914,7 +15914,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Shillong | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Shillong's hotel kitchens, hospitals, university labs and Byrnihat-side stores. Get Solution.",
+              "Shillong, Meghalaya: temperature and humidity loggers for hotel kitchens, hospitals, university labs and Byrnihat-side stores. Get Solution: Shillong.",
             indexable: true,
           },
         ],
@@ -16050,7 +16050,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Agartala | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Agartala's markets, border-trade godowns, hospitals and Bodhjungnagar estate. Get Solution.",
+              "Agartala, Tripura: temperature and humidity loggers for markets, border-trade godowns, hospitals and Bodhjungnagar estate. Get Solution to cover Agartala.",
             indexable: true,
           },
         ],
@@ -16187,7 +16187,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Gangtok | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Gangtok's hotel kitchens, hospitals, market stores and mountain-road loads. Get Solution.",
+              "Gangtok, Sikkim: temperature and humidity loggers for hotel kitchens, hospitals, market stores and mountain-road loads. Get Solution to begin in Gangtok.",
             indexable: true,
           },
           {
@@ -16283,7 +16283,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Rangpo | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Rangpo's pharma estate, bottling plants, checkpost loads and clinics. Get Solution.",
+              "Rangpo, Sikkim: temperature and humidity loggers for the pharma estate, bottling plants, checkpost loads and clinics. Get Solution to begin in Rangpo.",
             indexable: true,
           },
         ],
@@ -16423,7 +16423,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Jammu | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Jammu's Bari Brahmana pharma plants, medicine distributors, hospitals and markets. Get Solution.",
+              "Jammu, Jammu and Kashmir: temperature and humidity loggers for Bari Brahmana pharma plants, medicine distributors and hospitals. Get Solution: Jammu.",
             indexable: true,
           },
           {
@@ -16519,7 +16519,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Srinagar | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Srinagar's apple cold stores, saffron and handicraft rooms and hospitals. Get Solution.",
+              "Srinagar, Jammu and Kashmir: temperature and humidity loggers for apple cold stores, saffron and handicraft rooms and hospitals. Get Solution: Srinagar.",
             indexable: true,
           },
           {
@@ -16610,7 +16610,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Samba | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Samba's industrial complex, medical institute, highway warehouses and grain yards. Get Solution.",
+              "Samba, Jammu and Kashmir: loggers for the industrial complex, medical institute, highway warehouses and grain yards. Get Solution: Samba.",
             indexable: true,
           },
           {
@@ -16707,7 +16707,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Kathua | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Kathua's highway terminals, grain and fruit godowns, estates and hospitals. Get Solution.",
+              "Kathua, Jammu and Kashmir: temperature and humidity loggers for highway terminals, grain and fruit godowns, estates and hospitals. Get Solution: Kathua.",
             indexable: true,
           },
         ],
@@ -16844,7 +16844,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Puducherry | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Puducherry's pharma and electronics estates, beach hotels and hospitals. Get Solution.",
+              "Puducherry, India: temperature and humidity loggers for pharma and electronics estates, beach hotels and hospitals. Get Solution to begin in Puducherry.",
             indexable: true,
           },
           {
@@ -16940,7 +16940,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Karaikal | Prithvi",
             metaDescription:
-              "WiFi and GSM temperature and humidity data loggers for Karaikal's rice mills, fishing harbour, port sheds and hospital campus. Get Solution.",
+              "Karaikal, Puducherry: temperature and humidity loggers for rice mills, the fishing harbour, port sheds and the hospital campus. Get Solution: Karaikal.",
             indexable: true,
           },
         ],
@@ -17136,7 +17136,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Riyadh | Prithvi",
             metaDescription:
-              "WiFi temperature data loggers for Riyadh's pharma warehouses, hospitals and food depots, supplied from India with remote set-up. Get Solution.",
+              "Riyadh, Saudi Arabia: WiFi loggers for pharma warehouses, hospitals and food depots, supplied from India with remote set-up. Get Solution to cover Riyadh.",
             indexable: true,
           },
           {
@@ -17232,7 +17232,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Al Kharj | Prithvi",
             metaDescription:
-              "WiFi temperature data loggers for Al Kharj's dairy farms, produce packing houses, poultry plants and hospitals, set up remotely. Get Solution.",
+              "Al Kharj, Riyadh Region: WiFi loggers for dairy farms, produce packing houses, poultry plants and hospitals, set up remotely. Get Solution: Al Kharj.",
             indexable: true,
           },
           {
@@ -17328,7 +17328,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Diriyah | Prithvi",
             metaDescription:
-              "WiFi temperature and humidity data loggers for Diriyah's restaurant kitchens, heritage archive stores and caterers, set up remotely. Get Solution.",
+              "Diriyah, Riyadh Region: WiFi temperature and humidity loggers for restaurant kitchens, heritage archive stores and caterers. Get Solution to cover Diriyah.",
             indexable: true,
           },
           {
@@ -17424,7 +17424,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Al Majmaah | Prithvi",
             metaDescription:
-              "WiFi temperature data loggers for Al Majmaah's date stores, dairy and poultry farms, university labs and hospitals, set up remotely. Get Solution.",
+              "Al Majmaah, Riyadh Region: WiFi loggers for date stores, dairy and poultry farms, university labs and hospitals. Get Solution to begin in Al Majmaah.",
             indexable: true,
           },
         ],
@@ -17559,7 +17559,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Jeddah | Prithvi",
             metaDescription:
-              "WiFi temperature and humidity data loggers for Jeddah's port warehouses, food import cold rooms and hospitals, set up remotely. Get Solution.",
+              "Jeddah, Saudi Arabia: WiFi temperature and humidity loggers for port warehouses, food import cold rooms and hospitals. Get Solution to begin in Jeddah.",
             indexable: true,
           },
           {
@@ -17655,7 +17655,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Makkah | Prithvi",
             metaDescription:
-              "WiFi temperature data loggers for Makkah's hotel kitchens, hospital and pharmacy stores and food depots, set up remotely. Get Solution.",
+              "Makkah, Saudi Arabia: WiFi loggers for hotel kitchens, hospital and pharmacy stores and food depots, set up remotely. Get Solution for Makkah.",
             indexable: true,
           },
           {
@@ -17751,7 +17751,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Taif | Prithvi",
             metaDescription:
-              "WiFi temperature data loggers for Taif's fruit packing houses, rose-water stores, hotel kitchens and hospitals, set up remotely from India. Get Solution.",
+              "Taif, Makkah Region: WiFi loggers for fruit packing houses, rose-water stores, hotel kitchens and hospitals. Get Solution, or call us to discuss Taif.",
             indexable: true,
           },
           {
@@ -17847,7 +17847,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Rabigh | Prithvi",
             metaDescription:
-              "WiFi temperature data loggers for Rabigh's refinery stores, camp canteens, clinics and port warehouses, set up remotely. Get Solution.",
+              "Rabigh, Makkah Region: WiFi loggers for refinery stores, camp canteens, clinics and port warehouses, set up remotely. Get Solution to begin in Rabigh.",
             indexable: true,
           },
           {
@@ -17943,7 +17943,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Data Loggers in King Abdullah Economic City | Prithvi",
             metaDescription:
-              "WiFi temperature data loggers for King Abdullah Economic City's port yards, industrial plots, hotel kitchens and clinics, set up remotely. Get Solution.",
+              "King Abdullah Economic City, Saudi Arabia: WiFi loggers for port yards, plots, hotel kitchens and clinics. Get Solution: King Abdullah Economic City.",
             indexable: true,
           },
         ],
@@ -18083,7 +18083,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Dammam | Prithvi",
             metaDescription:
-              "WiFi temperature and humidity data loggers for Dammam's chemical plants, port warehouses and food depots, set up remotely. Get Solution.",
+              "Dammam, Saudi Arabia: WiFi temperature and humidity loggers for chemical plants, port warehouses and food depots. Get Solution: request a plan for Dammam.",
             indexable: true,
           },
           {
@@ -18179,7 +18179,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Al Khobar | Prithvi",
             metaDescription:
-              "WiFi temperature data loggers for Al Khobar's hotel kitchens, hospitals, supermarkets and university labs, set up remotely from India. Get Solution.",
+              "Al Khobar, Saudi Arabia: WiFi loggers for hotel kitchens, hospitals, supermarkets and university labs, set up remotely from India. Get Solution: Al Khobar.",
             indexable: true,
           },
           {
@@ -18275,7 +18275,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Jubail | Prithvi",
             metaDescription:
-              "WiFi temperature data loggers for Jubail's plant stores, port warehouses, camp canteens and laboratories, set up remotely from India. Get Solution.",
+              "Jubail, Saudi Arabia: WiFi loggers for plant stores, port warehouses, camp canteens and laboratories, set up remotely. Get Solution to begin in Jubail.",
             indexable: true,
           },
           {
@@ -18371,7 +18371,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Al Ahsa | Prithvi",
             metaDescription:
-              "WiFi temperature data loggers for Al Ahsa's date packing stores, rice mills, university labs and hospitals, set up remotely from India. Get Solution.",
+              "Al Ahsa, Saudi Arabia: WiFi loggers for date packing stores, rice mills, university labs and hospitals, set up from India. Get Solution to cover Al Ahsa.",
             indexable: true,
           },
           {
@@ -18467,7 +18467,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Dhahran | Prithvi",
             metaDescription:
-              "WiFi temperature data loggers for Dhahran's university labs, research campuses, archive rooms and hotel kitchens, set up remotely. Get Solution.",
+              "Dhahran, Saudi Arabia: WiFi loggers for university labs, research campuses, archive rooms and hotel kitchens, set up remotely. Get Solution: Dhahran.",
             indexable: true,
           },
           {
@@ -18563,7 +18563,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Qatif | Prithvi",
             metaDescription:
-              "WiFi temperature data loggers for Qatif's palm-farm stores, fish ice rooms, bakeries, clinics and pharmacies, set up remotely from India. Get Solution.",
+              "Qatif, Saudi Arabia: WiFi loggers for palm-farm stores, fish ice rooms, bakeries, clinics and pharmacies, set up remotely. Get Solution to begin in Qatif.",
             indexable: true,
           },
           {
@@ -18659,7 +18659,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Ras Al Khair | Prithvi",
             metaDescription:
-              "WiFi temperature data loggers for Ras Al Khair's plant stores, port and rail yards, camp canteens and clinics, set up remotely. Get Solution.",
+              "Ras Al Khair, Saudi Arabia: WiFi loggers for plant stores, port and rail yards, camp canteens and clinics, set up remotely. Get Solution: Ras Al Khair.",
             indexable: true,
           },
         ],
@@ -18800,7 +18800,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Madinah | Prithvi",
             metaDescription:
-              "WiFi temperature data loggers for Madinah's hotel kitchens, hospital and pharmacy stores and date packing houses, set up remotely. Get Solution.",
+              "Madinah, Saudi Arabia: WiFi loggers for hotel kitchens, hospital and pharmacy stores and date packing houses, set up remotely. Get Solution: Madinah.",
             indexable: true,
           },
           {
@@ -18897,7 +18897,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Yanbu | Prithvi",
             metaDescription:
-              "WiFi temperature data loggers for Yanbu's fish ice rooms, hotel kitchens, clinics and port warehouses, set up remotely from India. Get Solution.",
+              "Yanbu, Saudi Arabia: WiFi loggers for fish ice rooms, hotel kitchens, clinics and port warehouses, set up from India. Get Solution to begin in Yanbu.",
             indexable: true,
           },
         ],
@@ -19035,7 +19035,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Abha | Prithvi",
             metaDescription:
-              "WiFi temperature and humidity data loggers for Abha's hotel kitchens, central hospital, university labs and produce markets, set up remotely. Get Solution.",
+              "Abha, Saudi Arabia: WiFi temperature and humidity loggers for hotel kitchens, the hospital, university labs and markets. Get Solution: Abha.",
             indexable: true,
           },
           {
@@ -19131,7 +19131,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Khamis Mushait | Prithvi",
             metaDescription:
-              "WiFi temperature data loggers for Khamis Mushait's wholesale depots, hospitals, university labs and food plants, set up remotely from India. Get Solution.",
+              "Khamis Mushait, Saudi Arabia: WiFi loggers for wholesale depots, hospitals, university labs and food plants. Use Get Solution for Khamis Mushait.",
             indexable: true,
           },
           {
@@ -19227,7 +19227,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Bisha | Prithvi",
             metaDescription:
-              "WiFi temperature data loggers for Bisha's date stores, farm cold rooms, university labs and clinics, set up remotely from India. Get Solution.",
+              "Bisha, Saudi Arabia: WiFi loggers for date stores, farm cold rooms, university labs and clinics, set up remotely from India. Get Solution to cover Bisha.",
             indexable: true,
           },
         ],
@@ -19365,7 +19365,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Buraidah | Prithvi",
             metaDescription:
-              "WiFi temperature data loggers for Buraidah's date market stores, farm cold rooms, industrial city plants and hospitals, set up remotely. Get Solution.",
+              "Buraidah, Saudi Arabia: WiFi loggers for date market stores, farm cold rooms, industrial plants and hospitals. Get Solution: request a plan for Buraidah.",
             indexable: true,
           },
           {
@@ -19461,7 +19461,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Unaizah | Prithvi",
             metaDescription:
-              "WiFi temperature data loggers for Unaizah's date stores, covered-market dealers, clinics and college labs, set up remotely from India. Get Solution.",
+              "Unaizah, Saudi Arabia: WiFi loggers for date stores, covered-market traders, clinics and college labs, set up remotely. Get Solution: Unaizah.",
             indexable: true,
           },
         ],
@@ -19600,7 +19600,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Jazan | Prithvi",
             metaDescription:
-              "WiFi temperature data loggers for Jazan's fish ice rooms, fruit packing houses, port warehouses and hospitals, set up remotely from India. Get Solution.",
+              "Jazan, Saudi Arabia: WiFi loggers for fish ice rooms, fruit packing houses, port warehouses and hospitals, set up from India. Get Solution to cover Jazan.",
             indexable: true,
           },
         ],
@@ -19736,7 +19736,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Tabuk | Prithvi",
             metaDescription:
-              "WiFi temperature data loggers for Tabuk's farm packing houses, food depots, regional hospital and university labs, set up remotely. Get Solution.",
+              "Tabuk, Saudi Arabia: WiFi loggers for farm packing houses, food depots, the regional hospital and university labs. Get Solution to begin in Tabuk.",
             indexable: true,
           },
         ],
@@ -19872,7 +19872,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Hail | Prithvi",
             metaDescription:
-              "WiFi temperature data loggers for Hail's farm stores, dairies, mills, hospital and university labs, set up remotely from India. Get Solution.",
+              "Hail, Saudi Arabia: WiFi loggers for farm stores, dairies, mills, the hospital and university labs, set up from India. Get Solution to begin in Hail.",
             indexable: true,
           },
         ],
@@ -20008,7 +20008,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Najran | Prithvi",
             metaDescription:
-              "WiFi temperature data loggers for Najran's date and fruit stores, wholesale depots, university labs and hospitals, set up remotely. Get Solution.",
+              "Najran, Saudi Arabia: WiFi loggers for date and fruit stores, wholesale depots, university labs and hospitals, set up remotely. Get Solution: Najran.",
             indexable: true,
           },
         ],
@@ -20144,7 +20144,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Al Baha | Prithvi",
             metaDescription:
-              "WiFi temperature data loggers for Al Baha's honey and fruit stores, hotel kitchens, hospital and university labs, set up remotely from India. Get Solution.",
+              "Al Baha, Saudi Arabia: WiFi loggers for honey and fruit stores, hotel kitchens, the hospital and university labs. Get Solution to begin in Al Baha.",
             indexable: true,
           },
         ],
@@ -20280,7 +20280,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Sakaka | Prithvi",
             metaDescription:
-              "WiFi temperature data loggers for Sakaka's olive-oil and date stores, produce packers, hospital and university labs, set up remotely. Get Solution.",
+              "Sakaka, Saudi Arabia: WiFi loggers for olive-oil and date stores, produce packers, the hospital and university labs. Get Solution to begin in Sakaka.",
             indexable: true,
           },
         ],
@@ -20416,7 +20416,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Arar | Prithvi",
             metaDescription:
-              "WiFi temperature data loggers for Arar's food and medicine depots, regional hospital, clinics and farm stores, set up remotely from India. Get Solution.",
+              "Arar, Saudi Arabia: WiFi loggers for food and medicine depots, the regional hospital, clinics and farm stores, set up from India. Get Solution: Arar.",
             indexable: true,
           },
         ],
@@ -20617,7 +20617,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Dubai | Prithvi",
             metaDescription:
-              "Data loggers for Dubai's re-export warehouses, food importers, hospitals and hotel kitchens in long, hot, humid summers. Get Solution.",
+              "Dubai, UAE: data loggers for re-export warehouses, food importers, hospitals and hotel kitchens through long, humid summers. Get Solution to cover Dubai.",
             indexable: true,
           },
         ],
@@ -20767,7 +20767,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Abu Dhabi | Prithvi",
             metaDescription:
-              "Data loggers for Abu Dhabi's hospitals, hotel kitchens, food importers and industrial districts in Gulf heat and humidity. Get Solution.",
+              "Abu Dhabi, UAE: data loggers for hospitals, hotel kitchens, food importers and industrial districts in Gulf heat and humidity. Get Solution: Abu Dhabi.",
             indexable: true,
           },
           {
@@ -20864,7 +20864,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Al Ain | Prithvi",
             metaDescription:
-              "Data loggers for Al Ain's hospitals, university labs, date stores, hotel kitchens and warehouses in desert heat and dust. Get Solution.",
+              "Al Ain, Abu Dhabi Emirate: data loggers for hospitals, university labs, date stores, hotel kitchens and warehouses in desert heat. Get Solution: Al Ain.",
             indexable: true,
           },
           {
@@ -20960,7 +20960,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Ruwais | Prithvi",
             metaDescription:
-              "Data loggers for Ruwais's laboratories, chemical stores, canteens and clinics on the hot, humid Gulf coast of Al Dhafra. Get Solution.",
+              "Ruwais, Abu Dhabi Emirate: data loggers for laboratories, chemical stores, canteens and clinics on the humid Al Dhafra coast. Get Solution to cover Ruwais.",
             indexable: true,
           },
           {
@@ -21057,7 +21057,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Madinat Zayed | Prithvi",
             metaDescription:
-              "Data loggers for Madinat Zayed's date farms, supermarkets, clinics and feed stores in desert heat and dust. Get Solution.",
+              "Madinat Zayed, Abu Dhabi Emirate: data loggers for date farms, supermarkets, clinics and feed stores in desert heat and dust. Get Solution: Madinat Zayed.",
             indexable: true,
           },
           {
@@ -21153,7 +21153,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Liwa | Prithvi",
             metaDescription:
-              "Data loggers for Liwa's date farms, desert resort kitchens, village shops and clinics beside the great sand dunes. Get Solution.",
+              "Liwa, Abu Dhabi Emirate: data loggers for date farms, desert resort kitchens, village shops and clinics beside the sand dunes. Get Solution for Liwa.",
             indexable: true,
           },
         ],
@@ -21298,7 +21298,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Sharjah | Prithvi",
             metaDescription:
-              "Data loggers for Sharjah's hospitals, food importers, souk stores, free-zone warehouses and hotel kitchens in humid heat. Get Solution.",
+              "Sharjah, UAE: data loggers for hospitals, food importers, souk stores, free-zone warehouses and hotel kitchens in humid heat. Use Get Solution for Sharjah.",
             indexable: true,
           },
           {
@@ -21394,7 +21394,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Khor Fakkan | Prithvi",
             metaDescription:
-              "Data loggers for Khor Fakkan's fish ice stores, supermarkets, hotel kitchens and clinics on the Gulf of Oman coast. Get Solution.",
+              "Khor Fakkan, UAE: data loggers for fish ice stores, supermarkets, hotel kitchens and clinics on the Gulf of Oman coast. Get Solution to cover Khor Fakkan.",
             indexable: true,
           },
           {
@@ -21490,7 +21490,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Kalba | Prithvi",
             metaDescription:
-              "Data loggers for Kalba's fish ice boxes, farm produce stores, village shops and clinics beside the mangrove coast. Get Solution.",
+              "Kalba, Sharjah Emirate: data loggers for fish ice boxes, farm produce stores, village shops and clinics beside the mangrove coast. Get Solution: Kalba.",
             indexable: true,
           },
         ],
@@ -21631,7 +21631,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Ajman | Prithvi",
             metaDescription:
-              "Data loggers for Ajman's fish ice stores, supermarkets, clinics, workshops and free-zone warehouses in humid Gulf heat. Get Solution.",
+              "Ajman, UAE: data loggers for fish ice stores, supermarkets, clinics, workshops and free-zone warehouses in humid Gulf heat. Get Solution to begin in Ajman.",
             indexable: true,
           },
         ],
@@ -21770,7 +21770,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Umm Al Quwain | Prithvi",
             metaDescription:
-              "Data loggers for Umm Al Quwain's fish ice stores, small-farm produce sheds, shops and clinics beside the mangrove lagoon. Get Solution.",
+              "Umm Al Quwain, UAE: data loggers for fish ice stores, small-farm produce sheds, shops and clinics beside the mangrove lagoon. Get Solution: Umm Al Quwain.",
             indexable: true,
           },
         ],
@@ -21912,7 +21912,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Ras Al Khaimah | Prithvi",
             metaDescription:
-              "Data loggers for Ras Al Khaimah's factories, warehouses, resort kitchens and clinics between the Gulf and the Hajar mountains. Get Solution.",
+              "Ras Al Khaimah, UAE: data loggers for factories, warehouses, resort kitchens and clinics beneath the Hajar mountains. Get Solution to cover Ras Al Khaimah.",
             indexable: true,
           },
         ],
@@ -22054,7 +22054,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Fujairah | Prithvi",
             metaDescription:
-              "Data loggers for Fujairah's fish ice stores, hotel kitchens, farm produce sheds, clinics and harbour warehouses. Get Solution.",
+              "Fujairah, UAE: data loggers for fish ice stores, hotel kitchens, farm produce sheds, clinics and harbour warehouses. Use Get Solution to plan Fujairah.",
             indexable: true,
           },
           {
@@ -22150,7 +22150,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Dibba Al Fujairah | Prithvi",
             metaDescription:
-              "Data loggers for Dibba Al Fujairah's fish ice boxes, dive-centre kitchens, date farms and clinics beneath the mountains. Get Solution.",
+              "Dibba Al Fujairah, UAE: data loggers for fish ice boxes, dive-centre kitchens, date farms and clinics. Get Solution: Dibba Al Fujairah.",
             indexable: true,
           },
         ],
@@ -22341,7 +22341,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Doha | Prithvi",
             metaDescription:
-              "Data loggers for Doha's hospitals, hotel kitchens, food importers and warehouses in long, hot, humid summers. Get Solution.",
+              "Doha, Qatar: data loggers for hospitals, hotel kitchens, food importers and warehouses through long, hot, humid summers. Get Solution to begin in Doha.",
             indexable: true,
           },
         ],
@@ -22483,7 +22483,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Al Rayyan | Prithvi",
             metaDescription:
-              "Data loggers for Al Rayyan's supermarkets, bakeries, pharmacies, clinics and warehouses in hot summers and blowing dust. Get Solution.",
+              "Al Rayyan, Qatar: data loggers for supermarkets, bakeries, pharmacies, clinics and warehouses in hot summers and blowing dust. Get Solution: Al Rayyan.",
             indexable: true,
           },
         ],
@@ -22625,7 +22625,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Al Wakrah | Prithvi",
             metaDescription:
-              "Data loggers for Al Wakrah's fish ice stores, market spice stores, clinics, cafes and supermarkets in salt air. Get Solution.",
+              "Al Wakrah, Qatar: data loggers for fish ice stores, market spice stores, clinics, cafes and supermarkets in salt air. Get Solution to begin in Al Wakrah.",
             indexable: true,
           },
           {
@@ -22721,7 +22721,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Mesaieed | Prithvi",
             metaDescription:
-              "Data loggers for Mesaieed's industrial stores, laboratories, canteens and clinics beside the dunes and the Gulf. Get Solution.",
+              "Mesaieed, Qatar: data loggers for industrial stores, laboratories, canteens and clinics beside the dunes and the Gulf. Get Solution to begin in Mesaieed.",
             indexable: true,
           },
           {
@@ -22818,7 +22818,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Al Wukair | Prithvi",
             metaDescription:
-              "Data loggers for Al Wukair's supermarkets, farm sheds, restaurants, clinics and roadside warehouses in dry, dusty heat. Get Solution.",
+              "Al Wukair, Qatar: data loggers for supermarkets, farm sheds, restaurants, clinics and roadside warehouses in dry, dusty heat. Get Solution: Al Wukair.",
             indexable: true,
           },
         ],
@@ -22959,7 +22959,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Al Khor | Prithvi",
             metaDescription:
-              "Data loggers for Al Khor's harbour ice stores, bakeries, supermarkets, clinics and warehouses beside the creek. Get Solution.",
+              "Al Khor, Qatar: data loggers for harbour ice stores, bakeries, supermarkets, clinics and warehouses beside the creek. Get Solution to begin in Al Khor.",
             indexable: true,
           },
           {
@@ -23055,7 +23055,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Ras Laffan | Prithvi",
             metaDescription:
-              "Data loggers for Ras Laffan's support warehouses, laboratories, canteens and clinics on the exposed north-east headland. Get Solution.",
+              "Ras Laffan, Qatar: data loggers for support warehouses, laboratories, canteens and clinics on the exposed north-east headland. Get Solution: Ras Laffan.",
             indexable: true,
           },
         ],
@@ -23193,7 +23193,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Lusail | Prithvi",
             metaDescription:
-              "Data loggers for Lusail's hotel kitchens, supermarkets, clinics and tower stockrooms on the hot, humid waterfront. Get Solution.",
+              "Lusail, Qatar: data loggers for hotel kitchens, supermarkets, clinics and tower stockrooms on the hot, humid waterfront. Get Solution to begin in Lusail.",
             indexable: true,
           },
           {
@@ -23290,7 +23290,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Al Daayen | Prithvi",
             metaDescription:
-              "Data loggers for Al Daayen's supermarkets, bakeries, farm sheds, clinics and workshops in hot, dusty heat. Get Solution.",
+              "Al Daayen, Qatar: data loggers for supermarkets, bakeries, farm sheds, clinics and workshops in hot, dusty heat. Get Solution to cover Al Daayen.",
             indexable: true,
           },
         ],
@@ -23428,7 +23428,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Umm Salal | Prithvi",
             metaDescription:
-              "Data loggers for Umm Salal's farm sheds, bakeries, shops, clinics and workshops in hot, dry heat and blowing dust. Get Solution.",
+              "Umm Salal, Qatar: data loggers for farm sheds, bakeries, shops, clinics and workshops in hot, dry heat and blowing dust. Use Get Solution for Umm Salal.",
             indexable: true,
           },
         ],
@@ -23564,7 +23564,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Al Shamal | Prithvi",
             metaDescription:
-              "Data loggers for Al Shamal's harbour ice stores, farm sheds, supermarkets and clinics on the far northern coast. Get Solution.",
+              "Al Shamal, Qatar: data loggers for harbour ice stores, farm sheds, supermarkets and clinics on the far northern coast. Get Solution to begin in Al Shamal.",
             indexable: true,
           },
         ],
@@ -23706,7 +23706,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Al Shahaniya | Prithvi",
             metaDescription:
-              "Data loggers for Al Shahaniya's desert farm sheds, feed stores, shops and clinics in very hot, dry heat and blowing sand. Get Solution.",
+              "Al Shahaniya, Qatar: data loggers for desert farm sheds, feed stores, shops and clinics in very hot, dry heat and blowing sand. Get Solution: Al Shahaniya.",
             indexable: true,
           },
           {
@@ -23802,7 +23802,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Dukhan | Prithvi",
             metaDescription:
-              "Data loggers for Dukhan's supermarkets, hospital, clinics and edge-of-town warehouses beside the west-coast dunes. Get Solution.",
+              "Dukhan, Qatar: data loggers for supermarkets, the hospital, clinics and edge-of-town warehouses beside the west-coast dunes. Get Solution to cover Dukhan.",
             indexable: true,
           },
         ],
@@ -23999,7 +23999,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Muscat | Prithvi",
             metaDescription:
-              "Data loggers for Muscat's hospitals, hotel kitchens, food importers and warehouses in long, hot, humid summers. Get Solution.",
+              "Muscat, Oman: data loggers for hospitals, hotel kitchens, food importers and warehouses through long, hot, humid summers. Get Solution to begin in Muscat.",
             indexable: true,
           },
           {
@@ -24095,7 +24095,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Muttrah | Prithvi",
             metaDescription:
-              "Data loggers for Muttrah's fish ice stores, covered-market stock rooms, port-side sheds and clinics in damp harbour heat. Get Solution.",
+              "Muttrah, Oman: data loggers for fish ice stores, covered-market stock rooms, port-side sheds and clinics in damp harbour heat. Get Solution: Muttrah.",
             indexable: true,
           },
           {
@@ -24192,7 +24192,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Seeb | Prithvi",
             metaDescription:
-              "Data loggers for Seeb's harbour ice stores, date rooms, bakeries, clinics and airport-district stores on the hot, humid coast. Get Solution.",
+              "Seeb, Oman: data loggers for harbour ice stores, date rooms, bakeries, clinics and airport-district stores on the humid coast. Use Get Solution for Seeb.",
             indexable: true,
           },
           {
@@ -24289,7 +24289,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Bawshar | Prithvi",
             metaDescription:
-              "Data loggers for Bawshar's supermarkets, bakeries, pharmacies, clinics and workshops in hot, dry heat beside the dunes. Get Solution.",
+              "Bawshar, Oman: data loggers for supermarkets, bakeries, pharmacies, clinics and workshops in hot, dry heat beside the dunes. Get Solution to cover Bawshar.",
             indexable: true,
           },
           {
@@ -24385,7 +24385,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Quriyat | Prithvi",
             metaDescription:
-              "Data loggers for Quriyat's harbour ice boxes, date sheds, shops and clinic beneath the mountains on the south-eastern coast. Get Solution.",
+              "Quriyat, Oman: data loggers for harbour ice boxes, date sheds, shops and the clinic beneath the mountains. Get Solution, or WhatsApp us about Quriyat.",
             indexable: true,
           },
         ],
@@ -24528,7 +24528,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Sohar | Prithvi",
             metaDescription:
-              "Data loggers for Sohar's harbour ice stores, date rooms, hospitals, supermarkets and warehouses on the hot, humid Batinah coast. Get Solution.",
+              "Sohar, Oman: data loggers for harbour ice stores, date rooms, hospitals, supermarkets and warehouses on the humid Batinah coast. Get Solution: Sohar.",
             indexable: true,
           },
           {
@@ -24624,7 +24624,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Saham | Prithvi",
             metaDescription:
-              "Data loggers for Saham's market cold boxes, date sheds, shops and clinic among the palms of the Batinah coast. Get Solution.",
+              "Saham, Oman: data loggers for market cold boxes, date sheds, shops and the clinic among the palms of the Batinah coast. Get Solution to begin in Saham.",
             indexable: true,
           },
           {
@@ -24720,7 +24720,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Al Suwaiq | Prithvi",
             metaDescription:
-              "Data loggers for Al Suwaiq's date and fruit farm stores, harbour fish rooms, market shops and hospital on the Batinah plain. Get Solution.",
+              "Al Suwaiq, Oman: data loggers for date and fruit farm stores, harbour fish rooms, market shops and the hospital. Get Solution to begin in Al Suwaiq.",
             indexable: true,
           },
         ],
@@ -24862,7 +24862,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Barka | Prithvi",
             metaDescription:
-              "Data loggers for Barka's fish rooms, produce and date stores, clinics and warehouses on the hot, humid Batinah plain. Get Solution.",
+              "Barka, Oman: data loggers for fish rooms, produce and date stores, clinics and warehouses on the hot, humid Batinah plain. Get Solution to begin in Barka.",
             indexable: true,
           },
           {
@@ -24958,7 +24958,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Rustaq | Prithvi",
             metaDescription:
-              "Data loggers for Rustaq's date stores, farm sheds, market stock rooms and clinics in the foothill oasis below the mountains. Get Solution.",
+              "Rustaq, Oman: data loggers for date stores, farm sheds, market stock rooms and clinics in the foothill oasis below the mountains. Get Solution: Rustaq.",
             indexable: true,
           },
           {
@@ -25054,7 +25054,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Nakhal | Prithvi",
             metaDescription:
-              "Data loggers for Nakhal's date sheds, small-market coolers, clinic and farm-supply stores at the foot of the mountains. Get Solution.",
+              "Nakhal, Oman: data loggers for date sheds, small-market coolers, the clinic and farm-supply stores at the foot of the mountains. Get Solution: Nakhal.",
             indexable: true,
           },
         ],
@@ -25198,7 +25198,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Nizwa | Prithvi",
             metaDescription:
-              "Data loggers for Nizwa's date stores, sweet-makers, hospital, laboratories and warehouses in fierce dry heat and cold nights. Get Solution.",
+              "Nizwa, Oman: data loggers for date stores, sweet-makers, the hospital, laboratories and warehouses in fierce dry heat and cold nights. Get Solution: Nizwa.",
             indexable: true,
           },
           {
@@ -25294,7 +25294,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Bahla | Prithvi",
             metaDescription:
-              "Data loggers for Bahla's date gardens, pottery workshops, small-market coolers and clinic in a walled oasis town. Get Solution.",
+              "Bahla, Oman: data loggers for date gardens, pottery workshops, small-market coolers and the clinic in a walled oasis town. Get Solution: Bahla.",
             indexable: true,
           },
           {
@@ -25391,7 +25391,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Izki | Prithvi",
             metaDescription:
-              "Data loggers for Izki's date groves, roadside shops, old-quarter stock rooms and clinic in an ancient oasis town. Get Solution.",
+              "Izki, Oman: data loggers for date groves, roadside shops, old-quarter stock rooms and the clinic in an ancient oasis town. Get Solution for Izki.",
             indexable: true,
           },
           {
@@ -25488,7 +25488,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Sumail | Prithvi",
             metaDescription:
-              "Data loggers for Sumail's valley farm stores, roadside shops, garages and clinics in the gap through the mountains. Get Solution.",
+              "Sumail, Oman: data loggers for valley farm stores, roadside shops, garages and clinics in the gap through the mountains. Get Solution for Sumail.",
             indexable: true,
           },
         ],
@@ -25627,7 +25627,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Ibri | Prithvi",
             metaDescription:
-              "Data loggers for Ibri's date stores, market wholesalers, hospital and warehouses at the edge of the desert plain. Get Solution.",
+              "Ibri, Oman: data loggers for date stores, market wholesalers, the hospital and warehouses at the edge of the desert plain. Get Solution to begin in Ibri.",
             indexable: true,
           },
         ],
@@ -25766,7 +25766,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Buraimi | Prithvi",
             metaDescription:
-              "Data loggers for Buraimi's supermarkets, date traders, hospital and warehouses in an inland oasis city. Get Solution.",
+              "Buraimi, Oman: data loggers for supermarkets, date traders, the hospital and warehouses in an inland oasis city. Get Solution: request a plan for Buraimi.",
             indexable: true,
           },
         ],
@@ -25907,7 +25907,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Salalah | Prithvi",
             metaDescription:
-              "Data loggers for Salalah's fish rooms, fruit stores, spice stock rooms, hospital and warehouses through the humid monsoon. Get Solution.",
+              "Salalah, Oman: data loggers for fish rooms, fruit stores, spice stock rooms, the hospital and warehouses through the humid monsoon. Get Solution: Salalah.",
             indexable: true,
           },
         ],
@@ -26047,7 +26047,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Duqm | Prithvi",
             metaDescription:
-              "Data loggers for Duqm's fishing harbour, supermarkets, hospital and warehouse plots on the empty Arabian Sea coast. Get Solution.",
+              "Duqm, Oman: data loggers for the fishing harbour, supermarkets, the hospital and warehouse plots on the empty Arabian Sea coast. Get Solution for Duqm.",
             indexable: true,
           },
         ],
@@ -26187,7 +26187,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Sur | Prithvi",
             metaDescription:
-              "Data loggers for Sur's harbour ice stores, dhow-yard materials, market stock rooms and hospital on the humid south-eastern coast. Get Solution.",
+              "Sur, Oman: data loggers for harbour ice stores, dhow-yard materials, market stock rooms and the hospital. Get Solution: Sur.",
             indexable: true,
           },
         ],
@@ -26324,7 +26324,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Ibra | Prithvi",
             metaDescription:
-              "Data loggers for Ibra's date stores, weekly-market stock rooms, shops and clinics in an inland oasis town. Get Solution.",
+              "Ibra, Oman: data loggers for date stores, weekly-market stock rooms, shops and clinics in an inland oasis town. Get Solution and plan your Ibra sites.",
             indexable: true,
           },
           {
@@ -26420,7 +26420,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Bidiyah | Prithvi",
             metaDescription:
-              "Data loggers for Bidiyah's date sheds, roadside shops, workshops and clinic at the edge of the dunes. Get Solution.",
+              "Bidiyah, Oman: data loggers for date sheds, roadside shops, workshops and the clinic at the edge of the dunes. Get Solution, or call us to discuss Bidiyah.",
             indexable: true,
           },
         ],
@@ -26556,7 +26556,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Khasab | Prithvi",
             metaDescription:
-              "Data loggers for Khasab's harbour ice boxes, shops, hospital and clinics among steep inlets and bare cliffs. Get Solution.",
+              "Khasab, Oman: data loggers for harbour ice boxes, shops, the hospital and clinics among steep inlets and bare cliffs. Get Solution to begin in Khasab.",
             indexable: true,
           },
         ],
@@ -26741,7 +26741,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Kuwait City | Prithvi",
             metaDescription:
-              "Data loggers for Kuwait City's hospitals, supermarkets, hotel kitchens, markets and warehouses in extreme summer heat. Get Solution.",
+              "Kuwait City, Kuwait: data loggers for hospitals, supermarkets, hotel kitchens, markets and warehouses in extreme summer heat. Get Solution: Kuwait City.",
             indexable: true,
           },
         ],
@@ -26878,7 +26878,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Hawalli | Prithvi",
             metaDescription:
-              "Data loggers for Hawalli's grocers, bakeries, pharmacies, clinics and traders' stockrooms in blazing dry summers. Get Solution.",
+              "Hawalli, Kuwait: data loggers for grocers, bakeries, pharmacies, clinics and traders' stockrooms in blazing dry summers. Get Solution to begin in Hawalli.",
             indexable: true,
           },
           {
@@ -26974,7 +26974,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Salmiya | Prithvi",
             metaDescription:
-              "Data loggers for Salmiya's seafront hotel kitchens, supermarkets, clinics and shop stockrooms in blazing heat and humid air. Get Solution.",
+              "Salmiya, Kuwait: data loggers for seafront hotel kitchens, supermarkets, clinics and shop stockrooms in blazing heat and humid air. Get Solution: Salmiya.",
             indexable: true,
           },
         ],
@@ -27119,7 +27119,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Farwaniya | Prithvi",
             metaDescription:
-              "Data loggers for Farwaniya's hospital, pharmacies, supermarkets, wholesalers and workshops in blazing dry heat and dust. Get Solution.",
+              "Farwaniya, Kuwait: data loggers for the hospital, pharmacies, supermarkets, wholesalers and workshops in dry heat and dust. Use Get Solution for Farwaniya.",
             indexable: true,
           },
           {
@@ -27215,7 +27215,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Khaitan | Prithvi",
             metaDescription:
-              "Data loggers for Khaitan's corner groceries, butchers, bakers, pharmacies and back-room stockrooms in blazing dry heat. Get Solution.",
+              "Khaitan, Kuwait: data loggers for corner groceries, butchers, bakers, pharmacies and back-room stockrooms in blazing dry heat. Get Solution: Khaitan.",
             indexable: true,
           },
           {
@@ -27311,7 +27311,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Jleeb Al-Shuyoukh | Prithvi",
             metaDescription:
-              "Data loggers for Jleeb Al-Shuyoukh's wholesale cold rooms, warehouses, shops and clinics in blazing dry heat and dust. Get Solution.",
+              "Jleeb Al-Shuyoukh, Kuwait: data loggers for wholesale cold rooms, warehouses, shops and clinics in dry heat and dust. Get Solution: Jleeb Al-Shuyoukh.",
             indexable: true,
           },
         ],
@@ -27455,7 +27455,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Ahmadi | Prithvi",
             metaDescription:
-              "Data loggers for Ahmadi's hospital, pharmacies, supermarkets and school kitchens in a planned green town in blazing heat. Get Solution.",
+              "Ahmadi, Kuwait: data loggers for the hospital, pharmacies, supermarkets and school kitchens of a planned green town in blazing heat. Get Solution: Ahmadi.",
             indexable: true,
           },
           {
@@ -27552,7 +27552,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Fahaheel | Prithvi",
             metaDescription:
-              "Data loggers for Fahaheel's seafront restaurant kitchens, markets, pharmacies and back-lane stockrooms in blazing heat. Get Solution.",
+              "Fahaheel, Kuwait: data loggers for seafront restaurant kitchens, markets, pharmacies and back-lane stockrooms in blazing heat. Get Solution: Fahaheel.",
             indexable: true,
           },
           {
@@ -27648,7 +27648,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Wafra | Prithvi",
             metaDescription:
-              "Data loggers for Wafra's greenhouse produce sheds, packing cold rooms, animal-farm stores and clinic in blazing dry heat. Get Solution.",
+              "Wafra, Kuwait: data loggers for greenhouse produce sheds, packing cold rooms, animal-farm stores and the clinic in dry heat. Get Solution to cover Wafra.",
             indexable: true,
           },
           {
@@ -27744,7 +27744,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Khiran | Prithvi",
             metaDescription:
-              "Data loggers for Khiran's chalet kitchens, cafes, marina stores and clinic on the far southern shore in humid heat. Get Solution.",
+              "Khiran, Kuwait: data loggers for chalet kitchens, cafes, marina stores and the clinic on the far southern shore in humid heat. Use Get Solution for Khiran.",
             indexable: true,
           },
         ],
@@ -27886,7 +27886,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Jahra | Prithvi",
             metaDescription:
-              "Data loggers for Jahra's hospital, butchers, supermarkets, farm stores and yards in blazing dry heat and dust. Get Solution.",
+              "Jahra, Kuwait: data loggers for the hospital, butchers, supermarkets, farm stores and yards in blazing dry heat and dust. Get Solution to begin in Jahra.",
             indexable: true,
           },
           {
@@ -27983,7 +27983,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Sulaibiya | Prithvi",
             metaDescription:
-              "Data loggers for Sulaibiya's wholesale cold rooms, warehouses, trading yards and workshops on the flat western plain. Get Solution.",
+              "Sulaibiya, Kuwait: data loggers for wholesale cold rooms, warehouses, trading yards and workshops on the flat western plain. Get Solution for Sulaibiya.",
             indexable: true,
           },
         ],
@@ -28121,7 +28121,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Sabah Al Salem | Prithvi",
             metaDescription:
-              "Data loggers for Sabah Al Salem's supermarkets, bakeries, clinics and shop stockrooms in blazing heat and humid sea air. Get Solution.",
+              "Sabah Al Salem, Kuwait: data loggers for supermarkets, bakeries, clinics and shop stockrooms in heat and humid sea air. Get Solution: Sabah Al Salem.",
             indexable: true,
           },
           {
@@ -28218,7 +28218,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Mubarak Al-Kabeer | Prithvi",
             metaDescription:
-              "Data loggers for Mubarak Al-Kabeer's groceries, bakeries, clinics and parade stockrooms in blazing dry heat and dust. Get Solution.",
+              "Mubarak Al-Kabeer, Kuwait: data loggers for groceries, bakeries, clinics and stockrooms in blazing dry heat. Get Solution to begin in Mubarak Al-Kabeer.",
             indexable: true,
           },
         ],
@@ -28404,7 +28404,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Manama | Prithvi",
             metaDescription:
-              "Data loggers for Manama's hospitals, hotel kitchens, market stock rooms and port-side warehouses in hot, humid sea air. Get Solution.",
+              "Manama, Bahrain: data loggers for hospitals, hotel kitchens, market stock rooms and port-side warehouses in hot, humid sea air. Get Solution for Manama.",
             indexable: true,
           },
           {
@@ -28496,7 +28496,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Juffair | Prithvi",
             metaDescription:
-              "Data loggers for Juffair's apartment-block shops, cafe kitchens, clinics and serviced flats in hot, humid air. Get Solution.",
+              "Juffair, Bahrain: data loggers for apartment-block shops, cafe kitchens, clinics and serviced flats in hot, humid air. Get Solution for Juffair.",
             indexable: true,
           },
           {
@@ -28588,7 +28588,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Adliya | Prithvi",
             metaDescription:
-              "Data loggers for Adliya's villa-built cafe kitchens, bakeries, clinics and server cupboards in humid, hot air. Get Solution.",
+              "Adliya, Bahrain: data loggers for villa-built cafe kitchens, bakeries, clinics and server cupboards in humid, hot air. Get Solution to begin in Adliya.",
             indexable: true,
           },
         ],
@@ -28734,7 +28734,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Muharraq | Prithvi",
             metaDescription:
-              "Data loggers for Muharraq's old-town sweet makers, bakeries, pharmacies and fish stores in hot, humid island air. Get Solution.",
+              "Muharraq, Bahrain: data loggers for old-town sweet makers, bakeries, pharmacies and fish stores in hot, humid island air. Get Solution to cover Muharraq.",
             indexable: true,
           },
           {
@@ -28831,7 +28831,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Hidd | Prithvi",
             metaDescription:
-              "Data loggers for Hidd's fish stores, kitchens, workshops and harbour-side sheds in salty, humid island air. Get Solution.",
+              "Hidd, Bahrain: data loggers for fish stores, kitchens, workshops and harbour-side sheds in salty, humid island air. Get Solution: request a plan for Hidd.",
             indexable: true,
           },
           {
@@ -28928,7 +28928,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Arad | Prithvi",
             metaDescription:
-              "Data loggers for Arad's neighbourhood groceries, canteens, clinics and street-level storerooms in hot, humid air. Get Solution.",
+              "Arad, Bahrain: data loggers for neighbourhood groceries, canteens, clinics and street-level storerooms in hot, humid air. Use Get Solution to plan Arad.",
             indexable: true,
           },
           {
@@ -29025,7 +29025,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Busaiteen | Prithvi",
             metaDescription:
-              "Data loggers for Busaiteen's home kitchens, shore-road shops, boat-yard stores and pharmacies in salty, humid air. Get Solution.",
+              "Busaiteen, Bahrain: data loggers for home kitchens, shore-road shops, boat-yard stores and pharmacies in salty, humid air. Get Solution to cover Busaiteen.",
             indexable: true,
           },
           {
@@ -29122,7 +29122,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Amwaj Islands | Prithvi",
             metaDescription:
-              "Data loggers for Amwaj Islands cafes, supermarkets, clinics and small hotels in salty, hot, humid air. Get Solution.",
+              "Amwaj Islands, Bahrain: data loggers for cafes, supermarkets, clinics and small hotels in salty, hot, humid air. Get Solution to begin in Amwaj Islands.",
             indexable: true,
           },
         ],
@@ -29264,7 +29264,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Hamad Town | Prithvi",
             metaDescription:
-              "Data loggers for Hamad Town's groceries, school canteens, pharmacies and workshop stores in fierce, dusty summer heat. Get Solution.",
+              "Hamad Town, Bahrain: data loggers for groceries, school canteens, pharmacies and workshop stores in fierce, dusty summer heat. Get Solution: Hamad Town.",
             indexable: true,
           },
           {
@@ -29361,7 +29361,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Budaiya | Prithvi",
             metaDescription:
-              "Data loggers for Budaiya's farm stores, nurseries, roadside kitchens and ice boxes in humid, salty coastal air. Get Solution.",
+              "Budaiya, Bahrain: data loggers for farm stores, nurseries, roadside kitchens and ice boxes in humid, salty coastal air. Get Solution to begin in Budaiya.",
             indexable: true,
           },
           {
@@ -29453,7 +29453,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Saar | Prithvi",
             metaDescription:
-              "Data loggers for Saar's groceries, bakeries, school canteens and clinic fridges in hot, humid coastal air. Get Solution.",
+              "Saar, Bahrain: data loggers for groceries, bakeries, school canteens and clinic fridges in hot, humid coastal air. Get Solution to start in Saar.",
             indexable: true,
           },
         ],
@@ -29592,7 +29592,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Riffa | Prithvi",
             metaDescription:
-              "Data loggers for Riffa's supermarkets, bakeries, school canteens, clinics and workshop stores in hot, dry heat. Get Solution.",
+              "Riffa, Bahrain: data loggers for supermarkets, bakeries, school canteens, clinics and workshop stores in hot, dry heat. Get Solution to cover Riffa.",
             indexable: true,
           },
           {
@@ -29684,7 +29684,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Isa Town | Prithvi",
             metaDescription:
-              "Data loggers for Isa Town's market stalls, grocers, bakeries, canteens and pharmacy fridges in dry, hot afternoon air. Get Solution.",
+              "Isa Town, Bahrain: data loggers for market stalls, grocers, bakeries, canteens and pharmacy fridges in dry afternoon heat. Get Solution to cover Isa Town.",
             indexable: true,
           },
           {
@@ -29776,7 +29776,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Zallaq | Prithvi",
             metaDescription:
-              "Data loggers for Zallaq's seaside hotel kitchens, beach cafes, fish stores and farm cold rooms in salty, humid air. Get Solution.",
+              "Zallaq, Bahrain: data loggers for seaside hotel kitchens, beach cafes, fish stores and farm cold rooms in salty, humid air. Get Solution to cover Zallaq.",
             indexable: true,
           },
         ],
@@ -29966,7 +29966,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Aden | Prithvi",
             metaDescription:
-              "Temperature and humidity data loggers for Aden's port-city clinics, food stores and fish landings, reviewed case by case for Yemen. Get Solution.",
+              "Aden, Yemen: temperature and humidity loggers for port-city clinics, food stores and fish landings, reviewed case by case. Get Solution: Aden.",
             indexable: true,
           },
         ],
@@ -30107,7 +30107,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Mukalla | Prithvi",
             metaDescription:
-              "Temperature and humidity data loggers for Mukalla's fish ice stores, honey and date markets and clinics, reviewed case by case for Yemen. Get Solution.",
+              "Mukalla, Yemen: temperature and humidity loggers for fish ice stores, honey and date markets and clinics, reviewed case by case. Get Solution for Mukalla.",
             indexable: true,
           },
           {
@@ -30203,7 +30203,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Seiyun | Prithvi",
             metaDescription:
-              "Data loggers for Seiyun's date and honey stores, heritage rooms and clinics in Wadi Hadramaut, reviewed case by case. Get Solution.",
+              "Seiyun, Yemen: data loggers for date and honey stores, heritage rooms and clinics in Wadi Hadramaut, reviewed case by case. Get Solution to cover Seiyun.",
             indexable: true,
           },
           {
@@ -30299,7 +30299,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Shibam | Prithvi",
             metaDescription:
-              "Data loggers for Shibam's heritage rooms, guesthouse kitchens and date stores in Wadi Hadramaut, reviewed case by case. Get Solution.",
+              "Shibam, Yemen: data loggers for heritage rooms, guesthouse kitchens and date stores in Wadi Hadramaut, reviewed case by case. Get Solution to cover Shibam.",
             indexable: true,
           },
         ],
@@ -30435,7 +30435,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Zinjibar | Prithvi",
             metaDescription:
-              "Data loggers for Zinjibar's delta produce stores, fish ice rooms, shops and clinics, reviewed case by case for Yemen. Get Solution.",
+              "Zinjibar, Yemen: data loggers for delta produce stores, fish ice rooms, shops and clinics, reviewed case by case. Get Solution to begin in Zinjibar.",
             indexable: true,
           },
         ],
@@ -30575,7 +30575,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Sana'a | Prithvi",
             metaDescription:
-              "Data loggers for Sana'a's pharmacies, hospital refrigerators, markets and food stores in a mild highland climate, case by case. Get Solution.",
+              "Sana'a, Yemen: data loggers for pharmacies, hospital refrigerators, markets and food stores, reviewed case by case. Get Solution to begin in Sana'a.",
             indexable: true,
           },
         ],
@@ -30716,7 +30716,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Taiz | Prithvi",
             metaDescription:
-              "Data loggers for Taiz's hospitals, pharmacies, hillside wholesale stores and food plants, reviewed case by case for Yemen. Get Solution.",
+              "Taiz, Yemen: data loggers for hospitals, pharmacies, hillside wholesale stores and food plants, reviewed case by case. Get Solution to begin in Taiz.",
             indexable: true,
           },
           {
@@ -30812,7 +30812,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Mocha | Prithvi",
             metaDescription:
-              "Data loggers for Mocha's fish ice stores, shops and clinic refrigerators on the Red Sea coast, reviewed case by case. Get Solution.",
+              "Mocha, Yemen: data loggers for fish ice stores, shops and clinic refrigerators on the Red Sea coast, reviewed case by case. Use Get Solution to plan Mocha.",
             indexable: true,
           },
         ],
@@ -30955,7 +30955,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Hodeidah | Prithvi",
             metaDescription:
-              "Data loggers for Hodeidah's fish ice stores, wholesale food sheds, hospitals and pharmacies on the Red Sea, case by case. Get Solution.",
+              "Hodeidah, Yemen: data loggers for fish ice stores, food sheds, hospitals and pharmacies, reviewed case by case. Get Solution and plan your Hodeidah sites.",
             indexable: true,
           },
           {
@@ -31051,7 +31051,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Zabid | Prithvi",
             metaDescription:
-              "Data loggers for Zabid's heritage rooms, date stores, markets and clinic refrigerators on the Tihama plain, case by case. Get Solution.",
+              "Zabid, Yemen: data loggers for heritage rooms, date stores, markets and clinic refrigerators, reviewed case by case. Get Solution to begin in Zabid.",
             indexable: true,
           },
           {
@@ -31147,7 +31147,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Bajil | Prithvi",
             metaDescription:
-              "Data loggers for Bajil's produce markets, cold boxes, roadside stores and clinics on the Tihama plain, case by case. Get Solution.",
+              "Bajil, Yemen: data loggers for produce markets, cold boxes, roadside stores and clinics, reviewed case by case. Get Solution: Bajil.",
             indexable: true,
           },
         ],
@@ -31283,7 +31283,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Ibb | Prithvi",
             metaDescription:
-              "Data loggers for Ibb's terrace-farm produce stores, markets, hospitals and clinics in a wet highland, reviewed case by case. Get Solution.",
+              "Ibb, Yemen: data loggers for terrace-farm produce stores, markets, hospitals and clinics, reviewed case by case. Get Solution to start in Ibb.",
             indexable: true,
           },
         ],
@@ -31419,7 +31419,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Dhamar | Prithvi",
             metaDescription:
-              "Data loggers for Dhamar's farm produce stores, university labs, hospitals and clinics on a cold plateau, case by case. Get Solution.",
+              "Dhamar, Yemen: data loggers for farm produce stores, university labs, hospitals and clinics, reviewed case by case. Use Get Solution for Dhamar.",
             indexable: true,
           },
         ],
@@ -31555,7 +31555,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Marib | Prithvi",
             metaDescription:
-              "Data loggers for Marib's desert-edge date stores, clinics, wholesale food rooms and equipment yards, case by case for Yemen. Get Solution.",
+              "Marib, Yemen: data loggers for desert-edge date stores, clinics, wholesale food rooms and equipment yards, reviewed case by case. Get Solution: Marib.",
             indexable: true,
           },
         ],
@@ -31691,7 +31691,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Lahij | Prithvi",
             metaDescription:
-              "Data loggers for Lahij's delta produce sheds, dairy rooms, wholesale yards and clinics, reviewed case by case for Yemen. Get Solution.",
+              "Lahij, Yemen: data loggers for delta produce sheds, dairy rooms, wholesale yards and clinics, reviewed case by case. Use Get Solution to plan Lahij.",
             indexable: true,
           },
         ],
@@ -31827,7 +31827,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Sa'dah | Prithvi",
             metaDescription:
-              "Data loggers for Sa'dah's walled-town market stores, terrace fruit cellars, hospitals and pharmacies, case by case for Yemen. Get Solution.",
+              "Sa'dah, Yemen: data loggers for walled-town market stores, fruit cellars, hospitals and pharmacies, reviewed case by case. Get Solution to begin in Sa'dah.",
             indexable: true,
           },
         ],

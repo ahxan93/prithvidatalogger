@@ -137,7 +137,7 @@ export const areas: AreaDef[] = [
     page: {
       metaTitle: "Data Loggers in Andheri, Mumbai | Prithvi",
       metaDescription:
-        "WiFi and GSM temperature data loggers for Andheri's MIDC, Marol and SEEPZ units, with site visits arranged by appointment. Get Solution.",
+        "Andheri, Mumbai: WiFi and GSM loggers for MIDC Andheri East, Marol and SEEPZ units. Get Solution: request a plan for Andheri.",
       intro:
         "Andheri is where a great deal of Mumbai's mixed industrial and commercial storage sits side by side: factory units, stockists' godowns, laboratories, hotels near the airport and hospitals that serve the western suburbs. For a team here, a temperature data logger is less about one big cold room and more about many small ones: a stability chamber in one unit, a medicine store two lanes away, a kitchen cooler at a hotel. Prithvi supplies WiFi and GSM loggers to sites like these and sets them up so that every point reports to one dashboard instead of a clipboard.",
       places: [
@@ -201,7 +201,7 @@ export const areas: AreaDef[] = [
     page: {
       metaTitle: "Data Loggers in Malad, Mumbai | Prithvi",
       metaDescription:
-        "Temperature and humidity data loggers for Malad's business parks, godowns and workshops, from our Malad office. Visits by appointment. Get Solution.",
+        "Malad, Mumbai: temperature and humidity loggers for business parks, godowns and workshops, from our Malad West office. Get Solution to begin in Malad.",
       intro:
         "Malad is the suburb we call home: Prithvi's head office is here, which makes it the area where we are most often asked to simply come and look. The suburb is split in character. Malad West runs along Link Road with business parks, retail and service offices, while Malad East has a mix of warehouses, small industrial units and the stores of distributors who serve the northern suburbs. Temperature-sensitive stock and server equipment move through both halves every day.",
       places: [
@@ -261,7 +261,7 @@ export const areas: AreaDef[] = [
     page: {
       metaTitle: "Data Loggers in Goregaon, Mumbai | Prithvi",
       metaDescription:
-        "Temperature data loggers for Goregaon's offices, exhibition and studio district, hotels, hospitals and labs. Site visits arranged. Get Solution.",
+        "Goregaon, Mumbai: temperature loggers for offices, the exhibition and studio district, hotels, hospitals and labs. Use Get Solution to plan Goregaon.",
       intro:
         "Goregaon stretches from the railway line in the west to the highway and the wooded hills of the national park in the east. Its character comes mostly from the east side: an exhibition ground, a film studio complex, office towers and small industrial pockets that sit close to residential blocks. Storage needs are scattered rather than concentrated, which suits monitoring that can be added one room at a time and grown as the premises change.",
       places: [
@@ -321,7 +321,7 @@ export const areas: AreaDef[] = [
     page: {
       metaTitle: "Data Loggers in Vikhroli, Mumbai | Prithvi",
       metaDescription:
-        "Temperature and humidity data loggers for Vikhroli's manufacturing campuses, warehouses and business districts. Site visits arranged. Get Solution.",
+        "Vikhroli, Mumbai: temperature and humidity loggers for manufacturing campuses, warehouses and business districts. Get Solution to begin in Vikhroli.",
       intro:
         "Vikhroli sits on the eastern edge of the city between the Eastern Express Highway and the creek, and its industrial identity is older than that of most suburbs around it. Large manufacturing campuses, pharmaceutical and chemical units and warehouses share the area with newer business districts. Temperature and humidity records matter here at a bigger scale: whole production blocks, raw-material stores and finished-goods warehouses rather than single rooms.",
       places: [
@@ -381,7 +381,7 @@ export const areas: AreaDef[] = [
     page: {
       metaTitle: "Data Loggers in Mulund, Mumbai | Prithvi",
       metaDescription:
-        "WiFi and GSM temperature data loggers for Mulund's industrial lanes, hospitals and food businesses. Site visits arranged. Get Solution.",
+        "Mulund, Mumbai: WiFi and GSM loggers for industrial lanes, hospitals and food businesses. Get Solution for Mulund.",
       intro:
         "Mulund is the northern edge of Mumbai's eastern suburbs, where the city meets Thane across the creek. The area keeps a tight cluster of factory units and workshops along the long arterial road that links it to the highway, with residential neighbourhoods and hospitals filling the rest. Many businesses here are mid-sized, owner-managed firms, which is the kind of customer that gains most from replacing manual rounds with alerts that reach a phone.",
       places: [
@@ -441,7 +441,7 @@ export const areas: AreaDef[] = [
     page: {
       metaTitle: "Data Loggers in Powai, Mumbai | Prithvi",
       metaDescription:
-        "Temperature and humidity data loggers for Powai's laboratories, hospitals, offices and hotels. Site visits arranged on request. Get Solution.",
+        "Powai, Mumbai: temperature and humidity loggers for laboratories, hospitals, offices and hotels. Get Solution to scope monitoring in Powai.",
       intro:
         "Powai wraps around its lake and is better known for research and housing than for heavy industry, which is what makes its monitoring needs distinctive. Laboratories, a major technical institute, biotechnology and IT offices, hospitals and hotels all occupy a small area. The rooms are small, the equipment is valuable and the tolerance for a drifting reading is low, so the emphasis is on accuracy, humidity readings and a clean record rather than on scale.",
       places: [
@@ -493,7 +493,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Mumbai (batch 2: eastern and harbour suburbs)
   { slug: "ghatkopar", name: "Ghatkopar", citySlug: "mumbai", areaType: "mixed-use", nearbyIndustries: ["pharmaceutical", "hospitals-blood-banks", "food-beverage", "electronics"], confirmedService: true, hero: ["nakshatra", "virat-pro"], page: {
       "metaTitle": "Data Loggers in Ghatkopar, Mumbai | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Ghatkopar's stockists, hospitals, food suppliers and small factories in Mumbai. Get Solution.",
+      "metaDescription": "Ghatkopar, Mumbai: WiFi and GSM loggers for stockists, hospitals, food suppliers and small factories. Get Solution: request a plan for Ghatkopar.",
       "intro": "Ghatkopar sits on the eastern side of Mumbai where the Central Railway line, the Eastern Express Highway and Lal Bahadur Shastri Marg all pass close together, and the Metro line from Andheri ends here. West of the railway the streets are dense with shops, small workshops and stockists; east of it, towards the highway, lie larger hospitals, schools and housing societies. Industrial units are mixed in among the residential blocks, most of them small, and a great deal of Ghatkopar's storage is kept in ground-floor godowns and upper-floor rooms beside the work area, not in purpose-built warehouses.",
       "places": [
         {
@@ -549,7 +549,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "chembur", name: "Chembur", citySlug: "mumbai", areaType: "mixed-use", nearbyIndustries: ["chemical", "pharmaceutical", "laboratories", "logistics-warehousing"], confirmedService: true, hero: ["rajmudra", "veer"], page: {
       "metaTitle": "Data Loggers in Chembur, Mumbai | Prithvi",
-      "metaDescription": "Temperature data loggers for Chembur's process-industry stores, stockists, laboratories and hospitals on Mumbai's eastern shore. Get Solution.",
+      "metaDescription": "Chembur, Mumbai: temperature loggers for process-industry stores, stockists, laboratories and hospitals on the eastern shore. Use Get Solution for Chembur.",
       "intro": "Chembur lies on the eastern shore of Mumbai island between Kurla and the Trombay peninsula, and it has an industrial identity that older suburbs lack. On the Trombay side, towards the harbour and the creek, stand refineries, a fertiliser plant and chemical works, with a research campus just beyond. Closer to the railway, Chembur is a busy residential and commercial suburb with hospitals, laboratories, schools and food businesses, joined to Kurla and Bandra by the Santacruz–Chembur Link Road and to Navi Mumbai by the harbour line and the roads that begin here. Storage ranges from process-plant stores to ordinary medicine rooms.",
       "places": [
         {
@@ -605,7 +605,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "kurla", name: "Kurla", citySlug: "mumbai", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing", "food-beverage", "pharmaceutical", "electronics"], confirmedService: true, hero: ["veer", "virat"], page: {
       "metaTitle": "Data Loggers in Kurla, Mumbai | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Kurla's godowns, stockists, food suppliers and depots near the terminus in Mumbai. Get Solution.",
+      "metaDescription": "Kurla, Mumbai: WiFi and GSM loggers for godowns, stockists, food suppliers and depots near the terminus. Get Solution, or WhatsApp us about Kurla.",
       "intro": "Kurla is one of Mumbai's busiest crossroads: the Central and Harbour railway lines meet at its station, Lokmanya Tilak Terminus handles long-distance trains on the east side, Lal Bahadur Shastri Marg runs through the middle and the Kurla–Andheri Road heads west towards the airport and the Mithi river. Dense markets, workshops, small factories, godowns and transport depots fill the streets on both sides of the railway, with Bandra-Kurla Complex rising to the west. A great deal of Kurla's storage belongs to firms that supply other parts of the city, working from compact premises on busy roads.",
       "places": [
         {
@@ -662,7 +662,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "bandra-kurla", name: "Bandra-Kurla", citySlug: "mumbai", areaType: "business-district", nearbyIndustries: ["data-centers", "laboratories", "hospitals-blood-banks", "food-beverage"], confirmedService: true, hero: ["setu", "dhruva"], page: {
       "metaTitle": "Data Loggers in Bandra-Kurla, Mumbai | Prithvi",
-      "metaDescription": "Temperature data loggers for Bandra-Kurla Complex's server rooms, laboratories, hospitals and hotel kitchens in Mumbai. Get Solution.",
+      "metaDescription": "Bandra-Kurla, Mumbai: temperature loggers for Bandra-Kurla Complex server rooms, laboratories, hospitals and hotel kitchens. Get Solution: Bandra-Kurla.",
       "intro": "Bandra-Kurla Complex is a planned business district between Bandra and Kurla, beside the Mithi river, and it feels nothing like the older suburbs around it: wide roads, glass towers, banks and financial institutions, consulates, a diamond trading bourse, large hospitals and diagnostic laboratories, hotels and the server rooms that keep them running. Little here is manufacturing; the storage that matters sits inside controlled rooms such as pharmacies, blood banks, laboratory freezers, kitchens and data rooms. Cooling is engineered but demanding, and the people responsible for a room are often in a different tower.",
       "places": [
         {
@@ -719,7 +719,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Mumbai (batch 3: western suburbs and central Mumbai)
   { slug: "borivali", name: "Borivali", citySlug: "mumbai", areaType: "mixed-use", nearbyIndustries: ["hospitals-blood-banks", "pharmaceutical", "food-beverage", "logistics-warehousing"], confirmedService: true, hero: ["dhruva", "virat"], page: {
       "metaTitle": "Data Loggers in Borivali, Mumbai | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Borivali's pharmacies, hospitals, food suppliers and highway godowns in Mumbai. Get Solution.",
+      "metaDescription": "Borivali, Mumbai: WiFi and GSM loggers for pharmacies, hospitals, food suppliers and highway godowns. Get Solution to cover Borivali.",
       "intro": "Borivali is the last big suburb on Mumbai's western side, where many of the Western Railway's fast trains end and the Western Express Highway and the Link Road carry traffic towards Dahisar and the city limit. On its eastern edge the forest of Sanjay Gandhi National Park comes right up to the housing, which keeps the air cleaner but also damp in the monsoon. Borivali is mostly a place where people live, shop and use hospitals, with small godowns, workshops and food businesses scattered through its markets and along the highways. Storage here is less about factories than about pharmacies, kitchens, small distributors and clinics that supply a large residential population.",
       "places": [
         {
@@ -775,7 +775,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "kandivali", name: "Kandivali", citySlug: "mumbai", areaType: "mixed-use", nearbyIndustries: ["pharmaceutical", "food-beverage", "electronics", "laboratories"], confirmedService: true, hero: ["nakshatra", "veer-pro"], page: {
       "metaTitle": "Data Loggers in Kandivali, Mumbai | Prithvi",
-      "metaDescription": "Temperature data loggers for Kandivali's pharmacies, caterers, electrical traders and laboratories in Mumbai's western suburbs. Get Solution.",
+      "metaDescription": "Kandivali, Mumbai: temperature loggers for pharmacies, caterers, electrical traders and laboratories in the western suburbs. Get Solution: Kandivali.",
       "intro": "Kandivali is the suburb between Malad and Borivali, split by the railway into a western side of crowded markets, schools and housing towers and an eastern side where the Western Express Highway and the Link Road bring larger roads, townships and clusters of industrial and commercial units. The Poisar river runs through the eastern part. Much of its storage is the working stock of businesses that feed local needs: stockists and pharmacies, food and catering suppliers, electrical traders and packaging units, along with hospitals and diagnostic laboratories. Most premises are compact, and rooms are often shared between tenants, which makes simple wireless monitoring the practical option.",
       "places": [
         {
@@ -831,7 +831,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "dahisar", name: "Dahisar", citySlug: "mumbai", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing", "food-beverage", "pharmaceutical", "hospitals-blood-banks"], confirmedService: true, hero: ["veer", "vayu-pro"], page: {
       "metaTitle": "Data Loggers in Dahisar, Mumbai | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Dahisar's highway godowns, carriers, food suppliers and clinics at Mumbai's northern edge. Get Solution.",
+      "metaDescription": "Dahisar, Mumbai: WiFi and GSM loggers for highway godowns, carriers, food suppliers and clinics at the northern edge. Get Solution to cover Dahisar.",
       "intro": "Dahisar is Mumbai's northern gateway on the western side, where the Western Express Highway crosses the city limit at the check naka, the Dahisar river flows through the suburb and the railway line divides its eastern half from its western half. Beyond the check naka the road leads towards Mira Road and Vasai, so Dahisar carries a great deal of goods traffic and has godowns, transport firms and small workshops beside the highway, mixed with housing societies on either side. The storage that matters here belongs to carriers, distributors and food suppliers whose goods spend time on a dock or in a vehicle, and to the clinics and pharmacies that serve the housing around them.",
       "places": [
         {
@@ -887,7 +887,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "dadar-parel", name: "Dadar-Parel", citySlug: "mumbai", areaType: "mixed-use", nearbyIndustries: ["hospitals-blood-banks", "laboratories", "vaccine-cold-chain", "food-beverage"], confirmedService: true, hero: ["setu", "nakshatra"], page: {
       "metaTitle": "Data Loggers in Dadar-Parel, Mumbai | Prithvi",
-      "metaDescription": "Temperature data loggers for Dadar's markets and Parel's hospitals, laboratories and former mill-land offices in central Mumbai. Get Solution.",
+      "metaDescription": "Dadar-Parel, Mumbai: temperature loggers for Dadar's markets and Parel's hospitals, laboratories and former mill-land offices. Get Solution: Dadar-Parel.",
       "intro": "Dadar and Parel sit at the middle of the island city, where the Central and Western railway lines cross at Dadar and the old textile mill lands of Parel and Lower Parel have been rebuilt as offices, hotels and shopping centres. Dadar's flower, vegetable and grocery markets work before dawn, and Parel is the city's hospital district, home to several large municipal and charitable hospitals, a vaccine research institute and a cancer hospital. Some older industrial buildings, printing presses and small factories remain between the new towers. Storage here is unusually varied: hospital blood banks and laboratories, market cold rooms, hotel kitchens, office server rooms and old godowns.",
       "places": [
         {
@@ -944,7 +944,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Panvel region (batch A: Kalamboli, Kharghar, Rasayani-Patalganga, Khopoli)
   { slug: "kalamboli", name: "Kalamboli", citySlug: "panvel", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing", "food-beverage", "pharmaceutical", "chemical"], confirmedService: true, hero: ["setu", "rajmudra"], page: {
       "metaTitle": "Data Loggers in Kalamboli, Panvel | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Kalamboli's steel market, highway godowns and logistics yards near Panvel. Get Solution.",
+      "metaDescription": "Kalamboli, Panvel: WiFi and GSM loggers for the steel market, highway godowns and logistics yards. Use Get Solution to plan Kalamboli.",
       "intro": "Kalamboli sits at a junction where the Sion–Panvel road, the old Mumbai–Pune highway and the start of the Mumbai–Pune Expressway all meet, close to Panvel, and that position has made it one of the region's main trucking and trading points. Its well-known institution is the steel and iron market, where wholesalers, stockists and transporters handle metal in bulk, and around it stand truck terminals, warehouses, repair yards and small industrial units. The planned township of Kalamboli, laid out by CIDCO, houses many of the people who work there. Storage here is mostly in open yards, sheds and godowns, so heat, damp and rain matter more than refrigeration.",
       "places": [
         {
@@ -1000,7 +1000,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "kharghar", name: "Kharghar", citySlug: "panvel", areaType: "mixed-use", nearbyIndustries: ["hospitals-blood-banks", "laboratories", "pharmaceutical", "food-beverage"], confirmedService: true, hero: ["rajmudra", "veer-pro"], page: {
       "metaTitle": "Data Loggers in Kharghar, Panvel | Prithvi",
-      "metaDescription": "Temperature data loggers for Kharghar, Kamothe and Khanda Colony hospitals, laboratories, pharmacies and food suppliers near Panvel. Get Solution.",
+      "metaDescription": "Kharghar, Panvel: loggers for Kharghar, Kamothe and Khanda Colony hospitals, laboratories, pharmacies and food suppliers. Get Solution to cover Kharghar.",
       "intro": "Kharghar is a planned CIDCO township on the hills and flats between Belapur and Panvel, with wide roads, large housing complexes, a cancer research and treatment centre and several other hospitals. Kamothe, across the highway, is a dense residential node with a large medical college and hospital, and Khanda Colony in New Panvel is a mixed residential and commercial area on the way to Panvel. The Taloja industrial estate lies further on. Storage here is mostly clinical and commercial: pharmacies, blood banks, laboratories, kitchens and the stockists who supply a growing population.",
       "places": [
         {
@@ -1056,7 +1056,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "rasayani-patalganga", name: "Rasayani-Patalganga", citySlug: "panvel", areaType: "midc-estate", nearbyIndustries: ["chemical", "pharmaceutical", "laboratories", "logistics-warehousing"], confirmedService: true, hero: ["dhruva", "veer"], page: {
       "metaTitle": "Data Loggers in Rasayani-Patalganga, Raigad | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Rasayani and Patalganga MIDC chemical and pharma plants in Raigad. Site visits arranged. Get Solution.",
+      "metaDescription": "Rasayani-Patalganga, Raigad: WiFi and GSM loggers for Rasayani and Patalganga MIDC chemical and pharma plants. Get Solution to cover Rasayani-Patalganga.",
       "intro": "Rasayani and Patalganga are two neighbouring MIDC industrial areas in Raigad district, on the old Mumbai–Pune highway between Panvel and Khopoli, and together they form one of the region's chemical and process-industry belts. Patalganga takes its name from the river that runs beside it. The plants here make chemicals, polymers, pharmaceutical ingredients and allied products, and each stands on a large plot with raw-material tanks, drum stores, laboratories and finished-goods warehouses. Distances between buildings are long and many plants run through the night, so the person responsible for a store is rarely beside it.",
       "places": [
         {
@@ -1112,7 +1112,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "khopoli", name: "Khopoli", citySlug: "panvel", areaType: "mixed-use", nearbyIndustries: ["chemical", "logistics-warehousing", "food-beverage", "laboratories"], confirmedService: true, hero: ["virat-pro", "dock"], page: {
       "metaTitle": "Data Loggers in Khopoli, Raigad | Prithvi",
-      "metaDescription": "Temperature and humidity data loggers for Khopoli and Khalapur's industrial units, highway warehouses and hotel kitchens. Get Solution.",
+      "metaDescription": "Khopoli, Panvel: temperature and humidity loggers for Khopoli and Khalapur industrial units, highway warehouses and hotel kitchens. Get Solution: Khopoli.",
       "intro": "Khopoli lies at the foot of the Bor Ghat on the old Mumbai–Pune highway, where the road begins its climb to the Sahyadri plateau, and it has been an industrial town for a long time: steel and metal works, chemical units, a hydroelectric power station and the warehouses and workshops that serve them. The Mumbai–Pune Expressway passes close by, and Khalapur, the neighbouring taluka, adds more industrial estates and a large theme park that brings hotels, restaurants and food suppliers. The climate is wetter than in Mumbai, with a heavy monsoon on the ghat, so stores and sheds face dampness through much of the year.",
       "places": [
         {
@@ -1169,7 +1169,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Panvel region (batch B: Uran-JNPT, Ulwe, Roha-Pen)
   { slug: "uran-jnpt", name: "Uran-JNPT", citySlug: "panvel", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing", "food-beverage", "pharmaceutical", "chemical"], confirmedService: true, hero: ["veer", "vayu-pro"], page: {
       "metaTitle": "Data Loggers in Uran-JNPT, Raigad | Prithvi",
-      "metaDescription": "Temperature data loggers for Uran, JNPT, Jasai and Dronagiri's container freight stations, port warehouses and reefer cold chain. Get Solution.",
+      "metaDescription": "Uran-JNPT, Panvel: temperature loggers for Uran, JNPT, Jasai and Dronagiri container freight stations and reefer cold chain. Get Solution: Uran-JNPT.",
       "intro": "Uran is a peninsula on the Raigad coast across Thane creek and the harbour from Mumbai, and it is where Jawaharlal Nehru Port at Nhava Sheva handles containers for much of western India. Around the port, the planned nodes of Dronagiri and Jasai hold container freight stations, warehouses and logistics yards, and the Uran area also has a gas processing plant. Roads link the port to the Mumbai–Pune Expressway, the Panvel side and Navi Mumbai, and a suburban railway line now reaches the peninsula. Storage here is port-linked: containers, reefer units and warehouses where goods wait for a vessel or a truck.",
       "places": [
         {
@@ -1225,7 +1225,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "ulwe", name: "Ulwe", citySlug: "panvel", areaType: "mixed-use", nearbyIndustries: ["pharmaceutical", "hospitals-blood-banks", "food-beverage", "logistics-warehousing"], confirmedService: true, hero: ["dhruva", "hooter"], page: {
       "metaTitle": "Data Loggers in Ulwe, Panvel | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Ulwe, Kon and Karanjade's clinics, pharmacies, food suppliers and small warehouses. Get Solution.",
+      "metaDescription": "Ulwe, Panvel: WiFi and GSM loggers for Ulwe, Kon and Karanjade clinics, pharmacies, food suppliers and small warehouses. Use Get Solution for Ulwe.",
       "intro": "Ulwe is one of the newer nodes of Navi Mumbai, laid out by CIDCO on the harbour side, with housing complexes, schools and clinics rising along planned roads. Its railway station on the Nerul–Uran line and the trans-harbour sea link that reaches the coast close to it tie it to Mumbai and to the port, and new commercial buildings and warehouses are following the housing. Kon and Karanjade, in the Panvel area nearby, are villages and growing settlements on the roads towards Panvel and the old Pune highway. Much of the storage here belongs to businesses serving new households: pharmacies, clinics, grocers, caterers and the distributors who supply them.",
       "places": [
         {
@@ -1281,7 +1281,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "roha-pen", name: "Roha-Pen", citySlug: "panvel", areaType: "mixed-use", nearbyIndustries: ["chemical", "logistics-warehousing", "laboratories", "food-beverage"], confirmedService: true, hero: ["veer-pro", "hooter"], page: {
       "metaTitle": "Data Loggers in Roha-Pen, Raigad | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Roha's MIDC chemical plants and Pen's godowns and workshops in Raigad's Konkan belt. Get Solution.",
+      "metaDescription": "Roha-Pen, Raigad: WiFi and GSM loggers for Roha MIDC chemical plants and Pen godowns and workshops in the Konkan belt. Get Solution to begin in Roha-Pen.",
       "intro": "Roha and Pen are two Konkan towns in Raigad district, south of Panvel in the belt through which the Mumbai–Goa road and railway run, and they bring a different character to the region. Roha has an MIDC industrial area at Dhatav that is home to chemical and allied plants, and a station on the Konkan railway line. Pen is known across the state for its craft of making Ganesh idols, and it also has small industries, godowns and a busy market serving the villages around. Both towns lie in country with a heavy monsoon and humid air, and goods reach them by long road and rail journeys, so what matters is damp, heat and the wait between loads.",
       "places": [
         {
@@ -1338,7 +1338,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Navi Mumbai (batch C: Vashi, Airoli, Koparkhairane, Pawane)
   { slug: "vashi", name: "Vashi", citySlug: "navi-mumbai", areaType: "mixed-use", nearbyIndustries: ["food-beverage", "hospitals-blood-banks", "pharmaceutical", "logistics-warehousing"], confirmedService: true, hero: ["nakshatra", "rajmudra"], page: {
       "metaTitle": "Data Loggers in Vashi, Navi Mumbai | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Vashi's APMC markets, Sector 17 shops, hospitals and food suppliers in Navi Mumbai. Get Solution.",
+      "metaDescription": "Vashi, Navi Mumbai: WiFi and GSM loggers for APMC markets, Sector 17 shops, hospitals and food suppliers. Use Get Solution for Vashi.",
       "intro": "Vashi is the first node of Navi Mumbai that most people meet, entered by the Vashi bridge over Thane creek from Mumbai and served by a Harbour line station that gives it direct trains into the city. It combines a planned commercial and residential centre, with the shops and offices of Sector 17 and the neighbouring sectors, with the large wholesale markets of the Agricultural Produce Market Committee, where vegetables, fruit, onions and potatoes, grain and spices are traded in bulk. Hospitals, laboratories and food businesses cluster around both. Storage here ranges from market cold rooms and ripening chambers to pharmacy stores and restaurant kitchens.",
       "places": [
         {
@@ -1394,7 +1394,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "airoli", name: "Airoli", citySlug: "navi-mumbai", areaType: "business-district", nearbyIndustries: ["data-centers", "electronics", "laboratories", "pharmaceutical"], confirmedService: true, hero: ["nakshatra", "hooter"], page: {
       "metaTitle": "Data Loggers in Airoli, Navi Mumbai | Prithvi",
-      "metaDescription": "Temperature data loggers for Airoli and Digha's business parks, server rooms, laboratories and pharmacies in Navi Mumbai. Get Solution.",
+      "metaDescription": "Airoli, Navi Mumbai: temperature loggers for Airoli and Digha business parks, server rooms, laboratories and pharmacies. Get Solution to begin in Airoli.",
       "intro": "Airoli lies at the northern end of Navi Mumbai where the Thane–Belapur Road meets the creek, joined to Mulund and Thane by the Airoli bridge. It combines a residential township with the Airoli Knowledge Park and other business parks that house technology companies, data and network facilities and corporate offices, and Digha, a short way inland, adds more housing and a station on the trans-harbour railway. Industrial units from the Thane–Belapur belt reach its southern edge. The rooms that matter most here are server halls and electrical rooms, laboratories and the pharmacies and kitchens that serve a large working population.",
       "places": [
         {
@@ -1450,7 +1450,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "koparkhairane", name: "Koparkhairane", citySlug: "navi-mumbai", areaType: "midc-estate", nearbyIndustries: ["chemical", "pharmaceutical", "electronics", "logistics-warehousing"], confirmedService: true, hero: ["rajmudra", "veer-pro"], page: {
       "metaTitle": "Data Loggers in Koparkhairane, Navi Mumbai | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Koparkhairane MIDC's chemical, pharma, electronics units and godowns in Navi Mumbai. Get Solution.",
+      "metaDescription": "Koparkhairane, Navi Mumbai: WiFi and GSM loggers for Koparkhairane MIDC chemical, pharma and electronics units and godowns. Get Solution: Koparkhairane.",
       "intro": "Koparkhairane is a large node in the middle of the Thane–Belapur industrial belt, with a MIDC industrial area on one side of the railway and planned residential sectors, schools and markets on the other. The MIDC estate holds chemical, pharmaceutical, engineering, packaging and electronics units, together with godowns and transport firms, and the Palm Beach and Thane–Belapur roads keep goods moving toward Mumbai, Thane and the expressway. The belt's units are mostly mid-sized, and many have been running for decades in buildings that have been extended over time. Heat from process areas, a humid creek-side climate and shared utilities make storage conditions variable.",
       "places": [
         {
@@ -1507,7 +1507,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "pawane", name: "Pawane", citySlug: "navi-mumbai", areaType: "midc-estate", nearbyIndustries: ["pharmaceutical", "chemical", "laboratories", "logistics-warehousing"], confirmedService: true, hero: ["setu", "hooter"], page: {
       "metaTitle": "Data Loggers in Pawane, Navi Mumbai | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Pawane and Shirvane MIDC pharma, chemical and engineering units in Navi Mumbai. Get Solution.",
+      "metaDescription": "Pawane, Navi Mumbai: WiFi and GSM loggers for Pawane and Shirvane MIDC pharma, chemical and engineering units. Use Get Solution to plan Pawane.",
       "intro": "Pawane is part of the Thane–Belapur industrial belt, and its MIDC plots hold a dense mixture of pharmaceutical, chemical, engineering and packaging units, many of them small and mid-sized and working to the rhythm of larger customers nearby. Shirvane, close by on the Nerul side, adds more units and the offices and warehouses that serve them. The roads of the belt are busy with trucks and plants stand close together, so a store's conditions depend as much on the neighbouring building and the road as on the room itself. Records that follow the goods matter to buyers who inspect.",
       "places": [
         {
@@ -1565,7 +1565,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Navi Mumbai (batch D: Ghansoli, Nerul, Belapur)
   { slug: "ghansoli", name: "Ghansoli", citySlug: "navi-mumbai", areaType: "mixed-use", nearbyIndustries: ["data-centers", "pharmaceutical", "chemical", "food-beverage"], confirmedService: true, hero: ["veer-pro", "dock"], page: {
       "metaTitle": "Data Loggers in Ghansoli, Navi Mumbai | Prithvi",
-      "metaDescription": "Temperature data loggers for Ghansoli's corporate campuses, MIDC plots, pharmacies and kitchens on the Thane–Belapur belt. Get Solution.",
+      "metaDescription": "Ghansoli, Navi Mumbai: temperature loggers for corporate campuses, MIDC plots, pharmacies and kitchens on the Thane-Belapur belt. Get Solution: Ghansoli.",
       "intro": "Ghansoli lies between Airoli and Koparkhairane on the Thane–Belapur Road, with a station on the trans-harbour railway. It is a mixed node: large corporate campuses and business buildings, MIDC factory plots and warehouses on one side, and planned housing sectors, schools and markets on the other, with older village settlements in between. Its rooms range from server and electrical rooms in office campuses to pharmaceutical and chemical stores in the MIDC and pharmacies and kitchens in the sectors, and the people who look after them are often in a different building from the room itself.",
       "places": [
         {
@@ -1622,7 +1622,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "nerul", name: "Nerul", citySlug: "navi-mumbai", areaType: "mixed-use", nearbyIndustries: ["hospitals-blood-banks", "pharmaceutical", "food-beverage", "laboratories"], confirmedService: true, hero: ["nakshatra", "dhruva"], page: {
       "metaTitle": "Data Loggers in Nerul, Navi Mumbai | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Nerul, Seawoods and Juinagar's hospitals, pharmacies, restaurants and laboratories. Get Solution.",
+      "metaDescription": "Nerul, Navi Mumbai: WiFi and GSM loggers for Nerul, Seawoods and Juinagar hospitals, pharmacies, restaurants and laboratories. Get Solution to cover Nerul.",
       "intro": "Nerul sits in the middle of the Harbour line stretch through Navi Mumbai, a planned node of housing sectors, schools, markets and a large medical college hospital. Seawoods, on its waterfront side, has a station that serves both the Harbour line and the Nerul–Uran line, with a large commercial complex and housing along the creek shore, and Juinagar, on the Vashi side, is a busy residential and commercial neighbourhood by its own station. Palm Beach Road links the node to Vashi and Belapur. Storage here is the working stock of clinics, pharmacies, kitchens and the distributors who serve a large residential population.",
       "places": [
         {
@@ -1678,7 +1678,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "belapur", name: "Belapur", citySlug: "navi-mumbai", areaType: "business-district", nearbyIndustries: ["data-centers", "hospitals-blood-banks", "laboratories", "food-beverage"], confirmedService: true, hero: ["nakshatra", "veer"], page: {
       "metaTitle": "Data Loggers in Belapur, Navi Mumbai | Prithvi",
-      "metaDescription": "Temperature data loggers for CBD Belapur's office towers, server rooms, hospitals, laboratories and hotel kitchens in Navi Mumbai. Get Solution.",
+      "metaDescription": "Belapur, Navi Mumbai: temperature loggers for CBD Belapur office towers, server rooms, hospitals, laboratories and hotel kitchens. Get Solution: Belapur.",
       "intro": "CBD Belapur was planned by CIDCO as the central business district of Navi Mumbai, and it is where the city's civic offices, banks, institutions, hotels and large office buildings stand around a railway station on the Harbour line. Behind the offices lie the residential sectors and the older village of Belapur on the creek, and the Thane–Belapur industrial belt begins on the road to the north. The rooms that matter here are inside buildings: server and electrical rooms, hospital stores and laboratories, hotel and restaurant kitchens and pharmacies, all run by teams who may sit elsewhere in the building.",
       "places": [
         {
@@ -1735,7 +1735,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Thane and Bhiwandi (batch E: Thane West, Ghodbunder Road, Kalyan)
   { slug: "thane-west", name: "Thane West", citySlug: "thane-bhiwandi", areaType: "mixed-use", nearbyIndustries: ["pharmaceutical", "hospitals-blood-banks", "food-beverage", "laboratories"], confirmedService: true, hero: ["veer-pro", "virat-pro"], page: {
       "metaTitle": "Data Loggers in Thane West | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Thane West's markets, clinics, hospitals and food suppliers, from Majiwada to Naupada. Get Solution.",
+      "metaDescription": "Thane West, Thane: WiFi and GSM loggers for markets, clinics, hospitals and food suppliers from Majiwada to Naupada. Get Solution to begin in Thane West.",
       "intro": "Thane West is the old heart of Thane city, set between the creek and the Yeoor hills, with the main railway station on the Central line and the lake-dotted streets that earned Thane its name as the city of lakes. It is busy, dense and mostly commercial and residential: markets around the station, the neighbourhoods of Naupada and Panchpakhadi with their clinics and shops, and Majiwada, where the Eastern Express Highway meets Ghodbunder Road and large hospitals, shopping centres and offices stand. Wagle Estate and the older industrial pockets are covered on their own page, so most of the storage in Thane West is the working stock of clinics, pharmacies, kitchens and distributors.",
       "places": [
         {
@@ -1791,7 +1791,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "ghodbunder-road", name: "Ghodbunder Road", citySlug: "thane-bhiwandi", areaType: "mixed-use", nearbyIndustries: ["pharmaceutical", "food-beverage", "hospitals-blood-banks", "logistics-warehousing"], confirmedService: true, hero: ["veer", "virat-pro"], page: {
       "metaTitle": "Data Loggers on Ghodbunder Road, Thane | Prithvi",
-      "metaDescription": "Temperature data loggers for Ghodbunder Road's townships, hospitals, supermarkets and highway godowns at Balkum, Owale and Kasarvadavli. Get Solution.",
+      "metaDescription": "Ghodbunder Road, Thane: loggers for townships, hospitals, supermarkets and highway godowns at Balkum and Owale. Get Solution to begin in Ghodbunder Road.",
       "intro": "Ghodbunder Road is the long arterial road that leaves Thane at Majiwada and runs north-west to meet the Gujarat highway near Ghodbunder village, and along it a string of neighbourhoods, including Balkum, Owale and Kasarvadavli, has grown into one of Thane's main residential and commercial corridors. Large housing townships, schools, hospitals and shopping centres line the road, and godowns, small factories and transport firms sit along it, particularly near its Thane end and at the junctions with the highway. Storage here mixes the stock of pharmacies, supermarkets and kitchens serving the townships with the goods of firms using the road to reach the highway.",
       "places": [
         {
@@ -1847,7 +1847,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "kalyan", name: "Kalyan", citySlug: "thane-bhiwandi", areaType: "mixed-use", nearbyIndustries: ["food-beverage", "pharmaceutical", "logistics-warehousing", "hospitals-blood-banks"], confirmedService: true, hero: ["nakshatra", "hooter"], page: {
       "metaTitle": "Data Loggers in Kalyan, Thane | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Kalyan's markets, godowns, pharmacies and hospitals, including Mohone and Shahad. Get Solution.",
+      "metaDescription": "Kalyan, Thane: WiFi and GSM loggers for markets, godowns, pharmacies and hospitals, including Mohone and Shahad. Get Solution to cover Kalyan.",
       "intro": "Kalyan is a rail and road junction town east of Thane, on the Ulhas creek, where the Central Railway's main line divides towards Kasara and towards Karjat and Pune. Around the junction it has an agricultural produce market, busy wholesale and retail markets, godowns along the roads to Bhiwandi and Shil, and a large residential population; Mohone lies to the north of the junction and Shahad lies on the Ulhasnagar side of Kalyan. Goods reach Kalyan by rail and road for traders who supply the towns around, so a good deal of storage is working stock: produce and groceries in market cold rooms, medicines in stockists' godowns and the pharmacies and kitchens that serve the neighbourhoods.",
       "places": [
         {
@@ -1904,7 +1904,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Thane and Bhiwandi (batch F: Ulhasnagar, Ambernath, Badlapur, Anjurphata-Purna)
   { slug: "ulhasnagar", name: "Ulhasnagar", citySlug: "thane-bhiwandi", areaType: "mixed-use", nearbyIndustries: ["textile", "electronics", "pharmaceutical", "food-beverage"], confirmedService: true, hero: ["nakshatra", "dock"], page: {
       "metaTitle": "Data Loggers in Ulhasnagar, Thane | Prithvi",
-      "metaDescription": "WiFi and GSM temperature and humidity data loggers for Ulhasnagar's garment makers, electrical traders, stockists and bakers. Get Solution.",
+      "metaDescription": "Ulhasnagar, Thane: WiFi and GSM temperature and humidity loggers for garment makers, electrical traders, stockists and bakers. Get Solution: Ulhasnagar.",
       "intro": "Ulhasnagar is a dense city on the Central line between Kalyan and Ambernath, built after Partition as a settlement of numbered camps and now a busy small-trade centre of the Mumbai region. It is known for readymade garments and denim, furniture, and a large market in electrical and electronic goods, with workshops, godowns and shops packed into narrow lanes. Most premises are small, buildings are tall and close together, and many traders keep stock in rooms above or behind the shop. Humidity, heat and shared power matter more here than large-scale refrigeration.",
       "places": [
         {
@@ -1960,7 +1960,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "ambernath", name: "Ambernath", citySlug: "thane-bhiwandi", areaType: "midc-estate", nearbyIndustries: ["chemical", "pharmaceutical", "laboratories", "logistics-warehousing"], confirmedService: true, hero: ["virat-pro", "dock"], page: {
       "metaTitle": "Data Loggers in Ambernath, Thane | Prithvi",
-      "metaDescription": "Temperature data loggers for Ambernath and Anand Nagar MIDC chemical and pharma plants, laboratories and warehouses. Visits arranged. Get Solution.",
+      "metaDescription": "Ambernath, Thane: temperature loggers for Ambernath and Anand Nagar MIDC chemical and pharma plants, laboratories and warehouses. Get Solution: Ambernath.",
       "intro": "Ambernath lies towards the eastern end of the Thane district's industrial belt, on the Central line beyond Ulhasnagar, and it is known for its old Shiva temple and for two industrial estates: the Ambernath MIDC and the adjoining Anand Nagar MIDC, where chemical, pharmaceutical, engineering and allied units stand beside the railway. An ordnance factory also operates in the town. The plants range from small units to large works, many with tank farms and drum stores, and the surrounding housing towns supply their workforce. Storage here is process-linked and often outdoors or in sheds, so heat, damp and rain all matter.",
       "places": [
         {
@@ -2016,7 +2016,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "badlapur", name: "Badlapur", citySlug: "thane-bhiwandi", areaType: "midc-estate", nearbyIndustries: ["chemical", "pharmaceutical", "food-beverage", "hospitals-blood-banks"], confirmedService: true, hero: ["dhruva", "vayu"], page: {
       "metaTitle": "Data Loggers in Badlapur, Thane | Prithvi",
-      "metaDescription": "WiFi and GSM temperature and humidity data loggers for Badlapur MIDC plants, township clinics and food suppliers near Kulgaon. Get Solution.",
+      "metaDescription": "Badlapur, Thane: temperature and humidity loggers for Badlapur MIDC plants, township clinics and food suppliers near Kulgaon. Get Solution: Badlapur.",
       "intro": "Badlapur lies on the Central line beyond Ambernath, on the banks of the Ulhas river, with the Sahyadri foothills close to the town. Its station, Kulgaon-Badlapur, serves two sides of the town, and its MIDC industrial area holds chemical, pharmaceutical, engineering and plastics units on plots set a little back from the railway. Housing townships have spread across the plain around, bringing clinics, pharmacies, schools and food suppliers. The climate is wetter than on the coast and the monsoon is heavy, so damp is a constant for stores and sheds.",
       "places": [
         {
@@ -2072,7 +2072,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "anjurphata-purna", name: "Anjurphata-Purna", citySlug: "thane-bhiwandi", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing", "pharmaceutical", "food-beverage", "electronics"], confirmedService: true, hero: ["virat-pro", "hooter"], page: {
       "metaTitle": "Data Loggers in Anjurphata-Purna, Bhiwandi | Prithvi",
-      "metaDescription": "Temperature data loggers for warehouse parks at Anjurphata, Purna, Kharbao, Vadape and Padgha around Bhiwandi. Visits arranged. Get Solution.",
+      "metaDescription": "Anjurphata-Purna, Bhiwandi: temperature loggers for warehouse parks at Anjurphata, Purna, Kharbao, Vadape and Padgha. Get Solution: Anjurphata-Purna.",
       "intro": "Beyond Bhiwandi town, the warehouse belt that serves Mumbai stretches along the Mumbai–Nashik highway and the roads towards Padgha, Wada and Kalyan, and its main clusters are Anjurphata, Purna, Kharbao, Vadape and Padgha. Large modern warehouse parks and older godown compounds stand beside agricultural land and small villages, and goods of many kinds pass through them: consumer products, textiles, electronics, food and pharmaceutical consignments. Many parks are run by logistics firms who let space by the bay, so several customers share one roof. Heat under metal roofs, dust and monsoon damp are the common conditions.",
       "places": [
         {
@@ -2129,7 +2129,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Thane and Bhiwandi (batch G: Mumbra-Diva)
   { slug: "mumbra-diva", name: "Mumbra-Diva", citySlug: "thane-bhiwandi", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing", "food-beverage", "pharmaceutical", "hospitals-blood-banks"], confirmedService: true, hero: ["nakshatra", "virat-pro"], page: {
       "metaTitle": "Data Loggers in Mumbra-Diva, Thane | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Mumbra and Diva's clinics, food sellers, godowns and Shil Phata truck terminals. Get Solution.",
+      "metaDescription": "Mumbra-Diva, Thane: WiFi and GSM loggers for Mumbra and Diva clinics, food sellers, godowns and Shil Phata truck terminals. Get Solution: Mumbra-Diva.",
       "intro": "Mumbra and Diva are two Central line stations on the creek side of the Thane district, between Thane and Dombivli, and the towns around them have grown fast: Mumbra with dense housing and busy markets climbing the hillside, Diva with older village settlements, newer townships and a junction where the Vasai line leaves the main line. Shil Phata, where the Kalyan–Shil road meets the road to Panvel, has become a hub for godowns, truck terminals and small industry because it lies on the heavy-traffic route between the Nashik highway and the Navi Mumbai side, which the Mumbra bypass also serves. Storage here is a mix of household-serving shops and kitchens and logistics yards.",
       "places": [
         {
@@ -2186,7 +2186,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Vasai-Palghar (batch H: Waliv, Virar, Nalasopara, Sativali)
   { slug: "waliv", name: "Waliv", citySlug: "vasai-palghar", areaType: "industrial-estate", nearbyIndustries: ["pharmaceutical", "food-beverage", "logistics-warehousing", "electronics"], confirmedService: true, hero: ["nakshatra", "dock"], page: {
       "metaTitle": "Data Loggers in Waliv, Vasai | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Waliv and Gokhivare's industrial estates, godowns, food and pharma units in Vasai East. Get Solution.",
+      "metaDescription": "Waliv, Vasai: WiFi and GSM loggers for Waliv and Gokhivare industrial estates, godowns, and food and pharma units in Vasai East. Get Solution: Waliv.",
       "intro": "Waliv and Gokhivare lie on the eastern side of Vasai, across the railway from the old town, where land that was once mostly farmland has filled with industrial estates and godown compounds. The units are mostly small and mid-sized: engineering and plastics shops, packaging firms, food and pharmaceutical makers and the warehouses and transport firms that serve them, standing on plots reached by narrow roads. Many buildings have been extended upward, with production below and storage above or beside it. Humidity from the creek-side climate, heat under sheet roofs and shared power are the common conditions.",
       "places": [
         {
@@ -2242,7 +2242,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "virar", name: "Virar", citySlug: "vasai-palghar", areaType: "mixed-use", nearbyIndustries: ["food-beverage", "pharmaceutical", "hospitals-blood-banks", "logistics-warehousing"], confirmedService: true, hero: ["virat-pro", "vayu"], page: {
       "metaTitle": "Data Loggers in Virar, Palghar | Prithvi",
-      "metaDescription": "Temperature data loggers for Virar's market cold rooms, ice stores, pharmacies, hospitals and godowns, from Arnala to Virar East. Get Solution.",
+      "metaDescription": "Virar, Vasai-Palghar: loggers for market cold rooms, ice stores, pharmacies, hospitals and godowns from Arnala to Virar East. Get Solution: Virar.",
       "intro": "Virar is the long-standing terminus of Mumbai's suburban trains on the Western line, a large town on the coastal plain where housing, markets and small industries have spread inland from the station. To its west lies the coast road to Arnala, a fishing village with a fort and a landing point, and to its east the estates and godowns of Virar East. Fish, vegetables, dairy and groceries move through its markets every day, and the town's size has brought hospitals, diagnostic centres and a large number of pharmacies. Storage here is mostly small and urban: market cold rooms, fish and ice stores, pharmacy rooms and godowns, in a humid seaside climate.",
       "places": [
         {
@@ -2298,7 +2298,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "nalasopara", name: "Nalasopara", citySlug: "vasai-palghar", areaType: "mixed-use", nearbyIndustries: ["pharmaceutical", "food-beverage", "logistics-warehousing", "hospitals-blood-banks"], confirmedService: true, hero: ["virat", "virat-pro"], page: {
       "metaTitle": "Data Loggers in Nalasopara, Palghar | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Nalasopara's markets, Achole Road units, godowns, pharmacies and clinics. Visits arranged. Get Solution.",
+      "metaDescription": "Nalasopara, Vasai-Palghar: WiFi and GSM loggers for markets, Achole Road units, godowns, pharmacies and clinics. Get Solution to begin in Nalasopara.",
       "intro": "Nalasopara lies between Vasai Road and Virar on the Western line, and its character is split by the railway: Nalasopara West, closer to the old settlement, with crowded markets and housing towers, and Nalasopara East, where Achole and the roads off it hold industrial estates, godowns and workshops. The ancient port of Sopara, whose remains include a Buddhist stupa, once stood here; today the town is a large dormitory suburb for Mumbai with a busy small-industry belt on its east side. The industrial plots are small and packed, with production and storage in the same building, and the area's hospitals and pharmacies serve a large population.",
       "places": [
         {
@@ -2354,7 +2354,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "sativali", name: "Sativali", citySlug: "vasai-palghar", areaType: "industrial-estate", nearbyIndustries: ["food-beverage", "pharmaceutical", "logistics-warehousing", "chemical"], confirmedService: true, hero: ["setu", "nakshatra"], page: {
       "metaTitle": "Data Loggers in Sativali, Vasai | Prithvi",
-      "metaDescription": "Temperature and humidity data loggers for Sativali and Naigaon East's industrial units, godowns, food and pharma firms in Vasai. Get Solution.",
+      "metaDescription": "Sativali, Vasai: temperature and humidity loggers for Sativali and Naigaon East units, godowns and food and pharma firms. Get Solution to cover Sativali.",
       "intro": "Sativali is an industrial area on the eastern side of Vasai, set among low hills and farmland, and Naigaon East, on the other side of the railway line, has a similar mixture of small industrial units, godowns and housing. Together they hold engineering shops, plastics and packaging units, food makers, small pharmaceutical firms and the warehouses and transport yards that serve them. The plots are small to mid-sized, access roads are narrow and the surroundings are greener and damper than in Mumbai's older industrial areas. Storage conditions follow the monsoon and the heat under sheet roofs.",
       "places": [
         {
@@ -2411,7 +2411,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Vasai-Palghar (batch I: Palghar, Dahanu)
   { slug: "palghar", name: "Palghar", citySlug: "vasai-palghar", areaType: "mixed-use", nearbyIndustries: ["food-beverage", "pharmaceutical", "hospitals-blood-banks", "logistics-warehousing"], confirmedService: true, hero: ["nakshatra", "veer-pro"], page: {
       "metaTitle": "Data Loggers in Palghar | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Palghar's markets, clinics, godowns and coastal kitchens at Mahim and Kelva. Visits arranged. Get Solution.",
+      "metaDescription": "Palghar, Maharashtra: WiFi and GSM loggers for markets, clinics, godowns and coastal kitchens at Mahim and Kelva. Get Solution: request a plan for Palghar.",
       "intro": "Palghar is the district headquarters town on the Western line north of Vasai, with the road to Boisar and Tarapur running west to the industrial estates and the coast beyond it holding the beach villages of Kelva and Mahim. The town itself is a market and administrative centre serving a large rural district: farm produce, dairy, fish, building materials and household goods pass through its markets, and its hospitals and pharmacies serve the villages around. The coast brings fishing, and gardens and orchards grow in the villages; the Tarapur atomic power station stands on the same coast further north.",
       "places": [
         {
@@ -2467,7 +2467,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "dahanu", name: "Dahanu", citySlug: "vasai-palghar", areaType: "mixed-use", nearbyIndustries: ["food-beverage", "logistics-warehousing", "pharmaceutical", "hospitals-blood-banks"], confirmedService: true, hero: ["veer", "virat-pro"], page: {
       "metaTitle": "Data Loggers in Dahanu, Palghar | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Dahanu's fruit packing sheds, ice and fish stores, highway godowns and clinics. Get Solution.",
+      "metaDescription": "Dahanu, Palghar district: WiFi and GSM loggers for fruit packing sheds, ice and fish stores, highway godowns and clinics. Get Solution to begin in Dahanu.",
       "intro": "Dahanu is the northernmost coastal town of Maharashtra's Palghar district, known for its orchards of chikoo, its long beaches and its fishing, and covered by a taluka-wide environmental authority that restricts heavy industry. The Western line and the Mumbai–Ahmedabad highway run through the district, with Dahanu Road as a station on the line, and Manor and Vevoor are smaller towns near Dahanu. Storage here is shaped by agriculture, fishing and tourism rather than factories: fruit packing and cold rooms, ice and fish stores, hotel and homestay kitchens, and the highway godowns serving the district. A thermal power station stands on the coast.",
       "places": [
         {
@@ -2524,7 +2524,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Mumbai (batch 4: Worli, Wadala-Sewri, Byculla, Santacruz-Vile Parle)
   { slug: "worli", name: "Worli", citySlug: "mumbai", areaType: "mixed-use", nearbyIndustries: ["hospitals-blood-banks", "food-beverage", "data-centers", "pharmaceutical"], confirmedService: true, hero: ["rajmudra", "veer-pro"], page: {
       "metaTitle": "Data Loggers in Worli, Mumbai | Prithvi",
-      "metaDescription": "Temperature data loggers for Worli's sea-face towers, hospitals, hotel kitchens, dairy cold stores and pharmacies in Mumbai. Get Solution.",
+      "metaDescription": "Worli, Mumbai: temperature loggers for sea-face towers, hospitals, hotel kitchens, dairy cold stores and pharmacies. Get Solution to begin in Worli.",
       "intro": "Worli is a long seafront suburb in the middle of Mumbai's western shore, where the Bandra–Worli Sea Link begins and a promenade runs along the Worli Sea Face. Behind the sea face stand the old BDD chawls, the fishing settlement of Worli Koliwada and office towers, hotels and showrooms along Dr Annie Besant Road and the streets around Worli Naka. Hospitals, a science centre, a large indoor stadium and a milk dairy sit beside corporate offices. The air is salty, and the rooms that need watching are server and electrical rooms, hospital pharmacies and laboratories, restaurant kitchens and the dairy's cold stores.",
       "places": [
         {
@@ -2580,7 +2580,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "wadala-sewri", name: "Wadala-Sewri", citySlug: "mumbai", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing", "pharmaceutical", "hospitals-blood-banks", "food-beverage"], confirmedService: true, hero: ["virat", "vayu"], page: {
       "metaTitle": "Data Loggers in Wadala-Sewri, Mumbai | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Wadala's truck terminal and Sewri's dock-side godowns, hospitals and stockists in Mumbai. Get Solution.",
+      "metaDescription": "Wadala-Sewri, Mumbai: WiFi and GSM loggers for Wadala's truck terminal and Sewri's dock-side godowns, hospitals and stockists. Get Solution: Wadala-Sewri.",
       "intro": "Wadala and Sewri sit on Mumbai's eastern harbour side, on the Harbour line, where the island city's old port lands meet its working neighbourhoods. Wadala has a large truck terminal, warehouses and the roads that carry traffic to the Eastern Freeway and the Sion–Panvel road, and Sewri has a fort, a stretch of mudflats visited by flamingos and a large tuberculosis hospital, with godowns and cargo yards along the dock side. Mixed in are chawls, small workshops and newer towers. Goods wait here for the next truck or ship, and hospitals and kitchens work around them.",
       "places": [
         {
@@ -2637,7 +2637,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "byculla", name: "Byculla", citySlug: "mumbai", areaType: "mixed-use", nearbyIndustries: ["hospitals-blood-banks", "laboratories", "food-beverage", "pharmaceutical"], confirmedService: true, hero: ["virat-pro", "dock"], page: {
       "metaTitle": "Data Loggers in Byculla, Mumbai | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Byculla's hospital campus, laboratories, market cold rooms and stockists in central Mumbai. Get Solution.",
+      "metaDescription": "Byculla, Mumbai: WiFi and GSM loggers for the hospital campus, laboratories, market cold rooms and stockists in central Mumbai. Get Solution: Byculla.",
       "intro": "Byculla is an old working district of central Mumbai on the Central line, close to the docks of Mazagaon and the lanes of Nagpada and Agripada. Its major institutions are the Sir J.J. Group of Hospitals with the Grant Medical College, a large government hospital campus, and the zoo and gardens at Rani Baug. Around them stand old chawls, small workshops, wholesale markets and godowns, and the stockists and chemists who supply the hospitals. Storage here is a mix of hospital and laboratory stores, market stock and the working godowns of an old district built long before air conditioning.",
       "places": [
         {
@@ -2693,7 +2693,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "santacruz-vile-parle", name: "Santacruz-Vile Parle", citySlug: "mumbai", areaType: "mixed-use", nearbyIndustries: ["hospitals-blood-banks", "food-beverage", "logistics-warehousing", "pharmaceutical"], confirmedService: true, hero: ["veer-pro", "virat-pro"], page: {
       "metaTitle": "Data Loggers in Santacruz-Vile Parle, Mumbai | Prithvi",
-      "metaDescription": "Temperature data loggers for Santacruz and Vile Parle's hospitals, hotels, courier hubs and pharmacies near the airport in Mumbai. Get Solution.",
+      "metaDescription": "Santacruz-Vile Parle, Mumbai: temperature loggers for hospitals, hotels, courier hubs and pharmacies near the airport. Get Solution: Santacruz-Vile Parle.",
       "intro": "Santacruz and Vile Parle are neighbouring suburbs on Mumbai's Western line, and between them stand the domestic airport terminal, the Juhu aerodrome and the Mumbai University campus at Kalina, with the Western Express Highway and the Santacruz–Chembur Link Road close by. Both suburbs are dense, with shops, markets, hotels and apartment blocks, and with hospitals on the Juhu side including a municipal hospital and a large private one. Air travel brings hotels, airport-related catering and courier and freight firms, and the residential markets bring pharmacies, bakers and stockists. Storage here ranges from hotel kitchens to pharmacy fridges and courier rooms.",
       "places": [
         {
@@ -2759,7 +2759,7 @@ export const areas: AreaDef[] = [
     page: {
       metaTitle: "Data Loggers in Turbhe, Navi Mumbai | Prithvi",
       metaDescription:
-        "Temperature data loggers for Turbhe's MIDC units, market-side cold stores and warehouses in Navi Mumbai. Site visits arranged. Get Solution.",
+        "Turbhe, Navi Mumbai: temperature loggers for MIDC units, market-side cold stores and warehouses. Get Solution: Turbhe.",
       intro:
         "Turbhe is the western gateway of Navi Mumbai's Thane–Belapur industrial belt, and it feels like a working district: factory units, packaging and chemical sheds, transport yards and the big produce and grain markets in its neighbourhood. Storage here runs on a daily rhythm of goods in and out, so temperature records matter most at the points where stock rests: cold rooms, holding rooms and finished-goods stores that never quite empty.",
       places: [
@@ -2819,7 +2819,7 @@ export const areas: AreaDef[] = [
     page: {
       metaTitle: "Data Loggers in Rabale, Navi Mumbai | Prithvi",
       metaDescription:
-        "WiFi and GSM temperature data loggers for Rabale MIDC's manufacturers, warehouses and offices. Site visits arranged. Get Solution.",
+        "Rabale, Navi Mumbai: WiFi and GSM loggers for Rabale MIDC manufacturers, warehouses and offices. Through Get Solution, tell us about Rabale.",
       intro:
         "Rabale sits in the middle of the Thane–Belapur industrial belt, between the railway and the hills, and its estate is built from many small and mid-sized plots instead of a few large campuses. That mix produces a particular monitoring pattern: dozens of independent firms, each with one or two rooms that matter, and each owner wanting to know about a problem without driving to the unit at night.",
       places: [
@@ -2879,7 +2879,7 @@ export const areas: AreaDef[] = [
     page: {
       metaTitle: "Data Loggers in Mahape, Navi Mumbai | Prithvi",
       metaDescription:
-        "Temperature and humidity data loggers for Mahape's business parks, data-centre and IT campuses and MIDC units. Visits arranged. Get Solution.",
+        "Mahape, Navi Mumbai: temperature and humidity loggers for business parks, data-centre and IT campuses and MIDC units. Get Solution: Mahape.",
       intro:
         "Mahape is where Navi Mumbai's industrial estate meets its technology district. Factory units and chemical sheds sit within sight of business parks, IT campuses and the data-centre buildings that cluster toward Airoli. Two kinds of storage coexist here: heavy-duty industrial rooms, and the climate-controlled halls and server rooms of technology firms that expect cooling to simply work and want to know at once when it does not.",
       places: [
@@ -2939,7 +2939,7 @@ export const areas: AreaDef[] = [
     page: {
       metaTitle: "Data Loggers in Taloja, Navi Mumbai | Prithvi",
       metaDescription:
-        "Temperature data loggers for Taloja MIDC's chemical, pharma and engineering units and warehouses. Site visits arranged. Get Solution.",
+        "Taloja, Navi Mumbai: temperature loggers for Taloja MIDC chemical, pharma and engineering units and warehouses. Through Get Solution, tell us about Taloja.",
       intro:
         "Taloja lies beyond Kharghar on the road toward Panvel, and it is a large industrial estate with the scale and the distances to match. Chemical, pharmaceutical, engineering and plastics units sit on wide plots, with long walks between production blocks, tank farms and warehouses. Monitoring at that scale is a question of reaching far-apart rooms without trailing cable, and of keeping a record when the people responsible are not on site.",
       places: [
@@ -3000,7 +3000,7 @@ export const areas: AreaDef[] = [
     page: {
       metaTitle: "Data Loggers in Wagle Estate, Thane | Prithvi",
       metaDescription:
-        "Temperature and humidity data loggers for Wagle Estate's pharma, electronics and engineering units in Thane. Visits arranged. Get Solution.",
+        "Wagle Estate, Thane: temperature and humidity loggers for pharma, electronics and engineering units. Get Solution to start in Wagle Estate.",
       intro:
         "Wagle Estate is one of Thane's long-established industrial districts, set on the western side of the city near the highway. Pharmaceutical, electronics and engineering units sit beside offices and service businesses, many in multi-storey buildings that were built for industry long before wireless monitoring existed. Floors, lifts and stairwells decide where a signal reaches, so the first conversation here is usually about layout.",
       places: [
@@ -3060,7 +3060,7 @@ export const areas: AreaDef[] = [
     page: {
       metaTitle: "Data Loggers in Dombivli MIDC, Thane | Prithvi",
       metaDescription:
-        "Temperature data loggers for Dombivli MIDC's chemical, pharma and engineering units. Site visits arranged by appointment. Get Solution.",
+        "Dombivli MIDC, Thane: temperature loggers for chemical, pharma and engineering units. Get Solution: Dombivli MIDC.",
       intro:
         "Dombivli MIDC lies on the Kalyan side of the Thane district, split into an earlier and a later phase, and it is known mainly for chemical and process industry alongside pharmaceutical intermediates, engineering and food units. The estate is close to dense housing, which raises the bar for anyone who stores hazardous or temperature-sensitive material: a record that is kept automatically is worth more than one that depends on a person remembering to write it down.",
       places: [
@@ -3120,7 +3120,7 @@ export const areas: AreaDef[] = [
     page: {
       metaTitle: "Data Loggers in Bhiwandi, Thane | Prithvi",
       metaDescription:
-        "WiFi and GSM temperature data loggers for Bhiwandi's warehouse parks, 3PL operators and textile units. Site visits arranged. Get Solution.",
+        "Bhiwandi, Thane: WiFi and GSM loggers for warehouse parks, 3PL operators and textile units. Get Solution to cover Bhiwandi.",
       intro:
         "Bhiwandi is Mumbai's warehouse town. Large godown parks line the roads toward Nashik and Wada, third-party logistics operators run shared sheds for many customers, and powerloom textile units fill the older parts of the town. Sheds here are big, tall and hot in the pre-monsoon weeks, with doors that open all day. Temperature-sensitive goods share space with ambient cargo, so knowing where each pallet sat and for how long is a daily question.",
       places: [
@@ -3172,7 +3172,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Vasai-Palghar (data entries)
   { slug: "vasai", name: "Vasai", citySlug: "vasai-palghar", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing", "food-beverage", "pharmaceutical"], confirmedService: true, hero: ["vayu", "hooter"], page: {
       "metaTitle": "Data Loggers in Vasai, Palghar district | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Vasai's industrial estates, godowns and food traders north of Mumbai. Site visits arranged. Get Solution.",
+      "metaDescription": "Vasai, Palghar district: WiFi and GSM loggers for industrial estates, godowns and food traders north of Mumbai. Get Solution to scope monitoring in Vasai.",
       "intro": "Vasai lies north of Mumbai across the creek, where the western railway line and the highway to Gujarat run close together. The town and its neighbour Virar have grown quickly, and the industrial estates on the eastern side, the godowns along the highway and the markets of the creek towns all keep stock that is sensitive to heat. Many firms here are small and family-run, and they sit between the city's big distributors and the shops of a dense residential belt.",
       "places": [
         {
@@ -3217,7 +3217,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "tarapur", name: "Tarapur", citySlug: "vasai-palghar", areaType: "midc-estate", nearbyIndustries: ["chemical", "pharmaceutical", "textile"], confirmedService: true, hero: ["virat", "dock"], page: {
       "metaTitle": "Data Loggers in Tarapur, Palghar | Prithvi",
-      "metaDescription": "Temperature data loggers for Tarapur MIDC's chemical, pharma, engineering and textile units in Palghar district. Visits arranged. Get Solution.",
+      "metaDescription": "Tarapur, Palghar district: temperature loggers for Tarapur MIDC chemical, pharma, engineering and textile units. Get Solution to begin in Tarapur.",
       "intro": "Tarapur is a large industrial estate on the coast of Palghar district, planned around process industry. Chemical, pharmaceutical intermediate, engineering and textile units occupy plots of many sizes, with common services for the whole estate. The sea is close, so air is humid and salty for most of the year, which is hard on stores, electronics and packaging. Plants here handle materials whose labels give a storage range, and the record that the range was kept matters to their customers.",
       "places": [
         {
@@ -3262,7 +3262,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "boisar", name: "Boisar", citySlug: "vasai-palghar", areaType: "midc-estate", nearbyIndustries: ["chemical", "pharmaceutical", "logistics-warehousing"], confirmedService: true, hero: ["rajmudra", "virat-pro"], page: {
       "metaTitle": "Data Loggers in Boisar, Palghar | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Boisar's chemical, pharma and engineering units next to Tarapur. Site visits arranged. Get Solution.",
+      "metaDescription": "Boisar, Palghar district: WiFi and GSM loggers for chemical, pharma and engineering units next to Tarapur. Get Solution to begin in Boisar.",
       "intro": "Boisar is the town beside the Tarapur estate, and it works as its residential and supply base as well as an industrial centre in its own right. Pharmaceutical, chemical, engineering and packaging units operate in and around the town, and the railway station makes it the access point for many plants. Many staff live close by, which changes how monitoring works: there is often someone within reach, but nights and holidays still leave long hours when stores sit unwatched.",
       "places": [
         {
@@ -3308,7 +3308,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Pune (data entries)
   { slug: "pimpri-chinchwad", name: "Pimpri-Chinchwad", citySlug: "pune", areaType: "industrial-estate", nearbyIndustries: ["electronics", "pharmaceutical", "logistics-warehousing"], confirmedService: true, hero: ["virat-pro", "dock"], page: {
       "metaTitle": "Data Loggers in Pimpri-Chinchwad, Pune | Prithvi",
-      "metaDescription": "Temperature and humidity data loggers for Pimpri-Chinchwad's Bhosari, Chikhli and Talawade units and warehouses. Site visits arranged. Get Solution.",
+      "metaDescription": "Pimpri-Chinchwad, Pune: temperature and humidity loggers for Bhosari, Chikhli and Talawade units and warehouses. Get Solution for Pimpri-Chinchwad.",
       "intro": "Pimpri-Chinchwad is the industrial township on the north-western side of Pune, and it grew around engineering and automotive manufacturing. Parts makers, tool rooms, foundry-adjacent units and the warehouses that supply them sit in estates that are now surrounded by housing and traffic. Storage rooms here are rarely refrigerated cold rooms; they are paint stores, adhesive and lubricant rooms, electronics stores and finished-goods warehouses where heat and damp change what is on the shelf. A logger replaces the occasional thermometer glance with a continuous record.",
       "places": [
         {
@@ -3354,7 +3354,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "chakan", name: "Chakan", citySlug: "pune", areaType: "midc-estate", nearbyIndustries: ["electronics", "logistics-warehousing", "food-beverage"], confirmedService: true, hero: ["setu", "hooter"], page: {
       "metaTitle": "Data Loggers in Chakan, Pune | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Chakan's MIDC phases and logistics parks near Pune. Site visits arranged on request. Get Solution.",
+      "metaDescription": "Chakan, Pune: WiFi and GSM loggers for MIDC phases and logistics parks near Pune. Get Solution to cover Chakan.",
       "intro": "Chakan lies on the road to Nashik, a short way beyond Pune's northern edge, and it has become one of the region's main automotive and warehousing districts. The estate runs in several phases, with assembly plants and component makers on some plots and large logistics parks on others. Distances between buildings are long and the sheds are big, so the monitoring question is how to reach many far-apart rooms and several heights within a shed without laying cable across a site that is already busy.",
       "places": [
         {
@@ -3400,7 +3400,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "ranjangaon", name: "Ranjangaon", citySlug: "pune", areaType: "midc-estate", nearbyIndustries: ["electronics", "food-beverage", "pharmaceutical"], confirmedService: true, hero: ["veer-pro", "hooter"], page: {
       "metaTitle": "Data Loggers in Ranjangaon, Pune | Prithvi",
-      "metaDescription": "Temperature and humidity data loggers for Ranjangaon MIDC's consumer-goods, electronics, food and auto units near Pune. Get Solution.",
+      "metaDescription": "Ranjangaon, Pune: temperature and humidity loggers for MIDC consumer-goods, electronics, food and auto units. Use Get Solution for Ranjangaon.",
       "intro": "Ranjangaon is a planned estate on the Ahmednagar road, well outside Pune, with wide roads, large plots and a population of plants that makes consumer goods, electronics, packaged food and automotive parts. Because it is a self-contained industrial district, many firms here run their own warehouses and quality rooms instead of relying on a neighbouring city. That suits a monitoring system that covers production, packaging and finished goods under one account and one set of alert rules.",
       "places": [
         {
@@ -3446,7 +3446,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "hinjewadi", name: "Hinjewadi", citySlug: "pune", areaType: "business-district", nearbyIndustries: ["data-centers", "electronics", "laboratories"], confirmedService: true, hero: ["vayu", "dock"], page: {
       "metaTitle": "Data Loggers in Hinjewadi, Pune | Prithvi",
-      "metaDescription": "Temperature and humidity data loggers for Hinjewadi's IT parks, server rooms, laboratories and hospitality sites in Pune. Get Solution.",
+      "metaDescription": "Hinjewadi, Pune: temperature and humidity loggers for IT parks, server rooms, laboratories and hospitality sites. Get Solution to begin in Hinjewadi.",
       "intro": "Hinjewadi is Pune's technology district, built around a large planned information-technology park on the western side of the city. The buildings here are offices, campuses, hostels, hotels and a growing number of laboratories, and the rooms that need monitoring are different from those of a factory estate: server rooms and network closets, small research and testing laboratories, hotel kitchens and pharmacy cabinets. Each is small, each has a named owner, and each depends on someone being told quickly when a reading drifts.",
       "places": [
         {
@@ -3492,7 +3492,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "talegaon", name: "Talegaon", citySlug: "pune", areaType: "midc-estate", nearbyIndustries: ["electronics", "food-beverage", "pharmaceutical"], confirmedService: true, hero: ["vayu-pro", "dock"], page: {
       "metaTitle": "Data Loggers in Talegaon, Pune | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Talegaon MIDC's engineering, auto and food units on the Mumbai-Pune road. Get Solution.",
+      "metaDescription": "Talegaon, Pune: WiFi and GSM loggers for MIDC engineering, auto and food units on the Mumbai-Pune road. Get Solution for Talegaon.",
       "intro": "Talegaon sits on the Mumbai–Pune road, on the Pune side of the ghat, and its estate has grown around automotive plants, engineering firms and food and consumer-goods units. The location gives it a particular rhythm: trucks arrive from Mumbai's ports and Pune's plants in both directions, and warehouses hold goods for a short time before they travel on. Monitoring here is mostly about the interval between arrival and onward movement, and about keeping the stores that feed production steady. Hospitals, clinics and food traders in the town make the mix less one-note than it first looks, so a few cold rooms sit among many dry stores, and each kind needs its own alert limits.",
       "places": [
         {
@@ -3539,7 +3539,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Ahmedabad (data entries)
   { slug: "naroda", name: "Naroda", citySlug: "ahmedabad", areaType: "industrial-estate", nearbyIndustries: ["pharmaceutical", "chemical", "food-beverage"], confirmedService: true, hero: ["nakshatra", "dhruva"], page: {
       "metaTitle": "Data Loggers in Naroda, Ahmedabad | Prithvi",
-      "metaDescription": "Temperature and humidity data loggers for Naroda GIDC's engineering, chemical and plastics units and market-side stores. Get Solution.",
+      "metaDescription": "Naroda, Ahmedabad: temperature and humidity loggers for Naroda GIDC engineering, chemical and plastics units and market-side stores. Get Solution: Naroda.",
       "intro": "Naroda is the older industrial district on the north-eastern side of Ahmedabad, and the city has grown around it until the estate now sits among neighbourhoods and arterial roads. The units are mixed: engineering shops, plastics and packaging firms, chemical blenders and traders, with a large fruit and vegetable market close by. Plots are compact and buildings are often several storeys, so monitoring has to fit inside what is already built, in rooms that may have no network and whose owners cannot easily rewire.",
       "places": [
         {
@@ -3585,7 +3585,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "vatva", name: "Vatva", citySlug: "ahmedabad", areaType: "industrial-estate", nearbyIndustries: ["chemical", "pharmaceutical", "textile"], confirmedService: true, hero: ["veer-pro", "dock"], page: {
       "metaTitle": "Data Loggers in Vatva, Ahmedabad | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Vatva GIDC's chemical, dye and pharma intermediate units in Ahmedabad. Visits arranged. Get Solution.",
+      "metaDescription": "Vatva, Ahmedabad: WiFi and GSM loggers for Vatva GIDC chemical, dye and pharma intermediate units. Get Solution to scope monitoring in Vatva.",
       "intro": "Vatva lies on the south-eastern edge of Ahmedabad and is known mainly for chemical manufacture: dyes and pigments, intermediates, specialty chemicals and the smaller formulation units that sit beside them. The estate is crowded, with plots divided and subdivided over the years, and buildings that were not planned for modern monitoring. Materials here often carry a stated storage range on the label, and customers increasingly ask for evidence that the range was kept.",
       "places": [
         {
@@ -3631,7 +3631,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "changodar", name: "Changodar", citySlug: "ahmedabad", areaType: "industrial-estate", nearbyIndustries: ["pharmaceutical", "chemical", "logistics-warehousing"], confirmedService: true, hero: ["virat-pro", "hooter"], page: {
       "metaTitle": "Data Loggers in Changodar, Ahmedabad | Prithvi",
-      "metaDescription": "Temperature data loggers for Changodar's pharma manufacturers and logistics yards on the western highway near Ahmedabad. Get Solution.",
+      "metaDescription": "Changodar, Ahmedabad: temperature loggers for pharma manufacturers and logistics yards on the western highway. Get Solution: request a plan for Changodar.",
       "intro": "Changodar is a western-side estate on the highway out of Ahmedabad, and it is known mainly for pharmaceutical manufacturing with a cluster of logistics yards and warehouses beside it. The estate has wider plots than the older eastern districts and sits close to the neighbouring estates of the same road, so a company may have a plant in one and a warehouse in another. For those firms, the question is how to watch several sites that are a short drive apart as one operation.",
       "places": [
         {
@@ -3677,7 +3677,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "sanand", name: "Sanand", citySlug: "ahmedabad", areaType: "industrial-estate", nearbyIndustries: ["electronics", "pharmaceutical", "food-beverage"], confirmedService: true, hero: ["dhruva", "hooter"], page: {
       "metaTitle": "Data Loggers in Sanand, Ahmedabad | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Sanand GIDC's automotive, electronics, food and pharma plants near Ahmedabad. Get Solution.",
+      "metaDescription": "Sanand, Ahmedabad: WiFi and GSM loggers for Sanand GIDC automotive, electronics, food and pharma plants. Get Solution, or WhatsApp us about Sanand.",
       "intro": "Sanand is the newer face of Ahmedabad's industry, a set of estates beyond the western ring road with wide roads, large plots and plants built in the last two decades. Automotive assembly and its suppliers, electronics, food and consumer goods and pharmaceutical firms all sit here on a scale the older eastern estates could not offer. Distances between buildings are long and many sites have their own power and utilities, so monitoring has to span a campus and give plant engineers one picture.",
       "places": [
         {
@@ -3724,7 +3724,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ South Gujarat (data entries)
   { slug: "vapi-gidc", name: "Vapi GIDC", citySlug: "vapi", areaType: "industrial-estate", nearbyIndustries: ["chemical", "pharmaceutical", "textile"], confirmedService: true, hero: ["hooter", "dock"], page: {
       "metaTitle": "Data Loggers in Vapi GIDC | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Vapi GIDC's chemical, dye, pharma and paper units, with site visits arranged. Get Solution.",
+      "metaDescription": "Vapi GIDC, Gujarat: WiFi and GSM loggers for chemical, dye, pharma and paper units. Get Solution to begin in Vapi GIDC.",
       "intro": "Vapi GIDC is the estate itself, laid out in numbered phases and carrying chemical, dye, pharmaceutical intermediate, paper and plastics units on streets of narrow plots. It is a busy, built-up estate, and most firms here have a production hall, a store or two and a small quality room in a footprint that leaves little space between buildings. Heat and fumes from one unit reach the next, so a store's temperature is often a property of the neighbourhood as much as of the room.",
       "places": [
         {
@@ -3770,7 +3770,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "ankleshwar-gidc", name: "Ankleshwar GIDC", citySlug: "ankleshwar", areaType: "industrial-estate", nearbyIndustries: ["chemical", "pharmaceutical", "laboratories"], confirmedService: true, hero: ["dhruva", "vayu-pro"], page: {
       "metaTitle": "Data Loggers in Ankleshwar GIDC | Prithvi",
-      "metaDescription": "Temperature data loggers for Ankleshwar GIDC's chemical and pharma plants and laboratories, with site visits arranged. Get Solution.",
+      "metaDescription": "Ankleshwar GIDC, Gujarat: temperature loggers for chemical and pharma plants and laboratories. Use Get Solution to plan Ankleshwar GIDC.",
       "intro": "Ankleshwar GIDC is the heart of the district's chemical industry: a large estate on the Narmada plain with plants that make bulk chemicals, intermediates, pigments and pharmaceutical ingredients. Many plots are big enough to hold several buildings, tank farms and a laboratory, and plants frequently run in continuous shifts. A plant's stores are therefore numerous and spread out, and the people responsible for them are often on a different part of the plot from the storage they answer for.",
       "places": [
         {
@@ -3816,7 +3816,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "dahej", name: "Dahej", citySlug: "ankleshwar", areaType: "industrial-estate", nearbyIndustries: ["chemical", "pharmaceutical", "logistics-warehousing"], confirmedService: true, hero: ["setu", "virat"], page: {
       "metaTitle": "Data Loggers in Dahej, Bharuch | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Dahej's chemical region, port-side warehouses and process plants. Site visits arranged. Get Solution.",
+      "metaDescription": "Dahej, Bharuch district: WiFi and GSM loggers for the chemical region, port-side warehouses and process plants. Get Solution to begin in Dahej.",
       "intro": "Dahej is the coastal industrial region on the Bharuch district's western edge, planned around a port and large chemical and petrochemical-linked investment. Plants here are on a bigger scale than most Indian estates: wide plots, long internal roads and stores that sit far from one another. The sea is close, so air is salty and humid, and cargo comes and goes by ship. Monitoring has to work across large distances and with equipment that survives a salt-laden environment.",
       "places": [
         {
@@ -3862,7 +3862,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "sachin", name: "Sachin", citySlug: "surat", areaType: "industrial-estate", nearbyIndustries: ["textile", "chemical", "pharmaceutical"], confirmedService: true, hero: ["rajmudra", "virat-pro"], page: {
       "metaTitle": "Data Loggers in Sachin, Surat | Prithvi",
-      "metaDescription": "Temperature and humidity data loggers for Sachin GIDC's textile, chemical and engineering units in Surat. Site visits arranged. Get Solution.",
+      "metaDescription": "Sachin, Surat: temperature and humidity loggers for Sachin GIDC textile, chemical and engineering units. Get Solution, or call us to discuss Sachin.",
       "intro": "Sachin is an industrial estate on the southern side of Surat, set between the railway, the highway and the creeks that run toward the sea. Textile processing and dyeing units sit alongside chemical and engineering firms, with warehouses and transport yards on the roads that link them to the city and to the ports. The surrounding air is humid for most of the year and the monsoon is heavy, so storage rooms for yarn, fabric and chemicals face damp as much as heat.",
       "places": [
         {
@@ -3909,7 +3909,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Delhi NCR (data entries)
   { slug: "okhla", name: "Okhla", citySlug: "delhi", areaType: "industrial-estate", nearbyIndustries: ["pharmaceutical", "food-beverage", "laboratories"], confirmedService: true, hero: ["virat-pro", "vayu-pro"], page: {
       "metaTitle": "Data Loggers in Okhla, Delhi | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Okhla's pharma, packaging, electrical and laboratory units in Delhi. Visits arranged. Get Solution.",
+      "metaDescription": "Okhla, Delhi: WiFi and GSM loggers for pharma, packaging, electrical and laboratory units. Get Solution, or WhatsApp us about Okhla.",
       "intro": "Okhla is the south-eastern industrial district of Delhi, close to the Noida border and laid out in three phases. Pharmaceutical, packaging, garment, electrical and printing units sit on closely packed plots, with laboratories and testing houses scattered among them. Many buildings rise three or four floors, with production below and storage above, and the lanes between them are narrow enough that one delivery van blocks the street. A room in Okhla is usually someone's whole stock, so the question is rarely whether to watch it but how to do so in a workshop that has no spare space.",
       "places": [
         {
@@ -3955,7 +3955,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "bawana", name: "Bawana", citySlug: "delhi", areaType: "industrial-estate", nearbyIndustries: ["food-beverage", "logistics-warehousing", "chemical"], confirmedService: true, hero: ["setu", "rajmudra"], page: {
       "metaTitle": "Data Loggers in Bawana, Delhi | Prithvi",
-      "metaDescription": "Temperature data loggers for Bawana's food-processing, plastics and warehouse units on Delhi's north-western edge. Site visits arranged. Get Solution.",
+      "metaDescription": "Bawana, Delhi: temperature loggers for food-processing, plastics and warehouse units on the north-western edge. Get Solution, or call us to discuss Bawana.",
       "intro": "Bawana is a large industrial area on the north-western edge of Delhi, planned later and laid out more generously than the older districts, with wider roads, bigger plots and long stretches between buildings. Food processing, plastics, packaging and warehousing units make up much of it, and many firms run shifts through the night. Because a plant here may have separate buildings for raw material, production and dispatch, the person responsible for a store is rarely beside it, and the quiet hours between shifts are exactly when a failed compressor or an open door goes unseen.",
       "places": [
         {
@@ -4000,7 +4000,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "narela", name: "Narela", citySlug: "delhi", areaType: "industrial-estate", nearbyIndustries: ["food-beverage", "logistics-warehousing", "pharmaceutical"], confirmedService: true, hero: ["virat", "vayu"], page: {
       "metaTitle": "Data Loggers in Narela, Delhi | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Narela's food, packaging and warehouse sheds on Delhi's northern edge. Visits arranged. Get Solution.",
+      "metaDescription": "Narela, Delhi: WiFi and GSM loggers for food, packaging and warehouse sheds on the northern edge. Use Get Solution for Narela.",
       "intro": "Narela lies on Delhi's northern boundary, close to the Haryana border and the highways that carry goods north, and its industrial area has grown into a mix of food, packaging, engineering and warehousing units on plots of many sizes. The estate is more spread out than Okhla and less settled than the older districts, with open land still visible between clusters of sheds. Firms here depend on road transport, so goods spend time on docks and in vehicles as well as in stores, and the temperature record needs to follow the goods and not only the room.",
       "places": [
         {
@@ -4041,7 +4041,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "mayapuri", name: "Mayapuri", citySlug: "delhi", areaType: "industrial-estate", nearbyIndustries: ["electronics","chemical","logistics-warehousing"], confirmedService: true, hero: ["rajmudra","virat-pro"], page: {
         "metaTitle": "Data Loggers in Mayapuri, Delhi | Prithvi",
-        "metaDescription": "WiFi and GSM temperature and humidity data loggers for Mayapuri's engineering workshops, spares godowns and panel rooms in Delhi. Get Solution.",
+        "metaDescription": "Mayapuri, Delhi: WiFi and GSM temperature and humidity loggers for engineering workshops, spares godowns and panel rooms. Get Solution to cover Mayapuri.",
         "intro": "Mayapuri is an industrial area in west Delhi, laid out in two phases beside Naraina, Hari Nagar and Raja Garden, and known across the city for engineering workshops, machinery dealers, vehicle spares and metal trading. Much of the work is mechanical, with lathes, welding and fabrication, and a good part of the stock is steel, tools and parts that rust. Units are small, plots are shared and goods are kept in whatever space is nearest. Monitoring here is less about cold rooms than about heat, damp and the electrical rooms that keep the workshops running. A Mayapuri workshop rarely has a spare room or a stores clerk, so a small device is more practical than a large system.",
         "places": [
           {
@@ -4097,7 +4097,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "wazirpur", name: "Wazirpur", citySlug: "delhi", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","electronics"], confirmedService: true, hero: ["veer-pro","virat"], page: {
         "metaTitle": "Data Loggers in Wazirpur, Delhi | Prithvi",
-        "metaDescription": "Temperature and humidity data loggers for Wazirpur's steel and stainless steel godowns, finishing stores and panel rooms in Delhi. Get Solution.",
+        "metaDescription": "Wazirpur, Delhi: temperature and humidity loggers for steel and stainless steel godowns, finishing stores and panel rooms. Get Solution to cover Wazirpur.",
         "intro": "Wazirpur is an industrial area in north-west Delhi, near Ashok Vihar and Shalimar Bagh, and it is mainly known for steel: the rolling and processing of steel and stainless steel sheet, pipes, utensils and hardware, with many small firms around the larger ones. Coils, sheets and finished goods are kept in godowns and open yards, and the work uses acids and polishing compounds. The area is crowded, trucks arrive through the day and buildings are often old. Steel rusts and stains where air is damp and storage is cramped, so monitoring in Wazirpur is as much about humidity and condensation in a godown as about heat in a polishing shop.",
         "places": [
           {
@@ -4153,7 +4153,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "mundka", name: "Mundka", citySlug: "delhi", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","food-beverage","electronics"], confirmedService: true, hero: ["dhruva","veer"], page: {
         "metaTitle": "Data Loggers in Mundka, Delhi | Prithvi",
-        "metaDescription": "WiFi and GSM temperature and humidity data loggers for Mundka's factories, packing units and warehouse sheds on Delhi's western edge. Get Solution.",
+        "metaDescription": "Mundka, Delhi: WiFi and GSM temperature and humidity loggers for factories, packing units and warehouse sheds on the western edge. Get Solution: Mundka.",
         "intro": "Mundka lies on the north-western edge of Delhi, beside the Rohtak road and close to Nangloi and the Haryana border, and its industrial area is a large mixed estate of small and mid-sized factories, packing units and warehouses. The Metro's Green Line now reaches Mundka and the industrial area, which helps staff, though goods still arrive by road. Many units are family-run, with production, store and office in one building and shifts that end late. A temperature and humidity record in Mundka mostly protects packaged goods, electrical items and food stock held in sheds that bake in summer, and it helps owners who live far from the premises.",
         "places": [
           {
@@ -4206,7 +4206,7 @@ export const areas: AreaDef[] = [
   { slug: "noida", name: "Noida", citySlug: "noida", areaType: "business-district", nearbyIndustries: ["electronics", "data-centers", "logistics-warehousing"], confirmedService: true, hero: ["virat", "vayu-pro"] },
   { slug: "greater-noida", name: "Greater Noida", citySlug: "noida", areaType: "industrial-estate", nearbyIndustries: ["electronics", "logistics-warehousing", "pharmaceutical"], confirmedService: true, hero: ["rajmudra", "veer-pro"], page: {
       "metaTitle": "Data Loggers in Greater Noida | Prithvi",
-      "metaDescription": "Temperature data loggers for Greater Noida's electronics, pharma and logistics parks, with site visits arranged from Noida. Get Solution.",
+      "metaDescription": "Greater Noida, Uttar Pradesh: temperature loggers for electronics, pharma and logistics parks. Get Solution: Greater Noida.",
       "intro": "Greater Noida is the newer, larger township south-east of Noida, laid out with wide avenues, generous plots and planned industrial and logistics zones that leave long distances between one building and the next. Electronics assemblers, packaging firms, pharmaceutical units and large distribution warehouses fill the zones, alongside campuses and residential sectors. Because the buildings are new and big, the rooms to be watched tend to be large halls and long bays instead of closets, and the people responsible for them may sit in an office across the plot or in another city altogether.",
       "places": [
         {
@@ -4247,7 +4247,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "sahibabad", name: "Sahibabad", citySlug: "noida", areaType: "industrial-estate", nearbyIndustries: ["food-beverage", "electronics", "logistics-warehousing"], confirmedService: true, hero: ["veer", "virat-pro"], page: {
       "metaTitle": "Data Loggers in Sahibabad | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Sahibabad's engineering, food, electrical and transport units near Delhi. Visits arranged. Get Solution.",
+      "metaDescription": "Sahibabad, Uttar Pradesh: WiFi and GSM loggers for engineering, food, electrical and transport units near Delhi. Use Get Solution for Sahibabad.",
       "intro": "Sahibabad is an industrial area in Ghaziabad district, just across the eastern boundary of Delhi, and it is an older, busy estate where engineering, food, electrical and plastics units stand on small and medium plots. The roads are crowded with goods vehicles and the buildings are often used to the limit, with production on the ground floor and stock above or beside it. Firms here frequently supply customers in Delhi and Noida, so the storage that matters is the stock waiting for the next vehicle as much as the long-term store.",
       "places": [
         {
@@ -4290,7 +4290,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Hyderabad (data entries)
   { slug: "jeedimetla", name: "Jeedimetla", citySlug: "hyderabad", areaType: "industrial-estate", nearbyIndustries: ["pharmaceutical", "chemical", "laboratories"], confirmedService: true, hero: ["veer", "vayu"], page: {
       "metaTitle": "Data Loggers in Jeedimetla, Hyderabad | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Jeedimetla's bulk-drug, formulation and chemical units in Hyderabad. Visits arranged. Get Solution.",
+      "metaDescription": "Jeedimetla, Hyderabad: WiFi and GSM loggers for bulk-drug, formulation and chemical units. Get Solution to cover Jeedimetla.",
       "intro": "Jeedimetla is an older industrial estate on the north-western side of Hyderabad, set among residential neighbourhoods that have grown up around it. Bulk-drug makers, formulation units, chemical blenders and a long tail of small suppliers stand on compact plots, many of them extended upward and sideways over the years. Stores sit directly beside reactors and drying rooms, so a room's temperature depends on what happens next door as much as on the weather. Where plots are small, the question is how to monitor a store without finding room for a new panel or running cable through a wall that is already full.",
       "places": [
         {
@@ -4335,7 +4335,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "patancheru", name: "Patancheru", citySlug: "hyderabad", areaType: "industrial-estate", nearbyIndustries: ["pharmaceutical", "chemical", "laboratories"], confirmedService: true, hero: ["rajmudra", "veer-pro"], page: {
       "metaTitle": "Data Loggers in Patancheru, Hyderabad | Prithvi",
-      "metaDescription": "Temperature data loggers for Patancheru's bulk-drug and chemical plants and Pashamylaram's warehouses near Hyderabad. Get Solution.",
+      "metaDescription": "Patancheru, Hyderabad: temperature loggers for bulk-drug and chemical plants and Pashamylaram warehouses. Through Get Solution, tell us about Patancheru.",
       "intro": "Patancheru lies on the western side of Hyderabad, and its industrial area is one of the larger ones around the city, with bulk-drug, chemical and allied plants standing on wide plots along internal roads. The neighbouring estate of Pashamylaram extends the same pattern, with more pharmaceutical and chemical manufacturers. Plants here are big enough that a store may be a few minutes' walk from the control room, and some have several warehouses on one boundary. A reading that has to be carried back by hand is a reading that arrives late, which is why wireless monitoring with alerts to a phone suits the layout.",
       "places": [
         {
@@ -4380,7 +4380,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "genome-valley", name: "Genome Valley", citySlug: "hyderabad", areaType: "business-district", nearbyIndustries: ["laboratories", "pharmaceutical", "vaccine-cold-chain"], confirmedService: true, hero: ["rajmudra", "vayu"], page: {
       "metaTitle": "Data Loggers in Genome Valley, Hyderabad | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Genome Valley's life-science labs, vaccine makers and research campuses near Hyderabad. Get Solution.",
+      "metaDescription": "Genome Valley, Hyderabad: WiFi and GSM loggers for life-science labs, vaccine makers and research campuses. Use Get Solution for Genome Valley.",
       "intro": "Genome Valley is the life-science cluster on the northern side of Hyderabad, a planned set of research campuses, biotech firms, vaccine and biologics makers and contract laboratories on large, open plots. It is newer than the older estates, with purpose-built cold rooms, freezer halls and clean areas, and the material kept there is often irreplaceable: cell lines, reference strains, vaccine lots and samples that took months to collect. The value of one failed freezer overnight is far larger than the room that holds it, so monitoring here is about proof that a limit held and about a person being reached the moment it did not.",
       "places": [
         {
@@ -4422,7 +4422,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Bengaluru (data entries)
   { slug: "peenya", name: "Peenya", citySlug: "bengaluru", areaType: "industrial-estate", nearbyIndustries: ["electronics", "pharmaceutical", "logistics-warehousing"], confirmedService: true, hero: ["dhruva", "veer-pro"], page: {
       "metaTitle": "Data Loggers in Peenya, Bengaluru | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Peenya's engineering, electronics and packaging units in Bengaluru. Visits arranged. Get Solution.",
+      "metaDescription": "Peenya, Bengaluru: WiFi and GSM loggers for engineering, electronics and packaging units. Get Solution to scope monitoring in Peenya.",
       "intro": "Peenya is the north-western engineering belt of Bengaluru, one of the older and larger industrial estates in the city, with machine shops, tool rooms, component makers, small electronics firms and packaging units on compact plots. The estate has grown by addition, with extra floors and sheds built wherever space allowed, and a firm's store is often a corner of the production floor or a room above it. Much of the stock is metal and electrical, which fears damp more than heat, so humidity matters beside temperature, and the monitoring has to fit inside a workshop that was never planned around it.",
       "places": [
         {
@@ -4467,7 +4467,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "electronic-city", name: "Electronic City", citySlug: "bengaluru", areaType: "business-district", nearbyIndustries: ["electronics", "data-centers", "laboratories"], confirmedService: true, hero: ["setu", "vayu"], page: {
       "metaTitle": "Data Loggers in Electronic City, Bengaluru | Prithvi",
-      "metaDescription": "Temperature and humidity data loggers for Electronic City's technology campuses, labs and server rooms in Bengaluru. Get Solution.",
+      "metaDescription": "Electronic City, Bengaluru: temperature and humidity loggers for technology campuses, labs and server rooms. Get Solution to cover Electronic City.",
       "intro": "Electronic City is the technology and electronics township on the southern side of Bengaluru, built as a set of large campuses with research laboratories, hardware makers, software offices and the server rooms and network closets that serve them. Buildings here were designed around air conditioning, and the rooms that matter most are the ones that depend on it: a hall full of racks, a clean assembly bay, a laboratory with its own chillers. Because the climate outside is mild, a rising reading nearly always points to a fault inside, and the sooner a person knows, the smaller the loss.",
       "places": [
         {
@@ -4508,7 +4508,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "whitefield", name: "Whitefield", citySlug: "bengaluru", areaType: "business-district", nearbyIndustries: ["data-centers", "laboratories", "hospitals-blood-banks"], confirmedService: true, hero: ["dhruva", "veer"], page: {
       "metaTitle": "Data Loggers in Whitefield, Bengaluru | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Whitefield's tech parks, hospitals and laboratories on Bengaluru's east side. Get Solution.",
+      "metaDescription": "Whitefield, Bengaluru: WiFi and GSM loggers for tech parks, hospitals and laboratories on the east side. Get Solution, or WhatsApp us about Whitefield.",
       "intro": "Whitefield is the eastern district of Bengaluru, where technology parks, research centres, hospitals and large residential communities sit side by side along a corridor that has grown quickly. Many buildings are recent and tall, with floors of server rooms, pharmacies and laboratories stacked above offices, and the people responsible for them are often in a different tower from the equipment. Because each campus holds several kinds of room under one management, the useful question is how to give one team a single view of rooms with very different limits, from a vaccine fridge to a rack aisle.",
       "places": [
         {
@@ -4554,7 +4554,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Chennai (data entries)
   { slug: "ambattur", name: "Ambattur", citySlug: "chennai", areaType: "industrial-estate", nearbyIndustries: ["electronics", "pharmaceutical", "logistics-warehousing"], confirmedService: true, hero: ["dhruva", "virat-pro"], page: {
       "metaTitle": "Data Loggers in Ambattur, Chennai | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Ambattur's engineering, electronics and pharma units in north-west Chennai. Visits arranged. Get Solution.",
+      "metaDescription": "Ambattur, Chennai: WiFi and GSM loggers for engineering, electronics and pharma units in the north-west. Get Solution: Ambattur.",
       "intro": "Ambattur is a large industrial estate on the north-western side of Chennai, with engineering shops, electronics assemblers, plastics and packaging firms and a long list of small suppliers that work for the bigger plants further out. Plots are compact and many buildings have been extended upward, so a store is usually a room on a floor above production or a corner of a shed. The humid coastal air reaches every room, and tools, cables and cartons all pick it up, which makes humidity as much a matter of record here as the temperature itself.",
       "places": [
         {
@@ -4599,7 +4599,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "sriperumbudur", name: "Sriperumbudur", citySlug: "chennai", areaType: "industrial-estate", nearbyIndustries: ["electronics", "logistics-warehousing", "pharmaceutical"], confirmedService: true, hero: ["virat-pro", "vayu"], page: {
       "metaTitle": "Data Loggers in Sriperumbudur, Chennai | Prithvi",
-      "metaDescription": "Temperature and humidity data loggers for Sriperumbudur's electronics and automotive plants near Chennai, with site visits. Get Solution.",
+      "metaDescription": "Sriperumbudur, Chennai: temperature and humidity loggers for electronics and automotive plants. Get Solution to start in Sriperumbudur.",
       "intro": "Sriperumbudur lies to the south-west of Chennai and has become one of the region's major manufacturing hubs, with electronics and automotive plants and their suppliers standing on large plots inside planned industrial parks. The buildings are big and new, the roads inside the parks are wide and a single plant can hold several halls, a component warehouse and a utilities block on the same boundary. Because inbound parts arrive from many suppliers and finished goods leave toward the port, the conditions a lot met in the store matter to customers who may be on another continent. A plant that keeps its own record of every hall is better placed to answer such a customer than one that relies on memory and a handwritten round sheet.",
       "places": [
         {
@@ -4640,7 +4640,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "oragadam", name: "Oragadam", citySlug: "chennai", areaType: "industrial-estate", nearbyIndustries: ["electronics", "logistics-warehousing", "food-beverage"], confirmedService: true, hero: ["nakshatra", "veer"], page: {
       "metaTitle": "Data Loggers in Oragadam, Chennai | Prithvi",
-      "metaDescription": "WiFi and GSM temperature data loggers for Oragadam's automotive, electronics and warehousing units near Chennai. Visits arranged. Get Solution.",
+      "metaDescription": "Oragadam, Chennai: WiFi and GSM loggers for automotive, electronics and warehousing units. Get Solution to scope monitoring in Oragadam.",
       "intro": "Oragadam is an industrial park along the south-western corridor out of Chennai, where automotive and electronics plants, their component makers and a growing set of distribution warehouses share wide roads and large, mostly recent plots. Goods move in both directions: parts arrive from suppliers across the region, and finished products and food and consumer lines leave toward the port and the national highways. A warehouse here is as much a staging area as a store, so the question is how long goods stood at a dock and in what air before they were moved on. A reading at the dock door, kept beside the one in the racks, shows whether a delay at the gate or a slow loading bay was the real source of a warm spell.",
       "places": [
         {
@@ -4682,7 +4682,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Goa (batch 1: parent is the Goa city page)
   { slug: "panjim", name: "Panjim", citySlug: "goa", areaType: "business-district", nearbyIndustries: ["hospitals-blood-banks","food-beverage","pharmaceutical"], confirmedService: true, hero: ["setu","veer-pro"], page: {
       "metaTitle": "Data Loggers in Panjim, Goa | Prithvi",
-      "metaDescription": "WiFi and GSM temperature and humidity data loggers for Panjim's hospitals, pharmacies, hotels and offices on the Mandovi. Get Solution.",
+      "metaDescription": "Panjim, Goa: WiFi and GSM temperature and humidity loggers for hospitals, pharmacies, hotels and offices on the Mandovi. Get Solution to begin in Panjim.",
       "intro": "Panjim, also written Panaji, is the capital of Goa and stands on the southern bank of the Mandovi river, where the old town of narrow lanes, balconied houses and churches meets a newer grid of offices, shops and hotels. Government departments, banks, clinics and pharmacies crowd the centre, and a stream of visitors keeps restaurants and hotels busy for much of the year. Panjim is a town of many small rooms rather than a few giant sheds, so a temperature and humidity logger here usually watches a medicine fridge, a hotel walk-in or a server cupboard, in air that is salty and damp for most of the year.",
       "places": [
         {
@@ -4737,7 +4737,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "verna", name: "Verna", citySlug: "goa", areaType: "industrial-estate", nearbyIndustries: ["pharmaceutical","electronics","logistics-warehousing"], confirmedService: true, hero: ["virat","vayu"], page: {
       "metaTitle": "Data Loggers in Verna, Goa | Prithvi",
-      "metaDescription": "WiFi and GSM temperature and humidity data loggers for Verna's industrial estate, pharma and electronics plants and warehouses. Get Solution.",
+      "metaDescription": "Verna, Goa: WiFi and GSM temperature and humidity loggers for the industrial estate, pharma and electronics plants and warehouses. Get Solution: Verna.",
       "intro": "Verna is a plateau in Salcete taluka of South Goa, and its industrial estate is the most prominent in the state for manufacturing. Pharmaceutical formulation plants, electronics and electrical makers, packaging firms and engineering works stand on planned plots behind gates, close to the main road and the railway line that carry goods in and out. Production halls, raw-material stores and finished-goods rooms are often in separate buildings, and many of them must be kept dry through a long monsoon. A temperature and humidity logger in Verna therefore mostly supports quality teams that must show where a batch was held.",
       "places": [
         {
@@ -4792,7 +4792,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "ponda", name: "Ponda", citySlug: "goa", areaType: "mixed-use", nearbyIndustries: ["pharmaceutical","food-beverage","logistics-warehousing"], confirmedService: true, hero: ["setu","virat"], page: {
       "metaTitle": "Data Loggers in Ponda, Goa | Prithvi",
-      "metaDescription": "WiFi and GSM temperature and humidity data loggers for Ponda's industrial estates, markets and food and medicine stores. Get Solution.",
+      "metaDescription": "Ponda, Goa: WiFi and GSM temperature and humidity loggers for industrial estates, markets, and food and medicine stores. Get Solution to begin in Ponda.",
       "intro": "Ponda is an inland town at the centre of Goa, set among hills, temples and spice and areca plantations, and it is also a place where industry and everyday trade meet. Its taluka holds industrial estates on the plateau, while the town itself has a busy market, wholesale shops, clinics and godowns that supply the villages around. The main road between the coast and the Karnataka border runs through it, so goods pass through on trucks at all hours. The hills trap warm, damp air in the monsoon, and a temperature and humidity logger in Ponda mostly guards stock that waits in sheds, shops and small plants.",
       "places": [
         {
@@ -4848,7 +4848,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "margao", name: "Margao (Madgaon)", citySlug: "goa", areaType: "mixed-use", nearbyIndustries: ["food-beverage","hospitals-blood-banks","logistics-warehousing"], confirmedService: true, hero: ["virat","vayu-pro"], page: {
       "metaTitle": "Data Loggers in Margao (Madgaon), Goa | Prithvi",
-      "metaDescription": "WiFi and GSM temperature and humidity data loggers for Margao's market, cold storage, hospitals and retail trade in South Goa. Get Solution.",
+      "metaDescription": "Margao, Goa: WiFi and GSM temperature and humidity loggers for the market, cold storage, hospitals and retail trade in South Goa. Get Solution for Margao.",
       "intro": "Margao, also spelt Madgaon, is the main commercial town of Salcete taluka and of South Goa, and it is the place where the district shops, banks and sells. The big municipal market, the railway junction on the Konkan line, the bus stand and a ring of wholesale lanes make it a gathering point for goods from the villages and the beaches to the south. Hospitals, pharmacies, supermarkets, cold stores and godowns fill the streets around the centre. A temperature and humidity logger in Margao mostly watches perishable and medicine stock held in busy rooms, in air that is hot and wet for most of the year.",
       "places": [
         {
@@ -4905,7 +4905,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Saudi Arabia (batch 1: Riyadh)
   { slug: "riyadh-dry-port", name: "Riyadh Dry Port", citySlug: "riyadh", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","pharmaceutical","food-beverage"], confirmedService: true, hero: ["virat","rajmudra"], page: {
       "metaTitle": "Data Loggers at Riyadh Dry Port, Saudi Arabia | Prithvi",
-      "metaDescription": "WiFi temperature and humidity data loggers for Riyadh Dry Port's container yard, transit sheds and truck terminal, set up remotely. Get Solution.",
+      "metaDescription": "Riyadh Dry Port, Riyadh: WiFi temperature and humidity loggers for the container yard, transit sheds and truck terminal. Get Solution: Riyadh Dry Port.",
       "intro": "Riyadh Dry Port is the inland container terminal of the capital, a rail-linked freight yard where containers that entered the kingdom through the Gulf coast are unloaded, cleared and handed on to trucks. Because Riyadh lies far from any sea port, the dry port works as a gateway for imported cargo: the railway carries boxes of food, medicines, consumer goods and industrial parts inland, and clearance can take place in the yard and not at the coast. A temperature data logger at the dry port follows goods through the waiting and handling that happen between train and truck, when cargo may stand in the sun or in a shed, which is where heat does its damage before the goods reach a warehouse.",
       "places": [
         {
@@ -4959,7 +4959,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "riyadh-1st-industrial-city", name: "Riyadh 1st Industrial City", citySlug: "riyadh", areaType: "industrial-estate", nearbyIndustries: ["food-beverage","logistics-warehousing","chemical"], confirmedService: true, hero: ["nakshatra","veer-pro"], page: {
       "metaTitle": "Data Loggers in Riyadh 1st Industrial City | Prithvi",
-      "metaDescription": "WiFi temperature and humidity data loggers for Riyadh 1st Industrial City's factories, packing halls and warehouses, set up remotely. Get Solution.",
+      "metaDescription": "Riyadh 1st Industrial City, Riyadh: WiFi temperature and humidity loggers for factories and warehouses. Get Solution: Riyadh 1st Industrial City.",
       "intro": "Riyadh 1st Industrial City is one of the earliest industrial estates of the capital, a large district of factories, warehouses and service buildings on the edge of Riyadh, developed and managed by the state's industrial-cities authority. Plants there make food and drink, plastics and packaging, metal goods and building materials, and the warehouses beside them send finished goods across the kingdom by road. The halls stand under metal roofs that trap the desert heat, so the rooms inside depend on cooling plants that work close to their limits for months. A temperature data logger here watches the raw-material stores, the packing halls and the finished-goods rooms where stock waits for a truck.",
       "places": [
         {
@@ -5014,7 +5014,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Saudi Arabia (batch 2: Jeddah)
   { slug: "jeddah-islamic-port", name: "Jeddah Islamic Port", citySlug: "jeddah", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["setu","virat-pro"], page: {
       "metaTitle": "Data Loggers at Jeddah Islamic Port, Saudi Arabia | Prithvi",
-      "metaDescription": "WiFi temperature and humidity data loggers for Jeddah Islamic Port's container yards, cold stores and transit sheds, set up remotely. Get Solution.",
+      "metaDescription": "Jeddah Islamic Port, Jeddah: WiFi temperature and humidity loggers for container yards, cold stores and transit sheds. Get Solution: Jeddah Islamic Port.",
       "intro": "Jeddah Islamic Port is the main seaport of the Red Sea coast and the entry point for a large part of the kingdom's imported food, medicine and general cargo. Container terminals, general-cargo berths and grain facilities stand along the harbour, with yards, transit sheds, cold stores and clearance areas behind them, and trucks collect cleared cargo for the warehouses of Jeddah and the roads inland. Heat and humidity are high for most of the year and salt hangs in the air. A temperature data logger at the port follows goods through the handover from ship to yard to shed to truck, where cargo may wait in sun or damp before it reaches a controlled warehouse.",
       "places": [
         {
@@ -5068,7 +5068,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "jeddah-1st-industrial-city", name: "Jeddah 1st Industrial City", citySlug: "jeddah", areaType: "industrial-estate", nearbyIndustries: ["food-beverage","logistics-warehousing","chemical"], confirmedService: true, hero: ["nakshatra","dhruva"], page: {
       "metaTitle": "Data Loggers in Jeddah 1st Industrial City | Prithvi",
-      "metaDescription": "WiFi temperature and humidity data loggers for Jeddah 1st Industrial City's factories, packing halls and warehouses, set up remotely. Get Solution.",
+      "metaDescription": "Jeddah 1st Industrial City, Jeddah: WiFi temperature and humidity loggers for factories and warehouses. Get Solution for Jeddah 1st Industrial City.",
       "intro": "Jeddah 1st Industrial City is one of the earliest industrial estates of the Red Sea coast, a large district of factories, warehouses and service buildings developed and managed by the state's industrial-cities authority. Plants there make food and drink, plastics and packaging, metal goods, building materials and chemicals, and the warehouses beside them send finished goods to shops and ports across the western region. Heat and humidity are both high for most of the year, so cartons sweat, condensation forms where cold rooms meet warm halls and metal roofs hold the day's heat. A temperature data logger here follows the ingredient stores, the packing halls and the finished-goods rooms where stock waits for a lorry.",
       "places": [
         {
@@ -5123,7 +5123,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Saudi Arabia (batch 3: Eastern Province)
   { slug: "king-abdulaziz-port-dammam", name: "King Abdulaziz Port Dammam", citySlug: "dammam", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["virat","dhruva"], page: {
       "metaTitle": "Data Loggers at King Abdulaziz Port Dammam | Prithvi",
-      "metaDescription": "WiFi temperature and humidity data loggers for King Abdulaziz Port Dammam's container yards, cold stores and transit sheds, set up remotely. Get Solution.",
+      "metaDescription": "King Abdulaziz Port Dammam, Dammam: WiFi loggers for container yards, cold stores and transit sheds. Get Solution to cover King Abdulaziz Port Dammam.",
       "intro": "King Abdulaziz Port is the main seaport on the Gulf coast of the kingdom, at Dammam, and the entry point for a large share of the Eastern Province's imported food, medicine, machinery and general cargo. Container terminals, general-cargo berths and bulk facilities stand along the quay, with yards, cold stores and transit sheds behind them, and a railway carries containers inland toward Riyadh. Trucks collect cleared cargo for the warehouses of Dammam and the roads beyond. Heat and humidity are high through most of the year, and the metal of containers and sheds turns summer sun into radiant heat. A temperature data logger at the port follows goods through the handover from ship to yard, shed, train and truck.",
       "places": [
         {
@@ -5177,7 +5177,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "dammam-1st-industrial-city", name: "Dammam 1st Industrial City", citySlug: "dammam", areaType: "industrial-estate", nearbyIndustries: ["food-beverage","chemical","logistics-warehousing"], confirmedService: true, hero: ["nakshatra","veer"], page: {
       "metaTitle": "Data Loggers in Dammam 1st Industrial City | Prithvi",
-      "metaDescription": "WiFi temperature and humidity data loggers for Dammam 1st Industrial City's plants, fabrication yards and warehouses, set up remotely. Get Solution.",
+      "metaDescription": "Dammam 1st Industrial City, Dammam: WiFi temperature and humidity loggers for plants, yards and warehouses. Get Solution: Dammam 1st Industrial City.",
       "intro": "Dammam 1st Industrial City is an established industrial estate of the Eastern Province, a district of factories, fabrication yards, suppliers and warehouses developed and managed by the state's industrial-cities authority. Plants there make food and drink, plastics and packaging, metal products and building materials, and many firms supply the oilfield and the industrial plants of the Gulf coast with parts, tools and consumables. Warehouses beside them send goods to the port and across the province. The Gulf air is hot and humid, and metal roofs hold the sun's heat. A temperature data logger here watches the ingredient stores, the chemical and consumables rooms and the finished-goods bays where stock waits for a truck.",
       "places": [
         {
@@ -5231,7 +5231,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "jubail-industrial-city-1", name: "Jubail Industrial City 1", citySlug: "jubail", areaType: "industrial-estate", nearbyIndustries: ["chemical","logistics-warehousing","laboratories"], confirmedService: true, hero: ["rajmudra","virat-pro"], page: {
       "metaTitle": "Data Loggers in Jubail Industrial City 1 | Prithvi",
-      "metaDescription": "WiFi temperature and humidity data loggers for Jubail Industrial City 1's petrochemical stores, warehouses and laboratories, set up remotely. Get Solution.",
+      "metaDescription": "Jubail Industrial City 1, Jubail: WiFi temperature and humidity loggers for petrochemical stores and laboratories. Get Solution: Jubail Industrial City 1.",
       "intro": "Jubail Industrial City 1 is the original part of the Jubail industrial city, planned and managed by the Royal Commission for Jubail and Yanbu on the shore north of Dammam. Large petrochemical, fertiliser, steel and plastics plants stand on wide plots with their own utilities, and a commercial port and an industrial port serve them. Around the great plants lie service areas of warehouses, workshops, laboratories and suppliers that keep them running. The air is hot and humid with salt from the sea, and dust blows in from the desert. A temperature data logger here follows the chemical stores, the spare-parts warehouses and the laboratory rooms in which drums, bags, instruments and samples are held to stated limits.",
       "places": [
         {
@@ -5285,7 +5285,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "jubail-industrial-city-2", name: "Jubail Industrial City 2", citySlug: "jubail", areaType: "industrial-estate", nearbyIndustries: ["chemical","logistics-warehousing","food-beverage"], confirmedService: true, hero: ["setu","nakshatra"], page: {
       "metaTitle": "Data Loggers in Jubail Industrial City 2 | Prithvi",
-      "metaDescription": "WiFi temperature and humidity data loggers for Jubail Industrial City 2's downstream plants, warehouses and canteens, set up remotely. Get Solution.",
+      "metaDescription": "Jubail Industrial City 2, Jubail: WiFi temperature and humidity loggers for downstream plants and warehouses. Get Solution: Jubail Industrial City 2.",
       "intro": "Jubail Industrial City 2 is a later extension of the Jubail industrial city, laid out alongside the first area to give more room for further plants, warehouses and services. Downstream and light industry, the makers of plastics, chemicals, packaging and metal goods that use the output of the large plants, find plots here, together with logistics yards and service buildings. Workers live in camps and housing and are fed from canteens and treated at clinics. The climate is hot and humid with salt in the air and blowing dust, and the long distances between plots mean that stores are spread out. A temperature data logger here watches the warehouses, the process-material stores and the canteen kitchens of a newer, more spread-out estate.",
       "places": [
         {
@@ -5340,7 +5340,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Saudi Arabia (batch 4: Yanbu)
   { slug: "yanbu-industrial-city", name: "Yanbu Industrial City", citySlug: "yanbu", areaType: "industrial-estate", nearbyIndustries: ["chemical","logistics-warehousing","laboratories"], confirmedService: true, hero: ["nakshatra","virat-pro"], page: {
       "metaTitle": "Data Loggers in Yanbu Industrial City | Prithvi",
-      "metaDescription": "WiFi temperature and humidity data loggers for Yanbu Industrial City's plant stores, port warehouses and camp kitchens, set up remotely. Get Solution.",
+      "metaDescription": "Yanbu Industrial City, Yanbu: WiFi loggers for plant stores, port warehouses and camp kitchens. Get Solution: request a plan for Yanbu Industrial City.",
       "intro": "Yanbu Industrial City is a planned industrial city on the Red Sea coast, developed and managed by the Royal Commission for Jubail and Yanbu, where refineries, petrochemical and downstream plants stand on wide plots beside a port and a set of shared utilities. Contractors and suppliers keep workshops and warehouses in service zones around the plants, and camps, canteens and clinics serve a large workforce. Heat and humidity are high through most of the year, salt blows in from the sea and fine dust from the desert. A temperature data logger here follows the chemical and drum stores, the spare-parts warehouses, the laboratories and the camp kitchens that keep the city running.",
       "places": [
         {
@@ -5393,7 +5393,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Saudi Arabia (batch 5: Jazan)
   { slug: "jazan-economic-city", name: "Jazan Economic City", citySlug: "jazan", areaType: "industrial-estate", nearbyIndustries: ["chemical","logistics-warehousing","food-beverage"], confirmedService: true, hero: ["rajmudra","dhruva"], page: {
       "metaTitle": "Data Loggers in Jazan Economic City | Prithvi",
-      "metaDescription": "WiFi temperature and humidity data loggers for Jazan Economic City's plant stores, port yards and camp kitchens, set up remotely. Get Solution.",
+      "metaDescription": "Jazan Economic City, Jazan: WiFi temperature and humidity loggers for plant stores, port yards and camp kitchens. Use Get Solution for Jazan Economic City.",
       "intro": "Jazan Economic City is a planned industrial and port city on the Red Sea coast north of the town of Jazan, with a stated purpose of drawing heavy and downstream industry, a port and supporting services to the south-west of the kingdom. A refinery and power complex and a port stand within it, with further industrial zones laid out for plants and warehouses, and contractor camps, canteens and clinics house and feed the workforce. The coast here is very hot and wet, with salt in the air. A temperature data logger on the site follows the chemical and drum stores, the spares warehouses and the camp kitchens of a young estate that is still taking shape.",
       "places": [
         {
@@ -5446,7 +5446,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Yemen (batch 1: Aden)
   { slug: "port-of-aden", name: "Port of Aden", citySlug: "aden", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["virat","rajmudra"], page: {
       "metaTitle": "Data Loggers at the Port of Aden, Yemen | Prithvi",
-      "metaDescription": "Temperature and humidity data loggers for storage around the Port of Aden: yards, transit sheds and cold rooms, reviewed case by case. Get Solution.",
+      "metaDescription": "Port of Aden, Yemen: temperature and humidity loggers for yards, transit sheds and cold rooms, reviewed case by case. Get Solution to cover Port of Aden.",
       "intro": "The Port of Aden lies in the sheltered natural harbour beside the old crater town on the Gulf of Aden, and for generations the harbour has been the reason the city exists: it has long stood on the sea route between Europe, Africa and Asia. A temperature data logger around a port area is concerned with goods during the waiting that follows any sea journey, when cargo stands on a quay, in a transit shed or in a yard before it moves on, in air that is hot, humid and salty. This page describes, in general terms, the kinds of rooms and handovers where a record helps. As with every Yemen enquiry, a request for a port site is reviewed case by case before any recommendation is made.",
       "places": [
         {
@@ -5500,7 +5500,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "aden-free-zone", name: "Aden Free Zone", citySlug: "aden", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["nakshatra","veer"], page: {
       "metaTitle": "Data Loggers in the Aden Free Zone, Yemen | Prithvi",
-      "metaDescription": "Temperature and humidity data loggers for storage in the Aden Free Zone's warehouses, packing halls and cold rooms, reviewed case by case. Get Solution.",
+      "metaDescription": "Aden Free Zone, Yemen: temperature and humidity loggers for warehouses, packing halls and cold rooms, reviewed case by case. Get Solution: Aden Free Zone.",
       "intro": "The Aden Free Zone lies beside the harbour of Aden, and sites of this kind are usually places where goods are stored, packed and sent on. A free zone is built around warehouses, packing halls and yards, and what matters to a temperature data logger is the storage that goes with those buildings: large halls under metal roofs, cold rooms for food and medicine, and the long waits that goods make between arrival and onward movement. The air is hot, humid and salty for most of the year. This page describes those rooms in general terms, as a logger user would meet them. Requests from a free-zone site are, like all Yemen enquiries, looked at case by case before we suggest any logger.",
       "places": [
         {
@@ -5554,7 +5554,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "sheikh-othman-industrial-area", name: "Sheikh Othman Industrial Area", citySlug: "aden", areaType: "industrial-estate", nearbyIndustries: ["food-beverage","logistics-warehousing","chemical"], confirmedService: true, hero: ["setu","dhruva"], page: {
       "metaTitle": "Data Loggers in Sheikh Othman Industrial Area | Prithvi",
-      "metaDescription": "Temperature and humidity data loggers for workshops, stores and plants in Sheikh Othman Industrial Area, Aden, reviewed case by case. Get Solution.",
+      "metaDescription": "Sheikh Othman Industrial Area, Aden: loggers for workshops, stores and plants, reviewed case by case. Get Solution to cover Sheikh Othman Industrial Area.",
       "intro": "Sheikh Othman is a large district on the plain to the north-west of Aden's older centre, with markets, clinics and neighbourhoods of small shops, and an industrial area of workshops, small plants and warehouses lies within it. Work of this kind generally includes food and drink preparation, packaging, light engineering and the stores that serve them, in buildings with metal roofs that hold the heat of the day. A temperature data logger in a district like this watches the ingredient and product stores of food makers, the chemical and consumables rooms of workshops, and the warehouses where goods wait for a customer. The page describes only the kinds of rooms and stock a logger user might look after in such a district. Whether a particular store in Sheikh Othman can be supported is decided case by case after we hear from you.",
       "places": [
         {
@@ -5608,7 +5608,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "little-aden", name: "Little Aden", citySlug: "aden", areaType: "mixed-use", nearbyIndustries: ["food-beverage","chemical","logistics-warehousing"], confirmedService: true, hero: ["veer-pro","virat-pro"], page: {
       "metaTitle": "Data Loggers in Little Aden, Yemen | Prithvi",
-      "metaDescription": "Temperature and humidity data loggers for stores, fish landings and plant rooms in Little Aden, across Aden's harbour, reviewed case by case. Get Solution.",
+      "metaDescription": "Little Aden, Yemen: temperature and humidity loggers for stores, fish landings and plant rooms, reviewed case by case. Get Solution to cover Little Aden.",
       "intro": "Little Aden is a rocky peninsula on the western side of Aden's harbour, joined to the mainland by a narrow neck, with the coastal town of Buraiqa, beaches, fishing landings and an industrial history linked to oil: a refinery was built there in the 1950s. Today a temperature data logger on the peninsula is concerned with ordinary storage in a hot, salty setting: fish and ice stores along the shore, food and medicine in the shops and clinics of the town, and the stores of any plant or workshop that needs steady conditions. The page keeps to the kinds of rooms and stock a logger user might look after on such a peninsula. Little Aden enquiries follow the same case-by-case review as every other request from Yemen.",
       "places": [
         {
@@ -5663,7 +5663,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Yemen (batch 2: Mukalla)
   { slug: "port-of-mukalla", name: "Port of Mukalla", citySlug: "mukalla", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["setu","virat-pro"], page: {
       "metaTitle": "Data Loggers at the Port of Mukalla, Yemen | Prithvi",
-      "metaDescription": "Data loggers for storage around the Port of Mukalla: fish landings, ice stores and quayside sheds, reviewed case by case. Get Solution.",
+      "metaDescription": "Port of Mukalla, Yemen: data loggers for fish landings, ice stores and quayside sheds, reviewed case by case. Get Solution to start in Port of Mukalla.",
       "intro": "The Port of Mukalla lies on the curved bay of Mukalla on the Gulf of Aden, where wooden boats have long landed fish and sailing dhows once carried goods along the trading routes of the Indian Ocean, and the harbour is the reason for the old town's waterfront. A temperature data logger around a harbour like this is concerned with the waiting that follows a sea journey or a landing: fish in ice, goods on a quay or in a shed, and food and medicines stood in vehicles before they move on, in air that is hot, humid and salty. The page keeps to the kinds of goods and rooms a logger user would be concerned with, described in general terms. Whether a particular store could be supported is decided case by case after we hear from you.",
       "places": [
         {
@@ -5716,7 +5716,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Yemen (batch 3: Sana'a)
   { slug: "sanaa-industrial-area", name: "Sana'a Industrial Area", citySlug: "sanaa", areaType: "industrial-estate", nearbyIndustries: ["food-beverage","logistics-warehousing","chemical"], confirmedService: true, hero: ["virat","setu"], page: {
       "metaTitle": "Data Loggers in Sana'a Industrial Area | Prithvi",
-      "metaDescription": "Data loggers for factories, workshops and warehouses in the Sana'a Industrial Area, reviewed case by case for Yemen. Get Solution.",
+      "metaDescription": "Sana'a Industrial Area, Yemen: data loggers for factories, workshops and warehouses, reviewed case by case. Get Solution: Sana'a Industrial Area.",
       "intro": "The Sana'a Industrial Area lies on the edge of the highland city, where small factories, workshops and warehouses stand in rows on flat ground along main roads. A temperature data logger in a district like this is concerned with the ordinary risks of making and storing goods: a drinks or dairy plant whose cold room must hold its range, a plastics or packaging unit with a heated store, and a warehouse where stock waits for lorries through cold nights and sunny afternoons. The page describes only the ordinary kinds of rooms and stock found in an estate of this sort. Whether a particular site could be supported is decided case by case after we hear from you.",
       "places": [
         {
@@ -5770,7 +5770,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "sanaa-international-airport", name: "Sana'a International Airport", citySlug: "sanaa", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","pharmaceutical","food-beverage"], confirmedService: true, hero: ["virat-pro","dhruva"], page: {
       "metaTitle": "Data Loggers at Sana'a International Airport | Prithvi",
-      "metaDescription": "Data loggers for sheds, cold rooms and vehicles around Sana'a International Airport, reviewed case by case. Get Solution.",
+      "metaDescription": "Sana'a International Airport, Yemen: data loggers for sheds, cold rooms and vehicles, reviewed case by case. Get Solution: Sana'a International Airport.",
       "intro": "Sana'a International Airport lies north of the city on the high plateau, and the ground around an airport like this is a place of waiting: medicines, vaccines, food and parcels that leave an aircraft, stand in a shed or a vehicle and move on. A temperature data logger in that chain records what the goods met on the apron, in the cargo shed and in the van. The page keeps to the general kinds of goods and rooms a logger user might look after around an airport. Whether a given consignment or store could be supported is decided case by case after we hear from you.",
       "places": [
         {
@@ -5825,7 +5825,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Yemen (batch 4: Taiz, Hodeidah)
   { slug: "port-of-hodeidah", name: "Port of Hodeidah", citySlug: "hodeidah", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["veer-pro","rajmudra"], page: {
       "metaTitle": "Data Loggers at the Port of Hodeidah | Prithvi",
-      "metaDescription": "Data loggers for sheds, cold rooms and vehicles around the Port of Hodeidah on the Red Sea, reviewed case by case. Get Solution.",
+      "metaDescription": "Port of Hodeidah, Yemen: data loggers for sheds, cold rooms and vehicles on the Red Sea, reviewed case by case. Use Get Solution to plan Port of Hodeidah.",
       "intro": "The Port of Hodeidah is the harbour of the Red Sea city of the same name, set on the flat Tihama coast where the air is hot and heavy with moisture, and the ground around a harbour like this is a place of waiting: food, medicines and general goods that leave a ship, stand on a quay or in a shed, and move on by lorry. A temperature data logger in that chain records what the goods met on the way. The page describes only the kinds of goods and rooms that matter to someone placing a logger in a harbour area. Whether a particular store or consignment could be supported is decided case by case after we hear from you.",
       "places": [
         {
@@ -5879,7 +5879,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "port-of-salif", name: "Port of Salif", citySlug: "hodeidah", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["dhruva","nakshatra"], page: {
       "metaTitle": "Data Loggers at the Port of Salif, Yemen | Prithvi",
-      "metaDescription": "Data loggers for storage near the Port of Salif and its salt works on the Red Sea coast, reviewed case by case. Get Solution.",
+      "metaDescription": "Port of Salif, Yemen: data loggers for storage near the port and its salt works on the Red Sea coast, reviewed case by case. Get Solution: Port of Salif.",
       "intro": "Salif lies on a low peninsula of the Red Sea coast north of Hodeidah, a place long associated with salt that is worked from the shore, and the port there stands on a flat, hot and exposed stretch of coast. A temperature data logger around a harbour like this is concerned with what waits there: bulk bags and sacks on a quay, general goods in a shed, and food or medicines stood in a vehicle before they move on, in air that is salty and very warm. The page describes only the sort of goods and rooms a logger user might look after on an exposed shore. Whether a store near Salif could be supported is decided case by case once we hear from you.",
       "places": [
         {
@@ -5933,7 +5933,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "port-of-mocha", name: "Port of Mocha", citySlug: "mocha", areaType: "warehousing-hub", nearbyIndustries: ["food-beverage","logistics-warehousing","pharmaceutical"], confirmedService: true, hero: ["setu","veer"], page: {
       "metaTitle": "Data Loggers at the Port of Mocha, Yemen | Prithvi",
-      "metaDescription": "Data loggers for fish, coffee and goods stores around the Port of Mocha on the Red Sea, reviewed case by case. Get Solution.",
+      "metaDescription": "Port of Mocha, Yemen: data loggers for fish, coffee and goods stores on the Red Sea, reviewed case by case. Get Solution: request a plan for Port of Mocha.",
       "intro": "The Port of Mocha is the small harbour of a Red Sea town whose name became a word for coffee, because the beans of the Yemeni mountains once left from this shore for markets across the world. A temperature data logger around a harbour like this is concerned with the waiting that follows a landing or a voyage: fish in ice, dry goods in a shed and food or medicines standing in a vehicle in air that is hot, damp and salty. What follows stays with the general kinds of goods and rooms a logger user might look after. Whether a store at Mocha could be supported is decided case by case once we have your details.",
       "places": [
         {
@@ -5986,7 +5986,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ UAE (batch 1: Abu Dhabi)
   { slug: "mussafah", name: "Mussafah", citySlug: "abu-dhabi", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","food-beverage","chemical"], confirmedService: true, hero: ["virat","dhruva"], page: {
       "metaTitle": "Data Loggers in Mussafah, Abu Dhabi | Prithvi",
-      "metaDescription": "Data loggers for Mussafah's workshops, yards, warehouses and light factories in Abu Dhabi, built for the Gulf's heat. Get Solution.",
+      "metaDescription": "Mussafah, Abu Dhabi: data loggers for workshops, yards, warehouses and light factories, built for the Gulf's heat. Get Solution to cover Mussafah.",
       "intro": "Mussafah is an industrial district on the mainland across the water from Abu Dhabi island, a flat grid of workshops, vehicle and equipment yards, marine and fabrication works, warehouses and light factories. A temperature data logger in a district like this is concerned with the ordinary risks of making and storing goods in extreme summer heat: food and packaging stores, a chemical shed whose labels name a maximum temperature, and warehouses where stock waits under metal roofs. Here the page keeps to the goods and rooms that someone looking after loggers in Mussafah might meet. Enquiries about Mussafah are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6040,7 +6040,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "icad", name: "ICAD", citySlug: "abu-dhabi", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","food-beverage","chemical"], confirmedService: true, hero: ["nakshatra","setu"], page: {
       "metaTitle": "Data Loggers in ICAD, Abu Dhabi | Prithvi",
-      "metaDescription": "Data loggers for factory plots, stores and distribution sheds in ICAD, the Industrial City of Abu Dhabi, in Gulf heat. Get Solution.",
+      "metaDescription": "ICAD, Abu Dhabi: data loggers for factory plots, stores and distribution sheds in the Industrial City of Abu Dhabi. Get Solution to begin in ICAD.",
       "intro": "ICAD, the Industrial City of Abu Dhabi, is a planned industrial city in the Mussafah area on the mainland, laid out in regular plots and roads for factories, stores and distribution. A temperature data logger in a planned industrial city is concerned with whatever its plots happen to hold: food and packaging stock, materials that have a labelled limit, or finished goods waiting in a store under a metal roof in summer heat. What follows is limited to the stock and rooms a logger user could look after on an ICAD plot. Enquiries about ICAD are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6094,7 +6094,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "kizad", name: "KIZAD", citySlug: "abu-dhabi", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["rajmudra","veer"], page: {
       "metaTitle": "Data Loggers in KIZAD, Abu Dhabi | Prithvi",
-      "metaDescription": "Data loggers for factories, stores and cold rooms in KIZAD, the Khalifa Industrial Zone Abu Dhabi, built for Gulf summers. Get Solution.",
+      "metaDescription": "KIZAD, Abu Dhabi: data loggers for factories, stores and cold rooms in the Khalifa Industrial Zone, built for Gulf summers. Get Solution to begin in KIZAD.",
       "intro": "KIZAD, the Khalifa Industrial Zone Abu Dhabi, is a large planned industrial zone on the Gulf coast between Abu Dhabi and Dubai, beside Khalifa Port, laid out with wide roads and big plots for factories and storage. A temperature data logger in a zone of this scale is concerned with large halls and long supply chains: raw materials waiting for production, finished goods waiting for collection, and chilled stock on the move to and from the coast. The page stays with the goods and halls that a logger user might look after in a zone of this size. Enquiries about KIZAD are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6148,7 +6148,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "khalifa-port", name: "Khalifa Port", citySlug: "abu-dhabi", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["virat-pro","setu"], page: {
       "metaTitle": "Data Loggers at Khalifa Port, Abu Dhabi | Prithvi",
-      "metaDescription": "Data loggers for reefer containers, cold rooms and sheds around Khalifa Port on the Abu Dhabi coast, in Gulf heat. Get Solution.",
+      "metaDescription": "Khalifa Port, Abu Dhabi: data loggers for reefer containers, cold rooms and sheds on the Abu Dhabi coast. Get Solution to begin in Khalifa Port.",
       "intro": "Khalifa Port is a deep-water container port on the Gulf coast at Taweelah, between Abu Dhabi and Dubai. A temperature data logger around a container port serves the waiting that surrounds a sea voyage: boxes lifted from a stack, goods held in a shed or a cold room, and vehicles loading for the road in air that is hot, humid and salty. This page is confined to the kinds of goods and rooms a logger user may look after around a container port. Enquiries about Khalifa Port are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6202,7 +6202,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "ghantoot", name: "Ghantoot", citySlug: "abu-dhabi", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","food-beverage","chemical"], confirmedService: true, hero: ["veer-pro","nakshatra"], page: {
       "metaTitle": "Data Loggers in Ghantoot, Abu Dhabi | Prithvi",
-      "metaDescription": "Data loggers for port-side and industrial storage and resort kitchens in Ghantoot on the Abu Dhabi coast, in Gulf heat. Get Solution.",
+      "metaDescription": "Ghantoot, Abu Dhabi: data loggers for port-side and industrial storage and resort kitchens on the coast. Get Solution to begin in Ghantoot.",
       "intro": "Ghantoot is a coastal area on the road between Abu Dhabi and Dubai, a stretch of shoreline where port-side and industrial sites sit near seaside leisure facilities. A temperature data logger in a mixed area like this is concerned with two kinds of rooms: stores for materials and goods kept near the water, and the kitchens, stores and coolers that serve visitors. Both face salt air, strong sun and very hot summers. The text that follows deals only with the stores and kitchens a logger user could look after along this coast. Enquiries about Ghantoot are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6257,7 +6257,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ UAE (batch 2: Al Ain, Ruwais)
   { slug: "al-ain-industrial-area", name: "Al Ain Industrial Area", citySlug: "al-ain", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","food-beverage","electronics"], confirmedService: true, hero: ["virat","nakshatra"], page: {
       "metaTitle": "Data Loggers in Al Ain Industrial Area | Prithvi",
-      "metaDescription": "Data loggers for workshops, vehicle yards, warehouses and small factories in the Al Ain Industrial Area, in dry desert heat. Get Solution.",
+      "metaDescription": "Al Ain Industrial Area, UAE: data loggers for workshops, vehicle yards, warehouses and small factories. Get Solution to begin in Al Ain Industrial Area.",
       "intro": "The Al Ain Industrial Area lies on the edge of the oasis city, where workshops, vehicle and tyre yards, warehouses and small factories stand in rows along wide roads. A temperature data logger in a district like this is concerned with the ordinary risks of making, repairing and storing goods in dry desert heat: food and drink stock, spare parts and batteries, and building materials waiting under metal roofs. This page is limited to the stock and rooms that a logger user could look after in such a district. Enquiries about the Al Ain Industrial Area are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6309,7 +6309,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "ruwais-industrial-complex", name: "Ruwais Industrial Complex", citySlug: "ruwais", areaType: "industrial-estate", nearbyIndustries: ["chemical","laboratories","logistics-warehousing"], confirmedService: true, hero: ["dhruva","rajmudra"], page: {
       "metaTitle": "Data Loggers at Ruwais Industrial Complex | Prithvi",
-      "metaDescription": "Data loggers for laboratories, chemical stores and workshops around the Ruwais Industrial Complex, in hot, humid coastal air. Get Solution.",
+      "metaDescription": "Ruwais Industrial Complex, UAE: data loggers for laboratories, chemical stores and workshops in humid coastal air. Get Solution: Ruwais Industrial Complex.",
       "intro": "The Ruwais Industrial Complex stands beside the Gulf coast of the Al Dhafra region and is built around refining and petrochemical works, with supporting laboratories, stores, workshops and contractors' yards. A temperature data logger around a complex of this kind is concerned with what its support buildings hold: laboratory samples, chemicals and lubricants with labelled limits, spare parts and food for working communities, all kept in air that is extremely hot, humid and salty. The page is confined to the kinds of goods and rooms that a logger user could look after at a large coastal complex. Enquiries about the Ruwais Industrial Complex are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6362,7 +6362,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ UAE (batch 3: Dubai)
   { slug: "jebel-ali", name: "Jebel Ali", citySlug: "dubai", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["virat","dhruva"], page: {
       "metaTitle": "Data Loggers in Jebel Ali (JAFZA), Dubai | Prithvi",
-      "metaDescription": "Data loggers for warehouses, cold stores and yards in the Jebel Ali port and JAFZA free-zone district of Dubai. Get Solution.",
+      "metaDescription": "Jebel Ali, Dubai: data loggers for warehouses, cold stores and yards in the port and JAFZA free-zone district. Get Solution to start in Jebel Ali.",
       "intro": "Jebel Ali is the port and free-zone district on the south-western coast of Dubai, where JAFZA, the Jebel Ali Free Zone, spreads across a flat grid of warehouses, cold stores, factories and logistics yards beside a deep-water harbour. A temperature data logger in a district like this is concerned with the waiting that surrounds a sea journey: containers lifted from a stack, goods held in a warehouse or a cold room, and vehicles loading for the road in air that is hot, humid and salty. This page is confined to the kinds of goods and rooms a logger user may look after in a port and free-zone district. Enquiries about Jebel Ali are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6416,7 +6416,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "dubai-investments-park", name: "Dubai Investments Park", citySlug: "dubai", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["nakshatra","veer"], page: {
       "metaTitle": "Data Loggers in Dubai Investments Park | Prithvi",
-      "metaDescription": "Data loggers for factories, warehouses, clinics and kitchens in Dubai Investments Park, a planned mixed park in Dubai. Get Solution.",
+      "metaDescription": "Dubai Investments Park, Dubai: data loggers for factories, warehouses, clinics and kitchens in a planned mixed park. Get Solution: Dubai Investments Park.",
       "intro": "Dubai Investments Park is a planned park in the south-west of the emirate where factories, warehouses, showrooms, clinics, schools and homes share one grid of roads. A temperature data logger in a mixed park is concerned with two kinds of rooms: the stores and halls of its industrial plots, and the kitchens, clinics and shops that serve the people who live and work there. Both face long, hot summers. This page is limited to the kinds of goods and rooms a logger user could look after in a mixed park of this sort. Enquiries about Dubai Investments Park are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6470,7 +6470,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "al-quoz-industrial-area", name: "Al Quoz Industrial Area", citySlug: "dubai", areaType: "industrial-estate", nearbyIndustries: ["food-beverage","logistics-warehousing","chemical"], confirmedService: true, hero: ["rajmudra","setu"], page: {
       "metaTitle": "Data Loggers in Al Quoz Industrial Area, Dubai | Prithvi",
-      "metaDescription": "Data loggers for workshops, food suppliers and warehouses in the Al Quoz industrial districts of Dubai, in summer heat. Get Solution.",
+      "metaDescription": "Al Quoz Industrial Area, Dubai: data loggers for workshops, food suppliers and warehouses through summer heat. Get Solution: Al Quoz Industrial Area.",
       "intro": "Al Quoz is an inland district of Dubai where industrial blocks of workshops, showrooms and mid-sized warehouses sit close to the city's shops and kitchens, and the Al Quoz Industrial Area is its working heart. A temperature data logger in a district like this is concerned with stock that must stay in range between a supplier and a customer: chilled food, building products, chemicals and spare parts, held in units under metal roofs. What follows deals only with the stock and rooms that a logger user in Al Quoz might look after. Enquiries about Al Quoz are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6524,7 +6524,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "ras-al-khor-industrial-area", name: "Ras Al Khor Industrial Area", citySlug: "dubai", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","electronics","chemical"], confirmedService: true, hero: ["virat-pro","nakshatra"], page: {
       "metaTitle": "Data Loggers in Ras Al Khor Industrial Area | Prithvi",
-      "metaDescription": "Data loggers for workshops, spare-parts shops, light industry and warehouses in the Ras Al Khor Industrial Area, Dubai. Get Solution.",
+      "metaDescription": "Ras Al Khor Industrial Area, Dubai: data loggers for workshops, spare-parts shops, light industry, warehouses. Get Solution: Ras Al Khor Industrial Area.",
       "intro": "Ras Al Khor lies at the head of Dubai's creek, where the water narrows into mudflats and wetlands, and the Ras Al Khor Industrial Area beside it is a grid of workshops, spare-parts shops, light industry and warehouses. A temperature data logger in a district like this is concerned with stock that suffers in heat and humidity: electronic parts, batteries, lubricants and chemicals, held in units beside a body of water. The text stays with the kinds of stock and rooms that a logger user near the creek might look after. Enquiries about Ras Al Khor are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6578,7 +6578,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "al-qusais-industrial-area", name: "Al Qusais Industrial Area", citySlug: "dubai", areaType: "industrial-estate", nearbyIndustries: ["food-beverage","logistics-warehousing","chemical"], confirmedService: true, hero: ["veer-pro","rajmudra"], page: {
       "metaTitle": "Data Loggers in Al Qusais Industrial Area | Prithvi",
-      "metaDescription": "Data loggers for factories, food firms, workshops and stores in the Al Qusais Industrial Area of north-east Dubai. Get Solution.",
+      "metaDescription": "Al Qusais Industrial Area, Dubai: data loggers for factories, food firms, workshops and stores in the north-east. Get Solution: Al Qusais Industrial Area.",
       "intro": "Al Qusais is a district in the north-east of Dubai, and the Al Qusais Industrial Area is a dense grid of factories, food firms, workshops and stores close to the airport side of the city. A temperature data logger in a district like this is concerned with the ordinary risks of making and storing goods: a food maker whose chilled room must hold its range, a packaging unit with a heated store, and a warehouse where stock waits for vehicles through hot afternoons. The page covers the sort of stock and rooms that a logger user in Al Qusais could look after. Enquiries about Al Qusais are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6632,7 +6632,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "al-aweer", name: "Al Aweer", citySlug: "dubai", areaType: "mixed-use", nearbyIndustries: ["food-beverage","logistics-warehousing","chemical"], confirmedService: true, hero: ["setu","virat"], page: {
       "metaTitle": "Data Loggers in Al Aweer, Dubai | Prithvi",
-      "metaDescription": "Data loggers for produce cold rooms, wholesale stores and industrial yards in Al Aweer, Dubai, in long, hot summers. Get Solution.",
+      "metaDescription": "Al Aweer, Dubai: data loggers for produce cold rooms, wholesale stores and industrial yards in long, hot summers. Get Solution to cover Al Aweer.",
       "intro": "Al Aweer is a district in the east of Dubai known for its wholesale fruit and vegetable market, with industrial yards and stores spread around it. A temperature data logger around a produce market is concerned with fresh food that spoils fast in heat: pallets of fruit and vegetables waiting for buyers, cold rooms where traders hold stock overnight, and vehicles loading before dawn. This page is limited to the goods and rooms a logger user could look after in a wholesale and industrial district of this sort. Enquiries about Al Aweer are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6687,7 +6687,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ UAE (batch 4: Dubai)
   { slug: "dubai-silicon-oasis", name: "Dubai Silicon Oasis", citySlug: "dubai", areaType: "mixed-use", nearbyIndustries: ["electronics","data-centers","logistics-warehousing"], confirmedService: true, hero: ["setu","nakshatra"], page: {
       "metaTitle": "Data Loggers in Dubai Silicon Oasis | Prithvi",
-      "metaDescription": "Data loggers for electronics stores, server rooms, labs and kitchens in Dubai Silicon Oasis, a technology community in Dubai. Get Solution.",
+      "metaDescription": "Dubai Silicon Oasis, Dubai: data loggers for electronics stores, server rooms, labs and kitchens. Get Solution to start in Dubai Silicon Oasis.",
       "intro": "Dubai Silicon Oasis is a technology-minded community in the east of the city, where offices, electronics and light-industry units, schools, clinics and homes share one planned grid. A temperature data logger in a community like this is concerned with equipment that dislikes heat and humidity: electronic components in storerooms, server and network rooms, laboratories, and the kitchens and stores that serve a working population. This page is limited to the kinds of goods and rooms a logger user could look after in a technology and mixed-use community. Enquiries about Dubai Silicon Oasis are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6741,7 +6741,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "dubai-industrial-city", name: "Dubai Industrial City", citySlug: "dubai", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","food-beverage","chemical"], confirmedService: true, hero: ["veer-pro","setu"], page: {
       "metaTitle": "Data Loggers in Dubai Industrial City | Prithvi",
-      "metaDescription": "Data loggers for factory halls, stores and cooled rooms in Dubai Industrial City, a planned industrial zone in Dubai. Get Solution.",
+      "metaDescription": "Dubai Industrial City, Dubai: data loggers for factory halls, stores and cooled rooms in a planned industrial zone. Get Solution: Dubai Industrial City.",
       "intro": "Dubai Industrial City is a planned industrial city in the south of the emirate, laid out with wide roads and large plots for manufacturing, storage and distribution. A temperature data logger in a planned industrial city is concerned with what its plots happen to hold: raw materials waiting for production, finished goods waiting for collection, and chilled stock moving to and from the coast and the city. This page is limited to the kinds of goods and rooms a logger user could look after in an industrial city of this sort. Enquiries about Dubai Industrial City are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6795,7 +6795,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "dubai-south", name: "Dubai South", citySlug: "dubai", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["virat","rajmudra"], page: {
       "metaTitle": "Data Loggers in Dubai South | Prithvi",
-      "metaDescription": "Data loggers for warehouses, cold rooms, kitchens and clinics in Dubai South, a planned city in the south of Dubai. Get Solution.",
+      "metaDescription": "Dubai South, Dubai: data loggers for warehouses, cold rooms, kitchens and clinics in a planned city in the south. Get Solution to start in Dubai South.",
       "intro": "Dubai South is a planned city in the south of the emirate, laid out around an airport with districts for aviation, logistics, commerce and housing. A temperature data logger in a planned city of this kind is concerned with its many different rooms: warehouses and cold stores for goods in transit, the kitchens and stores that serve a growing community, and clinics and pharmacies for its residents. This page is limited to the kinds of goods and rooms a logger user could look after in a planned city of this sort. Enquiries about Dubai South are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6849,7 +6849,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "dubai-logistics-city", name: "Dubai Logistics City", citySlug: "dubai", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["veer","dhruva"], page: {
       "metaTitle": "Data Loggers in Dubai Logistics City | Prithvi",
-      "metaDescription": "Data loggers for warehouses, cold stores and distribution yards in Dubai Logistics City, inside Dubai South. Get Solution.",
+      "metaDescription": "Dubai Logistics City, Dubai: data loggers for warehouses, cold stores and distribution yards inside Dubai South. Use Get Solution for Dubai Logistics City.",
       "intro": "Dubai Logistics City is the logistics district inside Dubai South, laid out for warehouses, cold stores and distribution yards beside the airport area. A temperature data logger in a logistics district is concerned with the waiting that surrounds a journey: goods unloaded from a vehicle, held on racks or in a cold room, and loaded again for the next stage, in air that is hot and dry with sudden humid spells. This page is limited to the kinds of goods and rooms a logger user could look after in a logistics district of this sort. Enquiries about Dubai Logistics City are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6903,7 +6903,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "dubai-airport-freezone", name: "Dubai Airport Freezone", citySlug: "dubai", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","electronics","pharmaceutical"], confirmedService: true, hero: ["rajmudra","virat-pro"], page: {
       "metaTitle": "Data Loggers in Dubai Airport Freezone (DAFZA) | Prithvi",
-      "metaDescription": "Data loggers for offices, stock rooms and warehouse units in Dubai Airport Freezone (DAFZA), beside Dubai's airport. Get Solution.",
+      "metaDescription": "Dubai Airport Freezone, Dubai: data loggers for offices, stock rooms and warehouse units at DAFZA beside the airport. Get Solution: Dubai Airport Freezone.",
       "intro": "Dubai Airport Freezone, known as DAFZA, is a free zone beside the city's main airport, a compact district of office buildings and warehouse units for trades linked to air transport. A temperature data logger in a district like this is concerned with goods that are small, valuable and sensitive: electronic parts, healthcare products and consumer goods held in storerooms and light warehouses. This page is limited to the kinds of goods and rooms a logger user could look after in a free-zone district of this sort. Enquiries about DAFZA are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6957,7 +6957,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "dubai-healthcare-city", name: "Dubai Healthcare City", citySlug: "dubai", areaType: "business-district", nearbyIndustries: ["hospitals-blood-banks","pharmaceutical","laboratories"], confirmedService: true, hero: ["nakshatra","veer-pro"], page: {
       "metaTitle": "Data Loggers in Dubai Healthcare City | Prithvi",
-      "metaDescription": "Data loggers for clinic refrigerators, laboratories and medical stores in Dubai Healthcare City, near the creek in Dubai. Get Solution.",
+      "metaDescription": "Dubai Healthcare City, Dubai: data loggers for clinic refrigerators, laboratories and medical stores near the creek. Get Solution: Dubai Healthcare City.",
       "intro": "Dubai Healthcare City is a healthcare district near the creek, where hospitals, clinics, diagnostic laboratories, pharmacies and medical suppliers stand close together. A temperature data logger in a district devoted to health is concerned with the cold chain at small scale: vaccine refrigerators in clinics, sample and reagent storage in laboratories, and medicines in pharmacies and supplier stores, all in a city where summer heat tests every cooling system. This page is limited to the kinds of goods and rooms a logger user could look after in a healthcare district of this sort. Enquiries about Dubai Healthcare City are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7012,7 +7012,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ UAE (batch 5: Sharjah)
   { slug: "sajaa-industrial-area", name: "Sajaa Industrial Area", citySlug: "sharjah", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["virat","setu"], page: {
       "metaTitle": "Data Loggers in Sajaa Industrial Area, Sharjah | Prithvi",
-      "metaDescription": "Data loggers for factories, workshops, yards and warehouses in the Sajaa Industrial Area of Sharjah, in summer heat. Get Solution.",
+      "metaDescription": "Sajaa Industrial Area, Sharjah: data loggers for factories, workshops, yards and warehouses through summer heat. Get Solution: Sajaa Industrial Area.",
       "intro": "The Sajaa Industrial Area lies inland and to the east of Sharjah city, a wide grid of factories, workshops, storage yards and warehouses on large plots beside long straight roads. A temperature data logger in a district like this is concerned with the ordinary risks of making and storing goods in extreme summer heat: chemicals and coatings with labelled limits, food and packaging stock, and general goods waiting under metal roofs. This page is limited to the kinds of goods and rooms a logger user could look after in an industrial area of this sort. Enquiries about Sajaa are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7066,7 +7066,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "saif-zone", name: "SAIF Zone", citySlug: "sharjah", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","electronics","pharmaceutical"], confirmedService: true, hero: ["rajmudra","dhruva"], page: {
       "metaTitle": "Data Loggers in SAIF Zone, Sharjah | Prithvi",
-      "metaDescription": "Data loggers for warehouse units, stock rooms and offices in SAIF Zone, the Sharjah Airport International Free Zone. Get Solution.",
+      "metaDescription": "SAIF Zone, Sharjah: data loggers for warehouse units, stock rooms and offices in the Sharjah Airport International Free Zone. Get Solution: SAIF Zone.",
       "intro": "SAIF Zone, short for the Sharjah Airport International Free Zone, sits beside the airport in the north-east of Sharjah city, a grid of low warehouse units and office blocks used by trading and light-industrial firms. For a temperature data logger the interest lies in the small, valuable and sensitive goods such units tend to hold: electronic parts, perfumes and cosmetics, healthcare products and consumer goods, kept in storerooms and light warehouses through long hot summers. The text here is confined to the stock and rooms that a logger user in SAIF Zone could look after. Enquiries about SAIF Zone are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7120,7 +7120,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "hamriyah-free-zone", name: "Hamriyah Free Zone", citySlug: "sharjah", areaType: "industrial-estate", nearbyIndustries: ["chemical","logistics-warehousing","food-beverage"], confirmedService: true, hero: ["nakshatra","virat-pro"], page: {
       "metaTitle": "Data Loggers in Hamriyah Free Zone, Sharjah | Prithvi",
-      "metaDescription": "Data loggers for industrial plots, stores and yards in the Hamriyah Free Zone on the Sharjah coast, in humid summer heat. Get Solution.",
+      "metaDescription": "Hamriyah Free Zone, Sharjah: data loggers for industrial plots, stores and yards on the coast in humid summer heat. Get Solution: Hamriyah Free Zone.",
       "intro": "The Hamriyah Free Zone lies on the Gulf coast north of Sharjah city, a flat free-zone district of plots for heavy and light industry and storage beside the shore. A temperature data logger in a coastal industrial district is concerned with materials that are damaged by heat and salt damp: metals and coatings, chemicals, building products and food stock held in yards and sheds close to the sea. This page is limited to the kinds of goods and rooms a logger user could look after in a coastal free-zone district of this sort. Enquiries about Hamriyah are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7174,7 +7174,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "muwaileh", name: "Muwaileh", citySlug: "sharjah", areaType: "mixed-use", nearbyIndustries: ["food-beverage","pharmaceutical","logistics-warehousing"], confirmedService: true, hero: ["veer","setu"], page: {
       "metaTitle": "Data Loggers in Muwaileh, Sharjah | Prithvi",
-      "metaDescription": "Data loggers for shops, workshops, clinics and storerooms in Muwaileh, a mixed commercial district of Sharjah. Get Solution.",
+      "metaDescription": "Muwaileh, Sharjah: data loggers for shops, workshops, clinics and storerooms in a mixed commercial district. Use Get Solution to plan Muwaileh.",
       "intro": "Muwaileh is a mixed commercial and residential district in the east of Sharjah city, where shops, workshops, clinics, restaurants and apartment blocks share the same streets. A temperature data logger in a district like this is concerned with many small rooms rather than a few large ones: shop refrigerators, restaurant coolers, clinic vaccine fridges and workshop storerooms, all of them cooled by equipment that works hard in long summers. This page is limited to the kinds of goods and rooms a logger user could look after in a mixed district of this sort. Enquiries about Muwaileh are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7229,7 +7229,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ UAE (batch 6: Ajman, Umm Al Quwain, Ras Al Khaimah)
   { slug: "al-jurf-industrial-area", name: "Al Jurf Industrial Area", citySlug: "ajman", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["virat","nakshatra"], page: {
       "metaTitle": "Data Loggers in Al Jurf Industrial Area, Ajman | Prithvi",
-      "metaDescription": "Data loggers for workshops, light factories, stores and warehouses in the Al Jurf Industrial Area of Ajman. Get Solution.",
+      "metaDescription": "Al Jurf Industrial Area, Ajman: data loggers for workshops, light factories, stores and warehouses. Get Solution for Al Jurf Industrial Area.",
       "intro": "The Al Jurf Industrial Area lies inland from Ajman's creek, a dense grid of workshops, light factories, stores and warehouses squeezed beside residential blocks. For a temperature data logger the interest lies in the everyday trouble of making and keeping goods through humid Gulf summers: sealants and paints that name a maximum temperature, food and packaging stock, and general cargo waiting under thin metal roofs. Nothing here goes beyond the stock and rooms that a logger user in Al Jurf could look after. Enquiries about Al Jurf are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7283,7 +7283,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "ajman-free-zone", name: "Ajman Free Zone", citySlug: "ajman", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","electronics","food-beverage"], confirmedService: true, hero: ["rajmudra","setu"], page: {
       "metaTitle": "Data Loggers in Ajman Free Zone | Prithvi",
-      "metaDescription": "Data loggers for warehouse units, stock rooms and offices in the Ajman Free Zone near the port, in humid Gulf heat. Get Solution.",
+      "metaDescription": "Ajman Free Zone, UAE: data loggers for warehouse units, stock rooms and offices near the port in humid Gulf heat. Get Solution to begin in Ajman Free Zone.",
       "intro": "The Ajman Free Zone stands near the city's port, a compact set of offices, warehouse units and light-industrial plots very close to the sea. A temperature data logger in a coastal free zone watches the stock that small trading and making firms keep on hand: electronic parts, household goods, food and packaging, all held in storerooms and light warehouses in air that is hot, humid and salty. The text below is limited to the stock and rooms that a logger user in the Ajman Free Zone could look after. Enquiries about the Ajman Free Zone are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7337,7 +7337,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "uaq-free-trade-zone", name: "UAQ Free Trade Zone", citySlug: "umm-al-quwain", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","food-beverage","chemical"], confirmedService: true, hero: ["veer","dhruva"], page: {
       "metaTitle": "Data Loggers in UAQ Free Trade Zone | Prithvi",
-      "metaDescription": "Data loggers for warehouse units, stock rooms and light industry in the UAQ Free Trade Zone near the Gulf coast. Get Solution.",
+      "metaDescription": "UAQ Free Trade Zone, Umm Al Quwain: data loggers for warehouse units, stock rooms and light industry. Get Solution to cover UAQ Free Trade Zone.",
       "intro": "The UAQ Free Trade Zone is a trade and light-industry district near the port of Umm Al Quwain, a quiet stretch of warehouse units and offices beside the sea. For a temperature data logger the interest is in whatever its units happen to keep: food and packaging, materials with printed limits, and household goods, all held in air that is hot, humid and salty. The description sticks to the stock and rooms that a logger user in the UAQ Free Trade Zone could look after. Enquiries about the UAQ Free Trade Zone are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7389,7 +7389,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "rakez", name: "RAKEZ", citySlug: "ras-al-khaimah", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","pharmaceutical"], confirmedService: true, hero: ["nakshatra","virat-pro"], page: {
       "metaTitle": "Data Loggers in RAKEZ, Ras Al Khaimah | Prithvi",
-      "metaDescription": "Data loggers for factory halls, stores and warehouses in RAKEZ, the Ras Al Khaimah Economic Zone, in Gulf heat. Get Solution.",
+      "metaDescription": "RAKEZ, Ras Al Khaimah: data loggers for factory halls, stores and warehouses in the Economic Zone, built for Gulf heat. Get Solution to begin in RAKEZ.",
       "intro": "RAKEZ, the Ras Al Khaimah Economic Zone, spreads across the coastal plain of the emirate in a set of industrial plots, warehouses and offices laid out for making and trading. For a temperature data logger the interest lies in whatever its plots happen to hold: materials waiting for the line, finished goods waiting for a vehicle, and chilled stock on the move between plant and coast. The text keeps to the stock and rooms that a logger user in RAKEZ could look after. Enquiries about RAKEZ are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7443,7 +7443,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "al-ghail-industrial-area", name: "Al Ghail Industrial Area", citySlug: "ras-al-khaimah", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["veer-pro","rajmudra"], page: {
       "metaTitle": "Data Loggers in Al Ghail Industrial Area, RAK | Prithvi",
-      "metaDescription": "Data loggers for factories, workshops, stores and warehouses in the Al Ghail Industrial Area of Ras Al Khaimah. Get Solution.",
+      "metaDescription": "Al Ghail Industrial Area, Ras Al Khaimah: data loggers for factories, workshops, stores and warehouses. Get Solution to begin in Al Ghail Industrial Area.",
       "intro": "The Al Ghail Industrial Area lies in the hinterland of Ras Al Khaimah city, where factories, workshops, stores and warehouses sit on large plots with the mountains rising nearby. For a temperature data logger the interest lies in the ordinary risks of making and keeping goods through hot summers and the odd flooded winter: building products and chemicals with printed limits, food and packaging stock, and general cargo under metal roofs. The text is limited to the stock and rooms that a logger user in Al Ghail could look after. Enquiries about Al Ghail are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7497,7 +7497,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "al-jazirah-al-hamra", name: "Al Jazirah Al Hamra", citySlug: "ras-al-khaimah", areaType: "mixed-use", nearbyIndustries: ["food-beverage","logistics-warehousing","hospitals-blood-banks"], confirmedService: true, hero: ["setu","virat"], page: {
       "metaTitle": "Data Loggers in Al Jazirah Al Hamra, RAK | Prithvi",
-      "metaDescription": "Data loggers for fish ice stores, shops, kitchens and storerooms in Al Jazirah Al Hamra, on the Ras Al Khaimah coast. Get Solution.",
+      "metaDescription": "Al Jazirah Al Hamra, Ras Al Khaimah: data loggers for fish ice stores, shops, kitchens and storerooms on the coast. Get Solution: Al Jazirah Al Hamra.",
       "intro": "Al Jazirah Al Hamra is a coastal district south of Ras Al Khaimah city, known for an old village of coral-stone houses beside the sea, with newer homes, shops and small yards around it. For a temperature data logger the interest lies in whatever its small businesses keep cold or dry: fish landed on the beach, shop coolers, kitchen stores and storerooms, in air that is hot, humid and salty. The page stays with the stock and rooms that a logger user in Al Jazirah Al Hamra could look after. Enquiries about Al Jazirah Al Hamra are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7552,7 +7552,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ UAE (batch 7: Fujairah)
   { slug: "fujairah-free-zone", name: "Fujairah Free Zone", citySlug: "fujairah", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","food-beverage","chemical"], confirmedService: true, hero: ["virat","veer"], page: {
       "metaTitle": "Data Loggers in Fujairah Free Zone | Prithvi",
-      "metaDescription": "Data loggers for warehouse units, stock rooms and offices in the Fujairah Free Zone beside the harbour. Get Solution.",
+      "metaDescription": "Fujairah Free Zone, UAE: data loggers for warehouse units, stock rooms and offices beside the harbour. Get Solution: Fujairah Free Zone.",
       "intro": "The Fujairah Free Zone lies beside the city's harbour on the Gulf of Oman, a compact set of offices, warehouse units and light-industrial plots with the sea close at hand and the mountains behind. A temperature data logger in a coastal free zone watches the stock that small trading and making firms keep to hand: food and packaging, materials with printed limits and household goods, all held in air that is hot, damp and salty. The text below stays with the stock and rooms that a logger user in the Fujairah Free Zone could look after. Enquiries about the Fujairah Free Zone are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7606,7 +7606,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "port-of-fujairah", name: "Port of Fujairah", citySlug: "fujairah", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["setu","nakshatra"], page: {
       "metaTitle": "Data Loggers at the Port of Fujairah | Prithvi",
-      "metaDescription": "Data loggers for quayside sheds, cold rooms and vehicles around the Port of Fujairah on the Gulf of Oman. Get Solution.",
+      "metaDescription": "Port of Fujairah, UAE: data loggers for quayside sheds, cold rooms and vehicles on the Gulf of Oman. Get Solution, or call us to discuss Port of Fujairah.",
       "intro": "The Port of Fujairah is the deep-water harbour of the city, on the Gulf of Oman with the Hajar mountains behind, and the ground around a harbour like this is a place of waiting: food, supplies and general goods that leave a ship, stand on a quay or in a shed, and move on by road. A temperature data logger in that chain records what the goods met on the way, in air that is hot, damp and salty. This page keeps to the kinds of goods and rooms a logger user may look after around a harbour. Enquiries about the Port of Fujairah are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7661,7 +7661,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Qatar (batch 1: Doha)
   { slug: "west-bay", name: "West Bay", citySlug: "doha", areaType: "business-district", nearbyIndustries: ["data-centers","food-beverage","pharmaceutical"], confirmedService: true, hero: ["virat","dhruva"], page: {
       "metaTitle": "Data Loggers in West Bay, Doha | Prithvi",
-      "metaDescription": "Data loggers for hotel kitchens, office pantries, server rooms and clinics in the West Bay towers of Doha. Get Solution.",
+      "metaDescription": "West Bay, Doha: data loggers for hotel kitchens, office pantries, server rooms and clinics in the towers. Get Solution to cover West Bay.",
       "intro": "West Bay is the district of glass towers along the northern curve of Doha's bay, where hotels, offices, apartments, shopping streets and restaurants stand shoulder to shoulder on reclaimed shoreline. A temperature data logger in a district of towers is concerned with rooms that sit far from a store or a warehouse: basement kitchens, floor pantries, server and network rooms, clinic refrigerators and building plant rooms, all cooled by equipment that works hard in long summers. This page is limited to the kinds of goods and rooms a logger user could look after in a tower district of this sort. Enquiries about West Bay are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7715,7 +7715,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "al-sadd", name: "Al Sadd", citySlug: "doha", areaType: "mixed-use", nearbyIndustries: ["pharmaceutical","food-beverage","hospitals-blood-banks"], confirmedService: true, hero: ["setu","nakshatra"], page: {
       "metaTitle": "Data Loggers in Al Sadd, Doha | Prithvi",
-      "metaDescription": "Data loggers for clinic refrigerators, pharmacies, shop coolers and restaurant stores in Al Sadd, a central Doha district. Get Solution.",
+      "metaDescription": "Al Sadd, Doha: data loggers for clinic refrigerators, pharmacies, shop coolers and restaurant stores in a central district. Get Solution to cover Al Sadd.",
       "intro": "Al Sadd is a busy central district of Doha, where shops, clinics, pharmacies, restaurants and apartment blocks line the same streets. A temperature data logger in a district like this is concerned with many small rooms rather than a few large ones: clinic vaccine refrigerators, pharmacy stock rooms, supermarket coolers and restaurant stores, all cooled by equipment that works hard through long summers. This page is limited to the kinds of goods and rooms a logger user could look after in a central mixed district of this sort. Enquiries about Al Sadd are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7769,7 +7769,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "msheireb", name: "Msheireb", citySlug: "doha", areaType: "business-district", nearbyIndustries: ["food-beverage","data-centers","pharmaceutical"], confirmedService: true, hero: ["rajmudra","veer"], page: {
       "metaTitle": "Data Loggers in Msheireb, Doha | Prithvi",
-      "metaDescription": "Data loggers for hotel kitchens, museum and office stores, shop coolers and clinic refrigerators in Msheireb, Doha. Get Solution.",
+      "metaDescription": "Msheireb, Doha: data loggers for hotel kitchens, museum and office stores, shop coolers and clinic refrigerators. Use Get Solution for Msheireb.",
       "intro": "Msheireb is a redeveloped downtown quarter of Doha, laid out with shaded streets, courtyards and low-rise buildings in traditional styles, with shops, offices, hotels, galleries and apartments side by side. A temperature data logger in a district like this is concerned with rooms that need steady air for a reason: gallery and archive stores, hotel kitchens, office pantries, clinic refrigerators and plant rooms, all cooled by equipment that works hard through long summers. This page is limited to the kinds of goods and rooms a logger user could look after in a downtown quarter of this sort. Enquiries about Msheireb are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7823,7 +7823,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "the-pearl-qatar", name: "The Pearl-Qatar", citySlug: "doha", areaType: "mixed-use", nearbyIndustries: ["food-beverage","pharmaceutical","logistics-warehousing"], confirmedService: true, hero: ["virat-pro","setu"], page: {
       "metaTitle": "Data Loggers in The Pearl-Qatar, Doha | Prithvi",
-      "metaDescription": "Data loggers for marina cafes, supermarket coolers, clinic refrigerators and apartment stores on The Pearl-Qatar island, Doha. Get Solution.",
+      "metaDescription": "The Pearl-Qatar, Doha: data loggers for marina cafes, supermarket coolers, clinic refrigerators and apartment stores. Get Solution to begin in Pearl-Qatar.",
       "intro": "The Pearl-Qatar is an artificial island off the northern coast of Doha, built on reclaimed land with marinas, residential towers, villas, shops and restaurants arranged around a ring of waterfront. A temperature data logger on an island of this sort is concerned with rooms that sit on reclaimed land: supermarket coolers, restaurant and cafe stores, clinic refrigerators and the stockrooms of the shops, all cooled by equipment that works hard in humid sea air. This page is limited to the kinds of goods and rooms a logger user could look after on a waterfront island of this sort. Enquiries about The Pearl-Qatar are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7878,7 +7878,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Qatar (batch 2: Doha airport area, Al Rayyan)
   { slug: "hamad-international-airport", name: "Hamad International Airport", citySlug: "doha", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","pharmaceutical","food-beverage"], confirmedService: true, hero: ["veer-pro","dhruva"], page: {
       "metaTitle": "Data Loggers at Hamad International Airport | Prithvi",
-      "metaDescription": "Data loggers for cargo sheds, cold rooms, catering stores and vehicles around Hamad International Airport, Doha. Get Solution.",
+      "metaDescription": "Hamad International Airport, Doha: data loggers for cargo sheds, cold rooms, catering stores and vehicles. Get Solution: Hamad International Airport.",
       "intro": "Hamad International Airport lies on the south-eastern side of Doha, near the coast, and the ground around an airport is a place of waiting: medicines, vaccines, food and parcels that leave an aircraft, stand in a shed or a vehicle and move on. A temperature data logger in that chain records what the goods met on the apron, in the cargo shed and in the van, in air that is hot, humid and salty. This page keeps to the kinds of goods and rooms a logger user may look after around an airport. Enquiries about the airport area are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7932,7 +7932,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "ras-bufontas-free-zone", name: "Ras Bufontas Free Zone", citySlug: "doha", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","electronics","pharmaceutical"], confirmedService: true, hero: ["nakshatra","virat"], page: {
       "metaTitle": "Data Loggers in Ras Bufontas Free Zone, Doha | Prithvi",
-      "metaDescription": "Data loggers for warehouse units, stock rooms and offices in the Ras Bufontas Free Zone beside the airport in Doha. Get Solution.",
+      "metaDescription": "Ras Bufontas Free Zone, Doha: data loggers for warehouse units, stock rooms and offices beside the airport. Get Solution to cover Ras Bufontas Free Zone.",
       "intro": "The Ras Bufontas Free Zone lies beside the airport on the south-eastern side of Doha, a compact grid of warehouse units, light-industrial plots and offices set out for trading and manufacturing firms. For a temperature data logger the interest lies in the small, valuable and sensitive goods such plots tend to hold: electronic parts, healthcare supplies and consumer products, kept in storerooms and light warehouses through long hot summers. The description is confined to the kinds of goods and rooms that a logger user at Ras Bufontas may look after. Enquiries about Ras Bufontas are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7986,7 +7986,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "al-gharafa", name: "Al Gharafa", citySlug: "al-rayyan", areaType: "mixed-use", nearbyIndustries: ["food-beverage","pharmaceutical","hospitals-blood-banks"], confirmedService: true, hero: ["virat","rajmudra"], page: {
       "metaTitle": "Data Loggers in Al Gharafa, Al Rayyan | Prithvi",
-      "metaDescription": "Data loggers for supermarket coolers, pharmacy refrigerators, clinic stores and workshops in Al Gharafa, Al Rayyan. Get Solution.",
+      "metaDescription": "Al Gharafa, Al Rayyan: data loggers for supermarket coolers, pharmacy refrigerators, clinic stores and workshops. Get Solution to begin in Al Gharafa.",
       "intro": "Al Gharafa is a dense residential district in the Al Rayyan area, where family streets, mosques, schools, shops, restaurants and clinics sit close together along its main roads. A temperature data logger in a district like this is concerned with many small rooms: supermarket cold rooms, pharmacy and clinic refrigerators, restaurant stores and the stockrooms of small workshops, all cooled by equipment that works hard through long summers. This page keeps to the kinds of goods and rooms a logger user could look after in a residential district of this sort. Enquiries about Al Gharafa are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8040,7 +8040,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "birkat-al-awamer", name: "Birkat Al Awamer", citySlug: "al-rayyan", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","food-beverage","chemical"], confirmedService: true, hero: ["setu","veer"], page: {
       "metaTitle": "Data Loggers in Birkat Al Awamer, Al Rayyan | Prithvi",
-      "metaDescription": "Data loggers for storage yards, workshops, warehouses and food stores in Birkat Al Awamer, on the edge of Al Rayyan. Get Solution.",
+      "metaDescription": "Birkat Al Awamer, Al Rayyan: data loggers for storage yards, workshops, warehouses and food stores on the city's edge. Get Solution: Birkat Al Awamer.",
       "intro": "Birkat Al Awamer is a district on the south-western side of the Al Rayyan area, where villas and farms give way to storage yards, workshops and open land beside the roads out of the city. A temperature data logger in an outer district like this is concerned with stock that waits in simple buildings far from a shop: building materials, paints and chemicals with labelled limits, food and drink for the city, and spare parts kept in sheds and yards. This page keeps to the kinds of goods and rooms a logger user could look after in an outer district of this sort. Enquiries about Birkat Al Awamer are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8094,7 +8094,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "al-sailiya", name: "Al Sailiya", citySlug: "al-rayyan", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","food-beverage","electronics"], confirmedService: true, hero: ["dhruva","nakshatra"], page: {
       "metaTitle": "Data Loggers in Al Sailiya, Al Rayyan | Prithvi",
-      "metaDescription": "Data loggers for shops, workshops, warehouses and food stores in Al Sailiya, along the road west of Doha. Get Solution.",
+      "metaDescription": "Al Sailiya, Al Rayyan: data loggers for shops, workshops, warehouses and food stores along the road west of Doha. Get Solution to begin in Al Sailiya.",
       "intro": "Al Sailiya is a district along the road heading west out of the Doha area, where shops, workshops, warehouses and stores line the route beside open desert. A temperature data logger in a roadside district like this is concerned with stock that waits on the way into the city: food and drink, spare parts, electronics and household goods, kept in simple buildings with metal roofs and wide doors. This page keeps to the kinds of goods and rooms a logger user could look after in a roadside district of this sort. Enquiries about Al Sailiya are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8149,7 +8149,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Qatar (batch 3: Al Wakrah, Mesaieed)
   { slug: "mesaieed-industrial-city", name: "Mesaieed Industrial City", citySlug: "mesaieed", areaType: "industrial-estate", nearbyIndustries: ["chemical","laboratories","logistics-warehousing"], confirmedService: true, hero: ["virat","setu"], page: {
       "metaTitle": "Data Loggers in Mesaieed Industrial City | Prithvi",
-      "metaDescription": "Data loggers for chemical stores, laboratories, parts warehouses and workshops in Mesaieed Industrial City. Get Solution.",
+      "metaDescription": "Mesaieed Industrial City, Qatar: data loggers for chemical stores, laboratories, parts warehouses and workshops. Get Solution: Mesaieed Industrial City.",
       "intro": "Mesaieed Industrial City is the planned industrial district beside the shore at Mesaieed, a wide grid of plots, roads, stores and workshops set beside a harbour with sand dunes behind. A temperature data logger around a planned industrial city is concerned with what its support buildings hold: chemicals, lubricants and coatings with labelled limits, laboratory samples, spare parts and the food for working communities, all kept in air that is extremely hot, humid and salty. This page covers only the kinds of goods and rooms a logger user may look after in an industrial city of this sort. Enquiries about Mesaieed Industrial City are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8202,7 +8202,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Qatar (batch 4: Al Khor, Ras Laffan)
   { slug: "ras-laffan-industrial-city", name: "Ras Laffan Industrial City", citySlug: "ras-laffan", areaType: "industrial-estate", nearbyIndustries: ["chemical","laboratories","logistics-warehousing"], confirmedService: true, hero: ["rajmudra","setu"], page: {
       "metaTitle": "Data Loggers in Ras Laffan Industrial City | Prithvi",
-      "metaDescription": "Data loggers for materials stores, laboratories, workshops and canteens in Ras Laffan Industrial City on the north-east coast. Get Solution.",
+      "metaDescription": "Ras Laffan Industrial City, Qatar: data loggers for materials stores, laboratories, workshops and canteens. Get Solution: Ras Laffan Industrial City.",
       "intro": "Ras Laffan Industrial City is the planned industrial district on the headland at Ras Laffan, a wide grid of roads, plots, stores and workshops set beside a harbour on the north-east coast. A temperature data logger around a planned industrial city is concerned with the buildings that support it: stores of materials and parts, laboratories, workshops, canteens and clinics, all in air that is extremely hot, humid and salty. The text keeps to the stock and rooms that a logger user at Ras Laffan could look after. Enquiries about Ras Laffan Industrial City are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8255,7 +8255,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Qatar (batch 6: Dukhan)
   { slug: "dukhan-industrial-area", name: "Dukhan Industrial Area", citySlug: "dukhan", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["virat","nakshatra"], page: {
       "metaTitle": "Data Loggers in Dukhan Industrial Area | Prithvi",
-      "metaDescription": "Data loggers for workshops, warehouses, parts stores and yards in the Dukhan Industrial Area on Qatar's west coast. Get Solution.",
+      "metaDescription": "Dukhan Industrial Area, Qatar: data loggers for workshops, warehouses, parts stores and yards on the west coast. Get Solution: Dukhan Industrial Area.",
       "intro": "The Dukhan Industrial Area stands on the edge of the west-coast town, a grid of workshops, warehouses, parts stores and yards set among sand and low limestone ground. A temperature data logger in a district like this is concerned with the ordinary risks of keeping goods in extreme summer heat: parts and tools stored under metal roofs, paints and chemicals with labelled limits, and food and drink for the workers who use the area. This page covers only the kinds of goods and rooms a logger user may look after in an industrial area of this sort. Enquiries about the Dukhan Industrial Area are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8308,7 +8308,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Oman (batch 1: Muscat)
   { slug: "al-khuwair", name: "Al Khuwair", citySlug: "muscat", areaType: "business-district", nearbyIndustries: ["food-beverage","pharmaceutical","data-centers"], confirmedService: true, hero: ["virat","dhruva"], page: {
       "metaTitle": "Data Loggers in Al Khuwair, Muscat | Prithvi",
-      "metaDescription": "Data loggers for hotel kitchens, office pantries, server rooms and clinic refrigerators in Al Khuwair, Muscat. Get Solution.",
+      "metaDescription": "Al Khuwair, Muscat: data loggers for hotel kitchens, office pantries, server rooms and clinic refrigerators. Get Solution: request a plan for Al Khuwair.",
       "intro": "Al Khuwair is a busy district of offices, hotels, restaurants, shops and clinics beside the capital's main roads, where glass-fronted buildings and low shopping parades stand side by side. For a temperature data logger the interest lies in rooms that sit far from any warehouse: basement kitchens, floor pantries, server and network cupboards and clinic fridges, all kept cool by equipment that works hard through the long summer. The text below is limited to the goods and rooms a logger user in an office and hotel district of this sort could look after. Enquiries about Al Khuwair are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8362,7 +8362,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "al-ghubra", name: "Al Ghubra", citySlug: "muscat", areaType: "mixed-use", nearbyIndustries: ["food-beverage","pharmaceutical","hospitals-blood-banks"], confirmedService: true, hero: ["setu","nakshatra"], page: {
       "metaTitle": "Data Loggers in Al Ghubra, Muscat | Prithvi",
-      "metaDescription": "Data loggers for shop coolers, pharmacy refrigerators, clinic stores and restaurant kitchens in Al Ghubra, Muscat. Get Solution.",
+      "metaDescription": "Al Ghubra, Muscat: data loggers for shop coolers, pharmacy refrigerators, clinic stores and restaurant kitchens. Get Solution to begin in Al Ghubra.",
       "intro": "Al Ghubra is a residential and commercial district close to the coast, where family streets, shops, clinics, schools and restaurants share the same roads. For a temperature data logger the interest lies in many small rooms rather than a few large ones: clinic vaccine fridges, pharmacy stock rooms, grocery coolers and restaurant stores, every one of them cooled by equipment that labours through the long summer. The description is limited to the goods and rooms a logger user could look after in a mixed district of this sort. Enquiries about Al Ghubra are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8416,7 +8416,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "ghala-industrial-area", name: "Ghala Industrial Area", citySlug: "muscat", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["rajmudra","veer"], page: {
       "metaTitle": "Data Loggers in Ghala Industrial Area, Muscat | Prithvi",
-      "metaDescription": "Data loggers for workshops, warehouses, light factories and building-material yards in the Ghala Industrial Area, Muscat. Get Solution.",
+      "metaDescription": "Ghala Industrial Area, Muscat: data loggers for workshops, warehouses, light factories and building-material yards. Get Solution: Ghala Industrial Area.",
       "intro": "The Ghala Industrial Area is an industrial district in the capital region, a grid of workshops, warehouses, light factories and building-material yards laid out beside main roads and the rocky foothills. For a temperature data logger the interest lies in the everyday trouble of making and keeping goods through extreme summer heat: paints and adhesives with a printed limit, food and packaging stock, and spare parts and tools under metal roofs. The description is limited to the goods and rooms a logger user could look after in an industrial area of this sort. Enquiries about Ghala are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8468,7 +8468,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "sultan-qaboos-port-muttrah", name: "Sultan Qaboos Port Muttrah", citySlug: "muttrah", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["virat-pro","setu"], page: {
       "metaTitle": "Data Loggers at Sultan Qaboos Port Muttrah | Prithvi",
-      "metaDescription": "Data loggers for quayside sheds, cold rooms and vehicles around the Sultan Qaboos Port at Muttrah, Muscat. Get Solution.",
+      "metaDescription": "Sultan Qaboos Port, Muscat: data loggers for quayside sheds, cold rooms and vehicles at Muttrah. Get Solution for Sultan Qaboos Port Muttrah.",
       "intro": "The Sultan Qaboos Port at Muttrah is the commercial harbour of the old town, set on a bay of the Gulf of Oman with bare mountains behind. Around any harbour there is waiting: food, supplies and general goods that come off a ship, stand on a quay or in a shed, and go on by road. A temperature data logger in that chain keeps a record of what the goods met on the way, in air that is hot, damp and salty. The text below is limited to the kinds of goods and rooms a logger user may look after around a harbour. Enquiries about the port area are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8521,7 +8521,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Oman (batch 2: Seeb)
   { slug: "muscat-international-airport", name: "Muscat International Airport", citySlug: "seeb", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","pharmaceutical","food-beverage"], confirmedService: true, hero: ["veer-pro","dhruva"], page: {
       "metaTitle": "Data Loggers at Muscat International Airport | Prithvi",
-      "metaDescription": "Data loggers for cargo sheds, cold rooms, catering stores and vehicles around Muscat International Airport. Get Solution.",
+      "metaDescription": "Muscat International Airport, Oman: data loggers for cargo sheds, cold rooms, catering stores and vehicles. Get Solution: Muscat International Airport.",
       "intro": "Muscat International Airport lies on the north-western side of the capital region, near the coast, with the ground around it laid out for goods that come and go by air. Such a place is mostly waiting: medicines, vaccines, food and parcels that leave an aircraft, sit in a shed or a van, and move on. A temperature data logger in that chain keeps a record of what the goods met on the apron, in the cargo shed and in the vehicle, in air that is hot, humid and salty. The text below is limited to the kinds of goods and rooms a logger user may look after around an airport. Please send enquiries about Muscat International Airport through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8574,7 +8574,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Oman (batch 3: Sohar)
   { slug: "sohar-industrial-estate", name: "Sohar Industrial Estate", citySlug: "sohar", areaType: "industrial-estate", nearbyIndustries: ["chemical","logistics-warehousing","food-beverage"], confirmedService: true, hero: ["virat","setu"], page: {
       "metaTitle": "Data Loggers in Sohar Industrial Estate | Prithvi",
-      "metaDescription": "Data loggers for factories, chemical stores, warehouses and workshops in the Sohar Industrial Estate on the Batinah coast. Get Solution.",
+      "metaDescription": "Sohar Industrial Estate, Oman: data loggers for factories, chemical stores, warehouses and workshops. Get Solution: Sohar Industrial Estate.",
       "intro": "The Sohar Industrial Estate lies beside the coast road near Sohar, a wide grid of plots, roads, factory halls, warehouses and workshops laid out on the flat plain. For a temperature data logger the interest lies in the everyday trouble of making and keeping goods in extreme coastal heat: chemicals and coatings with a printed limit, food and packaging stock, spare parts and materials under metal roofs. The description is limited to the goods and rooms a logger user could look after in an industrial estate of this sort. Enquiries about the Sohar Industrial Estate are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8628,7 +8628,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "sohar-port-and-freezone", name: "Sohar Port and Freezone", citySlug: "sohar", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["rajmudra","dhruva"], page: {
       "metaTitle": "Data Loggers at Sohar Port and Freezone | Prithvi",
-      "metaDescription": "Data loggers for quayside sheds, cold rooms, warehouses and vehicles around the Sohar port and freezone. Get Solution.",
+      "metaDescription": "Sohar Port and Freezone, Oman: data loggers for quayside sheds, cold rooms, warehouses and vehicles. Get Solution: Sohar Port and Freezone.",
       "intro": "The Sohar Port and Freezone lies beside the coast on the Gulf of Oman, a flat expanse of quays, yards and warehouse plots where goods wait between a ship and the road. Around any port and free zone there is waiting: food, supplies and general goods that come off a vessel, stand in a stack or a shed, and go on by lorry. For a temperature data logger the interest is the record of what that stock endured, in air that is hot, damp and salty, between the hold and the customer. The text below is limited to the kinds of goods and rooms a logger user may look after around a port and free zone. Enquiries about the port and freezone are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8683,7 +8683,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Oman (batch 4: Barka)
   { slug: "barka-industrial-area", name: "Barka Industrial Area", citySlug: "barka", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["virat","setu"], page: {
       "metaTitle": "Data Loggers in Barka Industrial Area | Prithvi",
-      "metaDescription": "Data loggers for workshops, warehouses, light factories and building-material yards in the Barka Industrial Area. Get Solution.",
+      "metaDescription": "Barka Industrial Area, Oman: data loggers for workshops, warehouses, light factories and building-material yards. Get Solution: Barka Industrial Area.",
       "intro": "The Barka Industrial Area lies beside the coast road at Barka, a grid of workshops, warehouses, light factories and building-material yards laid out on the flat plain. For a temperature data logger the interest lies in the everyday trouble of making and keeping goods in extreme coastal heat: sealants and paints with a printed limit, food and packaging stock, and spare parts and tools under metal roofs. What follows covers only the stock and rooms that a logger user at Barka could look after. Enquiries about the Barka Industrial Area are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8736,7 +8736,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Oman (batch 5: Nizwa, Ibri, Buraimi)
   { slug: "nizwa-industrial-estate", name: "Nizwa Industrial Estate", citySlug: "nizwa", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["virat","setu"], page: {
       "metaTitle": "Data Loggers in Nizwa Industrial Estate | Prithvi",
-      "metaDescription": "Data loggers for workshops, warehouses, light factories and building-material yards in the Nizwa Industrial Estate. Get Solution.",
+      "metaDescription": "Nizwa Industrial Estate, Oman: data loggers for workshops, warehouses, light factories and building-material yards. Get Solution: Nizwa Industrial Estate.",
       "intro": "The Nizwa Industrial Estate lies beside the road near Nizwa, a grid of workshops, warehouses, light factories and building-material yards laid out on the flat plain below the mountains. For a temperature data logger the interest lies in the daily trouble of making and keeping goods through fierce dry heat and cold winter nights: paints and adhesives with a printed limit, food and sweets packaging, and spare parts and tools under metal roofs. What follows covers only the stock and rooms that a logger user on the Nizwa estate could look after. Enquiries about the Nizwa Industrial Estate are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8788,7 +8788,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "ibri-industrial-area", name: "Ibri Industrial Area", citySlug: "ibri", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["rajmudra","veer"], page: {
       "metaTitle": "Data Loggers in Ibri Industrial Area | Prithvi",
-      "metaDescription": "Data loggers for workshops, warehouses, parts stores and building-material yards in the Ibri Industrial Area. Get Solution.",
+      "metaDescription": "Ibri Industrial Area, Oman: data loggers for workshops, warehouses, parts stores and building-material yards. Get Solution to cover Ibri Industrial Area.",
       "intro": "The Ibri Industrial Area stands on the open gravel plain beside Ibri, a grid of workshops, warehouses, parts stores and building-material yards with hills in the distance. For a temperature data logger the interest lies in the everyday trouble of keeping goods through desert summer heat: parts and tools under metal roofs, paints and chemicals with a printed limit, and food and drink for people who work there. The page deals only with the stock and rooms that a logger user at Ibri could look after. Enquiries about the Ibri Industrial Area are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8840,7 +8840,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "buraimi-industrial-area", name: "Buraimi Industrial Area", citySlug: "buraimi", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["nakshatra","virat"], page: {
       "metaTitle": "Data Loggers in Buraimi Industrial Area | Prithvi",
-      "metaDescription": "Data loggers for workshops, warehouses, light factories and building-material yards in the Buraimi Industrial Area. Get Solution.",
+      "metaDescription": "Buraimi Industrial Area, Oman: data loggers for workshops, warehouses, light factories and building-material yards. Get Solution: Buraimi Industrial Area.",
       "intro": "The Buraimi Industrial Area lies beside the roads of Buraimi, a flat grid of workshops, warehouses, light factories and building-material yards set among gravel and low hills. For a temperature data logger the interest lies in the everyday trouble of making and keeping goods in dry inland heat: sealants and paints with a printed limit, food and packaging stock, and tools and parts under metal roofs. Only the stock and rooms that a logger user at Buraimi could look after are described here. Enquiries about the Buraimi Industrial Area are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8893,7 +8893,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Oman (batch 6: Salalah, Duqm)
   { slug: "salalah-free-zone", name: "Salalah Free Zone", citySlug: "salalah", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["virat","setu"], page: {
       "metaTitle": "Data Loggers in Salalah Free Zone | Prithvi",
-      "metaDescription": "Data loggers for warehouse units, stock rooms and offices in the Salalah Free Zone beside the port at Raysut. Get Solution.",
+      "metaDescription": "Salalah Free Zone, Oman: data loggers for warehouse units, stock rooms and offices beside the port at Raysut. Use Get Solution to plan Salalah Free Zone.",
       "intro": "The Salalah Free Zone lies beside the port at Raysut, west of the city, a compact set of warehouse units, offices and light-industrial plots with the sea close at hand and the hills behind. For a temperature data logger the interest lies in the stock that small trading and making firms keep to hand: food and packaging, materials with printed limits, and household goods, all held in air that is warm, salty and in the monsoon weeks very damp. The text below is limited to the stock and rooms a logger user in the Salalah Free Zone could look after. Enquiries about the Salalah Free Zone are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8947,7 +8947,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "raysut-industrial-estate", name: "Raysut Industrial Estate", citySlug: "salalah", areaType: "industrial-estate", nearbyIndustries: ["chemical","logistics-warehousing","food-beverage"], confirmedService: true, hero: ["rajmudra","dhruva"], page: {
       "metaTitle": "Data Loggers in Raysut Industrial Estate | Prithvi",
-      "metaDescription": "Data loggers for factories, workshops, warehouses and chemical stores in the Raysut Industrial Estate near Salalah. Get Solution.",
+      "metaDescription": "Raysut Industrial Estate, Salalah: data loggers for factories, workshops, warehouses and chemical stores. Get Solution to cover Raysut Industrial Estate.",
       "intro": "The Raysut Industrial Estate stands on the coastal plain at Raysut, west of Salalah, a grid of factory halls, workshops, warehouses and stores laid out beside the sea and the main road. For a temperature data logger the interest lies in the everyday trouble of making and keeping goods where the air is warm, salty and for weeks each summer very damp: chemicals and coatings with a printed limit, food and packaging stock, and spare parts and tools under metal roofs. The description is limited to the stock and rooms that a logger user on the estate could look after. Enquiries about the Raysut Industrial Estate are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8999,7 +8999,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "port-of-salalah", name: "Port of Salalah", citySlug: "salalah", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["nakshatra","virat"], page: {
       "metaTitle": "Data Loggers at the Port of Salalah | Prithvi",
-      "metaDescription": "Data loggers for quayside sheds, cold rooms, container stacks and vehicles around the Port of Salalah at Raysut. Get Solution.",
+      "metaDescription": "Port of Salalah, Oman: data loggers for quayside sheds, cold rooms, container stacks and vehicles at Raysut. Get Solution to begin in Port of Salalah.",
       "intro": "The Port of Salalah is the container harbour at Raysut on the Arabian Sea, west of the city, with a flat apron of quays, stacks and yards between the water and the hills. What matters to a temperature data logger here is the long wait that follows a sea voyage: cargo that comes off a vessel, rests in a stack or a shed, and moves on by lorry, in warm, salty air that turns very damp for several weeks each summer. Only the stock and rooms that a logger user at Raysut could look after are described here. Please send enquiries about Salalah's port through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -9053,7 +9053,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "duqm-special-economic-zone", name: "Duqm Special Economic Zone", citySlug: "duqm", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["veer-pro","setu"], page: {
       "metaTitle": "Data Loggers in Duqm Special Economic Zone | Prithvi",
-      "metaDescription": "Data loggers for warehouse plots, stores, workshops and cold rooms in the Duqm Special Economic Zone. Get Solution.",
+      "metaDescription": "Duqm Special Economic Zone, Oman: data loggers for warehouse plots, stores, workshops and cold rooms. Get Solution to begin in Duqm Special Economic Zone.",
       "intro": "The Duqm Special Economic Zone is an area of plots, roads, warehouses and workshops laid out on the flat ground behind the Duqm shore, with wide gravel plains on one side and the sea on the other. For a temperature data logger the interest lies in whatever its plots happen to hold: construction materials, spare parts, food for working communities and chilled stock that has travelled a very long way. The description is limited to the goods and rooms a logger user could look after in a zone of this sort. Enquiries about the zone are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -9107,7 +9107,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "port-of-duqm", name: "Port of Duqm", citySlug: "duqm", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["rajmudra","virat-pro"], page: {
       "metaTitle": "Data Loggers at the Port of Duqm | Prithvi",
-      "metaDescription": "Data loggers for quayside sheds, cold rooms, container stacks and vehicles around the Port of Duqm on the Arabian Sea. Get Solution.",
+      "metaDescription": "Port of Duqm, Oman: data loggers for quayside sheds, cold rooms, container stacks and vehicles on the Arabian Sea. Use Get Solution for Port of Duqm.",
       "intro": "The Port of Duqm is the commercial harbour of the young coastal town, set on an open stretch of the Arabian Sea with wide gravel plains behind. What matters to a temperature data logger here is the waiting between a ship and a very long road: food, supplies and general goods that come off a vessel, stand in a stack or a shed, and then set off across the desert, in dry heat and strong, salty wind. The page deals only with the stock and rooms that a logger user at Duqm could look after. Enquiries about the Duqm port are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -9162,7 +9162,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Oman (batch 7: Sur)
   { slug: "sur-industrial-estate", name: "Sur Industrial Estate", citySlug: "sur", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["virat","setu"], page: {
       "metaTitle": "Data Loggers in Sur Industrial Estate | Prithvi",
-      "metaDescription": "Data loggers for workshops, warehouses, light factories and building-material yards in the Sur Industrial Estate. Get Solution.",
+      "metaDescription": "Sur Industrial Estate, Oman: data loggers for workshops, warehouses, light factories and building-material yards. Get Solution: Sur Industrial Estate.",
       "intro": "The Sur Industrial Estate lies beside the road near Sur, a grid of workshops, warehouses, light factories and building-material yards laid out on the coastal plain behind low hills. For a temperature data logger the interest lies in the daily trouble of keeping goods in hot, salty, humid air: sealants and paints with a printed limit, timber and fittings that take on damp, and food and packaging stock for the town. The text below is limited to the goods and rooms a logger user could look after in an industrial estate of this sort. Enquiries about the Sur Industrial Estate are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -9215,7 +9215,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Kuwait (batch 1: Kuwait City)
   { slug: "shuwaikh-industrial-area", name: "Shuwaikh Industrial Area", citySlug: "kuwait-city", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","electronics","chemical"], confirmedService: true, hero: ["virat","dhruva"], page: {
       "metaTitle": "Data Loggers in Shuwaikh Industrial Area, Kuwait | Prithvi",
-      "metaDescription": "Data loggers for workshops, warehouses, spare-parts shops and light factories in the Shuwaikh Industrial Area, Kuwait City. Get Solution.",
+      "metaDescription": "Shuwaikh Industrial Area, Kuwait City: data loggers for workshops, warehouses, spare-parts shops, light factories. Get Solution: Shuwaikh Industrial Area.",
       "intro": "The Shuwaikh Industrial Area lies west of Kuwait City's centre, a dense grid of workshops, warehouses, spare-parts shops, light factories and yards laid out on flat ground between the main roads and the bay. For a temperature data logger the interest lies in the everyday trouble of keeping goods through blazing summer heat: electronic parts and batteries, paints and adhesives with a printed limit, food and packaging stock, and tools under metal roofs. The text below is limited to the goods and rooms a logger user could look after in an industrial area of this sort. Enquiries about the Shuwaikh Industrial Area are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -9269,7 +9269,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "shuwaikh-port", name: "Shuwaikh Port", citySlug: "kuwait-city", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["setu","nakshatra"], page: {
       "metaTitle": "Data Loggers at Shuwaikh Port, Kuwait | Prithvi",
-      "metaDescription": "Data loggers for quayside sheds, cold rooms, container stacks and vehicles around Shuwaikh Port, Kuwait City. Get Solution.",
+      "metaDescription": "Shuwaikh Port, Kuwait City: data loggers for quayside sheds, cold rooms, container stacks and vehicles. Get Solution and plan your Shuwaikh Port sites.",
       "intro": "Shuwaikh Port is the commercial harbour on the western side of Kuwait City, set on the shore of Kuwait Bay with the industrial area behind it. Cargo that reaches a harbour spends much of its time standing still, and for a temperature data logger the question is what the stock endured while it stood: heat from the sun, hot hazy air by the bay, and the swing between a cooled hall and an open quay. Everything on this page is limited to the kinds of goods and rooms a logger user may look after at a harbour. Enquiries about Shuwaikh Port are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -9324,7 +9324,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Kuwait (batch 3: Farwaniya)
   { slug: "ardiya-industrial-area", name: "Ardiya Industrial Area", citySlug: "farwaniya", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","electronics"], confirmedService: true, hero: ["virat","veer"], page: {
       "metaTitle": "Data Loggers in Ardiya Industrial Area, Kuwait | Prithvi",
-      "metaDescription": "Data loggers for workshops, warehouses, light factories and yards in the Ardiya Industrial Area, Farwaniya. Get Solution.",
+      "metaDescription": "Ardiya Industrial Area, Kuwait: data loggers for workshops, warehouses, light factories and yards in Farwaniya. Get Solution: Ardiya Industrial Area.",
       "intro": "The Ardiya Industrial Area lies on flat ground inland of the capital, near Farwaniya, a grid of workshops, warehouses, light factories and storage yards with wide roads between them. For a temperature data logger the interest lies in the everyday trouble of keeping goods through blazing, dusty summers: spare parts and electronics, sealants and paints with a printed limit, and food and packaging stock held under metal roofs. What follows covers only the stock and rooms that a logger user at Ardiya could look after. Enquiries about the Ardiya Industrial Area are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -9378,7 +9378,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "al-rai-industrial-area", name: "Al Rai Industrial Area", citySlug: "farwaniya", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","food-beverage","chemical"], confirmedService: true, hero: ["rajmudra","setu"], page: {
       "metaTitle": "Data Loggers in Al Rai Industrial Area, Kuwait | Prithvi",
-      "metaDescription": "Data loggers for wholesalers, workshops and warehouses in the Al Rai Industrial Area, near Farwaniya. Get Solution.",
+      "metaDescription": "Al Rai Industrial Area, Kuwait: data loggers for wholesalers, workshops and warehouses near Farwaniya. Get Solution to begin in Al Rai Industrial Area.",
       "intro": "The Al Rai Industrial Area is a trading and workshop district on the northern side of the inland belt, near Farwaniya, where wholesalers, workshops and warehouses stand in rows along wide roads. For a temperature data logger the interest lies in the stock that wholesalers keep to hand through blazing, dusty summers: food and drink in bulk, household goods, tools, materials with printed limits and the vehicles that carry them. The description is limited to the goods and rooms a logger user could look after in a district of this sort. Enquiries about the Al Rai Industrial Area are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -9432,7 +9432,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "kuwait-international-airport", name: "Kuwait International Airport", citySlug: "farwaniya", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","pharmaceutical","food-beverage"], confirmedService: true, hero: ["nakshatra","virat-pro"], page: {
       "metaTitle": "Data Loggers at Kuwait International Airport | Prithvi",
-      "metaDescription": "Data loggers for cargo sheds, cold rooms, catering stores and vehicles around Kuwait International Airport. Get Solution.",
+      "metaDescription": "Kuwait International Airport, Kuwait: data loggers for cargo sheds, cold rooms, catering stores and vehicles. Get Solution: Kuwait International Airport.",
       "intro": "Kuwait International Airport stands on flat open ground inland of the capital, near Farwaniya, with broad approaches and large sheds around it. Goods that travel by air spend much of their journey standing still, and for a temperature data logger the question is how warm that standing time was: on the apron, in a cargo shed, in a waiting van. In summer the answer is often blazing and dusty. Everything on this page is limited to the kinds of goods and rooms a logger user may look after around an airport. Enquiries about Kuwait International Airport are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -9484,7 +9484,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "jleeb-al-shuyoukh-warehouses", name: "Jleeb Al-Shuyoukh Warehouses", citySlug: "jleeb-al-shuyoukh", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","electronics"], confirmedService: true, hero: ["dhruva","virat"], page: {
       "metaTitle": "Data Loggers in Jleeb Al-Shuyoukh Warehouses | Prithvi",
-      "metaDescription": "Data loggers for wholesale warehouses, cold rooms and stockrooms in the Jleeb Al-Shuyoukh warehouse district. Get Solution.",
+      "metaDescription": "Jleeb Al-Shuyoukh Warehouses, Kuwait: data loggers for wholesale warehouses, cold rooms and stockrooms. Get Solution to cover Jleeb Al-Shuyoukh Warehouses.",
       "intro": "The Jleeb Al-Shuyoukh Warehouses are the cluster of wholesale stores, stockrooms and storage sheds packed between apartment blocks and market streets in Jleeb Al-Shuyoukh, with trucks loading and unloading in narrow lanes. For a temperature data logger the interest lies in goods stacked tightly and handled in bulk through blazing, dusty summers: food and drink, household goods, electronics and appliances. The text below is limited to the goods and rooms a logger user could look after in a warehouse district of this sort. Enquiries about the Jleeb Al-Shuyoukh Warehouses are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -9537,7 +9537,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Kuwait (batch 5: Ahmadi areas)
   { slug: "shuaiba-industrial-area", name: "Shuaiba Industrial Area", citySlug: "ahmadi", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["virat","setu"], page: {
       "metaTitle": "Data Loggers in Shuaiba Industrial Area, Kuwait | Prithvi",
-      "metaDescription": "Data loggers for factories, workshops, warehouses and yards in the Shuaiba Industrial Area, near Ahmadi. Get Solution.",
+      "metaDescription": "Shuaiba Industrial Area, Kuwait: data loggers for factories, workshops, warehouses and yards near Ahmadi. Get Solution to begin in Shuaiba Industrial Area.",
       "intro": "The Shuaiba Industrial Area is a large industrial district on flat coastal ground north of Ahmadi, a grid of factories, workshops, warehouses and storage yards with wide roads between them. For a temperature data logger the interest lies in the ordinary trouble of keeping goods through blazing summers and humid shore air: sealants and paints with a printed limit, food and packaging stock, spare parts, and materials under metal roofs. Only the stock and rooms that a logger user on the Shuaiba estate could look after are described here. Enquiries about the Shuaiba Industrial Area are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -9591,7 +9591,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "shuaiba-port", name: "Shuaiba Port", citySlug: "ahmadi", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["rajmudra","dhruva"], page: {
       "metaTitle": "Data Loggers at Shuaiba Port, Kuwait | Prithvi",
-      "metaDescription": "Data loggers for quayside sheds, cold rooms, container stacks and vehicles around Shuaiba Port, near Ahmadi. Get Solution.",
+      "metaDescription": "Shuaiba Port, Kuwait: data loggers for quayside sheds, cold rooms, container stacks and vehicles near Ahmadi. Get Solution to begin in Shuaiba Port.",
       "intro": "Shuaiba Port is a commercial harbour on the coast north of Ahmadi, laid out on flat ground with broad yards between the water and the industrial estate behind. Goods that come through a harbour stand about for long stretches, and a temperature data logger exists to answer one question about those stretches: how warm did the stock get while it waited? Strong sun, hazy shore air and the contrast between a cooled hall and an open quay all play a part. The description is limited to the goods and rooms a logger user may look after at a harbour. Enquiries about Shuaiba Port are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -9645,7 +9645,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "mina-al-ahmadi", name: "Mina Al Ahmadi", citySlug: "ahmadi", areaType: "industrial-estate", nearbyIndustries: ["chemical","laboratories","logistics-warehousing"], confirmedService: true, hero: ["nakshatra","veer"], page: {
       "metaTitle": "Data Loggers in Mina Al Ahmadi, Kuwait | Prithvi",
-      "metaDescription": "Data loggers for support stores, laboratories, workshops and canteens in the Mina Al Ahmadi port-side area near Ahmadi. Get Solution.",
+      "metaDescription": "Mina Al Ahmadi, Kuwait: data loggers for support stores, laboratories, workshops and canteens in the port-side area. Get Solution to cover Mina Al Ahmadi.",
       "intro": "Mina Al Ahmadi is a port-side industrial area on the coast beside Ahmadi, a flat expanse of yards, stores, workshops and support buildings set along the water. A temperature data logger around an area of this kind is concerned with what its support buildings hold: laboratory samples, lubricants and coatings with labelled limits, spare parts, and food for working communities, all kept in air that is blazing in summer and humid by the shore. The text below is limited to the kinds of goods and rooms a logger user may look after in a port-side area of this sort. Enquiries about Mina Al Ahmadi are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -9698,7 +9698,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Kuwait (batch 6: Jahra)
   { slug: "sulaibiya-industrial-area", name: "Sulaibiya Industrial Area", citySlug: "sulaibiya", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["virat-pro","setu"], page: {
       "metaTitle": "Data Loggers in Sulaibiya Industrial Area, Kuwait | Prithvi",
-      "metaDescription": "Data loggers for workshops, warehouses, light factories and yards in the Sulaibiya Industrial Area, western Kuwait. Get Solution.",
+      "metaDescription": "Sulaibiya Industrial Area, Kuwait: data loggers for workshops, warehouses, light factories and yards in the west. Get Solution: Sulaibiya Industrial Area.",
       "intro": "The Sulaibiya Industrial Area occupies flat open ground in Sulaibiya, a wide grid of workshops, warehouses, light factories and storage yards with broad roads between them. For a temperature data logger the interest lies in the everyday trouble of keeping goods through blazing, dusty summers: food and drink in bulk, building materials, sealants and cleaners with a printed limit, and parts and tools under metal roofs. What follows covers only the stock and rooms that a logger user in Sulaibiya could look after. Enquiries about the Sulaibiya Industrial Area are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -9750,7 +9750,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "amghara-industrial-area", name: "Amghara Industrial Area", citySlug: "jahra", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","electronics","chemical"], confirmedService: true, hero: ["rajmudra","dhruva"], page: {
       "metaTitle": "Data Loggers in Amghara Industrial Area, Kuwait | Prithvi",
-      "metaDescription": "Data loggers for workshops, parts yards and warehouses in the Amghara Industrial Area, near Jahra. Get Solution.",
+      "metaDescription": "Amghara Industrial Area, Kuwait: data loggers for workshops, parts yards and warehouses near Jahra. Use Get Solution for Amghara Industrial Area.",
       "intro": "The Amghara Industrial Area lies near Jahra on flat open ground beside wide roads, a district of workshops, parts yards, trading yards and warehouses. For a temperature data logger the interest lies in stock that suffers in blazing, dusty summers: vehicle parts and batteries, tyres, tools, electronics and the lubricants and cleaners that go with them. The text below is limited to the goods and rooms a logger user could look after in a workshop and trading district of this sort. Enquiries about the Amghara Industrial Area are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -9803,7 +9803,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Bahrain (batch 1: Manama)
   { slug: "bahrain-financial-harbour", name: "Bahrain Financial Harbour", citySlug: "manama", areaType: "business-district", nearbyIndustries: ["food-beverage","data-centers","pharmaceutical"], confirmedService: true, hero: ["virat","dhruva"], page: {
       "metaTitle": "Data Loggers in Bahrain Financial Harbour, Manama | Prithvi",
-      "metaDescription": "Data loggers for hotel kitchens, mall food courts, office pantries and server rooms in the Bahrain Financial Harbour, Manama. Get Solution.",
+      "metaDescription": "Bahrain Financial Harbour, Manama: data loggers for hotel kitchens, food courts, office pantries, server rooms. Get Solution: Bahrain Financial Harbour.",
       "intro": "The Bahrain Financial Harbour is a waterfront district of glass towers on reclaimed ground along the northern coast of Manama, with a shopping mall, restaurants, hotels and promenades at its foot. For a temperature data logger the interest lies in rooms that sit far from any warehouse: basement and podium kitchens, floor pantries, server cupboards and plant rooms, all cooled by equipment that works hard through the long, humid summer. The text below is limited to the goods and rooms a logger user could look after in a tower district of this sort. Enquiries about the Bahrain Financial Harbour are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -9857,7 +9857,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "seef-district", name: "Seef District", citySlug: "manama", areaType: "business-district", nearbyIndustries: ["food-beverage","pharmaceutical","electronics"], confirmedService: true, hero: ["setu","nakshatra"], page: {
       "metaTitle": "Data Loggers in Seef District, Manama | Prithvi",
-      "metaDescription": "Data loggers for mall food courts, hotel kitchens, supermarkets and clinic fridges in the Seef District of Manama. Get Solution.",
+      "metaDescription": "Seef District, Manama: data loggers for mall food courts, hotel kitchens, supermarkets and clinic fridges. Get Solution to cover Seef District.",
       "intro": "The Seef District is a commercial quarter along the northern coast road of Manama, with malls, hotels, offices, restaurants and apartment blocks laid out beside wide avenues and the sea. A temperature data logger in a district like this is concerned with many busy rooms: mall supermarkets and food courts, hotel kitchens, shop stockrooms and clinic refrigerators, all cooled by equipment that labours through the long, damp summer. The text below is limited to the goods and rooms a logger user could look after in a commercial district of this sort. Enquiries about the Seef District are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -9911,7 +9911,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "mina-salman-port", name: "Mina Salman Port", citySlug: "manama", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["rajmudra","veer"], page: {
       "metaTitle": "Data Loggers at Mina Salman Port, Manama | Prithvi",
-      "metaDescription": "Data loggers for quayside sheds, cold rooms, container stacks and vehicles around Mina Salman Port, Manama. Get Solution.",
+      "metaDescription": "Mina Salman Port, Manama: data loggers for quayside sheds, cold rooms, container stacks and vehicles. Get Solution to begin in Mina Salman Port.",
       "intro": "Mina Salman Port is the commercial harbour south-east of Manama's centre, set on reclaimed shoreline with broad yards and warehouses behind the quays. Goods that reach a harbour spend much of their time standing still, and for a temperature data logger the question is how warm that standing time was: in the sun on the apron, in a shed, in a waiting van, in air that is hot, damp and salty. This page stays with the kinds of goods and rooms that a logger user at a commercial harbour could look after. Enquiries about Mina Salman Port are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -9964,7 +9964,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Bahrain (batch 3: Muharraq Governorate)
   { slug: "bahrain-international-airport", name: "Bahrain International Airport", citySlug: "muharraq", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","pharmaceutical","food-beverage"], confirmedService: true, hero: ["nakshatra","virat"], page: {
       "metaTitle": "Data Loggers at Bahrain International Airport | Prithvi",
-      "metaDescription": "Data loggers for freight halls, medicine cool rooms, meal-preparation stores and vehicles around Bahrain International Airport. Get Solution.",
+      "metaDescription": "Bahrain International Airport, Muharraq: data loggers for freight halls, medicine cool rooms, catering stores. Get Solution: Bahrain International Airport.",
       "intro": "Bahrain International Airport stands on flat ground on Muharraq Island, north of the old town, with long runways, terminal buildings and a belt of service and freight sheds around them. For a temperature data logger the interest lies in the stores and vehicles that sit around a site of this kind: halls for goods waiting to move, cool rooms for medicines, kitchens preparing food, and vans parked in the sun between jobs. This page covers only the kinds of goods and rooms that a logger user could look after, and says nothing about how the site is run. Enquiries about the airport are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -10016,7 +10016,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "khalifa-bin-salman-port", name: "Khalifa Bin Salman Port", citySlug: "hidd", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["dhruva","rajmudra"], page: {
       "metaTitle": "Data Loggers at Khalifa Bin Salman Port, Hidd | Prithvi",
-      "metaDescription": "Data loggers for quayside sheds, container stacks, cold halls and vehicles around Khalifa Bin Salman Port, Hidd. Get Solution.",
+      "metaDescription": "Khalifa Bin Salman Port, Hidd: data loggers for quayside sheds, container stacks, cold halls and vehicles. Get Solution to cover Khalifa Bin Salman Port.",
       "intro": "Khalifa Bin Salman Port is a harbour area at the south-eastern tip of Muharraq Island, near Hidd, with deep-water quays, broad yards and sheds set on flat reclaimed ground. Goods that pass through a harbour spend a lot of their time standing still, and a temperature data logger exists to answer one question about those pauses: how warm and damp did the stock get? Strong sun, salt air and the contrast between a cooled hall and an open quay all play a part. This page is limited to the kinds of goods and rooms a logger user may look after at a harbour. Enquiries about the port are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -10070,7 +10070,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "bahrain-logistics-zone", name: "Bahrain Logistics Zone", citySlug: "hidd", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","electronics","food-beverage"], confirmedService: true, hero: ["setu","veer"], page: {
       "metaTitle": "Data Loggers in Bahrain Logistics Zone, Hidd | Prithvi",
-      "metaDescription": "Data loggers for warehouse units, cold rooms, packing halls and yards in the Bahrain Logistics Zone near Hidd. Get Solution.",
+      "metaDescription": "Bahrain Logistics Zone, Hidd: data loggers for warehouse units, cold rooms, packing halls and yards. Get Solution: Bahrain Logistics Zone.",
       "intro": "The Bahrain Logistics Zone is a warehouse district beside the south-eastern harbour near Hidd, with large sheds on flat ground, wide lanes between them and open yards for vehicles. A temperature data logger in a district like this is concerned with racked goods that sit for days or weeks: pallets of food, household goods and electronics under metal roofs, cold rooms beside them, and packing halls where cartons are made up for the road. This page is limited to the kinds of goods and rooms a logger user could look after, and says nothing about who is based there or how the zone is run. The enquiry form, Call or WhatsApp is how we receive enquiries about the zone.",
       "places": [
         {
@@ -10125,7 +10125,7 @@ export const areas: AreaDef[] = [
   // ------------------------------------------------------------------ Bahrain (batch 5: Northern Governorate)
   { slug: "hamad-town-industrial-area", name: "Hamad Town Industrial Area", citySlug: "hamad-town", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","electronics"], confirmedService: true, hero: ["rajmudra","nakshatra"], page: {
       "metaTitle": "Data Loggers in Hamad Town Industrial Area | Prithvi",
-      "metaDescription": "Data loggers for workshops, parts stores, paint and chemical rooms and warehouses in the Hamad Town Industrial Area. Get Solution.",
+      "metaDescription": "Hamad Town Industrial Area, Bahrain: data loggers for workshops, parts stores, chemical rooms and warehouses. Get Solution: Hamad Town Industrial Area.",
       "intro": "The Hamad Town Industrial Area is the workshop and storage district on the edge of Hamad Town, laid out on flat inland ground with rows of units, wide service roads and yards for vehicles. For a temperature data logger the interest lies in rooms where heat damages goods or equipment: parts stores, paint and sealant rooms, small food stores, warehouse bays and cabin offices with a server cupboard. The inland afternoon sun is fierce and the dust is constant. This page is limited to the kinds of goods and rooms a logger user may look after, and says nothing about who is based there or how the area is run. Enquiries about the area are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
