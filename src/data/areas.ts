@@ -1000,7 +1000,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "kharghar", name: "Kharghar", citySlug: "panvel", areaType: "mixed-use", nearbyIndustries: ["hospitals-blood-banks", "laboratories", "pharmaceutical", "food-beverage"], confirmedService: true, hero: ["rajmudra", "veer-pro"], page: {
       "metaTitle": "Temperature Data Logger in Kharghar, Panvel | Prithvi",
-      "metaDescription": "Kharghar: temperature data loggers for Kharghar, Kamothe and Khanda Colony hospitals, laboratories, pharmacies and food suppliers. Get Solution.",
+      "metaDescription": "Kharghar: temperature data loggers for Kharghar, Kamothe and Khanda Colony hospitals, laboratories, pharmacies and food suppliers. Get Solution: Kharghar.",
       "intro": "A temperature data logger in Kharghar, Panvel, is most often placed at hospital and blood bank and laboratory sites. Kharghar is a planned CIDCO township on the hills and flats between Belapur and Panvel, with wide roads, large housing complexes, a cancer research and treatment centre and several other hospitals. Kamothe, across the highway, is a dense residential node with a large medical college and hospital, and Khanda Colony in New Panvel is a mixed residential and commercial area on the way to Panvel. The Taloja industrial estate lies further on. Storage here is mostly clinical and commercial: pharmacies, blood banks, laboratories, kitchens and the stockists who supply a growing population.",
       "places": [
         {
@@ -1791,7 +1791,7 @@ export const areas: AreaDef[] = [
     } },
   { slug: "ghodbunder-road", name: "Ghodbunder Road", citySlug: "thane-bhiwandi", areaType: "mixed-use", nearbyIndustries: ["pharmaceutical", "food-beverage", "hospitals-blood-banks", "logistics-warehousing"], confirmedService: true, hero: ["veer", "virat-pro"], page: {
       "metaTitle": "Temperature Data Logger in Ghodbunder Road, Thane & Bhiwandi",
-      "metaDescription": "Ghodbunder Road: temperature data loggers for townships, hospitals, supermarkets and highway godowns at Balkum and Owale. Get Solution.",
+      "metaDescription": "Ghodbunder Road: temperature data loggers for townships, hospitals, supermarkets and highway godowns at Balkum and Owale. Get Solution for Ghodbunder Road.",
       "intro": "A temperature data logger in Ghodbunder Road, Thane & Bhiwandi, is most often placed at pharmaceutical and food and beverage sites. Ghodbunder Road is the long arterial road that leaves Thane at Majiwada and runs north-west to meet the Gujarat highway near Ghodbunder village, and along it a string of neighbourhoods, including Balkum, Owale and Kasarvadavli, has grown into one of Thane's main residential and commercial corridors. Large housing townships, schools, hospitals and shopping centres line the road, and godowns, small factories and transport firms sit along it, particularly near its Thane end and at the junctions with the highway. Storage here mixes the stock of pharmacies, supermarkets and kitchens serving the townships with the goods of firms using the road to reach the highway.",
       "places": [
         {
@@ -4904,8 +4904,8 @@ export const areas: AreaDef[] = [
     } },
   // ------------------------------------------------------------------ Saudi Arabia (batch 1: Riyadh)
   { slug: "riyadh-dry-port", name: "Riyadh Dry Port", citySlug: "riyadh", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","pharmaceutical","food-beverage"], confirmedService: true, hero: ["virat","rajmudra"], page: {
-      "metaTitle": "Data Loggers at Riyadh Dry Port, Saudi Arabia | Prithvi",
-      "metaDescription": "Riyadh Dry Port, Riyadh: WiFi temperature and humidity loggers for the container yard, transit sheds and truck terminal. Get Solution: Riyadh Dry Port.",
+      "metaTitle": "Temperature Data Logger in Riyadh Dry Port, Riyadh | Prithvi",
+      "metaDescription": "Riyadh Dry Port: WiFi temperature and humidity data loggers for the container yard, transit sheds and truck terminal. Get Solution: Riyadh Dry Port.",
       "intro": "Riyadh Dry Port is the inland container terminal of the capital, a rail-linked freight yard where containers that entered the kingdom through the Gulf coast are unloaded, cleared and handed on to trucks. Because Riyadh lies far from any sea port, the dry port works as a gateway for imported cargo: the railway carries boxes of food, medicines, consumer goods and industrial parts inland, and clearance can take place in the yard and not at the coast. A temperature data logger at the dry port follows goods through the waiting and handling that happen between train and truck, when cargo may stand in the sun or in a shed, which is where heat does its damage before the goods reach a warehouse.",
       "places": [
         {
@@ -4944,8 +4944,8 @@ export const areas: AreaDef[] = [
       "approach": "We would begin with the transit shed that holds the most sensitive goods, hanging one logger at working height and one near the roof, then place a logger inside a few chosen consignments to compare the yard with the warehouse. The first weeks of data show which stage of the journey is the warmest and where a second logger is worth adding.",
       "faqs": [
         {
-          "question": "Can a logger show how long a container stood at the dry port before collection?",
-          "answer": "A logger placed inside the consignment records temperature and humidity through the wait in the yard, the shed and the truck, and the report for those dates can be exported for the importer or the buyer."
+          "question": "Can a temperature data logger in Riyadh Dry Port show how long a container stood at the dry port before collection?",
+          "answer": "A logger placed inside the consignment records temperature and humidity through the wait in the yard, the shed and the truck, and the report for those dates can be exported for the importer or the buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Can several shippers sharing one shed each see only their own rooms?",
@@ -4958,8 +4958,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "riyadh-1st-industrial-city", name: "Riyadh 1st Industrial City", citySlug: "riyadh", areaType: "industrial-estate", nearbyIndustries: ["food-beverage","logistics-warehousing","chemical"], confirmedService: true, hero: ["nakshatra","veer-pro"], page: {
-      "metaTitle": "Data Loggers in Riyadh 1st Industrial City | Prithvi",
-      "metaDescription": "Riyadh 1st Industrial City, Riyadh: WiFi temperature and humidity loggers for factories and warehouses. Get Solution: Riyadh 1st Industrial City.",
+      "metaTitle": "Temperature Data Logger in Riyadh 1st Industrial City",
+      "metaDescription": "Riyadh 1st Industrial City, Riyadh: WiFi temperature and humidity data loggers for factories and warehouses. Get Solution: Riyadh 1st Industrial City.",
       "intro": "Riyadh 1st Industrial City is one of the earliest industrial estates of the capital, a large district of factories, warehouses and service buildings on the edge of Riyadh, developed and managed by the state's industrial-cities authority. Plants there make food and drink, plastics and packaging, metal goods and building materials, and the warehouses beside them send finished goods across the kingdom by road. The halls stand under metal roofs that trap the desert heat, so the rooms inside depend on cooling plants that work close to their limits for months. A temperature data logger here watches the raw-material stores, the packing halls and the finished-goods rooms where stock waits for a truck.",
       "places": [
         {
@@ -4998,8 +4998,8 @@ export const areas: AreaDef[] = [
       "approach": "At a food or packaging plant we would begin with the room that holds the most sensitive stock, placing one logger near the door and one at the back, then add a logger near the roof of the warehouse bay where heat gathers. The first weeks of data show which rooms drift on a hot afternoon and where a second point is worth adding.",
       "faqs": [
         {
-          "question": "Can a plant give a retail buyer a record of its cold room?",
-          "answer": "Reports for any room and any period can be exported as PDF, Excel or CSV, so a quality manager can hand a buyer a dated log of the cold room without retyping a register."
+          "question": "With a temperature data logger in Riyadh 1st Industrial City, can a plant give a retail buyer a record of its cold room?",
+          "answer": "Reports for any room and any period can be exported as PDF, Excel or CSV, so a quality manager can hand a buyer a dated log of the cold room without retyping a register.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does the roof matter for a logger in a warehouse bay?",
@@ -5013,8 +5013,8 @@ export const areas: AreaDef[] = [
     } },
   // ------------------------------------------------------------------ Saudi Arabia (batch 2: Jeddah)
   { slug: "jeddah-islamic-port", name: "Jeddah Islamic Port", citySlug: "jeddah", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["setu","virat-pro"], page: {
-      "metaTitle": "Data Loggers at Jeddah Islamic Port, Saudi Arabia | Prithvi",
-      "metaDescription": "Jeddah Islamic Port, Jeddah: WiFi temperature and humidity loggers for container yards, cold stores and transit sheds. Get Solution: Jeddah Islamic Port.",
+      "metaTitle": "Temperature Data Logger in Jeddah Islamic Port, Jeddah",
+      "metaDescription": "Jeddah Islamic Port: WiFi temperature and humidity data loggers for container yards, cold stores and transit sheds. Get Solution: Jeddah Islamic Port.",
       "intro": "Jeddah Islamic Port is the main seaport of the Red Sea coast and the entry point for a large part of the kingdom's imported food, medicine and general cargo. Container terminals, general-cargo berths and grain facilities stand along the harbour, with yards, transit sheds, cold stores and clearance areas behind them, and trucks collect cleared cargo for the warehouses of Jeddah and the roads inland. Heat and humidity are high for most of the year and salt hangs in the air. A temperature data logger at the port follows goods through the handover from ship to yard to shed to truck, where cargo may wait in sun or damp before it reaches a controlled warehouse.",
       "places": [
         {
@@ -5053,8 +5053,8 @@ export const areas: AreaDef[] = [
       "approach": "We would start with the cold store and the transit shed that hold the most sensitive cargo, placing one logger near the door and one at the back, then add a logger inside a few chosen consignments to compare the yard with the warehouse. The first weeks of data show which stage of the journey runs warmest and where a second point is worth adding.",
       "faqs": [
         {
-          "question": "Can a logger show how long chilled cargo stood at the port before collection?",
-          "answer": "A logger tucked into the consignment logs temperature and humidity while it waits in the yard, the shed and the vehicle, and the report for those dates is available as PDF, Excel or CSV for the importer or buyer."
+          "question": "Can a temperature data logger in Jeddah Islamic Port show how long chilled cargo stood at the port before collection?",
+          "answer": "A logger tucked into the consignment logs temperature and humidity while it waits in the yard, the shed and the vehicle, and the report for those dates is available as PDF, Excel or CSV for the importer or buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does humidity matter as much as temperature at a coastal port?",
@@ -5067,8 +5067,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "jeddah-1st-industrial-city", name: "Jeddah 1st Industrial City", citySlug: "jeddah", areaType: "industrial-estate", nearbyIndustries: ["food-beverage","logistics-warehousing","chemical"], confirmedService: true, hero: ["nakshatra","dhruva"], page: {
-      "metaTitle": "Data Loggers in Jeddah 1st Industrial City | Prithvi",
-      "metaDescription": "Jeddah 1st Industrial City, Jeddah: WiFi temperature and humidity loggers for factories and warehouses. Get Solution for Jeddah 1st Industrial City.",
+      "metaTitle": "Temperature Data Logger in Jeddah 1st Industrial City",
+      "metaDescription": "Jeddah 1st Industrial City, Jeddah: WiFi temperature and humidity data loggers for factories and warehouses. Get Solution for Jeddah 1st Industrial City.",
       "intro": "Jeddah 1st Industrial City is one of the earliest industrial estates of the Red Sea coast, a large district of factories, warehouses and service buildings developed and managed by the state's industrial-cities authority. Plants there make food and drink, plastics and packaging, metal goods, building materials and chemicals, and the warehouses beside them send finished goods to shops and ports across the western region. Heat and humidity are both high for most of the year, so cartons sweat, condensation forms where cold rooms meet warm halls and metal roofs hold the day's heat. A temperature data logger here follows the ingredient stores, the packing halls and the finished-goods rooms where stock waits for a lorry.",
       "places": [
         {
@@ -5107,8 +5107,8 @@ export const areas: AreaDef[] = [
       "approach": "At a food or packaging plant we would begin with the room holding the most sensitive stock, placing one logger near the door and one at the back, and add a humidity-reading unit where condensation shows. A logger near the roof of the warehouse bay then shows how much hotter the top pallets run than the floor.",
       "faqs": [
         {
-          "question": "Why do the doors of a cold room matter so much in the humid months?",
-          "answer": "Warm, damp air enters each time a door opens and condenses on cold surfaces, so alerts for a door left open and a humidity reading beside the temperature show how much moisture a delivery brought in."
+          "question": "With a temperature data logger in Jeddah 1st Industrial City, why do the doors of a cold room matter so much in the humid months?",
+          "answer": "Warm, damp air enters each time a door opens and condenses on cold surfaces, so alerts for a door left open and a humidity reading beside the temperature show how much moisture a delivery brought in.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Can a Jeddah plant hand a buyer the record of one chilled store?",
@@ -5122,8 +5122,8 @@ export const areas: AreaDef[] = [
     } },
   // ------------------------------------------------------------------ Saudi Arabia (batch 3: Eastern Province)
   { slug: "king-abdulaziz-port-dammam", name: "King Abdulaziz Port Dammam", citySlug: "dammam", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["virat","dhruva"], page: {
-      "metaTitle": "Data Loggers at King Abdulaziz Port Dammam | Prithvi",
-      "metaDescription": "King Abdulaziz Port Dammam, Dammam: WiFi loggers for container yards, cold stores and transit sheds. Get Solution to cover King Abdulaziz Port Dammam.",
+      "metaTitle": "Temperature Data Logger in King Abdulaziz Port Dammam",
+      "metaDescription": "King Abdulaziz Port Dammam: temperature data loggers for container yards, cold stores and transit sheds. Get Solution to cover King Abdulaziz Port Dammam.",
       "intro": "King Abdulaziz Port is the main seaport on the Gulf coast of the kingdom, at Dammam, and the entry point for a large share of the Eastern Province's imported food, medicine, machinery and general cargo. Container terminals, general-cargo berths and bulk facilities stand along the quay, with yards, cold stores and transit sheds behind them, and a railway carries containers inland toward Riyadh. Trucks collect cleared cargo for the warehouses of Dammam and the roads beyond. Heat and humidity are high through most of the year, and the metal of containers and sheds turns summer sun into radiant heat. A temperature data logger at the port follows goods through the handover from ship to yard, shed, train and truck.",
       "places": [
         {
@@ -5162,8 +5162,8 @@ export const areas: AreaDef[] = [
       "approach": "We would begin with the cold store and the shed that hold the most sensitive cargo, placing one logger near the door and one at the back, then slip a logger into a few chosen consignments to compare the yard with the warehouse. After a few weeks the data shows which stage of the journey runs warmest and where a second point is worth adding.",
       "faqs": [
         {
-          "question": "Can a shipper see how its containers were held at the Dammam port?",
-          "answer": "A logger tucked into a consignment logs temperature and humidity while it waits in the yard, the shed, the train or the truck, and the report for those dates can be exported for the importer or the buyer."
+          "question": "With a temperature data logger in King Abdulaziz Port Dammam, can a shipper see how its containers were held at the Dammam port?",
+          "answer": "A logger tucked into a consignment logs temperature and humidity while it waits in the yard, the shed, the train or the truck, and the report for those dates can be exported for the importer or the buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does humidity matter at a Gulf port as much as heat?",
@@ -5176,8 +5176,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "dammam-1st-industrial-city", name: "Dammam 1st Industrial City", citySlug: "dammam", areaType: "industrial-estate", nearbyIndustries: ["food-beverage","chemical","logistics-warehousing"], confirmedService: true, hero: ["nakshatra","veer"], page: {
-      "metaTitle": "Data Loggers in Dammam 1st Industrial City | Prithvi",
-      "metaDescription": "Dammam 1st Industrial City, Dammam: WiFi temperature and humidity loggers for plants, yards and warehouses. Get Solution: Dammam 1st Industrial City.",
+      "metaTitle": "Temperature Data Logger in Dammam 1st Industrial City",
+      "metaDescription": "Dammam 1st Industrial City, Dammam: WiFi temperature and humidity data loggers for plants, yards and warehouses. Get Solution: Dammam 1st Industrial City.",
       "intro": "Dammam 1st Industrial City is an established industrial estate of the Eastern Province, a district of factories, fabrication yards, suppliers and warehouses developed and managed by the state's industrial-cities authority. Plants there make food and drink, plastics and packaging, metal products and building materials, and many firms supply the oilfield and the industrial plants of the Gulf coast with parts, tools and consumables. Warehouses beside them send goods to the port and across the province. The Gulf air is hot and humid, and metal roofs hold the sun's heat. A temperature data logger here watches the ingredient stores, the chemical and consumables rooms and the finished-goods bays where stock waits for a truck.",
       "places": [
         {
@@ -5216,8 +5216,8 @@ export const areas: AreaDef[] = [
       "approach": "At a food plant we would start with the cold room that holds the most sensitive stock, placing one logger near the door and one at the back, and add a humidity-reading unit where fog or ice forms. At a chemical or consumables store one logger near the roof shows how hot the upper shelves run.",
       "faqs": [
         {
-          "question": "Why does a cold room on the Gulf coast fog and ice up near its door?",
-          "answer": "Humid air enters each time the door opens and freezes on cold coils and walls, so alerts for a door left open and a humidity reading beside the temperature show how much moisture each delivery brings in."
+          "question": "With a temperature data logger in Dammam 1st Industrial City, why does a cold room on the Gulf coast fog and ice up near its door?",
+          "answer": "Humid air enters each time the door opens and freezes on cold coils and walls, so alerts for a door left open and a humidity reading beside the temperature show how much moisture each delivery brings in.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Can a supplier give a client a record of its store?",
@@ -5230,8 +5230,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "jubail-industrial-city-1", name: "Jubail Industrial City 1", citySlug: "jubail", areaType: "industrial-estate", nearbyIndustries: ["chemical","logistics-warehousing","laboratories"], confirmedService: true, hero: ["rajmudra","virat-pro"], page: {
-      "metaTitle": "Data Loggers in Jubail Industrial City 1 | Prithvi",
-      "metaDescription": "Jubail Industrial City 1, Jubail: WiFi temperature and humidity loggers for petrochemical stores and laboratories. Get Solution: Jubail Industrial City 1.",
+      "metaTitle": "Temperature Data Logger in Jubail Industrial City 1, Jubail",
+      "metaDescription": "Jubail Industrial City 1: WiFi temperature and humidity data loggers for petrochemical stores and laboratories. Get Solution: Jubail Industrial City 1.",
       "intro": "Jubail Industrial City 1 is the original part of the Jubail industrial city, planned and managed by the Royal Commission for Jubail and Yanbu on the shore north of Dammam. Large petrochemical, fertiliser, steel and plastics plants stand on wide plots with their own utilities, and a commercial port and an industrial port serve them. Around the great plants lie service areas of warehouses, workshops, laboratories and suppliers that keep them running. The air is hot and humid with salt from the sea, and dust blows in from the desert. A temperature data logger here follows the chemical stores, the spare-parts warehouses and the laboratory rooms in which drums, bags, instruments and samples are held to stated limits.",
       "places": [
         {
@@ -5274,8 +5274,8 @@ export const areas: AreaDef[] = [
           "answer": "Each room is its own point on the dashboard with its own alert contacts, and access can be limited so each party sees only its own rooms while a manager sees the whole list."
         },
         {
-          "question": "Why does salty air matter for a chemical or spares store?",
-          "answer": "Salt-laden damp air attacks metal, labels and packaging, so a humidity reading beside the temperature shows when a store is taking on moisture even while the temperature looks acceptable."
+          "question": "With a temperature data logger in Jubail Industrial City 1, why does salty air matter for a chemical or spares store?",
+          "answer": "Salt-laden damp air attacks metal, labels and packaging, so a humidity reading beside the temperature shows when a store is taking on moisture even while the temperature looks acceptable.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         }
       ],
       "nearby": [
@@ -5284,8 +5284,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "jubail-industrial-city-2", name: "Jubail Industrial City 2", citySlug: "jubail", areaType: "industrial-estate", nearbyIndustries: ["chemical","logistics-warehousing","food-beverage"], confirmedService: true, hero: ["setu","nakshatra"], page: {
-      "metaTitle": "Data Loggers in Jubail Industrial City 2 | Prithvi",
-      "metaDescription": "Jubail Industrial City 2, Jubail: WiFi temperature and humidity loggers for downstream plants and warehouses. Get Solution: Jubail Industrial City 2.",
+      "metaTitle": "Temperature Data Logger in Jubail Industrial City 2, Jubail",
+      "metaDescription": "Jubail Industrial City 2, Jubail: WiFi temperature and humidity data loggers for downstream plants and warehouses. Get Solution: Jubail Industrial City 2.",
       "intro": "Jubail Industrial City 2 is a later extension of the Jubail industrial city, laid out alongside the first area to give more room for further plants, warehouses and services. Downstream and light industry, the makers of plastics, chemicals, packaging and metal goods that use the output of the large plants, find plots here, together with logistics yards and service buildings. Workers live in camps and housing and are fed from canteens and treated at clinics. The climate is hot and humid with salt in the air and blowing dust, and the long distances between plots mean that stores are spread out. A temperature data logger here watches the warehouses, the process-material stores and the canteen kitchens of a newer, more spread-out estate.",
       "places": [
         {
@@ -5324,8 +5324,8 @@ export const areas: AreaDef[] = [
       "approach": "In a camp kitchen we would begin with the main walk-in cooler and the freezer, placing a logger by the door and one at the back. In a plant warehouse we would put one logger near the roof and one near the floor in the bay with the most sensitive stock, and let the first weeks of data show where to add more.",
       "faqs": [
         {
-          "question": "Can a camp operator tell a client how its kitchen cold rooms performed?",
-          "answer": "A report for each cold room and any dates can be exported as PDF, Excel or CSV, giving the client a dated record of the room and not a handwritten sheet."
+          "question": "With a temperature data logger in Jubail Industrial City 2, can a camp operator tell a client how its kitchen cold rooms performed?",
+          "answer": "A report for each cold room and any dates can be exported as PDF, Excel or CSV, giving the client a dated record of the room and not a handwritten sheet.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "How are far-apart buildings on a wide estate watched on one dashboard?",
@@ -5339,8 +5339,8 @@ export const areas: AreaDef[] = [
     } },
   // ------------------------------------------------------------------ Saudi Arabia (batch 4: Yanbu)
   { slug: "yanbu-industrial-city", name: "Yanbu Industrial City", citySlug: "yanbu", areaType: "industrial-estate", nearbyIndustries: ["chemical","logistics-warehousing","laboratories"], confirmedService: true, hero: ["nakshatra","virat-pro"], page: {
-      "metaTitle": "Data Loggers in Yanbu Industrial City | Prithvi",
-      "metaDescription": "Yanbu Industrial City, Yanbu: WiFi loggers for plant stores, port warehouses and camp kitchens. Get Solution: request a plan for Yanbu Industrial City.",
+      "metaTitle": "Temperature Data Logger in Yanbu Industrial City, Yanbu",
+      "metaDescription": "Yanbu Industrial City: temperature data loggers for plant stores, port warehouses and camp kitchens. Get Solution for Yanbu Industrial City.",
       "intro": "Yanbu Industrial City is a planned industrial city on the Red Sea coast, developed and managed by the Royal Commission for Jubail and Yanbu, where refineries, petrochemical and downstream plants stand on wide plots beside a port and a set of shared utilities. Contractors and suppliers keep workshops and warehouses in service zones around the plants, and camps, canteens and clinics serve a large workforce. Heat and humidity are high through most of the year, salt blows in from the sea and fine dust from the desert. A temperature data logger here follows the chemical and drum stores, the spare-parts warehouses, the laboratories and the camp kitchens that keep the city running.",
       "places": [
         {
@@ -5379,8 +5379,8 @@ export const areas: AreaDef[] = [
       "approach": "At a plant store we would start with the room holding the most sensitive material, placing one logger near the door and one at the back, and add a humidity-reading unit where air is salty or damp. In a camp kitchen we would begin with the main walk-in cooler and the freezer, then add the dry store.",
       "faqs": [
         {
-          "question": "Can a contractor and its client each see only their own rooms?",
-          "answer": "Each room is its own point on the dashboard with its own alert contacts, and access can be limited so a contractor sees only its rooms while a manager sees the whole list."
+          "question": "With a temperature data logger in Yanbu Industrial City, can a contractor and its client each see only their own rooms?",
+          "answer": "Each room is its own point on the dashboard with its own alert contacts, and access can be limited so a contractor sees only its rooms while a manager sees the whole list.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does salty air matter for a spares or chemical store?",
@@ -5392,8 +5392,8 @@ export const areas: AreaDef[] = [
     } },
   // ------------------------------------------------------------------ Saudi Arabia (batch 5: Jazan)
   { slug: "jazan-economic-city", name: "Jazan Economic City", citySlug: "jazan", areaType: "industrial-estate", nearbyIndustries: ["chemical","logistics-warehousing","food-beverage"], confirmedService: true, hero: ["rajmudra","dhruva"], page: {
-      "metaTitle": "Data Loggers in Jazan Economic City | Prithvi",
-      "metaDescription": "Jazan Economic City, Jazan: WiFi temperature and humidity loggers for plant stores, port yards and camp kitchens. Use Get Solution for Jazan Economic City.",
+      "metaTitle": "Temperature Data Logger in Jazan Economic City, Jazan",
+      "metaDescription": "Jazan Economic City: WiFi temperature and humidity data loggers for plant stores, port yards and camp kitchens. Use Get Solution for Jazan Economic City.",
       "intro": "Jazan Economic City is a planned industrial and port city on the Red Sea coast north of the town of Jazan, with a stated purpose of drawing heavy and downstream industry, a port and supporting services to the south-west of the kingdom. A refinery and power complex and a port stand within it, with further industrial zones laid out for plants and warehouses, and contractor camps, canteens and clinics house and feed the workforce. The coast here is very hot and wet, with salt in the air. A temperature data logger on the site follows the chemical and drum stores, the spares warehouses and the camp kitchens of a young estate that is still taking shape.",
       "places": [
         {
@@ -5432,8 +5432,8 @@ export const areas: AreaDef[] = [
       "approach": "In a camp kitchen we would begin with the main walk-in cooler and the freezer, placing one logger by the door and one at the back, then add the dry store. In a plant warehouse a logger near the roof and one near the floor show how much hotter the upper racks run in the sweating humid air.",
       "faqs": [
         {
-          "question": "Why does a young estate near the sea still need humidity readings?",
-          "answer": "New buildings near a hot sea can carry damp from concrete and sea air, and a humidity trend shows whether a store is drying out or taking on moisture, which a temperature reading alone would miss."
+          "question": "With a temperature data logger in Jazan Economic City, why does a young estate near the sea still need humidity readings?",
+          "answer": "New buildings near a hot sea can carry damp from concrete and sea air, and a humidity trend shows whether a store is drying out or taking on moisture, which a temperature reading alone would miss.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Can contractors sharing one warehouse each see only their own bays?",
@@ -5445,8 +5445,8 @@ export const areas: AreaDef[] = [
     } },
   // ------------------------------------------------------------------ Yemen (batch 1: Aden)
   { slug: "port-of-aden", name: "Port of Aden", citySlug: "aden", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["virat","rajmudra"], page: {
-      "metaTitle": "Data Loggers at the Port of Aden, Yemen | Prithvi",
-      "metaDescription": "Port of Aden, Yemen: temperature and humidity loggers for yards, transit sheds and cold rooms, reviewed case by case. Get Solution to cover Port of Aden.",
+      "metaTitle": "Temperature Data Logger in Port of Aden, Aden | Prithvi",
+      "metaDescription": "Port of Aden: temperature and humidity data loggers for yards, transit sheds and cold rooms, reviewed case by case. Get Solution to cover Port of Aden.",
       "intro": "The Port of Aden lies in the sheltered natural harbour beside the old crater town on the Gulf of Aden, and for generations the harbour has been the reason the city exists: it has long stood on the sea route between Europe, Africa and Asia. A temperature data logger around a port area is concerned with goods during the waiting that follows any sea journey, when cargo stands on a quay, in a transit shed or in a yard before it moves on, in air that is hot, humid and salty. This page describes, in general terms, the kinds of rooms and handovers where a record helps. As with every Yemen enquiry, a request for a port site is reviewed case by case before any recommendation is made.",
       "places": [
         {
@@ -5485,8 +5485,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request were taken forward, we would begin with the shed or cold room that holds the most sensitive goods, placing one logger near the door and one at the back, and slip a logger into a chosen consignment to compare the yard with the shed. The first weeks of data would show which stage of the journey runs warmest.",
       "faqs": [
         {
-          "question": "Can a logger show how long goods stood in a port area before collection?",
-          "answer": "A logger placed inside a consignment records temperature and humidity through the wait in the yard, the shed and the vehicle, and the report for those dates can be exported for the owner or the buyer."
+          "question": "Can a temperature data logger in Port of Aden show how long goods stood in a port area before collection?",
+          "answer": "A logger placed inside a consignment records temperature and humidity through the wait in the yard, the shed and the vehicle, and the report for those dates can be exported for the owner or the buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does humidity matter at a harbour as much as heat?",
@@ -5499,8 +5499,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "aden-free-zone", name: "Aden Free Zone", citySlug: "aden", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["nakshatra","veer"], page: {
-      "metaTitle": "Data Loggers in the Aden Free Zone, Yemen | Prithvi",
-      "metaDescription": "Aden Free Zone, Yemen: temperature and humidity loggers for warehouses, packing halls and cold rooms, reviewed case by case. Get Solution: Aden Free Zone.",
+      "metaTitle": "Temperature Data Logger in Aden Free Zone, Aden | Prithvi",
+      "metaDescription": "Aden Free Zone: temperature and humidity data loggers for warehouses, packing halls and cold rooms, reviewed case by case. Get Solution: Aden Free Zone.",
       "intro": "The Aden Free Zone lies beside the harbour of Aden, and sites of this kind are usually places where goods are stored, packed and sent on. A free zone is built around warehouses, packing halls and yards, and what matters to a temperature data logger is the storage that goes with those buildings: large halls under metal roofs, cold rooms for food and medicine, and the long waits that goods make between arrival and onward movement. The air is hot, humid and salty for most of the year. This page describes those rooms in general terms, as a logger user would meet them. Requests from a free-zone site are, like all Yemen enquiries, looked at case by case before we suggest any logger.",
       "places": [
         {
@@ -5539,8 +5539,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the room holding the most sensitive goods, with a logger near the door and one at the back, then place one near the roof of the main hall to show how much hotter the top pallets run. The first weeks of data would show where a second point is worth adding.",
       "faqs": [
         {
-          "question": "How can a trader in a shared warehouse show an owner a record for its own pallets?",
-          "answer": "Each bay or room can be its own point on the dashboard with its own alert contacts, and a report for that point and period can be exported as PDF, Excel or CSV when the owner asks."
+          "question": "With a temperature data logger in Aden Free Zone, how can a trader in a shared warehouse show an owner a record for its own pallets?",
+          "answer": "Each bay or room can be its own point on the dashboard with its own alert contacts, and a report for that point and period can be exported as PDF, Excel or CSV when the owner asks.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does the top of a metal-roofed hall need its own logger?",
@@ -5553,8 +5553,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "sheikh-othman-industrial-area", name: "Sheikh Othman Industrial Area", citySlug: "aden", areaType: "industrial-estate", nearbyIndustries: ["food-beverage","logistics-warehousing","chemical"], confirmedService: true, hero: ["setu","dhruva"], page: {
-      "metaTitle": "Data Loggers in Sheikh Othman Industrial Area | Prithvi",
-      "metaDescription": "Sheikh Othman Industrial Area, Aden: loggers for workshops, stores and plants, reviewed case by case. Get Solution to cover Sheikh Othman Industrial Area.",
+      "metaTitle": "Temperature Data Logger in Sheikh Othman Industrial Area",
+      "metaDescription": "Sheikh Othman Industrial Area: temperature data loggers for workshops, stores and plants, reviewed case by case. Get Solution.",
       "intro": "Sheikh Othman is a large district on the plain to the north-west of Aden's older centre, with markets, clinics and neighbourhoods of small shops, and an industrial area of workshops, small plants and warehouses lies within it. Work of this kind generally includes food and drink preparation, packaging, light engineering and the stores that serve them, in buildings with metal roofs that hold the heat of the day. A temperature data logger in a district like this watches the ingredient and product stores of food makers, the chemical and consumables rooms of workshops, and the warehouses where goods wait for a customer. The page describes only the kinds of rooms and stock a logger user might look after in such a district. Whether a particular store in Sheikh Othman can be supported is decided case by case after we hear from you.",
       "places": [
         {
@@ -5593,8 +5593,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, at a food maker we would begin with the main chilled room, with a logger at the door and one at the back, and add a humidity-reading unit where fog or sweat shows. In a workshop store one logger near the roof would show how hot the upper shelves run.",
       "faqs": [
         {
-          "question": "Can a small food maker in Sheikh Othman use a single logger?",
-          "answer": "Yes. One logger with an alert to a phone is enough for a single chilled room, provided the room has a router within reach, and more points can be added to the same account later."
+          "question": "With a temperature data logger in Sheikh Othman Industrial Area, can a small food maker in Sheikh Othman use a single logger?",
+          "answer": "Yes. One logger with an alert to a phone is enough for a single chilled room, provided the room has a router within reach, and more points can be added to the same account later.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does a store need a battery in a district with uncertain power?",
@@ -5607,8 +5607,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "little-aden", name: "Little Aden", citySlug: "aden", areaType: "mixed-use", nearbyIndustries: ["food-beverage","chemical","logistics-warehousing"], confirmedService: true, hero: ["veer-pro","virat-pro"], page: {
-      "metaTitle": "Data Loggers in Little Aden, Yemen | Prithvi",
-      "metaDescription": "Little Aden, Yemen: temperature and humidity loggers for stores, fish landings and plant rooms, reviewed case by case. Get Solution to cover Little Aden.",
+      "metaTitle": "Temperature Data Logger in Little Aden, Aden | Prithvi",
+      "metaDescription": "Little Aden: temperature and humidity data loggers for stores, fish landings and plant rooms, reviewed case by case. Get Solution to cover Little Aden.",
       "intro": "Little Aden is a rocky peninsula on the western side of Aden's harbour, joined to the mainland by a narrow neck, with the coastal town of Buraiqa, beaches, fishing landings and an industrial history linked to oil: a refinery was built there in the 1950s. Today a temperature data logger on the peninsula is concerned with ordinary storage in a hot, salty setting: fish and ice stores along the shore, food and medicine in the shops and clinics of the town, and the stores of any plant or workshop that needs steady conditions. The page keeps to the kinds of rooms and stock a logger user might look after on such a peninsula. Little Aden enquiries follow the same case-by-case review as every other request from Yemen.",
       "places": [
         {
@@ -5647,8 +5647,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, at a fish store we would place one logger near the door and one at the back of the ice room, and add a humidity-reading unit where sweat appears. At a clinic we would begin with the vaccine refrigerator and a battery-backed alert.",
       "faqs": [
         {
-          "question": "Can a fishing business keep a record of its ice store?",
-          "answer": "Yes. A logger in the ice room or cold store records the whole chain from landing to sale, and a report for the dates of a lot can be exported as PDF, Excel or CSV for the buyer."
+          "question": "With a temperature data logger in Little Aden, can a fishing business keep a record of its ice store?",
+          "answer": "Yes. A logger in the ice room or cold store records the whole chain from landing to sale, and a report for the dates of a lot can be exported as PDF, Excel or CSV for the buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "How does salty air affect where a logger is fitted on the peninsula?",
@@ -5662,8 +5662,8 @@ export const areas: AreaDef[] = [
     } },
   // ------------------------------------------------------------------ Yemen (batch 2: Mukalla)
   { slug: "port-of-mukalla", name: "Port of Mukalla", citySlug: "mukalla", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["setu","virat-pro"], page: {
-      "metaTitle": "Data Loggers at the Port of Mukalla, Yemen | Prithvi",
-      "metaDescription": "Port of Mukalla, Yemen: data loggers for fish landings, ice stores and quayside sheds, reviewed case by case. Get Solution to start in Port of Mukalla.",
+      "metaTitle": "Temperature Data Logger in Port of Mukalla, Mukalla",
+      "metaDescription": "Port of Mukalla: temperature data loggers for fish landings, ice stores and quayside sheds, reviewed case by case. Get Solution for Port of Mukalla.",
       "intro": "The Port of Mukalla lies on the curved bay of Mukalla on the Gulf of Aden, where wooden boats have long landed fish and sailing dhows once carried goods along the trading routes of the Indian Ocean, and the harbour is the reason for the old town's waterfront. A temperature data logger around a harbour like this is concerned with the waiting that follows a sea journey or a landing: fish in ice, goods on a quay or in a shed, and food and medicines stood in vehicles before they move on, in air that is hot, humid and salty. The page keeps to the kinds of goods and rooms a logger user would be concerned with, described in general terms. Whether a particular store could be supported is decided case by case after we hear from you.",
       "places": [
         {
@@ -5702,8 +5702,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the ice room or cold store that holds the most perishable goods, placing one logger near the door and one at the back, then add a humidity-reading unit where sweat or fog forms. The first weeks of data would show which landing days drift most.",
       "faqs": [
         {
-          "question": "Can a fish business keep a record of its ice room from landing to sale?",
-          "answer": "Yes. Loggers placed in the ice room and again in the cold store keep a continuous log from landing onward, and the report covering one lot can be handed to the buyer as a PDF, Excel or CSV file."
+          "question": "With a temperature data logger in Port of Mukalla, can a fish business keep a record of its ice room from landing to sale?",
+          "answer": "Yes. Loggers placed in the ice room and again in the cold store keep a continuous log from landing onward, and the report covering one lot can be handed to the buyer as a PDF, Excel or CSV file.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Is humidity as important as heat in a harbour town?",
@@ -5715,8 +5715,8 @@ export const areas: AreaDef[] = [
     } },
   // ------------------------------------------------------------------ Yemen (batch 3: Sana'a)
   { slug: "sanaa-industrial-area", name: "Sana'a Industrial Area", citySlug: "sanaa", areaType: "industrial-estate", nearbyIndustries: ["food-beverage","logistics-warehousing","chemical"], confirmedService: true, hero: ["virat","setu"], page: {
-      "metaTitle": "Data Loggers in Sana'a Industrial Area | Prithvi",
-      "metaDescription": "Sana'a Industrial Area, Yemen: data loggers for factories, workshops and warehouses, reviewed case by case. Get Solution: Sana'a Industrial Area.",
+      "metaTitle": "Temperature Data Logger in Sana'a Industrial Area, Sana'a",
+      "metaDescription": "Sana'a Industrial Area: temperature data loggers for factories, workshops and warehouses, reviewed case by case. Get Solution: Sana'a Industrial Area.",
       "intro": "The Sana'a Industrial Area lies on the edge of the highland city, where small factories, workshops and warehouses stand in rows on flat ground along main roads. A temperature data logger in a district like this is concerned with the ordinary risks of making and storing goods: a drinks or dairy plant whose cold room must hold its range, a plastics or packaging unit with a heated store, and a warehouse where stock waits for lorries through cold nights and sunny afternoons. The page describes only the ordinary kinds of rooms and stock found in an estate of this sort. Whether a particular site could be supported is decided case by case after we hear from you.",
       "places": [
         {
@@ -5755,8 +5755,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the chilled room or store holding the most sensitive stock, placing one logger by the door and one at the back, and add a humidity-reading unit where a plant makes steam or washes down floors. A few weeks of data would show whether the cold mornings or the warm afternoons strain the room.",
       "faqs": [
         {
-          "question": "Can a small factory in the Sana'a Industrial Area keep a record of its cold room?",
-          "answer": "Yes. A logger in the cold room records day and night, and a report covering the dates of a batch can be exported in PDF, Excel or CSV form for a customer."
+          "question": "With a temperature data logger in Sana'a Industrial Area, can a small factory in the Sana'a Industrial Area keep a record of its cold room?",
+          "answer": "Yes. A logger in the cold room records day and night, and a report covering the dates of a batch can be exported in PDF, Excel or CSV form for a customer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Do cold nights matter for warehouse stock in a highland city?",
@@ -5769,8 +5769,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "sanaa-international-airport", name: "Sana'a International Airport", citySlug: "sanaa", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","pharmaceutical","food-beverage"], confirmedService: true, hero: ["virat-pro","dhruva"], page: {
-      "metaTitle": "Data Loggers at Sana'a International Airport | Prithvi",
-      "metaDescription": "Sana'a International Airport, Yemen: data loggers for sheds, cold rooms and vehicles, reviewed case by case. Get Solution: Sana'a International Airport.",
+      "metaTitle": "Temperature Data Logger in Sana'a International Airport",
+      "metaDescription": "Sana'a International Airport: temperature data loggers for sheds, cold rooms and vehicles, reviewed case by case. Get Solution.",
       "intro": "Sana'a International Airport lies north of the city on the high plateau, and the ground around an airport like this is a place of waiting: medicines, vaccines, food and parcels that leave an aircraft, stand in a shed or a vehicle and move on. A temperature data logger in that chain records what the goods met on the apron, in the cargo shed and in the van. The page keeps to the general kinds of goods and rooms a logger user might look after around an airport. Whether a given consignment or store could be supported is decided case by case after we hear from you.",
       "places": [
         {
@@ -5809,8 +5809,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the consignment or room that is hardest to replace, placing a logger in the load or at the door and a second one at the far wall, then add a unit that reads humidity where cold goods meet warm air. The first weeks of data would show how long goods really wait between steps.",
       "faqs": [
         {
-          "question": "Can a logger travel inside a medicine consignment through an airport chain?",
-          "answer": "Yes. A small logger packed with the goods records the whole journey and the report can be exported in PDF, Excel or CSV form for the receiver, whatever route the consignment took."
+          "question": "Can a temperature data logger in Sana'a International Airport travel inside a medicine consignment through an airport chain?",
+          "answer": "Yes. A small logger packed with the goods records the whole journey and the report can be exported in PDF, Excel or CSV form for the receiver, whatever route the consignment took.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does a highland airport matter for temperature records?",
@@ -5824,8 +5824,8 @@ export const areas: AreaDef[] = [
     } },
   // ------------------------------------------------------------------ Yemen (batch 4: Taiz, Hodeidah)
   { slug: "port-of-hodeidah", name: "Port of Hodeidah", citySlug: "hodeidah", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["veer-pro","rajmudra"], page: {
-      "metaTitle": "Data Loggers at the Port of Hodeidah | Prithvi",
-      "metaDescription": "Port of Hodeidah, Yemen: data loggers for sheds, cold rooms and vehicles on the Red Sea, reviewed case by case. Use Get Solution to plan Port of Hodeidah.",
+      "metaTitle": "Temperature Data Logger in Port of Hodeidah, Hodeidah",
+      "metaDescription": "Port of Hodeidah: temperature data loggers for sheds, cold rooms and vehicles on the Red Sea, reviewed case by case. Get Solution for Port of Hodeidah.",
       "intro": "The Port of Hodeidah is the harbour of the Red Sea city of the same name, set on the flat Tihama coast where the air is hot and heavy with moisture, and the ground around a harbour like this is a place of waiting: food, medicines and general goods that leave a ship, stand on a quay or in a shed, and move on by lorry. A temperature data logger in that chain records what the goods met on the way. The page describes only the kinds of goods and rooms that matter to someone placing a logger in a harbour area. Whether a particular store or consignment could be supported is decided case by case after we hear from you.",
       "places": [
         {
@@ -5864,8 +5864,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the consignment or cold room that is hardest to replace, placing one logger in the load or by the door and another at the far wall, then add a humidity-reading unit where cold goods meet warm, damp air. A few weeks of data would show how long goods really wait between steps.",
       "faqs": [
         {
-          "question": "Can a logger travel inside a food consignment through a Red Sea harbour?",
-          "answer": "Yes. A small logger packed with the goods records the whole journey, and the report can be exported in PDF, Excel or CSV form for the receiver."
+          "question": "Can a temperature data logger in Port of Hodeidah travel inside a food consignment through a Red Sea harbour?",
+          "answer": "Yes. A small logger packed with the goods records the whole journey, and the report can be exported in PDF, Excel or CSV form for the receiver.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why do sheds beside a Tihama harbour need humidity records?",
@@ -5878,8 +5878,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "port-of-salif", name: "Port of Salif", citySlug: "hodeidah", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["dhruva","nakshatra"], page: {
-      "metaTitle": "Data Loggers at the Port of Salif, Yemen | Prithvi",
-      "metaDescription": "Port of Salif, Yemen: data loggers for storage near the port and its salt works on the Red Sea coast, reviewed case by case. Get Solution: Port of Salif.",
+      "metaTitle": "Temperature Data Logger in Port of Salif, Hodeidah | Prithvi",
+      "metaDescription": "Port of Salif: temperature data loggers for storage near the port and its salt works on the Red Sea coast, reviewed case by case. Get Solution.",
       "intro": "Salif lies on a low peninsula of the Red Sea coast north of Hodeidah, a place long associated with salt that is worked from the shore, and the port there stands on a flat, hot and exposed stretch of coast. A temperature data logger around a harbour like this is concerned with what waits there: bulk bags and sacks on a quay, general goods in a shed, and food or medicines stood in a vehicle before they move on, in air that is salty and very warm. The page describes only the sort of goods and rooms a logger user might look after on an exposed shore. Whether a store near Salif could be supported is decided case by case once we hear from you.",
       "places": [
         {
@@ -5918,8 +5918,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the store that holds the most moisture-sensitive goods, placing one logger beside the door and one at the back, and add a humidity-reading unit where bags touch the damp floor. The first weeks of data would show which days and hours push the shed outside its range.",
       "faqs": [
         {
-          "question": "Can bagged goods near the Red Sea shore be watched for damp?",
-          "answer": "Yes. A logger that reads humidity beside temperature records the moisture in the shed through the day and night, and the report can be exported in PDF, Excel or CSV form for the owner."
+          "question": "With a temperature data logger in Port of Salif, can bagged goods near the Red Sea shore be watched for damp?",
+          "answer": "Yes. A logger that reads humidity beside temperature records the moisture in the shed through the day and night, and the report can be exported in PDF, Excel or CSV form for the owner.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Is a logger usable where mains power is limited?",
@@ -5932,8 +5932,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "port-of-mocha", name: "Port of Mocha", citySlug: "mocha", areaType: "warehousing-hub", nearbyIndustries: ["food-beverage","logistics-warehousing","pharmaceutical"], confirmedService: true, hero: ["setu","veer"], page: {
-      "metaTitle": "Data Loggers at the Port of Mocha, Yemen | Prithvi",
-      "metaDescription": "Port of Mocha, Yemen: data loggers for fish, coffee and goods stores on the Red Sea, reviewed case by case. Get Solution: request a plan for Port of Mocha.",
+      "metaTitle": "Temperature Data Logger in Port of Mocha, Mocha | Prithvi",
+      "metaDescription": "Port of Mocha: temperature data loggers for fish, coffee and goods stores on the Red Sea, reviewed case by case. Get Solution for Port of Mocha.",
       "intro": "The Port of Mocha is the small harbour of a Red Sea town whose name became a word for coffee, because the beans of the Yemeni mountains once left from this shore for markets across the world. A temperature data logger around a harbour like this is concerned with the waiting that follows a landing or a voyage: fish in ice, dry goods in a shed and food or medicines standing in a vehicle in air that is hot, damp and salty. What follows stays with the general kinds of goods and rooms a logger user might look after. Whether a store at Mocha could be supported is decided case by case once we have your details.",
       "places": [
         {
@@ -5972,8 +5972,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the ice box or store holding the most perishable goods, placing one logger near the door and one at the back, then add a humidity-reading unit where salty damp collects. Early readings would show which hours of the day strain the room.",
       "faqs": [
         {
-          "question": "Can a fish seller at Mocha keep a record of an ice box?",
-          "answer": "Yes. A probe logger in the box records through the day and night, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for a buyer."
+          "question": "With a temperature data logger in Port of Mocha, can a fish seller at Mocha keep a record of an ice box?",
+          "answer": "Yes. A probe logger in the box records through the day and night, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for a buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does salty damp matter for stored dry goods?",
@@ -5985,8 +5985,8 @@ export const areas: AreaDef[] = [
     } },
   // ------------------------------------------------------------------ UAE (batch 1: Abu Dhabi)
   { slug: "mussafah", name: "Mussafah", citySlug: "abu-dhabi", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","food-beverage","chemical"], confirmedService: true, hero: ["virat","dhruva"], page: {
-      "metaTitle": "Data Loggers in Mussafah, Abu Dhabi | Prithvi",
-      "metaDescription": "Mussafah, Abu Dhabi: data loggers for workshops, yards, warehouses and light factories, built for the Gulf's heat. Get Solution to cover Mussafah.",
+      "metaTitle": "Temperature Data Logger in Mussafah, Abu Dhabi | Prithvi",
+      "metaDescription": "Mussafah: temperature data loggers for workshops, yards, warehouses and light factories, built for the Gulf's heat. Get Solution to cover Mussafah.",
       "intro": "Mussafah is an industrial district on the mainland across the water from Abu Dhabi island, a flat grid of workshops, vehicle and equipment yards, marine and fabrication works, warehouses and light factories. A temperature data logger in a district like this is concerned with the ordinary risks of making and storing goods in extreme summer heat: food and packaging stores, a chemical shed whose labels name a maximum temperature, and warehouses where stock waits under metal roofs. Here the page keeps to the goods and rooms that someone looking after loggers in Mussafah might meet. Enquiries about Mussafah are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6025,8 +6025,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the chilled room or store holding the most sensitive stock, placing one logger by the door and one at the back, then add a humidity-reading unit where a unit washes down floors or makes steam. A few weeks of readings in summer would show which hours of the day strain the room.",
       "faqs": [
         {
-          "question": "Can a small Mussafah factory keep a record of its cold room?",
-          "answer": "Yes. A logger in the cold room records day and night, and a report for the dates of a batch can be exported in PDF, Excel or CSV form for a customer."
+          "question": "With a temperature data logger in Mussafah, can a small Mussafah factory keep a record of its cold room?",
+          "answer": "Yes. A logger in the cold room records day and night, and a report for the dates of a batch can be exported in PDF, Excel or CSV form for a customer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Does heat inside a metal shed really exceed the air outside?",
@@ -6039,8 +6039,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "icad", name: "ICAD", citySlug: "abu-dhabi", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","food-beverage","chemical"], confirmedService: true, hero: ["nakshatra","setu"], page: {
-      "metaTitle": "Data Loggers in ICAD, Abu Dhabi | Prithvi",
-      "metaDescription": "ICAD, Abu Dhabi: data loggers for factory plots, stores and distribution sheds in the Industrial City of Abu Dhabi. Get Solution to begin in ICAD.",
+      "metaTitle": "Temperature Data Logger in ICAD, Abu Dhabi | Prithvi",
+      "metaDescription": "ICAD: temperature data loggers for factory plots, stores and distribution sheds in the Industrial City of Abu Dhabi. Get Solution to begin in ICAD.",
       "intro": "ICAD, the Industrial City of Abu Dhabi, is a planned industrial city in the Mussafah area on the mainland, laid out in regular plots and roads for factories, stores and distribution. A temperature data logger in a planned industrial city is concerned with whatever its plots happen to hold: food and packaging stock, materials that have a labelled limit, or finished goods waiting in a store under a metal roof in summer heat. What follows is limited to the stock and rooms a logger user could look after on an ICAD plot. Enquiries about ICAD are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6079,8 +6079,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the store holding the most heat-sensitive stock, placing one logger near the door and one at the back, then add a unit reading humidity where cold air meets warm. The first summer weeks would show which hours of the day push the hall outside its range.",
       "faqs": [
         {
-          "question": "Can a plot holder in a planned industrial city monitor several rooms?",
-          "answer": "Yes. Several loggers, each in its own room, report to one dashboard, and a combined report for any period can be exported in PDF, Excel or CSV form."
+          "question": "With a temperature data logger in ICAD, can a plot holder in a planned industrial city monitor several rooms?",
+          "answer": "Yes. Several loggers, each in its own room, report to one dashboard, and a combined report for any period can be exported in PDF, Excel or CSV form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why record humidity as well as temperature in a desert country?",
@@ -6093,8 +6093,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "kizad", name: "KIZAD", citySlug: "abu-dhabi", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["rajmudra","veer"], page: {
-      "metaTitle": "Data Loggers in KIZAD, Abu Dhabi | Prithvi",
-      "metaDescription": "KIZAD, Abu Dhabi: data loggers for factories, stores and cold rooms in the Khalifa Industrial Zone, built for Gulf summers. Get Solution to begin in KIZAD.",
+      "metaTitle": "Temperature Data Logger in KIZAD, Abu Dhabi | Prithvi",
+      "metaDescription": "KIZAD: temperature data loggers for factories, stores and cold rooms in the Khalifa Industrial Zone, built for Gulf summers. Get Solution for KIZAD.",
       "intro": "KIZAD, the Khalifa Industrial Zone Abu Dhabi, is a large planned industrial zone on the Gulf coast between Abu Dhabi and Dubai, beside Khalifa Port, laid out with wide roads and big plots for factories and storage. A temperature data logger in a zone of this scale is concerned with large halls and long supply chains: raw materials waiting for production, finished goods waiting for collection, and chilled stock on the move to and from the coast. The page stays with the goods and halls that a logger user might look after in a zone of this size. Enquiries about KIZAD are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6133,8 +6133,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the hall or cold room holding the most sensitive stock, using a multi-point unit along its length and a probe logger at the door, then add humidity reading where cold air meets the warm outside. A month of summer readings would show where the hall runs hottest.",
       "faqs": [
         {
-          "question": "Can one report cover a very long hall?",
-          "answer": "Yes. A multi-channel logger reads several probes along the hall, so one report shows which stretch of the building runs warmest and when."
+          "question": "With a temperature data logger in KIZAD, can one report cover a very long hall?",
+          "answer": "Yes. A multi-channel logger reads several probes along the hall, so one report shows which stretch of the building runs warmest and when.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Do chilled halls on the Gulf coast need humidity readings?",
@@ -6147,8 +6147,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "khalifa-port", name: "Khalifa Port", citySlug: "abu-dhabi", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["virat-pro","setu"], page: {
-      "metaTitle": "Data Loggers at Khalifa Port, Abu Dhabi | Prithvi",
-      "metaDescription": "Khalifa Port, Abu Dhabi: data loggers for reefer containers, cold rooms and sheds on the Abu Dhabi coast. Get Solution to begin in Khalifa Port.",
+      "metaTitle": "Temperature Data Logger in Khalifa Port, Abu Dhabi | Prithvi",
+      "metaDescription": "Khalifa Port: temperature data loggers for reefer containers, cold rooms and sheds on the Abu Dhabi coast. Get Solution to begin in Khalifa Port.",
       "intro": "Khalifa Port is a deep-water container port on the Gulf coast at Taweelah, between Abu Dhabi and Dubai. A temperature data logger around a container port serves the waiting that surrounds a sea voyage: boxes lifted from a stack, goods held in a shed or a cold room, and vehicles loading for the road in air that is hot, humid and salty. This page is confined to the kinds of goods and rooms a logger user may look after around a container port. Enquiries about Khalifa Port are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6187,8 +6187,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the consignment or cold room that is hardest to replace, placing one logger in the load or at the door and another at the far wall, then add a humidity-reading unit where cold goods meet warm, damp air. The first weeks of readings would show how long goods stand between one step and the next.",
       "faqs": [
         {
-          "question": "Can a small logger ride inside a reefer or a carton through a container chain?",
-          "answer": "Yes. A logger packed with the goods records the whole trip, and the report can be exported in PDF, Excel or CSV form for the receiver."
+          "question": "With a temperature data logger in Khalifa Port, can a small logger ride inside a reefer or a carton through a container chain?",
+          "answer": "Yes. A logger packed with the goods records the whole trip, and the report can be exported in PDF, Excel or CSV form for the receiver.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does stacked cargo in the open matter for temperature records?",
@@ -6201,8 +6201,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "ghantoot", name: "Ghantoot", citySlug: "abu-dhabi", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","food-beverage","chemical"], confirmedService: true, hero: ["veer-pro","nakshatra"], page: {
-      "metaTitle": "Data Loggers in Ghantoot, Abu Dhabi | Prithvi",
-      "metaDescription": "Ghantoot, Abu Dhabi: data loggers for port-side and industrial storage and resort kitchens on the coast. Get Solution to begin in Ghantoot.",
+      "metaTitle": "Temperature Data Logger in Ghantoot, Abu Dhabi | Prithvi",
+      "metaDescription": "Ghantoot, Abu Dhabi: temperature data loggers for port-side and industrial storage and resort kitchens on the coast. Get Solution to begin in Ghantoot.",
       "intro": "Ghantoot is a coastal area on the road between Abu Dhabi and Dubai, a stretch of shoreline where port-side and industrial sites sit near seaside leisure facilities. A temperature data logger in a mixed area like this is concerned with two kinds of rooms: stores for materials and goods kept near the water, and the kitchens, stores and coolers that serve visitors. Both face salt air, strong sun and very hot summers. The text that follows deals only with the stores and kitchens a logger user could look after along this coast. Enquiries about Ghantoot are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6241,8 +6241,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the cooler or store holding the most perishable stock, placing one logger by the door and one at the back, then add a unit reading humidity where sea air has entered. Early summer readings would show which hours strain the room.",
       "faqs": [
         {
-          "question": "Can a seaside kitchen keep a temperature record for each cooler?",
-          "answer": "Yes. A logger in each cooler or freezer records through the day and night, and a report for any period can be exported in PDF, Excel or CSV form."
+          "question": "With a temperature data logger in Ghantoot, can a seaside kitchen keep a temperature record for each cooler?",
+          "answer": "Yes. A logger in each cooler or freezer records through the day and night, and a report for any period can be exported in PDF, Excel or CSV form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does salty air matter for stored goods near the shore?",
@@ -6256,8 +6256,8 @@ export const areas: AreaDef[] = [
     } },
   // ------------------------------------------------------------------ UAE (batch 2: Al Ain, Ruwais)
   { slug: "al-ain-industrial-area", name: "Al Ain Industrial Area", citySlug: "al-ain", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","food-beverage","electronics"], confirmedService: true, hero: ["virat","nakshatra"], page: {
-      "metaTitle": "Data Loggers in Al Ain Industrial Area | Prithvi",
-      "metaDescription": "Al Ain Industrial Area, UAE: data loggers for workshops, vehicle yards, warehouses and small factories. Get Solution to begin in Al Ain Industrial Area.",
+      "metaTitle": "Temperature Data Logger in Al Ain Industrial Area, Al Ain",
+      "metaDescription": "Al Ain Industrial Area: temperature data loggers for workshops, vehicle yards, warehouses and small factories. Get Solution for Al Ain Industrial Area.",
       "intro": "The Al Ain Industrial Area lies on the edge of the oasis city, where workshops, vehicle and tyre yards, warehouses and small factories stand in rows along wide roads. A temperature data logger in a district like this is concerned with the ordinary risks of making, repairing and storing goods in dry desert heat: food and drink stock, spare parts and batteries, and building materials waiting under metal roofs. This page is limited to the stock and rooms that a logger user could look after in such a district. Enquiries about the Al Ain Industrial Area are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6296,8 +6296,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the room holding the most heat-sensitive stock, placing one logger by the door and one at the back, then add a unit reading humidity where dust or washing-down changes the air. The first summer weeks would show which hours of the day strain the room.",
       "faqs": [
         {
-          "question": "Can a small Al Ain workshop or store keep a temperature record?",
-          "answer": "Yes. A logger in the store records day and night, and a report for any period can be exported in PDF, Excel or CSV form."
+          "question": "With a temperature data logger in Al Ain Industrial Area, can a small Al Ain workshop or store keep a temperature record?",
+          "answer": "Yes. A logger in the store records day and night, and a report for any period can be exported in PDF, Excel or CSV form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Does dust affect a logger in a desert industrial area?",
@@ -6308,8 +6308,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "ruwais-industrial-complex", name: "Ruwais Industrial Complex", citySlug: "ruwais", areaType: "industrial-estate", nearbyIndustries: ["chemical","laboratories","logistics-warehousing"], confirmedService: true, hero: ["dhruva","rajmudra"], page: {
-      "metaTitle": "Data Loggers at Ruwais Industrial Complex | Prithvi",
-      "metaDescription": "Ruwais Industrial Complex, UAE: data loggers for laboratories, chemical stores and workshops in humid coastal air. Get Solution: Ruwais Industrial Complex.",
+      "metaTitle": "Temperature Data Logger in Ruwais Industrial Complex, Ruwais",
+      "metaDescription": "Ruwais Industrial Complex: temperature data loggers for laboratories, chemical stores and workshops in humid coastal air. Get Solution.",
       "intro": "The Ruwais Industrial Complex stands beside the Gulf coast of the Al Dhafra region and is built around refining and petrochemical works, with supporting laboratories, stores, workshops and contractors' yards. A temperature data logger around a complex of this kind is concerned with what its support buildings hold: laboratory samples, chemicals and lubricants with labelled limits, spare parts and food for working communities, all kept in air that is extremely hot, humid and salty. The page is confined to the kinds of goods and rooms that a logger user could look after at a large coastal complex. Enquiries about the Ruwais Industrial Complex are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6348,8 +6348,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the laboratory refrigerator or chemical store holding the most sensitive materials, placing one logger near the door and one at the back, and add a humidity-reading unit where sea air enters. Early summer readings would show which hours push a room outside its range.",
       "faqs": [
         {
-          "question": "Can a laboratory at an industrial complex show that a refrigerator held its range?",
-          "answer": "Yes. A logger records temperature continuously and a dated report can be exported in PDF, Excel or CSV form for an audit or a customer."
+          "question": "With a temperature data logger in Ruwais Industrial Complex, can a laboratory at an industrial complex show that a refrigerator held its range?",
+          "answer": "Yes. A logger records temperature continuously and a dated report can be exported in PDF, Excel or CSV form for an audit or a customer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does salty sea air matter for stored materials?",
@@ -6361,8 +6361,8 @@ export const areas: AreaDef[] = [
     } },
   // ------------------------------------------------------------------ UAE (batch 3: Dubai)
   { slug: "jebel-ali", name: "Jebel Ali", citySlug: "dubai", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["virat","dhruva"], page: {
-      "metaTitle": "Data Loggers in Jebel Ali (JAFZA), Dubai | Prithvi",
-      "metaDescription": "Jebel Ali, Dubai: data loggers for warehouses, cold stores and yards in the port and JAFZA free-zone district. Get Solution to start in Jebel Ali.",
+      "metaTitle": "Temperature Data Logger in Jebel Ali, Dubai | Prithvi",
+      "metaDescription": "Jebel Ali: temperature data loggers for warehouses, cold stores and yards in the port and JAFZA free-zone district. Get Solution to start in Jebel Ali.",
       "intro": "Jebel Ali is the port and free-zone district on the south-western coast of Dubai, where JAFZA, the Jebel Ali Free Zone, spreads across a flat grid of warehouses, cold stores, factories and logistics yards beside a deep-water harbour. A temperature data logger in a district like this is concerned with the waiting that surrounds a sea journey: containers lifted from a stack, goods held in a warehouse or a cold room, and vehicles loading for the road in air that is hot, humid and salty. This page is confined to the kinds of goods and rooms a logger user may look after in a port and free-zone district. Enquiries about Jebel Ali are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6405,8 +6405,8 @@ export const areas: AreaDef[] = [
           "answer": "Yes. A multi-channel logger reads several probes along the hall, so one report shows which stretch of the building runs warmest and at what time of day."
         },
         {
-          "question": "Can a logger ride inside a carton through a container chain?",
-          "answer": "Yes. A small logger tucked in among the cartons keeps a record of the whole trip, and the report can be exported as a PDF, Excel or CSV file for the receiver."
+          "question": "Can a temperature data logger in Jebel Ali ride inside a carton through a container chain?",
+          "answer": "Yes. A small logger tucked in among the cartons keeps a record of the whole trip, and the report can be exported as a PDF, Excel or CSV file for the receiver.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         }
       ],
       "nearby": [
@@ -6415,8 +6415,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "dubai-investments-park", name: "Dubai Investments Park", citySlug: "dubai", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["nakshatra","veer"], page: {
-      "metaTitle": "Data Loggers in Dubai Investments Park | Prithvi",
-      "metaDescription": "Dubai Investments Park, Dubai: data loggers for factories, warehouses, clinics and kitchens in a planned mixed park. Get Solution: Dubai Investments Park.",
+      "metaTitle": "Temperature Data Logger in Dubai Investments Park, Dubai",
+      "metaDescription": "Dubai Investments Park: temperature data loggers for factories, warehouses, clinics and kitchens in a planned mixed park. Get Solution.",
       "intro": "Dubai Investments Park is a planned park in the south-west of the emirate where factories, warehouses, showrooms, clinics, schools and homes share one grid of roads. A temperature data logger in a mixed park is concerned with two kinds of rooms: the stores and halls of its industrial plots, and the kitchens, clinics and shops that serve the people who live and work there. Both face long, hot summers. This page is limited to the kinds of goods and rooms a logger user could look after in a mixed park of this sort. Enquiries about Dubai Investments Park are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6455,8 +6455,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the room holding the most sensitive stock, placing one logger by the door and one at the back, then add a unit reading humidity where doors let in the outside air. Readings through the first weeks of summer would show when the room is under most strain.",
       "faqs": [
         {
-          "question": "Can a business in a mixed park watch several rooms from one login?",
-          "answer": "Yes. Each room is a point on the same dashboard, alerts go to the people responsible for it, and a combined report for any period can be exported."
+          "question": "With a temperature data logger in Dubai Investments Park, can a business in a mixed park watch several rooms from one login?",
+          "answer": "Yes. Each room is a point on the same dashboard, alerts go to the people responsible for it, and a combined report for any period can be exported.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does the hottest hall in a factory matter?",
@@ -6469,8 +6469,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "al-quoz-industrial-area", name: "Al Quoz Industrial Area", citySlug: "dubai", areaType: "industrial-estate", nearbyIndustries: ["food-beverage","logistics-warehousing","chemical"], confirmedService: true, hero: ["rajmudra","setu"], page: {
-      "metaTitle": "Data Loggers in Al Quoz Industrial Area, Dubai | Prithvi",
-      "metaDescription": "Al Quoz Industrial Area, Dubai: data loggers for workshops, food suppliers and warehouses through summer heat. Get Solution: Al Quoz Industrial Area.",
+      "metaTitle": "Temperature Data Logger in Al Quoz Industrial Area, Dubai",
+      "metaDescription": "Al Quoz Industrial Area: temperature data loggers for workshops, food suppliers and warehouses through summer heat. Get Solution: Al Quoz Industrial Area.",
       "intro": "Al Quoz is an inland district of Dubai where industrial blocks of workshops, showrooms and mid-sized warehouses sit close to the city's shops and kitchens, and the Al Quoz Industrial Area is its working heart. A temperature data logger in a district like this is concerned with stock that must stay in range between a supplier and a customer: chilled food, building products, chemicals and spare parts, held in units under metal roofs. What follows deals only with the stock and rooms that a logger user in Al Quoz might look after. Enquiries about Al Quoz are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6509,8 +6509,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the chilled unit or store holding the most sensitive stock, placing one logger by the door and one at the back, then add a humidity-reading unit where a unit washes down floors. A few weeks of summer readings would show which hours of the day strain the room.",
       "faqs": [
         {
-          "question": "Can a small Al Quoz food supplier keep a record of its chilled room?",
-          "answer": "Yes. A logger in the room records day and night, and a report for the dates of a batch can be exported in PDF, Excel or CSV form for a customer."
+          "question": "With a temperature data logger in Al Quoz Industrial Area, can a small Al Quoz food supplier keep a record of its chilled room?",
+          "answer": "Yes. A logger in the room records day and night, and a report for the dates of a batch can be exported in PDF, Excel or CSV form for a customer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Do metal-roofed units really run hotter than the air outside?",
@@ -6523,8 +6523,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "ras-al-khor-industrial-area", name: "Ras Al Khor Industrial Area", citySlug: "dubai", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","electronics","chemical"], confirmedService: true, hero: ["virat-pro","nakshatra"], page: {
-      "metaTitle": "Data Loggers in Ras Al Khor Industrial Area | Prithvi",
-      "metaDescription": "Ras Al Khor Industrial Area, Dubai: data loggers for workshops, spare-parts shops, light industry, warehouses. Get Solution: Ras Al Khor Industrial Area.",
+      "metaTitle": "Temperature Data Logger in Ras Al Khor Industrial Area",
+      "metaDescription": "Ras Al Khor Industrial Area: temperature data loggers for workshops, spare-parts shops, light industry, warehouses. Get Solution.",
       "intro": "Ras Al Khor lies at the head of Dubai's creek, where the water narrows into mudflats and wetlands, and the Ras Al Khor Industrial Area beside it is a grid of workshops, spare-parts shops, light industry and warehouses. A temperature data logger in a district like this is concerned with stock that suffers in heat and humidity: electronic parts, batteries, lubricants and chemicals, held in units beside a body of water. The text stays with the kinds of stock and rooms that a logger user near the creek might look after. Enquiries about Ras Al Khor are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6563,8 +6563,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the stock room holding the most heat- and damp-sensitive parts, placing one logger by the door and one at the back, then add a unit reading humidity. A few weeks of readings would show how often a damp night follows a hot day.",
       "faqs": [
         {
-          "question": "Can an electronics stockist near the creek keep a humidity record?",
-          "answer": "Yes. A logger that reads humidity beside temperature records the stock room through the day and night, and the report can be exported in PDF, Excel or CSV form."
+          "question": "With a temperature data logger in Ras Al Khor Industrial Area, can an electronics stockist near the creek keep a humidity record?",
+          "answer": "Yes. A logger that reads humidity beside temperature records the stock room through the day and night, and the report can be exported in PDF, Excel or CSV form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does being close to water matter for stored parts?",
@@ -6577,8 +6577,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "al-qusais-industrial-area", name: "Al Qusais Industrial Area", citySlug: "dubai", areaType: "industrial-estate", nearbyIndustries: ["food-beverage","logistics-warehousing","chemical"], confirmedService: true, hero: ["veer-pro","rajmudra"], page: {
-      "metaTitle": "Data Loggers in Al Qusais Industrial Area | Prithvi",
-      "metaDescription": "Al Qusais Industrial Area, Dubai: data loggers for factories, food firms, workshops and stores in the north-east. Get Solution: Al Qusais Industrial Area.",
+      "metaTitle": "Temperature Data Logger in Al Qusais Industrial Area, Dubai",
+      "metaDescription": "Al Qusais Industrial Area: temperature data loggers for factories, food firms, workshops and stores in the north-east. Get Solution.",
       "intro": "Al Qusais is a district in the north-east of Dubai, and the Al Qusais Industrial Area is a dense grid of factories, food firms, workshops and stores close to the airport side of the city. A temperature data logger in a district like this is concerned with the ordinary risks of making and storing goods: a food maker whose chilled room must hold its range, a packaging unit with a heated store, and a warehouse where stock waits for vehicles through hot afternoons. The page covers the sort of stock and rooms that a logger user in Al Qusais could look after. Enquiries about Al Qusais are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6617,8 +6617,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the chilled room or store holding the most sensitive stock, placing one logger by the door and one at the back, then add a humidity unit where a plant washes down floors. A few summer weeks would show which hours strain the room.",
       "faqs": [
         {
-          "question": "Can a small Al Qusais food unit keep a record of its cold room?",
-          "answer": "Yes. A logger in the room records through the day and night, and a report for the dates of a batch can be exported in PDF, Excel or CSV form for a customer."
+          "question": "With a temperature data logger in Al Qusais Industrial Area, can a small Al Qusais food unit keep a record of its cold room?",
+          "answer": "Yes. A logger in the room records through the day and night, and a report for the dates of a batch can be exported in PDF, Excel or CSV form for a customer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why record humidity in a packaging store?",
@@ -6631,8 +6631,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "al-aweer", name: "Al Aweer", citySlug: "dubai", areaType: "mixed-use", nearbyIndustries: ["food-beverage","logistics-warehousing","chemical"], confirmedService: true, hero: ["setu","virat"], page: {
-      "metaTitle": "Data Loggers in Al Aweer, Dubai | Prithvi",
-      "metaDescription": "Al Aweer, Dubai: data loggers for produce cold rooms, wholesale stores and industrial yards in long, hot summers. Get Solution to cover Al Aweer.",
+      "metaTitle": "Temperature Data Logger in Al Aweer, Dubai | Prithvi",
+      "metaDescription": "Al Aweer: temperature data loggers for produce cold rooms, wholesale stores and industrial yards in long, hot summers. Get Solution to cover Al Aweer.",
       "intro": "Al Aweer is a district in the east of Dubai known for its wholesale fruit and vegetable market, with industrial yards and stores spread around it. A temperature data logger around a produce market is concerned with fresh food that spoils fast in heat: pallets of fruit and vegetables waiting for buyers, cold rooms where traders hold stock overnight, and vehicles loading before dawn. This page is limited to the goods and rooms a logger user could look after in a wholesale and industrial district of this sort. Enquiries about Al Aweer are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6671,8 +6671,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the cold room holding the most perishable stock, placing one logger by the door and one at the back, then add a humidity-reading unit where fog forms on opening. The first weeks would show how long warm air lingers after each loading.",
       "faqs": [
         {
-          "question": "Can a produce trader keep a temperature record for each cold room?",
-          "answer": "Yes. A logger in each room records day and night, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for a buyer."
+          "question": "With a temperature data logger in Al Aweer, can a produce trader keep a temperature record for each cold room?",
+          "answer": "Yes. A logger in each room records day and night, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for a buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why do early-morning loadings matter for a cold room record?",
@@ -6686,8 +6686,8 @@ export const areas: AreaDef[] = [
     } },
   // ------------------------------------------------------------------ UAE (batch 4: Dubai)
   { slug: "dubai-silicon-oasis", name: "Dubai Silicon Oasis", citySlug: "dubai", areaType: "mixed-use", nearbyIndustries: ["electronics","data-centers","logistics-warehousing"], confirmedService: true, hero: ["setu","nakshatra"], page: {
-      "metaTitle": "Data Loggers in Dubai Silicon Oasis | Prithvi",
-      "metaDescription": "Dubai Silicon Oasis, Dubai: data loggers for electronics stores, server rooms, labs and kitchens. Get Solution to start in Dubai Silicon Oasis.",
+      "metaTitle": "Temperature Data Logger in Dubai Silicon Oasis, Dubai",
+      "metaDescription": "Dubai Silicon Oasis, Dubai: temperature data loggers for electronics stores, server rooms, labs and kitchens. Get Solution to start in Dubai Silicon Oasis.",
       "intro": "Dubai Silicon Oasis is a technology-minded community in the east of the city, where offices, electronics and light-industry units, schools, clinics and homes share one planned grid. A temperature data logger in a community like this is concerned with equipment that dislikes heat and humidity: electronic components in storerooms, server and network rooms, laboratories, and the kitchens and stores that serve a working population. This page is limited to the kinds of goods and rooms a logger user could look after in a technology and mixed-use community. Enquiries about Dubai Silicon Oasis are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6726,8 +6726,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the room whose failure would cost the most, such as a server room or a component store, placing one logger at the intake and one at the far wall, then add humidity reading where parts are stored. The first summer weeks would show how the room behaves after hours.",
       "faqs": [
         {
-          "question": "Why would a small server room want a temperature record?",
-          "answer": "A rise in room temperature is the first sign that cooling has failed, so a logger with a phone alert warns staff before equipment shuts down, and the log shows how long the room stood warm."
+          "question": "With a temperature data logger in Dubai Silicon Oasis, why would a small server room want a temperature record?",
+          "answer": "A rise in room temperature is the first sign that cooling has failed, so a logger with a phone alert warns staff before equipment shuts down, and the log shows how long the room stood warm.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Do electronic parts really need humidity readings in a dry-looking climate?",
@@ -6740,8 +6740,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "dubai-industrial-city", name: "Dubai Industrial City", citySlug: "dubai", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","food-beverage","chemical"], confirmedService: true, hero: ["veer-pro","setu"], page: {
-      "metaTitle": "Data Loggers in Dubai Industrial City | Prithvi",
-      "metaDescription": "Dubai Industrial City, Dubai: data loggers for factory halls, stores and cooled rooms in a planned industrial zone. Get Solution: Dubai Industrial City.",
+      "metaTitle": "Temperature Data Logger in Dubai Industrial City, Dubai",
+      "metaDescription": "Dubai Industrial City: temperature data loggers for factory halls, stores and cooled rooms in a planned industrial zone. Get Solution.",
       "intro": "Dubai Industrial City is a planned industrial city in the south of the emirate, laid out with wide roads and large plots for manufacturing, storage and distribution. A temperature data logger in a planned industrial city is concerned with what its plots happen to hold: raw materials waiting for production, finished goods waiting for collection, and chilled stock moving to and from the coast and the city. This page is limited to the kinds of goods and rooms a logger user could look after in an industrial city of this sort. Enquiries about Dubai Industrial City are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6780,8 +6780,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the store or hall holding the most heat-sensitive stock, using a multi-point unit along its length and a probe logger at the door, then add humidity reading where cold air meets the warm outside. A month of readings in summer would show which end of each hall gets warmest.",
       "faqs": [
         {
-          "question": "Can one report cover a very long production hall?",
-          "answer": "Yes. A multi-channel logger reads several probes along the hall, so a single report shows which stretch of the building runs warmest and at what time."
+          "question": "With a temperature data logger in Dubai Industrial City, can one report cover a very long production hall?",
+          "answer": "Yes. A multi-channel logger reads several probes along the hall, so a single report shows which stretch of the building runs warmest and at what time.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why record raw materials as well as finished goods?",
@@ -6794,8 +6794,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "dubai-south", name: "Dubai South", citySlug: "dubai", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["virat","rajmudra"], page: {
-      "metaTitle": "Data Loggers in Dubai South | Prithvi",
-      "metaDescription": "Dubai South, Dubai: data loggers for warehouses, cold rooms, kitchens and clinics in a planned city in the south. Get Solution to start in Dubai South.",
+      "metaTitle": "Temperature Data Logger in Dubai South, Dubai | Prithvi",
+      "metaDescription": "Dubai South: temperature data loggers for warehouses, cold rooms, kitchens and clinics in a planned city in the south. Get Solution for Dubai South.",
       "intro": "Dubai South is a planned city in the south of the emirate, laid out around an airport with districts for aviation, logistics, commerce and housing. A temperature data logger in a planned city of this kind is concerned with its many different rooms: warehouses and cold stores for goods in transit, the kitchens and stores that serve a growing community, and clinics and pharmacies for its residents. This page is limited to the kinds of goods and rooms a logger user could look after in a planned city of this sort. Enquiries about Dubai South are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6834,8 +6834,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the cold room or store holding the most sensitive stock, placing one logger near the door and one at the back, then add a humidity-reading unit where doors let warm air in. A spell of summer readings would show at what time of day the room is pushed hardest.",
       "faqs": [
         {
-          "question": "Can a business in a new planned city start with a single room?",
-          "answer": "Yes. One logger in one cold room or refrigerator is enough to begin, and more points can be added to the same dashboard as the site grows."
+          "question": "With a temperature data logger in Dubai South, can a business in a new planned city start with a single room?",
+          "answer": "Yes. One logger in one cold room or refrigerator is enough to begin, and more points can be added to the same dashboard as the site grows.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does a metal-roofed shed run hotter than the air outside?",
@@ -6848,8 +6848,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "dubai-logistics-city", name: "Dubai Logistics City", citySlug: "dubai", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["veer","dhruva"], page: {
-      "metaTitle": "Data Loggers in Dubai Logistics City | Prithvi",
-      "metaDescription": "Dubai Logistics City, Dubai: data loggers for warehouses, cold stores and distribution yards inside Dubai South. Use Get Solution for Dubai Logistics City.",
+      "metaTitle": "Temperature Data Logger in Dubai Logistics City, Dubai",
+      "metaDescription": "Dubai Logistics City: temperature data loggers for warehouses, cold stores and distribution yards inside Dubai South. Get Solution: Dubai Logistics City.",
       "intro": "Dubai Logistics City is the logistics district inside Dubai South, laid out for warehouses, cold stores and distribution yards beside the airport area. A temperature data logger in a logistics district is concerned with the waiting that surrounds a journey: goods unloaded from a vehicle, held on racks or in a cold room, and loaded again for the next stage, in air that is hot and dry with sudden humid spells. This page is limited to the kinds of goods and rooms a logger user could look after in a logistics district of this sort. Enquiries about Dubai Logistics City are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6892,8 +6892,8 @@ export const areas: AreaDef[] = [
           "answer": "A multi-channel logger with probes at several heights shows how much warmer the air is at the top of the racks, so a single report covers the whole height."
         },
         {
-          "question": "Why do dock doors matter for a cold store record?",
-          "answer": "Each opening lets warm air in, so a continuous log shows how long the room took to recover and how often it drifted outside its range."
+          "question": "With a temperature data logger in Dubai Logistics City, why do dock doors matter for a cold store record?",
+          "answer": "Each opening lets warm air in, so a continuous log shows how long the room took to recover and how often it drifted outside its range.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         }
       ],
       "nearby": [
@@ -6902,8 +6902,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "dubai-airport-freezone", name: "Dubai Airport Freezone", citySlug: "dubai", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","electronics","pharmaceutical"], confirmedService: true, hero: ["rajmudra","virat-pro"], page: {
-      "metaTitle": "Data Loggers in Dubai Airport Freezone (DAFZA) | Prithvi",
-      "metaDescription": "Dubai Airport Freezone, Dubai: data loggers for offices, stock rooms and warehouse units at DAFZA beside the airport. Get Solution: Dubai Airport Freezone.",
+      "metaTitle": "Temperature Data Logger in Dubai Airport Freezone, Dubai",
+      "metaDescription": "Dubai Airport Freezone: temperature data loggers for offices, stock rooms and warehouse units at DAFZA beside the airport. Get Solution.",
       "intro": "Dubai Airport Freezone, known as DAFZA, is a free zone beside the city's main airport, a compact district of office buildings and warehouse units for trades linked to air transport. A temperature data logger in a district like this is concerned with goods that are small, valuable and sensitive: electronic parts, healthcare products and consumer goods held in storerooms and light warehouses. This page is limited to the kinds of goods and rooms a logger user could look after in a free-zone district of this sort. Enquiries about DAFZA are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6942,8 +6942,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the stock room holding the most sensitive goods, placing one logger near the door and one at the back, and add a humidity unit for electronics. A few weeks of readings would show whether summer afternoons or damp nights strain the room.",
       "faqs": [
         {
-          "question": "Can a small trader with one stock room use a single logger?",
-          "answer": "Yes. One logger in one room is enough to begin, and more points can be added to the same dashboard later."
+          "question": "With a temperature data logger in Dubai Airport Freezone, can a small trader with one stock room use a single logger?",
+          "answer": "Yes. One logger in one room is enough to begin, and more points can be added to the same dashboard later.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why record humidity for electronic parts as well as temperature?",
@@ -6956,8 +6956,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "dubai-healthcare-city", name: "Dubai Healthcare City", citySlug: "dubai", areaType: "business-district", nearbyIndustries: ["hospitals-blood-banks","pharmaceutical","laboratories"], confirmedService: true, hero: ["nakshatra","veer-pro"], page: {
-      "metaTitle": "Data Loggers in Dubai Healthcare City | Prithvi",
-      "metaDescription": "Dubai Healthcare City, Dubai: data loggers for clinic refrigerators, laboratories and medical stores near the creek. Get Solution: Dubai Healthcare City.",
+      "metaTitle": "Temperature Data Logger in Dubai Healthcare City, Dubai",
+      "metaDescription": "Dubai Healthcare City: temperature data loggers for clinic refrigerators, laboratories and medical stores near the creek. Get Solution.",
       "intro": "Dubai Healthcare City is a healthcare district near the creek, where hospitals, clinics, diagnostic laboratories, pharmacies and medical suppliers stand close together. A temperature data logger in a district devoted to health is concerned with the cold chain at small scale: vaccine refrigerators in clinics, sample and reagent storage in laboratories, and medicines in pharmacies and supplier stores, all in a city where summer heat tests every cooling system. This page is limited to the kinds of goods and rooms a logger user could look after in a healthcare district of this sort. Enquiries about Dubai Healthcare City are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -6996,8 +6996,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the vaccine or sample refrigerator whose contents are hardest to replace, placing a probe in the middle of the unit rather than the door, then add a second point in a stock room. The first weeks of data would show how often the door and the weekend affect the range.",
       "faqs": [
         {
-          "question": "Can a clinic with a single vaccine refrigerator use one logger?",
-          "answer": "Yes. A probe logger with a phone alert covers a single refrigerator, and the dated log is available to show an inspector how the unit held its range."
+          "question": "With a temperature data logger in Dubai Healthcare City, can a clinic with a single vaccine refrigerator use one logger?",
+          "answer": "Yes. A probe logger with a phone alert covers a single refrigerator, and the dated log is available to show an inspector how the unit held its range.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why should the probe sit inside the unit rather than on its door?",
@@ -7011,8 +7011,8 @@ export const areas: AreaDef[] = [
     } },
   // ------------------------------------------------------------------ UAE (batch 5: Sharjah)
   { slug: "sajaa-industrial-area", name: "Sajaa Industrial Area", citySlug: "sharjah", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["virat","setu"], page: {
-      "metaTitle": "Data Loggers in Sajaa Industrial Area, Sharjah | Prithvi",
-      "metaDescription": "Sajaa Industrial Area, Sharjah: data loggers for factories, workshops, yards and warehouses through summer heat. Get Solution: Sajaa Industrial Area.",
+      "metaTitle": "Temperature Data Logger in Sajaa Industrial Area, Sharjah",
+      "metaDescription": "Sajaa Industrial Area: temperature data loggers for factories, workshops, yards and warehouses through summer heat. Get Solution: Sajaa Industrial Area.",
       "intro": "The Sajaa Industrial Area lies inland and to the east of Sharjah city, a wide grid of factories, workshops, storage yards and warehouses on large plots beside long straight roads. A temperature data logger in a district like this is concerned with the ordinary risks of making and storing goods in extreme summer heat: chemicals and coatings with labelled limits, food and packaging stock, and general goods waiting under metal roofs. This page is limited to the kinds of goods and rooms a logger user could look after in an industrial area of this sort. Enquiries about Sajaa are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7051,8 +7051,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the store holding the most heat-sensitive stock, placing loggers at floor level and under the roof and one at the door, then add humidity reading where a plant washes down floors. A few weeks of summer readings would show where the building runs hottest.",
       "faqs": [
         {
-          "question": "Can a Sajaa factory watch several halls from one login?",
-          "answer": "Yes. Each hall or room is a point on the same dashboard, alerts go to the person responsible for it, and a combined report for any period can be exported."
+          "question": "With a temperature data logger in Sajaa Industrial Area, can a Sajaa factory watch several halls from one login?",
+          "answer": "Yes. Each hall or room is a point on the same dashboard, alerts go to the person responsible for it, and a combined report for any period can be exported.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why do large plots and metal roofs raise storage temperatures?",
@@ -7065,8 +7065,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "saif-zone", name: "SAIF Zone", citySlug: "sharjah", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","electronics","pharmaceutical"], confirmedService: true, hero: ["rajmudra","dhruva"], page: {
-      "metaTitle": "Data Loggers in SAIF Zone, Sharjah | Prithvi",
-      "metaDescription": "SAIF Zone, Sharjah: data loggers for warehouse units, stock rooms and offices in the Sharjah Airport International Free Zone. Get Solution: SAIF Zone.",
+      "metaTitle": "Temperature Data Logger in SAIF Zone, Sharjah | Prithvi",
+      "metaDescription": "SAIF Zone: temperature data loggers for warehouse units, stock rooms and offices in the Sharjah Airport International Free Zone. Get Solution: SAIF Zone.",
       "intro": "SAIF Zone, short for the Sharjah Airport International Free Zone, sits beside the airport in the north-east of Sharjah city, a grid of low warehouse units and office blocks used by trading and light-industrial firms. For a temperature data logger the interest lies in the small, valuable and sensitive goods such units tend to hold: electronic parts, perfumes and cosmetics, healthcare products and consumer goods, kept in storerooms and light warehouses through long hot summers. The text here is confined to the stock and rooms that a logger user in SAIF Zone could look after. Enquiries about SAIF Zone are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7105,8 +7105,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the stock room whose contents are hardest to replace, placing one logger near the door and one at the back, and adding a humidity unit where parts are kept. The first weeks of readings would show whether afternoon heat or damp nights put more strain on the room.",
       "faqs": [
         {
-          "question": "Can a trader with one unit in a free zone start with a single logger?",
-          "answer": "Yes. One logger in one room is enough to begin, and extra points can join the same dashboard later as the stock grows."
+          "question": "With a temperature data logger in SAIF Zone, can a trader with one unit in a free zone start with a single logger?",
+          "answer": "Yes. One logger in one room is enough to begin, and extra points can join the same dashboard later as the stock grows.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does a hot day followed by a damp night matter for stored parts?",
@@ -7119,8 +7119,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "hamriyah-free-zone", name: "Hamriyah Free Zone", citySlug: "sharjah", areaType: "industrial-estate", nearbyIndustries: ["chemical","logistics-warehousing","food-beverage"], confirmedService: true, hero: ["nakshatra","virat-pro"], page: {
-      "metaTitle": "Data Loggers in Hamriyah Free Zone, Sharjah | Prithvi",
-      "metaDescription": "Hamriyah Free Zone, Sharjah: data loggers for industrial plots, stores and yards on the coast in humid summer heat. Get Solution: Hamriyah Free Zone.",
+      "metaTitle": "Temperature Data Logger in Hamriyah Free Zone, Sharjah",
+      "metaDescription": "Hamriyah Free Zone: temperature data loggers for industrial plots, stores and yards on the coast in humid summer heat. Get Solution: Hamriyah Free Zone.",
       "intro": "The Hamriyah Free Zone lies on the Gulf coast north of Sharjah city, a flat free-zone district of plots for heavy and light industry and storage beside the shore. A temperature data logger in a coastal industrial district is concerned with materials that are damaged by heat and salt damp: metals and coatings, chemicals, building products and food stock held in yards and sheds close to the sea. This page is limited to the kinds of goods and rooms a logger user could look after in a coastal free-zone district of this sort. Enquiries about Hamriyah are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7159,8 +7159,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the store holding the most sensitive materials, placing one logger by the door and one at the back, then add a humidity-reading unit where sea air enters. A few weeks of readings would show which hours push the shed outside its range.",
       "faqs": [
         {
-          "question": "Why does salty air matter for stored materials near the shore?",
-          "answer": "Salt-laden air attacks metal and softens cartons, and condensation forms on cool surfaces overnight, so a humidity log beside the temperature shows when stock took on moisture."
+          "question": "With a temperature data logger in Hamriyah Free Zone, why does salty air matter for stored materials near the shore?",
+          "answer": "Salt-laden air attacks metal and softens cartons, and condensation forms on cool surfaces overnight, so a humidity log beside the temperature shows when stock took on moisture.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Can one report cover a long coastal storage shed?",
@@ -7173,8 +7173,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "muwaileh", name: "Muwaileh", citySlug: "sharjah", areaType: "mixed-use", nearbyIndustries: ["food-beverage","pharmaceutical","logistics-warehousing"], confirmedService: true, hero: ["veer","setu"], page: {
-      "metaTitle": "Data Loggers in Muwaileh, Sharjah | Prithvi",
-      "metaDescription": "Muwaileh, Sharjah: data loggers for shops, workshops, clinics and storerooms in a mixed commercial district. Use Get Solution to plan Muwaileh.",
+      "metaTitle": "Temperature Data Logger in Muwaileh, Sharjah | Prithvi",
+      "metaDescription": "Muwaileh, Sharjah: temperature data loggers for shops, workshops, clinics and storerooms in a mixed commercial district. Use Get Solution to plan Muwaileh.",
       "intro": "Muwaileh is a mixed commercial and residential district in the east of Sharjah city, where shops, workshops, clinics, restaurants and apartment blocks share the same streets. A temperature data logger in a district like this is concerned with many small rooms rather than a few large ones: shop refrigerators, restaurant coolers, clinic vaccine fridges and workshop storerooms, all of them cooled by equipment that works hard in long summers. This page is limited to the kinds of goods and rooms a logger user could look after in a mixed district of this sort. Enquiries about Muwaileh are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7213,8 +7213,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the refrigerator or cooler whose contents are hardest to replace, placing a probe in the middle of the unit rather than at the door, then add a second point in a dry store. The first weeks of data would show how often door openings and power cuts affect the range.",
       "faqs": [
         {
-          "question": "Can a small shop with a single refrigerator use one logger?",
-          "answer": "Yes. One probe logger with a phone alert can cover a single shop refrigerator, and the dated log can be shown to an inspector as proof of how the unit held its range."
+          "question": "With a temperature data logger in Muwaileh, can a small shop with a single refrigerator use one logger?",
+          "answer": "Yes. One probe logger with a phone alert can cover a single shop refrigerator, and the dated log can be shown to an inspector as proof of how the unit held its range.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why should a probe sit inside a cooler rather than on its door?",
@@ -7228,8 +7228,8 @@ export const areas: AreaDef[] = [
     } },
   // ------------------------------------------------------------------ UAE (batch 6: Ajman, Umm Al Quwain, Ras Al Khaimah)
   { slug: "al-jurf-industrial-area", name: "Al Jurf Industrial Area", citySlug: "ajman", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["virat","nakshatra"], page: {
-      "metaTitle": "Data Loggers in Al Jurf Industrial Area, Ajman | Prithvi",
-      "metaDescription": "Al Jurf Industrial Area, Ajman: data loggers for workshops, light factories, stores and warehouses. Get Solution for Al Jurf Industrial Area.",
+      "metaTitle": "Temperature Data Logger in Al Jurf Industrial Area, Ajman",
+      "metaDescription": "Al Jurf Industrial Area, Ajman: temperature data loggers for workshops, light factories, stores and warehouses. Get Solution for Al Jurf Industrial Area.",
       "intro": "The Al Jurf Industrial Area lies inland from Ajman's creek, a dense grid of workshops, light factories, stores and warehouses squeezed beside residential blocks. For a temperature data logger the interest lies in the everyday trouble of making and keeping goods through humid Gulf summers: sealants and paints that name a maximum temperature, food and packaging stock, and general cargo waiting under thin metal roofs. Nothing here goes beyond the stock and rooms that a logger user in Al Jurf could look after. Enquiries about Al Jurf are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7268,8 +7268,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the chilled room or store holding the most delicate stock, putting one logger by the door and one at the back, and add a humidity unit where sea air enters. A few weeks of summer readings would show which hours of the day press hardest on the room.",
       "faqs": [
         {
-          "question": "Can a small Al Jurf workshop keep a temperature record of its store?",
-          "answer": "Yes. A logger left in the store keeps a day-and-night record, and a report for any dates can be saved as a PDF, Excel or CSV file."
+          "question": "With a temperature data logger in Al Jurf Industrial Area, can a small Al Jurf workshop keep a temperature record of its store?",
+          "answer": "Yes. A logger left in the store keeps a day-and-night record, and a report for any dates can be saved as a PDF, Excel or CSV file.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why track humidity as well as temperature so close to the coast?",
@@ -7282,8 +7282,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "ajman-free-zone", name: "Ajman Free Zone", citySlug: "ajman", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","electronics","food-beverage"], confirmedService: true, hero: ["rajmudra","setu"], page: {
-      "metaTitle": "Data Loggers in Ajman Free Zone | Prithvi",
-      "metaDescription": "Ajman Free Zone, UAE: data loggers for warehouse units, stock rooms and offices near the port in humid Gulf heat. Get Solution to begin in Ajman Free Zone.",
+      "metaTitle": "Temperature Data Logger in Ajman Free Zone, Ajman | Prithvi",
+      "metaDescription": "Ajman Free Zone: temperature data loggers for warehouse units, stock rooms and offices near the port in humid Gulf heat. Get Solution for Ajman Free Zone.",
       "intro": "The Ajman Free Zone stands near the city's port, a compact set of offices, warehouse units and light-industrial plots very close to the sea. A temperature data logger in a coastal free zone watches the stock that small trading and making firms keep on hand: electronic parts, household goods, food and packaging, all held in storerooms and light warehouses in air that is hot, humid and salty. The text below is limited to the stock and rooms that a logger user in the Ajman Free Zone could look after. Enquiries about the Ajman Free Zone are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7322,8 +7322,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the stock room whose contents are hardest to replace, placing one logger near the door and one at the back, and adding a humidity unit where parts are kept. A short run of readings would show whether afternoon heat or damp nights strain the room more.",
       "faqs": [
         {
-          "question": "Can a trader with one unit in the zone start with a single logger?",
-          "answer": "Yes. A single logger in a single room is enough to start, and more points can be added to the same dashboard as the business grows."
+          "question": "With a temperature data logger in Ajman Free Zone, can a trader with one unit in the zone start with a single logger?",
+          "answer": "Yes. A single logger in a single room is enough to start, and more points can be added to the same dashboard as the business grows.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does a coastal address matter for stored electronics?",
@@ -7336,8 +7336,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "uaq-free-trade-zone", name: "UAQ Free Trade Zone", citySlug: "umm-al-quwain", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","food-beverage","chemical"], confirmedService: true, hero: ["veer","dhruva"], page: {
-      "metaTitle": "Data Loggers in UAQ Free Trade Zone | Prithvi",
-      "metaDescription": "UAQ Free Trade Zone, Umm Al Quwain: data loggers for warehouse units, stock rooms and light industry. Get Solution to cover UAQ Free Trade Zone.",
+      "metaTitle": "Temperature Data Logger in UAQ Free Trade Zone | Prithvi",
+      "metaDescription": "UAQ Free Trade Zone: temperature data loggers for warehouse units, stock rooms and light industry. Get Solution to cover UAQ Free Trade Zone.",
       "intro": "The UAQ Free Trade Zone is a trade and light-industry district near the port of Umm Al Quwain, a quiet stretch of warehouse units and offices beside the sea. For a temperature data logger the interest is in whatever its units happen to keep: food and packaging, materials with printed limits, and household goods, all held in air that is hot, humid and salty. The description sticks to the stock and rooms that a logger user in the UAQ Free Trade Zone could look after. Enquiries about the UAQ Free Trade Zone are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7376,8 +7376,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the unit that holds the most heat- or damp-sensitive stock, placing one logger by the door and one at the back, then add a humidity unit where sea air gets in. A first run of readings would show the hours when the room is under most strain.",
       "faqs": [
         {
-          "question": "Can a small firm in the zone begin with a single logger?",
-          "answer": "Yes. A single logger in one room is enough to begin, and more points can be added to the same dashboard as the stock grows."
+          "question": "With a temperature data logger in UAQ Free Trade Zone, can a small firm in the zone begin with a single logger?",
+          "answer": "Yes. A single logger in one room is enough to begin, and more points can be added to the same dashboard as the stock grows.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does sea air matter for goods held close to the shore?",
@@ -7388,8 +7388,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "rakez", name: "RAKEZ", citySlug: "ras-al-khaimah", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","pharmaceutical"], confirmedService: true, hero: ["nakshatra","virat-pro"], page: {
-      "metaTitle": "Data Loggers in RAKEZ, Ras Al Khaimah | Prithvi",
-      "metaDescription": "RAKEZ, Ras Al Khaimah: data loggers for factory halls, stores and warehouses in the Economic Zone, built for Gulf heat. Get Solution to begin in RAKEZ.",
+      "metaTitle": "Temperature Data Logger in RAKEZ, Ras Al Khaimah | Prithvi",
+      "metaDescription": "RAKEZ: temperature data loggers for factory halls, stores and warehouses in the Economic Zone, built for Gulf heat. Get Solution to begin in RAKEZ.",
       "intro": "RAKEZ, the Ras Al Khaimah Economic Zone, spreads across the coastal plain of the emirate in a set of industrial plots, warehouses and offices laid out for making and trading. For a temperature data logger the interest lies in whatever its plots happen to hold: materials waiting for the line, finished goods waiting for a vehicle, and chilled stock on the move between plant and coast. The text keeps to the stock and rooms that a logger user in RAKEZ could look after. Enquiries about RAKEZ are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7428,8 +7428,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the hall or store that holds the most heat-sensitive stock, running a multi-point unit along its length and a probe logger at the door, and add humidity reading where cold air meets the outside. A month of readings would show which end of each hall runs warmest.",
       "faqs": [
         {
-          "question": "Can a single report describe a long production hall?",
-          "answer": "Yes. A multi-channel logger reads probes spaced along the hall, so one report shows which stretch of the building runs warmest and when."
+          "question": "With a temperature data logger in RAKEZ, can a single report describe a long production hall?",
+          "answer": "Yes. A multi-channel logger reads probes spaced along the hall, so one report shows which stretch of the building runs warmest and when.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Is it worth tracking incoming materials as well as finished goods?",
@@ -7442,8 +7442,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "al-ghail-industrial-area", name: "Al Ghail Industrial Area", citySlug: "ras-al-khaimah", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["veer-pro","rajmudra"], page: {
-      "metaTitle": "Data Loggers in Al Ghail Industrial Area, RAK | Prithvi",
-      "metaDescription": "Al Ghail Industrial Area, Ras Al Khaimah: data loggers for factories, workshops, stores and warehouses. Get Solution to begin in Al Ghail Industrial Area.",
+      "metaTitle": "Temperature Data Logger in Al Ghail Industrial Area",
+      "metaDescription": "Al Ghail Industrial Area: temperature data loggers for factories, workshops, stores and warehouses. Get Solution to begin in Al Ghail Industrial Area.",
       "intro": "The Al Ghail Industrial Area lies in the hinterland of Ras Al Khaimah city, where factories, workshops, stores and warehouses sit on large plots with the mountains rising nearby. For a temperature data logger the interest lies in the ordinary risks of making and keeping goods through hot summers and the odd flooded winter: building products and chemicals with printed limits, food and packaging stock, and general cargo under metal roofs. The text is limited to the stock and rooms that a logger user in Al Ghail could look after. Enquiries about Al Ghail are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7482,8 +7482,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the store that holds the most heat-sensitive stock, placing loggers at floor level and under the roof and one at the door, and fix each body above the likely flood line with its own battery. A few weeks of readings would show where the building runs hottest.",
       "faqs": [
         {
-          "question": "Why fix a logger above the flood line near the mountain wadis?",
-          "answer": "Heavy rain in the mountains can send water over the plain and into low rooms, so a body fixed higher with a battery inside keeps the record of what the room went through."
+          "question": "With a temperature data logger in Al Ghail Industrial Area, why fix a logger above the flood line near the mountain wadis?",
+          "answer": "Heavy rain in the mountains can send water over the plain and into low rooms, so a body fixed higher with a battery inside keeps the record of what the room went through.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why do big plots and metal roofs push storage temperatures up?",
@@ -7496,8 +7496,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "al-jazirah-al-hamra", name: "Al Jazirah Al Hamra", citySlug: "ras-al-khaimah", areaType: "mixed-use", nearbyIndustries: ["food-beverage","logistics-warehousing","hospitals-blood-banks"], confirmedService: true, hero: ["setu","virat"], page: {
-      "metaTitle": "Data Loggers in Al Jazirah Al Hamra, RAK | Prithvi",
-      "metaDescription": "Al Jazirah Al Hamra, Ras Al Khaimah: data loggers for fish ice stores, shops, kitchens and storerooms on the coast. Get Solution: Al Jazirah Al Hamra.",
+      "metaTitle": "Temperature Data Logger in Al Jazirah Al Hamra | Prithvi",
+      "metaDescription": "Al Jazirah Al Hamra: temperature data loggers for fish ice stores, shops, kitchens and storerooms on the coast. Get Solution: Al Jazirah Al Hamra.",
       "intro": "Al Jazirah Al Hamra is a coastal district south of Ras Al Khaimah city, known for an old village of coral-stone houses beside the sea, with newer homes, shops and small yards around it. For a temperature data logger the interest lies in whatever its small businesses keep cold or dry: fish landed on the beach, shop coolers, kitchen stores and storerooms, in air that is hot, humid and salty. The page stays with the stock and rooms that a logger user in Al Jazirah Al Hamra could look after. Enquiries about Al Jazirah Al Hamra are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7536,8 +7536,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the ice store or cooler whose contents are hardest to replace, placing a probe in the middle of the unit rather than at its door, and add a second point in a dry store. The first weeks of data would show how door openings and power cuts affect the range.",
       "faqs": [
         {
-          "question": "Can a fish seller on this coast keep a record of an ice store?",
-          "answer": "Yes. A probe logger in the store records through day and night, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for a buyer."
+          "question": "With a temperature data logger in Al Jazirah Al Hamra, can a fish seller on this coast keep a record of an ice store?",
+          "answer": "Yes. A probe logger in the store records through day and night, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for a buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why should the probe sit among the contents instead of on the door?",
@@ -7551,8 +7551,8 @@ export const areas: AreaDef[] = [
     } },
   // ------------------------------------------------------------------ UAE (batch 7: Fujairah)
   { slug: "fujairah-free-zone", name: "Fujairah Free Zone", citySlug: "fujairah", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","food-beverage","chemical"], confirmedService: true, hero: ["virat","veer"], page: {
-      "metaTitle": "Data Loggers in Fujairah Free Zone | Prithvi",
-      "metaDescription": "Fujairah Free Zone, UAE: data loggers for warehouse units, stock rooms and offices beside the harbour. Get Solution: Fujairah Free Zone.",
+      "metaTitle": "Temperature Data Logger in Fujairah Free Zone, Fujairah",
+      "metaDescription": "Fujairah Free Zone, UAE: temperature data loggers for warehouse units, stock rooms and offices beside the harbour. Get Solution: Fujairah Free Zone.",
       "intro": "The Fujairah Free Zone lies beside the city's harbour on the Gulf of Oman, a compact set of offices, warehouse units and light-industrial plots with the sea close at hand and the mountains behind. A temperature data logger in a coastal free zone watches the stock that small trading and making firms keep to hand: food and packaging, materials with printed limits and household goods, all held in air that is hot, damp and salty. The text below stays with the stock and rooms that a logger user in the Fujairah Free Zone could look after. Enquiries about the Fujairah Free Zone are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7591,8 +7591,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the room whose contents are hardest to replace, placing one logger near the door and one at the back, and adding a humidity unit where sea air gets in. A short run of readings would show whether afternoon heat or damp evenings strain the room more.",
       "faqs": [
         {
-          "question": "Can a small firm in the zone start with one logger?",
-          "answer": "Yes. One logger in one room is enough to begin, and more points can be added to the same dashboard as the business grows."
+          "question": "With a temperature data logger in Fujairah Free Zone, can a small firm in the zone start with one logger?",
+          "answer": "Yes. One logger in one room is enough to begin, and more points can be added to the same dashboard as the business grows.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does sea air matter for goods kept near the shore?",
@@ -7605,8 +7605,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "port-of-fujairah", name: "Port of Fujairah", citySlug: "fujairah", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["setu","nakshatra"], page: {
-      "metaTitle": "Data Loggers at the Port of Fujairah | Prithvi",
-      "metaDescription": "Port of Fujairah, UAE: data loggers for quayside sheds, cold rooms and vehicles on the Gulf of Oman. Get Solution, or call us to discuss Port of Fujairah.",
+      "metaTitle": "Temperature Data Logger in Port of Fujairah, Fujairah",
+      "metaDescription": "Port of Fujairah: temperature data loggers for quayside sheds, cold rooms and vehicles on the Gulf of Oman. Get Solution for Port of Fujairah.",
       "intro": "The Port of Fujairah is the deep-water harbour of the city, on the Gulf of Oman with the Hajar mountains behind, and the ground around a harbour like this is a place of waiting: food, supplies and general goods that leave a ship, stand on a quay or in a shed, and move on by road. A temperature data logger in that chain records what the goods met on the way, in air that is hot, damp and salty. This page keeps to the kinds of goods and rooms a logger user may look after around a harbour. Enquiries about the Port of Fujairah are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7645,8 +7645,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the consignment or cold room that is hardest to replace, placing one logger in the load or by the door and another at the far wall, then add a humidity-reading unit where cold goods meet damp air. A few weeks of data would show how long goods stand between one step and the next.",
       "faqs": [
         {
-          "question": "Can a small logger ride in a carton through a harbour chain?",
-          "answer": "Yes. A small logger packed in the load keeps a record of the whole journey, and the report can be saved as a PDF, Excel or CSV file for whoever receives the goods."
+          "question": "With a temperature data logger in Port of Fujairah, can a small logger ride in a carton through a harbour chain?",
+          "answer": "Yes. A small logger packed in the load keeps a record of the whole journey, and the report can be saved as a PDF, Excel or CSV file for whoever receives the goods.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why do harbour sheds need humidity records as well as temperature?",
@@ -7660,8 +7660,8 @@ export const areas: AreaDef[] = [
     } },
   // ------------------------------------------------------------------ Qatar (batch 1: Doha)
   { slug: "west-bay", name: "West Bay", citySlug: "doha", areaType: "business-district", nearbyIndustries: ["data-centers","food-beverage","pharmaceutical"], confirmedService: true, hero: ["virat","dhruva"], page: {
-      "metaTitle": "Data Loggers in West Bay, Doha | Prithvi",
-      "metaDescription": "West Bay, Doha: data loggers for hotel kitchens, office pantries, server rooms and clinics in the towers. Get Solution to cover West Bay.",
+      "metaTitle": "Temperature Data Logger in West Bay, Doha | Prithvi",
+      "metaDescription": "West Bay, Doha: temperature data loggers for hotel kitchens, office pantries, server rooms and clinics in the towers. Get Solution to cover West Bay.",
       "intro": "West Bay is the district of glass towers along the northern curve of Doha's bay, where hotels, offices, apartments, shopping streets and restaurants stand shoulder to shoulder on reclaimed shoreline. A temperature data logger in a district of towers is concerned with rooms that sit far from a store or a warehouse: basement kitchens, floor pantries, server and network rooms, clinic refrigerators and building plant rooms, all cooled by equipment that works hard in long summers. This page is limited to the kinds of goods and rooms a logger user could look after in a tower district of this sort. Enquiries about West Bay are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7700,8 +7700,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the room whose failure would cost the most, such as a banqueting freezer or a server room, placing one logger at the intake and one at the far wall, then add a second kitchen unit. The first summer weeks would show how the rooms behave after hours.",
       "faqs": [
         {
-          "question": "Can a hotel in a tower watch every kitchen from one login?",
-          "answer": "Yes. Each kitchen, pantry and plant room is a point on the same dashboard, each alert goes to its own engineer, and a manager sees every room together in one exported report."
+          "question": "With a temperature data logger in West Bay, can a hotel in a tower watch every kitchen from one login?",
+          "answer": "Yes. Each kitchen, pantry and plant room is a point on the same dashboard, each alert goes to its own engineer, and a manager sees every room together in one exported report.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does a server room need a temperature record?",
@@ -7714,8 +7714,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "al-sadd", name: "Al Sadd", citySlug: "doha", areaType: "mixed-use", nearbyIndustries: ["pharmaceutical","food-beverage","hospitals-blood-banks"], confirmedService: true, hero: ["setu","nakshatra"], page: {
-      "metaTitle": "Data Loggers in Al Sadd, Doha | Prithvi",
-      "metaDescription": "Al Sadd, Doha: data loggers for clinic refrigerators, pharmacies, shop coolers and restaurant stores in a central district. Get Solution to cover Al Sadd.",
+      "metaTitle": "Temperature Data Logger in Al Sadd, Doha | Prithvi",
+      "metaDescription": "Al Sadd: temperature data loggers for clinic refrigerators, pharmacies, shop coolers and restaurant stores in a central district. Get Solution for Al Sadd.",
       "intro": "Al Sadd is a busy central district of Doha, where shops, clinics, pharmacies, restaurants and apartment blocks line the same streets. A temperature data logger in a district like this is concerned with many small rooms rather than a few large ones: clinic vaccine refrigerators, pharmacy stock rooms, supermarket coolers and restaurant stores, all cooled by equipment that works hard through long summers. This page is limited to the kinds of goods and rooms a logger user could look after in a central mixed district of this sort. Enquiries about Al Sadd are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7754,8 +7754,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the refrigerator or cooler whose contents are hardest to replace, placing a probe in the middle of the unit rather than at the door, then add a second point in a dry stockroom. The first weeks of data would show how door openings and power dips affect the range.",
       "faqs": [
         {
-          "question": "Can a small clinic with one vaccine refrigerator use a single logger?",
-          "answer": "Yes. A probe logger with a phone alert covers a single refrigerator, and the dated log can be shown to an inspector as proof of how the unit held its range."
+          "question": "With a temperature data logger in Al Sadd, can a small clinic with one vaccine refrigerator use a single logger?",
+          "answer": "Yes. A probe logger with a phone alert covers a single refrigerator, and the dated log can be shown to an inspector as proof of how the unit held its range.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why should a probe sit among the contents rather than on the door?",
@@ -7768,8 +7768,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "msheireb", name: "Msheireb", citySlug: "doha", areaType: "business-district", nearbyIndustries: ["food-beverage","data-centers","pharmaceutical"], confirmedService: true, hero: ["rajmudra","veer"], page: {
-      "metaTitle": "Data Loggers in Msheireb, Doha | Prithvi",
-      "metaDescription": "Msheireb, Doha: data loggers for hotel kitchens, museum and office stores, shop coolers and clinic refrigerators. Use Get Solution for Msheireb.",
+      "metaTitle": "Temperature Data Logger in Msheireb, Doha | Prithvi",
+      "metaDescription": "Msheireb: temperature data loggers for hotel kitchens, museum and office stores, shop coolers and clinic refrigerators. Use Get Solution for Msheireb.",
       "intro": "Msheireb is a redeveloped downtown quarter of Doha, laid out with shaded streets, courtyards and low-rise buildings in traditional styles, with shops, offices, hotels, galleries and apartments side by side. A temperature data logger in a district like this is concerned with rooms that need steady air for a reason: gallery and archive stores, hotel kitchens, office pantries, clinic refrigerators and plant rooms, all cooled by equipment that works hard through long summers. This page is limited to the kinds of goods and rooms a logger user could look after in a downtown quarter of this sort. Enquiries about Msheireb are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7808,8 +7808,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the room whose contents are hardest to replace, such as a collection store or a kitchen freezer, placing one logger by the door and one at the far wall, and adding a humidity unit where objects are kept. A few weeks of summer readings would show how steady the room is.",
       "faqs": [
         {
-          "question": "Why would a collection store need a humidity record?",
-          "answer": "Paper, varnish and fabric react to dryness and damp, so a log of temperature and humidity shows whether the air stayed steady and when it swung, which supports a conservation plan."
+          "question": "With a temperature data logger in Msheireb, why would a collection store need a humidity record?",
+          "answer": "Paper, varnish and fabric react to dryness and damp, so a log of temperature and humidity shows whether the air stayed steady and when it swung, which supports a conservation plan.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Can one dashboard cover a hotel and a gallery in the same quarter?",
@@ -7822,8 +7822,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "the-pearl-qatar", name: "The Pearl-Qatar", citySlug: "doha", areaType: "mixed-use", nearbyIndustries: ["food-beverage","pharmaceutical","logistics-warehousing"], confirmedService: true, hero: ["virat-pro","setu"], page: {
-      "metaTitle": "Data Loggers in The Pearl-Qatar, Doha | Prithvi",
-      "metaDescription": "The Pearl-Qatar, Doha: data loggers for marina cafes, supermarket coolers, clinic refrigerators and apartment stores. Get Solution to begin in Pearl-Qatar.",
+      "metaTitle": "Temperature Data Logger in The Pearl-Qatar, Doha | Prithvi",
+      "metaDescription": "The Pearl-Qatar: temperature data loggers for marina cafes, supermarket coolers, clinic refrigerators and apartment stores. Get Solution: The Pearl-Qatar.",
       "intro": "The Pearl-Qatar is an artificial island off the northern coast of Doha, built on reclaimed land with marinas, residential towers, villas, shops and restaurants arranged around a ring of waterfront. A temperature data logger on an island of this sort is concerned with rooms that sit on reclaimed land: supermarket coolers, restaurant and cafe stores, clinic refrigerators and the stockrooms of the shops, all cooled by equipment that works hard in humid sea air. This page is limited to the kinds of goods and rooms a logger user could look after on a waterfront island of this sort. Enquiries about The Pearl-Qatar are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7862,8 +7862,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the cooler or cold room whose contents are hardest to replace, placing a probe in the middle of the unit, then add a humidity unit in a basement store where damp collects. The first weeks of readings would show which hours strain the room.",
       "faqs": [
         {
-          "question": "Can a marina cafe watch its coolers from a phone?",
-          "answer": "Yes. A probe logger in each cooler sends an alert to a phone if the range is crossed, and the dated log is available to show how the unit held its range."
+          "question": "With a temperature data logger in The Pearl-Qatar, can a marina cafe watch its coolers from a phone?",
+          "answer": "Yes. A probe logger in each cooler sends an alert to a phone if the range is crossed, and the dated log is available to show how the unit held its range.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does a basement store near the sea need a humidity reading?",
@@ -7877,8 +7877,8 @@ export const areas: AreaDef[] = [
     } },
   // ------------------------------------------------------------------ Qatar (batch 2: Doha airport area, Al Rayyan)
   { slug: "hamad-international-airport", name: "Hamad International Airport", citySlug: "doha", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","pharmaceutical","food-beverage"], confirmedService: true, hero: ["veer-pro","dhruva"], page: {
-      "metaTitle": "Data Loggers at Hamad International Airport | Prithvi",
-      "metaDescription": "Hamad International Airport, Doha: data loggers for cargo sheds, cold rooms, catering stores and vehicles. Get Solution: Hamad International Airport.",
+      "metaTitle": "Temperature Data Logger in Hamad International Airport, Doha",
+      "metaDescription": "Hamad International Airport: temperature data loggers for cargo sheds, cold rooms, catering stores and vehicles. Get Solution: Hamad International Airport.",
       "intro": "Hamad International Airport lies on the south-eastern side of Doha, near the coast, and the ground around an airport is a place of waiting: medicines, vaccines, food and parcels that leave an aircraft, stand in a shed or a vehicle and move on. A temperature data logger in that chain records what the goods met on the apron, in the cargo shed and in the van, in air that is hot, humid and salty. This page keeps to the kinds of goods and rooms a logger user may look after around an airport. Enquiries about the airport area are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7917,8 +7917,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the consignment or room that is hardest to replace, placing a logger in the load or at the door and a second at the far wall, then add a unit reading humidity where cold goods meet warm air. A short run of readings would show how long goods really stand between one stage and the next.",
       "faqs": [
         {
-          "question": "Can a logger travel inside a medicine consignment through an air-cargo chain?",
-          "answer": "Yes. A logger tucked in among the boxes keeps a record from start to finish, and the report can be saved as a PDF, Excel or CSV file for the receiver, whichever route the consignment took."
+          "question": "Can a temperature data logger in Hamad International Airport travel inside a medicine consignment through an air-cargo chain?",
+          "answer": "Yes. A logger tucked in among the boxes keeps a record from start to finish, and the report can be saved as a PDF, Excel or CSV file for the receiver, whichever route the consignment took.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why do temperature swings between shed and vehicle matter?",
@@ -7931,8 +7931,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "ras-bufontas-free-zone", name: "Ras Bufontas Free Zone", citySlug: "doha", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","electronics","pharmaceutical"], confirmedService: true, hero: ["nakshatra","virat"], page: {
-      "metaTitle": "Data Loggers in Ras Bufontas Free Zone, Doha | Prithvi",
-      "metaDescription": "Ras Bufontas Free Zone, Doha: data loggers for warehouse units, stock rooms and offices beside the airport. Get Solution to cover Ras Bufontas Free Zone.",
+      "metaTitle": "Temperature Data Logger in Ras Bufontas Free Zone, Doha",
+      "metaDescription": "Ras Bufontas Free Zone: temperature data loggers for warehouse units, stock rooms and offices beside the airport. Get Solution for Ras Bufontas Free Zone.",
       "intro": "The Ras Bufontas Free Zone lies beside the airport on the south-eastern side of Doha, a compact grid of warehouse units, light-industrial plots and offices set out for trading and manufacturing firms. For a temperature data logger the interest lies in the small, valuable and sensitive goods such plots tend to hold: electronic parts, healthcare supplies and consumer products, kept in storerooms and light warehouses through long hot summers. The description is confined to the kinds of goods and rooms that a logger user at Ras Bufontas may look after. Enquiries about Ras Bufontas are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -7971,8 +7971,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the room whose contents are hardest to replace, placing one logger near the door and one at the back, and adding a humidity unit where components are kept. A first run of readings would show whether afternoon heat or damp nights put the room under more strain.",
       "faqs": [
         {
-          "question": "Can a small trader with one unit begin with a single logger?",
-          "answer": "Yes. A single logger in one room is enough to start, and further points can join the same dashboard as the business grows."
+          "question": "With a temperature data logger in Ras Bufontas Free Zone, can a small trader with one unit begin with a single logger?",
+          "answer": "Yes. A single logger in one room is enough to start, and further points can join the same dashboard as the business grows.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why do stored components care about a damp night after a hot day?",
@@ -7985,8 +7985,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "al-gharafa", name: "Al Gharafa", citySlug: "al-rayyan", areaType: "mixed-use", nearbyIndustries: ["food-beverage","pharmaceutical","hospitals-blood-banks"], confirmedService: true, hero: ["virat","rajmudra"], page: {
-      "metaTitle": "Data Loggers in Al Gharafa, Al Rayyan | Prithvi",
-      "metaDescription": "Al Gharafa, Al Rayyan: data loggers for supermarket coolers, pharmacy refrigerators, clinic stores and workshops. Get Solution to begin in Al Gharafa.",
+      "metaTitle": "Temperature Data Logger in Al Gharafa, Al Rayyan | Prithvi",
+      "metaDescription": "Al Gharafa: temperature data loggers for supermarket coolers, pharmacy refrigerators, clinic stores and workshops. Get Solution to begin in Al Gharafa.",
       "intro": "Al Gharafa is a dense residential district in the Al Rayyan area, where family streets, mosques, schools, shops, restaurants and clinics sit close together along its main roads. A temperature data logger in a district like this is concerned with many small rooms: supermarket cold rooms, pharmacy and clinic refrigerators, restaurant stores and the stockrooms of small workshops, all cooled by equipment that works hard through long summers. This page keeps to the kinds of goods and rooms a logger user could look after in a residential district of this sort. Enquiries about Al Gharafa are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8025,8 +8025,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the refrigerator whose contents are hardest to replace, placing a probe among the contents rather than at the door, then add a second point in a dry stockroom. The first weeks of readings would show how door openings and power dips affect the range.",
       "faqs": [
         {
-          "question": "Can a neighbourhood pharmacy with one refrigerator use a single logger?",
-          "answer": "Yes. One probe logger with a phone alert is enough for a lone refrigerator, and its dated log can be handed to an inspector as proof that the unit stayed in range."
+          "question": "With a temperature data logger in Al Gharafa, can a neighbourhood pharmacy with one refrigerator use a single logger?",
+          "answer": "Yes. One probe logger with a phone alert is enough for a lone refrigerator, and its dated log can be handed to an inspector as proof that the unit stayed in range.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Is a humidity reading useful for a small dry store?",
@@ -8039,8 +8039,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "birkat-al-awamer", name: "Birkat Al Awamer", citySlug: "al-rayyan", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","food-beverage","chemical"], confirmedService: true, hero: ["setu","veer"], page: {
-      "metaTitle": "Data Loggers in Birkat Al Awamer, Al Rayyan | Prithvi",
-      "metaDescription": "Birkat Al Awamer, Al Rayyan: data loggers for storage yards, workshops, warehouses and food stores on the city's edge. Get Solution: Birkat Al Awamer.",
+      "metaTitle": "Temperature Data Logger in Birkat Al Awamer, Al Rayyan",
+      "metaDescription": "Birkat Al Awamer: temperature data loggers for storage yards, workshops, warehouses and food stores on the city's edge. Get Solution: Birkat Al Awamer.",
       "intro": "Birkat Al Awamer is a district on the south-western side of the Al Rayyan area, where villas and farms give way to storage yards, workshops and open land beside the roads out of the city. A temperature data logger in an outer district like this is concerned with stock that waits in simple buildings far from a shop: building materials, paints and chemicals with labelled limits, food and drink for the city, and spare parts kept in sheds and yards. This page keeps to the kinds of goods and rooms a logger user could look after in an outer district of this sort. Enquiries about Birkat Al Awamer are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8079,8 +8079,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the shed or chilled room that holds the most delicate stock, placing loggers at floor level and under the roof and one at the door. Several weeks of summer readings would show which part of the shed gets hottest.",
       "faqs": [
         {
-          "question": "Can one report cover a long storage shed?",
-          "answer": "Yes. A multi-channel logger reads probes along the shed, so one report shows which stretch of the building runs warmest and when."
+          "question": "With a temperature data logger in Birkat Al Awamer, can one report cover a long storage shed?",
+          "answer": "Yes. A multi-channel logger reads probes along the shed, so one report shows which stretch of the building runs warmest and when.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why do goods in open yards need a logger in the load?",
@@ -8093,8 +8093,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "al-sailiya", name: "Al Sailiya", citySlug: "al-rayyan", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","food-beverage","electronics"], confirmedService: true, hero: ["dhruva","nakshatra"], page: {
-      "metaTitle": "Data Loggers in Al Sailiya, Al Rayyan | Prithvi",
-      "metaDescription": "Al Sailiya, Al Rayyan: data loggers for shops, workshops, warehouses and food stores along the road west of Doha. Get Solution to begin in Al Sailiya.",
+      "metaTitle": "Temperature Data Logger in Al Sailiya, Al Rayyan | Prithvi",
+      "metaDescription": "Al Sailiya: temperature data loggers for shops, workshops, warehouses and food stores along the road west of Doha. Get Solution to begin in Al Sailiya.",
       "intro": "Al Sailiya is a district along the road heading west out of the Doha area, where shops, workshops, warehouses and stores line the route beside open desert. A temperature data logger in a roadside district like this is concerned with stock that waits on the way into the city: food and drink, spare parts, electronics and household goods, kept in simple buildings with metal roofs and wide doors. This page keeps to the kinds of goods and rooms a logger user could look after in a roadside district of this sort. Enquiries about Al Sailiya are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8133,8 +8133,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the room holding the most heat-sensitive stock, placing one logger by the door and one at the back, then add a humidity unit where dust or damp enters. A few weeks of readings would show the hours when the room is pushed hardest.",
       "faqs": [
         {
-          "question": "Does dust affect a logger beside a desert road?",
-          "answer": "Dust from the desert coats anything left in the open, so a logger sits on a shaded inner wall clear of vents, with a battery that keeps the record running through an outage."
+          "question": "With a temperature data logger in Al Sailiya, does dust affect a logger beside a desert road?",
+          "answer": "Dust from the desert coats anything left in the open, so a logger sits on a shaded inner wall clear of vents, with a battery that keeps the record running through an outage.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Can a roadside shop with one cooler start with a single logger?",
@@ -8148,8 +8148,8 @@ export const areas: AreaDef[] = [
     } },
   // ------------------------------------------------------------------ Qatar (batch 3: Al Wakrah, Mesaieed)
   { slug: "mesaieed-industrial-city", name: "Mesaieed Industrial City", citySlug: "mesaieed", areaType: "industrial-estate", nearbyIndustries: ["chemical","laboratories","logistics-warehousing"], confirmedService: true, hero: ["virat","setu"], page: {
-      "metaTitle": "Data Loggers in Mesaieed Industrial City | Prithvi",
-      "metaDescription": "Mesaieed Industrial City, Qatar: data loggers for chemical stores, laboratories, parts warehouses and workshops. Get Solution: Mesaieed Industrial City.",
+      "metaTitle": "Temperature Data Logger in Mesaieed Industrial City",
+      "metaDescription": "Mesaieed Industrial City: temperature data loggers for chemical stores, laboratories, parts warehouses and workshops. Get Solution.",
       "intro": "Mesaieed Industrial City is the planned industrial district beside the shore at Mesaieed, a wide grid of plots, roads, stores and workshops set beside a harbour with sand dunes behind. A temperature data logger around a planned industrial city is concerned with what its support buildings hold: chemicals, lubricants and coatings with labelled limits, laboratory samples, spare parts and the food for working communities, all kept in air that is extremely hot, humid and salty. This page covers only the kinds of goods and rooms a logger user may look after in an industrial city of this sort. Enquiries about Mesaieed Industrial City are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8188,8 +8188,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the laboratory refrigerator or chemical store holding the most sensitive materials, placing one logger near the door and one at the back, and adding a humidity unit where sea air enters. Early readings would show which hours push a room outside its range.",
       "faqs": [
         {
-          "question": "Can a laboratory on an industrial estate show that a refrigerator held its range?",
-          "answer": "Yes. A logger records temperature continuously, and a dated report can be exported in PDF, Excel or CSV form for an audit or a customer."
+          "question": "With a temperature data logger in Mesaieed Industrial City, can a laboratory on an industrial estate show that a refrigerator held its range?",
+          "answer": "Yes. A logger records temperature continuously, and a dated report can be exported in PDF, Excel or CSV form for an audit or a customer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does sea air matter for stored industrial materials?",
@@ -8201,8 +8201,8 @@ export const areas: AreaDef[] = [
     } },
   // ------------------------------------------------------------------ Qatar (batch 4: Al Khor, Ras Laffan)
   { slug: "ras-laffan-industrial-city", name: "Ras Laffan Industrial City", citySlug: "ras-laffan", areaType: "industrial-estate", nearbyIndustries: ["chemical","laboratories","logistics-warehousing"], confirmedService: true, hero: ["rajmudra","setu"], page: {
-      "metaTitle": "Data Loggers in Ras Laffan Industrial City | Prithvi",
-      "metaDescription": "Ras Laffan Industrial City, Qatar: data loggers for materials stores, laboratories, workshops and canteens. Get Solution: Ras Laffan Industrial City.",
+      "metaTitle": "Temperature Data Logger in Ras Laffan Industrial City",
+      "metaDescription": "Ras Laffan Industrial City: temperature data loggers for materials stores, laboratories, workshops and canteens. Get Solution: Ras Laffan Industrial City.",
       "intro": "Ras Laffan Industrial City is the planned industrial district on the headland at Ras Laffan, a wide grid of roads, plots, stores and workshops set beside a harbour on the north-east coast. A temperature data logger around a planned industrial city is concerned with the buildings that support it: stores of materials and parts, laboratories, workshops, canteens and clinics, all in air that is extremely hot, humid and salty. The text keeps to the stock and rooms that a logger user at Ras Laffan could look after. Enquiries about Ras Laffan Industrial City are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8241,8 +8241,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the laboratory refrigerator or materials store holding the most sensitive items, placing one logger near the door and one at the back, then add a humidity unit for the instrument room. A few weeks of readings would show which hours push a room outside its range.",
       "faqs": [
         {
-          "question": "Can a laboratory on an industrial estate prove that a freezer held its range?",
-          "answer": "Yes. A logger keeps an unbroken temperature record, and a dated report can be saved as a PDF, Excel or CSV file to show an auditor or a customer how the freezer held its range."
+          "question": "With a temperature data logger in Ras Laffan Industrial City, can a laboratory on an industrial estate prove that a freezer held its range?",
+          "answer": "Yes. A logger keeps an unbroken temperature record, and a dated report can be saved as a PDF, Excel or CSV file to show an auditor or a customer how the freezer held its range.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why do measuring-instrument rooms want humidity as well as temperature?",
@@ -8254,8 +8254,8 @@ export const areas: AreaDef[] = [
     } },
   // ------------------------------------------------------------------ Qatar (batch 6: Dukhan)
   { slug: "dukhan-industrial-area", name: "Dukhan Industrial Area", citySlug: "dukhan", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["virat","nakshatra"], page: {
-      "metaTitle": "Data Loggers in Dukhan Industrial Area | Prithvi",
-      "metaDescription": "Dukhan Industrial Area, Qatar: data loggers for workshops, warehouses, parts stores and yards on the west coast. Get Solution: Dukhan Industrial Area.",
+      "metaTitle": "Temperature Data Logger in Dukhan Industrial Area, Dukhan",
+      "metaDescription": "Dukhan Industrial Area: temperature data loggers for workshops, warehouses, parts stores and yards on the west coast. Get Solution: Dukhan Industrial Area.",
       "intro": "The Dukhan Industrial Area stands on the edge of the west-coast town, a grid of workshops, warehouses, parts stores and yards set among sand and low limestone ground. A temperature data logger in a district like this is concerned with the ordinary risks of keeping goods in extreme summer heat: parts and tools stored under metal roofs, paints and chemicals with labelled limits, and food and drink for the workers who use the area. This page covers only the kinds of goods and rooms a logger user may look after in an industrial area of this sort. Enquiries about the Dukhan Industrial Area are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8294,8 +8294,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the store holding the most heat-sensitive goods, placing loggers at floor level and under the roof and one at the door, then add a humidity unit where sea air enters. Readings across a summer month would show which corner of each shed runs hottest.",
       "faqs": [
         {
-          "question": "Can one report cover a long workshop shed?",
-          "answer": "Yes. A multi-channel logger reads probes spaced along the shed, so a single report shows which stretch of the building runs warmest and at what time."
+          "question": "With a temperature data logger in Dukhan Industrial Area, can one report cover a long workshop shed?",
+          "answer": "Yes. A multi-channel logger reads probes spaced along the shed, so a single report shows which stretch of the building runs warmest and at what time.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Does sand affect a logger in an industrial yard?",
@@ -8307,8 +8307,8 @@ export const areas: AreaDef[] = [
     } },
   // ------------------------------------------------------------------ Oman (batch 1: Muscat)
   { slug: "al-khuwair", name: "Al Khuwair", citySlug: "muscat", areaType: "business-district", nearbyIndustries: ["food-beverage","pharmaceutical","data-centers"], confirmedService: true, hero: ["virat","dhruva"], page: {
-      "metaTitle": "Data Loggers in Al Khuwair, Muscat | Prithvi",
-      "metaDescription": "Al Khuwair, Muscat: data loggers for hotel kitchens, office pantries, server rooms and clinic refrigerators. Get Solution: request a plan for Al Khuwair.",
+      "metaTitle": "Temperature Data Logger in Al Khuwair, Muscat | Prithvi",
+      "metaDescription": "Al Khuwair: temperature data loggers for hotel kitchens, office pantries, server rooms and clinic refrigerators. Get Solution for Al Khuwair.",
       "intro": "Al Khuwair is a busy district of offices, hotels, restaurants, shops and clinics beside the capital's main roads, where glass-fronted buildings and low shopping parades stand side by side. For a temperature data logger the interest lies in rooms that sit far from any warehouse: basement kitchens, floor pantries, server and network cupboards and clinic fridges, all kept cool by equipment that works hard through the long summer. The text below is limited to the goods and rooms a logger user in an office and hotel district of this sort could look after. Enquiries about Al Khuwair are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8347,8 +8347,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the room whose failure would cost most, such as a hotel freezer or a server cupboard, placing one logger at the intake and one at the far wall. A first run of summer readings would show how the rooms behave after hours.",
       "faqs": [
         {
-          "question": "Can a hotel watch all of its kitchens from one login?",
-          "answer": "Yes. All of a hotel's kitchens, pantries and plant rooms can sit on one dashboard, alerts go to the engineer for each room, and the manager can export one report that covers every point."
+          "question": "With a temperature data logger in Al Khuwair, can a hotel watch all of its kitchens from one login?",
+          "answer": "Yes. All of a hotel's kitchens, pantries and plant rooms can sit on one dashboard, alerts go to the engineer for each room, and the manager can export one report that covers every point.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does a small server room want a temperature record?",
@@ -8361,8 +8361,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "al-ghubra", name: "Al Ghubra", citySlug: "muscat", areaType: "mixed-use", nearbyIndustries: ["food-beverage","pharmaceutical","hospitals-blood-banks"], confirmedService: true, hero: ["setu","nakshatra"], page: {
-      "metaTitle": "Data Loggers in Al Ghubra, Muscat | Prithvi",
-      "metaDescription": "Al Ghubra, Muscat: data loggers for shop coolers, pharmacy refrigerators, clinic stores and restaurant kitchens. Get Solution to begin in Al Ghubra.",
+      "metaTitle": "Temperature Data Logger in Al Ghubra, Muscat | Prithvi",
+      "metaDescription": "Al Ghubra: temperature data loggers for shop coolers, pharmacy refrigerators, clinic stores and restaurant kitchens. Get Solution to begin in Al Ghubra.",
       "intro": "Al Ghubra is a residential and commercial district close to the coast, where family streets, shops, clinics, schools and restaurants share the same roads. For a temperature data logger the interest lies in many small rooms rather than a few large ones: clinic vaccine fridges, pharmacy stock rooms, grocery coolers and restaurant stores, every one of them cooled by equipment that labours through the long summer. The description is limited to the goods and rooms a logger user could look after in a mixed district of this sort. Enquiries about Al Ghubra are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8401,8 +8401,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the fridge whose contents are hardest to replace, placing a probe among the contents rather than at the door, then add a second point in a dry stockroom. The first weeks of readings would show how door openings and power dips move the range.",
       "faqs": [
         {
-          "question": "Can a neighbourhood pharmacy with a single refrigerator use one logger?",
-          "answer": "Yes. A single probe with a phone alert looks after a lone fridge, and the dated log it keeps can be shown to an inspector as evidence that the unit held its range."
+          "question": "With a temperature data logger in Al Ghubra, can a neighbourhood pharmacy with a single refrigerator use one logger?",
+          "answer": "Yes. A single probe with a phone alert looks after a lone fridge, and the dated log it keeps can be shown to an inspector as evidence that the unit held its range.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Does a small dry store gain anything from a humidity reading?",
@@ -8415,8 +8415,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "ghala-industrial-area", name: "Ghala Industrial Area", citySlug: "muscat", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["rajmudra","veer"], page: {
-      "metaTitle": "Data Loggers in Ghala Industrial Area, Muscat | Prithvi",
-      "metaDescription": "Ghala Industrial Area, Muscat: data loggers for workshops, warehouses, light factories and building-material yards. Get Solution: Ghala Industrial Area.",
+      "metaTitle": "Temperature Data Logger in Ghala Industrial Area, Muscat",
+      "metaDescription": "Ghala Industrial Area: temperature data loggers for workshops, warehouses, light factories and building-material yards. Get Solution.",
       "intro": "The Ghala Industrial Area is an industrial district in the capital region, a grid of workshops, warehouses, light factories and building-material yards laid out beside main roads and the rocky foothills. For a temperature data logger the interest lies in the everyday trouble of making and keeping goods through extreme summer heat: paints and adhesives with a printed limit, food and packaging stock, and spare parts and tools under metal roofs. The description is limited to the goods and rooms a logger user could look after in an industrial area of this sort. Enquiries about Ghala are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8455,8 +8455,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the cooled room or store holding the most fragile stock, setting one logger by the door and one at the back, and adding a humidity unit where sea air gets in. A short run of summer readings would show the hours when the room is under most strain.",
       "faqs": [
         {
-          "question": "Can a small Ghala workshop keep a temperature record of its store?",
-          "answer": "Yes. One logger placed among the stock gives a continuous record, and a report for chosen dates can be saved as a PDF, Excel or CSV file whenever it is wanted."
+          "question": "With a temperature data logger in Ghala Industrial Area, can a small Ghala workshop keep a temperature record of its store?",
+          "answer": "Yes. One logger placed among the stock gives a continuous record, and a report for chosen dates can be saved as a PDF, Excel or CSV file whenever it is wanted.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why do metal-roofed units run hotter than the air outside?",
@@ -8467,8 +8467,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "sultan-qaboos-port-muttrah", name: "Sultan Qaboos Port Muttrah", citySlug: "muttrah", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["virat-pro","setu"], page: {
-      "metaTitle": "Data Loggers at Sultan Qaboos Port Muttrah | Prithvi",
-      "metaDescription": "Sultan Qaboos Port, Muscat: data loggers for quayside sheds, cold rooms and vehicles at Muttrah. Get Solution for Sultan Qaboos Port Muttrah.",
+      "metaTitle": "Temperature Data Logger in Sultan Qaboos Port Muttrah",
+      "metaDescription": "Sultan Qaboos Port, Muscat: temperature data loggers for quayside sheds, cold rooms and vehicles at Muttrah. Get Solution for Sultan Qaboos Port Muttrah.",
       "intro": "The Sultan Qaboos Port at Muttrah is the commercial harbour of the old town, set on a bay of the Gulf of Oman with bare mountains behind. Around any harbour there is waiting: food, supplies and general goods that come off a ship, stand on a quay or in a shed, and go on by road. A temperature data logger in that chain keeps a record of what the goods met on the way, in air that is hot, damp and salty. The text below is limited to the kinds of goods and rooms a logger user may look after around a harbour. Enquiries about the port area are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8507,8 +8507,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the load or cold room that is hardest to replace, putting one logger inside the cargo or beside the door and another at the far wall, then bring in a humidity unit at the point where chilled goods meet damp air. A short run of data would show how long stock really stands between stages.",
       "faqs": [
         {
-          "question": "Can a small logger travel in a carton along a harbour chain?",
-          "answer": "Yes. A logger slipped in among the cartons records the whole trip, and its report can be exported as a PDF, Excel or CSV file for whoever receives the load."
+          "question": "With a temperature data logger in Sultan Qaboos Port Muttrah, can a small logger travel in a carton along a harbour chain?",
+          "answer": "Yes. A logger slipped in among the cartons records the whole trip, and its report can be exported as a PDF, Excel or CSV file for whoever receives the load.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Does a shed beside a bay need humidity records as well as temperature?",
@@ -8520,8 +8520,8 @@ export const areas: AreaDef[] = [
     } },
   // ------------------------------------------------------------------ Oman (batch 2: Seeb)
   { slug: "muscat-international-airport", name: "Muscat International Airport", citySlug: "seeb", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","pharmaceutical","food-beverage"], confirmedService: true, hero: ["veer-pro","dhruva"], page: {
-      "metaTitle": "Data Loggers at Muscat International Airport | Prithvi",
-      "metaDescription": "Muscat International Airport, Oman: data loggers for cargo sheds, cold rooms, catering stores and vehicles. Get Solution: Muscat International Airport.",
+      "metaTitle": "Temperature Data Logger in Muscat International Airport",
+      "metaDescription": "Muscat International Airport: temperature data loggers for cargo sheds, cold rooms, catering stores and vehicles. Get Solution.",
       "intro": "Muscat International Airport lies on the north-western side of the capital region, near the coast, with the ground around it laid out for goods that come and go by air. Such a place is mostly waiting: medicines, vaccines, food and parcels that leave an aircraft, sit in a shed or a van, and move on. A temperature data logger in that chain keeps a record of what the goods met on the apron, in the cargo shed and in the vehicle, in air that is hot, humid and salty. The text below is limited to the kinds of goods and rooms a logger user may look after around an airport. Please send enquiries about Muscat International Airport through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8560,8 +8560,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the consignment or room that is hardest to replace, placing one logger in the load and a second at the far wall, then add a humidity-reading unit where chilled goods meet warm air. A short run of data would show how long goods really stand between steps.",
       "faqs": [
         {
-          "question": "Can a logger travel inside a medicine consignment along an air-freight chain?",
-          "answer": "Yes. A small logger slipped in with the boxes records the trip from first handling to last, and its report can be exported as a PDF, Excel or CSV file for whoever receives the goods, by whatever route they came."
+          "question": "Can a temperature data logger in Muscat International Airport travel inside a medicine consignment along an air-freight chain?",
+          "answer": "Yes. A small logger slipped in with the boxes records the trip from first handling to last, and its report can be exported as a PDF, Excel or CSV file for whoever receives the goods, by whatever route they came.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does the switch between shed and vehicle matter for a record?",
@@ -8573,8 +8573,8 @@ export const areas: AreaDef[] = [
     } },
   // ------------------------------------------------------------------ Oman (batch 3: Sohar)
   { slug: "sohar-industrial-estate", name: "Sohar Industrial Estate", citySlug: "sohar", areaType: "industrial-estate", nearbyIndustries: ["chemical","logistics-warehousing","food-beverage"], confirmedService: true, hero: ["virat","setu"], page: {
-      "metaTitle": "Data Loggers in Sohar Industrial Estate | Prithvi",
-      "metaDescription": "Sohar Industrial Estate, Oman: data loggers for factories, chemical stores, warehouses and workshops. Get Solution: Sohar Industrial Estate.",
+      "metaTitle": "Temperature Data Logger in Sohar Industrial Estate, Sohar",
+      "metaDescription": "Sohar Industrial Estate, Oman: temperature data loggers for factories, chemical stores, warehouses and workshops. Get Solution: Sohar Industrial Estate.",
       "intro": "The Sohar Industrial Estate lies beside the coast road near Sohar, a wide grid of plots, roads, factory halls, warehouses and workshops laid out on the flat plain. For a temperature data logger the interest lies in the everyday trouble of making and keeping goods in extreme coastal heat: chemicals and coatings with a printed limit, food and packaging stock, spare parts and materials under metal roofs. The description is limited to the goods and rooms a logger user could look after in an industrial estate of this sort. Enquiries about the Sohar Industrial Estate are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8613,8 +8613,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the store holding the most heat-sensitive material, placing loggers at floor level and under the roof and one at the door, then add a humidity unit where sea air enters. A month of summer readings would show which section of the shed runs hottest.",
       "faqs": [
         {
-          "question": "Can one report describe a long factory shed?",
-          "answer": "Yes. A multi-channel logger reads probes spaced along the shed, so one report shows which stretch of the building runs warmest and when."
+          "question": "With a temperature data logger in Sohar Industrial Estate, can one report describe a long factory shed?",
+          "answer": "Yes. A multi-channel logger reads probes spaced along the shed, so one report shows which stretch of the building runs warmest and when.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does salty air matter for materials kept near the sea?",
@@ -8627,8 +8627,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "sohar-port-and-freezone", name: "Sohar Port and Freezone", citySlug: "sohar", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["rajmudra","dhruva"], page: {
-      "metaTitle": "Data Loggers at Sohar Port and Freezone | Prithvi",
-      "metaDescription": "Sohar Port and Freezone, Oman: data loggers for quayside sheds, cold rooms, warehouses and vehicles. Get Solution: Sohar Port and Freezone.",
+      "metaTitle": "Temperature Data Logger in Sohar Port and Freezone, Sohar",
+      "metaDescription": "Sohar Port and Freezone, Oman: temperature data loggers for quayside sheds, cold rooms, warehouses and vehicles. Get Solution: Sohar Port and Freezone.",
       "intro": "The Sohar Port and Freezone lies beside the coast on the Gulf of Oman, a flat expanse of quays, yards and warehouse plots where goods wait between a ship and the road. Around any port and free zone there is waiting: food, supplies and general goods that come off a vessel, stand in a stack or a shed, and go on by lorry. For a temperature data logger the interest is the record of what that stock endured, in air that is hot, damp and salty, between the hold and the customer. The text below is limited to the kinds of goods and rooms a logger user may look after around a port and free zone. Enquiries about the port and freezone are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8667,8 +8667,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the load or cold room that is hardest to replace, placing one logger in the cargo or beside the door and another at the far wall, then add a humidity unit where chilled goods meet damp air. A few weeks of readings would show how long stock sits between one stage and the next.",
       "faqs": [
         {
-          "question": "Can a small logger ride in a carton through a port chain?",
-          "answer": "Yes. A small logger packed with the cartons keeps a record of the entire journey, and the report can be saved as a PDF, Excel or CSV file for the person receiving the load."
+          "question": "With a temperature data logger in Sohar Port and Freezone, can a small logger ride in a carton through a port chain?",
+          "answer": "Yes. A small logger packed with the cartons keeps a record of the entire journey, and the report can be saved as a PDF, Excel or CSV file for the person receiving the load.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does stacked cargo in the open matter for a record?",
@@ -8682,8 +8682,8 @@ export const areas: AreaDef[] = [
     } },
   // ------------------------------------------------------------------ Oman (batch 4: Barka)
   { slug: "barka-industrial-area", name: "Barka Industrial Area", citySlug: "barka", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["virat","setu"], page: {
-      "metaTitle": "Data Loggers in Barka Industrial Area | Prithvi",
-      "metaDescription": "Barka Industrial Area, Oman: data loggers for workshops, warehouses, light factories and building-material yards. Get Solution: Barka Industrial Area.",
+      "metaTitle": "Temperature Data Logger in Barka Industrial Area, Barka",
+      "metaDescription": "Barka Industrial Area: temperature data loggers for workshops, warehouses, light factories and building-material yards. Get Solution.",
       "intro": "The Barka Industrial Area lies beside the coast road at Barka, a grid of workshops, warehouses, light factories and building-material yards laid out on the flat plain. For a temperature data logger the interest lies in the everyday trouble of making and keeping goods in extreme coastal heat: sealants and paints with a printed limit, food and packaging stock, and spare parts and tools under metal roofs. What follows covers only the stock and rooms that a logger user at Barka could look after. Enquiries about the Barka Industrial Area are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8722,8 +8722,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the cooled room or store holding the most fragile stock, setting one logger by the door and one at the back, and adding a humidity unit where sea air gets in. A short run of summer readings would show which hours the room is under most strain.",
       "faqs": [
         {
-          "question": "Can a small Barka workshop keep a temperature record of its store?",
-          "answer": "Yes. A logger placed among the stock gives a continuous record, and a report for chosen dates can be exported as a PDF, Excel or CSV file whenever it is wanted."
+          "question": "With a temperature data logger in Barka Industrial Area, can a small Barka workshop keep a temperature record of its store?",
+          "answer": "Yes. A logger placed among the stock gives a continuous record, and a report for chosen dates can be exported as a PDF, Excel or CSV file whenever it is wanted.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does a unit under a metal roof read hotter than the open air?",
@@ -8735,8 +8735,8 @@ export const areas: AreaDef[] = [
     } },
   // ------------------------------------------------------------------ Oman (batch 5: Nizwa, Ibri, Buraimi)
   { slug: "nizwa-industrial-estate", name: "Nizwa Industrial Estate", citySlug: "nizwa", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["virat","setu"], page: {
-      "metaTitle": "Data Loggers in Nizwa Industrial Estate | Prithvi",
-      "metaDescription": "Nizwa Industrial Estate, Oman: data loggers for workshops, warehouses, light factories and building-material yards. Get Solution: Nizwa Industrial Estate.",
+      "metaTitle": "Temperature Data Logger in Nizwa Industrial Estate, Nizwa",
+      "metaDescription": "Nizwa Industrial Estate: temperature data loggers for workshops, warehouses, light factories and building-material yards. Get Solution.",
       "intro": "The Nizwa Industrial Estate lies beside the road near Nizwa, a grid of workshops, warehouses, light factories and building-material yards laid out on the flat plain below the mountains. For a temperature data logger the interest lies in the daily trouble of making and keeping goods through fierce dry heat and cold winter nights: paints and adhesives with a printed limit, food and sweets packaging, and spare parts and tools under metal roofs. What follows covers only the stock and rooms that a logger user on the Nizwa estate could look after. Enquiries about the Nizwa Industrial Estate are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8775,8 +8775,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the cooled room or store holding the most fragile stock, setting one logger by the door and one at the back and adding a humidity unit where dust or damp gets in. A short run of readings across a hot week and a cold one would show how the room swings.",
       "faqs": [
         {
-          "question": "Can a small Nizwa workshop keep a record of its store temperature?",
-          "answer": "Yes. One logger kept with the goods builds an unbroken record, and a report for the dates you choose can be saved as a PDF, Excel or CSV file at any time."
+          "question": "With a temperature data logger in Nizwa Industrial Estate, can a small Nizwa workshop keep a record of its store temperature?",
+          "answer": "Yes. One logger kept with the goods builds an unbroken record, and a report for the dates you choose can be saved as a PDF, Excel or CSV file at any time.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Do cold winter nights matter for stored paints and glues?",
@@ -8787,8 +8787,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "ibri-industrial-area", name: "Ibri Industrial Area", citySlug: "ibri", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["rajmudra","veer"], page: {
-      "metaTitle": "Data Loggers in Ibri Industrial Area | Prithvi",
-      "metaDescription": "Ibri Industrial Area, Oman: data loggers for workshops, warehouses, parts stores and building-material yards. Get Solution to cover Ibri Industrial Area.",
+      "metaTitle": "Temperature Data Logger in Ibri Industrial Area, Ibri",
+      "metaDescription": "Ibri Industrial Area: temperature data loggers for workshops, warehouses, parts stores and building-material yards. Get Solution for Ibri Industrial Area.",
       "intro": "The Ibri Industrial Area stands on the open gravel plain beside Ibri, a grid of workshops, warehouses, parts stores and building-material yards with hills in the distance. For a temperature data logger the interest lies in the everyday trouble of keeping goods through desert summer heat: parts and tools under metal roofs, paints and chemicals with a printed limit, and food and drink for people who work there. The page deals only with the stock and rooms that a logger user at Ibri could look after. Enquiries about the Ibri Industrial Area are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8827,8 +8827,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the store holding the most heat-sensitive goods, placing loggers at floor level and under the roof and one at the door, then mount each body out of the sand and the sun. A few weeks of summer readings would show which part of the shed gets hottest.",
       "faqs": [
         {
-          "question": "Can one report cover a long workshop shed on the plain?",
-          "answer": "Yes. A multi-channel unit takes readings from probes placed along the shed, so a single report shows which stretch of the building is warmest and at what hour."
+          "question": "With a temperature data logger in Ibri Industrial Area, can one report cover a long workshop shed on the plain?",
+          "answer": "Yes. A multi-channel unit takes readings from probes placed along the shed, so a single report shows which stretch of the building is warmest and at what hour.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Does wind-blown sand affect a logger in an exposed yard?",
@@ -8839,8 +8839,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "buraimi-industrial-area", name: "Buraimi Industrial Area", citySlug: "buraimi", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["nakshatra","virat"], page: {
-      "metaTitle": "Data Loggers in Buraimi Industrial Area | Prithvi",
-      "metaDescription": "Buraimi Industrial Area, Oman: data loggers for workshops, warehouses, light factories and building-material yards. Get Solution: Buraimi Industrial Area.",
+      "metaTitle": "Temperature Data Logger in Buraimi Industrial Area, Buraimi",
+      "metaDescription": "Buraimi Industrial Area: temperature data loggers for workshops, warehouses, light factories and building-material yards. Get Solution.",
       "intro": "The Buraimi Industrial Area lies beside the roads of Buraimi, a flat grid of workshops, warehouses, light factories and building-material yards set among gravel and low hills. For a temperature data logger the interest lies in the everyday trouble of making and keeping goods in dry inland heat: sealants and paints with a printed limit, food and packaging stock, and tools and parts under metal roofs. Only the stock and rooms that a logger user at Buraimi could look after are described here. Enquiries about the Buraimi Industrial Area are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8879,8 +8879,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the cooled room or store holding the most fragile stock, putting one logger by the door and one at the back and adding a humidity unit where cold rooms meet warm air. A first run of summer readings would show the hours when the room is under most strain.",
       "faqs": [
         {
-          "question": "Can a small Buraimi wholesaler keep a record of a chilled room?",
-          "answer": "Yes. A logger in the room records day and night, and a report for chosen dates can be exported as a PDF, Excel or CSV file for a customer."
+          "question": "With a temperature data logger in Buraimi Industrial Area, can a small Buraimi wholesaler keep a record of a chilled room?",
+          "answer": "Yes. A logger in the room records day and night, and a report for chosen dates can be exported as a PDF, Excel or CSV file for a customer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why do metal-roofed units get so much hotter than the air outside?",
@@ -8892,8 +8892,8 @@ export const areas: AreaDef[] = [
     } },
   // ------------------------------------------------------------------ Oman (batch 6: Salalah, Duqm)
   { slug: "salalah-free-zone", name: "Salalah Free Zone", citySlug: "salalah", areaType: "mixed-use", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["virat","setu"], page: {
-      "metaTitle": "Data Loggers in Salalah Free Zone | Prithvi",
-      "metaDescription": "Salalah Free Zone, Oman: data loggers for warehouse units, stock rooms and offices beside the port at Raysut. Use Get Solution to plan Salalah Free Zone.",
+      "metaTitle": "Temperature Data Logger in Salalah Free Zone, Salalah",
+      "metaDescription": "Salalah Free Zone: temperature data loggers for warehouse units, stock rooms and offices beside the port at Raysut. Get Solution for Salalah Free Zone.",
       "intro": "The Salalah Free Zone lies beside the port at Raysut, west of the city, a compact set of warehouse units, offices and light-industrial plots with the sea close at hand and the hills behind. For a temperature data logger the interest lies in the stock that small trading and making firms keep to hand: food and packaging, materials with printed limits, and household goods, all held in air that is warm, salty and in the monsoon weeks very damp. The text below is limited to the stock and rooms a logger user in the Salalah Free Zone could look after. Enquiries about the Salalah Free Zone are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8932,8 +8932,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the room whose contents are hardest to replace, placing one logger near the door and one at the back and adding a humidity unit where dry goods are kept. A run of readings across a damp spell and a dry one would show how the room swings.",
       "faqs": [
         {
-          "question": "Can a small firm renting one unit start with a single logger?",
-          "answer": "Yes. One logger in one room is plenty for a first step, and the same dashboard can take further points as the firm grows."
+          "question": "With a temperature data logger in Salalah Free Zone, can a small firm renting one unit start with a single logger?",
+          "answer": "Yes. One logger in one room is plenty for a first step, and the same dashboard can take further points as the firm grows.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does a free-zone store near the sea need a humidity reading?",
@@ -8946,8 +8946,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "raysut-industrial-estate", name: "Raysut Industrial Estate", citySlug: "salalah", areaType: "industrial-estate", nearbyIndustries: ["chemical","logistics-warehousing","food-beverage"], confirmedService: true, hero: ["rajmudra","dhruva"], page: {
-      "metaTitle": "Data Loggers in Raysut Industrial Estate | Prithvi",
-      "metaDescription": "Raysut Industrial Estate, Salalah: data loggers for factories, workshops, warehouses and chemical stores. Get Solution to cover Raysut Industrial Estate.",
+      "metaTitle": "Temperature Data Logger in Raysut Industrial Estate, Salalah",
+      "metaDescription": "Raysut Industrial Estate: temperature data loggers for factories, workshops, warehouses and chemical stores. Get Solution for Raysut Industrial Estate.",
       "intro": "The Raysut Industrial Estate stands on the coastal plain at Raysut, west of Salalah, a grid of factory halls, workshops, warehouses and stores laid out beside the sea and the main road. For a temperature data logger the interest lies in the everyday trouble of making and keeping goods where the air is warm, salty and for weeks each summer very damp: chemicals and coatings with a printed limit, food and packaging stock, and spare parts and tools under metal roofs. The description is limited to the stock and rooms that a logger user on the estate could look after. Enquiries about the Raysut Industrial Estate are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -8986,8 +8986,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the store holding the most sensitive material, placing loggers at floor level and under the roof and one at the door, and add a humidity unit because the damp weeks matter as much as the heat. A month of readings would show which section of the shed runs hottest and dampest.",
       "faqs": [
         {
-          "question": "Can one report describe a long factory shed near the sea?",
-          "answer": "Yes. A multi-channel logger reads probes spaced along the shed, so one report shows which stretch of the building runs warmest or dampest and when."
+          "question": "With a temperature data logger in Raysut Industrial Estate, can one report describe a long factory shed near the sea?",
+          "answer": "Yes. A multi-channel logger reads probes spaced along the shed, so one report shows which stretch of the building runs warmest or dampest and when.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why do monsoon weeks matter for stored chemicals and packaging?",
@@ -8998,8 +8998,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "port-of-salalah", name: "Port of Salalah", citySlug: "salalah", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["nakshatra","virat"], page: {
-      "metaTitle": "Data Loggers at the Port of Salalah | Prithvi",
-      "metaDescription": "Port of Salalah, Oman: data loggers for quayside sheds, cold rooms, container stacks and vehicles at Raysut. Get Solution to begin in Port of Salalah.",
+      "metaTitle": "Temperature Data Logger in Port of Salalah, Salalah",
+      "metaDescription": "Port of Salalah: temperature data loggers for quayside sheds, cold rooms, container stacks and vehicles at Raysut. Get Solution for Port of Salalah.",
       "intro": "The Port of Salalah is the container harbour at Raysut on the Arabian Sea, west of the city, with a flat apron of quays, stacks and yards between the water and the hills. What matters to a temperature data logger here is the long wait that follows a sea voyage: cargo that comes off a vessel, rests in a stack or a shed, and moves on by lorry, in warm, salty air that turns very damp for several weeks each summer. Only the stock and rooms that a logger user at Raysut could look after are described here. Please send enquiries about Salalah's port through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -9038,8 +9038,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the load or cold room that is hardest to replace, placing one logger in the cargo or beside the door and another at the far wall, then add a humidity unit because damp is a risk here as much as heat. A short run of data would show how long stock really sits between stages.",
       "faqs": [
         {
-          "question": "Can a small logger ride inside a carton through a port chain?",
-          "answer": "Yes. A logger packed with the cartons keeps a record of the entire journey, and the report can be saved as a PDF, Excel or CSV file for whoever receives the load."
+          "question": "With a temperature data logger in Port of Salalah, can a small logger ride inside a carton through a port chain?",
+          "answer": "Yes. A logger packed with the cartons keeps a record of the entire journey, and the report can be saved as a PDF, Excel or CSV file for whoever receives the load.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does stacked cargo need humidity records in the monsoon weeks?",
@@ -9052,8 +9052,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "duqm-special-economic-zone", name: "Duqm Special Economic Zone", citySlug: "duqm", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["veer-pro","setu"], page: {
-      "metaTitle": "Data Loggers in Duqm Special Economic Zone | Prithvi",
-      "metaDescription": "Duqm Special Economic Zone, Oman: data loggers for warehouse plots, stores, workshops and cold rooms. Get Solution to begin in Duqm Special Economic Zone.",
+      "metaTitle": "Temperature Data Logger in Duqm Special Economic Zone, Duqm",
+      "metaDescription": "Duqm Special Economic Zone: temperature data loggers for warehouse plots, stores, workshops and cold rooms. Get Solution for Duqm Special Economic Zone.",
       "intro": "The Duqm Special Economic Zone is an area of plots, roads, warehouses and workshops laid out on the flat ground behind the Duqm shore, with wide gravel plains on one side and the sea on the other. For a temperature data logger the interest lies in whatever its plots happen to hold: construction materials, spare parts, food for working communities and chilled stock that has travelled a very long way. The description is limited to the goods and rooms a logger user could look after in a zone of this sort. Enquiries about the zone are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -9092,8 +9092,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the hall or cold room holding the most sensitive stock, using a multi-point unit along its length and a probe logger at the door, then add humidity reading where cold air meets the warm outside. Readings through a summer month would show which end of each hall runs hottest.",
       "faqs": [
         {
-          "question": "Can one report cover a very long storage hall?",
-          "answer": "Yes. A multi-channel logger reads probes spaced along the hall, so a single report shows which stretch of the building runs warmest and at what time."
+          "question": "With a temperature data logger in Duqm Special Economic Zone, can one report cover a very long storage hall?",
+          "answer": "Yes. A multi-channel logger reads probes spaced along the hall, so a single report shows which stretch of the building runs warmest and at what time.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does a remote zone want batteries in its loggers?",
@@ -9106,8 +9106,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "port-of-duqm", name: "Port of Duqm", citySlug: "duqm", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["rajmudra","virat-pro"], page: {
-      "metaTitle": "Data Loggers at the Port of Duqm | Prithvi",
-      "metaDescription": "Port of Duqm, Oman: data loggers for quayside sheds, cold rooms, container stacks and vehicles on the Arabian Sea. Use Get Solution for Port of Duqm.",
+      "metaTitle": "Temperature Data Logger in Port of Duqm, Duqm | Prithvi",
+      "metaDescription": "Port of Duqm: temperature data loggers for quayside sheds, cold rooms, container stacks and vehicles on the Arabian Sea. Use Get Solution for Port of Duqm.",
       "intro": "The Port of Duqm is the commercial harbour of the young coastal town, set on an open stretch of the Arabian Sea with wide gravel plains behind. What matters to a temperature data logger here is the waiting between a ship and a very long road: food, supplies and general goods that come off a vessel, stand in a stack or a shed, and then set off across the desert, in dry heat and strong, salty wind. The page deals only with the stock and rooms that a logger user at Duqm could look after. Enquiries about the Duqm port are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -9146,8 +9146,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the load or cold room that is hardest to replace, placing one logger in the cargo or beside the door and another at the far wall, then add a humidity unit where chilled goods meet warm air. Several weeks of readings would show how long goods wait between each stage of a trip to the interior.",
       "faqs": [
         {
-          "question": "Can a small logger ride in a carton through a remote port chain?",
-          "answer": "Yes. A logger tucked into the load keeps a record of the entire trip, and the report can be exported as a PDF, Excel or CSV file for the person who receives it."
+          "question": "With a temperature data logger in Port of Duqm, can a small logger ride in a carton through a remote port chain?",
+          "answer": "Yes. A logger tucked into the load keeps a record of the entire trip, and the report can be exported as a PDF, Excel or CSV file for the person who receives it.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does a very long road journey make a load record more useful?",
@@ -9161,8 +9161,8 @@ export const areas: AreaDef[] = [
     } },
   // ------------------------------------------------------------------ Oman (batch 7: Sur)
   { slug: "sur-industrial-estate", name: "Sur Industrial Estate", citySlug: "sur", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["virat","setu"], page: {
-      "metaTitle": "Data Loggers in Sur Industrial Estate | Prithvi",
-      "metaDescription": "Sur Industrial Estate, Oman: data loggers for workshops, warehouses, light factories and building-material yards. Get Solution: Sur Industrial Estate.",
+      "metaTitle": "Temperature Data Logger in Sur Industrial Estate, Sur",
+      "metaDescription": "Sur Industrial Estate: temperature data loggers for workshops, warehouses, light factories and building-material yards. Get Solution.",
       "intro": "The Sur Industrial Estate lies beside the road near Sur, a grid of workshops, warehouses, light factories and building-material yards laid out on the coastal plain behind low hills. For a temperature data logger the interest lies in the daily trouble of keeping goods in hot, salty, humid air: sealants and paints with a printed limit, timber and fittings that take on damp, and food and packaging stock for the town. The text below is limited to the goods and rooms a logger user could look after in an industrial estate of this sort. Enquiries about the Sur Industrial Estate are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -9201,8 +9201,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the cooled room or store holding the most fragile stock, putting one logger by the door and one at the back and adding a humidity unit because salt damp matters as much as heat. A few weeks of readings would show which hours press hardest on the room.",
       "faqs": [
         {
-          "question": "Can a small Sur workshop keep a record of its store temperature?",
-          "answer": "Yes. One logger kept among the goods builds an unbroken record, and a report for the dates you choose can be saved as a PDF, Excel or CSV file at any time."
+          "question": "With a temperature data logger in Sur Industrial Estate, can a small Sur workshop keep a record of its store temperature?",
+          "answer": "Yes. One logger kept among the goods builds an unbroken record, and a report for the dates you choose can be saved as a PDF, Excel or CSV file at any time.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why do timber and tile yards need a humidity reading?",
@@ -9214,8 +9214,8 @@ export const areas: AreaDef[] = [
     } },
   // ------------------------------------------------------------------ Kuwait (batch 1: Kuwait City)
   { slug: "shuwaikh-industrial-area", name: "Shuwaikh Industrial Area", citySlug: "kuwait-city", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","electronics","chemical"], confirmedService: true, hero: ["virat","dhruva"], page: {
-      "metaTitle": "Data Loggers in Shuwaikh Industrial Area, Kuwait | Prithvi",
-      "metaDescription": "Shuwaikh Industrial Area, Kuwait City: data loggers for workshops, warehouses, spare-parts shops, light factories. Get Solution: Shuwaikh Industrial Area.",
+      "metaTitle": "Temperature Data Logger in Shuwaikh Industrial Area",
+      "metaDescription": "Shuwaikh Industrial Area: temperature data loggers for workshops, warehouses, spare-parts shops, light factories. Get Solution: Shuwaikh Industrial Area.",
       "intro": "The Shuwaikh Industrial Area lies west of Kuwait City's centre, a dense grid of workshops, warehouses, spare-parts shops, light factories and yards laid out on flat ground between the main roads and the bay. For a temperature data logger the interest lies in the everyday trouble of keeping goods through blazing summer heat: electronic parts and batteries, paints and adhesives with a printed limit, food and packaging stock, and tools under metal roofs. The text below is limited to the goods and rooms a logger user could look after in an industrial area of this sort. Enquiries about the Shuwaikh Industrial Area are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -9254,8 +9254,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the cooled room or store holding the most fragile stock, putting one logger by the door and one at the back, and adding a humidity unit where bay air enters. Readings over a few summer weeks would show at which hours of the day the room comes under most strain.",
       "faqs": [
         {
-          "question": "Can a small Shuwaikh workshop keep a temperature record of its store?",
-          "answer": "Yes. One logger set among the stock keeps a record through day and night, and a report for any dates can be exported as a PDF, Excel or CSV file."
+          "question": "With a temperature data logger in Shuwaikh Industrial Area, can a small Shuwaikh workshop keep a temperature record of its store?",
+          "answer": "Yes. One logger set among the stock keeps a record through day and night, and a report for any dates can be exported as a PDF, Excel or CSV file.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Can the inside of a roofed unit be hotter than the street outside?",
@@ -9268,8 +9268,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "shuwaikh-port", name: "Shuwaikh Port", citySlug: "kuwait-city", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["setu","nakshatra"], page: {
-      "metaTitle": "Data Loggers at Shuwaikh Port, Kuwait | Prithvi",
-      "metaDescription": "Shuwaikh Port, Kuwait City: data loggers for quayside sheds, cold rooms, container stacks and vehicles. Get Solution and plan your Shuwaikh Port sites.",
+      "metaTitle": "Temperature Data Logger in Shuwaikh Port, Kuwait City",
+      "metaDescription": "Shuwaikh Port: temperature data loggers for quayside sheds, cold rooms, container stacks and vehicles. Get Solution and plan your Shuwaikh Port sites.",
       "intro": "Shuwaikh Port is the commercial harbour on the western side of Kuwait City, set on the shore of Kuwait Bay with the industrial area behind it. Cargo that reaches a harbour spends much of its time standing still, and for a temperature data logger the question is what the stock endured while it stood: heat from the sun, hot hazy air by the bay, and the swing between a cooled hall and an open quay. Everything on this page is limited to the kinds of goods and rooms a logger user may look after at a harbour. Enquiries about Shuwaikh Port are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -9308,8 +9308,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the load or hall that is hardest to replace, placing one logger inside the cargo or beside the door and another on the far wall, then add a humidity unit where chilled goods meet damp bay air. A few weeks of data would show how long stock really waits between one stage and the next.",
       "faqs": [
         {
-          "question": "Can a small logger go inside a carton and follow it through a harbour chain?",
-          "answer": "Yes. A logger packed in with the cartons records the entire journey, and its report can be exported as a PDF, Excel or CSV file for whoever receives the load."
+          "question": "With a temperature data logger in Shuwaikh Port, can a small logger go inside a carton and follow it through a harbour chain?",
+          "answer": "Yes. A logger packed in with the cartons records the entire journey, and its report can be exported as a PDF, Excel or CSV file for whoever receives the load.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why do stacks of boxes in strong sun deserve their own record?",
@@ -9323,8 +9323,8 @@ export const areas: AreaDef[] = [
     } },
   // ------------------------------------------------------------------ Kuwait (batch 3: Farwaniya)
   { slug: "ardiya-industrial-area", name: "Ardiya Industrial Area", citySlug: "farwaniya", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","electronics"], confirmedService: true, hero: ["virat","veer"], page: {
-      "metaTitle": "Data Loggers in Ardiya Industrial Area, Kuwait | Prithvi",
-      "metaDescription": "Ardiya Industrial Area, Kuwait: data loggers for workshops, warehouses, light factories and yards in Farwaniya. Get Solution: Ardiya Industrial Area.",
+      "metaTitle": "Temperature Data Logger in Ardiya Industrial Area, Farwaniya",
+      "metaDescription": "Ardiya Industrial Area: temperature data loggers for workshops, warehouses, light factories and yards in Farwaniya. Get Solution: Ardiya Industrial Area.",
       "intro": "The Ardiya Industrial Area lies on flat ground inland of the capital, near Farwaniya, a grid of workshops, warehouses, light factories and storage yards with wide roads between them. For a temperature data logger the interest lies in the everyday trouble of keeping goods through blazing, dusty summers: spare parts and electronics, sealants and paints with a printed limit, and food and packaging stock held under metal roofs. What follows covers only the stock and rooms that a logger user at Ardiya could look after. Enquiries about the Ardiya Industrial Area are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -9363,8 +9363,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the store holding the most heat-sensitive goods, placing loggers at floor level and under the roof and one at the door, then mount each body out of the dust and the sun. A month of summer readings would show which corner of the shed gets hottest.",
       "faqs": [
         {
-          "question": "Can one report cover a long fabrication shed?",
-          "answer": "Yes. A multi-channel unit reads probes spaced along the shed, so a single report shows which stretch of the building runs warmest and at what hour."
+          "question": "With a temperature data logger in Ardiya Industrial Area, can one report cover a long fabrication shed?",
+          "answer": "Yes. A multi-channel unit reads probes spaced along the shed, so a single report shows which stretch of the building runs warmest and at what hour.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Does dust affect a logger in an industrial yard?",
@@ -9377,8 +9377,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "al-rai-industrial-area", name: "Al Rai Industrial Area", citySlug: "farwaniya", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","food-beverage","chemical"], confirmedService: true, hero: ["rajmudra","setu"], page: {
-      "metaTitle": "Data Loggers in Al Rai Industrial Area, Kuwait | Prithvi",
-      "metaDescription": "Al Rai Industrial Area, Kuwait: data loggers for wholesalers, workshops and warehouses near Farwaniya. Get Solution to begin in Al Rai Industrial Area.",
+      "metaTitle": "Temperature Data Logger in Al Rai Industrial Area, Farwaniya",
+      "metaDescription": "Al Rai Industrial Area: temperature data loggers for wholesalers, workshops and warehouses near Farwaniya. Get Solution to begin in Al Rai Industrial Area.",
       "intro": "The Al Rai Industrial Area is a trading and workshop district on the northern side of the inland belt, near Farwaniya, where wholesalers, workshops and warehouses stand in rows along wide roads. For a temperature data logger the interest lies in the stock that wholesalers keep to hand through blazing, dusty summers: food and drink in bulk, household goods, tools, materials with printed limits and the vehicles that carry them. The description is limited to the goods and rooms a logger user could look after in a district of this sort. Enquiries about the Al Rai Industrial Area are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -9417,8 +9417,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the cooled room holding the most perishable stock, placing one logger by the door and one at the back, then add a humidity unit where cold air meets the dusty heat outside. Readings across the first hot weeks would show at which hours of the day the room comes under most strain.",
       "faqs": [
         {
-          "question": "Can a small wholesaler keep a record of a chilled room?",
-          "answer": "Yes. One logger kept in the room logs through day and night, and a report for dates you choose can be saved as a PDF, Excel or CSV file for a customer."
+          "question": "With a temperature data logger in Al Rai Industrial Area, can a small wholesaler keep a record of a chilled room?",
+          "answer": "Yes. One logger kept in the room logs through day and night, and a report for dates you choose can be saved as a PDF, Excel or CSV file for a customer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why record the early-morning loading hours?",
@@ -9431,8 +9431,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "kuwait-international-airport", name: "Kuwait International Airport", citySlug: "farwaniya", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","pharmaceutical","food-beverage"], confirmedService: true, hero: ["nakshatra","virat-pro"], page: {
-      "metaTitle": "Data Loggers at Kuwait International Airport | Prithvi",
-      "metaDescription": "Kuwait International Airport, Kuwait: data loggers for cargo sheds, cold rooms, catering stores and vehicles. Get Solution: Kuwait International Airport.",
+      "metaTitle": "Temperature Data Logger in Kuwait International Airport",
+      "metaDescription": "Kuwait International Airport: temperature data loggers for cargo sheds, cold rooms, catering stores and vehicles. Get Solution.",
       "intro": "Kuwait International Airport stands on flat open ground inland of the capital, near Farwaniya, with broad approaches and large sheds around it. Goods that travel by air spend much of their journey standing still, and for a temperature data logger the question is how warm that standing time was: on the apron, in a cargo shed, in a waiting van. In summer the answer is often blazing and dusty. Everything on this page is limited to the kinds of goods and rooms a logger user may look after around an airport. Enquiries about Kuwait International Airport are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -9471,8 +9471,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the consignment or room that is hardest to replace, putting one logger inside the load and another on the far wall, then add humidity reading where chilled stock meets warm air. A few weeks of data would show how long goods really wait between handovers.",
       "faqs": [
         {
-          "question": "Can a logger ride inside a medicine consignment all the way from aircraft to pharmacy?",
-          "answer": "Yes. A small logger tucked in with the boxes keeps a record from first handling to last, and the report can be saved as a PDF, Excel or CSV file for the receiver."
+          "question": "Can a temperature data logger in Kuwait International Airport ride inside a medicine consignment all the way from aircraft to pharmacy?",
+          "answer": "Yes. A small logger tucked in with the boxes keeps a record from first handling to last, and the report can be saved as a PDF, Excel or CSV file for the receiver.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does the step from a cool hall into a van in the sun deserve a record?",
@@ -9483,8 +9483,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "jleeb-al-shuyoukh-warehouses", name: "Jleeb Al-Shuyoukh Warehouses", citySlug: "jleeb-al-shuyoukh", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","electronics"], confirmedService: true, hero: ["dhruva","virat"], page: {
-      "metaTitle": "Data Loggers in Jleeb Al-Shuyoukh Warehouses | Prithvi",
-      "metaDescription": "Jleeb Al-Shuyoukh Warehouses, Kuwait: data loggers for wholesale warehouses, cold rooms and stockrooms. Get Solution to cover Jleeb Al-Shuyoukh Warehouses.",
+      "metaTitle": "Temperature Data Logger in Jleeb Al-Shuyoukh Warehouses",
+      "metaDescription": "Jleeb Al-Shuyoukh Warehouses: temperature data loggers for wholesale warehouses, cold rooms and stockrooms. Get Solution for Jleeb Al-Shuyoukh Warehouses.",
       "intro": "The Jleeb Al-Shuyoukh Warehouses are the cluster of wholesale stores, stockrooms and storage sheds packed between apartment blocks and market streets in Jleeb Al-Shuyoukh, with trucks loading and unloading in narrow lanes. For a temperature data logger the interest lies in goods stacked tightly and handled in bulk through blazing, dusty summers: food and drink, household goods, electronics and appliances. The text below is limited to the goods and rooms a logger user could look after in a warehouse district of this sort. Enquiries about the Jleeb Al-Shuyoukh Warehouses are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -9523,8 +9523,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the cold room or the tallest stack, placing probes at floor, mid and roof height and one at the door, then add humidity reading in the electronics stockroom. A month of readings would show how much hotter the top of a stack becomes than the bottom.",
       "faqs": [
         {
-          "question": "Why do tall stacks need probes at more than one height?",
-          "answer": "Warm air rises to the roof while the floor stays cooler, so probes at different heights show how hot the upper pallets became while the lower ones stayed cool."
+          "question": "With a temperature data logger in Jleeb Al-Shuyoukh Warehouses, why do tall stacks need probes at more than one height?",
+          "answer": "Warm air rises to the roof while the floor stays cooler, so probes at different heights show how hot the upper pallets became while the lower ones stayed cool.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Can a small stockroom among apartment blocks use a single logger?",
@@ -9536,8 +9536,8 @@ export const areas: AreaDef[] = [
     } },
   // ------------------------------------------------------------------ Kuwait (batch 5: Ahmadi areas)
   { slug: "shuaiba-industrial-area", name: "Shuaiba Industrial Area", citySlug: "ahmadi", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["virat","setu"], page: {
-      "metaTitle": "Data Loggers in Shuaiba Industrial Area, Kuwait | Prithvi",
-      "metaDescription": "Shuaiba Industrial Area, Kuwait: data loggers for factories, workshops, warehouses and yards near Ahmadi. Get Solution to begin in Shuaiba Industrial Area.",
+      "metaTitle": "Temperature Data Logger in Shuaiba Industrial Area, Ahmadi",
+      "metaDescription": "Shuaiba Industrial Area: temperature data loggers for factories, workshops, warehouses and yards near Ahmadi. Get Solution for Shuaiba Industrial Area.",
       "intro": "The Shuaiba Industrial Area is a large industrial district on flat coastal ground north of Ahmadi, a grid of factories, workshops, warehouses and storage yards with wide roads between them. For a temperature data logger the interest lies in the ordinary trouble of keeping goods through blazing summers and humid shore air: sealants and paints with a printed limit, food and packaging stock, spare parts, and materials under metal roofs. Only the stock and rooms that a logger user on the Shuaiba estate could look after are described here. Enquiries about the Shuaiba Industrial Area are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -9576,8 +9576,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the store holding the most sensitive material, placing loggers at floor level and under the roof and one at the door, and add a humidity unit because shore damp matters as much as heat. A month of readings would show which section of the shed runs hottest.",
       "faqs": [
         {
-          "question": "Can one report cover a long factory shed near the sea?",
-          "answer": "Yes. A multi-channel logger reads probes spaced along the shed, so one report shows which stretch of the building runs warmest and at what hour."
+          "question": "With a temperature data logger in Shuaiba Industrial Area, can one report cover a long factory shed near the sea?",
+          "answer": "Yes. A multi-channel logger reads probes spaced along the shed, so one report shows which stretch of the building runs warmest and at what hour.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does shore air matter for stored coatings and packaging?",
@@ -9590,8 +9590,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "shuaiba-port", name: "Shuaiba Port", citySlug: "ahmadi", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["rajmudra","dhruva"], page: {
-      "metaTitle": "Data Loggers at Shuaiba Port, Kuwait | Prithvi",
-      "metaDescription": "Shuaiba Port, Kuwait: data loggers for quayside sheds, cold rooms, container stacks and vehicles near Ahmadi. Get Solution to begin in Shuaiba Port.",
+      "metaTitle": "Temperature Data Logger in Shuaiba Port, Ahmadi | Prithvi",
+      "metaDescription": "Shuaiba Port: temperature data loggers for quayside sheds, cold rooms, container stacks and vehicles near Ahmadi. Get Solution to begin in Shuaiba Port.",
       "intro": "Shuaiba Port is a commercial harbour on the coast north of Ahmadi, laid out on flat ground with broad yards between the water and the industrial estate behind. Goods that come through a harbour stand about for long stretches, and a temperature data logger exists to answer one question about those stretches: how warm did the stock get while it waited? Strong sun, hazy shore air and the contrast between a cooled hall and an open quay all play a part. The description is limited to the goods and rooms a logger user may look after at a harbour. Enquiries about Shuaiba Port are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -9630,8 +9630,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the load or hall that is hardest to replace, placing one logger in the cargo or beside the door and another on the far wall, then add a humidity unit where chilled goods meet damp shore air. A few weeks of readings would show how long stock really sits between stages.",
       "faqs": [
         {
-          "question": "Can a small logger be packed in a carton and followed through a port chain?",
-          "answer": "Yes. A logger packed with the cartons records the whole journey, and its report can be exported as a PDF, Excel or CSV file for whoever receives the load."
+          "question": "With a temperature data logger in Shuaiba Port, can a small logger be packed in a carton and followed through a port chain?",
+          "answer": "Yes. A logger packed with the cartons records the whole journey, and its report can be exported as a PDF, Excel or CSV file for whoever receives the load.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why are boxes stacked in blazing sun worth their own record?",
@@ -9644,8 +9644,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "mina-al-ahmadi", name: "Mina Al Ahmadi", citySlug: "ahmadi", areaType: "industrial-estate", nearbyIndustries: ["chemical","laboratories","logistics-warehousing"], confirmedService: true, hero: ["nakshatra","veer"], page: {
-      "metaTitle": "Data Loggers in Mina Al Ahmadi, Kuwait | Prithvi",
-      "metaDescription": "Mina Al Ahmadi, Kuwait: data loggers for support stores, laboratories, workshops and canteens in the port-side area. Get Solution to cover Mina Al Ahmadi.",
+      "metaTitle": "Temperature Data Logger in Mina Al Ahmadi, Ahmadi | Prithvi",
+      "metaDescription": "Mina Al Ahmadi: temperature data loggers for support stores, laboratories, workshops and canteens in the port-side area. Get Solution for Mina Al Ahmadi.",
       "intro": "Mina Al Ahmadi is a port-side industrial area on the coast beside Ahmadi, a flat expanse of yards, stores, workshops and support buildings set along the water. A temperature data logger around an area of this kind is concerned with what its support buildings hold: laboratory samples, lubricants and coatings with labelled limits, spare parts, and food for working communities, all kept in air that is blazing in summer and humid by the shore. The text below is limited to the kinds of goods and rooms a logger user may look after in a port-side area of this sort. Enquiries about Mina Al Ahmadi are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -9684,8 +9684,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the laboratory refrigerator or lubricant store holding the most sensitive items, placing one logger near the door and one at the back, then add a humidity unit where shore air enters. A few weeks of summer readings would show which hours push a room outside its range.",
       "faqs": [
         {
-          "question": "Can a laboratory in a port-side area prove that a freezer held its range?",
-          "answer": "Yes. A logger keeps an unbroken temperature record, and a dated report can be saved as a PDF, Excel or CSV file to show an auditor how the freezer held its range."
+          "question": "With a temperature data logger in Mina Al Ahmadi, can a laboratory in a port-side area prove that a freezer held its range?",
+          "answer": "Yes. A logger keeps an unbroken temperature record, and a dated report can be saved as a PDF, Excel or CSV file to show an auditor how the freezer held its range.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does shore air matter for stored lubricants and parts?",
@@ -9697,8 +9697,8 @@ export const areas: AreaDef[] = [
     } },
   // ------------------------------------------------------------------ Kuwait (batch 6: Jahra)
   { slug: "sulaibiya-industrial-area", name: "Sulaibiya Industrial Area", citySlug: "sulaibiya", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","food-beverage"], confirmedService: true, hero: ["virat-pro","setu"], page: {
-      "metaTitle": "Data Loggers in Sulaibiya Industrial Area, Kuwait | Prithvi",
-      "metaDescription": "Sulaibiya Industrial Area, Kuwait: data loggers for workshops, warehouses, light factories and yards in the west. Get Solution: Sulaibiya Industrial Area.",
+      "metaTitle": "Temperature Data Logger in Sulaibiya Industrial Area",
+      "metaDescription": "Sulaibiya Industrial Area: temperature data loggers for workshops, warehouses, light factories and yards in the west. Get Solution.",
       "intro": "The Sulaibiya Industrial Area occupies flat open ground in Sulaibiya, a wide grid of workshops, warehouses, light factories and storage yards with broad roads between them. For a temperature data logger the interest lies in the everyday trouble of keeping goods through blazing, dusty summers: food and drink in bulk, building materials, sealants and cleaners with a printed limit, and parts and tools under metal roofs. What follows covers only the stock and rooms that a logger user in Sulaibiya could look after. Enquiries about the Sulaibiya Industrial Area are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -9737,8 +9737,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the chilled room or store holding the most fragile stock, putting one logger by the door and one at the back, then mount each body out of the sand and the sun. A month of summer readings would show which part of the shed runs hottest.",
       "faqs": [
         {
-          "question": "Can one report describe a long wholesale shed?",
-          "answer": "Yes. A multi-channel logger reads probes placed along the shed, so a single report shows which stretch of the building is warmest and at what hour."
+          "question": "With a temperature data logger in Sulaibiya Industrial Area, can one report describe a long wholesale shed?",
+          "answer": "Yes. A multi-channel logger reads probes placed along the shed, so a single report shows which stretch of the building is warmest and at what hour.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why do open yards and canopies need a logger inside the load?",
@@ -9749,8 +9749,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "amghara-industrial-area", name: "Amghara Industrial Area", citySlug: "jahra", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","electronics","chemical"], confirmedService: true, hero: ["rajmudra","dhruva"], page: {
-      "metaTitle": "Data Loggers in Amghara Industrial Area, Kuwait | Prithvi",
-      "metaDescription": "Amghara Industrial Area, Kuwait: data loggers for workshops, parts yards and warehouses near Jahra. Use Get Solution for Amghara Industrial Area.",
+      "metaTitle": "Temperature Data Logger in Amghara Industrial Area, Jahra",
+      "metaDescription": "Amghara Industrial Area: temperature data loggers for workshops, parts yards and warehouses near Jahra. Use Get Solution for Amghara Industrial Area.",
       "intro": "The Amghara Industrial Area lies near Jahra on flat open ground beside wide roads, a district of workshops, parts yards, trading yards and warehouses. For a temperature data logger the interest lies in stock that suffers in blazing, dusty summers: vehicle parts and batteries, tyres, tools, electronics and the lubricants and cleaners that go with them. The text below is limited to the goods and rooms a logger user could look after in a workshop and trading district of this sort. Enquiries about the Amghara Industrial Area are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -9789,8 +9789,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the store holding the most sensitive stock, such as electronics or batteries, placing one logger by the door and one at the back and adding a humidity unit. A few weeks of readings would show which hours the room swings most.",
       "faqs": [
         {
-          "question": "Can a small parts dealer keep a temperature record for batteries and electronics?",
-          "answer": "Yes. A logger left among the stock keeps a record through day and night, and a report for chosen dates can be exported as a PDF, Excel or CSV file."
+          "question": "With a temperature data logger in Amghara Industrial Area, can a small parts dealer keep a temperature record for batteries and electronics?",
+          "answer": "Yes. A logger left among the stock keeps a record through day and night, and a report for chosen dates can be exported as a PDF, Excel or CSV file.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does dust matter for where a logger is mounted in a yard?",
@@ -9802,8 +9802,8 @@ export const areas: AreaDef[] = [
     } },
   // ------------------------------------------------------------------ Bahrain (batch 1: Manama)
   { slug: "bahrain-financial-harbour", name: "Bahrain Financial Harbour", citySlug: "manama", areaType: "business-district", nearbyIndustries: ["food-beverage","data-centers","pharmaceutical"], confirmedService: true, hero: ["virat","dhruva"], page: {
-      "metaTitle": "Data Loggers in Bahrain Financial Harbour, Manama | Prithvi",
-      "metaDescription": "Bahrain Financial Harbour, Manama: data loggers for hotel kitchens, food courts, office pantries, server rooms. Get Solution: Bahrain Financial Harbour.",
+      "metaTitle": "Temperature Data Logger in Bahrain Financial Harbour, Manama",
+      "metaDescription": "Bahrain Financial Harbour: temperature data loggers for hotel kitchens, food courts, office pantries, server rooms. Get Solution.",
       "intro": "The Bahrain Financial Harbour is a waterfront district of glass towers on reclaimed ground along the northern coast of Manama, with a shopping mall, restaurants, hotels and promenades at its foot. For a temperature data logger the interest lies in rooms that sit far from any warehouse: basement and podium kitchens, floor pantries, server cupboards and plant rooms, all cooled by equipment that works hard through the long, humid summer. The text below is limited to the goods and rooms a logger user could look after in a tower district of this sort. Enquiries about the Bahrain Financial Harbour are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -9842,8 +9842,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the room whose failure would cost most, such as a podium freezer or a server cupboard, placing one logger at the intake and one at the far wall. A first stretch of summer readings would reveal how each room behaves overnight and at weekends.",
       "faqs": [
         {
-          "question": "Can a kitchen group watch every outlet from one login?",
-          "answer": "Yes. Every kitchen, pantry and plant room reports to one dashboard, each alert reaches its own engineer, and a manager can export one report covering all the rooms."
+          "question": "With a temperature data logger in Bahrain Financial Harbour, can a kitchen group watch every outlet from one login?",
+          "answer": "Yes. Every kitchen, pantry and plant room reports to one dashboard, each alert reaches its own engineer, and a manager can export one report covering all the rooms.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does a small server cupboard want a temperature record?",
@@ -9856,8 +9856,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "seef-district", name: "Seef District", citySlug: "manama", areaType: "business-district", nearbyIndustries: ["food-beverage","pharmaceutical","electronics"], confirmedService: true, hero: ["setu","nakshatra"], page: {
-      "metaTitle": "Data Loggers in Seef District, Manama | Prithvi",
-      "metaDescription": "Seef District, Manama: data loggers for mall food courts, hotel kitchens, supermarkets and clinic fridges. Get Solution to cover Seef District.",
+      "metaTitle": "Temperature Data Logger in Seef District, Manama | Prithvi",
+      "metaDescription": "Seef District, Manama: temperature data loggers for mall food courts, hotel kitchens, supermarkets and clinic fridges. Get Solution to cover Seef District.",
       "intro": "The Seef District is a commercial quarter along the northern coast road of Manama, with malls, hotels, offices, restaurants and apartment blocks laid out beside wide avenues and the sea. A temperature data logger in a district like this is concerned with many busy rooms: mall supermarkets and food courts, hotel kitchens, shop stockrooms and clinic refrigerators, all cooled by equipment that labours through the long, damp summer. The text below is limited to the goods and rooms a logger user could look after in a commercial district of this sort. Enquiries about the Seef District are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -9896,8 +9896,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the cold room or freezer whose contents are hardest to replace, placing a probe among the contents rather than at the door, then add a second point in a dry stockroom. Early readings would show how busy trading hours and short supply dips push the range around.",
       "faqs": [
         {
-          "question": "Can a retailer with several shops see them all on one dashboard?",
-          "answer": "Yes. Each shop is a point on the same dashboard with its own alert contacts, and an owner can export one report that covers every outlet."
+          "question": "With a temperature data logger in Seef District, can a retailer with several shops see them all on one dashboard?",
+          "answer": "Yes. Each shop is a point on the same dashboard with its own alert contacts, and an owner can export one report that covers every outlet.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Where should the probe go inside a busy cold room?",
@@ -9910,8 +9910,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "mina-salman-port", name: "Mina Salman Port", citySlug: "manama", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["rajmudra","veer"], page: {
-      "metaTitle": "Data Loggers at Mina Salman Port, Manama | Prithvi",
-      "metaDescription": "Mina Salman Port, Manama: data loggers for quayside sheds, cold rooms, container stacks and vehicles. Get Solution to begin in Mina Salman Port.",
+      "metaTitle": "Temperature Data Logger in Mina Salman Port, Manama",
+      "metaDescription": "Mina Salman Port: temperature data loggers for quayside sheds, cold rooms, container stacks and vehicles. Get Solution to begin in Mina Salman Port.",
       "intro": "Mina Salman Port is the commercial harbour south-east of Manama's centre, set on reclaimed shoreline with broad yards and warehouses behind the quays. Goods that reach a harbour spend much of their time standing still, and for a temperature data logger the question is how warm that standing time was: in the sun on the apron, in a shed, in a waiting van, in air that is hot, damp and salty. This page stays with the kinds of goods and rooms that a logger user at a commercial harbour could look after. Enquiries about Mina Salman Port are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -9950,8 +9950,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the load or hall that is hardest to replace, placing one logger inside the cargo or beside the door and another on the far wall, then add a humidity unit where chilled goods meet damp harbour air. A few weeks of data would show how long stock really sits between stages.",
       "faqs": [
         {
-          "question": "Can a small logger be packed in a carton and followed through a harbour chain?",
-          "answer": "Yes. A logger packed in with the cartons records the whole journey, and its report can be exported as a PDF, Excel or CSV file for whoever receives the load."
+          "question": "With a temperature data logger in Mina Salman Port, can a small logger be packed in a carton and followed through a harbour chain?",
+          "answer": "Yes. A logger packed in with the cartons records the whole journey, and its report can be exported as a PDF, Excel or CSV file for whoever receives the load.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does stacked cargo in strong sun deserve its own record?",
@@ -9963,8 +9963,8 @@ export const areas: AreaDef[] = [
     } },
   // ------------------------------------------------------------------ Bahrain (batch 3: Muharraq Governorate)
   { slug: "bahrain-international-airport", name: "Bahrain International Airport", citySlug: "muharraq", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","pharmaceutical","food-beverage"], confirmedService: true, hero: ["nakshatra","virat"], page: {
-      "metaTitle": "Data Loggers at Bahrain International Airport | Prithvi",
-      "metaDescription": "Bahrain International Airport, Muharraq: data loggers for freight halls, medicine cool rooms, catering stores. Get Solution: Bahrain International Airport.",
+      "metaTitle": "Temperature Data Logger in Bahrain International Airport",
+      "metaDescription": "Bahrain International Airport: temperature data loggers for freight halls, medicine cool rooms, catering stores. Get Solution.",
       "intro": "Bahrain International Airport stands on flat ground on Muharraq Island, north of the old town, with long runways, terminal buildings and a belt of service and freight sheds around them. For a temperature data logger the interest lies in the stores and vehicles that sit around a site of this kind: halls for goods waiting to move, cool rooms for medicines, kitchens preparing food, and vans parked in the sun between jobs. This page covers only the kinds of goods and rooms that a logger user could look after, and says nothing about how the site is run. Enquiries about the airport are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -10003,8 +10003,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would begin with the room or load that is hardest to replace, placing one logger beside the door and another on the far wall, then add a humidity unit where cool rooms meet damp outside air. A few weeks of readings would show how long goods really sit between stages.",
       "faqs": [
         {
-          "question": "Can a small logger be packed inside a consignment?",
-          "answer": "Yes. A logger packed with the goods records the whole journey, and its report can be exported as a PDF, Excel or CSV file for whoever receives the load."
+          "question": "With a temperature data logger in Bahrain International Airport, can a small logger be packed inside a consignment?",
+          "answer": "Yes. A logger packed with the goods records the whole journey, and its report can be exported as a PDF, Excel or CSV file for whoever receives the load.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does a hall roof matter to stored goods?",
@@ -10015,8 +10015,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "khalifa-bin-salman-port", name: "Khalifa Bin Salman Port", citySlug: "hidd", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","food-beverage","pharmaceutical"], confirmedService: true, hero: ["dhruva","rajmudra"], page: {
-      "metaTitle": "Data Loggers at Khalifa Bin Salman Port, Hidd | Prithvi",
-      "metaDescription": "Khalifa Bin Salman Port, Hidd: data loggers for quayside sheds, container stacks, cold halls and vehicles. Get Solution to cover Khalifa Bin Salman Port.",
+      "metaTitle": "Temperature Data Logger in Khalifa Bin Salman Port, Hidd",
+      "metaDescription": "Khalifa Bin Salman Port: temperature data loggers for quayside sheds, container stacks, cold halls and vehicles. Get Solution for Khalifa Bin Salman Port.",
       "intro": "Khalifa Bin Salman Port is a harbour area at the south-eastern tip of Muharraq Island, near Hidd, with deep-water quays, broad yards and sheds set on flat reclaimed ground. Goods that pass through a harbour spend a lot of their time standing still, and a temperature data logger exists to answer one question about those pauses: how warm and damp did the stock get? Strong sun, salt air and the contrast between a cooled hall and an open quay all play a part. This page is limited to the kinds of goods and rooms a logger user may look after at a harbour. Enquiries about the port are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -10055,8 +10055,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the hall or load that is hardest to replace, placing one logger in the cargo or by the door and another at the far wall, then add a humidity unit where chilled goods meet salty air. Some weeks of readings would show how long goods truly stand between one stage and the next.",
       "faqs": [
         {
-          "question": "Can a logger travel inside a carton through a harbour chain?",
-          "answer": "Yes. A logger packed with the cartons records the whole trip, and its report can be exported as a PDF, Excel or CSV file for whoever receives the load."
+          "question": "Can a temperature data logger in Khalifa Bin Salman Port travel inside a carton through a harbour chain?",
+          "answer": "Yes. A logger packed with the cartons records the whole trip, and its report can be exported as a PDF, Excel or CSV file for whoever receives the load.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why does cargo standing in the sun need its own record?",
@@ -10069,8 +10069,8 @@ export const areas: AreaDef[] = [
       "indexable": true
     } },
   { slug: "bahrain-logistics-zone", name: "Bahrain Logistics Zone", citySlug: "hidd", areaType: "warehousing-hub", nearbyIndustries: ["logistics-warehousing","electronics","food-beverage"], confirmedService: true, hero: ["setu","veer"], page: {
-      "metaTitle": "Data Loggers in Bahrain Logistics Zone, Hidd | Prithvi",
-      "metaDescription": "Bahrain Logistics Zone, Hidd: data loggers for warehouse units, cold rooms, packing halls and yards. Get Solution: Bahrain Logistics Zone.",
+      "metaTitle": "Temperature Data Logger in Bahrain Logistics Zone, Hidd",
+      "metaDescription": "Bahrain Logistics Zone, Hidd: temperature data loggers for warehouse units, cold rooms, packing halls and yards. Get Solution: Bahrain Logistics Zone.",
       "intro": "The Bahrain Logistics Zone is a warehouse district beside the south-eastern harbour near Hidd, with large sheds on flat ground, wide lanes between them and open yards for vehicles. A temperature data logger in a district like this is concerned with racked goods that sit for days or weeks: pallets of food, household goods and electronics under metal roofs, cold rooms beside them, and packing halls where cartons are made up for the road. This page is limited to the kinds of goods and rooms a logger user could look after, and says nothing about who is based there or how the zone is run. The enquiry form, Call or WhatsApp is how we receive enquiries about the zone.",
       "places": [
         {
@@ -10109,8 +10109,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the shelf or room whose contents are hardest to replace, placing one logger at roof height and another near the floor, then add one in the cold room beside the loading door. The first weeks of readings would show how heat builds up through the afternoon.",
       "faqs": [
         {
-          "question": "Can a warehouse show each customer how its goods were stored?",
-          "answer": "Yes. Loggers placed by each customer's pallets or rooms feed one dashboard, and separate reports can be exported for each customer."
+          "question": "With a temperature data logger in Bahrain Logistics Zone, can a warehouse show each customer how its goods were stored?",
+          "answer": "Yes. Loggers placed by each customer's pallets or rooms feed one dashboard, and separate reports can be exported for each customer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Why measure at roof height as well as the floor?",
@@ -10124,8 +10124,8 @@ export const areas: AreaDef[] = [
     } },
   // ------------------------------------------------------------------ Bahrain (batch 5: Northern Governorate)
   { slug: "hamad-town-industrial-area", name: "Hamad Town Industrial Area", citySlug: "hamad-town", areaType: "industrial-estate", nearbyIndustries: ["logistics-warehousing","chemical","electronics"], confirmedService: true, hero: ["rajmudra","nakshatra"], page: {
-      "metaTitle": "Data Loggers in Hamad Town Industrial Area | Prithvi",
-      "metaDescription": "Hamad Town Industrial Area, Bahrain: data loggers for workshops, parts stores, chemical rooms and warehouses. Get Solution: Hamad Town Industrial Area.",
+      "metaTitle": "Temperature Data Logger in Hamad Town Industrial Area",
+      "metaDescription": "Hamad Town Industrial Area: temperature data loggers for workshops, parts stores, chemical rooms and warehouses. Get Solution: Hamad Town Industrial Area.",
       "intro": "The Hamad Town Industrial Area is the workshop and storage district on the edge of Hamad Town, laid out on flat inland ground with rows of units, wide service roads and yards for vehicles. For a temperature data logger the interest lies in rooms where heat damages goods or equipment: parts stores, paint and sealant rooms, small food stores, warehouse bays and cabin offices with a server cupboard. The inland afternoon sun is fierce and the dust is constant. This page is limited to the kinds of goods and rooms a logger user may look after, and says nothing about who is based there or how the area is run. Enquiries about the area are handled through the enquiry form, Call or WhatsApp.",
       "places": [
         {
@@ -10164,8 +10164,8 @@ export const areas: AreaDef[] = [
       "approach": "If a request went ahead, we would start with the room whose contents are hardest to replace, placing one logger at roof height and another near the floor, then add a humidity unit where dust and damp mix. The first weeks of readings would show how heat builds through the afternoon.",
       "faqs": [
         {
-          "question": "Why place a logger high up as well as low down?",
-          "answer": "Warm air gathers under a metal roof, so goods on the top racks can sit in noticeably hotter conditions than those at floor level."
+          "question": "With a temperature data logger in Hamad Town Industrial Area, why place a logger high up as well as low down?",
+          "answer": "Warm air gathers under a metal roof, so goods on the top racks can sit in noticeably hotter conditions than those at floor level.", link: { href: "/", text: "See how a Prithvi temperature data logger works" }
         },
         {
           "question": "Can one logger cover a whole unit?",

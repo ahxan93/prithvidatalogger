@@ -1076,7 +1076,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Data Loggers in Chhatrapati Sambhajinagar | Prithvi",
             metaDescription:
-              "Chhatrapati Sambhajinagar: temperature data loggers for Waluj, Chikalthana and Shendra plants, hospitals and kitchens. Get Solution.",
+              "Chhatrapati Sambhajinagar: temperature data loggers for Waluj, Chikalthana and Shendra plants, hospitals and kitchens. Get Solution for Sambhajinagar.",
             indexable: true,
           },
           {
@@ -2236,7 +2236,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Rajkot | Prithvi",
             metaDescription:
-              "Rajkot: temperature data loggers for engineering estates at Aji and Metoda, oil mills, distributors and hospitals. Get Solution.",
+              "Rajkot: temperature data loggers for engineering estates at Aji and Metoda, oil mills, distributors and hospitals. Get Solution for Rajkot.",
             indexable: true,
           },
           {
@@ -2339,7 +2339,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Bharuch | Prithvi",
             metaDescription:
-              "Bharuch: temperature data loggers for Zadeshwar and Bholav units, hospitals, and cotton and chemical stores on the Narmada. Get Solution.",
+              "Bharuch: temperature data loggers for Zadeshwar and Bholav units, hospitals, and cotton and chemical stores on the Narmada. Get Solution for Bharuch.",
             indexable: true,
           },
           {
@@ -2541,7 +2541,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Halol-Panchmahal | Prithvi",
             metaDescription:
-              "Halol-Panchmahal: temperature data loggers for Halol GIDC and Kalol component stores, pharma units and Godhra dairies. Get Solution.",
+              "Halol-Panchmahal: temperature data loggers for Halol GIDC and Kalol component stores, pharma units and Godhra dairies. Get Solution for Halol-Panchmahal.",
             indexable: true,
           },
           {
@@ -2943,7 +2943,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Kandla | Prithvi",
             metaDescription:
-              "Kandla: temperature data loggers for Deendayal Port and Gandhidham tank farms, bonded sheds, hospitals and godowns. Get Solution.",
+              "Kandla: temperature data loggers for Deendayal Port and Gandhidham tank farms, bonded sheds, hospitals and godowns. Get Solution for Kandla.",
             indexable: true,
           },
         ],
@@ -4280,7 +4280,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Manesar | Prithvi",
             metaDescription:
-              "Manesar: temperature data loggers for IMT Manesar's automotive, electronics and pharma plants and highway warehouses. Get Solution.",
+              "Manesar: temperature data loggers for IMT Manesar's automotive, electronics and pharma plants and highway warehouses. Get Solution for Manesar.",
             indexable: true,
           },
           {
@@ -5928,7 +5928,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Hubballi-Dharwad | Prithvi",
             metaDescription:
-              "Hubballi-Dharwad: temperature data loggers for medicine stockists, hospitals, universities, market godowns and estates. Get Solution.",
+              "Hubballi-Dharwad: temperature data loggers for medicine stockists, hospitals, universities, market godowns and estates. Get Solution for Hubballi-Dharwad.",
             indexable: true,
           },
           {
@@ -7129,7 +7129,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Vellore | Prithvi",
             metaDescription:
-              "Vellore: temperature data loggers for hospitals, laboratories, pharmacies and the Ranipet and Ambur leather belt. Get Solution.",
+              "Vellore: temperature data loggers for hospitals, laboratories, pharmacies and the Ranipet and Ambur leather belt. Get Solution for Vellore.",
             indexable: true,
           },
           {
@@ -7225,7 +7225,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Tuticorin | Prithvi",
             metaDescription:
-              "Tuticorin: temperature data loggers for Thoothukudi port yards, seafood cold stores, chemical stores and hospitals. Get Solution.",
+              "Tuticorin: temperature data loggers for Thoothukudi port yards, seafood cold stores, chemical stores and hospitals. Get Solution for Tuticorin.",
             indexable: true,
           },
         ],
@@ -7357,7 +7357,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Chandigarh | Prithvi",
             metaDescription:
-              "Chandigarh: temperature data loggers for hospitals, pharma distributors and food depots across Chandigarh, Mohali and Panchkula. Get Solution.",
+              "Chandigarh: temperature data loggers for hospitals, pharma distributors and food depots across Chandigarh, Mohali and Panchkula. Get Solution: Chandigarh.",
             indexable: true,
           },
         ],
@@ -8941,7 +8941,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Thiruvananthapuram | Prithvi",
             metaDescription:
-              "Thiruvananthapuram: temperature data loggers for hospitals, laboratories, Technopark server rooms and the Vizhinjam port. Get Solution.",
+              "Thiruvananthapuram: temperature data loggers for hospitals, laboratories, Technopark server rooms and the Vizhinjam port. Get Solution: Thiruvananthapuram.",
             indexable: true,
           },
           {
@@ -17006,7 +17006,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Riyadh Region",
         type: "state",
         intro:
-          "The Riyadh Region fills the centre of the kingdom, a high desert plateau where the capital is surrounded by farm oases such as Al Kharj, the historic town of Diriyah, the university town of Al Majmaah and smaller trading towns along the highways. Almost everything stored here has travelled far, whether by road from the ports or by the rail line that links Riyadh's dry port to the Gulf coast, so warehouses for medicines, food and general cargo are the region's main storage rooms. Summers are extremely hot and dusty, winter nights are cool, and rain is rare but sudden. Industrial cities around the capital add plants with halls of their own. The page for each place names the rooms we would watch first.",
+          "A temperature data logger in Riyadh Region mostly serves pharmaceutical and medical warehousing, as well as food, dairy and farm produce. The Riyadh Region fills the centre of the kingdom, a high desert plateau where the capital is surrounded by farm oases such as Al Kharj, the historic town of Diriyah, the university town of Al Majmaah and smaller trading towns along the highways. Almost everything stored here has travelled far, whether by road from the ports or by the rail line that links Riyadh's dry port to the Gulf coast, so warehouses for medicines, food and general cargo are the region's main storage rooms. Summers are extremely hot and dusty, winter nights are cool, and rain is rare but sudden. Industrial cities around the capital add plants with halls of their own. The page for each place names the rooms we would watch first.",
         localIndustries: [
           "Pharmaceutical and medical warehousing",
           "Food, dairy and farm produce",
@@ -17018,9 +17018,9 @@ export const locations: LegacyLocationNode[] = [
           "Set-up, alert rules and user access for Riyadh Region sites are arranged remotely by call or video. Tell us the town and what the rooms hold.",
         faqs: [
           {
-            question: "Which Riyadh Region places have a page?",
+            question: "Where can I find a temperature data logger in Riyadh Region?",
             answer:
-              "Riyadh, Al Kharj, Diriyah and Al Majmaah each have a city page, and Riyadh also has pages for its dry port and its 1st Industrial City. Pages for other towns are added as they are written, and a site anywhere in the region can be raised through the enquiry form.",
+              "Riyadh, Al Kharj, Diriyah and Al Majmaah each have a city page, and Riyadh also has pages for its dry port and its 1st Industrial City. Pages for other towns are added as they are written, and a site anywhere in the region can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why does desert dust matter for a logger in a warehouse?",
@@ -17109,9 +17109,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "How are loggers set up for a Riyadh site when the supply comes from India?",
+                question: "With a temperature data logger in Riyadh, how are loggers set up for a Riyadh site when the supply comes from India?",
                 answer:
-                  "Loggers are dispatched from India and registered to your dashboard, and we set up alert rules, rooms and user access with your team over a call or video. No visit is needed to start recording.",
+                  "Loggers are dispatched from India and registered to your dashboard, and we set up alert rules, rooms and user access with your team over a call or video. No visit is needed to start recording.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why does extreme dry heat call for alert limits on the high side as well as the low?",
@@ -17136,7 +17136,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Riyadh | Prithvi",
             metaDescription:
-              "Riyadh, Saudi Arabia: WiFi loggers for pharma warehouses, hospitals and food depots, supplied from India with remote set-up. Get Solution to cover Riyadh.",
+              "Riyadh: temperature data loggers for pharma warehouses, hospitals and food depots, supplied from India with remote set-up. Get Solution to cover Riyadh.",
             indexable: true,
           },
           {
@@ -17144,7 +17144,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Al Kharj",
             type: "city",
             intro:
-              "Al Kharj is an agricultural city on the plain south-east of Riyadh, famous across the kingdom for its irrigated farms, and a temperature data logger here protects food that is grown, collected and chilled close to where it is eaten. Dairy farms, fodder fields, vegetable growers and poultry houses surround the city, collection depots gather milk and produce each day, and processing and packing plants send chilled goods to the capital by road. A public university campus and hospitals add laboratories and wards. Summers are extremely hot and dry, so every cold room works close to its limit for months. Prithvi supplies WiFi loggers from India with alerts to phones and email and sets them up with your team remotely, so a farm manager can follow a room without being on site.",
+              "A temperature data logger in Al Kharj mostly serves food and beverage sites, as well as logistics and warehousing sites. Al Kharj is an agricultural city on the plain south-east of Riyadh, famous across the kingdom for its irrigated farms, and a temperature data logger here protects food that is grown, collected and chilled close to where it is eaten. Dairy farms, fodder fields, vegetable growers and poultry houses surround the city, collection depots gather milk and produce each day, and processing and packing plants send chilled goods to the capital by road. A public university campus and hospitals add laboratories and wards. Summers are extremely hot and dry, so every cold room works close to its limit for months. Prithvi supplies WiFi loggers from India with alerts to phones and email and sets them up with your team remotely, so a farm manager can follow a room without being on site.",
             climateAngle:
               "Heat is extreme from late spring to early autumn, dust storms sweep the farms in the dry months and winter nights are cool, so a cold room is tested hardest in the afternoon, and a milk tank or produce room that overheats can lose a day's collection.",
             areas: [
@@ -17206,9 +17206,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "How can a dairy farm near Al Kharj use a temperature record?",
+                question: "With a temperature data logger in Al Kharj, how can a dairy farm near Al Kharj use a temperature record?",
                 answer:
-                  "A logger in the cooling tank or room records the milk temperature from the end of milking to collection, and the report shows a buyer how quickly and how steadily the milk was chilled.",
+                  "A logger in the cooling tank or room records the milk temperature from the end of milking to collection, and the report shows a buyer how quickly and how steadily the milk was chilled.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "How is a farm site near Al Kharj brought online when the loggers come from India?",
@@ -17232,7 +17232,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Al Kharj | Prithvi",
             metaDescription:
-              "Al Kharj, Riyadh Region: WiFi loggers for dairy farms, produce packing houses, poultry plants and hospitals, set up remotely. Get Solution: Al Kharj.",
+              "Al Kharj: WiFi temperature data loggers for dairy farms, produce packing houses, poultry plants and hospitals, set up remotely. Get Solution: Al Kharj.",
             indexable: true,
           },
           {
@@ -17240,7 +17240,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Diriyah",
             type: "city",
             intro:
-              "Diriyah lies on the north-western edge of Riyadh beside the Wadi Hanifa, a historic oasis town of mud-brick buildings whose At-Turaif district is a World Heritage site, and a temperature data logger here serves a place being developed as a cultural and tourism destination. Restaurants, cafes, hotels and visitor attractions need walk-in coolers and dry stores, the museums, archives and conservation stores that go with a heritage site need steady temperature and humidity, and palm farms still line the wadi. Food and supplies come from the capital's warehouses by road. Summers are extremely hot, so cooling plants and cold rooms work hard. Prithvi supplies WiFi loggers from India with alerts to phones and email and sets them up with your team remotely.",
+              "A temperature data logger in Diriyah mostly serves food and beverage sites, as well as logistics and warehousing sites. Diriyah lies on the north-western edge of Riyadh beside the Wadi Hanifa, a historic oasis town of mud-brick buildings whose At-Turaif district is a World Heritage site, and a temperature data logger here serves a place being developed as a cultural and tourism destination. Restaurants, cafes, hotels and visitor attractions need walk-in coolers and dry stores, the museums, archives and conservation stores that go with a heritage site need steady temperature and humidity, and palm farms still line the wadi. Food and supplies come from the capital's warehouses by road. Summers are extremely hot, so cooling plants and cold rooms work hard. Prithvi supplies WiFi loggers from India with alerts to phones and email and sets them up with your team remotely.",
             climateAngle:
               "Extreme dry heat is broken by cool winter evenings and occasional heavy rain that fills the wadi, so a kitchen cooler works at its limit for months, while a museum or archive store needs steady air to protect paper, textiles and mud-brick plaster.",
             areas: [
@@ -17302,9 +17302,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Why would a heritage site need a humidity record?",
+                question: "With a temperature data logger in Diriyah, why would a heritage site need a humidity record?",
                 answer:
-                  "Paper, textiles and mud-brick plaster respond to damp and dryness, so a record of temperature and humidity in an archive or conservation store shows whether the air stayed steady and when it drifted.",
+                  "Paper, textiles and mud-brick plaster respond to damp and dryness, so a record of temperature and humidity in an archive or conservation store shows whether the air stayed steady and when it drifted.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "How does a Diriyah kitchen or archive get its loggers from India and go live?",
@@ -17328,7 +17328,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Diriyah | Prithvi",
             metaDescription:
-              "Diriyah, Riyadh Region: WiFi temperature and humidity loggers for restaurant kitchens, heritage archive stores and caterers. Get Solution to cover Diriyah.",
+              "Diriyah: WiFi temperature and humidity data loggers for restaurant kitchens, heritage archive stores and caterers. Get Solution to cover Diriyah.",
             indexable: true,
           },
           {
@@ -17336,7 +17336,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Al Majmaah",
             type: "city",
             intro:
-              "Al Majmaah is the main town of the Sudair region, on the plain north of Riyadh on the road toward Qassim, and a temperature data logger here serves an oasis town of farms, a university and growing industry. Wells irrigate date palms, wheat, fodder and vegetables, dairy and poultry farms supply the markets of the capital, and a public university has its campus in the town with laboratories and clinics. Hospitals and health centres serve the surrounding villages, and a newer industrial city in the Sudair region adds plants and warehouses. Summers are extremely hot and dusty. Prithvi supplies WiFi loggers from India with alerts to phones and email and sets them up with your team remotely, so a manager can follow a room without being on site.",
+              "A temperature data logger in Al Majmaah mostly serves food and beverage sites, as well as logistics and warehousing sites. Al Majmaah is the main town of the Sudair region, on the plain north of Riyadh on the road toward Qassim, and a temperature data logger here serves an oasis town of farms, a university and growing industry. Wells irrigate date palms, wheat, fodder and vegetables, dairy and poultry farms supply the markets of the capital, and a public university has its campus in the town with laboratories and clinics. Hospitals and health centres serve the surrounding villages, and a newer industrial city in the Sudair region adds plants and warehouses. Summers are extremely hot and dusty. Prithvi supplies WiFi loggers from India with alerts to phones and email and sets them up with your team remotely, so a manager can follow a room without being on site.",
             climateAngle:
               "The plain is scorching for much of the year, dust storms are common in spring and the few winter rains can arrive suddenly, so farm cold rooms and date stores work at their limits and a failed unit can lose a harvest day.",
             areas: [
@@ -17398,9 +17398,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "How can a date packer in Al Majmaah use a temperature record?",
+                question: "With a temperature data logger in Al Majmaah, how can a date packer in Al Majmaah use a temperature record?",
                 answer:
-                  "A logger in the packing store and the cold room records temperature and humidity through the season, and the report shows a buyer how a lot was kept from picking to loading.",
+                  "A logger in the packing store and the cold room records temperature and humidity through the season, and the report shows a buyer how a lot was kept from picking to loading.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "How is a farm or campus site in Al Majmaah brought online?",
@@ -17424,7 +17424,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Al Majmaah | Prithvi",
             metaDescription:
-              "Al Majmaah, Riyadh Region: WiFi loggers for date stores, dairy and poultry farms, university labs and hospitals. Get Solution to begin in Al Majmaah.",
+              "Al Majmaah: WiFi temperature data loggers for date stores, dairy and poultry farms, university labs and hospitals. Get Solution to begin in Al Majmaah.",
             indexable: true,
           },
         ],
@@ -17434,7 +17434,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Makkah Region",
         type: "state",
         intro:
-          "The Makkah Region lies along the Red Sea coast in the west of the kingdom and climbs inland into the Sarawat mountains. Jeddah, the port and commercial centre, receives much of the kingdom's imported food, medicine and general cargo; Makkah and Taif sit inland, with hospitality, healthcare and retail trades; and Rabigh and King Abdullah Economic City stand on the coast to the north with industrial and port facilities. The coast is hot and humid, the mountains are cooler, and dust moves in from the desert. Warehouses, hotel kitchens, hospital stores and port yards hold stock that must stay in range. Open a place below to see its main rooms and the loggers we would suggest.",
+          "A temperature data logger in Makkah Region mostly serves port logistics and imported goods, as well as hospitality and hotel kitchens. The Makkah Region lies along the Red Sea coast in the west of the kingdom and climbs inland into the Sarawat mountains. Jeddah, the port and commercial centre, receives much of the kingdom's imported food, medicine and general cargo; Makkah and Taif sit inland, with hospitality, healthcare and retail trades; and Rabigh and King Abdullah Economic City stand on the coast to the north with industrial and port facilities. The coast is hot and humid, the mountains are cooler, and dust moves in from the desert. Warehouses, hotel kitchens, hospital stores and port yards hold stock that must stay in range. Open a place below to see its main rooms and the loggers we would suggest.",
         localIndustries: [
           "Port logistics and imported goods",
           "Hospitality and hotel kitchens",
@@ -17446,9 +17446,9 @@ export const locations: LegacyLocationNode[] = [
           "Set-up, alert rules and user access for Makkah Region sites are arranged remotely by call or video. Tell us the city and what the rooms hold.",
         faqs: [
           {
-            question: "Which Makkah Region places have a page?",
+            question: "Where can I find a temperature data logger in Makkah Region?",
             answer:
-              "Jeddah, Makkah, Taif, Rabigh and King Abdullah Economic City each have a city page, and Jeddah also has pages for its Islamic Port and its 1st Industrial City. Other towns follow as their pages are written; meanwhile a site anywhere in the region can be raised through the enquiry form.",
+              "Jeddah, Makkah, Taif, Rabigh and King Abdullah Economic City each have a city page, and Jeddah also has pages for its Islamic Port and its 1st Industrial City. Other towns follow as their pages are written; meanwhile a site anywhere in the region can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "How does coastal humidity change where a logger is placed?",
@@ -17533,9 +17533,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a logger report on a shipment between the port and a Jeddah warehouse?",
+                question: "Can a temperature data logger report on a shipment between the port and a Jeddah warehouse?",
                 answer:
-                  "A logger placed in the load records the whole stay, and its report can be exported by lot, so an importer and a warehouse can compare the same record when a question is raised.",
+                  "A logger placed in the load records the whole stay, and its report can be exported by lot, so an importer and a warehouse can compare the same record when a question is raised.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "How does coastal humidity change where probes are placed?",
@@ -17559,7 +17559,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Jeddah | Prithvi",
             metaDescription:
-              "Jeddah, Saudi Arabia: WiFi temperature and humidity loggers for port warehouses, food import cold rooms and hospitals. Get Solution to begin in Jeddah.",
+              "Jeddah: WiFi temperature and humidity data loggers for port warehouses, food import cold rooms and hospitals. Get Solution to begin in Jeddah.",
             indexable: true,
           },
           {
@@ -17567,7 +17567,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Makkah",
             type: "city",
             intro:
-              "Makkah lies in a narrow valley of the Sarawat mountains inland from the Red Sea, and a temperature data logger here serves a city whose economy is built on hospitality, healthcare, retail and the supply chains that feed them. Very large numbers of visitors stay in its hotels and eat in its restaurants throughout the year, hospitals and clinics serve residents and guests, and wholesale markets stock food, medicines and general goods that arrive by road, mostly from warehouses on the coast. Rooms that must stay cold are therefore spread across kitchens, pharmacies, hotel stores and distribution depots. Summers are extremely hot. Prithvi supplies WiFi loggers from India, sets them up with your team by call or video, and sends alerts to phones and email when a limit is crossed.",
+              "A temperature data logger in Makkah mostly serves food and beverage sites, as well as hospital and blood bank sites. Makkah lies in a narrow valley of the Sarawat mountains inland from the Red Sea, and a temperature data logger here serves a city whose economy is built on hospitality, healthcare, retail and the supply chains that feed them. Very large numbers of visitors stay in its hotels and eat in its restaurants throughout the year, hospitals and clinics serve residents and guests, and wholesale markets stock food, medicines and general goods that arrive by road, mostly from warehouses on the coast. Rooms that must stay cold are therefore spread across kitchens, pharmacies, hotel stores and distribution depots. Summers are extremely hot. Prithvi supplies WiFi loggers from India, sets them up with your team by call or video, and sends alerts to phones and email when a limit is crossed.",
             climateAngle:
               "The valley holds heat through the summer, so cooling plants work close to their limits for months, and an occasional humid spell or sudden downpour adds condensation to rooms that are normally dry.",
             areas: [
@@ -17629,9 +17629,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "How does a Makkah hotel or catering kitchen get started with loggers supplied from India?",
+                question: "With a temperature data logger in Makkah, how does a Makkah hotel or catering kitchen get started with loggers supplied from India?",
                 answer:
-                  "The loggers come from India and are registered to your dashboard, and a call or video session then fixes the rooms, the limits and the people who receive alerts. A kitchen needs a router in range for a WiFi logger to report.",
+                  "The loggers come from India and are registered to your dashboard, and a call or video session then fixes the rooms, the limits and the people who receive alerts. A kitchen needs a router in range for a WiFi logger to report.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why do high limits need a short delay in a hot kitchen?",
@@ -17655,7 +17655,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Makkah | Prithvi",
             metaDescription:
-              "Makkah, Saudi Arabia: WiFi loggers for hotel kitchens, hospital and pharmacy stores and food depots, set up remotely. Get Solution for Makkah.",
+              "Makkah: WiFi temperature data loggers for hotel kitchens, hospital and pharmacy stores and food depots, set up remotely. Get Solution for Makkah.",
             indexable: true,
           },
           {
@@ -17663,7 +17663,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Taif",
             type: "city",
             intro:
-              "Taif is a mountain city on the escarpment east of Makkah, and a temperature data logger here serves a place that is cooler and greener than most of the kingdom. Its fields and terraces grow roses, pomegranates, grapes and figs, rose growers distil the petals into rose water and oil, and honey, fruit and vegetables are packed and sent down to the coast and across the Red Sea region. Summer visitors fill hotels and restaurants, hospitals serve the surrounding highlands, and an industrial area on the edge of the city adds plants and warehouses. Altitude softens the summer heat, but winter nights are cold. Loggers for Taif come from India and report to a dashboard that your managers can open from a phone, with set-up done by call or video.",
+              "A temperature data logger in Taif mostly serves food and beverage sites, as well as hospital and blood bank sites. Taif is a mountain city on the escarpment east of Makkah, and a temperature data logger here serves a place that is cooler and greener than most of the kingdom. Its fields and terraces grow roses, pomegranates, grapes and figs, rose growers distil the petals into rose water and oil, and honey, fruit and vegetables are packed and sent down to the coast and across the Red Sea region. Summer visitors fill hotels and restaurants, hospitals serve the surrounding highlands, and an industrial area on the edge of the city adds plants and warehouses. Altitude softens the summer heat, but winter nights are cold. Loggers for Taif come from India and report to a dashboard that your managers can open from a phone, with set-up done by call or video.",
             climateAngle:
               "Summers are mild compared with the plains and brief thunderstorms bring damp, while winter nights are cold, so rooms meet both a low and a high end of the range and rose, fruit and honey stores need steady, cool air.",
             areas: [
@@ -17725,9 +17725,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "How can a Taif fruit packer use a temperature record?",
+                question: "With a temperature data logger in Taif, how can a Taif fruit packer use a temperature record?",
                 answer:
-                  "A logger in the cold room and in the truck records the chill from packing to unloading, and a report for the dates of one lot can be exported for the buyer.",
+                  "A logger in the cold room and in the truck records the chill from packing to unloading, and a report for the dates of one lot can be exported for the buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "How are Taif sites registered when the loggers are supplied from India?",
@@ -17751,7 +17751,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Taif | Prithvi",
             metaDescription:
-              "Taif, Makkah Region: WiFi loggers for fruit packing houses, rose-water stores, hotel kitchens and hospitals. Get Solution, or call us to discuss Taif.",
+              "Taif: WiFi temperature data loggers for fruit packing houses, rose-water stores, hotel kitchens and hospitals. Get Solution, or call us to discuss Taif.",
             indexable: true,
           },
           {
@@ -17759,7 +17759,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Rabigh",
             type: "city",
             intro:
-              "Rabigh is a coastal town on the Red Sea north of Jeddah, and a temperature data logger here serves a district of heavy industry, power and farming. A large refinery and petrochemical complex stands on the shore, with a power and desalination plant nearby, and a port handles cargo for the industrial zone. Date palms and vegetable fields grow along the wadi inland, and fishing boats work the coast. The newer planned city of King Abdullah Economic City lies a short way to the north. Workers and contractors depend on canteens, clinics and warehouses, and goods come from Jeddah by road. Prithvi sends WiFi loggers from India, registers them to a dashboard you control and walks your team through alert rules over a call.",
+              "A temperature data logger in Rabigh mostly serves chemical sites, as well as food and beverage sites. Rabigh is a coastal town on the Red Sea north of Jeddah, and a temperature data logger here serves a district of heavy industry, power and farming. A large refinery and petrochemical complex stands on the shore, with a power and desalination plant nearby, and a port handles cargo for the industrial zone. Date palms and vegetable fields grow along the wadi inland, and fishing boats work the coast. The newer planned city of King Abdullah Economic City lies a short way to the north. Workers and contractors depend on canteens, clinics and warehouses, and goods come from Jeddah by road. Prithvi sends WiFi loggers from India, registers them to a dashboard you control and walks your team through alert rules over a call.",
             climateAngle:
               "The coast is hot and heavy with moisture for most of the year, salt in the air attacks metal and packaging, and dust blows in from the desert, so stores of spares, chemicals and food all work against the climate.",
             areas: [
@@ -17821,9 +17821,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "How does salty air affect where a logger is fitted at Rabigh?",
+                question: "With a temperature data logger in Rabigh, how does salty air affect where a logger is fitted at Rabigh?",
                 answer:
-                  "We keep the logger body indoors, clear of spray and wet walls, let only the probe lead enter the cold room and recommend a wipe of the probe whenever the room is cleaned.",
+                  "We keep the logger body indoors, clear of spray and wet walls, let only the probe lead enter the cold room and recommend a wipe of the probe whenever the room is cleaned.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "How does a Rabigh plant or camp get its loggers from India and go live?",
@@ -17847,7 +17847,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Rabigh | Prithvi",
             metaDescription:
-              "Rabigh, Makkah Region: WiFi loggers for refinery stores, camp canteens, clinics and port warehouses, set up remotely. Get Solution to begin in Rabigh.",
+              "Rabigh: WiFi temperature data loggers for refinery stores, camp canteens, clinics and port warehouses, set up remotely. Get Solution to begin in Rabigh.",
             indexable: true,
           },
           {
@@ -17855,7 +17855,7 @@ export const locations: LegacyLocationNode[] = [
             name: "King Abdullah Economic City",
             type: "city",
             intro:
-              "King Abdullah Economic City is a planned city on the Red Sea coast north of Jeddah, set out with a port, an industrial zone, residential districts and leisure areas, and a temperature data logger here serves a new coastal site rather than an old town. Its stated purpose is to combine living, industry, logistics and tourism in one planned place. The King Abdullah Port handles containers and general cargo, the Industrial Valley provides plots for factories and warehouses, and hotels, schools, clinics and shops serve residents and visitors. Everything stored here arrives by sea or by road, much of it from Jeddah. Prithvi can supply WiFi loggers from India for a port yard, a plant or a clinic, and our team explains alerts and user access by video.",
+              "A temperature data logger in King Abdullah Economic City mostly serves logistics and warehousing sites, as well as food and beverage sites. King Abdullah Economic City is a planned city on the Red Sea coast north of Jeddah, set out with a port, an industrial zone, residential districts and leisure areas, and a temperature data logger here serves a new coastal site rather than an old town. Its stated purpose is to combine living, industry, logistics and tourism in one planned place. The King Abdullah Port handles containers and general cargo, the Industrial Valley provides plots for factories and warehouses, and hotels, schools, clinics and shops serve residents and visitors. Everything stored here arrives by sea or by road, much of it from Jeddah. Prithvi can supply WiFi loggers from India for a port yard, a plant or a clinic, and our team explains alerts and user access by video.",
             climateAngle:
               "The coast is hot and humid for most of the year, salt in the air attacks metal and packaging, and sea breezes bring damp into warehouses, so rooms near the shore need a humidity reading beside the temperature.",
             areas: [
@@ -17917,9 +17917,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can an operator give each customer a report for its own bay at the port or in a warehouse?",
+                question: "With a temperature data logger in King Abdullah Economic City, can an operator give each customer a report for its own bay at the port or in a warehouse?",
                 answer:
-                  "Each bay can be its own point on the dashboard with separate alert contacts, and a report for that bay and period can be exported when the customer asks.",
+                  "Each bay can be its own point on the dashboard with separate alert contacts, and a report for that bay and period can be exported when the customer asks.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "How does a business at King Abdullah Economic City start when the loggers come from India?",
@@ -17943,7 +17943,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Data Loggers in King Abdullah Economic City | Prithvi",
             metaDescription:
-              "King Abdullah Economic City, Saudi Arabia: WiFi loggers for port yards, plots, hotel kitchens and clinics. Get Solution: King Abdullah Economic City.",
+              "King Abdullah Economic City: WiFi temperature data loggers for port yards, plots, hotel kitchens and clinics. Get Solution: King Abdullah Economic City.",
             indexable: true,
           },
         ],
@@ -17953,7 +17953,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Eastern Province",
         type: "state",
         intro:
-          "The Eastern Province stretches along the Gulf coast and far inland across the desert, and it holds much of the kingdom's energy and heavy industry. Dammam, Al Khobar and Dhahran form a coastal cluster of ports, offices and hospitals; Jubail and Ras Al Khair are planned industrial cities; Ras Tanura and Abqaiq are linked to oil handling; and Al Ahsa is a great date-growing oasis inland. Summers are hot and humid on the coast and fiercely dry inland, so chemical stores, port yards, food depots and hospital refrigerators all work against the climate. Each place below has its own page, with its main stores and the loggers we would suggest.",
+          "A temperature data logger in Eastern Province mostly serves chemicals and heavy industry, as well as port yards and logistics. The Eastern Province stretches along the Gulf coast and far inland across the desert, and it holds much of the kingdom's energy and heavy industry. Dammam, Al Khobar and Dhahran form a coastal cluster of ports, offices and hospitals; Jubail and Ras Al Khair are planned industrial cities; Ras Tanura and Abqaiq are linked to oil handling; and Al Ahsa is a great date-growing oasis inland. Summers are hot and humid on the coast and fiercely dry inland, so chemical stores, port yards, food depots and hospital refrigerators all work against the climate. Each place below has its own page, with its main stores and the loggers we would suggest.",
         localIndustries: [
           "Chemicals and heavy industry",
           "Port yards and logistics",
@@ -17965,9 +17965,9 @@ export const locations: LegacyLocationNode[] = [
           "Set-up, alert rules and user access for Eastern Province sites are arranged remotely by call or video. Tell us the city or the plant and what the rooms hold.",
         faqs: [
           {
-            question: "Which Eastern Province places have a page?",
+            question: "Where can I find a temperature data logger in Eastern Province?",
             answer:
-              "Dammam, Al Khobar, Jubail, Al Ahsa, Dhahran, Qatif and Ras Al Khair each have a city page, and Dammam and Jubail also have area pages for their port and industrial cities. A town not yet written up can be raised through the enquiry form.",
+              "Dammam, Al Khobar, Jubail, Al Ahsa, Dhahran, Qatif and Ras Al Khair each have a city page, and Dammam and Jubail also have area pages for their port and industrial cities. A town not yet written up can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why do plants on the Gulf coast need humidity as well as temperature?",
@@ -18056,9 +18056,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "How does a metal-roofed shed change where loggers go?",
+                question: "With a temperature data logger in Dammam, how does a metal-roofed shed change where loggers go?",
                 answer:
-                  "We put probes at roof-beam height and at the floor, since the top of a stack near a metal roof can run far warmer than the air at the door. The difference between the two is what a single reading would miss, and it often decides whether a second row of probes is worth fitting.",
+                  "We put probes at roof-beam height and at the floor, since the top of a stack near a metal roof can run far warmer than the air at the door. The difference between the two is what a single reading would miss, and it often decides whether a second row of probes is worth fitting.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Can several plants be seen on one dashboard?",
@@ -18083,7 +18083,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Dammam | Prithvi",
             metaDescription:
-              "Dammam, Saudi Arabia: WiFi temperature and humidity loggers for chemical plants, port warehouses and food depots. Get Solution: request a plan for Dammam.",
+              "Dammam: WiFi temperature and humidity data loggers for chemical plants, port warehouses and food depots. Get Solution: request a plan for Dammam.",
             indexable: true,
           },
           {
@@ -18091,7 +18091,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Al Khobar",
             type: "city",
             intro:
-              "Al Khobar is a Gulf-coast city that has grown into one continuous urban area with Dammam and Dhahran, and a temperature data logger here serves a place of hotels, hospitals, shopping and offices rather than heavy industry. A seafront corniche lines the shore with restaurants and cafes, large malls and supermarkets draw shoppers from across the Eastern Province, private hospitals and clinics serve a large and varied population, and a university campus adds laboratories. Fresh and frozen food reaches the city's kitchens and shops from depots in Dammam and from the port. Summers are hot and heavy with humidity, so cooling plants rarely rest. Prithvi supplies WiFi loggers from India and sets up alerts to phones and email with your team on a video call, so a hotel or hospital manager can read a room from anywhere.",
+              "A temperature data logger in Al Khobar mostly serves food and beverage sites, as well as hospital and blood bank sites. Al Khobar is a Gulf-coast city that has grown into one continuous urban area with Dammam and Dhahran, and a temperature data logger here serves a place of hotels, hospitals, shopping and offices rather than heavy industry. A seafront corniche lines the shore with restaurants and cafes, large malls and supermarkets draw shoppers from across the Eastern Province, private hospitals and clinics serve a large and varied population, and a university campus adds laboratories. Fresh and frozen food reaches the city's kitchens and shops from depots in Dammam and from the port. Summers are hot and heavy with humidity, so cooling plants rarely rest. Prithvi supplies WiFi loggers from India and sets up alerts to phones and email with your team on a video call, so a hotel or hospital manager can read a room from anywhere.",
             climateAngle:
               "The Gulf shore is hot and humid for most of the year, so condensation forms on cold surfaces and cartons sweat, and a door left open on a delivery lets in damp as well as heat.",
             areas: [
@@ -18153,9 +18153,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "How does a hotel or hospital in Al Khobar get its loggers from India and start using them?",
+                question: "With a temperature data logger in Al Khobar, how does a hotel or hospital in Al Khobar get its loggers from India and start using them?",
                 answer:
-                  "The loggers are sent from India and registered to your dashboard before set-up, and a video session then fixes the rooms, the limits and the staff who receive alerts. Each room needs a router in reach for its WiFi logger.",
+                  "The loggers are sent from India and registered to your dashboard before set-up, and a video session then fixes the rooms, the limits and the staff who receive alerts. Each room needs a router in reach for its WiFi logger.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Can a group with sites in Al Khobar and Dammam watch them together?",
@@ -18179,7 +18179,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Al Khobar | Prithvi",
             metaDescription:
-              "Al Khobar, Saudi Arabia: WiFi loggers for hotel kitchens, hospitals, supermarkets and university labs, set up remotely from India. Get Solution: Al Khobar.",
+              "Al Khobar: temperature data loggers for hotel kitchens, hospitals, supermarkets and university labs, set up remotely from India. Get Solution: Al Khobar.",
             indexable: true,
           },
           {
@@ -18187,7 +18187,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Jubail",
             type: "city",
             intro:
-              "Jubail is the site of a very large industrial city of the Gulf, built on the shore north of Dammam under the Royal Commission for Jubail and Yanbu, and a temperature data logger here serves a district of petrochemical, fertiliser, steel and plastics plants beside an older coastal town. A commercial port and an industrial port handle cargo, large desalination and power plants supply the plants, and contractor camps, clinics and canteens house and feed a very large workforce. Chemical stores, spare-parts warehouses and laboratories fill the plant zones. The air is hot and humid, with salt from the sea. Loggers for Jubail are shipped from India and registered to a dashboard where plant managers, warehouse supervisors and quality staff each receive only the alerts they own.",
+              "A temperature data logger in Jubail mostly serves chemical sites, as well as logistics and warehousing sites. Jubail is the site of a very large industrial city of the Gulf, built on the shore north of Dammam under the Royal Commission for Jubail and Yanbu, and a temperature data logger here serves a district of petrochemical, fertiliser, steel and plastics plants beside an older coastal town. A commercial port and an industrial port handle cargo, large desalination and power plants supply the plants, and contractor camps, clinics and canteens house and feed a very large workforce. Chemical stores, spare-parts warehouses and laboratories fill the plant zones. The air is hot and humid, with salt from the sea. Loggers for Jubail are shipped from India and registered to a dashboard where plant managers, warehouse supervisors and quality staff each receive only the alerts they own.",
             climateAngle:
               "Heat and humidity combine on the shore, salt in the air attacks metal and packaging, and dust blows in from the desert, so a chemical store or a warehouse may be cooled and damp at the same time.",
             areas: [
@@ -18249,9 +18249,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can plant owners and their contractors each see only their own rooms?",
+                question: "With a temperature data logger in Jubail, can plant owners and their contractors each see only their own rooms?",
                 answer:
-                  "Yes. Each room is its own point on the dashboard, and access can be limited so a contractor sees only its rooms while a plant manager sees the whole list.",
+                  "Yes. Each room is its own point on the dashboard, and access can be limited so a contractor sees only its rooms while a plant manager sees the whole list.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "How does salty air affect the choice of position for a logger at Jubail?",
@@ -18275,7 +18275,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Jubail | Prithvi",
             metaDescription:
-              "Jubail, Saudi Arabia: WiFi loggers for plant stores, port warehouses, camp canteens and laboratories, set up remotely. Get Solution to begin in Jubail.",
+              "Jubail: WiFi temperature data loggers for plant stores, port warehouses, camp canteens and laboratories, set up remotely. Get Solution to begin in Jubail.",
             indexable: true,
           },
           {
@@ -18283,7 +18283,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Al Ahsa",
             type: "city",
             intro:
-              "Al Ahsa is a great oasis in the east of the kingdom, with Hofuf as its main city, and a temperature data logger here serves a place of date palms, rice fields, markets and a university. The oasis is a World Heritage site, watered by springs, and it grows dates in great quantity, along with Hassawi rice, vegetables and fodder. Packers sort, store and ship dates, mills process rice, a university campus has laboratories and clinics, and hospitals serve the oasis and the desert beyond. An industrial city on the edge of the oasis adds plants and warehouses. Summers are fierce and dry. Prithvi can send WiFi loggers from India for a date packer, a hospital or a plant, and our team gets the alert rules and user access working by phone or video.",
+              "A temperature data logger in Al Ahsa mostly serves food and beverage sites, as well as hospital and blood bank sites. Al Ahsa is a great oasis in the east of the kingdom, with Hofuf as its main city, and a temperature data logger here serves a place of date palms, rice fields, markets and a university. The oasis is a World Heritage site, watered by springs, and it grows dates in great quantity, along with Hassawi rice, vegetables and fodder. Packers sort, store and ship dates, mills process rice, a university campus has laboratories and clinics, and hospitals serve the oasis and the desert beyond. An industrial city on the edge of the oasis adds plants and warehouses. Summers are fierce and dry. Prithvi can send WiFi loggers from India for a date packer, a hospital or a plant, and our team gets the alert rules and user access working by phone or video.",
             climateAngle:
               "Summers are fierce and the nights stay warm, winters are mild, and dust storms cross the oasis, so a date store must be kept cool and dry through months of storage.",
             areas: [
@@ -18345,9 +18345,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "How can a date packer in Al Ahsa show a buyer how a lot was stored?",
+                question: "With a temperature data logger in Al Ahsa, how can a date packer in Al Ahsa show a buyer how a lot was stored?",
                 answer:
-                  "A logger in the packing store and the cold room records temperature and humidity through the season, and a report for the dates of one lot can be exported for the buyer.",
+                  "A logger in the packing store and the cold room records temperature and humidity through the season, and a report for the dates of one lot can be exported for the buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Can a farm store with a router far from the main building be monitored?",
@@ -18371,7 +18371,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Al Ahsa | Prithvi",
             metaDescription:
-              "Al Ahsa, Saudi Arabia: WiFi loggers for date packing stores, rice mills, university labs and hospitals, set up from India. Get Solution to cover Al Ahsa.",
+              "Al Ahsa: temperature data loggers for date packing stores, rice mills, university labs and hospitals, set up from India. Get Solution to cover Al Ahsa.",
             indexable: true,
           },
           {
@@ -18379,7 +18379,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Dhahran",
             type: "city",
             intro:
-              "Dhahran is a planned city on the Gulf coast beside Dammam and Al Khobar, home to the headquarters of a major energy company, a university of petroleum and minerals and a large cultural centre, and a temperature data logger here serves a place of campuses, laboratories and compounds. Research and technology parks sit beside housing, schools and clinics, hotels serve business visitors, and hospitals hold blood and medicines for a large resident population. The cultural centre has galleries, a library and archives that need steady temperature and humidity. Summers are hot and heavy with moisture. Prithvi provides WiFi loggers from India and guides a campus, hospital or hotel through alerts and user access by video, so nobody has to travel for set-up.",
+              "A temperature data logger in Dhahran mostly serves laboratory sites, as well as data centre sites. Dhahran is a planned city on the Gulf coast beside Dammam and Al Khobar, home to the headquarters of a major energy company, a university of petroleum and minerals and a large cultural centre, and a temperature data logger here serves a place of campuses, laboratories and compounds. Research and technology parks sit beside housing, schools and clinics, hotels serve business visitors, and hospitals hold blood and medicines for a large resident population. The cultural centre has galleries, a library and archives that need steady temperature and humidity. Summers are hot and heavy with moisture. Prithvi provides WiFi loggers from India and guides a campus, hospital or hotel through alerts and user access by video, so nobody has to travel for set-up.",
             climateAngle:
               "The Gulf shore is hot and humid for most of the year, air conditioning is under load for months, and a failed cooling unit can change a laboratory or an archive room within a short time. Compound clinics and hotel kitchens depend on the same grid as the campuses, so a power interruption can reach laboratories, archives and kitchens at once.",
             areas: [
@@ -18441,9 +18441,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Why would an archive or gallery store need a humidity record?",
+                question: "With a temperature data logger in Dhahran, why would an archive or gallery store need a humidity record?",
                 answer:
-                  "Paper, textiles and objects react to damp and dryness, so a log of temperature and humidity shows whether the air stayed steady and when it drifted, which supports a conservation plan.",
+                  "Paper, textiles and objects react to damp and dryness, so a log of temperature and humidity shows whether the air stayed steady and when it drifted, which supports a conservation plan.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "How does a Dhahran campus get started with loggers from India?",
@@ -18467,7 +18467,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Dhahran | Prithvi",
             metaDescription:
-              "Dhahran, Saudi Arabia: WiFi loggers for university labs, research campuses, archive rooms and hotel kitchens, set up remotely. Get Solution: Dhahran.",
+              "Dhahran: WiFi temperature data loggers for university labs, research campuses, archive rooms and hotel kitchens, set up remotely. Get Solution: Dhahran.",
             indexable: true,
           },
           {
@@ -18475,7 +18475,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Qatif",
             type: "city",
             intro:
-              "Qatif is an old oasis city on the Gulf coast just north of Dammam, joined by road to the city and the industrial coast, and a temperature data logger here serves a place where palm farms, fishing and a busy town meet the Eastern Province's urban sprawl. Date palms and vegetable gardens still fill the oasis, fishing boats work the shallow waters and the nearby island of Tarut, and markets and old streets hold shops, bakeries and restaurants. Hospitals and clinics serve a large population, and food reaches the city's kitchens and shops from depots in Dammam. Summers are hot and heavy with humidity. Loggers are supplied from India to farms, fish stores and clinics in Qatif, with alerts and users configured remotely by our team.",
+              "A temperature data logger in Qatif mostly serves food and beverage sites, as well as hospital and blood bank sites. Qatif is an old oasis city on the Gulf coast just north of Dammam, joined by road to the city and the industrial coast, and a temperature data logger here serves a place where palm farms, fishing and a busy town meet the Eastern Province's urban sprawl. Date palms and vegetable gardens still fill the oasis, fishing boats work the shallow waters and the nearby island of Tarut, and markets and old streets hold shops, bakeries and restaurants. Hospitals and clinics serve a large population, and food reaches the city's kitchens and shops from depots in Dammam. Summers are hot and heavy with humidity. Loggers are supplied from India to farms, fish stores and clinics in Qatif, with alerts and users configured remotely by our team.",
             climateAngle:
               "The oasis is hot and humid for most of the year, the sea breeze carries salt into every shed, and a failed cooler can warm a fish room or a clinic fridge quickly in the summer afternoon.",
             areas: [
@@ -18537,9 +18537,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "How can a fish trader in Qatif prove how a lot was held after landing?",
+                question: "With a temperature data logger in Qatif, how can a fish trader in Qatif prove how a lot was held after landing?",
                 answer:
-                  "A logger in the ice room and the cold store records the whole chain, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for the buyer.",
+                  "A logger in the ice room and the cold store records the whole chain, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for the buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "How does a small clinic or shop in Qatif begin with loggers from India?",
@@ -18563,7 +18563,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Qatif | Prithvi",
             metaDescription:
-              "Qatif, Saudi Arabia: WiFi loggers for palm-farm stores, fish ice rooms, bakeries, clinics and pharmacies, set up remotely. Get Solution to begin in Qatif.",
+              "Qatif: temperature data loggers for palm-farm stores, fish ice rooms, bakeries, clinics and pharmacies, set up remotely. Get Solution to begin in Qatif.",
             indexable: true,
           },
           {
@@ -18571,7 +18571,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Ras Al Khair",
             type: "city",
             intro:
-              "Ras Al Khair is an industrial city on the Gulf coast north of Jubail, built around mining, metals and water, and a temperature data logger here serves plant stores and camps in a place with very little else. A large aluminium smelter and rolling mill, phosphate fertiliser plants and a big desalination and power complex stand on the shore, and minerals from the north arrive by a dedicated railway for processing and export through a port. Contractor camps, canteens and clinics feed and treat the workforce. Everything stored here arrived by rail, road or sea, and dust, salt and heat attack every store. Prithvi supplies WiFi loggers from India for plant stores, camp canteens and clinics and configures alerts and access with the site team over video.",
+              "A temperature data logger in Ras Al Khair mostly serves chemical sites, as well as logistics and warehousing sites. Ras Al Khair is an industrial city on the Gulf coast north of Jubail, built around mining, metals and water, and a temperature data logger here serves plant stores and camps in a place with very little else. A large aluminium smelter and rolling mill, phosphate fertiliser plants and a big desalination and power complex stand on the shore, and minerals from the north arrive by a dedicated railway for processing and export through a port. Contractor camps, canteens and clinics feed and treat the workforce. Everything stored here arrived by rail, road or sea, and dust, salt and heat attack every store. Prithvi supplies WiFi loggers from India for plant stores, camp canteens and clinics and configures alerts and access with the site team over video.",
             climateAngle:
               "The shore is hot and humid in summer, salt in the air and fine mineral dust attack equipment, and sudden dust storms can stop work, so stores of spares, chemicals and food must be watched through heat and outages. The site is remote from any town, so supplies, food and medicines are held in larger quantities than in a city, which raises the loss from a failed cooler.",
             areas: [
@@ -18633,9 +18633,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can stores with strict access rules at Ras Al Khair be covered?",
+                question: "With a temperature data logger in Ras Al Khair, can stores with strict access rules at Ras Al Khair be covered?",
                 answer:
-                  "Set-up is remote, so your own staff fit the loggers following our guidance, and access to the dashboard can be limited so each user sees only the rooms they are responsible for.",
+                  "Set-up is remote, so your own staff fit the loggers following our guidance, and access to the dashboard can be limited so each user sees only the rooms they are responsible for.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "How does mineral dust change where a logger is placed?",
@@ -18659,7 +18659,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Ras Al Khair | Prithvi",
             metaDescription:
-              "Ras Al Khair, Saudi Arabia: WiFi loggers for plant stores, port and rail yards, camp canteens and clinics, set up remotely. Get Solution: Ras Al Khair.",
+              "Ras Al Khair: WiFi temperature data loggers for plant stores, port and rail yards, camp canteens and clinics, set up remotely. Get Solution: Ras Al Khair.",
             indexable: true,
           },
         ],
@@ -18669,7 +18669,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Madinah Region",
         type: "state",
         intro:
-          "The Madinah Region lies in the west of the kingdom, with its capital inland on a plateau of lava fields and its Red Sea port and industrial city at Yanbu on the coast. Madinah itself has a large hospitality and healthcare economy, with hotels, hospitals, pharmacies and food suppliers working throughout the year, while Yanbu holds petrochemical plants, a port and the warehouses that serve them. Summers are very hot and dry inland and hot and humid on the coast. Medicines, chilled food and general cargo travel long roads between the two, so storage rooms are watched both at the destination and on the route. The pages below cover the inland city and the port, with the rooms we would suggest watching in each.",
+          "A temperature data logger in Madinah Region mostly serves hospitality and food supply, as well as hospitals and medicine distribution. The Madinah Region lies in the west of the kingdom, with its capital inland on a plateau of lava fields and its Red Sea port and industrial city at Yanbu on the coast. Madinah itself has a large hospitality and healthcare economy, with hotels, hospitals, pharmacies and food suppliers working throughout the year, while Yanbu holds petrochemical plants, a port and the warehouses that serve them. Summers are very hot and dry inland and hot and humid on the coast. Medicines, chilled food and general cargo travel long roads between the two, so storage rooms are watched both at the destination and on the route. The pages below cover the inland city and the port, with the rooms we would suggest watching in each.",
         localIndustries: [
           "Hospitality and food supply",
           "Hospitals and medicine distribution",
@@ -18681,9 +18681,9 @@ export const locations: LegacyLocationNode[] = [
           "Set-up, alert rules and user access for Madinah Region sites are arranged remotely by call or video. Send the city and a note of what the rooms hold.",
         faqs: [
           {
-            question: "Which Madinah Region places have a page?",
+            question: "Where can I find a temperature data logger in Madinah Region?",
             answer:
-              "Madinah and Yanbu each have a city page, and Yanbu also has an area page for its industrial city. Any other town can be raised through the enquiry form.",
+              "Madinah and Yanbu each have a city page, and Yanbu also has an area page for its industrial city. Any other town can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "How do alerts help a hotel or hospital store in a very hot inland city?",
@@ -18711,7 +18711,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Madinah",
             type: "city",
             intro:
-              "Madinah lies on a high plateau of dark lava fields in the west of the kingdom, ringed by hills and date oases, and a temperature data logger here serves a city whose economy rests on hospitality, healthcare, retail and the supply chains that feed them. Hotels and restaurants cook and stock for a constant flow of visitors, two universities and several hospitals fill the city with laboratories, wards and pharmacies, and wholesale depots receive food and medicines from the coast by road and by the high-speed railway corridor. Date farms in the surrounding oases send fruit to packing houses. Summers are extremely hot and dry, so cooling plants rarely rest. Prithvi can supply WiFi loggers from India and walk a hotel, hospital or depot through alerts and user access by call or video.",
+              "A temperature data logger in Madinah mostly serves food and beverage sites, as well as hospital and blood bank sites. Madinah lies on a high plateau of dark lava fields in the west of the kingdom, ringed by hills and date oases, and a temperature data logger here serves a city whose economy rests on hospitality, healthcare, retail and the supply chains that feed them. Hotels and restaurants cook and stock for a constant flow of visitors, two universities and several hospitals fill the city with laboratories, wards and pharmacies, and wholesale depots receive food and medicines from the coast by road and by the high-speed railway corridor. Date farms in the surrounding oases send fruit to packing houses. Summers are extremely hot and dry, so cooling plants rarely rest. Prithvi can supply WiFi loggers from India and walk a hotel, hospital or depot through alerts and user access by call or video.",
             climateAngle:
               "Extreme dry heat settles on the plateau for months, nights stay warm in summer, and sudden winter rain or dust storms break the pattern, so a failing cooling unit can warm a kitchen or a pharmacy store within a single afternoon.",
             areas: [
@@ -18773,9 +18773,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "How would a Madinah hotel or hospital begin when the loggers come from India?",
+                question: "With a temperature data logger in Madinah, how would a Madinah hotel or hospital begin when the loggers come from India?",
                 answer:
-                  "The loggers are registered to your dashboard on arrival, and a call or video session settles the rooms, the limits and the staff who receive alerts, with a router within reach of each room.",
+                  "The loggers are registered to your dashboard on arrival, and a call or video session settles the rooms, the limits and the staff who receive alerts, with a router within reach of each room.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why use a short delay on a high alert in a busy kitchen?",
@@ -18800,7 +18800,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Madinah | Prithvi",
             metaDescription:
-              "Madinah, Saudi Arabia: WiFi loggers for hotel kitchens, hospital and pharmacy stores and date packing houses, set up remotely. Get Solution: Madinah.",
+              "Madinah: WiFi temperature data loggers for hotel kitchens, hospital and pharmacy stores and date packing houses, set up remotely. Get Solution: Madinah.",
             indexable: true,
           },
           {
@@ -18808,7 +18808,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Yanbu",
             type: "city",
             intro:
-              "Yanbu is the Red Sea port of the Madinah Region, a coastal town of two old centres beside a large industrial city, and a temperature data logger here serves the harbour, the town and the workforce that lives around them. Boats still fish from the old waterfront, divers and holidaymakers fill hotels along a coral shore, and a commercial port and an industrial port handle cargo for the plants inland. Hospitals and clinics serve a large population of workers and families, supermarkets and canteens feed them, and warehouses hold supplies brought from Jeddah by road. The coast is hot and humid with salt in the air. Prithvi supplies WiFi loggers from India, registers them to a dashboard you control and walks your team through alert rules over a call.",
+              "A temperature data logger in Yanbu mostly serves food and beverage sites, as well as logistics and warehousing sites. Yanbu is the Red Sea port of the Madinah Region, a coastal town of two old centres beside a large industrial city, and a temperature data logger here serves the harbour, the town and the workforce that lives around them. Boats still fish from the old waterfront, divers and holidaymakers fill hotels along a coral shore, and a commercial port and an industrial port handle cargo for the plants inland. Hospitals and clinics serve a large population of workers and families, supermarkets and canteens feed them, and warehouses hold supplies brought from Jeddah by road. The coast is hot and humid with salt in the air. Prithvi supplies WiFi loggers from India, registers them to a dashboard you control and walks your team through alert rules over a call.",
             climateAngle:
               "The Red Sea coast is hot and heavy with moisture for most of the year, salt corrodes metal and packaging, and sudden dust and sea fog can interrupt journeys and cooling alike.",
             areas: [
@@ -18870,9 +18870,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "How does salt in the air change where a logger is placed at Yanbu?",
+                question: "With a temperature data logger in Yanbu, how does salt in the air change where a logger is placed at Yanbu?",
                 answer:
-                  "The body is mounted indoors, clear of spray and wet walls, with only the probe lead entering the cold room, and the probe is wiped whenever the room is cleaned.",
+                  "The body is mounted indoors, clear of spray and wet walls, with only the probe lead entering the cold room, and the probe is wiped whenever the room is cleaned.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "How does a Yanbu business get started with loggers supplied from India?",
@@ -18897,7 +18897,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Yanbu | Prithvi",
             metaDescription:
-              "Yanbu, Saudi Arabia: WiFi loggers for fish ice rooms, hotel kitchens, clinics and port warehouses, set up from India. Get Solution to begin in Yanbu.",
+              "Yanbu: WiFi temperature data loggers for fish ice rooms, hotel kitchens, clinics and port warehouses, set up from India. Get Solution to begin in Yanbu.",
             indexable: true,
           },
         ],
@@ -18907,7 +18907,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Asir Region",
         type: "state",
         intro:
-          "The Asir Region occupies the mountains of the south-west, where the land rises steeply from the Red Sea plain to cool, green highlands. Abha, the regional capital, and Khamis Mushait, the larger trading town beside it, hold hospitals, markets, hotels and distribution depots, and farms on the terraces grow fruit and vegetables for the kingdom. Summers are mild in the highlands, the rainy season brings mist and cloud, and winter nights are cold, so the region has an unusual mix of cool storage and damp. Mountain roads lengthen every delivery of medicines and chilled food. Open a town below to see its hotel, hospital and depot rooms and the loggers we would start with.",
+          "A temperature data logger in Asir Region mostly serves hospitals and medicine distribution, as well as fruit, vegetable and food depots. The Asir Region occupies the mountains of the south-west, where the land rises steeply from the Red Sea plain to cool, green highlands. Abha, the regional capital, and Khamis Mushait, the larger trading town beside it, hold hospitals, markets, hotels and distribution depots, and farms on the terraces grow fruit and vegetables for the kingdom. Summers are mild in the highlands, the rainy season brings mist and cloud, and winter nights are cold, so the region has an unusual mix of cool storage and damp. Mountain roads lengthen every delivery of medicines and chilled food. Open a town below to see its hotel, hospital and depot rooms and the loggers we would start with.",
         localIndustries: [
           "Hospitals and medicine distribution",
           "Fruit, vegetable and food depots",
@@ -18919,9 +18919,9 @@ export const locations: LegacyLocationNode[] = [
           "Set-up, alert rules and user access for Asir Region sites are arranged remotely by call or video. Write to us with the town and a note of what the rooms hold.",
         faqs: [
           {
-            question: "Which Asir Region places have a page?",
+            question: "Where can I find a temperature data logger in Asir Region?",
             answer:
-              "Abha, Khamis Mushait and Bisha each have a city page. Towns such as Sabya and the villages of the highlands can be raised through the enquiry form.",
+              "Abha, Khamis Mushait and Bisha each have a city page. Towns such as Sabya and the villages of the highlands can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Does a cool, misty climate mean a store does not need monitoring?",
@@ -18947,7 +18947,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Abha",
             type: "city",
             intro:
-              "Abha is the capital of the Asir Region, a mountain city high in the Sarawat range in the south-west, and a temperature data logger here serves a place with mild summers and misty air. Terraced farms and fruit gardens climb the slopes, a lake behind a dam lies beside the city, and in summer visitors from the hot plains fill hotels, chalets and restaurants. A university, a large central hospital and many clinics add laboratories and wards, and markets stock food and household goods brought up steep roads from the coast and from Khamis Mushait. Because the air stays cool but damp, moisture is the main enemy of stores. Prithvi supplies WiFi loggers from India and sets alerts and user access up with your team by video.",
+              "A temperature data logger in Abha mostly serves food and beverage sites, as well as hospital and blood bank sites. Abha is the capital of the Asir Region, a mountain city high in the Sarawat range in the south-west, and a temperature data logger here serves a place with mild summers and misty air. Terraced farms and fruit gardens climb the slopes, a lake behind a dam lies beside the city, and in summer visitors from the hot plains fill hotels, chalets and restaurants. A university, a large central hospital and many clinics add laboratories and wards, and markets stock food and household goods brought up steep roads from the coast and from Khamis Mushait. Because the air stays cool but damp, moisture is the main enemy of stores. Prithvi supplies WiFi loggers from India and sets alerts and user access up with your team by video.",
             climateAngle:
               "Summers are mild, cloud and mist settle on the slopes in the rainy season, and winter nights are cold, so cartons, linen and flour absorb moisture while a cooler can still fail unnoticed in a building where nobody feels the heat.",
             areas: [
@@ -19009,9 +19009,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Why use a humidity logger in a cool mountain hotel?",
+                question: "With a temperature data logger in Abha, why use a humidity logger in a cool mountain hotel?",
                 answer:
-                  "Mist and rain keep the air damp, so linen, flour and cartons take on moisture even when the room is cool, and a humidity trend shows the day a store needs drying or better ventilation.",
+                  "Mist and rain keep the air damp, so linen, flour and cartons take on moisture even when the room is cool, and a humidity trend shows the day a store needs drying or better ventilation.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "How does an Abha hotel or clinic get started with loggers supplied from India?",
@@ -19035,7 +19035,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Abha | Prithvi",
             metaDescription:
-              "Abha, Saudi Arabia: WiFi temperature and humidity loggers for hotel kitchens, the hospital, university labs and markets. Get Solution: Abha.",
+              "Abha, Saudi Arabia: WiFi temperature and humidity data loggers for hotel kitchens, the hospital, university labs and markets. Get Solution: Abha.",
             indexable: true,
           },
           {
@@ -19043,7 +19043,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Khamis Mushait",
             type: "city",
             intro:
-              "Khamis Mushait grew from a weekly Thursday market, which gives it its name, into a major commercial centre of the south-west, and a temperature data logger here serves a trading city on the junction of the highland roads. Wholesalers stock food, medicines, building goods and household items for the whole Asir Region and the plains below, poultry and dairy farms supply the markets, and hospitals and university campuses add wards and laboratories. An industrial area on the outskirts holds food, packaging and building-materials plants. Summers are mild at altitude, winters are cool, and the rains bring mist and sudden storms. Loggers for Khamis Mushait are supplied from India and report to a dashboard that managers can open from a phone.",
+              "A temperature data logger in Khamis Mushait mostly serves food and beverage sites, as well as pharmaceutical sites. Khamis Mushait grew from a weekly Thursday market, which gives it its name, into a major commercial centre of the south-west, and a temperature data logger here serves a trading city on the junction of the highland roads. Wholesalers stock food, medicines, building goods and household items for the whole Asir Region and the plains below, poultry and dairy farms supply the markets, and hospitals and university campuses add wards and laboratories. An industrial area on the outskirts holds food, packaging and building-materials plants. Summers are mild at altitude, winters are cool, and the rains bring mist and sudden storms. Loggers for Khamis Mushait are supplied from India and report to a dashboard that managers can open from a phone.",
             climateAngle:
               "The air is mild in summer, cold on winter nights and damp in the rainy months, so cold rooms work less hard than on the plains but moisture settles in dry stores, and storm power cuts are a bigger risk than heat.",
             areas: [
@@ -19105,9 +19105,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a wholesaler give a client a record for a consignment?",
+                question: "With a temperature data logger in Khamis Mushait, can a wholesaler give a client a record for a consignment?",
                 answer:
-                  "Reports for any room and any dates can be exported in PDF, Excel or CSV form, so a wholesaler can hand a client a dated log in place of a handwritten sheet.",
+                  "Reports for any room and any dates can be exported in PDF, Excel or CSV form, so a wholesaler can hand a client a dated log in place of a handwritten sheet.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "What protects a cold room when a storm cuts the power?",
@@ -19131,7 +19131,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Khamis Mushait | Prithvi",
             metaDescription:
-              "Khamis Mushait, Saudi Arabia: WiFi loggers for wholesale depots, hospitals, university labs and food plants. Use Get Solution for Khamis Mushait.",
+              "Khamis Mushait: WiFi temperature data loggers for wholesale depots, hospitals, university labs and food plants. Use Get Solution for Khamis Mushait.",
             indexable: true,
           },
           {
@@ -19139,7 +19139,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Bisha",
             type: "city",
             intro:
-              "Bisha is a valley town in the north of the Asir Region, lower and hotter than the highlands around Abha, and a temperature data logger here serves a farming and crossroads town. A large dam on the Wadi Bisha waters date palms, wheat, fodder and vegetables on the valley floor, a university has a campus in the town, and hospitals and clinics serve villages across a wide area. Roads from the mountains, from Najran and from the Riyadh side meet here, so trucks stop and goods are stored and transferred. Summers are hot and dry, winters mild. Prithvi can supply WiFi loggers from India for a date store, a clinic or a depot, and our team gets alert rules and users working by phone or video.",
+              "A temperature data logger in Bisha mostly serves food and beverage sites, as well as hospital and blood bank sites. Bisha is a valley town in the north of the Asir Region, lower and hotter than the highlands around Abha, and a temperature data logger here serves a farming and crossroads town. A large dam on the Wadi Bisha waters date palms, wheat, fodder and vegetables on the valley floor, a university has a campus in the town, and hospitals and clinics serve villages across a wide area. Roads from the mountains, from Najran and from the Riyadh side meet here, so trucks stop and goods are stored and transferred. Summers are hot and dry, winters mild. Prithvi can supply WiFi loggers from India for a date store, a clinic or a depot, and our team gets alert rules and users working by phone or video.",
             climateAngle:
               "The valley floor is hot in summer, mild in winter and dusty in the dry months, so date stores and farm cold rooms work hard in the long summer while storms in the hills can send floods down the wadi. Trucks can wait at the junction when a mountain road is closed, so goods may stand longer than planned.",
             areas: [
@@ -19201,9 +19201,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "How does a date farm in Bisha use a temperature record?",
+                question: "With a temperature data logger in Bisha, how does a date farm in Bisha use a temperature record?",
                 answer:
-                  "A logger in the packing store and the cold room records the season's temperature and humidity, and a report for the dates of a lot can be sent to the buyer.",
+                  "A logger in the packing store and the cold room records the season's temperature and humidity, and a report for the dates of a lot can be sent to the buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Can a clinic far from a town centre use a single logger?",
@@ -19227,7 +19227,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Bisha | Prithvi",
             metaDescription:
-              "Bisha, Saudi Arabia: WiFi loggers for date stores, farm cold rooms, university labs and clinics, set up remotely from India. Get Solution to cover Bisha.",
+              "Bisha: temperature data loggers for date stores, farm cold rooms, university labs and clinics, set up remotely from India. Get Solution to cover Bisha.",
             indexable: true,
           },
         ],
@@ -19237,7 +19237,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Qassim Region",
         type: "state",
         intro:
-          "The Qassim Region sits in the heart of the kingdom, a flat sandy plain irrigated from wells and famous for dates and farming. Buraidah, the capital, Unaizah and Ar Rass are the three main towns, each with markets, hospitals and farm-supply depots, and the dates of the region are packed, stored and sent across the kingdom and abroad. Summers are extremely hot and dry, winter nights are cold, and dust storms are common in the dry months. Date stores, farm cold rooms, hospital refrigerators and retail warehouses must hold their limits through long hot spells. Open a town below for its date stores, farm cold rooms and clinics, and the loggers we would start with.",
+          "A temperature data logger in Qassim Region mostly serves dates and farm produce, as well as food and dairy depots. The Qassim Region sits in the heart of the kingdom, a flat sandy plain irrigated from wells and famous for dates and farming. Buraidah, the capital, Unaizah and Ar Rass are the three main towns, each with markets, hospitals and farm-supply depots, and the dates of the region are packed, stored and sent across the kingdom and abroad. Summers are extremely hot and dry, winter nights are cold, and dust storms are common in the dry months. Date stores, farm cold rooms, hospital refrigerators and retail warehouses must hold their limits through long hot spells. Open a town below for its date stores, farm cold rooms and clinics, and the loggers we would start with.",
         localIndustries: [
           "Dates and farm produce",
           "Food and dairy depots",
@@ -19249,9 +19249,9 @@ export const locations: LegacyLocationNode[] = [
           "Set-up, alert rules and user access for Qassim Region sites are arranged remotely by call or video. Send the town and a note on what the rooms hold.",
         faqs: [
           {
-            question: "Which Qassim Region places have a page?",
+            question: "Where can I find a temperature data logger in Qassim Region?",
             answer:
-              "Buraidah and Unaizah each have a city page. Ar Rass and the region's other towns can be raised through the enquiry form.",
+              "Buraidah and Unaizah each have a city page. Ar Rass and the region's other towns can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "How does a logger help a date packer?",
@@ -19276,7 +19276,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Buraidah",
             type: "city",
             intro:
-              "Buraidah is the capital of the Qassim Region, a large city on the central plain amid wheat fields and date groves, and a temperature data logger here serves the trading centre of a major farming district. A large date market fills in the season with growers, dealers and packers, a camel market and livestock yards operate year round, and wheat, fodder and vegetable growers sell and store their crops in the city. A public university, an industrial city and a regional hospital add laboratories, plants and wards. Roads link the city to Riyadh and Madinah. Summers are scorching and dust blows in the dry months. Loggers for Buraidah arrive from India and report to a dashboard that managers can open from a phone, with set-up done by call or video.",
+              "A temperature data logger in Buraidah mostly serves food and beverage sites, as well as logistics and warehousing sites. Buraidah is the capital of the Qassim Region, a large city on the central plain amid wheat fields and date groves, and a temperature data logger here serves the trading centre of a major farming district. A large date market fills in the season with growers, dealers and packers, a camel market and livestock yards operate year round, and wheat, fodder and vegetable growers sell and store their crops in the city. A public university, an industrial city and a regional hospital add laboratories, plants and wards. Roads link the city to Riyadh and Madinah. Summers are scorching and dust blows in the dry months. Loggers for Buraidah arrive from India and report to a dashboard that managers can open from a phone, with set-up done by call or video.",
             climateAngle:
               "Heat is severe for months, winter nights can be cold with frost on the open plain, and dust storms cross the farms in spring, so date stores, farm cold rooms and hospital refrigerators meet extremes at both ends of the range.",
             areas: [
@@ -19338,9 +19338,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "How can a date dealer in Buraidah use a temperature record?",
+                question: "With a temperature data logger in Buraidah, how can a date dealer in Buraidah use a temperature record?",
                 answer:
-                  "Loggers in the packing store and the chamber keep a season-long log of temperature and humidity, and a report covering one lot's dates can be sent to the buyer.",
+                  "Loggers in the packing store and the chamber keep a season-long log of temperature and humidity, and a report covering one lot's dates can be sent to the buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why do dust storms matter for a logger on a farm store?",
@@ -19365,7 +19365,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Buraidah | Prithvi",
             metaDescription:
-              "Buraidah, Saudi Arabia: WiFi loggers for date market stores, farm cold rooms, industrial plants and hospitals. Get Solution: request a plan for Buraidah.",
+              "Buraidah: temperature data loggers for date market stores, farm cold rooms, industrial plants and hospitals. Get Solution: request a plan for Buraidah.",
             indexable: true,
           },
           {
@@ -19373,7 +19373,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Unaizah",
             type: "city",
             intro:
-              "Unaizah is an oasis city of the Qassim Region, south of Buraidah, famed for its date orchards and its old mud-brick quarter, and a temperature data logger here serves a quieter farming town than the regional capital. Orchards and farms surround the city, date dealers and packers work in a covered market, and wholesalers stock food and household goods for the villages around. Hospitals and clinics serve the district, a college of the regional university has laboratories, and small factories make food, packaging and building materials. Because crops are sold fresh or stored for months, steady temperature and humidity decide how long they keep. Prithvi supplies WiFi loggers from India for packing houses, clinics and shops, with alerts and users configured remotely by our team.",
+              "A temperature data logger in Unaizah mostly serves food and beverage sites, as well as hospital and blood bank sites. Unaizah is an oasis city of the Qassim Region, south of Buraidah, famed for its date orchards and its old mud-brick quarter, and a temperature data logger here serves a quieter farming town than the regional capital. Orchards and farms surround the city, date dealers and packers work in a covered market, and wholesalers stock food and household goods for the villages around. Hospitals and clinics serve the district, a college of the regional university has laboratories, and small factories make food, packaging and building materials. Because crops are sold fresh or stored for months, steady temperature and humidity decide how long they keep. Prithvi supplies WiFi loggers from India for packing houses, clinics and shops, with alerts and users configured remotely by our team.",
             climateAngle:
               "The oasis is scorching in summer, cold on clear winter nights and dusty in spring, so a date store must hold a cool, dry range through months of storage and a clinic refrigerator must survive a hot afternoon, with nobody on site to notice a failure after hours.",
             areas: [
@@ -19435,9 +19435,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a small date packer in Unaizah use a single logger?",
+                question: "With a temperature data logger in Unaizah, can a small date packer in Unaizah use a single logger?",
                 answer:
-                  "Yes. One logger with an alert to a phone is enough for a single cool room, and more points can be added to the same account later as the business grows.",
+                  "Yes. One logger with an alert to a phone is enough for a single cool room, and more points can be added to the same account later as the business grows.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "How does a clinic in Unaizah begin with loggers sent from India?",
@@ -19461,7 +19461,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Unaizah | Prithvi",
             metaDescription:
-              "Unaizah, Saudi Arabia: WiFi loggers for date stores, covered-market traders, clinics and college labs, set up remotely. Get Solution: Unaizah.",
+              "Unaizah: WiFi temperature data loggers for date stores, covered-market traders, clinics and college labs, set up remotely. Get Solution: Unaizah.",
             indexable: true,
           },
         ],
@@ -19471,7 +19471,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Jazan Region",
         type: "state",
         intro:
-          "The Jazan Region occupies the south-western corner of the kingdom, a hot, humid Red Sea plain backed by green mountains. Jazan, the regional capital and port, Sabya and Abu Arish are the main towns, with farms that grow mangoes, bananas and other fruit on the plain and coffee on the mountain slopes, along with fishing, hospitals and markets. Summers are among the most humid in the kingdom, so cartons, produce and medicines take on moisture quickly, and a planned economic city on the coast is meant to add industry and port activity. Open the pages below for the port town and the planned coastal city, with the loggers we would suggest.",
+          "A temperature data logger in Jazan Region mostly serves fruit, coffee and farm produce, as well as fishing and food depots. The Jazan Region occupies the south-western corner of the kingdom, a hot, humid Red Sea plain backed by green mountains. Jazan, the regional capital and port, Sabya and Abu Arish are the main towns, with farms that grow mangoes, bananas and other fruit on the plain and coffee on the mountain slopes, along with fishing, hospitals and markets. Summers are among the most humid in the kingdom, so cartons, produce and medicines take on moisture quickly, and a planned economic city on the coast is meant to add industry and port activity. Open the pages below for the port town and the planned coastal city, with the loggers we would suggest.",
         localIndustries: [
           "Fruit, coffee and farm produce",
           "Fishing and food depots",
@@ -19483,9 +19483,9 @@ export const locations: LegacyLocationNode[] = [
           "Set-up, alert rules and user access for Jazan Region sites are arranged remotely by call or video. Send the town and a short note on what the rooms hold.",
         faqs: [
           {
-            question: "Which Jazan Region places have a page?",
+            question: "Where can I find a temperature data logger in Jazan Region?",
             answer:
-              "Jazan has a city page, and the planned Jazan Economic City has an area page. Sabya, Abu Arish and the region's other towns can be raised through the enquiry form.",
+              "Jazan has a city page, and the planned Jazan Economic City has an area page. Sabya, Abu Arish and the region's other towns can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why is humidity a bigger worry than heat in a Jazan store?",
@@ -19512,7 +19512,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Jazan",
             type: "city",
             intro:
-              "Jazan is the port and capital of the Jazan Region in the far south-west, on a low Red Sea plain backed by green mountains, and a temperature data logger here serves a very hot, humid place. Fishing boats land their catch at the harbour and set out for the Farasan Islands, a seaport receives imported goods, and farms on the plain grow mangoes, bananas and papayas while coffee is picked on the mountain slopes. A university, a central hospital and many clinics serve the region, and the planned Jazan Economic City lies north of the town. Loggers for Jazan come from India and are registered to a dashboard that clinic managers, fruit packers and port supervisors can open from a phone, with the first alert rules agreed on a call.",
+              "A temperature data logger in Jazan mostly serves food and beverage sites, as well as logistics and warehousing sites. Jazan is the port and capital of the Jazan Region in the far south-west, on a low Red Sea plain backed by green mountains, and a temperature data logger here serves a very hot, humid place. Fishing boats land their catch at the harbour and set out for the Farasan Islands, a seaport receives imported goods, and farms on the plain grow mangoes, bananas and papayas while coffee is picked on the mountain slopes. A university, a central hospital and many clinics serve the region, and the planned Jazan Economic City lies north of the town. Loggers for Jazan come from India and are registered to a dashboard that clinic managers, fruit packers and port supervisors can open from a phone, with the first alert rules agreed on a call.",
             climateAngle:
               "Heat and humidity are both extreme for most of the year, so condensation forms on every cold surface, cartons sweat, and mould takes hold in stores where a dehumidifier stops for a few hours.",
             areas: [
@@ -19574,9 +19574,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Why does humidity matter as much as heat in a Jazan store?",
+                question: "With a temperature data logger in Jazan, why does humidity matter as much as heat in a Jazan store?",
                 answer:
-                  "Hot, wet air condenses on cold surfaces and soaks cartons, so a humidity reading beside the temperature shows the day a store began to take on moisture, even when the temperature looks acceptable.",
+                  "Hot, wet air condenses on cold surfaces and soaks cartons, so a humidity reading beside the temperature shows the day a store began to take on moisture, even when the temperature looks acceptable.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Can a fruit exporter show a buyer how mangoes were held?",
@@ -19600,7 +19600,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Jazan | Prithvi",
             metaDescription:
-              "Jazan, Saudi Arabia: WiFi loggers for fish ice rooms, fruit packing houses, port warehouses and hospitals, set up from India. Get Solution to cover Jazan.",
+              "Jazan: temperature data loggers for fish ice rooms, fruit packing houses, port warehouses and hospitals, set up from India. Get Solution to cover Jazan.",
             indexable: true,
           },
         ],
@@ -19610,7 +19610,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Tabuk Region",
         type: "state",
         intro:
-          "The Tabuk Region occupies the north-west of the kingdom, a large area of desert, mountains and coast that reaches the Red Sea and the Gulf of Aqaba. Tabuk, the regional capital, has farms, markets, hospitals and distribution depots; Duba and Haql are small coastal towns with port activity; and NEOM is a planned development in the region with a stated purpose of building new cities and industries. Winters are cold, with frost on high ground and occasional snow on the mountains, and summers are hot and dry, so storage rooms meet both extremes. Distances are long, and goods travel far to reach the region. The Tabuk page below covers the farms, depots and hospital stores of the regional capital.",
+          "A temperature data logger in Tabuk Region mostly serves farm produce and food depots, as well as hospitals and medicine supply. The Tabuk Region occupies the north-west of the kingdom, a large area of desert, mountains and coast that reaches the Red Sea and the Gulf of Aqaba. Tabuk, the regional capital, has farms, markets, hospitals and distribution depots; Duba and Haql are small coastal towns with port activity; and NEOM is a planned development in the region with a stated purpose of building new cities and industries. Winters are cold, with frost on high ground and occasional snow on the mountains, and summers are hot and dry, so storage rooms meet both extremes. Distances are long, and goods travel far to reach the region. The Tabuk page below covers the farms, depots and hospital stores of the regional capital.",
         localIndustries: [
           "Farm produce and food depots",
           "Hospitals and medicine supply",
@@ -19622,9 +19622,9 @@ export const locations: LegacyLocationNode[] = [
           "Set-up, alert rules and user access for Tabuk Region sites are arranged remotely by call or video. Send the town and a short note on what the rooms hold.",
         faqs: [
           {
-            question: "Which Tabuk Region places have a page?",
+            question: "Where can I find a temperature data logger in Tabuk Region?",
             answer:
-              "Tabuk has a city page. The coastal towns and other places in the region can be raised through the enquiry form, and further pages are added as they are written.",
+              "Tabuk has a city page. The coastal towns and other places in the region can be raised through the enquiry form, and further pages are added as they are written.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why would a store in a hot desert region need a low limit?",
@@ -19648,7 +19648,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Tabuk",
             type: "city",
             intro:
-              "Tabuk is the capital of the Tabuk Region in the north-west of the kingdom, a farming and trading city on a wide plain below high mountains, and a temperature data logger here serves a place with cold winters as well as hot summers. Wheat, dates, fruit and vegetables grow on irrigated farms around the city, and packers, mills and cold rooms handle the harvest. A university, a large regional hospital and many clinics add laboratories and wards, markets and wholesale depots supply the northern towns, and an industrial city on the outskirts holds plants and warehouses. An old fort stands in the centre. Prithvi supplies WiFi loggers from India and sets alerts and user access up with your team by video, so a farm or clinic manager can read a room from a phone.",
+              "A temperature data logger in Tabuk mostly serves food and beverage sites, as well as hospital and blood bank sites. Tabuk is the capital of the Tabuk Region in the north-west of the kingdom, a farming and trading city on a wide plain below high mountains, and a temperature data logger here serves a place with cold winters as well as hot summers. Wheat, dates, fruit and vegetables grow on irrigated farms around the city, and packers, mills and cold rooms handle the harvest. A university, a large regional hospital and many clinics add laboratories and wards, markets and wholesale depots supply the northern towns, and an industrial city on the outskirts holds plants and warehouses. An old fort stands in the centre. Prithvi supplies WiFi loggers from India and sets alerts and user access up with your team by video, so a farm or clinic manager can read a room from a phone.",
             climateAngle:
               "Summers are hot and dry, winter nights are cold with frost on the plain and snow on the mountains, so a cold room must hold its upper limit in July and a produce store must not chill too far in January.",
             areas: [
@@ -19710,9 +19710,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Why does a store in Tabuk need both a low and a high alert limit?",
+                question: "With a temperature data logger in Tabuk, why does a store in Tabuk need both a low and a high alert limit?",
                 answer:
-                  "Summer sun can overheat a cold room while winter nights can chill produce that should not freeze, so a low limit protects stock in January and a high limit with a short delay protects it in July.",
+                  "Summer sun can overheat a cold room while winter nights can chill produce that should not freeze, so a low limit protects stock in January and a high limit with a short delay protects it in July.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "How does a Tabuk farm or clinic start with loggers supplied from India?",
@@ -19736,7 +19736,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Tabuk | Prithvi",
             metaDescription:
-              "Tabuk, Saudi Arabia: WiFi loggers for farm packing houses, food depots, the regional hospital and university labs. Get Solution to begin in Tabuk.",
+              "Tabuk: WiFi temperature data loggers for farm packing houses, food depots, the regional hospital and university labs. Get Solution to begin in Tabuk.",
             indexable: true,
           },
         ],
@@ -19746,7 +19746,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Hail Region",
         type: "state",
         intro:
-          "The Hail Region lies in the north of the central plateau, ringed by two ranges of granite hills, and its economy is built on farming and trade. Hail, the capital, has markets, hospitals and warehouses, and the fields of the region grow wheat, dates and vegetables that are packed and stored for sale across the kingdom. Summers are very hot and dry, winters are cold with frost on clear nights, and dust storms arrive in spring. Farm cold rooms, date stores, hospital refrigerators and retail depots must hold their limits through the heat and the cold. The Hail page below covers the farms, mills and hospital stores of the regional capital.",
+          "A temperature data logger in Hail Region mostly serves wheat, dates and vegetables, as well as food and dairy depots. The Hail Region lies in the north of the central plateau, ringed by two ranges of granite hills, and its economy is built on farming and trade. Hail, the capital, has markets, hospitals and warehouses, and the fields of the region grow wheat, dates and vegetables that are packed and stored for sale across the kingdom. Summers are very hot and dry, winters are cold with frost on clear nights, and dust storms arrive in spring. Farm cold rooms, date stores, hospital refrigerators and retail depots must hold their limits through the heat and the cold. The Hail page below covers the farms, mills and hospital stores of the regional capital.",
         localIndustries: [
           "Wheat, dates and vegetables",
           "Food and dairy depots",
@@ -19758,9 +19758,9 @@ export const locations: LegacyLocationNode[] = [
           "Set-up, alert rules and user access for Hail Region sites are arranged remotely by call or video. Share the town and a note on what the rooms hold.",
         faqs: [
           {
-            question: "Which Hail Region places have a page?",
+            question: "Where can I find a temperature data logger in Hail Region?",
             answer:
-              "Hail has a city page. Other towns of the region can be raised through the enquiry form, and further pages are added as they are written.",
+              "Hail has a city page. Other towns of the region can be raised through the enquiry form, and further pages are added as they are written.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "How does a logger help a farm cold room in a region with cold winters?",
@@ -19784,7 +19784,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Hail",
             type: "city",
             intro:
-              "Hail is the capital of the Hail Region in the north of the central plateau, a city ringed by two ranges of granite hills, and a temperature data logger here serves a farming town with a busy commercial centre. Irrigated fields around the city grow wheat, dates and vegetables, and mills, packers and dairies handle them. A university, a large hospital and many clinics add laboratories and wards, wholesale markets stock food and household goods for the surrounding villages, and an industrial city on the edge of town adds plants and warehouses. Winters are cold enough for frost, summers are very hot. Loggers for Hail come from India and report to a dashboard that managers can open from a phone, with set-up done by call or video.",
+              "A temperature data logger in Hail mostly serves food and beverage sites, as well as hospital and blood bank sites. Hail is the capital of the Hail Region in the north of the central plateau, a city ringed by two ranges of granite hills, and a temperature data logger here serves a farming town with a busy commercial centre. Irrigated fields around the city grow wheat, dates and vegetables, and mills, packers and dairies handle them. A university, a large hospital and many clinics add laboratories and wards, wholesale markets stock food and household goods for the surrounding villages, and an industrial city on the edge of town adds plants and warehouses. Winters are cold enough for frost, summers are very hot. Loggers for Hail come from India and report to a dashboard that managers can open from a phone, with set-up done by call or video.",
             climateAngle:
               "Summer heat is severe, winter nights bring frost on the plateau, and dust storms arrive in spring, so a farm cold room faces extremes at both ends of the year and a refrigerator in a remote clinic may fail unseen.",
             areas: [
@@ -19846,9 +19846,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "How does a grain or date store in Hail use a temperature record?",
+                question: "With a temperature data logger in Hail, how does a grain or date store in Hail use a temperature record?",
                 answer:
-                  "A logger in the store records temperature and humidity through the year, and the log shows the weeks when heat or damp threatened the stock and whether they were dealt with.",
+                  "A logger in the store records temperature and humidity through the year, and the log shows the weeks when heat or damp threatened the stock and whether they were dealt with.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Can a remote clinic use a single logger?",
@@ -19872,7 +19872,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Hail | Prithvi",
             metaDescription:
-              "Hail, Saudi Arabia: WiFi loggers for farm stores, dairies, mills, the hospital and university labs, set up from India. Get Solution to begin in Hail.",
+              "Hail: WiFi temperature data loggers for farm stores, dairies, mills, the hospital and university labs, set up from India. Get Solution to begin in Hail.",
             indexable: true,
           },
         ],
@@ -19882,7 +19882,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Najran Region",
         type: "state",
         intro:
-          "The Najran Region lies in the south of the kingdom, around a long fertile valley between the mountains and the desert, and its economy rests on farming, trade and services. Najran, the regional capital, has markets, hospitals, hotels and distribution depots, and the valley grows dates, grapes and other fruit and grain. Summers are hot and dry, winters are mild to cold, and rain is scarce but can arrive in heavy bursts. Date and fruit stores, farm cold rooms, hospital refrigerators and retail warehouses must hold their ranges through long hot spells, and goods reach the region over long roads. The Najran page below covers the valley's date stores, markets and clinics.",
+          "A temperature data logger in Najran Region mostly serves dates, fruit and grain, as well as food depots and retail distribution. The Najran Region lies in the south of the kingdom, around a long fertile valley between the mountains and the desert, and its economy rests on farming, trade and services. Najran, the regional capital, has markets, hospitals, hotels and distribution depots, and the valley grows dates, grapes and other fruit and grain. Summers are hot and dry, winters are mild to cold, and rain is scarce but can arrive in heavy bursts. Date and fruit stores, farm cold rooms, hospital refrigerators and retail warehouses must hold their ranges through long hot spells, and goods reach the region over long roads. The Najran page below covers the valley's date stores, markets and clinics.",
         localIndustries: [
           "Dates, fruit and grain",
           "Food depots and retail distribution",
@@ -19894,9 +19894,9 @@ export const locations: LegacyLocationNode[] = [
           "Set-up, alert rules and user access for Najran Region sites are arranged remotely by call or video. Share the town and a note on what the rooms hold.",
         faqs: [
           {
-            question: "Which Najran Region places have a page?",
+            question: "Where can I find a temperature data logger in Najran Region?",
             answer:
-              "Najran has a city page. Other towns of the valley can be raised through the enquiry form, and further pages are added as they are written.",
+              "Najran has a city page. Other towns of the valley can be raised through the enquiry form, and further pages are added as they are written.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "How can a date or fruit store be kept within range through a hot spell?",
@@ -19920,7 +19920,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Najran",
             type: "city",
             intro:
-              "Najran lies in a broad fertile valley in the south of the kingdom, where mountains meet the desert, and a temperature data logger here serves an oasis city of farms, markets and a university. Date palms, pomegranates, grapes and other fruit and grain grow along the wadi, a dam holds back seasonal floods, and traders in the city markets stock food, household goods and building materials for the whole region. A university campus, hospitals and clinics bring laboratories and wards, and an industrial city on the edge of town adds plants and warehouses. Summers are hot and dry. Prithvi can supply WiFi loggers from India for a date store, a clinic or a depot, and our team gets alerts and users working by phone or video.",
+              "A temperature data logger in Najran mostly serves food and beverage sites, as well as hospital and blood bank sites. Najran lies in a broad fertile valley in the south of the kingdom, where mountains meet the desert, and a temperature data logger here serves an oasis city of farms, markets and a university. Date palms, pomegranates, grapes and other fruit and grain grow along the wadi, a dam holds back seasonal floods, and traders in the city markets stock food, household goods and building materials for the whole region. A university campus, hospitals and clinics bring laboratories and wards, and an industrial city on the edge of town adds plants and warehouses. Summers are hot and dry. Prithvi can supply WiFi loggers from India for a date store, a clinic or a depot, and our team gets alerts and users working by phone or video.",
             climateAngle:
               "Summers are hot and dry, winters are mild to cool and rain, when it comes, arrives in heavy bursts, so date and fruit stores must hold a steady range through the long hot months and survive a flash flood and the dust that follows it.",
             areas: [
@@ -19982,9 +19982,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "How can a Najran fruit packer use a temperature record?",
+                question: "With a temperature data logger in Najran, how can a Najran fruit packer use a temperature record?",
                 answer:
-                  "A logger in the packing shed and the cold room records temperature and humidity through the season, and a report for the dates of a lot can be sent to the buyer.",
+                  "A logger in the packing shed and the cold room records temperature and humidity through the season, and a report for the dates of a lot can be sent to the buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "How is a small shop or clinic in Najran started with loggers from India?",
@@ -20008,7 +20008,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Najran | Prithvi",
             metaDescription:
-              "Najran, Saudi Arabia: WiFi loggers for date and fruit stores, wholesale depots, university labs and hospitals, set up remotely. Get Solution: Najran.",
+              "Najran: WiFi temperature data loggers for date and fruit stores, wholesale depots, university labs and hospitals, set up remotely. Get Solution: Najran.",
             indexable: true,
           },
         ],
@@ -20018,7 +20018,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Al Baha Region",
         type: "state",
         intro:
-          "The Al Baha Region is a small mountainous strip in the south-west of the kingdom that drops from cool highlands to the Red Sea plain. Al Baha, the regional capital, has markets, hospitals, hotels and distribution depots, and the terraced farms of the highlands grow fruit, honey and other produce. Summers are mild in the mountains, mist and rain settle over the slopes in the wet season, and winter nights are cold, so storage rooms meet damp and cool air more than the extreme heat of the plains. Roads wind through steep terrain and lengthen every delivery of medicines and chilled food. The Al Baha page below covers the highland farms, hotels and clinics.",
+          "A temperature data logger in Al Baha Region mostly serves honey, fruit and farm produce, as well as food depots and retail distribution. The Al Baha Region is a small mountainous strip in the south-west of the kingdom that drops from cool highlands to the Red Sea plain. Al Baha, the regional capital, has markets, hospitals, hotels and distribution depots, and the terraced farms of the highlands grow fruit, honey and other produce. Summers are mild in the mountains, mist and rain settle over the slopes in the wet season, and winter nights are cold, so storage rooms meet damp and cool air more than the extreme heat of the plains. Roads wind through steep terrain and lengthen every delivery of medicines and chilled food. The Al Baha page below covers the highland farms, hotels and clinics.",
         localIndustries: [
           "Honey, fruit and farm produce",
           "Food depots and retail distribution",
@@ -20030,9 +20030,9 @@ export const locations: LegacyLocationNode[] = [
           "Set-up, alert rules and user access for Al Baha Region sites are arranged remotely by call or video. Give us the town and a short note on what the rooms hold.",
         faqs: [
           {
-            question: "Which Al Baha Region places have a page?",
+            question: "Where can I find a temperature data logger in Al Baha Region?",
             answer:
-              "Al Baha has a city page. A town in the region not yet written up can be raised through the enquiry form.",
+              "Al Baha has a city page. A town in the region not yet written up can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why is humidity useful in a cool highland store?",
@@ -20056,7 +20056,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Al Baha",
             type: "city",
             intro:
-              "Al Baha is a highland city in the south-west of the kingdom, on the crest of the Sarawat mountains, and a temperature data logger here serves a cool, misty town of farms, hotels and a university. Terraced fields climb the slopes and grow figs, prickly pears, grapes and other fruit, bees feed on the sidr trees to make honey that is sold across the Gulf, and forested parks and old stone villages draw summer visitors. A university, a central hospital and clinics serve the region, and wholesale shops bring food and household goods up winding roads from the coast. Mist, cloud and rain keep the air damp. Loggers for Al Baha are supplied from India, with alerts and users set up by our team over a video call.",
+              "A temperature data logger in Al Baha mostly serves food and beverage sites, as well as hospital and blood bank sites. Al Baha is a highland city in the south-west of the kingdom, on the crest of the Sarawat mountains, and a temperature data logger here serves a cool, misty town of farms, hotels and a university. Terraced fields climb the slopes and grow figs, prickly pears, grapes and other fruit, bees feed on the sidr trees to make honey that is sold across the Gulf, and forested parks and old stone villages draw summer visitors. A university, a central hospital and clinics serve the region, and wholesale shops bring food and household goods up winding roads from the coast. Mist, cloud and rain keep the air damp. Loggers for Al Baha are supplied from India, with alerts and users set up by our team over a video call.",
             climateAngle:
               "Summers are mild and misty, winters are cold, and clouds sit on the crest for long periods, so cool stores take on moisture and honey, fruit and flour need dry, steady air. Roads wind steeply down to the coast, so a delayed load can wait long hours in warmer air.",
             areas: [
@@ -20118,9 +20118,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Why would a honey packer in Al Baha need a humidity record?",
+                question: "With a temperature data logger in Al Baha, why would a honey packer in Al Baha need a humidity record?",
                 answer:
-                  "Honey absorbs moisture from damp air and can ferment, so a log of temperature and humidity in the store shows the days the room was too damp and which lots were exposed.",
+                  "Honey absorbs moisture from damp air and can ferment, so a log of temperature and humidity in the store shows the days the room was too damp and which lots were exposed.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "How does a small clinic or hotel in Al Baha start with loggers from India?",
@@ -20144,7 +20144,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Al Baha | Prithvi",
             metaDescription:
-              "Al Baha, Saudi Arabia: WiFi loggers for honey and fruit stores, hotel kitchens, the hospital and university labs. Get Solution to begin in Al Baha.",
+              "Al Baha: WiFi temperature data loggers for honey and fruit stores, hotel kitchens, the hospital and university labs. Get Solution to begin in Al Baha.",
             indexable: true,
           },
         ],
@@ -20154,7 +20154,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Al Jawf Region",
         type: "state",
         intro:
-          "The Al Jawf Region lies in the far north of the kingdom, an area of desert plains with scattered oases, and its economy is built on farming, above all olives, dates and other crops grown on irrigated fields. Sakaka, the regional capital, has markets, hospitals, hotels and distribution depots, and olive presses and date packers hold their produce in stores that must be kept cool and dry. Summers are very hot, winter nights are cold with frost, and long roads connect the region with the rest of the kingdom. Cold rooms and warehouses meet both extremes in a single year. The Sakaka page below covers the olive and date stores and the hospital rooms of the regional capital.",
+          "A temperature data logger in Al Jawf Region mostly serves olives, dates and farm produce, as well as food and dairy depots. The Al Jawf Region lies in the far north of the kingdom, an area of desert plains with scattered oases, and its economy is built on farming, above all olives, dates and other crops grown on irrigated fields. Sakaka, the regional capital, has markets, hospitals, hotels and distribution depots, and olive presses and date packers hold their produce in stores that must be kept cool and dry. Summers are very hot, winter nights are cold with frost, and long roads connect the region with the rest of the kingdom. Cold rooms and warehouses meet both extremes in a single year. The Sakaka page below covers the olive and date stores and the hospital rooms of the regional capital.",
         localIndustries: [
           "Olives, dates and farm produce",
           "Food and dairy depots",
@@ -20166,9 +20166,9 @@ export const locations: LegacyLocationNode[] = [
           "Set-up, alert rules and user access for Al Jawf Region sites are arranged remotely by call or video. Give us the town and a short note on what the rooms hold.",
         faqs: [
           {
-            question: "Which Al Jawf Region places have a page?",
+            question: "Where can I find a temperature data logger in Al Jawf Region?",
             answer:
-              "Sakaka has a city page. Other oasis towns can be raised through the enquiry form, and further pages are added as they are written.",
+              "Sakaka has a city page. Other oasis towns can be raised through the enquiry form, and further pages are added as they are written.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "How does a logger help an olive or date store?",
@@ -20192,7 +20192,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Sakaka",
             type: "city",
             intro:
-              "Sakaka is the capital of the Al Jawf Region in the far north of the kingdom, an oasis city in a wide desert depression, and a temperature data logger here serves a place famous for olives. Olive groves stretch across irrigated fields around the city, presses turn the fruit into oil, and packers store olives, dates and other farm produce. A university, a regional hospital and clinics add laboratories and wards, wholesale markets supply the oases and desert villages, and an industrial city on the edge of town holds plants and warehouses. Historic stone sites draw some visitors. Summers are very hot and winter nights are cold. Prithvi supplies WiFi loggers from India and sets up alerts and users with your team by call or video.",
+              "A temperature data logger in Sakaka mostly serves food and beverage sites, as well as hospital and blood bank sites. Sakaka is the capital of the Al Jawf Region in the far north of the kingdom, an oasis city in a wide desert depression, and a temperature data logger here serves a place famous for olives. Olive groves stretch across irrigated fields around the city, presses turn the fruit into oil, and packers store olives, dates and other farm produce. A university, a regional hospital and clinics add laboratories and wards, wholesale markets supply the oases and desert villages, and an industrial city on the edge of town holds plants and warehouses. Historic stone sites draw some visitors. Summers are very hot and winter nights are cold. Prithvi supplies WiFi loggers from India and sets up alerts and users with your team by call or video.",
             climateAngle:
               "Summers are scorching, winter nights bring frost and the desert wind carries dust, so olive and date stores must stay cool and dry through long storage while clinic refrigerators work through the heat.",
             areas: [
@@ -20254,9 +20254,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "How can an olive-oil producer in Sakaka use a temperature record?",
+                question: "With a temperature data logger in Sakaka, how can an olive-oil producer in Sakaka use a temperature record?",
                 answer:
-                  "A logger in the oil store and the cold room records temperature through storage, and a report for the dates of a batch can be exported in PDF, Excel or CSV form for the buyer.",
+                  "A logger in the oil store and the cold room records temperature through storage, and a report for the dates of a batch can be exported in PDF, Excel or CSV form for the buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "How does a Sakaka farm or clinic start with loggers from India?",
@@ -20280,7 +20280,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Sakaka | Prithvi",
             metaDescription:
-              "Sakaka, Saudi Arabia: WiFi loggers for olive-oil and date stores, produce packers, the hospital and university labs. Get Solution to begin in Sakaka.",
+              "Sakaka: WiFi temperature data loggers for olive-oil and date stores, produce packers, the hospital and university labs. Get Solution to begin in Sakaka.",
             indexable: true,
           },
         ],
@@ -20290,7 +20290,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Northern Borders Region",
         type: "state",
         intro:
-          "The Northern Borders Region occupies the far north of the kingdom, a wide area of desert plateau where the regional capital, Arar, holds the markets, hospitals and distribution depots. Livestock, farming and transport shape the local economy, and goods travel a long way by road to reach the region, so warehouses for medicines, chilled food and general cargo are the main storage rooms. Summers are hot and dry, winter nights are cold with frost, and dust storms and sudden rain can interrupt journeys. Cold rooms and refrigerators must therefore be watched through power cuts as well as seasons. The Arar page below covers the depots, clinics and farm stores of the regional capital.",
+          "A temperature data logger in Northern Borders Region mostly serves food and dairy depots, as well as hospitals and medicine supply. The Northern Borders Region occupies the far north of the kingdom, a wide area of desert plateau where the regional capital, Arar, holds the markets, hospitals and distribution depots. Livestock, farming and transport shape the local economy, and goods travel a long way by road to reach the region, so warehouses for medicines, chilled food and general cargo are the main storage rooms. Summers are hot and dry, winter nights are cold with frost, and dust storms and sudden rain can interrupt journeys. Cold rooms and refrigerators must therefore be watched through power cuts as well as seasons. The Arar page below covers the depots, clinics and farm stores of the regional capital.",
         localIndustries: [
           "Food and dairy depots",
           "Hospitals and medicine supply",
@@ -20302,9 +20302,9 @@ export const locations: LegacyLocationNode[] = [
           "Set-up, alert rules and user access for Northern Borders Region sites are arranged remotely by call or video. Write to us with the town and a note on what the rooms hold.",
         faqs: [
           {
-            question: "Which Northern Borders Region places have a page?",
+            question: "Where can I find a temperature data logger in Northern Borders Region?",
             answer:
-              "Arar has a city page. Other towns of the region can be raised through the enquiry form, and further pages are added as they are written.",
+              "Arar has a city page. Other towns of the region can be raised through the enquiry form, and further pages are added as they are written.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why do long road journeys matter for temperature records?",
@@ -20328,7 +20328,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Arar",
             type: "city",
             intro:
-              "Arar is the capital of the Northern Borders Region in the far north of the kingdom, a trading and administrative city on a wide desert plateau, and a temperature data logger here serves a town of markets, clinics and storage far from the ports. Livestock and farming shape the local economy, wholesale depots receive food and medicines from the central cities over long roads, and a university, a regional hospital and clinics add laboratories and wards. An industrial city on the edge of town holds plants and warehouses. Winters are cold, with frost on clear nights, and summers are hot and dry. Loggers for Arar are sent from India and registered to a dashboard that depot and clinic managers can open from a phone, with the first alert rules agreed on a call.",
+              "A temperature data logger in Arar mostly serves food and beverage sites, as well as hospital and blood bank sites. Arar is the capital of the Northern Borders Region in the far north of the kingdom, a trading and administrative city on a wide desert plateau, and a temperature data logger here serves a town of markets, clinics and storage far from the ports. Livestock and farming shape the local economy, wholesale depots receive food and medicines from the central cities over long roads, and a university, a regional hospital and clinics add laboratories and wards. An industrial city on the edge of town holds plants and warehouses. Winters are cold, with frost on clear nights, and summers are hot and dry. Loggers for Arar are sent from India and registered to a dashboard that depot and clinic managers can open from a phone, with the first alert rules agreed on a call.",
             climateAngle:
               "Summer heat is severe, winter nights bring frost, and dust storms and sudden rain can interrupt journeys, so a store far from a supplier must hold its range through long outages and delayed deliveries, and stock cannot simply be replaced the next day if a room fails.",
             areas: [
@@ -20390,9 +20390,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Why do long road journeys matter for temperature records in Arar?",
+                question: "With a temperature data logger in Arar, why do long road journeys matter for temperature records in Arar?",
                 answer:
-                  "Goods may spend a day or more in a vehicle before reaching a store, so a logger in the load shows the full range they met and helps a supplier answer a buyer's questions.",
+                  "Goods may spend a day or more in a vehicle before reaching a store, so a logger in the load shows the full range they met and helps a supplier answer a buyer's questions.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "How does an Arar clinic or depot start with loggers supplied from India?",
@@ -20416,7 +20416,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Arar | Prithvi",
             metaDescription:
-              "Arar, Saudi Arabia: WiFi loggers for food and medicine depots, the regional hospital, clinics and farm stores, set up from India. Get Solution: Arar.",
+              "Arar: WiFi temperature data loggers for food and medicine depots, the regional hospital, clinics and farm stores, set up from India. Get Solution: Arar.",
             indexable: true,
           },
         ],
@@ -20476,7 +20476,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Dubai Emirate",
         type: "state",
         intro:
-          "Dubai Emirate is a narrow strip of the Arabian Gulf coast built around a tidal creek, with a dense modern city on the shore and a belt of industrial and warehouse districts spread inland and to the south-west. Hotels, hospitals, malls and kitchens fill the city, while port-side, free-zone and industrial districts hold stock for shops and businesses across the region. Summers are long, very hot and humid on the coast, winters are mild, and dust and fog come in some seasons. Food, medicines, chemicals and electronics wait in warehouses and vehicles in such heat. The pages below cover the city and each district in turn, with the rooms where a temperature record would help.",
+          "A temperature data logger in Dubai Emirate mostly serves hotel and restaurant kitchens, as well as warehouse and free-zone storage. Dubai Emirate is a narrow strip of the Arabian Gulf coast built around a tidal creek, with a dense modern city on the shore and a belt of industrial and warehouse districts spread inland and to the south-west. Hotels, hospitals, malls and kitchens fill the city, while port-side, free-zone and industrial districts hold stock for shops and businesses across the region. Summers are long, very hot and humid on the coast, winters are mild, and dust and fog come in some seasons. Food, medicines, chemicals and electronics wait in warehouses and vehicles in such heat. The pages below cover the city and each district in turn, with the rooms where a temperature record would help.",
         localIndustries: [
           "Hotel and restaurant kitchens",
           "Warehouse and free-zone storage",
@@ -20488,9 +20488,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from Dubai Emirate are handled through the enquiry form, Call or WhatsApp. Name the district, the rooms to be watched and how they are cooled, and we reply with what looks suitable for the site.",
         faqs: [
           {
-            question: "Which places in Dubai Emirate have a page?",
+            question: "Where can I find a temperature data logger in Dubai Emirate?",
             answer:
-              "Dubai has a city page, and Jebel Ali, Dubai Investments Park, Al Quoz Industrial Area, Ras Al Khor Industrial Area, Al Qusais Industrial Area, Al Aweer, Dubai Silicon Oasis, Dubai Industrial City, Dubai South, Dubai Logistics City, Dubai Airport Freezone and Dubai Healthcare City have area pages under it. A district not listed here can be raised through the enquiry form.",
+              "Dubai has a city page, and Jebel Ali, Dubai Investments Park, Al Quoz Industrial Area, Ras Al Khor Industrial Area, Al Qusais Industrial Area, Al Aweer, Dubai Silicon Oasis, Dubai Industrial City, Dubai South, Dubai Logistics City, Dubai Airport Freezone and Dubai Healthcare City have area pages under it. A district not listed here can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why do inland industrial districts and the coast need different logger set-ups?",
@@ -20528,7 +20528,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Dubai",
             type: "city",
             intro:
-              "Dubai is a Gulf trading city built around a tidal creek, and a temperature data logger here serves a place of hotels, hospitals, food importers, malls and warehouses working through some of the longest hot, humid summers in the region. Goods arrive through the port and free-zone districts to the south-west, wait in bonded and chilled warehouses, and move on to shops, kitchens and pharmacies across the city and beyond. Inland, industrial districts such as Al Quoz and Al Qusais hold workshops, food suppliers and stores, while towers of apartments and offices rise along the coast. Fog, dust and sea air add to the strain on cooling. The tall towers along the coast hold more kitchens and plant rooms than most visitors imagine. Enquiries from Dubai are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Dubai mostly serves logistics and warehousing sites, as well as food and beverage sites. Dubai is a Gulf trading city built around a tidal creek, and a temperature data logger here serves a place of hotels, hospitals, food importers, malls and warehouses working through some of the longest hot, humid summers in the region. Goods arrive through the port and free-zone districts to the south-west, wait in bonded and chilled warehouses, and move on to shops, kitchens and pharmacies across the city and beyond. Inland, industrial districts such as Al Quoz and Al Qusais hold workshops, food suppliers and stores, while towers of apartments and offices rise along the coast. Fog, dust and sea air add to the strain on cooling. The tall towers along the coast hold more kitchens and plant rooms than most visitors imagine. Enquiries from Dubai are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "Heat and humidity peak together through the long summer, and the cooling that carries a store through it runs close to its limit for months, so condenser coils work hard, doors fog when opened and vehicles standing in the sun reach far higher temperatures than the shaded air. Winters are mild and pleasant, which is when many hotels and kitchens are most active. A cooling unit that loses power on an August afternoon warms quickly, and a record of how long it stood warm is what a customer or an auditor asks to see.",
             areas: [
@@ -20590,9 +20590,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "How would a Dubai site be set up with loggers?",
+                question: "With a temperature data logger in Dubai, how would a Dubai site be set up with loggers?",
                 answer:
-                  "The loggers are registered to your dashboard, connected to your WiFi, and rooms, limits and alert contacts are set with your team over a call or video session.",
+                  "The loggers are registered to your dashboard, connected to your WiFi, and rooms, limits and alert contacts are set with your team over a call or video session.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Can one hotel group watch every property from a single login?",
@@ -20617,7 +20617,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Dubai | Prithvi",
             metaDescription:
-              "Dubai, UAE: data loggers for re-export warehouses, food importers, hospitals and hotel kitchens through long, humid summers. Get Solution to cover Dubai.",
+              "Dubai: temperature data loggers for re-export warehouses, food importers, hospitals and hotel kitchens through long, humid summers. Get Solution for Dubai.",
             indexable: true,
           },
         ],
@@ -20627,7 +20627,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Abu Dhabi Emirate",
         type: "state",
         intro:
-          "Abu Dhabi Emirate stretches from a string of islands and mangrove shallows on the Arabian Gulf coast, through a broad belt of salt flats, to the sand dunes of the interior and the oasis city of Al Ain near the mountains. The city of Abu Dhabi stands on an island joined to the mainland by bridges, with hospitals, hotels, kitchens and laboratories, while the mainland holds industrial districts, free-zone plots and a deep-water port along the coast. The coast is very hot and humid in summer and the interior hot and dry, with dust and strong sun. Medicines, food, chemicals and electronics wait in warehouses and vehicles in such heat. The pages below describe the city and the districts where a temperature record would help.",
+          "A temperature data logger in Abu Dhabi Emirate mostly serves industrial and warehouse storage, as well as food import and catering. Abu Dhabi Emirate stretches from a string of islands and mangrove shallows on the Arabian Gulf coast, through a broad belt of salt flats, to the sand dunes of the interior and the oasis city of Al Ain near the mountains. The city of Abu Dhabi stands on an island joined to the mainland by bridges, with hospitals, hotels, kitchens and laboratories, while the mainland holds industrial districts, free-zone plots and a deep-water port along the coast. The coast is very hot and humid in summer and the interior hot and dry, with dust and strong sun. Medicines, food, chemicals and electronics wait in warehouses and vehicles in such heat. The pages below describe the city and the districts where a temperature record would help.",
         localIndustries: [
           "Industrial and warehouse storage",
           "Food import and catering",
@@ -20639,9 +20639,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from Abu Dhabi Emirate are handled through the enquiry form, Call or WhatsApp. Tell us the district, the rooms you want to watch and how they are cooled, and we reply with what looks suitable.",
         faqs: [
           {
-            question: "Which places in Abu Dhabi Emirate have a page?",
+            question: "Where can I find a temperature data logger in Abu Dhabi Emirate?",
             answer:
-              "Abu Dhabi, Al Ain, Ruwais, Madinat Zayed and Liwa each have a city page, and Mussafah, ICAD, KIZAD, Khalifa Port, Ghantoot, the Al Ain Industrial Area and the Ruwais Industrial Complex have area pages. Another town in the emirate can be put to us through the enquiry form.",
+              "Abu Dhabi, Al Ain, Ruwais, Madinat Zayed and Liwa each have a city page, and Mussafah, ICAD, KIZAD, Khalifa Port, Ghantoot, the Al Ain Industrial Area and the Ruwais Industrial Complex have area pages. Another town in the emirate can be put to us through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why do coastal and inland sites need different loggers set-ups?",
@@ -20678,7 +20678,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Abu Dhabi",
             type: "city",
             intro:
-              "Abu Dhabi is the capital city of the United Arab Emirates, built largely on an island in the Arabian Gulf and joined to the mainland by bridges and causeways, and a temperature data logger here serves a city of hospitals, hotels, food importers and industrial districts in the very hot, humid coastal climate of the Gulf. Sea air blows across the Corniche and the mangrove shallows, summer afternoons are far above comfortable and nights stay warm. On the mainland, districts such as Mussafah, ICAD and KIZAD hold factories, warehouses and cold rooms, and a deep-water port lies along the coast towards Dubai. Hospitals, clinics, laboratories and large kitchens add to the rooms that need a steady record. Enquiries from Abu Dhabi are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Abu Dhabi mostly serves hospital and blood bank sites, as well as pharmaceutical sites. Abu Dhabi is the capital city of the United Arab Emirates, built largely on an island in the Arabian Gulf and joined to the mainland by bridges and causeways, and a temperature data logger here serves a city of hospitals, hotels, food importers and industrial districts in the very hot, humid coastal climate of the Gulf. Sea air blows across the Corniche and the mangrove shallows, summer afternoons are far above comfortable and nights stay warm. On the mainland, districts such as Mussafah, ICAD and KIZAD hold factories, warehouses and cold rooms, and a deep-water port lies along the coast towards Dubai. Hospitals, clinics, laboratories and large kitchens add to the rooms that need a steady record. Enquiries from Abu Dhabi are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "Summer brings very high heat with humid sea air on the coast, winters are mild and pleasant, and dust and sudden fog appear in some seasons, so air-conditioned stores work hard for months while vehicles and metal sheds without cooling reach extreme temperatures. A cold room that loses power on an August afternoon warms fast, and condensation forms the moment a door opens to the outside air.",
             areas: [
@@ -20740,9 +20740,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can an Abu Dhabi hotel or caterer use temperature loggers?",
+                question: "With a temperature data logger in Abu Dhabi, can an Abu Dhabi hotel or caterer use temperature loggers?",
                 answer:
-                  "A logger in each cooler, freezer and dry store records through the day and night, and a report for any period can be exported in PDF, Excel or CSV form. Enquiries from Abu Dhabi are handled through the enquiry form, Call or WhatsApp.",
+                  "A logger in each cooler, freezer and dry store records through the day and night, and a report for any period can be exported in PDF, Excel or CSV form. Enquiries from Abu Dhabi are handled through the enquiry form, Call or WhatsApp.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why does a store in a dry-looking climate need a humidity reading?",
@@ -20767,7 +20767,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Abu Dhabi | Prithvi",
             metaDescription:
-              "Abu Dhabi, UAE: data loggers for hospitals, hotel kitchens, food importers and industrial districts in Gulf heat and humidity. Get Solution: Abu Dhabi.",
+              "Abu Dhabi: temperature data loggers for hospitals, hotel kitchens, food importers and industrial districts in Gulf heat and humidity. Get Solution.",
             indexable: true,
           },
           {
@@ -20775,7 +20775,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Al Ain",
             type: "city",
             intro:
-              "Al Ain is an inland oasis city in the east of Abu Dhabi Emirate, set among date palms at the foot of a bare limestone mountain, and a temperature data logger here serves a city of hospitals, a national university, hotels, food stores and workshops in a hot, dry desert climate. Old irrigation channels still run through shaded plantations, and the oases, forts and ancient tombs are recognised as a World Heritage site. Tourism, farming, education and light industry all share the city, and the roads out of town lead to the coast, to Dubai and to the desert. Summer afternoons are fiercely hot, nights cool slowly and winters are mild. Enquiries from Al Ain are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Al Ain mostly serves hospital and blood bank sites, as well as laboratory sites. Al Ain is an inland oasis city in the east of Abu Dhabi Emirate, set among date palms at the foot of a bare limestone mountain, and a temperature data logger here serves a city of hospitals, a national university, hotels, food stores and workshops in a hot, dry desert climate. Old irrigation channels still run through shaded plantations, and the oases, forts and ancient tombs are recognised as a World Heritage site. Tourism, farming, education and light industry all share the city, and the roads out of town lead to the coast, to Dubai and to the desert. Summer afternoons are fiercely hot, nights cool slowly and winters are mild. Enquiries from Al Ain are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "Al Ain is drier than the coast, so the air is less humid but heat, dust and strong sun dominate, with summer afternoons that load every cooling system and winter mornings that can feel cool. Vehicles and metal-roofed sheds reach far higher temperatures than the shaded air, and a power cut on a July afternoon can warm a room in an hour or two. Sandy winds bring dust that settles on equipment and clogs vents.",
             areas: [
@@ -20837,9 +20837,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can an Al Ain date or food business use a temperature record?",
+                question: "With a temperature data logger in Al Ain, can an Al Ain date or food business use a temperature record?",
                 answer:
-                  "A logger in the store records temperature and humidity through the season, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for a buyer.",
+                  "A logger in the store records temperature and humidity through the season, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for a buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why does dust matter for where a logger is mounted in Al Ain?",
@@ -20864,7 +20864,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Al Ain | Prithvi",
             metaDescription:
-              "Al Ain, Abu Dhabi Emirate: data loggers for hospitals, university labs, date stores, hotel kitchens and warehouses in desert heat. Get Solution: Al Ain.",
+              "Al Ain: temperature data loggers for hospitals, university labs, date stores, hotel kitchens and warehouses in desert heat. Get Solution: Al Ain.",
             indexable: true,
           },
           {
@@ -20872,7 +20872,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Ruwais",
             type: "city",
             intro:
-              "Ruwais is an industrial town on the Gulf coast of the Al Dhafra region, west of Abu Dhabi, and a temperature data logger here serves a planned town built around refining and petrochemical works, with housing, shops, clinics and a port along the shore. Large industrial plants stand beside the sea, supported by laboratories, stores, workshops and contractors' yards, while the residential districts have supermarkets, restaurants and a hospital. Summers are extremely hot and the sea air is humid and salty, winters are mild, and sandy winds blow in from the desert. Chemicals, spare parts, food and medicines all wait in warehouses and vehicles in such heat, often far from the next supplier. Enquiries from Ruwais are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Ruwais mostly serves chemical sites, as well as laboratory sites. Ruwais is an industrial town on the Gulf coast of the Al Dhafra region, west of Abu Dhabi, and a temperature data logger here serves a planned town built around refining and petrochemical works, with housing, shops, clinics and a port along the shore. Large industrial plants stand beside the sea, supported by laboratories, stores, workshops and contractors' yards, while the residential districts have supermarkets, restaurants and a hospital. Summers are extremely hot and the sea air is humid and salty, winters are mild, and sandy winds blow in from the desert. Chemicals, spare parts, food and medicines all wait in warehouses and vehicles in such heat, often far from the next supplier. Enquiries from Ruwais are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The coast is extremely hot in summer with high humidity and salt in the air, the interior behind it is dry desert, and winter mornings are pleasantly cool, so stores face heat, damp and dust in turn. Equipment yards and metal-roofed sheds near the sea corrode as well as overheat, and a refrigerator that fails in a residential block can lose its contents before the next shift. Contractors' yards and laboratory stores sit close to the water, so salt reaches labels, cartons and cabinets, and a room that was in range at dawn can be outside it by the afternoon.",
             areas: [
@@ -20934,9 +20934,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Ruwais laboratory or warehouse use temperature loggers?",
+                question: "With a temperature data logger in Ruwais, can a Ruwais laboratory or warehouse use temperature loggers?",
                 answer:
-                  "A logger in each room records through the day and night, and a report for any period can be exported in PDF, Excel or CSV form for an audit or a customer.",
+                  "A logger in each room records through the day and night, and a report for any period can be exported in PDF, Excel or CSV form for an audit or a customer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why does a coastal industrial store need a humidity reading?",
@@ -20960,7 +20960,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Ruwais | Prithvi",
             metaDescription:
-              "Ruwais, Abu Dhabi Emirate: data loggers for laboratories, chemical stores, canteens and clinics on the humid Al Dhafra coast. Get Solution to cover Ruwais.",
+              "Ruwais: temperature data loggers for laboratories, chemical stores, canteens and clinics on the humid Al Dhafra coast. Get Solution to cover Ruwais.",
             indexable: true,
           },
           {
@@ -20968,7 +20968,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Madinat Zayed",
             type: "city",
             intro:
-              "Madinat Zayed is a desert town in the Al Dhafra region of Abu Dhabi Emirate, a regional centre inland from the western coast, and a temperature data logger here serves a place where farms, shops and clinics sit among dunes and flat gravel plains. Date farms and irrigated fields grow around the town, livestock are traded in a market, and shopping centres sell food, household goods and gold to families from the surrounding settlements. A hospital and clinics serve a wide district, and the road network links the town with Abu Dhabi, Liwa and the western coast. Summers are very hot and dry, nights cool slowly and sandstorms are common. Enquiries from Madinat Zayed are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Madinat Zayed mostly serves food and beverage sites, as well as hospital and blood bank sites. Madinat Zayed is a desert town in the Al Dhafra region of Abu Dhabi Emirate, a regional centre inland from the western coast, and a temperature data logger here serves a place where farms, shops and clinics sit among dunes and flat gravel plains. Date farms and irrigated fields grow around the town, livestock are traded in a market, and shopping centres sell food, household goods and gold to families from the surrounding settlements. A hospital and clinics serve a wide district, and the road network links the town with Abu Dhabi, Liwa and the western coast. Summers are very hot and dry, nights cool slowly and sandstorms are common. Enquiries from Madinat Zayed are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The air is dry, the sun is intense, summer days climb far above comfortable levels and winter nights can be cool, while dust and sandstorms blow through in spring and summer, so stores face dry heat and fine sand together. A refrigerator that loses power on an August afternoon warms fast, and the long roads to the next town mean goods spend hours in vehicles.",
             areas: [
@@ -21030,9 +21030,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Madinat Zayed farm or shop use a single logger?",
+                question: "With a temperature data logger in Madinat Zayed, can a Madinat Zayed farm or shop use a single logger?",
                 answer:
-                  "Yes. One logger with a phone alert can watch a single cold room or refrigerator if a router is within reach, and more points can be added to the same account later.",
+                  "Yes. One logger with a phone alert can watch a single cold room or refrigerator if a router is within reach, and more points can be added to the same account later.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Does fine desert sand affect a logger?",
@@ -21057,7 +21057,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Madinat Zayed | Prithvi",
             metaDescription:
-              "Madinat Zayed, Abu Dhabi Emirate: data loggers for date farms, supermarkets, clinics and feed stores in desert heat and dust. Get Solution: Madinat Zayed.",
+              "Madinat Zayed: temperature data loggers for date farms, supermarkets, clinics and feed stores in desert heat and dust. Get Solution: Madinat Zayed.",
             indexable: true,
           },
           {
@@ -21065,7 +21065,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Liwa",
             type: "city",
             intro:
-              "Liwa is a crescent of oasis villages and date plantations on the northern edge of the Rub' al Khali, the great sand desert, in the Al Dhafra region of Abu Dhabi Emirate, and a temperature data logger here serves a remote farming and visitor district set among very tall sand dunes. Date farms, fodder plots and irrigated gardens cling to the hollows between the dunes, guesthouses and desert resorts welcome visitors, and a hospital, clinics and shops serve the villages. The dunes rise to great heights beside the road, summers are very hot and winter nights are cool. The drive to the nearest large town is long, so storage on site matters. Enquiries from Liwa are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Liwa mostly serves food and beverage sites, as well as hospital and blood bank sites. Liwa is a crescent of oasis villages and date plantations on the northern edge of the Rub' al Khali, the great sand desert, in the Al Dhafra region of Abu Dhabi Emirate, and a temperature data logger here serves a remote farming and visitor district set among very tall sand dunes. Date farms, fodder plots and irrigated gardens cling to the hollows between the dunes, guesthouses and desert resorts welcome visitors, and a hospital, clinics and shops serve the villages. The dunes rise to great heights beside the road, summers are very hot and winter nights are cool. The drive to the nearest large town is long, so storage on site matters. Enquiries from Liwa are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "Liwa is deep desert, so heat in summer is extreme and the air is very dry, winter nights can be surprisingly cold, and wind lifts sand into the air for days. Distances to the next large town are long, so a refrigerator that fails may go unnoticed for hours and a vehicle load can sit in the sun for much of a journey. Dates must be stored with care after harvest because heat and sand both threaten the fruit.",
             areas: [
@@ -21127,9 +21127,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Why would a remote resort kitchen in Liwa want phone alerts?",
+                question: "With a temperature data logger in Liwa, why would a remote resort kitchen in Liwa want phone alerts?",
                 answer:
-                  "The next supplier is far away, so a warning that a cooler is drifting lets staff act while the stock can still be saved, instead of discovering the loss the next morning.",
+                  "The next supplier is far away, so a warning that a cooler is drifting lets staff act while the stock can still be saved, instead of discovering the loss the next morning.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Can one logger watch a single refrigerator in a village shop?",
@@ -21153,7 +21153,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Liwa | Prithvi",
             metaDescription:
-              "Liwa, Abu Dhabi Emirate: data loggers for date farms, desert resort kitchens, village shops and clinics beside the sand dunes. Get Solution for Liwa.",
+              "Liwa: temperature data loggers for date farms, desert resort kitchens, village shops and clinics beside the sand dunes. Get Solution for Liwa.",
             indexable: true,
           },
         ],
@@ -21163,7 +21163,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Sharjah Emirate",
         type: "state",
         intro:
-          "Sharjah Emirate lies between its two neighbours on the Arabian Gulf coast, with a compact city of creeks, souks, museums and universities beside the water, and industrial and free-zone districts spread inland and along the shore. A second, separate part of the emirate faces the Gulf of Oman on the east coast, where Khor Fakkan and Kalba look out from the foot of the mountains. Summers are long, very hot and humid on both coasts, winters are mild, and dust and sea fog come in some seasons. Food, medicines, chemicals and metals wait in warehouses and vehicles in such heat. The pages below cover the city, the east-coast towns and the districts where a temperature record would help.",
+          "A temperature data logger in Sharjah Emirate mostly serves industrial and light-manufacturing storage, as well as free-zone and port-side warehousing. Sharjah Emirate lies between its two neighbours on the Arabian Gulf coast, with a compact city of creeks, souks, museums and universities beside the water, and industrial and free-zone districts spread inland and along the shore. A second, separate part of the emirate faces the Gulf of Oman on the east coast, where Khor Fakkan and Kalba look out from the foot of the mountains. Summers are long, very hot and humid on both coasts, winters are mild, and dust and sea fog come in some seasons. Food, medicines, chemicals and metals wait in warehouses and vehicles in such heat. The pages below cover the city, the east-coast towns and the districts where a temperature record would help.",
         localIndustries: [
           "Industrial and light-manufacturing storage",
           "Free-zone and port-side warehousing",
@@ -21175,9 +21175,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from Sharjah Emirate are handled through the enquiry form, Call or WhatsApp. Tell us the town, the rooms to be watched and how they are cooled, and we reply with what looks suitable for the site.",
         faqs: [
           {
-            question: "Which places in Sharjah Emirate have a page?",
+            question: "Where can I find a temperature data logger in Sharjah Emirate?",
             answer:
-              "Sharjah, Khor Fakkan and Kalba each have a city page, and Sajaa Industrial Area, SAIF Zone, Hamriyah Free Zone and Muwaileh have area pages under Sharjah. Another town on the east coast can be raised through the enquiry form.",
+              "Sharjah, Khor Fakkan and Kalba each have a city page, and Sajaa Industrial Area, SAIF Zone, Hamriyah Free Zone and Muwaileh have area pages under Sharjah. Another town on the east coast can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Does an east-coast site need a different set-up from the city?",
@@ -21209,7 +21209,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Sharjah",
             type: "city",
             intro:
-              "Sharjah is a Gulf coast city next to Dubai, with a waterfront, known for its creeks and lagoon, its souks and museums, and a cluster of universities, and a temperature data logger here serves a city of hospitals, food importers, light industry and warehouses in long, hot, humid summers. Old markets sell spices, dried fruit and household goods, new districts spread along the waterfront, and industrial and free-zone areas lie inland and along the shore. Fog, dust and sea air add to the strain on cooling, and winters are mild and pleasant. Hospitals, schools, hotels and large kitchens add to the list of rooms that need a steady record. Enquiries from Sharjah are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Sharjah mostly serves hospital and blood bank sites, as well as food and beverage sites. Sharjah is a Gulf coast city next to Dubai, with a waterfront, known for its creeks and lagoon, its souks and museums, and a cluster of universities, and a temperature data logger here serves a city of hospitals, food importers, light industry and warehouses in long, hot, humid summers. Old markets sell spices, dried fruit and household goods, new districts spread along the waterfront, and industrial and free-zone areas lie inland and along the shore. Fog, dust and sea air add to the strain on cooling, and winters are mild and pleasant. Hospitals, schools, hotels and large kitchens add to the list of rooms that need a steady record. Enquiries from Sharjah are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "Summer afternoons are far above comfortable and nights stay warm, humid sea air carries salt onto every shed, and winter mornings can bring fog, so stores face heat, damp and dust in turn. Trucks and metal-roofed sheds without cooling reach extreme temperatures, a cooling unit that loses power on an August afternoon warms fast, and condensation forms the moment a door opens to the outside air.",
             areas: [
@@ -21271,9 +21271,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Sharjah food trader or caterer use temperature loggers?",
+                question: "With a temperature data logger in Sharjah, can a Sharjah food trader or caterer use temperature loggers?",
                 answer:
-                  "A logger in each cooler, freezer and dry store records through the day and night, and a report for any period can be exported in PDF, Excel or CSV form for a buyer or an inspector.",
+                  "A logger in each cooler, freezer and dry store records through the day and night, and a report for any period can be exported in PDF, Excel or CSV form for a buyer or an inspector.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why do old market stores need a humidity reading as well as temperature?",
@@ -21298,7 +21298,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Sharjah | Prithvi",
             metaDescription:
-              "Sharjah, UAE: data loggers for hospitals, food importers, souk stores, free-zone warehouses and hotel kitchens in humid heat. Use Get Solution for Sharjah.",
+              "Sharjah: temperature data loggers for hospitals, food importers, souk stores, free-zone warehouses and hotel kitchens in humid heat. Get Solution: Sharjah.",
             indexable: true,
           },
           {
@@ -21306,7 +21306,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Khor Fakkan",
             type: "city",
             intro:
-              "Khor Fakkan is a port town on the Gulf of Oman, on the east coast of the Emirates, with a sheltered bay below the Hajar mountains, and a temperature data logger here serves a small coastal place of fishing boats, shops, hotels and warehouses in warm, damp sea air. Fishermen land their catch along the shore, a container port and its yards stand beside the bay, and visitors come for the beaches and the green hills behind. A hospital, clinics and pharmacies serve the town. Summers are hot and very humid and winters mild, with sudden showers at times. Small boats go out from the beach each morning, and the town fills with visitors at weekends in the cooler months. Enquiries from Khor Fakkan are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Khor Fakkan mostly serves food and beverage sites, as well as hospital and blood bank sites. Khor Fakkan is a port town on the Gulf of Oman, on the east coast of the Emirates, with a sheltered bay below the Hajar mountains, and a temperature data logger here serves a small coastal place of fishing boats, shops, hotels and warehouses in warm, damp sea air. Fishermen land their catch along the shore, a container port and its yards stand beside the bay, and visitors come for the beaches and the green hills behind. A hospital, clinics and pharmacies serve the town. Summers are hot and very humid and winters mild, with sudden showers at times. Small boats go out from the beach each morning, and the town fills with visitors at weekends in the cooler months. Enquiries from Khor Fakkan are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The east coast is hot and very humid in summer, the mountains rise close behind and bring occasional heavy rain, and the sea air carries salt onto every shed, so ice rooms, shops and clinic refrigerators work through long warm spells. Water running off the hills can reach low rooms, and a power cut at the height of summer warms a cold room in a matter of hours.",
             areas: [
@@ -21368,9 +21368,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a fish seller in Khor Fakkan keep a record of an ice store?",
+                question: "With a temperature data logger in Khor Fakkan, can a fish seller in Khor Fakkan keep a record of an ice store?",
                 answer:
-                  "Yes. A probe logger in the ice store records through the day and night, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for a buyer.",
+                  "Yes. A probe logger in the ice store records through the day and night, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for a buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why does a coastal store below mountains need humidity readings?",
@@ -21394,7 +21394,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Khor Fakkan | Prithvi",
             metaDescription:
-              "Khor Fakkan, UAE: data loggers for fish ice stores, supermarkets, hotel kitchens and clinics on the Gulf of Oman coast. Get Solution to cover Khor Fakkan.",
+              "Khor Fakkan: temperature data loggers for fish ice stores, supermarkets, hotel kitchens and clinics on the Gulf of Oman coast. Get Solution: Khor Fakkan.",
             indexable: true,
           },
           {
@@ -21402,7 +21402,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Kalba",
             type: "city",
             intro:
-              "Kalba is a small town on the Gulf of Oman coast of the Emirates, beside a tidal inlet lined with mangroves, and a temperature data logger here serves a quiet coastal place where fishing, farming and small trade meet hot, humid air. Fishing boats land their catch on the shore, farms and nurseries grow vegetables and fodder inland, and shops sell food and household goods to the town and the villages around. A hospital, clinics and pharmacies serve the district, and visitors come to see the mangroves and the birdlife. Summers are long and humid. Many families in the town keep small gardens and stores, and the nearest large supplier is a drive away. Enquiries from Kalba are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Kalba mostly serves food and beverage sites, as well as hospital and blood bank sites. Kalba is a small town on the Gulf of Oman coast of the Emirates, beside a tidal inlet lined with mangroves, and a temperature data logger here serves a quiet coastal place where fishing, farming and small trade meet hot, humid air. Fishing boats land their catch on the shore, farms and nurseries grow vegetables and fodder inland, and shops sell food and household goods to the town and the villages around. A hospital, clinics and pharmacies serve the district, and visitors come to see the mangroves and the birdlife. Summers are long and humid. Many families in the town keep small gardens and stores, and the nearest large supplier is a drive away. Enquiries from Kalba are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The coast is hot and humid for most of the year, the mountains stand close behind and storms can bring heavy rain to the wadis, and the mangrove inlet adds still, damp air, so produce stores and clinic refrigerators work through long warm spells with interruptions of power. Shops opened constantly through the day lose cold air with every customer, farm sheds stand unshaded in the afternoon sun, and a small ice room can warm quickly in a cut.",
             areas: [
@@ -21464,9 +21464,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can one logger watch a single refrigerator in a Kalba shop?",
+                question: "With a temperature data logger in Kalba, can one logger watch a single refrigerator in a Kalba shop?",
                 answer:
-                  "Yes. A single logger with an alert to a phone can watch one refrigerator if a router is within reach, and more points can be added to the same account later.",
+                  "Yes. A single logger with an alert to a phone can watch one refrigerator if a router is within reach, and more points can be added to the same account later.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Does standing water near a mangrove inlet affect where a logger is mounted?",
@@ -21490,7 +21490,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Kalba | Prithvi",
             metaDescription:
-              "Kalba, Sharjah Emirate: data loggers for fish ice boxes, farm produce stores, village shops and clinics beside the mangrove coast. Get Solution: Kalba.",
+              "Kalba: temperature data loggers for fish ice boxes, farm produce stores, village shops and clinics beside the mangrove coast. Get Solution: Kalba.",
             indexable: true,
           },
         ],
@@ -21500,7 +21500,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Ajman Emirate",
         type: "state",
         intro:
-          "Ajman Emirate is a small coastal emirate on the Arabian Gulf, tucked between its neighbours, where a compact city of creek, fishing harbour and dhow-building yards sits beside busy residential and commercial districts. Inland, industrial districts hold workshops, light factories and warehouses, and a free zone stands near the port. Fishing boats and traditional dhows are still part of daily life here. The coast is very hot and humid in summer, the inland districts hot and dusty, and winters are mild. Food, medicines, chemicals and building materials wait in stores and vehicles in such heat. The pages below cover the city and two districts where a temperature record would help.",
+          "A temperature data logger in Ajman Emirate mostly serves light industry and workshops, as well as food import, fish and market trade. Ajman Emirate is a small coastal emirate on the Arabian Gulf, tucked between its neighbours, where a compact city of creek, fishing harbour and dhow-building yards sits beside busy residential and commercial districts. Inland, industrial districts hold workshops, light factories and warehouses, and a free zone stands near the port. Fishing boats and traditional dhows are still part of daily life here. The coast is very hot and humid in summer, the inland districts hot and dusty, and winters are mild. Food, medicines, chemicals and building materials wait in stores and vehicles in such heat. The pages below cover the city and two districts where a temperature record would help.",
         localIndustries: [
           "Light industry and workshops",
           "Food import, fish and market trade",
@@ -21512,9 +21512,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from Ajman Emirate are handled through the enquiry form, Call or WhatsApp. Say which district, which rooms and how they are cooled, and we answer with what looks suitable here.",
         faqs: [
           {
-            question: "Which places in Ajman Emirate have a page?",
+            question: "Where can I find a temperature data logger in Ajman Emirate?",
             answer:
-              "Ajman has a city page, and the Al Jurf Industrial Area and the Ajman Free Zone have area pages under it. Another district of Ajman can be raised through the enquiry form.",
+              "Ajman has a city page, and the Al Jurf Industrial Area and the Ajman Free Zone have area pages under it. Another district of Ajman can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why does a small emirate with short distances still need storage records?",
@@ -21542,7 +21542,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Ajman",
             type: "city",
             intro:
-              "Ajman is a small Gulf coast city beside Sharjah, built around a creek and a fishing harbour, and a temperature data logger here serves a compact city of markets, clinics, universities and workshops in long, hot, humid summers. Traditional dhows are still built and repaired in the yards beside the water, fishing boats land their catch each morning, and the old fort and museum stand near the corniche. Inland, industrial districts hold workshops, light factories and warehouses, and a free zone sits close to the port. Evening crowds fill the corniche cafes in the cooler months. Hospitals, schools, hotels and restaurants add to the rooms that need a steady record. Enquiries from Ajman are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Ajman mostly serves food and beverage sites, as well as hospital and blood bank sites. Ajman is a small Gulf coast city beside Sharjah, built around a creek and a fishing harbour, and a temperature data logger here serves a compact city of markets, clinics, universities and workshops in long, hot, humid summers. Traditional dhows are still built and repaired in the yards beside the water, fishing boats land their catch each morning, and the old fort and museum stand near the corniche. Inland, industrial districts hold workshops, light factories and warehouses, and a free zone sits close to the port. Evening crowds fill the corniche cafes in the cooler months. Hospitals, schools, hotels and restaurants add to the rooms that need a steady record. Enquiries from Ajman are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "Summer afternoons are very hot and the air is damp, nights stay warm, and sea air carries salt onto every shed, so ice rooms, shop coolers and clinic refrigerators work through months of strain. Dust and haze come in some seasons, and a cooling unit that loses power on an August afternoon warms fast while vehicles standing in the sun reach far higher temperatures than the shade.",
             areas: [
@@ -21604,9 +21604,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can an Ajman fish seller or supermarket use temperature loggers?",
+                question: "With a temperature data logger in Ajman, can an Ajman fish seller or supermarket use temperature loggers?",
                 answer:
-                  "A logger in every ice store, cooler and freezer logs through day and night, and a report for any chosen period can be saved as a PDF, Excel or CSV file for a buyer or an inspector.",
+                  "A logger in every ice store, cooler and freezer logs through day and night, and a report for any chosen period can be saved as a PDF, Excel or CSV file for a buyer or an inspector.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why does a store near the creek need a humidity reading?",
@@ -21631,7 +21631,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Ajman | Prithvi",
             metaDescription:
-              "Ajman, UAE: data loggers for fish ice stores, supermarkets, clinics, workshops and free-zone warehouses in humid Gulf heat. Get Solution to begin in Ajman.",
+              "Ajman: temperature data loggers for fish ice stores, supermarkets, clinics, workshops and free-zone warehouses in humid Gulf heat. Get Solution for Ajman.",
             indexable: true,
           },
         ],
@@ -21641,7 +21641,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Umm Al Quwain Emirate",
         type: "state",
         intro:
-          "Umm Al Quwain Emirate holds a quiet stretch of the Arabian Gulf coast, with a town on a narrow spit of land, a sheltered lagoon lined with mangroves, fishing boats on the shore and farmland and desert behind. The coast is very hot and humid in summer, the inland strip hot and dry, and nights in winter are cool. Fishermen, small farms, shops and clinics all keep food and medicines that need steady storage, while a free-trade zone near the port holds warehouse units and light industry. The pages below describe the town and the zone, with the rooms where a temperature record would help.",
+          "A temperature data logger in Umm Al Quwain Emirate mostly serves fishing and ice stores, as well as small farms and produce. Umm Al Quwain Emirate holds a quiet stretch of the Arabian Gulf coast, with a town on a narrow spit of land, a sheltered lagoon lined with mangroves, fishing boats on the shore and farmland and desert behind. The coast is very hot and humid in summer, the inland strip hot and dry, and nights in winter are cool. Fishermen, small farms, shops and clinics all keep food and medicines that need steady storage, while a free-trade zone near the port holds warehouse units and light industry. The pages below describe the town and the zone, with the rooms where a temperature record would help.",
         localIndustries: [
           "Fishing and ice stores",
           "Small farms and produce",
@@ -21653,9 +21653,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from Umm Al Quwain Emirate are handled through the enquiry form, Call or WhatsApp. Tell us the town, what you store and how it is cooled, and we reply with what looks suitable for the site.",
         faqs: [
           {
-            question: "Which places in Umm Al Quwain Emirate have a page?",
+            question: "Where can I find a temperature data logger in Umm Al Quwain Emirate?",
             answer:
-              "Umm Al Quwain has a city page, and the UAQ Free Trade Zone has an area page under it. Another town in the emirate can be put to us through the enquiry form, and further pages follow only when they can be written from confident facts.",
+              "Umm Al Quwain has a city page, and the UAQ Free Trade Zone has an area page under it. Another town in the emirate can be put to us through the enquiry form, and further pages follow only when they can be written from confident facts.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why does a lagoon and mangrove coast matter for storage?",
@@ -21682,7 +21682,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Umm Al Quwain",
             type: "city",
             intro:
-              "Umm Al Quwain is a quiet town on a narrow spit of land on the Arabian Gulf coast, curled around a shallow lagoon lined with mangroves, and a temperature data logger here serves a small place of fishing boats, farms, shops and clinics in hot, humid air. Fishermen land their catch on the shore of the lagoon and the open sea, small farms grow vegetables and fodder inland, and a free-trade zone near the port holds warehouse units and light industry. A hospital and clinics serve the town and the villages around. Evenings are busy at the lagoon when the heat finally eases. Summers are long and damp. Enquiries from Umm Al Quwain are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Umm Al Quwain mostly serves food and beverage sites, as well as hospital and blood bank sites. Umm Al Quwain is a quiet town on a narrow spit of land on the Arabian Gulf coast, curled around a shallow lagoon lined with mangroves, and a temperature data logger here serves a small place of fishing boats, farms, shops and clinics in hot, humid air. Fishermen land their catch on the shore of the lagoon and the open sea, small farms grow vegetables and fodder inland, and a free-trade zone near the port holds warehouse units and light industry. A hospital and clinics serve the town and the villages around. Evenings are busy at the lagoon when the heat finally eases. Summers are long and damp. Enquiries from Umm Al Quwain are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The coast is very hot and humid in summer, the lagoon adds still, damp air, and salt reaches every shed, while rain is uneven and sometimes heavy, so ice rooms and clinic refrigerators work through long warm spells. Shops that open their coolers all day lose cold air with every customer, and the quiet roads mean a failed unit can go unnoticed overnight.",
             areas: [
@@ -21744,9 +21744,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a fish seller in Umm Al Quwain keep a record of an ice store?",
+                question: "With a temperature data logger in Umm Al Quwain, can a fish seller in Umm Al Quwain keep a record of an ice store?",
                 answer:
-                  "Yes. A probe in the store logs through day and night, and a report for the dates of one lot can be exported as PDF, Excel or CSV for a buyer.",
+                  "Yes. A probe in the store logs through day and night, and a report for the dates of one lot can be exported as PDF, Excel or CSV for a buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Is one logger enough for a single refrigerator in a small shop?",
@@ -21770,7 +21770,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Umm Al Quwain | Prithvi",
             metaDescription:
-              "Umm Al Quwain, UAE: data loggers for fish ice stores, small-farm produce sheds, shops and clinics beside the mangrove lagoon. Get Solution: Umm Al Quwain.",
+              "Umm Al Quwain: temperature data loggers for fish ice stores, small-farm produce sheds, shops and clinics beside the mangrove lagoon. Get Solution.",
             indexable: true,
           },
         ],
@@ -21780,7 +21780,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Ras Al Khaimah Emirate",
         type: "state",
         intro:
-          "Ras Al Khaimah Emirate is the northernmost of the emirates on the Arabian Gulf coast, a long coastal plain with a creek-split city, resort islands, quarries and factories, backed by the rugged Hajar mountains. The city has an old town and a newer commercial side, industrial zones hold ceramics, building materials, packaging and pharmaceutical plants, and fishing and heritage villages line the shore to the south. The coast is very hot and humid in summer, the mountains cooler, and winters are mild with occasional heavy rain. Food, medicines, chemicals and building products wait in stores and vehicles in such heat. The pages below cover the city and the districts where a temperature record would help.",
+          "A temperature data logger in Ras Al Khaimah Emirate mostly serves manufacturing and building materials, as well as pharmaceutical and food production. Ras Al Khaimah Emirate is the northernmost of the emirates on the Arabian Gulf coast, a long coastal plain with a creek-split city, resort islands, quarries and factories, backed by the rugged Hajar mountains. The city has an old town and a newer commercial side, industrial zones hold ceramics, building materials, packaging and pharmaceutical plants, and fishing and heritage villages line the shore to the south. The coast is very hot and humid in summer, the mountains cooler, and winters are mild with occasional heavy rain. Food, medicines, chemicals and building products wait in stores and vehicles in such heat. The pages below cover the city and the districts where a temperature record would help.",
         localIndustries: [
           "Manufacturing and building materials",
           "Pharmaceutical and food production",
@@ -21792,9 +21792,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from Ras Al Khaimah Emirate are handled through the enquiry form, Call or WhatsApp. Tell us which part of the emirate, which rooms and how they are cooled, and we answer with what looks suitable.",
         faqs: [
           {
-            question: "Which places in Ras Al Khaimah Emirate have a page?",
+            question: "Where can I find a temperature data logger in Ras Al Khaimah Emirate?",
             answer:
-              "Ras Al Khaimah has a city page, and RAKEZ, the Al Ghail Industrial Area and Al Jazirah Al Hamra have area pages under it. A town elsewhere in the emirate can be raised through the enquiry form.",
+              "Ras Al Khaimah has a city page, and RAKEZ, the Al Ghail Industrial Area and Al Jazirah Al Hamra have area pages under it. A town elsewhere in the emirate can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why would mountain rain matter for a coastal plain store?",
@@ -21823,7 +21823,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Ras Al Khaimah",
             type: "city",
             intro:
-              "Ras Al Khaimah is the northernmost of the Emirates' Gulf coast cities, split by a tidal creek and backed by the rugged Hajar mountains, and a temperature data logger here serves a city of factories, resorts, hospitals and warehouses in hot, humid summers. The old town and its fort stand on one side of the creek and newer districts on the other, resort islands lie off the shore, and quarries and industrial zones in the plain behind make ceramics, building materials, packaging and medicines. Visitors come for the beaches, the mountain roads and the resorts, which adds to the kitchens. Mountain wadis bring heavy rain to the plain in some winters. Enquiries from Ras Al Khaimah are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Ras Al Khaimah mostly serves pharmaceutical sites, as well as chemical sites. Ras Al Khaimah is the northernmost of the Emirates' Gulf coast cities, split by a tidal creek and backed by the rugged Hajar mountains, and a temperature data logger here serves a city of factories, resorts, hospitals and warehouses in hot, humid summers. The old town and its fort stand on one side of the creek and newer districts on the other, resort islands lie off the shore, and quarries and industrial zones in the plain behind make ceramics, building materials, packaging and medicines. Visitors come for the beaches, the mountain roads and the resorts, which adds to the kitchens. Mountain wadis bring heavy rain to the plain in some winters. Enquiries from Ras Al Khaimah are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "Summer heat and humidity peak together on the coast, the mountains behind are cooler, and winter rain in the wadis can reach low rooms across the plain, so stores face heat, damp and occasional flooding in turn. Quarry dust settles on equipment, metal-roofed sheds without cooling reach extreme temperatures, and a cooling unit that fails at the height of summer warms fast.",
             areas: [
@@ -21885,9 +21885,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Ras Al Khaimah factory watch several halls from one login?",
+                question: "With a temperature data logger in Ras Al Khaimah, can a Ras Al Khaimah factory watch several halls from one login?",
                 answer:
-                  "Yes. Every hall or room reports to one dashboard, each alert goes to whoever looks after that room, and one combined report for any chosen period can be exported.",
+                  "Yes. Every hall or room reports to one dashboard, each alert goes to whoever looks after that room, and one combined report for any chosen period can be exported.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why mount a logger above the likely water line after mountain rain?",
@@ -21912,7 +21912,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Ras Al Khaimah | Prithvi",
             metaDescription:
-              "Ras Al Khaimah, UAE: data loggers for factories, warehouses, resort kitchens and clinics beneath the Hajar mountains. Get Solution to cover Ras Al Khaimah.",
+              "Ras Al Khaimah: temperature data loggers for factories, warehouses, resort kitchens and clinics beneath the Hajar mountains. Get Solution: Ras Al Khaimah.",
             indexable: true,
           },
         ],
@@ -21922,7 +21922,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Fujairah Emirate",
         type: "state",
         intro:
-          "Fujairah Emirate stretches along the Gulf of Oman side of the Emirates, a narrow green-and-grey strip where the Hajar mountains drop almost to the water. Fujairah city, its main town, lies on a flat shore of beaches, farms and a deep-water harbour, while Dibba Al Fujairah sits in a bay at the northern end of the coast, beneath steep peaks. Fishing boats, date and vegetable farms, dive centres, hotels and small workshops share the narrow plain. Summers are hot and very humid, winters mild, and sudden showers run off the mountains. Food, fish, medicines and port-side cargo all need steady storage. The pages below cover the two towns and two port-side districts.",
+          "A temperature data logger in Fujairah Emirate mostly serves fish, farm produce and food stores, as well as port-side and free-zone warehousing. Fujairah Emirate stretches along the Gulf of Oman side of the Emirates, a narrow green-and-grey strip where the Hajar mountains drop almost to the water. Fujairah city, its main town, lies on a flat shore of beaches, farms and a deep-water harbour, while Dibba Al Fujairah sits in a bay at the northern end of the coast, beneath steep peaks. Fishing boats, date and vegetable farms, dive centres, hotels and small workshops share the narrow plain. Summers are hot and very humid, winters mild, and sudden showers run off the mountains. Food, fish, medicines and port-side cargo all need steady storage. The pages below cover the two towns and two port-side districts.",
         localIndustries: [
           "Fish, farm produce and food stores",
           "Port-side and free-zone warehousing",
@@ -21934,9 +21934,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from Fujairah Emirate are handled through the enquiry form, Call or WhatsApp. Say which town, which rooms and how they are cooled, and we answer with what looks suitable for the site.",
         faqs: [
           {
-            question: "Which places in Fujairah Emirate have a page?",
+            question: "Where can I find a temperature data logger in Fujairah Emirate?",
             answer:
-              "Fujairah and Dibba Al Fujairah each have a city page, and the Fujairah Free Zone and the Port of Fujairah have area pages under Fujairah. A place not listed here can be raised through the enquiry form.",
+              "Fujairah and Dibba Al Fujairah each have a city page, and the Fujairah Free Zone and the Port of Fujairah have area pages under Fujairah. A place not listed here can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "How does mountain rain affect a store on the coastal strip?",
@@ -21965,7 +21965,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Fujairah",
             type: "city",
             intro:
-              "Fujairah is the main city of the Emirates' Gulf of Oman coast, a flat shore of beaches, farms and an old fort with the Hajar mountains rising close behind, and a temperature data logger here serves a city of fish markets, hotels, hospitals and port-side warehouses in hot, humid air. Boats land fish on the beach each morning, farms on the plain grow vegetables and dates, and visitors come for the diving and the sea. A deep-water harbour and a free zone lie along the coast, with workshops and stores close by. Summer is hot and very damp, winters are mild, and showers run off the mountains in sudden bursts. Enquiries from Fujairah are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Fujairah mostly serves food and beverage sites, as well as hospital and blood bank sites. Fujairah is the main city of the Emirates' Gulf of Oman coast, a flat shore of beaches, farms and an old fort with the Hajar mountains rising close behind, and a temperature data logger here serves a city of fish markets, hotels, hospitals and port-side warehouses in hot, humid air. Boats land fish on the beach each morning, farms on the plain grow vegetables and dates, and visitors come for the diving and the sea. A deep-water harbour and a free zone lie along the coast, with workshops and stores close by. Summer is hot and very damp, winters are mild, and showers run off the mountains in sudden bursts. Enquiries from Fujairah are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The east coast is hot and very humid for most of the year, the mountains stand close behind and bring sudden heavy showers, and the sea air carries salt onto every shed, so ice rooms, hotel kitchens and clinic refrigerators work through long warm spells. Water running off the slopes can reach low rooms, power cuts come with storms, and a cold store that fails in the afternoon can lose its contents before the evening shift arrives.",
             areas: [
@@ -22027,9 +22027,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Fujairah fish seller or hotel keep a temperature record?",
+                question: "With a temperature data logger in Fujairah, can a Fujairah fish seller or hotel keep a temperature record?",
                 answer:
-                  "A logger in each ice store, cooler and freezer records through the day and night, and a report for any period can be exported in PDF, Excel or CSV form for a buyer or an inspector.",
+                  "A logger in each ice store, cooler and freezer records through the day and night, and a report for any period can be exported in PDF, Excel or CSV form for a buyer or an inspector.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why mount a logger above the likely water line on the east coast?",
@@ -22054,7 +22054,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Fujairah | Prithvi",
             metaDescription:
-              "Fujairah, UAE: data loggers for fish ice stores, hotel kitchens, farm produce sheds, clinics and harbour warehouses. Use Get Solution to plan Fujairah.",
+              "Fujairah: temperature data loggers for fish ice stores, hotel kitchens, farm produce sheds, clinics and harbour warehouses. Get Solution for Fujairah.",
             indexable: true,
           },
           {
@@ -22062,7 +22062,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Dibba Al Fujairah",
             type: "city",
             intro:
-              "Dibba Al Fujairah is a bay town at the northern end of Fujairah's Gulf of Oman coast, sheltered beneath steep mountain peaks, and a temperature data logger here serves a small place of fishing boats, dive centres, date farms and shops in warm, damp sea air. Boats set out from the beach and land their catch at a small harbour and fish market, farms and palm groves grow behind the shore, and visitors come for the diving, the beaches and the mountain roads. A clinic and pharmacies serve the town. Weekends fill the beach cafes in the cooler months, and dive boats leave early in the morning. Summers are hot and humid and winter days are mild. Enquiries from Dibba Al Fujairah are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Dibba Al Fujairah mostly serves food and beverage sites, as well as hospital and blood bank sites. Dibba Al Fujairah is a bay town at the northern end of Fujairah's Gulf of Oman coast, sheltered beneath steep mountain peaks, and a temperature data logger here serves a small place of fishing boats, dive centres, date farms and shops in warm, damp sea air. Boats set out from the beach and land their catch at a small harbour and fish market, farms and palm groves grow behind the shore, and visitors come for the diving, the beaches and the mountain roads. A clinic and pharmacies serve the town. Weekends fill the beach cafes in the cooler months, and dive boats leave early in the morning. Summers are hot and humid and winter days are mild. Enquiries from Dibba Al Fujairah are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The bay is hot and very humid for most of the year, the peaks rise sharply behind it and storms can send water down the wadis, and salt reaches every shed along the shore, so ice boxes, dive-centre kitchens and clinic refrigerators work through long warm spells. A small town far from the larger suppliers can wait hours for a repair, which is why a warning on a phone matters.",
             areas: [
@@ -22124,9 +22124,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can one logger watch a single refrigerator in a Dibba cafe?",
+                question: "With a temperature data logger in Dibba Al Fujairah, can one logger watch a single refrigerator in a Dibba cafe?",
                 answer:
-                  "Yes. A single logger with an alert to a phone can watch one refrigerator as long as a router is within reach, and more points can be added to the same account later.",
+                  "Yes. A single logger with an alert to a phone can watch one refrigerator as long as a router is within reach, and more points can be added to the same account later.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why does a small coastal town want a phone alert?",
@@ -22150,7 +22150,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Dibba Al Fujairah | Prithvi",
             metaDescription:
-              "Dibba Al Fujairah, UAE: data loggers for fish ice boxes, dive-centre kitchens, date farms and clinics. Get Solution: Dibba Al Fujairah.",
+              "Dibba Al Fujairah, UAE: temperature data loggers for fish ice boxes, dive-centre kitchens, date farms and clinics. Get Solution: Dibba Al Fujairah.",
             indexable: true,
           },
         ],
@@ -22206,7 +22206,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Doha Municipality",
         type: "state",
         intro:
-          "Doha Municipality takes in the capital city of Qatar, built around a curved bay on the east coast of the peninsula. A palm-lined Corniche follows the water, towers of glass stand beside traditional dhows, and low-rise lanes of an old market still sell spices, textiles and food. Business, shopping and residential districts spread inland and along the shore, from the towers of West Bay to the busy streets of Al Sadd, the redeveloped quarter of Msheireb and an artificial island of marinas and apartments. Summers are long, very hot and humid, winters mild, and dust and haze come in some seasons. Food, medicines and electronics wait in kitchens, clinics and stores in such heat. The pages below cover the city and four of its districts.",
+          "A temperature data logger in Doha Municipality mostly serves hotel, restaurant and catering kitchens, as well as hospitals, clinics and pharmacies. Doha Municipality takes in the capital city of Qatar, built around a curved bay on the east coast of the peninsula. A palm-lined Corniche follows the water, towers of glass stand beside traditional dhows, and low-rise lanes of an old market still sell spices, textiles and food. Business, shopping and residential districts spread inland and along the shore, from the towers of West Bay to the busy streets of Al Sadd, the redeveloped quarter of Msheireb and an artificial island of marinas and apartments. Summers are long, very hot and humid, winters mild, and dust and haze come in some seasons. Food, medicines and electronics wait in kitchens, clinics and stores in such heat. The pages below cover the city and four of its districts.",
         localIndustries: [
           "Hotel, restaurant and catering kitchens",
           "Hospitals, clinics and pharmacies",
@@ -22218,9 +22218,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from Doha Municipality are handled through the enquiry form, Call or WhatsApp. Name the district, the rooms to be watched and how they are cooled, and we answer with what looks suitable for the site.",
         faqs: [
           {
-            question: "Which places in Doha Municipality have a page?",
+            question: "Where can I find a temperature data logger in Doha Municipality?",
             answer:
-              "Doha has a city page, and West Bay, Al Sadd, Msheireb, The Pearl-Qatar, Hamad International Airport and Ras Bufontas Free Zone have area pages under it. Another district of the capital can be raised through the enquiry form.",
+              "Doha has a city page, and West Bay, Al Sadd, Msheireb, The Pearl-Qatar, Hamad International Airport and Ras Bufontas Free Zone have area pages under it. Another district of the capital can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why does a very hot city still need humidity records?",
@@ -22252,7 +22252,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Doha",
             type: "city",
             intro:
-              "Doha is the capital city of Qatar, built around a curved bay on the east coast of the peninsula, and a temperature data logger here serves a city of hospitals, hotels, food importers and warehouses in the very hot, humid coastal climate of the Gulf. A palm-lined Corniche follows the water, traditional dhows ride at anchor beside towers of glass, and the low lanes of an old market sell spices, textiles and food. Newer districts of offices, apartments and clinics spread inland, with industrial and warehouse areas on the outskirts. Long summers push every cooling system to its limit, and sea air, dust and sudden haze add to the strain. Enquiries from Doha are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Doha mostly serves hospital and blood bank sites, as well as pharmaceutical sites. Doha is the capital city of Qatar, built around a curved bay on the east coast of the peninsula, and a temperature data logger here serves a city of hospitals, hotels, food importers and warehouses in the very hot, humid coastal climate of the Gulf. A palm-lined Corniche follows the water, traditional dhows ride at anchor beside towers of glass, and the low lanes of an old market sell spices, textiles and food. Newer districts of offices, apartments and clinics spread inland, with industrial and warehouse areas on the outskirts. Long summers push every cooling system to its limit, and sea air, dust and sudden haze add to the strain. Enquiries from Doha are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "Summer afternoons are far beyond comfortable and the nights stay warm, humid sea air carries salt onto every shed, and dust storms blow in from the desert in some seasons, so cold rooms, kitchens and vehicles all work against the weather for months. A refrigerator that loses power on an August afternoon warms fast, vehicles standing in the sun reach far higher temperatures than the shaded air, and condensation forms the moment a cold door opens.",
             areas: [
@@ -22314,9 +22314,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Doha hotel or caterer use temperature loggers?",
+                question: "With a temperature data logger in Doha, can a Doha hotel or caterer use temperature loggers?",
                 answer:
-                  "A logger in each cooler, freezer and dry store records through the day and night, and a report for any period can be exported in PDF, Excel or CSV form for an inspector or a client.",
+                  "A logger in each cooler, freezer and dry store records through the day and night, and a report for any period can be exported in PDF, Excel or CSV form for an inspector or a client.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why does a store in a desert country need a humidity reading?",
@@ -22341,7 +22341,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Doha | Prithvi",
             metaDescription:
-              "Doha, Qatar: data loggers for hospitals, hotel kitchens, food importers and warehouses through long, hot, humid summers. Get Solution to begin in Doha.",
+              "Doha: temperature data loggers for hospitals, hotel kitchens, food importers and warehouses through long, hot, humid summers. Get Solution for Doha.",
             indexable: true,
           },
         ],
@@ -22351,7 +22351,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Al Rayyan Municipality",
         type: "state",
         intro:
-          "Al Rayyan Municipality lies to the west of the capital, where the built-up edge of Doha gives way to a wide plain of villas, schools, malls, farms and open desert. The city of Al Rayyan is a sprawling suburban centre of family neighbourhoods and shopping streets, with the districts of Al Gharafa, Birkat Al Awamer and Al Sailiya spread along the main roads out of town. Summers are long, very hot and dry-to-humid depending on the wind, winters mild, and dust blows in from the desert. Food, medicines and household goods wait in shops, clinics and warehouses in such heat. The pages below describe the city and three of its districts.",
+          "A temperature data logger in Al Rayyan Municipality mostly serves supermarkets and shopping streets, as well as clinics, pharmacies and care centres. Al Rayyan Municipality lies to the west of the capital, where the built-up edge of Doha gives way to a wide plain of villas, schools, malls, farms and open desert. The city of Al Rayyan is a sprawling suburban centre of family neighbourhoods and shopping streets, with the districts of Al Gharafa, Birkat Al Awamer and Al Sailiya spread along the main roads out of town. Summers are long, very hot and dry-to-humid depending on the wind, winters mild, and dust blows in from the desert. Food, medicines and household goods wait in shops, clinics and warehouses in such heat. The pages below describe the city and three of its districts.",
         localIndustries: [
           "Supermarkets and shopping streets",
           "Clinics, pharmacies and care centres",
@@ -22363,9 +22363,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from Al Rayyan Municipality are handled through the enquiry form, Call or WhatsApp. Say which district, which rooms and how they are cooled, and our reply covers what seems suitable here.",
         faqs: [
           {
-            question: "Which places in Al Rayyan Municipality have a page?",
+            question: "Where can I find a temperature data logger in Al Rayyan Municipality?",
             answer:
-              "Al Rayyan has a city page, and Al Gharafa, Birkat Al Awamer and Al Sailiya have area pages under it. A district not named here can be raised through the enquiry form.",
+              "Al Rayyan has a city page, and Al Gharafa, Birkat Al Awamer and Al Sailiya have area pages under it. A district not named here can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why does a dusty suburb want a mounting position as well as a logger?",
@@ -22394,7 +22394,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Al Rayyan",
             type: "city",
             intro:
-              "Al Rayyan is a large suburban city to the west of Doha, where family neighbourhoods, shopping streets, schools and clinics spread across a flat plain, and a temperature data logger here serves a place of supermarkets, bakeries, pharmacies and warehouses in long, hot summers. Shopping malls and neighbourhood parades sell food and household goods, clinics and care centres serve the residential districts, and workshops and storage yards line the roads that lead out of town. Open desert and farms begin not far from the last houses, and the school run fills the streets twice a day. Dust blows in from the desert in some seasons, and summer afternoons are far beyond comfortable. Enquiries from Al Rayyan are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Al Rayyan mostly serves food and beverage sites, as well as pharmaceutical sites. Al Rayyan is a large suburban city to the west of Doha, where family neighbourhoods, shopping streets, schools and clinics spread across a flat plain, and a temperature data logger here serves a place of supermarkets, bakeries, pharmacies and warehouses in long, hot summers. Shopping malls and neighbourhood parades sell food and household goods, clinics and care centres serve the residential districts, and workshops and storage yards line the roads that lead out of town. Open desert and farms begin not far from the last houses, and the school run fills the streets twice a day. Dust blows in from the desert in some seasons, and summer afternoons are far beyond comfortable. Enquiries from Al Rayyan are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "Summers are very hot with strong sun, nights stay warm, the air is dry on some days and humid on others depending on the wind, and dust storms blow in from the desert, so supermarket coolers, pharmacy refrigerators and warehouse sheds all work against the weather for months. A refrigerator that loses power on a summer afternoon warms quickly, and vehicles parked in the sun reach far higher temperatures than the shaded air.",
             areas: [
@@ -22456,9 +22456,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can an Al Rayyan supermarket or bakery use temperature loggers?",
+                question: "With a temperature data logger in Al Rayyan, can an Al Rayyan supermarket or bakery use temperature loggers?",
                 answer:
-                  "A logger in each cooler, freezer and cold room records through the day and night, and a report for any period can be exported in PDF, Excel or CSV form for an inspector or a client.",
+                  "A logger in each cooler, freezer and cold room records through the day and night, and a report for any period can be exported in PDF, Excel or CSV form for an inspector or a client.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why does fine desert dust matter for where a logger is fixed?",
@@ -22483,7 +22483,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Al Rayyan | Prithvi",
             metaDescription:
-              "Al Rayyan, Qatar: data loggers for supermarkets, bakeries, pharmacies, clinics and warehouses in hot summers and blowing dust. Get Solution: Al Rayyan.",
+              "Al Rayyan: temperature data loggers for supermarkets, bakeries, pharmacies, clinics and warehouses in hot summers and blowing dust. Get Solution.",
             indexable: true,
           },
         ],
@@ -22493,7 +22493,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Al Wakrah Municipality",
         type: "state",
         intro:
-          "Al Wakrah Municipality lies to the south of the capital along the Gulf coast, a mix of old fishing waterfront, new suburbs and industrial shoreline. Al Wakrah itself is a coastal town with a restored market, a harbour for fishing boats and a long beach, Mesaieed is an industrial town beside a port with sand dunes rolling away behind it, and Al Wukair is a growing inland suburb on the road from the capital. Summers are long, very hot and humid on the shore, winters mild, and dust and haze come in some seasons. Food, fish, chemicals, building materials and medicines wait in shops, sheds and warehouses in such heat. The pages below cover the three towns and the industrial city at Mesaieed.",
+          "A temperature data logger in Al Wakrah Municipality mostly serves fish, food and market trade, as well as industrial and building-material storage. Al Wakrah Municipality lies to the south of the capital along the Gulf coast, a mix of old fishing waterfront, new suburbs and industrial shoreline. Al Wakrah itself is a coastal town with a restored market, a harbour for fishing boats and a long beach, Mesaieed is an industrial town beside a port with sand dunes rolling away behind it, and Al Wukair is a growing inland suburb on the road from the capital. Summers are long, very hot and humid on the shore, winters mild, and dust and haze come in some seasons. Food, fish, chemicals, building materials and medicines wait in shops, sheds and warehouses in such heat. The pages below cover the three towns and the industrial city at Mesaieed.",
         localIndustries: [
           "Fish, food and market trade",
           "Industrial and building-material storage",
@@ -22505,9 +22505,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from Al Wakrah Municipality are handled through the enquiry form, Call or WhatsApp. Tell us which town, which rooms and how they are cooled, and we reply with what looks suitable for the site.",
         faqs: [
           {
-            question: "Which places in Al Wakrah Municipality have a page?",
+            question: "Where can I find a temperature data logger in Al Wakrah Municipality?",
             answer:
-              "Al Wakrah, Mesaieed and Al Wukair each have a city page, and the Mesaieed Industrial City has an area page under Mesaieed. Another town in the municipality can be raised through the enquiry form.",
+              "Al Wakrah, Mesaieed and Al Wukair each have a city page, and the Mesaieed Industrial City has an area page under Mesaieed. Another town in the municipality can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "How is a fishing waterfront different from an industrial shoreline for logger set-up?",
@@ -22536,7 +22536,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Al Wakrah",
             type: "city",
             intro:
-              "Al Wakrah is a coastal town south of Doha on the Gulf shore, long a fishing and pearling settlement, and a temperature data logger here serves a place where an old market, a fishing harbour and a growing residential town meet hot, humid sea air. A restored souq of low arcades sells spices, textiles and food, fishing boats land their catch each morning, and a long beach and a marina draw families in the cooler months. Newer districts of villas, apartments, clinics and shopping streets spread inland. Summer afternoons are far beyond comfortable and the air is damp. Fishing families have worked this shore for generations, and the evening walk along the beach is part of town life. Enquiries from Al Wakrah are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Al Wakrah mostly serves food and beverage sites, as well as pharmaceutical sites. Al Wakrah is a coastal town south of Doha on the Gulf shore, long a fishing and pearling settlement, and a temperature data logger here serves a place where an old market, a fishing harbour and a growing residential town meet hot, humid sea air. A restored souq of low arcades sells spices, textiles and food, fishing boats land their catch each morning, and a long beach and a marina draw families in the cooler months. Newer districts of villas, apartments, clinics and shopping streets spread inland. Summer afternoons are far beyond comfortable and the air is damp. Fishing families have worked this shore for generations, and the evening walk along the beach is part of town life. Enquiries from Al Wakrah are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The shore is very hot and humid through the long summer, salt reaches every shed and cold box, and dust blows in from the desert in some seasons, so ice rooms, shop coolers and clinic refrigerators work against the weather for months. A cooler that loses power on an August afternoon warms fast, and doors opened constantly in the market let in damp air that condenses on anything cold.",
             areas: [
@@ -22598,9 +22598,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can an Al Wakrah fish seller keep a record of an ice store?",
+                question: "With a temperature data logger in Al Wakrah, can an Al Wakrah fish seller keep a record of an ice store?",
                 answer:
-                  "Yes. A probe in the ice store keeps a day-and-night record, and a report for the dates of one lot can be saved as a PDF, Excel or CSV file for a buyer.",
+                  "Yes. A probe in the ice store keeps a day-and-night record, and a report for the dates of one lot can be saved as a PDF, Excel or CSV file for a buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why do old market stock rooms need a humidity reading?",
@@ -22625,7 +22625,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Al Wakrah | Prithvi",
             metaDescription:
-              "Al Wakrah, Qatar: data loggers for fish ice stores, market spice stores, clinics, cafes and supermarkets in salt air. Get Solution to begin in Al Wakrah.",
+              "Al Wakrah: temperature data loggers for fish ice stores, market spice stores, clinics, cafes and supermarkets in salt air. Get Solution for Al Wakrah.",
             indexable: true,
           },
           {
@@ -22633,7 +22633,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Mesaieed",
             type: "city",
             intro:
-              "Mesaieed is an industrial coastal town south of Doha, built beside a port with rolling sand dunes behind it, and a temperature data logger here serves a place of workshops, canteens, clinics and stores serving a working community in extreme summer heat. Industrial plots and a harbour stand along the shore, housing, shops and a hospital serve the people who live there, and beaches and dunes draw visitors in the cooler months. Summers are long and very hot, the sea air is humid and salty, and sandy winds blow in from the desert. Chemicals, spare parts, food and medicines all wait in warehouses and vehicles in such heat. Enquiries from Mesaieed are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Mesaieed mostly serves chemical sites, as well as laboratory sites. Mesaieed is an industrial coastal town south of Doha, built beside a port with rolling sand dunes behind it, and a temperature data logger here serves a place of workshops, canteens, clinics and stores serving a working community in extreme summer heat. Industrial plots and a harbour stand along the shore, housing, shops and a hospital serve the people who live there, and beaches and dunes draw visitors in the cooler months. Summers are long and very hot, the sea air is humid and salty, and sandy winds blow in from the desert. Chemicals, spare parts, food and medicines all wait in warehouses and vehicles in such heat. Enquiries from Mesaieed are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "Mesaieed is extremely hot in summer, with high humidity on the shore and dry sandy winds from the dunes, so stores near the water face heat, salt damp and dust in turn. The dunes behind the town give way to flat salt ground, workshops stand close to the fence line of larger plants, and a failed cold room in a remote canteen can go unnoticed through a whole night shift. Metal-roofed sheds without cooling reach extreme temperatures, a refrigerator in a residential block can lose its contents before the next shift, and condensation forms the moment a cold door opens to the outside air.",
             areas: [
@@ -22695,9 +22695,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Mesaieed laboratory or warehouse use temperature loggers?",
+                question: "With a temperature data logger in Mesaieed, can a Mesaieed laboratory or warehouse use temperature loggers?",
                 answer:
-                  "Each room can have its own logger keeping a day-and-night record, and a report for any period can be saved as a PDF, Excel or CSV file for an audit or a client.",
+                  "Each room can have its own logger keeping a day-and-night record, and a report for any period can be saved as a PDF, Excel or CSV file for an audit or a client.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why does a store beside the dunes and the sea need a humidity reading?",
@@ -22721,7 +22721,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Mesaieed | Prithvi",
             metaDescription:
-              "Mesaieed, Qatar: data loggers for industrial stores, laboratories, canteens and clinics beside the dunes and the Gulf. Get Solution to begin in Mesaieed.",
+              "Mesaieed: temperature data loggers for industrial stores, laboratories, canteens and clinics beside the dunes and the Gulf. Get Solution for Mesaieed.",
             indexable: true,
           },
           {
@@ -22729,7 +22729,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Al Wukair",
             type: "city",
             intro:
-              "Al Wukair is a growing suburb inland of Al Wakrah, on the road south from Doha, and a temperature data logger here serves a place of new homes, farms, shops, restaurants and workshops in dry, dusty heat. Villas and apartment blocks have spread across what was once farmland, neighbourhood supermarkets and cafes serve the new streets, and small workshops and warehouses sit beside the main road. Farms with sheds and cool rooms still survive between the housing. Summers are very hot and winters mild, and dust blows in from the desert. Weekends bring families to the new cafes along the main road, and school buses fill the streets twice a day. Enquiries from Al Wukair are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Al Wukair mostly serves food and beverage sites, as well as pharmaceutical sites. Al Wukair is a growing suburb inland of Al Wakrah, on the road south from Doha, and a temperature data logger here serves a place of new homes, farms, shops, restaurants and workshops in dry, dusty heat. Villas and apartment blocks have spread across what was once farmland, neighbourhood supermarkets and cafes serve the new streets, and small workshops and warehouses sit beside the main road. Farms with sheds and cool rooms still survive between the housing. Summers are very hot and winters mild, and dust blows in from the desert. Weekends bring families to the new cafes along the main road, and school buses fill the streets twice a day. Enquiries from Al Wukair are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The inland air is drier than on the shore but summer heat is just as fierce, nights stay warm, and dust storms blow through in some seasons, so supermarket coolers, farm sheds and warehouse roofs all work against the sun for months. Vehicles parked on the main road reach far higher temperatures than the shaded air, and a refrigerator that fails on a summer afternoon warms quickly. Farm sheds stand unshaded between the houses, and a produce cold room that is opened by the hour loses its cold with every visit.",
             areas: [
@@ -22791,9 +22791,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a small Al Wukair farm or shop use a single logger?",
+                question: "With a temperature data logger in Al Wukair, can a small Al Wukair farm or shop use a single logger?",
                 answer:
-                  "Yes. One logger with a phone alert can watch a cold room or refrigerator as long as a router is within reach, and more points can be added to the same account later.",
+                  "Yes. One logger with a phone alert can watch a cold room or refrigerator as long as a router is within reach, and more points can be added to the same account later.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Does desert dust matter for where a logger is fixed in Al Wukair?",
@@ -22818,7 +22818,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Al Wukair | Prithvi",
             metaDescription:
-              "Al Wukair, Qatar: data loggers for supermarkets, farm sheds, restaurants, clinics and roadside warehouses in dry, dusty heat. Get Solution: Al Wukair.",
+              "Al Wukair: temperature data loggers for supermarkets, farm sheds, restaurants, clinics and roadside warehouses in dry, dusty heat. Get Solution: Al Wukair.",
             indexable: true,
           },
         ],
@@ -22828,7 +22828,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Al Khor and Al Thakhira Municipality",
         type: "state",
         intro:
-          "The Al Khor and Al Thakhira Municipality covers a stretch of the north-east coast of Qatar, where a creek-side fishing town, shallow mangrove-lined inlets and a flat headland meet the Gulf. Al Khor is the main town, with a harbour for fishing boats, a corniche, parks and family neighbourhoods, while Ras Laffan lies further along the coast on a headland that has been laid out as an industrial city with a harbour of its own. Summers are long, very hot and humid on the shore, winters mild, and sandy winds blow in from the desert. Food, fish, chemicals and medicines wait in shops, sheds and warehouses in such heat. The pages below cover the two towns and the industrial city at Ras Laffan.",
+          "A temperature data logger in Al Khor and Al Thakhira mostly serves fish, food and market trade, as well as industrial support stores and laboratories. The Al Khor and Al Thakhira Municipality covers a stretch of the north-east coast of Qatar, where a creek-side fishing town, shallow mangrove-lined inlets and a flat headland meet the Gulf. Al Khor is the main town, with a harbour for fishing boats, a corniche, parks and family neighbourhoods, while Ras Laffan lies further along the coast on a headland that has been laid out as an industrial city with a harbour of its own. Summers are long, very hot and humid on the shore, winters mild, and sandy winds blow in from the desert. Food, fish, chemicals and medicines wait in shops, sheds and warehouses in such heat. The pages below cover the two towns and the industrial city at Ras Laffan.",
         localIndustries: [
           "Fish, food and market trade",
           "Industrial support stores and laboratories",
@@ -22840,9 +22840,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from Al Khor and Al Thakhira Municipality are handled through the enquiry form, Call or WhatsApp. Say which town, which rooms and how they are cooled, and we reply with what looks suitable for the site.",
         faqs: [
           {
-            question: "Which places in Al Khor and Al Thakhira Municipality have a page?",
+            question: "Where can I find a temperature data logger in Al Khor and Al Thakhira?",
             answer:
-              "Al Khor and Ras Laffan each have a city page, and the Ras Laffan Industrial City has an area page under Ras Laffan. Another place on the coast can be raised through the enquiry form.",
+              "Al Khor and Ras Laffan each have a city page, and the Ras Laffan Industrial City has an area page under Ras Laffan. Another place on the coast can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why does a creek and mangrove coast matter for stores?",
@@ -22870,7 +22870,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Al Khor",
             type: "city",
             intro:
-              "Al Khor is a coastal town on the north-east side of Qatar, named for the creek that curls beside it, and a temperature data logger here serves a place of fishing boats, family neighbourhoods, shops and clinics in hot, humid sea air. Fishermen land their catch at a small harbour, mangrove-lined inlets lie close to the town, and a corniche, parks and beaches draw families in the cooler months. Supermarkets, bakeries and restaurants serve the neighbourhoods, and a hospital and clinics serve the district. Summer afternoons are far beyond comfortable and the nights stay warm, and in the cooler evenings families walk the corniche and fill the cafes. Enquiries from Al Khor are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Al Khor mostly serves food and beverage sites, as well as pharmaceutical sites. Al Khor is a coastal town on the north-east side of Qatar, named for the creek that curls beside it, and a temperature data logger here serves a place of fishing boats, family neighbourhoods, shops and clinics in hot, humid sea air. Fishermen land their catch at a small harbour, mangrove-lined inlets lie close to the town, and a corniche, parks and beaches draw families in the cooler months. Supermarkets, bakeries and restaurants serve the neighbourhoods, and a hospital and clinics serve the district. Summer afternoons are far beyond comfortable and the nights stay warm, and in the cooler evenings families walk the corniche and fill the cafes. Enquiries from Al Khor are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The creek keeps the air damp as well as hot through the long summer, salt reaches every shed and ice box, and sandy winds blow in from the desert in some seasons, so cold rooms, shop coolers and clinic refrigerators work against the weather for months. A cooler that loses power on an August afternoon warms fast, and doors opened constantly in the harbour market let in damp air that condenses on anything cold.",
             areas: [
@@ -22932,9 +22932,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can an Al Khor fish seller or bakery use temperature loggers?",
+                question: "With a temperature data logger in Al Khor, can an Al Khor fish seller or bakery use temperature loggers?",
                 answer:
-                  "Every ice store, cooler and freezer can carry its own logger, giving a day-and-night record, and a report for any chosen period can be saved as a PDF, Excel or CSV file for a buyer or an inspector.",
+                  "Every ice store, cooler and freezer can carry its own logger, giving a day-and-night record, and a report for any chosen period can be saved as a PDF, Excel or CSV file for a buyer or an inspector.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why does a store near a creek need a humidity reading?",
@@ -22959,7 +22959,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Al Khor | Prithvi",
             metaDescription:
-              "Al Khor, Qatar: data loggers for harbour ice stores, bakeries, supermarkets, clinics and warehouses beside the creek. Get Solution to begin in Al Khor.",
+              "Al Khor: temperature data loggers for harbour ice stores, bakeries, supermarkets, clinics and warehouses beside the creek. Get Solution for Al Khor.",
             indexable: true,
           },
           {
@@ -22967,7 +22967,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Ras Laffan",
             type: "city",
             intro:
-              "Ras Laffan is a headland on the north-east coast of Qatar, laid out as a planned industrial city with a harbour and living quarters, and a temperature data logger here serves a working community of laboratories, stores, workshops, canteens and clinics in extreme summer heat. The flat plain behind the shore is dry and sandy, the sea air is humid and salty, and the surrounding land is open and treeless. Spare parts, chemicals, food and medicines all wait in warehouses and vehicles for use on the site and in its housing. Winters are mild and summers are long, and the nearest large town is a drive away, so stock held on site matters. Enquiries from Ras Laffan are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Ras Laffan mostly serves chemical sites, as well as laboratory sites. Ras Laffan is a headland on the north-east coast of Qatar, laid out as a planned industrial city with a harbour and living quarters, and a temperature data logger here serves a working community of laboratories, stores, workshops, canteens and clinics in extreme summer heat. The flat plain behind the shore is dry and sandy, the sea air is humid and salty, and the surrounding land is open and treeless. Spare parts, chemicals, food and medicines all wait in warehouses and vehicles for use on the site and in its housing. Winters are mild and summers are long, and the nearest large town is a drive away, so stock held on site matters. Enquiries from Ras Laffan are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The headland is exposed, so summer sun and sandy wind strike every building, the shore is damp and salty while the plain behind is dry, and metal-roofed sheds without cooling reach extreme temperatures. A refrigerator in a staff canteen can lose its contents in a single night shift, and condensation forms the moment a cold door opens to the outside air. Roads on the headland are long and straight, so vehicles carrying chilled food cross open ground in full sun, and a clinic refrigerator that warms overnight may not be noticed until the morning round.",
             areas: [
@@ -23029,9 +23029,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a laboratory or canteen at Ras Laffan use temperature loggers?",
+                question: "With a temperature data logger in Ras Laffan, can a laboratory or canteen at Ras Laffan use temperature loggers?",
                 answer:
-                  "A logger in each room records through the day and night, and a report for any period can be exported in PDF, Excel or CSV form for an audit or a client.",
+                  "A logger in each room records through the day and night, and a report for any period can be exported in PDF, Excel or CSV form for an audit or a client.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why do sheds on an exposed headland run so hot?",
@@ -23055,7 +23055,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Ras Laffan | Prithvi",
             metaDescription:
-              "Ras Laffan, Qatar: data loggers for support warehouses, laboratories, canteens and clinics on the exposed north-east headland. Get Solution: Ras Laffan.",
+              "Ras Laffan: temperature data loggers for support warehouses, laboratories, canteens and clinics on the exposed north-east headland. Get Solution.",
             indexable: true,
           },
         ],
@@ -23065,7 +23065,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Al Daayen Municipality",
         type: "state",
         intro:
-          "Al Daayen Municipality stretches along the Gulf coast north of the capital, a flat shoreline where a planned waterfront city of towers, marinas and shopping boulevards has been laid out beside older suburbs of villas, schools and farms. Lusail is the waterfront city, with hotels, apartments, offices and restaurants arranged around canals and a marina, while Al Daayen itself is a quieter northern suburb with family homes, small shops and open land behind the coast. On the shore the long summers are very hot and humid and the winters mild, while dust and haze drift in at certain times of year. Food, medicines and household goods wait in kitchens, clinics and warehouses in such heat. The pages below cover the two towns.",
+          "A temperature data logger in Al Daayen Municipality mostly serves hotel, restaurant and catering kitchens, as well as supermarkets and shopping streets. Al Daayen Municipality stretches along the Gulf coast north of the capital, a flat shoreline where a planned waterfront city of towers, marinas and shopping boulevards has been laid out beside older suburbs of villas, schools and farms. Lusail is the waterfront city, with hotels, apartments, offices and restaurants arranged around canals and a marina, while Al Daayen itself is a quieter northern suburb with family homes, small shops and open land behind the coast. On the shore the long summers are very hot and humid and the winters mild, while dust and haze drift in at certain times of year. Food, medicines and household goods wait in kitchens, clinics and warehouses in such heat. The pages below cover the two towns.",
         localIndustries: [
           "Hotel, restaurant and catering kitchens",
           "Supermarkets and shopping streets",
@@ -23077,9 +23077,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from Al Daayen Municipality are handled through the enquiry form, Call or WhatsApp. Name the town, the rooms and how they are cooled, and our reply covers what seems suitable on site.",
         faqs: [
           {
-            question: "Which places in Al Daayen Municipality have a page?",
+            question: "Where can I find a temperature data logger in Al Daayen Municipality?",
             answer:
-              "Lusail and Al Daayen each have a city page. Another place on this stretch of coast can be raised through the enquiry form, and further pages follow only when they can be written from confident facts.",
+              "Lusail and Al Daayen each have a city page. Another place on this stretch of coast can be raised through the enquiry form, and further pages follow only when they can be written from confident facts.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why would a new waterfront city want a temperature record?",
@@ -23104,7 +23104,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Lusail",
             type: "city",
             intro:
-              "Lusail is a planned waterfront city on the Gulf coast north of Doha, laid out with towers, hotels, marinas, canals and shopping boulevards, and a temperature data logger here serves a young city of kitchens, clinics, supermarkets and stockrooms in hot, humid sea air. Apartment blocks and offices rise beside the marina, restaurants and cafes line the waterfront, and islands of villas and resorts reach out into the shallows. Everything is new, so cooling plant is modern but runs at its limit through the long summer, and the glass towers hold the heat well into the night. Winters are mild and the evening promenade is busy, with families, cyclists and cafe tables spilling along the water. Enquiries from Lusail are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Lusail mostly serves food and beverage sites, as well as pharmaceutical sites. Lusail is a planned waterfront city on the Gulf coast north of Doha, laid out with towers, hotels, marinas, canals and shopping boulevards, and a temperature data logger here serves a young city of kitchens, clinics, supermarkets and stockrooms in hot, humid sea air. Apartment blocks and offices rise beside the marina, restaurants and cafes line the waterfront, and islands of villas and resorts reach out into the shallows. Everything is new, so cooling plant is modern but runs at its limit through the long summer, and the glass towers hold the heat well into the night. Winters are mild and the evening promenade is busy, with families, cyclists and cafe tables spilling along the water. Enquiries from Lusail are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "Summer heat and humidity peak together on the water, salt reaches every balcony and service yard, and dust and haze blow in from the desert in some seasons, so basement kitchens, supermarket cold rooms and tower plant rooms all work against the weather for months. A cooler on a hotel service floor that loses power on an August afternoon warms fast, and condensation forms the moment a cold door opens to the outside air. Resorts out on the shallows depend on stock that arrives in warm vehicles, so a record of each load is worth having.",
             areas: [
@@ -23166,9 +23166,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Lusail hotel or restaurant watch every kitchen from one login?",
+                question: "With a temperature data logger in Lusail, can a Lusail hotel or restaurant watch every kitchen from one login?",
                 answer:
-                  "Yes. Every kitchen, pantry and plant room reports to one dashboard, each alert reaches its own engineer, and a manager gets a single exported report covering all the rooms.",
+                  "Yes. Every kitchen, pantry and plant room reports to one dashboard, each alert reaches its own engineer, and a manager gets a single exported report covering all the rooms.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why does a basement store near the water need a humidity reading?",
@@ -23193,7 +23193,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Lusail | Prithvi",
             metaDescription:
-              "Lusail, Qatar: data loggers for hotel kitchens, supermarkets, clinics and tower stockrooms on the hot, humid waterfront. Get Solution to begin in Lusail.",
+              "Lusail: temperature data loggers for hotel kitchens, supermarkets, clinics and tower stockrooms on the hot, humid waterfront. Get Solution for Lusail.",
             indexable: true,
           },
           {
@@ -23201,7 +23201,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Al Daayen",
             type: "city",
             intro:
-              "Al Daayen is a northern suburb of the capital region, set back from the Gulf coast on flat open land, and a temperature data logger here serves a district of family homes, schools, small shops, farms and workshops in hot, dusty heat. Villas and low apartment blocks stand along planned streets lined with young trees, neighbourhood supermarkets and bakeries serve the families, and farms and open stretches of desert still lie between the newer developments. Summers are very hot and winters mild, with dust and haze in some seasons, and the cooler months bring families out to the parks and playgrounds that dot the neighbourhoods. Roads are wide and traffic is light outside school times, which makes it easy for a failed cooler in a quiet corner shop to go unnoticed until the next morning. Enquiries from Al Daayen are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Al Daayen mostly serves food and beverage sites, as well as pharmaceutical sites. Al Daayen is a northern suburb of the capital region, set back from the Gulf coast on flat open land, and a temperature data logger here serves a district of family homes, schools, small shops, farms and workshops in hot, dusty heat. Villas and low apartment blocks stand along planned streets lined with young trees, neighbourhood supermarkets and bakeries serve the families, and farms and open stretches of desert still lie between the newer developments. Summers are very hot and winters mild, with dust and haze in some seasons, and the cooler months bring families out to the parks and playgrounds that dot the neighbourhoods. Roads are wide and traffic is light outside school times, which makes it easy for a failed cooler in a quiet corner shop to go unnoticed until the next morning. Enquiries from Al Daayen are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The air is drier than on the waterfront but summer heat is just as fierce, nights stay warm, and dust storms blow through in some seasons, so supermarket coolers, farm sheds and warehouse roofs all work against the sun for months. Vehicles parked on the main roads reach far higher temperatures than the shaded air, and a refrigerator that fails on a summer afternoon warms quickly. Large gaps between the shops of a new district mean that a failed cooler may not be noticed until the next shift. Small farms beside the houses keep produce in unshaded sheds, and wind-blown sand reaches vents and door seals.",
             areas: [
@@ -23263,9 +23263,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a small Al Daayen shop or farm use a single logger?",
+                question: "With a temperature data logger in Al Daayen, can a small Al Daayen shop or farm use a single logger?",
                 answer:
-                  "Yes. One logger with a phone alert can watch a single cold room or refrigerator as long as a router is within reach, and more points can be added to the same account later.",
+                  "Yes. One logger with a phone alert can watch a single cold room or refrigerator as long as a router is within reach, and more points can be added to the same account later.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Does desert dust matter for where a logger is fixed in Al Daayen?",
@@ -23290,7 +23290,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Al Daayen | Prithvi",
             metaDescription:
-              "Al Daayen, Qatar: data loggers for supermarkets, bakeries, farm sheds, clinics and workshops in hot, dusty heat. Get Solution to cover Al Daayen.",
+              "Al Daayen: temperature data loggers for supermarkets, bakeries, farm sheds, clinics and workshops in hot, dusty heat. Get Solution to cover Al Daayen.",
             indexable: true,
           },
         ],
@@ -23300,7 +23300,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Umm Salal Municipality",
         type: "state",
         intro:
-          "Umm Salal Municipality lies north of the capital, inland from the coast, in a landscape of farms, villas, schools and open desert, with an old fort standing in the town of Umm Salal that has become a landmark of the district. Farms grow vegetables and fodder under irrigation, neighbourhood shops and clinics serve family streets, and workshops and warehouses sit along the main roads. Summers are very hot and dry, winters mild, and dust blows in from the desert. Food, farm produce and medicines wait in sheds, clinics and shops in such heat. The page below describes the town and the rooms where a temperature record would help.",
+          "A temperature data logger in Umm Salal Municipality mostly serves farm produce and fodder, as well as supermarkets and neighbourhood shops. Umm Salal Municipality lies north of the capital, inland from the coast, in a landscape of farms, villas, schools and open desert, with an old fort standing in the town of Umm Salal that has become a landmark of the district. Farms grow vegetables and fodder under irrigation, neighbourhood shops and clinics serve family streets, and workshops and warehouses sit along the main roads. Summers are very hot and dry, winters mild, and dust blows in from the desert. Food, farm produce and medicines wait in sheds, clinics and shops in such heat. The page below describes the town and the rooms where a temperature record would help.",
         localIndustries: [
           "Farm produce and fodder",
           "Supermarkets and neighbourhood shops",
@@ -23312,9 +23312,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from Umm Salal Municipality are handled through the enquiry form, Call or WhatsApp. Say which town, which rooms and how they are cooled, and our reply covers what seems suitable here.",
         faqs: [
           {
-            question: "Which places in Umm Salal Municipality have a page?",
+            question: "Where can I find a temperature data logger in Umm Salal Municipality?",
             answer:
-              "Umm Salal has a city page. Another place in the municipality can be raised through the enquiry form, and further pages follow only when they can be written from confident facts.",
+              "Umm Salal has a city page. Another place in the municipality can be raised through the enquiry form, and further pages follow only when they can be written from confident facts.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "How do farm sheds differ from city stores for a logger?",
@@ -23338,7 +23338,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Umm Salal",
             type: "city",
             intro:
-              "Umm Salal is a town and farming district north of the capital, inland from the coast, and a temperature data logger here serves a place of old fort walls, irrigated farms, villas and workshops in hot, dry heat. A small historic fort of mud and stone stands in the town and draws visitors, farms grow vegetables and fodder under irrigation, and neighbourhood shops, bakeries and clinics serve family streets. Warehouses and workshops sit beside the main roads. Summers are very hot and winters mild, and dust blows in from the desert in some seasons. Families gather at the fort in the cooler months, and farm stalls sell produce at the roadside. Enquiries from Umm Salal are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Umm Salal mostly serves food and beverage sites, as well as pharmaceutical sites. Umm Salal is a town and farming district north of the capital, inland from the coast, and a temperature data logger here serves a place of old fort walls, irrigated farms, villas and workshops in hot, dry heat. A small historic fort of mud and stone stands in the town and draws visitors, farms grow vegetables and fodder under irrigation, and neighbourhood shops, bakeries and clinics serve family streets. Warehouses and workshops sit beside the main roads. Summers are very hot and winters mild, and dust blows in from the desert in some seasons. Families gather at the fort in the cooler months, and farm stalls sell produce at the roadside. Enquiries from Umm Salal are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The inland air is dry, summer heat is fierce and nights stay warm, and dust storms blow through in some seasons, so farm sheds, shop coolers and warehouse roofs all work against the sun for months. Open-sided sheds heat up directly under the sun, a refrigerator that loses power on a summer afternoon warms quickly, and vehicles waiting on the main roads reach far higher temperatures than the shaded air. Wind-blown sand reaches vents and door seals, and old stone walls hold the day's heat well into the evening.",
             areas: [
@@ -23400,9 +23400,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can an Umm Salal farm use a temperature record for its produce?",
+                question: "With a temperature data logger in Umm Salal, can an Umm Salal farm use a temperature record for its produce?",
                 answer:
-                  "A logger in the shed or cool room records temperature and humidity through the season, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for a buyer.",
+                  "A logger in the shed or cool room records temperature and humidity through the season, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for a buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why shade the logger on a farm shed?",
@@ -23428,7 +23428,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Umm Salal | Prithvi",
             metaDescription:
-              "Umm Salal, Qatar: data loggers for farm sheds, bakeries, shops, clinics and workshops in hot, dry heat and blowing dust. Use Get Solution for Umm Salal.",
+              "Umm Salal: temperature data loggers for farm sheds, bakeries, shops, clinics and workshops in hot, dry heat and blowing dust. Get Solution for Umm Salal.",
             indexable: true,
           },
         ],
@@ -23438,7 +23438,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Al Shamal Municipality",
         type: "state",
         intro:
-          "Al Shamal Municipality occupies the northern tip of the Qatari peninsula, a flat limestone coast where fishing harbours, farms, beaches and small settlements look out over shallow, clear water. Al Shamal itself is a planned coastal city built around a broad central avenue, with housing, schools, shops and a hospital, while old forts and archaeological remains stand a short drive along the shore. Fishing boats go out from several small harbours, and irrigated farms grow vegetables and fodder inland. Summers are long, very hot and humid on the coast, winters mild and breezy, and dust blows in from the desert. Fish, food and medicines wait in cold boxes and clinics in such heat. The page below describes the city and the rooms where a temperature record would help.",
+          "A temperature data logger in Al Shamal Municipality mostly serves fish landing and ice stores, as well as farm produce and fodder. Al Shamal Municipality occupies the northern tip of the Qatari peninsula, a flat limestone coast where fishing harbours, farms, beaches and small settlements look out over shallow, clear water. Al Shamal itself is a planned coastal city built around a broad central avenue, with housing, schools, shops and a hospital, while old forts and archaeological remains stand a short drive along the shore. Fishing boats go out from several small harbours, and irrigated farms grow vegetables and fodder inland. Summers are long, very hot and humid on the coast, winters mild and breezy, and dust blows in from the desert. Fish, food and medicines wait in cold boxes and clinics in such heat. The page below describes the city and the rooms where a temperature record would help.",
         localIndustries: [
           "Fish landing and ice stores",
           "Farm produce and fodder",
@@ -23450,9 +23450,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from Al Shamal Municipality are handled through the enquiry form, Call or WhatsApp. Say which town, which rooms and how they are cooled, and our reply covers what seems suitable here.",
         faqs: [
           {
-            question: "Which places in Al Shamal Municipality have a page?",
+            question: "Where can I find a temperature data logger in Al Shamal Municipality?",
             answer:
-              "Al Shamal has a city page. Another place in the municipality can be raised through the enquiry form, and further pages follow only when they can be written from confident facts.",
+              "Al Shamal has a city page. Another place in the municipality can be raised through the enquiry form, and further pages follow only when they can be written from confident facts.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why does a far-north fishing coast want phone alerts?",
@@ -23476,7 +23476,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Al Shamal",
             type: "city",
             intro:
-              "Al Shamal is a planned coastal city at the northern tip of the Qatari peninsula, laid out around a broad central avenue with housing, schools, shops and a hospital, and a temperature data logger here serves a place of fishing harbours, farms and beaches in hot, humid sea air. Fishing boats go out from nearby harbours each morning and land their catch at small quays, irrigated farms grow vegetables and fodder inland, and old forts and archaeological remains stand along the coast. Family neighbourhoods are quiet, roads are wide and distances between shops are long. Summer afternoons are far beyond comfortable, and in the cooler months visitors come to walk the shore and the old fort sites. Enquiries from Al Shamal are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Al Shamal mostly serves food and beverage sites, as well as hospital and blood bank sites. Al Shamal is a planned coastal city at the northern tip of the Qatari peninsula, laid out around a broad central avenue with housing, schools, shops and a hospital, and a temperature data logger here serves a place of fishing harbours, farms and beaches in hot, humid sea air. Fishing boats go out from nearby harbours each morning and land their catch at small quays, irrigated farms grow vegetables and fodder inland, and old forts and archaeological remains stand along the coast. Family neighbourhoods are quiet, roads are wide and distances between shops are long. Summer afternoons are far beyond comfortable, and in the cooler months visitors come to walk the shore and the old fort sites. Enquiries from Al Shamal are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The far north is exposed, so summer sun and salt air strike every shed, the shallow sea keeps the coast humid, and dust and sandy wind blow in from the plain behind, so ice stores, shop coolers and clinic refrigerators work against the weather for months. A cold box on a harbour quay that loses power in the afternoon warms quickly, and long distances to the next supplier mean a failed unit costs more than it would in a city.",
             areas: [
@@ -23538,9 +23538,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can an Al Shamal fish seller keep a record of an ice store?",
+                question: "With a temperature data logger in Al Shamal, can an Al Shamal fish seller keep a record of an ice store?",
                 answer:
-                  "Yes. A probe logger in the store keeps a day-and-night record, and a report for the dates of one lot can be saved as a PDF, Excel or CSV file for a buyer.",
+                  "Yes. A probe logger in the store keeps a day-and-night record, and a report for the dates of one lot can be saved as a PDF, Excel or CSV file for a buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why does a far-north town want a phone alert?",
@@ -23564,7 +23564,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Al Shamal | Prithvi",
             metaDescription:
-              "Al Shamal, Qatar: data loggers for harbour ice stores, farm sheds, supermarkets and clinics on the far northern coast. Get Solution to begin in Al Shamal.",
+              "Al Shamal: temperature data loggers for harbour ice stores, farm sheds, supermarkets and clinics on the far northern coast. Get Solution for Al Shamal.",
             indexable: true,
           },
         ],
@@ -23574,7 +23574,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Al Shahaniya Municipality",
         type: "state",
         intro:
-          "Al Shahaniya Municipality covers a broad swathe of the central and western desert of Qatar, from open gravel plains and farms to a long stretch of west-coast shore with dunes and limestone cliffs. Al Shahaniya is a desert town of farms, camel stables, villas and workshops, while Dukhan lies on the west coast, a town of housing, a hospital and shops beside the sea with an industrial area on its edge. Summers are long, very hot and dry inland, humid on the west coast, winters mild, and dust and sandstorms blow through in some seasons. Food, animal feed, medicines and materials wait in sheds and warehouses in such heat. The pages below describe the two towns and the Dukhan Industrial Area.",
+          "A temperature data logger in Al Shahaniya Municipality mostly serves farm produce, animal feed and veterinary supplies, as well as clinics, pharmacies and care centres. Al Shahaniya Municipality covers a broad swathe of the central and western desert of Qatar, from open gravel plains and farms to a long stretch of west-coast shore with dunes and limestone cliffs. Al Shahaniya is a desert town of farms, camel stables, villas and workshops, while Dukhan lies on the west coast, a town of housing, a hospital and shops beside the sea with an industrial area on its edge. Summers are long, very hot and dry inland, humid on the west coast, winters mild, and dust and sandstorms blow through in some seasons. Food, animal feed, medicines and materials wait in sheds and warehouses in such heat. The pages below describe the two towns and the Dukhan Industrial Area.",
         localIndustries: [
           "Farm produce, animal feed and veterinary supplies",
           "Clinics, pharmacies and care centres",
@@ -23586,9 +23586,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from Al Shahaniya Municipality are handled through the enquiry form, Call or WhatsApp. Name the town, the rooms to be watched and how they are cooled, and we reply with what looks suitable for the site.",
         faqs: [
           {
-            question: "Which places in Al Shahaniya Municipality have a page?",
+            question: "Where can I find a temperature data logger in Al Shahaniya Municipality?",
             answer:
-              "Al Shahaniya and Dukhan each have a city page, and the Dukhan Industrial Area has an area page under Dukhan. Another place in the municipality can be raised through the enquiry form.",
+              "Al Shahaniya and Dukhan each have a city page, and the Dukhan Industrial Area has an area page under Dukhan. Another place in the municipality can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why does a desert farm want a logger in the load as well as in the store?",
@@ -23616,7 +23616,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Al Shahaniya",
             type: "city",
             intro:
-              "Al Shahaniya is a desert town in the open plains west of Doha, and a temperature data logger here serves a place of farms, camel stables, villas, workshops and neighbourhood shops in very hot, dry heat. Irrigated farms stand in green patches amid gravel and sand, stables and enclosures keep camels and other animals that need feed and veterinary supplies, and long straight roads link the town with the capital and the coast. A clinic and pharmacies serve the families who live there. Summers are fierce, winter nights can be cool, and dust and sandstorms blow through in some seasons. Families come out to the desert in the cooler months, and farm shops sell produce beside the roads. Enquiries from Al Shahaniya are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Al Shahaniya mostly serves food and beverage sites, as well as pharmaceutical sites. Al Shahaniya is a desert town in the open plains west of Doha, and a temperature data logger here serves a place of farms, camel stables, villas, workshops and neighbourhood shops in very hot, dry heat. Irrigated farms stand in green patches amid gravel and sand, stables and enclosures keep camels and other animals that need feed and veterinary supplies, and long straight roads link the town with the capital and the coast. A clinic and pharmacies serve the families who live there. Summers are fierce, winter nights can be cool, and dust and sandstorms blow through in some seasons. Families come out to the desert in the cooler months, and farm shops sell produce beside the roads. Enquiries from Al Shahaniya are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The inland air is very dry, daytime heat is fierce and the sun is relentless, winter nights can turn cool, and dust and sandstorms sweep across the plain, so farm sheds, feed stores and shop coolers all work against the desert for months. Open-sided sheds heat directly under the sun, veterinary medicines and dairy produce suffer quickly, and vehicles standing on the long roads reach far higher temperatures than the shaded air.",
             areas: [
@@ -23678,9 +23678,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a desert farm use a temperature record for its produce and feed?",
+                question: "With a temperature data logger in Al Shahaniya, can a desert farm use a temperature record for its produce and feed?",
                 answer:
-                  "A logger in the shed or cool room records temperature and humidity through the season, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for a buyer or a supplier.",
+                  "A logger in the shed or cool room records temperature and humidity through the season, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for a buyer or a supplier.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why shade a logger on an open-sided shed?",
@@ -23706,7 +23706,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Al Shahaniya | Prithvi",
             metaDescription:
-              "Al Shahaniya, Qatar: data loggers for desert farm sheds, feed stores, shops and clinics in very hot, dry heat and blowing sand. Get Solution: Al Shahaniya.",
+              "Al Shahaniya: temperature data loggers for desert farm sheds, feed stores, shops and clinics in very hot, dry heat and blowing sand. Get Solution.",
             indexable: true,
           },
           {
@@ -23714,7 +23714,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Dukhan",
             type: "city",
             intro:
-              "Dukhan is a town on the west coast of Qatar, set between dunes and low limestone cliffs facing the sea, and a temperature data logger here serves a place of housing, a hospital, shops and workshops in hot, humid sea air and dry desert heat. The town was laid out with neat streets, schools and a shopping centre, an industrial area stands on its edge, and beaches and dunes draw visitors in the cooler months. A hospital and clinics serve the community. Summers are long and fierce, the sea air is damp, and sand blows in from the dunes behind. The cooler months bring campers and day visitors to the dunes, and the town fills with cars at weekends. Enquiries from Dukhan are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Dukhan mostly serves food and beverage sites, as well as hospital and blood bank sites. Dukhan is a town on the west coast of Qatar, set between dunes and low limestone cliffs facing the sea, and a temperature data logger here serves a place of housing, a hospital, shops and workshops in hot, humid sea air and dry desert heat. The town was laid out with neat streets, schools and a shopping centre, an industrial area stands on its edge, and beaches and dunes draw visitors in the cooler months. A hospital and clinics serve the community. Summers are long and fierce, the sea air is damp, and sand blows in from the dunes behind. The cooler months bring campers and day visitors to the dunes, and the town fills with cars at weekends. Enquiries from Dukhan are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The west coast is hot through the long summer, damp near the water and dry inland behind the dunes, and sandy winds blow in often, so shop coolers, clinic refrigerators and warehouse sheds work against heat, salt and dust in turn. Metal-roofed sheds without cooling reach extreme temperatures, and a refrigerator that fails in a quiet street can lose its contents before anyone notices. The industrial area on the edge of town and the housing streets are far apart, so stock held in one is not easily replaced from the other, and a warning on a phone is worth more than a morning round.",
             areas: [
@@ -23776,9 +23776,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Dukhan shop or clinic use a single logger?",
+                question: "With a temperature data logger in Dukhan, can a Dukhan shop or clinic use a single logger?",
                 answer:
-                  "Yes. One logger with a phone alert can watch a single refrigerator as long as a router is within reach, and more points can be added to the same account later.",
+                  "Yes. One logger with a phone alert can watch a single refrigerator as long as a router is within reach, and more points can be added to the same account later.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why does a store near sea and dunes need a humidity reading?",
@@ -23802,7 +23802,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Dukhan | Prithvi",
             metaDescription:
-              "Dukhan, Qatar: data loggers for supermarkets, the hospital, clinics and edge-of-town warehouses beside the west-coast dunes. Get Solution to cover Dukhan.",
+              "Dukhan: temperature data loggers for supermarkets, the hospital, clinics and edge-of-town warehouses beside the west-coast dunes. Get Solution for Dukhan.",
             indexable: true,
           },
         ],
@@ -23861,7 +23861,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Muscat Governorate",
         type: "state",
         intro:
-          "Muscat Governorate holds the capital region of Oman, a string of bays and districts squeezed between the Gulf of Oman and a wall of bare brown mountains. White low buildings climb the hillsides, wide highways link neighbourhoods of offices, hospitals, universities and shopping streets, and the old harbour town of Muttrah keeps a covered market, a fish market and a busy waterfront. Industrial districts and a commercial port lie behind the coast. Summers run long, very hot and humid on the shore, winters stay mild, and the odd storm sends flash floods down the dry valleys. Kitchens, clinics and warehouses here carry stock of every kind through that heat. The pages below cover the two cities and four of their districts.",
+          "A temperature data logger in Muscat Governorate mostly serves hospitals, clinics and pharmacies, as well as hotel, restaurant and catering kitchens. Muscat Governorate holds the capital region of Oman, a string of bays and districts squeezed between the Gulf of Oman and a wall of bare brown mountains. White low buildings climb the hillsides, wide highways link neighbourhoods of offices, hospitals, universities and shopping streets, and the old harbour town of Muttrah keeps a covered market, a fish market and a busy waterfront. Industrial districts and a commercial port lie behind the coast. Summers run long, very hot and humid on the shore, winters stay mild, and the odd storm sends flash floods down the dry valleys. Kitchens, clinics and warehouses here carry stock of every kind through that heat. The pages below cover the two cities and four of their districts.",
         localIndustries: [
           "Hospitals, clinics and pharmacies",
           "Hotel, restaurant and catering kitchens",
@@ -23873,9 +23873,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from Muscat Governorate are handled through the enquiry form, Call or WhatsApp. Say which district, which rooms and how they are cooled, and our reply covers what seems suitable on site.",
         faqs: [
           {
-            question: "Which places in Muscat Governorate have a page?",
+            question: "Where can I find a temperature data logger in Muscat Governorate?",
             answer:
-              "Muscat, Muttrah, Seeb, Bawshar and Quriyat each have a city page. Al Khuwair, Al Ghubra and Ghala Industrial Area have area pages under Muscat, Sultan Qaboos Port Muttrah has one under Muttrah, and Muscat International Airport has one under Seeb. Another place can be raised through the enquiry form.",
+              "Muscat, Muttrah, Seeb, Bawshar and Quriyat each have a city page. Al Khuwair, Al Ghubra and Ghala Industrial Area have area pages under Muscat, Sultan Qaboos Port Muttrah has one under Muttrah, and Muscat International Airport has one under Seeb. Another place can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why does storm water matter when choosing a mounting spot?",
@@ -23910,7 +23910,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Muscat",
             type: "city",
             intro:
-              "Muscat is the capital city of Oman, spread along a rocky stretch of the Gulf of Oman coast where bare brown mountains drop almost to the water, and a temperature data logger here serves a city of hospitals, hotels, food importers and warehouses in a hot, humid harbour climate. White low buildings climb the hillsides above sheltered bays, wide highways link districts of offices, shops, clinics and universities, and industrial areas and a commercial port lie to the west. Summers are long and very hot, the sea air is damp, and winters are mild and pleasant. Hospitals, schools and large kitchens add to the rooms that need a steady record. Enquiries from Muscat are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Muscat mostly serves hospital and blood bank sites, as well as pharmaceutical sites. Muscat is the capital city of Oman, spread along a rocky stretch of the Gulf of Oman coast where bare brown mountains drop almost to the water, and a temperature data logger here serves a city of hospitals, hotels, food importers and warehouses in a hot, humid harbour climate. White low buildings climb the hillsides above sheltered bays, wide highways link districts of offices, shops, clinics and universities, and industrial areas and a commercial port lie to the west. Summers are long and very hot, the sea air is damp, and winters are mild and pleasant. Hospitals, schools and large kitchens add to the rooms that need a steady record. Enquiries from Muscat are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "Summer afternoons are far beyond comfortable and the nights stay warm, humid sea air carries salt onto every shed, and the mountains behind the city hold the heat so that streets stay hot well into the evening. Occasional storms send flash floods down the dry valleys, power cuts follow, and a refrigerator that fails on an August afternoon warms fast while condensation forms the moment a cold door opens to the outside air.",
             areas: [
@@ -23972,9 +23972,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Muscat hotel or caterer use temperature loggers?",
+                question: "With a temperature data logger in Muscat, can a Muscat hotel or caterer use temperature loggers?",
                 answer:
-                  "A logger in every cooler, freezer and dry store keeps a day-and-night record, and a report for any period can be saved as a PDF, Excel or CSV file for an inspector or a client.",
+                  "A logger in every cooler, freezer and dry store keeps a day-and-night record, and a report for any period can be saved as a PDF, Excel or CSV file for an inspector or a client.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why would a store in a dry country want a humidity reading?",
@@ -23999,7 +23999,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Muscat | Prithvi",
             metaDescription:
-              "Muscat, Oman: data loggers for hospitals, hotel kitchens, food importers and warehouses through long, hot, humid summers. Get Solution to begin in Muscat.",
+              "Muscat: temperature data loggers for hospitals, hotel kitchens, food importers and warehouses through long, hot, humid summers. Get Solution for Muscat.",
             indexable: true,
           },
           {
@@ -24007,7 +24007,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Muttrah",
             type: "city",
             intro:
-              "Muttrah is an old harbour town on the Gulf of Oman, tucked into a curve of the coast beneath bare mountains, and a temperature data logger here serves a place of fishing boats, a covered market, a commercial port and crowded lanes in hot, damp sea air. A corniche follows the water, dhows and fishing boats shelter in the harbour, and a covered market of narrow alleys sells textiles, spices, silver, sweets and household goods. A fish market lands the morning catch, shops and small hotels line the front, and clinics serve the district. Summers are long and humid, and the mountains behind trap the heat until well after dark. Enquiries from Muttrah are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Muttrah mostly serves food and beverage sites, as well as logistics and warehousing sites. Muttrah is an old harbour town on the Gulf of Oman, tucked into a curve of the coast beneath bare mountains, and a temperature data logger here serves a place of fishing boats, a covered market, a commercial port and crowded lanes in hot, damp sea air. A corniche follows the water, dhows and fishing boats shelter in the harbour, and a covered market of narrow alleys sells textiles, spices, silver, sweets and household goods. A fish market lands the morning catch, shops and small hotels line the front, and clinics serve the district. Summers are long and humid, and the mountains behind trap the heat until well after dark. Enquiries from Muttrah are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The harbour holds heat and moisture together, the mountains stand close behind and cut off the breeze, and salt reaches every shed and cold box, so ice rooms, shop coolers and clinic refrigerators work through long hot spells. A power cut at the height of summer can warm a cold room in a matter of hours, and the covered lanes of the market trap warm air that never fully clears.",
             areas: [
@@ -24069,9 +24069,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Muttrah fish seller keep a record of an ice store?",
+                question: "With a temperature data logger in Muttrah, can a Muttrah fish seller keep a record of an ice store?",
                 answer:
-                  "Yes. A probe logger in the ice store keeps a day-and-night record, and a report for the dates of one lot can be saved as a PDF, Excel or CSV file for a buyer.",
+                  "Yes. A probe logger in the ice store keeps a day-and-night record, and a report for the dates of one lot can be saved as a PDF, Excel or CSV file for a buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why do market stock rooms in the lanes need a humidity reading?",
@@ -24095,7 +24095,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Muttrah | Prithvi",
             metaDescription:
-              "Muttrah, Oman: data loggers for fish ice stores, covered-market stock rooms, port-side sheds and clinics in damp harbour heat. Get Solution: Muttrah.",
+              "Muttrah: temperature data loggers for fish ice stores, covered-market stock rooms, port-side sheds and clinics in damp harbour heat. Get Solution: Muttrah.",
             indexable: true,
           },
           {
@@ -24103,7 +24103,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Seeb",
             type: "city",
             intro:
-              "Seeb is a coastal city to the north-west of Muscat, a long strip of beaches, fishing harbours and growing suburbs on the Gulf of Oman with farms and low hills behind, and a temperature data logger here serves a place of food stores, clinics, workshops and a busy airport district in hot, humid sea air. Fishing boats land their catch on the shore, date palms and small farms grow on the plain inland, and new housing, schools and shopping streets spread along the coast road. A university campus and hospitals draw people from across the capital region. Summers are long and very hot, and the evening breeze along the shore brings families out to the promenades. Enquiries from Seeb are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Seeb mostly serves food and beverage sites, as well as hospital and blood bank sites. Seeb is a coastal city to the north-west of Muscat, a long strip of beaches, fishing harbours and growing suburbs on the Gulf of Oman with farms and low hills behind, and a temperature data logger here serves a place of food stores, clinics, workshops and a busy airport district in hot, humid sea air. Fishing boats land their catch on the shore, date palms and small farms grow on the plain inland, and new housing, schools and shopping streets spread along the coast road. A university campus and hospitals draw people from across the capital region. Summers are long and very hot, and the evening breeze along the shore brings families out to the promenades. Enquiries from Seeb are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The coast is hot and damp through the long summer, salt reaches every shed and cold box, and the plain behind is dry and dusty, so shop coolers, fish rooms and clinic refrigerators work against the weather for months. A cold room that loses power on an August afternoon warms fast, and the odd storm sends water down dry valleys onto low-lying streets.",
             areas: [
@@ -24165,9 +24165,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Seeb fish seller or date trader use a temperature record?",
+                question: "With a temperature data logger in Seeb, can a Seeb fish seller or date trader use a temperature record?",
                 answer:
-                  "A logger in the ice store or the date room keeps a day-and-night record, and a report for the dates of one lot can be saved as a PDF, Excel or CSV file for a buyer.",
+                  "A logger in the ice store or the date room keeps a day-and-night record, and a report for the dates of one lot can be saved as a PDF, Excel or CSV file for a buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why would a coastal strip with a dry plain behind it want a humidity reading?",
@@ -24192,7 +24192,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Seeb | Prithvi",
             metaDescription:
-              "Seeb, Oman: data loggers for harbour ice stores, date rooms, bakeries, clinics and airport-district stores on the humid coast. Use Get Solution for Seeb.",
+              "Seeb: temperature data loggers for harbour ice stores, date rooms, bakeries, clinics and airport-district stores on the humid coast. Get Solution for Seeb.",
             indexable: true,
           },
           {
@@ -24200,7 +24200,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Bawshar",
             type: "city",
             intro:
-              "Bawshar is a sprawling suburb behind the coast of the capital region, where homes, schools, clinics and shopping streets spread across a wide plain between the mountains and a belt of pale sand dunes, and a temperature data logger here serves a place of supermarkets, bakeries, pharmacies and workshops in hot, dry heat. Neighbourhood malls and parades sell food and household goods, family clinics and care centres serve the housing blocks, and workshops and storage yards line the busier roads. Summers are long and very hot, nights stay warm, and dust blows in from the dunes in some seasons, while the evenings bring families out to the parks and playgrounds between the housing blocks. Enquiries from Bawshar are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Bawshar mostly serves food and beverage sites, as well as pharmaceutical sites. Bawshar is a sprawling suburb behind the coast of the capital region, where homes, schools, clinics and shopping streets spread across a wide plain between the mountains and a belt of pale sand dunes, and a temperature data logger here serves a place of supermarkets, bakeries, pharmacies and workshops in hot, dry heat. Neighbourhood malls and parades sell food and household goods, family clinics and care centres serve the housing blocks, and workshops and storage yards line the busier roads. Summers are long and very hot, nights stay warm, and dust blows in from the dunes in some seasons, while the evenings bring families out to the parks and playgrounds between the housing blocks. Enquiries from Bawshar are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The suburb sits away from the shore, so the air is drier than at the harbour but summer heat is just as fierce, and the dunes at its edge send sand across streets and into vents. Rocky slopes hold the sun's heat well into the night, vehicles parked on wide roads reach far higher temperatures than the shaded air, and a refrigerator that loses power on a summer afternoon warms quickly. Roads are wide and shops are spread out, so a failed cooler in a corner parade can go unnoticed until the next morning.",
             areas: [
@@ -24262,9 +24262,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a small Bawshar pharmacy or shop use a single logger?",
+                question: "With a temperature data logger in Bawshar, can a small Bawshar pharmacy or shop use a single logger?",
                 answer:
-                  "Yes. One logger with a phone alert can watch a lone refrigerator as long as a router is within reach, and more points can be added to the same account later.",
+                  "Yes. One logger with a phone alert can watch a lone refrigerator as long as a router is within reach, and more points can be added to the same account later.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Does dune sand matter for where a logger is fixed in Bawshar?",
@@ -24289,7 +24289,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Bawshar | Prithvi",
             metaDescription:
-              "Bawshar, Oman: data loggers for supermarkets, bakeries, pharmacies, clinics and workshops in hot, dry heat beside the dunes. Get Solution to cover Bawshar.",
+              "Bawshar: temperature data loggers for supermarkets, bakeries, pharmacies, clinics and workshops in hot, dry heat beside the dunes. Get Solution: Bawshar.",
             indexable: true,
           },
           {
@@ -24297,7 +24297,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Quriyat",
             type: "city",
             intro:
-              "Quriyat is a fishing town on the south-eastern coast of the capital region, set in a bay beneath steep mountains with a valley and a dam behind, and a temperature data logger here serves a small place of fishing boats, date palms, shops and clinics in damp sea air. Boats land their catch at a harbour and on the beach, date palms and small gardens grow along the valley, and shops sell food and household goods to the town and the villages in the hills. A clinic and pharmacies serve the district. Summers are long, hot and humid, and winter days are mild, with the pace of life set by the tide and the morning landing of fish. Enquiries from Quriyat are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Quriyat mostly serves food and beverage sites, as well as hospital and blood bank sites. Quriyat is a fishing town on the south-eastern coast of the capital region, set in a bay beneath steep mountains with a valley and a dam behind, and a temperature data logger here serves a small place of fishing boats, date palms, shops and clinics in damp sea air. Boats land their catch at a harbour and on the beach, date palms and small gardens grow along the valley, and shops sell food and household goods to the town and the villages in the hills. A clinic and pharmacies serve the district. Summers are long, hot and humid, and winter days are mild, with the pace of life set by the tide and the morning landing of fish. Enquiries from Quriyat are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The bay is hot and very humid through the long summer, salt reaches every shed and cold box, and the mountains close behind bring sudden heavy rain that runs down the valley and can reach low rooms and cut the power. A small town far from the larger suppliers can wait hours for a repair, so ice rooms and clinic refrigerators depend on a warning arriving in time.",
             areas: [
@@ -24359,9 +24359,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can one logger watch a single refrigerator in a Quriyat shop?",
+                question: "With a temperature data logger in Quriyat, can one logger watch a single refrigerator in a Quriyat shop?",
                 answer:
-                  "Yes. One logger with a phone alert can keep an eye on a single refrigerator in a Quriyat shop, provided a router is near, and the same account can take extra points as the shop grows.",
+                  "Yes. One logger with a phone alert can keep an eye on a single refrigerator in a Quriyat shop, provided a router is near, and the same account can take extra points as the shop grows.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why does a small fishing town benefit from a phone alert?",
@@ -24385,7 +24385,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Quriyat | Prithvi",
             metaDescription:
-              "Quriyat, Oman: data loggers for harbour ice boxes, date sheds, shops and the clinic beneath the mountains. Get Solution, or WhatsApp us about Quriyat.",
+              "Quriyat: temperature data loggers for harbour ice boxes, date sheds, shops and the clinic beneath the mountains. Get Solution for Quriyat.",
             indexable: true,
           },
         ],
@@ -24395,7 +24395,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Al Batinah North Governorate",
         type: "state",
         intro:
-          "Al Batinah North Governorate takes in the northern part of the Batinah, a narrow, fertile coastal plain on the Gulf of Oman where date palms, farms and fishing harbours stand between the sea and the dark mountains behind. Sohar, a historic port city that has grown an industrial estate and a modern port, is the main centre, while Saham and Al Suwaiq are farming and fishing towns of palm groves, markets and small harbours along the coast road. The plain is hot and humid in summer, the sea air salty, and winters are mild. Fish, dates, farm produce, chemicals and building materials wait in sheds and warehouses in such heat. The pages below cover the three towns and two industrial districts at Sohar.",
+          "A temperature data logger in Al Batinah North Governorate mostly serves dates, farm produce and fish, as well as port-side and industrial warehousing. Al Batinah North Governorate takes in the northern part of the Batinah, a narrow, fertile coastal plain on the Gulf of Oman where date palms, farms and fishing harbours stand between the sea and the dark mountains behind. Sohar, a historic port city that has grown an industrial estate and a modern port, is the main centre, while Saham and Al Suwaiq are farming and fishing towns of palm groves, markets and small harbours along the coast road. The plain is hot and humid in summer, the sea air salty, and winters are mild. Fish, dates, farm produce, chemicals and building materials wait in sheds and warehouses in such heat. The pages below cover the three towns and two industrial districts at Sohar.",
         localIndustries: [
           "Dates, farm produce and fish",
           "Port-side and industrial warehousing",
@@ -24407,9 +24407,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from Al Batinah North Governorate are handled through the enquiry form, Call or WhatsApp. Tell us which town, which rooms and how they are cooled, and we answer with what looks suitable for the site.",
         faqs: [
           {
-            question: "Which places in Al Batinah North Governorate have a page?",
+            question: "Where can I find a temperature data logger in Al Batinah North Governorate?",
             answer:
-              "Sohar, Saham and Al Suwaiq each have a city page, and Sohar Industrial Estate and Sohar Port and Freezone have area pages under Sohar. A town elsewhere along the Batinah can be raised through the enquiry form.",
+              "Sohar, Saham and Al Suwaiq each have a city page, and Sohar Industrial Estate and Sohar Port and Freezone have area pages under Sohar. A town elsewhere along the Batinah can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why do date palms and farm sheds call for different logger mounting from a warehouse?",
@@ -24439,7 +24439,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Sohar",
             type: "city",
             intro:
-              "Sohar is a historic port city on the Batinah coast of the Gulf of Oman, long a harbour town and today a centre of industry, and a temperature data logger here serves a city of fishing boats, markets, hospitals, workshops and warehouses in hot, humid sea air. Old lanes run down to the shore, fishing boats land their catch at the harbour, date palms and farms line the plain behind, and an industrial estate and a modern port lie beside the coast. Shops, clinics and a university serve the growing city, and the corniche fills with families on cooler evenings. Summers are long and very hot, and winters are mild. Enquiries from Sohar are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Sohar mostly serves food and beverage sites, as well as hospital and blood bank sites. Sohar is a historic port city on the Batinah coast of the Gulf of Oman, long a harbour town and today a centre of industry, and a temperature data logger here serves a city of fishing boats, markets, hospitals, workshops and warehouses in hot, humid sea air. Old lanes run down to the shore, fishing boats land their catch at the harbour, date palms and farms line the plain behind, and an industrial estate and a modern port lie beside the coast. Shops, clinics and a university serve the growing city, and the corniche fills with families on cooler evenings. Summers are long and very hot, and winters are mild. Enquiries from Sohar are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The flat coast is hot and very humid through the long summer, salt reaches every shed and cold box, and the mountains behind are far enough away that little breeze reaches the streets, so ice rooms, shop coolers and warehouse sheds work against the weather for months. A cold room that loses power in the afternoon warms fast, and sudden storms bring water down the valleys onto the plain.",
             areas: [
@@ -24501,9 +24501,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Sohar fish seller or date trader use a temperature record?",
+                question: "With a temperature data logger in Sohar, can a Sohar fish seller or date trader use a temperature record?",
                 answer:
-                  "Yes. A logger left in the ice store or the date room logs through night and day, and a report for the dates of one lot can be exported as a PDF, Excel or CSV file for a buyer.",
+                  "Yes. A logger left in the ice store or the date room logs through night and day, and a report for the dates of one lot can be exported as a PDF, Excel or CSV file for a buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why does a store on a flat humid coast need a humidity reading?",
@@ -24528,7 +24528,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Sohar | Prithvi",
             metaDescription:
-              "Sohar, Oman: data loggers for harbour ice stores, date rooms, hospitals, supermarkets and warehouses on the humid Batinah coast. Get Solution: Sohar.",
+              "Sohar: temperature data loggers for harbour ice stores, date rooms, hospitals, supermarkets and warehouses on the humid Batinah coast. Get Solution: Sohar.",
             indexable: true,
           },
           {
@@ -24536,7 +24536,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Saham",
             type: "city",
             intro:
-              "Saham is a farming and fishing town on the Batinah coast road, set among date palms and small farms between the sea and the dark mountains behind, and a temperature data logger here serves a quiet place of markets, shops, a clinic and fishing boats in hot, humid air. Growers bring dates and vegetables to the town market, boats land fish on the beach, and shops sell food and household goods to the town and the villages along the plain. Summers are long and the nights stay warm. Dust blows in from the interior in some seasons, and in the evenings people gather at the market and along the coast road when the heat finally eases. Enquiries from Saham are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Saham mostly serves food and beverage sites, as well as hospital and blood bank sites. Saham is a farming and fishing town on the Batinah coast road, set among date palms and small farms between the sea and the dark mountains behind, and a temperature data logger here serves a quiet place of markets, shops, a clinic and fishing boats in hot, humid air. Growers bring dates and vegetables to the town market, boats land fish on the beach, and shops sell food and household goods to the town and the villages along the plain. Summers are long and the nights stay warm. Dust blows in from the interior in some seasons, and in the evenings people gather at the market and along the coast road when the heat finally eases. Enquiries from Saham are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The coastal plain is hot and humid for most of the year, the palm groves hold damp air between the trees, and sudden storms can send water down the valleys onto farms and low roads, so date sheds, shop coolers and clinic refrigerators work through long hot spells with the odd outage. Small shops opened constantly through the day lose cold air with every customer, and a repairer may be a long drive away.",
             areas: [
@@ -24598,9 +24598,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can one logger watch a single refrigerator in a Saham shop?",
+                question: "With a temperature data logger in Saham, can one logger watch a single refrigerator in a Saham shop?",
                 answer:
-                  "Yes. A single logger with a phone alert can watch one refrigerator as long as a router is within reach, and the account can take extra points later.",
+                  "Yes. A single logger with a phone alert can watch one refrigerator as long as a router is within reach, and the account can take extra points later.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why do date sheds under palms need a humidity reading?",
@@ -24624,7 +24624,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Saham | Prithvi",
             metaDescription:
-              "Saham, Oman: data loggers for market cold boxes, date sheds, shops and the clinic among the palms of the Batinah coast. Get Solution to begin in Saham.",
+              "Saham: temperature data loggers for market cold boxes, date sheds, shops and the clinic among the palms of the Batinah coast. Get Solution for Saham.",
             indexable: true,
           },
           {
@@ -24632,7 +24632,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Al Suwaiq",
             type: "city",
             intro:
-              "Al Suwaiq is a coastal town on the Batinah plain, where farms of date palms and fruit trees run down to a fishing harbour and old lanes stand near the sea, and a temperature data logger here serves a place of farm sheds, fish rooms, shops and a hospital in hot, humid air. Growers pick dates, limes and vegetables on the plain behind the shore, boats land the catch at the harbour, and a market sells food and household goods to the town and the villages around. Mountains rise in the distance, and the old lanes sit in the shade of the palms. Summers are long and hot, and sudden storms bring water down the valleys. Enquiries from Al Suwaiq are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Al Suwaiq mostly serves food and beverage sites, as well as hospital and blood bank sites. Al Suwaiq is a coastal town on the Batinah plain, where farms of date palms and fruit trees run down to a fishing harbour and old lanes stand near the sea, and a temperature data logger here serves a place of farm sheds, fish rooms, shops and a hospital in hot, humid air. Growers pick dates, limes and vegetables on the plain behind the shore, boats land the catch at the harbour, and a market sells food and household goods to the town and the villages around. Mountains rise in the distance, and the old lanes sit in the shade of the palms. Summers are long and hot, and sudden storms bring water down the valleys. Enquiries from Al Suwaiq are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The plain is flat, hot and humid, salt reaches every shed along the shore, and rain from the mountains can arrive as a flood across farmland and low roads, so farm stores, fish rooms and clinic refrigerators work through long warm spells with the odd outage. Fruit picked in the heat loses quality quickly, and a cold room that fails on a summer afternoon can lose a day's harvest before the evening shift arrives.",
             areas: [
@@ -24694,9 +24694,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can an Al Suwaiq grower keep a temperature record for a fruit lot?",
+                question: "With a temperature data logger in Al Suwaiq, can an Al Suwaiq grower keep a temperature record for a fruit lot?",
                 answer:
-                  "Yes. A logger set in the shed or cool room tracks heat and damp through the season, and a report for the dates of one lot can be saved as a PDF, Excel or CSV file for a buyer.",
+                  "Yes. A logger set in the shed or cool room tracks heat and damp through the season, and a report for the dates of one lot can be saved as a PDF, Excel or CSV file for a buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why mount a logger above the likely flood line on the plain?",
@@ -24720,7 +24720,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Al Suwaiq | Prithvi",
             metaDescription:
-              "Al Suwaiq, Oman: data loggers for date and fruit farm stores, harbour fish rooms, market shops and the hospital. Get Solution to begin in Al Suwaiq.",
+              "Al Suwaiq: temperature data loggers for date and fruit farm stores, harbour fish rooms, market shops and the hospital. Get Solution to begin in Al Suwaiq.",
             indexable: true,
           },
         ],
@@ -24730,7 +24730,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Al Batinah South Governorate",
         type: "state",
         intro:
-          "Al Batinah South Governorate covers the southern part of the Batinah, where the flat coastal plain on the Gulf of Oman gives way to the foothills of the Hajar mountains. On the coast, Barka is a market town of fish, fruit and dates with an industrial area beside the road, while inland Rustaq and Nakhal are oasis towns at the foot of the mountains, with date palms, small farms and ancient irrigation channels running between the groves. The coast is hot and humid in summer, the foothills hot by day and cooler at night, and storms send water down the wadis. Fish, dates, farm produce and building materials wait in sheds in such heat. The pages below cover the three towns and the industrial area at Barka.",
+          "A temperature data logger in Al Batinah South Governorate mostly serves dates, fruit and farm produce, as well as fish and market trade. Al Batinah South Governorate covers the southern part of the Batinah, where the flat coastal plain on the Gulf of Oman gives way to the foothills of the Hajar mountains. On the coast, Barka is a market town of fish, fruit and dates with an industrial area beside the road, while inland Rustaq and Nakhal are oasis towns at the foot of the mountains, with date palms, small farms and ancient irrigation channels running between the groves. The coast is hot and humid in summer, the foothills hot by day and cooler at night, and storms send water down the wadis. Fish, dates, farm produce and building materials wait in sheds in such heat. The pages below cover the three towns and the industrial area at Barka.",
         localIndustries: [
           "Dates, fruit and farm produce",
           "Fish and market trade",
@@ -24742,9 +24742,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from Al Batinah South Governorate are handled through the enquiry form, Call or WhatsApp. Say which town, which rooms and how they are cooled, and our reply covers what seems suitable on site.",
         faqs: [
           {
-            question: "Which places in Al Batinah South Governorate have a page?",
+            question: "Where can I find a temperature data logger in Al Batinah South Governorate?",
             answer:
-              "Barka, Rustaq and Nakhal each have a city page, and the Barka Industrial Area has an area page under Barka. A town elsewhere in the governorate can be raised through the enquiry form.",
+              "Barka, Rustaq and Nakhal each have a city page, and the Barka Industrial Area has an area page under Barka. A town elsewhere in the governorate can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "How do foothill oasis towns differ from the coast for storage?",
@@ -24773,7 +24773,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Barka",
             type: "city",
             intro:
-              "Barka is a coastal market town on the Batinah plain west of Muscat, where fishing boats, fruit and date farms, an old quarter and a lively market share a flat stretch of the Gulf of Oman coast, and a temperature data logger here serves a place of fish rooms, produce stores, workshops and warehouses in hot, humid sea air. Boats land the morning catch on the beach, growers bring dates, vegetables and fruit to the market, and an industrial area lies beside the road. Clinics and a hospital serve the town and the villages around. Summers are long and the air is damp, and the market is most active in the cool of the early morning. Enquiries from Barka are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Barka mostly serves food and beverage sites, as well as hospital and blood bank sites. Barka is a coastal market town on the Batinah plain west of Muscat, where fishing boats, fruit and date farms, an old quarter and a lively market share a flat stretch of the Gulf of Oman coast, and a temperature data logger here serves a place of fish rooms, produce stores, workshops and warehouses in hot, humid sea air. Boats land the morning catch on the beach, growers bring dates, vegetables and fruit to the market, and an industrial area lies beside the road. Clinics and a hospital serve the town and the villages around. Summers are long and the air is damp, and the market is most active in the cool of the early morning. Enquiries from Barka are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The plain is flat and hot through the long summer, the air is damp and salty near the shore and drier among the farms inland, and sudden storms can send water over farmland and low roads, so fish rooms, produce stores and clinic refrigerators work through long hot spells with the odd outage. Produce picked in the heat loses quality fast, and a cold room that fails on an August afternoon can lose a whole day's market stock.",
             areas: [
@@ -24835,9 +24835,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Barka fish seller or produce trader keep a temperature record?",
+                question: "With a temperature data logger in Barka, can a Barka fish seller or produce trader keep a temperature record?",
                 answer:
-                  "A logger in the ice store or the cold room keeps a day-and-night record, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for a buyer.",
+                  "A logger in the ice store or the cold room keeps a day-and-night record, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for a buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why would a market town on a hot plain want a humidity reading?",
@@ -24862,7 +24862,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Barka | Prithvi",
             metaDescription:
-              "Barka, Oman: data loggers for fish rooms, produce and date stores, clinics and warehouses on the hot, humid Batinah plain. Get Solution to begin in Barka.",
+              "Barka: temperature data loggers for fish rooms, produce and date stores, clinics and warehouses on the hot, humid Batinah plain. Get Solution for Barka.",
             indexable: true,
           },
           {
@@ -24870,7 +24870,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Rustaq",
             type: "city",
             intro:
-              "Rustaq is an oasis town at the foot of the Hajar mountains on the inland edge of the Batinah, where date palms and small farms are watered by ancient irrigation channels and a large old quarter stands on the hillside above the groves, and a temperature data logger here serves a place of date stores, farm sheds, shops and clinics in hot, dry heat. Farmers harvest dates, limes and vegetables, a market sells food and household goods to the town and the hill villages, and a hospital and clinics serve the district. Summer days are very hot, nights are cooler than on the coast, and storms bring water down the wadis. Enquiries from Rustaq are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Rustaq mostly serves food and beverage sites, as well as hospital and blood bank sites. Rustaq is an oasis town at the foot of the Hajar mountains on the inland edge of the Batinah, where date palms and small farms are watered by ancient irrigation channels and a large old quarter stands on the hillside above the groves, and a temperature data logger here serves a place of date stores, farm sheds, shops and clinics in hot, dry heat. Farmers harvest dates, limes and vegetables, a market sells food and household goods to the town and the hill villages, and a hospital and clinics serve the district. Summer days are very hot, nights are cooler than on the coast, and storms bring water down the wadis. Enquiries from Rustaq are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "Hot days and cooler nights are typical of the foothills, the air among the palms is damp while the rocky slopes above are dry, and storms in the mountains can send water down the wadis across farms and low roads, so date sheds, shop coolers and clinic refrigerators work through long hot spells with the odd outage. Stone walls hold the day's heat well into the evening.",
             areas: [
@@ -24932,9 +24932,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Rustaq date grower keep a temperature record for a lot?",
+                question: "With a temperature data logger in Rustaq, can a Rustaq date grower keep a temperature record for a lot?",
                 answer:
-                  "A logger placed in the shed or cool room follows heat and humidity across the season, and a report for the dates of one lot can be saved as a PDF, Excel or CSV file for a buyer.",
+                  "A logger placed in the shed or cool room follows heat and humidity across the season, and a report for the dates of one lot can be saved as a PDF, Excel or CSV file for a buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why are date sheds among palms damp even in a dry country?",
@@ -24958,7 +24958,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Rustaq | Prithvi",
             metaDescription:
-              "Rustaq, Oman: data loggers for date stores, farm sheds, market stock rooms and clinics in the foothill oasis below the mountains. Get Solution: Rustaq.",
+              "Rustaq: temperature data loggers for date stores, farm sheds, market stock rooms and clinics in the foothill oasis below the mountains. Get Solution.",
             indexable: true,
           },
           {
@@ -24966,7 +24966,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Nakhal",
             type: "city",
             intro:
-              "Nakhal is a small oasis town at the foot of the Hajar mountains, where groves of date palms and farms are watered by old irrigation channels and an old quarter stands on a rocky hill above the town, and a temperature data logger here serves a quiet place of date sheds, shops and a clinic in hot, dry air. Farmers pick dates, limes and vegetables, a small market sells food and household goods, and warm springs rise in the valley nearby. A clinic and pharmacies serve the town and the villages around. Days are very hot in summer, nights are cooler, and storms can fill the wadis, while the palm groves stay green and shaded all year. Enquiries from Nakhal are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Nakhal mostly serves food and beverage sites, as well as hospital and blood bank sites. Nakhal is a small oasis town at the foot of the Hajar mountains, where groves of date palms and farms are watered by old irrigation channels and an old quarter stands on a rocky hill above the town, and a temperature data logger here serves a quiet place of date sheds, shops and a clinic in hot, dry air. Farmers pick dates, limes and vegetables, a small market sells food and household goods, and warm springs rise in the valley nearby. A clinic and pharmacies serve the town and the villages around. Days are very hot in summer, nights are cooler, and storms can fill the wadis, while the palm groves stay green and shaded all year. Enquiries from Nakhal are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The foothills are hot by day and cooler by night, the oasis air is damp among the trees and dry on the rocks above, and a storm in the mountains can send water across fields and roads, so date sheds and clinic refrigerators work through long hot spells with the odd outage. A small town far from larger suppliers can wait hours for a repair, so an early warning on a phone matters more than a morning round.",
             areas: [
@@ -25028,9 +25028,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can one logger watch a single refrigerator in a Nakhal shop?",
+                question: "With a temperature data logger in Nakhal, can one logger watch a single refrigerator in a Nakhal shop?",
                 answer:
-                  "Yes. A single logger with a phone alert can watch one refrigerator as long as a router is within reach, and extra points can be added to the account later.",
+                  "Yes. A single logger with a phone alert can watch one refrigerator as long as a router is within reach, and extra points can be added to the account later.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why does a small oasis town want a phone alert more than a daily round?",
@@ -25054,7 +25054,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Nakhal | Prithvi",
             metaDescription:
-              "Nakhal, Oman: data loggers for date sheds, small-market coolers, the clinic and farm-supply stores at the foot of the mountains. Get Solution: Nakhal.",
+              "Nakhal: temperature data loggers for date sheds, small-market coolers, the clinic and farm-supply stores at the foot of the mountains. Get Solution.",
             indexable: true,
           },
         ],
@@ -25064,7 +25064,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Ad Dakhiliyah Governorate",
         type: "state",
         intro:
-          "Ad Dakhiliyah Governorate lies on the inland side of the Hajar mountains, where old oasis towns sit at the foot of the high ranges among date groves watered by ancient channels. Nizwa is the main town, with a great old quarter, a traditional market and an industrial estate, while Bahla, Izki and Sumail are smaller oasis and valley towns of palms, mud-brick houses and farms. Summer days are fierce and dry, winter nights can turn cold, dust is common, and storms send water down the wadis. Dates, farm produce, sweets, tools and building materials wait in sheds and warehouses in such swings. The pages below cover the four towns and the industrial estate at Nizwa.",
+          "A temperature data logger in Ad Dakhiliyah Governorate mostly serves dates, farm produce and sweets, as well as market and craft trade. Ad Dakhiliyah Governorate lies on the inland side of the Hajar mountains, where old oasis towns sit at the foot of the high ranges among date groves watered by ancient channels. Nizwa is the main town, with a great old quarter, a traditional market and an industrial estate, while Bahla, Izki and Sumail are smaller oasis and valley towns of palms, mud-brick houses and farms. Summer days are fierce and dry, winter nights can turn cold, dust is common, and storms send water down the wadis. Dates, farm produce, sweets, tools and building materials wait in sheds and warehouses in such swings. The pages below cover the four towns and the industrial estate at Nizwa.",
         localIndustries: [
           "Dates, farm produce and sweets",
           "Market and craft trade",
@@ -25076,9 +25076,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from Ad Dakhiliyah Governorate are handled through the enquiry form, Call or WhatsApp. Name the town, the rooms and how they are cooled, and we reply with what looks suitable for the site.",
         faqs: [
           {
-            question: "Which places in Ad Dakhiliyah Governorate have a page?",
+            question: "Where can I find a temperature data logger in Ad Dakhiliyah Governorate?",
             answer:
-              "Nizwa, Bahla, Izki and Sumail each have a city page, and the Nizwa Industrial Estate has an area page under Nizwa. Another town in the governorate can be raised through the enquiry form.",
+              "Nizwa, Bahla, Izki and Sumail each have a city page, and the Nizwa Industrial Estate has an area page under Nizwa. Another town in the governorate can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why do cold winter nights matter for inland stores?",
@@ -25108,7 +25108,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Nizwa",
             type: "city",
             intro:
-              "Nizwa is a historic inland town on the interior side of the Hajar mountains, a market and farming centre where date groves, irrigation channels, a great old quarter and a traditional market share a flat plain below high ranges, and a temperature data logger here serves a place of date stores, sweet-makers, workshops, clinics and warehouses in fierce dry heat. Farmers bring dates and vegetables to the market, craftsmen make tools and copper and silver goods, universities and a hospital serve the region, and an industrial estate lies beside the road. Summer days are very hot, winter nights are cold, and dust blows in across the plain from time to time. Enquiries from Nizwa are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Nizwa mostly serves food and beverage sites, as well as hospital and blood bank sites. Nizwa is a historic inland town on the interior side of the Hajar mountains, a market and farming centre where date groves, irrigation channels, a great old quarter and a traditional market share a flat plain below high ranges, and a temperature data logger here serves a place of date stores, sweet-makers, workshops, clinics and warehouses in fierce dry heat. Farmers bring dates and vegetables to the market, craftsmen make tools and copper and silver goods, universities and a hospital serve the region, and an industrial estate lies beside the road. Summer days are very hot, winter nights are cold, and dust blows in across the plain from time to time. Enquiries from Nizwa are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The interior is dry and bright, summer afternoons are fierce, and winter nights can fall surprisingly low, so date stores, sweet rooms and clinic refrigerators swing between baking heat and sharp cold in the same week. Rock walls and stone houses hold the day's heat into the evening, a rare storm can send water down the wadis across low roads, and dust settles on every vent.",
             areas: [
@@ -25170,9 +25170,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Nizwa date grower or sweet-maker keep a temperature record?",
+                question: "With a temperature data logger in Nizwa, can a Nizwa date grower or sweet-maker keep a temperature record?",
                 answer:
-                  "A logger in the date room or sweet store keeps a day-and-night record, and a report for the dates of one lot can be saved as a PDF, Excel or CSV file for a buyer.",
+                  "A logger in the date room or sweet store keeps a day-and-night record, and a report for the dates of one lot can be saved as a PDF, Excel or CSV file for a buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why do cold winter nights matter in a hot country?",
@@ -25198,7 +25198,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Nizwa | Prithvi",
             metaDescription:
-              "Nizwa, Oman: data loggers for date stores, sweet-makers, the hospital, laboratories and warehouses in fierce dry heat and cold nights. Get Solution: Nizwa.",
+              "Nizwa: temperature data loggers for date stores, sweet-makers, the hospital, laboratories and warehouses in fierce dry heat and cold nights. Get Solution.",
             indexable: true,
           },
           {
@@ -25206,7 +25206,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Bahla",
             type: "city",
             intro:
-              "Bahla is an old oasis town at the foot of the mountains, ringed by a long mud wall and watched over by a great hillside quarter, and a temperature data logger here serves a quiet place of date palms, pottery workshops, shops and a clinic in dry heat. Palm gardens are watered by old channels, mud-brick houses stand in narrow lanes, potters make clay vessels in kilns beside the road, and a small market sells food and household goods. A small clinic and a few pharmacies look after the townspeople and nearby hamlets. Summer days are fierce, winter nights are cold, and dust is common, while the wall around the oasis still marks the edge of the gardens. Enquiries from Bahla are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Bahla mostly serves food and beverage sites, as well as hospital and blood bank sites. Bahla is an old oasis town at the foot of the mountains, ringed by a long mud wall and watched over by a great hillside quarter, and a temperature data logger here serves a quiet place of date palms, pottery workshops, shops and a clinic in dry heat. Palm gardens are watered by old channels, mud-brick houses stand in narrow lanes, potters make clay vessels in kilns beside the road, and a small market sells food and household goods. A small clinic and a few pharmacies look after the townspeople and nearby hamlets. Summer days are fierce, winter nights are cold, and dust is common, while the wall around the oasis still marks the edge of the gardens. Enquiries from Bahla are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The oasis is hot and dry for most of the year but damp among the palm gardens, and thick mud walls keep rooms cooler by day and slower to warm by night. Storms in the mountains can send water down the wadis, nights in winter can be sharply cold, and a failed refrigerator in a quiet lane may go unnoticed until the next morning. Clay for the kilns is stored in sheds that can dry out in the wind, and finished pots are packed for the road in cartons that soften if a store turns damp.",
             areas: [
@@ -25268,9 +25268,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can one logger watch a single refrigerator in a Bahla shop?",
+                question: "With a temperature data logger in Bahla, can one logger watch a single refrigerator in a Bahla shop?",
                 answer:
-                  "Yes. A lone logger with a phone alert can watch one refrigerator as long as a router is within reach, and the account can take more points later.",
+                  "Yes. A lone logger with a phone alert can watch one refrigerator as long as a router is within reach, and the account can take more points later.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why would a workshop for clay and glazes want a humidity reading?",
@@ -25294,7 +25294,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Bahla | Prithvi",
             metaDescription:
-              "Bahla, Oman: data loggers for date gardens, pottery workshops, small-market coolers and the clinic in a walled oasis town. Get Solution: Bahla.",
+              "Bahla, Oman: temperature data loggers for date gardens, pottery workshops, small-market coolers and the clinic in a walled oasis town. Get Solution: Bahla.",
             indexable: true,
           },
           {
@@ -25302,7 +25302,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Izki",
             type: "city",
             intro:
-              "Izki is an ancient oasis town at the foot of the mountains, where old mud houses stand among date groves watered by a long irrigation channel, and a temperature data logger here serves a small farming place of date sheds, shops, workshops and a clinic in dry heat. Farmers harvest dates and vegetables, shops along the main road sell food and household goods, and the old quarter keeps narrow lanes of mud-brick buildings. A clinic and pharmacies care for the townspeople and the hamlets around the groves, and school buses and pickups use the main road all day. Summer days are very hot, winter nights are cold, and dust is common. Enquiries from Izki are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Izki mostly serves food and beverage sites, as well as hospital and blood bank sites. Izki is an ancient oasis town at the foot of the mountains, where old mud houses stand among date groves watered by a long irrigation channel, and a temperature data logger here serves a small farming place of date sheds, shops, workshops and a clinic in dry heat. Farmers harvest dates and vegetables, shops along the main road sell food and household goods, and the old quarter keeps narrow lanes of mud-brick buildings. A clinic and pharmacies care for the townspeople and the hamlets around the groves, and school buses and pickups use the main road all day. Summer days are very hot, winter nights are cold, and dust is common. Enquiries from Izki are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The air is dry and bright, summer afternoons are fierce and winter nights can be cold, while the damp of the irrigation channel hangs between the palms, so date sheds and shop coolers swing between heat, cold and moisture within a single week. A cooler that fails in a quiet lane may go unnoticed until morning, and drifting dust clogs vents on roadside units. Old stone and mud walls keep the lanes shaded, but a store room on the sunny side of the quarter can run far hotter than one on the shaded side, and dates left in a hot corner darken and dry.",
             areas: [
@@ -25364,9 +25364,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can an Izki date grower keep a record of a lot in store?",
+                question: "With a temperature data logger in Izki, can an Izki date grower keep a record of a lot in store?",
                 answer:
-                  "Yes. A logger set in a shed or cool room tracks heat and damp through the season, and a report for the dates of one lot can be saved as a PDF, Excel or CSV file for a buyer.",
+                  "Yes. A logger set in a shed or cool room tracks heat and damp through the season, and a report for the dates of one lot can be saved as a PDF, Excel or CSV file for a buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why do sheds beside an irrigation channel need a humidity reading?",
@@ -25391,7 +25391,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Izki | Prithvi",
             metaDescription:
-              "Izki, Oman: data loggers for date groves, roadside shops, old-quarter stock rooms and the clinic in an ancient oasis town. Get Solution for Izki.",
+              "Izki: temperature data loggers for date groves, roadside shops, old-quarter stock rooms and the clinic in an ancient oasis town. Get Solution for Izki.",
             indexable: true,
           },
           {
@@ -25399,7 +25399,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Sumail",
             type: "city",
             intro:
-              "Sumail is a valley town in the gap that cuts through the Hajar mountains, where farms and date palms line a broad wadi and shops and workshops stand along the road linking the coast with the interior, and a temperature data logger here serves a place of farm stores, roadside shops, workshops and a clinic in hot, dry air. Growers bring dates, limes and vegetables to the roadside, lorries and cars stop at cafes and shops, and a hospital and clinics serve the valley. Summer days are fierce, nights are cooler, and storms can send floods down the wadi, while the road through the gap carries traffic all day and into the night. Enquiries from Sumail are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Sumail mostly serves food and beverage sites, as well as hospital and blood bank sites. Sumail is a valley town in the gap that cuts through the Hajar mountains, where farms and date palms line a broad wadi and shops and workshops stand along the road linking the coast with the interior, and a temperature data logger here serves a place of farm stores, roadside shops, workshops and a clinic in hot, dry air. Growers bring dates, limes and vegetables to the roadside, lorries and cars stop at cafes and shops, and a hospital and clinics serve the valley. Summer days are fierce, nights are cooler, and storms can send floods down the wadi, while the road through the gap carries traffic all day and into the night. Enquiries from Sumail are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The gap funnels hot air along the valley by day and cooler air by night, wadi floods can follow storms in the mountains, and fine dust blows along the road, so farm stores, roadside coolers and clinic refrigerators swing between baking heat, cooler nights and the odd outage. Vehicles waiting at roadside stops reach far higher temperatures than the shaded air. Drivers stop for drinks and food at all hours, so roadside coolers are opened constantly and lose cold air with every customer, and a failed unit at a quiet stop can lose a whole day's stock before anyone notices.",
             areas: [
@@ -25461,9 +25461,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Sumail roadside shop use a single logger?",
+                question: "With a temperature data logger in Sumail, can a Sumail roadside shop use a single logger?",
                 answer:
-                  "Yes. One logger with a phone alert can watch a lone cooler as long as a router is within reach, and more points can be added to the account later.",
+                  "Yes. One logger with a phone alert can watch a lone cooler as long as a router is within reach, and more points can be added to the account later.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why mount a logger above the flood line in a wadi town?",
@@ -25488,7 +25488,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Sumail | Prithvi",
             metaDescription:
-              "Sumail, Oman: data loggers for valley farm stores, roadside shops, garages and clinics in the gap through the mountains. Get Solution for Sumail.",
+              "Sumail: temperature data loggers for valley farm stores, roadside shops, garages and clinics in the gap through the mountains. Get Solution for Sumail.",
             indexable: true,
           },
         ],
@@ -25498,7 +25498,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Ad Dhahirah Governorate",
         type: "state",
         intro:
-          "Ad Dhahirah Governorate occupies a broad dry plain on the western side of the Hajar mountains, where oasis towns and date farms cling to the foot of the ranges and the desert opens out beyond. Ibri is its main town, a market and farming centre with a hospital, shops and an industrial area, surrounded by gravel plains, palm gardens and distant hills. Summers are fierce and very dry, winter nights can be cool, and dust and sandstorms blow through in some seasons. Dates, farm produce, medicines and building materials wait in sheds and warehouses in such heat. The page below describes the town, its industrial area and the rooms where a temperature record would help.",
+          "A temperature data logger in Ad Dhahirah Governorate mostly serves dates and farm produce, as well as market and shop trade. Ad Dhahirah Governorate occupies a broad dry plain on the western side of the Hajar mountains, where oasis towns and date farms cling to the foot of the ranges and the desert opens out beyond. Ibri is its main town, a market and farming centre with a hospital, shops and an industrial area, surrounded by gravel plains, palm gardens and distant hills. Summers are fierce and very dry, winter nights can be cool, and dust and sandstorms blow through in some seasons. Dates, farm produce, medicines and building materials wait in sheds and warehouses in such heat. The page below describes the town, its industrial area and the rooms where a temperature record would help.",
         localIndustries: [
           "Dates and farm produce",
           "Market and shop trade",
@@ -25510,9 +25510,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from Ad Dhahirah Governorate are handled through the enquiry form, Call or WhatsApp. Name the town, the rooms and how they are cooled, and we reply with what looks workable on site.",
         faqs: [
           {
-            question: "Which places in Ad Dhahirah Governorate have a page?",
+            question: "Where can I find a temperature data logger in Ad Dhahirah Governorate?",
             answer:
-              "Ibri has a city page, and the Ibri Industrial Area has an area page under it. A town elsewhere on the plain can be raised through the enquiry form.",
+              "Ibri has a city page, and the Ibri Industrial Area has an area page under it. A town elsewhere on the plain can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why does a very dry plain still need humidity records?",
@@ -25539,7 +25539,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Ibri",
             type: "city",
             intro:
-              "Ibri is a market and farming town at the edge of the desert on the western side of the Hajar mountains, where date gardens and small farms lie beside wide gravel plains, and a temperature data logger here serves a place of date stores, shops, workshops, a hospital and an industrial area in fierce dry heat. Farmers bring dates and vegetables to the market, shops sell food and household goods to the town and the villages around, and distant hills rise from the plain. Summer days are fierce and dry, nights cool slowly, and dust and sandstorms blow through in some seasons, while the evenings bring families to the market and the date gardens. Enquiries from Ibri are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Ibri mostly serves food and beverage sites, as well as hospital and blood bank sites. Ibri is a market and farming town at the edge of the desert on the western side of the Hajar mountains, where date gardens and small farms lie beside wide gravel plains, and a temperature data logger here serves a place of date stores, shops, workshops, a hospital and an industrial area in fierce dry heat. Farmers bring dates and vegetables to the market, shops sell food and household goods to the town and the villages around, and distant hills rise from the plain. Summer days are fierce and dry, nights cool slowly, and dust and sandstorms blow through in some seasons, while the evenings bring families to the market and the date gardens. Enquiries from Ibri are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The plain is open and exposed, so summer sun and wind-blown sand strike every shed, nights cool slowly, and a rare storm sends sudden water across the gravel, so date stores, shop coolers and clinic refrigerators work against the desert for months. Vehicles parked on wide roads reach far higher temperatures than the shaded air, and a failed refrigerator on a summer afternoon warms quickly. A cooler in a distant village shop may be the only fridge for miles, so a warning on a phone matters more than a daily round.",
             areas: [
@@ -25601,9 +25601,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can an Ibri date grower or wholesaler use a temperature record?",
+                question: "With a temperature data logger in Ibri, can an Ibri date grower or wholesaler use a temperature record?",
                 answer:
-                  "A logger left in the store follows heat and damp across the season, and a report for the dates of one lot can be exported as a PDF, Excel or CSV file for a buyer.",
+                  "A logger left in the store follows heat and damp across the season, and a report for the dates of one lot can be exported as a PDF, Excel or CSV file for a buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why does a very dry plain call for a battery in the logger?",
@@ -25627,7 +25627,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Ibri | Prithvi",
             metaDescription:
-              "Ibri, Oman: data loggers for date stores, market wholesalers, the hospital and warehouses at the edge of the desert plain. Get Solution to begin in Ibri.",
+              "Ibri: temperature data loggers for date stores, market wholesalers, the hospital and warehouses at the edge of the desert plain. Get Solution for Ibri.",
             indexable: true,
           },
         ],
@@ -25637,7 +25637,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Al Buraimi Governorate",
         type: "state",
         intro:
-          "Al Buraimi Governorate lies in the north-west of Oman, a flat inland oasis region of date gardens, shops, workshops and wide roads set in gravel plains below low hills. Buraimi is its main city, a trading and farming centre with busy markets, a hospital and an industrial area, where families shop for food, household goods and building materials. Summers are fierce and dry, winters mild and cool at night, and dust and sandstorms blow through in some seasons. Dates, food, medicines and materials wait in shops, sheds and warehouses in such heat. The page below describes the city, its industrial area and the rooms where a temperature record would help.",
+          "A temperature data logger in Al Buraimi Governorate mostly serves dates and farm produce, as well as shop and wholesale trade. Al Buraimi Governorate lies in the north-west of Oman, a flat inland oasis region of date gardens, shops, workshops and wide roads set in gravel plains below low hills. Buraimi is its main city, a trading and farming centre with busy markets, a hospital and an industrial area, where families shop for food, household goods and building materials. Summers are fierce and dry, winters mild and cool at night, and dust and sandstorms blow through in some seasons. Dates, food, medicines and materials wait in shops, sheds and warehouses in such heat. The page below describes the city, its industrial area and the rooms where a temperature record would help.",
         localIndustries: [
           "Dates and farm produce",
           "Shop and wholesale trade",
@@ -25649,9 +25649,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from Al Buraimi Governorate are handled through the enquiry form, Call or WhatsApp. Tell us which city, which rooms and how they are cooled, and we answer with what looks suitable for the site.",
         faqs: [
           {
-            question: "Which places in Al Buraimi Governorate have a page?",
+            question: "Where can I find a temperature data logger in Al Buraimi Governorate?",
             answer:
-              "Buraimi has a city page, and the Buraimi Industrial Area has an area page under it. Another place in the governorate can be raised through the enquiry form.",
+              "Buraimi has a city page, and the Buraimi Industrial Area has an area page under it. Another place in the governorate can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "How is a trading city different from a farm town for logger set-up?",
@@ -25678,7 +25678,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Buraimi",
             type: "city",
             intro:
-              "Buraimi is an inland trading and farming city in the north-west of Oman, a flat oasis of date gardens, shops, workshops and wide roads set below low hills, and a temperature data logger here serves a place of busy markets, supermarkets, clinics, a hospital and warehouses in hot, dry air. Families shop for food and household goods all week, growers bring dates and vegetables to the markets, and an industrial area lies beside the road. Summers are fierce and long, winters are mild and cool at night, and dust and sandstorms blow through in some seasons, while the markets stay busy into the late evening once the heat eases. Enquiries from Buraimi are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Buraimi mostly serves food and beverage sites, as well as hospital and blood bank sites. Buraimi is an inland trading and farming city in the north-west of Oman, a flat oasis of date gardens, shops, workshops and wide roads set below low hills, and a temperature data logger here serves a place of busy markets, supermarkets, clinics, a hospital and warehouses in hot, dry air. Families shop for food and household goods all week, growers bring dates and vegetables to the markets, and an industrial area lies beside the road. Summers are fierce and long, winters are mild and cool at night, and dust and sandstorms blow through in some seasons, while the markets stay busy into the late evening once the heat eases. Enquiries from Buraimi are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The inland air is dry, summer heat is fierce and nights cool slowly, and dust storms blow across the flat plain, so supermarket coolers, date sheds and warehouse roofs work against the sun for months. Open shop fronts let cold air out all day, vehicles loading on wide roads stand in strong sun, and a refrigerator that fails on a summer afternoon warms quickly. Stock arrives by long road journeys, so a pallet of chilled goods may already be warm before it reaches the cold room.",
             areas: [
@@ -25740,9 +25740,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Buraimi supermarket or date trader use temperature loggers?",
+                question: "With a temperature data logger in Buraimi, can a Buraimi supermarket or date trader use temperature loggers?",
                 answer:
-                  "A logger in each cooler and cold room records through the day and night, and a report for any period can be exported in PDF, Excel or CSV form for an inspector or a buyer.",
+                  "A logger in each cooler and cold room records through the day and night, and a report for any period can be exported in PDF, Excel or CSV form for an inspector or a buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why does a store in a dry inland city still want a humidity reading?",
@@ -25766,7 +25766,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Buraimi | Prithvi",
             metaDescription:
-              "Buraimi, Oman: data loggers for supermarkets, date traders, the hospital and warehouses in an inland oasis city. Get Solution: request a plan for Buraimi.",
+              "Buraimi: temperature data loggers for supermarkets, date traders, the hospital and warehouses in an inland oasis city. Get Solution for Buraimi.",
             indexable: true,
           },
         ],
@@ -25776,7 +25776,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Dhofar Governorate",
         type: "state",
         intro:
-          "Dhofar Governorate occupies the far south of Oman on the Arabian Sea, a region where a coastal plain of coconut palms, banana groves and fishing beaches rises into hills that turn green under the summer monsoon. Salalah is the main city, with a harbour, a market, a hospital and shops, while at Raysut, to the west, a container port, a free zone and an industrial estate stand beside the sea. For several weeks each year mist and drizzle cool the coast and push humidity very high, then the dry heat returns. Fruit, fish, frankincense goods, food and building materials wait in sheds and warehouses in such swings. The pages below cover the city, its port district and its industrial areas.",
+          "A temperature data logger in Dhofar Governorate mostly serves fruit, coconut and fish trade, as well as port-side and free-zone warehousing. Dhofar Governorate occupies the far south of Oman on the Arabian Sea, a region where a coastal plain of coconut palms, banana groves and fishing beaches rises into hills that turn green under the summer monsoon. Salalah is the main city, with a harbour, a market, a hospital and shops, while at Raysut, to the west, a container port, a free zone and an industrial estate stand beside the sea. For several weeks each year mist and drizzle cool the coast and push humidity very high, then the dry heat returns. Fruit, fish, frankincense goods, food and building materials wait in sheds and warehouses in such swings. The pages below cover the city, its port district and its industrial areas.",
         localIndustries: [
           "Fruit, coconut and fish trade",
           "Port-side and free-zone warehousing",
@@ -25788,9 +25788,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from Dhofar Governorate are handled through the enquiry form, Call or WhatsApp. Say which area, which rooms and how they are cooled, and our reply covers what seems suitable on site.",
         faqs: [
           {
-            question: "Which places in Dhofar Governorate have a page?",
+            question: "Where can I find a temperature data logger in Dhofar Governorate?",
             answer:
-              "Salalah has a city page, and Salalah Free Zone, Raysut Industrial Estate and Port of Salalah have area pages under it. A town elsewhere in the south can be raised through the enquiry form.",
+              "Salalah has a city page, and Salalah Free Zone, Raysut Industrial Estate and Port of Salalah have area pages under it. A town elsewhere in the south can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why does a monsoon season matter for stored goods?",
@@ -25819,7 +25819,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Salalah",
             type: "city",
             intro:
-              "Salalah is a coastal city on the Arabian Sea in the far south of Oman, set on a green plain of coconut palms and banana groves below hills that turn lush under the summer monsoon, and a temperature data logger here serves a city of fish rooms, fruit stores, markets, a hospital and warehouses in warm, often very damp air. Fishing boats land the catch at a harbour, growers bring coconuts, bananas and papayas to the markets, and traders sell frankincense, spices and household goods in old lanes. Shops, clinics and workshops serve a growing city, and families take to the beaches and the green hills when the weather turns. For weeks each summer mist and drizzle cool the coast. Enquiries from Salalah are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Salalah mostly serves food and beverage sites, as well as hospital and blood bank sites. Salalah is a coastal city on the Arabian Sea in the far south of Oman, set on a green plain of coconut palms and banana groves below hills that turn lush under the summer monsoon, and a temperature data logger here serves a city of fish rooms, fruit stores, markets, a hospital and warehouses in warm, often very damp air. Fishing boats land the catch at a harbour, growers bring coconuts, bananas and papayas to the markets, and traders sell frankincense, spices and household goods in old lanes. Shops, clinics and workshops serve a growing city, and families take to the beaches and the green hills when the weather turns. For weeks each summer mist and drizzle cool the coast. Enquiries from Salalah are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The year turns on the monsoon: for weeks in mid-year the air is cool, misty and very humid with drizzle on the hills, while the rest of the year is warm and dry with sea breezes, so stores swing between damp and dry, and cartons, fruit and frankincense goods all respond. Mould can start quickly in a shut-up room during the wet weeks, power cuts follow storms, and a cooler that fails in warm weather loses its contents fast.",
             areas: [
@@ -25881,9 +25881,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Salalah fruit trader or fish seller keep a temperature record?",
+                question: "With a temperature data logger in Salalah, can a Salalah fruit trader or fish seller keep a temperature record?",
                 answer:
-                  "A logger in the cold room or the ice store keeps a day-and-night record, and a report for the dates of one lot can be saved as a PDF, Excel or CSV file for a buyer.",
+                  "A logger in the cold room or the ice store keeps a day-and-night record, and a report for the dates of one lot can be saved as a PDF, Excel or CSV file for a buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why does the monsoon season matter for a humidity reading?",
@@ -25907,7 +25907,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Salalah | Prithvi",
             metaDescription:
-              "Salalah, Oman: data loggers for fish rooms, fruit stores, spice stock rooms, the hospital and warehouses through the humid monsoon. Get Solution: Salalah.",
+              "Salalah: temperature data loggers for fish rooms, fruit stores, spice stock rooms, the hospital and warehouses through the humid monsoon. Get Solution.",
             indexable: true,
           },
         ],
@@ -25917,7 +25917,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Al Wusta Governorate",
         type: "state",
         intro:
-          "Al Wusta Governorate stretches across the central desert of Oman to a long, empty coast on the Arabian Sea, a country of gravel plains, low cliffs, salt flats and very few towns. Duqm, the main coastal town, has grown around a fishing harbour, a new port and an economic zone laid out on the flat ground behind the shore, with housing, shops and a hospital for the people who work there. Summers are hot and dry with strong sea winds and sudden dust, winters are mild, and long roads link every settlement. Food, medicines, spare parts and materials wait in sheds and vehicles in such heat. The page below describes Duqm, its port and its economic zone.",
+          "A temperature data logger in Al Wusta Governorate mostly serves port-side and zone warehousing, as well as fish and food supply. Al Wusta Governorate stretches across the central desert of Oman to a long, empty coast on the Arabian Sea, a country of gravel plains, low cliffs, salt flats and very few towns. Duqm, the main coastal town, has grown around a fishing harbour, a new port and an economic zone laid out on the flat ground behind the shore, with housing, shops and a hospital for the people who work there. Summers are hot and dry with strong sea winds and sudden dust, winters are mild, and long roads link every settlement. Food, medicines, spare parts and materials wait in sheds and vehicles in such heat. The page below describes Duqm, its port and its economic zone.",
         localIndustries: [
           "Port-side and zone warehousing",
           "Fish and food supply",
@@ -25929,9 +25929,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from Al Wusta Governorate are handled through the enquiry form, Call or WhatsApp. State the town, the rooms and how they are cooled, and we come back with what seems suitable here.",
         faqs: [
           {
-            question: "Which places in Al Wusta Governorate have a page?",
+            question: "Where can I find a temperature data logger in Al Wusta Governorate?",
             answer:
-              "Duqm has a city page, and the Duqm Special Economic Zone and the Port of Duqm have area pages under it. A place elsewhere along the central coast can be raised through the enquiry form.",
+              "Duqm has a city page, and the Duqm Special Economic Zone and the Port of Duqm have area pages under it. A place elsewhere along the central coast can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why does a remote coast want phone alerts and batteries?",
@@ -25959,7 +25959,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Duqm",
             type: "city",
             intro:
-              "Duqm is a young port and economic-zone town on a long, empty stretch of the Arabian Sea coast in central Oman, built on flat ground between the shore and wide gravel plains, and a temperature data logger here serves a place of fishing boats, new housing, shops, a hospital and large warehouse plots in dry heat and strong sea wind. A fishing harbour lands the catch each morning, a commercial port and a zone of plots lie along the coast, and the town has been laid out with wide roads, schools and a shopping area for the people who work there. Summers are hot and dry, and in the evenings the wind drops and families walk along the new streets. Enquiries from Duqm are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Duqm mostly serves food and beverage sites, as well as hospital and blood bank sites. Duqm is a young port and economic-zone town on a long, empty stretch of the Arabian Sea coast in central Oman, built on flat ground between the shore and wide gravel plains, and a temperature data logger here serves a place of fishing boats, new housing, shops, a hospital and large warehouse plots in dry heat and strong sea wind. A fishing harbour lands the catch each morning, a commercial port and a zone of plots lie along the coast, and the town has been laid out with wide roads, schools and a shopping area for the people who work there. Summers are hot and dry, and in the evenings the wind drops and families walk along the new streets. Enquiries from Duqm are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The coast is exposed to strong wind, so summer sun and blown sand strike every shed, the air is dry with salt on the breeze, and the nearest large supplier is a very long drive away, so cold boxes, shop coolers and clinic refrigerators depend on a warning arriving in time. Metal-roofed buildings without cooling reach extreme temperatures, and a failed fridge in a new housing block can lose its contents before anyone notices.",
             areas: [
@@ -26021,9 +26021,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Duqm shop or clinic use a single logger?",
+                question: "With a temperature data logger in Duqm, can a Duqm shop or clinic use a single logger?",
                 answer:
-                  "Yes. One logger with a phone alert can watch a lone cold room or refrigerator as long as a router is within reach, and extra points can be added to the account later.",
+                  "Yes. One logger with a phone alert can watch a lone cold room or refrigerator as long as a router is within reach, and extra points can be added to the account later.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why is a battery important on a remote coast?",
@@ -26047,7 +26047,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Duqm | Prithvi",
             metaDescription:
-              "Duqm, Oman: data loggers for the fishing harbour, supermarkets, the hospital and warehouse plots on the empty Arabian Sea coast. Get Solution for Duqm.",
+              "Duqm: temperature data loggers for the fishing harbour, supermarkets, the hospital and warehouse plots on the empty Arabian Sea coast. Get Solution: Duqm.",
             indexable: true,
           },
         ],
@@ -26057,7 +26057,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Ash Sharqiyah South Governorate",
         type: "state",
         intro:
-          "Ash Sharqiyah South Governorate faces the Arabian Sea on the south-eastern coast of Oman, where low rocky hills meet sheltered creeks and long beaches. Sur is its main town, an old port famous for its dhow yards, with a fishing harbour, a lagoon of calm water, a market and an industrial estate beside the road. Date palms and small farms grow in the valleys behind the coast. The shore is hot and humid in summer, salt reaches every shed, and winters are mild. Fish, dates, food and building materials wait in sheds and warehouses in such air. The pages below describe the town, its industrial estate and the rooms where a temperature record would help.",
+          "A temperature data logger in Ash Sharqiyah South Governorate mostly serves fish and harbour trade, as well as dates and farm produce. Ash Sharqiyah South Governorate faces the Arabian Sea on the south-eastern coast of Oman, where low rocky hills meet sheltered creeks and long beaches. Sur is its main town, an old port famous for its dhow yards, with a fishing harbour, a lagoon of calm water, a market and an industrial estate beside the road. Date palms and small farms grow in the valleys behind the coast. The shore is hot and humid in summer, salt reaches every shed, and winters are mild. Fish, dates, food and building materials wait in sheds and warehouses in such air. The pages below describe the town, its industrial estate and the rooms where a temperature record would help.",
         localIndustries: [
           "Fish and harbour trade",
           "Dates and farm produce",
@@ -26069,9 +26069,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from Ash Sharqiyah South Governorate are handled through the enquiry form, Call or WhatsApp. Give the town, the rooms and how they are cooled, and we come back with what seems suitable here.",
         faqs: [
           {
-            question: "Which places in Ash Sharqiyah South Governorate have a page?",
+            question: "Where can I find a temperature data logger in Ash Sharqiyah South Governorate?",
             answer:
-              "Sur has a city page, and the Sur Industrial Estate has an area page under it. A town elsewhere on this coast can be raised through the enquiry form.",
+              "Sur has a city page, and the Sur Industrial Estate has an area page under it. A town elsewhere on this coast can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why does a boat-building port still need humidity records?",
@@ -26098,7 +26098,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Sur",
             type: "city",
             intro:
-              "Sur is an old port city on the south-eastern coast of Oman, built around a calm lagoon and a creek where wooden dhows are still built and repaired, and a temperature data logger here serves a place of fishing boats, a market, workshops, a hospital and warehouses in hot, humid sea air. Fishermen land their catch at the harbour, dhow yards line the water with timber, rope and paint, and a market sells food, dates and household goods. Date palms and small farms grow in the valleys behind the coast, and an industrial estate lies beside the road. Summers are long and the sea air stays heavy after dark, while in the cooler evenings people stroll along the lagoon front. Enquiries from Sur are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Sur mostly serves food and beverage sites, as well as hospital and blood bank sites. Sur is an old port city on the south-eastern coast of Oman, built around a calm lagoon and a creek where wooden dhows are still built and repaired, and a temperature data logger here serves a place of fishing boats, a market, workshops, a hospital and warehouses in hot, humid sea air. Fishermen land their catch at the harbour, dhow yards line the water with timber, rope and paint, and a market sells food, dates and household goods. Date palms and small farms grow in the valleys behind the coast, and an industrial estate lies beside the road. Summers are long and the sea air stays heavy after dark, while in the cooler evenings people stroll along the lagoon front. Enquiries from Sur are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The shore is hot and humid through the long summer, salt reaches every shed and cold box, and the low hills behind the town give little shelter from the heat, so ice rooms, shop coolers and clinic refrigerators work against the weather for months. Timber and paint in the yards suffer from damp, power cuts follow storms, and a cooler that fails on an August afternoon warms fast.",
             areas: [
@@ -26160,9 +26160,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Sur fish seller or date trader keep a temperature record?",
+                question: "With a temperature data logger in Sur, can a Sur fish seller or date trader keep a temperature record?",
                 answer:
-                  "Yes. A logger set in the ice store or the date room keeps a record through day and night, and a report for the dates of one lot can be exported as a PDF, Excel or CSV file for a buyer.",
+                  "Yes. A logger set in the ice store or the date room keeps a record through day and night, and a report for the dates of one lot can be exported as a PDF, Excel or CSV file for a buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why would a boat-building yard want a humidity record?",
@@ -26187,7 +26187,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Sur | Prithvi",
             metaDescription:
-              "Sur, Oman: data loggers for harbour ice stores, dhow-yard materials, market stock rooms and the hospital. Get Solution: Sur.",
+              "Sur, Oman: temperature data loggers for harbour ice stores, dhow-yard materials, market stock rooms and the hospital. Get Solution: Sur.",
             indexable: true,
           },
         ],
@@ -26197,7 +26197,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Ash Sharqiyah North Governorate",
         type: "state",
         intro:
-          "Ash Sharqiyah North Governorate lies on the inland east of Oman, where old oasis towns of date palms and mud-brick houses stand between the Hajar mountains and the first great dunes of the sands. Ibra is its well-known market town, with an old quarter, a weekly market and groves watered by irrigation channels, while Bidiyah sits at the edge of the dunes among palms, farms and desert tracks. Summer days are fierce and dry, winter nights are cold, and dust and sandstorms blow through in some seasons. Dates, farm produce, sweets and medicines wait in sheds and stock rooms in such swings. The pages below describe the two towns and the rooms where a temperature record would help.",
+          "A temperature data logger in Ash Sharqiyah North Governorate mostly serves dates and farm produce, as well as market and shop trade. Ash Sharqiyah North Governorate lies on the inland east of Oman, where old oasis towns of date palms and mud-brick houses stand between the Hajar mountains and the first great dunes of the sands. Ibra is its well-known market town, with an old quarter, a weekly market and groves watered by irrigation channels, while Bidiyah sits at the edge of the dunes among palms, farms and desert tracks. Summer days are fierce and dry, winter nights are cold, and dust and sandstorms blow through in some seasons. Dates, farm produce, sweets and medicines wait in sheds and stock rooms in such swings. The pages below describe the two towns and the rooms where a temperature record would help.",
         localIndustries: [
           "Dates and farm produce",
           "Market and shop trade",
@@ -26209,9 +26209,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from Ash Sharqiyah North Governorate are handled through the enquiry form, Call or WhatsApp. Say the town, the rooms and how they are cooled, and our reply covers what looks workable on site.",
         faqs: [
           {
-            question: "Which places in Ash Sharqiyah North Governorate have a page?",
+            question: "Where can I find a temperature data logger in Ash Sharqiyah North Governorate?",
             answer:
-              "Ibra and Bidiyah each have a city page. A town elsewhere in the inland east can be raised through the enquiry form.",
+              "Ibra and Bidiyah each have a city page. A town elsewhere in the inland east can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why do oasis sheds near irrigation channels need humidity records?",
@@ -26236,7 +26236,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Ibra",
             type: "city",
             intro:
-              "Ibra is an oasis market town in the inland east of Oman, set among date groves below the Hajar mountains with an old quarter of tall mud-brick houses, and a temperature data logger here serves a place of date stores, shops, a weekly market, workshops and a clinic in dry heat. Irrigation channels water the palm gardens, traders sell dates, sweets, spices and household goods, and a hospital and clinics serve the town and the villages around. Summer days are fierce, winter nights are cold, and dust is common, while the weekly market draws buyers and sellers from the villages across the whole district and fills the old lanes with stalls from early morning. Enquiries from Ibra are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Ibra mostly serves food and beverage sites, as well as hospital and blood bank sites. Ibra is an oasis market town in the inland east of Oman, set among date groves below the Hajar mountains with an old quarter of tall mud-brick houses, and a temperature data logger here serves a place of date stores, shops, a weekly market, workshops and a clinic in dry heat. Irrigation channels water the palm gardens, traders sell dates, sweets, spices and household goods, and a hospital and clinics serve the town and the villages around. Summer days are fierce, winter nights are cold, and dust is common, while the weekly market draws buyers and sellers from the villages across the whole district and fills the old lanes with stalls from early morning. Enquiries from Ibra are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The oasis is dry and bright with fierce summer afternoons and cold winter nights, but damp among the gardens where channels run, so date stores and clinic refrigerators swing between baking heat, sharp cold and moisture. Thick walls hold the day's heat into the evening, a storm in the mountains can send water across low roads, and drifting dust clogs vents on roadside units. Stock bought at the weekly market is often carried home in open pickups, so a load of dates or sweets can stand in the sun for hours before it reaches a cool store.",
             areas: [
@@ -26298,9 +26298,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can an Ibra date grower or sweet-seller keep a temperature record?",
+                question: "With a temperature data logger in Ibra, can an Ibra date grower or sweet-seller keep a temperature record?",
                 answer:
-                  "Yes. A logger in the shed or stock room records temperature and humidity through the season, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for a buyer.",
+                  "Yes. A logger in the shed or stock room records temperature and humidity through the season, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for a buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Do cold winter nights matter in a country known for heat?",
@@ -26324,7 +26324,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Ibra | Prithvi",
             metaDescription:
-              "Ibra, Oman: data loggers for date stores, weekly-market stock rooms, shops and clinics in an inland oasis town. Get Solution and plan your Ibra sites.",
+              "Ibra: temperature data loggers for date stores, weekly-market stock rooms, shops and clinics in an inland oasis town. Get Solution for Ibra.",
             indexable: true,
           },
           {
@@ -26332,7 +26332,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Bidiyah",
             type: "city",
             intro:
-              "Bidiyah is a desert-edge oasis town where date palms and small farms stand beside the first great dunes of the sands, and a temperature data logger here serves a quiet place of date sheds, shops, workshops and a clinic in fierce heat and blowing sand. Farmers harvest dates and grow fodder in gardens watered from wells and channels, shops along the road sell food and fuel and household goods, and desert tracks lead away from the last houses. A clinic and pharmacies look after the townspeople and the hamlets scattered along the desert tracks. Winter nights are cold, and the dunes glow orange in the low evening light. Enquiries from Bidiyah are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Bidiyah mostly serves food and beverage sites, as well as hospital and blood bank sites. Bidiyah is a desert-edge oasis town where date palms and small farms stand beside the first great dunes of the sands, and a temperature data logger here serves a quiet place of date sheds, shops, workshops and a clinic in fierce heat and blowing sand. Farmers harvest dates and grow fodder in gardens watered from wells and channels, shops along the road sell food and fuel and household goods, and desert tracks lead away from the last houses. A clinic and pharmacies look after the townspeople and the hamlets scattered along the desert tracks. Winter nights are cold, and the dunes glow orange in the low evening light. Enquiries from Bidiyah are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The desert is open and exposed, so summer sun and blown sand strike every shed, days are fierce and dry, winter nights can turn cold, and a failed cooler on a summer afternoon warms quickly. Dust drifts through door gaps and settles on vents, and a long drive to the nearest large supplier means a spoiled stock cannot be replaced quickly. Wells and channels keep the gardens green, so a shed beside them is damp while the sand a few steps away is bone dry, and dates stored in the damp corner can sour in a few warm weeks.",
             areas: [
@@ -26394,9 +26394,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can one logger watch a single refrigerator in a Bidiyah shop?",
+                question: "With a temperature data logger in Bidiyah, can one logger watch a single refrigerator in a Bidiyah shop?",
                 answer:
-                  "Yes. One logger with a phone alert is enough for a single shop refrigerator in Bidiyah when a router is nearby, and extra points can be added to the account as the shop grows.",
+                  "Yes. One logger with a phone alert is enough for a single shop refrigerator in Bidiyah when a router is nearby, and extra points can be added to the account as the shop grows.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why is a battery important in a desert-edge town?",
@@ -26420,7 +26420,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Bidiyah | Prithvi",
             metaDescription:
-              "Bidiyah, Oman: data loggers for date sheds, roadside shops, workshops and the clinic at the edge of the dunes. Get Solution, or call us to discuss Bidiyah.",
+              "Bidiyah: temperature data loggers for date sheds, roadside shops, workshops and the clinic at the edge of the dunes. Get Solution for Bidiyah.",
             indexable: true,
           },
         ],
@@ -26430,7 +26430,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Musandam Governorate",
         type: "state",
         intro:
-          "Musandam Governorate occupies a rugged rocky peninsula in the far north of Oman, where bare mountains drop steeply into deep, narrow inlets and small fishing villages cling to the shore. Khasab is the main town, with a harbour for fishing boats and dhows, an old quarter, a market, a hospital and shops, and a few farms and date palms in the valleys behind. Summers are very hot and humid on the water, the cliffs hold the heat, and winters are mild with the odd storm. Fish, food, medicines and household goods wait in cold boxes, shops and clinics in such heat. The page below describes the town and the rooms where a temperature record would help.",
+          "A temperature data logger in Musandam Governorate mostly serves fish and harbour trade, as well as shops and food stores. Musandam Governorate occupies a rugged rocky peninsula in the far north of Oman, where bare mountains drop steeply into deep, narrow inlets and small fishing villages cling to the shore. Khasab is the main town, with a harbour for fishing boats and dhows, an old quarter, a market, a hospital and shops, and a few farms and date palms in the valleys behind. Summers are very hot and humid on the water, the cliffs hold the heat, and winters are mild with the odd storm. Fish, food, medicines and household goods wait in cold boxes, shops and clinics in such heat. The page below describes the town and the rooms where a temperature record would help.",
         localIndustries: [
           "Fish and harbour trade",
           "Shops and food stores",
@@ -26442,9 +26442,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from Musandam Governorate are handled through the enquiry form, Call or WhatsApp. Tell us the town, the rooms and how they are cooled, and we reply with what looks suitable for the site.",
         faqs: [
           {
-            question: "Which places in Musandam Governorate have a page?",
+            question: "Where can I find a temperature data logger in Musandam Governorate?",
             answer:
-              "Khasab has a city page. Another place in the governorate can be raised through the enquiry form, and further pages follow only when they can be written from confident facts.",
+              "Khasab has a city page. Another place in the governorate can be raised through the enquiry form, and further pages follow only when they can be written from confident facts.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why do steep cliffs matter for stores at the water's edge?",
@@ -26468,7 +26468,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Khasab",
             type: "city",
             intro:
-              "Khasab is a harbour town on a rugged rocky peninsula in the far north of Oman, set among deep, narrow inlets with bare cliffs rising steeply behind, and a temperature data logger here serves a place of fishing boats, dhows, shops, a hospital and small farms in hot, humid air. Boats land their catch at the harbour, an old quarter stands near the shore, a market sells food and household goods to the town and the villages along the inlets, and date palms grow in the valley behind. Summers are very hot and the water is still, and in the cooler months the harbour is busy with boats loading supplies for the villages along the inlets. Enquiries from Khasab are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Khasab mostly serves food and beverage sites, as well as hospital and blood bank sites. Khasab is a harbour town on a rugged rocky peninsula in the far north of Oman, set among deep, narrow inlets with bare cliffs rising steeply behind, and a temperature data logger here serves a place of fishing boats, dhows, shops, a hospital and small farms in hot, humid air. Boats land their catch at the harbour, an old quarter stands near the shore, a market sells food and household goods to the town and the villages along the inlets, and date palms grow in the valley behind. Summers are very hot and the water is still, and in the cooler months the harbour is busy with boats loading supplies for the villages along the inlets. Enquiries from Khasab are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The steep rock faces soak up the sun and hand the heat back well into the evening, the still water of the inlets keeps the air damp, and salt reaches every shed and cold box, so ice rooms, shop coolers and clinic refrigerators work through long hot spells. Supplies reach the town by long routes, so a failed cold box cannot be replaced quickly, and an early warning matters more than a morning round.",
             areas: [
@@ -26530,9 +26530,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Khasab fish seller keep a record of an ice box?",
+                question: "With a temperature data logger in Khasab, can a Khasab fish seller keep a record of an ice box?",
                 answer:
-                  "Yes. A probe logger in the box keeps a day-and-night record, and a report for the dates of one lot can be saved as a PDF, Excel or CSV file for a buyer.",
+                  "Yes. A probe logger in the box keeps a day-and-night record, and a report for the dates of one lot can be saved as a PDF, Excel or CSV file for a buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why do cliffs and still water matter for a store by the harbour?",
@@ -26556,7 +26556,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Khasab | Prithvi",
             metaDescription:
-              "Khasab, Oman: data loggers for harbour ice boxes, shops, the hospital and clinics among steep inlets and bare cliffs. Get Solution to begin in Khasab.",
+              "Khasab: temperature data loggers for harbour ice boxes, shops, the hospital and clinics among steep inlets and bare cliffs. Get Solution for Khasab.",
             indexable: true,
           },
         ],
@@ -26610,7 +26610,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Al Asimah Governorate",
         type: "state",
         intro:
-          "Al Asimah Governorate holds the capital area of Kuwait, a compact urban strip along the southern shore of Kuwait Bay where towers of glass stand beside an old covered market and a fish market, and wide roads link districts of offices, shops, hospitals and apartments. To the west a commercial port and an industrial area hold warehouses, workshops and yards. Summers are extremely hot and dry with strong sun, the air by the bay is humid, winters are mild, and dust storms blow in from the desert in some seasons. Food, medicines, electronics and building materials wait in kitchens, clinics and warehouses in such heat. The pages below cover the city, its industrial area and its port.",
+          "A temperature data logger in Al Asimah Governorate mostly serves hospitals, clinics and pharmacies, as well as food retail and catering kitchens. Al Asimah Governorate holds the capital area of Kuwait, a compact urban strip along the southern shore of Kuwait Bay where towers of glass stand beside an old covered market and a fish market, and wide roads link districts of offices, shops, hospitals and apartments. To the west a commercial port and an industrial area hold warehouses, workshops and yards. Summers are extremely hot and dry with strong sun, the air by the bay is humid, winters are mild, and dust storms blow in from the desert in some seasons. Food, medicines, electronics and building materials wait in kitchens, clinics and warehouses in such heat. The pages below cover the city, its industrial area and its port.",
         localIndustries: [
           "Hospitals, clinics and pharmacies",
           "Food retail and catering kitchens",
@@ -26622,9 +26622,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from Al Asimah Governorate are handled through the enquiry form, Call or WhatsApp. Let us know the district, the rooms and how they are cooled, and we answer with what looks workable at the site.",
         faqs: [
           {
-            question: "Which places in Al Asimah Governorate have a page?",
+            question: "Where can I find a temperature data logger in Al Asimah Governorate?",
             answer:
-              "Kuwait City has a city page, and the Shuwaikh Industrial Area and Shuwaikh Port have area pages under it. Another district can be raised through the enquiry form.",
+              "Kuwait City has a city page, and the Shuwaikh Industrial Area and Shuwaikh Port have area pages under it. Another district can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why does extreme dry heat still call for humidity records near the bay?",
@@ -26652,7 +26652,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Kuwait City",
             type: "city",
             intro:
-              "Kuwait City is the capital of Kuwait, built on the southern shore of Kuwait Bay, and a temperature data logger here serves a compact city of hospitals, supermarkets, kitchens, markets and warehouses in blazing summer heat. Towers of glass rise beside an old covered market, a fish market lands the morning catch, a corniche follows the water, and wide roads link districts of offices, shops and apartment blocks. A commercial port and an industrial area lie to the west. Summer days are blazing and dry, the air by the bay is humid, and dust storms blow in from the desert, while the cooler evenings fill the corniche with walkers and the old market lanes with shoppers. Enquiries from Kuwait City are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Kuwait City mostly serves hospital and blood bank sites, as well as pharmaceutical sites. Kuwait City is the capital of Kuwait, built on the southern shore of Kuwait Bay, and a temperature data logger here serves a compact city of hospitals, supermarkets, kitchens, markets and warehouses in blazing summer heat. Towers of glass rise beside an old covered market, a fish market lands the morning catch, a corniche follows the water, and wide roads link districts of offices, shops and apartment blocks. A commercial port and an industrial area lie to the west. Summer days are blazing and dry, the air by the bay is humid, and dust storms blow in from the desert, while the cooler evenings fill the corniche with walkers and the old market lanes with shoppers. Enquiries from Kuwait City are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "Summer afternoons are blazing and the nights stay warm, the bay keeps the air damp on the coast while the desert behind is bone dry, and dust storms turn the sky brown in some seasons, so cold rooms, kitchens and vehicles all work against the weather for months. A refrigerator that loses power on a July afternoon warms fast, and vehicles standing in the sun reach far higher temperatures than the shaded air.",
             areas: [
@@ -26714,9 +26714,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Kuwait City supermarket or caterer use temperature loggers?",
+                question: "With a temperature data logger in Kuwait City, can a Kuwait City supermarket or caterer use temperature loggers?",
                 answer:
-                  "Yes. A logger placed in each cooler, freezer and dry store logs round the clock, and a report for any chosen period can be exported as a PDF, Excel or CSV file for an inspector or a client.",
+                  "Yes. A logger placed in each cooler, freezer and dry store logs round the clock, and a report for any chosen period can be exported as a PDF, Excel or CSV file for an inspector or a client.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why would a store in a desert country want a humidity reading?",
@@ -26741,7 +26741,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Kuwait City | Prithvi",
             metaDescription:
-              "Kuwait City, Kuwait: data loggers for hospitals, supermarkets, hotel kitchens, markets and warehouses in extreme summer heat. Get Solution: Kuwait City.",
+              "Kuwait City: temperature data loggers for hospitals, supermarkets, hotel kitchens, markets and warehouses in extreme summer heat. Get Solution.",
             indexable: true,
           },
         ],
@@ -26751,7 +26751,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Hawalli Governorate",
         type: "state",
         intro:
-          "Hawalli Governorate is a densely built part of Kuwait's urban strip, a crowded mix of apartment blocks, shopping streets, clinics, restaurants and small offices stretching south-east of the capital along the Gulf coast. Hawalli itself is a busy commercial neighbourhood of narrow-fronted shops and traders' stores, while Salmiya runs along the seafront with malls, hotels, cafes, marinas and tall apartment towers. Summers are blazing and dry, the air by the water turns humid, winters are mild, and dust storms drift in from the desert. Food, medicines and household goods wait in shops, kitchens and small stockrooms in such heat. The pages below describe both towns and the rooms in each where a temperature record would help.",
+          "A temperature data logger in Hawalli Governorate mostly serves shops, supermarkets and food retail, as well as restaurants, cafes and catering kitchens. Hawalli Governorate is a densely built part of Kuwait's urban strip, a crowded mix of apartment blocks, shopping streets, clinics, restaurants and small offices stretching south-east of the capital along the Gulf coast. Hawalli itself is a busy commercial neighbourhood of narrow-fronted shops and traders' stores, while Salmiya runs along the seafront with malls, hotels, cafes, marinas and tall apartment towers. Summers are blazing and dry, the air by the water turns humid, winters are mild, and dust storms drift in from the desert. Food, medicines and household goods wait in shops, kitchens and small stockrooms in such heat. The pages below describe both towns and the rooms in each where a temperature record would help.",
         localIndustries: [
           "Shops, supermarkets and food retail",
           "Restaurants, cafes and catering kitchens",
@@ -26763,9 +26763,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from Hawalli Governorate are handled through the enquiry form, Call or WhatsApp. Tell us the neighbourhood, the rooms and how they are cooled, and we come back with what looks suitable for the site.",
         faqs: [
           {
-            question: "Which places in Hawalli Governorate have a page?",
+            question: "Where can I find a temperature data logger in Hawalli Governorate?",
             answer:
-              "Hawalli and Salmiya each have a city page. Another neighbourhood can be raised through the enquiry form, and further pages follow only when they can be written from confident facts.",
+              "Hawalli and Salmiya each have a city page. Another neighbourhood can be raised through the enquiry form, and further pages follow only when they can be written from confident facts.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why do small shop stockrooms matter in a crowded district?",
@@ -26790,7 +26790,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Hawalli",
             type: "city",
             intro:
-              "Hawalli is a crowded commercial and residential neighbourhood south-east of Kuwait City, packed with narrow-fronted shops, traders' stores, clinics, restaurants and apartment blocks, and a temperature data logger here serves a district of small rooms where food, medicines and household goods are stacked tightly in blazing summer heat. Pavements are lined with grocers, bakeries, pharmacies, tailors and electronics sellers, and small wholesalers keep stock in back rooms and basements. Families from many countries live in the blocks above the shops. Summers are blazing and dry, the air turns humid as the sea breeze arrives, and dust drifts in from the desert, while the evenings stay lively until late with shoppers filling the pavements and shopkeepers pulling stock from back rooms. Enquiries from Hawalli are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Hawalli mostly serves food and beverage sites, as well as pharmaceutical sites. Hawalli is a crowded commercial and residential neighbourhood south-east of Kuwait City, packed with narrow-fronted shops, traders' stores, clinics, restaurants and apartment blocks, and a temperature data logger here serves a district of small rooms where food, medicines and household goods are stacked tightly in blazing summer heat. Pavements are lined with grocers, bakeries, pharmacies, tailors and electronics sellers, and small wholesalers keep stock in back rooms and basements. Families from many countries live in the blocks above the shops. Summers are blazing and dry, the air turns humid as the sea breeze arrives, and dust drifts in from the desert, while the evenings stay lively until late with shoppers filling the pavements and shopkeepers pulling stock from back rooms. Enquiries from Hawalli are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "Heat builds between tall buildings and narrow streets and lingers well after dark, narrow back lanes trap warm air behind the shops, and dust coats every vent and compressor, so small coolers work harder than their size suggests. A stockroom above a shop or behind a workshop can run far hotter than the sales floor, and a refrigerator that fails on a summer evening may not be noticed until the shutters go up.",
             areas: [
@@ -26852,9 +26852,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a single small shop in Hawalli use one logger?",
+                question: "With a temperature data logger in Hawalli, can a single small shop in Hawalli use one logger?",
                 answer:
-                  "Yes. One logger with a phone alert can watch a lone cooler as long as a router is within reach, and the account can take more points as the business grows.",
+                  "Yes. One logger with a phone alert can watch a lone cooler as long as a router is within reach, and the account can take more points as the business grows.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why record the stockroom above or behind a shop?",
@@ -26878,7 +26878,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Hawalli | Prithvi",
             metaDescription:
-              "Hawalli, Kuwait: data loggers for grocers, bakeries, pharmacies, clinics and traders' stockrooms in blazing dry summers. Get Solution to begin in Hawalli.",
+              "Hawalli: temperature data loggers for grocers, bakeries, pharmacies, clinics and traders' stockrooms in blazing dry summers. Get Solution for Hawalli.",
             indexable: true,
           },
           {
@@ -26886,7 +26886,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Salmiya",
             type: "city",
             intro:
-              "Salmiya is a seafront town on the Gulf coast south-east of Kuwait City, lined with malls, hotels, cafes, restaurants, marinas and tall apartment towers, and a temperature data logger here serves a busy place of kitchens, supermarkets, clinics and shop stockrooms in blazing summer heat and humid shore air. A promenade follows the water, shopping streets run inland from the coast road, and boats shelter in small marinas. Hotel and restaurant kitchens work late into the evening. Summers are blazing and dry inland, humid at the shore, and winters are mild with the odd dust storm, while on cooler evenings families walk the promenade and the cafes spill onto the pavement. Enquiries from Salmiya are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Salmiya mostly serves food and beverage sites, as well as hospital and blood bank sites. Salmiya is a seafront town on the Gulf coast south-east of Kuwait City, lined with malls, hotels, cafes, restaurants, marinas and tall apartment towers, and a temperature data logger here serves a busy place of kitchens, supermarkets, clinics and shop stockrooms in blazing summer heat and humid shore air. A promenade follows the water, shopping streets run inland from the coast road, and boats shelter in small marinas. Hotel and restaurant kitchens work late into the evening. Summers are blazing and dry inland, humid at the shore, and winters are mild with the odd dust storm, while on cooler evenings families walk the promenade and the cafes spill onto the pavement. Enquiries from Salmiya are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "Heat and humidity gather together along the seafront, salt reaches every service yard and basement, and sea breezes carry fine dust, so walk-in coolers, mall food courts and clinic refrigerators work against the weather for months. Large kitchens add their own heat to the load on the cooling, and a chiller that fails during a busy weekend can lose a whole evening's stock before anyone is free to look. Parking is tight and loading bays are few, so vans unload by the kerb in the sun, and chilled cartons can stand on the pavement while a door is found and a key fetched.",
             areas: [
@@ -26948,9 +26948,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Salmiya hotel or cafe group watch every kitchen from one login?",
+                question: "With a temperature data logger in Salmiya, can a Salmiya hotel or cafe group watch every kitchen from one login?",
                 answer:
-                  "Yes. Every kitchen and pantry reports to one dashboard, each alert goes to its own engineer, and a manager can export a single report that covers all the rooms.",
+                  "Yes. Every kitchen and pantry reports to one dashboard, each alert goes to its own engineer, and a manager can export a single report that covers all the rooms.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why does a basement near the sea need a humidity reading?",
@@ -26974,7 +26974,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Salmiya | Prithvi",
             metaDescription:
-              "Salmiya, Kuwait: data loggers for seafront hotel kitchens, supermarkets, clinics and shop stockrooms in blazing heat and humid air. Get Solution: Salmiya.",
+              "Salmiya: temperature data loggers for seafront hotel kitchens, supermarkets, clinics and shop stockrooms in blazing heat and humid air. Get Solution.",
             indexable: true,
           },
         ],
@@ -26984,7 +26984,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Farwaniya Governorate",
         type: "state",
         intro:
-          "Farwaniya Governorate lies inland of the capital, a flat and crowded belt of apartment districts, wholesale markets, workshops, warehouses and wide ring roads where much of Kuwait's everyday trade happens. Farwaniya itself is a busy centre with a large hospital and a dense grid of shops, Khaitan and Jleeb Al-Shuyoukh are packed residential and commercial neighbourhoods with markets and stores, and industrial areas and the country's airport lie among the districts to the north. Summers are blazing and dry, winters mild, and dust storms blow in from the desert. Food, medicines, electronics and building materials wait in shops, stockrooms and warehouses in such heat. The pages below cover the three towns and four industrial and transport areas.",
+          "A temperature data logger in Farwaniya Governorate mostly serves wholesale markets and warehousing, as well as shops, supermarkets and food retail. Farwaniya Governorate lies inland of the capital, a flat and crowded belt of apartment districts, wholesale markets, workshops, warehouses and wide ring roads where much of Kuwait's everyday trade happens. Farwaniya itself is a busy centre with a large hospital and a dense grid of shops, Khaitan and Jleeb Al-Shuyoukh are packed residential and commercial neighbourhoods with markets and stores, and industrial areas and the country's airport lie among the districts to the north. Summers are blazing and dry, winters mild, and dust storms blow in from the desert. Food, medicines, electronics and building materials wait in shops, stockrooms and warehouses in such heat. The pages below cover the three towns and four industrial and transport areas.",
         localIndustries: [
           "Wholesale markets and warehousing",
           "Shops, supermarkets and food retail",
@@ -26996,9 +26996,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from Farwaniya Governorate are handled through the enquiry form, Call or WhatsApp. Name the neighbourhood, the rooms and how they are cooled, and we reply with what looks suitable for the site.",
         faqs: [
           {
-            question: "Which places in Farwaniya Governorate have a page?",
+            question: "Where can I find a temperature data logger in Farwaniya Governorate?",
             answer:
-              "Farwaniya, Khaitan and Jleeb Al-Shuyoukh each have a city page. Ardiya Industrial Area, Al Rai Industrial Area and Kuwait International Airport have area pages under Farwaniya, and the Jleeb Al-Shuyoukh Warehouses have one under Jleeb Al-Shuyoukh. Another neighbourhood can be raised through the enquiry form.",
+              "Farwaniya, Khaitan and Jleeb Al-Shuyoukh each have a city page. Ardiya Industrial Area, Al Rai Industrial Area and Kuwait International Airport have area pages under Farwaniya, and the Jleeb Al-Shuyoukh Warehouses have one under Jleeb Al-Shuyoukh. Another neighbourhood can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why do wholesale warehouses suit multi-point loggers?",
@@ -27030,7 +27030,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Farwaniya",
             type: "city",
             intro:
-              "Farwaniya is a busy inland centre in Kuwait, a flat and crowded grid of shopping streets, apartment blocks, clinics and workshops that lies away from the sea, and a temperature data logger here serves a district of supermarkets, pharmacies, kitchens and stockrooms in blazing dry heat. A large hospital draws patients from the surrounding neighbourhoods, markets and wholesalers sell food and household goods, and workshops and storage yards fill the back streets. Wide roads carry heavy traffic all day. Summers are blazing, winters are mild, and dust storms blow in from the desert, while the shopping streets stay lit and busy long after dark and families fill the pavements once the heat has eased. Enquiries from Farwaniya are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Farwaniya mostly serves hospital and blood bank sites, as well as pharmaceutical sites. Farwaniya is a busy inland centre in Kuwait, a flat and crowded grid of shopping streets, apartment blocks, clinics and workshops that lies away from the sea, and a temperature data logger here serves a district of supermarkets, pharmacies, kitchens and stockrooms in blazing dry heat. A large hospital draws patients from the surrounding neighbourhoods, markets and wholesalers sell food and household goods, and workshops and storage yards fill the back streets. Wide roads carry heavy traffic all day. Summers are blazing, winters are mild, and dust storms blow in from the desert, while the shopping streets stay lit and busy long after dark and families fill the pavements once the heat has eased. Enquiries from Farwaniya are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "Away from the sea the air is bone dry, summer afternoons are blazing, paving and walls hold the heat well into the night, and fine dust blows into every vent and compressor, so coolers and cold rooms work against the weather for months. A stockroom above a shop or beside a workshop can run far hotter than the sales floor, and a refrigerator that fails on a summer night warms quickly.",
             areas: [
@@ -27092,9 +27092,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Farwaniya supermarket or bakery use temperature loggers?",
+                question: "With a temperature data logger in Farwaniya, can a Farwaniya supermarket or bakery use temperature loggers?",
                 answer:
-                  "A logger in each cooler, freezer and cold room keeps a round-the-clock record, and a report for any period can be exported in PDF, Excel or CSV form for an inspector or a client.",
+                  "A logger in each cooler, freezer and cold room keeps a round-the-clock record, and a report for any period can be exported in PDF, Excel or CSV form for an inspector or a client.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Does blown dust change where a logger should be fixed?",
@@ -27119,7 +27119,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Farwaniya | Prithvi",
             metaDescription:
-              "Farwaniya, Kuwait: data loggers for the hospital, pharmacies, supermarkets, wholesalers and workshops in dry heat and dust. Use Get Solution for Farwaniya.",
+              "Farwaniya: temperature data loggers for the hospital, pharmacies, supermarkets, wholesalers and workshops in dry heat and dust. Get Solution for Farwaniya.",
             indexable: true,
           },
           {
@@ -27127,7 +27127,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Khaitan",
             type: "city",
             intro:
-              "Khaitan is a packed residential and commercial neighbourhood inland of the capital, a dense grid of apartment blocks, small markets, bakeries, pharmacies and workshops, and a temperature data logger here serves a district where thousands of households buy food from small shops in blazing dry heat. Corner groceries open from early morning until late at night, butchers and bakers work in small rooms behind their counters, and a clinic and pharmacies serve the blocks. Roads are busy and parking is tight. Summers are blazing and dry, winters mild, and dust drifts in from the desert, while buses, taxis and market vans crowd the streets at the start and end of the day and shopkeepers carry crates in and out of cramped back doors. Enquiries from Khaitan are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Khaitan mostly serves food and beverage sites, as well as pharmaceutical sites. Khaitan is a packed residential and commercial neighbourhood inland of the capital, a dense grid of apartment blocks, small markets, bakeries, pharmacies and workshops, and a temperature data logger here serves a district where thousands of households buy food from small shops in blazing dry heat. Corner groceries open from early morning until late at night, butchers and bakers work in small rooms behind their counters, and a clinic and pharmacies serve the blocks. Roads are busy and parking is tight. Summers are blazing and dry, winters mild, and dust drifts in from the desert, while buses, taxis and market vans crowd the streets at the start and end of the day and shopkeepers carry crates in and out of cramped back doors. Enquiries from Khaitan are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The district is far from the sea and the air is dry, walls and paving hold the heat after dark, and fine dust settles on every compressor, so small coolers work harder than their size suggests. Butchers and bakers share heat with ovens and cutting rooms, and a refrigerator that fails in a back room on a summer night may not be noticed until the shutters rise in the morning. Stock is carried up narrow stairs to mezzanines and flats above the shops, where the air is hotter and still, and food left there between restocking can warm well beyond what the label allows.",
             areas: [
@@ -27189,9 +27189,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can one logger watch a single refrigerator in a Khaitan grocery?",
+                question: "With a temperature data logger in Khaitan, can one logger watch a single refrigerator in a Khaitan grocery?",
                 answer:
-                  "Yes. One logger with a phone alert can watch a lone cooler as long as a router is within reach, and the account can take more points as the shop grows.",
+                  "Yes. One logger with a phone alert can watch a lone cooler as long as a router is within reach, and the account can take more points as the shop grows.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why record a butcher's back room as well as the display counter?",
@@ -27215,7 +27215,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Khaitan | Prithvi",
             metaDescription:
-              "Khaitan, Kuwait: data loggers for corner groceries, butchers, bakers, pharmacies and back-room stockrooms in blazing dry heat. Get Solution: Khaitan.",
+              "Khaitan: temperature data loggers for corner groceries, butchers, bakers, pharmacies and back-room stockrooms in blazing dry heat. Get Solution: Khaitan.",
             indexable: true,
           },
           {
@@ -27223,7 +27223,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Jleeb Al-Shuyoukh",
             type: "city",
             intro:
-              "Jleeb Al-Shuyoukh is a crowded neighbourhood on the southern side of Kuwait's inland belt, packed with apartment blocks, wholesale markets, small shops and warehouses, and a temperature data logger here serves a district where food and household goods are bought, stored and resold in huge quantities in blazing dry heat. Wholesalers sell to shopkeepers from across the country, trucks load and unload in narrow streets, and families live above the shops. Clinics and pharmacies serve the blocks. Summers are blazing, winters mild, and dust storms blow in from the desert, while market lanes stay crowded with shoppers, handcarts and pickups from the early morning to late at night. Enquiries from Jleeb Al-Shuyoukh are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Jleeb Al-Shuyoukh mostly serves food and beverage sites, as well as logistics and warehousing sites. Jleeb Al-Shuyoukh is a crowded neighbourhood on the southern side of Kuwait's inland belt, packed with apartment blocks, wholesale markets, small shops and warehouses, and a temperature data logger here serves a district where food and household goods are bought, stored and resold in huge quantities in blazing dry heat. Wholesalers sell to shopkeepers from across the country, trucks load and unload in narrow streets, and families live above the shops. Clinics and pharmacies serve the blocks. Summers are blazing, winters mild, and dust storms blow in from the desert, while market lanes stay crowded with shoppers, handcarts and pickups from the early morning to late at night. Enquiries from Jleeb Al-Shuyoukh are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "Heat builds between close-packed buildings and lingers after dark, trucks idle and load in narrow lanes, and dust coats every vent, so wholesale cold rooms and warehouse stocks work against the weather for months. Goods stacked to the ceiling in a shed under a metal roof can be far hotter at the top than at the floor, and a chiller that fails during the night shift may lose its contents before the market opens. Many cold rooms are squeezed into the ground floors of residential blocks, so heat from compressors has nowhere to go, and a door propped open during a busy loading can let the room warm for an hour before anyone notices.",
             areas: [
@@ -27285,9 +27285,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Jleeb Al-Shuyoukh wholesaler give a customer a temperature record?",
+                question: "With a temperature data logger in Jleeb Al-Shuyoukh, can a Jleeb Al-Shuyoukh wholesaler give a customer a temperature record?",
                 answer:
-                  "Yes. A report for the dates a lot stood in a cold room can be exported in PDF, Excel or CSV form and passed to the customer or an inspector.",
+                  "Yes. A report for the dates a lot stood in a cold room can be exported in PDF, Excel or CSV form and passed to the customer or an inspector.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why does stock stacked to the ceiling need probes at several heights?",
@@ -27311,7 +27311,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Jleeb Al-Shuyoukh | Prithvi",
             metaDescription:
-              "Jleeb Al-Shuyoukh, Kuwait: data loggers for wholesale cold rooms, warehouses, shops and clinics in dry heat and dust. Get Solution: Jleeb Al-Shuyoukh.",
+              "Jleeb Al-Shuyoukh: temperature data loggers for wholesale cold rooms, warehouses, shops and clinics in dry heat and dust. Get Solution: Jleeb Al-Shuyoukh.",
             indexable: true,
           },
         ],
@@ -27321,7 +27321,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Ahmadi Governorate",
         type: "state",
         intro:
-          "Ahmadi Governorate stretches along the Gulf coast to the south of the capital, a long ribbon of towns where a quiet planned town of tree-lined streets and villas sits not far from a busy seafront strip of shops, restaurants and apartment blocks. Ahmadi is the planned town, with gardens, a hospital and a central square, while Fahaheel is a lively commercial town with a long shore road, markets, cafes and heavy traffic. Summers are blazing and dry, the air by the water turns humid, winters are mild, and dust storms blow in from the desert. Groceries, medicines and household goods sit in shops, kitchens and clinics through that heat. The pages below cover the two towns and the rooms where a temperature record would help.",
+          "A temperature data logger in Ahmadi Governorate mostly serves shops, supermarkets and food retail, as well as restaurants, cafes and catering kitchens. Ahmadi Governorate stretches along the Gulf coast to the south of the capital, a long ribbon of towns where a quiet planned town of tree-lined streets and villas sits not far from a busy seafront strip of shops, restaurants and apartment blocks. Ahmadi is the planned town, with gardens, a hospital and a central square, while Fahaheel is a lively commercial town with a long shore road, markets, cafes and heavy traffic. Summers are blazing and dry, the air by the water turns humid, winters are mild, and dust storms blow in from the desert. Groceries, medicines and household goods sit in shops, kitchens and clinics through that heat. The pages below cover the two towns and the rooms where a temperature record would help.",
         localIndustries: [
           "Shops, supermarkets and food retail",
           "Restaurants, cafes and catering kitchens",
@@ -27333,9 +27333,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from Ahmadi Governorate are handled through the enquiry form, Call or WhatsApp. Say which town, which rooms and how they are cooled, and we come back with what seems suitable at the site.",
         faqs: [
           {
-            question: "Which places in Ahmadi Governorate have a page?",
+            question: "Where can I find a temperature data logger in Ahmadi Governorate?",
             answer:
-              "Ahmadi, Fahaheel, Wafra and Khiran each have a city page. Shuaiba Industrial Area, Shuaiba Port and Mina Al Ahmadi have area pages under Ahmadi. A town elsewhere along the southern coast can be raised through the enquiry form.",
+              "Ahmadi, Fahaheel, Wafra and Khiran each have a city page. Shuaiba Industrial Area, Shuaiba Port and Mina Al Ahmadi have area pages under Ahmadi. A town elsewhere along the southern coast can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why would a green planned town differ from a seafront strip for storage?",
@@ -27367,7 +27367,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Ahmadi",
             type: "city",
             intro:
-              "Ahmadi is a planned town south of Kuwait City, laid out with wide tree-lined streets, gardens, villas and a central square, and a temperature data logger here serves a quiet place of clinics, a hospital, supermarkets, kitchens and workshops in blazing summer heat. Greenery gives the streets more shade than most towns in the country, schools and shops serve the families who live there, and a hospital and pharmacies serve the district. Summers are blazing and dry, the air turns humid when the sea breeze arrives, and dust storms blow in from the desert in some seasons, while in the cooler months families gather in the gardens and the central square in the evenings. Enquiries from Ahmadi are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Ahmadi mostly serves hospital and blood bank sites, as well as pharmaceutical sites. Ahmadi is a planned town south of Kuwait City, laid out with wide tree-lined streets, gardens, villas and a central square, and a temperature data logger here serves a quiet place of clinics, a hospital, supermarkets, kitchens and workshops in blazing summer heat. Greenery gives the streets more shade than most towns in the country, schools and shops serve the families who live there, and a hospital and pharmacies serve the district. Summers are blazing and dry, the air turns humid when the sea breeze arrives, and dust storms blow in from the desert in some seasons, while in the cooler months families gather in the gardens and the central square in the evenings. Enquiries from Ahmadi are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "Shade and gardens soften the heat a little in the evening but the afternoons are blazing, dust coats every vent and compressor, and the sea breeze carries humidity inland, so supermarket coolers, clinic refrigerators and workshop stores work against the weather for months. A refrigerator in a quiet street that fails on a summer night warms quickly, and quiet suburban roads mean a failed unit is often noticed late.",
             areas: [
@@ -27429,9 +27429,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can an Ahmadi supermarket or school kitchen use temperature loggers?",
+                question: "With a temperature data logger in Ahmadi, can an Ahmadi supermarket or school kitchen use temperature loggers?",
                 answer:
-                  "A logger in each cooler and freezer keeps a round-the-clock record, and a report for any period can be saved as a PDF, Excel or CSV file for an inspector or a school.",
+                  "A logger in each cooler and freezer keeps a round-the-clock record, and a report for any period can be saved as a PDF, Excel or CSV file for an inspector or a school.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why would a shaded planned town still need humidity readings?",
@@ -27455,7 +27455,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Ahmadi | Prithvi",
             metaDescription:
-              "Ahmadi, Kuwait: data loggers for the hospital, pharmacies, supermarkets and school kitchens of a planned green town in blazing heat. Get Solution: Ahmadi.",
+              "Ahmadi: temperature data loggers for the hospital, pharmacies, supermarkets and school kitchens of a planned green town in blazing heat. Get Solution.",
             indexable: true,
           },
           {
@@ -27463,7 +27463,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Fahaheel",
             type: "city",
             intro:
-              "Fahaheel is a lively commercial town on the Gulf coast south of Kuwait City, with a long shore road, markets, restaurants, shops and apartment blocks, and a temperature data logger here serves a busy place of kitchens, cafes, supermarkets and small stockrooms in blazing summer heat and humid shore air. Families come to eat along the seafront in the cooler evenings, shopkeepers carry crates through crowded back lanes, and traffic is heavy at almost any hour. Clinics and pharmacies serve the apartment blocks. Summers are blazing, winters are mild, and dust storms blow in from the desert, while on weekend evenings the promenade fills with walkers and the cafes and grills stay open late. Enquiries from Fahaheel are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Fahaheel mostly serves food and beverage sites, as well as pharmaceutical sites. Fahaheel is a lively commercial town on the Gulf coast south of Kuwait City, with a long shore road, markets, restaurants, shops and apartment blocks, and a temperature data logger here serves a busy place of kitchens, cafes, supermarkets and small stockrooms in blazing summer heat and humid shore air. Families come to eat along the seafront in the cooler evenings, shopkeepers carry crates through crowded back lanes, and traffic is heavy at almost any hour. Clinics and pharmacies serve the apartment blocks. Summers are blazing, winters are mild, and dust storms blow in from the desert, while on weekend evenings the promenade fills with walkers and the cafes and grills stay open late. Enquiries from Fahaheel are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "Heat and humidity gather along the seafront, salt reaches every service yard and basement, and heavy traffic keeps vans idling and loading in the sun, so kitchen chillers, shop coolers and stockrooms work against the weather for months. Restaurant kitchens add their own heat to the load on the cooling, and a chiller that fails during a busy weekend evening can lose its stock before anyone is free to look. Many kitchens here are fed by vans that park at the kerb in strong sun, so cartons of fish, dairy and meat may stand on the pavement for a while before they reach a fridge, and the loss is only discovered at service.",
             areas: [
@@ -27525,9 +27525,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Fahaheel restaurant group watch every kitchen from one login?",
+                question: "With a temperature data logger in Fahaheel, can a Fahaheel restaurant group watch every kitchen from one login?",
                 answer:
-                  "Yes. Every kitchen and pantry reports to one dashboard, each alert reaches its own engineer, and a manager can export a single report that covers all the rooms.",
+                  "Yes. Every kitchen and pantry reports to one dashboard, each alert reaches its own engineer, and a manager can export a single report that covers all the rooms.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why does a basement stockroom near the sea need a humidity reading?",
@@ -27552,7 +27552,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Fahaheel | Prithvi",
             metaDescription:
-              "Fahaheel, Kuwait: data loggers for seafront restaurant kitchens, markets, pharmacies and back-lane stockrooms in blazing heat. Get Solution: Fahaheel.",
+              "Fahaheel: temperature data loggers for seafront restaurant kitchens, markets, pharmacies and back-lane stockrooms in blazing heat. Get Solution: Fahaheel.",
             indexable: true,
           },
           {
@@ -27560,7 +27560,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Wafra",
             type: "city",
             intro:
-              "Wafra is a farming district far to the south of Kuwait, where greenhouses, irrigated plots, animal farms and date groves are scattered across open desert, and a temperature data logger here serves a place of farm cold rooms, produce sheds, feed stores and small shops in blazing dry heat. Growers raise vegetables and fruit under cover, farms keep sheep, cattle and poultry, and trucks carry produce to markets in the city along long straight roads. A clinic and a few shops serve the farm workers and families. Summers are blazing, winters are mild and cool at night, and dust storms blow in from the desert, while the farms start work at dawn to beat the heat and the trucks leave before the sun is high. Enquiries from Wafra are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Wafra mostly serves food and beverage sites, as well as logistics and warehousing sites. Wafra is a farming district far to the south of Kuwait, where greenhouses, irrigated plots, animal farms and date groves are scattered across open desert, and a temperature data logger here serves a place of farm cold rooms, produce sheds, feed stores and small shops in blazing dry heat. Growers raise vegetables and fruit under cover, farms keep sheep, cattle and poultry, and trucks carry produce to markets in the city along long straight roads. A clinic and a few shops serve the farm workers and families. Summers are blazing, winters are mild and cool at night, and dust storms blow in from the desert, while the farms start work at dawn to beat the heat and the trucks leave before the sun is high. Enquiries from Wafra are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The land is flat, open and exposed, so summer sun and wind-blown sand strike every shed and greenhouse, nights are cooler in winter than most visitors expect, and greenhouses trap heat and moisture together. Produce picked in the heat loses quality fast, and a farm cold room that fails on a summer afternoon can lose a whole day's harvest before the trucks arrive.",
             areas: [
@@ -27622,9 +27622,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Wafra farm use a temperature record for a harvest lot?",
+                question: "With a temperature data logger in Wafra, can a Wafra farm use a temperature record for a harvest lot?",
                 answer:
-                  "A logger in the cool room records temperature and humidity through the day, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for a buyer.",
+                  "A logger in the cool room records temperature and humidity through the day, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for a buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why does a greenhouse produce shed want humidity as well as temperature?",
@@ -27648,7 +27648,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Wafra | Prithvi",
             metaDescription:
-              "Wafra, Kuwait: data loggers for greenhouse produce sheds, packing cold rooms, animal-farm stores and the clinic in dry heat. Get Solution to cover Wafra.",
+              "Wafra: temperature data loggers for greenhouse produce sheds, packing cold rooms, animal-farm stores and the clinic in dry heat. Get Solution for Wafra.",
             indexable: true,
           },
           {
@@ -27656,7 +27656,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Khiran",
             type: "city",
             intro:
-              "Khiran is a beach-side district on the far southern coast of Kuwait, with holiday homes, chalets, small marinas and a long stretch of shallow shore, and a temperature data logger here serves a place of kitchens, small shops, boat stores and a clinic in blazing summer heat and humid shore air. Weekend and holiday visitors fill the chalets, boat owners keep supplies in small stores beside the water, and a few shops, cafes and a clinic serve residents and visitors. The district is quiet in the working week and crowded at weekends, when families arrive with boats, barbecues and cool boxes. Summers are blazing, winters are mild, and dust storms blow in from the desert. Enquiries from Khiran are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Khiran mostly serves food and beverage sites, as well as hospital and blood bank sites. Khiran is a beach-side district on the far southern coast of Kuwait, with holiday homes, chalets, small marinas and a long stretch of shallow shore, and a temperature data logger here serves a place of kitchens, small shops, boat stores and a clinic in blazing summer heat and humid shore air. Weekend and holiday visitors fill the chalets, boat owners keep supplies in small stores beside the water, and a few shops, cafes and a clinic serve residents and visitors. The district is quiet in the working week and crowded at weekends, when families arrive with boats, barbecues and cool boxes. Summers are blazing, winters are mild, and dust storms blow in from the desert. Enquiries from Khiran are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The shore is hot and humid, salt reaches every shed and boat store, and open land behind the chalets lets wind carry sand into every vent, so small coolers and chillers work hard against the weather and a failure on a quiet weekday can go unnoticed. Demand for cooling swings between an empty week and a crowded weekend, and perishable stock bought for a busy weekend can be wasted if a cooler fails on the Thursday night before visitors arrive.",
             areas: [
@@ -27718,9 +27718,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can one logger watch a single cooler in a Khiran cafe?",
+                question: "With a temperature data logger in Khiran, can one logger watch a single cooler in a Khiran cafe?",
                 answer:
-                  "Yes. A single logger with a phone alert can watch one cooler as long as a router is within reach, and extra points can be added to the account later.",
+                  "Yes. A single logger with a phone alert can watch one cooler as long as a router is within reach, and extra points can be added to the account later.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why is an alert useful for a business that is quiet in the week?",
@@ -27744,7 +27744,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Khiran | Prithvi",
             metaDescription:
-              "Khiran, Kuwait: data loggers for chalet kitchens, cafes, marina stores and the clinic on the far southern shore in humid heat. Use Get Solution for Khiran.",
+              "Khiran: temperature data loggers for chalet kitchens, cafes, marina stores and the clinic on the far southern shore in humid heat. Get Solution for Khiran.",
             indexable: true,
           },
         ],
@@ -27754,7 +27754,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Jahra Governorate",
         type: "state",
         intro:
-          "Jahra Governorate covers a wide stretch of western Kuwait beyond the head of the bay, a flat country of farms, livestock yards, trading yards, industrial districts and housing that spreads out along the main roads. Jahra is the main town, with a large hospital, markets and farms at its edge, while Sulaibiya is a sprawling district of warehouses, workshops, yards and housing, and the Amghara Industrial Area lies near Jahra with workshops and trading yards. Summers are blazing and dry, winters mild and cool at night, and dust storms are frequent. Food, animal feed, medicines and building materials wait in sheds and warehouses in such heat. The pages below cover the two towns and the two industrial areas.",
+          "A temperature data logger in Jahra Governorate mostly serves farms, livestock and animal feed, as well as industrial and warehouse storage. Jahra Governorate covers a wide stretch of western Kuwait beyond the head of the bay, a flat country of farms, livestock yards, trading yards, industrial districts and housing that spreads out along the main roads. Jahra is the main town, with a large hospital, markets and farms at its edge, while Sulaibiya is a sprawling district of warehouses, workshops, yards and housing, and the Amghara Industrial Area lies near Jahra with workshops and trading yards. Summers are blazing and dry, winters mild and cool at night, and dust storms are frequent. Food, animal feed, medicines and building materials wait in sheds and warehouses in such heat. The pages below cover the two towns and the two industrial areas.",
         localIndustries: [
           "Farms, livestock and animal feed",
           "Industrial and warehouse storage",
@@ -27766,9 +27766,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from Jahra Governorate are handled through the enquiry form, Call or WhatsApp. State the town, the rooms and how they are cooled, and we come back with what looks workable on site.",
         faqs: [
           {
-            question: "Which places in Jahra Governorate have a page?",
+            question: "Where can I find a temperature data logger in Jahra Governorate?",
             answer:
-              "Jahra and Sulaibiya each have a city page. Sulaibiya Industrial Area has an area page under Sulaibiya, and Amghara Industrial Area has one under Jahra. A place elsewhere in the west can be raised through the enquiry form.",
+              "Jahra and Sulaibiya each have a city page. Sulaibiya Industrial Area has an area page under Sulaibiya, and Amghara Industrial Area has one under Jahra. A place elsewhere in the west can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why do big yards and warehouses suit multi-point loggers?",
@@ -27797,7 +27797,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Jahra",
             type: "city",
             intro:
-              "Jahra is a large town in western Kuwait beyond the head of Kuwait Bay, a flat sprawl of housing, markets, farms and livestock yards, and a temperature data logger here serves a place of a big hospital, supermarkets, butchers, kitchens and stockrooms in blazing dry heat. Families from a wide district come to shop in its markets, farms lie at the edge of town, and a large hospital and pharmacies serve the surrounding neighbourhoods. Winters are mild and cool at night, summers are blazing, and dust storms blow in from the desert, while the markets stay busy into the evening and the farms on the edge of town start work at first light. Enquiries from Jahra are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Jahra mostly serves hospital and blood bank sites, as well as pharmaceutical sites. Jahra is a large town in western Kuwait beyond the head of Kuwait Bay, a flat sprawl of housing, markets, farms and livestock yards, and a temperature data logger here serves a place of a big hospital, supermarkets, butchers, kitchens and stockrooms in blazing dry heat. Families from a wide district come to shop in its markets, farms lie at the edge of town, and a large hospital and pharmacies serve the surrounding neighbourhoods. Winters are mild and cool at night, summers are blazing, and dust storms blow in from the desert, while the markets stay busy into the evening and the farms on the edge of town start work at first light. Enquiries from Jahra are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "Jahra sits inland of the bay, so the air is bone dry in summer, walls and paving hold the heat after dark, dust storms are frequent, and the open land around town gives no shelter, so shop coolers, farm sheds and clinic refrigerators work against the weather for months. A stockroom behind a shop can run far hotter than the sales floor, and a refrigerator that fails on a summer night warms quickly.",
             areas: [
@@ -27859,9 +27859,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Jahra butcher or supermarket use temperature loggers?",
+                question: "With a temperature data logger in Jahra, can a Jahra butcher or supermarket use temperature loggers?",
                 answer:
-                  "A logger in each cold room and cabinet keeps a round-the-clock record, and a report for any period can be saved as a PDF, Excel or CSV file for an inspector or a client.",
+                  "A logger in each cold room and cabinet keeps a round-the-clock record, and a report for any period can be saved as a PDF, Excel or CSV file for an inspector or a client.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why would a farm near town want a record for veterinary medicines?",
@@ -27886,7 +27886,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Jahra | Prithvi",
             metaDescription:
-              "Jahra, Kuwait: data loggers for the hospital, butchers, supermarkets, farm stores and yards in blazing dry heat and dust. Get Solution to begin in Jahra.",
+              "Jahra: temperature data loggers for the hospital, butchers, supermarkets, farm stores and yards in blazing dry heat and dust. Get Solution for Jahra.",
             indexable: true,
           },
           {
@@ -27894,7 +27894,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Sulaibiya",
             type: "city",
             intro:
-              "Sulaibiya is a sprawling district on the flat western plain of Kuwait, packed with warehouses, workshops, storage yards, farms and blocks of housing, and a temperature data logger here serves a place of wholesale stores, trading yards, small factories and shops in blazing dry heat. Trucks load and unload along wide roads, goods of every kind are stored in rows of sheds, and families live in estates between the yards. Clinics and pharmacies serve the housing. Summers are blazing, winters mild and cool at night, and dust storms are frequent, while the roads fill with lorries and pickups from before dawn and the estates empty out in the heat of the afternoon. Enquiries from Sulaibiya are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Sulaibiya mostly serves logistics and warehousing sites, as well as food and beverage sites. Sulaibiya is a sprawling district on the flat western plain of Kuwait, packed with warehouses, workshops, storage yards, farms and blocks of housing, and a temperature data logger here serves a place of wholesale stores, trading yards, small factories and shops in blazing dry heat. Trucks load and unload along wide roads, goods of every kind are stored in rows of sheds, and families live in estates between the yards. Clinics and pharmacies serve the housing. Summers are blazing, winters mild and cool at night, and dust storms are frequent, while the roads fill with lorries and pickups from before dawn and the estates empty out in the heat of the afternoon. Enquiries from Sulaibiya are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The plain is wide open, so summer sun and wind-blown sand strike every shed, paving holds the heat after dark, and dust storms are frequent, so warehouse stock, wholesale cold rooms and shop coolers work against the weather for months. Goods stacked high under metal roofs are far hotter at the top than at the floor, and a chiller that fails during the night can lose its contents before the yard opens. Many sheds here are rented by the bay to different traders, so a pallet of chilled goods may sit in a shared hall without anyone responsible for watching its temperature, and loss is blamed on the carrier.",
             areas: [
@@ -27956,9 +27956,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Sulaibiya wholesaler give a customer a temperature record?",
+                question: "With a temperature data logger in Sulaibiya, can a Sulaibiya wholesaler give a customer a temperature record?",
                 answer:
-                  "Yes. A report for the dates a lot stood in a cold room can be exported in PDF, Excel or CSV form and handed to the customer or an inspector.",
+                  "Yes. A report for the dates a lot stood in a cold room can be exported in PDF, Excel or CSV form and handed to the customer or an inspector.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why does stock stacked high need probes at several heights?",
@@ -27983,7 +27983,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Sulaibiya | Prithvi",
             metaDescription:
-              "Sulaibiya, Kuwait: data loggers for wholesale cold rooms, warehouses, trading yards and workshops on the flat western plain. Get Solution for Sulaibiya.",
+              "Sulaibiya: temperature data loggers for wholesale cold rooms, warehouses, trading yards and workshops on the flat western plain. Get Solution: Sulaibiya.",
             indexable: true,
           },
         ],
@@ -27993,7 +27993,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Mubarak Al-Kabeer Governorate",
         type: "state",
         intro:
-          "Mubarak Al-Kabeer Governorate lies along the Gulf coast south-east of the capital, a belt of quiet residential suburbs where villas, low apartment blocks, schools, mosques, clinics and neighbourhood shops line planned streets, with a strip of beach and sea road to the east. Sabah Al Salem stretches along the shore with its wide avenues and community centres, while Mubarak Al-Kabeer itself is a settled residential area of shops, bakeries, clinics and small workshops. Summers are blazing and dry, the air by the sea turns humid, winters are mild, and dust storms blow in from the desert. Food, medicines and household goods wait in shops, kitchens and clinics in such heat. The pages below cover the two suburbs and the rooms where a temperature record would help.",
+          "A temperature data logger in Mubarak Al-Kabeer Governorate mostly serves neighbourhood shops and food retail, as well as bakeries, kitchens and catering. Mubarak Al-Kabeer Governorate lies along the Gulf coast south-east of the capital, a belt of quiet residential suburbs where villas, low apartment blocks, schools, mosques, clinics and neighbourhood shops line planned streets, with a strip of beach and sea road to the east. Sabah Al Salem stretches along the shore with its wide avenues and community centres, while Mubarak Al-Kabeer itself is a settled residential area of shops, bakeries, clinics and small workshops. Summers are blazing and dry, the air by the sea turns humid, winters are mild, and dust storms blow in from the desert. Food, medicines and household goods wait in shops, kitchens and clinics in such heat. The pages below cover the two suburbs and the rooms where a temperature record would help.",
         localIndustries: [
           "Neighbourhood shops and food retail",
           "Bakeries, kitchens and catering",
@@ -28005,9 +28005,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from Mubarak Al-Kabeer Governorate are handled through the enquiry form, Call or WhatsApp. Say which suburb, which rooms and how they are cooled, and we reply with what seems suitable on site.",
         faqs: [
           {
-            question: "Which places in Mubarak Al-Kabeer Governorate have a page?",
+            question: "Where can I find a temperature data logger in Mubarak Al-Kabeer Governorate?",
             answer:
-              "Sabah Al Salem and Mubarak Al-Kabeer each have a city page. Another suburb can be raised through the enquiry form, and further pages follow only when they can be written from confident facts.",
+              "Sabah Al Salem and Mubarak Al-Kabeer each have a city page. Another suburb can be raised through the enquiry form, and further pages follow only when they can be written from confident facts.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why do quiet residential streets still want phone alerts?",
@@ -28032,7 +28032,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Sabah Al Salem",
             type: "city",
             intro:
-              "Sabah Al Salem is a coastal suburb south-east of Kuwait City, laid out with wide avenues, villas, low apartment blocks, schools and neighbourhood shopping parades beside the Gulf shore, and a temperature data logger here serves a quiet residential place of supermarkets, bakeries, clinics and kitchens in blazing summer heat and humid sea air. Families shop at large supermarkets and small groceries, bakeries and takeaways open early, and clinics and pharmacies serve the streets. A sea road runs along the shore. Summers are blazing, winters are mild, and dust storms blow in from the desert, while on cooler evenings families walk the sea road and the avenues fill with parked cars outside the cafes and bakeries. Enquiries from Sabah Al Salem are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Sabah Al Salem mostly serves food and beverage sites, as well as pharmaceutical sites. Sabah Al Salem is a coastal suburb south-east of Kuwait City, laid out with wide avenues, villas, low apartment blocks, schools and neighbourhood shopping parades beside the Gulf shore, and a temperature data logger here serves a quiet residential place of supermarkets, bakeries, clinics and kitchens in blazing summer heat and humid sea air. Families shop at large supermarkets and small groceries, bakeries and takeaways open early, and clinics and pharmacies serve the streets. A sea road runs along the shore. Summers are blazing, winters are mild, and dust storms blow in from the desert, while on cooler evenings families walk the sea road and the avenues fill with parked cars outside the cafes and bakeries. Enquiries from Sabah Al Salem are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The suburb is close enough to the water for humid air to reach the streets on summer evenings, yet the afternoons are blazing and dusty, so supermarket coolers, bakery chillers and clinic refrigerators work against the weather for months. Broad parking areas heat up in the sun, supply vans stand with their cartons in the glare, and a chiller that fails in a shuttered shop at midday may go unnoticed for hours.",
             areas: [
@@ -28094,9 +28094,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Sabah Al Salem bakery or supermarket use temperature loggers?",
+                question: "With a temperature data logger in Sabah Al Salem, can a Sabah Al Salem bakery or supermarket use temperature loggers?",
                 answer:
-                  "A logger in each cooler and freezer keeps a round-the-clock record, and a report for any period can be exported in PDF, Excel or CSV form for an inspector or a client.",
+                  "A logger in each cooler and freezer keeps a round-the-clock record, and a report for any period can be exported in PDF, Excel or CSV form for an inspector or a client.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why would a suburban shop that closes at midday want an alert?",
@@ -28121,7 +28121,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Sabah Al Salem | Prithvi",
             metaDescription:
-              "Sabah Al Salem, Kuwait: data loggers for supermarkets, bakeries, clinics and shop stockrooms in heat and humid sea air. Get Solution: Sabah Al Salem.",
+              "Sabah Al Salem: temperature data loggers for supermarkets, bakeries, clinics and shop stockrooms in heat and humid sea air. Get Solution: Sabah Al Salem.",
             indexable: true,
           },
           {
@@ -28129,7 +28129,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Mubarak Al-Kabeer",
             type: "city",
             intro:
-              "Mubarak Al-Kabeer is a settled residential area south-east of Kuwait City, with villas, apartment blocks, mosques, schools and parades of shops and workshops on planned streets, and a temperature data logger here serves a quiet district of groceries, bakeries, clinics and small stockrooms in blazing dry heat. Shopkeepers open early and close during the hottest part of the afternoon, bakeries and sandwich counters serve the school run, and clinics and pharmacies serve the streets. Winters are mild, summers are fierce and dry, and dust drifts across the planned streets in spring, while the mosques, schools and parades fill the district with a regular daily rhythm of prayer times, school runs and shop hours. Enquiries from Mubarak Al-Kabeer are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Mubarak Al-Kabeer mostly serves food and beverage sites, as well as pharmaceutical sites. Mubarak Al-Kabeer is a settled residential area south-east of Kuwait City, with villas, apartment blocks, mosques, schools and parades of shops and workshops on planned streets, and a temperature data logger here serves a quiet district of groceries, bakeries, clinics and small stockrooms in blazing dry heat. Shopkeepers open early and close during the hottest part of the afternoon, bakeries and sandwich counters serve the school run, and clinics and pharmacies serve the streets. Winters are mild, summers are fierce and dry, and dust drifts across the planned streets in spring, while the mosques, schools and parades fill the district with a regular daily rhythm of prayer times, school runs and shop hours. Enquiries from Mubarak Al-Kabeer are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "The district lies a little back from the shore, so the air is drier than at the beach but the heat is just as fierce, paving and walls hold it after dark, and fine dust coats every vent and compressor, so small coolers work harder than their size suggests. Shops that shut during the afternoon leave stock in coolers and stockrooms that keep warming, and a failed refrigerator is only found when the shutters rise. Shops depend on a handful of suppliers whose vans arrive at fixed times, so a spoilt batch cannot easily be replaced the same day, and the cost of a failed cooler is felt for the whole week.",
             areas: [
@@ -28191,9 +28191,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can one logger watch a single refrigerator in a Mubarak Al-Kabeer grocery?",
+                question: "With a temperature data logger in Mubarak Al-Kabeer, can one logger watch a single refrigerator in a Mubarak Al-Kabeer grocery?",
                 answer:
-                  "Yes. A lone logger with a phone alert can watch one cooler as long as a router is within reach, and the account can take more points as the business grows.",
+                  "Yes. A lone logger with a phone alert can watch one cooler as long as a router is within reach, and the account can take more points as the business grows.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why is a record useful when a shop shuts for the afternoon?",
@@ -28218,7 +28218,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Mubarak Al-Kabeer | Prithvi",
             metaDescription:
-              "Mubarak Al-Kabeer, Kuwait: data loggers for groceries, bakeries, clinics and stockrooms in blazing dry heat. Get Solution to begin in Mubarak Al-Kabeer.",
+              "Mubarak Al-Kabeer: temperature data loggers for groceries, bakeries, clinics and stockrooms in blazing dry heat. Get Solution for Mubarak Al-Kabeer.",
             indexable: true,
           },
         ],
@@ -28270,7 +28270,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Capital Governorate",
         type: "state",
         intro:
-          "The Capital Governorate holds Manama and its surroundings on the north-east of Bahrain's main island, a dense strip of towers, covered markets, hotels, hospitals, shopping streets and apartment blocks packed along the Gulf shore. A waterfront district of glass towers and a commercial quarter of malls and offices have grown on reclaimed ground along the northern coast, while a commercial port stands to the south-east. Summers are long, very hot and humid, winters mild and pleasant, and dust and sea haze blow in on some days. Food, medicines and household goods wait in kitchens, clinics and warehouses in such air. The pages below cover the city, the built-up districts of Juffair and Adliya, two commercial and waterfront districts and the port.",
+          "A temperature data logger in Capital Governorate mostly serves hospitals, clinics and pharmacies, as well as hotel, restaurant and catering kitchens. The Capital Governorate holds Manama and its surroundings on the north-east of Bahrain's main island, a dense strip of towers, covered markets, hotels, hospitals, shopping streets and apartment blocks packed along the Gulf shore. A waterfront district of glass towers and a commercial quarter of malls and offices have grown on reclaimed ground along the northern coast, while a commercial port stands to the south-east. Summers are long, very hot and humid, winters mild and pleasant, and dust and sea haze blow in on some days. Food, medicines and household goods wait in kitchens, clinics and warehouses in such air. The pages below cover the city, the built-up districts of Juffair and Adliya, two commercial and waterfront districts and the port.",
         localIndustries: [
           "Hospitals, clinics and pharmacies",
           "Hotel, restaurant and catering kitchens",
@@ -28282,9 +28282,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from the Capital Governorate are handled through the enquiry form, Call or WhatsApp. Say which district, which rooms and how they are cooled, and our reply sets out what seems suitable for the site.",
         faqs: [
           {
-            question: "Which places in the Capital Governorate have a page?",
+            question: "Where can I find a temperature data logger in Capital Governorate?",
             answer:
-              "Manama, Juffair and Adliya have city pages. Bahrain Financial Harbour, Seef District and Mina Salman Port have area pages under Manama. A district not listed here can still be raised through the enquiry form.",
+              "Manama, Juffair and Adliya have city pages. Bahrain Financial Harbour, Seef District and Mina Salman Port have area pages under Manama. A district not listed here can still be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why does hot, humid air call for humidity records as well as temperature?",
@@ -28315,7 +28315,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Manama",
             type: "city",
             intro:
-              "Manama is the capital of Bahrain, a dense harbour city on the north-east shore of the main island, and a temperature data logger here serves a place of hospitals, hotels, covered markets, supermarkets and warehouses in hot, humid sea air. Towers of glass rise beside old market lanes, a corniche follows the water, and apartment blocks, clinics and shopping streets fill the districts behind. A commercial port lies to the south-east, and reclaimed land along the north coast carries newer districts of offices, malls and hotels. Summers are long and very damp, winters are mild, and dust and sea haze blow in on some days, so food, medicines and dry goods all need watching in rooms that rely on air-conditioning. Enquiries from Manama are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Manama mostly serves hospital and blood bank sites, as well as pharmaceutical sites. Manama is the capital of Bahrain, a dense harbour city on the north-east shore of the main island, and a temperature data logger here serves a place of hospitals, hotels, covered markets, supermarkets and warehouses in hot, humid sea air. Towers of glass rise beside old market lanes, a corniche follows the water, and apartment blocks, clinics and shopping streets fill the districts behind. A commercial port lies to the south-east, and reclaimed land along the north coast carries newer districts of offices, malls and hotels. Summers are long and very damp, winters are mild, and dust and sea haze blow in on some days, so food, medicines and dry goods all need watching in rooms that rely on air-conditioning. Enquiries from Manama are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "Heat and humidity peak together through the long summer, salt reaches every shed and service yard, and the narrow lanes of the old districts trap warm air that never fully clears at night. A cooler that loses power on an August afternoon warms fast, vehicles standing in the sun reach far higher temperatures than the shaded air, and condensation forms the moment a cold door opens to the outside.",
             areas: [
@@ -28377,9 +28377,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Manama hotel, caterer or importer use temperature loggers?",
+                question: "With a temperature data logger in Manama, can a Manama hotel, caterer or importer use temperature loggers?",
                 answer:
-                  "A logger in every cooler, freezer and dry store keeps a round-the-clock record, and a report for any period can be exported in PDF, Excel or CSV form for an inspector or a client.",
+                  "A logger in every cooler, freezer and dry store keeps a round-the-clock record, and a report for any period can be exported in PDF, Excel or CSV form for an inspector or a client.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why does a market stock room need a humidity reading?",
@@ -28404,7 +28404,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Manama | Prithvi",
             metaDescription:
-              "Manama, Bahrain: data loggers for hospitals, hotel kitchens, market stock rooms and port-side warehouses in hot, humid sea air. Get Solution for Manama.",
+              "Manama: temperature data loggers for hospitals, hotel kitchens, market stock rooms and port-side warehouses in hot, humid sea air. Get Solution for Manama.",
             indexable: true,
           },
           {
@@ -28412,7 +28412,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Juffair",
             type: "city",
             intro:
-              "Juffair is a built-up district on the south-eastern edge of Manama, facing the Gulf, and a temperature data logger here serves tall apartment blocks, serviced flats, restaurants, supermarkets, small clinics and shops in hot, humid sea air. Residential towers stand shoulder to shoulder along broad avenues, ground floors are given over to cafes, bakeries and grocers, and back lanes hide storerooms and delivery bays for them all. Summers are long and damp, winters are mild, and dust and haze arrive on windy days, so air-conditioning runs from spring to autumn. Because so much food is prepared, sold and kept in small units, one failed cooler can spoil a day's trade. Enquiries from Juffair are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Juffair mostly serves food and beverage sites, as well as pharmaceutical sites. Juffair is a built-up district on the south-eastern edge of Manama, facing the Gulf, and a temperature data logger here serves tall apartment blocks, serviced flats, restaurants, supermarkets, small clinics and shops in hot, humid sea air. Residential towers stand shoulder to shoulder along broad avenues, ground floors are given over to cafes, bakeries and grocers, and back lanes hide storerooms and delivery bays for them all. Summers are long and damp, winters are mild, and dust and haze arrive on windy days, so air-conditioning runs from spring to autumn. Because so much food is prepared, sold and kept in small units, one failed cooler can spoil a day's trade. Enquiries from Juffair are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "Tall buildings throw hot, damp air back and forth between them, so the lanes behind the avenues stay warm after dark, and the rooftops that hold condensers soak up the sun all afternoon. A cooler squeezed into a narrow service passage struggles with that heat, and a refrigerator in a ground-floor shop meets a wall of moist air each time the door to the street is opened.",
             areas: [
@@ -28469,9 +28469,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a small shop or cafe in Juffair use a data logger?",
+                question: "With a temperature data logger in Juffair, can a small shop or cafe in Juffair use a data logger?",
                 answer:
-                  "Yes. One logger in each cooler or freezer gives a continuous record, a phone alert reaches the owner if a unit warms, and a report can be exported in PDF, Excel or CSV form.",
+                  "Yes. One logger in each cooler or freezer gives a continuous record, a phone alert reaches the owner if a unit warms, and a report can be exported in PDF, Excel or CSV form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why do ground-floor refrigerators suffer in tall districts?",
@@ -28496,7 +28496,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Juffair | Prithvi",
             metaDescription:
-              "Juffair, Bahrain: data loggers for apartment-block shops, cafe kitchens, clinics and serviced flats in hot, humid air. Get Solution for Juffair.",
+              "Juffair: temperature data loggers for apartment-block shops, cafe kitchens, clinics and serviced flats in hot, humid air. Get Solution for Juffair.",
             indexable: true,
           },
           {
@@ -28504,7 +28504,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Adliya",
             type: "city",
             intro:
-              "Adliya is a central district of Manama of low-rise villas, converted houses, cafes and quiet streets, and a temperature data logger here serves small kitchens, bakeries, specialist food shops, clinics and offices that occupy old buildings never planned for modern cooling. Restaurants and coffee houses fill lanes that were once residential, and shops sell chilled and fresh produce from compact premises. Summers are long and very humid, winters are mild, and haze and dust arrive on windy days. The older fabric of the district means thick walls, patched-in wiring and air-conditioners added room by room, so cooling quality varies from one property to the next, and a unit that suits one kitchen may struggle in the next. Enquiries from Adliya are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Adliya mostly serves food and beverage sites, as well as pharmaceutical sites. Adliya is a central district of Manama of low-rise villas, converted houses, cafes and quiet streets, and a temperature data logger here serves small kitchens, bakeries, specialist food shops, clinics and offices that occupy old buildings never planned for modern cooling. Restaurants and coffee houses fill lanes that were once residential, and shops sell chilled and fresh produce from compact premises. Summers are long and very humid, winters are mild, and haze and dust arrive on windy days. The older fabric of the district means thick walls, patched-in wiring and air-conditioners added room by room, so cooling quality varies from one property to the next, and a unit that suits one kitchen may struggle in the next. Enquiries from Adliya are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "Villas converted into kitchens and shops carry window units and split systems fitted where the old rooms allowed, so temperatures differ sharply between a front room and a back store. Narrow lanes shaded by neighbouring walls stay damp, and a small freezer on a covered terrace can run in far warmer air than the specification assumed. Rooftop condensers on low buildings share the same hot, still air, which makes breakdowns more likely in the deepest part of summer and harder to notice before stock is affected.",
             areas: [
@@ -28561,9 +28561,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Why is a converted villa harder to keep cool than a purpose-built unit?",
+                question: "With a temperature data logger in Adliya, why is a converted villa harder to keep cool than a purpose-built unit?",
                 answer:
-                  "Cooling is fitted room by room where the building allowed, so one corner may run much warmer than another, and a logger placed among the stored goods shows the real conditions in that spot.",
+                  "Cooling is fitted room by room where the building allowed, so one corner may run much warmer than another, and a logger placed among the stored goods shows the real conditions in that spot.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Can one login cover a cafe, a bakery and a shop owned by the same person?",
@@ -28588,7 +28588,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Adliya | Prithvi",
             metaDescription:
-              "Adliya, Bahrain: data loggers for villa-built cafe kitchens, bakeries, clinics and server cupboards in humid, hot air. Get Solution to begin in Adliya.",
+              "Adliya: temperature data loggers for villa-built cafe kitchens, bakeries, clinics and server cupboards in humid, hot air. Get Solution to begin in Adliya.",
             indexable: true,
           },
         ],
@@ -28598,7 +28598,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Muharraq Governorate",
         type: "state",
         intro:
-          "The Muharraq Governorate covers Muharraq Island and the shore around it to the north-east of Manama, joined to the capital by causeways. Narrow lanes of old houses and sweet shops sit close to newer housing towns, a seaside district with a harbour and warehouse zone lies at the south-east tip, and the island's airport occupies flat ground in the middle. Summers are long, very hot and humid, winters are mild, and haze and salt blow across the low land from every side. Food, medicines and general freight sit in small shops, home kitchens and larger sheds in that air. The pages below cover the old city, Hidd and its harbour district, Arad, Busaiteen and the Amwaj Islands.",
+          "A temperature data logger in Muharraq Governorate mostly serves food shops and sweet makers, as well as clinics and pharmacies. The Muharraq Governorate covers Muharraq Island and the shore around it to the north-east of Manama, joined to the capital by causeways. Narrow lanes of old houses and sweet shops sit close to newer housing towns, a seaside district with a harbour and warehouse zone lies at the south-east tip, and the island's airport occupies flat ground in the middle. Summers are long, very hot and humid, winters are mild, and haze and salt blow across the low land from every side. Food, medicines and general freight sit in small shops, home kitchens and larger sheds in that air. The pages below cover the old city, Hidd and its harbour district, Arad, Busaiteen and the Amwaj Islands.",
         localIndustries: [
           "Food shops and sweet makers",
           "Clinics and pharmacies",
@@ -28610,9 +28610,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from the Muharraq Governorate are handled through the enquiry form, Call or WhatsApp. Give the town, the rooms and the goods involved, and our reply outlines what seems suitable for the site.",
         faqs: [
           {
-            question: "Which places in the Muharraq Governorate have a page?",
+            question: "Where can I find a temperature data logger in Muharraq Governorate?",
             answer:
-              "Muharraq, Hidd, Arad, Busaiteen and the Amwaj Islands have city pages. The airport sits under Muharraq, and Khalifa Bin Salman Port and the Bahrain Logistics Zone sit under Hidd. Another town can be raised through the enquiry form.",
+              "Muharraq, Hidd, Arad, Busaiteen and the Amwaj Islands have city pages. The airport sits under Muharraq, and Khalifa Bin Salman Port and the Bahrain Logistics Zone sit under Hidd. Another town can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why do island sites need extra attention to humidity?",
@@ -28645,7 +28645,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Muharraq",
             type: "city",
             intro:
-              "Muharraq is the old town of Muharraq Island, a close-built place of narrow lanes, restored family houses, sweet makers, bakeries, markets and busy housing blocks beside the water, and a temperature data logger here serves small kitchens and food stores in buildings that were laid out long before modern cooling. Newer apartment streets and shop rows have grown around the old centre, and the airport sits on flat ground just to the north. The island is linked to Manama by causeways. Summers are long, very hot and humid, winters are mild, and haze and salt arrive from the sea on windy days, so air-conditioning and refrigeration run for most of the year. Enquiries from Muharraq are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Muharraq mostly serves food and beverage sites, as well as pharmaceutical sites. Muharraq is the old town of Muharraq Island, a close-built place of narrow lanes, restored family houses, sweet makers, bakeries, markets and busy housing blocks beside the water, and a temperature data logger here serves small kitchens and food stores in buildings that were laid out long before modern cooling. Newer apartment streets and shop rows have grown around the old centre, and the airport sits on flat ground just to the north. The island is linked to Manama by causeways. Summers are long, very hot and humid, winters are mild, and haze and salt arrive from the sea on windy days, so air-conditioning and refrigeration run for most of the year. Enquiries from Muharraq are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "Thick old walls hold heat long after sunset, and the tight lanes keep air still, so a back room never fully cools through a summer night. Salt air corrodes the coils of older fridges, shaded courtyards stay damp, and any unit that sits against a sun-baked wall is working in air much hotter than the street thermometer reads.",
             areas: [
@@ -28707,9 +28707,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a small sweet maker or bakery in Muharraq use data loggers?",
+                question: "With a temperature data logger in Muharraq, can a small sweet maker or bakery in Muharraq use data loggers?",
                 answer:
-                  "Yes. A logger in each cooler or store keeps a continuous record, an alert reaches the owner's phone if a unit warms, and a report can be exported in PDF, Excel or CSV form.",
+                  "Yes. A logger in each cooler or store keeps a continuous record, an alert reaches the owner's phone if a unit warms, and a report can be exported in PDF, Excel or CSV form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why does an old building need a record rather than a spot reading?",
@@ -28734,7 +28734,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Muharraq | Prithvi",
             metaDescription:
-              "Muharraq, Bahrain: data loggers for old-town sweet makers, bakeries, pharmacies and fish stores in hot, humid island air. Get Solution to cover Muharraq.",
+              "Muharraq: temperature data loggers for old-town sweet makers, bakeries, pharmacies and fish stores in hot, humid island air. Get Solution for Muharraq.",
             indexable: true,
           },
           {
@@ -28742,7 +28742,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Hidd",
             type: "city",
             intro:
-              "Hidd is a seaside town at the south-eastern tip of Muharraq Island, with fishing boats along its shore, family housing, small shops, workshops and a harbour and warehouse district a short way along the coast, and a temperature data logger here serves fish stores, kitchens, clinics and the sheds that feed the area. The air carries salt and moisture from every side, so metal fittings corrode and cartons soften. Summers are long, very hot and humid, winters are mild, and dust and haze drift in from the flat land behind. Hidd page text is limited to the kinds of goods and rooms a logger user may look after. Enquiries from Hidd are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Hidd mostly serves food and beverage sites, as well as logistics and warehousing sites. Hidd is a seaside town at the south-eastern tip of Muharraq Island, with fishing boats along its shore, family housing, small shops, workshops and a harbour and warehouse district a short way along the coast, and a temperature data logger here serves fish stores, kitchens, clinics and the sheds that feed the area. The air carries salt and moisture from every side, so metal fittings corrode and cartons soften. Summers are long, very hot and humid, winters are mild, and dust and haze drift in from the flat land behind. Hidd page text is limited to the kinds of goods and rooms a logger user may look after. Enquiries from Hidd are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "Standing at the end of the island, Hidd takes the sea air at full strength, so ice melts quickly in open boxes, cold-room doors sweat, and anything left on a quay or a roof is heated and dampened in turn. Workshops and sheds with sheet-metal roofs build up heat through the afternoon and release it slowly after dark, which keeps night-time temperatures inside them well above the street.",
             areas: [
@@ -28804,9 +28804,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a fish trader in Hidd use a data logger?",
+                question: "With a temperature data logger in Hidd, can a fish trader in Hidd use a data logger?",
                 answer:
-                  "Yes. A probe logger in an ice room or insulated box records the temperature all day and night, and a phone alert tells the owner if the unit warms.",
+                  "Yes. A probe logger in an ice room or insulated box records the temperature all day and night, and a phone alert tells the owner if the unit warms.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why does sea air matter for stored goods?",
@@ -28831,7 +28831,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Hidd | Prithvi",
             metaDescription:
-              "Hidd, Bahrain: data loggers for fish stores, kitchens, workshops and harbour-side sheds in salty, humid island air. Get Solution: request a plan for Hidd.",
+              "Hidd: temperature data loggers for fish stores, kitchens, workshops and harbour-side sheds in salty, humid island air. Get Solution for Hidd.",
             indexable: true,
           },
           {
@@ -28839,7 +28839,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Arad",
             type: "city",
             intro:
-              "Arad is a housing town on the south-western shore of Muharraq Island, facing a shallow bay, with rows of family houses, neighbourhood shops, bakeries, clinics and school canteens, and a temperature data logger here serves the small stores and kitchens that keep a residential town fed. The airport lies to the north and the capital is reached across the causeways. Streets are broad enough for parked cars on both sides, and ground-floor units hold shop stockrooms and workshops. Summers are long, very hot and humid, winters are mild, and haze and dust drift in from the flat land, so the air-conditioning in every shop, canteen and clinic runs hard from spring to autumn. Evenings stay busy as families shop late, which keeps doors open and compressors working. Enquiries from Arad are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Arad mostly serves food and beverage sites, as well as pharmaceutical sites. Arad is a housing town on the south-western shore of Muharraq Island, facing a shallow bay, with rows of family houses, neighbourhood shops, bakeries, clinics and school canteens, and a temperature data logger here serves the small stores and kitchens that keep a residential town fed. The airport lies to the north and the capital is reached across the causeways. Streets are broad enough for parked cars on both sides, and ground-floor units hold shop stockrooms and workshops. Summers are long, very hot and humid, winters are mild, and haze and dust drift in from the flat land, so the air-conditioning in every shop, canteen and clinic runs hard from spring to autumn. Evenings stay busy as families shop late, which keeps doors open and compressors working. Enquiries from Arad are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "A shallow bay warms in summer and adds moisture to the evening air, so shops that open late meet damp heat as they cool down for the night. Rooftop condensers on low buildings share the same hot, still air, and compressors on shaded side walls still struggle in the sun-heated lane. Salt from the bay settles on coils and grilles over a season, so a unit that was fine in spring can be quietly losing ground by August, and only a trend record shows that decline before stock is affected. Power dips on the busiest summer evenings add to the strain on older refrigerators.",
             areas: [
@@ -28916,9 +28916,9 @@ export const locations: LegacyLocationNode[] = [
                   "Name the shop, canteen or clinic, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable.",
               },
               {
-                question: "Does a logger keep recording during a power cut?",
+                question: "Does a temperature data logger in Arad keep recording during a power cut?",
                 answer:
-                  "It records on its own battery and keeps the readings, so the hours of an outage are on record once the site is connected again.",
+                  "It records on its own battery and keeps the readings, so the hours of an outage are on record once the site is connected again.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
             ],
             nearby: [
@@ -28928,7 +28928,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Arad | Prithvi",
             metaDescription:
-              "Arad, Bahrain: data loggers for neighbourhood groceries, canteens, clinics and street-level storerooms in hot, humid air. Use Get Solution to plan Arad.",
+              "Arad: temperature data loggers for neighbourhood groceries, canteens, clinics and street-level storerooms in hot, humid air. Use Get Solution to plan Arad.",
             indexable: true,
           },
           {
@@ -28936,7 +28936,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Busaiteen",
             type: "city",
             intro:
-              "Busaiteen is a town on the northern coast of Muharraq Island, strung out along a long shore road with family housing behind, and a temperature data logger here serves home kitchens that cook for sale, neighbourhood shops, boat yards, clinics and the small units that supply them. Fishing boats and small craft are kept along the shore, and wide coastal views open between buildings. Summers are long, very hot and humid, winters are mild, and onshore breezes carry salt and haze across the low land, so refrigerators and air-conditioners on the sea side of the town age faster than those inland. Many households run a second freezer on a veranda or in a yard store, and those units work in the warmest, saltiest air of all. Enquiries from Busaiteen are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Busaiteen mostly serves food and beverage sites, as well as pharmaceutical sites. Busaiteen is a town on the northern coast of Muharraq Island, strung out along a long shore road with family housing behind, and a temperature data logger here serves home kitchens that cook for sale, neighbourhood shops, boat yards, clinics and the small units that supply them. Fishing boats and small craft are kept along the shore, and wide coastal views open between buildings. Summers are long, very hot and humid, winters are mild, and onshore breezes carry salt and haze across the low land, so refrigerators and air-conditioners on the sea side of the town age faster than those inland. Many households run a second freezer on a veranda or in a yard store, and those units work in the warmest, saltiest air of all. Enquiries from Busaiteen are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "Facing open water, the northern shore catches the breeze but also the salt, which eats at condenser coils and door seals, and midsummer evenings stay thick with moisture. A freezer on a breezy veranda may seem to enjoy cool air while its coil quietly fills with dust and salt crust. Boat yards and small craft stores stand open to the weather, so adhesives, resins and electrical fittings go through the same swings as the air. A trend record shows slow decline that a spot check never would, and it shows how the sheds behaved on still, humid nights when the breeze dropped and the heat stayed.",
             areas: [
@@ -28998,9 +28998,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a home-based caterer use a data logger?",
+                question: "With a temperature data logger in Busaiteen, can a home-based caterer use a data logger?",
                 answer:
-                  "Yes. A logger in each fridge or freezer keeps a time-stamped record, which can be exported and shown to a customer or an inspector who asks how food was kept.",
+                  "Yes. A logger in each fridge or freezer keeps a time-stamped record, which can be exported and shown to a customer or an inspector who asks how food was kept.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why does a shore-road shop need a humidity reading?",
@@ -29025,7 +29025,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Busaiteen | Prithvi",
             metaDescription:
-              "Busaiteen, Bahrain: data loggers for home kitchens, shore-road shops, boat-yard stores and pharmacies in salty, humid air. Get Solution to cover Busaiteen.",
+              "Busaiteen: temperature data loggers for home kitchens, shore-road shops, boat-yard stores and pharmacies in salty, humid air. Get Solution for Busaiteen.",
             indexable: true,
           },
           {
@@ -29033,7 +29033,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Amwaj Islands",
             type: "city",
             intro:
-              "The Amwaj Islands are a group of reclaimed islands off the north-eastern coast of Muharraq Island, reached by road across a short link, and a temperature data logger here serves waterside apartment blocks, villas, cafes, restaurants, small hotels, supermarkets and clinics, all sitting on low, flat, sea-ringed ground. Marinas, promenades and shop rows run beside the water, and residential streets fill the space between. Summers are long, very hot and humid, winters are mild and breezy, and salt spray and haze blow across the whole group. Enquiries from the Amwaj Islands are handled through the enquiry form, Call or WhatsApp. This page covers only the kinds of goods and rooms a logger user may look after, and makes no statement about who built or owns anything on the islands.",
+              "A temperature data logger in Amwaj Islands mostly serves food and beverage sites, as well as pharmaceutical sites. The Amwaj Islands are a group of reclaimed islands off the north-eastern coast of Muharraq Island, reached by road across a short link, and a temperature data logger here serves waterside apartment blocks, villas, cafes, restaurants, small hotels, supermarkets and clinics, all sitting on low, flat, sea-ringed ground. Marinas, promenades and shop rows run beside the water, and residential streets fill the space between. Summers are long, very hot and humid, winters are mild and breezy, and salt spray and haze blow across the whole group. Enquiries from the Amwaj Islands are handled through the enquiry form, Call or WhatsApp. This page covers only the kinds of goods and rooms a logger user may look after, and makes no statement about who built or owns anything on the islands.",
             climateAngle:
               "With open water on every side, the islands get no shelter from the sun and no break from salt. Sea air reaches rooftop condensers, balcony freezers and ground-floor store doors, so coils clog and seals perish faster than inland, and summer evenings stay warm and damp long after dark. Hot, humid air also makes every cooled room work harder against a heavy daytime load.",
             areas: [
@@ -29095,9 +29095,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a waterside cafe or supermarket use a data logger?",
+                question: "With a temperature data logger in Amwaj Islands, can a waterside cafe or supermarket use a data logger?",
                 answer:
-                  "Yes. A logger in each cooler or freezer keeps a continuous record, a phone alert reaches the owner if a unit warms, and a report can be exported in PDF, Excel or CSV form.",
+                  "Yes. A logger in each cooler or freezer keeps a continuous record, a phone alert reaches the owner if a unit warms, and a report can be exported in PDF, Excel or CSV form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why does sea spray matter to refrigeration equipment?",
@@ -29122,7 +29122,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Amwaj Islands | Prithvi",
             metaDescription:
-              "Amwaj Islands, Bahrain: data loggers for cafes, supermarkets, clinics and small hotels in salty, hot, humid air. Get Solution to begin in Amwaj Islands.",
+              "Amwaj Islands: temperature data loggers for cafes, supermarkets, clinics and small hotels in salty, hot, humid air. Get Solution to begin in Amwaj Islands.",
             indexable: true,
           },
         ],
@@ -29132,7 +29132,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Northern Governorate",
         type: "state",
         intro:
-          "The Northern Governorate covers much of the north and west of Bahrain's main island, from a planned inland town of numbered roundabouts and wide streets to a coastal strip of date-palm gardens, farm plots and seaside villages. Inland, the ground is flat and dry and the summer heat is fierce, while along the shore the air is humid and carries salt. Shops, market stalls, school canteens, clinics, farm stores and workshops all keep goods in rooms that were never meant for such heat. Winters are mild, though dust arrives from the open land when the wind rises. The pages below cover Hamad Town and its industrial area, Budaiya and Saar.",
+          "A temperature data logger in Northern Governorate mostly serves food shops and market traders, as well as clinics and pharmacies. The Northern Governorate covers much of the north and west of Bahrain's main island, from a planned inland town of numbered roundabouts and wide streets to a coastal strip of date-palm gardens, farm plots and seaside villages. Inland, the ground is flat and dry and the summer heat is fierce, while along the shore the air is humid and carries salt. Shops, market stalls, school canteens, clinics, farm stores and workshops all keep goods in rooms that were never meant for such heat. Winters are mild, though dust arrives from the open land when the wind rises. The pages below cover Hamad Town and its industrial area, Budaiya and Saar.",
         localIndustries: [
           "Food shops and market traders",
           "Clinics and pharmacies",
@@ -29144,9 +29144,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from the Northern Governorate are handled through the enquiry form, Call or WhatsApp. Name the town, the rooms and the goods, and our reply sets out what seems suitable for the site.",
         faqs: [
           {
-            question: "Which places in the Northern Governorate have a page?",
+            question: "Where can I find a temperature data logger in Northern Governorate?",
             answer:
-              "Hamad Town, Budaiya and Saar have city pages, and the Hamad Town Industrial Area sits under Hamad Town. A town not listed here can be raised through the enquiry form.",
+              "Hamad Town, Budaiya and Saar have city pages, and the Hamad Town Industrial Area sits under Hamad Town. A town not listed here can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why does an inland town need a different approach from the coast?",
@@ -29175,7 +29175,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Hamad Town",
             type: "city",
             intro:
-              "Hamad Town is a planned town on the flat inland plain of Bahrain's main island, laid out on a grid of wide streets joined by numbered roundabouts, with large residential districts, shopping rows, markets, schools, health centres and an industrial area on its edge. A temperature data logger here serves grocers, bakeries, school canteens, pharmacies, workshops and stores in a place that sits away from the sea breeze. Summer afternoons are fierce and dry, evenings stay warm, winters are mild, and dust blows across the plain on windy days. Many families shop late, so doors open and close until after dark, and the sea breeze that cools coastal towns is missing from the plain. Enquiries from Hamad Town are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Hamad Town mostly serves food and beverage sites, as well as pharmaceutical sites. Hamad Town is a planned town on the flat inland plain of Bahrain's main island, laid out on a grid of wide streets joined by numbered roundabouts, with large residential districts, shopping rows, markets, schools, health centres and an industrial area on its edge. A temperature data logger here serves grocers, bakeries, school canteens, pharmacies, workshops and stores in a place that sits away from the sea breeze. Summer afternoons are fierce and dry, evenings stay warm, winters are mild, and dust blows across the plain on windy days. Many families shop late, so doors open and close until after dark, and the sea breeze that cools coastal towns is missing from the plain. Enquiries from Hamad Town are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "Without the sea close by, afternoon heat is intense and the ground radiates warmth into the evening, so air-conditioning compressors run for most of the day between spring and autumn. Wide streets and low buildings leave little shade, flat roofs bake in the sun, and dust settles on filters and coils, which blocks airflow and makes cooling units work harder than they should.",
             areas: [
@@ -29252,9 +29252,9 @@ export const locations: LegacyLocationNode[] = [
                   "Name the shop, canteen or workshop, the rooms and a contact on the enquiry form, Call or WhatsApp, and we reply with what looks suitable.",
               },
               {
-                question: "Can a logger keep recording through a power cut?",
+                question: "Can a temperature data logger in Hamad Town keep recording through a power cut?",
                 answer:
-                  "On a power cut it carries on from its own battery and stores the readings, so the outage hours can be reviewed when the site is back online.",
+                  "On a power cut it carries on from its own battery and stores the readings, so the outage hours can be reviewed when the site is back online.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
             ],
             nearby: [
@@ -29264,7 +29264,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Hamad Town | Prithvi",
             metaDescription:
-              "Hamad Town, Bahrain: data loggers for groceries, school canteens, pharmacies and workshop stores in fierce, dusty summer heat. Get Solution: Hamad Town.",
+              "Hamad Town: temperature data loggers for groceries, school canteens, pharmacies and workshop stores in fierce, dusty summer heat. Get Solution: Hamad Town.",
             indexable: true,
           },
           {
@@ -29272,7 +29272,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Budaiya",
             type: "city",
             intro:
-              "Budaiya is a town on the northern shore of Bahrain's main island, strung along a long coastal road lined with date-palm gardens, farm plots, plant nurseries, cafes and small shops, with fishing craft kept along the water. A temperature data logger here serves farm stores, nurseries, produce sellers, roadside kitchens, grocers and clinics in air that is humid and carries salt. Greenery gives the road a cooler feel than the inland plain, but the summer remains long, very hot and damp, and winters are mild. Farm tracks lead off the road between the gardens, produce is sold from roadside stalls and small markets, and sheds close to the water store boxes, crates and ice through the hottest months. Enquiries from Budaiya are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Budaiya mostly serves food and beverage sites, as well as pharmaceutical sites. Budaiya is a town on the northern shore of Bahrain's main island, strung along a long coastal road lined with date-palm gardens, farm plots, plant nurseries, cafes and small shops, with fishing craft kept along the water. A temperature data logger here serves farm stores, nurseries, produce sellers, roadside kitchens, grocers and clinics in air that is humid and carries salt. Greenery gives the road a cooler feel than the inland plain, but the summer remains long, very hot and damp, and winters are mild. Farm tracks lead off the road between the gardens, produce is sold from roadside stalls and small markets, and sheds close to the water store boxes, crates and ice through the hottest months. Enquiries from Budaiya are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "Between irrigated gardens and open water, the shore holds moisture in the air, so stored dry goods soften and metal fittings rust. Palm shade lowers the temperature on the road but not inside sheds with metal roofs, and the dust from farm tracks mixes with salt to form a crust on condenser coils. Tracks between the plots are dusty in summer, and trucks that collect produce wait in the sun with their loads exposed.",
             areas: [
@@ -29334,9 +29334,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a farm or nursery in Budaiya use data loggers?",
+                question: "With a temperature data logger in Budaiya, can a farm or nursery in Budaiya use data loggers?",
                 answer:
-                  "Yes. A logger in a produce store or seed room records temperature and humidity day and night, and a phone alert reaches the owner if conditions drift.",
+                  "Yes. A logger in a produce store or seed room records temperature and humidity day and night, and a phone alert reaches the owner if conditions drift.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why do garden-side sheds need a humidity reading?",
@@ -29361,7 +29361,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Budaiya | Prithvi",
             metaDescription:
-              "Budaiya, Bahrain: data loggers for farm stores, nurseries, roadside kitchens and ice boxes in humid, salty coastal air. Get Solution to begin in Budaiya.",
+              "Budaiya: temperature data loggers for farm stores, nurseries, roadside kitchens and ice boxes in humid, salty coastal air. Get Solution for Budaiya.",
             indexable: true,
           },
           {
@@ -29369,7 +29369,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Saar",
             type: "city",
             intro:
-              "Saar is a coastal housing town on the northern shore of Bahrain's main island, west of Manama, with residential compounds, villas, shop rows, school canteens, gyms, salons and clinics spread along its main roads. A temperature data logger here serves the grocers, bakeries, canteens and pharmacies that supply a settled, family-oriented neighbourhood. Summers are long, very hot and humid, winters are mild, and haze and salt drift in from the sea. Its streets are shaded by walls and trees rather than tall blocks, and many households keep a spare fridge or freezer in a utility room or on a porch. Small businesses run from villas and compound units, so kitchens, studios and stores often sit in rooms built as bedrooms or garages. Enquiries from Saar are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Saar mostly serves food and beverage sites, as well as pharmaceutical sites. Saar is a coastal housing town on the northern shore of Bahrain's main island, west of Manama, with residential compounds, villas, shop rows, school canteens, gyms, salons and clinics spread along its main roads. A temperature data logger here serves the grocers, bakeries, canteens and pharmacies that supply a settled, family-oriented neighbourhood. Summers are long, very hot and humid, winters are mild, and haze and salt drift in from the sea. Its streets are shaded by walls and trees rather than tall blocks, and many households keep a spare fridge or freezer in a utility room or on a porch. Small businesses run from villas and compound units, so kitchens, studios and stores often sit in rooms built as bedrooms or garages. Enquiries from Saar are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "Housing compounds with walled yards hold heat between buildings, and the humid sea air mixes with the warmth of air-conditioner exhausts, so rear service lanes stay oppressive long after sunset. Compressors on garden walls collect salt and dust through the season, and freezers kept in car ports work in air that is warmer than the shaded street. Villa garages used as stores or kitchens have no insulation to speak of, so goods kept there follow the outdoor temperature closely, and a door left ajar for a few minutes lets in a surge of damp heat.",
             areas: [
@@ -29426,9 +29426,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a school canteen or after-school club in Saar use data loggers?",
+                question: "With a temperature data logger in Saar, can a school canteen or after-school club in Saar use data loggers?",
                 answer:
-                  "Yes. A logger in each fridge provides a time-stamped record that can be exported as a PDF, Excel or CSV file for managers or inspectors.",
+                  "Yes. A logger in each fridge provides a time-stamped record that can be exported as a PDF, Excel or CSV file for managers or inspectors.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why does a freezer in a car port need monitoring?",
@@ -29453,7 +29453,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Saar | Prithvi",
             metaDescription:
-              "Saar, Bahrain: data loggers for groceries, bakeries, school canteens and clinic fridges in hot, humid coastal air. Get Solution to start in Saar.",
+              "Saar: temperature data loggers for groceries, bakeries, school canteens and clinic fridges in hot, humid coastal air. Get Solution to start in Saar.",
             indexable: true,
           },
         ],
@@ -29463,7 +29463,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Southern Governorate",
         type: "state",
         intro:
-          "The Southern Governorate covers the broad southern part of Bahrain's main island, from large residential towns of schools, malls, clinics and bakeries to a planned market town of numbered blocks and a western shore of farms and seaside resorts. Much of the land is flat, open and dry, so afternoon heat is fierce, while the western coast adds humidity and salt. Supermarkets, canteens, pharmacies, hotel kitchens and market stalls keep goods in rooms that rely on air-conditioning for most of the year. Winters are mild, and dust blows in on windy days. The pages below cover Riffa, Isa Town and Zallaq.",
+          "A temperature data logger in Southern Governorate mostly serves food shops and market traders, as well as clinics and pharmacies. The Southern Governorate covers the broad southern part of Bahrain's main island, from large residential towns of schools, malls, clinics and bakeries to a planned market town of numbered blocks and a western shore of farms and seaside resorts. Much of the land is flat, open and dry, so afternoon heat is fierce, while the western coast adds humidity and salt. Supermarkets, canteens, pharmacies, hotel kitchens and market stalls keep goods in rooms that rely on air-conditioning for most of the year. Winters are mild, and dust blows in on windy days. The pages below cover Riffa, Isa Town and Zallaq.",
         localIndustries: [
           "Food shops and market traders",
           "Clinics and pharmacies",
@@ -29475,9 +29475,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from the Southern Governorate are handled through the enquiry form, Call or WhatsApp. Say which town, which rooms and which goods, and our reply describes what appears suitable for the site.",
         faqs: [
           {
-            question: "Which places in the Southern Governorate have a page?",
+            question: "Where can I find a temperature data logger in Southern Governorate?",
             answer:
-              "Riffa, Isa Town and Zallaq have city pages. Another town can be raised through the enquiry form, and we say what looks practical.",
+              "Riffa, Isa Town and Zallaq have city pages. Another town can be raised through the enquiry form, and we say what looks practical.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why does the southern heat call for more than a thermometer?",
@@ -29503,7 +29503,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Riffa",
             type: "city",
             intro:
-              "Riffa is a large residential town in the south of Bahrain's main island, divided into East Riffa and West Riffa, and a temperature data logger here serves the supermarkets, bakeries, school canteens, pharmacies, clinics, gyms and workshops of a big, settled community. Wide roads link housing districts, malls and shop rows, and the ground is open, flat and dry rather than crowded. Summers are long, very hot and humid by the evening, winters are mild, and dust blows across the open land on windy days. Evenings are the busiest hours, when families shop after work and the school run ends, so shop coolers open and close constantly until late at night. Enquiries from Riffa are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Riffa mostly serves food and beverage sites, as well as pharmaceutical sites. Riffa is a large residential town in the south of Bahrain's main island, divided into East Riffa and West Riffa, and a temperature data logger here serves the supermarkets, bakeries, school canteens, pharmacies, clinics, gyms and workshops of a big, settled community. Wide roads link housing districts, malls and shop rows, and the ground is open, flat and dry rather than crowded. Summers are long, very hot and humid by the evening, winters are mild, and dust blows across the open land on windy days. Evenings are the busiest hours, when families shop after work and the school run ends, so shop coolers open and close constantly until late at night. Enquiries from Riffa are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "Housing here is spread out rather than stacked, so cars, walls and roads absorb the sun all day and release heat into the evening. Shop rows with flat roofs hold the afternoon warmth, back service lanes have no breeze, and compressors on exposed walls collect dust, which cuts airflow and makes cooling work harder just when the summer evening trade is busiest.",
             areas: [
@@ -29565,9 +29565,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a school canteen in Riffa use data loggers?",
+                question: "With a temperature data logger in Riffa, can a school canteen in Riffa use data loggers?",
                 answer:
-                  "Yes. Each fridge or cold room carrying a logger builds a dated record, and reports for any period come out as PDF, Excel or CSV files for a head teacher or an inspector.",
+                  "Yes. Each fridge or cold room carrying a logger builds a dated record, and reports for any period come out as PDF, Excel or CSV files for a head teacher or an inspector.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why does dust matter to cooling equipment?",
@@ -29592,7 +29592,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Riffa | Prithvi",
             metaDescription:
-              "Riffa, Bahrain: data loggers for supermarkets, bakeries, school canteens, clinics and workshop stores in hot, dry heat. Get Solution to cover Riffa.",
+              "Riffa: temperature data loggers for supermarkets, bakeries, school canteens, clinics and workshop stores in hot, dry heat. Get Solution to cover Riffa.",
             indexable: true,
           },
           {
@@ -29600,7 +29600,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Isa Town",
             type: "city",
             intro:
-              "Isa Town is a planned town on the inland plain of Bahrain's main island, built on a grid of numbered blocks and wide avenues, with a busy central market, large housing districts, schools, sports grounds and health centres. A temperature data logger here serves the traders, butchers, grocers, bakeries, pharmacies and canteens of a town where people shop daily. Summers are long, hot and dry in the afternoon, evenings stay warm, winters are mild, and dust blows across the plain. Streets fill in the early evening when stalls trade late, shutters stay up well after sunset, and the same coolers run from dawn to midnight with little rest. Enquiries from Isa Town are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Isa Town mostly serves food and beverage sites, as well as pharmaceutical sites. Isa Town is a planned town on the inland plain of Bahrain's main island, built on a grid of numbered blocks and wide avenues, with a busy central market, large housing districts, schools, sports grounds and health centres. A temperature data logger here serves the traders, butchers, grocers, bakeries, pharmacies and canteens of a town where people shop daily. Summers are long, hot and dry in the afternoon, evenings stay warm, winters are mild, and dust blows across the plain. Streets fill in the early evening when stalls trade late, shutters stay up well after sunset, and the same coolers run from dawn to midnight with little rest. Enquiries from Isa Town are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "Stalls in the market lanes sit under shade roofs that block the sun but trap warm air, so chilled counters work against stale heat all day. Planned blocks of identical houses leave service lanes between them where air hardly moves, and rooftop equipment on flat roofs collects dust through the season, which dulls its cooling performance. Butchers and fishmongers often prepare goods at the counter, so cold displays stand open to the aisle, and ice melts faster on still, hot afternoons than owners expect. In some lanes stalls shut for the midday rest, which leaves chillers running unattended through the hottest hours, and a failure then may not be noticed until trading resumes. Storerooms behind the stalls are small, unventilated and packed to the ceiling at the busiest times of year.",
             areas: [
@@ -29657,9 +29657,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a market trader in Isa Town use a data logger?",
+                question: "With a temperature data logger in Isa Town, can a market trader in Isa Town use a data logger?",
                 answer:
-                  "Yes. A logger in a chiller or ice-packed counter records the temperature all day and night, and a phone alert tells the trader if the unit warms.",
+                  "Yes. A logger in a chiller or ice-packed counter records the temperature all day and night, and a phone alert tells the trader if the unit warms.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why do market stalls suffer in afternoon heat?",
@@ -29684,7 +29684,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Isa Town | Prithvi",
             metaDescription:
-              "Isa Town, Bahrain: data loggers for market stalls, grocers, bakeries, canteens and pharmacy fridges in dry afternoon heat. Get Solution to cover Isa Town.",
+              "Isa Town: temperature data loggers for market stalls, grocers, bakeries, canteens and pharmacy fridges in dry afternoon heat. Get Solution for Isa Town.",
             indexable: true,
           },
           {
@@ -29692,7 +29692,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Zallaq",
             type: "city",
             intro:
-              "Zallaq is a town on the western coast of Bahrain's main island, with a long sandy shoreline, farm plots, fishing craft, seaside hotels and villas, and a temperature data logger here serves hotel kitchens, beach cafes, fish traders, farm stores, grocers and clinics. The air carries salt and moisture off the Gulf, so fittings corrode and cartons soften. Summers are long, very hot and humid, winters are mild and breezy, and haze and dust drift in from the flat land. Fishing boats land their catch early, markets and hotel kitchens buy it the same morning, and farms on the inland side send vegetables to shops across the island. Enquiries from Zallaq are handled through the enquiry form, Call or WhatsApp.",
+              "A temperature data logger in Zallaq mostly serves food and beverage sites, as well as pharmaceutical sites. Zallaq is a town on the western coast of Bahrain's main island, with a long sandy shoreline, farm plots, fishing craft, seaside hotels and villas, and a temperature data logger here serves hotel kitchens, beach cafes, fish traders, farm stores, grocers and clinics. The air carries salt and moisture off the Gulf, so fittings corrode and cartons soften. Summers are long, very hot and humid, winters are mild and breezy, and haze and dust drift in from the flat land. Fishing boats land their catch early, markets and hotel kitchens buy it the same morning, and farms on the inland side send vegetables to shops across the island. Enquiries from Zallaq are handled through the enquiry form, Call or WhatsApp.",
             climateAngle:
               "Open sand and water reflect strong sun onto cafe terraces and kitchen walls, evening air stays thick with moisture, and sea breeze carries salt that settles on coils and door seals. Kitchens that serve outdoor tables keep doors open to hot air for long stretches, which pushes chillers to work well beyond their rating. Fishing craft are kept on trailers and moorings along the shore, and ice carried in insulated boxes melts faster in midsummer sun than owners expect, which makes a stored temperature trace valuable.",
             areas: [
@@ -29749,9 +29749,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a hotel or beach cafe in Zallaq use data loggers?",
+                question: "With a temperature data logger in Zallaq, can a hotel or beach cafe in Zallaq use data loggers?",
                 answer:
-                  "Yes. A logger in every chiller, freezer and dry store keeps a round-the-clock record, and a report for any period can be exported in PDF, Excel or CSV form.",
+                  "Yes. A logger in every chiller, freezer and dry store keeps a round-the-clock record, and a report for any period can be exported in PDF, Excel or CSV form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why does sea air matter for refrigeration equipment?",
@@ -29776,7 +29776,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Zallaq | Prithvi",
             metaDescription:
-              "Zallaq, Bahrain: data loggers for seaside hotel kitchens, beach cafes, fish stores and farm cold rooms in salty, humid air. Get Solution to cover Zallaq.",
+              "Zallaq: temperature data loggers for seaside hotel kitchens, beach cafes, fish stores and farm cold rooms in salty, humid air. Get Solution for Zallaq.",
             indexable: true,
           },
         ],
@@ -29846,9 +29846,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from Aden Governorate are reviewed case by case. Send the district, what you store and the situation on site, and we confirm what is practical before recommending anything.",
         faqs: [
           {
-            question: "Which Aden Governorate places have a page?",
+            question: "Where can I find a temperature data logger in Aden Governorate?",
             answer:
-              "Aden has a city page, and the Port of Aden, the Aden Free Zone, the Sheikh Othman Industrial Area and Little Aden have area pages. Any other place in the governorate can be raised through the enquiry form.",
+              "Aden has a city page, and the Port of Aden, the Aden Free Zone, the Sheikh Othman Industrial Area and Little Aden have area pages. Any other place in the governorate can be raised through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why is humidity recorded alongside temperature on this coast?",
@@ -29878,7 +29878,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Aden",
             type: "city",
             intro:
-              "Aden is a major port city on the Gulf of Aden, built around the rim of an old volcanic crater beside a sheltered natural harbour on the coast of southern Yemen, and a temperature data logger here serves a hot, humid place whose storage has always been shaped by the sea. Its districts, among them Crater, Ma'alla, Tawahi, Khormaksar and Sheikh Othman, hold markets, clinics, warehouses and fishing landings, while a university and hospitals add laboratories and wards. Food, medicines and household goods that arrive by sea wait in stores before they are used. Heat and humidity are high through most of the year. Prithvi loggers record on their own batteries and keep readings when a network is absent, which is why they can suit sites where power is uncertain. Enquiries from Yemen, including those for Aden, are reviewed case by case, and we confirm what is practical before we recommend anything.",
+              "A temperature data logger in Aden is arranged case by case, whether for food and beverage or hospital and blood bank sites. Aden is a major port city on the Gulf of Aden, built around the rim of an old volcanic crater beside a sheltered natural harbour on the coast of southern Yemen, and a temperature data logger here serves a hot, humid place whose storage has always been shaped by the sea. Its districts, among them Crater, Ma'alla, Tawahi, Khormaksar and Sheikh Othman, hold markets, clinics, warehouses and fishing landings, while a university and hospitals add laboratories and wards. Food, medicines and household goods that arrive by sea wait in stores before they are used. Heat and humidity are high through most of the year. Prithvi loggers record on their own batteries and keep readings when a network is absent, which is why they can suit sites where power is uncertain. Enquiries from Yemen, including those for Aden, are reviewed case by case, and we confirm what is practical before we recommend anything.",
             climateAngle:
               "Heat and humidity are both high from spring to autumn, salt from the sea reaches every shed, and rain is scarce and sudden, so stores that rely on cooling meet condensation and corrosion far more often than cold.",
             areas: [
@@ -29940,9 +29940,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can loggers be supplied for a site in Aden?",
+                question: "Can a temperature data logger be supplied for a site in Aden?",
                 answer:
-                  "Supply to Yemen is considered case by case. Send the location, what you store and how loggers could reach you, and we confirm what is practical before recommending anything.",
+                  "Supply to Yemen is considered case by case. Send the location, what you store and how loggers could reach you, and we confirm what is practical before recommending anything.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "What happens to the record if the power or the connection is lost?",
@@ -29966,7 +29966,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Aden | Prithvi",
             metaDescription:
-              "Aden, Yemen: temperature and humidity loggers for port-city clinics, food stores and fish landings, reviewed case by case. Get Solution: Aden.",
+              "Aden, Yemen: temperature and humidity data loggers for port-city clinics, food stores and fish landings, reviewed case by case. Get Solution: Aden.",
             indexable: true,
           },
         ],
@@ -29988,9 +29988,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from Hadramaut Governorate are reviewed case by case. Send the town, what you store and the situation on site, and we confirm what is practical before recommending anything.",
         faqs: [
           {
-            question: "Which Hadramaut places have a page?",
+            question: "Where can I find a temperature data logger in Hadramaut Governorate?",
             answer:
-              "Mukalla, Seiyun and Shibam each have a city page, and the Port of Mukalla has an area page. A different place in Hadramaut can be put to us through the enquiry form.",
+              "Mukalla, Seiyun and Shibam each have a city page, and the Port of Mukalla has an area page. A different place in Hadramaut can be put to us through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why does a hot, dry valley still call for humidity records?",
@@ -30019,7 +30019,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Mukalla",
             type: "city",
             intro:
-              "Mukalla is a port city on the Gulf of Aden coast of eastern Yemen, the main coastal town of Hadramaut Governorate, with whitewashed buildings climbing from a curved bay beneath a rocky escarpment, and a temperature data logger here serves a fishing and trading town in a hot, humid setting. Boats land sardines, tuna and other fish at the harbour, where the catch is iced, salted, dried and processed, and traders sell dried fish, honey from the wadis and dates in the old markets. A university, hospitals and clinics serve the coast and the valleys behind it. Heat and humidity are high through much of the year, and sea air is salty. Prithvi loggers store their readings on their own batteries when a network is absent. Whether a given site can be supported is decided case by case after we hear from you.",
+              "A temperature data logger in Mukalla is arranged case by case, whether for food and beverage or hospital and blood bank sites. Mukalla is a port city on the Gulf of Aden coast of eastern Yemen, the main coastal town of Hadramaut Governorate, with whitewashed buildings climbing from a curved bay beneath a rocky escarpment, and a temperature data logger here serves a fishing and trading town in a hot, humid setting. Boats land sardines, tuna and other fish at the harbour, where the catch is iced, salted, dried and processed, and traders sell dried fish, honey from the wadis and dates in the old markets. A university, hospitals and clinics serve the coast and the valleys behind it. Heat and humidity are high through much of the year, and sea air is salty. Prithvi loggers store their readings on their own batteries when a network is absent. Whether a given site can be supported is decided case by case after we hear from you.",
             climateAngle:
               "The coast is hot and humid for most of the year, salt reaches every shed, and the dry months bring dust, so ice stores and drying yards face heat and damp together while rain is rare but can be heavy.",
             areas: [
@@ -30081,9 +30081,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Is it possible to arrange loggers for a fish or food business in Mukalla?",
+                question: "With a temperature data logger in Mukalla, is it possible to arrange loggers for a fish or food business in Mukalla?",
                 answer:
-                  "That depends on the site. Supply to Yemen is looked at case by case, so send the place, the rooms and the situation, and we reply with what seems practical.",
+                  "That depends on the site. Supply to Yemen is looked at case by case, so send the place, the rooms and the situation, and we reply with what seems practical.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why does an ice store near the sea need a humidity reading?",
@@ -30107,7 +30107,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Mukalla | Prithvi",
             metaDescription:
-              "Mukalla, Yemen: temperature and humidity loggers for fish ice stores, honey and date markets and clinics, reviewed case by case. Get Solution for Mukalla.",
+              "Mukalla: temperature and humidity data loggers for fish ice stores, honey and date markets and clinics, reviewed case by case. Get Solution for Mukalla.",
             indexable: true,
           },
           {
@@ -30115,7 +30115,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Seiyun",
             type: "city",
             intro:
-              "Seiyun is a major town of the Wadi Hadramaut, an inland city of palm groves, mud-brick houses and a white palace that is now a museum, and a temperature data logger here serves a valley economy of dates, honey and trade in a hot, dry setting. Palm groves line the wadi floor, beekeepers bring honey from the side valleys, and markets sell dates, honey, vegetables and household goods to the villages around. A university college, hospitals and clinics serve the valley, and travellers visit the old buildings. Days are very hot, nights can be cool, and rare heavy rain sends floods down the wadi. The loggers hold their readings in memory on battery power, even with no network at all. We consider each request from Seiyun case by case before recommending anything.",
+              "A temperature data logger in Seiyun is arranged case by case, whether for food and beverage or hospital and blood bank sites. Seiyun is a major town of the Wadi Hadramaut, an inland city of palm groves, mud-brick houses and a white palace that is now a museum, and a temperature data logger here serves a valley economy of dates, honey and trade in a hot, dry setting. Palm groves line the wadi floor, beekeepers bring honey from the side valleys, and markets sell dates, honey, vegetables and household goods to the villages around. A university college, hospitals and clinics serve the valley, and travellers visit the old buildings. Days are very hot, nights can be cool, and rare heavy rain sends floods down the wadi. The loggers hold their readings in memory on battery power, even with no network at all. We consider each request from Seiyun case by case before recommending anything.",
             climateAngle:
               "The valley is very hot and dry by day, noticeably cooler at night, and prone to sudden flash floods after rain, so date and honey stores swing between dry heat and brief damp while clinic refrigerators work through long hot spells.",
             areas: [
@@ -30177,9 +30177,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a date or honey business in Seiyun use a temperature record?",
+                question: "With a temperature data logger in Seiyun, can a date or honey business in Seiyun use a temperature record?",
                 answer:
-                  "A logger in the store records temperature and humidity through the season, and a report for the dates of a lot can be exported in PDF, Excel or CSV form for a buyer.",
+                  "A logger in the store records temperature and humidity through the season, and a report for the dates of a lot can be exported in PDF, Excel or CSV form for a buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "How would a request from Seiyun be handled?",
@@ -30203,7 +30203,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Seiyun | Prithvi",
             metaDescription:
-              "Seiyun, Yemen: data loggers for date and honey stores, heritage rooms and clinics in Wadi Hadramaut, reviewed case by case. Get Solution to cover Seiyun.",
+              "Seiyun: temperature data loggers for date and honey stores, heritage rooms and clinics in Wadi Hadramaut, reviewed case by case. Get Solution for Seiyun.",
             indexable: true,
           },
           {
@@ -30211,7 +30211,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Shibam",
             type: "city",
             intro:
-              "Shibam is a walled town in the Wadi Hadramaut, famous for its tall mud-brick tower houses, some of them five to eight storeys high, and a World Heritage site, and a temperature data logger here serves a small place where heritage, hospitality and farming meet. Palm gardens surround the walls, guesthouses and small restaurants serve visitors, and families store dates, honey and household goods in the lower rooms of their towers. Conservation of the buildings depends on keeping damp out of mud brick, and any archive, workshop or collection in the town needs steady air. Summers are very hot, winters mild, and rare rain can bring floods. Prithvi loggers store readings on their batteries without a network. We review any request from Shibam case by case.",
+              "A temperature data logger in Shibam is arranged case by case, whether for food and beverage or laboratory sites. Shibam is a walled town in the Wadi Hadramaut, famous for its tall mud-brick tower houses, some of them five to eight storeys high, and a World Heritage site, and a temperature data logger here serves a small place where heritage, hospitality and farming meet. Palm gardens surround the walls, guesthouses and small restaurants serve visitors, and families store dates, honey and household goods in the lower rooms of their towers. Conservation of the buildings depends on keeping damp out of mud brick, and any archive, workshop or collection in the town needs steady air. Summers are very hot, winters mild, and rare rain can bring floods. Prithvi loggers store readings on their batteries without a network. We review any request from Shibam case by case.",
             climateAngle:
               "The air is very dry and hot for most of the year, but flash floods and rare heavy rain bring sudden damp to thick mud-brick walls, so stores and heritage rooms feel dryness and moisture in sharp swings. Visitors arrive in the cooler months, when guesthouse kitchens are busiest, and a failed refrigerator can go unnoticed in a quiet corner of an old building.",
             areas: [
@@ -30273,9 +30273,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Why would a heritage room in Shibam need a humidity record?",
+                question: "With a temperature data logger in Shibam, why would a heritage room in Shibam need a humidity record?",
                 answer:
-                  "Plaster, paper and textiles react to dryness and damp, so a log of temperature and humidity shows whether the air stayed steady and when it swung, which supports a conservation plan.",
+                  "Plaster, paper and textiles react to dryness and damp, so a log of temperature and humidity shows whether the air stayed steady and when it swung, which supports a conservation plan.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Can a small guesthouse use a single logger?",
@@ -30299,7 +30299,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Shibam | Prithvi",
             metaDescription:
-              "Shibam, Yemen: data loggers for heritage rooms, guesthouse kitchens and date stores in Wadi Hadramaut, reviewed case by case. Get Solution to cover Shibam.",
+              "Shibam: temperature data loggers for heritage rooms, guesthouse kitchens and date stores in Wadi Hadramaut, reviewed case by case. Get Solution for Shibam.",
             indexable: true,
           },
         ],
@@ -30309,7 +30309,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Abyan Governorate",
         type: "state",
         intro:
-          "Abyan Governorate lies on the Gulf of Aden coast east of Aden, and its farming and its storage follow two seasonal rivers, the Wadi Bana and the Wadi Hassan, whose floodwater has watered a fertile delta behind the coast for generations. Zinjibar, on the shore, is the main town, set among cotton fields, vegetable plots, orchards and fishing beaches. The coast is hot and humid with salt in the air, the delta is dusty in the dry months and flooded in wet spells, and rain is uneven from year to year. Food, medicines and farm produce wait in small stores and clinics where cooling and power cannot always be counted on. The page below describes the town and the rooms where a record of temperature would help.",
+          "Any temperature data logger in Abyan Governorate is arranged case by case, whether for delta farming and produce or fishing landings. Abyan Governorate lies on the Gulf of Aden coast east of Aden, and its farming and its storage follow two seasonal rivers, the Wadi Bana and the Wadi Hassan, whose floodwater has watered a fertile delta behind the coast for generations. Zinjibar, on the shore, is the main town, set among cotton fields, vegetable plots, orchards and fishing beaches. The coast is hot and humid with salt in the air, the delta is dusty in the dry months and flooded in wet spells, and rain is uneven from year to year. Food, medicines and farm produce wait in small stores and clinics where cooling and power cannot always be counted on. The page below describes the town and the rooms where a record of temperature would help.",
         localIndustries: [
           "Delta farming and produce",
           "Fishing landings",
@@ -30321,9 +30321,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from Abyan Governorate are reviewed case by case. Send the town, what you store and the situation on site, and we confirm what is practical before recommending anything.",
         faqs: [
           {
-            question: "Which Abyan places have a page?",
+            question: "Where can I find a temperature data logger in Abyan Governorate?",
             answer:
-              "Zinjibar has a city page. Any other place in the governorate can be raised through the enquiry form, and further pages are added only when they can be written from confident facts.",
+              "Zinjibar has a city page. Any other place in the governorate can be raised through the enquiry form, and further pages are added only when they can be written from confident facts.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "How does a delta flood affect a store?",
@@ -30347,7 +30347,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Zinjibar",
             type: "city",
             intro:
-              "Zinjibar is a coastal town of Abyan Governorate on the Gulf of Aden, east of Aden, and a temperature data logger here serves a place where fields of a fertile delta meet the sea. Floodwater from seasonal rivers has long watered cotton fields, vegetable plots and orchards behind the town, fishing boats work the beaches, and markets sell farm produce, fish and household goods to the villages around. Clinics and small hospitals serve the district. The climate is hot and humid with salt in the air, the dry months are dusty and wet spells can flood low ground. The loggers keep readings in memory on battery power even when no network is present. Each request from Zinjibar is considered case by case before we recommend anything.",
+              "A temperature data logger in Zinjibar is arranged case by case, whether for food and beverage or hospital and blood bank sites. Zinjibar is a coastal town of Abyan Governorate on the Gulf of Aden, east of Aden, and a temperature data logger here serves a place where fields of a fertile delta meet the sea. Floodwater from seasonal rivers has long watered cotton fields, vegetable plots and orchards behind the town, fishing boats work the beaches, and markets sell farm produce, fish and household goods to the villages around. Clinics and small hospitals serve the district. The climate is hot and humid with salt in the air, the dry months are dusty and wet spells can flood low ground. The loggers keep readings in memory on battery power even when no network is present. Each request from Zinjibar is considered case by case before we recommend anything.",
             climateAngle:
               "Heat and humidity are both high through most of the year, rain is uneven and sometimes arrives as flood, and dust blows in the dry months, so produce stores and clinic refrigerators work through long hot spells and interrupted power. Ice and cold rooms matter most in the hot months, and a failed chiller on a night with no power can lose a whole day's catch before anyone notices.",
             areas: [
@@ -30409,9 +30409,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Zinjibar clinic or shop use a single logger?",
+                question: "With a temperature data logger in Zinjibar, can a Zinjibar clinic or shop use a single logger?",
                 answer:
-                  "Yes. A lone logger with an alert to a phone can watch one refrigerator in a clinic or shop, as long as a router is within reach, and more points can be added later.",
+                  "Yes. A lone logger with an alert to a phone can watch one refrigerator in a clinic or shop, as long as a router is within reach, and more points can be added later.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "How would a request from Zinjibar be handled?",
@@ -30435,7 +30435,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Zinjibar | Prithvi",
             metaDescription:
-              "Zinjibar, Yemen: data loggers for delta produce stores, fish ice rooms, shops and clinics, reviewed case by case. Get Solution to begin in Zinjibar.",
+              "Zinjibar: temperature data loggers for delta produce stores, fish ice rooms, shops and clinics, reviewed case by case. Get Solution to begin in Zinjibar.",
             indexable: true,
           },
         ],
@@ -30445,7 +30445,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Amanat Al Asimah",
         type: "state",
         intro:
-          "Amanat Al Asimah is the administrative area that covers the city of Sana'a, set high in the western mountains of Yemen on a broad plateau ringed by peaks. Its Old City, a World Heritage site, is a maze of tall brick houses, covered markets and gardens, while newer districts spread across the valley floor with hospitals, a university, workshops and warehouses. Altitude gives the area a mild, dry climate with sharp swings between warm afternoons and cold nights, and rain comes mainly in a short summer season. Medicines, food, coffee, raisins and laboratory samples all need steady storage. The pages below describe the city, an industrial area and the airport on its northern side, and the rooms where a temperature record would help.",
+          "Any temperature data logger in Amanat Al Asimah is arranged case by case, whether for medicine and vaccine storage or food, coffee and raisin trade. Amanat Al Asimah is the administrative area that covers the city of Sana'a, set high in the western mountains of Yemen on a broad plateau ringed by peaks. Its Old City, a World Heritage site, is a maze of tall brick houses, covered markets and gardens, while newer districts spread across the valley floor with hospitals, a university, workshops and warehouses. Altitude gives the area a mild, dry climate with sharp swings between warm afternoons and cold nights, and rain comes mainly in a short summer season. Medicines, food, coffee, raisins and laboratory samples all need steady storage. The pages below describe the city, an industrial area and the airport on its northern side, and the rooms where a temperature record would help.",
         localIndustries: [
           "Medicine and vaccine storage",
           "Food, coffee and raisin trade",
@@ -30457,9 +30457,9 @@ export const locations: LegacyLocationNode[] = [
           "Enquiries from Amanat Al Asimah are reviewed case by case. Tell us which district of Sana'a you mean, what is kept there and how the room is cooled, and we reply with what looks workable.",
         faqs: [
           {
-            question: "Which places in this area have a page?",
+            question: "Where can I find a temperature data logger in Amanat Al Asimah?",
             answer:
-              "Sana'a has a city page, and the Sana'a Industrial Area and Sana'a International Airport have area pages under it. Another district can be put to us through the enquiry form.",
+              "Sana'a has a city page, and the Sana'a Industrial Area and Sana'a International Airport have area pages under it. Another district can be put to us through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why does a high, dry plateau still call for humidity records?",
@@ -30487,7 +30487,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Sana'a",
             type: "city",
             intro:
-              "Sana'a is a highland city of western Yemen, set on a broad plateau more than two thousand metres above sea level and surrounded by mountains, and a temperature data logger here serves a city of hospitals, markets and workshops in a mild, dry climate. Its Old City, a World Heritage site, is a dense quarter of tall brick houses with decorated windows, covered markets and walled gardens, while the newer districts spread north and south along the valley. Shops sell coffee, raisins, honey, grain and spices, and pharmacies, clinics and a large university serve a wide area. Afternoons are warm and nights are cold, and rain falls mainly in summer. The loggers keep their readings in memory on battery power when a network is absent. Every request from Sana'a is looked at case by case.",
+              "A temperature data logger in Sana'a is arranged case by case, whether for hospital and blood bank or pharmaceutical sites. Sana'a is a highland city of western Yemen, set on a broad plateau more than two thousand metres above sea level and surrounded by mountains, and a temperature data logger here serves a city of hospitals, markets and workshops in a mild, dry climate. Its Old City, a World Heritage site, is a dense quarter of tall brick houses with decorated windows, covered markets and walled gardens, while the newer districts spread north and south along the valley. Shops sell coffee, raisins, honey, grain and spices, and pharmacies, clinics and a large university serve a wide area. Afternoons are warm and nights are cold, and rain falls mainly in summer. The loggers keep their readings in memory on battery power when a network is absent. Every request from Sana'a is looked at case by case.",
             climateAngle:
               "At this altitude the air is thin and dry, the sun is strong, and the gap between a warm afternoon and a cold night can be wide, with winter nights close to freezing and a short summer rainy season, so stores swing between dry warmth and brief damp.",
             areas: [
@@ -30559,9 +30559,9 @@ export const locations: LegacyLocationNode[] = [
                   "Summer storms and the condensation of cold nights add moisture to rooms that are otherwise dry, and coffee, paper and some medicines react to it, so a humidity trend shows what temperature alone misses.",
               },
               {
-                question: "How does a logger cope when the power or the connection fails?",
+                question: "How does a temperature data logger in Sana'a cope when the power or the connection fails?",
                 answer:
-                  "It keeps recording on its battery and stores the readings, so there is a record for the hours without power or signal, to be read when the site is next connected.",
+                  "It keeps recording on its battery and stores the readings, so there is a record for the hours without power or signal, to be read when the site is next connected.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Is calibration discussed for loggers used in Sana'a laboratories?",
@@ -30575,7 +30575,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Sana'a | Prithvi",
             metaDescription:
-              "Sana'a, Yemen: data loggers for pharmacies, hospital refrigerators, markets and food stores, reviewed case by case. Get Solution to begin in Sana'a.",
+              "Sana'a: temperature data loggers for pharmacies, hospital refrigerators, markets and food stores, reviewed case by case. Get Solution to begin in Sana'a.",
             indexable: true,
           },
         ],
@@ -30585,7 +30585,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Taiz Governorate",
         type: "state",
         intro:
-          "Taiz Governorate lies in the south-west highlands of Yemen and runs down to a stretch of the Red Sea coast. Inland, the city of Taiz climbs the slopes of Mount Sabir with terraced hillsides, dense markets, schools, hospitals and a long record of trade and manufacture. Towards the sea the land drops into a hot coastal plain, where the small port town of Mocha, long linked with coffee, looks out over the water. Cool, damp hills and a hot, humid shore sit within one governorate, so stores face very different weather depending on altitude. Medicines, food, coffee and laboratory samples all need steady storage. The pages below describe the city, the coastal town and its harbour, and the rooms where a temperature record would help.",
+          "Any temperature data logger in Taiz Governorate is arranged case by case, whether for medicine and vaccine storage or food processing and wholesale trade. Taiz Governorate lies in the south-west highlands of Yemen and runs down to a stretch of the Red Sea coast. Inland, the city of Taiz climbs the slopes of Mount Sabir with terraced hillsides, dense markets, schools, hospitals and a long record of trade and manufacture. Towards the sea the land drops into a hot coastal plain, where the small port town of Mocha, long linked with coffee, looks out over the water. Cool, damp hills and a hot, humid shore sit within one governorate, so stores face very different weather depending on altitude. Medicines, food, coffee and laboratory samples all need steady storage. The pages below describe the city, the coastal town and its harbour, and the rooms where a temperature record would help.",
         localIndustries: [
           "Medicine and vaccine storage",
           "Food processing and wholesale trade",
@@ -30597,9 +30597,9 @@ export const locations: LegacyLocationNode[] = [
           "Requests from Taiz Governorate are weighed case by case. Name the town, the rooms you want to watch and how they are cooled today, and we reply with what looks workable for that site.",
         faqs: [
           {
-            question: "Which places in Taiz Governorate have a page?",
+            question: "Where can I find a temperature data logger in Taiz Governorate?",
             answer:
-              "Taiz and Mocha each have a city page, and the Port of Mocha has an area page under Mocha. Another town in the governorate can be put to us through the enquiry form.",
+              "Taiz and Mocha each have a city page, and the Port of Mocha has an area page under Mocha. Another town in the governorate can be put to us through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why would highland hills and a hot coast need different logger set-ups?",
@@ -30627,7 +30627,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Taiz",
             type: "city",
             intro:
-              "Taiz is a hill city in the south-west highlands of Yemen, built on the lower slopes of Mount Sabir and overlooking a fertile plain, and a temperature data logger here serves a busy commercial town of hospitals, universities and workshops in a mild, damp climate. Narrow streets climb the hillsides, an old citadel looks down from a rock above the centre, and large markets sell food, cloth and household goods to the whole governorate. Many small factories and trading houses work from compact premises, and clinics and hospitals draw patients from the villages around. Mornings are often misty, afternoons warm and the rainy season is wet. The loggers keep their readings in memory on battery power if a network drops. We look at every request from Taiz case by case.",
+              "A temperature data logger in Taiz is arranged case by case, whether for hospital and blood bank or pharmaceutical sites. Taiz is a hill city in the south-west highlands of Yemen, built on the lower slopes of Mount Sabir and overlooking a fertile plain, and a temperature data logger here serves a busy commercial town of hospitals, universities and workshops in a mild, damp climate. Narrow streets climb the hillsides, an old citadel looks down from a rock above the centre, and large markets sell food, cloth and household goods to the whole governorate. Many small factories and trading houses work from compact premises, and clinics and hospitals draw patients from the villages around. Mornings are often misty, afternoons warm and the rainy season is wet. The loggers keep their readings in memory on battery power if a network drops. We look at every request from Taiz case by case.",
             climateAngle:
               "Altitude keeps the air cooler than on the coast, but mist, summer rain and steep hillsides bring damp into stores, so rooms swing between warm afternoons, cool nights and wet spells. Heavy traffic and steep lanes mean that loads reach shops late and unevenly, so goods may stand in a hot vehicle or a cold doorway longer than planned. Many buildings on the hillsides have grown by extension over decades, which gives uneven rooms where one wall faces the sun and another the rock.",
             areas: [
@@ -30689,9 +30689,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Taiz pharmacy or hospital use a temperature logger?",
+                question: "With a temperature data logger in Taiz, can a Taiz pharmacy or hospital use a temperature logger?",
                 answer:
-                  "A logger in the refrigerator records every hour and sends a phone alert if the range is crossed. Whether a given Taiz site can be supported is decided case by case, so send the details and we reply.",
+                  "A logger in the refrigerator records every hour and sends a phone alert if the range is crossed. Whether a given Taiz site can be supported is decided case by case, so send the details and we reply.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why would a store on a hillside need a humidity reading?",
@@ -30716,7 +30716,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Taiz | Prithvi",
             metaDescription:
-              "Taiz, Yemen: data loggers for hospitals, pharmacies, hillside wholesale stores and food plants, reviewed case by case. Get Solution to begin in Taiz.",
+              "Taiz: temperature data loggers for hospitals, pharmacies, hillside wholesale stores and food plants, reviewed case by case. Get Solution to begin in Taiz.",
             indexable: true,
           },
           {
@@ -30724,7 +30724,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Mocha",
             type: "city",
             intro:
-              "Mocha is a small port town on the Red Sea coast of south-west Yemen, long known as the harbour from which coffee once travelled to the wider world, and a temperature data logger here serves a quiet coastal place where fishing, small trade and storage meet hot, humid, salty air. Boats land fish along the shore, shopkeepers sell food and household goods to the town and the villages behind it, and old coffee-trade buildings recall the harbour's past. A clinic and small shops serve the district. The plain behind the town is flat and warm, with little shade. The loggers hold their readings in memory on battery power when there is no network. Each request from Mocha is considered case by case before we suggest anything.",
+              "A temperature data logger in Mocha is arranged case by case, whether for food and beverage or hospital and blood bank sites. Mocha is a small port town on the Red Sea coast of south-west Yemen, long known as the harbour from which coffee once travelled to the wider world, and a temperature data logger here serves a quiet coastal place where fishing, small trade and storage meet hot, humid, salty air. Boats land fish along the shore, shopkeepers sell food and household goods to the town and the villages behind it, and old coffee-trade buildings recall the harbour's past. A clinic and small shops serve the district. The plain behind the town is flat and warm, with little shade. The loggers hold their readings in memory on battery power when there is no network. Each request from Mocha is considered case by case before we suggest anything.",
             climateAngle:
               "The shore is hot and humid for most of the year, the plain behind it is flat and dusty, and the air is full of salt, so any store near the sea faces heat and damp together with little relief at night. Shade is scarce on the flat shore, and a sea breeze can change how a room feels in a few minutes without lowering its real temperature much. Rooms built to hold coffee long ago were never made for refrigeration, so cooling here is usually a modest box, a small room or a single appliance.",
             areas: [
@@ -30786,9 +30786,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a small shop in Mocha use a single logger?",
+                question: "With a temperature data logger in Mocha, can a small shop in Mocha use a single logger?",
                 answer:
-                  "Yes. A single logger with an alert to a phone can watch one refrigerator in a shop or clinic, provided a router is within reach, and more points can be added to the same account later.",
+                  "Yes. A single logger with an alert to a phone can watch one refrigerator in a shop or clinic, provided a router is within reach, and more points can be added to the same account later.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "How would a request from Mocha be handled?",
@@ -30812,7 +30812,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Mocha | Prithvi",
             metaDescription:
-              "Mocha, Yemen: data loggers for fish ice stores, shops and clinic refrigerators on the Red Sea coast, reviewed case by case. Use Get Solution to plan Mocha.",
+              "Mocha: temperature data loggers for fish ice stores, shops and clinic refrigerators on the Red Sea coast, reviewed case by case. Get Solution for Mocha.",
             indexable: true,
           },
         ],
@@ -30834,9 +30834,9 @@ export const locations: LegacyLocationNode[] = [
           "Requests from Al Hudaydah Governorate are weighed case by case. Tell us which town you mean, what is stored and how the room is cooled, and we answer with what looks workable on site.",
         faqs: [
           {
-            question: "Which places in Al Hudaydah Governorate have a page?",
+            question: "Where can I find a temperature data logger in Al Hudaydah Governorate?",
             answer:
-              "Hodeidah, Zabid and Bajil each have a city page, and the Port of Hodeidah and the Port of Salif have area pages under Hodeidah. Further places can be put to us through the enquiry form.",
+              "Hodeidah, Zabid and Bajil each have a city page, and the Port of Hodeidah and the Port of Salif have area pages under Hodeidah. Further places can be put to us through the enquiry form.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why is humidity as much a worry as heat on the Tihama?",
@@ -30866,7 +30866,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Hodeidah",
             type: "city",
             intro:
-              "Hodeidah is a port city on the Red Sea coast of western Yemen, the main town of the Tihama plain, and a temperature data logger here serves a harbour town of fish, food and medicine stores in very hot, humid air. Fishing boats land their catch each day, markets and wholesalers sell food and household goods to a wide hinterland, and the harbour area is crowded with sheds, offices and small warehouses. Hospitals and clinics serve the city and the villages of the plain, and a seafront promenade follows the shore. Heat and moisture stay high all year, and nights offer little relief. The loggers store their readings on their own batteries when a network is absent. We take every Hodeidah request case by case.",
+              "A temperature data logger in Hodeidah is arranged case by case, whether for food and beverage or pharmaceutical sites. Hodeidah is a port city on the Red Sea coast of western Yemen, the main town of the Tihama plain, and a temperature data logger here serves a harbour town of fish, food and medicine stores in very hot, humid air. Fishing boats land their catch each day, markets and wholesalers sell food and household goods to a wide hinterland, and the harbour area is crowded with sheds, offices and small warehouses. Hospitals and clinics serve the city and the villages of the plain, and a seafront promenade follows the shore. Heat and moisture stay high all year, and nights offer little relief. The loggers store their readings on their own batteries when a network is absent. We take every Hodeidah request case by case.",
             climateAngle:
               "Temperatures stay high through the year, the air is full of moisture and salt, and the plain is flat, so stores and vehicles have almost no cool hours to recover and condensation is a daily event. Power cuts are common enough to plan for, and many businesses rely on generators or ice, which makes a record of when a room warmed especially valuable. Docks, markets and the seafront draw crowds all day, so doors open constantly and cold air escapes.",
             areas: [
@@ -30928,9 +30928,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Hodeidah food or fish business keep a temperature record?",
+                question: "With a temperature data logger in Hodeidah, can a Hodeidah food or fish business keep a temperature record?",
                 answer:
-                  "A logger in the ice room or cold store records through the day and night, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for a buyer.",
+                  "A logger in the ice room or cold store records through the day and night, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for a buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why does a store on a flat, hot coast need a humidity reading?",
@@ -30955,7 +30955,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Hodeidah | Prithvi",
             metaDescription:
-              "Hodeidah, Yemen: data loggers for fish ice stores, food sheds, hospitals and pharmacies, reviewed case by case. Get Solution and plan your Hodeidah sites.",
+              "Hodeidah: temperature data loggers for fish ice stores, food sheds, hospitals and pharmacies, reviewed case by case. Get Solution for Hodeidah.",
             indexable: true,
           },
           {
@@ -30963,7 +30963,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Zabid",
             type: "city",
             intro:
-              "Zabid is a historic town on the Tihama plain of western Yemen, a World Heritage site known for its old mosques, its houses of brick and its long record as a centre of Islamic learning, and a temperature data logger here serves a small, hot, humid town where heritage, farming and trade overlap. Date palms and farm plots surround the old quarter, markets sell food and household goods to nearby villages, and clinics serve the district. Many buildings are old and thick-walled, and collections and libraries in them need steady air. Summers are very hot and the air is moist. The loggers keep readings in memory on battery power without a network. We consider each request from Zabid case by case.",
+              "A temperature data logger in Zabid is arranged case by case, whether for food and beverage or laboratory sites. Zabid is a historic town on the Tihama plain of western Yemen, a World Heritage site known for its old mosques, its houses of brick and its long record as a centre of Islamic learning, and a temperature data logger here serves a small, hot, humid town where heritage, farming and trade overlap. Date palms and farm plots surround the old quarter, markets sell food and household goods to nearby villages, and clinics serve the district. Many buildings are old and thick-walled, and collections and libraries in them need steady air. Summers are very hot and the air is moist. The loggers keep readings in memory on battery power without a network. We consider each request from Zabid case by case.",
             climateAngle:
               "Heat and moisture are both high for most of the year, rain is seasonal and sometimes heavy, and old walls hold damp, so heritage rooms and food stores feel slow, sticky swings rather than sharp ones. Because the old town is compact and its lanes are narrow, vehicles rarely reach the door of a store, and goods are carried the last stretch by hand or cart in the sun. Visitors and scholars arrive in the cooler months, and guesthouse kitchens add to the list of small refrigerators worth watching.",
             areas: [
@@ -31025,9 +31025,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Why would a library or study room in Zabid need a humidity record?",
+                question: "With a temperature data logger in Zabid, why would a library or study room in Zabid need a humidity record?",
                 answer:
-                  "Paper, ink and bindings react to damp, so a log of temperature and humidity shows whether the air stayed steady and when it swung, which helps a conservation plan.",
+                  "Paper, ink and bindings react to damp, so a log of temperature and humidity shows whether the air stayed steady and when it swung, which helps a conservation plan.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Can a small Zabid shop use a single logger?",
@@ -31051,7 +31051,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Zabid | Prithvi",
             metaDescription:
-              "Zabid, Yemen: data loggers for heritage rooms, date stores, markets and clinic refrigerators, reviewed case by case. Get Solution to begin in Zabid.",
+              "Zabid: temperature data loggers for heritage rooms, date stores, markets and clinic refrigerators, reviewed case by case. Get Solution to begin in Zabid.",
             indexable: true,
           },
           {
@@ -31059,7 +31059,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Bajil",
             type: "city",
             intro:
-              "Bajil is a market town on the Tihama plain of western Yemen, set on the road that links the coast with the mountains, and a temperature data logger here serves a trading place where farm produce, goods and travellers pass through a hot lowland. Growers from the surrounding plots bring fruit, vegetables and grain to its markets, wholesalers load vehicles for the coast and the highlands, and small workshops and stores line the main road. A clinic and pharmacies serve the town and the villages. Traders there work against the clock, because a lot left too long in the sun loses its value. Days are hot and humid and nights stay warm. The loggers store readings on their own batteries when no network is present. We review each request from Bajil case by case.",
+              "A temperature data logger in Bajil is arranged case by case, whether for food and beverage or logistics and warehousing sites. Bajil is a market town on the Tihama plain of western Yemen, set on the road that links the coast with the mountains, and a temperature data logger here serves a trading place where farm produce, goods and travellers pass through a hot lowland. Growers from the surrounding plots bring fruit, vegetables and grain to its markets, wholesalers load vehicles for the coast and the highlands, and small workshops and stores line the main road. A clinic and pharmacies serve the town and the villages. Traders there work against the clock, because a lot left too long in the sun loses its value. Days are hot and humid and nights stay warm. The loggers store readings on their own batteries when no network is present. We review each request from Bajil case by case.",
             climateAngle:
               "The plain is flat, hot and moist for most of the year, with little relief at night and dusty winds in the dry season, so produce and parked vehicles heat quickly and stores seldom cool down. Trucks that load in the evening still carry the heat of the day in their bodies, and a cargo packed warm stays warm for the first part of its journey. Roadside cold boxes are opened for every customer, so the air inside them is exchanged many times an hour.",
             areas: [
@@ -31121,9 +31121,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Bajil produce trader keep a temperature record of a load?",
+                question: "With a temperature data logger in Bajil, can a Bajil produce trader keep a temperature record of a load?",
                 answer:
-                  "A small logger placed in the load records its journey and the waiting before it, and a report can be exported in PDF, Excel or CSV form for a buyer.",
+                  "A small logger placed in the load records its journey and the waiting before it, and a report can be exported in PDF, Excel or CSV form for a buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Do flat, hot plains need humidity as well as temperature?",
@@ -31147,7 +31147,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Bajil | Prithvi",
             metaDescription:
-              "Bajil, Yemen: data loggers for produce markets, cold boxes, roadside stores and clinics, reviewed case by case. Get Solution: Bajil.",
+              "Bajil, Yemen: temperature data loggers for produce markets, cold boxes, roadside stores and clinics, reviewed case by case. Get Solution: Bajil.",
             indexable: true,
           },
         ],
@@ -31157,7 +31157,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Ibb Governorate",
         type: "state",
         intro:
-          "Ibb Governorate sits in the green southern highlands of Yemen, where rain from the monsoon reaches the mountains for much of the year and terraced fields climb the hillsides. The city of Ibb stands on a hill above a fertile plain, and the historic hill town of Jibla, linked with Queen Arwa, lies close by. Grain, fruit, coffee and vegetables grow on the terraces and pass through town markets. Cool air, frequent mist and heavy rain mean that damp, not heat, is often the main worry in a store. Medicines, food and farm produce all need steady storage. The page below describes the city and the rooms where a record of temperature and humidity would help.",
+          "Any temperature data logger in Ibb Governorate is arranged case by case, whether for terrace farming and produce or food processing and trade. Ibb Governorate sits in the green southern highlands of Yemen, where rain from the monsoon reaches the mountains for much of the year and terraced fields climb the hillsides. The city of Ibb stands on a hill above a fertile plain, and the historic hill town of Jibla, linked with Queen Arwa, lies close by. Grain, fruit, coffee and vegetables grow on the terraces and pass through town markets. Cool air, frequent mist and heavy rain mean that damp, not heat, is often the main worry in a store. Medicines, food and farm produce all need steady storage. The page below describes the city and the rooms where a record of temperature and humidity would help.",
         localIndustries: [
           "Terrace farming and produce",
           "Food processing and trade",
@@ -31169,9 +31169,9 @@ export const locations: LegacyLocationNode[] = [
           "Requests from Ibb Governorate are weighed case by case. Name the town, the stores you want to watch and how damp they get, and we reply with what looks workable for that place.",
         faqs: [
           {
-            question: "Which places in Ibb Governorate have a page?",
+            question: "Where can I find a temperature data logger in Ibb Governorate?",
             answer:
-              "Ibb has a city page. Other towns in the governorate can be put to us through the enquiry form, and more pages are added only when they can be written from confident facts.",
+              "Ibb has a city page. Other towns in the governorate can be put to us through the enquiry form, and more pages are added only when they can be written from confident facts.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why does a wet highland call for humidity records?",
@@ -31195,7 +31195,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Ibb",
             type: "city",
             intro:
-              "Ibb is a hill city in the green southern highlands of Yemen, built on a ridge above a fertile plain where rain reaches the mountains for much of the year, and a temperature data logger here serves a farming and market town in a cool, misty, damp setting. Terraced fields of grain, fruit, coffee and vegetables climb the slopes around it, the old town has narrow lanes of stone houses, and the historic hill town of Jibla lies nearby. Markets, workshops, a university and hospitals serve the governorate. Mist and heavy rain are common and nights are cool. The loggers hold their readings on their own batteries when no network is present. We consider each Ibb request case by case.",
+              "A temperature data logger in Ibb is arranged case by case, whether for food and beverage or hospital and blood bank sites. Ibb is a hill city in the green southern highlands of Yemen, built on a ridge above a fertile plain where rain reaches the mountains for much of the year, and a temperature data logger here serves a farming and market town in a cool, misty, damp setting. Terraced fields of grain, fruit, coffee and vegetables climb the slopes around it, the old town has narrow lanes of stone houses, and the historic hill town of Jibla lies nearby. Markets, workshops, a university and hospitals serve the governorate. Mist and heavy rain are common and nights are cool. The loggers hold their readings on their own batteries when no network is present. We consider each Ibb request case by case.",
             climateAngle:
               "Rain and mist come often, the hills stay cool and green, and the air is damp through much of the year, so stores worry about moisture and mould more than about heat. Stone buildings keep rooms cool but slow to dry, and a store that was dry in the dry season can turn mouldy after a few weeks of rain. Roads between the terraces become slippery in the wet months, so loads to farms and shops can be delayed, leaving goods in vehicles or on doorsteps in the damp.",
             areas: [
@@ -31257,9 +31257,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Why would a coffee or grain store in Ibb need a humidity record?",
+                question: "With a temperature data logger in Ibb, why would a coffee or grain store in Ibb need a humidity record?",
                 answer:
-                  "Damp air lets mould grow and spoils dry crops, so a log of humidity beside the temperature shows when a store turned wet and for how long.",
+                  "Damp air lets mould grow and spoils dry crops, so a log of humidity beside the temperature shows when a store turned wet and for how long.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Can a small Ibb clinic use a single logger?",
@@ -31283,7 +31283,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Ibb | Prithvi",
             metaDescription:
-              "Ibb, Yemen: data loggers for terrace-farm produce stores, markets, hospitals and clinics, reviewed case by case. Get Solution to start in Ibb.",
+              "Ibb, Yemen: temperature data loggers for terrace-farm produce stores, markets, hospitals and clinics, reviewed case by case. Get Solution to start in Ibb.",
             indexable: true,
           },
         ],
@@ -31293,7 +31293,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Dhamar Governorate",
         type: "state",
         intro:
-          "Dhamar Governorate stretches across the central highlands of Yemen south of Sana'a, on a high plateau of broad plains between rocky hills. The city of Dhamar is its centre, a university town with markets, workshops and hospitals set in farmland that grows grain, potatoes, grapes and other crops. The plateau is dry and cool for much of the year, with strong sun by day, cold nights in winter and a short rainy season. Farm produce, medicines and food need steady storage through the swings between a bright afternoon and a freezing dawn. The page below describes the city and the rooms where a record of temperature would help.",
+          "Any temperature data logger in Dhamar Governorate is arranged case by case, whether for plateau farming and produce or university and clinic laboratories. Dhamar Governorate stretches across the central highlands of Yemen south of Sana'a, on a high plateau of broad plains between rocky hills. The city of Dhamar is its centre, a university town with markets, workshops and hospitals set in farmland that grows grain, potatoes, grapes and other crops. The plateau is dry and cool for much of the year, with strong sun by day, cold nights in winter and a short rainy season. Farm produce, medicines and food need steady storage through the swings between a bright afternoon and a freezing dawn. The page below describes the city and the rooms where a record of temperature would help.",
         localIndustries: [
           "Plateau farming and produce",
           "University and clinic laboratories",
@@ -31305,9 +31305,9 @@ export const locations: LegacyLocationNode[] = [
           "Requests from Dhamar Governorate are weighed case by case. Name the town, the rooms to be watched and how they are cooled, and we reply with what seems workable for that site.",
         faqs: [
           {
-            question: "Which places in Dhamar Governorate have a page?",
+            question: "Where can I find a temperature data logger in Dhamar Governorate?",
             answer:
-              "Dhamar has a city page. Another town in the governorate can be put to us through the enquiry form, and further pages follow only when they can be written from confident facts.",
+              "Dhamar has a city page. Another town in the governorate can be put to us through the enquiry form, and further pages follow only when they can be written from confident facts.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Do cold nights matter for stored farm produce?",
@@ -31331,7 +31331,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Dhamar",
             type: "city",
             intro:
-              "Dhamar is a university town on the high central plateau of Yemen, south of Sana'a, and a temperature data logger here serves a farming and market city in a cool, dry climate with cold nights. Broad plains of grain, potatoes, grapes and other crops spread around it, markets sell produce and household goods to the surrounding villages, and a university, hospitals and clinics serve the governorate. Small workshops and food stores work from compact premises along the main roads. Days are bright and nights can fall close to freezing in winter, while rain comes in a short season. The loggers keep readings in memory on battery power if a network drops. We look at each request from Dhamar case by case.",
+              "A temperature data logger in Dhamar is arranged case by case, whether for food and beverage or laboratory sites. Dhamar is a university town on the high central plateau of Yemen, south of Sana'a, and a temperature data logger here serves a farming and market city in a cool, dry climate with cold nights. Broad plains of grain, potatoes, grapes and other crops spread around it, markets sell produce and household goods to the surrounding villages, and a university, hospitals and clinics serve the governorate. Small workshops and food stores work from compact premises along the main roads. Days are bright and nights can fall close to freezing in winter, while rain comes in a short season. The loggers keep readings in memory on battery power if a network drops. We look at each request from Dhamar case by case.",
             climateAngle:
               "The plateau is high, bright and dry, with a wide gap between a warm afternoon and a frosty dawn and a short rainy season, so farm stores swing between cold and warmth without much humidity. Stores with metal roofs warm quickly on bright winter afternoons, and the same room can fall close to freezing before dawn. Farmers and traders often hold produce for days before selling, so the long middle part of its time in storage, not the journey, decides how much is lost.",
             areas: [
@@ -31393,9 +31393,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Do cold nights really matter for farm produce in Dhamar?",
+                question: "With a temperature data logger in Dhamar, do cold nights really matter for farm produce in Dhamar?",
                 answer:
-                  "Yes. Potatoes and fruit can be damaged by frost as easily as by heat, so a continuous log shows swings that a single spot reading would miss.",
+                  "Yes. Potatoes and fruit can be damaged by frost as easily as by heat, so a continuous log shows swings that a single spot reading would miss.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Can a small clinic in Dhamar use one logger?",
@@ -31419,7 +31419,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Dhamar | Prithvi",
             metaDescription:
-              "Dhamar, Yemen: data loggers for farm produce stores, university labs, hospitals and clinics, reviewed case by case. Use Get Solution for Dhamar.",
+              "Dhamar: temperature data loggers for farm produce stores, university labs, hospitals and clinics, reviewed case by case. Use Get Solution for Dhamar.",
             indexable: true,
           },
         ],
@@ -31429,7 +31429,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Marib Governorate",
         type: "state",
         intro:
-          "Marib Governorate lies in the east of Yemen where the mountains fall away into the edge of the great desert. Its old fame comes from the ancient dam of the Sabaean kingdom, whose ruins stand beside a modern dam that holds back seasonal floodwater and waters fields of dates, vegetables and grain below it. The city of Marib is the centre, a desert-edge town of markets, clinics, workshops and storage yards, with oil and gas fields known to lie in the surrounding country. Days are very hot and dry, nights can be cool, and dust is common. Medicines, food and equipment all need steady storage in such swings. The page below describes the city and the rooms where a temperature record would help.",
+          "Any temperature data logger in Marib Governorate is arranged case by case, whether for desert-edge farming and dates or medicine and vaccine storage. Marib Governorate lies in the east of Yemen where the mountains fall away into the edge of the great desert. Its old fame comes from the ancient dam of the Sabaean kingdom, whose ruins stand beside a modern dam that holds back seasonal floodwater and waters fields of dates, vegetables and grain below it. The city of Marib is the centre, a desert-edge town of markets, clinics, workshops and storage yards, with oil and gas fields known to lie in the surrounding country. Days are very hot and dry, nights can be cool, and dust is common. Medicines, food and equipment all need steady storage in such swings. The page below describes the city and the rooms where a temperature record would help.",
         localIndustries: [
           "Desert-edge farming and dates",
           "Medicine and vaccine storage",
@@ -31441,9 +31441,9 @@ export const locations: LegacyLocationNode[] = [
           "Requests from Marib Governorate are weighed case by case. Name the town, the rooms you want to watch and how they are cooled today, and we reply with what looks workable for that site.",
         faqs: [
           {
-            question: "Which places in Marib Governorate have a page?",
+            question: "Where can I find a temperature data logger in Marib Governorate?",
             answer:
-              "Marib has a city page. Another town in the governorate can be put to us through the enquiry form, and further pages follow only when they can be written from confident facts.",
+              "Marib has a city page. Another town in the governorate can be put to us through the enquiry form, and further pages follow only when they can be written from confident facts.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Why would a very dry desert-edge town need humidity records?",
@@ -31467,7 +31467,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Marib",
             type: "city",
             intro:
-              "Marib is a city at the eastern edge of the Yemeni mountains, where the land opens into the great desert, and a temperature data logger here serves a hot, dry town built around an ancient dam site. The ruins of the Sabaean dam and temples stand nearby, a modern dam holds back seasonal floodwater, and the irrigated land below grows dates, vegetables and grain. Markets sell food and household goods to the town and to settlements across the dry country, and clinics, hospitals and workshops serve a wide area. Oil and gas fields are known to lie in the region, which brings equipment yards and storage into the picture. Dust is frequent. The loggers hold readings in memory on battery power when a network is absent. We look at each Marib request case by case.",
+              "A temperature data logger in Marib is arranged case by case, whether for food and beverage or hospital and blood bank sites. Marib is a city at the eastern edge of the Yemeni mountains, where the land opens into the great desert, and a temperature data logger here serves a hot, dry town built around an ancient dam site. The ruins of the Sabaean dam and temples stand nearby, a modern dam holds back seasonal floodwater, and the irrigated land below grows dates, vegetables and grain. Markets sell food and household goods to the town and to settlements across the dry country, and clinics, hospitals and workshops serve a wide area. Oil and gas fields are known to lie in the region, which brings equipment yards and storage into the picture. Dust is frequent. The loggers hold readings in memory on battery power when a network is absent. We look at each Marib request case by case.",
             climateAngle:
               "Days are very hot and dry, nights can be cool, dust blows for much of the year and rain is rare but sudden, so stores swing between baking heat and brief damp while vehicles waiting in the sun get far hotter than the air. Long roads link the town to the highlands, so goods often spend many hours in a vehicle before arriving, and the hot desert wind dries out anything left uncovered. A refrigerator that fails on a summer afternoon can lose its contents before anyone notices.",
             areas: [
@@ -31529,9 +31529,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Marib date or food business use a temperature record?",
+                question: "With a temperature data logger in Marib, can a Marib date or food business use a temperature record?",
                 answer:
-                  "A logger in a Marib store logs temperature and humidity across the season, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for a buyer.",
+                  "A logger in a Marib store logs temperature and humidity across the season, and a report for the dates of one lot can be exported in PDF, Excel or CSV form for a buyer.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Why does dust matter for where a logger is mounted?",
@@ -31555,7 +31555,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Marib | Prithvi",
             metaDescription:
-              "Marib, Yemen: data loggers for desert-edge date stores, clinics, wholesale food rooms and equipment yards, reviewed case by case. Get Solution: Marib.",
+              "Marib: temperature data loggers for desert-edge date stores, clinics, wholesale food rooms and equipment yards, reviewed case by case. Get Solution: Marib.",
             indexable: true,
           },
         ],
@@ -31565,7 +31565,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Lahij Governorate",
         type: "state",
         intro:
-          "Lahij Governorate lies in the south of Yemen, north of Aden, where a broad and fertile delta plain meets the mountains behind it. Seasonal floodwater from the highlands has long watered fields of cotton, vegetables, fruit and fodder on this plain, and the town of Lahij, also called Al Hawta, is its market centre. The climate is hot with moderate to high humidity near the plain and cooler in the hills, rain is uneven, and dust blows in dry spells. Farm produce, medicines and food pass through small stores and clinics where cooling and power cannot always be relied on. The page below describes the town and the rooms where a record of temperature would help.",
+          "Any temperature data logger in Lahij Governorate is arranged case by case, whether for delta farming and produce or fodder and livestock trade. Lahij Governorate lies in the south of Yemen, north of Aden, where a broad and fertile delta plain meets the mountains behind it. Seasonal floodwater from the highlands has long watered fields of cotton, vegetables, fruit and fodder on this plain, and the town of Lahij, also called Al Hawta, is its market centre. The climate is hot with moderate to high humidity near the plain and cooler in the hills, rain is uneven, and dust blows in dry spells. Farm produce, medicines and food pass through small stores and clinics where cooling and power cannot always be relied on. The page below describes the town and the rooms where a record of temperature would help.",
         localIndustries: [
           "Delta farming and produce",
           "Fodder and livestock trade",
@@ -31577,9 +31577,9 @@ export const locations: LegacyLocationNode[] = [
           "Requests from Lahij Governorate are weighed case by case. Tell us which town you mean, what is kept there and how the room is cooled, and we reply with what looks workable.",
         faqs: [
           {
-            question: "Which places in Lahij Governorate have a page?",
+            question: "Where can I find a temperature data logger in Lahij Governorate?",
             answer:
-              "Lahij has a city page. Another town in the governorate can be put to us through the enquiry form, and more pages are added only when they can be written from confident facts.",
+              "Lahij has a city page. Another town in the governorate can be put to us through the enquiry form, and more pages are added only when they can be written from confident facts.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "How does a flood affect a store on the delta?",
@@ -31603,7 +31603,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Lahij",
             type: "city",
             intro:
-              "Lahij, also known as Al Hawta, is a market town on a fertile delta plain in the south of Yemen, a short way north of Aden, and a temperature data logger here serves a farming district where heat, flood and dust meet. Floodwater from the highlands has long watered fields of cotton, vegetables, fruit and fodder, growers bring their crops to the town markets, and traders carry goods on towards Aden and the mountains. Clinics, small hospitals and pharmacies serve the district, and shops sell food and household goods. The climate is hot, with humidity that rises towards the coast. The loggers hold their readings in memory on battery power whenever the network drops. We consider each request from Lahij case by case.",
+              "A temperature data logger in Lahij is arranged case by case, whether for food and beverage or hospital and blood bank sites. Lahij, also known as Al Hawta, is a market town on a fertile delta plain in the south of Yemen, a short way north of Aden, and a temperature data logger here serves a farming district where heat, flood and dust meet. Floodwater from the highlands has long watered fields of cotton, vegetables, fruit and fodder, growers bring their crops to the town markets, and traders carry goods on towards Aden and the mountains. Clinics, small hospitals and pharmacies serve the district, and shops sell food and household goods. The climate is hot, with humidity that rises towards the coast. The loggers hold their readings in memory on battery power whenever the network drops. We consider each request from Lahij case by case.",
             climateAngle:
               "The plain is hot for most of the year, humid in the weeks when the sea air reaches inland, and dusty in the dry months, while rain is uneven and sometimes arrives as flood, so produce stores and clinic refrigerators work through long hot spells and interrupted power. Wholesalers load in the cool early hours to avoid the midday sun, but a cargo packed at dawn can still sit in a hot vehicle for much of the day before it is unloaded.",
             areas: [
@@ -31665,9 +31665,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Can a Lahij clinic or shop use a single logger?",
+                question: "With a temperature data logger in Lahij, can a Lahij clinic or shop use a single logger?",
                 answer:
-                  "Yes. One logger with an alert to a phone can watch a single refrigerator in a clinic or shop, provided a router is within reach, and further points can be added to the same account later.",
+                  "Yes. One logger with an alert to a phone can watch a single refrigerator in a clinic or shop, provided a router is within reach, and further points can be added to the same account later.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "How would a request from Lahij be handled?",
@@ -31691,7 +31691,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Lahij | Prithvi",
             metaDescription:
-              "Lahij, Yemen: data loggers for delta produce sheds, dairy rooms, wholesale yards and clinics, reviewed case by case. Use Get Solution to plan Lahij.",
+              "Lahij: temperature data loggers for delta produce sheds, dairy rooms, wholesale yards and clinics, reviewed case by case. Use Get Solution to plan Lahij.",
             indexable: true,
           },
         ],
@@ -31701,7 +31701,7 @@ export const locations: LegacyLocationNode[] = [
         name: "Sa'dah Governorate",
         type: "state",
         intro:
-          "Sa'dah Governorate occupies the high mountains of northern Yemen, a country of terraced slopes, stone villages and cold, dry winters. The city of Sa'dah is its centre, a walled town of mud-brick houses and old gates that has served as a market and gathering place for the surrounding valleys. Grapes, pomegranates, grain and other crops grow on the terraces, and the markets also sell leather goods, spices and household supplies. Winter nights are very cold, summer days are bright and warm, and rain falls mainly in a short summer season. Medicines, food and farm produce need steady storage in such swings. The page below describes the city and the rooms where a temperature record would help.",
+          "Any temperature data logger in Sa'dah Governorate is arranged case by case, whether for terrace farming and fruit or market trade and leather goods. Sa'dah Governorate occupies the high mountains of northern Yemen, a country of terraced slopes, stone villages and cold, dry winters. The city of Sa'dah is its centre, a walled town of mud-brick houses and old gates that has served as a market and gathering place for the surrounding valleys. Grapes, pomegranates, grain and other crops grow on the terraces, and the markets also sell leather goods, spices and household supplies. Winter nights are very cold, summer days are bright and warm, and rain falls mainly in a short summer season. Medicines, food and farm produce need steady storage in such swings. The page below describes the city and the rooms where a temperature record would help.",
         localIndustries: [
           "Terrace farming and fruit",
           "Market trade and leather goods",
@@ -31713,9 +31713,9 @@ export const locations: LegacyLocationNode[] = [
           "Requests from Sa'dah Governorate are weighed case by case. Name the town, the rooms you want to watch and how they are cooled today, and we reply with what looks workable for that site.",
         faqs: [
           {
-            question: "Which places in Sa'dah Governorate have a page?",
+            question: "Where can I find a temperature data logger in Sa'dah Governorate?",
             answer:
-              "Sa'dah has a city page. Another town in the governorate can be put to us through the enquiry form, and further pages follow only when they can be written from confident facts.",
+              "Sa'dah has a city page. Another town in the governorate can be put to us through the enquiry form, and further pages follow only when they can be written from confident facts.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
           },
           {
             question: "Do cold winter nights matter for stored fruit?",
@@ -31739,7 +31739,7 @@ export const locations: LegacyLocationNode[] = [
             name: "Sa'dah",
             type: "city",
             intro:
-              "Sa'dah is a walled town in the high mountains of northern Yemen, set on a plain among terraced slopes, and a temperature data logger here serves a market town of old mud-brick houses in a cold, dry climate. The old city's walls and gates still frame the central market, where traders sell fruit, grain, spices, leather goods and household supplies to the valleys around. Growers on the terraces produce grapes, pomegranates and grain, and clinics and hospitals serve a wide mountain district. Winter nights are very cold, summer days are bright and warm, and rain falls mainly in a short season. The loggers hold readings in memory on battery power when no network is present. We review each request from Sa'dah case by case.",
+              "A temperature data logger in Sa'dah is arranged case by case, whether for food and beverage or hospital and blood bank sites. Sa'dah is a walled town in the high mountains of northern Yemen, set on a plain among terraced slopes, and a temperature data logger here serves a market town of old mud-brick houses in a cold, dry climate. The old city's walls and gates still frame the central market, where traders sell fruit, grain, spices, leather goods and household supplies to the valleys around. Growers on the terraces produce grapes, pomegranates and grain, and clinics and hospitals serve a wide mountain district. Winter nights are very cold, summer days are bright and warm, and rain falls mainly in a short season. The loggers hold readings in memory on battery power when no network is present. We review each request from Sa'dah case by case.",
             climateAngle:
               "The air is thin, dry and bright, winter nights fall well below freezing at times, and summer afternoons can be warm, so fruit stores and clinic refrigerators swing between frost and warmth. Thick mud-brick walls even out the day but are slow to warm after a cold night, and a store room may hold winter chill into the afternoon before the sun reaches it. Rains in summer bring brief damp into rooms that are otherwise very dry.",
             areas: [
@@ -31801,9 +31801,9 @@ export const locations: LegacyLocationNode[] = [
             ],
             faqs: [
               {
-                question: "Do very cold nights really matter for fruit stores in Sa'dah?",
+                question: "With a temperature data logger in Sa'dah, do very cold nights really matter for fruit stores in Sa'dah?",
                 answer:
-                  "Yes. Grapes and pomegranates can be damaged by frost as easily as by warmth, so a continuous log shows swings that a single spot reading would miss.",
+                  "Yes. Grapes and pomegranates can be damaged by frost as easily as by warmth, so a continuous log shows swings that a single spot reading would miss.", link: { href: "/", text: "See how a Prithvi temperature data logger works" },
               },
               {
                 question: "Can a small Sa'dah clinic use one logger?",
@@ -31827,7 +31827,7 @@ export const locations: LegacyLocationNode[] = [
             ],
             metaTitle: "Temperature Data Loggers in Sa'dah | Prithvi",
             metaDescription:
-              "Sa'dah, Yemen: data loggers for walled-town market stores, fruit cellars, hospitals and pharmacies, reviewed case by case. Get Solution to begin in Sa'dah.",
+              "Sa'dah: temperature data loggers for walled-town market stores, fruit cellars, hospitals and pharmacies, reviewed case by case. Get Solution for Sa'dah.",
             indexable: true,
           },
         ],
