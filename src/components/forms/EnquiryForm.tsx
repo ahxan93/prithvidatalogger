@@ -5,7 +5,7 @@ import { useId, useRef, useState, type FormEvent } from "react";
 import { products } from "@/data/products";
 import { buildEnquiryOptions } from "@/data/enquiry";
 import Button from "@/components/ui/Button";
-import { AlertCircleIcon, CheckCircleIcon, ChevronDownIcon, SpinnerIcon, WhatsAppIcon } from "@/components/ui/icons";
+import { AlertCircleIcon, CheckCircleIcon, SpinnerIcon, WhatsAppIcon } from "@/components/ui/icons";
 import { whatsappHref } from "@/lib/contact";
 import { cn } from "@/lib/cn";
 
@@ -68,9 +68,6 @@ type FieldName = keyof Values;
 type Errors = Partial<Record<FieldName, string>>;
 type Status = "idle" | "submitting" | "success" | "error";
 
-/** Fields inside the "Add more details" section; an error on one of these opens it. */
-const EXTRA_FIELDS: FieldName[] = ["company", "email", "location", "industry", "connectivity", "quantity"];
-
 function validate(v: Values): Errors {
   const errors: Errors = {};
   if (v.name.trim().length < 2) errors.name = "Please enter your full name.";
@@ -128,8 +125,6 @@ export default function EnquiryForm({
   const [errors, setErrors] = useState<Errors>({});
   const [touched, setTouched] = useState<Partial<Record<FieldName, boolean>>>({});
   const [status, setStatus] = useState<Status>("idle");
-  const [open, setOpen] = useState(false);
-  const detailsId = `${id}-details`;
 
   const fieldId = (name: FieldName) => `${id}-${name}`;
   const errorId = (name: FieldName) => `${id}-${name}-error`;
@@ -160,11 +155,7 @@ export default function EnquiryForm({
     setTouched({ name: true, phone: true, email: true, quantity: true, consent: true });
     const firstInvalid = Object.keys(found)[0] as FieldName | undefined;
     if (firstInvalid) {
-      // A hidden optional field with an error: open the section first so it can take focus.
-      if (EXTRA_FIELDS.includes(firstInvalid)) setOpen(true);
-      requestAnimationFrame(() =>
-        formRef.current?.querySelector<HTMLElement>(`#${CSS.escape(fieldId(firstInvalid))}`)?.focus(),
-      );
+      formRef.current?.querySelector<HTMLElement>(`#${CSS.escape(fieldId(firstInvalid))}`)?.focus();
       return;
     }
 
@@ -279,15 +270,15 @@ export default function EnquiryForm({
       aria-labelledby={title ? `${id}-title` : undefined}
       aria-label={title ? undefined : "Enquiry form"}
       className={cn(
-        "rounded-2xl border border-slate-200 bg-white p-4 text-ink shadow-soft sm:p-6",
+        "rounded-2xl border border-slate-200 bg-white text-ink shadow-soft",
         // Extra bottom clearance on mobile: the submit button is full-width
         // there, so it can end up directly behind the fixed floating buttons.
-        "pb-20 sm:pb-6",
+        compact ? "p-5 pb-16 sm:pb-5" : "p-6 pb-16 sm:p-8",
         className,
       )}
     >
       {title && (
-        <h2 id={`${id}-title`} className="mb-3 font-heading text-xl font-bold text-ink sm:mb-4 sm:text-2xl">
+        <h2 id={`${id}-title`} className="mb-6 font-heading text-2xl font-bold text-ink">
           {title}
         </h2>
       )}
@@ -299,8 +290,9 @@ export default function EnquiryForm({
       </div>
       {city && <input type="hidden" name="city" value={city} />}
 
-      <div className={cn("grid gap-3", !compact && "sm:grid-cols-2")}>
-        <div>
+      <div className="grid grid-cols-2 gap-x-3 gap-y-2.5 max-[339px]:grid-cols-1">
+        {/* Full width on phones: the country-code select leaves a half-width phone input too narrow for the digits. */}
+        <div className="col-span-2 max-[339px]:col-span-1 sm:col-span-1">
           {fieldLabel("name", "Full name", true)}
           <input
             id={fieldId("name")}
@@ -317,7 +309,7 @@ export default function EnquiryForm({
           {fieldError("name")}
         </div>
 
-        <div>
+        <div className="col-span-2 max-[339px]:col-span-1 sm:col-span-1">
           {fieldLabel("phone", "Phone number", true)}
           <div className="flex gap-2">
             <label htmlFor={`${id}-countryCode`} className="sr-only">
@@ -355,149 +347,108 @@ export default function EnquiryForm({
           </div>
           {fieldError("phone")}
         </div>
-      </div>
 
-      {/* Optional fields. grid-template-rows 0fr -> 1fr animates the height without measuring it;
-          inert keeps the collapsed fields out of the tab order and the accessibility tree. */}
-      <div
-        id={detailsId}
-        inert={!open}
-        className={cn(
-          "grid motion-safe:transition-[grid-template-rows,opacity] motion-safe:duration-300 motion-safe:ease-out",
-          open ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0",
-        )}
-      >
-        <div className="min-h-0 overflow-hidden">
-          {/* Padding lives inside the clip so focus rings are not cut off. */}
-          <div className={cn("-mx-1 grid gap-3 px-1 pt-3 pb-1", !compact && "sm:grid-cols-2")}>
-            <div>
-              {fieldLabel("company", "Company name")}
-              <input
-                id={fieldId("company")}
-                name="company"
-                autoComplete="organization"
-                maxLength={COMPANY_MAX_LENGTH}
-                value={values.company}
-                onChange={(e) => update("company", e.target.value)}
-                className={inputClass("company")}
-              />
-            </div>
-
-            <div>
-              {fieldLabel("email", "Email")}
-              <input
-                id={fieldId("email")}
-                name="email"
-                type="email"
-                autoComplete="email"
-                value={values.email}
-                onChange={(e) => update("email", e.target.value)}
-                onBlur={() => onBlur("email")}
-                aria-invalid={!!describedBy("email")}
-                aria-describedby={describedBy("email")}
-                className={inputClass("email")}
-              />
-              {fieldError("email")}
-            </div>
-
-            <div>
-              {fieldLabel("location", "Country / city")}
-              <input
-                id={fieldId("location")}
-                name="location"
-                autoComplete="address-level2"
-                placeholder="e.g. Mumbai, India"
-                value={values.location}
-                onChange={(e) => update("location", e.target.value)}
-                className={inputClass("location")}
-              />
-            </div>
-
-            <div>
-              {fieldLabel("industry", "Industry")}
-              <select
-                id={fieldId("industry")}
-                name="industry"
-                value={values.industry}
-                onChange={(e) => update("industry", e.target.value)}
-                className={inputClass("industry")}
-              >
-                <option value="">Select industry</option>
-                {INDUSTRY_OPTIONS.map((o) => (
-                  <option key={o} value={o}>
-                    {o}
-                  </option>
-                ))}
-              </select>
-            </div>
-
-            <fieldset className={cn("min-w-0", !compact && "sm:col-span-2")}>
-              <legend className="mb-1 block text-sm font-medium text-ink">Connectivity</legend>
-              <div className="flex flex-wrap gap-1.5">
-                {CONNECTIVITY_OPTIONS.map((option) => {
-                  const checked = values.connectivity.includes(option);
-                  return (
-                    <label key={option} className="cursor-pointer">
-                      <input
-                        type="checkbox"
-                        name="connectivity"
-                        value={option}
-                        checked={checked}
-                        onChange={(e) => toggleConnectivity(option, e.target.checked)}
-                        className="peer sr-only"
-                      />
-                      <span
-                        className={cn(
-                          "flex h-10 items-center rounded-full border px-3 text-sm font-medium transition-colors",
-                          "peer-focus-visible:outline-2 peer-focus-visible:outline-offset-2 peer-focus-visible:outline-brand-500",
-                          checked
-                            ? "border-brand-600 bg-brand-600 text-white"
-                            : "border-slate-300 bg-white text-ink hover:border-slate-400",
-                        )}
-                      >
-                        {option}
-                      </span>
-                    </label>
-                  );
-                })}
-              </div>
-            </fieldset>
-
-            <div>
-              {fieldLabel("quantity", "Quantity")}
-              <input
-                id={fieldId("quantity")}
-                name="quantity"
-                type="number"
-                min={1}
-                step={1}
-                inputMode="numeric"
-                placeholder="e.g. 10"
-                value={values.quantity}
-                onChange={(e) => update("quantity", e.target.value)}
-                onBlur={() => onBlur("quantity")}
-                aria-invalid={!!describedBy("quantity")}
-                aria-describedby={describedBy("quantity")}
-                className={inputClass("quantity")}
-              />
-              {fieldError("quantity")}
-            </div>
-          </div>
+        <div className="min-w-0">
+          {fieldLabel("company", "Company name")}
+          <input
+            id={fieldId("company")}
+            name="company"
+            autoComplete="organization"
+            maxLength={COMPANY_MAX_LENGTH}
+            value={values.company}
+            onChange={(e) => update("company", e.target.value)}
+            className={inputClass("company")}
+          />
         </div>
-      </div>
 
-      <button
-        type="button"
-        aria-expanded={open}
-        aria-controls={detailsId}
-        onClick={() => setOpen((o) => !o)}
-        className="mt-1 -ml-1 inline-flex h-11 items-center gap-1.5 rounded-lg px-1 text-sm font-semibold text-brand-600 hover:text-brand-700 focus-visible:outline-2 focus-visible:outline-offset-0 focus-visible:outline-brand-500"
-      >
-        {open ? "Hide details" : "Add more details"}
-        <ChevronDownIcon
-          className={cn("size-4 motion-safe:transition-transform motion-safe:duration-300", open && "rotate-180")}
-        />
-      </button>
+        <div className="min-w-0">
+          {fieldLabel("email", "Email")}
+          <input
+            id={fieldId("email")}
+            name="email"
+            type="email"
+            autoComplete="email"
+            value={values.email}
+            onChange={(e) => update("email", e.target.value)}
+            onBlur={() => onBlur("email")}
+            aria-invalid={!!describedBy("email")}
+            aria-describedby={describedBy("email")}
+            className={inputClass("email")}
+          />
+          {fieldError("email")}
+        </div>
+
+        <div className="min-w-0">
+          {fieldLabel("location", "Country / city")}
+          <input
+            id={fieldId("location")}
+            name="location"
+            autoComplete="address-level2"
+            value={values.location}
+            onChange={(e) => update("location", e.target.value)}
+            className={inputClass("location")}
+          />
+        </div>
+
+        <div className="min-w-0">
+          {fieldLabel("quantity", "Quantity")}
+          <input
+            id={fieldId("quantity")}
+            name="quantity"
+            type="number"
+            min={1}
+            step={1}
+            inputMode="numeric"
+            value={values.quantity}
+            onChange={(e) => update("quantity", e.target.value)}
+            onBlur={() => onBlur("quantity")}
+            aria-invalid={!!describedBy("quantity")}
+            aria-describedby={describedBy("quantity")}
+            className={inputClass("quantity")}
+          />
+          {fieldError("quantity")}
+        </div>
+
+        <fieldset className="col-span-2 min-w-0 max-[339px]:col-span-1">
+          <legend className="mb-0.5 block text-sm font-medium text-ink">Industry</legend>
+          <div className="grid grid-cols-2 gap-x-3 max-[339px]:grid-cols-1">
+            {INDUSTRY_OPTIONS.map((option) => (
+              <label key={option} className="flex min-h-11 cursor-pointer items-center gap-2 text-sm leading-tight text-ink">
+                <input
+                  type="radio"
+                  name="industry"
+                  value={option}
+                  checked={values.industry === option}
+                  onChange={() => update("industry", option)}
+                  // Industry is optional: tapping the selected option again clears it.
+                  onClick={() => values.industry === option && update("industry", "")}
+                  className="size-4 shrink-0 accent-brand-600"
+                />
+                {option}
+              </label>
+            ))}
+          </div>
+        </fieldset>
+
+        <fieldset className="col-span-2 min-w-0 max-[339px]:col-span-1">
+          <legend className="mb-0.5 block text-sm font-medium text-ink">Connectivity</legend>
+          <div className="grid grid-cols-2 gap-x-3 max-[339px]:grid-cols-1">
+            {CONNECTIVITY_OPTIONS.map((option) => (
+              <label key={option} className="flex min-h-11 cursor-pointer items-center gap-2 text-sm text-ink">
+                <input
+                  type="checkbox"
+                  name="connectivity"
+                  value={option}
+                  checked={values.connectivity.includes(option)}
+                  onChange={(e) => toggleConnectivity(option, e.target.checked)}
+                  className="size-4 shrink-0 rounded border-slate-400 accent-brand-600"
+                />
+                {option}
+              </label>
+            ))}
+          </div>
+        </fieldset>
+      </div>
 
       <div className="mt-0.5">
         {/* One label wraps the box and its text, so the whole row is the tap target. */}
