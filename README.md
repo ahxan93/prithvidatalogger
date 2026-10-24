@@ -34,3 +34,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Where pages live
+
+See [docs/WHERE-PAGES-LIVE.md](docs/WHERE-PAGES-LIVE.md) for which file holds each page, edit recipes and a folder map. Find any page with `npm run where -- <slug or URL>`.

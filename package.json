@@ -11,6 +11,7 @@
     "check:images": "node scripts/check-images.mjs",
     "check:links": "node scripts/check-links.mjs",
     "check:data": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/check-data.mjs",
+    "where": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/where.mjs",
     "check:meta": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/check-meta.mjs"
   },
   "dependencies": {
