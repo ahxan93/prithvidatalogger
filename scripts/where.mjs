@@ -286,13 +286,14 @@ function describeCatalog(page) {
     line("Child pages", "none");
     hr();
     line("Template file", "src/app/products/[slug]/page.tsx");
-    line("Data file entry", `${at("src/data/products.ts", lineOf("src/data/products.ts", p.slug))}  -> list "products", slug "${p.slug}"`);
-    line("Content file entry", `src/data/product-content.ts -> "productContent", key "${p.slug}"`);
+    line("Data file", `src/data/products/${p.slug}.ts   (one file for this page's text)`);
+    line("Listed in", `src/data/product-content.ts   (list "productContent", key "${p.slug}")`);
+    line("Specs and variants", `${at("src/data/products.ts", lineOf("src/data/products.ts", p.slug))}  -> list "products" (specs; also holds the MRP data, which is never shown on the site)`);
     hr();
     line("Indexable (Google)?", "YES - in sitemap.xml");
     line("Title", finalTitle(c.metaTitle));
     line("Description", c.metaDescription);
-    line("Title / description from", `src/data/product-content.ts -> "productContent", key "${p.slug}" (metaTitle, metaDescription)`);
+    line("Title / description from", `src/data/products/${p.slug}.ts -> metaTitle, metaDescription`);
   } else if (page.kind === "industry") {
     const i = industries.find((x) => x.slug === page.slug);
     const c = industryContent[i.slug];
@@ -303,13 +304,13 @@ function describeCatalog(page) {
     line("Child pages", "none");
     hr();
     line("Template file", "src/app/industries/[slug]/page.tsx");
-    line("Data file entry", `${at("src/data/industries.ts", lineOf("src/data/industries.ts", i.slug))}  -> list "industries", slug "${i.slug}"`);
-    line("Content file entry", `src/data/industry-content.ts -> "industryContent", key "${i.slug}"`);
+    line("Data file", `src/data/industries/${i.slug}.ts   (one file for this page: "industry" = card data, "content" = page text)`);
+    line("Listed in", `src/data/industries.ts (list "industries") and src/data/industry-content.ts (list "industryContent")`);
     hr();
     line("Indexable (Google)?", "YES - in sitemap.xml");
     line("Title", finalTitle(c.metaTitle ?? c.h1 ?? `${i.name} Temperature Monitoring`));
     line("Description", c.metaDescription);
-    line("Title / description from", `src/data/industry-content.ts -> "industryContent", key "${i.slug}" (metaTitle, else h1, else "<name> Temperature Monitoring"; metaDescription)`);
+    line("Title / description from", `src/data/industries/${i.slug}.ts -> content.metaTitle (else h1, else "<name> Temperature Monitoring"), content.metaDescription`);
     line("City pages linking here", `${rel2} city page(s) list this industry`);
   } else if (page.kind === "service") {
     const s = services.find((x) => x.slug === page.slug);
@@ -320,13 +321,13 @@ function describeCatalog(page) {
     line("Child pages", "none");
     hr();
     line("Template file", `src/app/services/${s.slug}/page.tsx -> src/components/services/ServicePage.tsx`);
-    line("Data file entry", `${at("src/data/services.ts", lineOf("src/data/services.ts", s.slug))}  -> list "services", slug "${s.slug}"`);
-    line("Content file entry", `src/data/service-content.ts -> "serviceContent", key "${s.slug}"`);
+    line("Data file", `src/data/services/${s.slug}.ts   (one file for this page: "service" = card data, "content" = page text)`);
+    line("Listed in", `src/data/services.ts (list "services") and src/data/service-content.ts (list "serviceContent")`);
     hr();
     line("Indexable (Google)?", "YES - in sitemap.xml");
     line("Title", finalTitle(c.metaTitle ?? c.h1));
     line("Description", c.metaDescription);
-    line("Title / description from", `src/data/service-content.ts -> "serviceContent", key "${s.slug}" (metaTitle, else h1; metaDescription)`);
+    line("Title / description from", `src/data/services/${s.slug}.ts -> content.metaTitle (else h1), content.metaDescription`);
   } else if (page.kind === "blog") {
     const file = `src/content/blog/${page.slug}.mdx`;
     const text = read(file);

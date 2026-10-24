@@ -2,6 +2,10 @@
 // All services are delivered by our parent company, VEGA Calibrations.
 // Compliance wording: "helps meet", never "guarantees compliance".
 
+import * as calibrationService from "./services/calibration.ts";
+import * as temperatureMappingService from "./services/temperature-mapping.ts";
+import * as validationService from "./services/validation.ts";
+
 export type ServiceSlug = "calibration" | "temperature-mapping" | "validation";
 
 export type Service = {
@@ -22,81 +26,10 @@ export type Service = {
   seo: { primaryKeyword: string; supporting: string[] };
 };
 
-const VEGA = { name: "VEGA Calibrations", url: "https://www.vegacalibrations.com" } as const;
-
 export const services: Service[] = [
-  {
-    slug: "calibration",
-    name: "Calibration",
-    shortName: "Calibration",
-    href: "/services/calibration",
-    summary:
-      "Calibration for data loggers and a wide range of instruments, delivered by VEGA Calibrations.",
-    scope: [
-      "Temperature and humidity instruments and data loggers",
-      "Thermometers",
-      "Pressure and vacuum gauges",
-      "Electrical meters",
-      "Mechanical and dimensional instruments (e.g. vernier calipers)",
-      "Weighing scales",
-      "Force meters",
-      "Lux meters",
-      "Sound meters",
-      "Vibration meters",
-      "Anemometers",
-    ],
-    keyPoint: "Certificates are traceable to national standards.",
-    enquiryOption: "Calibration / Temperature Mapping",
-    deliveredBy: VEGA,
-    seo: {
-      primaryKeyword: "data logger calibration",
-      supporting: ["instrument calibration"],
-    },
-  },
-  {
-    slug: "temperature-mapping",
-    name: "Temperature Mapping",
-    shortName: "Temperature Mapping",
-    href: "/services/temperature-mapping",
-    summary:
-      "Mapping studies that find hot and cold spots and the right sensor positions in your storage spaces.",
-    scope: [
-      "Cold rooms",
-      "Warehouses",
-      "Deep freezers",
-      "Refrigerators",
-      "Insulated boxes",
-      "Reefer vehicles",
-    ],
-    keyPoint: "Identifies hot and cold spots and the right sensor positions.",
-    enquiryOption: "Calibration / Temperature Mapping",
-    deliveredBy: VEGA,
-    seo: {
-      primaryKeyword: "temperature mapping services",
-      supporting: ["warehouse mapping", "cold room mapping"],
-    },
-  },
-  {
-    slug: "validation",
-    name: "Validation & Qualification",
-    shortName: "Validation",
-    href: "/services/validation",
-    summary:
-      "IQ, OQ and PQ qualification and software validation for monitoring systems and equipment.",
-    scope: [
-      "Installation Qualification (IQ)",
-      "Operational Qualification (OQ)",
-      "Performance Qualification (PQ)",
-      "Software validation report",
-    ],
-    keyPoint: "Helps customers meet GMP, GDP and WHO guideline requirements.",
-    enquiryOption: "Validation (IQ/OQ/PQ)",
-    deliveredBy: VEGA,
-    seo: {
-      primaryKeyword: "IQ OQ PQ validation services",
-      supporting: ["equipment qualification"],
-    },
-  },
+  calibrationService.service,
+  temperatureMappingService.service,
+  validationService.service,
 ];
 
 export function getServiceBySlug(slug: string): Service | undefined {

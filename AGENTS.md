@@ -10,3 +10,4 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 Where each page lives (templates, data files, edit recipes): `docs/WHERE-PAGES-LIVE.md`. Look up any page with `npm run where -- <slug or URL>`.
 Location data is split into one file per page (`src/data/locations/<country>/<state>/<city>.ts`, `src/data/areas/<city>/<area>.ts`); new pages must also be listed in the folder's `index.ts` / `src/data/areas/_all.ts`. `npm run where -- <slug>` prints the file.
+Product, industry and service text is one file per page too (`src/data/products/<slug>.ts`, `src/data/industries/<slug>.ts`, `src/data/services/<slug>.ts`), listed in `product-content.ts`, `industries.ts` / `industry-content.ts` and `services.ts` / `service-content.ts`. MRP data stays in `src/data/products.ts` only.

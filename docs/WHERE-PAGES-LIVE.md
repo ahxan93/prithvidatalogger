@@ -42,9 +42,9 @@ Inme se **582** Google ko dikhte hain (sitemap.xml mein), baaki **23** `noindex`
 |---|---|---|---|---|---|---|
 | Home | `/` | 1 | `src/app/page.tsx` | `src/data/home.ts` (`hero`, aur baaki lists) | `src/data/home.ts` + `src/components/sections/home/*.tsx` | `src/app/page.tsx` ka `buildMetadata({ title, description })` |
 | Core pages (about, brands, products list, industries list, services list, global-presence, locations, blog list, contact) | `/about` | 9 | `src/app/<naam>/page.tsx`, jaise `src/app/about/page.tsx` | koi list nahi; list wale pages `src/data/products.ts`, `industries.ts`, `services.ts` padhte hain | Usi page file mein (kuch pages `src/data/company.ts`, `clients.ts` bhi padhte hain) | Usi page file ka `buildMetadata(...)` |
-| Products | `/products/setu` | 8 (7 series + accessories) | `src/app/products/[slug]/page.tsx` | `src/data/products.ts`, list `products` | `src/data/product-content.ts`, list `productContent` (key = slug) | `productContent[slug].metaTitle` / `.metaDescription` |
-| Industries | `/industries/chemical` | 10 | `src/app/industries/[slug]/page.tsx` | `src/data/industries.ts`, list `industries` | `src/data/industry-content.ts`, list `industryContent` (key = slug) | `industryContent[slug].metaTitle` (nahi hai to `h1`) / `.metaDescription` |
-| Services | `/services/calibration` | 3 | `src/app/services/calibration/page.tsx`, `.../temperature-mapping/page.tsx`, `.../validation/page.tsx` (teeno `src/components/services/ServicePage.tsx` use karte hain) | `src/data/services.ts`, list `services` | `src/data/service-content.ts`, list `serviceContent` (key = slug) | `serviceContent[slug].metaTitle` (nahi hai to `h1`) / `.metaDescription` |
+| Products | `/products/setu` | 8 (7 series + accessories) | `src/app/products/[slug]/page.tsx` | `src/data/products.ts`, list `products` (specs, variants; yahin MRP data bhi hai jo site par kabhi nahi dikhta) aur `src/data/product-content.ts`, list `productContent` (har product ki apni file `src/data/products/<slug>.ts` se judti hai) | Har product ki apni file: `src/data/products/<slug>.ts`, jaise `src/data/products/setu.ts` | Usi product file ka `metaTitle` / `metaDescription` |
+| Industries | `/industries/chemical` | 10 | `src/app/industries/[slug]/page.tsx` | `src/data/industries.ts`, list `industries` aur `src/data/industry-content.ts`, list `industryContent` (dono har industry ki apni file se judte hain) | Har industry ki apni file: `src/data/industries/<slug>.ts`, jaise `src/data/industries/chemical.ts` (`industry` = card ka data, `content` = page ka text) | Usi file ka `content.metaTitle` (nahi hai to `content.h1`) / `content.metaDescription` |
+| Services | `/services/calibration` | 3 | `src/app/services/calibration/page.tsx`, `.../temperature-mapping/page.tsx`, `.../validation/page.tsx` (teeno `src/components/services/ServicePage.tsx` use karte hain) | `src/data/services.ts`, list `services` aur `src/data/service-content.ts`, list `serviceContent` (dono har service ki apni file se judte hain) | Har service ki apni file: `src/data/services/<slug>.ts`, jaise `src/data/services/calibration.ts` (`service` = card data, `content` = page text) | Usi file ka `content.metaTitle` (nahi hai to `content.h1`) / `content.metaDescription` |
 | Blog posts | `/blog/why-nabl-calibration-matters` | 4 (abhi sab `draft`) | `src/app/blog/[slug]/page.tsx` | `src/content/blog/*.mdx` (file ka naam hi slug hai; upar ka `meta` block data hai) | Usi `.mdx` file mein, `meta` block ke neeche | `meta.title` (ya `seoTitle`) / `meta.description` usi `.mdx` file mein |
 | Country hubs | `/data-logger-india` | 8 (India, Saudi Arabia, UAE, Qatar, Oman, Kuwait, Bahrain, Yemen) | `src/app/data-logger/[slug]/page.tsx` | `src/data/locations/<country>/_country.ts`, jaise `src/data/locations/india/_country.ts` (har country ka apna folder; sab countries `src/data/locations/_tree.ts` ki list `locations` mein judti hain) | Usi file mein (`intro`, `localIndustries`, `citiesServed`, `supportNote`, `faqs`, `listing`) | Title naam se banta hai ("Temperature Data Loggers in India"); description `src/data/location-content.ts` ki `locationContent["india"].metaDescription` se |
 | State / region hubs | `/data-logger-maharashtra`, `/data-logger-dubai-emirate` | 90 (India 30, Saudi 13, UAE 7, Qatar 8, Oman 11, Kuwait 6, Bahrain 4, Yemen 11); 71 indexable | `src/app/data-logger/[slug]/page.tsx` | `src/data/locations/<country>/<state>/_state.ts`, jaise `src/data/locations/india/maharashtra/_state.ts` (state ke cities usi folder ke `index.ts` mein judte hain) | Usi file mein (country hub jaisi fields) | Country hub jaisa: `locationContent["india/maharashtra"].metaDescription` |
@@ -114,6 +114,9 @@ src/data/locations/
       delhi-state.ts               <- /data-logger-delhi-state
       delhi-city.ts                <- /data-logger-delhi
       index.ts
+src/data/products/    setu.ts nakshatra.ts rajmudra.ts dhruva.ts veer.ts virat.ts vayu.ts accessories.ts
+src/data/industries/  chemical.ts pharmaceutical.ts ... (10 files)
+src/data/services/    calibration.ts temperature-mapping.ts validation.ts _shared.ts
 src/data/areas/
   _all.ts                          <- saare areas ki list (order yahin se tay hota hai)
   mumbai/andheri.ts                <- /data-logger-andheri
@@ -179,9 +182,9 @@ Kaun si file, page type par depend karta hai:
 | City | `src/data/locations/<country>/<state>/<city>.ts` | `metaTitle`, `metaDescription` |
 | Area | `src/data/areas/<city>/<area>.ts` | `page.metaTitle`, `page.metaDescription` |
 | Country / state hub | `src/data/location-content.ts`, `locationContent["india/maharashtra"]` | `metaDescription` (title naam se banta hai; naam ka "in ..." form `inName` field se) |
-| Product | `src/data/product-content.ts`, `productContent["setu"]` | `metaTitle`, `metaDescription` |
-| Industry | `src/data/industry-content.ts`, `industryContent["chemical"]` | `metaTitle`, `metaDescription` |
-| Service | `src/data/service-content.ts`, `serviceContent["calibration"]` | `metaTitle`, `metaDescription` |
+| Product | `src/data/products/<slug>.ts`, jaise `src/data/products/setu.ts` | `metaTitle`, `metaDescription` |
+| Industry | `src/data/industries/<slug>.ts`, jaise `src/data/industries/chemical.ts` | `content.metaTitle`, `content.metaDescription` |
+| Service | `src/data/services/<slug>.ts`, jaise `src/data/services/calibration.ts` | `content.metaTitle`, `content.metaDescription` |
 | Blog post | `src/content/blog/<naam>.mdx`, upar `meta` block | `title` (ya `seoTitle`), `description` |
 | Home, about, contact aur baaki core pages | `src/app/<page>/page.tsx` (home: `src/app/page.tsx`) | `buildMetadata({ title, description })` |
 
@@ -298,7 +301,7 @@ Checks: build, `check:data`, `check:meta`. Phir `npm run where -- <page>` chalao
    - `src/data/page-heroes.ts` ke `CITY_REGISTRY` (aur `HUB_OF`) se slug hatao. `src/data/keyword-pages.ts` mein ho to wahan se bhi.
 3. **Area delete:** area file hatao (jaise `src/data/areas/mumbai/sion.ts`), `src/data/areas/_all.ts` se uski import aur list entry hatao, aur state ki `_state.ts` ke `areaListing` aur city file ke `areas[].linkTo` se uska zikr.
 4. **Blog post:** `.mdx` file hatao (aur `public/images/blog/` ki cover image).
-5. **Product / industry / service:** entry `src/data/products.ts` / `industries.ts` / `services.ts` se hatao, aur uski content entry `*-content.ts` se. Saath mein menu (`src/data/navigation.ts`) aur doosre pages ke links dekho.
+5. **Product / industry / service:** uski file hatao (`src/data/products/<slug>.ts`, `src/data/industries/<slug>.ts` ya `src/data/services/<slug>.ts`) aur `src/data/product-content.ts` / `industry-content.ts` / `service-content.ts` (aur industry ke liye `src/data/industries.ts`, service ke liye `src/data/services.ts`) se uski import line aur list entry hatao. Product ke liye `src/data/products.ts` mein uski series bhi hatani padegi. Saath mein menu (`src/data/navigation.ts`) aur doosre pages ke links dekho.
 6. Checks: lint, build, `check:data`, `check:links`. `check:links` bata deta hai agar koi page abhi bhi hataye hue page ko link kar raha hai.
 - **Sabse common galti:** entry hata di par hub ke `listing` ya kisi city ke `nearby` mein link reh gaya. Tab `check:links` fail hota hai. Doosri: area hatayi nahi par city hata di.
 
@@ -338,9 +341,10 @@ Ye project ki asli files ka naksha hai. **Bold** wale folders aap sabse zyada kh
 | `src/data/areas/` | **Har area ki apni file**: `<city>/<area>.ts`. `_all.ts` saare areas ki list (order) hai; `_cities.ts`, `_types.ts`, `_rules.ts` shared hain. |
 | `src/data/areas.ts` | Chhota entry point (data yahan nahi). |
 | `src/data/location-content.ts` | Hubs ki meta description aur recommended products. |
-| `src/data/products.ts`, `product-content.ts` | Products ki specs aur page text. (MRP data `products.ts` mein rehta hai par site par kabhi dikhaya nahi jata.) |
-| `src/data/industries.ts`, `industry-content.ts` | Industry pages. |
-| `src/data/services.ts`, `service-content.ts` | 3 service pages. |
+| `src/data/products/` | **Har product ka apna page text**: `setu.ts`, `nakshatra.ts`, ... (8 files). `product-content.ts` inhe jodta hai. |
+| `src/data/products.ts` | Products ki specs aur variants. Yahin MRP data bhi hai (site par kabhi nahi dikhta); isliye ye file aise hi rakhi gayi hai, split nahi ki. |
+| `src/data/industries/` | **Har industry ki apni file**: `chemical.ts`, `pharmaceutical.ts`, ... (10 files; card data + page text). `industries.ts` aur `industry-content.ts` inhe jodte hain. |
+| `src/data/services/` | **Har service ki apni file**: `calibration.ts`, `temperature-mapping.ts`, `validation.ts`, plus `_shared.ts` (VEGA details). `services.ts` aur `service-content.ts` inhe jodte hain. |
 | `src/data/home.ts`, `company.ts`, `clients.ts` | Home page, company info, client logos ki list. |
 | `src/data/navigation.ts` | Header aur footer ke links. |
 | `src/data/enquiry.ts` | Enquiry form ke product dropdown ke options. |

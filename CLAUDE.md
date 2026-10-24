@@ -44,6 +44,12 @@ docs/WHERE-PAGES-LIVE.md maps every page type to its template and data file, wit
 - Contact details (phone, WhatsApp, email, address) come only from `src/config/site.ts`.
   Never hard-code them in components or content.
 
+- Product, industry and service page text is one small file per page: `src/data/products/<slug>.ts`,
+  `src/data/industries/<slug>.ts`, `src/data/services/<slug>.ts`. `product-content.ts`, `industries.ts` /
+  `industry-content.ts` and `services.ts` / `service-content.ts` import and list them (a new file must be added
+  there), keeping the same exports. Product specs and MRP data stay together in `src/data/products.ts`
+  (never copy MRP into the per-page files).
+
 ## Location URLs
 - Every location page (country, state, city, area) is one flat URL: `/data-logger-{slug}`. Never write or
   link a nested `/locations/...` URL; build links with `locationHref(path)` from `src/data/locations.ts`
