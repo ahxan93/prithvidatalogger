@@ -82,6 +82,24 @@ function lineOf(file, slug, nextHint) {
 }
 const at = (file, line) => (line ? `${file} (around line ${line})` : file);
 
+/** The per-page data file of a country / state / city node (files live in src/data/locations/<country>/<state>/). */
+function nodeFile(pth, node) {
+  const dir = pth.length === 1 ? base : pth.slice(0, -1).join("/");
+  const candidates =
+    node.type === "country"
+      ? [`src/data/locations/${pth[0]}/_country.ts`]
+      : node.type === "state"
+        ? [`src/data/locations/${dir}/${node.slug}/_state.ts`, `src/data/locations/${dir}/${node.slug}/${node.slug}-state.ts`]
+        : [`src/data/locations/${dir}/${node.slug}.ts`, `src/data/locations/${dir}/${node.slug}-city.ts`];
+  return candidates.find((c) => fs.existsSync(path.join(ROOT, c))) ?? candidates[0];
+}
+/** The index file that lists this node (add / remove / reorder a page there). */
+function listedIn(pth) {
+  if (pth.length === 1) return "src/data/locations/_tree.ts";
+  if (pth.length === 2) return `src/data/locations/${pth[0]}/index.ts`;
+  return `src/data/locations/${pth[0]}/${pth[1]}/index.ts`;
+}
+
 /** buildMetadata() in src/lib/seo.ts: adds " | Prithvi Data Loggers" only if the result stays within 60 characters. */
 function finalTitle(title, absolute = false) {
   const suffixed = `${title} | ${siteConfig.name}`;
@@ -191,17 +209,18 @@ function describeLocation(page) {
     line("Child pages", "none (area pages are the last level)");
     hr();
     line("Template file", "src/app/data-logger/[slug]/page.tsx -> src/components/locations/AreaPage.tsx");
-    line("Data file entry", `${at("src/data/areas.ts", lineOf("src/data/areas.ts", area.slug, `citySlug: "${area.citySlug}"`))}  -> list "areas", entry slug "${area.slug}", citySlug "${area.citySlug}"`);
-    line("Content file entry", `same entry: field "page" (intro, places, industries, services, visits, approach, faqs, nearby)`);
+    line("Data file", `src/data/areas/${area.citySlug}/${area.slug}.ts   (one file for this page)`);
+    line("Listed in", `src/data/areas/_all.ts   (list "areas")`);
+    line("Content in that file", `field "page" (intro, places, industries, services, visits, approach, faqs, nearby); parent city is citySlug "${area.citySlug}"`);
     hr();
     line("Indexable (Google)?", indexable ? "YES - in sitemap.xml" : "NO - page shows noindex and is left out of sitemap.xml");
     if (!indexable) {
-      if (!area.page?.indexable) out.push(`${" ".repeat(27)}Reason: page.indexable is false in src/data/areas.ts`);
+      if (!area.page?.indexable) out.push(`${" ".repeat(27)}Reason: page.indexable is false in src/data/areas/${area.citySlug}/${area.slug}.ts`);
       for (const p of problems) out.push(`${" ".repeat(27)}Reason: ${p}`);
     }
     line("Title", finalTitle(area.page.metaTitle, true));
     line("Description", area.page.metaDescription);
-    line("Title / description from", `src/data/areas.ts -> page.metaTitle / page.metaDescription`);
+    line("Title / description from", `src/data/areas/${area.citySlug}/${area.slug}.ts -> page.metaTitle / page.metaDescription`);
     return;
   }
 
@@ -235,19 +254,20 @@ function describeLocation(page) {
   }
   hr();
   line("Template file", `src/app/data-logger/[slug]/page.tsx${isCity ? " -> src/components/locations/CityPage.tsx" : "  (hub layout is inside this file)"}`);
-  const nodeLine = lineOf("src/data/locations.ts", node.slug, `name: "${node.name.replace(/"/g, '\\"')}"`);
-  line("Data file entry", `${at("src/data/locations.ts", nodeLine)}  -> list "locations", ${pth.map((s) => `"${s}"`).join(" > ")}`);
-  if (isCity) line("Content file entry", `same entry in src/data/locations.ts (the city holds its own intro, climateAngle, areas, industries, recommendedSeries, faqs, nearby)`);
-  else line("Content file entry", `same entry (intro, localIndustries, citiesServed, supportNote, faqs, listing) + src/data/location-content.ts -> "locationContent", key "${pth.join("/")}"${content ? "" : "  (no entry: description comes from the intro)"}`);
+  const file = nodeFile(pth, node);
+  line("Data file", `${file}   (one file for this page)`);
+  line("Listed in", `${listedIn(pth)}   (add / remove this page there)`);
+  if (isCity) line("Content in that file", `intro, climateAngle, areas, industries, recommendedSeries, faqs, nearby, metaTitle, metaDescription`);
+  else line("Content in that file", `intro, localIndustries, citiesServed, supportNote, faqs, listing${node.type === "state" ? ", areaListing" : ""}; also src/data/location-content.ts -> "locationContent", key "${pth.join("/")}"${content ? "" : "  (no entry: description comes from the intro)"}`);
   hr();
   const indexable = node.indexable;
   line("Indexable (Google)?", indexable ? "YES - in sitemap.xml" : "NO - page shows noindex and is left out of sitemap.xml");
   if (!indexable && node.type === "state")
-    out.push(`${" ".repeat(27)}Reason: this hub has only ${builtPagesUnder(node)} built page(s) under it; it needs ${MIN_STATE_HUB_PAGES} (rule in src/data/locations.ts, MIN_STATE_HUB_PAGES)`);
+    out.push(`${" ".repeat(27)}Reason: this hub has only ${builtPagesUnder(node)} built page(s) under it; it needs ${MIN_STATE_HUB_PAGES} (rule in src/data/locations/_tree.ts, MIN_STATE_HUB_PAGES)`);
   if (isCity) {
     line("Title", finalTitle(node.metaTitle, true));
     line("Description", node.metaDescription);
-    line("Title / description from", `src/data/locations.ts -> this city's metaTitle / metaDescription`);
+    line("Title / description from", `${file} -> metaTitle / metaDescription`);
   } else {
     const place = content?.inName ?? node.name;
     line("Title", finalTitle(`Temperature Data Loggers in ${place}`));

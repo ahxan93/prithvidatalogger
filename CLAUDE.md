@@ -46,10 +46,14 @@ docs/WHERE-PAGES-LIVE.md maps every page type to its template and data file, wit
 
 ## Location URLs
 - Every location page (country, state, city, area) is one flat URL: `/data-logger-{slug}`. Never write or
-  link a nested `/locations/...` URL; build links with `locationHref(path)` from `src/data/locations.ts`.
+  link a nested `/locations/...` URL; build links with `locationHref(path)` from `src/data/locations.ts`
+  (an entry point; the helper lives in `src/data/locations/_helpers.ts`).
   `/locations` stays as the single hub listing everything.
-- The data tree (country > state > city > area) stays hierarchical in `src/data/locations.ts` and
-  `src/data/areas.ts`. If an area slug collides with a city, state or country slug, the area becomes
+- The data tree (country > state > city > area) stays hierarchical, one small file per page: country
+  `src/data/locations/<country>/_country.ts`, state `.../<state>/_state.ts`, city `.../<state>/<city>.ts`
+  (`<slug>-state.ts` / `<slug>-city.ts` when a state and city share a slug), area `src/data/areas/<city>/<area>.ts`.
+  Each folder's `index.ts` and `src/data/areas/_all.ts` list the pages, so a new file must be imported and added
+  there. `src/data/locations.ts` and `src/data/areas.ts` are only entry points that re-export the same API. If an area slug collides with a city, state or country slug, the area becomes
   `{slug}-industrial-area` automatically (a state sharing a city's slug, e.g. Delhi, becomes
   `{slug}-state`); `npm run check:data` fails on any duplicate slug.
 - Old nested paths 301-redirect from `next.config.ts`. Visible breadcrumbs are short (Home > City > Area,

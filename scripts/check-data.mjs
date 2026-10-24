@@ -506,10 +506,13 @@ for (const [re, label] of banned) if (re.test(dataText)) fail(`content: banned w
 
 // Contact details only in site.ts.
 const digits = siteConfig.phone.tel.replace(/\D/g, "").slice(-10);
-for (const file of fs.readdirSync(path.join(ROOT, "src/data"))) {
-  const text = fs.readFileSync(path.join(ROOT, "src/data", file), "utf8");
+// (src/data has per-page files in sub-folders, so walk it recursively.)
+const dataFiles = (dir) =>
+  fs.readdirSync(dir, { withFileTypes: true }).flatMap((e) => (e.isDirectory() ? dataFiles(path.join(dir, e.name)) : [path.join(dir, e.name)]));
+for (const file of dataFiles(path.join(ROOT, "src/data"))) {
+  const text = fs.readFileSync(file, "utf8");
   if (text.replace(/\D/g, " ").includes(digits) || text.includes(siteConfig.email) || text.includes("Jaswanti"))
-    fail(`content: contact details hard-coded in src/data/${file}`);
+    fail(`content: contact details hard-coded in ${path.relative(ROOT, file).split(path.sep).join("/")}`);
 }
 if (siteConfig.showStats !== false) fail("site: showStats must stay false until the owner confirms numbers");
 

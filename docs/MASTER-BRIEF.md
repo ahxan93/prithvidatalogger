@@ -40,7 +40,7 @@
 - The cloud software's brand name and its pricing. Describe features generically as "cloud monitoring dashboard & mobile alerts".
 
 **Owner decisions (confirmed 11 October 2026, after Phase 1):**
-1. Cities served on location pages: approved as written in `src/data/locations.ts`.
+1. Cities served on location pages: approved as written in the per-page files under `src/data/locations/`.
 2. Yemen: supply is "arranged case by case". Keep this wording.
 3. Vayu / GSM outside India: network compatibility is NOT confirmed. Never claim that GSM loggers work on GCC (or other non-Indian) networks. Use: "GSM versions are available. Contact us to confirm network compatibility for your country." In code this is `GSM_NETWORK_NOTE` in `src/data/locations.ts`; it is shown once per non-India page by the template (not repeated in page copy, to avoid duplicate content).
 4. Mumbai office: visits by appointment only ("Please call ahead to book a visit").

@@ -8,7 +8,7 @@ Ek shortcut: kisi bhi page ka ghar dhoondhna ho to terminal mein ye chalao:
 ```
 npm run where -- /data-logger-mumbai
 npm run where -- mumbai
-npm run where -- https://prithvidatalogger.com/industries/chemical
+npm run where -- https://prithvidataloggers.com/data-logger-vapi
 npm run where -- --counts
 ```
 
@@ -24,6 +24,7 @@ bigad jata hai. Aise mein bina `/` ke likho: `npm run where -- data-logger-mumba
 3. Page ka text (words) alag **data file** mein rehta hai. Data file bas ek badi list hoti hai.
 4. Build ke time computer list ko padhta hai aur har entry ke liye ek page banata hai. Isse "page generate hona" kehte hain.
 5. Example: `src/app/data-logger/[slug]/page.tsx` ek template hai. Isse 568 location pages bante hain (country, state, city, area).
+   Har location page ka data **apni alag chhoti file** mein hai (jaise `src/data/locations/india/maharashtra/mumbai.ts`). VS Code mein `Ctrl+P` dabake "mumbai" likho, file seedha khul jayegi.
 6. Folder ke naam mein `[slug]` likha ho to matlab "yahan list ka naam aayega".
 7. Isliye city ka text badalna ho to template nahi, **data file** kholo. Layout badalna ho to template kholo.
 8. Naya page chahiye? Data file mein ek nayi entry jodo. Naya template banane ki zaroorat nahi.
@@ -45,10 +46,10 @@ Inme se **582** Google ko dikhte hain (sitemap.xml mein), baaki **23** `noindex`
 | Industries | `/industries/chemical` | 10 | `src/app/industries/[slug]/page.tsx` | `src/data/industries.ts`, list `industries` | `src/data/industry-content.ts`, list `industryContent` (key = slug) | `industryContent[slug].metaTitle` (nahi hai to `h1`) / `.metaDescription` |
 | Services | `/services/calibration` | 3 | `src/app/services/calibration/page.tsx`, `.../temperature-mapping/page.tsx`, `.../validation/page.tsx` (teeno `src/components/services/ServicePage.tsx` use karte hain) | `src/data/services.ts`, list `services` | `src/data/service-content.ts`, list `serviceContent` (key = slug) | `serviceContent[slug].metaTitle` (nahi hai to `h1`) / `.metaDescription` |
 | Blog posts | `/blog/why-nabl-calibration-matters` | 4 (abhi sab `draft`) | `src/app/blog/[slug]/page.tsx` | `src/content/blog/*.mdx` (file ka naam hi slug hai; upar ka `meta` block data hai) | Usi `.mdx` file mein, `meta` block ke neeche | `meta.title` (ya `seoTitle`) / `meta.description` usi `.mdx` file mein |
-| Country hubs | `/data-logger-india` | 8 (India, Saudi Arabia, UAE, Qatar, Oman, Kuwait, Bahrain, Yemen) | `src/app/data-logger/[slug]/page.tsx` | `src/data/locations.ts`, list `locations` (sabse upar ka level) | Usi entry mein (`intro`, `localIndustries`, `citiesServed`, `supportNote`, `faqs`, `listing`) | Title naam se banta hai ("Temperature Data Loggers in India"); description `src/data/location-content.ts` ki `locationContent["india"].metaDescription` se |
-| State / region hubs | `/data-logger-maharashtra`, `/data-logger-dubai-emirate` | 90 (India 30, Saudi 13, UAE 7, Qatar 8, Oman 11, Kuwait 6, Bahrain 4, Yemen 11); 71 indexable | `src/app/data-logger/[slug]/page.tsx` | `src/data/locations.ts`, list `locations` ke andar country ka `children` | Usi entry mein (country hub jaisi fields) | Country hub jaisa: `locationContent["india/maharashtra"].metaDescription` |
-| Cities | `/data-logger-mumbai` | 282 (India 158, Saudi 30, UAE 14, Qatar 13, Oman 23, Kuwait 14, Bahrain 14, Yemen 16) | `src/app/data-logger/[slug]/page.tsx` -> `src/components/locations/CityPage.tsx` | `src/data/locations.ts`, state ka `children` | Usi city entry mein (`intro`, `climateAngle`, `areas`, `industries`, `recommendedSeries`, `faqs`, `nearby`) | Usi city entry ka `metaTitle` / `metaDescription` |
-| Areas | `/data-logger-andheri` | 188 (India 90, Saudi 10, UAE 31, Qatar 12, Oman 17, Kuwait 11, Bahrain 7, Yemen 10) | `src/app/data-logger/[slug]/page.tsx` -> `src/components/locations/AreaPage.tsx` | `src/data/areas.ts`, list `areas` (har entry mein `citySlug` = parent city) | Usi entry ka `page` block | Usi entry ka `page.metaTitle` / `page.metaDescription` |
+| Country hubs | `/data-logger-india` | 8 (India, Saudi Arabia, UAE, Qatar, Oman, Kuwait, Bahrain, Yemen) | `src/app/data-logger/[slug]/page.tsx` | `src/data/locations/<country>/_country.ts`, jaise `src/data/locations/india/_country.ts` (har country ka apna folder; sab countries `src/data/locations/_tree.ts` ki list `locations` mein judti hain) | Usi file mein (`intro`, `localIndustries`, `citiesServed`, `supportNote`, `faqs`, `listing`) | Title naam se banta hai ("Temperature Data Loggers in India"); description `src/data/location-content.ts` ki `locationContent["india"].metaDescription` se |
+| State / region hubs | `/data-logger-maharashtra`, `/data-logger-dubai-emirate` | 90 (India 30, Saudi 13, UAE 7, Qatar 8, Oman 11, Kuwait 6, Bahrain 4, Yemen 11); 71 indexable | `src/app/data-logger/[slug]/page.tsx` | `src/data/locations/<country>/<state>/_state.ts`, jaise `src/data/locations/india/maharashtra/_state.ts` (state ke cities usi folder ke `index.ts` mein judte hain) | Usi file mein (country hub jaisi fields) | Country hub jaisa: `locationContent["india/maharashtra"].metaDescription` |
+| Cities | `/data-logger-mumbai` | 282 (India 158, Saudi 30, UAE 14, Qatar 13, Oman 23, Kuwait 14, Bahrain 14, Yemen 16) | `src/app/data-logger/[slug]/page.tsx` -> `src/components/locations/CityPage.tsx` | `src/data/locations/<country>/<state>/<city>.ts`, jaise `src/data/locations/india/maharashtra/mumbai.ts` | Usi city file mein (`intro`, `climateAngle`, `areas`, `industries`, `recommendedSeries`, `faqs`, `nearby`) | Usi city file ka `metaTitle` / `metaDescription` |
+| Areas | `/data-logger-andheri` | 188 (India 90, Saudi 10, UAE 31, Qatar 12, Oman 17, Kuwait 11, Bahrain 7, Yemen 10) | `src/app/data-logger/[slug]/page.tsx` -> `src/components/locations/AreaPage.tsx` | `src/data/areas/<city>/<area>.ts`, jaise `src/data/areas/mumbai/andheri.ts` (sab areas `src/data/areas/_all.ts` ki list `areas` mein judte hain; `citySlug` = parent city) | Usi area file ka `page` block | Usi area file ka `page.metaTitle` / `page.metaDescription` |
 | Privacy | `/privacy-policy` | 1 | `src/app/privacy-policy/page.tsx` | koi nahi | Usi file mein | Usi file ka `buildMetadata(...)` |
 | Terms | `/terms` | 1 | `src/app/terms/page.tsx` | koi nahi | Usi file mein | Usi file ka `buildMetadata(...)` |
 
@@ -70,7 +71,7 @@ Ye baaki routes page count mein nahi gine gaye (ye file-type ya special routes h
 
 Ek aur zaroori baat: public URL hamesha `/data-logger-{slug}` hota hai (ek hi level). `next.config.ts` ka
 `rewrites()` isse andar `/data-logger/[slug]` template tak pahunchata hai. Kabhi `/locations/...` jaisa nested link mat likho.
-Links banane ke liye code mein `locationHref(path)` use hota hai (`src/data/locations.ts`).
+Links banane ke liye code mein `locationHref(path)` use hota hai (`src/data/locations.ts`, ye bas entry point hai; asli data `src/data/locations/` ke folders mein hai).
 
 ---
 
@@ -89,11 +90,39 @@ Real examples:
 
 **Parent kaise tay hota hai (data mein):**
 
-- **Country, state, city:** `src/data/locations.ts` mein ye ek nested tree hai. Parent = jis entry ke `children` list ke andar ye entry baithi hai.
-  Matlab Mumbai Maharashtra ke `children` mein hai, aur Maharashtra India ke `children` mein.
-- **Area:** `src/data/areas.ts` mein har area ki entry mein `citySlug: "mumbai"` likha hota hai. Wahi parent city hai.
+- **Country, state, city:** har page ki apni file hai aur folder hi hierarchy hai. Parent = jis folder ke `index.ts` ki `children` list mein ye file import hui hai.
+  Matlab `mumbai.ts` ko `src/data/locations/india/maharashtra/index.ts` list karta hai (Maharashtra ka `children`), aur Maharashtra ko `src/data/locations/india/index.ts` list karta hai.
+- **Area:** `src/data/areas/<city>/<area>.ts` mein `citySlug: "mumbai"` likha hota hai. Wahi parent city hai (folder ka naam bhi wahi hai).
   Agar us slug ka city page nahi hai to area noindex ho jata hai.
-- Hub page par neeche ke pages ki list `listing` (states ya cities) aur `areaListing` (areas) se aati hai. Ye bhi `locations.ts` mein hai.
+- Hub page par neeche ke pages ki list `listing` (states ya cities) aur `areaListing` (areas) se aati hai. Ye hub ki apni file mein hai (`_state.ts` / `_country.ts`).
+
+**Folder ka naksha (locations):** ek page = ek file. Naam seedhe slug se banta hai.
+
+```
+src/data/locations/
+  _tree.ts                         <- saari countries ko jodta hai (naya country yahan)
+  _types.ts, _helpers.ts           <- shared types aur helper code (mat chhuo)
+  india/
+    _country.ts                    <- /data-logger-india
+    index.ts                       <- India + uske states ko jodta hai
+    maharashtra/
+      _state.ts                    <- /data-logger-maharashtra
+      mumbai.ts                    <- /data-logger-mumbai
+      pune.ts ...
+      index.ts                     <- Maharashtra + uske cities ko jodta hai
+    delhi/
+      delhi-state.ts               <- /data-logger-delhi-state
+      delhi-city.ts                <- /data-logger-delhi
+      index.ts
+src/data/areas/
+  _all.ts                          <- saare areas ki list (order yahin se tay hota hai)
+  mumbai/andheri.ts                <- /data-logger-andheri
+```
+
+Naming rule: state ki file `_state.ts` hoti hai, country ki `_country.ts`, city ki `<slug>.ts`, area ki `<slug>.ts` (city ke folder mein).
+Sirf jahan state aur city ka slug same hai (jaise Delhi, Chandigarh, Goa) wahan files `delhi-state.ts` aur `delhi-city.ts` kehlati hain.
+Har file ki pehli line batati hai: URL, page type aur parent, jaise `// /data-logger-mumbai | City | parent: Maharashtra`.
+`src/data/locations.ts` aur `src/data/areas.ts` ab sirf chhote entry-point files hain; inme data nahi badalna.
 
 **URL ka naam:** URL mein bas slug aata hai, poora path nahi. Agar do pages ka slug same ho jaye to rule ye hai:
 area ka naam badal kar `{slug}-industrial-area` ho jata hai, aur state ka `{slug}-state`
@@ -103,7 +132,7 @@ area ka naam badal kar `{slug}-industrial-area` ho jata hai, aur state ka `{slug
 
 1. **19 state / region hubs** (abhi): India: `chandigarh-state`, `manipur`, `meghalaya`, `tripura`. Saudi: tabuk, hail, najran, al-baha, al-jawf, northern-borders. Qatar: umm-salal, al-shamal. Oman: musandam. Yemen: abyan, ibb, dhamar, marib, lahij, sadah.
    **Kyun:** state hub tabhi index hota hai jab uske neeche kam se kam **2 built pages** (cities + unke area pages) ho.
-   Abhi in sab ke neeche sirf 1 page hai, isliye thin page se bachne ke liye noindex hai. Rule `MIN_STATE_HUB_PAGES = 2` hai, `src/data/locations.ts` mein.
+   Abhi in sab ke neeche sirf 1 page hai, isliye thin page se bachne ke liye noindex hai. Rule `MIN_STATE_HUB_PAGES = 2` hai, `src/data/locations/_tree.ts` mein.
    Jaise hi doosra page ban jata hai, hub **apne aap** index ho jata hai. Haath se kuch nahi karna.
 2. **4 blog posts**: sab `draft: true` hain. Draft = abhi publish nahi, isliye noindex, sitemap mein nahi, aur blog list mein bhi nahi dikhte.
 3. **404 page**: hamesha noindex.
@@ -135,8 +164,8 @@ Phone / email / address text mein mat likho (neeche recipe 9 dekho).
 
 ### Recipe 1: City ka intro ya FAQ badalna
 
-1. `npm run where -- mumbai` chalao. Wo `src/data/locations.ts` ki line (around line N) bata dega.
-2. File kholo, us line par jao. City ke andar ye fields hain: `intro` (120 se 180 words), `climateAngle`, `faqs`.
+1. `npm run where -- mumbai` chalao (ya VS Code mein `Ctrl+P` karke `mumbai` likho). Wo file batata hai: `src/data/locations/india/maharashtra/mumbai.ts`.
+2. File kholo. Poori file isi ek city ki hai. Isme ye fields hain: `intro` (120 se 180 words), `climateAngle`, `faqs`.
 3. `intro` ka text badlo. FAQ ke liye `faqs: [ { question: "...", answer: "..." }, ... ]` hai; har city mein **4** FAQs hone chahiye.
 4. Save karo. Checks: lint, build, `check:data`, `check:meta`.
 - **Sabse common galti:** doosre city ka text copy-paste. Har city ka text unique hona chahiye (Google duplicate se naraz hota hai). Doosri galti: quote ya comma tod dena.
@@ -147,8 +176,8 @@ Kaun si file, page type par depend karta hai:
 
 | Page | File | Field |
 |---|---|---|
-| City | `src/data/locations.ts` (city entry) | `metaTitle`, `metaDescription` |
-| Area | `src/data/areas.ts` (area entry) | `page.metaTitle`, `page.metaDescription` |
+| City | `src/data/locations/<country>/<state>/<city>.ts` | `metaTitle`, `metaDescription` |
+| Area | `src/data/areas/<city>/<area>.ts` | `page.metaTitle`, `page.metaDescription` |
 | Country / state hub | `src/data/location-content.ts`, `locationContent["india/maharashtra"]` | `metaDescription` (title naam se banta hai; naam ka "in ..." form `inName` field se) |
 | Product | `src/data/product-content.ts`, `productContent["setu"]` | `metaTitle`, `metaDescription` |
 | Industry | `src/data/industry-content.ts`, `industryContent["chemical"]` | `metaTitle`, `metaDescription` |
@@ -161,11 +190,12 @@ Checks: lint, build, `check:meta`.
 
 ### Recipe 3: Naya city jodna
 
-1. Pata karo kaun si state mein aayega. `npm run where -- maharashtra` chalao; `src/data/locations.ts` mein us state ka `children: [ ... ]` dhoondo.
-2. Ek milta-julta city (jaise Pune) ki poori entry copy karke `children` mein paste karo. Phir har field badlo: `slug`, `name`, `type: "city"`, `indexable`, `intro`, `climateAngle`, `areas`, `industries`, `recommendedSeries` (exactly 3), `faqs` (4), `nearby`, `metaTitle`, `metaDescription`.
+1. Pata karo kaun si state mein aayega. `npm run where -- maharashtra` chalao; state ka folder dikhega (`src/data/locations/india/maharashtra/`).
+2. Us folder mein ek milti-julti city ki file (jaise `pune.ts`) copy karke `nashik.ts` naam se save karo. Phir file ke andar har field badlo (pehli comment line bhi, jaise `// /data-logger-nashik | City | parent: Maharashtra`): `slug`, `name`, `type: "city"`, `indexable`, `intro`, `climateAngle`, `areas`, `industries`, `recommendedSeries` (exactly 3), `faqs` (4), `nearby`, `metaTitle`, `metaDescription`.
    - `slug` chhote akshar, hyphen se, poori site mein unique (jaise `nashik`).
    - Gulf (Saudi, UAE, ...) ke city mein `recommendedSeries` mein Vayu kabhi nahi.
-3. Us state (parent) ki entry mein `listing: [ ... ]` mein ek line jodo: `{ slug: "nashik", text: "ek chhoti unique line" }`.
+3. Usi folder ki `index.ts` kholo: upar ek import line jodo (`import nashikCity from "./nashik.ts";`) aur `children: [ ... ]` list mein `nashikCity,` jodo. Bina iske page nahi banega.
+   Phir state ki file `_state.ts` mein `listing: [ ... ]` mein ek line jodo: `{ slug: "nashik", text: "ek chhoti unique line" }`.
 4. `src/data/page-heroes.ts` mein `CITY_REGISTRY` list mein naya slug jodo (hero photo ka pair isi list ke order se milta hai). Agar state ek "hub" hai to `HUB_OF` mein bhi us slug ko state ke saath jodo.
 5. Jab text taiyar ho aur sab checks pass ho, tab `indexable: true` karo. Tab tak `false` rakho (noindex).
 6. Checks: lint, build, `check:data`, `check:meta`, `check:links`.
@@ -173,12 +203,12 @@ Checks: lint, build, `check:meta`.
 
 ### Recipe 4: Kisi city ke andar naya area jodna
 
-1. `src/data/areas.ts` kholo. List `areas` mein ek milti-julti entry copy karo.
-2. Fields: `slug` (unique), `name`, `citySlug` (jo city pehle se hai, jaise `"mumbai"`), `areaType`, `nearbyIndustries` (industry slugs), `confirmedService: true`, `hero: ["key1", "key2"]` (do logger keys; us city mein kisi aur page se same jodi na ho), aur `page: { ... }`.
+1. `src/data/areas/<city>/` folder mein (jaise `src/data/areas/mumbai/`) ek milti-julti area file copy karke naye naam se save karo (jaise `sion.ts`). Pehli comment line bhi badlo.
+2. File ke andar fields: `slug` (unique), `name`, `citySlug` (jo city pehle se hai, jaise `"mumbai"`), `areaType`, `nearbyIndustries` (industry slugs), `confirmedService: true`, `hero: ["key1", "key2"]` (do logger keys; us city mein kisi aur page se same jodi na ho), aur `page: { ... }`.
 3. `page` ke andar: `metaTitle` (60 tak), `metaDescription` (155 tak, "Get Solution" ke saath), `intro` (70 se 130 words), `places`, `industries`, `services`, `visits`, `approach`, `faqs` (optional), `nearby`, `indexable`.
    Poore page ka text kam se kam **400 words** aur us area ke liye unique hona chahiye. Prices, statistics, client names aur timelines mat likho.
-4. Agar us city ka naam `areaCities` list mein (usi file mein) nahi hai to wahan bhi jodo.
-5. State hub ke `areaListing` mein (`src/data/locations.ts`, state ki entry) ek line jodo: `{ slug: "naya-area", text: "..." }`.
+4. `src/data/areas/_all.ts` kholo: upar import line jodo (`import sionArea from "./mumbai/sion.ts";`) aur `areas` list mein us city ke baaki areas ke saath `sionArea,` jodo. Agar naya city folder hai to `src/data/areas/_cities.ts` ki `areaCities` list mein us city ka naam bhi jodo.
+5. State hub ki file (`_state.ts`, jaise `src/data/locations/india/maharashtra/_state.ts`) ke `areaListing` mein ek line jodo: `{ slug: "naya-area", text: "..." }`.
 6. Checks: lint, build, `check:data`, `check:meta`, `check:links`.
 - **Sabse common galti:** `citySlug` galat likhna ya text 400 words se kam rakhna. Tab page noindex ho jata hai aur `check:data` batata hai kyun.
 
@@ -187,7 +217,7 @@ Checks: lint, build, `check:meta`.
 Hero mein jo photos dikhti hain wo logger products ki photos hain (`public/images/products/...`). Pair `src/data/page-heroes.ts` se aata hai.
 
 - **City page:** pair apne aap tay hota hai (`CITY_REGISTRY` ke order se). Alag pair chahiye to developer se pucho; ye list ka order badalne se baaki sab cities ka pair bhi badal sakta hai.
-- **Area page:** `src/data/areas.ts` ki entry mein `hero: ["key1", "key2"]` badlo. Keys `src/data/page-heroes.ts` ke `deviceCatalogue` mein hain.
+- **Area page:** `src/data/areas/<city>/<area>.ts` mein `hero: ["key1", "key2"]` badlo. Keys `src/data/page-heroes.ts` ke `deviceCatalogue` mein hain.
 - **Core pages (about, contact, ...):** `src/data/page-heroes.ts` mein `pageHeroes` list, jaise `contact: ["dock"]`.
 - **Home page ki badi photo:** `public/images/hero/home-hero.jpg` (file replace karo, same naam rakho), code `src/components/sections/home/Hero.tsx` aur `HeroVisual.tsx`.
 - **Blog cover:** `.mdx` ke `meta` mein `cover`, aur file `public/images/blog/`.
@@ -246,11 +276,11 @@ Hero mein jo photos dikhti hain wo logger products ki photos hain (`public/image
 
 | Page | Chhupane ke liye | Wapas lane ke liye |
 |---|---|---|
-| City | `src/data/locations.ts`, city entry mein `indexable: false` | `indexable: true` |
-| Area | `src/data/areas.ts`, `page.indexable: false` | `page.indexable: true` (par page sab quality checks pass kare tabhi index hoga; `npm run where -- <area>` batata hai kyun nahi) |
+| City | `src/data/locations/<country>/<state>/<city>.ts`, `indexable: false` | `indexable: true` |
+| Area | `src/data/areas/<city>/<area>.ts`, `page.indexable: false` | `page.indexable: true` (par page sab quality checks pass kare tabhi index hoga; `npm run where -- <area>` batata hai kyun nahi) |
 | Blog post | `.mdx` ke `meta` mein `draft: true` | `draft: false` |
 | State / region hub | Haath se nahi; ye apne aap tay hota hai (neeche 2 se kam pages = noindex) | Neeche ek aur page banao, hub apne aap index ho jayega |
-| Country hub | `locations.ts` mein `indexable: false` (sirf soch samajh kar; poore desh ka page chhup jata hai) | `true` |
+| Country hub | `src/data/locations/<country>/_country.ts` mein `indexable: false` (sirf soch samajh kar; poore desh ka page chhup jata hai) | `true` |
 | Product / industry / service / core pages | Koi switch nahi. Developer se code badalwana padega | - |
 
 Noindex hone par page site par chalta rehta hai, bas Google ko "mat dikhao" bolta hai, aur `sitemap.xml` se apne aap hat jata hai.
@@ -262,11 +292,11 @@ Checks: build, `check:data`, `check:meta`. Phir `npm run where -- <page>` chalao
 
 1. **Pehle sochlo:** agar page Google par pehle se hai, to delete karne se 404 aayega. Behtar hai pehle noindex (recipe 11), ya purane URL ko kisi doosre page par redirect karo. Redirect `next.config.ts` ke `redirects()` mein jodna hota hai; ye developer se karwao.
 2. **City delete:**
-   - `src/data/locations.ts` mein us city ki poori entry hatao (state ke `children` se).
-   - Us state ke `listing` mein us city ki line hatao. Doosri cities ke `nearby` mein agar ye city hai to wahan se bhi.
-   - `src/data/areas.ts` mein us city ke saare areas (jinki `citySlug` ye city hai) hatao, aur state ke `areaListing` se unki lines.
+   - Us city ki file hatao (jaise `src/data/locations/india/maharashtra/nashik.ts`), aur usi folder ki `index.ts` se uski import line aur `children` list ki entry hatao.
+   - Us state ki `_state.ts` ke `listing` mein us city ki line hatao. Doosri cities ke `nearby` mein agar ye city hai to wahan se bhi.
+   - `src/data/areas/<city>/` folder ke saare area files hatao, `src/data/areas/_all.ts` se unki imports aur list entries hatao, aur state ki `_state.ts` ke `areaListing` se unki lines.
    - `src/data/page-heroes.ts` ke `CITY_REGISTRY` (aur `HUB_OF`) se slug hatao. `src/data/keyword-pages.ts` mein ho to wahan se bhi.
-3. **Area delete:** `src/data/areas.ts` se entry hatao, aur state ke `areaListing` aur city ke `areas[].linkTo` se uska zikr.
+3. **Area delete:** area file hatao (jaise `src/data/areas/mumbai/sion.ts`), `src/data/areas/_all.ts` se uski import aur list entry hatao, aur state ki `_state.ts` ke `areaListing` aur city file ke `areas[].linkTo` se uska zikr.
 4. **Blog post:** `.mdx` file hatao (aur `public/images/blog/` ki cover image).
 5. **Product / industry / service:** entry `src/data/products.ts` / `industries.ts` / `services.ts` se hatao, aur uski content entry `*-content.ts` se. Saath mein menu (`src/data/navigation.ts`) aur doosre pages ke links dekho.
 6. Checks: lint, build, `check:data`, `check:links`. `check:links` bata deta hai agar koi page abhi bhi hataye hue page ko link kar raha hai.
@@ -302,8 +332,11 @@ Ye project ki asli files ka naksha hai. **Bold** wale folders aap sabse zyada kh
 | `src/app/og/`, `products/[slug]/opengraph-image.tsx` | Social share images ka code. |
 | `src/app/data-logger/[slug]/page.tsx` | **Saare 568 location pages ka template** (hubs). City aur area ke layout `src/components/locations/` mein hain. |
 | **`src/data/`** | **Saara text aur lists.** Zyadatar badlaav yahin hote hain. |
-| `src/data/locations.ts` | Country > state > city tree (bahut badi file, ~32,000 lines). Cities aur hubs ka text yahin. |
-| `src/data/areas.ts` | Saare area pages (list `areas`) aur unke quality-check rules. |
+| `src/data/locations/` | **Har country, state aur city ki apni file**: `<country>/_country.ts`, `<country>/<state>/_state.ts`, `<country>/<state>/<city>.ts`. Har folder ka `index.ts` us level ke pages jodta hai. |
+| `src/data/locations/_tree.ts`, `_types.ts`, `_helpers.ts` | Saari countries ko jodna, state-hub indexable rule, shared types aur URL helpers. Zyada tar mat chhuo. |
+| `src/data/locations.ts` | Chhota entry point: baaki project isi se import karta hai. Data yahan nahi. |
+| `src/data/areas/` | **Har area ki apni file**: `<city>/<area>.ts`. `_all.ts` saare areas ki list (order) hai; `_cities.ts`, `_types.ts`, `_rules.ts` shared hain. |
+| `src/data/areas.ts` | Chhota entry point (data yahan nahi). |
 | `src/data/location-content.ts` | Hubs ki meta description aur recommended products. |
 | `src/data/products.ts`, `product-content.ts` | Products ki specs aur page text. (MRP data `products.ts` mein rehta hai par site par kabhi dikhaya nahi jata.) |
 | `src/data/industries.ts`, `industry-content.ts` | Industry pages. |

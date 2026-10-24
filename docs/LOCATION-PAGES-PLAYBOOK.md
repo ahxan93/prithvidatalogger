@@ -39,9 +39,13 @@
 **URL rules (permanent; every future city and area prompt uses them):**
 - Every location page is **one flat segment**: `/data-logger-{slug}` where `{slug}` is the node's own
   slug (country, state, city or area). No nested `/locations/...` URLs are ever linked.
-- The data tree (country, state, city, area in `src/data/locations.ts` and `src/data/areas.ts`) stays
+- The data tree (country, state, city, area) stays hierarchical, and every page has its own small file:
+  `src/data/locations/<country>/_country.ts`, `.../<state>/_state.ts`, `.../<state>/<city>.ts` and
+  `src/data/areas/<city>/<area>.ts` (a state and city that share a slug use `<slug>-state.ts` and `<slug>-city.ts`).
+  Each folder's `index.ts` (and `src/data/areas/_all.ts` for areas) lists its pages, so a new page file must be
+  imported and added there. `src/data/locations.ts` and `src/data/areas.ts` are only entry points. The tree stays
   hierarchical: parents, nearby links, breadcrumbs and hero badges all read the tree.
-- Build every URL with `locationHref(path)` (`src/data/locations.ts`); never hand-write a location URL.
+- Build every URL with `locationHref(path)` (re-exported by `src/data/locations.ts`, defined in `src/data/locations/_helpers.ts`); never hand-write a location URL.
 - **Collisions:** if a city/state/country and an area share a slug (for example Noida, Navi Mumbai,
   Vasai), the node keeps the plain slug and the area automatically becomes
   `/data-logger-{area}-industrial-area`. `npm run check:data` fails on any duplicate flat slug.
@@ -662,7 +666,7 @@ Read docs/LOCATION-PAGES-PLAYBOOK.md and upgrade all hub pages. Global /location
 4. When the owner confirms more cities, add their rows to section 4 and use the same city prompt.
 
 **Singtam (Sikkim) is not built.** It was requested as a city page (600+ words) with an area page as the fallback. The area
-model (`AreaDef` in `src/data/areas.ts`) needs a parent city that exists in the location tree, and the only candidate in
+model (`AreaDef` in `src/data/areas/_types.ts`) needs a parent city that exists in the location tree, and the only candidate in
 Sikkim is Gangtok. Singtam is a separate Teesta-side town in East Sikkim, not part of Gangtok, so it must not be shown as
 Gangtok's area. There were also too few confident local facts for 600 unique words. It stays unbuilt until a Singtam
 city page can be written from owner-confirmed detail.
