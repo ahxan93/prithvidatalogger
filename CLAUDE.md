@@ -50,6 +50,10 @@ docs/WHERE-PAGES-LIVE.md maps every page type to its template and data file, wit
   there), keeping the same exports. Product specs and MRP data stay together in `src/data/products.ts`
   (never copy MRP into the per-page files).
 
+- The enquiry form posts to our own route `/api/enquiry` (`src/app/api/enquiry/route.ts`, logic in `src/lib/enquiry-mail.ts`), which emails it via
+  Nodemailer/SMTP (Zoho). SMTP settings (`SMTP_*`, `ENQUIRY_TO`, `ENQUIRY_FROM`) are server-side env variables only: never
+  `NEXT_PUBLIC_`, never in code or committed files. Changing a form field means updating `EnquiryForm.tsx` and `enquiry-mail.ts`.
+
 ## Location URLs
 - Every location page (country, state, city, area) is one flat URL: `/data-logger-{slug}`. Never write or
   link a nested `/locations/...` URL; build links with `locationHref(path)` from `src/data/locations.ts`

@@ -398,7 +398,7 @@ LocalBusiness JSON-LD only for Mumbai (the real office). Other locations use Ser
 
 ### 7.11 Privacy Policy & Terms
 Plain, honest templates covering:
-- Enquiry form data (processed via Web3Forms and sent to our email)
+- Enquiry form data (sent to our email by our own server over SMTP)
 - WhatsApp/phone contact
 - Cookies/analytics (only if added)
 - Contact email

@@ -92,7 +92,7 @@ const nextConfig: NextConfig = {
   },
 
   // Baseline security headers. No CSP: the site embeds Google Maps (iframe)
-  // and calls the Web3Forms API from the client, and a hand-rolled CSP is
+  // and a hand-rolled CSP is
   // easy to break silently against either. X-Frame-Options covers clickjacking
   // (how the site may be framed by others) without touching what the site embeds.
   async headers() {

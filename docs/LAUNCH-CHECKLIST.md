@@ -50,22 +50,26 @@ placeholder that isn't actually referenced anywhere in the code — the
 homepage hero uses the real Nakshatra product photo instead. Safe to delete
 or ignore.)*
 
-### 2. Web3Forms access key
+### 2. Enquiry email (SMTP / Zoho Mail)
 
-The enquiry form (`EnquiryForm.tsx`) posts to Web3Forms using
-`NEXT_PUBLIC_WEB3FORMS_KEY`, which is **not set** — see `.env.local.example`.
-Without it, every enquiry submission will silently fail (it shows the error
-state with a WhatsApp fallback, but no enquiry email is sent). Sign up at
-web3forms.com with `support@prithvidataloggers.com`, get an access key, and
-set it as `NEXT_PUBLIC_WEB3FORMS_KEY` in the hosting provider's environment
-variables (not just `.env.local`, which isn't deployed).
+The enquiry form (`EnquiryForm.tsx`) posts to our own route, `/api/enquiry`
+(`src/app/api/enquiry/route.ts`), which emails the enquiry with Nodemailer over
+SMTP. It needs these **server-side** environment variables (never `NEXT_PUBLIC_`),
+listed with placeholders in `.env.local.example`: `SMTP_HOST`, `SMTP_PORT`,
+`SMTP_SECURE`, `SMTP_USER`, `SMTP_PASS`, `ENQUIRY_TO`, `ENQUIRY_FROM`.
+Set them in the hosting provider's environment variables (not just
+`.env.local`, which isn't deployed) and redeploy. If any is missing, the form
+shows its error state with the WhatsApp fallback, no email is sent, and the
+server log names the missing variable. Use a Zoho app-specific password for
+`SMTP_PASS`, and make `ENQUIRY_FROM` the `SMTP_USER` mailbox (or an alias of it).
+After deploying, submit one real test enquiry and confirm it arrives.
 
 ### 3. Legal review
 
 `src/app/privacy-policy/page.tsx` and `src/app/terms/page.tsx` both carry a
 `// REVIEW WITH A LEGAL PROFESSIONAL BEFORE LAUNCH.` comment at the top of the
 file. Both are honest, plain-English templates covering exactly what the site
-does today (Web3Forms enquiry form, WhatsApp/phone contact, no cookies or
+does today (enquiry form sent by email, WhatsApp/phone contact, no cookies or
 analytics) — but neither has had a legal review.
 
 ### 4. Blog review and publish
@@ -102,8 +106,8 @@ leave it as is.
 
 ## B. Technical launch steps
 
-1. **Environment variables** — set `NEXT_PUBLIC_WEB3FORMS_KEY` on the hosting
-   platform (see A.2).
+1. **Environment variables** — set the SMTP / enquiry variables
+   (`SMTP_*`, `ENQUIRY_TO`, `ENQUIRY_FROM`) on the hosting platform (see A.2).
 2. **Domain & DNS** — point `prithvidatalogger.com` (apex) at the host.
    `www.prithvidatalogger.com` should also resolve (even just to the same
    host) so the app's own 308 redirect from www → apex (configured in

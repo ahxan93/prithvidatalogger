@@ -12,6 +12,7 @@
     "check:links": "node scripts/check-links.mjs",
     "check:data": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/check-data.mjs",
     "where": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/where.mjs",
+    "test:enquiry": "node --experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/test-enquiry.mjs",
     "check:meta": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/check-meta.mjs"
   },
   "dependencies": {
@@ -20,6 +21,7 @@
     "@next/mdx": "^16.4.0",
     "@types/mdx": "^2.0.14",
     "next": "16.4.1",
+    "nodemailer": "^10.2.1",
     "react": "19.3.0",
     "react-dom": "19.3.0",
     "remark-gfm": "^4.0.1"
@@ -27,6 +29,7 @@
   "devDependencies": {
     "@tailwindcss/turbopack": "^4",
     "@types/node": "^20",
+    "@types/nodemailer": "^8.0.2",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",

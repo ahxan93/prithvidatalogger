@@ -8,7 +8,7 @@ import { buildMetadata } from "@/lib/seo";
 
 // REVIEW WITH A LEGAL PROFESSIONAL BEFORE LAUNCH.
 // This page describes only what the site actually does today: the enquiry
-// form (submitted via the third-party service Web3Forms to our own inbox),
+// form (sent by our own server to our own inbox),
 // WhatsApp/phone contact, and no cookies or analytics. If any of that changes
 // (an analytics tool, a cookie banner, a CRM, etc.), this page needs updating
 // to match before it goes live, not after.
@@ -84,16 +84,7 @@ export default function PrivacyPolicyPage() {
           <div>
             <h3 className="font-heading text-xl font-semibold text-ink">How the enquiry form works</h3>
             <p className="mt-3 text-lg leading-relaxed text-muted">
-              Our enquiry form is submitted through{" "}
-              <a
-                href="https://web3forms.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-medium text-brand-600 hover:underline"
-              >
-                Web3Forms
-              </a>
-              , a third-party form delivery service that forwards what you submit directly to our own email inbox (
+              Our enquiry form is sent by our own server as an email to our own inbox (
               <a href={`mailto:${siteConfig.email}`} className="font-medium text-brand-600 hover:underline">
                 {siteConfig.email}
               </a>

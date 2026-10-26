@@ -249,9 +249,9 @@ Hero mein jo photos dikhti hain wo logger products ki photos hain (`public/image
 
 1. File: `src/components/forms/EnquiryForm.tsx`. (Ye ek hi form hai; home, contact, about, product, service, city, area sab pages par yahi use hota hai. Ek jagah badlo, sab jagah badal jata hai.)
 2. Dropdown / checkbox ke options upar hi hain: `INDUSTRY_OPTIONS`, `CONNECTIVITY_OPTIONS`, `COUNTRY_CODES`.
-3. Naya field: (a) `Values` type mein naam jodo, (b) `useState` ki starting value mein jodo, (c) JSX mein input likho, (d) `onSubmit` ke `JSON.stringify({ ... })` mein jodo; yahi email / Zoho notification mein dikhta hai. Required banana ho to `validate()` mein jodo (abhi sirf Full name, Phone aur privacy checkbox required hain).
+3. Naya field: (a) `Values` type mein naam jodo, (b) `useState` ki starting value mein jodo, (c) JSX mein input likho, (d) `onSubmit` ke `JSON.stringify({ ... })` mein jodo, aur `src/lib/enquiry-mail.ts` mein (`validateEnquiry` + `buildMail`) bhi; tabhi wo email mein dikhta hai. Required banana ho to `validate()` mein jodo (abhi sirf Full name, Phone aur privacy checkbox required hain).
 4. Product dropdown ke naam `src/data/enquiry.ts` se aate hain (Get Solution button se product preselect hone ke liye).
-5. **Web3Forms key (`NEXT_PUBLIC_WEB3FORMS_KEY`) ko mat chhuo.** Wo Vercel mein / `.env.local` mein hai, code mein nahi.
+5. **SMTP settings (`SMTP_*`, `ENQUIRY_TO`, `ENQUIRY_FROM`) code mein kabhi mat likho.** Ye sirf Vercel mein / `.env.local` mein rehti hain (server-side, `NEXT_PUBLIC_` ke bina). Form `/api/enquiry` (`src/app/api/enquiry/route.ts`) par post karta hai, wahi Zoho SMTP se mail bhejta hai. Test: `npm run test:enquiry`.
 6. Checks: lint, build, `check:data` (prices ka check isi mein hai).
 - **Sabse common galti:** input jod diya par `onSubmit` ke payload mein nahi jodha; tab email mein wo field nahi aayegi. Doosri: mobile par input ka font 16px se chhota kar dena (iPhone zoom karne lagta hai).
 

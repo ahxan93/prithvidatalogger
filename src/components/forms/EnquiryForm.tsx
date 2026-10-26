@@ -9,8 +9,7 @@ import { AlertCircleIcon, CheckCircleIcon, SpinnerIcon, WhatsAppIcon } from "@/c
 import { whatsappHref } from "@/lib/contact";
 import { cn } from "@/lib/cn";
 
-const WEB3FORMS_ENDPOINT = "https://api.web3forms.com/submit";
-const SITE_HOST = "prithvidatalogger.com";
+const ENQUIRY_ENDPOINT = "/api/enquiry";
 const COMPANY_MAX_LENGTH = 120;
 
 /** Collapse whitespace, drop control characters and angle brackets, trim and cap the length. */
@@ -93,7 +92,7 @@ type EnquiryFormProps = {
   defaultProduct?: string;
   /** Single column without the optional Quantity field. */
   variant?: "default" | "compact";
-  /** City page the visitor is on; sent as a hidden field and named in the email subject. */
+  /** City page the visitor is on; sent as a hidden field and listed in the enquiry email. */
   city?: string;
   title?: string;
   className?: string;
@@ -166,49 +165,36 @@ export default function EnquiryForm({
       return;
     }
 
-    const accessKey = process.env.NEXT_PUBLIC_WEB3FORMS_KEY;
-    if (!accessKey) {
-      console.error("NEXT_PUBLIC_WEB3FORMS_KEY is not set; enquiry not sent.");
-      setStatus("error");
-      return;
-    }
-
     const name = values.name.trim();
     const company = cleanText(values.company, COMPANY_MAX_LENGTH);
     const email = values.email.trim();
-    // "Name (Company)" in the subject, falling back to the name alone when no company was given.
-    const sender = company ? `${name} (${company})` : name;
     const phone =
       values.countryCode === "other" ? values.phone.trim() : `${values.countryCode} ${values.phone.trim()}`;
 
     setStatus("submitting");
     try {
-      const res = await fetch(WEB3FORMS_ENDPOINT, {
+      const res = await fetch(ENQUIRY_ENDPOINT, {
         method: "POST",
         headers: { "Content-Type": "application/json", Accept: "application/json" },
-        // Keys are the labels shown in the notification email, in this order.
+        // Keys are the labels shown in the notification email; src/lib/enquiry-mail.ts validates and orders them.
         body: JSON.stringify({
-          access_key: accessKey,
-          subject: `New enquiry from ${sender} – ${city ?? (product || "General")} – ${SITE_HOST}`,
-          from_name: "Prithvi Data Loggers website",
-          page_url: window.location.href,
           "Full name": name,
           Phone: phone,
           Company: company || undefined,
           Email: email || undefined,
-          replyto: email || undefined,
           "Country/City": cleanText(values.location, COMPANY_MAX_LENGTH) || undefined,
           Industry: values.industry || undefined,
           Connectivity: values.connectivity.length ? values.connectivity.join(", ") : undefined,
           Quantity: values.quantity.trim() || undefined,
-          "Page city": city || undefined,
           "Product of interest": product || undefined,
+          "Page city": city || undefined,
+          page_url: window.location.href,
           consent: "Yes",
           botcheck: "",
         }),
       });
-      const data = (await res.json().catch(() => ({}))) as { success?: boolean };
-      setStatus(res.ok && data.success ? "success" : "error");
+      const data = (await res.json().catch(() => ({}))) as { ok?: boolean };
+      setStatus(res.ok && data.ok ? "success" : "error");
     } catch {
       setStatus("error");
     }
